@@ -1,0 +1,185 @@
+{
+  "target": {
+    "id": "effect:1788149968455",
+    "label": "figure / Transform",
+    "kind": "effect",
+    "params": [
+      {
+        "id": 1789181914191,
+        "name": "Position X",
+        "type": "ParamRange",
+        "min": -16384.0,
+        "max": 16384.0,
+        "value": -348.55356764116914,
+        "options": [],
+        "in": -16384.0,
+        "out": 16384.0
+      },
+      {
+        "id": 1789181914192,
+        "name": "Position Y",
+        "type": "ParamRange",
+        "min": -16384.0,
+        "max": 16384.0,
+        "value": 161.44550767927285,
+        "options": [],
+        "in": -16384.0,
+        "out": 16384.0
+      },
+      {
+        "id": 1789181914188,
+        "name": "Scale",
+        "type": "ParamRange",
+        "min": 0.0,
+        "max": 1000.0,
+        "value": 50.0,
+        "options": [],
+        "in": 0.0,
+        "out": 1000.0
+      },
+      {
+        "id": 1789181914189,
+        "name": "Scale W",
+        "type": "ParamRange",
+        "min": 0.0,
+        "max": 1000.0,
+        "value": 100.0,
+        "options": [],
+        "in": 0.0,
+        "out": 1000.0
+      },
+      {
+        "id": 1789181914190,
+        "name": "Scale H",
+        "type": "ParamRange",
+        "min": 0.0,
+        "max": 1000.0,
+        "value": 100.0,
+        "options": [],
+        "in": 0.0,
+        "out": 1000.0
+      },
+      {
+        "id": 1789181914193,
+        "name": "Rotation X",
+        "type": "ParamRange",
+        "min": -180.0,
+        "max": 180.0,
+        "value": 0.0,
+        "options": [],
+        "in": -180.0,
+        "out": 180.0
+      },
+      {
+        "id": 1789181914194,
+        "name": "Rotation Y",
+        "type": "ParamRange",
+        "min": -180.0,
+        "max": 180.0,
+        "value": 0.0,
+        "options": [],
+        "in": -180.0,
+        "out": 180.0
+      },
+      {
+        "id": 1789181914195,
+        "name": "Rotation Z",
+        "type": "ParamRange",
+        "min": -180.0,
+        "max": 180.0,
+        "value": 0.0,
+        "options": [],
+        "in": -180.0,
+        "out": 180.0
+      },
+      {
+        "id": 1789181914196,
+        "name": "Anchor X",
+        "type": "ParamRange",
+        "min": -8192.0,
+        "max": 8192.0,
+        "value": 0.0,
+        "options": [],
+        "in": -8192.0,
+        "out": 8192.0
+      },
+      {
+        "id": 1789181914197,
+        "name": "Anchor Y",
+        "type": "ParamRange",
+        "min": -8192.0,
+        "max": 8192.0,
+        "value": 0.0,
+        "options": [],
+        "in": -8192.0,
+        "out": 8192.0
+      },
+      {
+        "id": 1789181914198,
+        "name": "Anchor Z",
+        "type": "ParamRange",
+        "min": -8192.0,
+        "max": 8192.0,
+        "value": 0.0,
+        "options": [],
+        "in": -8192.0,
+        "out": 8192.0
+      }
+    ],
+    "title": "1 \u00b7 Transform",
+    "effect_name": "Transform",
+    "effect_id": 1788149968455,
+    "position": 1,
+    "scope": "layer",
+    "layer": 22,
+    "stage": null,
+    "layer_id": 1788149968008,
+    "group_id": 1788405566947
+  },
+  "phases": {
+    "Position X": {
+      "phase_source": "static",
+      "dial": null
+    },
+    "Position Y": {
+      "phase_source": "static",
+      "dial": null
+    },
+    "Scale": {
+      "phase_source": "static",
+      "dial": null
+    },
+    "Scale W": {
+      "phase_source": "static",
+      "dial": null
+    },
+    "Scale H": {
+      "phase_source": "static",
+      "dial": null
+    },
+    "Rotation X": {
+      "phase_source": "static",
+      "dial": null
+    },
+    "Rotation Y": {
+      "phase_source": "static",
+      "dial": null
+    },
+    "Rotation Z": {
+      "phase_source": "static",
+      "dial": null
+    },
+    "Anchor X": {
+      "phase_source": "static",
+      "dial": null
+    },
+    "Anchor Y": {
+      "phase_source": "static",
+      "dial": null
+    },
+    "Anchor Z": {
+      "phase_source": "static",
+      "dial": null
+    }
+  }
+}

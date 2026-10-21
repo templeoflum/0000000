@@ -1,0 +1,74 @@
+{
+  "pad": {
+    "assign": {
+      "1": 2,
+      "3": 3,
+      "5": 1,
+      "7": 4
+    },
+    "cfg": {
+      "1": {
+        "touch": "abs",
+        "rel": "zero",
+        "spring": 0.15,
+        "smooth": 0.3,
+        "pfine": false,
+        "gain": 1
+      },
+      "5": {
+        "touch": "abs",
+        "rel": "zero",
+        "spring": 0.15,
+        "smooth": 0.3,
+        "pfine": false,
+        "gain": 1
+      },
+      "8": {
+        "touch": "rel",
+        "rel": "hold",
+        "spring": 0.15,
+        "smooth": 0.3,
+        "pfine": false,
+        "gain": 1
+      }
+    },
+    "names": {
+      "1": "feedback",
+      "3": "field",
+      "5": "figure",
+      "7": "texture"
+    },
+    "home": {}
+  },
+  "start_patch": "Figure depth",
+  "banks": {
+    "figure": "all",
+    "field": "all"
+  },
+  "workspace": {
+    "version": 2,
+    "columns": [
+      25,
+      44,
+      31
+    ],
+    "row": 46,
+    "order": [
+      "mix",
+      "monitor",
+      "rack",
+      "actions",
+      "parameters",
+      "clips"
+    ],
+    "a": {
+      "kind": "follow"
+    },
+    "b": {
+      "kind": "effect",
+      "key": "layer/figure~1/effect/Transform~1"
+    },
+    "rack": "follow",
+    "selectedEffect": "layer/feedback~1/clip/FM%20%C2%B7%20XY%202%20%5B1.3.2%5D~1/effect/Transform~2"
+  }
+}

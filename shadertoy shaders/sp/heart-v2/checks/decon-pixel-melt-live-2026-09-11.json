@@ -1,0 +1,206 @@
+{
+  "shots": [
+    {
+      "row": "stage",
+      "pad": "decon",
+      "ids": [
+        1789421994503
+      ],
+      "peak": [
+        0.7994397184440822
+      ],
+      "first_nonzero_ms": [
+        17.38
+      ],
+      "final": [
+        0.0
+      ],
+      "changes": [
+        44
+      ]
+    },
+    {
+      "row": "stage",
+      "pad": "pixel_melt",
+      "ids": [
+        1789451629451
+      ],
+      "peak": [
+        0.799359422453262
+      ],
+      "first_nonzero_ms": [
+        21.67
+      ],
+      "final": [
+        0.0
+      ],
+      "changes": [
+        45
+      ]
+    },
+    {
+      "row": "figure",
+      "pad": "decon",
+      "ids": [
+        1789181914269
+      ],
+      "peak": [
+        0.7994482870528189
+      ],
+      "first_nonzero_ms": [
+        10.88
+      ],
+      "final": [
+        0.0
+      ],
+      "changes": [
+        43
+      ]
+    },
+    {
+      "row": "figure",
+      "pad": "pixel_melt",
+      "ids": [
+        1789451666931
+      ],
+      "peak": [
+        0.7993043259467091
+      ],
+      "first_nonzero_ms": [
+        22.15
+      ],
+      "final": [
+        0.0
+      ],
+      "changes": [
+        41
+      ]
+    },
+    {
+      "row": "field",
+      "pad": "decon",
+      "ids": [
+        1789435860822,
+        1789422046987
+      ],
+      "peak": [
+        0.8,
+        0.8
+      ],
+      "first_nonzero_ms": [
+        11.82,
+        33.75
+      ],
+      "final": [
+        0.0,
+        0.0
+      ],
+      "changes": [
+        47,
+        46
+      ]
+    },
+    {
+      "row": "field",
+      "pad": "pixel_melt",
+      "ids": [
+        1789451681938,
+        1789451689454
+      ],
+      "peak": [
+        0.8,
+        0.8
+      ],
+      "first_nonzero_ms": [
+        32.35,
+        69.7
+      ],
+      "final": [
+        0.0,
+        0.0
+      ],
+      "changes": [
+        46,
+        46
+      ]
+    }
+  ],
+  "colors": [
+    {
+      "row": "stage",
+      "ids": [
+        1789181911555
+      ],
+      "readback": [
+        0.31
+      ]
+    },
+    {
+      "row": "figure",
+      "ids": [
+        1789422031980
+      ],
+      "readback": [
+        0.31
+      ]
+    },
+    {
+      "row": "field",
+      "ids": [
+        1789422114545,
+        1789422062026
+      ],
+      "readback": [
+        0.31,
+        0.31
+      ]
+    }
+  ],
+  "epoch": "1789151413656",
+  "before_hold": false,
+  "before_selection": "effect:1788150010310",
+  "final_state": {
+    "armed": true,
+    "hold": false,
+    "connected": true,
+    "selected": "effect:1788150010310",
+    "error": "",
+    "effect_rack": {
+      "stage": {
+        "ready": true,
+        "color": 1.0,
+        "mixed": false,
+        "active": {
+          "decon": false,
+          "pixel_melt": false
+        }
+      },
+      "figure": {
+        "ready": true,
+        "color": 1.0,
+        "mixed": false,
+        "active": {
+          "decon": false,
+          "pixel_melt": false
+        }
+      },
+      "field": {
+        "ready": true,
+        "color": 1.0,
+        "mixed": false,
+        "active": {
+          "decon": false,
+          "pixel_melt": false
+        }
+      }
+    },
+    "metrics": {
+      "tick_p95_ms": 9.23,
+      "work_p95_ms": 0.05,
+      "scan_ms": 103,
+      "bridge_work_ms": 2.55,
+      "sent": 775,
+      "owned": 11
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "recovery": "Before pilot refinement 20260908-112423",
+  "pilots": [
+    {
+      "col": 3,
+      "name": "3d",
+      "ranges": {
+        "Tumble": [
+          0.0051,
+          0.9973
+        ],
+        "Morph": [
+          0.18,
+          0.72
+        ],
+        "Hue": [
+          0.0023,
+          0.9996
+        ]
+      },
+      "max_queue": 28
+    },
+    {
+      "col": 5,
+      "name": "shell",
+      "ranges": {
+        "Turn": [
+          0.0104,
+          0.9973
+        ],
+        "Spin": [
+          0.6,
+          1.0
+        ],
+        "Hue": [
+          0.0066,
+          0.9969
+        ]
+      },
+      "max_queue": 24
+    },
+    {
+      "col": 16,
+      "name": "FM \u00b7 z33d+ [1.6.4]",
+      "ranges": {
+        "rot angle": [
+          0.0095,
+          0.9927
+        ],
+        "mx": [
+          0.28,
+          0.4
+        ],
+        "my": [
+          0.4401,
+          0.56
+        ]
+      },
+      "max_queue": 11
+    }
+  ],
+  "restored": true
+}

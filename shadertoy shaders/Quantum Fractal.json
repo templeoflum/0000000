@@ -1,0 +1,27 @@
+{
+  "id": "MXj3zD",
+  "name": "Quantum Fractal",
+  "username": "wilso692",
+  "description": "Followed Youtube tutorial",
+  "tags": [
+    "fractal"
+  ],
+  "date": "1708296442",
+  "viewed": 88,
+  "likes": 2,
+  "published": 1,
+  "renderpass": [
+    {
+      "type": "image",
+      "name": "Image",
+      "inputs": [],
+      "outputs": [
+        {
+          "id": "4dfGRr",
+          "channel": 0
+        }
+      ],
+      "code": "vec3 palette(float t) {\n    vec3 a = vec3(0.5, 0.5, 0.5);\n    vec3 b = vec3(0.5, 0.5, 0.5);\n    vec3 c = vec3(1.0, 1.0, 1.0);\n    vec3 d = vec3(0.263, 0.416, 0.557);\n    return a + b*cos(6.28318*(c*t+d) );\n}\nvoid mainImage( out vec4 fragColor, in vec2 fragCoord )\n{\n\n    vec2 uv = (fragCoord * 2.0 - iResolution.xy) / iResolution.y;\n    vec2 uv0 = uv;\n    vec3 finalColor = vec3(0.0);\n    \n    for (float i = 0.0; i < 4.0; i++) {\n    \n        uv = fract(uv * 1.5) - 0.5;\n\n        float d = length(uv) * exp(-length(uv0));\n\n        vec3 col = palette(length(uv0) + i*0.4 + iTime*.4);\n\n        d = sin(d * 8. + iTime) / 8.;\n        d = abs(d);\n\n        // d = 0.02 / d;\n        d = pow(0.01 / d, 1.2);\n\n        finalColor += col * d;\n        \n        \n    }\n\n    // Output to screen\n    fragColor = vec4(finalColor, 1.0);\n    \n    \n    \n}"
+    }
+  ]
+}

@@ -1,0 +1,508 @@
+{
+  "status": "Prepared; parent will verify rendered Ground output",
+  "composition_epoch": "1789151413656",
+  "bpm_used_for_live_commands": 70.0,
+  "controls": [
+    {
+      "clip": "ground",
+      "clip_id": 1788405553998,
+      "layer_id": 1788149967550,
+      "target": "source:1788405553998",
+      "control": "Travel",
+      "parameter": 1789181918117,
+      "value": 0.9419238403656464,
+      "low": 0.7,
+      "high": 1.0,
+      "old_low": 0.8869238403656463,
+      "old_high": 0.9969238403656464,
+      "nominal_seconds": 16,
+      "old_nominal_seconds": 64,
+      "phase": 0.36320795304791686,
+      "heart_seed": {
+        "lo": 0.7,
+        "hi": 1.0,
+        "manual": 0.9419238403656464,
+        "ratio": "5:6",
+        "mult": 2,
+        "offset": 0.36320795304791686,
+        "shape": 0.8,
+        "drive": true
+      }
+    },
+    {
+      "clip": "ground",
+      "clip_id": 1788405553998,
+      "layer_id": 1788149967550,
+      "target": "source:1788405553998",
+      "control": "Sway",
+      "parameter": 1789181918115,
+      "value": 0.03898354411594718,
+      "low": -0.11101645588405282,
+      "high": 0.18898354411594717,
+      "old_low": -0.041016455884052824,
+      "old_high": 0.11898354411594718,
+      "nominal_seconds": 24,
+      "old_nominal_seconds": 48,
+      "phase": 0.75,
+      "heart_seed": {
+        "lo": 0.4444917720579736,
+        "hi": 0.5944917720579735,
+        "manual": 0.5194917720579736,
+        "ratio": "3:5",
+        "mult": 2,
+        "offset": 0.75,
+        "shape": 0.8,
+        "drive": true
+      }
+    },
+    {
+      "clip": "ground",
+      "clip_id": 1788405553998,
+      "layer_id": 1788149967550,
+      "target": "source:1788405553998",
+      "control": "Bob",
+      "parameter": 1789181918116,
+      "value": -0.38781438747208163,
+      "low": -0.4878143874720816,
+      "high": -0.2878143874720816,
+      "old_low": -0.44781438747208163,
+      "old_high": -0.32781438747208164,
+      "nominal_seconds": 32,
+      "old_nominal_seconds": 80,
+      "phase": 0.24999999999999994,
+      "heart_seed": {
+        "lo": 0.2560928062639592,
+        "hi": 0.3560928062639592,
+        "manual": 0.3060928062639592,
+        "ratio": "5:6",
+        "mult": 1,
+        "offset": 0.24999999999999994,
+        "shape": 0.8,
+        "drive": true
+      }
+    },
+    {
+      "clip": "room",
+      "clip_id": 1788405554006,
+      "layer_id": 1788149967550,
+      "target": "source:1788405554006",
+      "control": "Travel",
+      "parameter": 1789181918208,
+      "value": 0.41318224460216135,
+      "low": 0.26318224460216133,
+      "high": 0.5631822446021613,
+      "old_low": 0.33318224460216134,
+      "old_high": 0.49318224460216137,
+      "nominal_seconds": 16,
+      "old_nominal_seconds": 64,
+      "phase": 0.25,
+      "heart_seed": {
+        "lo": 0.26318224460216133,
+        "hi": 0.5631822446021613,
+        "manual": 0.41318224460216135,
+        "ratio": "5:6",
+        "mult": 2,
+        "offset": 0.25,
+        "shape": 0.8,
+        "drive": true
+      }
+    },
+    {
+      "clip": "room",
+      "clip_id": 1788405554006,
+      "layer_id": 1788149967550,
+      "target": "source:1788405554006",
+      "control": "Sway",
+      "parameter": 1789181918206,
+      "value": -0.8197155590920566,
+      "low": -0.9697155590920566,
+      "high": -0.6697155590920567,
+      "old_low": -0.8797155590920567,
+      "old_high": -0.7597155590920566,
+      "nominal_seconds": 24,
+      "old_nominal_seconds": 48,
+      "phase": 0.75,
+      "heart_seed": {
+        "lo": 0.015142220453971678,
+        "hi": 0.16514222045397164,
+        "manual": 0.09014222045397169,
+        "ratio": "3:5",
+        "mult": 2,
+        "offset": 0.75,
+        "shape": 0.8,
+        "drive": true
+      }
+    },
+    {
+      "clip": "room",
+      "clip_id": 1788405554006,
+      "layer_id": 1788149967550,
+      "target": "source:1788405554006",
+      "control": "Bob",
+      "parameter": 1789181918207,
+      "value": -0.5318827838511831,
+      "low": -0.6318827838511831,
+      "high": -0.4318827838511831,
+      "old_low": -0.5918827838511831,
+      "old_high": -0.47188278385118315,
+      "nominal_seconds": 32,
+      "old_nominal_seconds": 80,
+      "phase": 0.24999999999999994,
+      "heart_seed": {
+        "lo": 0.18405860807440844,
+        "hi": 0.2840586080744084,
+        "manual": 0.23405860807440843,
+        "ratio": "5:6",
+        "mult": 1,
+        "offset": 0.24999999999999994,
+        "shape": 0.8,
+        "drive": true
+      }
+    },
+    {
+      "clip": "void",
+      "clip_id": 1788405553990,
+      "layer_id": 1788149967550,
+      "target": "source:1788405553990",
+      "control": "Travel",
+      "parameter": 1789181923324,
+      "value": 0.8643361410610267,
+      "low": 0.7,
+      "high": 1.0,
+      "old_low": 0.7843361410610268,
+      "old_high": 0.9443361410610267,
+      "nominal_seconds": 16,
+      "old_nominal_seconds": 64,
+      "phase": 0.26642839558340037,
+      "heart_seed": {
+        "lo": 0.7,
+        "hi": 1.0,
+        "manual": 0.8643361410610267,
+        "ratio": "5:6",
+        "mult": 2,
+        "offset": 0.26642839558340037,
+        "shape": 0.8,
+        "drive": true
+      }
+    },
+    {
+      "clip": "void",
+      "clip_id": 1788405553990,
+      "layer_id": 1788149967550,
+      "target": "source:1788405553990",
+      "control": "Sway",
+      "parameter": 1789181923322,
+      "value": 0.015512783915341055,
+      "low": -0.13448721608465894,
+      "high": 0.16551278391534105,
+      "old_low": -0.04448721608465894,
+      "old_high": 0.07551278391534105,
+      "nominal_seconds": 24,
+      "old_nominal_seconds": 48,
+      "phase": 0.75,
+      "heart_seed": {
+        "lo": 0.4327563919576705,
+        "hi": 0.5827563919576705,
+        "manual": 0.5077563919576705,
+        "ratio": "3:5",
+        "mult": 2,
+        "offset": 0.75,
+        "shape": 0.8,
+        "drive": true
+      }
+    },
+    {
+      "clip": "void",
+      "clip_id": 1788405553990,
+      "layer_id": 1788149967550,
+      "target": "source:1788405553990",
+      "control": "Bob",
+      "parameter": 1789181923323,
+      "value": -0.20220211901104113,
+      "low": -0.3022021190110411,
+      "high": -0.10220211901104109,
+      "old_low": -0.2522021190110411,
+      "old_high": -0.15220211901104114,
+      "nominal_seconds": 32,
+      "old_nominal_seconds": 80,
+      "phase": 0.24999999999999994,
+      "heart_seed": {
+        "lo": 0.34889894049447945,
+        "hi": 0.4488989404944794,
+        "manual": 0.39889894049447944,
+        "ratio": "5:6",
+        "mult": 1,
+        "offset": 0.24999999999999994,
+        "shape": 0.8,
+        "drive": true
+      }
+    }
+  ],
+  "heart_commands": {
+    "ground": [
+      {
+        "cmd": "range",
+        "id": 1789181918117,
+        "lo": 0.7,
+        "hi": 1.0
+      },
+      {
+        "cmd": "parameter_motion",
+        "id": 1789181918117,
+        "ratio": "5:6",
+        "mult": 2,
+        "shape": 0.8,
+        "seconds": 0.3
+      },
+      {
+        "cmd": "drive",
+        "id": 1789181918117,
+        "on": true
+      },
+      {
+        "cmd": "range",
+        "id": 1789181918115,
+        "lo": 0.4444917720579736,
+        "hi": 0.5944917720579735
+      },
+      {
+        "cmd": "parameter_motion",
+        "id": 1789181918115,
+        "ratio": "3:5",
+        "mult": 2,
+        "shape": 0.8,
+        "seconds": 0.3
+      },
+      {
+        "cmd": "drive",
+        "id": 1789181918115,
+        "on": true
+      },
+      {
+        "cmd": "range",
+        "id": 1789181918116,
+        "lo": 0.2560928062639592,
+        "hi": 0.3560928062639592
+      },
+      {
+        "cmd": "parameter_motion",
+        "id": 1789181918116,
+        "ratio": "5:6",
+        "mult": 1,
+        "shape": 0.8,
+        "seconds": 0.3
+      },
+      {
+        "cmd": "drive",
+        "id": 1789181918116,
+        "on": true
+      }
+    ],
+    "room": [
+      {
+        "cmd": "range",
+        "id": 1789181918208,
+        "lo": 0.26318224460216133,
+        "hi": 0.5631822446021613
+      },
+      {
+        "cmd": "parameter_motion",
+        "id": 1789181918208,
+        "ratio": "5:6",
+        "mult": 2,
+        "shape": 0.8,
+        "seconds": 0.3
+      },
+      {
+        "cmd": "drive",
+        "id": 1789181918208,
+        "on": true
+      },
+      {
+        "cmd": "range",
+        "id": 1789181918206,
+        "lo": 0.015142220453971678,
+        "hi": 0.16514222045397164
+      },
+      {
+        "cmd": "parameter_motion",
+        "id": 1789181918206,
+        "ratio": "3:5",
+        "mult": 2,
+        "shape": 0.8,
+        "seconds": 0.3
+      },
+      {
+        "cmd": "drive",
+        "id": 1789181918206,
+        "on": true
+      },
+      {
+        "cmd": "range",
+        "id": 1789181918207,
+        "lo": 0.18405860807440844,
+        "hi": 0.2840586080744084
+      },
+      {
+        "cmd": "parameter_motion",
+        "id": 1789181918207,
+        "ratio": "5:6",
+        "mult": 1,
+        "shape": 0.8,
+        "seconds": 0.3
+      },
+      {
+        "cmd": "drive",
+        "id": 1789181918207,
+        "on": true
+      }
+    ],
+    "void": [
+      {
+        "cmd": "range",
+        "id": 1789181923324,
+        "lo": 0.7,
+        "hi": 1.0
+      },
+      {
+        "cmd": "parameter_motion",
+        "id": 1789181923324,
+        "ratio": "5:6",
+        "mult": 2,
+        "shape": 0.8,
+        "seconds": 0.3
+      },
+      {
+        "cmd": "drive",
+        "id": 1789181923324,
+        "on": true
+      },
+      {
+        "cmd": "range",
+        "id": 1789181923322,
+        "lo": 0.4327563919576705,
+        "hi": 0.5827563919576705
+      },
+      {
+        "cmd": "parameter_motion",
+        "id": 1789181923322,
+        "ratio": "3:5",
+        "mult": 2,
+        "shape": 0.8,
+        "seconds": 0.3
+      },
+      {
+        "cmd": "drive",
+        "id": 1789181923322,
+        "on": true
+      },
+      {
+        "cmd": "range",
+        "id": 1789181923323,
+        "lo": 0.34889894049447945,
+        "hi": 0.4488989404944794
+      },
+      {
+        "cmd": "parameter_motion",
+        "id": 1789181923323,
+        "ratio": "5:6",
+        "mult": 1,
+        "shape": 0.8,
+        "seconds": 0.3
+      },
+      {
+        "cmd": "drive",
+        "id": 1789181923323,
+        "on": true
+      }
+    ]
+  },
+  "notes": [
+    "Only Ground/Room/Void Travel, Sway and Bob programs changed.",
+    "Travel now spans .30 native units in 16 nominal seconds; Sway .30 in 24; Bob .20 in 32.",
+    "Windows shift inward at native limits to retain their full span and saved starting value.",
+    "Profile initial phases solve the actual Heart waveform for exact saved starting poses.",
+    "Live commands intentionally retain each running oscillator phase; range/motion changes use existing Heart morphing. They do not reset shared drives or tempo.",
+    "If tempo has changed since the captured BPM, recalculate heart_seed at that tempo before sending the live commands.",
+    "Original source parameter values and all other profiles, transforms, masks, mixing and clip-library entries remain unchanged."
+  ],
+  "offline_verification": {
+    "passed": true,
+    "changed_programs_only": 9,
+    "preserved_all_other_parameters": true,
+    "checks": [
+      {
+        "clip": "ground",
+        "control": "Travel",
+        "first_value": 0.9419238403656462,
+        "bounded_samples": 1201,
+        "actual_period_seconds_at_70_bpm": 16.457142857142856,
+        "passed": true
+      },
+      {
+        "clip": "ground",
+        "control": "Sway",
+        "first_value": 0.03898354411594718,
+        "bounded_samples": 1201,
+        "actual_period_seconds_at_70_bpm": 22.857142857142858,
+        "passed": true
+      },
+      {
+        "clip": "ground",
+        "control": "Bob",
+        "first_value": -0.38781438747208163,
+        "bounded_samples": 1201,
+        "actual_period_seconds_at_70_bpm": 32.91428571428571,
+        "passed": true
+      },
+      {
+        "clip": "room",
+        "control": "Travel",
+        "first_value": 0.41318224460216124,
+        "bounded_samples": 1201,
+        "actual_period_seconds_at_70_bpm": 16.457142857142856,
+        "passed": true
+      },
+      {
+        "clip": "room",
+        "control": "Sway",
+        "first_value": -0.8197155590920566,
+        "bounded_samples": 1201,
+        "actual_period_seconds_at_70_bpm": 22.857142857142858,
+        "passed": true
+      },
+      {
+        "clip": "room",
+        "control": "Bob",
+        "first_value": -0.5318827838511833,
+        "bounded_samples": 1201,
+        "actual_period_seconds_at_70_bpm": 32.91428571428571,
+        "passed": true
+      },
+      {
+        "clip": "void",
+        "control": "Travel",
+        "first_value": 0.8643361410610267,
+        "bounded_samples": 1201,
+        "actual_period_seconds_at_70_bpm": 16.457142857142856,
+        "passed": true
+      },
+      {
+        "clip": "void",
+        "control": "Sway",
+        "first_value": 0.015512783915341055,
+        "bounded_samples": 1201,
+        "actual_period_seconds_at_70_bpm": 22.857142857142858,
+        "passed": true
+      },
+      {
+        "clip": "void",
+        "control": "Bob",
+        "first_value": -0.20220211901104113,
+        "bounded_samples": 1201,
+        "actual_period_seconds_at_70_bpm": 32.91428571428571,
+        "passed": true
+      }
+    ]
+  }
+}

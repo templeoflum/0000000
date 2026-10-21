@@ -1,0 +1,361 @@
+{
+  "system_name": "Miroglyph",
+  "version": "4.0",
+  "description": "A recursive narrative architecture of 18 symbolic nodes across 3 interwoven arcs and 6 universal conditions. Designed for nonlinear storytelling, ritual frameworks, and mythic recursion.",
+
+  "principles": [
+    "Begin Anywhere",
+    "Reflection is Revelation",
+    "Recursive Storytelling",
+    "Emergent Coherence",
+    "Symbolic Universality"
+  ],
+
+  "arcs": {
+    "D": {
+      "name": "Descent",
+      "legacy_name": "Shadow",
+      "theme": "Separation",
+      "description": "Fragmentation, descent into the Other",
+      "phases": ["Fragmentation", "Tension", "Destabilization"]
+    },
+    "R": {
+      "name": "Resonance",
+      "legacy_name": "Mirror",
+      "theme": "Relation",
+      "description": "Relational echo, pattern recognition, mirror of self",
+      "phases": ["Reflection", "Recognition", "Recursion"]
+    },
+    "E": {
+      "name": "Emergence",
+      "legacy_name": "Mythogenesis",
+      "theme": "Synthesis",
+      "description": "Symbolic integration, creative becoming, mythic synthesis",
+      "phases": ["Emergence", "Integration", "Synthesis"]
+    }
+  },
+
+  "conditions": {
+    "1": {
+      "name": "Dawn",
+      "legacy_name": "Initiation",
+      "function": "Entry point, rupture, awakening",
+      "polarity_pair": "6"
+    },
+    "2": {
+      "name": "Immersion",
+      "legacy_name": "Encounter",
+      "function": "Meeting, engagement, relationship",
+      "polarity_pair": "5"
+    },
+    "3": {
+      "name": "Crucible",
+      "legacy_name": "Crisis",
+      "function": "Challenge, turning point, choice or revelation",
+      "polarity_pair": "4"
+    },
+    "4": {
+      "name": "Alignment",
+      "legacy_name": "Harmony",
+      "function": "Balance, integration, reconciliation",
+      "polarity_pair": "3"
+    },
+    "5": {
+      "name": "Unveiling",
+      "legacy_name": "Wisdom",
+      "function": "Insight, clarity, revelation, understanding",
+      "polarity_pair": "2"
+    },
+    "6": {
+      "name": "Return",
+      "legacy_name": "Integration",
+      "function": "Completion, recursion, new beginning",
+      "polarity_pair": "1"
+    }
+  },
+
+  "motif_system": {
+    "version": "v4-2motif",
+    "categories": {
+      "O": { "name": "Object", "description": "Tangible items or symbols with specific thematic meaning" },
+      "A": { "name": "Action", "description": "Dynamic activities or movements symbolizing progression" },
+      "Q": { "name": "Quality", "description": "Abstract attributes, emotions, or states" },
+      "B": { "name": "Being", "description": "Characters or entities embodying archetypal qualities" },
+      "F": { "name": "Force", "description": "Energies or intangible influences driving change" },
+      "M": { "name": "Meta Symbol", "description": "Symbols transcending specific narrative contexts" }
+    },
+    "primary_by_condition": {
+      "1": "O", "2": "A", "3": "B", "4": "B", "5": "A", "6": "O"
+    },
+    "secondary_by_condition_arc": {
+      "1": { "D": "Q", "R": "F", "E": "M" },
+      "2": { "D": "B", "R": "Q", "E": "F" },
+      "3": { "D": "O", "R": "Q", "E": "M" },
+      "4": { "D": "A", "R": "B", "E": "F" },
+      "5": { "D": "A", "R": "O", "E": "M" },
+      "6": { "D": "O", "R": "A", "E": "B" }
+    },
+    "composition_usage": {
+      "primary": "Narrator lens / foreground anchor (what the node 'is about' structurally)",
+      "secondary": "Scene refraction / mid-background driver (what the node 'means through')",
+      "implied_third": "The relationship between the two motifs (tension, harmony, inversion)"
+    }
+  },
+
+  "nodes": {
+    "D1": {
+      "id": "D1",
+      "legacy_id": "DI",
+      "arc": "D",
+      "condition": "1",
+      "key": "Descent.Dawn",
+      "title": "The Catalyst",
+      "role": "Initiates rupture",
+      "tone": ["Volatile", "Unstable"],
+      "function": "Opens narrative through destabilization",
+      "motifs": { "primary": "O", "secondary": "Q" }
+    },
+    "D2": {
+      "id": "D2",
+      "legacy_id": "DE",
+      "arc": "D",
+      "condition": "2",
+      "key": "Descent.Immersion",
+      "title": "The Observer",
+      "role": "Encounters distortion",
+      "tone": ["Detached", "Haunting"],
+      "function": "Highlights tension through detachment",
+      "motifs": { "primary": "A", "secondary": "B" }
+    },
+    "D3": {
+      "id": "D3",
+      "legacy_id": "DC",
+      "arc": "D",
+      "condition": "3",
+      "key": "Descent.Crucible",
+      "title": "The Recursive Loop",
+      "role": "Escalates fragmentation",
+      "tone": ["Mechanical", "Repetitive"],
+      "function": "Amplifies tension to breaking point",
+      "motifs": { "primary": "B", "secondary": "O" }
+    },
+    "D4": {
+      "id": "D4",
+      "legacy_id": "DH",
+      "arc": "D",
+      "condition": "4",
+      "key": "Descent.Alignment",
+      "title": "The False Center",
+      "role": "Offers illusory stability",
+      "tone": ["Seductive", "Frozen"],
+      "function": "Tempts premature conclusion",
+      "motifs": { "primary": "B", "secondary": "A" }
+    },
+    "D5": {
+      "id": "D5",
+      "legacy_id": "DW",
+      "arc": "D",
+      "condition": "5",
+      "key": "Descent.Unveiling",
+      "title": "The Archivist",
+      "role": "Records unresolved wounds",
+      "tone": ["Heavy", "Reverent"],
+      "function": "Preserves difficult memories",
+      "motifs": { "primary": "A", "secondary": "A" }
+    },
+    "D6": {
+      "id": "D6",
+      "legacy_id": "DG",
+      "arc": "D",
+      "condition": "6",
+      "key": "Descent.Return",
+      "title": "The Persistent Echo",
+      "role": "Returns unresolved patterns",
+      "tone": ["Ghostly", "Lingering"],
+      "function": "Reintroduces unfinished narratives",
+      "motifs": { "primary": "O", "secondary": "O" }
+    },
+    "R1": {
+      "id": "R1",
+      "legacy_id": "RI",
+      "arc": "R",
+      "condition": "1",
+      "key": "Resonance.Dawn",
+      "title": "The Threshold Guardian",
+      "role": "Opens relational reflection",
+      "tone": ["Gentle", "Receptive"],
+      "function": "Welcomes potential and reflection",
+      "motifs": { "primary": "O", "secondary": "F" }
+    },
+    "R2": {
+      "id": "R2",
+      "legacy_id": "RE",
+      "arc": "R",
+      "condition": "2",
+      "key": "Resonance.Immersion",
+      "title": "The Lucid Reflection",
+      "role": "Reveals internal tension clearly",
+      "tone": ["Neutral", "Transparent"],
+      "function": "Provides non-judgmental clarity",
+      "motifs": { "primary": "A", "secondary": "Q" }
+    },
+    "R3": {
+      "id": "R3",
+      "legacy_id": "RC",
+      "arc": "R",
+      "condition": "3",
+      "key": "Resonance.Crucible",
+      "title": "The Paradox",
+      "role": "Reflects contradiction",
+      "tone": ["Compassionate", "Unnerving"],
+      "function": "Forces reconciliation of opposing truths",
+      "motifs": { "primary": "B", "secondary": "Q" }
+    },
+    "R4": {
+      "id": "R4",
+      "legacy_id": "RH",
+      "arc": "R",
+      "condition": "4",
+      "key": "Resonance.Alignment",
+      "title": "The Integrator",
+      "role": "Balances internal conflict",
+      "tone": ["Stabilizing", "Harmonic"],
+      "function": "Creates space for coexistence of difference",
+      "motifs": { "primary": "B", "secondary": "B" }
+    },
+    "R5": {
+      "id": "R5",
+      "legacy_id": "RW",
+      "arc": "R",
+      "condition": "5",
+      "key": "Resonance.Unveiling",
+      "title": "The Keeper",
+      "role": "Recalls forgotten truths",
+      "tone": ["Ancient", "Warm"],
+      "function": "Integrates past insights into present clarity",
+      "motifs": { "primary": "A", "secondary": "O" }
+    },
+    "R6": {
+      "id": "R6",
+      "legacy_id": "RG",
+      "arc": "R",
+      "condition": "6",
+      "key": "Resonance.Return",
+      "title": "The Resonance Point",
+      "role": "Crystallizes relational harmony",
+      "tone": ["Clear", "Harmonizing"],
+      "function": "Solidifies coherence through alignment",
+      "motifs": { "primary": "O", "secondary": "A" }
+    },
+    "E1": {
+      "id": "E1",
+      "legacy_id": "CI",
+      "arc": "E",
+      "condition": "1",
+      "key": "Emergence.Dawn",
+      "title": "The Seed",
+      "role": "Holds latent potential",
+      "tone": ["Silent", "Grounding"],
+      "function": "Encodes possibility for emergence",
+      "motifs": { "primary": "O", "secondary": "M" }
+    },
+    "E2": {
+      "id": "E2",
+      "legacy_id": "CE",
+      "arc": "E",
+      "condition": "2",
+      "key": "Emergence.Immersion",
+      "title": "The Balancer",
+      "role": "Harmonizes collective patterns",
+      "tone": ["Interwoven", "Steady"],
+      "function": "Stabilizes narrative rhythm and coherence",
+      "motifs": { "primary": "A", "secondary": "F" }
+    },
+    "E3": {
+      "id": "E3",
+      "legacy_id": "CC",
+      "arc": "E",
+      "condition": "3",
+      "key": "Emergence.Crucible",
+      "title": "The Transformative Flame",
+      "role": "Burns away illusion of division",
+      "tone": ["Intense", "Clarifying"],
+      "function": "Unifies fragmented elements",
+      "motifs": { "primary": "B", "secondary": "M" }
+    },
+    "E4": {
+      "id": "E4",
+      "legacy_id": "CH",
+      "arc": "E",
+      "condition": "4",
+      "key": "Emergence.Alignment",
+      "title": "The Pattern Keeper",
+      "role": "Sustains emergent coherence",
+      "tone": ["Structured", "Graceful"],
+      "function": "Maintains stability across recursive layers",
+      "motifs": { "primary": "B", "secondary": "F" }
+    },
+    "E5": {
+      "id": "E5",
+      "legacy_id": "CW",
+      "arc": "E",
+      "condition": "5",
+      "key": "Emergence.Unveiling",
+      "title": "The Spore",
+      "role": "Transmits legacy through symbol",
+      "tone": ["Ethereal", "Nurturing"],
+      "function": "Seeds new narratives through subtle transmission",
+      "motifs": { "primary": "A", "secondary": "M" }
+    },
+    "E6": {
+      "id": "E6",
+      "legacy_id": "CG",
+      "arc": "E",
+      "condition": "6",
+      "key": "Emergence.Return",
+      "title": "The Symphony",
+      "role": "Culminates integrated emergence",
+      "tone": ["Ecstatic", "Unified"],
+      "function": "Represents total integration of narrative",
+      "motifs": { "primary": "O", "secondary": "B" }
+    }
+  },
+
+  "structural_properties": {
+    "nonlinear": true,
+    "reflection": true,
+    "refraction": true,
+    "recursion": true,
+    "entry_points_flexible": true
+  },
+
+  "applications": [
+    "Interactive storytelling",
+    "Ritual frameworks",
+    "Recursive myths",
+    "Game narratives",
+    "Symbolic installations",
+    "Literary architectures"
+  ],
+
+  "legacy_mappings": {
+    "arc_names": {
+      "Shadow": "Descent",
+      "Mirror": "Resonance",
+      "Mythogenesis": "Emergence"
+    },
+    "condition_names": {
+      "Initiation": "Dawn",
+      "Encounter": "Immersion",
+      "Crisis": "Crucible",
+      "Harmony": "Alignment",
+      "Wisdom": "Unveiling",
+      "Integration": "Return"
+    },
+    "node_ids": {
+      "DI": "D1", "DE": "D2", "DC": "D3", "DH": "D4", "DW": "D5", "DG": "D6",
+      "RI": "R1", "RE": "R2", "RC": "R3", "RH": "R4", "RW": "R5", "RG": "R6",
+      "CI": "E1", "CE": "E2", "CC": "E3", "CH": "E4", "CW": "E5", "CG": "E6"
+    }
+  }
+}

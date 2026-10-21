@@ -1,0 +1,908 @@
+{
+  "1788149968455": {
+    "effect": {
+      "id": 1788149968455,
+      "is_user_removable": false,
+      "name": "Transform",
+      "display_name": "Transform",
+      "mixer": null,
+      "params": {
+        "Position X": {
+          "id": 1789181914191,
+          "valuetype": "ParamRange",
+          "min": -16384.0,
+          "max": 16384.0,
+          "in": -16384.0,
+          "out": 16384.0,
+          "value": -348.55356764116914,
+          "view": {
+            "suffix": "",
+            "step": 1.0,
+            "display_units": "real",
+            "control_type": "spinner"
+          }
+        },
+        "Position Y": {
+          "id": 1789181914192,
+          "valuetype": "ParamRange",
+          "min": -16384.0,
+          "max": 16384.0,
+          "in": -16384.0,
+          "out": 16384.0,
+          "value": 161.44550767927285,
+          "view": {
+            "suffix": "",
+            "step": 1.0,
+            "display_units": "real",
+            "control_type": "spinner"
+          }
+        },
+        "Scale": {
+          "id": 1789181914188,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1000.0,
+          "in": 0.0,
+          "out": 1000.0,
+          "value": 50.0,
+          "view": {
+            "suffix": " %",
+            "step": 1.0,
+            "multiplier": 1.0,
+            "display_units": "percent",
+            "control_type": "slider"
+          }
+        },
+        "Scale W": {
+          "id": 1789181914189,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1000.0,
+          "in": 0.0,
+          "out": 1000.0,
+          "value": 100.0,
+          "view": {
+            "suffix": " %",
+            "step": 1.0,
+            "multiplier": 1.0,
+            "display_units": "percent",
+            "control_type": "slider"
+          }
+        },
+        "Scale H": {
+          "id": 1789181914190,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1000.0,
+          "in": 0.0,
+          "out": 1000.0,
+          "value": 100.0,
+          "view": {
+            "suffix": " %",
+            "step": 1.0,
+            "multiplier": 1.0,
+            "display_units": "percent",
+            "control_type": "slider"
+          }
+        },
+        "Rotation X": {
+          "id": 1789181914193,
+          "valuetype": "ParamRange",
+          "min": -180.0,
+          "max": 180.0,
+          "in": -180.0,
+          "out": 180.0,
+          "value": 0.0,
+          "view": {
+            "suffix": " \u00b0",
+            "step": 1.0,
+            "display_units": "degrees",
+            "control_type": "slider"
+          }
+        },
+        "Rotation Y": {
+          "id": 1789181914194,
+          "valuetype": "ParamRange",
+          "min": -180.0,
+          "max": 180.0,
+          "in": -180.0,
+          "out": 180.0,
+          "value": 0.0,
+          "view": {
+            "suffix": " \u00b0",
+            "step": 1.0,
+            "display_units": "degrees",
+            "control_type": "slider"
+          }
+        },
+        "Rotation Z": {
+          "id": 1789181914195,
+          "valuetype": "ParamRange",
+          "min": -180.0,
+          "max": 180.0,
+          "in": -180.0,
+          "out": 180.0,
+          "value": 0.0,
+          "view": {
+            "suffix": " \u00b0",
+            "step": 1.0,
+            "display_units": "degrees",
+            "control_type": "slider"
+          }
+        },
+        "Anchor X": {
+          "id": 1789181914196,
+          "valuetype": "ParamRange",
+          "min": -8192.0,
+          "max": 8192.0,
+          "in": -8192.0,
+          "out": 8192.0,
+          "value": 0.0,
+          "view": {
+            "suffix": "",
+            "step": 1.0,
+            "control_type": "slider"
+          }
+        },
+        "Anchor Y": {
+          "id": 1789181914197,
+          "valuetype": "ParamRange",
+          "min": -8192.0,
+          "max": 8192.0,
+          "in": -8192.0,
+          "out": 8192.0,
+          "value": 0.0,
+          "view": {
+            "suffix": "",
+            "step": 1.0,
+            "control_type": "slider"
+          }
+        },
+        "Anchor Z": {
+          "id": 1789181914198,
+          "valuetype": "ParamRange",
+          "min": -8192.0,
+          "max": 8192.0,
+          "in": -8192.0,
+          "out": 8192.0,
+          "value": 0.0,
+          "view": {
+            "suffix": "",
+            "step": 1.0,
+            "control_type": "slider"
+          }
+        }
+      }
+    },
+    "programs": {
+      "Position X": {
+        "phase_source": "static",
+        "dial": null
+      },
+      "Position Y": {
+        "phase_source": "static",
+        "dial": null
+      },
+      "Scale": {
+        "phase_source": "static",
+        "dial": null
+      },
+      "Scale W": {
+        "phase_source": "static",
+        "dial": null
+      },
+      "Scale H": {
+        "phase_source": "static",
+        "dial": null
+      },
+      "Rotation X": {
+        "phase_source": "static",
+        "dial": null
+      },
+      "Rotation Y": {
+        "phase_source": "static",
+        "dial": null
+      },
+      "Rotation Z": {
+        "phase_source": "static",
+        "dial": null
+      },
+      "Anchor X": {
+        "phase_source": "static",
+        "dial": null
+      },
+      "Anchor Y": {
+        "phase_source": "static",
+        "dial": null
+      },
+      "Anchor Z": {
+        "phase_source": "static",
+        "dial": null
+      }
+    }
+  },
+  "1789344968199": {
+    "effect": {
+      "id": 1789344968199,
+      "is_user_removable": true,
+      "name": "Transform",
+      "display_name": "Transform",
+      "bypassed": {
+        "valuetype": "ParamBoolean",
+        "id": 1789344968198,
+        "value": false
+      },
+      "mixer": {
+        "Blend Mode": {
+          "id": 1789344968202,
+          "valuetype": "ParamChoice",
+          "value": "Alpha",
+          "index": 1,
+          "options": [
+            "Add",
+            "Alpha",
+            "B&W",
+            "Burn",
+            "Cube",
+            "Cut",
+            "Darken",
+            "Difference",
+            "Difference I",
+            "Displace",
+            "Dissolve",
+            "Dodge",
+            "Exclusion",
+            "Hard Light",
+            "JitterBug",
+            "Lighten",
+            "LoRez",
+            "Luma Is Alpha",
+            "Luma Key",
+            "Luma Key I",
+            "Meta Mix",
+            "Multiply",
+            "Multi Task",
+            "Noisy",
+            "Overlay",
+            "Parts",
+            "PiP",
+            "Push Down",
+            "Push Left",
+            "Push Right",
+            "Push Up",
+            "RGB",
+            "Rotate X",
+            "Rotate Y",
+            "Screen",
+            "Shift RGB",
+            "Side by Side",
+            "Soft Light",
+            "Static",
+            "Subtract",
+            "Tile",
+            "TimeSwitcher",
+            "to Black",
+            "to Color",
+            "to White",
+            "Twitch",
+            "Video Bumper",
+            "Wipe Ellipse",
+            "Zoom In",
+            "Zoom Out"
+          ],
+          "view": {
+            "suffix": "",
+            "control_type": "choice_combobox"
+          }
+        }
+      },
+      "params": {
+        "Opacity": {
+          "id": 1789344968201,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 1.0,
+          "view": {
+            "suffix": " %",
+            "multiplier": 100.0,
+            "display_units": "percent",
+            "control_type": "slider_color_opacity"
+          }
+        },
+        "Position X": {
+          "id": 1789344968186,
+          "valuetype": "ParamRange",
+          "min": -16384.0,
+          "max": 16384.0,
+          "in": -400.0,
+          "out": 400.0,
+          "value": 282.92961600875424,
+          "view": {
+            "suffix": "",
+            "step": 1.0,
+            "display_units": "real",
+            "control_type": "spinner"
+          }
+        },
+        "Position Y": {
+          "id": 1789344968187,
+          "valuetype": "ParamRange",
+          "min": -16384.0,
+          "max": 16384.0,
+          "in": -400.0,
+          "out": 400.0,
+          "value": 227.89514799881363,
+          "view": {
+            "suffix": "",
+            "step": 1.0,
+            "display_units": "real",
+            "control_type": "spinner"
+          }
+        },
+        "Scale": {
+          "id": 1789344968183,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1000.0,
+          "in": 30.0,
+          "out": 100.0,
+          "value": 53.898487985134125,
+          "view": {
+            "suffix": " %",
+            "step": 1.0,
+            "multiplier": 1.0,
+            "display_units": "percent",
+            "control_type": "slider"
+          }
+        },
+        "Scale W": {
+          "id": 1789344968184,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1000.0,
+          "in": 0.0,
+          "out": 1000.0,
+          "value": 100.0,
+          "view": {
+            "suffix": " %",
+            "step": 1.0,
+            "multiplier": 1.0,
+            "display_units": "percent",
+            "control_type": "slider"
+          }
+        },
+        "Scale H": {
+          "id": 1789344968185,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1000.0,
+          "in": 0.0,
+          "out": 1000.0,
+          "value": 100.0,
+          "view": {
+            "suffix": " %",
+            "step": 1.0,
+            "multiplier": 1.0,
+            "display_units": "percent",
+            "control_type": "slider"
+          }
+        },
+        "Rotation X": {
+          "id": 1789344968188,
+          "valuetype": "ParamRange",
+          "min": -180.0,
+          "max": 180.0,
+          "in": -180.0,
+          "out": 180.0,
+          "value": 0.0,
+          "view": {
+            "suffix": " \u00b0",
+            "step": 1.0,
+            "display_units": "degrees",
+            "control_type": "slider"
+          }
+        },
+        "Rotation Y": {
+          "id": 1789344968189,
+          "valuetype": "ParamRange",
+          "min": -180.0,
+          "max": 180.0,
+          "in": -180.0,
+          "out": 180.0,
+          "value": 0.0,
+          "view": {
+            "suffix": " \u00b0",
+            "step": 1.0,
+            "display_units": "degrees",
+            "control_type": "slider"
+          }
+        },
+        "Rotation Z": {
+          "id": 1789344968190,
+          "valuetype": "ParamRange",
+          "min": -180.0,
+          "max": 180.0,
+          "in": -180.0,
+          "out": 180.0,
+          "value": 0.0,
+          "view": {
+            "suffix": " \u00b0",
+            "step": 1.0,
+            "display_units": "degrees",
+            "control_type": "slider"
+          }
+        },
+        "Anchor X": {
+          "id": 1789344968191,
+          "valuetype": "ParamRange",
+          "min": -8192.0,
+          "max": 8192.0,
+          "in": -8192.0,
+          "out": 8192.0,
+          "value": 0.0,
+          "view": {
+            "suffix": "",
+            "step": 1.0,
+            "control_type": "slider"
+          }
+        },
+        "Anchor Y": {
+          "id": 1789344968192,
+          "valuetype": "ParamRange",
+          "min": -8192.0,
+          "max": 8192.0,
+          "in": -8192.0,
+          "out": 8192.0,
+          "value": 0.0,
+          "view": {
+            "suffix": "",
+            "step": 1.0,
+            "control_type": "slider"
+          }
+        },
+        "Anchor Z": {
+          "id": 1789344968193,
+          "valuetype": "ParamRange",
+          "min": -8192.0,
+          "max": 8192.0,
+          "in": -8192.0,
+          "out": 8192.0,
+          "value": 0.0,
+          "view": {
+            "suffix": "",
+            "step": 1.0,
+            "control_type": "slider"
+          }
+        }
+      }
+    },
+    "programs": {
+      "Opacity": {
+        "phase_source": "static",
+        "dial": null
+      },
+      "Position X": {
+        "phase_source": "timeline",
+        "dial": null,
+        "parameters": {
+          "Speed": {
+            "id": 1789742760506,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 10.0,
+            "in": 0.0,
+            "out": 10.0,
+            "value": 1.0,
+            "view": {
+              "suffix": "",
+              "display_units": "real"
+            }
+          },
+          "Multiplier": {
+            "id": 1789742760507,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 16.0,
+            "in": 0.0,
+            "out": 16.0,
+            "value": 1.0,
+            "view": {
+              "suffix": "",
+              "display_units": "fractions",
+              "alternative_name": "Speed"
+            }
+          },
+          "Interval": {
+            "id": 1789742760508,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 5.0,
+            "in": 0.0,
+            "out": 5.0,
+            "value": 0.5,
+            "view": {
+              "suffix": "",
+              "display_units": "real"
+            }
+          },
+          "Max Distance": {
+            "id": 1789742760509,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 2.0833333333333335,
+            "in": 0.0,
+            "out": 2.0833333333333335,
+            "value": 0.5208333333333334,
+            "view": {
+              "suffix": "",
+              "display_units": "real",
+              "alternative_name": "Distance"
+            }
+          },
+          "PlayDirection": {
+            "id": 1789742760502,
+            "valuetype": "ParamChoice",
+            "value": "||",
+            "index": 1,
+            "options": [
+              "<",
+              "||",
+              ">"
+            ]
+          },
+          "PlayMode": {
+            "id": 1789742760503,
+            "valuetype": "ParamChoice",
+            "value": "Bounce",
+            "index": 1,
+            "options": [
+              "Loop",
+              "Bounce",
+              "Random",
+              "Play Once & Clear"
+            ]
+          },
+          "PlayModeAway": {
+            "id": 1789742760504,
+            "valuetype": "ParamChoice",
+            "value": "Restart",
+            "index": 0,
+            "options": [
+              "Restart",
+              "Continue"
+            ]
+          },
+          "Finished": {
+            "valuetype": "ParamNumber",
+            "id": 1789742760505,
+            "value": 0
+          },
+          "DurationIsScalable": {
+            "valuetype": "ParamBoolean",
+            "id": 1789742760512,
+            "value": false
+          },
+          "Duration": {
+            "id": 1789742760510,
+            "valuetype": "ParamRange",
+            "min": 0.001,
+            "max": 604800.0,
+            "in": 0.001,
+            "out": 604800.0,
+            "value": 2.0833333333333335,
+            "view": {
+              "suffix": " s",
+              "step": 1.0,
+              "display_units": "seconds",
+              "control_type": "duration_spinner"
+            }
+          },
+          "DurationType": {
+            "id": 1789742760511,
+            "valuetype": "ParamChoice",
+            "value": "S",
+            "index": 0,
+            "options": [
+              "S",
+              "mS",
+              "B"
+            ]
+          }
+        }
+      },
+      "Position Y": {
+        "phase_source": "timeline",
+        "dial": null,
+        "parameters": {
+          "Speed": {
+            "id": 1789742760517,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 10.0,
+            "in": 0.0,
+            "out": 10.0,
+            "value": 1.0,
+            "view": {
+              "suffix": "",
+              "display_units": "real"
+            }
+          },
+          "Multiplier": {
+            "id": 1789742760518,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 16.0,
+            "in": 0.0,
+            "out": 16.0,
+            "value": 1.0,
+            "view": {
+              "suffix": "",
+              "display_units": "fractions",
+              "alternative_name": "Speed"
+            }
+          },
+          "Interval": {
+            "id": 1789742760519,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 5.0,
+            "in": 0.0,
+            "out": 5.0,
+            "value": 0.5,
+            "view": {
+              "suffix": "",
+              "display_units": "real"
+            }
+          },
+          "Max Distance": {
+            "id": 1789742760520,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 5.555555555555557,
+            "in": 0.0,
+            "out": 5.555555555555557,
+            "value": 1.3888888888888888,
+            "view": {
+              "suffix": "",
+              "display_units": "real",
+              "alternative_name": "Distance"
+            }
+          },
+          "PlayDirection": {
+            "id": 1789742760513,
+            "valuetype": "ParamChoice",
+            "value": "||",
+            "index": 1,
+            "options": [
+              "<",
+              "||",
+              ">"
+            ]
+          },
+          "PlayMode": {
+            "id": 1789742760514,
+            "valuetype": "ParamChoice",
+            "value": "Bounce",
+            "index": 1,
+            "options": [
+              "Loop",
+              "Bounce",
+              "Random",
+              "Play Once & Clear"
+            ]
+          },
+          "PlayModeAway": {
+            "id": 1789742760515,
+            "valuetype": "ParamChoice",
+            "value": "Restart",
+            "index": 0,
+            "options": [
+              "Restart",
+              "Continue"
+            ]
+          },
+          "Finished": {
+            "valuetype": "ParamNumber",
+            "id": 1789742760516,
+            "value": 0
+          },
+          "DurationIsScalable": {
+            "valuetype": "ParamBoolean",
+            "id": 1789742760523,
+            "value": false
+          },
+          "Duration": {
+            "id": 1789742760521,
+            "valuetype": "ParamRange",
+            "min": 0.001,
+            "max": 604800.0,
+            "in": 0.001,
+            "out": 604800.0,
+            "value": 5.555555555555557,
+            "view": {
+              "suffix": " s",
+              "step": 1.0,
+              "display_units": "seconds",
+              "control_type": "duration_spinner"
+            }
+          },
+          "DurationType": {
+            "id": 1789742760522,
+            "valuetype": "ParamChoice",
+            "value": "S",
+            "index": 0,
+            "options": [
+              "S",
+              "mS",
+              "B"
+            ]
+          }
+        }
+      },
+      "Scale": {
+        "phase_source": "timeline",
+        "dial": null,
+        "parameters": {
+          "Speed": {
+            "id": 1789742760528,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 10.0,
+            "in": 0.0,
+            "out": 10.0,
+            "value": 1.0,
+            "view": {
+              "suffix": "",
+              "display_units": "real"
+            }
+          },
+          "Multiplier": {
+            "id": 1789742760529,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 16.0,
+            "in": 0.0,
+            "out": 16.0,
+            "value": 1.0,
+            "view": {
+              "suffix": "",
+              "display_units": "fractions",
+              "alternative_name": "Speed"
+            }
+          },
+          "Interval": {
+            "id": 1789742760530,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 5.0,
+            "in": 0.0,
+            "out": 5.0,
+            "value": 0.5,
+            "view": {
+              "suffix": "",
+              "display_units": "real"
+            }
+          },
+          "Max Distance": {
+            "id": 1789742760531,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 5.6000000000000005,
+            "in": 0.0,
+            "out": 5.6000000000000005,
+            "value": 0.35000000000000003,
+            "view": {
+              "suffix": "",
+              "display_units": "real",
+              "alternative_name": "Distance"
+            }
+          },
+          "PlayDirection": {
+            "id": 1789742760524,
+            "valuetype": "ParamChoice",
+            "value": "||",
+            "index": 1,
+            "options": [
+              "<",
+              "||",
+              ">"
+            ]
+          },
+          "PlayMode": {
+            "id": 1789742760525,
+            "valuetype": "ParamChoice",
+            "value": "Bounce",
+            "index": 1,
+            "options": [
+              "Loop",
+              "Bounce",
+              "Random",
+              "Play Once & Clear"
+            ]
+          },
+          "PlayModeAway": {
+            "id": 1789742760526,
+            "valuetype": "ParamChoice",
+            "value": "Restart",
+            "index": 0,
+            "options": [
+              "Restart",
+              "Continue"
+            ]
+          },
+          "Finished": {
+            "valuetype": "ParamNumber",
+            "id": 1789742760527,
+            "value": 0
+          },
+          "DurationIsScalable": {
+            "valuetype": "ParamBoolean",
+            "id": 1789742760534,
+            "value": false
+          },
+          "Duration": {
+            "id": 1789742760532,
+            "valuetype": "ParamRange",
+            "min": 0.001,
+            "max": 604800.0,
+            "in": 0.001,
+            "out": 604800.0,
+            "value": 5.6000000000000005,
+            "view": {
+              "suffix": " s",
+              "step": 1.0,
+              "display_units": "seconds",
+              "control_type": "duration_spinner"
+            }
+          },
+          "DurationType": {
+            "id": 1789742760533,
+            "valuetype": "ParamChoice",
+            "value": "S",
+            "index": 0,
+            "options": [
+              "S",
+              "mS",
+              "B"
+            ]
+          }
+        }
+      },
+      "Scale W": {
+        "phase_source": "static",
+        "dial": null
+      },
+      "Scale H": {
+        "phase_source": "static",
+        "dial": null
+      },
+      "Rotation X": {
+        "phase_source": "static",
+        "dial": null
+      },
+      "Rotation Y": {
+        "phase_source": "static",
+        "dial": null
+      },
+      "Rotation Z": {
+        "phase_source": "static",
+        "dial": null
+      },
+      "Anchor X": {
+        "phase_source": "static",
+        "dial": null
+      },
+      "Anchor Y": {
+        "phase_source": "static",
+        "dial": null
+      },
+      "Anchor Z": {
+        "phase_source": "static",
+        "dial": null
+      }
+    }
+  }
+}

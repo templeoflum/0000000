@@ -1,0 +1,64 @@
+{
+  "SchemaVersion": "1.1-ter",
+  "ArchetypeName": "Enyo",
+  "SystemOfOrigin": "GR",
+  "CulturalLineage": ["Greek"],
+  "CommonAliases": ["War Goddess", "Destroyer of Cities", "Bellona", "Waster of Cities"],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "To embody the horror and destruction of war; to be the female face of battlefield carnage.",
+    "PrimaryDomain": "Mythic / War",
+    "ToneOrPolarity": "Destructive / Fierce",
+    "SymbolicCore": "War's destruction, the sacker of cities, bloodlust personified.",
+    "Correspondences": {
+      "Element": "Fire",
+      "Planet": "Mars",
+      "Chakra": "Root",
+      "Color": "Blood Red, Iron Grey",
+      "Animal": "Vulture, War Horse",
+      "Other": ["Sword", "Torch", "Scourge", "Burning Cities"]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": ["War Goddess", "City Destroyer", "Battle Companion", "Bloodlust"],
+    "ComplementaryArchetypes": ["Ares ([GR] War God)", "Eris ([GR] Strife)", "Athena ([GR] Strategic War)"],
+    "ShadowForms": ["Mindless Destruction", "War Crimes", "Atrocity"],
+    "DevelopmentalArc": [],
+    "CyclePhase": "Destruction / Carnage"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": ["Destructive", "Fierce", "Bloodthirsty", "Warlike", "Unrelenting", "Savage"],
+    "Typologies": {
+      "MBTI": "ESTP",
+      "Enneagram": "8w7",
+      "Other": ["Warrior", "Destroyer", "Berserker"]
+    },
+    "SubVariants": ["City Sacker", "Battle Fury", "War Maiden"],
+    "InternalFamily": "Destructive Rage"
+  },
+  "CulturalContext": {
+    "Regions": ["Greece"],
+    "MythicAppearances": ["Companion of Ares", "Waster of cities", "Present at Troy's fall"],
+    "ReligiousOrRitualUse": "Invoked in war; propitiated before sieges; feared as city destroyer.",
+    "HistoricalEvolution": "Ancient war goddess; merged with Roman Bellona; represents destructive aspects of war.",
+    "SyncreticForms": ["Bellona (Roman)", "War goddesses (various)"]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "⚔️",
+    "ImageryNotes": "Depicted as armed war goddess with torch and scourge, destroying cities, covered in blood.",
+    "ArtisticExamples": ["War goddess imagery", "Bellona depictions", "Battle scenes"],
+    "PoeticInvocation": "Enyo, waster of cities, whose torch brings ruin to the walls of kingdoms.",
+    "DreamForm": "A fierce woman in armor, torch in hand, leaving only ash and ruin in her wake"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": ["JP12.Outlaw", "Tarot.The_Tower", "KWM.Destroyer"],
+    "SemanticTags": ["#war", "#destruction", "#siege", "#bloodlust", "#carnage"],
+    "RitualFunction": "Shadow work with rage and destructive impulses; understanding war's horror.",
+    "AIPromptSeeds": ["The goddess who brings torch and sword to sack cities.", "War's destructive face, relentless and fierce."],
+    "NarrativeHooks": ["The horror of war made manifest", "Destruction of civilization", "Unrelenting assault"]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [{"to": "Bellona (Roman)", "strength": "strong"}, {"to": "Tarot.The_Tower", "strength": "moderate"}]
+  },
+  "FacetRegistry": [{"facet": "City Destroyer", "weight": 0.5}, {"facet": "War Fury", "weight": 0.3}, {"facet": "Bloodlust", "weight": 0.2}]
+}

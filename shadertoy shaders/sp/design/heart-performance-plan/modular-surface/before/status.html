@@ -1,0 +1,949 @@
+<!doctype html><meta charset="utf-8"><title>heart</title>
+<style>*{-webkit-user-select:none;user-select:none}input,textarea{-webkit-user-select:text;user-select:text}
+html,body{height:100%}
+body{background:#05080d;color:#9fc4dc;font:12px ui-monospace,monospace;margin:0;padding:6px 8px;box-sizing:border-box;
+  display:flex;flex-direction:column;justify-content:flex-end;overflow:hidden}
+/* bottom-anchored strip: Safari's pointer-lock banner pushes the viewport from the TOP —
+   controls glued to the bottom edge don't move when it appears. Give the window a little
+   vertical headroom and the banner lives entirely in the slack. */
+h1{font-size:12px;color:#7d97ab;font-weight:500;margin:0 0 6px}.row{display:flex;gap:18px;flex-wrap:wrap;margin-bottom:10px}
+.k{color:#7d97ab}.v{color:#62f0c0;display:inline-block;min-width:6ch;font-variant-numeric:tabular-nums}.clip{border:1px solid #1c2630;border-radius:6px;padding:8px 10px;min-width:0}
+#clips{display:flex;gap:8px;align-items:flex-start;overflow-x:auto;padding-bottom:4px}
+.clip{flex:0 0 auto;max-width:560px}
+.slots{display:flex;flex-wrap:wrap;gap:6px;align-items:flex-start}
+.slot2{display:flex;flex-direction:column;gap:2px;margin:0}
+.slot2 .ax{display:inline-flex;gap:3px;justify-content:center}
+.slot2 .sn{width:58px;flex:none;cursor:pointer;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.slot2 .bar{flex:1;min-width:36px}.slot2 .v{width:42px;flex:none;font-size:10px}
+.axb{border:1px solid #1c2630;border-radius:3px;padding:0 3px;color:#4a5a68;cursor:pointer;font-weight:normal;font-size:10px;user-select:none}
+.axb:hover{color:#9fc4dc}.axb.on{color:#62f0c0;border-color:#62f0c0}
+.slot2 [data-a=lock].on{color:#ff9f43;border-color:#ff9f43}
+.cfg2{display:none;gap:3px;align-items:center;flex-basis:100%;padding-left:58px}
+.clip.xp .cfg2{display:inline-flex}
+.cfg2 select{font-size:10px;padding:0;max-width:78px}.cfg2 input{font-size:10px;padding:0 2px;width:42px}
+.fd{min-width:20px;padding:2px 5px}.fd.has{border-color:#62f0c0}.fd.sv.on{background:#ff9f43;color:#02040a;border-color:#ff9f43}
+.gl select{max-width:110px;font-size:10px}.gl input{font-size:10px}
+.clip.xp .gl{display:flex!important}
+.fold:hover{color:#9fc4dc}
+.slot{display:grid;grid-template-columns:90px 1fr 70px 200px;gap:8px;align-items:center;margin:3px 0}
+.bar{height:10px;background:#0d131a;border:1px solid #1c2630;border-radius:3px;position:relative}.bar i{position:absolute;left:0;top:0;bottom:0;background:#62f0c0;opacity:.6}
+.bar.cyc i{background:#4fb8e8}.off .bar i{background:#4a5a68}.lock{color:#ff9f43}
+button{background:#0d131a;color:#9fc4dc;border:1px solid #1c2630;border-radius:4px;font:inherit;padding:3px 8px;cursor:pointer}button:hover{border-color:#62f0c0;color:#62f0c0}.btns{display:flex;gap:6px;flex-wrap:wrap;margin:6px 0 8px}.d{cursor:pointer}
+table.mx{border-collapse:collapse;margin:6px 0}table.mx th,table.mx td{border:1px solid #1c2630;padding:2px 6px;text-align:center;font-weight:normal}
+table.mx th{color:#7d97ab;cursor:pointer;user-select:none}table.mx th:hover{color:#62f0c0}table.mx td.c{cursor:pointer;width:46px;height:20px;background:#0d131a}
+table.mx td.c.on{background:#62f0c0;color:#02040a}table.mx td.c.na{background:transparent;cursor:default}table.mx tr.g td.c.on{background:#4fb8e8}
+button.fire{background:#62f0c0;color:#02040a;font-weight:600;padding:6px 16px;border-color:#62f0c0}button.fire:hover{background:#7ff5cf}
+.chip{background:#0d131a;border:1px solid #1c2630;border-radius:10px;padding:1px 8px;cursor:pointer}.chip:hover{border-color:#62f0c0}.chip i{color:#4a5a68;font-style:normal;margin-left:4px}
+select,input[type=text]{background:#0d131a;color:#9fc4dc;border:1px solid #1c2630;border-radius:4px;font:inherit;padding:2px 4px}
+.strip{display:flex;gap:10px;margin:0 0 14px;align-items:flex-end}.fad{position:relative;display:flex;flex-direction:column;align-items:center;gap:4px;border:1px solid #1c2630;border-radius:6px;padding:6px 6px 4px;min-width:64px;background:#070b11}
+.fad.bp{opacity:.45}.fad .nm{color:#7d97ab;font-size:10px;white-space:nowrap;max-width:64px;overflow:hidden;text-overflow:ellipsis}.fad .cl{color:#4fb8e8;font-size:9px;max-width:64px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;height:11px}
+.fad .trk{position:relative;width:26px;height:150px;background:#0d131a;border:1px solid #1c2630;border-radius:4px;cursor:ns-resize;overflow:hidden}
+.fad .trk i{position:absolute;left:0;right:0;bottom:0;background:#62f0c0;opacity:.55}
+.fad.locked .trk{border-color:#4fb8e8;box-shadow:0 0 8px #4fb8e855}.fad.locked .trk i{opacity:.9}
+.fad .gr{font-size:9px;color:#4a5a68;height:10px}.fad .mt{cursor:pointer;color:#4a5a68;font-size:10px}.fad .mt.on{color:#ff9f43}
+
+.fad .lane{display:flex;gap:2px;margin-top:2px}.fad .lane b,.fad .nav b{width:12px;height:12px;border:1px solid #1c2630;border-radius:3px;font-size:9px;line-height:12px;text-align:center;color:#4a5a68;cursor:pointer;font-weight:normal}
+.fad .lane b.on{background:#4fb8e8;color:#02040a;border-color:#4fb8e8}
+.fad .deck{display:flex;flex-wrap:wrap;gap:2px;margin-top:3px;max-width:150px}.fad .deck b{height:12px;border:1px solid #1c2630;border-radius:3px;font-size:9px;line-height:12px;padding:0 3px;color:#7d97ab;cursor:pointer;font-weight:normal;white-space:nowrap}.fad .deck b:hover{color:#9fc4dc;border-color:#62f0c0}.fad .deck b.on{background:#62f0c0;color:#02040a;border-color:#62f0c0}
+.fad .nav{display:flex;gap:2px;margin-top:2px}.fad .nav b:hover{color:#9fc4dc;border-color:#62f0c0}.fad .nav b.on{background:#ff9f43;color:#02040a;border-color:#ff9f43}.fad .cfg,.fad .hset{cursor:pointer;color:#7d97ab;font-size:9px;margin-top:3px;border:1px solid #1c2630;border-radius:3px;padding:1px 4px}.fad .hset{color:#ff9f43;border-color:#ff9f4344}.fad .cfg:hover{color:#9fc4dc}
+.fad .fdot{position:absolute;left:50%;width:10px;height:10px;margin-left:-5px;border-radius:50%;background:#4fb8e8;box-shadow:0 0 6px #4fb8e8;display:none;pointer-events:none}
+.fad .hm{position:absolute;left:0;right:0;height:0;border-top:1px dashed #ff9f43;pointer-events:none}
+#padbar{display:flex;gap:10px;align-items:center;margin:0 0 8px}#padlock{background:#0d131a;border:1px solid #4fb8e8;color:#4fb8e8;padding:5px 14px;font-weight:600}#padlock.on{background:#4fb8e8;color:#02040a}
+#figlock{background:#0d131a;border:1px solid #62f0c0;color:#62f0c0;padding:5px 14px;font-weight:600}#figlock.on{background:#62f0c0;color:#02040a}
+#padov{position:fixed;inset:0;display:none;z-index:50;background:transparent;cursor:none;touch-action:none}#padov.on{display:block}
+html.padlocked{overflow:hidden;touch-action:none;overscroll-behavior:none}
+.pop{position:absolute;left:0;top:100%;z-index:60;background:#070b11;border:1px solid #4fb8e8;border-radius:6px;padding:8px;display:grid;gap:5px;font-size:11px;min-width:230px}.pop label{display:flex;justify-content:space-between;gap:8px;align-items:center}
+
+
+#rack{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 8px}.rk{border:1px solid #1c2630;border-radius:6px;padding:6px 8px;width:140px;flex:0 0 auto;overflow:hidden;white-space:nowrap}.rk .t{color:#7d97ab;font-size:10px;margin-bottom:4px}
+.fxb{position:relative;display:flex;align-items:center;gap:6px;margin:3px 0;cursor:pointer;user-select:none}.fxb .ring{width:18px;height:18px;border-radius:50%;background:conic-gradient(#62f0c0 var(--p,0%),#0d131a 0);border:1px solid #1c2630;flex:none}
+.fxb.on .ring{box-shadow:0 0 6px #62f0c0}.fxb.bp .nm{color:#4a5a68}.fxb .nm{font-size:11px}.fxb .key{font-size:9px;color:#4a5a68;border:1px solid #1c2630;border-radius:3px;padding:0 4px;min-width:10px;text-align:center}.fxb .key.learn{border-color:#ff9f43;color:#ff9f43}
+.fxb .g{font-size:9px;color:#4a5a68}.fxb .g:hover{color:#9fc4dc}.fxb .pend .ring{animation:blink .4s infinite alternate}@keyframes blink{to{opacity:.3}}
+
+#ev{color:#7fd0f5;white-space:pre;max-height:56px;overflow:auto;border-top:1px solid #1c2630;padding-top:4px;font-size:10px}
+.pp{position:relative;min-width:34px;user-select:none}.pp.has{border-color:#62f0c0}.pp.lat{background:#62f0c0;color:#02040a}
+.pp i.pm{font-style:normal;color:#ff9f43;font-size:9px;margin-left:4px;cursor:pointer}
+.parm.on{background:#ff9f43;color:#02040a;border-color:#ff9f43}
+#figgrid{display:grid;grid-template-columns:repeat(3,112px);gap:4px;margin:0 0 10px}
+#figgrid .fz{position:relative;height:44px;border:1px solid #1c2630;border-radius:6px;background:#070b11;overflow:hidden;opacity:.5}
+#figgrid.live .fz{opacity:1}
+#figgrid .fz .zl{position:absolute;top:6px;left:8px;color:#7d97ab;font-weight:600;font-size:11px}
+#figgrid.live .fz .zl{color:#9fc4dc}
+#figgrid .fz .zp{position:absolute;bottom:4px;left:8px;color:#4a5a68;font-size:9px}
+#figgrid.armed .fz .zp{color:#ff9f43}
+#figgrid .fz.press{border-color:#4fb8e8}
+#figgrid .fz.holdz{border-color:#62f0c0;background:#0f2018}#figgrid .fz.holdz .zl{color:#62f0c0}
+#figgrid .fz.flash{border-color:#62f0c0;box-shadow:0 0 12px #62f0c088 inset}
+#figgrid .fz .fdot2{position:absolute;width:10px;height:10px;margin:-5px;border-radius:50%;background:#fff;opacity:.9;display:none;pointer-events:none}
+.chip[data-focus]{cursor:pointer}.chip[data-focus].on{border-color:#62f0c0;color:#62f0c0}#tabs{float:right;display:flex;gap:6px}#tabs .tb.on{border-color:#62f0c0;color:#62f0c0}
+#labfr{display:none;width:100%;height:calc(100vh - 96px);border:1px solid #1c2630;border-radius:6px;background:#070b11}
+
+/* Performance layout: stable bank, one focused instrument, details on demand. */
+body{justify-content:flex-start;overflow:auto;padding:12px 16px;font:13px system-ui,sans-serif;background:#0b1017;color:#c9d6e4;gap:6px}
+h1{font:600 16px system-ui;margin:0}button{min-height:32px;padding:5px 12px}button:focus-visible{outline:2px solid #62f0c0}
+#quick{display:none!important}#ev{display:none}#tabs{display:none}.row{margin:0;gap:18px}
+#performance{display:flex;gap:10px;align-items:center;flex-wrap:wrap;padding:12px;background:#15202c;border-radius:8px}
+#target-name{font-size:18px;font-weight:650;min-width:180px;margin-right:auto}#performance button{min-height:38px}
+#strip{display:grid;grid-template-columns:repeat(4,minmax(80px,1fr));gap:8px;margin:0;order:0;align-items:stretch}
+.fad{min-width:0;padding:8px;border-radius:8px}.fad.selected{border-color:#62f0c0;background:#14251f}
+.fad .nm{order:-2;font-size:12px;max-width:100%;cursor:pointer;color:#d7e4f1;padding:5px;font-weight:650}
+.fad .cl{order:-1;font-size:11px;max-width:100%;height:16px}.fad .trk{height:56px;width:44px}.fad .gr{display:none}
+.fad .deck,.fad .lane,.fad .cfg,.fad .hset,.fad .nav{display:none}.editing .fad .lane,.editing .fad .nav{display:flex}.editing .fad .cfg,.editing .fad .hset{display:block}
+#clip-choices{display:flex;gap:6px;flex-wrap:wrap}#clip-choices button.on{background:#62f0c0;color:#08140e}
+#clips{display:block;overflow:visible;padding:0}.clip{max-width:none;width:auto;padding:14px}.clip:not(.focused){display:none}
+.clip .slots{display:grid;grid-template-columns:repeat(6,minmax(120px,1fr));gap:12px;margin-top:12px}
+.slot2{padding:10px;background:#111c27;border:1px solid #243344;border-radius:7px}.slot2 .ax{justify-content:flex-start;gap:10px}.axb{font-size:14px;min-width:22px;text-align:center;padding:4px}
+.slot2.secondary{display:none}.editing .slot2.secondary{display:flex}.slot2 .sp{min-width:0}
+#figgrid{grid-template-columns:repeat(6,minmax(100px,1fr));gap:8px;margin:0}#figgrid .fz{height:60px;opacity:1;cursor:pointer}#figgrid .fz.empty{opacity:.4}
+#figgrid .fz .zl{font-size:13px;color:#d3e1ec}#figgrid .fz .zp{font-size:11px;color:#93a6b8}
+#padbar{margin:0;flex-wrap:wrap}#padhint{font-size:11px}#rack{margin:0}.rk{width:auto;min-width:160px}
+body:not(.editing) .clip .fold,body:not(.editing) .clip .deep,body:not(.editing) .clip .fd,body:not(.editing) #figarm,body:not(.editing) #variation-name{display:none!important}
+body .slot2 .sparam{width:100%;min-width:0}body .slot2 .sparam .sp-name{font-size:13px;padding:6px}body .slot2 .sparam .sp-num{padding:9px}body .slot2 .sparam .sp-step{width:28px}#health{font-size:12px;color:#8bbca6}.editing #ev{display:block;max-height:100px}
+@media(max-width:900px){.clip .slots{grid-template-columns:repeat(3,1fr)}#strip{grid-template-columns:repeat(4,minmax(80px,1fr))}#figgrid{grid-template-columns:repeat(3,1fr)}}
+body:not(.editing) .set-motion-home{display:none}#pad-extras{display:flex;gap:8px;margin-top:16px;opacity:.6}#pad-extras button{font-size:11px;min-height:26px}.clip [data-a=speed]{min-height:32px}.clip .row{flex-wrap:wrap}
+/* Active performance surface: all axes, compact mix bank, variations parked. */
+#padbar,#figgrid,#pad-extras{display:none!important}
+#performance{padding:7px 10px}#performance button{min-height:30px}
+#strip{gap:6px}
+.fad{display:grid;grid-template-columns:minmax(60px,1fr) 44px 52px;grid-template-areas:"name track value" "clip track bypass";gap:2px 8px;padding:7px 10px;align-items:center;min-height:66px}
+.fad .nm{grid-area:name;order:initial;padding:0;text-align:left;justify-self:start}
+.fad .cl{grid-area:clip;order:initial;text-align:left;height:auto;justify-self:start;overflow:hidden;text-overflow:ellipsis;max-width:100%}
+.fad .trk{grid-area:track;height:56px;width:38px;margin:0}
+.fad .v{grid-area:value;font-size:12px}.fad .mt{grid-area:bypass;font-size:10px;justify-self:center}
+.editing .fad .lane,.editing .fad .nav,.editing .fad .cfg,.editing .fad .hset{grid-column:1/-1}
+.clip{padding:9px}.clip .slots{grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:6px;margin-top:6px}
+.slot2{padding:5px;gap:3px}.slot2 .ax{gap:5px}.slot2 .axb{font-size:12px;padding:2px;min-width:22px}
+body .slot2 .sparam .sp-name{padding:4px;font-size:12px}body .slot2 .sparam .sp-num{padding:5px}
+.clip>.row:has([data-a=morph]){margin:0!important;height:23px}
+@media(max-width:620px){.fad{grid-template-columns:minmax(30px,1fr) 30px;grid-template-areas:"name name" "clip clip" "track value" "track bypass"}.fad .trk{width:28px}.clip .slots{grid-template-columns:repeat(auto-fit,minmax(130px,1fr))}}
+.fad .layerfx{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:4px;min-width:0;width:auto;padding:3px 0 0;border:0;overflow:visible;white-space:normal;justify-self:stretch}
+.layerfx .t{display:none}.layerfx .fxb{display:flex;align-items:center;gap:4px;margin:0;padding:3px 5px;border:1px solid #243344;border-radius:5px}.layerfx .fxb .nm{font-size:11px;padding:0;order:initial}.layerfx .pop{z-index:100;white-space:normal}
+.fad .nav{display:flex;grid-column:1/-1;gap:5px}.fad .nav b{width:auto;min-width:27px;height:25px;line-height:25px;font-size:16px;color:#9fc4dc}.fad .nav [data-n=clear]{font-size:11px;padding:0 5px}.fx-controls{display:grid;gap:7px;max-height:310px;overflow:auto}.fx-controls label{display:flex;gap:8px;align-items:center;justify-content:space-between}.fx-controls input[type=range]{width:120px}.fad .layerfx{max-height:74px;overflow:auto;align-content:start}.fad{align-content:start}.fx-pair{min-height:25px!important;padding:2px 6px!important;font-size:11px}.drive-summary{font-size:11px;color:#8bbca6;margin-left:8px}.fxb .pop{min-width:290px;max-width:75vw}.fxb .nm{max-width:140px;overflow:hidden;text-overflow:ellipsis}
+
+#live-state{display:flex;gap:7px;align-items:center;flex-wrap:wrap;padding:7px 9px;background:#0b131b;border:1px solid #273b47;border-radius:6px;margin:5px 0}
+.state-pill{padding:3px 7px;border-radius:4px;background:#12232a;color:#62f0c0}.state-pill.warn{background:#3a2b14;color:#ffd285}.state-pill.bad{background:#3b1920;color:#ffadb7}
+#action-feedback{color:#c4d7df;flex:1;min-width:180px}#patch-status{display:block;color:#ffd285;white-space:normal;max-width:350px}
+#hold-motion[aria-pressed=true]{background:#563c13;color:#ffe2a7;border-color:#ffa94d}
+.drive-summary{display:flex!important;gap:8px;align-items:center;flex-wrap:wrap;padding:6px 0;color:#b7d0df}
+.drive-summary progress{width:95px;height:7px;accent-color:#62f0c0}.fx-state{font-size:9px;color:#c4d7df;white-space:nowrap}.fxb.pend .fx-state{color:#ffd285}
+.fad .mt{min-width:58px}.fad.bp .mt{color:#ffd285;font-weight:bold}
+button:disabled{opacity:.45;cursor:default}button.busy{border-color:#eab66a;color:#ffd285}
+</style>
+<h1>♥ heart · performance<span id="tabs"><button class="tb on" data-t="main">heart</button><button class="tb" data-t="lab">lab</button><button class="tb" data-t="lanes">lanes</button><button class="tb" data-t="pads">pads</button></span></h1>
+<div class="row"><span><span class="k">H</span> <span class="v" id="H">–</span> turns</span><span><span class="k">bpm</span> <span class="v" id="bpm">–</span></span>
+<span><span class="k">engine Hz</span> <span class="v" id="fps">–</span></span><span><span class="k">engine work</span> <span class="v" id="worst">–</span> ms</span><span><span class="k">queue</span> <span class="v" id="q">–</span></span>
+<span><span class="k">1 turn =</span> <select id="bars" onchange="cmd({cmd:'bars',bars:+this.value})"><option>1</option><option>2</option><option>4</option><option selected>8</option><option>16</option><option>32</option><option>64</option></select> <span class="k">bars</span></span></div>
+<div id="live-state"><span id="connection-state" class="state-pill">Connecting</span><span id="motion-state" class="state-pill">Waiting for motion state</span><span id="gesture-state" class="state-pill">Pointer free</span><span id="action-feedback" role="status" aria-live="polite">Waiting for Heart…</span></div><div id="performance"><span id="target-name">Connecting…</span><span id="health">Waiting for heart</span><button id="reconnect" title="Reconnect to Resolume and refresh parameter connections without resetting motion">Reconnect</button><button id="start-patch" disabled title="Waiting for saved Start patch settings">Start: waiting…</button><select id="patch-choice" aria-label="Performance patch"></select><button id="use-as-start" disabled title="Choose which saved patch the Start button restores">Use as Start</button><button id="recall-patch" title="Restore the selected whole-composition patch.">Recall</button><button id="save-patch">Save patch…</button><span id="patch-status"></span><button id="return">Motion Home</button><button id="undo-main">Undo</button><button id="mutate">Mutate armed</button><button id="hold-motion">Hold motion</button><button id="edit-mode">Edit</button></div>
+<div class="row" id="quick" style="gap:8px;align-items:center;margin-bottom:10px"></div><div id="padbar"><button id="padlock" title="L — grab: trackpad → fader lanes">⌗ FADERS</button><button id="figlock" title="F — grab: trackpad → selected layer variations · tap to keep · hold to visit">⌗ VARIATIONS</button><button class="parm" id="figarm" title="arm: next launcher tap saves current state to that pad">Save variation…</button><input id="variation-name" placeholder="Variation name" aria-label="Variation name" maxlength="80"><button id="fighome" title="selected instrument → home">⌂</button><span class="k">pad</span> <span class="v" id="padhz">–</span><span class="k"> · lanes:</span> <span class="v" id="padlanes">–</span><span class="k" id="padhint">click PAD (or L) to lock the trackpad to the assigned faders · Esc releases</span></div>
+<div id="figgrid" title="⌗ VARIATIONS launcher — tap to keep · hold to visit · release to return"></div><div id="padov"></div><div class="strip" id="strip"></div><div id="rack"></div><div id="clips"></div><div id="ev"></div><iframe id="labfr"></iframe>
+<script>
+// ── kit port: scrub + depth-menu + smartparam (from mind-not-map kit, adapted for the SP surface) ──
+let kitStylesIn = false;
+function kitEnsureStyles() {
+  if (kitStylesIn) return; kitStylesIn = true;
+  const css = `
+    .scrub{font:11.5px ui-monospace,monospace;color:#9fc4dc;background:#05080d;border:1px solid #1c2630;border-radius:6px;cursor:ew-resize;user-select:none;white-space:nowrap;touch-action:none;display:inline-flex;align-items:stretch;overflow:hidden}
+    .scrub .sval{padding:6px 6px;flex:1;min-width:64px;max-width:64px;text-align:center;cursor:ew-resize;overflow:hidden;white-space:nowrap}
+    .scrub b{color:#62f0c0;font-weight:500;margin-left:6px}
+    .scrub.dragging{border-color:#4fb8e8}
+    body.kit-dragging, body.kit-dragging *{cursor:none !important}
+    .scrub.stacked{flex-direction:column}
+    .scrub.stacked .slab{padding:3px 6px 1px;text-align:center;color:#7d97ab;font-size:10px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .scrub.stacked .srow{display:flex;align-items:stretch;border-top:1px solid #11161d}
+    .scrub.stacked .srow .sval{margin-left:0}
+    .scrub.stacked b{margin-left:0}
+    .scrub .ar{display:flex;align-items:center;justify-content:center;width:20px;color:#4a5a68;cursor:pointer;background:rgba(255,255,255,0.025);font-size:10px;flex:0 0 auto}
+    .scrub .ar:hover{color:#9fc4dc;background:rgba(98,240,192,0.14)}
+    .scrub .ar:active{background:rgba(98,240,192,0.28)}
+    .scrub .ar.l{border-right:1px solid #1c2630}
+    .scrub .ar.r{border-left:1px solid #1c2630}
+    .scrub .sval input{width:54px;background:#02040a;border:1px solid #4fb8e8;color:#cfe6f5;font:inherit;border-radius:3px;text-align:center}
+    .kmenu{position:absolute;top:100%;left:0;right:0;box-sizing:border-box;z-index:30;margin-top:2px;background:#0a1016;border:1px solid #2a3a48;border-radius:6px;display:none;flex-direction:column;gap:6px;padding:8px;box-shadow:0 6px 18px rgba(0,0,0,0.5)}
+    .kmenu.open{display:flex}
+    .km-lvl{display:none;gap:6px}
+    .km-lvl.show{display:flex}
+    .kmenu .scrub{flex:1}
+    .sparam{position:relative;display:inline-flex;flex-direction:column;width:112px;flex:0 0 auto;font:11.5px ui-monospace,monospace;color:#9fc4dc;border:1px solid #1c2630;border-radius:6px;user-select:none;background:#05080d}
+    .sparam.dragging{border-color:#4fb8e8}
+    .sparam .sp-name{padding:3px 6px 1px;color:#7d97ab;text-align:center;cursor:pointer;font-size:10px;border-radius:5px 5px 0 0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;touch-action:none}
+    .sparam .sp-name:hover{color:#9fc4dc}
+    .sparam .sp-name.driven{color:#02040a;background:#62f0c0}
+    .sparam .sp-value{position:relative;display:flex;flex:1;align-items:stretch;border-top:1px solid #11161d;cursor:ew-resize;touch-action:none;overflow:hidden;border-radius:0 0 5px 5px}
+    .sparam .sp-num{position:relative;flex:1;padding:7px 4px;text-align:center;overflow:hidden}
+    .sparam .sp-fill{position:absolute;left:0;top:0;bottom:0;width:0;pointer-events:none;background:#62f0c0;opacity:0.18}
+    .sparam .sp-num b{position:relative;z-index:1;color:#62f0c0;font-weight:500}
+    .sparam .sp-step{width:20px;font-size:10px;display:flex;align-items:center;justify-content:center;color:#4a5a68;cursor:pointer;z-index:1;background:rgba(255,255,255,0.025)}
+    .sparam .sp-step:hover{color:#9fc4dc;background:rgba(98,240,192,0.14)}
+    .sparam .sp-step:active{background:rgba(98,240,192,0.28)}
+    .sparam .sp-step.l{border-right:1px solid #1c2630}
+    .sparam .sp-step.r{border-left:1px solid #1c2630}
+    .sparam .sp-num input{width:60px;background:#02040a;border:1px solid #4fb8e8;color:#cfe6f5;font:inherit;border-radius:3px;text-align:center}`;
+  const t = document.createElement('style'); t.id = 'kit-css'; t.textContent = css;
+  document.head.appendChild(t);
+}
+function kitFormat(v) { return (Math.abs(v) >= 100 || Number.isInteger(v)) ? v.toFixed(0) : v.toFixed(2); }
+const FEEL_DEFAULTS = { sensitivity: 0.25, depthBase: 10, logBase: 1.012, vBase: 3, vpx: 220 };
+function depthMult(ev, feel) {
+  const c = ev.ctrlKey || ev.metaKey, s = ev.shiftKey, a = ev.altKey;
+  let tier = 0;
+  if (c && s && a) tier = 7; else if (s && a) tier = 6; else if (c && a) tier = 5;
+  else if (c && s) tier = 4; else if (a) tier = 3; else if (s) tier = 2; else if (c) tier = 1;
+  return Math.pow(feel.depthBase, tier);
+}
+function createScrub(opts = {}) {
+  kitEnsureStyles();
+  const label = opts.label ?? '';
+  let min = opts.min ?? -Infinity, max = opts.max ?? Infinity, step = opts.step ?? 0.01;
+  const log = opts.log ?? false, snap = opts.snap ?? null;
+  const fmt = opts.format ?? kitFormat;
+  const onInput = opts.onInput;
+  const feel = opts.feel ?? { ...FEEL_DEFAULTS };
+  let initial = clamp(opts.value ?? 0);
+  let value = initial;
+  function clamp(v) { return Math.max(min, Math.min(max, v)); }
+  const stacked = opts.stacked ?? false;
+  const el = document.createElement('span');
+  el.className = 'scrub' + (stacked ? ' stacked' : '');
+  const sval = document.createElement('span'); sval.className = 'sval';
+  let b = document.createElement('b');
+  const L = document.createElement('span'); L.className = 'ar l'; L.textContent = '◀';
+  const R = document.createElement('span'); R.className = 'ar r'; R.textContent = '▶';
+  if (stacked) {
+    const slab = document.createElement('span'); slab.className = 'slab'; slab.textContent = label;
+    const srow = document.createElement('span'); srow.className = 'srow';
+    sval.appendChild(b); srow.append(L, sval, R); el.append(slab, srow);
+  } else {
+    sval.appendChild(document.createTextNode(label ? label + ' ' : ''));
+    sval.appendChild(b); el.append(L, sval, R);
+  }
+  function commit(silent) { value = clamp(value); const t = fmt(value); if (b.textContent !== t) b.textContent = t; if (!silent && onInput) onInput(value); }
+  function set(v, silent) { value = clamp(v); commit(silent); }
+  function get() { return value; }
+  function bump(dir, ev) {
+    const grid = (snap ?? step) * depthMult(ev, feel);
+    let next;
+    if (log) next = value * Math.pow(1 + step, dir);
+    else if (snap != null) {
+      const snapped = Math.round(value / grid) * grid;
+      next = (Math.abs(snapped - value) > 1e-9 && Math.sign(snapped - value) === dir) ? snapped : snapped + dir * grid;
+    } else next = value + dir * grid;
+    set(next);
+  }
+  [L, R].forEach((a, i) => {
+    a.addEventListener('pointerdown', (e) => e.stopPropagation());
+    a.addEventListener('pointerup', (e) => { e.stopPropagation(); e.preventDefault(); bump(i === 0 ? -1 : 1, e); });
+  });
+  // CLICK to LOCK (same gesture as the value zone): click engages, move freely, click releases.
+  // Pointer-lock best-effort; movement falls back to client deltas if denied. Esc releases.
+  let locked = false, accY = 0, lastX = null, lastY = null;
+  function adjust(e) {
+    if (!locked) return;
+    let dx = e.movementX, dy = e.movementY;
+    if (dx == null || (dx === 0 && dy === 0 && document.pointerLockElement !== el)) {
+      dx = lastX == null ? 0 : e.clientX - lastX;
+      dy = lastY == null ? 0 : e.clientY - lastY;
+    }
+    lastX = e.clientX; lastY = e.clientY;
+    accY += (dy || 0);
+    const vFactor = Math.pow(feel.vBase, -Math.max(0, accY) / feel.vpx);
+    const co = feel.sensitivity * depthMult(e, feel) * vFactor;
+    if (!dx) return;
+    if (log) set(Math.max(1e-9, value * Math.pow(feel.logBase, dx * co)));
+    else set(value + dx * step * co);
+  }
+  function sUnlock() {
+    if (!locked) return; locked = false; lastX = lastY = null;
+    el.classList.remove('dragging'); document.body.classList.remove('kit-dragging');
+    try { if (document.pointerLockElement === el) document.exitPointerLock?.(); } catch (err) {}
+  }
+  el.addEventListener('click', (e) => {
+    if (e.target instanceof HTMLInputElement) return;
+    if (e.target instanceof HTMLElement && e.target.classList.contains('ar')) return;
+    if (locked) { sUnlock(); return; }
+    locked = true; accY = 0; lastX = lastY = null;
+    el.classList.add('dragging'); document.body.classList.add('kit-dragging');
+    try { const p = el.requestPointerLock?.(); if (p && p.catch) p.catch(() => {}); } catch (err) {}
+  });
+  document.addEventListener('mousemove', adjust);
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && locked) sUnlock(); });
+  el.addEventListener('touchstart', (e) => { if (!(e.target instanceof HTMLInputElement)) e.preventDefault(); }, { passive: false });
+  el.addEventListener('touchmove', (e) => e.preventDefault(), { passive: false });
+  el.addEventListener('contextmenu', (e) => { e.preventDefault(); if (!opts.noReset) set(initial); });
+  el.addEventListener('dblclick', (e) => {
+    if (e.target instanceof HTMLElement && e.target.classList.contains('ar')) return;
+    const cur = value;
+    sval.removeChild(b);
+    const inp = document.createElement('input');
+    inp.value = fmt(cur); sval.appendChild(inp); inp.focus(); inp.select();
+    const done = () => { const v = parseFloat(inp.value); sval.removeChild(inp); b = document.createElement('b'); sval.appendChild(b); set(Number.isNaN(v) ? cur : v); };
+    inp.addEventListener('blur', done);
+    inp.addEventListener('keydown', (ev) => { if (ev.key === 'Enter') inp.blur(); });
+  });
+  commit(true);
+  return { el, get, set, feel, setRange: (mn, mx) => { if (mn != null) min = mn; if (mx != null) max = mx; set(value); }, setDefault: (d) => { initial = clamp(d); }, setStep: (s) => { step = s; } };
+}
+function depthLevels(dy) { return dy > 84 ? 3 : dy > 48 ? 2 : dy > 12 ? 1 : 0; }
+function createDepthMenu(o) {
+  kitEnsureStyles();
+  const menu = document.createElement('div');
+  menu.className = 'kmenu' + (o.side ? ' ' + o.side : '');
+  const lvls = o.levels.map((s) => { const d = document.createElement('div'); d.className = 'km-lvl'; d.appendChild(s.el); menu.appendChild(d); return d; });
+  o.host.appendChild(menu);
+  let isOpen = false;
+  function reveal(n) { menu.classList.toggle('open', n > 0); lvls.forEach((d, i) => d.classList.toggle('show', n > 0 && i < n)); isOpen = n > 0; }
+  return { el: menu, reveal, open: () => isOpen };
+}
+function wireDepthDrag(o) {
+  // two-finger scroll over the trigger: scroll DOWN reveals depth, UP closes; hover side picks the menu
+  let acc = 0, target = null;
+  o.trigger.addEventListener('wheel', (e) => {
+    e.preventDefault(); e.stopPropagation();
+    if (acc <= 0 || !target) { target = o.pick(e); o.menus.forEach((m) => { if (m !== target && m.open()) m.reveal(0); }); }
+    if (!target) return;
+    acc = Math.max(0, Math.min(120, acc + e.deltaY));
+    target.reveal(depthLevels(acc));
+    if (acc <= 0) target = null;
+  }, { passive: false });
+  o.trigger.addEventListener('contextmenu', (e) => e.preventDefault());
+  document.addEventListener('pointerdown', (e) => {
+    if (e.target instanceof Node && o.closeHost.contains(e.target)) return;
+    o.menus.forEach((m) => { if (m.open()) m.reveal(0); });
+    acc = 0; target = null;
+  });
+}
+// smartparam — adapted: ratio = library index (opts.ratioLabels), mult -16..16, onReset hook,
+// silent setDriven, syncConfig for remote state, locked getter; debug pad removed.
+function createSmartParam(opts = {}) {
+  kitEnsureStyles();
+  let omin = opts.min ?? 0, omax = opts.max ?? 1;
+  let wrap = !!opts.wrap;
+  const step = opts.step ?? 0.01;
+  const onInput = opts.onInput;
+  let value = clamp(opts.value ?? 0.5);
+  let defaultValue = clamp(opts.default ?? opts.value ?? 0.5);
+  let grainY = 1;
+  function clamp(v) { return wrap ? ((v % 1) + 1) % 1 : Math.max(omin, Math.min(omax, Math.max(0, Math.min(1, v)))); }
+  const el = document.createElement('div'); el.className = 'sparam';
+  const name = document.createElement('div'); name.className = 'sp-name'; name.textContent = opts.label ?? 'param';
+  const vz = document.createElement('div'); vz.className = 'sp-value';
+  const fill = document.createElement('span'); fill.className = 'sp-fill';
+  const L = document.createElement('span'); L.className = 'sp-step l'; L.textContent = '◀';
+  const num = document.createElement('span'); num.className = 'sp-num';
+  let b = document.createElement('b'); num.append(fill, b);
+  const R = document.createElement('span'); R.className = 'sp-step r'; R.textContent = '▶';
+  vz.append(L, num, R);
+  el.append(name, vz);
+  const feel = { ...FEEL_DEFAULTS, padW: 420, ...opts.feel };
+  function paint(silent) {
+    value = clamp(value);
+    const t = value.toFixed(2); if (b.textContent !== t) b.textContent = t;
+    const w = (value * 100).toFixed(1) + '%'; if (fill.style.width !== w) fill.style.width = w;
+    if (!silent && onInput) onInput(value);
+  }
+  function set(v, silent) { value = clamp(v); paint(silent); }
+  function get() { return value; }
+  function bump(dir, ev) { set(value + dir * step * (ev.shiftKey ? 10 : 1)); }
+  [L, R].forEach((a, i) => {
+    a.addEventListener('pointerdown', (e) => e.stopPropagation());
+    a.addEventListener('pointerup', (e) => { e.stopPropagation(); e.preventDefault(); bump(i === 0 ? -1 : 1, e); });
+  });
+  // CLICK to LOCK (the fader gesture): click engages the lock, move freely (no button held),
+  // click again releases. A failed capture cancels the gesture instead of leaving a roaming lock.
+  let locked = false, lastX = null, lastY = null;
+  function lock() {
+    if (locked) return; locked = true; lastX = lastY = null;
+    el.classList.add('dragging'); document.body.classList.add('kit-dragging');
+    try { if(!vz.requestPointerLock){unlock();return;} const p = vz.requestPointerLock(); if (p && p.catch) p.catch(unlock); } catch (err) {unlock();}
+  }
+  function unlock() {
+    if (!locked) return; locked = false; lastX = lastY = null;
+    el.classList.remove('dragging'); document.body.classList.remove('kit-dragging');
+    try { if (document.pointerLockElement === vz) document.exitPointerLock?.(); } catch (err) {}
+  }
+  function adjust(e) {
+    if (!locked) return;
+    let dx = e.movementX, dy = e.movementY;
+    if (dx == null || (dx === 0 && dy === 0 && document.pointerLockElement !== vz)) {
+      dx = lastX == null ? 0 : e.clientX - lastX;                       // fallback: client deltas
+      dy = lastY == null ? 0 : e.clientY - lastY;
+    }
+    lastX = e.clientX; lastY = e.clientY;
+    grainY = Math.max(0, Math.min(1, grainY - (dy || 0) / feel.vpx));    // down = finer
+    const vFactor = Math.pow(feel.vBase, -(1 - grainY));
+    const mod = depthMult(e, feel);
+    const delta = ((dx || 0) / feel.padW) * mod * vFactor;
+    if (delta) { value = clamp(value + delta); paint(false); }
+  }
+  vz.addEventListener('click', (e) => {
+    if (e.target instanceof HTMLInputElement) return;
+    if (e.target instanceof HTMLElement && e.target.classList.contains('sp-step')) return;
+    locked ? unlock() : lock();
+  });
+  document.addEventListener('mousemove', adjust);
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && locked) unlock(); });
+  document.addEventListener('pointerlockchange', () => { if(locked && document.pointerLockElement !== vz) unlock(); });
+  document.addEventListener('pointerlockerror', unlock);
+  window.addEventListener('blur', unlock);
+  vz.addEventListener('contextmenu', (e) => { e.preventDefault(); e.stopPropagation(); unlock(); if (opts.onReset) opts.onReset(); else set(defaultValue); });
+  vz.addEventListener('dblclick', (e) => {
+    if (e.target instanceof HTMLElement && e.target.classList.contains('sp-step')) return;
+    unlock();
+    num.removeChild(b);
+    const inp = document.createElement('input');
+    inp.value = kitFormat(value); num.appendChild(inp); inp.focus(); inp.select();
+    const done = () => { const v = parseFloat(inp.value); num.removeChild(inp); b = document.createElement('b'); num.appendChild(b); set(Number.isNaN(v) ? value : v); };
+    inp.addEventListener('blur', done);
+    inp.addEventListener('keydown', (ev) => { if (ev.key === 'Enter') inp.blur(); });
+  });
+  let driven = !!opts.driven;
+  function setDriven(d, silent) { driven = !!d; name.classList.toggle('driven', driven); if (!silent && opts.onDrive) opts.onDrive(driven); }
+  if (driven) name.classList.add('driven');
+  name.addEventListener('click', () => setDriven(!driven));
+  const labels = opts.ratioLabels || [];
+  let ratio = opts.ratio ?? 0, multiplier = opts.multiplier ?? 1, offset = opts.offset ?? 0;
+  const fireConfig = () => { if (opts.onConfig) opts.onConfig({ ratio, multiplier, offset, min: omin, max: omax, default: defaultValue }); };
+  const ratioS = createScrub({ label: 'ratio', value: ratio, min: 0, max: Math.max(1, labels.length - 1), step: 1, snap: 1, stacked: true, format: (x) => labels[Math.round(x)] ?? x.toFixed(0), onInput: (v) => { ratio = Math.round(v); fireConfig(); } });
+  const multS = createScrub({ label: 'mult', value: multiplier, min: -16, max: 16, step: 0.25, stacked: true, format: (x) => x.toFixed(2) + '×', onInput: (v) => { multiplier = v; fireConfig(); } });
+  const offsetS = createScrub({ label: 'offset', value: offset, min: 0, max: 1, step: 0.001, stacked: true, format: (x) => x.toFixed(3), onInput: (v) => { offset = v; fireConfig(); } });
+  const minS = createScrub({ label: 'lo', value: omin, min: 0, max: 1, step: 0.001, stacked: true, format: (x) => x.toFixed(3), onInput: (v) => { omin = v; set(value); fireConfig(); } });
+  const maxS = createScrub({ label: 'hi', value: omax, min: 0, max: 1, step: 0.001, stacked: true, format: (x) => x.toFixed(3), onInput: (v) => { omax = v; set(value); fireConfig(); } });
+  const defS = createScrub({ label: 'home', value: defaultValue, min: 0, max: 1, step: 0.001, stacked: true, format: (x) => x.toFixed(3), onInput: (v) => { defaultValue = clamp(v); if (opts.onHomeSet) opts.onHomeSet(defaultValue); } });
+  const anim = createDepthMenu({ host: el, side: 'right', levels: [ratioS, multS, offsetS] });
+  const props = createDepthMenu({ host: el, side: 'left', levels: [minS, maxS, defS] });
+  wireDepthDrag({
+    trigger: name, closeHost: el, menus: [anim, props],
+    pick: (e) => { const r = name.getBoundingClientRect(); return (e.clientX - r.left) > r.width / 2 ? anim : props; },
+  });
+  paint(true);
+  return {
+    el, get, set, setDriven,
+    syncConfig: (c) => {
+      if (c.ratio != null) { ratio = c.ratio; ratioS.set(c.ratio, true); }
+      if (c.multiplier != null) { multiplier = c.multiplier; multS.set(c.multiplier, true); }
+      if (c.offset != null) { offset = c.offset; offsetS.set(c.offset, true); }
+      if (c.min != null) { omin = c.min; minS.set(c.min, true); }
+      if (c.max != null) { omax = c.max; maxS.set(c.max, true); }
+    },
+    setWrap: (w) => { wrap = !!w; set(value, true); },
+    get locked() { return locked; },
+    get driven() { return driven; },
+    menusOpen: () => anim.open() || props.open(),
+  };
+}
+
+
+let lastStateAt=0, sentAt=0;
+let ws; function connect(){ws=new WebSocket("ws://localhost:8766/"); ws.onmessage=onmsg; ws.onclose=()=>{document.getElementById("health").textContent="Disconnected — controls unavailable";document.getElementById("fps").textContent="reconnecting…";paintPatchControls(latestState,false); setTimeout(connect,800)};}
+function cmd(o){
+ const feedback=document.getElementById('action-feedback');
+ if(ws&&ws.readyState===1){ws.send(JSON.stringify(o));
+  if(o.cmd==='hold' && o.on===false) window.webkit?.messageHandlers?.heartPointer?.postMessage('resume');
+  const labels={feedback_behavior:o.name+' feedback',feedback_reset:'Reset trails',home:'Motion Home',reconnect:'Reconnect',patch_recall:'Recall '+o.name,patch_save:'Save '+o.name,fire:'Shuffle armed controls',undo:'Undo',launch:'Launch clip',clip_nav:'Browse '+o.dir,clear:'Clear layer',hold:o.on?'Hold motion':'Resume motion',fx_press:'Effect press',timing:'Change timing'};
+  if(labels[o.cmd]){sentAt=Date.now();feedback.textContent='Sent: '+labels[o.cmd]+(o.layer?' · layer '+o.layer:'');}
+ }else{feedback.textContent='Not sent · Heart is disconnected';feedback.classList.add('bad');}
+}
+function paintLiveState(s){
+ lastStateAt=Date.now();const connection=document.getElementById('connection-state');
+ const ready=s.arena_connected===true;
+ connection.textContent=ready?'Resolume connected':s.arena_socket?'Discovering controls':'Resolume disconnected';connection.className='state-pill '+(ready?'':'warn');
+ const driven=(s.clips||[]).reduce((n,c)=>n+c.slots.filter(x=>x.drive&&(!x.owner||x.owner==='heart')).length,0);
+ const motion=document.getElementById('motion-state');motion.textContent=s.hold?'MOTION HELD':!ready?'Motion waiting':driven?`Motion running · ${driven} drives`:'No active drives';motion.className='state-pill '+(s.hold||!ready?'warn':'');
+ document.getElementById('hold-motion').setAttribute('aria-pressed',String(!!s.hold));
+ document.getElementById('hold-motion').title='Hold Heart’s parameter motion. Shader time and feedback can still evolve in Resolume.';
+ const gesture=document.getElementById('gesture-state');gesture.textContent=document.pointerLockElement?'POINTER CAPTURED · Esc releases':'Pointer free';gesture.className='state-pill '+(document.pointerLockElement?'warn':'');
+ const op=s.patch_operation||{};const status=document.getElementById('patch-status');
+ status.textContent=op.active?`${op.stage} · ${op.elapsed.toFixed(1)}s`:s.patch_status==='Ready'?'Patch operation complete':s.patch_status==='Idle'?'':s.patch_status||'';
+ for(const id of ['recall-patch','start-patch','save-patch']){document.getElementById(id).classList.toggle('busy',!!op.active);}
+ document.getElementById('save-patch').disabled=!!op.active||!ready;
+ document.getElementById('reconnect').classList.toggle('busy',!ready);
+ if(Date.now()-sentAt>1800){const text=((s.events||[]).at(-1)||'Ready for performance').replace(/took over L\d+C\d+ '([^']+)': (\d+) slots/, 'Connected $1 · $2 controls');const f=document.getElementById('action-feedback');if(f.textContent!==text)f.textContent=text;}
+}
+setInterval(()=>{if(lastStateAt&&Date.now()-lastStateAt>3000){const c=document.getElementById('connection-state');c.textContent='Heart status stale · reconnecting';c.className='state-pill bad';document.getElementById('motion-state').textContent='Motion state unknown';}},1000);
+
+const CATS=["timing","motion","range","drive","look"]; const GLOBAL=["pattern","timing"]; const COLS=["pattern",...CATS];
+const RATIOS=["1:1","1:2","1:4","2:3","3:4","4:5","5:6","3:5","1/phi","1/sqrt2","1/pi","1:3","2:5","5:8","8:13","3:2"];
+const FAMILIES=["per-slot","unison","near-unison","harmonic","just intonation","septimal","undecimal","powers of 2","powers of 3","cross-base 2v3","pendulum wave","fibonacci","lucas","coprime primes","prime stacks","CF approximants","metallic","near-phi","irrationals"];
+document.addEventListener("keydown",ev=>{if(ev.code==="Space"&&!ev.repeat&&!["INPUT","SELECT","TEXTAREA"].includes(ev.target.tagName)){ev.preventDefault(); if(focusTarget()) cmd({cmd:"fire",...focusTarget()});}});
+const built={};   // clipKey → {el, slots:{name→{row,bar,val,cfg,dot}}}
+let focusLayer=5, latestState=null;
+function focusTarget(){const c=latestState?.clips.find(c=>c.layer===focusLayer);return c?{layer:c.layer,col:c.col}:null;}
+function paintFocus(){
+ if(!latestState)return;
+ const l=latestState.layers.find(l=>l.i===focusLayer),c=latestState.clips.find(c=>c.layer===focusLayer);
+ document.getElementById('target-name').textContent=(l?.name||'Layer '+focusLayer)+' / '+(l?.clip||'idle');
+ for(const [k,b] of Object.entries(built)){const focused=+k.split(':')[0]===focusLayer;b.el.classList.toggle('focused',focused);b.el.classList.toggle('xp',focused&&document.body.classList.contains('editing'));}
+ for(const [i,d] of Object.entries(fad))d.classList.toggle('selected',+i===focusLayer);
+ document.querySelectorAll('#figgrid .fz').forEach((el,i)=>{const has=c?.presets.includes(String(i+1));el.classList.toggle('empty',!has);el.querySelector('.zl').textContent=c?.preset_names?.[String(i+1)]||`Variation ${i+1}`;el.querySelector('.zp').textContent=has?'hold to visit · tap to keep':'empty · save in Edit';});
+ const choices=document.getElementById('clip-choices');const visible=l?.bank==='forms'?l.forms:l?.clips;const sig=JSON.stringify([focusLayer,l?.ccol,visible,l?.bank]);
+ if(choices.dataset.sig!==sig){choices.dataset.sig=sig;choices.replaceChildren();if(l?.forms?.length){for(const [value,label] of [['forms','Forms'],['all','All sources']]){const b=document.createElement('button');b.textContent=label;b.classList.toggle('on',l.bank===value);b.onclick=()=>cmd({cmd:'surface_cfg',value:{banks:{...(latestState?.surface?.banks||{}),[l.name]:value}}});choices.appendChild(b);}}for(const x of visible||[]){const b=document.createElement('button');b.textContent=x.name;b.classList.toggle('on',x.col===l.ccol);b.onclick=()=>cmd({cmd:'launch',layer:focusLayer,col:x.col});choices.appendChild(b);}}
+}
+let L5COL=1;      // the figure layer's connected column — the launcher's target
+function buildClip(c){
+  const key=c.layer+":"+c.col, el=document.createElement("div"); el.className="clip"; el.dataset.key=key;
+  const L=c.layer, C=c.col;
+  el.innerHTML=`<div class="row" style="gap:8px;align-items:center;margin-bottom:4px">
+    <b>${c.name}</b><span class="k">L${L}C${C}</span>
+    <span style="margin-left:auto;display:inline-flex;gap:4px">
+      <button data-a="uni" title="⊙ unison baseline — all drives 1:1, aligned, morphs there">⊙</button>
+      <button data-a="harm" title="♩ musical shuffle — new harmonic timing constellation">♩</button>
+      <button data-a="irr" title="∞ irrational shuffle — never-repeating drift constellation">∞</button>
+      <label class="k">speed <select data-a="speed" title="Scale the whole card without changing its relationships">${[.0625,.125,.25,.5,1,2,4,8,16].map(v=>`<option value="${v}">${v}×</option>`).join("")}</select></label><button class="fire" data-a="fire" title="⚡ shuffle everything armed &amp; unlocked (space)">⚡</button>
+      <button data-a="undo" title="undo last shuffle">↶</button>
+      <button data-a="home" title="Restore the motion Home: selected axes, sweet ranges and speed">⌂ Home</button>
+      <button data-a="xp" title="⤢ every setting (surgery view)">⤢</button></span></div>
+   <div class="row" style="gap:4px;align-items:center;margin-bottom:4px">
+
+     <label style="margin-left:auto"><span class="k">morph</span> <input data-a="morph" type="range" min="0" max="16" step="0.5" value="${c.morph??3}" style="width:64px;vertical-align:middle"></label></div>
+   <div class="color-hint k"></div><div class="slots"></div>
+   <div class="gl row" style="gap:6px;margin:4px 0;display:none;align-items:center"></div>
+   <div class="k fold" data-a="fold" style="cursor:pointer;margin-top:4px">▸ shuffle targeting (matrix · arm sets · auto)</div>
+   <div class="deep" style="display:none"></div>`;
+  el.querySelector('[data-a=fire]').onclick=()=>cmd({cmd:"fire",layer:L,col:C});
+  el.querySelector('[data-a=uni]').onclick=()=>cmd({cmd:"timing",mode:"unison",layer:L,col:C});
+  el.querySelector('[data-a=harm]').onclick=()=>cmd({cmd:"timing",mode:"harmonic",layer:L,col:C});
+  el.querySelector('[data-a=irr]').onclick=()=>cmd({cmd:"timing",mode:"irrational",layer:L,col:C});
+  el.querySelector('[data-a=undo]').onclick=()=>cmd({cmd:"undo",layer:L,col:C});
+  el.querySelector('[data-a=home]').onclick=()=>cmd({cmd:"home",layer:L,col:C});
+  el.querySelector('[data-a=xp]').onclick=ev=>{el.classList.toggle("xp"); ev.target.classList.toggle("on");};
+  el.querySelector('[data-a=morph]').oninput=ev=>cmd({cmd:"morph",seconds:+ev.target.value,layer:L,col:C});
+  el.querySelectorAll(".fd[data-p]").forEach(b=>b.onclick=()=>cmd({cmd:"preset_go",pad:+b.dataset.p,layer:L,col:C}));
+  el.querySelector('[data-a=speed]').onchange=ev=>cmd({cmd:"speed",value:+ev.target.value,layer:L,col:C});
+  const saveHome=document.createElement('button');saveHome.textContent='Set motion Home';saveHome.className='set-motion-home';saveHome.title='Save the current moving axes, ranges, relationships and speed as this card’s Home';saveHome.onclick=()=>cmd({cmd:'home_set',layer:L,col:C});el.querySelector('.gl').before(saveHome);
+  // globals editor (surgery view)
+  const gl=el.querySelector(".gl");
+  gl.innerHTML=`<select data-g="Pattern">${FAMILIES.map(f=>`<option>${f}</option>`).join("")}</select>
+    <label class="k">seed <input data-g="Seed" type="number" min="0" max="31" step="1" style="width:40px"></label>
+    <label class="k">spr <input data-g="Spread" type="number" min="1" max="8" step="1" style="width:34px"></label>
+    <label class="k">dep <input data-g="Depth" type="number" min="0" max="1" step="0.05" style="width:48px"></label>
+    <label class="k">fm <input data-g="FM" type="number" min="0" max="1" step="0.05" style="width:48px"></label>`;
+  gl.querySelectorAll("[data-g]").forEach(inp=>inp.onchange=()=>{const g=inp.dataset.g;
+    cmd({cmd:"global_cfg",key:g,value:(g==="Depth"||g==="FM")?+inp.value:String(inp.value),layer:L,col:C});});
+  const deep=el.querySelector(".deep"); const btns=document.createElement("div"); btns.className="btns"; deep.appendChild(btns);
+  el.querySelector('[data-a=fold]').onclick=ev=>{const open=deep.style.display==="none"; deep.style.display=open?"block":"none"; ev.target.textContent=(open?"▾":"▸")+" shuffle targeting (matrix · arm sets · auto)";};
+  // ── shuffle matrix: rows = global + slots, cols = categories; click cell = arm; click header = whole row/col ──
+  const mx=document.createElement("table"); mx.className="mx";
+  const hdr=document.createElement("tr"); hdr.innerHTML=`<th title="clear all" onclick='cmd({cmd:"arm_clear",layer:${L},col:${C}})'>✕</th>`+COLS.map(k=>`<th data-col="${k}">${k}</th>`).join("");
+  mx.appendChild(hdr);
+  const rows=[["global","Global"],...c.slots.map(s=>[s.name,s.name])];
+  for(const [key,label] of rows){const tr=document.createElement("tr"); if(key==="global") tr.className="g";
+    tr.innerHTML=`<th data-row="${key}">${label}</th>`+COLS.map(k=>{const na=key==="global"?!GLOBAL.includes(k):k==="pattern"; return `<td class="c ${na?'na':''}" data-row="${key}" data-cat="${k}">${na?'':'·'}</td>`;}).join("");
+    mx.appendChild(tr);}
+  mx.addEventListener("click",ev=>{const t=ev.target;
+    if(t.tagName==="TD"&&!t.classList.contains("na")) cmd({cmd:"arm",slot:t.dataset.row,cat:t.dataset.cat,on:!t.classList.contains("on"),layer:L,col:C});
+    else if(t.dataset.row) cmd({cmd:"arm_row",slot:t.dataset.row,on:!(t.dataset.full==="1"),layer:L,col:C});
+    else if(t.dataset.col) cmd({cmd:"arm_col",cat:t.dataset.col,on:!(t.dataset.full==="1"),layer:L,col:C});});
+  deep.appendChild(mx);
+  const cr=document.createElement("div"); cr.className="btns";
+  cr.innerHTML=`<span class="k">one-shots</span>`+["pattern","timing","motion","look","all"].map(k=>`<button data-k="${k}">⚡${k}</button>`).join("");
+  cr.querySelectorAll("button").forEach(bb=>bb.onclick=()=>cmd({cmd:"fire_cat",cat:bb.dataset.k,layer:L,col:C})); deep.appendChild(cr);
+  const au=document.createElement("label"); au.innerHTML=`<span class="k">auto every</span> <select><option value="0">off</option>${[1,2,4,8,16,32].map(n=>`<option value="${n}">${n}</option>`).join("")}</select> <span class="k">bars</span>`;
+  au.querySelector("select").onchange=ev=>cmd({cmd:"auto",bars:+ev.target.value,layer:L,col:C}); btns.appendChild(au);
+  const chips=document.createElement("span"); chips.className="chips"; chips.style.display="inline-flex"; chips.style.gap="6px"; chips.style.alignItems="center"; btns.appendChild(chips);
+  const sv=document.createElement("input"); sv.type="text"; sv.placeholder="save arm set as…"; sv.size=14; sv.onkeydown=ev=>{if(ev.key==="Enter"&&sv.value.trim()){cmd({cmd:"armset_save",name:sv.value.trim(),layer:L,col:C}); sv.value="";} ev.stopPropagation();}; btns.appendChild(sv);
+  const hs=document.createElement("button"); hs.textContent="★ set home (all)"; hs.onclick=()=>cmd({cmd:"home_set",layer:L,col:C}); btns.appendChild(hs);
+  // ── axis rows: value · ★ good · 🔒 lock · ⚡ fire — plus the full channel strip in surgery view ──
+  const slots={};
+  for(const sl of c.slots){
+    const row=document.createElement("div"); row.className="slot2";
+    const name=sl.name;
+    if(sl.choices?.length){
+      row.dataset.slot=name;
+      const label=document.createElement('label');label.textContent=name;
+      const picker=document.createElement('select');picker.style.cssText='display:block;width:100%;margin-top:8px';
+      sl.choices.forEach((text,i)=>{const o=document.createElement('option');o.value=i;o.textContent=text;picker.append(o);});
+      picker.value=Math.round(sl.v*(sl.choices.length-1));
+      picker.onchange=()=>cmd({cmd:'choice',slot:name,option:sl.choices[+picker.value],layer:L,col:C});
+      label.append(picker);row.append(label);el.querySelector('.slots').append(row);slots[name]={row,picker};continue;
+    }
+    const mini=document.createElement("span"); mini.className="ax";
+    mini.innerHTML=`<b class="axb" data-a="good" title="\u2605 tap: axis \u2192 its good \u00b7 hold \u00bds: SET good">\u2605</b><b class="axb" data-a="lock" title="\ud83d\udd12 shuffle-proof">\ud83d\udd12</b><b class="axb" data-a="fire1" title="\u26a1 shuffle this axis">\u26a1</b>`;
+    const gb=mini.querySelector('[data-a=good]'); let gt=0;
+    gb.onmousedown=()=>{gt=Date.now();};
+    gb.onmouseup=()=>{ if(Date.now()-gt>=500) cmd({cmd:"good_set",slot:name,layer:L,col:C}); else cmd({cmd:"good_go",slot:name,layer:L,col:C}); };
+    mini.querySelector('[data-a=lock]').onclick=()=>cmd({cmd:"slot_cfg",slot:name,key:"Lock",value:!slots[name].lock,layer:L,col:C});
+    mini.querySelector('[data-a=fire1]').onclick=()=>cmd({cmd:"fire_slot",slot:name,layer:L,col:C});
+    let cfgKnown={ratio:RATIOS[Math.max(0,RATIOS.indexOf(sl.ratio))],multiplier:sl.mult,offset:sl.offset??0,min:sl.lo,max:sl.hi};
+    const chip=createSmartParam({
+      label:name, value:sl.v, driven:sl.drive, wrap:!!sl.cyc,
+      min:sl.lo, max:sl.hi, ratio:Math.max(0,RATIOS.indexOf(sl.ratio)), multiplier:sl.mult, offset:sl.offset??0,
+      ratioLabels:RATIOS,
+      onInput:v=>cmd({cmd:"manual",slot:name,value:v,layer:L,col:C}),
+      onDrive:d=>cmd({cmd:"drive",slot:name,on:d,layer:L,col:C}),
+      onReset:()=>cmd({cmd:"good_go",slot:name,layer:L,col:C}),
+      onHomeSet:()=>cmd({cmd:"good_set",slot:name,layer:L,col:C}),
+      onConfig:cf=>{
+        const m={ratio:["Ratio",RATIOS[cf.ratio]],multiplier:["Mult",cf.multiplier],offset:["Offset",cf.offset],min:["Lo",cf.min],max:["Hi",cf.max]};
+        for(const k in m){ if(cfgKnown[k]!==m[k][1]) cmd({cmd:"slot_cfg",slot:name,key:m[k][0],value:m[k][1],layer:L,col:C}); cfgKnown[k]=m[k][1]; }
+      },
+    });
+    row.dataset.slot=name;
+
+    row.append(mini, chip.el);
+    el.querySelector(".slots").appendChild(row);
+    slots[name]={row,chip,mini,drive:sl.drive,lock:!!sl.lock,lockB:mini.querySelector('[data-a=lock]')};
+  }
+  document.getElementById("clips").appendChild(el);
+  // quick-access: one ⚡ per clip up top (+ undo), stays put while the detail scrolls
+  const q=document.createElement("span"); q.style.display="inline-flex"; q.style.gap="4px"; q.style.alignItems="center";
+  q.innerHTML=`<span class="k">${c.name}</span>`; const qf=document.createElement("button"); qf.className="fire"; qf.textContent="⚡"; qf.onclick=()=>cmd({cmd:"fire",layer:L,col:C});
+  const qu=document.createElement("button"); qu.textContent="↶"; qu.onclick=()=>cmd({cmd:"undo",layer:L,col:C}); q.append(qf,qu); document.getElementById("quick").appendChild(q);
+  built[key]={el,slots,mx,au,chips,armsets:"",q}; return built[key];
+}
+const fad={};
+function buildLayers(ls){const st=document.getElementById("strip"); st.innerHTML="";
+  for(const L of [...ls].sort((a,b)=>b.i-a.i)){const d=document.createElement("div"); d.className="fad";
+    d.innerHTML=`<span class="cl"></span><div class="trk"><i></i><span class="hm"></span><span class="fdot"></span></div><span class="v"></span><span class="gr"></span><span class="nm">${L.i} ${L.name}</span><span class="mt" title="bypass">bypass</span><div class="nav"><b data-n="prev" title="prev clip">‹</b><b data-n="rand" title="random clip">⚄</b><b data-n="next" title="next clip">›</b><b data-n="clear" title="Clear this layer">clear</b><b data-n="ap" title="autopilot: random clip (Arena's own)">A</b></div><div class="deck" title="launch a clip by name"></div><div class="lane">${[1,2,3,4].map(n=>`<b data-l="${n}">${n}</b>`).join("")}</div><span class="cfg" title="this fader's touch / release behaviour (mouse and pad)">touch · release ⚙</span><span class="hset" title="set home = current value">⌂ set home</span>`;
+    d.querySelector(".nm").onclick=()=>{focusLayer=L.i;paintFocus();};
+    d.querySelector(".hset").onclick=()=>{ if(locked) return; PAD.setHome(L.i,val); };
+    d.querySelectorAll(".lane b").forEach(bb=>bb.onclick=()=>{const n=+bb.dataset.l; PAD.assign(L.i, PAD.laneOf(L.i)===n?0:n);});
+    d.querySelectorAll(".nav b").forEach(bb=>bb.onclick=()=>{const n=bb.dataset.n;
+      if(n==="clear")cmd({cmd:"clear",layer:L.i});
+      else if(n==="ap") cmd({cmd:"autopilot",layer:L.i,on:!(d.dataset.ap==="1")});
+      else cmd({cmd:"clip_nav",layer:L.i,dir:n});});
+    d.querySelector(".cfg").onclick=ev=>PAD.popover(L.i,d,ev);
+    // ── click-to-LOCK fader (smartparam law): click = lock pointer to the track; move Y = value, move X = grain
+    //    (right = finer); click again (or Esc) = release. No holding the button. ──
+    const trk=d.querySelector(".trk"), fill=trk.querySelector("i"), vEl=d.querySelector(".v"), gEl=d.querySelector(".gr");
+    const F={padH:260, vpx:300, vBase:24};            // px to cross [0,1] at default grain · px across the grain pad · fineness at pad edge
+    let val=L.opacity, grain=1, locked=false, hadLock=false;
+    const paint=()=>{fill.style.height=(val*100)+"%"; vEl.textContent=val.toFixed(3); gEl.textContent=locked?"locked":"";};
+    d.setVal=v=>{val=v; paint();}; d.getVal=()=>val; d.isLocked=()=>locked;
+    const lock=()=>{locked=true; d.classList.add("locked"); paint(); try{if(!trk.requestPointerLock){unlock();return;} const p=trk.requestPointerLock(); if(p?.catch)p.catch(unlock);}catch(e){unlock();}};
+    const unlock=()=>{locked=false; d.classList.remove("locked"); if(document.pointerLockElement===trk) document.exitPointerLock?.(); paint(); PAD.released(L.i,d);};
+    trk.addEventListener("click",()=>locked?unlock():lock());
+    document.addEventListener("mousemove",e=>{ if(!locked) return;
+      val=Math.max(0,Math.min(1,val-(e.movementY||0)/F.padH));                    // Y → value (up = more). X unused for now.
+      d.dataset.hold=Date.now(); cmd({cmd:"opacity",layer:L.i,value:val}); paint(); });
+    document.addEventListener("pointerlockchange",()=>{ if(document.pointerLockElement===trk) hadLock=true; else if(locked){hadLock=false; unlock();} });
+    document.addEventListener("pointerlockerror",()=>{if(locked)unlock();});
+    document.addEventListener("keydown",e=>{if(e.key==="Escape"&&locked)unlock();});
+    window.addEventListener("blur",()=>{if(locked)unlock();});
+    trk.addEventListener("contextmenu",e=>{e.preventDefault(); unlock(); val=L.i===0?1:val; });
+    paint(); d.querySelector(".hm").style.bottom=(PAD.homeOf(L.i)*100)+"%";
+    d.querySelector(".mt").onclick=()=>cmd({cmd:"bypass",layer:L.i,on:!(d.dataset.bp==="1")});
+    st.appendChild(d); fad[L.i]=d;}
+  PAD.paintLanes();
+}
+// START PATCH CONTROLS — keep selection separate from recalling a composition.
+function startPatchName(s){return s?.surface?.start_patch||'Start';}
+function paintPatchControls(s,connected=ws?.readyState===1){
+ const names=s?.patches||[], name=startPatchName(s), available=names.includes(name);
+ const start=document.getElementById('start-patch'), use=document.getElementById('use-as-start');
+ const chosen=document.getElementById('patch-choice').value;
+ start.textContent='Start: '+name+(available?'':' · missing');
+ start.disabled=!connected||!s?.patch_recall_ready||!available;
+ start.title=!available?'Saved Start patch is missing. Choose an existing patch and use “Use as Start”.':!connected?'Reconnect to Heart to restore '+name:'Restore '+name+' and its motion. This can interrupt the output briefly.';
+ use.disabled=!connected||!names.includes(chosen)||chosen===name;
+ use.textContent=chosen===name?'Used as Start':'Use as Start';
+ use.title=chosen===name?'The Start button restores '+name:'Make '+chosen+' the Start patch without loading it';
+ const recall=document.getElementById('recall-patch');
+ recall.disabled=!connected||!s?.patch_recall_ready||!names.includes(chosen);
+ recall.title=s?.patch_recall_ready?'Recall selected patch':'Connect to Resolume and wait for the current patch operation';
+}
+function recallStartPatch(){
+ const s=latestState,name=startPatchName(s);
+ if(ws?.readyState===1&&s?.patch_recall_ready&&(s.patches||[]).includes(name))cmd({cmd:'patch_recall',name});
+}
+function useSelectedAsStart(){
+ const name=document.getElementById('patch-choice').value;
+ if(ws?.readyState!==1||!(latestState?.patches||[]).includes(name)||name===startPatchName(latestState))return;
+ cmd({cmd:'surface_cfg',value:{start_patch:name}});
+ sentAt=Date.now();document.getElementById('action-feedback').textContent='Sent: Use '+name+' as Start';
+ // Wait for the engine's saved surface state before changing the Start target.
+}
+// END START PATCH CONTROLS
+function onmsg(e){const s=JSON.parse(e.data); latestState=s;const pc=document.getElementById('patch-choice');if(JSON.stringify(s.patches)!==pc.dataset.sig){const old=pc.value;pc.replaceChildren();for(const name of s.patches||[]){const o=document.createElement('option');o.value=o.textContent=name;pc.append(o);}if((s.patches||[]).includes(old))pc.value=old;pc.dataset.sig=JSON.stringify(s.patches);}document.getElementById('patch-status').textContent=(s.patch_status||'').startsWith('Failed:')?'Recall needs attention':s.patch_status||'';document.getElementById('patch-status').title=s.patch_status||'';paintPatchControls(s); PAD.sync(s.surface);paintLiveState(s);
+ if(s.fx){ try{ fxRender(s.fx); }catch(err){ console.error(err); } }
+ if(s.layers){ if(Object.keys(fad).length!==s.layers.length) buildLayers(s.layers);
+   for(const L of s.layers){const d=fad[L.i]; if(!d) continue; const r=d.querySelector("input");
+     if(!d.isLocked()&&Date.now()-(+d.dataset.hold||0)>700) d.setVal(L.opacity);
+     if(L.i===5&&L.ccol) L5COL=L.ccol;
+     d.querySelector(".cl").textContent=(L.ccol?L.ccol+"·":"")+(L.clip||"–"); d.querySelector(".cl").title=(L.clips||[]).map(c=>c.col+" "+c.name).join("\n");
+     // the deck: every named clip on this layer as a chip — lit = playing, tap = launch (Arena's own transition)
+     const dk=d.querySelector(".deck"), sig=(L.clips||[]).map(c=>c.col+":"+c.name).join("|")+"#"+L.ccol;
+     if(dk && dk.dataset.sig!==sig){ dk.dataset.sig=sig; dk.innerHTML=(L.clips||[]).filter(c=>c.name).map(c=>`<b data-c="${c.col}" class="${c.col===L.ccol?"on":""}">${c.name}</b>`).join("");
+       dk.querySelectorAll("b").forEach(bb=>bb.onclick=()=>cmd({cmd:"launch",layer:L.i,col:+bb.dataset.c})); }
+     d.dataset.ap=(L.ap>0)?"1":"0"; d.querySelector("[data-n=ap]").classList.toggle("on",L.ap>0); d.dataset.bp=L.bypass?"1":"0"; d.classList.toggle("bp",!!L.bypass); d.querySelector(".mt").classList.toggle("on",!!L.bypass); d.querySelector(".mt").textContent=L.bypass?"BYPASSED":"Bypass off";} }
+ for(const k of["H","bpm","fps","worst"])document.getElementById(k).textContent=s[k]; if(document.activeElement!==document.getElementById("bars")) document.getElementById("bars").value=s.bars;document.getElementById("q").textContent=s.queue??"";
+ const seen=new Set();
+ for(const c of s.clips){const key=c.layer+":"+c.col; seen.add(key); let b=built[key]; const schema=JSON.stringify(c.slots.map(s=>[s.name,s.choices]));
+   if(b && b.schema!==schema){b.el.remove();b.q.remove();delete built[key];b=null;}
+   b=b||buildClip(c);b.schema=schema; const el=b.el;
+   let summary=el.querySelector('.drive-summary');if(!summary){summary=document.createElement('span');summary.className='drive-summary';el.prepend(summary);}const moving=c.slots.filter(x=>x.morphing);const remaining=Math.max(0,...moving.map(x=>x.morph_remaining||0));
+   if(!summary.querySelector('span')){summary.replaceChildren(document.createElement('span'),document.createElement('progress'));summary.querySelector('progress').max=1;}
+   summary.querySelector('span').textContent=`${s.hold?'Held · ':''}${c.slots.filter(x=>x.drive).length}/${c.slots.length} drives · ${c.home_kind||'motion'}${moving.length?' · Morphing '+remaining.toFixed(1)+'s':''}${c.slots.some(x=>x.owner&&x.owner!=='heart')?' · external motion present':''}`;
+   const progress=summary.querySelector('progress');progress.hidden=!moving.length;progress.value=moving.length?Math.min(...moving.map(x=>x.morph_progress||0)):1;progress.title='Time through the current control morph';
+   el.querySelector('[data-a=home]')?.classList.toggle('busy',!!moving.length);
+   let fb=el.querySelector('.feedback-bank');
+   if(c.feedback_behaviors?.length&&!fb){fb=document.createElement('div');fb.className='btns feedback-bank';summary.after(fb);
+    for(const name of c.feedback_behaviors){const button=document.createElement('button');button.textContent=name;button.title='Apply '+name+' to feedback movement and loop color';button.onclick=()=>cmd({cmd:'feedback_behavior',name,layer:c.layer,col:c.col});fb.append(button);}
+    const reset=document.createElement('button');reset.textContent='Reset trails';reset.title='Erase stored feedback history on the next rendered frame. Live input continues afterward.';reset.onclick=()=>cmd({cmd:'feedback_reset',layer:c.layer,col:c.col});fb.append(reset);
+   }
+   const ae=document.activeElement;
+   const color=c.slots.find(x=>x.name==='Color'&&x.choices?.includes('loop'));
+   const hint=el.querySelector('.color-hint');
+   hint.textContent=color?(color.choices[Math.round(color.v*(color.choices.length-1))]==='loop'?'Palette active · Red / Green / Blue shift palette phases.':'Hue and Red / Green / Blue are bypassed. Choose Color → loop to use the palette.') : '';
+
+   // matrix state
+   const arm=c.arm||{global:[],slots:{}};
+   b.mx.querySelectorAll("td.c").forEach(td=>{const on=td.dataset.row==="global"?arm.global.includes(td.dataset.cat):(arm.slots[td.dataset.row]||[]).includes(td.dataset.cat); td.classList.toggle("on",on); td.textContent=td.classList.contains("na")?"":(on?"●":"·");});
+   b.mx.querySelectorAll("th[data-row]").forEach(th=>{const r=th.dataset.row; const n=r==="global"?arm.global.length:(arm.slots[r]||[]).length; const full=r==="global"?n===GLOBAL.length:n===CATS.length; th.dataset.full=full?"1":"0"; th.style.color=n?(full?"#62f0c0":"#9fc4dc"):"";});
+   b.mx.querySelectorAll("th[data-col]").forEach(th=>{const k=th.dataset.col; if(k==="pattern"){const on=arm.global.includes("pattern"); th.dataset.full=on?"1":"0"; th.style.color=on?"#62f0c0":""; return;} const n=c.slots.filter(s=>(arm.slots[s.name]||[]).includes(k)).length; th.dataset.full=n===c.slots.length?"1":"0"; th.style.color=n?(n===c.slots.length?"#62f0c0":"#9fc4dc"):"";});
+   const sel=b.au.querySelector("select"); if(document.activeElement!==sel) sel.value=String(c.auto||0);
+   const as=(c.armsets||[]).join("|"); if(as!==b.armsets){b.armsets=as; b.chips.innerHTML=(c.armsets||[]).map(n=>`<span class="chip" data-n="${n}">${n}<i title="delete" data-del="${n}">✕</i></span>`).join(""); b.chips.querySelectorAll(".chip").forEach(ch=>{ch.onclick=ev=>{if(ev.target.dataset.del) cmd({cmd:"armset_delete",name:ev.target.dataset.del,layer:c.layer,col:c.col}); else cmd({cmd:"armset_recall",name:ch.dataset.n,layer:c.layer,col:c.col});};});}
+   (c.presets||[]).forEach(n=>{const d=el.querySelector(`.fd[data-p="${n}"]`); if(d) d.classList.add("has");});
+   const speed=el.querySelector('[data-a=speed]');if(ae!==speed)speed.value=String(c.g.speed??1);
+   const mS=el.querySelector('[data-a=morph]'); if(ae!==mS) mS.value=c.morph??3;
+   el.querySelectorAll(".gl [data-g]").forEach(inp=>{ if(ae===inp) return; const g=inp.dataset.g;
+     if(g==="Pattern") inp.value=c.pattern; else if(g==="Seed") inp.value=+c.g.seed; else if(g==="Spread") inp.value=+c.g.spread;
+     else if(g==="Depth") inp.value=(c.g.depth??0); else inp.value=(c.g.fm??0); });
+   for(const sl of c.slots){const r=b.slots[sl.name]; if(!r) continue;
+     if(r.picker){if(ae!==r.picker)r.picker.value=Math.round(sl.v*(sl.choices.length-1));continue;}
+     r.drive=sl.drive; r.lock=!!sl.lock;
+     r.lockB.classList.toggle("on",!!sl.lock);
+     if(!r.chip.locked) r.chip.set(sl.v,true);
+     if(r.chip.driven!==sl.drive) r.chip.setDriven(sl.drive,true);
+     if(!r.chip.menusOpen()) r.chip.syncConfig({ratio:Math.max(0,RATIOS.indexOf(sl.ratio)),multiplier:sl.mult,offset:sl.offset??0,min:sl.lo,max:sl.hi});
+   }
+ }
+ for(const key in built){ if(!seen.has(key)){ built[key].el.remove(); built[key].q.remove(); delete built[key]; } }
+ paintFocus(); document.getElementById("health").textContent=(s.arena_connected===false?"Arena disconnected":`Connected · ${s.queue??0} pending`); document.getElementById("hold-motion").textContent=s.hold?"Resume motion":"Hold motion";
+ document.getElementById("ev").textContent=s.events.slice().reverse().join("\n");}
+const bank=document.getElementById('strip');document.getElementById('performance').after(bank);
+const choices=document.createElement('div');choices.id='clip-choices';bank.after(choices); choices.after(document.getElementById('clips'));
+const padExtras=document.createElement('div');padExtras.id='pad-extras';document.getElementById('rack').after(padExtras);padExtras.append(document.getElementById('padlock'),document.getElementById('figlock'));
+document.getElementById('start-patch').onclick=recallStartPatch;
+document.getElementById('use-as-start').onclick=useSelectedAsStart;
+document.getElementById('patch-choice').onchange=()=>paintPatchControls(latestState);
+document.getElementById('recall-patch').onclick=()=>{const name=document.getElementById('patch-choice').value;if(name)cmd({cmd:'patch_recall',name});};
+document.getElementById('save-patch').onclick=()=>{const name=prompt('Name this performance patch');if(name)cmd({cmd:'patch_save',name});};
+document.getElementById('return').oncontextmenu=e=>{e.preventDefault();if(focusTarget())cmd({cmd:'home',factory:true,...focusTarget()});};
+document.getElementById('return').title='Motion Home for the selected instrument. Right-click for factory Home.';
+document.getElementById('return').onclick=()=>{if(focusTarget())cmd({cmd:'home',...focusTarget()});};
+document.getElementById('undo-main').onclick=()=>{if(focusTarget())cmd({cmd:'undo',...focusTarget()});};
+document.getElementById('mutate').onclick=()=>{if(focusTarget())cmd({cmd:'fire',...focusTarget()});};
+document.getElementById('reconnect').onclick=()=>{document.getElementById('health').textContent='Reconnecting…'; if(ws?.readyState===WebSocket.OPEN)cmd({cmd:'reconnect'});else if(!ws||ws.readyState===WebSocket.CLOSED)connect();};
+document.getElementById('hold-motion').onclick=()=>cmd({cmd:'hold',on:!latestState?.hold});
+document.getElementById('edit-mode').onclick=()=>{document.body.classList.toggle('editing');paintFocus();};
+connect();
+
+
+// ═══ EFFECT RACK: one button per effect; press = envelope in/out per its mode. Key-learn: click the key slot, press a key. ═══
+const FXR={built:{},learn:null,keys:{}};
+function fxRender(list){const rack=document.getElementById("rack"); const groups={};
+  for(const e of list){const g=e.scope==="C"?"Composition":e.scope==="G"?e.key.split("/effect/")[0]:"L"+e.layer; (groups[g]=groups[g]||[]).push(e);}
+  const want=list.map(e=>e.key).join("|"); if(FXR.sig!==want){FXR.sig=want; for(const g of Object.values(FXR.built))g.box.remove(); rack.innerHTML=""; FXR.built={};
+    for(const g of Object.keys(groups).sort((a,b)=>a==="Composition"?1:b==="Composition"?-1:(+b.slice(1))-(+a.slice(1)))){const box=document.createElement("div"); box.className="rk"; const ln=groups[g][0].lname; box.innerHTML=`<div class="t">${g}${ln?" · <b>"+ln+"</b>":""}</div>`; rack.appendChild(box); FXR.built[g]={box,items:{}};}}
+  for(const [g,G] of Object.entries(FXR.built)){
+    const host=g.startsWith('L')?fad[+g.slice(1)]:rack;
+    G.box.classList.toggle('layerfx',g.startsWith('L'));
+    if(host && G.box.parentElement!==host)host.appendChild(G.box);
+    const pair=(groups[g]||[]).filter(e=>['Blur','Sharpen'].includes(e.name));
+    if(pair.length===2 && !G.box.querySelector('.fx-pair')){const b=document.createElement('button');b.className='fx-pair';b.textContent='Blur + Sharpen';b.onclick=()=>cmd({cmd:'fx_pair',keys:pair.map(e=>e.key)});G.box.prepend(b);}
+  }
+  FXR.keys={};
+  for(const e of list){const g=e.scope==="C"?"Composition":e.scope==="G"?e.key.split("/effect/")[0]:"L"+e.layer; const G=FXR.built[g]; if(!G) continue; if(e.lname) G.box.querySelector(".t").innerHTML=`${g} · <b>${e.lname}</b>`; let it=G.items[e.key];
+    if(!it){it=document.createElement("div"); it.className="fxb"; it.innerHTML=`<span class="ring"></span><span class="nm">${e.name}</span><span class="fx-state"></span><span class="key" title="click, then press a key">·</span><span class="g" title="attack / release / mode">⚙</span>`;
+      const press=ev=>{if(ev.target.closest("input,label,.color-controls,.pop")||ev.target.classList.contains("key")||ev.target.classList.contains("g")) return; if(e.has_amount===false){fxPop(e,it);return;}cmd({cmd:"fx_press",key:e.key});}, rel=()=>cmd({cmd:"fx_release",key:e.key});
+      it.addEventListener("mousedown",press); it.addEventListener("mouseup",rel); it.addEventListener("mouseleave",rel);
+      it.querySelector(".key").onclick=ev=>{ev.stopPropagation(); FXR.learn=e.key; it.querySelector(".key").classList.add("learn"); it.querySelector(".key").textContent="?";};
+      it.querySelector(".g").onclick=ev=>{ev.stopPropagation(); fxPop(e,it);};
+      if(Object.keys(e.colors||{}).length){
+        const controls=document.createElement('span');controls.className='color-controls';controls.style.cssText='display:inline-flex;gap:5px;align-items:center';
+        for(const [name,color] of Object.entries(e.colors)){
+          const picker=document.createElement('input');picker.type='color';picker.dataset.color=name;picker.value=color.value.slice(0,7);picker.title=name;picker.style.cssText='width:32px;height:26px;padding:0';
+          picker.oninput=()=>cmd({cmd:'fx_color',key:e.key,name,value:picker.value});controls.append(picker);
+        }
+        const label=document.createElement('label');label.textContent='amount ';
+        const amount=document.createElement('input');amount.type='range';amount.min=0;amount.max=1;amount.step=.01;amount.dataset.amount='';amount.style.width='75px';
+        amount.oninput=()=>cmd({cmd:'fx_amount',key:e.key,value:+amount.value});label.append(amount);controls.append(label);it.append(controls);
+      }
+      G.box.appendChild(it); G.items[e.key]=it;}
+    it.querySelectorAll('[data-color]').forEach(p=>{if(document.activeElement!==p)p.value=e.colors[p.dataset.color].value.slice(0,7);});
+    const amount=it.querySelector('[data-amount]');if(amount&&document.activeElement!==amount)amount.value=e.target;
+    it.style.setProperty("--p",(e.env*100)+"%"); it.classList.toggle("on",e.env>0.001); it.classList.toggle("bp",e.bypassed&&e.env<=0.001); it.classList.toggle("pend",e.pending);
+    const k=it.querySelector(".key"); if(FXR.learn!==e.key){k.classList.remove("learn"); k.textContent=e.cfg.key||"·";} if(e.cfg.key) FXR.keys[e.cfg.key]=e.key;
+    const amountText=Math.round(e.env*100)+'%';
+    it.querySelector('.fx-state').textContent=e.has_amount===false?'controls':e.pending?'waiting for beat':Math.abs(e.env-e.target)>.015?(e.target>e.env?'fading in ':'fading out ')+amountText:e.env<.001?'off':(e.cfg.mode==='latch'?'latched ':e.cfg.mode==='momentary'?'momentary ':'on ')+amountText;
+    it.title=`${e.cfg.mode} · attack ${e.cfg.attack}s · release ${e.cfg.release}s${e.cfg.quant?" · q "+e.cfg.quant+" bars":""}`;}
+}
+function fxPop(e,it){document.querySelectorAll(".pop").forEach(p=>p.remove()); e=latestState.fx.find(x=>x.key===e.key)||e; const c=e.cfg; const p=document.createElement("div"); p.className="pop"; p.style.left="0"; p.style.top="100%";
+  p.innerHTML=`<b>${e.name}</b>
+   <label>mode <select data-k="mode"><option value="latch">latch (press in / press out)</option><option value="momentary">momentary (hold)</option><option value="oneshot">one-shot (flash to full, spring back)</option></select></label>
+   <label>attack s <input type="range" data-k="attack" min="0" max="8" step="0.05"><span data-v="attack"></span></label>
+   <label>release s <input type="range" data-k="release" min="0" max="8" step="0.05"><span data-v="release"></span></label>
+   <label>one-shot hold before release (bars) <input type="range" data-k="hold" min="0" max="4" step="0.25"><span data-v="hold"></span></label>
+   <label>quantize (bars, 0=now) <select data-k="quant"><option value="0">0</option><option value="0.25">¼</option><option value="1">1</option><option value="2">2</option><option value="4">4</option></select></label>
+   <label>bypass at 0 <input type="checkbox" data-k="bypass0"></label>
+   <button>close</button>`;
+  p.querySelectorAll("[data-k]").forEach(el=>{const k=el.dataset.k; if(el.type==="checkbox") el.checked=!!c[k]; else el.value=c[k]; const sv=p.querySelector(`[data-v=${k}]`); if(sv) sv.textContent=c[k];
+    el.oninput=()=>{const v=el.type==="checkbox"?el.checked:(isNaN(+el.value)?el.value:+el.value); c[k]=v; if(sv) sv.textContent=v; cmd({cmd:"fx_cfg",key:e.key,cfg:{[k]:v}});};});
+  const controls=document.createElement('div');controls.className='fx-controls';
+  for(const [name,param] of Object.entries(e.params||{})){
+    const row=document.createElement('label');const text=document.createElement('span');text.textContent=name;row.append(text);
+    let input;const kind=param.valuetype;
+    if(kind==='ParamChoice'){input=document.createElement('select');for(const opt of param.options||[]){const o=document.createElement('option');o.value=o.textContent=opt;input.append(o);}input.value=param.value;}
+    else if(['ParamTrigger','ParamEvent'].includes(kind)){input=document.createElement('button');input.textContent='Trigger';input.onclick=()=>cmd({cmd:'fx_param',key:e.key,name,value:true});}
+    else{input=document.createElement('input');
+      if(['ParamBool','ParamBoolean'].includes(kind)){input.type='checkbox';input.checked=!!param.value;}
+      else if(kind==='ParamColor'){input.type='color';input.value=String(param.value).slice(0,7);}
+      else{input.type='range';input.min=param.min??0;input.max=param.max??1;input.step=['ParamInt','ParamNumber'].includes(kind)?1:Math.max(0.00001,(input.max-input.min)/1000);input.value=param.value;input.title=String(param.value);}}
+    input.oninput=()=>{const value=input.type==='checkbox'?input.checked:input.type==='range'?+input.value:input.value;input.title=String(value);cmd(name==='Opacity'?{cmd:'fx_amount',key:e.key,value:(+value)/(param.max||1)}:{cmd:'fx_param',key:e.key,name,value});};row.append(input);controls.append(row);
+  }p.prepend(controls);
+  p.lastElementChild.onclick=()=>p.remove(); const bounds=it.getBoundingClientRect();p.style.position="fixed";p.style.left=Math.min(bounds.left,innerWidth-330)+"px";p.style.top=Math.min(bounds.bottom,innerHeight-420)+"px";p.style.maxHeight="70vh";p.style.overflow="auto";document.body.appendChild(p); }
+document.addEventListener("keydown",ev=>{ if(ev.target.closest?.("input,select,textarea,[contenteditable=true]")) return;
+  if(FXR.learn){ ev.preventDefault(); const k=ev.key.length===1?ev.key:ev.code; cmd({cmd:"fx_cfg",key:FXR.learn,cfg:{key:k}}); FXR.learn=null; return; }
+  if(ev.repeat) return; const key=ev.key.length===1?ev.key:ev.code; const fx=FXR.keys[key]; if(fx){ ev.preventDefault(); cmd({cmd:"fx_press",key:fx}); } });
+window.addEventListener('blur',()=>cmd({cmd:'release_all'}));
+document.addEventListener('visibilitychange',()=>{if(document.hidden)cmd({cmd:'release_all'});});
+document.addEventListener("keyup",ev=>{ const key=ev.key.length===1?ev.key:ev.code; const fx=FXR.keys[key]; if(fx) cmd({cmd:"fx_release",key:fx}); });
+// on-page error banner: a runtime error must never silently blank the surface
+window.addEventListener("error",ev=>{const b=document.getElementById("errb")||Object.assign(document.body.appendChild(document.createElement("div")),{id:"errb",style:"position:fixed;top:0;left:0;right:0;background:#3a0b0b;color:#ff9f9f;padding:4px 10px;font:11px ui-monospace;z-index:999"}); b.textContent="JS error: "+ev.message+" @ line "+ev.lineno;});
+// ═══ PAD: the trackpad as a 4-lane fader bank. Values come from the native probe (ws 8770), not the mouse. ═══
+const PAD=(()=>{
+  const NL=4; const st=JSON.parse(localStorage.getItem("pad")||"{}"); st.assign=st.assign||{}; st.cfg=st.cfg||{};
+  const DEF={touch:"rel",rel:"hold",spring:0.4,smooth:0.3,pfine:false,gain:1}; st.home=st.home||{};
+  let synced=false;
+  const save=()=>{localStorage.setItem("pad",JSON.stringify(st));cmd({cmd:'surface_cfg',value:{pad:st}});};
+  const sync=surface=>{if(synced||!surface)return;synced=true;if(surface.pad){Object.assign(st,surface.pad);paintLanes();}else save();};
+  const cfgOf=i=>Object.assign({},DEF,st.cfg[i]||{});
+  const F={};  // layer → runtime fader state
+  let locked=false, hz=0, lastT=performance.now()/1000;
+  const laneOf=i=>st.assign[i]||0;
+  const assign=(i,n)=>{ for(const k in st.assign) if(st.assign[k]===n) delete st.assign[k]; if(n) st.assign[i]=n; else delete st.assign[i]; save(); paintLanes(); };
+  function paintLanes(){ for(const i in fad){ const d=fad[i]; d.querySelectorAll(".lane b").forEach(b=>b.classList.toggle("on",laneOf(+i)===+b.dataset.l)); const c=cfgOf(+i); d.querySelector(".cfg").textContent=`${c.touch} · ${c.rel==="hold"?"hold":c.rel==="zero"?"→0":"→home"} ⚙`; }
+    document.getElementById("padlanes").textContent=[1,2,3,4].map(n=>{const i=Object.keys(st.assign).find(k=>st.assign[k]===n); return i?`${n}:L${i}`:`${n}:–`;}).join("  "); }
+  // ── settings popover ──
+  function popover(i,d,ev){ document.querySelectorAll(".pop").forEach(p=>p.remove()); const c=cfgOf(i); const p=document.createElement("div"); p.className="pop";
+    p.innerHTML=`<b>L${i} fader — touch / release</b>
+     <label>touch <select data-k="touch"><option value="abs">absolute</option><option value="rel">relative</option><option value="catch">catch</option></select></label>
+     <label>release <select data-k="rel"><option value="hold">hold</option><option value="zero">spring → 0</option><option value="home">spring → home</option></select></label>
+     <label>spring s <input type="range" data-k="spring" min="0" max="3" step="0.05"></label>
+     <label>smooth <input type="range" data-k="smooth" min="0" max="0.95" step="0.05"></label>
+     <label>rel gain <input type="range" data-k="gain" min="0.25" max="3" step="0.05"></label>
+     <label>press = finer (pad) <input type="checkbox" data-k="pfine"></label>
+     <button>close</button>`;
+    p.querySelectorAll("[data-k]").forEach(el=>{const k=el.dataset.k; if(el.type==="checkbox") el.checked=!!c[k]; else el.value=c[k];
+      el.oninput=()=>{st.cfg[i]=st.cfg[i]||{}; st.cfg[i][k]=el.type==="checkbox"?el.checked:(isNaN(+el.value)?el.value:+el.value); save(); paintLanes();};});
+    const controls=document.createElement('div');controls.className='fx-controls';
+  for(const [name,param] of Object.entries(e.params||{})){
+    const row=document.createElement('label');const text=document.createElement('span');text.textContent=name;row.append(text);
+    let input;const kind=param.valuetype;
+    if(kind==='ParamChoice'){input=document.createElement('select');for(const opt of param.options||[]){const o=document.createElement('option');o.value=o.textContent=opt;input.append(o);}input.value=param.value;}
+    else if(['ParamTrigger','ParamEvent'].includes(kind)){input=document.createElement('button');input.textContent='Trigger';input.onclick=()=>cmd({cmd:'fx_param',key:e.key,name,value:true});}
+    else{input=document.createElement('input');
+      if(['ParamBool','ParamBoolean'].includes(kind)){input.type='checkbox';input.checked=!!param.value;}
+      else if(kind==='ParamColor'){input.type='color';input.value=String(param.value).slice(0,7);}
+      else{input.type='range';input.min=param.min??0;input.max=param.max??1;input.step=['ParamInt','ParamNumber'].includes(kind)?1:Math.max(0.00001,(input.max-input.min)/1000);input.value=param.value;input.title=String(param.value);}}
+    input.oninput=()=>{const value=input.type==='checkbox'?input.checked:input.type==='range'?+input.value:input.value;input.title=String(value);cmd(name==='Opacity'?{cmd:'fx_amount',key:e.key,value:(+value)/(param.max||1)}:{cmd:'fx_param',key:e.key,name,value});};row.append(input);controls.append(row);
+  }p.prepend(controls);
+  p.lastElementChild.onclick=()=>p.remove(); d.appendChild(p); ev.stopPropagation(); }
+  // ── lock ──
+  const ov=document.getElementById("padov"), btn=document.getElementById("padlock"), btnF=document.getElementById("figlock");
+  let LMODE="lanes";
+  // while locked, the browser must not interpret the fingers: no scroll, no pinch-zoom, no swipe-back, no gestures
+  const EATS=["wheel","gesturestart","gesturechange","gestureend","touchstart","touchmove","touchend","contextmenu","mousedown","mouseup","dblclick","auxclick"];
+  const eat=e=>{ e.preventDefault(); e.stopPropagation(); };
+  const eatKey=e=>{ if(e.key!=="Escape"&&e.key!=="l"&&e.key!=="L"&&e.key!=="f"&&e.key!=="F"){ e.preventDefault(); e.stopPropagation(); } };
+  const pill=Object.assign(document.body.appendChild(document.createElement("div")),{id:"lockpill",textContent:"⌗ PAD LOCKED — Esc",style:"position:fixed;top:8px;right:12px;background:#4fb8e8;color:#02040a;padding:4px 10px;border-radius:12px;font-weight:600;display:none;z-index:999"});
+  function lock(mode){ if(mode==="fig")return; if(locked) return; LMODE=mode||"lanes"; locked=true; ov.classList.add("on"); (LMODE==="fig"?btnF:btn).classList.add("on"); pill.textContent=LMODE==="fig"?"⌗ VARIATIONS — tap: keep variation · hold: visit · release: return · Esc":"⌗ FADERS LOCKED — Esc"; pill.style.display="block"; document.documentElement.classList.add("padlocked");
+    for(const t of EATS) document.addEventListener(t,eat,{passive:false,capture:true}); document.addEventListener("keydown",eatKey,{capture:true});
+    PB.prev={}; PB.state={};                                 // fresh state machine on every grab
+    try{if(!ov.requestPointerLock){unlock();return;} const p=ov.requestPointerLock();if(p?.catch)p.catch(unlock);}catch(e){unlock();return;} document.getElementById("figgrid").classList.toggle("live",LMODE==="fig");
+    document.getElementById("padhint").textContent=LMODE==="fig"?"LOCKED — tap: keep variation · hold: visit · release: return · Esc":"LOCKED — Esc to release"; }
+  function unlock(){ if(!locked) return; locked=false; ov.classList.remove("on"); btn.classList.remove("on"); btnF.classList.remove("on"); pill.style.display="none"; document.documentElement.classList.remove("padlocked");
+    for(const t of EATS) document.removeEventListener(t,eat,{capture:true}); document.removeEventListener("keydown",eatKey,{capture:true}); if(document.pointerLockElement===ov) document.exitPointerLock?.(); document.getElementById("padhint").textContent="⌗ FADERS (L) → lanes · ⌗ VARIATIONS (F) → variation launcher · Esc releases"; for(const i in F) F[i].touch=null;
+    const gg=document.getElementById("figgrid"); gg.classList.remove("live");
+    for(const i in PB.state) pbRelease(+i,performance.now()/1000,false);   // release any lean, cancel any tap
+    PB.prev={};
+    gg.querySelectorAll(".fz").forEach(z=>{z.classList.remove("press","holdz"); z.querySelector(".fdot2").style.display="none";}); }
+  btn.onclick=()=>locked?unlock():lock("lanes");
+  btnF.onclick=()=>locked?unlock():lock("fig");
+  document.addEventListener("keydown",e=>{ if(e.key==="Escape") unlock(); else if(e.target.tagName!=="INPUT"&&(e.key==="l"||e.key==="L")){ locked?unlock():lock("lanes"); } });
+  document.addEventListener("pointerlockchange",()=>{ if(locked&&document.pointerLockElement!==ov) unlock(); });
+  document.addEventListener("pointerlockerror",unlock);
+  ov.addEventListener("click",e=>e.stopPropagation());   // clicks while locked do nothing (a tap on the pad must not steer the UI)
+  // ── trackpad PAD-BANK mode: 2×3 preset pads on the focus clip (tap/hold per the pads study) ──
+  // ── the FIGURE LAUNCHER: trackpad as 2×3 preset pads. tap = go · hold = lean (release = come back) ──
+  const FT=()=>focusTarget();    // the figure, always
+  const gEl=document.getElementById("figgrid");
+  gEl.innerHTML=["Variation 1","Variation 2","Variation 3","Variation 4","Variation 5","Variation 6"].map((z,i)=>
+    `<div class="fz" data-z="${i+1}"><span class="zl">${z}</span><span class="zp">hold: preset ${i+1}</span><span class="fdot2"></span></div>`).join("");
+  const fz=i=>gEl.querySelector(`.fz[data-z="${i}"]`);
+  let fArmed=false; const fArmB=document.getElementById("figarm");
+  fArmB.onclick=()=>{fArmed=!fArmed; fArmB.classList.toggle("on",fArmed); gEl.classList.toggle("armed",fArmed);};
+  document.getElementById("fighome").onclick=()=>cmd({cmd:"home",...FT()});
+  const PB={prev:{}, state:{}};             // fingerId→pad, pad→{t0,held}
+  function padOf(g){ return Math.min(1,Math.max(0,Math.floor((1-g.y)*2)))*3 + Math.min(2,Math.max(0,Math.floor(g.x*3))) + 1; }
+  const ZCAT=["pattern","timing","motion","range","look","all"];   // the six zones: 5 shuffles + ALL
+  function pbRelease(i,now,fire){ const st=PB.state[i]; if(!st) return;
+    if(fire===undefined) fire=true;
+    const cell=fz(i); cell.classList.remove("press","holdz"); cell.querySelector(".fdot2").style.display="none";
+    if(!st.held){
+      if(fire && st.target){                                            // a slide-out or unlock CANCELS instead of firing
+        if(fArmed){ cmd({cmd:"preset_save",pad:i,name:document.getElementById("variation-name").value,...st.target}); fArmed=false; fArmB.classList.remove("on"); gEl.classList.remove("armed"); }
+        else cmd({cmd:"preset_go",pad:i,...st.target});  // TAP → shuffle that category (percussion)
+        cell.classList.add("flash"); setTimeout(()=>cell.classList.remove("flash"),260);
+      }
+    } else cmd({cmd:"preset_mom",pad:i,on:false,...st.target}); // release a HOLD → always come back
+    delete PB.state[i]; }
+  function pbFrame(s,now){
+    const c=s.fingers.filter(g=>g.state!=="leave"&&g.state!=="hover"); const cur={};
+    for(const g of c){ const i=padOf(g);                     // re-evaluate EVERY frame (ids are a recycled pool)
+      const pi=PB.prev[g.id];
+      if(pi!=null && pi!==i && !Object.values(cur).includes(pi)) pbRelease(pi,now,false);   // slid out: cancel
+      cur[g.id]=i;
+      if(!PB.state[i]) PB.state[i]={t0:now,held:false,target:FT()};
+      const st=PB.state[i];
+      const cell=fz(i); cell.classList.add("press");
+      const dot=cell.querySelector(".fdot2"); dot.style.display="block";
+      dot.style.left=((g.x*3-((i-1)%3))*100)+"%"; dot.style.top=(((1-g.y)*2-(((i-1)/3)|0))*100)+"%";
+      if(st.target && !st.held && now-st.t0>=0.28 && !fArmed){ st.held=true; cell.classList.add("holdz"); cmd({cmd:"preset_mom",pad:i,on:true,...st.target}); } }  // HOLD → lean
+    for(const id in PB.prev) if(!(id in cur)){ const i=PB.prev[id]; if(!Object.values(cur).includes(i)) pbRelease(i,now); }
+    PB.prev=cur; }
+  gEl.querySelectorAll('.fz').forEach((el,j)=>{
+    let timer;
+    el.onpointerdown=ev=>{if(locked)return;const i=j+1;const target=FT();if(!target)return;el.setPointerCapture(ev.pointerId);PB.state[i]={t0:performance.now()/1000,held:false,target};el.classList.add('press');timer=setTimeout(()=>{const st=PB.state[i];if(st&&!fArmed){st.held=true;cmd({cmd:'preset_mom',pad:i,on:true,...st.target});el.classList.add('holdz');}},280);};
+    el.onpointerup=()=>{clearTimeout(timer);pbRelease(j+1,performance.now()/1000,true);};
+    el.onpointercancel=()=>{clearTimeout(timer);pbRelease(j+1,performance.now()/1000,false);};
+  });
+  window.addEventListener('blur',()=>{unlock();for(const i in PB.state)pbRelease(+i,performance.now()/1000,false);});
+  // ── frames from the probe ──
+  function frame(s){ hz=s.hz; document.getElementById("padhz").textContent=(s.hz||0)+" Hz · "+s.fingers.length+" ▲"; if(!locked) return;
+    if(LMODE==="fig"){ pbFrame(s,performance.now()/1000); return; }
+    const now=performance.now()/1000, dt=Math.max(0.001,now-lastT); lastT=now;
+    const c=s.fingers.filter(g=>g.state!=="leave"&&g.state!=="hover"); const byLane={}; for(const g of c){const l=Math.min(NL-1,Math.floor(g.x*NL))+1; if(!byLane[l]||g.size>byLane[l].size) byLane[l]=g;}
+    for(const i in st.assign){ const lane=st.assign[i], g=byLane[lane], d=fad[i]; if(!d) continue; const cf=cfgOf(i);
+      const f=F[i]=F[i]||{v:d.getVal(),home:d.getVal(),out:d.getVal(),touch:null,caught:false,lastTap:0};
+      if(!f.touch&&!g){ /* idle: follow Arena unless springing */ if(cf.rel==="hold"){ f.v=f.out=d.getVal(); } }
+      f.home=st.home[i]??f.home;
+      if(g){ if(!f.touch){ f.v=d.getVal(); f.out=f.v; f.touch={y:g.y}; f.caught=(cf.touch!=="catch"); if(cf.touch==="abs") f.v=g.y; }
+        else { if(cf.touch==="abs") f.v=g.y;
+          else if(cf.touch==="rel"){ const fine=cf.pfine?Math.max(0.15,1-(g.size-0.3)):1; f.v=Math.max(0,Math.min(1,f.v+(g.y-f.touch.y)*cf.gain*fine)); f.touch.y=g.y; }
+          else { if(!f.caught&&((f.touch.y<=f.v&&g.y>=f.v)||(f.touch.y>=f.v&&g.y<=f.v))) f.caught=true; if(f.caught) f.v=g.y; f.touch.y=g.y; } }
+        const dot=d.querySelector(".fdot"); dot.style.display="block"; dot.style.bottom=(g.y*100)+"%";
+      } else { if(f.touch) f.touch=null; d.querySelector(".fdot").style.display="none";
+        if(cf.rel!=="hold"){ const tgt=cf.rel==="zero"?0:f.home; f.v+=(tgt-f.v)*Math.min(1,dt/Math.max(0.02,cf.spring)*3); } }
+      const active=!!g||(cf.rel!=="hold"&&Math.abs(f.v-f.out)>0.0005);
+      if(active){ f.out+=(f.v-f.out)*(1-cf.smooth); d.setVal(f.out); d.dataset.hold=Date.now(); cmd({cmd:"opacity",layer:+i,value:f.out}); }
+      d.querySelector(".hm").style.bottom=(f.home*100)+"%";
+    }
+  }
+  let pws; (function connect(){ pws=new WebSocket("ws://localhost:8770/"); pws.onmessage=e=>frame(JSON.parse(e.data)); pws.onclose=()=>{unlock();document.getElementById("padhz").textContent="probe off"; setTimeout(connect,1500);} })();
+  function setHome(i,v){ st.home[i]=v; save(); const d=fad[i]; if(d) d.querySelector(".hm").style.bottom=(v*100)+"%"; }
+  function homeOf(i){ return st.home[i]??0; }
+  // mouse click-lock release: apply this fader's release behaviour (hold / spring→0 / spring→home)
+  function released(i,d){ const cf=cfgOf(i); if(cf.rel==="hold") return; const tgt=cf.rel==="zero"?0:homeOf(i); let v=d.getVal(), t=performance.now()/1000;
+    (function step(){ const now=performance.now()/1000, dt=now-t; t=now; v+=(tgt-v)*Math.min(1,dt/Math.max(0.02,cf.spring)*3); d.setVal(v); d.dataset.hold=Date.now(); cmd({cmd:"opacity",layer:+i,value:v}); if(Math.abs(v-tgt)>0.0005&&!d.isLocked()) requestAnimationFrame(step); else if(!d.isLocked()){ d.setVal(tgt); cmd({cmd:"opacity",layer:+i,value:tgt}); } })(); }
+  return {assign,laneOf,popover,paintLanes,setHome,homeOf,released,sync};
+})();
+// ═══ TABS: the probe's R&D pages (served by mt_probe on 8769) live here as tabs, not separate surfaces ═══
+const MAINIDS=["quick","padbar","strip","rack","clips","ev"];
+document.querySelectorAll("#tabs .tb").forEach(b=>b.onclick=()=>{
+  document.querySelectorAll("#tabs .tb").forEach(x=>x.classList.toggle("on",x===b));
+  const t=b.dataset.t, fr=document.getElementById("labfr");
+  for(const id of MAINIDS) document.getElementById(id).style.display=t==="main"?"":"none";
+  fr.style.display="none";
+  if(t==="lab"||t==="lanes"||t==="pads"){ const src="http://localhost:8769/"+(t==="lab"?"":t); if(fr.dataset.src!==src){fr.src=src; fr.dataset.src=src;} fr.style.display="block"; }
+});
+</script>

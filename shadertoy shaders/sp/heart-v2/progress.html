@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Heart v2 · Progress</title>
+  <style>
+    :root{font:16px/1.55 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#e6eae8;background:#101615;--muted:#a1afaa;--line:#2b3933;--accent:#a5e5c1}
+    *{box-sizing:border-box}body{margin:0}main{max-width:1160px;margin:auto;padding:44px 28px 70px}a{color:var(--accent);text-underline-offset:4px}header{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-bottom:32px}.eyebrow{color:var(--accent);font-size:12px;letter-spacing:.17em;text-transform:uppercase;font-weight:700}h1{font-size:clamp(30px,5vw,44px);letter-spacing:-.045em;margin:2px 0 0;font-weight:600}h2{font-size:18px;letter-spacing:-.02em;margin:0}p{margin:0}.muted{color:var(--muted)}.live{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--muted);margin-top:8px}.dot{width:7px;height:7px;border-radius:100%;background:#93b7a4;flex:none}.live[data-state="offline"] .dot,.live[data-state="stale"] .dot{background:#d6b979}
+    .focus{border:1px solid var(--line);border-radius:20px;padding:28px;background:#17211c}.phase{font-size:13px;color:var(--accent);margin-bottom:9px}.current{font-size:clamp(20px,3vw,28px);line-height:1.35;letter-spacing:-.025em;overflow-wrap:anywhere}.freshness{display:flex;gap:8px 24px;flex-wrap:wrap;font-size:13px;color:var(--muted);margin-top:20px}.notice{margin-top:16px;padding:12px 16px;border:1px solid #6c5b37;background:#30291c;border-radius:10px;color:#e6d0a1;font-size:14px}.notice[hidden]{display:none}
+    .counts{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:20px 0 32px}.count{background:#18201d;border:1px solid var(--line);padding:18px 20px;border-radius:14px}.number{font-size:32px;line-height:1.1;letter-spacing:-.04em;display:block}.label{display:block;font-size:13px;color:var(--muted);margin-top:7px}.legend{margin-top:8px;font-size:13px;color:var(--muted)}.columns{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(260px,1fr);gap:28px}.section-head{margin-bottom:15px;display:flex;justify-content:space-between;align-items:center;gap:12px}.section-head span{color:var(--muted);font-size:12px}.work{list-style:none;padding:0;margin:0}.work li{border-top:1px solid var(--line);padding:17px 0}.row{display:flex;align-items:flex-start;justify-content:space-between;gap:15px}.name{font-size:15px;font-weight:600;overflow-wrap:anywhere}.detail{font-size:14px;color:var(--muted);margin-top:6px;overflow-wrap:anywhere}.badge{white-space:nowrap;font-size:11px;padding:3px 8px;border:1px solid var(--line);border-radius:6px;color:var(--muted)}.badge.active{color:#c6d9fc;background:#263348;border-color:#3e5579}.badge.built{color:#d2c8ee;background:#2d2938;border-color:#504662}.badge.verified{color:#b4eacb;background:#223c2d;border-color:#3e664e}.badge.blocked{color:#f0cea0;background:#403323;border-color:#775b35}.metrics{display:grid;grid-template-columns:1fr 1fr;gap:10px}.metric{padding:14px;background:#18201d;border:1px solid var(--line);border-radius:10px;min-width:0}.metric dt{font-size:12px;color:var(--muted);overflow-wrap:anywhere}.metric dd{font-size:17px;margin:5px 0 0;overflow-wrap:anywhere}.events{list-style:none;padding:0;margin:14px 0 0}.events li{padding:12px 0 12px 14px;border-left:1px solid #42584b;font-size:14px;overflow-wrap:anywhere}.events time{display:block;color:var(--muted);font-size:11px;margin-bottom:3px}.empty{color:var(--muted);font-size:14px;padding:14px 0}.activity{margin-top:28px}footer{margin-top:36px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:12px}.footer-line{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}a:focus-visible{outline:2px solid var(--accent);outline-offset:5px}@media(max-width:720px){main{padding:25px 18px 45px}header{align-items:flex-start}.columns{grid-template-columns:1fr}.counts{grid-template-columns:1fr 1fr;gap:9px}.focus{padding:21px}.count{padding:15px}.row{gap:10px}header>a{font-size:13px;white-space:nowrap;margin-top:9px}}
+  
+    main{padding-top:24px}header{margin-bottom:18px}.readiness{margin:18px 0 24px;display:grid;grid-template-columns:1fr 1.5fr;gap:14px}.readiness article{padding:20px;border:1px solid var(--line);background:#18201d;border-radius:14px}.readiness strong{font-size:28px;display:block}.readiness progress{width:100%;height:12px;accent-color:var(--accent);margin:12px 0}.next-title{font-size:19px!important;line-height:1.3;margin:8px 0}.readiness p{font-size:14px;color:var(--muted)}.execution{font-size:13px;color:#d3c39a;margin-top:12px}.roadmap{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:14px 0 28px;padding:0;list-style:none}.roadmap li{border:1px solid var(--line);padding:14px;border-radius:10px;background:#17201b}.roadmap .verified{border-color:#476b54}.roadmap .detail{font-size:13px}.later{color:var(--muted);font-size:14px}.counts{margin:14px 0}.checks{margin-top:24px}.checks>summary{cursor:pointer;color:var(--muted);padding:12px 0}.focus{padding:20px}.current{font-size:22px}@media(max-width:720px){.readiness,.roadmap{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+<main>
+  <header><div><div class="eyebrow">Heart v2</div><h1>Build progress</h1><div id="connection" class="live" data-state="loading"><i class="dot" aria-hidden="true"></i><span id="connection-text">Connecting to progress feed…</span></div></div><a href="/">Open performance ↗</a></header>
+  <section class="focus" aria-labelledby="phase"><div id="phase" class="phase">Waiting for first update</div><p id="current" class="current">The latest work will appear here.</p><div class="freshness"><span id="updated">Last update: —</span><span id="age">Update age: —</span></div><div id="notice" class="notice" role="status" hidden></div></section>
+  <section class="readiness" aria-label="Overall readiness">
+    <article><h2>Ready milestones</h2><strong id="milestone-count">—</strong><progress id="milestone-bar" max="8" value="0" aria-label="Verified milestones"></progress><p id="remaining-count"></p><p>Milestone count, not elapsed time or estimated effort.</p></article>
+    <article><div class="eyebrow">Next action</div><strong id="next-title" class="next-title"></strong><p id="next-detail"></p><p id="next-done" style="margin-top:10px"></p><div id="execution" class="execution"></div></article>
+  </section>
+  <h2>Road to a complete performance instrument</h2><ol id="roadmap" class="roadmap"></ol>
+  <details><summary>After the core is dependable</summary><ul id="later" class="later"></ul></details>
+  <details class="checks"><summary>Supporting checks, measurements and activity</summary>
+  <section aria-label="Work counts"><div class="counts"><div class="count"><span id="built-count" class="number">—</span><span class="label">Built, awaiting verification</span></div><div class="count"><span id="verified-count" class="number">—</span><span class="label">Verified</span></div><div class="count"><span id="active-count" class="number">—</span><span class="label">In progress</span></div><div class="count"><span id="blocked-count" class="number">—</span><span class="label">Blocked</span></div></div></section>
+  <div class="columns"><section><div class="section-head"><h2>Work checklist</h2><span id="total">Awaiting work list</span></div><ul id="work" class="work"><li class="empty">No progress data loaded yet.</li></ul><p class="legend">Built means implemented. Verified means checked. Counts show reported states, not an estimated completion percentage.</p></section><aside><section><h2>Reported metrics</h2><dl id="metrics" class="metrics"></dl><p id="no-metrics" class="empty">No metrics reported yet.</p></section><section class="activity"><h2>Recent activity</h2><ol id="events" class="events"></ol><p id="no-events" class="empty">No activity reported yet.</p></section></aside></div>
+  </details>
+  <footer><div class="footer-line"><span>Refreshes every 3 seconds · Keeps the last known update if disconnected.</span><span id="checked">Feed: /progress.json</span></div></footer>
+</main>
+<script>
+(() => {
+  'use strict';
+  const $ = id => document.getElementById(id);
+  const labels = {pending:'Pending',active:'In progress',built:'Built',verified:'Verified',blocked:'Blocked'};
+  let latest = null, connected = false, lastChecked = null, lastPayload = '';
+  const node = (tag, cls, text) => {const el = document.createElement(tag);if(cls)el.className=cls;if(text!==undefined)el.textContent=text;return el;};
+  const date = value => {const d=new Date(value);return value && Number.isFinite(d.getTime())?d:null;};
+  const formatted = value => {const d=date(value);return d?d.toLocaleString(): 'Not reported';};
+  const elapsed = ms => {const s=Math.max(0,Math.floor(ms/1000));if(s<60)return s+'s';if(s<3600)return Math.floor(s/60)+'m '+s%60+'s';return Math.floor(s/3600)+'h '+Math.floor(s%3600/60)+'m';};
+  const valueText = value => typeof value==='object'&&value!==null?JSON.stringify(value):String(value??'—');
+  function freshness(){
+    const stamp=latest&&date(latest.updated), age=stamp?Date.now()-stamp.getTime():null;
+    const blocked=latest&&latest.work.filter(w=>w.status==='blocked').length;
+    const stale=age!==null&&age>90000&&latest?.execution!=='idle';
+    $('age').textContent=age===null?'Update age: unavailable':'Update age: '+elapsed(age);
+    $('connection').dataset.state=!connected?'offline':stale?'stale':'live';
+    $('connection-text').textContent=!connected?(latest?'Feed disconnected · showing last known update':'Progress feed unavailable · retrying'):stale?'Feed connected · update is aging':'Progress feed connected';
+    const notices=[];
+    if(!connected)notices.push(latest?'Could not refresh. This is the last successfully received update.':'No update received yet. Retrying automatically every 3 seconds.');
+    if(stale)notices.push('No reported progress update for '+elapsed(age)+'. Work may still be running; the feed does not confirm a stall.');
+    if(blocked)notices.push(blocked+' work item'+(blocked===1?' is':'s are')+' blocked. See the checklist for details.');
+    $('notice').textContent=notices.join(' ');$('notice').hidden=!notices.length;
+    if(lastChecked)$('checked').textContent='Last feed check: '+lastChecked.toLocaleTimeString();
+  }
+  function render(data){
+    const roadmap=data.roadmap||[],done=roadmap.filter(x=>x.status==='verified').length;
+    $('milestone-count').textContent=done+' / '+roadmap.length+' verified';$('milestone-bar').max=roadmap.length||1;$('milestone-bar').value=done;
+    $('remaining-count').textContent=(roadmap.length-done)+' milestones remaining · '+roadmap.filter(x=>x.status==='built').length+' partly built';
+    $('next-title').textContent=data.next?.title||'Next step not recorded';$('next-detail').textContent=data.next?.detail||'';$('next-done').textContent=data.next?.done_when?'Pass condition: '+data.next.done_when:'';$('execution').textContent=data.execution_note||'';
+    $('roadmap').replaceChildren(...roadmap.map((w,i)=>{const li=node('li',w.status),row=node('div','row');row.append(node('span','name',(i+1)+'. '+w.name),node('span','badge '+w.status,w.status==='built'?'Partly built':labels[w.status]));li.append(row,node('p','detail',w.detail));return li;}));
+    $('later').replaceChildren(...(data.later||[]).map(x=>node('li','',x)));
+
+    $('phase').textContent=data.phase||'Phase not reported';$('current').textContent=data.current||'No current activity reported.';
+    $('updated').textContent='Last update: '+formatted(data.updated);
+    const counts={pending:0,active:0,built:0,verified:0,blocked:0};data.work.forEach(w=>counts[w.status]++);
+    for(const key of ['built','verified','active','blocked'])$(key+'-count').textContent=counts[key];
+    $('total').textContent=data.work.length+' items · '+counts.pending+' pending';
+    $('work').replaceChildren(...data.work.map(w=>{const li=node('li'),row=node('div','row');row.append(node('span','name',w.name||'Untitled work item'),node('span','badge '+w.status,labels[w.status]));li.append(row);if(w.detail)li.append(node('p','detail',w.detail));return li;}));
+    if(!data.work.length)$('work').append(node('li','empty','No work items reported yet.'));
+    const metrics=Object.entries(data.metrics||{});$('no-metrics').hidden=!!metrics.length;
+    $('metrics').replaceChildren(...metrics.map(([key,value])=>{const box=node('div','metric');box.append(node('dt','',key.replace(/_/g,' ').replace(/([a-z])([A-Z])/g,'$1 $2')),node('dd','',valueText(value)));return box;}));
+    const events=(data.events||[]).slice().sort((a,b)=>(date(b.at)?.getTime()||0)-(date(a.at)?.getTime()||0)).slice(0,30);$('no-events').hidden=!!events.length;
+    $('events').replaceChildren(...events.map(e=>{const li=node('li'),time=node('time','',formatted(e.at));if(date(e.at))time.dateTime=date(e.at).toISOString();li.append(time,node('span','',e.text||''));return li;}));
+  }
+  async function poll(){
+    const controller=new AbortController(),timeout=setTimeout(()=>controller.abort(),2500);
+    try{
+      const response=await fetch('/progress.json',{cache:'no-store',signal:controller.signal});if(!response.ok)throw new Error('Feed unavailable');
+      const data=await response.json();if(!data||typeof data!=='object'||!Array.isArray(data.work)||data.work.some(w=>!w||typeof w!=='object'||!Object.hasOwn(labels,w.status))||(data.events!==undefined&&(!Array.isArray(data.events)||data.events.some(e=>!e||typeof e!=='object'))))throw new Error('Invalid progress feed');
+      const payload=JSON.stringify(data);latest=data;connected=true;if(payload!==lastPayload){render(data);lastPayload=payload;}
+    }catch(error){connected=false;}
+    finally{clearTimeout(timeout);lastChecked=new Date();freshness();}
+  }
+  poll();setInterval(poll,3000);setInterval(()=>{if(latest||lastChecked)freshness();},1000);
+})();
+</script>
+</body>
+</html>

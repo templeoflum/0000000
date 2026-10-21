@@ -1,0 +1,64 @@
+{
+  "SchemaVersion": "1.1-ter",
+  "ArchetypeName": "Deimos",
+  "SystemOfOrigin": "GR",
+  "CulturalLineage": ["Greek"],
+  "CommonAliases": ["Dread", "Terror", "Fear", "Fright"],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "To embody dread and sustained terror; to be the lingering fear that precedes and follows battle.",
+    "PrimaryDomain": "Mythic / Psychological",
+    "ToneOrPolarity": "Dreadful / Sustained",
+    "SymbolicCore": "Dread that lingers, the anticipation of horror, sustained terror.",
+    "Correspondences": {
+      "Element": "Air",
+      "Planet": "Mars",
+      "Chakra": "Solar Plexus",
+      "Color": "Deep Red, Shadow Black",
+      "Animal": "Raven, Snake",
+      "Other": ["Dark Cloud", "War Trumpet", "Blood", "Shadows"]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": ["Dread Bringer", "Sustained Terror", "War Companion", "Fear Twin"],
+    "ComplementaryArchetypes": ["Ares ([GR] Father)", "Phobos ([GR] Brother)", "Aphrodite ([GR] Mother)"],
+    "ShadowForms": ["Chronic Anxiety", "Anticipatory Dread", "PTSD"],
+    "DevelopmentalArc": [],
+    "CyclePhase": "Dread / Anticipation"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": ["Dreadful", "Lingering", "Anticipatory", "Terrorizing", "Shadow-like", "Persistent"],
+    "Typologies": {
+      "MBTI": "INFJ",
+      "Enneagram": "6w5",
+      "Other": ["Shadow", "Anxiety", "Dread"]
+    },
+    "SubVariants": ["Anticipatory Dread", "Battlefield Terror", "Lingering Fear"],
+    "InternalFamily": "Chronic Fear"
+  },
+  "CulturalContext": {
+    "Regions": ["Greece"],
+    "MythicAppearances": ["Son of Ares and Aphrodite", "Twin of Phobos", "Accompanied Ares to war"],
+    "ReligiousOrRitualUse": "Propitiated alongside Phobos; invoked in war; represented sustained terror of conflict.",
+    "HistoricalEvolution": "Ancient war deity; Mars's moon named after him; represents prolonged fear vs sudden panic.",
+    "SyncreticForms": ["Formido (Roman)", "Anxiety (modern psychology)"]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "👁️",
+    "ImageryNotes": "Depicted as dark presence accompanying Ares; personified dread and the anticipation of horror.",
+    "ArtisticExamples": ["War god imagery", "Twin terror depictions", "Shadow fear art"],
+    "PoeticInvocation": "Deimos, dread that haunts before and after battle, shadow that never leaves the warrior.",
+    "DreamForm": "A shadow that follows you, whispering of horrors yet to come"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": ["Anxiety_Disorders", "PTSD", "JU.Shadow"],
+    "SemanticTags": ["#dread", "#terror", "#anticipation", "#war", "#anxiety"],
+    "RitualFunction": "Shadow work with chronic fear and anxiety; understanding sustained terror responses.",
+    "AIPromptSeeds": ["The god of dread whose name marks Mars's smaller moon.", "Terror that lingers after battle ends."],
+    "NarrativeHooks": ["The dread before battle", "Fear that won't leave", "Anticipation of horror"]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [{"to": "Anxiety", "strength": "strong"}, {"to": "PTSD", "strength": "moderate"}]
+  },
+  "FacetRegistry": [{"facet": "Sustained Dread", "weight": 0.5}, {"facet": "Anticipatory Terror", "weight": 0.3}, {"facet": "War Shadow", "weight": 0.2}]
+}

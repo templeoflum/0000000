@@ -1,0 +1,26 @@
+{
+  "target": "figure / 4d",
+  "checks": [
+    {
+      "manual": -0.25,
+      "native": -0.25,
+      "confirmation_ms": 50
+    },
+    {
+      "manual": 0.25,
+      "native": 0.25,
+      "confirmation_ms": 50
+    }
+  ],
+  "drive_span": 0.9744908747300833,
+  "hold": "pass",
+  "settle": "pass",
+  "metrics": {
+    "tick_p95_ms": 17.62,
+    "work_p95_ms": 0.03,
+    "scan_ms": 847,
+    "bridge_work_ms": 0.16,
+    "sent": 111,
+    "owned": 0
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "layer": 5,
+    "col": 28,
+    "old_source": "HypnoWorm",
+    "source": "Heart HypnoWorm",
+    "status": "replaced with already-installed working Heart version",
+    "driven": [
+      "color1R",
+      "phase1",
+      "phase2"
+    ],
+    "home_recovered": true
+  },
+  {
+    "layer": 5,
+    "col": 40,
+    "old_source": "Torus thingy",
+    "source": "Heart Torus",
+    "status": "replaced with already-installed working Heart version",
+    "driven": [
+      "color1R",
+      "color1G",
+      "color1B"
+    ],
+    "home_recovered": true
+  },
+  {
+    "layer": 5,
+    "col": 9,
+    "source": "SP Figure",
+    "status": "Centered saved Home; X/Y .5, Spin0. Original shader untouched.",
+    "home_recovered": true
+  },
+  {
+    "layer": 7,
+    "col": 8,
+    "source": "SP Scan",
+    "status": "Saved visible stripe Home; Count.2, Duty.25, Soft.15",
+    "home_recovered": true
+  }
+]

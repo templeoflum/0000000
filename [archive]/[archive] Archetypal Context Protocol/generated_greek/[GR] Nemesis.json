@@ -1,0 +1,64 @@
+{
+  "SchemaVersion": "1.1-ter",
+  "ArchetypeName": "Nemesis",
+  "SystemOfOrigin": "GR",
+  "CulturalLineage": ["Greek"],
+  "CommonAliases": ["Divine Retribution", "Righteous Vengeance", "Inescapable Justice", "Rhamnousia"],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "To embody divine retribution and righteous vengeance; to punish hubris and restore balance through justice.",
+    "PrimaryDomain": "Mythic / Social",
+    "ToneOrPolarity": "Just / Retributive",
+    "SymbolicCore": "Karmic justice, the retribution that balances the scales, inescapable consequence.",
+    "Correspondences": {
+      "Element": "Air",
+      "Planet": "Saturn",
+      "Chakra": "Third Eye",
+      "Color": "Dark Blue, Silver, Black",
+      "Animal": "Griffin, Goose",
+      "Other": ["Scales", "Sword", "Whip", "Measuring Rod", "Wings"]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": ["Justice Bringer", "Hubris Punisher", "Balance Restorer", "Vengeance"],
+    "ComplementaryArchetypes": ["Themis ([GR] Divine Law)", "Dike ([GR] Justice)", "Hybris ([GR] Opposite)"],
+    "ShadowForms": ["Vindictive Revenge", "Excessive Punishment", "Eternal Grudge"],
+    "DevelopmentalArc": [],
+    "CyclePhase": "Retribution / Balancing"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": ["Just", "Retributive", "Balancing", "Inescapable", "Righteous", "Punishing"],
+    "Typologies": {
+      "MBTI": "INTJ",
+      "Enneagram": "1w2",
+      "Other": ["Ruler", "Judge", "Avenger"]
+    },
+    "SubVariants": ["Divine Retribution", "Karmic Justice", "Righteous Vengeance"],
+    "InternalFamily": "Inner Justice"
+  },
+  "CulturalContext": {
+    "Regions": ["Greece", "Rhamnus"],
+    "MythicAppearances": ["Mother of Helen (by Zeus)", "Punisher of hubris", "Narcissus's curse"],
+    "ReligiousOrRitualUse": "Worshipped at Rhamnus; invoked for justice; feared by the arrogant.",
+    "HistoricalEvolution": "Ancient justice deity; cult at Rhamnus; modern term for arch-enemy or comeuppance.",
+    "SyncreticForms": ["Nemesis (modern usage)", "Karma (functional parallel)"]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "⚖️",
+    "ImageryNotes": "Depicted as winged goddess with scales, sword, and measuring rod; sometimes with whip to punish the arrogant.",
+    "ArtisticExamples": ["Classical sculptures", "Justice allegories", "Vengeance goddess imagery"],
+    "PoeticInvocation": "Nemesis, inescapable justice, who brings low the proud and restores the balance.",
+    "DreamForm": "A winged figure with scales, measuring your deeds with perfect accuracy, sword ready"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": ["Tarot.Justice", "Karma", "JP12.Ruler"],
+    "SemanticTags": ["#justice", "#retribution", "#hubris", "#balance", "#karma"],
+    "RitualFunction": "Invoked for justice, understanding of consequences, and balancing of karmic debts.",
+    "AIPromptSeeds": ["The goddess whose name became synonymous with inescapable justice.", "Divine retribution that punishes arrogance and restores balance."],
+    "NarrativeHooks": ["Hubris meets its punishment", "Inescapable consequence", "The scales must balance"]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [{"to": "Tarot.Justice", "strength": "strong"}, {"to": "Karma", "strength": "strong"}]
+  },
+  "FacetRegistry": [{"facet": "Divine Retribution", "weight": 0.5}, {"facet": "Hubris Punisher", "weight": 0.3}, {"facet": "Karmic Balance", "weight": 0.2}]
+}

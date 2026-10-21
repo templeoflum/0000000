@@ -1,0 +1,298 @@
+# Duplicates Resolved: Merge Decisions for Cross-Category Overlaps
+# Documents every case where the same phenomenon appeared multiple times in the seed file.
+# Each entry records the source categories, source names, the canonical slug, and rationale.
+
+duplicates:
+
+  - canonical_slug: motion-aftereffect
+    canonical_title: "Motion Aftereffect"
+    sources:
+      - category: motion-movement
+        name: "Motion Aftereffect (Waterfall Illusion)"
+      - category: aftereffect-adaptation
+        name: "Motion Aftereffect (Waterfall Illusion)"
+    rationale: >
+      Identical entry in both Motion and Aftereffect categories. Single report filed
+      under motion-movement as primary (the phenomenon is fundamentally a motion percept),
+      with aftereffect-adaptation as secondary category.
+
+  - canonical_slug: color-afterimage
+    canonical_title: "Color Afterimage"
+    sources:
+      - category: color
+        name: "Color Afterimage (Negative Afterimage)"
+      - category: color
+        name: "Positive Afterimage"
+      - category: aftereffect-adaptation
+        name: "Color Afterimage (Negative / Positive)"
+    rationale: >
+      Negative and positive afterimages are two phases of the same photoreceptor
+      adaptation phenomenon. Merged into one report covering both types. Primary
+      category: aftereffect-adaptation. Secondary: color.
+
+  - canonical_slug: mccollough-effect
+    canonical_title: "McCollough Effect"
+    sources:
+      - category: color
+        name: "McCollough Effect"
+      - category: aftereffect-adaptation
+        name: "McCollough Effect"
+    rationale: >
+      Same phenomenon listed in both Color and Aftereffect categories. It is a
+      contingent color aftereffect, so primary category is aftereffect-adaptation
+      with color as secondary.
+
+  - canonical_slug: silhouette-illusion
+    canonical_title: "Silhouette Illusion"
+    sources:
+      - category: motion-movement
+        name: "Silhouette Illusion (Spinning Dancer)"
+      - category: ambiguous-bistable-multistable
+        name: "Spinning Dancer (Silhouette Illusion)"
+    rationale: >
+      Same stimulus listed under both Motion and Ambiguous categories. The core
+      phenomenon is bistable interpretation of rotation direction. Primary category:
+      ambiguous-bistable-multistable. Secondary: motion-movement.
+
+  - canonical_slug: apparent-motion
+    canonical_title: "Apparent Motion"
+    sources:
+      - category: motion-movement
+        name: "Apparent Motion (Beta Movement)"
+      - category: persistence-temporal
+        name: "Apparent Motion"
+      - category: persistence-temporal
+        name: "Beta Movement"
+    rationale: >
+      Apparent motion and beta movement describe the same basic phenomenon. Listed
+      in both Motion and Persistence categories. Primary: motion-movement. Secondary:
+      persistence-temporal.
+
+  - canonical_slug: phi-phenomenon
+    canonical_title: "Phi Phenomenon"
+    sources:
+      - category: motion-movement
+        name: "Phi Phenomenon"
+      - category: persistence-temporal
+        name: "Phi Phenomenon"
+    rationale: >
+      Identical entry in both categories. Phi phenomenon is distinct from beta
+      movement (apparent motion) — it involves objectless apparent motion. Primary:
+      motion-movement. Secondary: persistence-temporal.
+
+  - canonical_slug: wagon-wheel-effect
+    canonical_title: "Wagon Wheel Effect"
+    sources:
+      - category: motion-movement
+        name: "Wagon Wheel Effect (Stroboscopic Effect)"
+      - category: persistence-temporal
+        name: "Stroboscopic Effect"
+    rationale: >
+      The stroboscopic effect in the Persistence category describes the same temporal
+      aliasing phenomenon as the wagon wheel effect. Primary: motion-movement.
+      Secondary: persistence-temporal.
+
+  - canonical_slug: flash-lag-illusion
+    canonical_title: "Flash Lag Illusion"
+    sources:
+      - category: motion-movement
+        name: "Flash Lag Illusion"
+      - category: persistence-temporal
+        name: "Flash-Lag Effect"
+    rationale: >
+      Same phenomenon listed in both Motion and Persistence categories. Primary:
+      motion-movement (the illusion fundamentally involves motion processing).
+      Secondary: persistence-temporal.
+
+  - canonical_slug: chronostasis
+    canonical_title: "Chronostasis"
+    sources:
+      - category: motion-movement
+        name: "Chronostasis (Stopped Clock Illusion)"
+      - category: persistence-temporal
+        name: "Chronostasis"
+    rationale: >
+      Identical entry in both categories. Chronostasis is a temporal illusion triggered
+      by saccadic eye movements. Primary: persistence-temporal. Secondary:
+      cognitive-higher-order.
+
+  - canonical_slug: neon-color-spreading
+    canonical_title: "Neon Color Spreading"
+    sources:
+      - category: color
+        name: "Neon Color Spreading (Neon Flanks)"
+      - category: contour-shape-completion
+        name: "Neon Color Spreading"
+    rationale: >
+      Same phenomenon in both Color and Contour categories. It involves both color
+      spreading and illusory contour formation. Primary: color. Secondary:
+      contour-shape-completion.
+
+  - canonical_slug: poggendorff-illusion
+    canonical_title: "Poggendorff Illusion"
+    sources:
+      - category: geometric-size-length
+        name: "Poggendorff Illusion"
+      - category: contour-shape-completion
+        name: "Poggendorff Illusion"
+    rationale: >
+      Identical entry in both categories. The Poggendorff is fundamentally a geometric
+      misperception (collinearity judgment). Primary: geometric-size-length. Secondary:
+      contour-shape-completion.
+
+  - canonical_slug: anamorphic-street-art
+    canonical_title: "Anamorphic Street Art"
+    sources:
+      - category: depth-3d-stereoscopic
+        name: "Anamorphic Street Art"
+      - category: op-art-artistic
+        name: "Anamorphic Street Art"
+    rationale: >
+      Same entry in Depth and Op Art categories. The technique is an artistic form
+      exploiting depth/perspective cues. Primary: op-art-artistic. Secondary:
+      depth-3d-stereoscopic.
+
+  - canonical_slug: hollow-face-illusion
+    canonical_title: "Hollow-Face Illusion"
+    sources:
+      - category: depth-3d-stereoscopic
+        name: "Hollow-Face Illusion (Concave Face Illusion)"
+      - category: pareidolia-pattern-recognition
+        name: "Hollow-Face Illusion"
+    rationale: >
+      Same phenomenon in Depth and Pareidolia categories. The illusion involves depth
+      inversion driven by face-processing priors. Primary: depth-3d-stereoscopic.
+      Secondary: pareidolia-pattern-recognition.
+
+  - canonical_slug: face-distortion-effect
+    canonical_title: "Face Distortion Effect"
+    sources:
+      - category: aftereffect-adaptation
+        name: "Face Distortion Effect (Flashed Face Distortion)"
+      - category: miscellaneous-specialized
+        name: "Flashed Face Distortion Effect"
+    rationale: >
+      Same phenomenon in both Aftereffect and Miscellaneous categories. Primary:
+      aftereffect-adaptation (it is fundamentally an adaptation/distortion effect).
+
+  - canonical_slug: leaning-tower-illusion
+    canonical_title: "Leaning Tower Illusion"
+    sources:
+      - category: geometric-size-length
+        name: "Leaning Tower Illusion"
+      - category: miscellaneous-specialized
+        name: "Leaning Tower Illusion"
+    rationale: >
+      Identical entry in both categories. It is a geometric illusion involving
+      convergence perception. Primary: geometric-size-length.
+
+  - canonical_slug: autokinetic-effect
+    canonical_title: "Autokinetic Effect"
+    sources:
+      - category: motion-movement
+        name: "Autokinetic Effect"
+      - category: miscellaneous-specialized
+        name: "Autokinetic Effect"
+    rationale: >
+      Identical entry in both categories. The autokinetic effect is fundamentally
+      a motion illusion (perception of motion in a stationary stimulus). Primary:
+      motion-movement.
+
+  - canonical_slug: thatcher-illusion
+    canonical_title: "Thatcher Illusion"
+    sources:
+      - category: miscellaneous-specialized
+        name: "Thatcher Illusion (Thompson's Inverted Face)"
+      - category: miscellaneous-specialized
+        name: "Margaret Thatcher Illusion"
+    rationale: >
+      Two entries for the same phenomenon within the same category. They refer to the
+      same Thompson (1980) face inversion effect. Merged into a single report.
+
+  - canonical_slug: my-wife-and-my-mother-in-law
+    canonical_title: "My Wife and My Mother-in-Law"
+    sources:
+      - category: ambiguous-bistable-multistable
+        name: "My Wife and My Mother-in-Law (Boring's Illusion / Hill's Illusion)"
+      - category: ambiguous-bistable-multistable
+        name: "Young Girl / Old Woman"
+      - category: ambiguous-bistable-multistable
+        name: "Boring's Figure"
+    rationale: >
+      Three entries in the Ambiguous category all describe the same classic ambiguous
+      figure (young woman / old woman). Boring's Figure is Boring's version of
+      Hill's original drawing. Merged under the most commonly used name.
+
+  - canonical_slug: moire-pattern-illusion
+    canonical_title: "Moire Pattern Illusion"
+    sources:
+      - category: motion-movement
+        name: "Moiré Pattern Illusion"
+      - category: op-art-artistic
+        name: "Moiré Patterns"
+    rationale: >
+      Same phenomenon in Motion and Op Art categories. Moire patterns can produce
+      illusory motion but are also a fundamental artistic technique. Primary:
+      motion-movement. Secondary: op-art-artistic.
+
+  - canonical_slug: rubber-hand-illusion
+    canonical_title: "Rubber Hand Illusion"
+    sources:
+      - category: motion-movement
+        name: "Rubber Hand Illusion (cross-modal)"
+      - category: cognitive-higher-order
+        name: "Rubber Hand Illusion"
+    rationale: >
+      Same phenomenon in Motion and Cognitive categories. It is fundamentally a
+      cross-modal/body-ownership illusion. Primary: cognitive-higher-order.
+      Secondary: motion-movement.
+
+  - canonical_slug: helmholtz-illusion
+    canonical_title: "Helmholtz Illusion"
+    sources:
+      - category: geometric-size-length
+        name: "Helmholtz Illusion (Irradiation Illusion)"
+      - category: brightness-lightness-contrast
+        name: "Irradiation Illusion"
+    rationale: >
+      The Helmholtz/Irradiation illusion involves bright areas appearing larger than
+      dark areas of the same size. Listed separately in Geometric and Brightness
+      categories. It spans both domains. Primary: geometric-size-length (the core
+      misperception is of size). Secondary: brightness-lightness-contrast.
+
+  - canonical_slug: cornsweet-illusion
+    canonical_title: "Cornsweet Illusion"
+    sources:
+      - category: brightness-lightness-contrast
+        name: "Cornsweet Illusion (Craik-O'Brien-Cornsweet Illusion)"
+      - category: brightness-lightness-contrast
+        name: "Craik-Cornsweet-O'Brien Effect"
+    rationale: >
+      Two entries in the same category with different name orderings for the same
+      phenomenon. The Craik-O'Brien-Cornsweet and Craik-Cornsweet-O'Brien names
+      are interchangeable. Merged under the shorter canonical name.
+
+  - canonical_slug: ehrenstein-illusion
+    canonical_title: "Ehrenstein Illusion"
+    sources:
+      - category: geometric-size-length
+        name: "Ehrenstein Illusion"
+      - category: contour-shape-completion
+        name: "Ehrenstein's Brightness Illusion"
+    rationale: >
+      The Ehrenstein illusion involves both a geometric size component and a brightness/
+      illusory contour component. The two entries emphasize different aspects. Merged
+      into one report. Primary: geometric-size-length. Secondary: contour-shape-completion,
+      brightness-lightness-contrast.
+
+  - canonical_slug: bezold-effect
+    canonical_title: "Bezold Effect"
+    sources:
+      - category: color
+        name: "Bezold Effect"
+      - category: color
+        name: "Von Bezold Spreading Effect"
+    rationale: >
+      Two entries in the Color category for the same phenomenon. The Bezold Effect
+      and Von Bezold Spreading Effect are the same color assimilation phenomenon
+      named after Wilhelm von Bezold. Merged under the shorter name.

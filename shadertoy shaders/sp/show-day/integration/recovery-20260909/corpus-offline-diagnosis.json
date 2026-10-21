@@ -1,0 +1,33 @@
+{
+  "status": "Offline diagnosis only; quarantine and live state unchanged",
+  "crash_report": "/Users/donovan/Library/Logs/DiagnosticReports/Arena-2026-09-09-100233.ips",
+  "library": {
+    "path": "/Applications/Resolume Arena/libwire.dylib",
+    "uuid": "9ea71b68-4454-35b5-be0e-e5b6b0d1811a"
+  },
+  "static_exception_evidence": [
+    {
+      "offset": "0xda62b4\u20130xda62bc",
+      "finding": "loads literal wstring_convert: to_bytes error and calls0xb1d584"
+    },
+    {
+      "offset": "0xb1d584\u20130xb1d5bc",
+      "finding": "allocates C++ exception with __ZTISt11range_error and calls __cxa_throw; crash return frame0xb1d5c0"
+    }
+  ],
+  "log_evidence": {
+    "pinna_registered": "10:02:33.295; also10:04:03.615 after recovery",
+    "hering_watched_not_registered": "10:02:33.296\u2013.297",
+    "cafe_fraser": "No names found in this retained log; not evidence of acceptance"
+  },
+  "checks": {
+    "utf8": "All quarantined wire/fs/sidecar files strict UTF8 valid",
+    "json": "All parse; no decoded surrogate codepoints",
+    "metadata_nonascii": "Only Hering DESCRIPTION/meta.description has en dash; working Pinna also has en dash and successfully registers in same startup",
+    "shared_comments": "Same Unicode smart-param comments in all shaders and working Pinna",
+    "structure": "UUIDs distinct/valid; resources exist; cached/header input names agree; exactly1 inlet connection; no dangling/duplicate input-order references; bool/int types valid",
+    "numeric_types": "Some float DEFAULT/input values are JSON integers; same pattern exists in working Barberpole\u2014no causal evidence"
+  },
+  "recommendation": "Retain quarantine. Later controlled single-package validation of Hering ASCII-metadata-only proposal, then identical-wrapper neutral-body fixture if needed; no rollout now.",
+  "cause_limit": "Exact bad string or originating failure unknown; trace proves conversion error but does not prove malformed source Unicode."
+}

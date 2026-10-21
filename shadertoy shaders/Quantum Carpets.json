@@ -1,0 +1,136 @@
+{
+  "id": "tfyyRK",
+  "name": "Quantum Carpets",
+  "username": "bobrun043",
+  "description": "Discrete Non-Linear Schrödinger Breather\néquation de Schrödinger avec un solveur de Poisson pour le potentiel auto-gravitant/attractif",
+  "tags": [
+    "quantum"
+  ],
+  "date": "1764933059",
+  "viewed": 45,
+  "likes": 1,
+  "published": 1,
+  "renderpass": [
+    {
+      "type": "image",
+      "name": "Image",
+      "inputs": [
+        {
+          "id": "4dXGR8",
+          "filepath": "/media/previz/buffer00.png",
+          "previewfilepath": "/media/previz/buffer00.png",
+          "type": "buffer",
+          "channel": 0,
+          "sampler": {
+            "filter": "linear",
+            "wrap": "clamp",
+            "vflip": "true",
+            "srgb": "false",
+            "internal": "byte"
+          },
+          "published": 1
+        }
+      ],
+      "outputs": [
+        {
+          "id": "4dfGRr",
+          "channel": 0
+        }
+      ],
+      "code": "void mainImage( out vec4 fragColor, in vec2 fragCoord )\n{\n    // --- REGLAGE DU ZOOM ---\n    float zoom = 3.0; // Grossissement x3 (Change cette valeur !)\n    \n    // Calcul des UVs centrés\n    vec2 uv = fragCoord / iResolution.xy;\n    \n    // Formule de zoom centrée sur (0.5, 0.5)\n    uv = (uv - 0.5) / zoom + 0.5;\n    \n    // Sécurité : si on zoome trop en arrière, on évite de répéter l'image\n    if (uv.x < 0.0 || uv.x > 1.0 || uv.y < 0.0 || uv.y > 1.0) {\n        fragColor = vec4(0.0);\n        return;\n    }\n    \n    \n    \n    vec2 psi = texture(iChannel0, uv).xy;\n    float V = texture(iChannel1, uv).r * 50.0;\n    \n    float probability = dot(psi, psi);\n    \n    // === MODIFICATION ICI : BOOST DE LUMINOSITÉ ===\n    // On multiplie par 20.0 ou 50.0 au lieu de 10.0\n    // On peut aussi utiliser une racine carrée pour mieux voir les faibles densités\n    float brightness = sqrt(probability) * 25.0; \n    \n    float phase = atan(psi.y, psi.x);\n    vec3 phaseColor = 0.5 + 0.5 * cos(phase + vec3(0, 2, 4));\n    \n    vec3 col = phaseColor * brightness;\n    \n    // On visualise le piège en fond (optionnel, pour voir le \"bol\")\n    col += vec3(0.1) * (probability < 0.001 ? 1.0 : 0.0); \n    \n    fragColor = vec4(col, 1.0);\n}"
+    },
+    {
+      "type": "common",
+      "name": "Common",
+      "inputs": [],
+      "outputs": [],
+      "code": "// === PHYSIQUE ===\n#define TAU 0.025\n#define DT_BASE 0.09    // Vitesse de base du temps\n#define SUNDMAN_K 0.9 // Force du ralentissement (Matrix effect)\n#define HBAR 1.0\n#define MASS 1.0\n\n// === MATHS COMPLEXES ===\n#define I vec2(0.0, 1.0)\n\nvec2 cmul(vec2 a, vec2 b) { return vec2(a.x*b.x - a.y*b.y, a.x*b.y + a.y*b.x); }\nvec2 cexp(float theta) { return vec2(cos(theta), sin(theta)); }\nvec4 load(sampler2D channel, ivec2 p) { return texelFetch(channel, p, 0); }"
+    },
+    {
+      "type": "buffer",
+      "name": "Buffer A",
+      "inputs": [
+        {
+          "id": "4dXGR8",
+          "filepath": "/media/previz/buffer00.png",
+          "previewfilepath": "/media/previz/buffer00.png",
+          "type": "buffer",
+          "channel": 0,
+          "sampler": {
+            "filter": "linear",
+            "wrap": "clamp",
+            "vflip": "true",
+            "srgb": "false",
+            "internal": "byte"
+          },
+          "published": 1
+        },
+        {
+          "id": "XsXGR8",
+          "filepath": "/media/previz/buffer01.png",
+          "previewfilepath": "/media/previz/buffer01.png",
+          "type": "buffer",
+          "channel": 1,
+          "sampler": {
+            "filter": "linear",
+            "wrap": "clamp",
+            "vflip": "true",
+            "srgb": "false",
+            "internal": "byte"
+          },
+          "published": 1
+        }
+      ],
+      "outputs": [
+        {
+          "id": "4dXGR8",
+          "channel": 0
+        }
+      ],
+      "code": "void mainImage(out vec4 fragColor, in vec2 fragCoord)\n{\n    ivec2 p = ivec2(fragCoord);\n    ivec2 res = ivec2(iResolution.xy);\n    vec2 uv = fragCoord / iResolution.xy;\n    \n    // === INITIALISATION ===\n    if (iFrame == 0) {\n        vec2 center = iResolution.xy * 0.5;\n        vec2 dist = fragCoord - center;\n        float envelope = exp(-dot(dist, dist) * 0.001);\n        vec2 phase = cexp(dist.x * 0.1);\n        fragColor = vec4(envelope * phase, 0.0, 1.0);\n        return;\n    }\n    \n    // === CONDITIONS AUX BORDS (Dirichlet ψ=0) ===\n    if (p.x <= 0 || p.x >= res.x-1 || p.y <= 0 || p.y >= res.y-1) {\n        fragColor = vec4(0.0, 0.0, 0.0, 1.0);\n        return;\n    }\n    \n    // === LECTURE PSI ===\n    vec2 psi = load(iChannel0, p).xy;\n    \n    // === LAPLACIEN (5-point stencil) ===\n    vec2 psi_r = load(iChannel0, p + ivec2(1,0)).xy;\n    vec2 psi_l = load(iChannel0, p - ivec2(1,0)).xy;\n    vec2 psi_u = load(iChannel0, p + ivec2(0,1)).xy;\n    vec2 psi_d = load(iChannel0, p - ivec2(0,1)).xy;\n    \n    vec2 laplacian = psi_r + psi_l + psi_u + psi_d - 4.0 * psi;\n    vec2 kinetic = -0.5 * (HBAR*HBAR/MASS) * laplacian;\n    \n    // === POTENTIEL ===\n    float V_poisson = texture(iChannel1, uv).r;\n    vec2 center = iResolution.xy * 0.5;\n    vec2 d = fragCoord - center;\n    float V_trap = 0.0001 * dot(d, d);\n    float V = V_poisson + V_trap;\n    \n    // === SUNDMAN ===\n    float V_center = texture(iChannel1, vec2(0.5)).r;\n    float dt = DT_BASE / (1.0 + SUNDMAN_K * abs(V_center));\n    \n    // === SCHRÖDINGER : i∂ψ/∂t = Hψ ===\n    vec2 H_psi = kinetic + V * psi;\n    vec2 d_psi = cmul(-I, H_psi);  // -i * H * psi\n    \n    vec2 psi_new = psi + d_psi * dt;\n    \n    // === NORMALISATION LOCALE (approximation) ===\n    // Préserve la norme locale pour éviter l'explosion\n    float norm_old = length(psi);\n    float norm_new = length(psi_new);\n    if (norm_new > 1e-10) {\n        psi_new *= norm_old / norm_new;  // ✅ Conservation locale\n    }\n    \n    fragColor = vec4(psi_new, 0.0, 1.0);\n}"
+    },
+    {
+      "type": "buffer",
+      "name": "Buffer B",
+      "inputs": [
+        {
+          "id": "4dXGR8",
+          "filepath": "/media/previz/buffer00.png",
+          "previewfilepath": "/media/previz/buffer00.png",
+          "type": "buffer",
+          "channel": 0,
+          "sampler": {
+            "filter": "linear",
+            "wrap": "clamp",
+            "vflip": "true",
+            "srgb": "false",
+            "internal": "byte"
+          },
+          "published": 1
+        },
+        {
+          "id": "XsXGR8",
+          "filepath": "/media/previz/buffer01.png",
+          "previewfilepath": "/media/previz/buffer01.png",
+          "type": "buffer",
+          "channel": 1,
+          "sampler": {
+            "filter": "linear",
+            "wrap": "clamp",
+            "vflip": "true",
+            "srgb": "false",
+            "internal": "byte"
+          },
+          "published": 1
+        }
+      ],
+      "outputs": [
+        {
+          "id": "XsXGR8",
+          "channel": 0
+        }
+      ],
+      "code": "void mainImage(out vec4 fragColor, in vec2 fragCoord)\n{\n    ivec2 p = ivec2(fragCoord);\n    ivec2 res = ivec2(iResolution.xy);\n    \n    // === BORDS : V = 0 (Dirichlet) ===\n    if (p.x <= 0 || p.x >= res.x-1 || p.y <= 0 || p.y >= res.y-1) {\n        fragColor = vec4(0.0);\n        return;\n    }\n    \n    // === SOURCE ===\n    vec2 psi = load(iChannel0, p).xy;\n    float density = dot(psi, psi);\n    \n    // === ÉTAT SOLVEUR ===\n    vec4 state = load(iChannel1, p);\n    float V = state.r;\n    vec2 P = state.gb;\n    \n    // === PRIMAL : V update ===\n    vec2 P_l = load(iChannel1, p - ivec2(1,0)).gb;\n    vec2 P_d = load(iChannel1, p - ivec2(0,1)).gb;\n    float div_P = (P.x - P_l.x) + (P.y - P_d.y);\n    \n    float V_new = V + TAU * (div_P + density);  // Source = +density (attractif)\n    \n    // === DUAL : P update avec PROJECTION ===\n    float V_r = load(iChannel1, p + ivec2(1,0)).r;\n    float V_u = load(iChannel1, p + ivec2(0,1)).r;\n    vec2 grad_V = vec2(V_r - V_new, V_u - V_new);  // Semi-implicite\n    \n    vec2 P_new = P + TAU * grad_V;\n    \n    // Projection sur boule (régularisation TV-like, optionnel)\n    float lambda = 1.0;  // Paramètre de régularisation\n    P_new = P_new / max(1.0, length(P_new) / lambda);\n    \n    fragColor = vec4(V_new, P_new, 1.0);\n}"
+    }
+  ]
+}

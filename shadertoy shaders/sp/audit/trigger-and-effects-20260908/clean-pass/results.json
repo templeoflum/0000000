@@ -1,0 +1,1356 @@
+[
+  {
+    "index": 0,
+    "key": "layer/figure~1/effect/Iterate~1",
+    "name": "Iterate",
+    "layer": 5,
+    "opacity": 1.0,
+    "bypassed": false,
+    "params": {
+      "Opacity": {
+        "id": 1788823471647,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 1.0,
+        "view": {
+          "suffix": " %",
+          "multiplier": 100.0,
+          "display_units": "percent",
+          "control_type": "slider_color_opacity"
+        }
+      },
+      "TransformStrength": {
+        "id": 1788823471620,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.0
+      },
+      "Iterations": {
+        "id": 1788823471621,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.2054355539006295,
+        "view": {
+          "suffix": "",
+          "step": 0.02
+        }
+      },
+      "StartOpacity": {
+        "id": 1788823471622,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 1.0
+      },
+      "OpacityChange": {
+        "id": 1788823471623,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 1.0
+      },
+      "TranslateX": {
+        "id": 1788823471624,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.7176081531250091
+      },
+      "TranslateY": {
+        "id": 1788823471625,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.5116078163416385
+      },
+      "TranslateZ": {
+        "id": 1788823471626,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.4629622158698467
+      },
+      "RotateX": {
+        "id": 1788823471627,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.4561082722004065
+      },
+      "RotateY": {
+        "id": 1788823471628,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.5031987755377441
+      },
+      "RotateZ": {
+        "id": 1788823471629,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.7016285610795399
+      },
+      "Scale": {
+        "id": 1788823471630,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.7520888170008196
+      },
+      "DOpacityChange": {
+        "id": 1788823471631,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 1.0
+      },
+      "DTranslateX": {
+        "id": 1788823471632,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.6440740236395504
+      },
+      "DTranslateY": {
+        "id": 1788823471633,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.445854928494581
+      },
+      "DTranslateZ": {
+        "id": 1788823471634,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.25701460844437496
+      },
+      "DRotateX": {
+        "id": 1788823471635,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.5999309430085626
+      },
+      "DRotateY": {
+        "id": 1788823471636,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.8001381139829683
+      },
+      "DRotateZ": {
+        "id": 1788823471637,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.45511809943540454
+      },
+      "DScale": {
+        "id": 1788823471638,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.5059239047557772
+      },
+      "BlendMode": {
+        "id": 1788823471639,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.480416057778777,
+        "view": {
+          "suffix": "",
+          "step": 0.5
+        }
+      },
+      "GRotateX": {
+        "id": 1788823471640,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.0
+      },
+      "GRotateY": {
+        "id": 1788823471641,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.0
+      },
+      "GRotateZ": {
+        "id": 1788823471642,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.0
+      },
+      "Black BG": {
+        "valuetype": "ParamBoolean",
+        "id": 1788823471643,
+        "value": false
+      }
+    },
+    "heart_amount": 1.0
+  },
+  {
+    "index": 1,
+    "key": "layer/figure~1/effect/Mirror~1",
+    "name": "Mirror",
+    "layer": 5,
+    "opacity": 1.0,
+    "bypassed": false,
+    "params": {
+      "Opacity": {
+        "id": 1788823471865,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 1.0,
+        "view": {
+          "suffix": " %",
+          "multiplier": 100.0,
+          "display_units": "percent",
+          "control_type": "slider_color_opacity"
+        }
+      },
+      "X": {
+        "id": 1788823471856,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.5
+      },
+      "Y": {
+        "id": 1788823471857,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.0267525866572923
+      },
+      "In / Out": {
+        "id": 1788823471858,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.0267525866572923
+      },
+      "Flip X": {
+        "valuetype": "ParamBoolean",
+        "id": 1788823471859,
+        "value": true
+      },
+      "Flip Y": {
+        "valuetype": "ParamBoolean",
+        "id": 1788823471860,
+        "value": false
+      },
+      "Black BG": {
+        "valuetype": "ParamBoolean",
+        "id": 1788823471861,
+        "value": false
+      }
+    },
+    "heart_amount": 1.0
+  },
+  {
+    "index": 2,
+    "key": "layer/figure~1/effect/Mirror~2",
+    "name": "Mirror Y",
+    "layer": 5,
+    "opacity": 1.0,
+    "bypassed": false,
+    "params": {
+      "Opacity": {
+        "id": 1788823471885,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 1.0,
+        "view": {
+          "suffix": " %",
+          "multiplier": 100.0,
+          "display_units": "percent",
+          "control_type": "slider_color_opacity"
+        }
+      },
+      "X": {
+        "id": 1788823471876,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.0267525866572923
+      },
+      "Y": {
+        "id": 1788823471877,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.5
+      },
+      "In / Out": {
+        "id": 1788823471878,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.0267525866572923
+      },
+      "Flip X": {
+        "valuetype": "ParamBoolean",
+        "id": 1788823471879,
+        "value": true
+      },
+      "Flip Y": {
+        "valuetype": "ParamBoolean",
+        "id": 1788823471880,
+        "value": false
+      },
+      "Black BG": {
+        "valuetype": "ParamBoolean",
+        "id": 1788823471881,
+        "value": false
+      }
+    },
+    "heart_amount": 1.0
+  },
+  {
+    "index": 3,
+    "key": "layer/figure~1/effect/Mirror~3",
+    "name": "Mirror XY",
+    "layer": 5,
+    "opacity": 0.9995733340037988,
+    "bypassed": false,
+    "params": {
+      "Opacity": {
+        "id": 1788823471905,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.9995733340037988,
+        "view": {
+          "suffix": " %",
+          "multiplier": 100.0,
+          "display_units": "percent",
+          "control_type": "slider_color_opacity"
+        }
+      },
+      "X": {
+        "id": 1788823471896,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.5
+      },
+      "Y": {
+        "id": 1788823471897,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.5
+      },
+      "In / Out": {
+        "id": 1788823471898,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.6571491083383608
+      },
+      "Flip X": {
+        "valuetype": "ParamBoolean",
+        "id": 1788823471899,
+        "value": true
+      },
+      "Flip Y": {
+        "valuetype": "ParamBoolean",
+        "id": 1788823471900,
+        "value": false
+      },
+      "Black BG": {
+        "valuetype": "ParamBoolean",
+        "id": 1788823471901,
+        "value": false
+      }
+    },
+    "heart_amount": 0.9995733340037988
+  },
+  {
+    "index": 4,
+    "key": "layer/figure~1/effect/LoRezEffect~1",
+    "name": "LoRez",
+    "layer": 5,
+    "opacity": 0.999950417986838,
+    "bypassed": false,
+    "params": {
+      "Opacity": {
+        "id": 1788823472182,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.999950417986838,
+        "view": {
+          "suffix": " %",
+          "multiplier": 100.0,
+          "display_units": "percent",
+          "control_type": "slider_color_opacity"
+        }
+      },
+      "Pixel Size": {
+        "id": 1788823472176,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.910959921077806
+      },
+      "Bit Reduction": {
+        "id": 1788823472177,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.7718820584874575
+      },
+      "Dither": {
+        "id": 1788823472178,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.013605442176870748
+      }
+    },
+    "heart_amount": 0.999950417986838
+  },
+  {
+    "index": 5,
+    "key": "layer/feedback~1/effect/InvertRGB~1",
+    "name": "Invert RGB",
+    "layer": 1,
+    "opacity": 1.0,
+    "bypassed": false,
+    "params": {
+      "Opacity": {
+        "id": 1788823470638,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 1.0,
+        "view": {
+          "suffix": " %",
+          "multiplier": 100.0,
+          "display_units": "percent",
+          "control_type": "slider_color_opacity"
+        }
+      },
+      "R": {
+        "id": 1788823470631,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.0267525866572923,
+        "view": {
+          "suffix": ""
+        }
+      },
+      "G": {
+        "id": 1788823470632,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.0267525866572923,
+        "view": {
+          "suffix": ""
+        }
+      },
+      "B": {
+        "id": 1788823470633,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.0267525866572923,
+        "view": {
+          "suffix": ""
+        }
+      },
+      "A": {
+        "id": 1788823470634,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 1.0
+      }
+    },
+    "heart_amount": 1.0
+  },
+  {
+    "index": 6,
+    "key": "layer/feedback~1/effect/Blur~1",
+    "name": "Blur",
+    "layer": 1,
+    "opacity": 1.0,
+    "bypassed": false,
+    "params": {
+      "Opacity": {
+        "id": 1788823470679,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 1.0,
+        "view": {
+          "suffix": " %",
+          "multiplier": 100.0,
+          "display_units": "percent",
+          "control_type": "slider_color_opacity"
+        }
+      },
+      "Blur": {
+        "id": 1788823470671,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.0267525866572923
+      },
+      "Blur X Distance": {
+        "id": 1788823470672,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.07000000074505806
+      },
+      "Blur Y Distance": {
+        "id": 1788823470673,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.07000000074505806
+      },
+      "Quality": {
+        "id": 1788823470674,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.8852658479110055
+      },
+      "Gaussian": {
+        "id": 1788823470675,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.30072419539741846
+      }
+    },
+    "heart_amount": 1.0
+  },
+  {
+    "index": 7,
+    "key": "layer/feedback~1/effect/Sharpen~1",
+    "name": "Sharpen",
+    "layer": 1,
+    "opacity": 1.0,
+    "bypassed": false,
+    "params": {
+      "Opacity": {
+        "id": 1788823470695,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 1.0,
+        "view": {
+          "suffix": " %",
+          "multiplier": 100.0,
+          "display_units": "percent",
+          "control_type": "slider_color_opacity"
+        }
+      },
+      "Strength": {
+        "id": 1788823470690,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 1.0
+      },
+      "Distance": {
+        "id": 1788823470691,
+        "valuetype": "ParamRange",
+        "min": 1.0,
+        "max": 25.0,
+        "in": 1.0,
+        "out": 25.0,
+        "value": 25.0,
+        "view": {
+          "suffix": "",
+          "step": 1.0,
+          "display_units": "integer",
+          "control_type": "spinner"
+        }
+      }
+    },
+    "heart_amount": 1.0
+  },
+  {
+    "index": 8,
+    "key": "layer/feedback~1/effect/Kaleidoscope~1",
+    "name": "Kaleidoscope",
+    "layer": 1,
+    "opacity": 1.0,
+    "bypassed": false,
+    "params": {
+      "Opacity": {
+        "id": 1788823470714,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 1.0,
+        "view": {
+          "suffix": " %",
+          "multiplier": 100.0,
+          "display_units": "percent",
+          "control_type": "slider_color_opacity"
+        }
+      },
+      "Angles": {
+        "id": 1788823470706,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.3512658227848101,
+        "view": {
+          "suffix": "",
+          "step": 0.09090909090909091
+        }
+      },
+      "Rotation": {
+        "id": 1788823470707,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.0267525866572923
+      },
+      "Zoom": {
+        "id": 1788823470708,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 1.0
+      },
+      "Input Rotation": {
+        "id": 1788823470709,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.6174169208339148
+      },
+      "Black BG": {
+        "valuetype": "ParamBoolean",
+        "id": 1788823470710,
+        "value": false
+      }
+    },
+    "heart_amount": 1.0
+  },
+  {
+    "index": 9,
+    "key": "layer/feedback~1/effect/Mirror~1",
+    "name": "Mirror X",
+    "layer": 1,
+    "opacity": 1.0,
+    "bypassed": false,
+    "params": {
+      "Opacity": {
+        "id": 1788823470745,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 1.0,
+        "view": {
+          "suffix": " %",
+          "multiplier": 100.0,
+          "display_units": "percent",
+          "control_type": "slider_color_opacity"
+        }
+      },
+      "X": {
+        "id": 1788823470736,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.5
+      },
+      "Y": {
+        "id": 1788823470737,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.0267525866572923
+      },
+      "In / Out": {
+        "id": 1788823470738,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.0267525866572923
+      },
+      "Flip X": {
+        "valuetype": "ParamBoolean",
+        "id": 1788823470739,
+        "value": false
+      },
+      "Flip Y": {
+        "valuetype": "ParamBoolean",
+        "id": 1788823470740,
+        "value": false
+      },
+      "Black BG": {
+        "valuetype": "ParamBoolean",
+        "id": 1788823470741,
+        "value": false
+      }
+    },
+    "heart_amount": 1.0
+  },
+  {
+    "index": 10,
+    "key": "layer/feedback~1/effect/Mirror~2",
+    "name": "Mirror Y",
+    "layer": 1,
+    "opacity": 1.0,
+    "bypassed": false,
+    "params": {
+      "Opacity": {
+        "id": 1788823470765,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 1.0,
+        "view": {
+          "suffix": " %",
+          "multiplier": 100.0,
+          "display_units": "percent",
+          "control_type": "slider_color_opacity"
+        }
+      },
+      "X": {
+        "id": 1788823470756,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.0267525866572923
+      },
+      "Y": {
+        "id": 1788823470757,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.5
+      },
+      "In / Out": {
+        "id": 1788823470758,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.0267525866572923
+      },
+      "Flip X": {
+        "valuetype": "ParamBoolean",
+        "id": 1788823470759,
+        "value": false
+      },
+      "Flip Y": {
+        "valuetype": "ParamBoolean",
+        "id": 1788823470760,
+        "value": false
+      },
+      "Black BG": {
+        "valuetype": "ParamBoolean",
+        "id": 1788823470761,
+        "value": false
+      }
+    },
+    "heart_amount": 1.0
+  },
+  {
+    "index": 11,
+    "key": "layer/feedback~1/effect/Mirror~3",
+    "name": "Mirror",
+    "layer": 1,
+    "opacity": 1.0,
+    "bypassed": false,
+    "params": {
+      "Opacity": {
+        "id": 1788823470785,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 1.0,
+        "view": {
+          "suffix": " %",
+          "multiplier": 100.0,
+          "display_units": "percent",
+          "control_type": "slider_color_opacity"
+        }
+      },
+      "X": {
+        "id": 1788823470776,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.5
+      },
+      "Y": {
+        "id": 1788823470777,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.5
+      },
+      "In / Out": {
+        "id": 1788823470778,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.7840671201548169
+      },
+      "Flip X": {
+        "valuetype": "ParamBoolean",
+        "id": 1788823470779,
+        "value": false
+      },
+      "Flip Y": {
+        "valuetype": "ParamBoolean",
+        "id": 1788823470780,
+        "value": false
+      },
+      "Black BG": {
+        "valuetype": "ParamBoolean",
+        "id": 1788823470781,
+        "value": false
+      }
+    },
+    "heart_amount": 1.0
+  },
+  {
+    "index": 12,
+    "key": "layer/feedback~1/effect/Mirror~4",
+    "name": "Mirror",
+    "layer": 1,
+    "opacity": 1.0,
+    "bypassed": false,
+    "params": {
+      "Opacity": {
+        "id": 1788823470816,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 1.0,
+        "view": {
+          "suffix": " %",
+          "multiplier": 100.0,
+          "display_units": "percent",
+          "control_type": "slider_color_opacity"
+        }
+      },
+      "X": {
+        "id": 1788823470807,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.3913897361113385
+      },
+      "Y": {
+        "id": 1788823470808,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.5465472559533192
+      },
+      "In / Out": {
+        "id": 1788823470809,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.3920335600781738
+      },
+      "Flip X": {
+        "valuetype": "ParamBoolean",
+        "id": 1788823470810,
+        "value": false
+      },
+      "Flip Y": {
+        "valuetype": "ParamBoolean",
+        "id": 1788823470811,
+        "value": false
+      },
+      "Black BG": {
+        "valuetype": "ParamBoolean",
+        "id": 1788823470812,
+        "value": false
+      }
+    },
+    "heart_amount": 1.0
+  },
+  {
+    "index": 13,
+    "key": "layer/sculpt~1/effect/InvertRGB~1",
+    "name": "Invert RGB",
+    "layer": 2,
+    "opacity": 1.0,
+    "bypassed": false,
+    "params": {
+      "Opacity": {
+        "id": 1788823470890,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 1.0,
+        "view": {
+          "suffix": " %",
+          "multiplier": 100.0,
+          "display_units": "percent",
+          "control_type": "slider_color_opacity"
+        }
+      },
+      "R": {
+        "id": 1788823470883,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.0267525866572923,
+        "view": {
+          "suffix": ""
+        }
+      },
+      "G": {
+        "id": 1788823470884,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.0267525866572923,
+        "view": {
+          "suffix": ""
+        }
+      },
+      "B": {
+        "id": 1788823470885,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.0267525866572923,
+        "view": {
+          "suffix": ""
+        }
+      },
+      "A": {
+        "id": 1788823470886,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.0267525866572923
+      }
+    },
+    "heart_amount": 1.0
+  },
+  {
+    "index": 14,
+    "key": "layer/sculpt~1/effect/HueRotate~1",
+    "name": "Hue Rotate",
+    "layer": 2,
+    "opacity": 1.0,
+    "bypassed": false,
+    "params": {
+      "Opacity": {
+        "id": 1788823470918,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 1.0,
+        "view": {
+          "suffix": " %",
+          "multiplier": 100.0,
+          "display_units": "percent",
+          "control_type": "slider_color_opacity"
+        }
+      },
+      "Hue Scale": {
+        "id": 1788823470912,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.0267525866572923
+      },
+      "Hue Rotate": {
+        "id": 1788823470913,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.10525064889086526
+      },
+      "Sat. Scale": {
+        "id": 1788823470914,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.0267525866572923
+      }
+    },
+    "heart_amount": 1.0
+  },
+  {
+    "index": 15,
+    "key": "layer/sculpt~1/effect/InvertRGB~2",
+    "name": "Invert RGB",
+    "layer": 2,
+    "opacity": 1.0,
+    "bypassed": false,
+    "params": {
+      "Opacity": {
+        "id": 1788823470947,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 1.0,
+        "view": {
+          "suffix": " %",
+          "multiplier": 100.0,
+          "display_units": "percent",
+          "control_type": "slider_color_opacity"
+        }
+      },
+      "R": {
+        "id": 1788823470940,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.0267525866572923,
+        "view": {
+          "suffix": ""
+        }
+      },
+      "G": {
+        "id": 1788823470941,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.0267525866572923,
+        "view": {
+          "suffix": ""
+        }
+      },
+      "B": {
+        "id": 1788823470942,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.0267525866572923,
+        "view": {
+          "suffix": ""
+        }
+      },
+      "A": {
+        "id": 1788823470943,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 1.0
+      }
+    },
+    "heart_amount": 1.0
+  },
+  {
+    "index": 16,
+    "key": "layer/sculpt~1/effect/DelayRGB~1",
+    "name": "Delay RGB",
+    "layer": 2,
+    "opacity": 1.0,
+    "bypassed": false,
+    "params": {
+      "Opacity": {
+        "id": 1788823470964,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 1.0,
+        "view": {
+          "suffix": " %",
+          "multiplier": 100.0,
+          "display_units": "percent",
+          "control_type": "slider_color_opacity"
+        }
+      },
+      "R delay": {
+        "id": 1788823470958,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.0267525866572923,
+        "view": {
+          "suffix": "",
+          "alternative_name": "Delay R"
+        }
+      },
+      "G delay": {
+        "id": 1788823470959,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.0267525866572923,
+        "view": {
+          "suffix": "",
+          "alternative_name": "Delay G"
+        }
+      },
+      "B delay": {
+        "id": 1788823470960,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.0267525866572923,
+        "view": {
+          "suffix": "",
+          "alternative_name": "Delay B"
+        }
+      }
+    },
+    "heart_amount": 1.0
+  },
+  {
+    "index": 17,
+    "key": "layer/sculpt~1/effect/AutoMask~1",
+    "name": "Auto Mask",
+    "layer": 2,
+    "opacity": 1.0,
+    "bypassed": false,
+    "params": {
+      "Opacity": {
+        "id": 1788823470981,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 1.0,
+        "view": {
+          "suffix": " %",
+          "multiplier": 100.0,
+          "display_units": "percent",
+          "control_type": "slider_color_opacity"
+        }
+      },
+      "Channel": {
+        "id": 1788823470975,
+        "valuetype": "ParamChoice",
+        "value": "Luminance",
+        "index": 0,
+        "options": [
+          "Luminance",
+          "Red",
+          "Green",
+          "Blue"
+        ],
+        "view": {
+          "suffix": "",
+          "control_type": "choice_combobox"
+        }
+      },
+      "Contrast": {
+        "id": 1788823470976,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 1.0
+      },
+      "Invert": {
+        "valuetype": "ParamBoolean",
+        "id": 1788823470977,
+        "value": false
+      }
+    },
+    "heart_amount": 1.0
+  }
+]

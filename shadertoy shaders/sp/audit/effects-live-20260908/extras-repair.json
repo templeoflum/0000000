@@ -1,0 +1,179 @@
+{
+  "changes": [
+    {
+      "key": "layer/figure~1/effect/TwitchEffect~1",
+      "name": "Global Twitch",
+      "before": 0.0267525866572923,
+      "after": 0.4743764449139031,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.4743764449139031,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/TwitchEffect~1",
+      "name": "Max Pos X",
+      "before": 0.0267525866572923,
+      "after": 0.019652303059895834,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.01965230305989583,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/TwitchEffect~1",
+      "name": "Max Pos Y",
+      "before": 0.0267525866572923,
+      "after": 0.012396074152317176,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.012396074152317176,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/TwitchEffect~1",
+      "name": "Pos Frequency",
+      "before": 0.0267525866572923,
+      "after": 0.6806083650190115,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.6806083650190115,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/TwitchEffect~1",
+      "name": "Max Scale",
+      "before": 0.0267525866572923,
+      "after": 0.10128497688137755,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.10128497688137757,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/TwitchEffect~1",
+      "name": "Scale Frequency",
+      "before": 0.0267525866572923,
+      "after": 0.646810321300202,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.646810321300202,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/TwitchEffect~1",
+      "name": "Max Light",
+      "before": 0.0267525866572923,
+      "after": 0.28010141350923834,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.28010141350923834,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/TwitchEffect~1",
+      "name": "Max RGB Shift",
+      "before": 0.0267525866572923,
+      "after": 0.670899433992347,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.670899433992347,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/TwitchEffect~1",
+      "name": "RGB Frequency",
+      "before": 0.0267525866572923,
+      "after": 0.33771731837266156,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.33771731837266156,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/TwitchEffect~1",
+      "name": "Max Blur",
+      "before": 0.0267525866572923,
+      "after": 0.35769473805147056,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.35769473805147056,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/TwitchEffect~1",
+      "name": "Blur Frequency",
+      "before": 0.0267525866572923,
+      "after": 0.15166876615226949,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.15166876615226949,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/mtk_lut_corrupt~1",
+      "name": "IN_WHITE",
+      "before": 0.0267525866572923,
+      "after": 0.6571491083383608,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.6571491083383608,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/mtk_lut_corrupt~1",
+      "name": "OUT_WHITE",
+      "before": 0.0267525866572923,
+      "after": 0.7551065059559634,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.7551065059559634,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/mtk_lut_corrupt~1",
+      "name": "IN BLACK",
+      "before": 0.0267525866572923,
+      "after": 0.025976867426500218,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.025976867426500214,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/mtk_lut_corrupt~1",
+      "name": "OUT BLACK",
+      "before": 0.0267525866572923,
+      "after": 0.4395580352544741,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.4395580352544741,
+      "verified": true
+    },
+    {
+      "key": "composition/effect/MTK_PXLMELT~1",
+      "name": "FX_AREA",
+      "before": 0.0535051733145846,
+      "after": 2.0,
+      "source": "native factory reset readback",
+      "readback": 2.0,
+      "verified": true
+    },
+    {
+      "key": "composition/effect/MTK_PXLMELT~1",
+      "name": "MOSHLINES",
+      "before": 0.0267525866572923,
+      "after": 1.0,
+      "source": "native factory reset readback",
+      "readback": 1.0,
+      "verified": true
+    }
+  ],
+  "skipped": [
+    [
+      "layer/figure~1/effect/mtk_lut_corrupt~1",
+      "LUT_CORRUPT_R",
+      "unmatched choice"
+    ],
+    [
+      "layer/figure~1/effect/mtk_lut_corrupt~1",
+      "MELT",
+      "event"
+    ],
+    [
+      "layer/figure~1/effect/mtk_lut_corrupt~1",
+      "DECON",
+      "event"
+    ],
+    [
+      "layer/figure~1/effect/mtk_lut_corrupt~1",
+      "BLOK",
+      "event"
+    ]
+  ]
+}

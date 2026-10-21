@@ -1,0 +1,140 @@
+{
+  "answer": {
+    "records": [
+      {
+        "source": "Cuadricula rect",
+        "continuous_controls": [
+          "tile",
+          "offset",
+          "stroke width",
+          "gradient",
+          "even rows",
+          "odd rows",
+          "rotate",
+          "warp",
+          "x",
+          "y"
+        ],
+        "unsupported_controls": [],
+        "note": "Live testing required."
+      },
+      {
+        "source": "data blocks",
+        "continuous_controls": [
+          "grid x",
+          "grid y",
+          "grid2 x",
+          "center x",
+          "center y",
+          "curve x",
+          "curve y",
+          "shift",
+          "density",
+          "rate",
+          "seed",
+          "offset",
+          "grid2 y"
+        ],
+        "unsupported_controls": [
+          "Bool In"
+        ],
+        "note": "Live testing required."
+      },
+      {
+        "source": "RailroadTracks",
+        "continuous_controls": [
+          "intensity",
+          "speed",
+          "curve1",
+          "curve1 freq",
+          "curve2",
+          "curve2 freq",
+          "color mix"
+        ],
+        "unsupported_controls": [],
+        "note": "Live testing required."
+      },
+      {
+        "source": "RetroTechnicolorComputer",
+        "continuous_controls": [
+          "offset x",
+          "offset y",
+          "matrix x",
+          "matrix y",
+          "size",
+          "speed",
+          "hue",
+          "saturation"
+        ],
+        "unsupported_controls": [],
+        "note": "Live testing required."
+      },
+      {
+        "source": "SmoothXORi",
+        "continuous_controls": [
+          "rate",
+          "scrolls y",
+          "scroll x",
+          "intensity",
+          "seed1",
+          "seed2",
+          "zoom",
+          "tint",
+          "sat"
+        ],
+        "unsupported_controls": [],
+        "note": "Live testing required."
+      },
+      {
+        "source": "TruchetDualLevelSpin",
+        "continuous_controls": [
+          "spin x",
+          "spin y",
+          "seed x",
+          "edge",
+          "glow",
+          "freq",
+          "pulse",
+          "pulse rate",
+          "thickness",
+          "scale",
+          "seed y"
+        ],
+        "unsupported_controls": [],
+        "note": "Live testing required."
+      }
+    ]
+  },
+  "checks": [
+    {
+      "source": "Cuadricula rect",
+      "exact_continuous_match": true,
+      "exact_other_match": true
+    },
+    {
+      "source": "data blocks",
+      "exact_continuous_match": true,
+      "exact_other_match": true
+    },
+    {
+      "source": "RailroadTracks",
+      "exact_continuous_match": true,
+      "exact_other_match": true
+    },
+    {
+      "source": "RetroTechnicolorComputer",
+      "exact_continuous_match": true,
+      "exact_other_match": true
+    },
+    {
+      "source": "SmoothXORi",
+      "exact_continuous_match": true,
+      "exact_other_match": true
+    },
+    {
+      "source": "TruchetDualLevelSpin",
+      "exact_continuous_match": true,
+      "exact_other_match": true
+    }
+  ]
+}

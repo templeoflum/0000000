@@ -1,0 +1,52 @@
+[
+  {
+    "label": "initial off",
+    "want": false,
+    "actual": false
+  },
+  {
+    "label": "hold on",
+    "want": true,
+    "actual": true
+  },
+  {
+    "label": "release off",
+    "want": false,
+    "actual": false
+  },
+  {
+    "label": "latch on",
+    "want": true,
+    "actual": true
+  },
+  {
+    "label": "hold preserves latch",
+    "want": true,
+    "actual": true
+  },
+  {
+    "label": "latch off",
+    "want": false,
+    "actual": false
+  },
+  {
+    "label": "second hold",
+    "want": true,
+    "actual": true
+  },
+  {
+    "label": "new edit beats release",
+    "want": false,
+    "actual": false
+  },
+  {
+    "label": "disconnect setup",
+    "want": true,
+    "actual": true
+  },
+  {
+    "label": "disconnect clears hold",
+    "want": false,
+    "actual": false
+  }
+]

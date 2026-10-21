@@ -1,0 +1,40 @@
+{
+  "candidate": "/tmp/heart-session-build/checks/session-performance-script-optimized.fs",
+  "backup": "/tmp/heart-session-build/checks/session-performance-script-original.fs",
+  "destinations": [
+    {
+      "path": "/Users/donovan/work/0000000/shadertoy shaders/sp/SP Atom Script.fs",
+      "existing_sha256": "96551bd0466a423d78ed13f682dd6784d46d6f62402ebe7bfe293f0123f95e12",
+      "candidate_sha256": "2fbb3ce37a06b8940dbf7af03b734d3d4b424251398c1ae1efa3b2df89a1f722"
+    },
+    {
+      "path": "/Users/donovan/Documents/Resolume Wire/Patches/SP Atom Script/Resource/SP Atom Script.fs",
+      "existing_sha256": "96551bd0466a423d78ed13f682dd6784d46d6f62402ebe7bfe293f0123f95e12",
+      "candidate_sha256": "2fbb3ce37a06b8940dbf7af03b734d3d4b424251398c1ae1efa3b2df89a1f722"
+    }
+  ],
+  "wire_path": "/Users/donovan/Documents/Resolume Wire/Patches/SP Atom Script/SP Atom Script.wire",
+  "wire_sha256": "b29fbb3be15ff7b8084480cc6e2fb77c33dc8484f4cac409d2d559acff05d4a5",
+  "wire_resource_attribute": {
+    "main": "Resource/SP Atom Script.fs",
+    "sub": ""
+  },
+  "schema_unchanged": true,
+  "rebuild_required": false,
+  "rebuild_reason": "The existing Wire resourceIsf attribute points to Resource/SP Atom Script.fs. Input metadata, resource path, and source header are identical. No patch graph or metadata regeneration is needed. Arena resource reload still requires separate runtime verification.",
+  "production_changes_made": true,
+  "generator": {
+    "path": "/Users/donovan/work/0000000/shadertoy shaders/sp/make_script.py",
+    "existing_sha256": "eed2be313b04bd8971faa8a2958489136506f7a2dd6e1744cea4daf0638c0874",
+    "candidate": "/tmp/heart-session-build/checks/session-performance-make-script.py",
+    "candidate_sha256": "f93ebc6f68b23eb9b3ac8071b8acf10223feebb93ceb7206474787f8f477f9b7",
+    "regenerated_source_exact_match": true
+  },
+  "sidecar": {
+    "path": "/Users/donovan/Documents/Resolume Wire/Patches/SP Atom Script/Resource/SP Atom Script.sp.json",
+    "change_required": false,
+    "reason": "Empty parameter sidecar; input schema unchanged."
+  },
+  "installed_at": "2026-09-11T21:03:50.607384-05:00",
+  "runtime_reload_verified": false
+}

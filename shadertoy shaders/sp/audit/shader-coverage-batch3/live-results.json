@@ -1,0 +1,350 @@
+[
+  {
+    "col": 20,
+    "source": "RainbowRingCubicTwist",
+    "expected_controls": [
+      "scale",
+      "thickness",
+      "twists",
+      "rate",
+      "gamma"
+    ],
+    "discovered_controls": [
+      "scale",
+      "thickness",
+      "twists",
+      "rate",
+      "gamma"
+    ],
+    "checks": [
+      {
+        "control": "scale",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "scale",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "thickness",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "thickness",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "twists",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "twists",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "rate",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "rate",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "gamma",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "gamma",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      }
+    ],
+    "drive_samples": [
+      0.692446327314007,
+      0.5741657116952378,
+      0.45368781812719056,
+      0.3620396737241845,
+      0.3108104925944481
+    ],
+    "drive_varied": true
+  },
+  {
+    "col": 25,
+    "source": "Crystal Drops",
+    "expected_controls": [
+      "Speed",
+      "Camera Distance",
+      "FOV",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z",
+      "Refraction"
+    ],
+    "discovered_controls": [
+      "Speed",
+      "Camera Distance",
+      "FOV",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z",
+      "Refraction"
+    ],
+    "checks": [
+      {
+        "control": "Speed",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "Speed",
+        "requested": 2.25,
+        "observed": 2.25,
+        "ok": true
+      },
+      {
+        "control": "Camera Distance",
+        "requested": 5.25,
+        "observed": 5.25,
+        "ok": true
+      },
+      {
+        "control": "Camera Distance",
+        "requested": 11.75,
+        "observed": 11.75,
+        "ok": true
+      },
+      {
+        "control": "FOV",
+        "requested": 1.625,
+        "observed": 1.625,
+        "ok": true
+      },
+      {
+        "control": "FOV",
+        "requested": 3.875,
+        "observed": 3.875,
+        "ok": true
+      },
+      {
+        "control": "Quat W",
+        "requested": -0.5,
+        "observed": 0.9083322083354894,
+        "ok": false
+      },
+      {
+        "control": "Quat W",
+        "requested": 0.5,
+        "observed": 0.5,
+        "ok": true
+      },
+      {
+        "control": "Quat X",
+        "requested": -0.5,
+        "observed": -0.5,
+        "ok": true
+      },
+      {
+        "control": "Quat X",
+        "requested": 0.5,
+        "observed": 0.5,
+        "ok": true
+      },
+      {
+        "control": "Quat Y",
+        "requested": -0.5,
+        "observed": -0.5,
+        "ok": true
+      },
+      {
+        "control": "Quat Y",
+        "requested": 0.5,
+        "observed": 0.5,
+        "ok": true
+      },
+      {
+        "control": "Quat Z",
+        "requested": -0.5,
+        "observed": -0.5,
+        "ok": true
+      },
+      {
+        "control": "Quat Z",
+        "requested": 0.5,
+        "observed": 0.5,
+        "ok": true
+      },
+      {
+        "control": "Refraction",
+        "requested": 0.16250000055879354,
+        "observed": 0.16250000055879354,
+        "ok": true
+      },
+      {
+        "control": "Refraction",
+        "requested": 0.3875000001862645,
+        "observed": 0.3875000001862645,
+        "ok": true
+      }
+    ],
+    "drive_samples": [
+      0.2429293227210333,
+      0.2123730263425208,
+      0.18549130175985584,
+      0.17182563406953424,
+      0.1735602310090718
+    ],
+    "drive_varied": true
+  },
+  {
+    "col": 38,
+    "source": "Spikeball_v2",
+    "expected_controls": [
+      "Speed",
+      "Camera Distance",
+      "FOV",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z",
+      "Spike Sharpness"
+    ],
+    "discovered_controls": [
+      "Speed",
+      "Camera Distance",
+      "FOV",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z",
+      "Spike Sharpness"
+    ],
+    "checks": [
+      {
+        "control": "Speed",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "Speed",
+        "requested": 2.25,
+        "observed": 2.25,
+        "ok": true
+      },
+      {
+        "control": "Camera Distance",
+        "requested": 5.25,
+        "observed": 5.25,
+        "ok": true
+      },
+      {
+        "control": "Camera Distance",
+        "requested": 11.75,
+        "observed": 11.75,
+        "ok": true
+      },
+      {
+        "control": "FOV",
+        "requested": 1.125,
+        "observed": 1.125,
+        "ok": true
+      },
+      {
+        "control": "FOV",
+        "requested": 2.375,
+        "observed": 2.375,
+        "ok": true
+      },
+      {
+        "control": "Quat W",
+        "requested": -0.5,
+        "observed": -0.5,
+        "ok": true
+      },
+      {
+        "control": "Quat W",
+        "requested": 0.5,
+        "observed": 0.5,
+        "ok": true
+      },
+      {
+        "control": "Quat X",
+        "requested": -0.5,
+        "observed": -0.5,
+        "ok": true
+      },
+      {
+        "control": "Quat X",
+        "requested": 0.5,
+        "observed": 0.5,
+        "ok": true
+      },
+      {
+        "control": "Quat Y",
+        "requested": -0.5,
+        "observed": -0.5,
+        "ok": true
+      },
+      {
+        "control": "Quat Y",
+        "requested": 0.5,
+        "observed": 0.5,
+        "ok": true
+      },
+      {
+        "control": "Quat Z",
+        "requested": -0.5,
+        "observed": -0.5,
+        "ok": true
+      },
+      {
+        "control": "Quat Z",
+        "requested": 0.5,
+        "observed": 0.5,
+        "ok": true
+      },
+      {
+        "control": "Spike Sharpness",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "Spike Sharpness",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      }
+    ],
+    "drive_samples": [
+      0.47728595678003743,
+      0.40142569842232767,
+      0.3318545911545465,
+      0.28771911481496154,
+      0.2810376622578208
+    ],
+    "drive_varied": true
+  }
+]

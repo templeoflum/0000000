@@ -1,0 +1,95 @@
+..................Executing <Task finished name='Task-2' coro=<BridgeTests.test_values_claim_disarm_and_stale_epoch() done, defined at /Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/test_bridge.py:7> result=None created at /opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py:110> took 0.353 seconds
+............................................{"status": "pause", "pid": 123, "footprint_bytes": 75161927680, "footprint_gib": 70.0, "warn_gib": 40, "pause_gib": 64, "at": "2026-09-12T13:23:26.064511-05:00"}
+/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/test_memory_guard.py:12: ResourceWarning: unclosed file <_io.TextIOWrapper name='/var/folders/68/g_fps9fj1s7gwyq7t365v6hw0000gn/T/tmpqbkjs86v/memory-guard.lock' mode='w' encoding='UTF-8'>
+  with patch.object(guard,'footprint',return_value=70*guard.GIB):guard.main()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+{"status": "normal", "pid": 123, "footprint_bytes": 21474836480, "footprint_gib": 20.0, "warn_gib": 40, "pause_gib": 64, "at": "2026-09-12T13:23:26.077191-05:00"}
+/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/test_memory_guard.py:15: ResourceWarning: unclosed file <_io.TextIOWrapper name='/var/folders/68/g_fps9fj1s7gwyq7t365v6hw0000gn/T/tmpqbkjs86v/memory-guard.lock' mode='w' encoding='UTF-8'>
+  with patch.object(guard,'footprint',return_value=20*guard.GIB):guard.main()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.{"status": "warning", "pid": 123, "footprint_bytes": 48318382080, "footprint_gib": 45.0, "warn_gib": 40, "pause_gib": 64, "at": "2026-09-12T13:23:26.078754-05:00"}
+/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/test_memory_guard.py:22: ResourceWarning: unclosed file <_io.TextIOWrapper name='/var/folders/68/g_fps9fj1s7gwyq7t365v6hw0000gn/T/tmptz03trgq/memory-guard.lock' mode='w' encoding='UTF-8'>
+  with patch.object(guard,'footprint',return_value=45*guard.GIB):guard.main()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+{"status": "unavailable", "error": "permission denied", "at": "2026-09-12T13:23:26.079716-05:00"}
+............/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/traceback.py:294: ResourceWarning: unclosed file <_io.FileIO name='/var/folders/68/g_fps9fj1s7gwyq7t365v6hw0000gn/T/tmptz03trgq/memory-guard.lock' mode='wb' closefd=True>
+  def __init__(self, filename, lineno, name, *, lookup_line=True,
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+connection handler failed
+Traceback (most recent call last):
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/.venv/lib/python3.14/site-packages/websockets/asyncio/server.py", line 747, in protocol_handler
+    await handler(connection)
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/test_observation.py", line 12, in handler
+    async for raw in ws:
+     m=json.loads(raw);requests.append(m);pid=int(m['parameter'].split('/')[-1])
+     if m['action']=='subscribe':await ws.send(json.dumps(dict(id=pid,type='parameter_subscribed',value=.3)))
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/.venv/lib/python3.14/site-packages/websockets/asyncio/connection.py", line 237, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/.venv/lib/python3.14/site-packages/websockets/asyncio/connection.py", line 317, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+.......................E....E........................................../opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/tempfile.py:484: ResourceWarning: Implicitly cleaning up <HTTPError 404: 'Not Found'>
+  _warnings.warn(self.warn_message, ResourceWarning)
+..........
+======================================================================
+ERROR: test_playing_actions_use_native_identity_and_guard_releases (test_playing_runtime.PlayingRuntimeTests.test_playing_actions_use_native_identity_and_guard_releases)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 128, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/test_playing_runtime.py", line 38, in test_playing_actions_use_native_identity_and_guard_releases
+    async with websockets.connect(f'ws://127.0.0.1:{wsport}') as ws:
+               ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/.venv/lib/python3.14/site-packages/websockets/asyncio/client.py", line 576, in __aenter__
+    self.connection = await self
+                      ^^^^^^^^^^
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/.venv/lib/python3.14/site-packages/websockets/asyncio/client.py", line 524, in connect
+    connection = await self.open_tcp_connection()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/.venv/lib/python3.14/site-packages/websockets/asyncio/client.py", line 445, in open_tcp_connection
+    _, connection = await loop.create_connection(factory, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 1168, in create_connection
+    raise exceptions[0]
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 1143, in create_connection
+    sock = await self._connect_sock(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+        exceptions, addrinfo, laddr_infos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 1042, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/selector_events.py", line 647, in sock_connect
+    return await fut
+           ^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/selector_events.py", line 687, in _sock_connect_cb
+    raise OSError(err, f'Connect call failed {address}')
+ConnectionRefusedError: [Errno 61] Connect call failed ('127.0.0.1', 49922)
+
+======================================================================
+ERROR: test_reload_lease_and_envelope_protocol (test_runtime.RuntimeTests.test_reload_lease_and_envelope_protocol)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 128, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/test_runtime.py", line 24, in test_reload_lease_and_envelope_protocol
+    if not ready:raise RuntimeError((await proc.stderr.read()).decode())
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Traceback (most recent call last):
+  File "/var/folders/68/g_fps9fj1s7gwyq7t365v6hw0000gn/T/heart-runtime-mwjdjy70/server.py", line 11, in <module>
+    from session_controls import SessionControls,native_program,same_program
+ModuleNotFoundError: No module named 'session_controls'
+
+
+----------------------------------------------------------------------
+Ran 156 tests in 26.228s
+
+FAILED (errors=2)

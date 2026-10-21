@@ -1,0 +1,5140 @@
+{
+  "version": 1,
+  "kind": "heart-performance",
+  "targets": {
+    "source/feedback/map": {
+      "version": 2,
+      "global": {
+        "speed": 0.25,
+        "relationship": {
+          "kind": "pendulum",
+          "base": 17,
+          "step": 1,
+          "members": {
+            "Zoom": 0,
+            "Rotate": 1,
+            "Drift X": 2,
+            "Drift Y": 3,
+            "Center X": 4,
+            "Center Y": 5
+          }
+        },
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0,
+        "timing_mode": "harmonic"
+      },
+      "slots": {
+        "Zoom": {
+          "config": {
+            "manual": 0.7132,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.7071999999999999,
+            "hi": 0.7192,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.7132,
+          "identity": "SPChainMap/1/Zoom"
+        },
+        "Rotate": {
+          "config": {
+            "manual": 0.4661,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.16666666666666666,
+            "shape": 1,
+            "lo": 0.4631,
+            "hi": 0.4691,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.4661,
+          "identity": "SPChainMap/1/Rotate"
+        },
+        "Drift X": {
+          "config": {
+            "manual": 0.4512,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.3333333333333333,
+            "shape": 1,
+            "lo": 0.4492,
+            "hi": 0.4532,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.4512,
+          "identity": "SPChainMap/1/Drift X"
+        },
+        "Drift Y": {
+          "config": {
+            "manual": 0.5,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.5,
+            "shape": 1,
+            "lo": 0.498,
+            "hi": 0.502,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.5,
+          "identity": "SPChainMap/1/Drift Y"
+        },
+        "Center X": {
+          "config": {
+            "manual": 0.5,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.6666666666666666,
+            "shape": 1,
+            "lo": 0.47,
+            "hi": 0.53,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.5,
+          "identity": "SPChainMap/1/Center X"
+        },
+        "Center Y": {
+          "config": {
+            "manual": 0.5,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.8333333333333334,
+            "shape": 1,
+            "lo": 0.47,
+            "hi": 0.53,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.5,
+          "identity": "SPChainMap/1/Center Y"
+        },
+        "Gain": {
+          "config": {
+            "manual": 0.8932907773726424,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.8932907773726424,
+          "identity": "SPChainMap/1/Gain"
+        },
+        "Floor": {
+          "config": {
+            "manual": 0.8454651885547775,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.8454651885547775,
+          "identity": "SPChainMap/1/Floor"
+        },
+        "Key": {
+          "config": {
+            "manual": 0.1737840621983721,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.1737840621983721,
+          "identity": "SPChainMap/1/Key"
+        }
+      }
+    },
+    "source/sculpt/level": {
+      "version": 2,
+      "global": {
+        "speed": 0.25,
+        "relationship": {
+          "kind": "pendulum",
+          "base": 17,
+          "step": 1,
+          "members": {
+            "Key": 0,
+            "Soft": 1,
+            "Gain": 2,
+            "Floor": 3,
+            "Curve": 4,
+            "Ceiling": 5,
+            "Lift": 6
+          }
+        },
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0,
+        "timing_mode": "harmonic"
+      },
+      "slots": {
+        "Gain": {
+          "config": {
+            "manual": 1.0,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.2857142857142857,
+            "shape": 1,
+            "lo": 0.97,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 1.0,
+          "identity": "SPStudyLevel/1/Gain"
+        },
+        "Floor": {
+          "config": {
+            "manual": 0.0,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.42857142857142855,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 0.025,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0,
+          "identity": "SPStudyLevel/1/Floor"
+        },
+        "Key": {
+          "config": {
+            "manual": 0.3725,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.355,
+            "hi": 0.39,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.3725,
+          "identity": "SPStudyLevel/1/Key"
+        },
+        "Soft": {
+          "config": {
+            "manual": 0.0,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.14285714285714285,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 0.015,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0,
+          "identity": "SPStudyLevel/1/Soft"
+        },
+        "Curve": {
+          "config": {
+            "manual": 0.0,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.5714285714285714,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 0.08,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0,
+          "identity": "SPStudyLevel/1/Curve"
+        },
+        "Ceiling": {
+          "config": {
+            "manual": 1.0,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.7142857142857143,
+            "shape": 1,
+            "lo": 0.92,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 1.0,
+          "identity": "SPStudyLevel/1/Ceiling"
+        },
+        "Lift": {
+          "config": {
+            "manual": 0.0,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.8571428571428571,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 0.025,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0,
+          "identity": "SPStudyLevel/1/Lift"
+        }
+      }
+    },
+    "source/figure/shell": {
+      "version": 2,
+      "global": {
+        "speed": 0.125,
+        "relationship": null,
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0,
+        "timing_mode": null
+      },
+      "slots": {
+        "Figure A": {
+          "config": {
+            "manual": 1.0,
+            "drive": false,
+            "ratio": "1/pi",
+            "mult": 1.0,
+            "offset": 0.9359079373309162,
+            "shape": 0,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 1.0,
+          "identity": "SP Atom 4D Field/1/Figure A"
+        },
+        "Figure B": {
+          "config": {
+            "manual": 0.0,
+            "drive": false,
+            "ratio": "1/sqrt2",
+            "mult": 1.0,
+            "offset": 0.42447518983298493,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0,
+          "identity": "SP Atom 4D Field/1/Figure B"
+        },
+        "Morph": {
+          "config": {
+            "manual": 0.45,
+            "drive": true,
+            "ratio": "1/phi",
+            "mult": -1.0,
+            "offset": 0.14653660328097562,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.45,
+          "identity": "SP Atom 4D Field/1/Morph"
+        },
+        "Size": {
+          "config": {
+            "manual": 0.55,
+            "drive": true,
+            "ratio": "1/pi",
+            "mult": 1.0,
+            "offset": 0.4061828818292197,
+            "shape": 0,
+            "lo": 0.5,
+            "hi": 0.6,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.55,
+          "identity": "SP Atom 4D Field/1/Size"
+        },
+        "W": {
+          "config": {
+            "manual": 0.5,
+            "drive": true,
+            "ratio": "1/phi",
+            "mult": -1.0,
+            "offset": 0.6821077663965369,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.5,
+          "identity": "SP Atom 4D Field/1/W"
+        },
+        "Thickness": {
+          "config": {
+            "manual": 0.72,
+            "drive": true,
+            "ratio": "1/phi",
+            "mult": 1.0,
+            "offset": 0.010845112064742146,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.72,
+          "identity": "SP Atom 4D Field/1/Thickness"
+        },
+        "Layers": {
+          "config": {
+            "manual": 0.2,
+            "drive": true,
+            "ratio": "1/phi",
+            "mult": -1.0,
+            "offset": 0.7779891280815587,
+            "shape": 0,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.2,
+          "identity": "SP Atom 4D Field/1/Layers"
+        },
+        "Spread": {
+          "config": {
+            "manual": 0.18,
+            "drive": true,
+            "ratio": "1/pi",
+            "mult": 2.0,
+            "offset": 0.23967149757707007,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.18,
+          "identity": "SP Atom 4D Field/1/Spread"
+        },
+        "Sweep": {
+          "config": {
+            "manual": 0.5887757097265442,
+            "drive": true,
+            "ratio": "1/sqrt2",
+            "mult": 1.0,
+            "offset": 0.5389438957719767,
+            "shape": 0,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 55.35788378608089,
+          "identity": "SP Atom 4D Field/1/Sweep"
+        },
+        "Drift": {
+          "config": {
+            "manual": 0.5,
+            "drive": true,
+            "ratio": "1/phi",
+            "mult": -1.0,
+            "offset": 0.9921085180995792,
+            "shape": 0,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.5,
+          "identity": "SP Atom 4D Field/1/Drift"
+        },
+        "Turn": {
+          "config": {
+            "manual": 0.19999999999999996,
+            "drive": true,
+            "ratio": "1/sqrt2",
+            "mult": 1.0,
+            "offset": 0.18408361092959502,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.19999999999999996,
+          "identity": "SP Atom 4D Field/1/Turn"
+        },
+        "Spin": {
+          "config": {
+            "manual": 0.6,
+            "drive": true,
+            "ratio": "1/pi",
+            "mult": -1.0,
+            "offset": 0.10264973467291949,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.6,
+          "identity": "SP Atom 4D Field/1/Spin"
+        },
+        "Double": {
+          "config": {
+            "manual": 0.1,
+            "drive": true,
+            "ratio": "1/phi",
+            "mult": 2.0,
+            "offset": 0.689023155391365,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.1,
+          "identity": "SP Atom 4D Field/1/Double"
+        },
+        "X": {
+          "config": {
+            "manual": 0.5,
+            "drive": true,
+            "ratio": "1/pi",
+            "mult": -1.0,
+            "offset": 0.2028533356913641,
+            "shape": 0,
+            "lo": 0.48,
+            "hi": 0.52,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.5,
+          "identity": "SP Atom 4D Field/1/X"
+        },
+        "Y": {
+          "config": {
+            "manual": 0.5,
+            "drive": true,
+            "ratio": "1/sqrt2",
+            "mult": 1.0,
+            "offset": 0.12068774327864584,
+            "shape": 1,
+            "lo": 0.48,
+            "hi": 0.52,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.5,
+          "identity": "SP Atom 4D Field/1/Y"
+        },
+        "Perspective": {
+          "config": {
+            "manual": 0.0,
+            "drive": true,
+            "ratio": "1/pi",
+            "mult": 1.0,
+            "offset": 0.21785220543254724,
+            "shape": 0,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.0,
+          "identity": "SP Atom 4D Field/1/Perspective"
+        },
+        "Sun": {
+          "config": {
+            "manual": 0.07327081853203232,
+            "drive": true,
+            "ratio": "1/pi",
+            "mult": 1.0,
+            "offset": 0.3506625207489936,
+            "shape": 0,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 24.726636176132438,
+          "identity": "SP Atom 4D Field/1/Sun"
+        },
+        "Height": {
+          "config": {
+            "manual": 0.65,
+            "drive": true,
+            "ratio": "1/sqrt2",
+            "mult": 2.0,
+            "offset": 0.03611851846642811,
+            "shape": 0,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.65,
+          "identity": "SP Atom 4D Field/1/Height"
+        },
+        "Distance": {
+          "config": {
+            "manual": 0.75,
+            "drive": true,
+            "ratio": "1/pi",
+            "mult": -1.0,
+            "offset": 0.011962124692923015,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.75,
+          "identity": "SP Atom 4D Field/1/Distance"
+        },
+        "Faces": {
+          "config": {
+            "manual": 0.7,
+            "drive": true,
+            "ratio": "1/pi",
+            "mult": 1.0,
+            "offset": 0.3130168879058669,
+            "shape": 0,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.7,
+          "identity": "SP Atom 4D Field/1/Faces"
+        },
+        "Edges": {
+          "config": {
+            "manual": 0.12,
+            "drive": true,
+            "ratio": "1/pi",
+            "mult": 1.0,
+            "offset": 0.05840988897241273,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.12,
+          "identity": "SP Atom 4D Field/1/Edges"
+        },
+        "Round": {
+          "config": {
+            "manual": 0.5,
+            "drive": true,
+            "ratio": "1/sqrt2",
+            "mult": -1.0,
+            "offset": 0.568080146656273,
+            "shape": 0,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.5,
+          "identity": "SP Atom 4D Field/1/Round"
+        },
+        "Vertices": {
+          "config": {
+            "manual": 0.0,
+            "drive": true,
+            "ratio": "1/sqrt2",
+            "mult": 1.0,
+            "offset": 0.7446315203128572,
+            "shape": 0,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.0,
+          "identity": "SP Atom 4D Field/1/Vertices"
+        },
+        "Shade": {
+          "config": {
+            "manual": 0.9,
+            "drive": true,
+            "ratio": "1/sqrt2",
+            "mult": 1.0,
+            "offset": 0.5509526757687399,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.9,
+          "identity": "SP Atom 4D Field/1/Shade"
+        },
+        "Rim": {
+          "config": {
+            "manual": 0.05,
+            "drive": true,
+            "ratio": "1/pi",
+            "mult": -1.0,
+            "offset": 0.12768216787222209,
+            "shape": 0,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.05,
+          "identity": "SP Atom 4D Field/1/Rim"
+        },
+        "Haze": {
+          "config": {
+            "manual": 0.02,
+            "drive": true,
+            "ratio": "1/pi",
+            "mult": 1.0,
+            "offset": 0.25271536021539875,
+            "shape": 0,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.02,
+          "identity": "SP Atom 4D Field/1/Haze"
+        },
+        "Halo": {
+          "config": {
+            "manual": 0.2,
+            "drive": true,
+            "ratio": "1/phi",
+            "mult": 1.0,
+            "offset": 0.5507270966082612,
+            "shape": 0,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.2,
+          "identity": "SP Atom 4D Field/1/Halo"
+        },
+        "Focus": {
+          "config": {
+            "manual": 0.15,
+            "drive": true,
+            "ratio": "1/phi",
+            "mult": 1.0,
+            "offset": 0.26073386334278537,
+            "shape": 0,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.15,
+          "identity": "SP Atom 4D Field/1/Focus"
+        },
+        "Material": {
+          "config": {
+            "manual": 0.0,
+            "drive": false,
+            "ratio": "1/sqrt2",
+            "mult": 1.0,
+            "offset": 0.6851289974241108,
+            "shape": 0,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0,
+          "identity": "SP Atom 4D Field/1/Material"
+        },
+        "Micro": {
+          "config": {
+            "manual": 0.15,
+            "drive": true,
+            "ratio": "1/pi",
+            "mult": -1.0,
+            "offset": 0.08788607769820422,
+            "shape": 0,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.15,
+          "identity": "SP Atom 4D Field/1/Micro"
+        },
+        "Fine": {
+          "config": {
+            "manual": 0.5,
+            "drive": true,
+            "ratio": "1/sqrt2",
+            "mult": -1.0,
+            "offset": 0.2759716949276204,
+            "shape": 0,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.5,
+          "identity": "SP Atom 4D Field/1/Fine"
+        },
+        "Base": {
+          "config": {
+            "manual": 1.0,
+            "drive": false,
+            "ratio": "1/phi",
+            "mult": -1.0,
+            "offset": 0.23206681126313133,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 1.0,
+          "identity": "SP Atom 4D Field/1/Base"
+        },
+        "Wet": {
+          "config": {
+            "manual": 1.0,
+            "drive": true,
+            "ratio": "1/pi",
+            "mult": 1.0,
+            "offset": 0.16222744390187993,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 1.0,
+          "identity": "SP Atom 4D Field/1/Wet"
+        },
+        "Loop": {
+          "config": {
+            "manual": 0.3,
+            "drive": true,
+            "ratio": "1/sqrt2",
+            "mult": 1.0,
+            "offset": 0.021144633361436904,
+            "shape": 0,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.3,
+          "identity": "SP Atom 4D Field/1/Loop"
+        },
+        "Hue": {
+          "config": {
+            "manual": 0.19999999999999996,
+            "drive": true,
+            "ratio": "1/pi",
+            "mult": 1.0,
+            "offset": 0.934960674160044,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.19999999999999996,
+          "identity": "SP Atom 4D Field/1/Hue"
+        },
+        "Depth": {
+          "config": {
+            "manual": 0.7,
+            "drive": true,
+            "ratio": "1/pi",
+            "mult": 1.0,
+            "offset": 0.6318726773649834,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.7,
+          "identity": "SP Atom 4D Field/1/Depth"
+        },
+        "Red": {
+          "config": {
+            "manual": 0.0,
+            "drive": true,
+            "ratio": "1/sqrt2",
+            "mult": -1.0,
+            "offset": 0.13307621577785045,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.0,
+          "identity": "SP Atom 4D Field/1/Red"
+        },
+        "Green": {
+          "config": {
+            "manual": 0.33,
+            "drive": true,
+            "ratio": "1/sqrt2",
+            "mult": -1.0,
+            "offset": 0.3336081670610165,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.33,
+          "identity": "SP Atom 4D Field/1/Green"
+        },
+        "Blue": {
+          "config": {
+            "manual": 0.67,
+            "drive": true,
+            "ratio": "1/pi",
+            "mult": -1.0,
+            "offset": 0.6286787276932593,
+            "shape": 0,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.67,
+          "identity": "SP Atom 4D Field/1/Blue"
+        }
+      }
+    },
+    "composition/effect/MTK_STROKE_VOLT~1": {
+      "version": 2,
+      "global": {
+        "speed": 1.0,
+        "relationship": null,
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "WIDTH": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "composition/effect/MTK_STROKE_VOLT~1/param/WIDTH"
+        },
+        "RGBMOD_SPEED": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "composition/effect/MTK_STROKE_VOLT~1/param/RGBMOD_SPEED"
+        },
+        "OFFSET": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "composition/effect/MTK_STROKE_VOLT~1/param/OFFSET"
+        },
+        "VOLTMIX": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "composition/effect/MTK_STROKE_VOLT~1/param/VOLTMIX"
+        },
+        "FEEDBACK": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "composition/effect/MTK_STROKE_VOLT~1/param/FEEDBACK"
+        },
+        "SOFTEN(0=OFF)": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "composition/effect/MTK_STROKE_VOLT~1/param/SOFTEN%280%3DOFF%29"
+        }
+      }
+    },
+    "composition/effect/MTK_PXLMELT~1": {
+      "version": 2,
+      "global": {
+        "speed": 1.0,
+        "relationship": null,
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "DENSITY": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "composition/effect/MTK_PXLMELT~1/param/DENSITY"
+        },
+        "TIMESTRETCH": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "composition/effect/MTK_PXLMELT~1/param/TIMESTRETCH"
+        },
+        "MOSHLINES": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "composition/effect/MTK_PXLMELT~1/param/MOSHLINES"
+        },
+        "FADETIME": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "composition/effect/MTK_PXLMELT~1/param/FADETIME"
+        },
+        "FX_AREA": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "composition/effect/MTK_PXLMELT~1/param/FX_AREA"
+        },
+        "AREA FEATHER": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "composition/effect/MTK_PXLMELT~1/param/AREA%20FEATHER"
+        }
+      }
+    },
+    "composition/effect/HueRotate~1": {
+      "version": 2,
+      "global": {
+        "speed": 1.0,
+        "relationship": null,
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "Hue Scale": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "composition/effect/HueRotate~1/param/Hue%20Scale"
+        },
+        "Hue Rotate": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "composition/effect/HueRotate~1/param/Hue%20Rotate"
+        },
+        "Sat. Scale": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "composition/effect/HueRotate~1/param/Sat.%20Scale"
+        }
+      }
+    },
+    "composition/effect/mtk_lut_corrupt~1": {
+      "version": 2,
+      "global": {
+        "speed": 1.0,
+        "relationship": null,
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "TRIG_RELEASE": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "composition/effect/mtk_lut_corrupt~1/param/TRIG_RELEASE"
+        },
+        "IN_WHITE": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "composition/effect/mtk_lut_corrupt~1/param/IN_WHITE"
+        },
+        "OUT_WHITE": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "composition/effect/mtk_lut_corrupt~1/param/OUT_WHITE"
+        },
+        "IN BLACK": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "composition/effect/mtk_lut_corrupt~1/param/IN%20BLACK"
+        },
+        "OUT BLACK": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "composition/effect/mtk_lut_corrupt~1/param/OUT%20BLACK"
+        },
+        "SMOOTH TIME": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "composition/effect/mtk_lut_corrupt~1/param/SMOOTH%20TIME"
+        }
+      }
+    },
+    "composition/effect/ColourLoop~1": {
+      "version": 2,
+      "global": {
+        "speed": 1.0,
+        "relationship": null,
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "Factor": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "composition/effect/ColourLoop~1/param/Factor"
+        },
+        "Offset": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "composition/effect/ColourLoop~1/param/Offset"
+        },
+        "Red offset": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "composition/effect/ColourLoop~1/param/Red%20offset"
+        },
+        "Green offset": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "composition/effect/ColourLoop~1/param/Green%20offset"
+        },
+        "Blue offset": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "composition/effect/ColourLoop~1/param/Blue%20offset"
+        }
+      }
+    },
+    "composition/effect/TwitchEffect~1": {
+      "version": 2,
+      "global": {
+        "speed": 1.0,
+        "relationship": null,
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "Global Twitch": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "composition/effect/TwitchEffect~1/param/Global%20Twitch"
+        },
+        "Max Pos X": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "composition/effect/TwitchEffect~1/param/Max%20Pos%20X"
+        },
+        "Max Pos Y": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "composition/effect/TwitchEffect~1/param/Max%20Pos%20Y"
+        },
+        "Pos Frequency": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "composition/effect/TwitchEffect~1/param/Pos%20Frequency"
+        },
+        "Max Scale": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "composition/effect/TwitchEffect~1/param/Max%20Scale"
+        },
+        "Scale Frequency": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "composition/effect/TwitchEffect~1/param/Scale%20Frequency"
+        },
+        "Max Opacity": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "composition/effect/TwitchEffect~1/param/Max%20Opacity"
+        },
+        "Opacity Frequency": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "composition/effect/TwitchEffect~1/param/Opacity%20Frequency"
+        },
+        "Max Light": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "composition/effect/TwitchEffect~1/param/Max%20Light"
+        },
+        "Light Frequency": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "composition/effect/TwitchEffect~1/param/Light%20Frequency"
+        },
+        "Max RGB Shift": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "composition/effect/TwitchEffect~1/param/Max%20RGB%20Shift"
+        },
+        "RGB Frequency": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "composition/effect/TwitchEffect~1/param/RGB%20Frequency"
+        },
+        "Max Blur": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "composition/effect/TwitchEffect~1/param/Max%20Blur"
+        },
+        "Blur Frequency": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "composition/effect/TwitchEffect~1/param/Blur%20Frequency"
+        }
+      }
+    },
+    "composition/effect/MTK_STROKEDIFFUSE~1": {
+      "version": 2,
+      "global": {
+        "speed": 1.0,
+        "relationship": null,
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "STICKY": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "composition/effect/MTK_STROKEDIFFUSE~1/param/STICKY"
+        },
+        "SMUDGE": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "composition/effect/MTK_STROKEDIFFUSE~1/param/SMUDGE"
+        },
+        "GRADIENT_FX": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "composition/effect/MTK_STROKEDIFFUSE~1/param/GRADIENT_FX"
+        },
+        "BEVEL": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "composition/effect/MTK_STROKEDIFFUSE~1/param/BEVEL"
+        },
+        "BEVEL ANGLE": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "composition/effect/MTK_STROKEDIFFUSE~1/param/BEVEL%20ANGLE"
+        }
+      }
+    },
+    "composition/effect/Strobe~1": {
+      "version": 2,
+      "global": {
+        "speed": 1.0,
+        "relationship": null,
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "Frequency": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "composition/effect/Strobe~1/param/Frequency"
+        }
+      }
+    },
+    "layer/feedback~1/effect/InvertRGB~1": {
+      "version": 2,
+      "global": {
+        "speed": 1.0,
+        "relationship": null,
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "R": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/feedback~1/effect/InvertRGB~1/param/R"
+        },
+        "G": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/feedback~1/effect/InvertRGB~1/param/G"
+        },
+        "B": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/feedback~1/effect/InvertRGB~1/param/B"
+        },
+        "A": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/feedback~1/effect/InvertRGB~1/param/A"
+        }
+      }
+    },
+    "layer/feedback~1/effect/Blur~1": {
+      "version": 2,
+      "global": {
+        "speed": 1.0,
+        "relationship": null,
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "Blur": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/feedback~1/effect/Blur~1/param/Blur"
+        },
+        "Blur X Distance": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/feedback~1/effect/Blur~1/param/Blur%20X%20Distance"
+        },
+        "Blur Y Distance": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/feedback~1/effect/Blur~1/param/Blur%20Y%20Distance"
+        },
+        "Quality": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/feedback~1/effect/Blur~1/param/Quality"
+        },
+        "Gaussian": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/feedback~1/effect/Blur~1/param/Gaussian"
+        }
+      }
+    },
+    "layer/feedback~1/effect/Sharpen~1": {
+      "version": 2,
+      "global": {
+        "speed": 1.0,
+        "relationship": null,
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "Strength": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/feedback~1/effect/Sharpen~1/param/Strength"
+        },
+        "Distance": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/feedback~1/effect/Sharpen~1/param/Distance"
+        }
+      }
+    },
+    "layer/feedback~1/effect/Kaleidoscope~1": {
+      "version": 2,
+      "global": {
+        "speed": 1.0,
+        "relationship": null,
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "Angles": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/feedback~1/effect/Kaleidoscope~1/param/Angles"
+        },
+        "Rotation": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/feedback~1/effect/Kaleidoscope~1/param/Rotation"
+        },
+        "Zoom": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/feedback~1/effect/Kaleidoscope~1/param/Zoom"
+        },
+        "Input Rotation": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/feedback~1/effect/Kaleidoscope~1/param/Input%20Rotation"
+        }
+      }
+    },
+    "layer/feedback~1/effect/Mirror~1": {
+      "version": 2,
+      "global": {
+        "speed": 1.0,
+        "relationship": null,
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "X": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/feedback~1/effect/Mirror~1/param/X"
+        },
+        "Y": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/feedback~1/effect/Mirror~1/param/Y"
+        },
+        "In / Out": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/feedback~1/effect/Mirror~1/param/In%20%2F%20Out"
+        }
+      }
+    },
+    "layer/feedback~1/effect/Mirror~2": {
+      "version": 2,
+      "global": {
+        "speed": 1.0,
+        "relationship": null,
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "X": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/feedback~1/effect/Mirror~2/param/X"
+        },
+        "Y": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/feedback~1/effect/Mirror~2/param/Y"
+        },
+        "In / Out": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/feedback~1/effect/Mirror~2/param/In%20%2F%20Out"
+        }
+      }
+    },
+    "layer/feedback~1/effect/Mirror~3": {
+      "version": 2,
+      "global": {
+        "speed": 1.0,
+        "relationship": null,
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "X": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/feedback~1/effect/Mirror~3/param/X"
+        },
+        "Y": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/feedback~1/effect/Mirror~3/param/Y"
+        },
+        "In / Out": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/feedback~1/effect/Mirror~3/param/In%20%2F%20Out"
+        }
+      }
+    },
+    "layer/feedback~1/effect/Mirror~4": {
+      "version": 2,
+      "global": {
+        "speed": 1.0,
+        "relationship": null,
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "X": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/feedback~1/effect/Mirror~4/param/X"
+        },
+        "Y": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/feedback~1/effect/Mirror~4/param/Y"
+        },
+        "In / Out": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/feedback~1/effect/Mirror~4/param/In%20%2F%20Out"
+        }
+      }
+    },
+    "layer/feedback~1/clip/map~1/effect/InvertRGB~1": {
+      "version": 2,
+      "global": {
+        "speed": 1.0,
+        "relationship": null,
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "R": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/feedback~1/clip/map~1/effect/InvertRGB~1/param/R"
+        },
+        "G": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/feedback~1/clip/map~1/effect/InvertRGB~1/param/G"
+        },
+        "B": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/feedback~1/clip/map~1/effect/InvertRGB~1/param/B"
+        },
+        "A": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/feedback~1/clip/map~1/effect/InvertRGB~1/param/A"
+        }
+      }
+    },
+    "layer/feedback~1/clip/map~1/effect/Blur~1": {
+      "version": 2,
+      "global": {
+        "speed": 1.0,
+        "relationship": null,
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "Blur": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/feedback~1/clip/map~1/effect/Blur~1/param/Blur"
+        },
+        "Blur X Distance": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/feedback~1/clip/map~1/effect/Blur~1/param/Blur%20X%20Distance"
+        },
+        "Blur Y Distance": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/feedback~1/clip/map~1/effect/Blur~1/param/Blur%20Y%20Distance"
+        },
+        "Quality": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/feedback~1/clip/map~1/effect/Blur~1/param/Quality"
+        },
+        "Gaussian": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/feedback~1/clip/map~1/effect/Blur~1/param/Gaussian"
+        }
+      }
+    },
+    "layer/feedback~1/clip/map~1/effect/Sharpen~1": {
+      "version": 2,
+      "global": {
+        "speed": 1.0,
+        "relationship": null,
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "Strength": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/feedback~1/clip/map~1/effect/Sharpen~1/param/Strength"
+        },
+        "Distance": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/feedback~1/clip/map~1/effect/Sharpen~1/param/Distance"
+        }
+      }
+    },
+    "layer/sculpt~1/effect/InvertRGB~1": {
+      "version": 2,
+      "global": {
+        "speed": 1.0,
+        "relationship": null,
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "R": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/sculpt~1/effect/InvertRGB~1/param/R"
+        },
+        "G": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/sculpt~1/effect/InvertRGB~1/param/G"
+        },
+        "B": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/sculpt~1/effect/InvertRGB~1/param/B"
+        },
+        "A": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/sculpt~1/effect/InvertRGB~1/param/A"
+        }
+      }
+    },
+    "layer/sculpt~1/effect/HueRotate~1": {
+      "version": 2,
+      "global": {
+        "speed": 1.0,
+        "relationship": null,
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "Hue Scale": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/sculpt~1/effect/HueRotate~1/param/Hue%20Scale"
+        },
+        "Hue Rotate": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/sculpt~1/effect/HueRotate~1/param/Hue%20Rotate"
+        },
+        "Sat. Scale": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/sculpt~1/effect/HueRotate~1/param/Sat.%20Scale"
+        }
+      }
+    },
+    "layer/sculpt~1/effect/InvertRGB~2": {
+      "version": 2,
+      "global": {
+        "speed": 1.0,
+        "relationship": null,
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "R": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/sculpt~1/effect/InvertRGB~2/param/R"
+        },
+        "G": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/sculpt~1/effect/InvertRGB~2/param/G"
+        },
+        "B": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/sculpt~1/effect/InvertRGB~2/param/B"
+        },
+        "A": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/sculpt~1/effect/InvertRGB~2/param/A"
+        }
+      }
+    },
+    "layer/sculpt~1/effect/DelayRGB~1": {
+      "version": 2,
+      "global": {
+        "speed": 1.0,
+        "relationship": null,
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "R delay": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/sculpt~1/effect/DelayRGB~1/param/R%20delay"
+        },
+        "G delay": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/sculpt~1/effect/DelayRGB~1/param/G%20delay"
+        },
+        "B delay": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/sculpt~1/effect/DelayRGB~1/param/B%20delay"
+        }
+      }
+    },
+    "layer/sculpt~1/effect/AutoMask~1": {
+      "version": 2,
+      "global": {
+        "speed": 1.0,
+        "relationship": null,
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "Contrast": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/sculpt~1/effect/AutoMask~1/param/Contrast"
+        }
+      }
+    },
+    "layer/field~1/effect/Twisted~1": {
+      "version": 2,
+      "global": {
+        "speed": 1.0,
+        "relationship": null,
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "Twirl": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/field~1/effect/Twisted~1/param/Twirl"
+        },
+        "Radius": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/field~1/effect/Twisted~1/param/Radius"
+        }
+      }
+    },
+    "layer/field~1/effect/Twisted~2": {
+      "version": 2,
+      "global": {
+        "speed": 1.0,
+        "relationship": null,
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "Twirl": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/field~1/effect/Twisted~2/param/Twirl"
+        },
+        "Radius": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/field~1/effect/Twisted~2/param/Radius"
+        }
+      }
+    },
+    "layer/field~1/effect/Suckr~1": {
+      "version": 2,
+      "global": {
+        "speed": 1.0,
+        "relationship": null,
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "Suck": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/field~1/effect/Suckr~1/param/Suck"
+        }
+      }
+    },
+    "layer/field~1/effect/FishEye~1": {
+      "version": 2,
+      "global": {
+        "speed": 1.0,
+        "relationship": null,
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "FishEye": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/field~1/effect/FishEye~1/param/FishEye"
+        }
+      }
+    },
+    "layer/delay~1/effect/InvertRGB~1": {
+      "version": 2,
+      "global": {
+        "speed": 1.0,
+        "relationship": null,
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "R": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/delay~1/effect/InvertRGB~1/param/R"
+        },
+        "G": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/delay~1/effect/InvertRGB~1/param/G"
+        },
+        "B": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/delay~1/effect/InvertRGB~1/param/B"
+        },
+        "A": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/delay~1/effect/InvertRGB~1/param/A"
+        }
+      }
+    },
+    "layer/delay~1/effect/AutoMask~1": {
+      "version": 2,
+      "global": {
+        "speed": 1.0,
+        "relationship": null,
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "Contrast": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/delay~1/effect/AutoMask~1/param/Contrast"
+        }
+      }
+    },
+    "layer/figure~1/effect/TwitchEffect~1": {
+      "version": 2,
+      "global": {
+        "speed": 1.0,
+        "relationship": null,
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "Global Twitch": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/TwitchEffect~1/param/Global%20Twitch"
+        },
+        "Max Pos X": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/TwitchEffect~1/param/Max%20Pos%20X"
+        },
+        "Max Pos Y": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/TwitchEffect~1/param/Max%20Pos%20Y"
+        },
+        "Pos Frequency": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/TwitchEffect~1/param/Pos%20Frequency"
+        },
+        "Max Scale": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/TwitchEffect~1/param/Max%20Scale"
+        },
+        "Scale Frequency": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/TwitchEffect~1/param/Scale%20Frequency"
+        },
+        "Max Opacity": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/TwitchEffect~1/param/Max%20Opacity"
+        },
+        "Opacity Frequency": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/TwitchEffect~1/param/Opacity%20Frequency"
+        },
+        "Max Light": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/TwitchEffect~1/param/Max%20Light"
+        },
+        "Light Frequency": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/TwitchEffect~1/param/Light%20Frequency"
+        },
+        "Max RGB Shift": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/TwitchEffect~1/param/Max%20RGB%20Shift"
+        },
+        "RGB Frequency": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/TwitchEffect~1/param/RGB%20Frequency"
+        },
+        "Max Blur": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/TwitchEffect~1/param/Max%20Blur"
+        },
+        "Blur Frequency": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/TwitchEffect~1/param/Blur%20Frequency"
+        }
+      }
+    },
+    "layer/figure~1/effect/mtk_lut_corrupt~1": {
+      "version": 2,
+      "global": {
+        "speed": 1.0,
+        "relationship": null,
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "TRIG_RELEASE": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/mtk_lut_corrupt~1/param/TRIG_RELEASE"
+        },
+        "IN_WHITE": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/mtk_lut_corrupt~1/param/IN_WHITE"
+        },
+        "OUT_WHITE": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/mtk_lut_corrupt~1/param/OUT_WHITE"
+        },
+        "IN BLACK": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/mtk_lut_corrupt~1/param/IN%20BLACK"
+        },
+        "OUT BLACK": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/mtk_lut_corrupt~1/param/OUT%20BLACK"
+        },
+        "SMOOTH TIME": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/mtk_lut_corrupt~1/param/SMOOTH%20TIME"
+        }
+      }
+    },
+    "layer/figure~1/effect/RadialCloner~1": {
+      "version": 2,
+      "global": {
+        "speed": 1.0,
+        "relationship": null,
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "Clones": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/RadialCloner~1/param/Clones"
+        },
+        "Start Radius": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/RadialCloner~1/param/Start%20Radius"
+        },
+        "Start Scale": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/RadialCloner~1/param/Start%20Scale"
+        },
+        "Start Rotation": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/RadialCloner~1/param/Start%20Rotation"
+        },
+        "End Radius": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/RadialCloner~1/param/End%20Radius"
+        },
+        "End Scale": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/RadialCloner~1/param/End%20Scale"
+        },
+        "End Rotation": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/RadialCloner~1/param/End%20Rotation"
+        },
+        "Fan": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/RadialCloner~1/param/Fan"
+        },
+        "Fan Offset": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/RadialCloner~1/param/Fan%20Offset"
+        },
+        "Master Rotation": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/RadialCloner~1/param/Master%20Rotation"
+        },
+        "Delay Amount": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/RadialCloner~1/param/Delay%20Amount"
+        }
+      }
+    },
+    "layer/figure~1/effect/LinearCloner~1": {
+      "version": 2,
+      "global": {
+        "speed": 0.125,
+        "relationship": null,
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0,
+        "timing_mode": null
+      },
+      "slots": {
+        "Clones": {
+          "config": {
+            "manual": 0.7953753534575796,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": -1.0,
+            "offset": 0.8886491644275102,
+            "shape": 0,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.7953753534575796,
+          "identity": "layer/figure~1/effect/LinearCloner~1/param/Clones"
+        },
+        "Tails": {
+          "config": {
+            "manual": 0.896773960819025,
+            "drive": false,
+            "ratio": "8:13",
+            "mult": 1.0,
+            "offset": 0.7581384669908655,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.896773960819025,
+          "identity": "layer/figure~1/effect/LinearCloner~1/param/Tails"
+        },
+        "Center": {
+          "config": {
+            "manual": 0.6488521674541238,
+            "drive": false,
+            "ratio": "8:13",
+            "mult": 2.0,
+            "offset": 0.4263980248339396,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.6488521674541238,
+          "identity": "layer/figure~1/effect/LinearCloner~1/param/Center"
+        },
+        "Tail Length": {
+          "config": {
+            "manual": 0.8491289413993286,
+            "drive": false,
+            "ratio": "3:5",
+            "mult": 1.0,
+            "offset": 0.05276236600590645,
+            "shape": 0,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.8491289413993286,
+          "identity": "layer/figure~1/effect/LinearCloner~1/param/Tail%20Length"
+        },
+        "Start Scale": {
+          "config": {
+            "manual": 0.33595427249642995,
+            "drive": false,
+            "ratio": "1:2",
+            "mult": 1.0,
+            "offset": 0.1888544431736363,
+            "shape": 0,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.33595427249642995,
+          "identity": "layer/figure~1/effect/LinearCloner~1/param/Start%20Scale"
+        },
+        "Start Rotation": {
+          "config": {
+            "manual": 0.5911172930680565,
+            "drive": false,
+            "ratio": "3:4",
+            "mult": 1.0,
+            "offset": 0.756080854515331,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.5911172930680565,
+          "identity": "layer/figure~1/effect/LinearCloner~1/param/Start%20Rotation"
+        },
+        "End Scale": {
+          "config": {
+            "manual": 0.6532349633327882,
+            "drive": false,
+            "ratio": "2:5",
+            "mult": -1.0,
+            "offset": 0.21410868115470771,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.6532349633327882,
+          "identity": "layer/figure~1/effect/LinearCloner~1/param/End%20Scale"
+        },
+        "End Rotation": {
+          "config": {
+            "manual": 0.5670596186469783,
+            "drive": false,
+            "ratio": "3:5",
+            "mult": 1.0,
+            "offset": 0.899608152928703,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.5670596186469783,
+          "identity": "layer/figure~1/effect/LinearCloner~1/param/End%20Rotation"
+        },
+        "Distribution": {
+          "config": {
+            "manual": 0.5822374933259731,
+            "drive": false,
+            "ratio": "1:4",
+            "mult": -1.0,
+            "offset": 0.030465463626088374,
+            "shape": 0,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.5822374933259731,
+          "identity": "layer/figure~1/effect/LinearCloner~1/param/Distribution"
+        },
+        "Distortion": {
+          "config": {
+            "manual": 0.9658736244778856,
+            "drive": false,
+            "ratio": "5:8",
+            "mult": -1.0,
+            "offset": 0.244818409123284,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.9658736244778856,
+          "identity": "layer/figure~1/effect/LinearCloner~1/param/Distortion"
+        },
+        "Tail Rotation": {
+          "config": {
+            "manual": 0.834555173377904,
+            "drive": false,
+            "ratio": "5:8",
+            "mult": 1.0,
+            "offset": 0.6133170609662658,
+            "shape": 0,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.834555173377904,
+          "identity": "layer/figure~1/effect/LinearCloner~1/param/Tail%20Rotation"
+        },
+        "Master Rotation": {
+          "config": {
+            "manual": 0.5199054095735521,
+            "drive": false,
+            "ratio": "1:4",
+            "mult": 1.0,
+            "offset": 0.422078026181108,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.5199054095735521,
+          "identity": "layer/figure~1/effect/LinearCloner~1/param/Master%20Rotation"
+        },
+        "Delay Amount": {
+          "config": {
+            "manual": 0.34259632272783236,
+            "drive": false,
+            "ratio": "5:8",
+            "mult": 1.0,
+            "offset": 0.3673376356412288,
+            "shape": 0,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.34259632272783236,
+          "identity": "layer/figure~1/effect/LinearCloner~1/param/Delay%20Amount"
+        }
+      }
+    },
+    "layer/figure~1/effect/Iterate~1": {
+      "version": 2,
+      "global": {
+        "speed": 1.0,
+        "relationship": null,
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "TransformStrength": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/Iterate~1/param/TransformStrength"
+        },
+        "Iterations": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/Iterate~1/param/Iterations"
+        },
+        "StartOpacity": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/Iterate~1/param/StartOpacity"
+        },
+        "OpacityChange": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/Iterate~1/param/OpacityChange"
+        },
+        "TranslateX": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/Iterate~1/param/TranslateX"
+        },
+        "TranslateY": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/Iterate~1/param/TranslateY"
+        },
+        "TranslateZ": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/Iterate~1/param/TranslateZ"
+        },
+        "RotateX": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/Iterate~1/param/RotateX"
+        },
+        "RotateY": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/Iterate~1/param/RotateY"
+        },
+        "RotateZ": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/Iterate~1/param/RotateZ"
+        },
+        "Scale": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/Iterate~1/param/Scale"
+        },
+        "DOpacityChange": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/Iterate~1/param/DOpacityChange"
+        },
+        "DTranslateX": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/Iterate~1/param/DTranslateX"
+        },
+        "DTranslateY": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/Iterate~1/param/DTranslateY"
+        },
+        "DTranslateZ": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/Iterate~1/param/DTranslateZ"
+        },
+        "DRotateX": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/Iterate~1/param/DRotateX"
+        },
+        "DRotateY": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/Iterate~1/param/DRotateY"
+        },
+        "DRotateZ": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/Iterate~1/param/DRotateZ"
+        },
+        "DScale": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/Iterate~1/param/DScale"
+        },
+        "BlendMode": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/Iterate~1/param/BlendMode"
+        },
+        "GRotateX": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/Iterate~1/param/GRotateX"
+        },
+        "GRotateY": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/Iterate~1/param/GRotateY"
+        },
+        "GRotateZ": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/Iterate~1/param/GRotateZ"
+        }
+      }
+    },
+    "layer/figure~1/effect/Mirror~1": {
+      "version": 2,
+      "global": {
+        "speed": 1.0,
+        "relationship": null,
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "X": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/Mirror~1/param/X"
+        },
+        "Y": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/Mirror~1/param/Y"
+        },
+        "In / Out": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/Mirror~1/param/In%20%2F%20Out"
+        }
+      }
+    },
+    "layer/figure~1/effect/Mirror~2": {
+      "version": 2,
+      "global": {
+        "speed": 1.0,
+        "relationship": null,
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "X": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/Mirror~2/param/X"
+        },
+        "Y": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/Mirror~2/param/Y"
+        },
+        "In / Out": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/Mirror~2/param/In%20%2F%20Out"
+        }
+      }
+    },
+    "layer/figure~1/effect/Mirror~3": {
+      "version": 2,
+      "global": {
+        "speed": 1.0,
+        "relationship": null,
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "X": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/Mirror~3/param/X"
+        },
+        "Y": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/Mirror~3/param/Y"
+        },
+        "In / Out": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/Mirror~3/param/In%20%2F%20Out"
+        }
+      }
+    },
+    "layer/figure~1/effect/MTK_Gradient_Shadow~1": {
+      "version": 2,
+      "global": {
+        "speed": 1.0,
+        "relationship": null,
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "BANDS": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/MTK_Gradient_Shadow~1/param/BANDS"
+        },
+        "POSITION": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/MTK_Gradient_Shadow~1/param/POSITION"
+        },
+        "ROTATE": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/MTK_Gradient_Shadow~1/param/ROTATE"
+        },
+        "OFFSET": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/MTK_Gradient_Shadow~1/param/OFFSET"
+        }
+      }
+    },
+    "layer/figure~1/effect/Displace~1": {
+      "version": 2,
+      "global": {
+        "speed": 1.0,
+        "relationship": null,
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "X factor": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/Displace~1/param/X%20factor"
+        },
+        "Y factor": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/Displace~1/param/Y%20factor"
+        },
+        "Threshold": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/Displace~1/param/Threshold"
+        }
+      }
+    },
+    "layer/figure~1/effect/Distortion~1": {
+      "version": 2,
+      "global": {
+        "speed": 1.0,
+        "relationship": null,
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "Distort": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/Distortion~1/param/Distort"
+        },
+        "Radius": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/Distortion~1/param/Radius"
+        }
+      }
+    },
+    "layer/figure~1/effect/ASCII~1": {
+      "version": 2,
+      "global": {
+        "speed": 1.0,
+        "relationship": null,
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "Scale": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/ASCII~1/param/Scale"
+        },
+        "Threshold": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/ASCII~1/param/Threshold"
+        },
+        "OverscanX": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/ASCII~1/param/OverscanX"
+        },
+        "OverscanY": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/ASCII~1/param/OverscanY"
+        },
+        "Aspect": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/ASCII~1/param/Aspect"
+        }
+      }
+    },
+    "layer/figure~1/effect/InfiniteZoom~1": {
+      "version": 2,
+      "global": {
+        "speed": 1.0,
+        "relationship": null,
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "Rotation Speed": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/InfiniteZoom~1/param/Rotation%20Speed"
+        },
+        "Zoom": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/InfiniteZoom~1/param/Zoom"
+        },
+        "Range": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/InfiniteZoom~1/param/Range"
+        },
+        "Alpha": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/InfiniteZoom~1/param/Alpha"
+        },
+        "Num Slices": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/InfiniteZoom~1/param/Num%20Slices"
+        }
+      }
+    },
+    "layer/figure~1/effect/LoRezEffect~1": {
+      "version": 2,
+      "global": {
+        "speed": 1.0,
+        "relationship": null,
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "Pixel Size": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/LoRezEffect~1/param/Pixel%20Size"
+        },
+        "Bit Reduction": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/LoRezEffect~1/param/Bit%20Reduction"
+        },
+        "Dither": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/figure~1/effect/LoRezEffect~1/param/Dither"
+        }
+      }
+    },
+    "layer/glyph~1/effect/MTK_Gradient_Shadow~1": {
+      "version": 2,
+      "global": {
+        "speed": 1.0,
+        "relationship": null,
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "BANDS": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/glyph~1/effect/MTK_Gradient_Shadow~1/param/BANDS"
+        },
+        "POSITION": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/glyph~1/effect/MTK_Gradient_Shadow~1/param/POSITION"
+        },
+        "ROTATE": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/glyph~1/effect/MTK_Gradient_Shadow~1/param/ROTATE"
+        },
+        "OFFSET": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/glyph~1/effect/MTK_Gradient_Shadow~1/param/OFFSET"
+        }
+      }
+    },
+    "layer/glyph~1/effect/Goo~1": {
+      "version": 2,
+      "global": {
+        "speed": 1.0,
+        "relationship": null,
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "Resolution": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/glyph~1/effect/Goo~1/param/Resolution"
+        },
+        "Speed": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/glyph~1/effect/Goo~1/param/Speed"
+        },
+        "MaxDistortionX": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/glyph~1/effect/Goo~1/param/MaxDistortionX"
+        },
+        "MaxDistortionY": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/glyph~1/effect/Goo~1/param/MaxDistortionY"
+        },
+        "MaxDistortionZ": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/glyph~1/effect/Goo~1/param/MaxDistortionZ"
+        },
+        "Shade": {
+          "config": {
+            "manual": 0.0267525866572923,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0267525866572923,
+          "identity": "layer/glyph~1/effect/Goo~1/param/Shade"
+        }
+      }
+    }
+  },
+  "amounts": {
+    "composition/effect/MTK_STROKE_VOLT~1": 0.0,
+    "composition/effect/MTK_PXLMELT~1": 0.0,
+    "composition/effect/HueRotate~1": 0.0,
+    "composition/effect/mtk_lut_corrupt~1": 0.0,
+    "composition/effect/ColourLoop~1": 0.0,
+    "composition/effect/TwitchEffect~1": 0.0,
+    "composition/effect/MTK_STROKEDIFFUSE~1": 0.0,
+    "composition/effect/Strobe~1": 0.0,
+    "layer/feedback~1/effect/InvertRGB~1": 0.0,
+    "layer/feedback~1/effect/Blur~1": 0.0,
+    "layer/feedback~1/effect/Sharpen~1": 0.0,
+    "layer/feedback~1/effect/Kaleidoscope~1": 0.0,
+    "layer/feedback~1/effect/Mirror~1": 0.0,
+    "layer/feedback~1/effect/Mirror~2": 0.0,
+    "layer/feedback~1/effect/Mirror~3": 0.0,
+    "layer/feedback~1/effect/Mirror~4": 0.0,
+    "layer/feedback~1/clip/map~1/effect/SPChainMap~1": 0.0,
+    "layer/feedback~1/clip/map~1/effect/InvertRGB~1": 0.0,
+    "layer/feedback~1/clip/map~1/effect/Blur~1": 0.0,
+    "layer/feedback~1/clip/map~1/effect/Sharpen~1": 0.0,
+    "layer/sculpt~1/effect/InvertRGB~1": 0.0,
+    "layer/sculpt~1/effect/HueRotate~1": 0.0,
+    "layer/sculpt~1/effect/InvertRGB~2": 0.0,
+    "layer/sculpt~1/effect/DelayRGB~1": 0.0,
+    "layer/sculpt~1/effect/AutoMask~1": 0.0,
+    "layer/sculpt~1/clip/level~1/effect/SPStudyLevel~1": 0.0,
+    "layer/field~1/effect/Twisted~1": 0.0,
+    "layer/field~1/effect/Twisted~2": 0.0,
+    "layer/field~1/effect/Suckr~1": 0.0,
+    "layer/field~1/effect/FishEye~1": 0.0,
+    "layer/delay~1/effect/InvertRGB~1": 0.0,
+    "layer/delay~1/effect/AutoMask~1": 0.0,
+    "layer/figure~1/effect/TwitchEffect~1": 0.0,
+    "layer/figure~1/effect/mtk_lut_corrupt~1": 0.0,
+    "layer/figure~1/effect/RadialCloner~1": 0.0,
+    "layer/figure~1/effect/LinearCloner~1": 0.0,
+    "layer/figure~1/effect/Iterate~1": 0.0,
+    "layer/figure~1/effect/Mirror~1": 0.0,
+    "layer/figure~1/effect/Mirror~2": 0.0,
+    "layer/figure~1/effect/Mirror~3": 0.0,
+    "layer/figure~1/effect/MTK_Gradient_Shadow~1": 0.0,
+    "layer/figure~1/effect/Displace~1": 0.0,
+    "layer/figure~1/effect/Distortion~1": 0.0,
+    "layer/figure~1/effect/ASCII~1": 0.0,
+    "layer/figure~1/effect/InfiniteZoom~1": 0.0,
+    "layer/figure~1/effect/LoRezEffect~1": 0.0,
+    "layer/glyph~1/effect/MTK_Gradient_Shadow~1": 0.0,
+    "layer/glyph~1/effect/Goo~1": 0.0
+  },
+  "name": "Before live inventory 161813"
+}

@@ -1,0 +1,113 @@
+[
+  {
+    "column": 3,
+    "source": "3d",
+    "drives": 13,
+    "moving_controls": [
+      "Morph",
+      "Size",
+      "X",
+      "Y",
+      "Tumble",
+      "Axis",
+      "Sun",
+      "Height",
+      "Distance",
+      "Loop",
+      "Hue",
+      "Shade",
+      "Edge"
+    ],
+    "kind": "instrument Home",
+    "instrument": {
+      "id": "figure.solid",
+      "label": "3D",
+      "family": "forms",
+      "framing": {
+        "scope": "source",
+        "downstream_effects": "unrestricted",
+        "rule": "Complete subject with breathing room before the effect stack; cloned instances may go offscreen."
+      },
+      "primary_controls": [
+        "Tumble",
+        "Morph",
+        "Size",
+        "Hue",
+        "Axis",
+        "Shade"
+      ],
+      "status": "in visual review"
+    }
+  },
+  {
+    "column": 5,
+    "source": "shell",
+    "drives": 11,
+    "moving_controls": [
+      "W",
+      "Thickness",
+      "Sweep",
+      "Turn",
+      "Spin",
+      "Double",
+      "X",
+      "Y",
+      "Sun",
+      "Height",
+      "Hue"
+    ],
+    "kind": "instrument Home",
+    "instrument": {
+      "id": "figure.shell",
+      "label": "Shell",
+      "family": "forms",
+      "framing": {
+        "scope": "source",
+        "downstream_effects": "unrestricted",
+        "rule": "Complete subject with breathing room before the effect stack; cloned instances may go offscreen."
+      },
+      "primary_controls": [
+        "Turn",
+        "Spin",
+        "Morph",
+        "Thickness",
+        "W",
+        "Hue"
+      ],
+      "status": "in visual review"
+    }
+  },
+  {
+    "column": 16,
+    "source": "FM \u00b7 z33d+ [1.6.4]",
+    "drives": 6,
+    "moving_controls": [
+      "mx",
+      "my",
+      "e",
+      "axis x",
+      "axis y",
+      "rot angle"
+    ],
+    "kind": "instrument Home",
+    "instrument": {
+      "id": "figure.seed",
+      "label": "Seed \u00b7 z33d+",
+      "family": "forms",
+      "framing": {
+        "scope": "source",
+        "downstream_effects": "unrestricted",
+        "rule": "Complete subject with breathing room before the effect stack; cloned instances may go offscreen."
+      },
+      "primary_controls": [
+        "rot angle",
+        "mx",
+        "my",
+        "e",
+        "axis x",
+        "axis y"
+      ],
+      "status": "in visual review"
+    }
+  }
+]

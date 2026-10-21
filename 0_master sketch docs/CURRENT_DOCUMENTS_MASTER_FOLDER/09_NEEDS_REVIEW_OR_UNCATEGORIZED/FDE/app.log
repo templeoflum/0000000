@@ -1,0 +1,1425 @@
+2024-12-29 23:18:21,465 - INFO - Environment variables loaded successfully.
+2024-12-29 23:18:21,797 - INFO - GUI created successfully.
+2024-12-29 23:18:21,808 - INFO - Starting the main event loop.
+2024-12-29 23:20:58,676 - INFO - Parsed input content successfully in format 'YAML'.
+2024-12-29 23:20:58,676 - INFO - Initiating expansion using model 'OpenAI GPT-4'.
+2024-12-29 23:20:58,677 - INFO - Starting expansion of the framework.
+2024-12-29 23:20:58,677 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following Vision for the framework:
+
+[
+  "Enable authors to refine their intent and purpose through guided AI discovery.",
+  "Use modular design languages and rulesets to structure creative output.",
+  "Facilitate iterative exploration of diverse perspectives and synthesis of insights into cohesive narratives."
+]
+
+Please provide a more detailed and enriched version.
+2024-12-29 23:20:58,678 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:20:58,678 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following Core_Principles for the framework:
+
+[
+  "Iterative refinement to ensure thematic and structural cohesion.",
+  "Transparency and repeatability through modular components and seeds.",
+  "Collaborative openness to encourage shared innovation and diverse viewpoints."
+]
+
+Please provide a more detailed and enriched version.
+2024-12-29 23:20:58,678 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:20:58,678 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following Tools for the framework:
+
+[
+  {
+    "Tool": "Design Languages",
+    "Description": "Modular frameworks guiding thematic, structural, and stylistic elements.",
+    "Examples": [
+      "Archetypal",
+      "Resonance",
+      "Analytical",
+      "Poetic",
+      "Experimental"
+    ]
+  },
+  {
+    "Tool": "Rulesets",
+    "Description": "Configurable guidelines for drafting, editing, and refining based on design languages."
+  },
+  {
+    "Tool": "Seeds",
+    "Description": "Optional parameters to ensure repeatable outputs in AI-assisted processes."
+  },
+  {
+    "Tool": "Iterative Exploration",
+    "Description": "Multi-perspective drafts to explore supporting, refuting, and alternative viewpoints."
+  }
+]
+
+Please provide a more detailed and enriched version.
+2024-12-29 23:20:58,678 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:20:58,678 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following Methods for the framework:
+
+[
+  {
+    "Method": "Discovery Questions",
+    "Description": "AI-generated questions to refine the author\u2019s intent and purpose during the ideation phase."
+  },
+  {
+    "Method": "Configurable Editing Cycles",
+    "Description": "Multi-cycle adherence checks and edits for iterative refinement."
+  }
+]
+
+Please provide a more detailed and enriched version.
+2024-12-29 23:20:58,679 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:20:58,679 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following Conclusion for the framework:
+
+[
+  "This framework offers a modular, iterative, and collaborative approach to creating narratives. By leveraging AI and transparent methodologies, it enables authors to refine intent, explore diverse perspectives, and synthesize cohesive narratives for enhanced creative output."
+]
+
+Please provide a more detailed and enriched version.
+2024-12-29 23:20:58,679 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:20:58,679 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the purpose of this phase:
+
+Phase Name: Phase 1: Ideation
+Purpose:
+Discover and refine the core intent of the project by exploring themes, questions, and potential directions.
+
+Provide more context, depth, and clarity.
+2024-12-29 23:20:58,679 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:20:58,679 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following action from 'Phase 1: Ideation':
+
+Action:
+Define Initial Idea: Start with a broad or specific concept (e.g., 'AI and creativity').
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:20:58,679 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:20:58,679 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following action from 'Phase 1: Ideation':
+
+Action:
+Engage in Discovery: Use AI to ask reflective and exploratory questions to refine intent.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:20:58,679 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:20:58,679 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following action from 'Phase 1: Ideation':
+
+Action:
+Record Insights: Capture responses to shape the project’s foundation.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:20:58,679 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:20:58,679 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following action from 'Phase 1: Ideation':
+
+Action:
+Select Design Languages: Choose appropriate languages to guide narrative structure and tone.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:20:58,679 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:20:58,679 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following action from 'Phase 1: Ideation':
+
+Action:
+Optional Seed Use: Use a seed for AI-driven exploration to ensure stable outputs.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:20:58,679 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:20:58,679 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the purpose of this phase:
+
+Phase Name: Phase 2: Outline Development
+Purpose:
+Develop a clear and detailed structure for the story or argument.
+
+Provide more context, depth, and clarity.
+2024-12-29 23:20:58,679 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:20:58,679 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following action from 'Phase 2: Outline Development':
+
+Action:
+Define high-level arcs or sections.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:20:58,679 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:20:58,679 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following action from 'Phase 2: Outline Development':
+
+Action:
+Assign design languages and rulesets to each chapter.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:20:58,680 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:20:58,680 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following action from 'Phase 2: Outline Development':
+
+Action:
+Optionally use seeds for generating and iterating outlines.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:20:58,680 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:20:58,680 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the purpose of this phase:
+
+Phase Name: Phase 3: Drafting
+Purpose:
+Write the initial draft, adhering to the outline, design languages, and rulesets.
+
+Provide more context, depth, and clarity.
+2024-12-29 23:20:58,680 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:20:58,680 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following action from 'Phase 3: Drafting':
+
+Action:
+Draft chapters using AI-assisted prompts tailored to design languages.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:20:58,680 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:20:58,680 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following action from 'Phase 3: Drafting':
+
+Action:
+Experiment with variations while maintaining alignment with rulesets.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:20:58,680 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:20:58,680 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following action from 'Phase 3: Drafting':
+
+Action:
+Document seeds (if used) for reproducibility.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:20:58,680 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:20:58,680 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the purpose of this phase:
+
+Phase Name: Phase 4: Configurable Multi-Cycle Analysis Editing
+Purpose:
+Refine drafts through iterative adherence checks and editing cycles.
+
+Provide more context, depth, and clarity.
+2024-12-29 23:20:58,680 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:20:58,680 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following action from 'Phase 4: Configurable Multi-Cycle Analysis Editing':
+
+Action:
+Configure analysis steps (e.g., Structural Alignment \u2192 Resonance \u2192 Coherence).
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:20:58,680 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:20:58,680 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following action from 'Phase 4: Configurable Multi-Cycle Analysis Editing':
+
+Action:
+Perform adherence checks and edits for each step.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:20:58,680 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:20:58,680 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following action from 'Phase 4: Configurable Multi-Cycle Analysis Editing':
+
+Action:
+Repeat cycles as needed, logging changes and seeds for future reference.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:20:58,680 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:20:58,680 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the purpose of this phase:
+
+Phase Name: Phase 5: Exploration of Perspectives
+Purpose:
+Write additional drafts exploring supporting, refuting, or alternative perspectives.
+
+Provide more context, depth, and clarity.
+2024-12-29 23:20:58,680 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:20:58,680 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following action from 'Phase 5: Exploration of Perspectives':
+
+Action:
+Draft books from different viewpoints.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:20:58,680 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:20:58,680 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following action from 'Phase 5: Exploration of Perspectives':
+
+Action:
+Use shared outlines, rulesets, and design languages for consistency.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:20:58,680 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:20:58,680 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following action from 'Phase 5: Exploration of Perspectives':
+
+Action:
+Document seeds for repeatable variations.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:20:58,680 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:20:58,680 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the purpose of this phase:
+
+Phase Name: Phase 6: Synthesis and Refinement
+Purpose:
+Integrate insights from multiple drafts into a cohesive, refined narrative.
+
+Provide more context, depth, and clarity.
+2024-12-29 23:20:58,680 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:20:58,681 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following action from 'Phase 6: Synthesis and Refinement':
+
+Action:
+Compare drafts to identify strengths and resolve contradictions.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:20:58,681 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:20:58,681 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following action from 'Phase 6: Synthesis and Refinement':
+
+Action:
+Synthesize thematic and narrative elements into the final version.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:20:58,681 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:20:58,681 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following action from 'Phase 6: Synthesis and Refinement':
+
+Action:
+Publish final resources (outlines, rulesets, seeds) for open-source collaboration.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:20:58,681 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:20:58,697 - INFO - Framework expansion completed successfully.
+2024-12-29 23:21:19,144 - INFO - Parsed input content successfully in format 'YAML'.
+2024-12-29 23:21:19,144 - INFO - Initiating expansion using model 'Gemini 1.5 Flash'.
+2024-12-29 23:21:19,144 - INFO - Starting expansion of the framework.
+2024-12-29 23:21:19,144 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the following Vision for the framework:
+
+[
+  "Enable authors to refine their intent and purpose through guided AI discovery.",
+  "Use modular design languages and rulesets to structure creative output.",
+  "Facilitate iterative exploration of diverse perspectives and synthesis of insights into cohesive narratives."
+]
+
+Please provide a more detailed and enriched version.
+2024-12-29 23:21:19,147 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2024-12-29 23:21:24,411 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:21:24,412 - INFO - Gemini 1.5 Flash response received successfully.
+2024-12-29 23:21:24,412 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the following Core_Principles for the framework:
+
+[
+  "Iterative refinement to ensure thematic and structural cohesion.",
+  "Transparency and repeatability through modular components and seeds.",
+  "Collaborative openness to encourage shared innovation and diverse viewpoints."
+]
+
+Please provide a more detailed and enriched version.
+2024-12-29 23:21:24,413 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2024-12-29 23:21:31,912 - INFO - Environment variables loaded successfully.
+2024-12-29 23:21:31,957 - INFO - GUI created successfully.
+2024-12-29 23:21:31,964 - INFO - Starting the main event loop.
+2024-12-29 23:21:41,508 - INFO - Parsed input content successfully in format 'YAML'.
+2024-12-29 23:21:41,508 - INFO - Initiating expansion using model 'Gemini 1.5 Flash'.
+2024-12-29 23:21:41,509 - INFO - Starting expansion of the framework.
+2024-12-29 23:21:41,509 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the following Vision for the framework:
+
+[
+  "Enable authors to refine their intent and purpose through guided AI discovery.",
+  "Use modular design languages and rulesets to structure creative output.",
+  "Facilitate iterative exploration of diverse perspectives and synthesis of insights into cohesive narratives."
+]
+
+Please provide a more detailed and enriched version.
+2024-12-29 23:21:41,511 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2024-12-29 23:21:46,247 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:21:46,300 - INFO - Gemini 1.5 Flash response received successfully.
+2024-12-29 23:21:46,300 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the following Core_Principles for the framework:
+
+[
+  "Iterative refinement to ensure thematic and structural cohesion.",
+  "Transparency and repeatability through modular components and seeds.",
+  "Collaborative openness to encourage shared innovation and diverse viewpoints."
+]
+
+Please provide a more detailed and enriched version.
+2024-12-29 23:21:46,302 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2024-12-29 23:21:51,542 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:21:51,542 - INFO - Gemini 1.5 Flash response received successfully.
+2024-12-29 23:21:51,543 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the following Tools for the framework:
+
+[
+  {
+    "Tool": "Design Languages",
+    "Description": "Modular frameworks guiding thematic, structural, and stylistic elements.",
+    "Examples": [
+      "Archetypal",
+      "Resonance",
+      "Analytical",
+      "Poetic",
+      "Experimental"
+    ]
+  },
+  {
+    "Tool": "Rulesets",
+    "Description": "Configurable guidelines for drafting, editing, and refining based on design languages."
+  },
+  {
+    "Tool": "Seeds",
+    "Description": "Optional parameters to ensure repeatable outputs in AI-assisted processes."
+  },
+  {
+    "Tool": "Iterative Exploration",
+    "Description": "Multi-perspective drafts to explore supporting, refuting, and alternative viewpoints."
+  }
+]
+
+Please provide a more detailed and enriched version.
+2024-12-29 23:21:51,544 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2024-12-29 23:21:58,000 - INFO - Parsed input content successfully in format 'YAML'.
+2024-12-29 23:21:58,000 - INFO - Initiating expansion using model 'OpenAI GPT-4'.
+2024-12-29 23:21:58,001 - INFO - Starting expansion of the framework.
+2024-12-29 23:21:58,001 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following Vision for the framework:
+
+[
+  "Enable authors to refine their intent and purpose through guided AI discovery.",
+  "Use modular design languages and rulesets to structure creative output.",
+  "Facilitate iterative exploration of diverse perspectives and synthesis of insights into cohesive narratives."
+]
+
+Please provide a more detailed and enriched version.
+2024-12-29 23:21:58,001 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:21:58,001 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following Core_Principles for the framework:
+
+[
+  "Iterative refinement to ensure thematic and structural cohesion.",
+  "Transparency and repeatability through modular components and seeds.",
+  "Collaborative openness to encourage shared innovation and diverse viewpoints."
+]
+
+Please provide a more detailed and enriched version.
+2024-12-29 23:21:58,001 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:21:58,001 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following Tools for the framework:
+
+[
+  {
+    "Tool": "Design Languages",
+    "Description": "Modular frameworks guiding thematic, structural, and stylistic elements.",
+    "Examples": [
+      "Archetypal",
+      "Resonance",
+      "Analytical",
+      "Poetic",
+      "Experimental"
+    ]
+  },
+  {
+    "Tool": "Rulesets",
+    "Description": "Configurable guidelines for drafting, editing, and refining based on design languages."
+  },
+  {
+    "Tool": "Seeds",
+    "Description": "Optional parameters to ensure repeatable outputs in AI-assisted processes."
+  },
+  {
+    "Tool": "Iterative Exploration",
+    "Description": "Multi-perspective drafts to explore supporting, refuting, and alternative viewpoints."
+  }
+]
+
+Please provide a more detailed and enriched version.
+2024-12-29 23:21:58,001 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:21:58,001 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following Methods for the framework:
+
+[
+  {
+    "Method": "Discovery Questions",
+    "Description": "AI-generated questions to refine the author\u2019s intent and purpose during the ideation phase."
+  },
+  {
+    "Method": "Configurable Editing Cycles",
+    "Description": "Multi-cycle adherence checks and edits for iterative refinement."
+  }
+]
+
+Please provide a more detailed and enriched version.
+2024-12-29 23:21:58,001 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:21:58,001 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following Conclusion for the framework:
+
+[
+  "This framework offers a modular, iterative, and collaborative approach to creating narratives. By leveraging AI and transparent methodologies, it enables authors to refine intent, explore diverse perspectives, and synthesize cohesive narratives for enhanced creative output."
+]
+
+Please provide a more detailed and enriched version.
+2024-12-29 23:21:58,002 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:21:58,002 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the purpose of this phase:
+
+Phase Name: Phase 1: Ideation
+Purpose:
+Discover and refine the core intent of the project by exploring themes, questions, and potential directions.
+
+Provide more context, depth, and clarity.
+2024-12-29 23:21:58,002 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:21:58,002 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following action from 'Phase 1: Ideation':
+
+Action:
+Define Initial Idea: Start with a broad or specific concept (e.g., 'AI and creativity').
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:21:58,002 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:21:58,002 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following action from 'Phase 1: Ideation':
+
+Action:
+Engage in Discovery: Use AI to ask reflective and exploratory questions to refine intent.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:21:58,002 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:21:58,002 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following action from 'Phase 1: Ideation':
+
+Action:
+Record Insights: Capture responses to shape the project’s foundation.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:21:58,002 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:21:58,002 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following action from 'Phase 1: Ideation':
+
+Action:
+Select Design Languages: Choose appropriate languages to guide narrative structure and tone.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:21:58,002 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:21:58,002 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following action from 'Phase 1: Ideation':
+
+Action:
+Optional Seed Use: Use a seed for AI-driven exploration to ensure stable outputs.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:21:58,002 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:21:58,002 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the purpose of this phase:
+
+Phase Name: Phase 2: Outline Development
+Purpose:
+Develop a clear and detailed structure for the story or argument.
+
+Provide more context, depth, and clarity.
+2024-12-29 23:21:58,002 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:21:58,002 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following action from 'Phase 2: Outline Development':
+
+Action:
+Define high-level arcs or sections.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:21:58,002 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:21:58,002 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following action from 'Phase 2: Outline Development':
+
+Action:
+Assign design languages and rulesets to each chapter.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:21:58,002 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:21:58,003 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following action from 'Phase 2: Outline Development':
+
+Action:
+Optionally use seeds for generating and iterating outlines.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:21:58,003 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:21:58,003 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the purpose of this phase:
+
+Phase Name: Phase 3: Drafting
+Purpose:
+Write the initial draft, adhering to the outline, design languages, and rulesets.
+
+Provide more context, depth, and clarity.
+2024-12-29 23:21:58,003 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:21:58,003 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following action from 'Phase 3: Drafting':
+
+Action:
+Draft chapters using AI-assisted prompts tailored to design languages.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:21:58,003 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:21:58,003 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following action from 'Phase 3: Drafting':
+
+Action:
+Experiment with variations while maintaining alignment with rulesets.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:21:58,003 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:21:58,003 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following action from 'Phase 3: Drafting':
+
+Action:
+Document seeds (if used) for reproducibility.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:21:58,003 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:21:58,003 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the purpose of this phase:
+
+Phase Name: Phase 4: Configurable Multi-Cycle Analysis Editing
+Purpose:
+Refine drafts through iterative adherence checks and editing cycles.
+
+Provide more context, depth, and clarity.
+2024-12-29 23:21:58,003 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:21:58,003 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following action from 'Phase 4: Configurable Multi-Cycle Analysis Editing':
+
+Action:
+Configure analysis steps (e.g., Structural Alignment \u2192 Resonance \u2192 Coherence).
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:21:58,003 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:21:58,003 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following action from 'Phase 4: Configurable Multi-Cycle Analysis Editing':
+
+Action:
+Perform adherence checks and edits for each step.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:21:58,003 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:21:58,003 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following action from 'Phase 4: Configurable Multi-Cycle Analysis Editing':
+
+Action:
+Repeat cycles as needed, logging changes and seeds for future reference.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:21:58,003 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:21:58,003 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the purpose of this phase:
+
+Phase Name: Phase 5: Exploration of Perspectives
+Purpose:
+Write additional drafts exploring supporting, refuting, or alternative perspectives.
+
+Provide more context, depth, and clarity.
+2024-12-29 23:21:58,004 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:21:58,004 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following action from 'Phase 5: Exploration of Perspectives':
+
+Action:
+Draft books from different viewpoints.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:21:58,004 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:21:58,004 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following action from 'Phase 5: Exploration of Perspectives':
+
+Action:
+Use shared outlines, rulesets, and design languages for consistency.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:21:58,004 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:21:58,004 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following action from 'Phase 5: Exploration of Perspectives':
+
+Action:
+Document seeds for repeatable variations.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:21:58,004 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:21:58,004 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the purpose of this phase:
+
+Phase Name: Phase 6: Synthesis and Refinement
+Purpose:
+Integrate insights from multiple drafts into a cohesive, refined narrative.
+
+Provide more context, depth, and clarity.
+2024-12-29 23:21:58,004 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:21:58,004 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following action from 'Phase 6: Synthesis and Refinement':
+
+Action:
+Compare drafts to identify strengths and resolve contradictions.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:21:58,004 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:21:58,004 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following action from 'Phase 6: Synthesis and Refinement':
+
+Action:
+Synthesize thematic and narrative elements into the final version.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:21:58,004 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:21:58,004 - DEBUG - Calling OpenAI GPT-4 with prompt: Expand the following action from 'Phase 6: Synthesis and Refinement':
+
+Action:
+Publish final resources (outlines, rulesets, seeds) for open-source collaboration.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:21:58,004 - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-29 23:21:58,018 - INFO - Framework expansion completed successfully.
+2024-12-29 23:21:58,674 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:21:58,674 - INFO - Gemini 1.5 Flash response received successfully.
+2024-12-29 23:21:58,675 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the following Methods for the framework:
+
+[
+  {
+    "Method": "Discovery Questions",
+    "Description": "AI-generated questions to refine the author\u2019s intent and purpose during the ideation phase."
+  },
+  {
+    "Method": "Configurable Editing Cycles",
+    "Description": "Multi-cycle adherence checks and edits for iterative refinement."
+  }
+]
+
+Please provide a more detailed and enriched version.
+2024-12-29 23:21:58,676 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2024-12-29 23:22:03,603 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:22:03,603 - INFO - Gemini 1.5 Flash response received successfully.
+2024-12-29 23:22:03,603 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the following Conclusion for the framework:
+
+[
+  "This framework offers a modular, iterative, and collaborative approach to creating narratives. By leveraging AI and transparent methodologies, it enables authors to refine intent, explore diverse perspectives, and synthesize cohesive narratives for enhanced creative output."
+]
+
+Please provide a more detailed and enriched version.
+2024-12-29 23:22:03,604 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2024-12-29 23:22:05,599 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:22:05,600 - INFO - Gemini 1.5 Flash response received successfully.
+2024-12-29 23:22:05,600 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the purpose of this phase:
+
+Phase Name: Phase 1: Ideation
+Purpose:
+Discover and refine the core intent of the project by exploring themes, questions, and potential directions.
+
+Provide more context, depth, and clarity.
+2024-12-29 23:22:05,601 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2024-12-29 23:22:08,525 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:22:08,525 - INFO - Gemini 1.5 Flash response received successfully.
+2024-12-29 23:22:08,525 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the following action from 'Phase 1: Ideation':
+
+Action:
+Define Initial Idea: Start with a broad or specific concept (e.g., 'AI and creativity').
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:22:08,526 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2024-12-29 23:22:13,927 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:22:13,928 - INFO - Gemini 1.5 Flash response received successfully.
+2024-12-29 23:22:13,928 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the following action from 'Phase 1: Ideation':
+
+Action:
+Engage in Discovery: Use AI to ask reflective and exploratory questions to refine intent.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:22:13,929 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2024-12-29 23:22:19,192 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:22:19,193 - INFO - Gemini 1.5 Flash response received successfully.
+2024-12-29 23:22:19,193 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the following action from 'Phase 1: Ideation':
+
+Action:
+Record Insights: Capture responses to shape the project’s foundation.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:22:19,194 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2024-12-29 23:22:24,616 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:22:24,617 - INFO - Gemini 1.5 Flash response received successfully.
+2024-12-29 23:22:24,617 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the following action from 'Phase 1: Ideation':
+
+Action:
+Select Design Languages: Choose appropriate languages to guide narrative structure and tone.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:22:24,618 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2024-12-29 23:22:29,361 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:22:29,361 - INFO - Gemini 1.5 Flash response received successfully.
+2024-12-29 23:22:29,362 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the following action from 'Phase 1: Ideation':
+
+Action:
+Optional Seed Use: Use a seed for AI-driven exploration to ensure stable outputs.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:22:29,363 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2024-12-29 23:22:33,838 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:22:33,839 - INFO - Gemini 1.5 Flash response received successfully.
+2024-12-29 23:22:33,839 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the purpose of this phase:
+
+Phase Name: Phase 2: Outline Development
+Purpose:
+Develop a clear and detailed structure for the story or argument.
+
+Provide more context, depth, and clarity.
+2024-12-29 23:22:33,840 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2024-12-29 23:22:36,645 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:22:36,646 - INFO - Gemini 1.5 Flash response received successfully.
+2024-12-29 23:22:36,646 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the following action from 'Phase 2: Outline Development':
+
+Action:
+Define high-level arcs or sections.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:22:36,646 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2024-12-29 23:22:41,763 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:22:41,763 - INFO - Gemini 1.5 Flash response received successfully.
+2024-12-29 23:22:41,763 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the following action from 'Phase 2: Outline Development':
+
+Action:
+Assign design languages and rulesets to each chapter.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:22:41,765 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2024-12-29 23:22:46,672 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:22:46,672 - INFO - Gemini 1.5 Flash response received successfully.
+2024-12-29 23:22:46,672 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the following action from 'Phase 2: Outline Development':
+
+Action:
+Optionally use seeds for generating and iterating outlines.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:22:46,673 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2024-12-29 23:22:51,618 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:22:51,619 - INFO - Gemini 1.5 Flash response received successfully.
+2024-12-29 23:22:51,619 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the purpose of this phase:
+
+Phase Name: Phase 3: Drafting
+Purpose:
+Write the initial draft, adhering to the outline, design languages, and rulesets.
+
+Provide more context, depth, and clarity.
+2024-12-29 23:22:51,620 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2024-12-29 23:22:54,597 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:22:54,597 - INFO - Gemini 1.5 Flash response received successfully.
+2024-12-29 23:22:54,597 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the following action from 'Phase 3: Drafting':
+
+Action:
+Draft chapters using AI-assisted prompts tailored to design languages.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:22:54,598 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2024-12-29 23:22:59,983 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:22:59,983 - INFO - Gemini 1.5 Flash response received successfully.
+2024-12-29 23:22:59,983 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the following action from 'Phase 3: Drafting':
+
+Action:
+Experiment with variations while maintaining alignment with rulesets.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:22:59,984 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2024-12-29 23:23:05,524 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:23:05,524 - INFO - Gemini 1.5 Flash response received successfully.
+2024-12-29 23:23:05,524 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the following action from 'Phase 3: Drafting':
+
+Action:
+Document seeds (if used) for reproducibility.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:23:05,525 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2024-12-29 23:23:10,875 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:23:10,876 - INFO - Gemini 1.5 Flash response received successfully.
+2024-12-29 23:23:10,876 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the purpose of this phase:
+
+Phase Name: Phase 4: Configurable Multi-Cycle Analysis Editing
+Purpose:
+Refine drafts through iterative adherence checks and editing cycles.
+
+Provide more context, depth, and clarity.
+2024-12-29 23:23:10,877 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2024-12-29 23:23:13,680 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:23:13,680 - INFO - Gemini 1.5 Flash response received successfully.
+2024-12-29 23:23:13,681 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the following action from 'Phase 4: Configurable Multi-Cycle Analysis Editing':
+
+Action:
+Configure analysis steps (e.g., Structural Alignment \u2192 Resonance \u2192 Coherence).
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:23:13,682 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2024-12-29 23:23:18,959 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:23:18,959 - INFO - Gemini 1.5 Flash response received successfully.
+2024-12-29 23:23:18,960 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the following action from 'Phase 4: Configurable Multi-Cycle Analysis Editing':
+
+Action:
+Perform adherence checks and edits for each step.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:23:18,960 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2024-12-29 23:23:24,384 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:23:24,384 - INFO - Gemini 1.5 Flash response received successfully.
+2024-12-29 23:23:24,385 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the following action from 'Phase 4: Configurable Multi-Cycle Analysis Editing':
+
+Action:
+Repeat cycles as needed, logging changes and seeds for future reference.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:23:24,386 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2024-12-29 23:23:30,270 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:23:30,271 - INFO - Gemini 1.5 Flash response received successfully.
+2024-12-29 23:23:30,271 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the purpose of this phase:
+
+Phase Name: Phase 5: Exploration of Perspectives
+Purpose:
+Write additional drafts exploring supporting, refuting, or alternative perspectives.
+
+Provide more context, depth, and clarity.
+2024-12-29 23:23:30,272 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2024-12-29 23:23:33,243 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:23:33,244 - INFO - Gemini 1.5 Flash response received successfully.
+2024-12-29 23:23:33,244 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the following action from 'Phase 5: Exploration of Perspectives':
+
+Action:
+Draft books from different viewpoints.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:23:33,245 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2024-12-29 23:23:39,110 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:23:39,110 - INFO - Gemini 1.5 Flash response received successfully.
+2024-12-29 23:23:39,110 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the following action from 'Phase 5: Exploration of Perspectives':
+
+Action:
+Use shared outlines, rulesets, and design languages for consistency.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:23:39,111 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2024-12-29 23:23:44,949 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:23:44,950 - INFO - Gemini 1.5 Flash response received successfully.
+2024-12-29 23:23:44,950 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the following action from 'Phase 5: Exploration of Perspectives':
+
+Action:
+Document seeds for repeatable variations.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:23:44,951 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2024-12-29 23:23:49,959 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:23:49,959 - INFO - Gemini 1.5 Flash response received successfully.
+2024-12-29 23:23:49,960 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the purpose of this phase:
+
+Phase Name: Phase 6: Synthesis and Refinement
+Purpose:
+Integrate insights from multiple drafts into a cohesive, refined narrative.
+
+Provide more context, depth, and clarity.
+2024-12-29 23:23:49,960 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2024-12-29 23:23:52,941 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:23:52,942 - INFO - Gemini 1.5 Flash response received successfully.
+2024-12-29 23:23:52,942 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the following action from 'Phase 6: Synthesis and Refinement':
+
+Action:
+Compare drafts to identify strengths and resolve contradictions.
+
+Please provide more detail with relevant considerations.
+2024-12-29 23:23:52,943 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443

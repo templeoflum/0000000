@@ -1,0 +1,1471 @@
+{
+  "SPChainMap": {
+    "speed": 0.25,
+    "bindings": {
+      "Zoom": {
+        "center": 0.7132,
+        "range": [
+          0.7071999999999999,
+          0.7192
+        ],
+        "cyclic": false
+      },
+      "Rotate": {
+        "center": 0.4661,
+        "range": [
+          0.4631,
+          0.4691
+        ],
+        "cyclic": true
+      },
+      "Drift X": {
+        "center": 0.4512,
+        "range": [
+          0.4492,
+          0.4532
+        ],
+        "cyclic": true
+      },
+      "Drift Y": {
+        "center": 0.5,
+        "range": [
+          0.498,
+          0.502
+        ],
+        "cyclic": false
+      },
+      "Center X": {
+        "center": 0.5,
+        "range": [
+          0.47,
+          0.53
+        ],
+        "cyclic": false
+      },
+      "Center Y": {
+        "center": 0.5,
+        "range": [
+          0.47,
+          0.53
+        ],
+        "cyclic": false
+      }
+    },
+    "status": "Expanded continuous drive set; source selectors and resource counts remain manual"
+  },
+  "SPStudyLevel": {
+    "speed": 0.25,
+    "bindings": {
+      "Key": {
+        "center": 0.3725,
+        "range": [
+          0.355,
+          0.39
+        ],
+        "cyclic": false
+      },
+      "Soft": {
+        "center": 0.0,
+        "range": [
+          0,
+          0.015
+        ],
+        "cyclic": false
+      },
+      "Gain": {
+        "center": 1.0,
+        "range": [
+          0.97,
+          1.0
+        ],
+        "cyclic": false
+      },
+      "Floor": {
+        "center": 0.0,
+        "range": [
+          0,
+          0.025
+        ],
+        "cyclic": false
+      },
+      "Curve": {
+        "center": 0.0,
+        "range": [
+          0,
+          0.08
+        ],
+        "cyclic": false
+      },
+      "Ceiling": {
+        "center": 1.0,
+        "range": [
+          0.92,
+          1
+        ],
+        "cyclic": false
+      },
+      "Lift": {
+        "center": 0.0,
+        "range": [
+          0,
+          0.025
+        ],
+        "cyclic": false
+      }
+    },
+    "status": "Expanded continuous drive set; source selectors and resource counts remain manual"
+  },
+  "SP Atom Void": {
+    "speed": 0.25,
+    "bindings": {
+      "Travel": {
+        "center": 0.9024,
+        "range": [
+          0.8124,
+          0.9924
+        ],
+        "cyclic": true
+      },
+      "Sway": {
+        "center": 0.505,
+        "range": [
+          0.47,
+          0.54
+        ],
+        "cyclic": false
+      },
+      "Bob": {
+        "center": 0.3793,
+        "range": [
+          0.34430000000000005,
+          0.4143
+        ],
+        "cyclic": false
+      },
+      "Yaw": {
+        "center": 0.5254,
+        "range": [
+          0.5054,
+          0.5454
+        ],
+        "cyclic": false
+      },
+      "Tilt": {
+        "center": 0.026,
+        "range": [
+          0,
+          0.106
+        ],
+        "cyclic": true
+      },
+      "Horizon": {
+        "center": 0.4977,
+        "range": [
+          0.41769999999999996,
+          0.5777
+        ],
+        "cyclic": false
+      },
+      "Dolly": {
+        "center": 0.5908,
+        "range": [
+          0.5608,
+          0.6208
+        ],
+        "cyclic": false
+      },
+      "Focal mm": {
+        "center": 0.3998,
+        "range": [
+          0.3698,
+          0.42979999999999996
+        ],
+        "cyclic": false
+      },
+      "Distort": {
+        "center": 0.3256,
+        "range": [
+          0.24559999999999998,
+          0.4056
+        ],
+        "cyclic": false
+      },
+      "Density": {
+        "center": 0.0,
+        "range": [
+          0,
+          0.03
+        ],
+        "cyclic": false
+      },
+      "Size": {
+        "center": 0.0955,
+        "range": [
+          0.0655,
+          0.1255
+        ],
+        "cyclic": false
+      },
+      "Reach": {
+        "center": 0.1841,
+        "range": [
+          0.15410000000000001,
+          0.2141
+        ],
+        "cyclic": false
+      },
+      "Haze": {
+        "center": 0.7279,
+        "range": [
+          0.6479,
+          0.8079
+        ],
+        "cyclic": false
+      },
+      "Soft": {
+        "center": 0.6505,
+        "range": [
+          0.5705,
+          0.7304999999999999
+        ],
+        "cyclic": false
+      }
+    },
+    "status": "Expanded continuous drive set; source selectors and resource counts remain manual"
+  },
+  "SPDelayChain": {
+    "speed": 0.25,
+    "bindings": {
+      "R": {
+        "center": 0.125,
+        "range": [
+          0.105,
+          0.145
+        ],
+        "cyclic": false
+      },
+      "G": {
+        "center": 0.1875,
+        "range": [
+          0.1675,
+          0.2075
+        ],
+        "cyclic": false
+      },
+      "B": {
+        "center": 0.25,
+        "range": [
+          0.23,
+          0.27
+        ],
+        "cyclic": false
+      },
+      "Span": {
+        "center": 1.0,
+        "range": [
+          0.92,
+          1
+        ],
+        "cyclic": false
+      },
+      "Glide": {
+        "center": 0.2848,
+        "range": [
+          0.20479999999999998,
+          0.3648
+        ],
+        "cyclic": false
+      }
+    },
+    "status": "Expanded continuous drive set; source selectors and resource counts remain manual"
+  },
+  "SP Atom 4D Field": {
+    "speed": 0.25,
+    "bindings": {
+      "Turn": {
+        "center": 0.5288,
+        "range": [
+          0.35380000000000006,
+          0.7038
+        ],
+        "cyclic": true
+      },
+      "Spin": {
+        "center": 0.6222,
+        "range": [
+          0.4972,
+          0.7472
+        ],
+        "cyclic": true
+      },
+      "Double": {
+        "center": 0.0285,
+        "range": [
+          0,
+          0.1185
+        ],
+        "cyclic": true
+      },
+      "Sweep": {
+        "center": 0.7294,
+        "range": [
+          0.6544000000000001,
+          0.8044
+        ],
+        "cyclic": true
+      },
+      "Thickness": {
+        "center": 0.7874,
+        "range": [
+          0.7424,
+          0.8324
+        ],
+        "cyclic": false
+      },
+      "Hue": {
+        "center": 0.7359,
+        "range": [
+          0.6609,
+          0.8109
+        ],
+        "cyclic": true
+      },
+      "W": {
+        "center": 0.5445,
+        "range": [
+          0.46449999999999997,
+          0.6244999999999999
+        ],
+        "cyclic": false
+      },
+      "Sun": {
+        "center": 0.3594,
+        "range": [
+          0.2794,
+          0.4394
+        ],
+        "cyclic": true
+      },
+      "Height": {
+        "center": 0.647,
+        "range": [
+          0.5670000000000001,
+          0.727
+        ],
+        "cyclic": false
+      },
+      "X": {
+        "center": 0.4389,
+        "range": [
+          0.3589,
+          0.5189
+        ],
+        "cyclic": false
+      },
+      "Y": {
+        "center": 0.3411,
+        "range": [
+          0.2611,
+          0.42110000000000003
+        ],
+        "cyclic": false
+      },
+      "Morph": {
+        "center": 0.6587,
+        "range": [
+          0.5787,
+          0.7386999999999999
+        ],
+        "cyclic": false
+      },
+      "Size": {
+        "center": 0.3593,
+        "range": [
+          0.32930000000000004,
+          0.3893
+        ],
+        "cyclic": false
+      },
+      "Spread": {
+        "center": 0.0278,
+        "range": [
+          0,
+          0.1078
+        ],
+        "cyclic": false
+      },
+      "Drift": {
+        "center": 0.8822,
+        "range": [
+          0.8022,
+          0.9621999999999999
+        ],
+        "cyclic": false
+      },
+      "Distance": {
+        "center": 0.6053,
+        "range": [
+          0.5253,
+          0.6852999999999999
+        ],
+        "cyclic": false
+      },
+      "Faces": {
+        "center": 0.5993,
+        "range": [
+          0.5193000000000001,
+          0.6793
+        ],
+        "cyclic": false
+      },
+      "Edges": {
+        "center": 0.0001,
+        "range": [
+          0,
+          0.0801
+        ],
+        "cyclic": false
+      },
+      "Round": {
+        "center": 0.0,
+        "range": [
+          0,
+          0.08
+        ],
+        "cyclic": false
+      },
+      "Shade": {
+        "center": 1.0,
+        "range": [
+          0.92,
+          1
+        ],
+        "cyclic": false
+      },
+      "Rim": {
+        "center": 0.0,
+        "range": [
+          0,
+          0.08
+        ],
+        "cyclic": false
+      },
+      "Haze": {
+        "center": 0.0,
+        "range": [
+          0,
+          0.08
+        ],
+        "cyclic": false
+      },
+      "Halo": {
+        "center": 0.373,
+        "range": [
+          0.293,
+          0.453
+        ],
+        "cyclic": false
+      },
+      "Focus": {
+        "center": 0.6111,
+        "range": [
+          0.5311,
+          0.6910999999999999
+        ],
+        "cyclic": false
+      },
+      "Wet": {
+        "center": 1.0,
+        "range": [
+          0.92,
+          1
+        ],
+        "cyclic": false
+      },
+      "Loop": {
+        "center": 0.5154,
+        "range": [
+          0.43539999999999995,
+          0.5953999999999999
+        ],
+        "cyclic": false
+      },
+      "Red": {
+        "center": 0.5487,
+        "range": [
+          0.46869999999999995,
+          0.6286999999999999
+        ],
+        "cyclic": false
+      },
+      "Green": {
+        "center": 0.3727,
+        "range": [
+          0.29269999999999996,
+          0.4527
+        ],
+        "cyclic": false
+      },
+      "Blue": {
+        "center": 0.6168,
+        "range": [
+          0.5368,
+          0.6968
+        ],
+        "cyclic": false
+      },
+      "Depth": {
+        "center": 0.9931,
+        "range": [
+          0.9631,
+          1
+        ],
+        "cyclic": false
+      }
+    },
+    "status": "Expanded continuous drive set; source selectors and resource counts remain manual"
+  },
+  "SP Atom Glyph": {
+    "speed": 0.25,
+    "bindings": {
+      "Weight": {
+        "center": 0.4539,
+        "range": [
+          0.4289,
+          0.47890000000000005
+        ],
+        "cyclic": false
+      },
+      "Slant": {
+        "center": 0.5586,
+        "range": [
+          0.5336,
+          0.5836
+        ],
+        "cyclic": false
+      },
+      "Width": {
+        "center": 0.3728,
+        "range": [
+          0.3528,
+          0.39280000000000004
+        ],
+        "cyclic": false
+      },
+      "Write": {
+        "center": 1.0,
+        "range": [
+          0.92,
+          1
+        ],
+        "cyclic": false
+      },
+      "Size": {
+        "center": 0.9247,
+        "range": [
+          0.8946999999999999,
+          0.9547
+        ],
+        "cyclic": false
+      },
+      "X": {
+        "center": 0.5291,
+        "range": [
+          0.4491,
+          0.6091
+        ],
+        "cyclic": false
+      },
+      "Y": {
+        "center": 0.5,
+        "range": [
+          0.42,
+          0.58
+        ],
+        "cyclic": false
+      },
+      "Contrast": {
+        "center": 1.0,
+        "range": [
+          0.92,
+          1
+        ],
+        "cyclic": false
+      },
+      "Round": {
+        "center": 0.4916,
+        "range": [
+          0.41159999999999997,
+          0.5716
+        ],
+        "cyclic": false
+      },
+      "Hand": {
+        "center": 1.0,
+        "range": [
+          0.92,
+          1
+        ],
+        "cyclic": false
+      },
+      "Soft": {
+        "center": 0.0,
+        "range": [
+          0,
+          0.08
+        ],
+        "cyclic": false
+      }
+    },
+    "status": "Expanded continuous drive set; source selectors and resource counts remain manual"
+  },
+  "SPAtomDither": {
+    "speed": 0.25,
+    "bindings": {
+      "Contrast": {
+        "center": 0.2,
+        "range": [
+          0.18000000000000002,
+          0.22
+        ],
+        "cyclic": false
+      },
+      "Bias": {
+        "center": 0.5,
+        "range": [
+          0.47,
+          0.53
+        ],
+        "cyclic": false
+      },
+      "Size": {
+        "center": 0.2421,
+        "range": [
+          0.2121,
+          0.2721
+        ],
+        "cyclic": false
+      },
+      "Dither": {
+        "center": 0.0,
+        "range": [
+          0,
+          0.08
+        ],
+        "cyclic": false
+      },
+      "Scan": {
+        "center": 1.0,
+        "range": [
+          0.92,
+          1
+        ],
+        "cyclic": false
+      },
+      "Spacing": {
+        "center": 1.0,
+        "range": [
+          0.92,
+          1
+        ],
+        "cyclic": false
+      },
+      "Tint": {
+        "center": 0.0,
+        "range": [
+          0,
+          0.08
+        ],
+        "cyclic": false
+      },
+      "Key": {
+        "center": 0.0,
+        "range": [
+          0,
+          0.08
+        ],
+        "cyclic": false
+      }
+    },
+    "status": "Expanded continuous drive set; source selectors and resource counts remain manual"
+  },
+  "SP Atom Grain": {
+    "speed": 0.25,
+    "bindings": {
+      "Amount": {
+        "center": 0.5,
+        "range": [
+          0.46,
+          0.54
+        ],
+        "cyclic": false
+      },
+      "Flicker": {
+        "center": 0.5,
+        "range": [
+          0.46,
+          0.54
+        ],
+        "cyclic": false
+      },
+      "Size": {
+        "center": 0.2,
+        "range": [
+          0.17,
+          0.23
+        ],
+        "cyclic": false
+      },
+      "Level": {
+        "center": 0.5,
+        "range": [
+          0.42,
+          0.58
+        ],
+        "cyclic": false
+      }
+    },
+    "status": "Expanded continuous drive set; source selectors and resource counts remain manual"
+  },
+  "SPDelayPerformance": {
+    "speed": 0.25,
+    "bindings": {
+      "R": {
+        "center": 0.125,
+        "range": [
+          0.105,
+          0.145
+        ],
+        "cyclic": false
+      },
+      "G": {
+        "center": 0.1875,
+        "range": [
+          0.1675,
+          0.2075
+        ],
+        "cyclic": false
+      },
+      "B": {
+        "center": 0.25,
+        "range": [
+          0.23,
+          0.27
+        ],
+        "cyclic": false
+      },
+      "Span": {
+        "center": 1.0,
+        "range": [
+          0.92,
+          1
+        ],
+        "cyclic": false
+      },
+      "Glide": {
+        "center": 0.2848,
+        "range": [
+          0.20479999999999998,
+          0.3648
+        ],
+        "cyclic": false
+      }
+    },
+    "status": "Expanded continuous drive set; source selectors and resource counts remain manual"
+  },
+  "SP Atom Ground": {
+    "speed": 0.25,
+    "bindings": {
+      "Tilt": {
+        "center": 0,
+        "range": [
+          0,
+          0.05
+        ],
+        "cyclic": true
+      },
+      "Sway": {
+        "center": 0.5200885485468957,
+        "range": [
+          0.420089,
+          0.620089
+        ],
+        "cyclic": false
+      },
+      "Bob": {
+        "center": 0.4056565802509908,
+        "range": [
+          0.305657,
+          0.505657
+        ],
+        "cyclic": false
+      },
+      "Travel": {
+        "center": 0.20023530383091148,
+        "range": [
+          0.025235,
+          0.375235
+        ],
+        "cyclic": true
+      },
+      "Horizon": {
+        "center": 0.4885805399603699,
+        "range": [
+          0.438581,
+          0.538581
+        ],
+        "cyclic": false
+      },
+      "Yaw": {
+        "center": 0,
+        "range": [
+          0,
+          0.1
+        ],
+        "cyclic": true
+      },
+      "Dolly": {
+        "center": 0.6772188102119461,
+        "range": [
+          0.627219,
+          0.727219
+        ],
+        "cyclic": false
+      },
+      "Focal mm": {
+        "center": 0.40869592140026423,
+        "range": [
+          0.358696,
+          0.458696
+        ],
+        "cyclic": false
+      },
+      "Distort": {
+        "center": 0.8201525346763541,
+        "range": [
+          0.720153,
+          0.920153
+        ],
+        "cyclic": false
+      },
+      "Scale": {
+        "center": 0.5463029865125241,
+        "range": [
+          0.446303,
+          0.646303
+        ],
+        "cyclic": false
+      },
+      "Gap": {
+        "center": 0.5630469782034346,
+        "range": [
+          0.463047,
+          0.663047
+        ],
+        "cyclic": false
+      },
+      "Seam": {
+        "center": 0.15000000596046448,
+        "range": [
+          0.05,
+          0.25
+        ],
+        "cyclic": false
+      },
+      "Bands": {
+        "center": 0.5462423493408662,
+        "range": [
+          0.446242,
+          0.646242
+        ],
+        "cyclic": false
+      },
+      "Sun": {
+        "center": 0.6233006709039548,
+        "range": [
+          0.448301,
+          0.798301
+        ],
+        "cyclic": true
+      },
+      "Height": {
+        "center": 0.8855270127118644,
+        "range": [
+          0.785527,
+          0.985527
+        ],
+        "cyclic": false
+      },
+      "Relief": {
+        "center": 0.6828712066473989,
+        "range": [
+          0.582871,
+          0.782871
+        ],
+        "cyclic": false
+      },
+      "Haze": {
+        "center": 0.07308224951830443,
+        "range": [
+          0,
+          0.173082
+        ],
+        "cyclic": false
+      },
+      "Soft": {
+        "center": 0.41436355973025046,
+        "range": [
+          0.314364,
+          0.514364
+        ],
+        "cyclic": false
+      }
+    },
+    "status": "Broad continuous motion Home; camera and geometry ranges bounded; selectors manual"
+  },
+  "SP Atom Room": {
+    "speed": 0.25,
+    "bindings": {
+      "Tilt": {
+        "center": 0.6045251993280658,
+        "range": [
+          0.554525,
+          0.654525
+        ],
+        "cyclic": true
+      },
+      "Sway": {
+        "center": 0.020801238292408097,
+        "range": [
+          0,
+          0.120801
+        ],
+        "cyclic": false
+      },
+      "Bob": {
+        "center": 0.1570488137124696,
+        "range": [
+          0.057049,
+          0.257049
+        ],
+        "cyclic": false
+      },
+      "Travel": {
+        "center": 0.2474930248135412,
+        "range": [
+          0.072493,
+          0.422493
+        ],
+        "cyclic": true
+      },
+      "Horizon": {
+        "center": 0.5,
+        "range": [
+          0.45,
+          0.55
+        ],
+        "cyclic": false
+      },
+      "Yaw": {
+        "center": 0,
+        "range": [
+          0,
+          0.1
+        ],
+        "cyclic": true
+      },
+      "Dolly": {
+        "center": 0.7044797687861272,
+        "range": [
+          0.65448,
+          0.75448
+        ],
+        "cyclic": false
+      },
+      "Focal mm": {
+        "center": 0.30404022157996147,
+        "range": [
+          0.25404,
+          0.35404
+        ],
+        "cyclic": false
+      },
+      "Distort": {
+        "center": 0.5,
+        "range": [
+          0.4,
+          0.6
+        ],
+        "cyclic": false
+      },
+      "Left": {
+        "center": 0.1791907514450867,
+        "range": [
+          0.144191,
+          0.214191
+        ],
+        "cyclic": false
+      },
+      "Right": {
+        "center": 0.18314968689788053,
+        "range": [
+          0.14815,
+          0.21815
+        ],
+        "cyclic": false
+      },
+      "Floor": {
+        "center": 0.8795535284200385,
+        "range": [
+          0.844554,
+          0.914554
+        ],
+        "cyclic": false
+      },
+      "Ceiling": {
+        "center": 0.13619942196531792,
+        "range": [
+          0.101199,
+          0.171199
+        ],
+        "cyclic": false
+      },
+      "Back": {
+        "center": 0.189873417721519,
+        "range": [
+          0.154873,
+          0.224873
+        ],
+        "cyclic": false
+      },
+      "Front": {
+        "center": 0.189873417721519,
+        "range": [
+          0.154873,
+          0.224873
+        ],
+        "cyclic": false
+      },
+      "Scale": {
+        "center": 0.7884754335260116,
+        "range": [
+          0.688475,
+          0.888475
+        ],
+        "cyclic": false
+      },
+      "Gap": {
+        "center": 0.3344096218689788,
+        "range": [
+          0.23441,
+          0.43441
+        ],
+        "cyclic": false
+      },
+      "Seam": {
+        "center": 0.15000000596046448,
+        "range": [
+          0.05,
+          0.25
+        ],
+        "cyclic": false
+      },
+      "Bands": {
+        "center": 0.9325400409441232,
+        "range": [
+          0.83254,
+          1
+        ],
+        "cyclic": false
+      },
+      "Sun": {
+        "center": 0.5,
+        "range": [
+          0.325,
+          0.675
+        ],
+        "cyclic": true
+      },
+      "Height": {
+        "center": 0.8821878010597303,
+        "range": [
+          0.782188,
+          0.982188
+        ],
+        "cyclic": false
+      },
+      "Relief": {
+        "center": 0,
+        "range": [
+          0,
+          0.1
+        ],
+        "cyclic": false
+      },
+      "Haze": {
+        "center": 0.30000001192092896,
+        "range": [
+          0.2,
+          0.4
+        ],
+        "cyclic": false
+      },
+      "Soft": {
+        "center": 0,
+        "range": [
+          0,
+          0.1
+        ],
+        "cyclic": false
+      }
+    },
+    "status": "Broad continuous motion Home; camera and geometry ranges bounded; selectors manual"
+  },
+  "SP Atom Solid": {
+    "speed": 0.25,
+    "bindings": {
+      "Morph": {
+        "center": 1,
+        "range": [
+          0.9,
+          1
+        ],
+        "cyclic": false
+      },
+      "Size": {
+        "center": 0.5,
+        "range": [
+          0.44,
+          0.56
+        ],
+        "cyclic": false
+      },
+      "X": {
+        "center": 0.5,
+        "range": [
+          0.42,
+          0.58
+        ],
+        "cyclic": false
+      },
+      "Y": {
+        "center": 0.5,
+        "range": [
+          0.42,
+          0.58
+        ],
+        "cyclic": false
+      },
+      "Tumble": {
+        "center": 0.2,
+        "range": [
+          0,
+          1
+        ],
+        "cyclic": true,
+        "shape": 0
+      },
+      "Axis": {
+        "center": 0.325,
+        "range": [
+          0.25,
+          0.4
+        ],
+        "cyclic": false
+      },
+      "Sun": {
+        "center": 0.8999999761581421,
+        "range": [
+          0.725,
+          1
+        ],
+        "cyclic": true
+      },
+      "Height": {
+        "center": 0.699999988079071,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "cyclic": false
+      },
+      "Distance": {
+        "center": 0.699999988079071,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "cyclic": false
+      },
+      "Shadow": {
+        "center": 0,
+        "range": [
+          0,
+          0.1
+        ],
+        "cyclic": false
+      },
+      "Loop": {
+        "center": 1,
+        "range": [
+          0.9,
+          1
+        ],
+        "cyclic": false
+      },
+      "Hue": {
+        "center": 0.7400583202846184,
+        "range": [
+          0.565058,
+          0.915058
+        ],
+        "cyclic": true
+      },
+      "Red": {
+        "center": 0.7890221451712203,
+        "range": [
+          0.689022,
+          0.889022
+        ],
+        "cyclic": false
+      },
+      "Green": {
+        "center": 0.0012627636058298308,
+        "range": [
+          0,
+          0.101263
+        ],
+        "cyclic": false
+      },
+      "Blue": {
+        "center": 0.17966364258663953,
+        "range": [
+          0.079664,
+          0.279664
+        ],
+        "cyclic": false
+      },
+      "Shade": {
+        "center": 0.800000011920929,
+        "range": [
+          0.7,
+          0.9
+        ],
+        "cyclic": false
+      },
+      "Edge": {
+        "center": 0.4000000059604645,
+        "range": [
+          0.3,
+          0.5
+        ],
+        "cyclic": false
+      },
+      "Emboss": {
+        "center": 0,
+        "range": [
+          0,
+          0.1
+        ],
+        "cyclic": false
+      }
+    },
+    "status": "Tumble is Heart-owned rotation phase; centered travel and restrained axis precession",
+    "choices": {
+      "Color": "loop"
+    }
+  },
+  "Heart Ancient Temple": {
+    "bindings": {},
+    "static": {
+      "zoom": 0.18367346938775508,
+      "morph": 0.0,
+      "speed": 0.2,
+      "cameraPitch": 0.5,
+      "cameraYaw": 0.5,
+      "cameraRoll": 0.5,
+      "fractalScale": 0.3333333333333333,
+      "fractalIterations": 0.6842105263157895,
+      "surfaceShake": 0.0,
+      "floorPattern": 0.0,
+      "orbSize": 0.0368421052631579,
+      "orbPattern": 0.2,
+      "colorPalette": 0.0,
+      "contrast": 0.3333333333333333,
+      "saturation": 0.5,
+      "brightness": 0.5
+    }
+  },
+  "Heart Color Wheel": {
+    "bindings": {},
+    "static": {
+      "Hue Rotation": 0.0,
+      "Color Repeats": 0.21739130434782608,
+      "Saturation Contrast": 0.0,
+      "Center Brightness": 1.0,
+      "Gain": 0.4736842105263158,
+      "Saturation Spread": 0.6363636363636364
+    }
+  },
+  "Heart Concentrip": {
+    "bindings": {},
+    "static": {
+      "radialDensity": 0.5238095238095238,
+      "angularDensity": 0.5384615384615384,
+      "blendThreshold": 0.5,
+      "blendWidth": 0.6,
+      "phase": 0.0,
+      "hue": 0.0
+    }
+  },
+  "Heart HypnoWorm": {
+    "bindings": {},
+    "static": {
+      "color1R": 0.7,
+      "color1G": 0.1,
+      "color1B": 1.0,
+      "color2R": 0.2,
+      "color2G": 0.8,
+      "color2B": 0.7,
+      "gamma": 0.16,
+      "amp1": 0.37500000000000006,
+      "amp2": 0.04761904761904763,
+      "freq1": 0.475,
+      "freq2": 0.55,
+      "phase1": 0.5375,
+      "phase2": 0.2375,
+      "rate": 0.65
+    }
+  },
+  "Heart Kali Liberation": {
+    "bindings": {},
+    "static": {
+      "speed": 0.525,
+      "zoom": 0.18367346938775508,
+      "morphing": 0.5,
+      "colorPulse": 0.2,
+      "brightness": 0.3333333333333333,
+      "contrast": 0.3333333333333333,
+      "cameraX": 0.5,
+      "cameraY": 0.5,
+      "cameraZ": 0.847457627118644,
+      "colorPalette": 0.0
+    }
+  },
+  "Heart Klein Bottle": {
+    "bindings": {},
+    "static": {
+      "Quat W": 1.0,
+      "Quat X": 0.5,
+      "Quat Y": 0.5,
+      "Quat Z": 0.5,
+      "Refraction": 0.5,
+      "Wall Thickness": 0.14285714285714285,
+      "Exposure": 0.42857142857142855
+    }
+  },
+  "Heart Melting Fractal": {
+    "bindings": {},
+    "static": {
+      "Fold Phase": 1.0,
+      "Twist Amount": 0.5,
+      "Orbit Phase": 0.333,
+      "Camera Roll": 0.0,
+      "Cone Radius": 0.5,
+      "Fold Offset": 0.5,
+      "Glow Strength": 0.2
+    }
+  },
+  "Heart Paper Fractal": {
+    "bindings": {},
+    "static": {
+      "rotAsymX": 0.5,
+      "rotAsymY": 0.5,
+      "spinRate": 0.0,
+      "foldRate": 0.0,
+      "spinOffset": 0.5,
+      "foldOffset": 0.03,
+      "sizeOffset": 0.5,
+      "foldDistA": 0.3,
+      "foldDistB": 0.1,
+      "camX": 0.5,
+      "camY": 0.5,
+      "camZ": 0.0,
+      "glowAmount": 0.5
+    }
+  },
+  "Heart Puls Lattice": {
+    "bindings": {},
+    "static": {
+      "cellSpacing": 0.4,
+      "barWidth": 0.42105263157894746,
+      "boltWidth": 0.5000000000000001,
+      "greenExpansion": 0.0,
+      "orangeExpansion": 0.0,
+      "pulsePhase": 0.0,
+      "travelPhase": 0.0
+    }
+  },
+  "Heart Quaternion Field": {
+    "bindings": {},
+    "static": {
+      "Speed": 0.2,
+      "Field Scale": 0.55,
+      "Hue Speed": 0.3,
+      "Axis 1 Freq": 0.3,
+      "Axis 2 Freq": 0.3,
+      "Axis 3 Freq": 0.3,
+      "Coupling": 0.5,
+      "Brightness": 0.75,
+      "Saturation": 0.5,
+      "Mean Radius": 0.5,
+      "Sample Distance": 0.55
+    }
+  },
+  "Heart Quaternion Swell": {
+    "bindings": {},
+    "static": {
+      "Field Scale": 0.5,
+      "Speed": 0.09999999999999999,
+      "Swell Threshold": 0.55,
+      "Swell Sharpness": 0.6,
+      "Hue Shift": 0.0,
+      "Coupling": 0.5,
+      "Darkness": 0.7
+    }
+  },
+  "Heart Torus": {
+    "bindings": {},
+    "static": {
+      "animationSpeed": 0.5,
+      "torusSize": 0.3,
+      "color1R": 0.3,
+      "color1G": 0.7,
+      "color1B": 0.9,
+      "color2R": 0.95,
+      "color2G": 0.5,
+      "color2B": 0.1
+    }
+  },
+  "Heart Vector Lattice": {
+    "bindings": {},
+    "static": {
+      "camSpeed": 0.5,
+      "rotX": 0.5,
+      "rotZ": 0.5,
+      "colorR": 0.5,
+      "colorG": 0.5,
+      "colorB": 0.5
+    }
+  },
+  "Heart Capsule": {
+    "bindings": {},
+    "static": {
+      "Turn": 0.0,
+      "Outline": 0.0,
+      "Material": 0.65,
+      "Float": 0.15,
+      "Tilt": 0.5
+    }
+  }
+}

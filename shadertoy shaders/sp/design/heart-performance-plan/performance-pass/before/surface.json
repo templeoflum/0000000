@@ -1,0 +1,36 @@
+{
+  "pad": {
+    "assign": {},
+    "cfg": {},
+    "home": {}
+  },
+  "start_patch": "Figure depth",
+  "banks": {
+    "figure": "all"
+  },
+  "workspace": {
+    "version": 1,
+    "columns": [
+      25,
+      44,
+      31
+    ],
+    "row": 46,
+    "order": [
+      "mix",
+      "monitor",
+      "rack",
+      "actions",
+      "a",
+      "b"
+    ],
+    "a": {
+      "kind": "follow"
+    },
+    "b": {
+      "kind": "effect",
+      "key": "layer/figure~1/effect/LinearCloner~1"
+    },
+    "rack": "composition"
+  }
+}

@@ -1,0 +1,655 @@
+{
+  "fx": {
+    "binding": [
+      1788814507977,
+      1788150010310
+    ],
+    "motion": {
+      "slots": [
+        {
+          "name": "Clones",
+          "owner": "unverified",
+          "choices": [],
+          "v": 0.2041,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false,
+          "min": 1.0,
+          "max": 50.0,
+          "integer": true
+        },
+        {
+          "name": "Tails",
+          "owner": "unverified",
+          "choices": [],
+          "v": 0.1429,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false,
+          "min": 1.0,
+          "max": 8.0,
+          "integer": true
+        },
+        {
+          "name": "Center",
+          "owner": "unverified",
+          "choices": [],
+          "v": 0.3722,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false,
+          "min": -1.0,
+          "max": 1.0,
+          "integer": false
+        },
+        {
+          "name": "Tail Length",
+          "owner": "resolume",
+          "choices": [],
+          "v": 0.5203,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false,
+          "min": -1.0,
+          "max": 1.0,
+          "integer": false
+        },
+        {
+          "name": "Start Scale",
+          "owner": "unverified",
+          "choices": [],
+          "v": 1.0,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false,
+          "min": 0.0,
+          "max": 100.0,
+          "integer": false
+        },
+        {
+          "name": "Start Rotation",
+          "owner": "resolume",
+          "choices": [],
+          "v": 0.1167,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false,
+          "min": -180.0,
+          "max": 180.0,
+          "integer": false
+        },
+        {
+          "name": "End Scale",
+          "owner": "unverified",
+          "choices": [],
+          "v": 0.7471,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false,
+          "min": 0.0,
+          "max": 100.0,
+          "integer": false
+        },
+        {
+          "name": "End Rotation",
+          "owner": "unverified",
+          "choices": [],
+          "v": 0.125,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false,
+          "min": 0.0,
+          "max": 360.0,
+          "integer": false
+        },
+        {
+          "name": "Distribution",
+          "owner": "unverified",
+          "choices": [],
+          "v": 0.0,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false,
+          "min": 0.0,
+          "max": 100.0,
+          "integer": false
+        },
+        {
+          "name": "Distortion",
+          "owner": "unverified",
+          "choices": [],
+          "v": 0.55,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false,
+          "min": -100.0,
+          "max": 100.0,
+          "integer": false
+        },
+        {
+          "name": "Tail Rotation",
+          "owner": "unverified",
+          "choices": [],
+          "v": 0.0,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false,
+          "min": 0.0,
+          "max": 100.0,
+          "integer": false
+        },
+        {
+          "name": "Master Rotation",
+          "owner": "resolume",
+          "choices": [],
+          "v": 0.8833,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false,
+          "min": -180.0,
+          "max": 180.0,
+          "integer": false
+        },
+        {
+          "name": "Delay Amount",
+          "owner": "unverified",
+          "choices": [],
+          "v": 1.0,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false,
+          "min": 0.0,
+          "max": 1.0,
+          "integer": false
+        }
+      ],
+      "g": {
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0,
+        "speed": 1.0,
+        "relationship": null
+      },
+      "morph": 1.0,
+      "home": false,
+      "home_kind": "full-range Home",
+      "arm": {
+        "global": [],
+        "slots": {
+          "Clones": [
+            "motion",
+            "timing"
+          ],
+          "Tails": [
+            "motion",
+            "timing"
+          ],
+          "Center": [
+            "motion",
+            "timing"
+          ],
+          "Tail Length": [
+            "motion",
+            "timing"
+          ],
+          "Start Scale": [
+            "motion",
+            "timing"
+          ],
+          "Start Rotation": [
+            "motion",
+            "timing"
+          ],
+          "End Scale": [
+            "motion",
+            "timing"
+          ],
+          "End Rotation": [
+            "motion",
+            "timing"
+          ],
+          "Distribution": [
+            "motion",
+            "timing"
+          ],
+          "Distortion": [
+            "motion",
+            "timing"
+          ],
+          "Tail Rotation": [
+            "motion",
+            "timing"
+          ],
+          "Master Rotation": [
+            "motion",
+            "timing"
+          ],
+          "Delay Amount": [
+            "motion",
+            "timing"
+          ]
+        }
+      }
+    },
+    "pulsing": false,
+    "pulse_stage": null,
+    "instance": "c566cbf341d747d593a1281eb4c5d0b9",
+    "key": "layer/figure~1/effect/LinearCloner~1",
+    "scope": "L",
+    "layer": 5,
+    "lname": "figure",
+    "name": "Linear Cloner",
+    "colors": {},
+    "params": {
+      "Opacity": {
+        "id": 1788822516684,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 1.0,
+        "view": {
+          "suffix": " %",
+          "multiplier": 100.0,
+          "display_units": "percent",
+          "control_type": "slider_color_opacity"
+        }
+      },
+      "Clones": {
+        "id": 1788822516664,
+        "valuetype": "ParamRange",
+        "min": 1.0,
+        "max": 50.0,
+        "in": 1.0,
+        "out": 50.0,
+        "value": 11.0,
+        "view": {
+          "suffix": "",
+          "step": 1.0,
+          "display_units": "integer",
+          "control_type": "spinner"
+        }
+      },
+      "Tails": {
+        "id": 1788822516665,
+        "valuetype": "ParamRange",
+        "min": 1.0,
+        "max": 8.0,
+        "in": 1.0,
+        "out": 8.0,
+        "value": 2.0,
+        "view": {
+          "suffix": "",
+          "step": 1.0,
+          "display_units": "integer",
+          "control_type": "spinner"
+        }
+      },
+      "Center": {
+        "id": 1788822516666,
+        "valuetype": "ParamRange",
+        "min": -1.0,
+        "max": 1.0,
+        "in": -1.0,
+        "out": 1.0,
+        "value": -0.255689841169112
+      },
+      "Tail Length": {
+        "id": 1788822516667,
+        "valuetype": "ParamRange",
+        "min": -1.0,
+        "max": 1.0,
+        "in": -0.5,
+        "out": 0.5,
+        "value": 0.04064066489024043
+      },
+      "Start Scale": {
+        "id": 1788822516668,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 100.0,
+        "in": 0.0,
+        "out": 100.0,
+        "value": 100.0,
+        "view": {
+          "suffix": " %",
+          "step": 1.0,
+          "multiplier": 1.0,
+          "display_units": "percent",
+          "control_type": "slider"
+        }
+      },
+      "Start Rotation": {
+        "id": 1788822516670,
+        "valuetype": "ParamRange",
+        "min": -180.0,
+        "max": 180.0,
+        "in": -180.0,
+        "out": 180.0,
+        "value": -137.99184899999872,
+        "view": {
+          "suffix": " \u00b0",
+          "step": 1.0,
+          "display_units": "degrees",
+          "control_type": "slider"
+        }
+      },
+      "End Scale": {
+        "id": 1788822516669,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 100.0,
+        "in": 0.0,
+        "out": 100.0,
+        "value": 74.71142509069018,
+        "view": {
+          "suffix": " %",
+          "step": 1.0,
+          "multiplier": 1.0,
+          "display_units": "percent",
+          "control_type": "slider"
+        }
+      },
+      "End Rotation": {
+        "id": 1788822516671,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 360.0,
+        "in": 0.0,
+        "out": 360.0,
+        "value": 45.0,
+        "view": {
+          "suffix": " \u00b0",
+          "step": 1.0,
+          "display_units": "degrees",
+          "control_type": "slider"
+        }
+      },
+      "Distribution": {
+        "id": 1788822516672,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 100.0,
+        "in": 0.0,
+        "out": 100.0,
+        "value": 0.0,
+        "view": {
+          "suffix": " %",
+          "step": 1.0,
+          "multiplier": 1.0,
+          "display_units": "percent",
+          "control_type": "slider"
+        }
+      },
+      "Distortion": {
+        "id": 1788822516673,
+        "valuetype": "ParamRange",
+        "min": -100.0,
+        "max": 100.0,
+        "in": -100.0,
+        "out": 100.0,
+        "value": 10.000000000000014,
+        "view": {
+          "suffix": " %",
+          "step": 1.0,
+          "multiplier": 1.0,
+          "display_units": "percent",
+          "control_type": "slider"
+        }
+      },
+      "Reverse": {
+        "valuetype": "ParamBoolean",
+        "id": 1788822516674,
+        "value": false
+      },
+      "Tail Rotation": {
+        "id": 1788822516675,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 100.0,
+        "in": 0.0,
+        "out": 100.0,
+        "value": 0.0,
+        "view": {
+          "suffix": " %",
+          "step": 1.0,
+          "multiplier": 1.0,
+          "display_units": "percent",
+          "control_type": "slider"
+        }
+      },
+      "Master Rotation": {
+        "id": 1788822516676,
+        "valuetype": "ParamRange",
+        "min": -180.0,
+        "max": 180.0,
+        "in": -180.0,
+        "out": 180.0,
+        "value": 137.9918489999987,
+        "view": {
+          "suffix": " \u00b0",
+          "step": 1.0,
+          "display_units": "degrees",
+          "control_type": "slider"
+        }
+      },
+      "Delay Enabled": {
+        "valuetype": "ParamBoolean",
+        "id": 1788822516677,
+        "value": false,
+        "view": {
+          "suffix": "",
+          "alternative_name": "Enabled"
+        }
+      },
+      "Delay Amount": {
+        "id": 1788822516678,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 1.0,
+        "view": {
+          "suffix": "",
+          "alternative_name": "Amount"
+        }
+      },
+      "Delay Order": {
+        "id": 1788822516679,
+        "valuetype": "ParamChoice",
+        "value": "New To Old",
+        "index": 0,
+        "options": [
+          "New To Old",
+          "Old To New",
+          "Bounce",
+          "Bounce Tail",
+          "Random"
+        ],
+        "view": {
+          "suffix": "",
+          "control_type": "choice_combobox",
+          "alternative_name": "Order"
+        }
+      },
+      "Delay Fill": {
+        "id": 1788822516680,
+        "valuetype": "ParamChoice",
+        "value": "Transparent",
+        "index": 1,
+        "options": [
+          "Repeat",
+          "Transparent"
+        ],
+        "view": {
+          "suffix": "",
+          "control_type": "choice_combobox",
+          "alternative_name": "Fill"
+        }
+      }
+    },
+    "has_amount": true,
+    "env": 1.0,
+    "target": 1.0,
+    "pending": false,
+    "bypassed": false,
+    "cfg": {
+      "attack": 0.5,
+      "release": 1.0,
+      "mode": "latch",
+      "quant": 0,
+      "hold": 1.0,
+      "key": "",
+      "bypass0": true,
+      "bind": null,
+      "pulse_attack": 0.04,
+      "pulse_hold": 0.08,
+      "pulse_return": 0.25
+    }
+  },
+  "slot": {
+    "name": "End Scale",
+    "owner": "unverified",
+    "choices": [],
+    "v": 0.7471,
+    "drive": false,
+    "morphing": false,
+    "morph_remaining": 0.0,
+    "morph_progress": 1.0,
+    "cyc": false,
+    "ratio": "1:1",
+    "mult": 1.0,
+    "offset": 0.0,
+    "shape": 1,
+    "lo": 0.0,
+    "hi": 1.0,
+    "lock": false,
+    "min": 0.0,
+    "max": 100.0,
+    "integer": false
+  },
+  "value": 74.71142509069018,
+  "norm": 0.7471142509069019,
+  "bpm": 106.7357642693304
+}

@@ -1,0 +1,10 @@
+{
+  "compile": "glslang1/1; actual offscreen OpenGL compile passed",
+  "changed_pixels_vs_home": {
+    "tilt-zero": 13479,
+    "contrast-min": 27046
+  },
+  "alpha_unchanged_by_controls": true,
+  "samples": "480x480 three sequential renders",
+  "live": "not tested by builder"
+}

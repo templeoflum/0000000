@@ -1,0 +1,189 @@
+{
+  "SchemaVersion": "1.1-ter",
+  "ArchetypeName": "Humbaba",
+  "SystemOfOrigin": "ME",
+  "CulturalLineage": [
+    "Sumerian",
+    "Akkadian",
+    "Babylonian"
+  ],
+  "CommonAliases": [
+    "Huwawa (Sumerian)",
+    "Guardian of the Cedar Forest",
+    "The Terrible",
+    "Monster of Lebanon",
+    "Enlil's Watchman"
+  ],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "Monstrous guardian embodying wild nature's terror, threshold guardian, and the fearsome protector of sacred wilderness",
+    "PrimaryDomain": "Guardian/Wilderness/Terror",
+    "ToneOrPolarity": "Fearsome / Wild / Protective / Monstrous",
+    "SymbolicCore": "The terror that guards the sacred wild - nature's fierce protector",
+    "Correspondences": {
+      "Element": "Earth and Fire",
+      "Planet": "Mars (warrior guardian)",
+      "Chakra": "Root (primal fear)",
+      "Color": "Forest Green, Earth Brown, Terror Dark",
+      "Animal": "Lion, Bull, Serpent (composite)",
+      "Other": [
+        "Cedar forest",
+        "Seven terrifying auras",
+        "Monster face (terrifying visage)",
+        "Roar like flood storm",
+        "Guardian appointed by Enlil",
+        "Mountain dwelling"
+      ]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": [
+      "Threshold Guardian",
+      "Forest Protector",
+      "Fearsome Monster",
+      "Test of Heroes",
+      "Wild Nature's Wrath",
+      "Tragic Victim"
+    ],
+    "ComplementaryArchetypes": [
+      "Gilgamesh (Hero slayer)",
+      "Enkidu (Wild parallel/slayer)",
+      "Shamash (God who aids slayers)",
+      "Enlil (Master/appointer)"
+    ],
+    "ShadowForms": [
+      "Needless Terror",
+      "Destroyed Guardian",
+      "Wasted Potential"
+    ],
+    "DevelopmentalArc": [
+      "Appointed Guardian → Lonely Watchman → Encounter with Heroes → Combat → Pleading → Death → Curse"
+    ],
+    "CyclePhase": "Guarding → Challenged → Fighting → Defeated → Cursed"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": [
+      "Fearsome",
+      "Loyal (to duty)",
+      "Terrifying",
+      "Lonely",
+      "Protective",
+      "Wild",
+      "Tragic"
+    ],
+    "Typologies": {
+      "MBTI": "ISTJ (duty-bound)",
+      "Enneagram": "6w5 (The Defender)",
+      "Other": [
+        "Threshold Guardian",
+        "Monster archetype",
+        "Wild Man",
+        "Nature's Protector"
+      ]
+    },
+    "SubVariants": [
+      "Forest Guardian",
+      "Threshold Monster",
+      "Fearsome Protector",
+      "Tragic Guardian",
+      "Wild Terror"
+    ],
+    "InternalFamily": "Guardian - Monster - Wilderness"
+  },
+  "CulturalContext": {
+    "Regions": [
+      "Lebanon (Cedar forest)",
+      "Mesopotamia",
+      "Syria"
+    ],
+    "MythicAppearances": [
+      "Epic of Gilgamesh (slain by heroes)",
+      "Gilgamesh and Huwawa (Sumerian poems)",
+      "Guardian of cedar forest",
+      "Combat with Gilgamesh and Enkidu",
+      "Pleading for life",
+      "Curse upon Enkidu",
+      "Enlil's anger at slaying"
+    ],
+    "ReligiousOrRitualUse": "Apotropaic (ward against evil), guardian imagery, threshold protection, wild nature reverence",
+    "HistoricalEvolution": "Ancient guardian monster, possibly representing Lebanese forest protectors' gods, became tragic figure in later versions, influenced threshold guardian archetypes",
+    "SyncreticForms": [
+      "Minotaur (Greek threshold guardian)",
+      "Grendel (Anglo-Saxon monster)",
+      "Green Knight (Arthurian guardian)",
+      "Forest guardians (various)"
+    ]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "😱🌲 (terror-face and forest)",
+    "ImageryNotes": "Depicted with terrifying face (often intestine-like features), monstrous body, surrounded by cedars, seven-fold auras, fearsome guardian stance",
+    "ArtisticExamples": [
+      "Humbaba mask amulets",
+      "Terror face imagery",
+      "Cedar forest scenes"
+    ],
+    "PoeticInvocation": "I am the terror in the sacred wood, the guardian who fails, the wild that heroes must destroy to prove themselves.",
+    "DreamForm": "A fearsome face in ancient forest; the guardian you must kill yet pity; nature's wrath given monstrous form"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": [
+      "ME.Gilgamesh",
+      "ME.Enkidu",
+      "ME.Shamash",
+      "ME.Enlil",
+      "GR.Minotaur"
+    ],
+    "SemanticTags": [
+      "#guardian",
+      "#monster",
+      "#threshold",
+      "#forest",
+      "#terror",
+      "#wild",
+      "#tragic",
+      "#nature"
+    ],
+    "RitualFunction": "Invoke for threshold guardianship, wild nature protection, confronting primal fear, guardian work",
+    "AIPromptSeeds": [
+      "Generate a fearsome guardian of sacred wilderness who is both monster and tragic victim, whose death enables heroism.",
+      "Create the threshold terror who protects what heroes must violate, whose defeat is both triumph and tragedy."
+    ],
+    "NarrativeHooks": [
+      "The threshold guardian who must be overcome",
+      "Monster who pleads for mercy",
+      "Sacred forest defiled by heroes",
+      "The guardian's curse from beyond death",
+      "Wild nature's tragic protector"
+    ]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [
+      {
+        "to": "GR.Minotaur",
+        "strength": "moderate"
+      },
+      {
+        "to": "CE.Green-Knight",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "FacetRegistry": [
+    {
+      "facet": "Forest Guardian",
+      "weight": 0.4
+    },
+    {
+      "facet": "Threshold Monster",
+      "weight": 0.3
+    },
+    {
+      "facet": "Fearsome Protector",
+      "weight": 0.2
+    },
+    {
+      "facet": "Tragic Guardian",
+      "weight": 0.1
+    }
+  ]
+}

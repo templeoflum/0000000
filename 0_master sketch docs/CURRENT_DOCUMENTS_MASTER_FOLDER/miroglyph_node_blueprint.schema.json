@@ -1,0 +1,203 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Miroglyph Node Blueprint v4",
+  "description": "Schema for individual Miroglyph node definitions",
+  "type": "object",
+  "required": ["node_id", "node_key", "node_title", "core_identity", "narrator_lens"],
+  "properties": {
+    "node_id": {
+      "type": "string",
+      "pattern": "^[DRE][1-6]$",
+      "description": "Canonical ID (D1-D6, R1-R6, E1-E6)"
+    },
+    "node_key": {
+      "type": "string",
+      "description": "Derived key (e.g., Descent.Dawn, Resonance.Crucible)"
+    },
+    "node_title": {
+      "type": "string",
+      "description": "Epithet or character name (e.g., The Catalyst, The Paradox)"
+    },
+    "legacy_id": {
+      "type": "string",
+      "pattern": "^[DRC][IECHW G]$",
+      "description": "v2 ID for backwards compatibility"
+    },
+
+    "core_identity": {
+      "type": "object",
+      "required": ["arc", "condition", "core_role"],
+      "properties": {
+        "arc": {
+          "type": "string",
+          "enum": ["Descent", "Resonance", "Emergence"]
+        },
+        "condition": {
+          "type": "string",
+          "enum": ["Dawn", "Immersion", "Crucible", "Alignment", "Unveiling", "Return"]
+        },
+        "core_role": {
+          "type": "string",
+          "description": "Archetypal function within narrative structure"
+        },
+        "myth_line": {
+          "type": "string",
+          "description": "Single sentence anchoring mythic resonance"
+        }
+      }
+    },
+
+    "narrator_lens": {
+      "type": "object",
+      "required": ["central_archetype", "emotional_tone", "motifs"],
+      "properties": {
+        "foreground_voice": {
+          "type": "string",
+          "description": "How the story is told from this node"
+        },
+        "central_archetype": {
+          "type": "string",
+          "description": "Universal archetype (Guardian, Weaver, Mirror, etc.)"
+        },
+        "emotional_tone": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 2,
+          "maxItems": 3,
+          "description": "2-3 emotional descriptors"
+        },
+        "motifs": {
+          "type": "object",
+          "required": ["primary_category", "secondary_category"],
+          "properties": {
+            "primary_category": {
+              "type": "string",
+              "enum": ["O", "A", "B"],
+              "description": "Object, Action, or Being (locked by condition)"
+            },
+            "secondary_category": {
+              "type": "string",
+              "enum": ["O", "A", "Q", "B", "F", "M"],
+              "description": "Any category (varies by arc)"
+            },
+            "polarity_note": {
+              "type": "string",
+              "description": "What axis is activated by this pairing"
+            }
+          }
+        }
+      }
+    },
+
+    "visual_composition": {
+      "type": "object",
+      "properties": {
+        "primary_figure": {
+          "type": "object",
+          "properties": {
+            "identity": { "type": "string" },
+            "form": { "type": "string", "description": "Material, scale, signifiers" },
+            "position_posture": { "type": "string" },
+            "expression_affect": { "type": "string" }
+          }
+        },
+        "secondary_figures": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "identity": { "type": "string" },
+              "form": { "type": "string" },
+              "position_posture": { "type": "string" },
+              "expression_affect": { "type": "string" },
+              "interaction_role": { "type": "string" }
+            }
+          }
+        },
+        "environment": {
+          "type": "object",
+          "properties": {
+            "perspective_focal": { "type": "string" },
+            "foreground": { "type": "string", "description": "Narrator anchor / framing device" },
+            "midground": { "type": "string", "description": "Motif enactment / main tension" },
+            "background": { "type": "string", "description": "Context / consequence / world-state" },
+            "visual_flow": { "type": "string", "description": "Eye-path direction" }
+          }
+        }
+      }
+    },
+
+    "sensory_signature": {
+      "type": "object",
+      "properties": {
+        "sight": { "type": "string" },
+        "sound": { "type": "string" },
+        "smell": { "type": "string" },
+        "touch": { "type": "string" },
+        "taste": { "type": "string" },
+        "atmosphere": { "type": "string", "description": "Overall energetic field" }
+      }
+    },
+
+    "ritual_engagement": {
+      "type": "object",
+      "properties": {
+        "interaction_method": { "type": "string", "description": "Gaze, gesture, invocation, etc." },
+        "catalyst_effect": { "type": "string", "description": "External change triggered" },
+        "perspective_shift": { "type": "string", "description": "Internal transformation invoked" }
+      }
+    },
+
+    "narrative_connections": {
+      "type": "object",
+      "properties": {
+        "reflective": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Node IDs that mirror this one"
+        },
+        "refractive": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Nodes that reframe or reinterpret"
+        },
+        "recursive": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Loop points"
+        }
+      }
+    },
+
+    "variants": {
+      "type": "object",
+      "properties": {
+        "alternative_interpretations": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Tonal, seasonal, cultural variants"
+        },
+        "symbolic_extensions": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+
+    "universe_forge_hooks": {
+      "type": "object",
+      "properties": {
+        "module_links": { "type": "array", "items": { "type": "string" } },
+        "entity_bindings": { "type": "array", "items": { "type": "string" } },
+        "exports": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+
+    "visualization_notes": {
+      "type": "object",
+      "properties": {
+        "sketch_prompt": { "type": "string" }
+      }
+    }
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "SchemaVersion": "1.1-ter",
+  "ArchetypeName": "Charon",
+  "SystemOfOrigin": "GR",
+  "CulturalLineage": [
+    "Greek"
+  ],
+  "CommonAliases": [
+    "The Ferryman",
+    "Boatman of the Dead",
+    "Psychopomp of the River"
+  ],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "To ferry souls across the river Styx to the underworld; to mark the final transition from life to death.",
+    "PrimaryDomain": "Mythic / Death",
+    "ToneOrPolarity": "Impartial / Transitional",
+    "SymbolicCore": "The necessary passage, the ferryman who asks no questions, only payment.",
+    "Correspondences": {
+      "Element": "Water",
+      "Planet": "Pluto",
+      "Chakra": "Root",
+      "Color": "Grey, Dark Brown",
+      "Animal": "Raven, Crow",
+      "Other": [
+        "Ferry Boat",
+        "Oar",
+        "River Styx",
+        "Coin (obol)"
+      ]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": [
+      "Psychopomp",
+      "Threshold Guardian",
+      "Ferryman",
+      "Gatekeeper"
+    ],
+    "ComplementaryArchetypes": [
+      "Hades ([GR] Underworld King)",
+      "Thanatos ([GR] Death)",
+      "Hermes ([GR] Guide of Souls)"
+    ],
+    "ShadowForms": [
+      "Denied Passage",
+      "Stuck Between Worlds",
+      "Extortionist Gatekeeper"
+    ],
+    "DevelopmentalArc": [],
+    "CyclePhase": "Transition / Passage"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": [
+      "Impartial",
+      "Ancient",
+      "Gruff",
+      "Necessary",
+      "Boundary-keeper",
+      "Uncompromising"
+    ],
+    "Typologies": {
+      "MBTI": "ISTJ",
+      "Enneagram": "6w5",
+      "Other": [
+        "Gatekeeper",
+        "Guardian",
+        "Guide"
+      ]
+    },
+    "SubVariants": [
+      "Soul Ferry",
+      "Impartial Guide",
+      "Threshold Guardian"
+    ],
+    "InternalFamily": "Transition Helper"
+  },
+  "CulturalContext": {
+    "Regions": [
+      "Greece"
+    ],
+    "MythicAppearances": [
+      "Virgil's Aeneid",
+      "Dante's Inferno",
+      "Aristophanes' Frogs"
+    ],
+    "ReligiousOrRitualUse": "Coins (obols) placed on eyes or in mouth of dead for passage; essential to funeral rites.",
+    "HistoricalEvolution": "Ancient psychopomp figure; remained consistent through classical period; influenced Christian and medieval underworld imagery.",
+    "SyncreticForms": [
+      "Dante's Charon",
+      "Grim Reaper (partial)",
+      "Various ferryman myths"
+    ]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "⛵",
+    "ImageryNotes": "Depicted as ancient, gruff boatman with pole or oars; ragged clothing; fierce expression; demanding payment.",
+    "ArtisticExamples": [
+      "Greek vase paintings",
+      "Gustave Doré's illustrations",
+      "Classical underworld paintings"
+    ],
+    "PoeticInvocation": "Old Charon, ferryman of the final river, who carries all souls for the price of a coin.",
+    "DreamForm": "A weathered boatman extending his hand for payment before you can cross dark waters"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": [
+      "Tarot.Death",
+      "HJ.Threshold_Guardian",
+      "JU.Psychopomp"
+    ],
+    "SemanticTags": [
+      "#ferryman",
+      "#transition",
+      "#death",
+      "#threshold",
+      "#underworld"
+    ],
+    "RitualFunction": "Invoked in funeral rites; symbolizes necessary transitions and the price of passage between realms.",
+    "AIPromptSeeds": [
+      "The ferryman who demands payment for passage, asking no questions about who you were.",
+      "The ancient boatman who has carried every soul across the final river."
+    ],
+    "NarrativeHooks": [
+      "Cannot pay the ferryman (unprepared for death)",
+      "The necessary transition that cannot be avoided",
+      "The guardian who must be satisfied"
+    ]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [
+      {
+        "to": "Tarot.Death",
+        "strength": "moderate"
+      },
+      {
+        "to": "HJ.Threshold_Guardian",
+        "strength": "strong"
+      }
+    ]
+  },
+  "FacetRegistry": [
+    {
+      "facet": "Soul Ferryman",
+      "weight": 0.7
+    },
+    {
+      "facet": "Threshold Guardian",
+      "weight": 0.2
+    },
+    {
+      "facet": "Impartial Psychopomp",
+      "weight": 0.1
+    }
+  ]
+}

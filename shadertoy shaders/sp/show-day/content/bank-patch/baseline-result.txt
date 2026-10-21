@@ -1,0 +1,32 @@
+Unpatched workspace fails new Heart-bank identity test (expected).
+node:assert:150
+  throw new AssertionError(obj);
+  ^
+
+AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
++ actual - expected
+
++ []
+- [
+-   'Heart Klein Bottle'
+- ]
+
+    at /Users/donovan/work/0000000/shadertoy shaders/sp/show-day/content/bank-patch/test-baseline.cjs:144:146
+    at test (/Users/donovan/work/0000000/shadertoy shaders/sp/show-day/content/bank-patch/test-baseline.cjs:33:36)
+    at Object.<anonymous> (/Users/donovan/work/0000000/shadertoy shaders/sp/show-day/content/bank-patch/test-baseline.cjs:144:1)
+    at Module._compile (node:internal/modules/cjs/loader:1781:14)
+    at Object..js (node:internal/modules/cjs/loader:1913:10)
+    at Module.load (node:internal/modules/cjs/loader:1505:32)
+    at Function._load (node:internal/modules/cjs/loader:1309:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: [],
+  expected: [ 'Heart Klein Bottle' ],
+  operator: 'deepStrictEqual',
+  diff: 'simple'
+}
+
+Node.js v22.23.2

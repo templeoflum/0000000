@@ -1,0 +1,116 @@
+{
+  "updated": "2026-09-11T22:42:31.132792-05:00",
+  "focus": "Composition-wide Goo with all controls exposed; Stage-only Goo disabled. All rack sections open by default. Melt hit removed from buttons and loop choices. Invert A remains visible and verified.",
+  "tasks": [
+    {
+      "title": "Composition Goo and complete rack access",
+      "status": "Verified",
+      "detail": "Native composition Goo at position10 before the final Mask. Alpha, Blend, Resolution, Speed, X/Y/Z and Black Background exposed. Native slider/switch/menu changes passed and restored. Melt hit removed."
+    },
+    {
+      "title": "Tonight\u2019s Stage controls",
+      "status": "Verified",
+      "detail": "Stage tab opens group effects; Goo/Distort alpha and shaping controls are visible. Stage/Field/Content Twitch strengthened, Figure parked for tomorrow."
+    },
+    {
+      "title": "Feedback Invert A",
+      "status": "Verified",
+      "detail": "Invert A reached native values 0 and 1; restored the performer\u2019s current value 1. Independent from effect mix opacity."
+    },
+    {
+      "title": "Fresh audit of the current rig",
+      "status": "Verified",
+      "detail": "Inspected the live layers, effect bindings, authored clips and 69 saved compositions; 68 archives parsed."
+    },
+    {
+      "title": "Output performance",
+      "status": "Deferred",
+      "detail": "Stopped at your direction with less than an hour to showtime. Recorded: 60 FPS baseline, 30.2 FPS combined sample. No further performance changes."
+    },
+    {
+      "title": "Crossfader and opacity orientation",
+      "status": "Verified",
+      "detail": "Layer/effect scroll verified against native values; crossfader hover/scroll installed and focused UI check passed."
+    },
+    {
+      "title": "Navigation and compact layout",
+      "status": "Verified",
+      "detail": "Source / Perform is live; Drives and rack share one panel. Content excluded from Drives. Two-column effects and scroll ownership pass compact/wide checks."
+    },
+    {
+      "title": "Expanded rack controls and stacks",
+      "status": "Verified",
+      "detail": "All three rows passed native Factor/RGB takeover, Twitch/stack hits and restoration. Existing LUT and Melt controls retained."
+    },
+    {
+      "title": "Feedback sculpting rack",
+      "status": "Verified",
+      "detail": "All seven native switches, individual alpha, five shaping controls and alternating kick/snare passed; original settings restored."
+    },
+    {
+      "title": "Kick / Snare trigger loops",
+      "status": "Verified",
+      "detail": "Both patterns passed on every native rack row; beat indicators advanced and Stop restored the preceding effect state."
+    },
+    {
+      "title": "Starting motion for our shaders",
+      "status": "Awaiting input",
+      "detail": "Stronger Ground/Room/Void profiles installed and bounded checks pass; awaiting your rendered-motion confirmation. No native clips deleted or browser-only hiding applied."
+    },
+    {
+      "title": "Base / Safe returns",
+      "status": "Verified",
+      "detail": "Native color animation restored; edited clip motion survived a clip-change return. Test captures cleared; your deliberate show looks are still to set."
+    },
+    {
+      "title": "Install and full playing phrase",
+      "status": "Verified",
+      "detail": "Four native rack sections and both rhythms passed; Base/Safe recovered native clocks and edited clip motion. Current controls restored; full Field visual acceptance listed separately."
+    },
+    {
+      "title": "Final handoff and your choices",
+      "status": "Verified",
+      "detail": "Current handoff and full checklist updated. Remaining input: Field motion, actual Base/Safe looks, and 1d starting visibility."
+    }
+  ],
+  "history": [
+    "Agreed the complete session scope: missing performance controls first, then motion, output performance and polish.",
+    "Audited 26 live layers and 208 Figure/Field slots, grouped into 169 shader families.",
+    "Confirmed native MIDI mixing, masks, geometry and clip transitions remain outside these edits.",
+    "Corrected the performance baseline after your AC-power note: the earlier 20 FPS reading is not treated as the powered benchmark.",
+    "Your new interaction direction: scroll directly over layer/effect buttons; fill means opacity, outline means selection.",
+    "Measured actual published output on AC: stable 60 FPS for 20 seconds, no frame intervals over 25 ms.",
+    "First isolated compact/wide interface checks passed. Expanded-rack and scroll-opacity checks are now running.",
+    "Expanded interface checks passed: scroll-to-opacity, click-to-edit, A/B comparison, crossfader and loop Run/Stop.",
+    "Script shader candidate matched 324 paired renders exactly; standalone GPU timing improved from 9.72 ms to 0.67 ms at output dimensions. Installation and combined-output evidence still ahead.",
+    "All three rack hit sections fit the compact 639 \u00d7 734 panel. Color/loop settings expand in place; Run/Stop stays visible.",
+    "Installed the exact tested Script shader and its generator with backups. Native source reload and combined-load measurement remain to verify.",
+    "125 backend tests and the existing broad interface regressions passed. Fixed delayed-catalog startup and Compare A/B learning access.",
+    "Installed Heart and restored 75 saved parameter settings including all 10 running layer drives; clip choices unchanged at handoff.",
+    "Live verification caught two issues early: an overly broad verification readback, and native RGB timelines overriding manual color values. Scoped cleanup restored the test values.",
+    "Final native-color takeover, native animation recovery and scoped readback refinements passed 140 backend tests.",
+    "Installed the final refinement and restored 180 captured parameter settings, all 14 drives and motion Hold; native tempo remains 70 BPM.",
+    "All nine authored core clips passed native starting-motion checks; previous clips and continuing layer drives restored.",
+    "All three final installed interface suites passed, with no browser errors.",
+    "Combined output measured 30.2 FPS, with one 28 FPS second; this does not meet the requested 30 FPS floor.",
+    "You reprioritized for showtime: output performance is least urgent. Investigation stopped; immediate playing controls take priority.",
+    "All three native rack rows, both rhythms, crossfader and Base/Safe passed; temporary recovery points cleared.",
+    "Standalone opacity scrolling reached native layers/effects; clicking an effect opened controls without toggling it.",
+    "You reported Field still static and requested crossfader scrolling. Found closed ranges on the playing Heart Concentrip source; immediate correction underway.",
+    "You added a Feedback performance rack and removed Content from Drives. Perform is confirmed live in standalone Heart.",
+    "You requested the two-column effects browser and scroll gestures that do not pan the layer/effect containers; these corrections are included with Feedback.",
+    "Installed Feedback, two-column effects and wheel ownership fixes; all native Feedback switches, alpha, sculpting and rhythm checks passed.",
+    "You narrowed tonight to Stage, Field + Content and Feedback. Stage group access and stronger distortion now take priority.",
+    "Installed the three-section rack, direct Stage browser and Goo/Distort. Strengthened Twitch movement and fixed full-alpha hits. Added requested Invert A.",
+    "Final native Invert A check passed and restored the current value; all three rack sections are ready. Heart armed, Hold off, captured drive state restored.",
+    "You corrected Goo to composition scope and requested all rack controls open by default; Melt hit removed at your request.",
+    "Final composition Goo control checks passed, preceding settings restored, Stage-only Goo disabled. Current output verified."
+  ],
+  "next": [
+    "Continue playing; controls are ready.",
+    "Capture deliberate Base / Safe looks when ready."
+  ],
+  "choices": [
+    "Capture your deliberate Base and Safe looks when ready."
+  ]
+}

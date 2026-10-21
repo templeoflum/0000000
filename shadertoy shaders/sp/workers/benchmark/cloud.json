@@ -1,0 +1,214 @@
+[
+  {
+    "label": "copilot",
+    "model": "gpt-4o-mini-2024-07-18",
+    "local": false,
+    "status": "complete",
+    "checks": {
+      "inputs": true,
+      "TIME": true,
+      "scale_type": true,
+      "continuous": true,
+      "travel": true,
+      "scale_expression": true,
+      "performance": true
+    },
+    "score": 7,
+    "max_score": 7,
+    "tool_pass": true,
+    "answer": {
+      "brightness_less_instructions": false,
+      "inputs": [
+        {
+          "name": "scale",
+          "type": "float"
+        },
+        {
+          "name": "speed",
+          "type": "float"
+        },
+        {
+          "name": "mode",
+          "type": "long"
+        },
+        {
+          "name": "brightness",
+          "type": "float"
+        }
+      ],
+      "phase_expression": "TIME * speed",
+      "radius_expression": "0.1 + scale * 0.4",
+      "scale_continuous": true,
+      "scale_type": "float",
+      "uses_TIME": true
+    },
+    "seconds": 2.0,
+    "tool_calls": [
+      "read_shader",
+      "submit_audit"
+    ],
+    "output_tokens": 104
+  },
+  {
+    "label": "kimik3",
+    "model": "moonshotai/kimi-k3",
+    "local": false,
+    "status": "complete",
+    "checks": {
+      "inputs": true,
+      "TIME": true,
+      "scale_type": true,
+      "continuous": true,
+      "travel": true,
+      "scale_expression": true,
+      "performance": true
+    },
+    "score": 7,
+    "max_score": 7,
+    "tool_pass": true,
+    "answer": {
+      "inputs": [
+        {
+          "name": "scale",
+          "type": "float"
+        },
+        {
+          "name": "speed",
+          "type": "float"
+        },
+        {
+          "name": "mode",
+          "type": "long"
+        },
+        {
+          "name": "brightness",
+          "type": "float"
+        }
+      ],
+      "uses_TIME": true,
+      "scale_type": "float",
+      "scale_continuous": true,
+      "phase_expression": "TIME * speed",
+      "radius_expression": "0.1 + scale * 0.4",
+      "brightness_less_instructions": false
+    },
+    "seconds": 4.19,
+    "tool_calls": [
+      "read_shader",
+      "submit_audit"
+    ],
+    "output_tokens": 346
+  },
+  {
+    "label": "gflash",
+    "model": "gemini-flash-latest",
+    "local": false,
+    "status": "HTTP error",
+    "http": 503,
+    "seconds": 7.67,
+    "tool_calls": [
+      "read_shader"
+    ],
+    "output_tokens": 10
+  },
+  {
+    "label": "bonsai",
+    "model": "prism-ml/Ternary-Bonsai-27B-gguf",
+    "local": false,
+    "status": "complete",
+    "checks": {
+      "inputs": true,
+      "TIME": true,
+      "scale_type": true,
+      "continuous": true,
+      "travel": true,
+      "scale_expression": true,
+      "performance": true
+    },
+    "score": 7,
+    "max_score": 7,
+    "tool_pass": true,
+    "answer": {
+      "brightness_less_instructions": false,
+      "inputs": [
+        {
+          "name": "scale",
+          "type": "float"
+        },
+        {
+          "name": "speed",
+          "type": "float"
+        },
+        {
+          "name": "mode",
+          "type": "long"
+        },
+        {
+          "name": "brightness",
+          "type": "float"
+        }
+      ],
+      "phase_expression": "TIME * speed",
+      "radius_expression": "0.1 + scale * 0.4",
+      "scale_continuous": true,
+      "scale_type": "float",
+      "uses_TIME": true
+    },
+    "seconds": 9.12,
+    "tool_calls": [
+      "read_shader",
+      "submit_audit"
+    ],
+    "output_tokens": 757
+  },
+  {
+    "label": "g35",
+    "model": "gemini-3.5-flash",
+    "local": false,
+    "status": "complete",
+    "checks": {
+      "inputs": true,
+      "TIME": true,
+      "scale_type": true,
+      "continuous": true,
+      "travel": true,
+      "scale_expression": true,
+      "performance": true
+    },
+    "score": 7,
+    "max_score": 7,
+    "tool_pass": true,
+    "answer": {
+      "uses_TIME": true,
+      "scale_type": "float",
+      "radius_expression": "0.1 + scale * 0.4",
+      "brightness_less_instructions": false,
+      "phase_expression": "TIME * speed",
+      "inputs": [
+        {
+          "type": "float",
+          "name": "scale"
+        },
+        {
+          "name": "speed",
+          "type": "float"
+        },
+        {
+          "type": "long",
+          "name": "mode"
+        },
+        {
+          "type": "float",
+          "name": "brightness"
+        }
+      ],
+      "scale_continuous": true
+    },
+    "seconds": 10.03,
+    "tool_calls": [
+      "read_shader",
+      "submit_audit"
+    ],
+    "output_tokens": 126
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "alias": "g35",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash",
+    "host": "generativelanguage.googleapis.com",
+    "api_mode": "chat_completions",
+    "http": 200,
+    "status": "PASS",
+    "reply_chars": 8,
+    "seconds": 1.23
+  },
+  {
+    "alias": "bonsai",
+    "provider": "huggingface",
+    "model": "prism-ml/Ternary-Bonsai-27B-gguf",
+    "host": "router.huggingface.co",
+    "api_mode": "chat_completions",
+    "http": 200,
+    "status": "PASS",
+    "reply_chars": 8,
+    "seconds": 6.07
+  }
+]

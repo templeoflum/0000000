@@ -1,0 +1,145 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>◐</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{height:100%;overflow:hidden;overscroll-behavior:none;background:#0e0d12}
+#app{height:100vh;height:100dvh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:26px}
+#scene{width:min(80vw,340px);aspect-ratio:1;background:#fff;border-radius:3px}
+#rail{width:min(86vw,420px);height:auto;touch-action:none;cursor:pointer}
+</style>
+</head>
+<body>
+<div id="app">
+  <canvas id="scene"></canvas>
+  <svg id="rail" viewBox="0 0 420 56" aria-label="the knob">
+    <line x1="30" y1="28" x2="390" y2="28" stroke="#26242f" stroke-width="2" stroke-linecap="round"/>
+    <circle id="knob" cx="30" cy="28" r="13" fill="#0e0d12" stroke="#93a4c2" stroke-width="2"/>
+    <circle id="knobcore" cx="30" cy="28" r="4" fill="#93a4c2"/>
+  </svg>
+</div>
+<script>
+/* ── M4 v5: the engraver's answer. same wind-in, same churning ground, same
+   anisotropic floor — but near the caps the flow FANS toward vertical instead
+   of dying: real engraving never runs a line fully horizontal at a form's top.
+   the ring completes; the floor is visible as bent flow rather than missing
+   quadrants. two honest expressions of one law: refusal (v4) vs compliance. ── */function hash2(ix,iy,seed){let h=(ix*374761393+iy*668265263+seed*1442695040)|0;h=(h^(h>>>13))|0;h=Math.imul(h,1274126177);h=(h^(h>>>16))>>>0;return h/4294967296;}
+const scene=document.getElementById("scene");
+const DPR=2;               /* fixed internal resolution — layout-independent */
+let S=680;
+scene.width=S;scene.height=S;
+const ctx=scene.getContext("2d");
+const STROKES=[];
+const R=S*0.36, CX=S*0.5, CY=S*0.47, LEN=8.5*DPR, WID=Math.max(1,1.3*DPR);
+(function(){
+  const step=8.5*DPR;
+  let n=0;
+  for(let y=step/2;y<S;y+=step)for(let x=step/2;x<S;x+=step){
+    const jx=(hash2(n,1,3)-0.5)*step*0.9, jy=(hash2(n,2,7)-0.5)*step*0.9;
+    const px=x+jx, py=y+jy;
+    const ra=hash2(n,3,13)*Math.PI;                       // frozen random direction
+    const dx=px-CX, dy=py-CY, rho=Math.sqrt(dx*dx+dy*dy);
+    let fa=ra;
+    if(rho<R) fa=Math.atan2(dy,dx)+Math.PI/2;             // hidden form: contour direction
+    const th=(Math.atan2(dy,dx)+Math.PI*2.5)%(Math.PI*2)/(Math.PI*2);  /* azimuth 0..1, clockwise from east */
+      const ch=(hash2(n,4,17)-0.5)*Math.PI*1.2;                         /* ground precession rate, ±108 deg */
+      STROKES.push({x:px,y:py,ra:ra,fa:fa,inside:rho<R,th:th,churn:ch});
+    n++;
+  }
+})();
+function mixAngle(a,b,t){
+  let d=b-a;
+  while(d>Math.PI/2)d-=Math.PI;
+  while(d<-Math.PI/2)d+=Math.PI;
+  return a+d*t;
+}
+let k=0;
+/* the sphere ROTATES IN: an angular wavefront sweeps around the centre and
+   combs each inside stroke as it passes (the circle winds together clockwise).
+   the ground is never frozen: outside strokes precess slowly, each at its own
+   rate, and the anisotropic floor eats whatever turns horizontal-leaning —
+   strokes wink out and back as they turn, survivors thicken to spend the ink. */
+function apply(){
+  ctx.fillStyle="#fff";ctx.fillRect(0,0,S,S);
+  ctx.strokeStyle="#000";ctx.lineCap="round";
+  let alive=0;
+  for(const s of STROKES){
+    let a;
+    if(s.inside){
+      const p=Math.min(1,Math.max(0,(k*1.35-s.th)/0.35));   /* wavefront window */
+      let target=s.fa;
+      /* the engraver's compliance: where the contour would turn horizontal-
+         leaning, the flow FANS toward the printable axis instead of dying.
+         the ring completes; the floor appears as distortion, not absence. */
+      const sn=Math.sin(target);
+      const bend=Math.max(0,(Math.SQRT1_2-Math.abs(sn)))/Math.SQRT1_2;
+      if(bend>0) target=mixAngle(target,(sn>=0?1:-1)*Math.PI/2,bend);
+      a=mixAngle(s.ra,target,p);
+    }else{
+      a=s.ra+s.churn*k;                                     /* ground precesses */
+    }
+    s.a=a;
+    s.ok=Math.abs(Math.sin(a))>=Math.SQRT1_2;
+    if(s.ok)alive++;
+  }
+  ctx.lineWidth=WID*Math.min(3,STROKES.length/Math.max(1,alive));   /* conservation */
+  ctx.beginPath();
+  for(const s of STROKES){
+    if(!s.ok)continue;
+    const c=Math.cos(s.a)*LEN/2, sn=Math.sin(s.a)*LEN/2;
+    ctx.moveTo(s.x-c,s.y-sn);ctx.lineTo(s.x+c,s.y+sn);
+  }
+  ctx.stroke();
+}
+apply();
+ 
+const rail=document.getElementById("rail");
+const knob=document.getElementById("knob");
+const knobcore=document.getElementById("knobcore");
+let dragging=false;
+function set(clientX){
+  const r=rail.getBoundingClientRect();
+  k=Math.min(1,Math.max(0,(clientX-r.left-r.width*30/420)/(r.width*360/420)));
+  apply();
+  const x=30+360*k;
+  knob.setAttribute("cx",x); knobcore.setAttribute("cx",x);
+}
+function start(e){dragging=true;move(e);}
+function move(e){
+  if(!dragging)return;
+  set(e.touches?e.touches[0].clientX:e.clientX);
+  if(e.cancelable)e.preventDefault();
+}
+rail.addEventListener("mousedown",start);
+rail.addEventListener("touchstart",start,{passive:false});
+window.addEventListener("mousemove",move);
+window.addEventListener("touchmove",move,{passive:false});
+window.addEventListener("mouseup",()=>dragging=false);
+window.addEventListener("touchend",()=>dragging=false);
+document.addEventListener("touchmove",e=>{if(dragging)e.preventDefault();},{passive:false});
+ 
+(function(){
+  const rail=document.getElementById("rail");
+  function n2c(t){const r=rail.getBoundingClientRect();return r.left+r.width*(30+360*Math.min(1,Math.max(0,t)))/420;}
+  window.atom={name:"M4",
+    set:function(t){set(n2c(t));},
+    get:function(){const x=parseFloat(document.getElementById("knob").getAttribute("cx"));return (x-30)/360;}};
+  const q=new URLSearchParams(location.search).get("k");
+  if(q!==null) setTimeout(function(){window.atom.set(parseFloat(q));},80);
+  window.addEventListener("message",function(e){if(e.data&&typeof e.data.atomSet==="number")window.atom.set(e.data.atomSet);});
+  let lx=null;
+  setInterval(function(){
+    const x=parseFloat(document.getElementById("knob").getAttribute("cx"));
+    if(x!==lx){lx=x;try{if(parent!==window)parent.postMessage({atomChange:{name:window.atom.name,k:(x-30)/360}},"*");}catch(err){}}
+  },150);
+})();
+</script>
+</body>
+</html>
+ 

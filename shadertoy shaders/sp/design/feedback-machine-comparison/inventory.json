@@ -1,0 +1,6194 @@
+{
+  "saved": [
+    {
+      "file": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "composition": [
+        {
+          "name": "MTK_STROKE_VOLT",
+          "params": {
+            "Bypassed": "1",
+            "Opacity": "0"
+          },
+          "animation_types": {}
+        },
+        {
+          "name": "MTK_PXLMELT",
+          "params": {
+            "Bypassed": "1",
+            "Opacity": "0"
+          },
+          "animation_types": {}
+        },
+        {
+          "name": "HueRotate",
+          "params": {
+            "Bypassed": "1"
+          },
+          "animation_types": {
+            "PhaseSourceTimeline": 1
+          }
+        },
+        {
+          "name": "mtk_lut_corrupt",
+          "params": {
+            "Bypassed": "1",
+            "Opacity": "0.13896649899484922464"
+          },
+          "animation_types": {
+            "PhaseSourceTimeline": 5
+          }
+        },
+        {
+          "name": "ColourLoop",
+          "params": {
+            "Bypassed": "1",
+            "Opacity": "0.63101908818085405972"
+          },
+          "animation_types": {
+            "PhaseSourceTimeline": 6
+          }
+        },
+        {
+          "name": "TwitchEffect",
+          "params": {
+            "Opacity": "0"
+          },
+          "animation_types": {
+            "PhaseSourceTimeline": 1
+          }
+        },
+        {
+          "name": "MTK_STROKEDIFFUSE",
+          "params": {
+            "Bypassed": "1"
+          },
+          "animation_types": {}
+        },
+        {
+          "name": "Strobe",
+          "params": {
+            "Bypassed": "1",
+            "Opacity": "0"
+          },
+          "animation_types": {}
+        }
+      ],
+      "groups": [
+        {
+          "name": "Feedback",
+          "effects": []
+        },
+        {
+          "name": null,
+          "effects": []
+        }
+      ],
+      "layers": [
+        {
+          "index": 1,
+          "name": "fill",
+          "group": "0",
+          "effects": [
+            {
+              "name": "InvertRGB",
+              "params": {
+                "Opacity": "0"
+              },
+              "animation_types": {
+                "PhaseSourceTimeline": 1
+              }
+            },
+            {
+              "name": "HueRotate",
+              "params": {
+                "Bypassed": "1",
+                "Opacity": "0"
+              },
+              "animation_types": {
+                "PhaseSourceTimeline": 1
+              }
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "name": "color",
+          "group": "0",
+          "effects": [
+            {
+              "name": "InvertRGB",
+              "params": {
+                "Bypassed": "1"
+              },
+              "animation_types": {}
+            },
+            {
+              "name": "DelayRGB",
+              "params": {
+                "Bypassed": "1"
+              },
+              "animation_types": {}
+            },
+            {
+              "name": "AutoMask",
+              "params": {
+                "Bypassed": "1",
+                "Opacity": "2.2457970771938559005e-05"
+              },
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "name": "motion",
+          "group": "0",
+          "effects": [
+            {
+              "name": "InvertRGB",
+              "params": {
+                "Opacity": "1"
+              },
+              "animation_types": {
+                "PhaseSourceTimeline": 1
+              }
+            },
+            {
+              "name": "AutoMask",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "name": "base",
+          "group": "0",
+          "effects": [
+            {
+              "name": "InvertRGB",
+              "params": {
+                "Bypassed": "1",
+                "Opacity": "1"
+              },
+              "animation_types": {
+                "PhaseSourceTimeline": 2
+              }
+            },
+            {
+              "name": "Blur",
+              "params": {
+                "Bypassed": "1"
+              },
+              "animation_types": {}
+            },
+            {
+              "name": "Sharpen",
+              "params": {
+                "Bypassed": "1"
+              },
+              "animation_types": {}
+            },
+            {
+              "name": "Kaleidoscope",
+              "params": {
+                "Bypassed": "1"
+              },
+              "animation_types": {
+                "PhaseSourceTimeline": 1
+              }
+            },
+            {
+              "name": "Mirror",
+              "params": {
+                "Bypassed": "1"
+              },
+              "animation_types": {}
+            },
+            {
+              "name": "Mirror",
+              "params": {
+                "Bypassed": "1"
+              },
+              "animation_types": {}
+            },
+            {
+              "name": "Mirror",
+              "params": {
+                "Bypassed": "1"
+              },
+              "animation_types": {
+                "PhaseSourceTimeline": 1
+              }
+            },
+            {
+              "name": "Mirror",
+              "params": {
+                "Bypassed": "1"
+              },
+              "animation_types": {
+                "PhaseSourceTimeline": 3
+              }
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "name": "bg",
+          "group": "1",
+          "effects": [
+            {
+              "name": "Twisted",
+              "params": {
+                "Bypassed": "1",
+                "Opacity": "1"
+              },
+              "animation_types": {
+                "PhaseSourceTimeline": 3
+              }
+            },
+            {
+              "name": "Twisted",
+              "params": {
+                "Bypassed": "1",
+                "Opacity": "1"
+              },
+              "animation_types": {
+                "PhaseSourceTimeline": 3
+              }
+            },
+            {
+              "name": "Suckr",
+              "params": {
+                "Bypassed": "1",
+                "Opacity": "0"
+              },
+              "animation_types": {
+                "PhaseSourceTimeline": 2
+              }
+            },
+            {
+              "name": "FishEye",
+              "params": {
+                "Bypassed": "1",
+                "Opacity": "0"
+              },
+              "animation_types": {
+                "PhaseSourceTimeline": 2
+              }
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "name": "object",
+          "group": "1",
+          "effects": [
+            {
+              "name": "TwitchEffect",
+              "params": {
+                "Bypassed": "1",
+                "Opacity": "0"
+              },
+              "animation_types": {}
+            },
+            {
+              "name": "mtk_lut_corrupt",
+              "params": {
+                "Bypassed": "1",
+                "Opacity": "0.086083742651608910479"
+              },
+              "animation_types": {
+                "PhaseSourceTimeline": 8
+              }
+            },
+            {
+              "name": "RadialCloner",
+              "params": {
+                "Bypassed": "1",
+                "Opacity": "0"
+              },
+              "animation_types": {
+                "PhaseSourceTimeline": 9
+              }
+            },
+            {
+              "name": "LinearCloner",
+              "params": {
+                "Bypassed": "1",
+                "Opacity": "1.5208031982183456421e-05"
+              },
+              "animation_types": {
+                "PhaseSourceTimeline": 9
+              }
+            },
+            {
+              "name": "Iterate",
+              "params": {
+                "Bypassed": "1"
+              },
+              "animation_types": {
+                "PhaseSourceTimeline": 18
+              }
+            },
+            {
+              "name": "Mirror",
+              "params": {},
+              "animation_types": {}
+            },
+            {
+              "name": "Mirror",
+              "params": {
+                "Bypassed": "1"
+              },
+              "animation_types": {}
+            },
+            {
+              "name": "Mirror",
+              "params": {
+                "Bypassed": "1"
+              },
+              "animation_types": {
+                "PhaseSourceTimeline": 1
+              }
+            },
+            {
+              "name": "MTK_Gradient_Shadow",
+              "params": {
+                "Bypassed": "1",
+                "Opacity": "0"
+              },
+              "animation_types": {
+                "PhaseSourceTimeline": 2
+              }
+            },
+            {
+              "name": "Displace",
+              "params": {
+                "Opacity": "0"
+              },
+              "animation_types": {
+                "PhaseSourceTimeline": 3
+              }
+            },
+            {
+              "name": "Distortion",
+              "params": {
+                "Bypassed": "1",
+                "Opacity": "0"
+              },
+              "animation_types": {
+                "PhaseSourceTimeline": 1
+              }
+            },
+            {
+              "name": "ASCII",
+              "params": {
+                "Bypassed": "1",
+                "Opacity": "0"
+              },
+              "animation_types": {
+                "PhaseSourceTimeline": 1
+              }
+            },
+            {
+              "name": "InfiniteZoom",
+              "params": {
+                "Bypassed": "1",
+                "Opacity": "0"
+              },
+              "animation_types": {
+                "PhaseSourceTimeline": 2
+              }
+            },
+            {
+              "name": "LoRezEffect",
+              "params": {
+                "Opacity": "0"
+              },
+              "animation_types": {
+                "PhaseSourceTimeline": 1
+              }
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "name": "text",
+          "group": "1",
+          "effects": [
+            {
+              "name": "MTK_Gradient_Shadow",
+              "params": {
+                "Bypassed": "1"
+              },
+              "animation_types": {
+                "PhaseSourceTimeline": 2
+              }
+            },
+            {
+              "name": "Goo",
+              "params": {
+                "Bypassed": "1",
+                "Opacity": "1"
+              },
+              "animation_types": {
+                "PhaseSourceTimeline": 1
+              }
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "name": "glitch",
+          "group": "1",
+          "effects": []
+        }
+      ],
+      "clips": [
+        {
+          "deck": 1,
+          "layer": 1,
+          "column": 1,
+          "name": "Feedback",
+          "sources": [
+            {
+              "type": "VideoSourceFeedback",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 2,
+          "column": 1,
+          "name": "Feedback",
+          "sources": [
+            {
+              "type": "VideoSourceFeedback",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "ShiftRGB",
+              "params": {},
+              "animation_types": {
+                "PhaseSourceTimeline": 1
+              }
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 3,
+          "column": 1,
+          "name": "XY 1",
+          "sources": [
+            {
+              "type": "VideoSourceFeedback",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 4,
+          "column": 1,
+          "name": "Static Rotate Left Z",
+          "sources": [
+            {
+              "type": "VideoSourceFeedback",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 8,
+          "column": 1,
+          "name": "MTK_Retrovision",
+          "sources": [
+            {
+              "type": "CompositionRouterVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "MTK_Retrovision",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 1,
+          "column": 2,
+          "name": "Feedback",
+          "sources": [
+            {
+              "type": "VideoSourceFeedback",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 2,
+          "column": 2,
+          "name": "Feedback",
+          "sources": [
+            {
+              "type": "VideoSourceFeedback",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "DelayRGB",
+              "params": {},
+              "animation_types": {
+                "PhaseSourceTimeline": 3
+              }
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 3,
+          "column": 2,
+          "name": "XY 2",
+          "sources": [
+            {
+              "type": "VideoSourceFeedback",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 4,
+          "column": 2,
+          "name": "Static Rotate Left Z",
+          "sources": [
+            {
+              "type": "VideoSourceFeedback",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 2,
+          "name": "MTK_Worleyz",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "AutoMask",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 8,
+          "column": 2,
+          "name": "MTK_Filmschool_1.2",
+          "sources": [
+            {
+              "type": "CompositionRouterVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "MTK_Filmschool_1.2",
+              "params": {},
+              "animation_types": {}
+            },
+            {
+              "name": "MTK_Filmschool_1.2",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 1,
+          "column": 3,
+          "name": "Feedback",
+          "sources": [
+            {
+              "type": "VideoSourceFeedback",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 3,
+          "column": 3,
+          "name": "up/down",
+          "sources": [
+            {
+              "type": "VideoSourceFeedback",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 4,
+          "column": 3,
+          "name": "Anim Rotate Left Z",
+          "sources": [
+            {
+              "type": "VideoSourceFeedback",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 3,
+          "name": "ButterflyEffect",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 3,
+          "name": "Metaballs",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 8,
+          "column": 3,
+          "name": "MTK_ASCII_Playground",
+          "sources": [
+            {
+              "type": "CompositionRouterVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "MTK_ASCII_Playground",
+              "params": {},
+              "animation_types": {}
+            },
+            {
+              "name": "AutoMask",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 1,
+          "column": 4,
+          "name": "Feedback",
+          "sources": [
+            {
+              "type": "VideoSourceFeedback",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 3,
+          "column": 4,
+          "name": "up",
+          "sources": [
+            {
+              "type": "VideoSourceFeedback",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 4,
+          "column": 4,
+          "name": "Rotate Right Z",
+          "sources": [
+            {
+              "type": "VideoSourceFeedback",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 4,
+          "name": "Cuadricula rect",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "AutoMask",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 4,
+          "name": "z33d+",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "AutoMask",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 8,
+          "column": 4,
+          "name": "MTK_Ditherx",
+          "sources": [
+            {
+              "type": "CompositionRouterVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "MTK_Ditherx",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 3,
+          "column": 5,
+          "name": "down",
+          "sources": [
+            {
+              "type": "VideoSourceFeedback",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 4,
+          "column": 5,
+          "name": "Rotate Up X",
+          "sources": [
+            {
+              "type": "VideoSourceFeedback",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 5,
+          "name": "data blocks",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "AutoMask",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 5,
+          "name": "DimensionMorphingTopography",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "AutoMask",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 8,
+          "column": 5,
+          "name": "CRT",
+          "sources": [
+            {
+              "type": "CompositionRouterVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "CRT",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 3,
+          "column": 6,
+          "name": "left/right",
+          "sources": [
+            {
+              "type": "VideoSourceFeedback",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 4,
+          "column": 6,
+          "name": "Rotate Down X",
+          "sources": [
+            {
+              "type": "VideoSourceFeedback",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 6,
+          "name": "fractal alien text",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "AutoMask",
+              "params": {},
+              "animation_types": {}
+            },
+            {
+              "name": "Goo",
+              "params": {
+                "Opacity": "0"
+              },
+              "animation_types": {
+                "PhaseSourceTimeline": 1
+              }
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 6,
+          "name": "MagicLougie",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 8,
+          "column": 6,
+          "name": "Delay RGB",
+          "sources": [
+            {
+              "type": "CompositionRouterVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "DelayRGB",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 3,
+          "column": 7,
+          "name": "right",
+          "sources": [
+            {
+              "type": "VideoSourceFeedback",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 4,
+          "column": 7,
+          "name": "Rotate Right Y",
+          "sources": [
+            {
+              "type": "VideoSourceFeedback",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 7,
+          "name": "Gradient Bars",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 7,
+          "name": "GeodesicTiling",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 8,
+          "column": 7,
+          "name": "MTK_Kaleidolax",
+          "sources": [
+            {
+              "type": "CompositionRouterVideoSource",
+              "settings": {
+                "Input": "3:7"
+              },
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "MTK_Kaleidolax",
+              "params": {},
+              "animation_types": {
+                "PhaseSourceTimeline": 6
+              }
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 3,
+          "column": 8,
+          "name": "left",
+          "sources": [
+            {
+              "type": "VideoSourceFeedback",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 4,
+          "column": 8,
+          "name": "Rotate Left Y",
+          "sources": [
+            {
+              "type": "VideoSourceFeedback",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 8,
+          "name": "TileIllusion",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 8,
+          "name": "RainbowRingCubicTwist",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 8,
+          "column": 8,
+          "name": "Edge Detection",
+          "sources": [
+            {
+              "type": "CompositionRouterVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "EdgeDetection",
+              "params": {
+                "Opacity": "0"
+              },
+              "animation_types": {
+                "PhaseSourceTimeline": 2
+              }
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 4,
+          "column": 9,
+          "name": "Scale W",
+          "sources": [
+            {
+              "type": "VideoSourceFeedback",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 9,
+          "name": "Melty Boi",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 9,
+          "name": "SpaceSpore",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 8,
+          "column": 9,
+          "name": "MTK_TripleRipple",
+          "sources": [
+            {
+              "type": "CompositionRouterVideoSource",
+              "settings": {
+                "Input": "3:7"
+              },
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "MTK_TripleRipple",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 4,
+          "column": 10,
+          "name": "Scale H",
+          "sources": [
+            {
+              "type": "VideoSourceFeedback",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 10,
+          "name": "Screen Weaver",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "AutoMask",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 10,
+          "name": "4D Voronoi + Hopf Fibration",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 8,
+          "column": 10,
+          "name": "Edge Detection",
+          "sources": [
+            {
+              "type": "CompositionRouterVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 4,
+          "column": 11,
+          "name": "Scale In",
+          "sources": [
+            {
+              "type": "VideoSourceFeedback",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 11,
+          "name": "sin_wave",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "AutoMask",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 11,
+          "name": "16 Dimensional Julia (Sedenion)",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 8,
+          "column": 11,
+          "name": "Polkadot",
+          "sources": [
+            {
+              "type": "CompositionRouterVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "Polkadot",
+              "params": {
+                "Opacity": "0"
+              },
+              "animation_types": {
+                "PhaseSourceTimeline": 2
+              }
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 4,
+          "column": 12,
+          "name": "Scale Out",
+          "sources": [
+            {
+              "type": "VideoSourceFeedback",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 12,
+          "name": "SpiralSurface",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 12,
+          "name": "Barth Sextic Surfaces",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 4,
+          "column": 13,
+          "name": "Move Right",
+          "sources": [
+            {
+              "type": "VideoSourceFeedback",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 13,
+          "name": "Dark Tomb",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "AutoMask",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 13,
+          "name": "Crystal Drops",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 4,
+          "column": 14,
+          "name": "Move Left",
+          "sources": [
+            {
+              "type": "VideoSourceFeedback",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 14,
+          "name": "cubes + spheres",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "AutoMask",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 14,
+          "name": "curved surface",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 4,
+          "column": 15,
+          "name": "move down",
+          "sources": [
+            {
+              "type": "VideoSourceFeedback",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 15,
+          "name": "RailroadTracks",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "AutoMask",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 15,
+          "name": "Hopf + Poincare",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 4,
+          "column": 16,
+          "name": "move up",
+          "sources": [
+            {
+              "type": "VideoSourceFeedback",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 16,
+          "name": "quantum chaos",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 16,
+          "name": "HypnoWorm",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 17,
+          "name": "Melty Boi",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "AutoMask",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 18,
+          "name": "Quaternion RGB vector rotation",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 18,
+          "name": "QUANTUM WAVE INTERFERENCE",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "AutoMask",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 19,
+          "name": "RetroTechnicolorComputer",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 19,
+          "name": "Quantum Zappy Sphere",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 20,
+          "name": "SmoothXORi",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 20,
+          "name": "Quaternion Averaging",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 21,
+          "name": "TruchetDualLevelSpin",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 21,
+          "name": "Quaternion Conjugation 2",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 22,
+          "name": "TwinRays",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "AutoMask",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 22,
+          "name": "quantum droplet",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 23,
+          "name": "VoroniCubes",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 23,
+          "name": "On their way to Sirius",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "AutoMask",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 24,
+          "name": "Concentrip",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 24,
+          "name": "Ray Marching Experiment n35",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 25,
+          "name": "Higgs Mechanism",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 25,
+          "name": "Shaderdough",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 26,
+          "name": "Klein bottle figure 8 immersion",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 26,
+          "name": "Spikeball_v2",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 27,
+          "name": "PsychedeliaGenerica",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 27,
+          "name": "Quantum Carpets",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "AutoMask",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 28,
+          "name": "Potential Energy",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 28,
+          "name": "Torus thingy",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 29,
+          "name": "Magnetic Anomaly",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 29,
+          "name": "Raymarched Hopf Fibers",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 30,
+          "name": "Quantum Field Theory",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "AutoMask",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 30,
+          "name": "Dodecahedron",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 31,
+          "name": "QuarternionSwell",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 31,
+          "name": "Wireframe stellated dodecahedron",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "AutoMask",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 32,
+          "name": "QField2",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 32,
+          "name": "Kali liberation of the true self",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 33,
+          "name": "QuarternionFieldDistortion",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 33,
+          "name": "CubeCluster",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 34,
+          "name": "example using quaternions",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 35,
+          "name": "Cos Orbit",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 35,
+          "name": "Multi Cube",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 36,
+          "name": "Flower2",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 36,
+          "name": "Multi Cube",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 37,
+          "name": "Creation",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "AutoMask",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 37,
+          "name": "quantum computer",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 38,
+          "name": "Gentle Rings",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 38,
+          "name": "Melting Fractal",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 39,
+          "name": "Quantum Fractal",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "AutoMask",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 39,
+          "name": "quadratic bezier triangle 2 AABV",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 40,
+          "name": "spiral intersect",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 40,
+          "name": "Klein Bottle (3D)",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 41,
+          "name": "Quasi-Kleinian Ring of Circles",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 41,
+          "name": "4D Rounded box (Bluey)",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 42,
+          "name": "Poincare Disk",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 42,
+          "name": "4-space rotations",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 43,
+          "name": "FractalCartoon",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 43,
+          "name": "HEPTANION transformation",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 44,
+          "name": "MergerTunnel",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 44,
+          "name": "quaternion slerp",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 45,
+          "name": "Sands",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "AutoMask",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 45,
+          "name": "quaternion slerp",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 46,
+          "name": "Paper Fractal",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 46,
+          "name": "Quaternion Twister",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 47,
+          "name": "ShaderLamb",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 47,
+          "name": "Spinor Belt Trick",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 48,
+          "name": "Cumulus",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 48,
+          "name": "Superfluid helium",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 49,
+          "name": "MetaSevenVortex",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 50,
+          "name": "Wild Style",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 51,
+          "name": "VectorFromHell",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 52,
+          "name": "AI Escape valve",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 53,
+          "name": "Apollonian",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 53,
+          "name": "MTK_Tentaclone_1.1",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 54,
+          "name": "Equirectangular Apollonian",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 54,
+          "name": "MTK_Worm Fresnel",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 55,
+          "name": "Kali - ancient temple",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 55,
+          "name": "MTK_Worm Walker",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 56,
+          "name": "Kissing Donuts",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 56,
+          "name": "MTK_Worm_Banded",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 57,
+          "name": "Kleinian limit set",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 57,
+          "name": "Tunnelines",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "EdgeDetection",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 58,
+          "name": "Kleinian limit set-Maskit slice",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 58,
+          "name": "Shaper",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 59,
+          "name": "TwoFiftySixBiatch",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 59,
+          "name": "Shaper",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 60,
+          "name": "MegaWave 2",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 60,
+          "name": "Rings",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 61,
+          "name": "[phreax] quantum field",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "AutoMask",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 61,
+          "name": "fractal sponge",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 62,
+          "name": "Oldschool Tube",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 62,
+          "name": "Hologram Boxes",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 63,
+          "name": "Full Spectrum Cyber",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "548"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 63,
+          "name": "spiragraph",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "AutoMask",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 64,
+          "name": "Test Card",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 65,
+          "name": "ocean waves",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 65,
+          "name": "Gradient",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 66,
+          "name": "ocean waves",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 66,
+          "name": "Gradient",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 67,
+          "name": "Gradient",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 68,
+          "name": "Dodecahedral Permutations",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "548"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 68,
+          "name": "Gradient",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 69,
+          "name": "Deep Quantum Time State",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 69,
+          "name": "Gradient",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 70,
+          "name": "q_interference23",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "ChromaKey",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 70,
+          "name": "Gradient",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 71,
+          "name": "flex links - v2",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "548"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 71,
+          "name": "Gradient",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 72,
+          "name": "flex links - v3",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "548"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 72,
+          "name": "Gradient",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 73,
+          "name": "flex links radial - slice",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 73,
+          "name": "Gradient",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 74,
+          "name": "flex links radial - slice2",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 74,
+          "name": "Gradient",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 75,
+          "name": "flex links radial - v4",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 75,
+          "name": "plasma sparkle",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "AutoMask",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 76,
+          "name": "Quaternion controls",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 76,
+          "name": "00000",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 77,
+          "name": "Space Warping Portals",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 77,
+          "name": "BlackCherryCosmos",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "AutoMask",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 78,
+          "name": "Steiner Surfaces",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "548"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 78,
+          "name": "CloudVortex",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 79,
+          "name": "Quantum Socket",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "548"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 79,
+          "name": "CollapsingArchi",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 80,
+          "name": "Quaternion Kinematics",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "AutoMask",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 80,
+          "name": "CosmicJourney",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 81,
+          "name": "HopfFibration",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 81,
+          "name": "Color Wheel",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 82,
+          "name": "DoubleGalaxy",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "AutoMask",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 83,
+          "name": "[2TC 15] old skool 3d driving",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 83,
+          "name": "KaliCiruitsExplorer",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 84,
+          "name": "MetablobStarz",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "AutoMask",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 85,
+          "name": "Gentle Rings SP",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 85,
+          "name": "Hopf fibers SP",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 85,
+          "name": "UltimateKaliCircuits",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 86,
+          "name": "SP State Test",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 86,
+          "name": "Abstract Field",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "AutoMask",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 87,
+          "name": "Checkered",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "Goo",
+              "params": {
+                "Opacity": "0"
+              },
+              "animation_types": {
+                "PhaseSourceTimeline": 1
+              }
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 88,
+          "name": "Spiral",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "Goo",
+              "params": {
+                "Opacity": "0"
+              },
+              "animation_types": {
+                "PhaseSourceTimeline": 1
+              }
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 89,
+          "name": "Lines",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 90,
+          "name": "Sine Wave",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 91,
+          "name": "Sine Wave",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 92,
+          "name": "Sine Wave",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 93,
+          "name": "Sine Wave",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "2352",
+                "672"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 94,
+          "name": "Line Scape",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "548"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 95,
+          "name": "Free-particle propagator",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "548"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 96,
+          "name": "Spinor = Quaternion",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "548"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 97,
+          "name": "SquareCellStructureScan",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 98,
+          "name": "Balls and Springs",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "AutoMask",
+              "params": {
+                "Bypassed": "1"
+              },
+              "animation_types": {}
+            },
+            {
+              "name": "Crop",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 2,
+          "layer": 1,
+          "column": 1,
+          "name": "Gradient",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 2,
+          "layer": 2,
+          "column": 1,
+          "name": "Color Wheel",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 2,
+          "layer": 3,
+          "column": 1,
+          "name": "Sine Wave",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 2,
+          "layer": 4,
+          "column": 1,
+          "name": "Metaballs",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 2,
+          "layer": 5,
+          "column": 1,
+          "name": "Gentle Rings SP",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 2,
+          "layer": 6,
+          "column": 1,
+          "name": "Hopf fibers SP",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 2,
+          "layer": 7,
+          "column": 1,
+          "name": "Test Card",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 2,
+          "layer": 8,
+          "column": 1,
+          "name": "Static",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 2,
+          "layer": 1,
+          "column": 2,
+          "name": "Checkered",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 2,
+          "layer": 2,
+          "column": 2,
+          "name": "Spiral",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 2,
+          "layer": 3,
+          "column": 2,
+          "name": "Lines",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 2,
+          "layer": 4,
+          "column": 2,
+          "name": "Gradient Bars",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 2,
+          "layer": 5,
+          "column": 2,
+          "name": "Gradient",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 2,
+          "layer": 6,
+          "column": 2,
+          "name": "SP State Test",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 2,
+          "layer": 7,
+          "column": 2,
+          "name": "Lines",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 2,
+          "layer": 8,
+          "column": 2,
+          "name": "Lines",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 2,
+          "layer": 1,
+          "column": 3,
+          "name": "Lines",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 2,
+          "layer": 2,
+          "column": 3,
+          "name": "Rings",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 2,
+          "layer": 3,
+          "column": 3,
+          "name": "Spiral",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 2,
+          "layer": 4,
+          "column": 3,
+          "name": "Shaper",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 2,
+          "layer": 5,
+          "column": 3,
+          "name": "Checkered",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 2,
+          "layer": 6,
+          "column": 3,
+          "name": "Rings",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 2,
+          "layer": 7,
+          "column": 3,
+          "name": "Sine Wave",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 2,
+          "layer": 8,
+          "column": 3,
+          "name": "Checkered",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 2,
+          "layer": 1,
+          "column": 4,
+          "name": "Sine Wave",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 2,
+          "layer": 2,
+          "column": 4,
+          "name": "Static",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 2,
+          "layer": 3,
+          "column": 4,
+          "name": "Checkered",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 2,
+          "layer": 4,
+          "column": 4,
+          "name": "Tunnelines",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 2,
+          "layer": 5,
+          "column": 4,
+          "name": "Spiral",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 2,
+          "layer": 6,
+          "column": 4,
+          "name": "Metaballs",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 2,
+          "layer": 7,
+          "column": 4,
+          "name": "Gradient Bars",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 2,
+          "layer": 8,
+          "column": 4,
+          "name": "Spiral",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        }
+      ]
+    },
+    {
+      "file": "/Users/donovan/Documents/Resolume Arena/Compositions/generative soup_16x9_1920x1080_60fps.avc",
+      "composition": [],
+      "groups": [
+        {
+          "name": null,
+          "effects": []
+        }
+      ],
+      "layers": [
+        {
+          "index": 1,
+          "name": "feedback",
+          "group": null,
+          "effects": []
+        },
+        {
+          "index": 2,
+          "name": "sculpt",
+          "group": null,
+          "effects": []
+        },
+        {
+          "index": 3,
+          "name": "field",
+          "group": "0",
+          "effects": []
+        },
+        {
+          "index": 4,
+          "name": "delay",
+          "group": "0",
+          "effects": []
+        },
+        {
+          "index": 5,
+          "name": "figure",
+          "group": "0",
+          "effects": [
+            {
+              "name": "LinearCloner",
+              "params": {
+                "Bypassed": "1",
+                "Opacity": "0"
+              },
+              "animation_types": {
+                "PhaseSourceTransportTimeline": 1,
+                "PhaseSourceTimeline": 2
+              }
+            },
+            {
+              "name": "Mirror",
+              "params": {
+                "Bypassed": "1",
+                "Opacity": "0"
+              },
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "name": "glyph",
+          "group": "0",
+          "effects": []
+        },
+        {
+          "index": 7,
+          "name": "texture",
+          "group": null,
+          "effects": []
+        },
+        {
+          "index": 8,
+          "name": "grain",
+          "group": null,
+          "effects": []
+        }
+      ],
+      "clips": [
+        {
+          "deck": 1,
+          "layer": 1,
+          "column": 1,
+          "name": "map",
+          "sources": [
+            {
+              "type": "CompositionRouterVideoSource",
+              "settings": {
+                "Input": "3:2"
+              },
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "SPChainMap",
+              "params": {},
+              "animation_types": {}
+            },
+            {
+              "name": "InvertRGB",
+              "params": {
+                "Opacity": "1"
+              },
+              "animation_types": {
+                "PhaseSourceTimeline": 1
+              }
+            },
+            {
+              "name": "Blur",
+              "params": {},
+              "animation_types": {}
+            },
+            {
+              "name": "Sharpen",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 2,
+          "column": 1,
+          "name": "level",
+          "sources": [
+            {
+              "type": "CompositionRouterVideoSource",
+              "settings": {
+                "Input": "1:1",
+                "Input Opacity": "1"
+              },
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "SPStudyLevel",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 3,
+          "column": 1,
+          "name": "ground",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 4,
+          "column": 1,
+          "name": "figure",
+          "sources": [
+            {
+              "type": "CompositionRouterVideoSource",
+              "settings": {
+                "Input": "3:5",
+                "Input Opacity": "1",
+                "Input Bypass/Solo": "0"
+              },
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "SPDelayChain",
+              "params": {
+                "Opacity": "0.55889999999999995239"
+              },
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 1,
+          "name": "1d",
+          "sources": [
+            {
+              "type": "CompositionRouterVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "SPAtomLine",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 1,
+          "name": "glyph",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 1,
+          "name": "dither",
+          "sources": [
+            {
+              "type": "CompositionRouterVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "SPAtomDither",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 8,
+          "column": 1,
+          "name": "grain",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 1,
+          "column": 2,
+          "name": "texture",
+          "sources": [
+            {
+              "type": "CompositionRouterVideoSource",
+              "settings": {
+                "Input": "3:2"
+              },
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "SPStudyTexture",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 2,
+          "column": 2,
+          "name": "pass",
+          "sources": [
+            {
+              "type": "CompositionRouterVideoSource",
+              "settings": {
+                "Input": "3:3"
+              },
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 3,
+          "column": 2,
+          "name": "room",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 4,
+          "column": 2,
+          "name": "field",
+          "sources": [
+            {
+              "type": "CompositionRouterVideoSource",
+              "settings": {
+                "Input": "3:4",
+                "Input Opacity": "1",
+                "Input Bypass/Solo": "0"
+              },
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "SPDelayChain",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 2,
+          "name": "2d",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 2,
+          "name": "script",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 2,
+          "name": "texture",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 1,
+          "column": 3,
+          "name": "fold",
+          "sources": [
+            {
+              "type": "CompositionRouterVideoSource",
+              "settings": {
+                "Input": "3:2"
+              },
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "SPStudyFold",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 2,
+          "column": 3,
+          "name": "color",
+          "sources": [
+            {
+              "type": "CompositionRouterVideoSource",
+              "settings": {
+                "Input": "3:3"
+              },
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "SPStudyColor",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 3,
+          "column": 3,
+          "name": "void",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 3,
+          "name": "3d",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 1,
+          "column": 4,
+          "name": "level",
+          "sources": [
+            {
+              "type": "CompositionRouterVideoSource",
+              "settings": {
+                "Input": "3:2"
+              },
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "SPChainLevel",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 2,
+          "column": 4,
+          "name": "mixer",
+          "sources": [
+            {
+              "type": "CompositionRouterVideoSource",
+              "settings": {
+                "Input": "3:3"
+              },
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "SPStudyMixer",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 4,
+          "name": "4d",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 1,
+          "column": 5,
+          "name": "pass",
+          "sources": [
+            {
+              "type": "CompositionRouterVideoSource",
+              "settings": {
+                "Input": "3:2"
+              },
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 5,
+          "name": "shell",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 6,
+          "name": "hybrid",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 1,
+          "column": 8,
+          "name": "Flow",
+          "sources": [
+            {
+              "type": "VideoSourceFeedback",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "SPLoopFlow",
+              "params": {},
+              "animation_types": {}
+            },
+            {
+              "name": "SPLoopColor",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 2,
+          "column": 8,
+          "name": "Shape",
+          "sources": [
+            {
+              "type": "VideoSourceFeedback",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "SPLoopShape",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        },
+        {
+          "deck": 1,
+          "layer": 3,
+          "column": 8,
+          "name": "SP Field",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 4,
+          "column": 8,
+          "name": "Color",
+          "sources": [
+            {
+              "type": "VideoSourceFeedback",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 8,
+          "name": "Figure 3D SP",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 6,
+          "column": 8,
+          "name": "SP Glyphmass",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 7,
+          "column": 8,
+          "name": "SP Scan",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 8,
+          "column": 8,
+          "name": "SP Grain",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 5,
+          "column": 9,
+          "name": "Figure 2D SP",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 8,
+          "column": 9,
+          "name": "SP State Test",
+          "sources": [
+            {
+              "type": "GeneratorVideoSource",
+              "settings": {},
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": []
+        },
+        {
+          "deck": 1,
+          "layer": 4,
+          "column": 12,
+          "name": "figure \u00b7 light delay",
+          "sources": [
+            {
+              "type": "CompositionRouterVideoSource",
+              "settings": {
+                "Input": "3:5",
+                "Input Opacity": "1",
+                "Input Bypass/Solo": "0"
+              },
+              "size": [
+                "1920",
+                "1080"
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "name": "SPDelayPerformance",
+              "params": {},
+              "animation_types": {}
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "live_coverage": [
+    {
+      "layer": 1,
+      "column": 1,
+      "name": "map",
+      "source": "Video Router",
+      "recognized": true,
+      "sections": [
+        "SPChainMap"
+      ],
+      "factory_home": true,
+      "native_clip_effects": [
+        "InvertRGB",
+        "Blur",
+        "Sharpen"
+      ]
+    },
+    {
+      "layer": 1,
+      "column": 2,
+      "name": "texture",
+      "source": "Video Router",
+      "recognized": true,
+      "sections": [
+        "SPStudyTexture"
+      ],
+      "factory_home": false,
+      "native_clip_effects": []
+    },
+    {
+      "layer": 1,
+      "column": 3,
+      "name": "fold",
+      "source": "Video Router",
+      "recognized": true,
+      "sections": [
+        "SPStudyFold"
+      ],
+      "factory_home": false,
+      "native_clip_effects": []
+    },
+    {
+      "layer": 1,
+      "column": 4,
+      "name": "level",
+      "source": "Video Router",
+      "recognized": true,
+      "sections": [
+        "SPChainLevel"
+      ],
+      "factory_home": false,
+      "native_clip_effects": []
+    },
+    {
+      "layer": 1,
+      "column": 5,
+      "name": "pass",
+      "source": "Video Router",
+      "recognized": false,
+      "sections": [],
+      "factory_home": false,
+      "native_clip_effects": []
+    },
+    {
+      "layer": 1,
+      "column": 8,
+      "name": "Flow",
+      "source": "Feedback",
+      "recognized": true,
+      "sections": [],
+      "factory_home": false,
+      "native_clip_effects": []
+    },
+    {
+      "layer": 2,
+      "column": 1,
+      "name": "level",
+      "source": "Video Router",
+      "recognized": true,
+      "sections": [
+        "SPStudyLevel"
+      ],
+      "factory_home": true,
+      "native_clip_effects": []
+    },
+    {
+      "layer": 2,
+      "column": 2,
+      "name": "pass",
+      "source": "Video Router",
+      "recognized": false,
+      "sections": [],
+      "factory_home": false,
+      "native_clip_effects": []
+    },
+    {
+      "layer": 2,
+      "column": 3,
+      "name": "color",
+      "source": "Video Router",
+      "recognized": true,
+      "sections": [
+        "SPStudyColor"
+      ],
+      "factory_home": false,
+      "native_clip_effects": []
+    },
+    {
+      "layer": 2,
+      "column": 4,
+      "name": "mixer",
+      "source": "Video Router",
+      "recognized": true,
+      "sections": [
+        "SPStudyMixer"
+      ],
+      "factory_home": false,
+      "native_clip_effects": []
+    },
+    {
+      "layer": 2,
+      "column": 8,
+      "name": "Shape",
+      "source": "Feedback",
+      "recognized": true,
+      "sections": [],
+      "factory_home": false,
+      "native_clip_effects": []
+    },
+    {
+      "layer": 3,
+      "column": 1,
+      "name": "ground",
+      "source": "SP Atom Ground",
+      "recognized": true,
+      "sections": [
+        "SP Atom Ground"
+      ],
+      "factory_home": true,
+      "native_clip_effects": []
+    },
+    {
+      "layer": 3,
+      "column": 2,
+      "name": "room",
+      "source": "SP Atom Room",
+      "recognized": true,
+      "sections": [
+        "SP Atom Room"
+      ],
+      "factory_home": true,
+      "native_clip_effects": []
+    },
+    {
+      "layer": 3,
+      "column": 3,
+      "name": "void",
+      "source": "SP Atom Void",
+      "recognized": true,
+      "sections": [
+        "SP Atom Void"
+      ],
+      "factory_home": true,
+      "native_clip_effects": []
+    },
+    {
+      "layer": 3,
+      "column": 8,
+      "name": "SP Field",
+      "source": "SP Field",
+      "recognized": true,
+      "sections": [],
+      "factory_home": false,
+      "native_clip_effects": []
+    },
+    {
+      "layer": 4,
+      "column": 1,
+      "name": "figure",
+      "source": "Video Router",
+      "recognized": true,
+      "sections": [
+        "SPDelayChain"
+      ],
+      "factory_home": true,
+      "native_clip_effects": []
+    },
+    {
+      "layer": 4,
+      "column": 2,
+      "name": "field",
+      "source": "Video Router",
+      "recognized": true,
+      "sections": [
+        "SPDelayChain"
+      ],
+      "factory_home": true,
+      "native_clip_effects": []
+    },
+    {
+      "layer": 4,
+      "column": 8,
+      "name": "Color",
+      "source": "Feedback",
+      "recognized": false,
+      "sections": [],
+      "factory_home": false,
+      "native_clip_effects": []
+    },
+    {
+      "layer": 4,
+      "column": 12,
+      "name": "figure \u00b7 light delay",
+      "source": "Video Router",
+      "recognized": true,
+      "sections": [
+        "SPDelayPerformance"
+      ],
+      "factory_home": true,
+      "native_clip_effects": []
+    },
+    {
+      "layer": 5,
+      "column": 1,
+      "name": "1d",
+      "source": "Video Router",
+      "recognized": true,
+      "sections": [
+        "SPAtomLine"
+      ],
+      "factory_home": false,
+      "native_clip_effects": []
+    },
+    {
+      "layer": 5,
+      "column": 2,
+      "name": "2d",
+      "source": "SP Atom Figure 2D",
+      "recognized": true,
+      "sections": [
+        "SP Atom Figure 2D"
+      ],
+      "factory_home": false,
+      "native_clip_effects": []
+    },
+    {
+      "layer": 5,
+      "column": 3,
+      "name": "3d",
+      "source": "SP Atom Solid",
+      "recognized": true,
+      "sections": [
+        "SP Atom Solid"
+      ],
+      "factory_home": true,
+      "native_clip_effects": []
+    },
+    {
+      "layer": 5,
+      "column": 4,
+      "name": "4d",
+      "source": "SP Atom 4D",
+      "recognized": true,
+      "sections": [
+        "SP Atom 4D"
+      ],
+      "factory_home": false,
+      "native_clip_effects": []
+    },
+    {
+      "layer": 5,
+      "column": 5,
+      "name": "shell",
+      "source": "SP Atom 4D Field",
+      "recognized": true,
+      "sections": [
+        "SP Atom 4D Field"
+      ],
+      "factory_home": true,
+      "native_clip_effects": []
+    },
+    {
+      "layer": 5,
+      "column": 6,
+      "name": "hybrid",
+      "source": "SP Atom Hybrid",
+      "recognized": true,
+      "sections": [
+        "SP Atom Hybrid"
+      ],
+      "factory_home": false,
+      "native_clip_effects": []
+    },
+    {
+      "layer": 5,
+      "column": 8,
+      "name": "Figure 3D SP",
+      "source": "SP Figure 3D",
+      "recognized": true,
+      "sections": [],
+      "factory_home": false,
+      "native_clip_effects": []
+    },
+    {
+      "layer": 5,
+      "column": 9,
+      "name": "Figure 2D SP",
+      "source": "SP Figure",
+      "recognized": true,
+      "sections": [],
+      "factory_home": false,
+      "native_clip_effects": []
+    },
+    {
+      "layer": 6,
+      "column": 1,
+      "name": "glyph",
+      "source": "SP Atom Glyph",
+      "recognized": true,
+      "sections": [
+        "SP Atom Glyph"
+      ],
+      "factory_home": true,
+      "native_clip_effects": []
+    },
+    {
+      "layer": 6,
+      "column": 2,
+      "name": "script",
+      "source": "SP Atom Script",
+      "recognized": true,
+      "sections": [
+        "SP Atom Script"
+      ],
+      "factory_home": false,
+      "native_clip_effects": []
+    },
+    {
+      "layer": 6,
+      "column": 8,
+      "name": "SP Glyphmass",
+      "source": "SP Glyphmass",
+      "recognized": true,
+      "sections": [],
+      "factory_home": false,
+      "native_clip_effects": []
+    },
+    {
+      "layer": 7,
+      "column": 1,
+      "name": "dither",
+      "source": "Video Router",
+      "recognized": true,
+      "sections": [
+        "SPAtomDither"
+      ],
+      "factory_home": true,
+      "native_clip_effects": []
+    },
+    {
+      "layer": 7,
+      "column": 2,
+      "name": "texture",
+      "source": "SP Atom Texture",
+      "recognized": true,
+      "sections": [
+        "SP Atom Texture"
+      ],
+      "factory_home": false,
+      "native_clip_effects": []
+    },
+    {
+      "layer": 7,
+      "column": 8,
+      "name": "SP Scan",
+      "source": "SP Scan",
+      "recognized": true,
+      "sections": [],
+      "factory_home": false,
+      "native_clip_effects": []
+    },
+    {
+      "layer": 8,
+      "column": 1,
+      "name": "grain",
+      "source": "SP Atom Grain",
+      "recognized": true,
+      "sections": [
+        "SP Atom Grain"
+      ],
+      "factory_home": true,
+      "native_clip_effects": []
+    },
+    {
+      "layer": 8,
+      "column": 8,
+      "name": "SP Grain",
+      "source": "SP Grain",
+      "recognized": true,
+      "sections": [],
+      "factory_home": false,
+      "native_clip_effects": []
+    },
+    {
+      "layer": 8,
+      "column": 9,
+      "name": "SP State Test",
+      "source": "SP State Test",
+      "recognized": false,
+      "sections": [],
+      "factory_home": false,
+      "native_clip_effects": []
+    }
+  ]
+}

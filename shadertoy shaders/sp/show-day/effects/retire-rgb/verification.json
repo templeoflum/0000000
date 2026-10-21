@@ -1,0 +1,251 @@
+[
+  {
+    "nodes_before": 678,
+    "nodes_after": 649,
+    "removed_nodes": [
+      712,
+      713,
+      714,
+      715,
+      716,
+      717,
+      718,
+      719,
+      720,
+      721,
+      722,
+      723,
+      724,
+      725,
+      726,
+      727,
+      728,
+      729,
+      730,
+      731,
+      732,
+      733,
+      734,
+      735,
+      736,
+      737,
+      738,
+      739,
+      740
+    ],
+    "delay_nodes": 480,
+    "maximum_delay_stages_to_output": 480,
+    "acyclic": true,
+    "dangling_references": 0,
+    "new_multiple_input_conflicts": 0,
+    "preserved_multi_input_destinations": [
+      {
+        "destination": [
+          694,
+          "input"
+        ],
+        "connections": 3
+      },
+      {
+        "destination": [
+          697,
+          "selection"
+        ],
+        "connections": 3
+      },
+      {
+        "destination": [
+          699,
+          "selection"
+        ],
+        "connections": 3
+      },
+      {
+        "destination": [
+          701,
+          "selection"
+        ],
+        "connections": 3
+      },
+      {
+        "destination": [
+          703,
+          "selection"
+        ],
+        "connections": 3
+      },
+      {
+        "destination": [
+          705,
+          "selection"
+        ],
+        "connections": 3
+      },
+      {
+        "destination": [
+          707,
+          "selection"
+        ],
+        "connections": 3
+      }
+    ],
+    "all_remaining_nodes_exactly_equal": true,
+    "all_unrelated_fields_exactly_equal": true,
+    "output_ancestors_preserved_except_removed_nodes": true,
+    "controls": [
+      "Texture In",
+      "Taps",
+      "Span",
+      "\u26a1 Shuffle",
+      "\u2302 Home",
+      "Glide",
+      "\u03c6"
+    ],
+    "remaining_nodes_semantic_sha256": "7d061f9428cd4a7d459d4480399a16982a1f5ca1a6e4d97f76bee6732a128e68",
+    "preserved_connections_semantic_sha256": "8fdc89e9496e8a753601dd8a42a9bea5b59bc6b4d7f6f072fa1c605a8b213caa",
+    "added_edge": {
+      "from": [
+        386,
+        "output"
+      ],
+      "to": [
+        2,
+        "input"
+      ]
+    },
+    "source": "/Users/donovan/Documents/Resolume Wire/Patches/SP Delay Chain/SP Delay Chain.wire",
+    "output": "/Users/donovan/work/0000000/shadertoy shaders/sp/patches/Heart Delay Line/Heart Delay Line.wire",
+    "source_sha256": "6d0780c8315e70b62442be812a6a2b429ca497a088c1c7dd819256da6a6de995",
+    "original_backup_sha256": "6d0780c8315e70b62442be812a6a2b429ca497a088c1c7dd819256da6a6de995",
+    "output_sha256": "7bbdcc85f8906877b602fe6bfe0c416275c825ebf695145bc5f49e607e1162ec",
+    "original_identifier": "73fa9f6a-0e5e-439f-a61d-8b2e359422b1",
+    "new_identifier": "f19e6915-d501-4224-be36-a1706741a320",
+    "rendered": false,
+    "installed": false
+  },
+  {
+    "nodes_before": 679,
+    "nodes_after": 650,
+    "removed_nodes": [
+      712,
+      713,
+      714,
+      715,
+      716,
+      717,
+      718,
+      719,
+      720,
+      721,
+      722,
+      723,
+      724,
+      725,
+      726,
+      727,
+      728,
+      729,
+      730,
+      731,
+      732,
+      733,
+      734,
+      735,
+      736,
+      737,
+      738,
+      739,
+      740
+    ],
+    "delay_nodes": 480,
+    "maximum_delay_stages_to_output": 480,
+    "acyclic": true,
+    "dangling_references": 0,
+    "new_multiple_input_conflicts": 0,
+    "preserved_multi_input_destinations": [
+      {
+        "destination": [
+          694,
+          "input"
+        ],
+        "connections": 3
+      },
+      {
+        "destination": [
+          697,
+          "selection"
+        ],
+        "connections": 3
+      },
+      {
+        "destination": [
+          699,
+          "selection"
+        ],
+        "connections": 3
+      },
+      {
+        "destination": [
+          701,
+          "selection"
+        ],
+        "connections": 3
+      },
+      {
+        "destination": [
+          703,
+          "selection"
+        ],
+        "connections": 3
+      },
+      {
+        "destination": [
+          705,
+          "selection"
+        ],
+        "connections": 3
+      },
+      {
+        "destination": [
+          707,
+          "selection"
+        ],
+        "connections": 3
+      }
+    ],
+    "all_remaining_nodes_exactly_equal": true,
+    "all_unrelated_fields_exactly_equal": true,
+    "output_ancestors_preserved_except_removed_nodes": true,
+    "controls": [
+      "Texture In",
+      "Taps",
+      "Span",
+      "\u26a1 Shuffle",
+      "\u2302 Home",
+      "Glide",
+      "\u03c6"
+    ],
+    "remaining_nodes_semantic_sha256": "848d7ee8ecf9ed98dcdd673d5a2418318e10a6e883c8fc1c372c7951e814e117",
+    "preserved_connections_semantic_sha256": "4ac86e35be013cd3c92c9fa8101ef6621c4e5be060dacedbd365f5ceca28a5eb",
+    "added_edge": {
+      "from": [
+        386,
+        "output"
+      ],
+      "to": [
+        2,
+        "input"
+      ]
+    },
+    "half_resolution_history_preserved": true,
+    "source": "/Users/donovan/Documents/Resolume Wire/Patches/SP Delay Performance/SP Delay Performance.wire",
+    "output": "/Users/donovan/work/0000000/shadertoy shaders/sp/patches/Heart Delay Performance/Heart Delay Performance.wire",
+    "source_sha256": "b1913bd6e26918e94c8fff3b4dd7cc93eecf58a59903d8da1ce78df41c1f393d",
+    "original_backup_sha256": "b1913bd6e26918e94c8fff3b4dd7cc93eecf58a59903d8da1ce78df41c1f393d",
+    "output_sha256": "b635fcdd95f80958c92d197add33c6c003a947f8b362a1489705ac0087538589",
+    "original_identifier": "99858897-b5a1-418d-aafe-335bb5d605a7",
+    "new_identifier": "ffc8dfb6-e73c-4523-a5f1-475bd1d1b7d4",
+    "rendered": false,
+    "installed": false
+  }
+]

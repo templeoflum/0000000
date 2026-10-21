@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>◐</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{height:100%;overflow:hidden;overscroll-behavior:none;background:#0e0d12}
+#app{height:100vh;height:100dvh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:26px}
+#scene{width:min(80vw,340px);aspect-ratio:1;background:#fff;border-radius:3px}
+#rail{width:min(86vw,420px);height:auto;touch-action:none;cursor:pointer}
+</style>
+</head>
+<body>
+<div id="app">
+  <canvas id="scene"></canvas>
+  <svg id="rail" viewBox="0 0 420 56" aria-label="the knob">
+    <line x1="30" y1="28" x2="390" y2="28" stroke="#26242f" stroke-width="2" stroke-linecap="round"/>
+    <circle id="knob" cx="30" cy="28" r="13" fill="#0e0d12" stroke="#93a4c2" stroke-width="2"/>
+    <circle id="knobcore" cx="30" cy="28" r="4" fill="#93a4c2"/>
+  </svg>
+</div>
+<script>
+/* ── M9: bond of studies 11 and 10 — the AM/FM axis.
+   the deck owns both great screen families as atoms and never says what lives
+   between them: 11's press dot (ink CLUSTERED — one round dot per cell) and
+   10's nest (ink DISPERSED — Bayer's recursive ranks). hybrid screening is a
+   real press craft; this molecule builds it at one ruling and one tone.
+   one ruling (64 px cells, 10⅝ across the sheet, cropped like a press sheet),
+   one tone (0.45, 02's exact 45th-percentile pin every frame). the bond axis
+   is the ORDER in which a cell's grains are claimed as ink. every grain
+   carries two uniformized ranks: Uam = its rank in squared distance from the
+   cell centre (thresholding it at 0.45 IS 11's dot — dot area is tone by
+   construction) and Uby = its rank in the 16² Bayer nest per cell, 10's own
+   recursive construction, printed at 4 px blocks (10's level-4 stop, unmagnified).
+   the morph is in rank space, not texture space: U(w) = (1−w)·Uam + w·Uby,
+   thresholded at the exact 45th percentile of each frame — ink never moves;
+   only the fill order travels from radial to dispersed.
+   the journey (eye-certified at display size): k=0 press dots — bold, round,
+   11's machine exactly but on a square lattice (DEVIATION: 11's own lattice
+   is the 45° diamond; here the lattice stands unrotated so the AM cell and
+   the Bayer cell coincide — the bond is the fill order, not the lattice
+   angle). k≈⅛ nibbled dots. k≈¼ moth-eaten dots — the nest eating the rim.
+   k≈½ rosette stamps — chunky ranked colonies where the dot stood (this is
+   the state real hybrid screens sell: dot skeleton, FM flesh). k≈¾ twill —
+   the lattice ghost woven into the checker. k=1 the nest — uniform ordered
+   speckle, 10's 16² stop at print grain.
+   CALIBRATION: the raw w-sweep is visually uneven (the rich dissolve lives in
+   w∈[0.1,0.7], the tail crawls), so the rail is remapped through an
+   equal-visual-velocity table: the flip-rate profile of the w-sweep was
+   measured offline at 401 samples, cumulative-inverted, and embedded below as
+   33 knots (derivation in toys/lab/m9/). after remapping, a 1/200 k-step
+   flips 0.26% of the field on average, worst 0.84% — well under the 2.5%
+   law, with no stops and no dissolve stage: the family is continuous, like
+   02 and M6. MEASURED (headless node run of this exact machine): ink
+   0.4479–0.4535 across the rail, worst flip 0.79% per 1/200 step, mean
+   0.29%, 1.9 ms per apply. the one wrinkle: the wrapped crop is 10⅝ cells,
+   so the 256 nest ranks sit in slightly unequal numbers, and where U ties
+   (the pure-nest end) the histogram pin lands at 0.4535 rather than
+   0.4492 — a 0.4% coverage drift across the rail, invisible, measured;
+   a handful of sub-0.01% steps at the extremes flip nothing (the dot rim
+   is genuinely stable there; the remap cannot invent motion that the
+   rank gap does not hold).
+   DEAD ENDS: the 32² nest at 2 px grain (10's finest) downsamples to
+   featureless gray at deck size — the end state must be printable, so the
+   nest is 16² at 4 px blocks. the 8² nest at 8 px blocks was bold and
+   gorgeous but its 64 tied levels quantize the endpoint ink to 29/64 =
+   0.4531 — it broke 02's law, so it died; 16² ties land at 115/256 = 0.4492,
+   inside the bin. static states; the knob alone moves anything. ── */
+const scene=document.getElementById("scene");
+const DPR=2;               /* fixed internal resolution — layout-independent */
+let S=680;
+scene.width=S;scene.height=S;
+const ctx=scene.getContext("2d");
+const img=ctx.createImageData(S,S);
+const GRAIN=2;             /* 08's grain */
+const G=S/GRAIN, N=G*G;
+const CG=32;               /* grains per cell: 64 px ruling */
+const TONE=0.45;
+
+/* 16² Bayer nest — 10's recursive construction, values 0..255 */
+function bayer16(){
+  let b=[[0,2],[3,1]];
+  while(b.length<16){
+    const m=b.length,nb=[];
+    for(let y=0;y<2*m;y++)nb.push(new Array(2*m));
+    for(let y=0;y<m;y++)for(let x=0;x<m;x++){
+      const v=4*b[y][x];
+      nb[y][x]=v;nb[y][x+m]=v+2;nb[y+m][x]=v+3;nb[y+m][x+m]=v+1;
+    }
+    b=nb;
+  }
+  return b;
+}
+
+/* the two rank fields, tiled over the whole sheet (wrap — a press sheet crop) */
+const UAM=new Float32Array(N), UBY=new Float32Array(N);
+(function(){
+  const B=bayer16();
+  const UAMC=new Float32Array(CG*CG), UBYC=new Float32Array(CG*CG);
+  const r2=new Float32Array(CG*CG), idx=new Array(CG*CG);
+  for(let y=0;y<CG;y++)for(let x=0;x<CG;x++){
+    const i=y*CG+x,dx=x-(CG/2-0.5),dy=y-(CG/2-0.5);
+    r2[i]=dx*dx+dy*dy;idx[i]=i;
+  }
+  idx.sort((p,q)=>r2[p]-r2[q]);      /* stable: ties fall to raster order */
+  for(let r=0;r<idx.length;r++)UAMC[idx[r]]=(r+0.5)/(CG*CG);
+  for(let y=0;y<CG;y++)for(let x=0;x<CG;x++)UBYC[y*CG+x]=(B[y>>1][x>>1]+0.5)/256;
+  for(let y=0;y<G;y++){
+    const cy=(y%CG)*CG;
+    for(let x=0;x<G;x++){
+      const c=cy+(x%CG),i=y*G+x;
+      UAM[i]=UAMC[c];UBY[i]=UBYC[c];
+    }
+  }
+})();
+
+/* equal-visual-velocity rail: inverse cumulative flip-rate, 33 knots (k=0..1 by 1/32).
+   measured offline on this exact rank pair; WR[0]=0, WR[32]=1 exact. */
+const WR=[0,0.0591,0.1107,0.1674,0.2148,0.2521,0.2729,0.3019,0.3343,0.3681,
+0.3886,0.4073,0.436,0.4592,0.475,0.4866,0.5047,0.5269,0.5415,0.5636,
+0.5892,0.609,0.6287,0.6639,0.6879,0.7135,0.7519,0.7899,0.8152,0.8469,
+0.8885,0.9194,1];
+function remap(t){
+  const p=t*32,i=Math.min(31,p|0),f=p-i;
+  return WR[i]*(1-f)+WR[i+1]*f;
+}
+
+const U=new Float32Array(N);
+const hist=new Uint32Array(513);
+let k=0;
+function apply(){
+  const w=remap(k),a=1-w;
+  for(let i=0;i<N;i++)U[i]=UAM[i]*a+UBY[i]*w;
+  /* pin the quantity: threshold at the exact 45th percentile of the landscape */
+  hist.fill(0);
+  for(let i=0;i<N;i++){let q=(U[i]*512)|0;if(q<0)q=0;if(q>512)q=512;hist[q]++;}
+  const target=N*TONE;let acc=0,thr=0.5;
+  for(let q=0;q<=512;q++){acc+=hist[q];if(acc>=target){thr=(q+0.5)/512;break;}}
+  const d=img.data;let black=0;
+  for(let gy=0;gy<G;gy++){
+    const brow=gy*G;
+    let j=(gy*GRAIN)*S*4;
+    for(let gx=0;gx<G;gx++){
+      const on=U[brow+gx]<thr;if(on)black++;
+      const v=on?0:255;
+      let jj=j;
+      for(let yy=0;yy<GRAIN;yy++){
+        let j2=jj;
+        for(let xx=0;xx<GRAIN;xx++){d[j2]=v;d[j2+1]=v;d[j2+2]=v;d[j2+3]=255;j2+=4;}
+        jj+=S*4;
+      }
+      j+=GRAIN*4;
+    }
+  }
+  ctx.putImageData(img,0,0);
+  const cov=black/N;
+}
+apply();
+ 
+const rail=document.getElementById("rail");
+const knob=document.getElementById("knob");
+const knobcore=document.getElementById("knobcore");
+let dragging=false;
+function set(clientX){
+  const r=rail.getBoundingClientRect();
+  k=Math.min(1,Math.max(0,(clientX-r.left-r.width*30/420)/(r.width*360/420)));
+  apply();
+  const x=30+360*k;
+  knob.setAttribute("cx",x); knobcore.setAttribute("cx",x);
+}
+function start(e){dragging=true;move(e);}
+function move(e){
+  if(!dragging)return;
+  set(e.touches?e.touches[0].clientX:e.clientX);
+  if(e.cancelable)e.preventDefault();
+}
+rail.addEventListener("mousedown",start);
+rail.addEventListener("touchstart",start,{passive:false});
+window.addEventListener("mousemove",move);
+window.addEventListener("touchmove",move,{passive:false});
+window.addEventListener("mouseup",()=>dragging=false);
+window.addEventListener("touchend",()=>dragging=false);
+document.addEventListener("touchmove",e=>{if(dragging)e.preventDefault();},{passive:false});
+ 
+(function(){
+  const rail=document.getElementById("rail");
+  function n2c(t){const r=rail.getBoundingClientRect();return r.left+r.width*(30+360*Math.min(1,Math.max(0,t)))/420;}
+  window.atom={name:"M9",
+    set:function(t){set(n2c(t));},
+    get:function(){const x=parseFloat(document.getElementById("knob").getAttribute("cx"));return (x-30)/360;}};
+  const q=new URLSearchParams(location.search).get("k");
+  if(q!==null) setTimeout(function(){window.atom.set(parseFloat(q));},80);
+  window.addEventListener("message",function(e){if(e.data&&typeof e.data.atomSet==="number")window.atom.set(e.data.atomSet);});
+  let lx=null;
+  setInterval(function(){
+    const x=parseFloat(document.getElementById("knob").getAttribute("cx"));
+    if(x!==lx){lx=x;try{if(parent!==window)parent.postMessage({atomChange:{name:window.atom.name,k:(x-30)/360}},"*");}catch(err){}}
+  },150);
+})();
+</script>
+</body>
+</html>

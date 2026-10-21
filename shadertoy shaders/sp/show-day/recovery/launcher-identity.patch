@@ -1,0 +1,53 @@
+--- a/sp/launch.py
++++ b/sp/launch.py
+@@ -1,6 +1,7 @@
+ """Start missing Heart services, then show the native monitor. Never restart a performance."""
+ from pathlib import Path
+-import fcntl, os, socket, subprocess, sys, time, urllib.request
++import fcntl, json, os, socket, subprocess, sys, time, urllib.request
++from websockets.sync.client import connect
+ ROOT=Path(__file__).resolve().parent
+ PYTHON=ROOT/'engine/.venv/bin/python'
+ 
+@@ -8,6 +9,32 @@
+     try:
+         with socket.create_connection(('127.0.0.1',port),timeout=.3):return True
+     except OSError:return False
++
++
++def heart_ready():
++    """Recognize both local Heart endpoints without sending control commands.
++
++    This is an accidental port-collision check, not authentication or Arena
++    readiness. A held/disconnected Heart is still the expected service.
++    """
++    try:
++        expected=(ROOT/'engine/status.html').read_bytes()
++        url='http://127.0.0.1:8765/status.html'
++        opener=urllib.request.build_opener(urllib.request.ProxyHandler({}))
++        with opener.open(url,timeout=1) as response:
++            if response.status!=200 or response.geturl()!=url:return False
++            if response.read(len(expected)+1)!=expected:return False
++        with connect('ws://127.0.0.1:8766/',open_timeout=1,
++                     close_timeout=.2,max_size=4*1024*1024,proxy=None) as ws:
++            state=json.loads(ws.recv(timeout=1))
++        return (isinstance(state,dict)
++                and isinstance(state.get('arena_connected'),bool)
++                and isinstance(state.get('hold'),bool)
++                and all(isinstance(state.get(k),list) for k in ('clips','layers','fx'))
++                and isinstance(state.get('patch_operation'),dict)
++                and isinstance(state.get('delivery'),dict))
++    except Exception:
++        return False
+ 
+ def arena_ready():
+     try:
+@@ -40,6 +67,8 @@
+             child=start(['heart.py','--all'],ROOT/'engine',ROOT/'engine/heart.log')
+             if not wait_for(lambda:listening(8765) and listening(8766),12,child):
+                 raise RuntimeError('The Heart engine could not start. See sp/engine/heart.log.')
++        if not wait_for(heart_ready,3):
++            raise RuntimeError('Heart control ports are occupied but the expected Heart services did not respond. The session was left intact; check sp/engine/heart.log and the port owners before retrying.')
+         if not listening(8770):
+             child=start(['mt_probe.py'],ROOT/'lab/trackpad',ROOT/'lab/trackpad/probe.log')
+             if not wait_for(lambda:listening(8770),5,child):

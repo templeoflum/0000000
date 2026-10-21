@@ -1,0 +1,1555 @@
+[
+  {
+    "address": "L6C40",
+    "name": "FM \u00b7 CloudVortex [1.7.78]",
+    "source": "CloudVortex",
+    "source_parameters": {
+      "rate": {
+        "id": 1788823491332,
+        "valuetype": "ParamRange",
+        "min": -5.0,
+        "max": 5.0,
+        "in": -5.0,
+        "out": 5.0,
+        "value": 1.341879963874817,
+        "view": {
+          "suffix": "",
+          "display_units": "real"
+        }
+      },
+      "loops": {
+        "id": 1788823491333,
+        "valuetype": "ParamRange",
+        "min": 1.0,
+        "max": 200.0,
+        "in": 1.0,
+        "out": 200.0,
+        "value": 200.0,
+        "view": {
+          "suffix": "",
+          "display_units": "real"
+        }
+      },
+      "radius": {
+        "id": 1788823491334,
+        "valuetype": "ParamRange",
+        "min": -1.0,
+        "max": 3.0,
+        "in": -1.0,
+        "out": 3.0,
+        "value": 1.297435998916626,
+        "view": {
+          "suffix": "",
+          "display_units": "real"
+        }
+      },
+      "roto": {
+        "id": 1788823491335,
+        "valuetype": "ParamRange",
+        "min": -1.0,
+        "max": 1.0,
+        "in": -1.0,
+        "out": 1.0,
+        "value": -0.47692298889160156,
+        "view": {
+          "suffix": "",
+          "display_units": "real"
+        }
+      },
+      "turbulance": {
+        "id": 1788823491336,
+        "valuetype": "ParamRange",
+        "min": 1.0,
+        "max": 3.0,
+        "in": 1.0,
+        "out": 3.0,
+        "value": 1.0,
+        "view": {
+          "suffix": "",
+          "display_units": "real"
+        }
+      }
+    },
+    "clip_effects": [
+      {
+        "id": 1788780038336,
+        "is_user_removable": false,
+        "name": "Transform",
+        "display_name": "Transform",
+        "mixer": null,
+        "params": {
+          "Position X": {
+            "id": 1788823490705,
+            "valuetype": "ParamRange",
+            "min": -16384.0,
+            "max": 16384.0,
+            "in": -16384.0,
+            "out": 16384.0,
+            "value": 0.0,
+            "view": {
+              "suffix": "",
+              "step": 1.0,
+              "display_units": "real",
+              "control_type": "spinner"
+            }
+          },
+          "Position Y": {
+            "id": 1788823490711,
+            "valuetype": "ParamRange",
+            "min": -16384.0,
+            "max": 16384.0,
+            "in": -16384.0,
+            "out": 16384.0,
+            "value": 0.0,
+            "view": {
+              "suffix": "",
+              "step": 1.0,
+              "display_units": "real",
+              "control_type": "spinner"
+            }
+          },
+          "Scale": {
+            "id": 1788823490690,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1000.0,
+            "in": 0.0,
+            "out": 1000.0,
+            "value": 100.0,
+            "view": {
+              "suffix": " %",
+              "step": 1.0,
+              "multiplier": 1.0,
+              "display_units": "percent",
+              "control_type": "slider"
+            }
+          },
+          "Scale W": {
+            "id": 1788823490695,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1000.0,
+            "in": 0.0,
+            "out": 1000.0,
+            "value": 100.0,
+            "view": {
+              "suffix": " %",
+              "step": 1.0,
+              "multiplier": 1.0,
+              "display_units": "percent",
+              "control_type": "slider"
+            }
+          },
+          "Scale H": {
+            "id": 1788823490699,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1000.0,
+            "in": 0.0,
+            "out": 1000.0,
+            "value": 100.0,
+            "view": {
+              "suffix": " %",
+              "step": 1.0,
+              "multiplier": 1.0,
+              "display_units": "percent",
+              "control_type": "slider"
+            }
+          },
+          "Rotation X": {
+            "id": 1788823490714,
+            "valuetype": "ParamRange",
+            "min": -180.0,
+            "max": 180.0,
+            "in": -180.0,
+            "out": 180.0,
+            "value": 0.0,
+            "view": {
+              "suffix": " \u00b0",
+              "step": 1.0,
+              "display_units": "degrees",
+              "control_type": "slider"
+            }
+          },
+          "Rotation Y": {
+            "id": 1788823490718,
+            "valuetype": "ParamRange",
+            "min": -180.0,
+            "max": 180.0,
+            "in": -180.0,
+            "out": 180.0,
+            "value": 0.0,
+            "view": {
+              "suffix": " \u00b0",
+              "step": 1.0,
+              "display_units": "degrees",
+              "control_type": "slider"
+            }
+          },
+          "Rotation Z": {
+            "id": 1788823490726,
+            "valuetype": "ParamRange",
+            "min": -180.0,
+            "max": 180.0,
+            "in": -180.0,
+            "out": 180.0,
+            "value": 0.0,
+            "view": {
+              "suffix": " \u00b0",
+              "step": 1.0,
+              "display_units": "degrees",
+              "control_type": "slider"
+            }
+          },
+          "Anchor X": {
+            "id": 1788823490729,
+            "valuetype": "ParamRange",
+            "min": -8192.0,
+            "max": 8192.0,
+            "in": -8192.0,
+            "out": 8192.0,
+            "value": 0.0,
+            "view": {
+              "suffix": "",
+              "step": 1.0,
+              "control_type": "slider"
+            }
+          },
+          "Anchor Y": {
+            "id": 1788823490734,
+            "valuetype": "ParamRange",
+            "min": -8192.0,
+            "max": 8192.0,
+            "in": -8192.0,
+            "out": 8192.0,
+            "value": 0.0,
+            "view": {
+              "suffix": "",
+              "step": 1.0,
+              "control_type": "slider"
+            }
+          },
+          "Anchor Z": {
+            "id": 1788823490738,
+            "valuetype": "ParamRange",
+            "min": -8192.0,
+            "max": 8192.0,
+            "in": -8192.0,
+            "out": 8192.0,
+            "value": 0.0,
+            "view": {
+              "suffix": "",
+              "step": 1.0,
+              "control_type": "slider"
+            }
+          }
+        }
+      }
+    ],
+    "samples": [
+      {
+        "phase": "baseline",
+        "frame": "L6C40-baseline-0.png",
+        "time": 1788902300.6576262,
+        "fps": 8.00140023893723,
+        "gpu": "GPU 100% (Mac)",
+        "telemetry_age": 0.14224720001220703,
+        "queue": 0
+      },
+      {
+        "phase": "baseline",
+        "frame": "L6C40-baseline-1.png",
+        "time": 1788902301.373791,
+        "fps": 8.00140023893723,
+        "gpu": "GPU 100% (Mac)",
+        "telemetry_age": 0.8584120273590088,
+        "queue": 0
+      },
+      {
+        "phase": "baseline",
+        "frame": "L6C40-baseline-2.png",
+        "time": 1788902302.1120698,
+        "fps": 9.9927954165126,
+        "gpu": "GPU 100% (Mac)",
+        "telemetry_age": 0.5959699153900146,
+        "queue": 0
+      },
+      {
+        "phase": "baseline",
+        "frame": "L6C40-baseline-3.png",
+        "time": 1788902302.8321128,
+        "fps": 9.999969005680782,
+        "gpu": "GPU 100% (Mac)",
+        "telemetry_age": 0.31603384017944336,
+        "queue": 0
+      },
+      {
+        "phase": "baseline",
+        "frame": "L6C40-baseline-4.png",
+        "time": 1788902303.547034,
+        "fps": 10.000020265620293,
+        "gpu": "GPU 100% (Mac)",
+        "telemetry_age": 0.030965089797973633,
+        "queue": 0
+      },
+      {
+        "phase": "rate-quarter",
+        "frame": "L6C40-rate-quarter-0.png",
+        "time": 1788902304.255116,
+        "fps": 10.000020265620293,
+        "gpu": "GPU 100% (Mac)",
+        "telemetry_age": 0.7390470504760742,
+        "queue": 0
+      },
+      {
+        "phase": "rate-quarter",
+        "frame": "L6C40-rate-quarter-1.png",
+        "time": 1788902304.9950678,
+        "fps": 10,
+        "gpu": "GPU 100% (Mac)",
+        "telemetry_age": 0.4789919853210449,
+        "queue": 0
+      },
+      {
+        "phase": "rate-quarter",
+        "frame": "L6C40-rate-quarter-2.png",
+        "time": 1788902305.7224,
+        "fps": 8.999936700312457,
+        "gpu": "GPU 100% (Mac)",
+        "telemetry_age": 0.2062699794769287,
+        "queue": 0
+      },
+      {
+        "phase": "rate-threequarters",
+        "frame": "L6C40-rate-threequarters-0.png",
+        "time": 1788902306.462208,
+        "fps": 8.999936700312457,
+        "gpu": "GPU 100% (Mac)",
+        "telemetry_age": 0.9460780620574951,
+        "queue": 0
+      },
+      {
+        "phase": "rate-threequarters",
+        "frame": "L6C40-rate-threequarters-1.png",
+        "time": 1788902307.193871,
+        "fps": 11.003708300991882,
+        "gpu": "GPU 100% (Mac)",
+        "telemetry_age": 0.6781091690063477,
+        "queue": 0
+      },
+      {
+        "phase": "rate-threequarters",
+        "frame": "L6C40-rate-threequarters-2.png",
+        "time": 1788902307.934921,
+        "fps": 8.996914372128414,
+        "gpu": "GPU 100% (Mac)",
+        "telemetry_age": 0.41880011558532715,
+        "queue": 0
+      },
+      {
+        "phase": "radius-quarter",
+        "frame": "L6C40-radius-quarter-0.png",
+        "time": 1788902308.673202,
+        "fps": 8.99995493911416,
+        "gpu": "GPU 100% (Mac)",
+        "telemetry_age": 0.15710902214050293,
+        "queue": 0
+      },
+      {
+        "phase": "radius-quarter",
+        "frame": "L6C40-radius-quarter-1.png",
+        "time": 1788902309.394728,
+        "fps": 8.99995493911416,
+        "gpu": "GPU 100% (Mac)",
+        "telemetry_age": 0.8786358833312988,
+        "queue": 0
+      },
+      {
+        "phase": "radius-quarter",
+        "frame": "L6C40-radius-quarter-2.png",
+        "time": 1788902310.097675,
+        "fps": 11.009379868259245,
+        "gpu": "GPU 100% (Mac)",
+        "telemetry_age": 0.5823671817779541,
+        "queue": 0
+      },
+      {
+        "phase": "radius-threequarters",
+        "frame": "L6C40-radius-threequarters-0.png",
+        "time": 1788902310.8562298,
+        "fps": 8.992303283503585,
+        "gpu": "GPU 100% (Mac)",
+        "telemetry_age": 0.34010887145996094,
+        "queue": 0
+      },
+      {
+        "phase": "radius-threequarters",
+        "frame": "L6C40-radius-threequarters-1.png",
+        "time": 1788902311.649281,
+        "fps": 8.999972105112704,
+        "gpu": "GPU 100% (Mac)",
+        "telemetry_age": 0.13318705558776855,
+        "queue": 0
+      },
+      {
+        "phase": "radius-threequarters",
+        "frame": "L6C40-radius-threequarters-2.png",
+        "time": 1788902312.398211,
+        "fps": 8.999972105112704,
+        "gpu": "GPU 100% (Mac)",
+        "telemetry_age": 0.8821170330047607,
+        "queue": 0
+      },
+      {
+        "phase": "roto-quarter",
+        "frame": "L6C40-roto-quarter-0.png",
+        "time": 1788902313.125212,
+        "fps": 8.999973177989787,
+        "gpu": "GPU 100% (Mac)",
+        "telemetry_age": 0.6091001033782959,
+        "queue": 0
+      },
+      {
+        "phase": "roto-quarter",
+        "frame": "L6C40-roto-quarter-1.png",
+        "time": 1788902313.88081,
+        "fps": 9.003187592882021,
+        "gpu": "GPU 100% (Mac)",
+        "telemetry_age": 0.3650660514831543,
+        "queue": 0
+      },
+      {
+        "phase": "roto-quarter",
+        "frame": "L6C40-roto-quarter-2.png",
+        "time": 1788902314.663834,
+        "fps": 7.99720099185561,
+        "gpu": "GPU 100% (Mac)",
+        "telemetry_age": 0.1477222442626953,
+        "queue": 0
+      },
+      {
+        "phase": "roto-threequarters",
+        "frame": "L6C40-roto-threequarters-0.png",
+        "time": 1788902315.401875,
+        "fps": 7.99720099185561,
+        "gpu": "GPU 100% (Mac)",
+        "telemetry_age": 0.8857631683349609,
+        "queue": 0
+      },
+      {
+        "phase": "roto-threequarters",
+        "frame": "L6C40-roto-threequarters-1.png",
+        "time": 1788902316.133267,
+        "fps": 9.99997019776643,
+        "gpu": "GPU 100% (Mac)",
+        "telemetry_age": 0.6171078681945801,
+        "queue": 0
+      },
+      {
+        "phase": "roto-threequarters",
+        "frame": "L6C40-roto-threequarters-2.png",
+        "time": 1788902316.883708,
+        "fps": 8.99990022293082,
+        "gpu": "GPU 100% (Mac)",
+        "telemetry_age": 0.3675730228424072,
+        "queue": 0
+      }
+    ]
+  },
+  {
+    "address": "L5C39",
+    "name": "FM \u00b7 Quantum Carpets [1.6.27]",
+    "source": "Quantum Carpets",
+    "source_parameters": {
+      "Speed": {
+        "id": 1788823491340,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 3.0,
+        "in": 0.0,
+        "out": 3.0,
+        "value": 1.0,
+        "view": {
+          "suffix": "",
+          "display_units": "real"
+        }
+      },
+      "Zoom": {
+        "id": 1788823491341,
+        "valuetype": "ParamRange",
+        "min": 1.0,
+        "max": 10.0,
+        "in": 1.0,
+        "out": 10.0,
+        "value": 6.9836737185108415,
+        "view": {
+          "suffix": "",
+          "display_units": "real"
+        }
+      },
+      "Brightness": {
+        "id": 1788823491342,
+        "valuetype": "ParamRange",
+        "min": 0.5,
+        "max": 20.0,
+        "in": 0.5,
+        "out": 20.0,
+        "value": 5.0,
+        "view": {
+          "suffix": "",
+          "display_units": "real"
+        }
+      },
+      "Wave Count": {
+        "id": 1788823491343,
+        "valuetype": "ParamRange",
+        "min": 2.0,
+        "max": 12.0,
+        "in": 2.0,
+        "out": 12.0,
+        "value": 2.578151544098569,
+        "view": {
+          "suffix": "",
+          "display_units": "real"
+        }
+      }
+    },
+    "clip_effects": [
+      {
+        "id": 1788780037765,
+        "is_user_removable": false,
+        "name": "Transform",
+        "display_name": "Transform",
+        "mixer": null,
+        "params": {
+          "Position X": {
+            "id": 1788823490047,
+            "valuetype": "ParamRange",
+            "min": -16384.0,
+            "max": 16384.0,
+            "in": -16384.0,
+            "out": 16384.0,
+            "value": 0.0,
+            "view": {
+              "suffix": "",
+              "step": 1.0,
+              "display_units": "real",
+              "control_type": "spinner"
+            }
+          },
+          "Position Y": {
+            "id": 1788823490050,
+            "valuetype": "ParamRange",
+            "min": -16384.0,
+            "max": 16384.0,
+            "in": -16384.0,
+            "out": 16384.0,
+            "value": 0.0,
+            "view": {
+              "suffix": "",
+              "step": 1.0,
+              "display_units": "real",
+              "control_type": "spinner"
+            }
+          },
+          "Scale": {
+            "id": 1788823490042,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1000.0,
+            "in": 0.0,
+            "out": 1000.0,
+            "value": 100.0,
+            "view": {
+              "suffix": " %",
+              "step": 1.0,
+              "multiplier": 1.0,
+              "display_units": "percent",
+              "control_type": "slider"
+            }
+          },
+          "Scale W": {
+            "id": 1788823490045,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1000.0,
+            "in": 0.0,
+            "out": 1000.0,
+            "value": 100.0,
+            "view": {
+              "suffix": " %",
+              "step": 1.0,
+              "multiplier": 1.0,
+              "display_units": "percent",
+              "control_type": "slider"
+            }
+          },
+          "Scale H": {
+            "id": 1788823490046,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1000.0,
+            "in": 0.0,
+            "out": 1000.0,
+            "value": 100.0,
+            "view": {
+              "suffix": " %",
+              "step": 1.0,
+              "multiplier": 1.0,
+              "display_units": "percent",
+              "control_type": "slider"
+            }
+          },
+          "Rotation X": {
+            "id": 1788823490052,
+            "valuetype": "ParamRange",
+            "min": -180.0,
+            "max": 180.0,
+            "in": -180.0,
+            "out": 180.0,
+            "value": 0.0,
+            "view": {
+              "suffix": " \u00b0",
+              "step": 1.0,
+              "display_units": "degrees",
+              "control_type": "slider"
+            }
+          },
+          "Rotation Y": {
+            "id": 1788823490054,
+            "valuetype": "ParamRange",
+            "min": -180.0,
+            "max": 180.0,
+            "in": -180.0,
+            "out": 180.0,
+            "value": 0.0,
+            "view": {
+              "suffix": " \u00b0",
+              "step": 1.0,
+              "display_units": "degrees",
+              "control_type": "slider"
+            }
+          },
+          "Rotation Z": {
+            "id": 1788823490057,
+            "valuetype": "ParamRange",
+            "min": -180.0,
+            "max": 180.0,
+            "in": -180.0,
+            "out": 180.0,
+            "value": 0.0,
+            "view": {
+              "suffix": " \u00b0",
+              "step": 1.0,
+              "display_units": "degrees",
+              "control_type": "slider"
+            }
+          },
+          "Anchor X": {
+            "id": 1788823490060,
+            "valuetype": "ParamRange",
+            "min": -8192.0,
+            "max": 8192.0,
+            "in": -8192.0,
+            "out": 8192.0,
+            "value": 0.0,
+            "view": {
+              "suffix": "",
+              "step": 1.0,
+              "control_type": "slider"
+            }
+          },
+          "Anchor Y": {
+            "id": 1788823490061,
+            "valuetype": "ParamRange",
+            "min": -8192.0,
+            "max": 8192.0,
+            "in": -8192.0,
+            "out": 8192.0,
+            "value": 0.0,
+            "view": {
+              "suffix": "",
+              "step": 1.0,
+              "control_type": "slider"
+            }
+          },
+          "Anchor Z": {
+            "id": 1788823490062,
+            "valuetype": "ParamRange",
+            "min": -8192.0,
+            "max": 8192.0,
+            "in": -8192.0,
+            "out": 8192.0,
+            "value": 0.0,
+            "view": {
+              "suffix": "",
+              "step": 1.0,
+              "control_type": "slider"
+            }
+          }
+        }
+      },
+      {
+        "id": 1788780037766,
+        "is_user_removable": true,
+        "name": "AutoMask",
+        "display_name": "Auto Mask",
+        "bypassed": {
+          "valuetype": "ParamBoolean",
+          "id": 1788823490122,
+          "value": false
+        },
+        "mixer": {
+          "Blend Mode": {
+            "id": 1788823490144,
+            "valuetype": "ParamChoice",
+            "value": "Alpha",
+            "index": 1,
+            "options": [
+              "Add",
+              "Alpha",
+              "B&W",
+              "Burn",
+              "Cube",
+              "Cut",
+              "Darken",
+              "Difference",
+              "Difference I",
+              "Displace",
+              "Dissolve",
+              "Dodge",
+              "Exclusion",
+              "Hard Light",
+              "JitterBug",
+              "Lighten",
+              "LoRez",
+              "Luma Is Alpha",
+              "Luma Key",
+              "Luma Key I",
+              "Meta Mix",
+              "Multiply",
+              "Multi Task",
+              "Noisy",
+              "Overlay",
+              "Parts",
+              "PiP",
+              "Push Down",
+              "Push Left",
+              "Push Right",
+              "Push Up",
+              "RGB",
+              "Rotate X",
+              "Rotate Y",
+              "Screen",
+              "Shift RGB",
+              "Side by Side",
+              "Soft Light",
+              "Static",
+              "Subtract",
+              "Tile",
+              "TimeSwitcher",
+              "to Black",
+              "to Color",
+              "to White",
+              "Twitch",
+              "Video Bumper",
+              "Wipe Ellipse",
+              "Zoom In",
+              "Zoom Out"
+            ],
+            "view": {
+              "suffix": "",
+              "control_type": "choice_combobox"
+            }
+          }
+        },
+        "params": {
+          "Opacity": {
+            "id": 1788823490125,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 1.0,
+            "view": {
+              "suffix": " %",
+              "multiplier": 100.0,
+              "display_units": "percent",
+              "control_type": "slider_color_opacity"
+            }
+          },
+          "Channel": {
+            "id": 1788823490114,
+            "valuetype": "ParamChoice",
+            "value": "Luminance",
+            "index": 0,
+            "options": [
+              "Luminance",
+              "Red",
+              "Green",
+              "Blue"
+            ],
+            "view": {
+              "suffix": "",
+              "control_type": "choice_combobox"
+            }
+          },
+          "Contrast": {
+            "id": 1788823490115,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 1.0
+          },
+          "Invert": {
+            "valuetype": "ParamBoolean",
+            "id": 1788823490117,
+            "value": false
+          }
+        }
+      }
+    ],
+    "samples": [
+      {
+        "phase": "baseline",
+        "frame": "L5C39-baseline-0.png",
+        "time": 1788902319.474429,
+        "fps": 59.94903843485368,
+        "gpu": "GPU 58% (Mac)",
+        "telemetry_age": 0.9583079814910889,
+        "queue": 0
+      },
+      {
+        "phase": "baseline",
+        "frame": "L5C39-baseline-1.png",
+        "time": 1788902320.056727,
+        "fps": 59.99928475278911,
+        "gpu": "GPU 62% (Mac)",
+        "telemetry_age": 0.5405821800231934,
+        "queue": 0
+      },
+      {
+        "phase": "baseline",
+        "frame": "L5C39-baseline-2.png",
+        "time": 1788902320.6762,
+        "fps": 60.000057220513554,
+        "gpu": "GPU 62% (Mac)",
+        "telemetry_age": 0.16005587577819824,
+        "queue": 0
+      },
+      {
+        "phase": "baseline",
+        "frame": "L5C39-baseline-3.png",
+        "time": 1788902321.256057,
+        "fps": 60.000057220513554,
+        "gpu": "GPU 62% (Mac)",
+        "telemetry_age": 0.7399120330810547,
+        "queue": 0
+      },
+      {
+        "phase": "baseline",
+        "frame": "L5C39-baseline-4.png",
+        "time": 1788902321.840364,
+        "fps": 59.999878406771074,
+        "gpu": "GPU 60% (Mac)",
+        "telemetry_age": 0.3242299556732178,
+        "queue": 0
+      },
+      {
+        "phase": "Speed-quarter",
+        "frame": "L5C39-Speed-quarter-0.png",
+        "time": 1788902322.43823,
+        "fps": 59.999878406771074,
+        "gpu": "GPU 60% (Mac)",
+        "telemetry_age": 0.9220969676971436,
+        "queue": 0
+      },
+      {
+        "phase": "Speed-quarter",
+        "frame": "L5C39-Speed-quarter-1.png",
+        "time": 1788902323.019199,
+        "fps": 60.030678691810586,
+        "gpu": "GPU 58% (Mac)",
+        "telemetry_age": 0.5034708976745605,
+        "queue": 0
+      },
+      {
+        "phase": "Speed-quarter",
+        "frame": "L5C39-Speed-quarter-2.png",
+        "time": 1788902323.6030872,
+        "fps": 60.019504209575096,
+        "gpu": "GPU 56% (Mac)",
+        "telemetry_age": 0.0876927375793457,
+        "queue": 0
+      },
+      {
+        "phase": "Speed-threequarters",
+        "frame": "L5C39-Speed-threequarters-0.png",
+        "time": 1788902324.2021508,
+        "fps": 60.019504209575096,
+        "gpu": "GPU 56% (Mac)",
+        "telemetry_age": 0.6867568492889404,
+        "queue": 0
+      },
+      {
+        "phase": "Speed-threequarters",
+        "frame": "L5C39-Speed-threequarters-1.png",
+        "time": 1788902324.78589,
+        "fps": 59.948981311609316,
+        "gpu": "GPU 59% (Mac)",
+        "telemetry_age": 0.2697451114654541,
+        "queue": 0
+      },
+      {
+        "phase": "Speed-threequarters",
+        "frame": "L5C39-Speed-threequarters-2.png",
+        "time": 1788902325.367858,
+        "fps": 59.948981311609316,
+        "gpu": "GPU 59% (Mac)",
+        "telemetry_age": 0.8517138957977295,
+        "queue": 0
+      },
+      {
+        "phase": "Zoom-quarter",
+        "frame": "L5C39-Zoom-quarter-0.png",
+        "time": 1788902325.975512,
+        "fps": 60.00054359928531,
+        "gpu": "GPU 62% (Mac)",
+        "telemetry_age": 0.4593791961669922,
+        "queue": 0
+      },
+      {
+        "phase": "Zoom-quarter",
+        "frame": "L5C39-Zoom-quarter-1.png",
+        "time": 1788902326.562058,
+        "fps": 60.00012159372176,
+        "gpu": "GPU 63% (Mac)",
+        "telemetry_age": 0.045912981033325195,
+        "queue": 0
+      },
+      {
+        "phase": "Zoom-quarter",
+        "frame": "L5C39-Zoom-quarter-2.png",
+        "time": 1788902327.145012,
+        "fps": 60.00012159372176,
+        "gpu": "GPU 63% (Mac)",
+        "telemetry_age": 0.6288681030273438,
+        "queue": 0
+      },
+      {
+        "phase": "Zoom-threequarters",
+        "frame": "L5C39-Zoom-threequarters-0.png",
+        "time": 1788902327.7371159,
+        "fps": 59.99903442029396,
+        "gpu": "GPU 58% (Mac)",
+        "telemetry_age": 0.22085285186767578,
+        "queue": 0
+      },
+      {
+        "phase": "Zoom-threequarters",
+        "frame": "L5C39-Zoom-threequarters-1.png",
+        "time": 1788902328.317015,
+        "fps": 59.99903442029396,
+        "gpu": "GPU 58% (Mac)",
+        "telemetry_age": 0.8007519245147705,
+        "queue": 0
+      },
+      {
+        "phase": "Zoom-threequarters",
+        "frame": "L5C39-Zoom-threequarters-2.png",
+        "time": 1788902328.8996868,
+        "fps": 60.00012159372176,
+        "gpu": "GPU 56% (Mac)",
+        "telemetry_age": 0.383530855178833,
+        "queue": 0
+      },
+      {
+        "phase": "Wave_Count-quarter",
+        "frame": "L5C39-Wave_Count-quarter-0.png",
+        "time": 1788902329.48526,
+        "fps": 60.00012159372176,
+        "gpu": "GPU 56% (Mac)",
+        "telemetry_age": 0.9691040515899658,
+        "queue": 0
+      },
+      {
+        "phase": "Wave_Count-quarter",
+        "frame": "L5C39-Wave_Count-quarter-1.png",
+        "time": 1788902330.068186,
+        "fps": 60.03530432656323,
+        "gpu": "GPU 62% (Mac)",
+        "telemetry_age": 0.5525360107421875,
+        "queue": 0
+      },
+      {
+        "phase": "Wave_Count-quarter",
+        "frame": "L5C39-Wave_Count-quarter-2.png",
+        "time": 1788902330.65239,
+        "fps": 60.013743209923064,
+        "gpu": "GPU 60% (Mac)",
+        "telemetry_age": 0.13692617416381836,
+        "queue": 0
+      },
+      {
+        "phase": "Wave_Count-threequarters",
+        "frame": "L5C39-Wave_Count-threequarters-0.png",
+        "time": 1788902331.236372,
+        "fps": 60.013743209923064,
+        "gpu": "GPU 60% (Mac)",
+        "telemetry_age": 0.7209081649780273,
+        "queue": 0
+      },
+      {
+        "phase": "Wave_Count-threequarters",
+        "frame": "L5C39-Wave_Count-threequarters-1.png",
+        "time": 1788902331.8195431,
+        "fps": 59.95041656611732,
+        "gpu": "GPU 56% (Mac)",
+        "telemetry_age": 0.3033270835876465,
+        "queue": 0
+      },
+      {
+        "phase": "Wave_Count-threequarters",
+        "frame": "L5C39-Wave_Count-threequarters-2.png",
+        "time": 1788902332.402648,
+        "fps": 59.95041656611732,
+        "gpu": "GPU 56% (Mac)",
+        "telemetry_age": 0.8864331245422363,
+        "queue": 0
+      }
+    ]
+  },
+  {
+    "address": "L5C65",
+    "name": "FM \u00b7 Gradient Bars [2.4.2]",
+    "source": "Gradient Bars",
+    "source_parameters": {
+      "gradient power": {
+        "id": 1788823499388,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.6544899940490723,
+        "view": {
+          "suffix": "",
+          "display_units": "real"
+        }
+      },
+      "balance": {
+        "id": 1788823499389,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.5281580090522766,
+        "view": {
+          "suffix": "",
+          "display_units": "real"
+        }
+      },
+      "speed": {
+        "id": 1788823499390,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.13089799880981445,
+        "view": {
+          "suffix": "",
+          "display_units": "real"
+        }
+      },
+      "offset": {
+        "id": 1788823499391,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 16.0,
+        "in": 0.0,
+        "out": 16.0,
+        "value": 4.65144681930542,
+        "view": {
+          "suffix": "",
+          "display_units": "real"
+        }
+      },
+      "use odd directions": {
+        "id": 1788823499392,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.4718419909477234,
+        "view": {
+          "suffix": "",
+          "display_units": "real"
+        }
+      },
+      "columns": {
+        "id": 1788823499393,
+        "valuetype": "ParamRange",
+        "min": 1.0,
+        "max": 32.0,
+        "in": 1.0,
+        "out": 32.0,
+        "value": 21.80821990966797,
+        "view": {
+          "suffix": "",
+          "display_units": "real"
+        }
+      },
+      "x iterations": {
+        "id": 1788823499394,
+        "valuetype": "ParamRange",
+        "min": 1.0,
+        "max": 2.0,
+        "in": 1.0,
+        "out": 2.0,
+        "value": 2.0,
+        "view": {
+          "suffix": "",
+          "display_units": "real"
+        }
+      },
+      "invert speed": {
+        "id": 1788823499395,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.2526639997959137,
+        "view": {
+          "suffix": "",
+          "display_units": "real"
+        }
+      },
+      "use columns": {
+        "valuetype": "ParamBoolean",
+        "id": 1788823499396,
+        "value": true
+      },
+      "phase iterations": {
+        "id": 1788823499397,
+        "valuetype": "ParamRange",
+        "min": 1.0,
+        "max": 16.0,
+        "in": 1.0,
+        "out": 16.0,
+        "value": 7.415526866912842,
+        "view": {
+          "suffix": "",
+          "display_units": "real"
+        }
+      },
+      "easing type": {
+        "id": 1788823499398,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 29.0,
+        "in": 0.0,
+        "out": 29.0,
+        "value": 0.0,
+        "view": {
+          "suffix": "",
+          "step": 1.0,
+          "multiplier": 1.0,
+          "display_units": "integer",
+          "control_type": "slider"
+        }
+      }
+    },
+    "clip_effects": [
+      {
+        "id": 1788780038564,
+        "is_user_removable": false,
+        "name": "Transform",
+        "display_name": "Transform",
+        "mixer": null,
+        "params": {
+          "Position X": {
+            "id": 1788823498815,
+            "valuetype": "ParamRange",
+            "min": -16384.0,
+            "max": 16384.0,
+            "in": -16384.0,
+            "out": 16384.0,
+            "value": 0.0,
+            "view": {
+              "suffix": "",
+              "step": 1.0,
+              "display_units": "real",
+              "control_type": "spinner"
+            }
+          },
+          "Position Y": {
+            "id": 1788823498817,
+            "valuetype": "ParamRange",
+            "min": -16384.0,
+            "max": 16384.0,
+            "in": -16384.0,
+            "out": 16384.0,
+            "value": 0.0,
+            "view": {
+              "suffix": "",
+              "step": 1.0,
+              "display_units": "real",
+              "control_type": "spinner"
+            }
+          },
+          "Scale": {
+            "id": 1788823498810,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1000.0,
+            "in": 0.0,
+            "out": 1000.0,
+            "value": 100.0,
+            "view": {
+              "suffix": " %",
+              "step": 1.0,
+              "multiplier": 1.0,
+              "display_units": "percent",
+              "control_type": "slider"
+            }
+          },
+          "Scale W": {
+            "id": 1788823498811,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1000.0,
+            "in": 0.0,
+            "out": 1000.0,
+            "value": 100.0,
+            "view": {
+              "suffix": " %",
+              "step": 1.0,
+              "multiplier": 1.0,
+              "display_units": "percent",
+              "control_type": "slider"
+            }
+          },
+          "Scale H": {
+            "id": 1788823498812,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1000.0,
+            "in": 0.0,
+            "out": 1000.0,
+            "value": 100.0,
+            "view": {
+              "suffix": " %",
+              "step": 1.0,
+              "multiplier": 1.0,
+              "display_units": "percent",
+              "control_type": "slider"
+            }
+          },
+          "Rotation X": {
+            "id": 1788823498820,
+            "valuetype": "ParamRange",
+            "min": -180.0,
+            "max": 180.0,
+            "in": -180.0,
+            "out": 180.0,
+            "value": 0.0,
+            "view": {
+              "suffix": " \u00b0",
+              "step": 1.0,
+              "display_units": "degrees",
+              "control_type": "slider"
+            }
+          },
+          "Rotation Y": {
+            "id": 1788823498823,
+            "valuetype": "ParamRange",
+            "min": -180.0,
+            "max": 180.0,
+            "in": -180.0,
+            "out": 180.0,
+            "value": 0.0,
+            "view": {
+              "suffix": " \u00b0",
+              "step": 1.0,
+              "display_units": "degrees",
+              "control_type": "slider"
+            }
+          },
+          "Rotation Z": {
+            "id": 1788823498827,
+            "valuetype": "ParamRange",
+            "min": -180.0,
+            "max": 180.0,
+            "in": -180.0,
+            "out": 180.0,
+            "value": 0.0,
+            "view": {
+              "suffix": " \u00b0",
+              "step": 1.0,
+              "display_units": "degrees",
+              "control_type": "slider"
+            }
+          },
+          "Anchor X": {
+            "id": 1788823498828,
+            "valuetype": "ParamRange",
+            "min": -8192.0,
+            "max": 8192.0,
+            "in": -8192.0,
+            "out": 8192.0,
+            "value": 0.0,
+            "view": {
+              "suffix": "",
+              "step": 1.0,
+              "control_type": "slider"
+            }
+          },
+          "Anchor Y": {
+            "id": 1788823498830,
+            "valuetype": "ParamRange",
+            "min": -8192.0,
+            "max": 8192.0,
+            "in": -8192.0,
+            "out": 8192.0,
+            "value": 0.0,
+            "view": {
+              "suffix": "",
+              "step": 1.0,
+              "control_type": "slider"
+            }
+          },
+          "Anchor Z": {
+            "id": 1788823498832,
+            "valuetype": "ParamRange",
+            "min": -8192.0,
+            "max": 8192.0,
+            "in": -8192.0,
+            "out": 8192.0,
+            "value": 0.0,
+            "view": {
+              "suffix": "",
+              "step": 1.0,
+              "control_type": "slider"
+            }
+          }
+        }
+      }
+    ],
+    "samples": [
+      {
+        "phase": "baseline",
+        "frame": "L5C65-baseline-0.png",
+        "time": 1788902334.974785,
+        "fps": 60.023469564935326,
+        "gpu": "GPU 54% (Mac)",
+        "telemetry_age": 0.45887207984924316,
+        "queue": 0
+      },
+      {
+        "phase": "baseline",
+        "frame": "L5C65-baseline-1.png",
+        "time": 1788902335.5563881,
+        "fps": 59.975226621598736,
+        "gpu": "GPU 55% (Mac)",
+        "telemetry_age": 0.04009604454040527,
+        "queue": 0
+      },
+      {
+        "phase": "baseline",
+        "frame": "L5C65-baseline-2.png",
+        "time": 1788902336.122804,
+        "fps": 59.975226621598736,
+        "gpu": "GPU 55% (Mac)",
+        "telemetry_age": 0.6065118312835693,
+        "queue": 0
+      },
+      {
+        "phase": "baseline",
+        "frame": "L5C65-baseline-3.png",
+        "time": 1788902336.6910331,
+        "fps": 60.044858590219604,
+        "gpu": "GPU 56% (Mac)",
+        "telemetry_age": 0.17544198036193848,
+        "queue": 0
+      },
+      {
+        "phase": "baseline",
+        "frame": "L5C65-baseline-4.png",
+        "time": 1788902337.256375,
+        "fps": 60.044858590219604,
+        "gpu": "GPU 56% (Mac)",
+        "telemetry_age": 0.7407839298248291,
+        "queue": 0
+      },
+      {
+        "phase": "speed-quarter",
+        "frame": "L5C65-speed-quarter-0.png",
+        "time": 1788902337.852175,
+        "fps": 60.01278434343597,
+        "gpu": "GPU 61% (Mac)",
+        "telemetry_age": 0.33683085441589355,
+        "queue": 0
+      },
+      {
+        "phase": "speed-quarter",
+        "frame": "L5C65-speed-quarter-1.png",
+        "time": 1788902338.424771,
+        "fps": 60.01278434343597,
+        "gpu": "GPU 61% (Mac)",
+        "telemetry_age": 0.9094269275665283,
+        "queue": 0
+      },
+      {
+        "phase": "speed-quarter",
+        "frame": "L5C65-speed-quarter-2.png",
+        "time": 1788902338.9919639,
+        "fps": 59.968330895201476,
+        "gpu": "GPU 59% (Mac)",
+        "telemetry_age": 0.4761209487915039,
+        "queue": 0
+      },
+      {
+        "phase": "speed-threequarters",
+        "frame": "L5C65-speed-threequarters-0.png",
+        "time": 1788902339.558402,
+        "fps": 59.97865006338486,
+        "gpu": "GPU 61% (Mac)",
+        "telemetry_age": 0.04212808609008789,
+        "queue": 0
+      },
+      {
+        "phase": "speed-threequarters",
+        "frame": "L5C65-speed-threequarters-1.png",
+        "time": 1788902340.124445,
+        "fps": 59.97865006338486,
+        "gpu": "GPU 61% (Mac)",
+        "telemetry_age": 0.6081709861755371,
+        "queue": 0
+      },
+      {
+        "phase": "speed-threequarters",
+        "frame": "L5C65-speed-threequarters-2.png",
+        "time": 1788902340.690732,
+        "fps": 59.99592331930494,
+        "gpu": "GPU 58% (Mac)",
+        "telemetry_age": 0.17444515228271484,
+        "queue": 0
+      },
+      {
+        "phase": "offset-quarter",
+        "frame": "L5C65-offset-quarter-0.png",
+        "time": 1788902341.2573938,
+        "fps": 59.99592331930494,
+        "gpu": "GPU 58% (Mac)",
+        "telemetry_age": 0.7411081790924072,
+        "queue": 0
+      },
+      {
+        "phase": "offset-quarter",
+        "frame": "L5C65-offset-quarter-1.png",
+        "time": 1788902341.824043,
+        "fps": 59.9996995940944,
+        "gpu": "GPU 59% (Mac)",
+        "telemetry_age": 0.3078429698944092,
+        "queue": 0
+      },
+      {
+        "phase": "offset-quarter",
+        "frame": "L5C65-offset-quarter-2.png",
+        "time": 1788902342.39027,
+        "fps": 59.9996995940944,
+        "gpu": "GPU 59% (Mac)",
+        "telemetry_age": 0.8740699291229248,
+        "queue": 0
+      },
+      {
+        "phase": "offset-threequarters",
+        "frame": "L5C65-offset-threequarters-0.png",
+        "time": 1788902342.9729972,
+        "fps": 60.048153869042046,
+        "gpu": "GPU 60% (Mac)",
+        "telemetry_age": 0.4576089382171631,
+        "queue": 0
+      },
+      {
+        "phase": "offset-threequarters",
+        "frame": "L5C65-offset-threequarters-1.png",
+        "time": 1788902343.547859,
+        "fps": 59.9515019783467,
+        "gpu": "GPU 59% (Mac)",
+        "telemetry_age": 0.03156089782714844,
+        "queue": 0
+      },
+      {
+        "phase": "offset-threequarters",
+        "frame": "L5C65-offset-threequarters-2.png",
+        "time": 1788902344.106275,
+        "fps": 59.9515019783467,
+        "gpu": "GPU 59% (Mac)",
+        "telemetry_age": 0.5899779796600342,
+        "queue": 0
+      },
+      {
+        "phase": "columns-quarter",
+        "frame": "L5C65-columns-quarter-0.png",
+        "time": 1788902344.695231,
+        "fps": 59.999942779595585,
+        "gpu": "GPU 58% (Mac)",
+        "telemetry_age": 0.17901992797851562,
+        "queue": 0
+      },
+      {
+        "phase": "columns-quarter",
+        "frame": "L5C65-columns-quarter-1.png",
+        "time": 1788902345.273809,
+        "fps": 59.999942779595585,
+        "gpu": "GPU 58% (Mac)",
+        "telemetry_age": 0.7575979232788086,
+        "queue": 0
+      },
+      {
+        "phase": "columns-quarter",
+        "frame": "L5C65-columns-quarter-2.png",
+        "time": 1788902345.8568408,
+        "fps": 60.00011444113625,
+        "gpu": "GPU 57% (Mac)",
+        "telemetry_age": 0.3406360149383545,
+        "queue": 0
+      },
+      {
+        "phase": "columns-threequarters",
+        "frame": "L5C65-columns-threequarters-0.png",
+        "time": 1788902346.4226718,
+        "fps": 60.00011444113625,
+        "gpu": "GPU 57% (Mac)",
+        "telemetry_age": 0.9064681529998779,
+        "queue": 0
+      },
+      {
+        "phase": "columns-threequarters",
+        "frame": "L5C65-columns-threequarters-1.png",
+        "time": 1788902346.991155,
+        "fps": 60.042330067159796,
+        "gpu": "GPU 60% (Mac)",
+        "telemetry_age": 0.475543737411499,
+        "queue": 0
+      },
+      {
+        "phase": "columns-threequarters",
+        "frame": "L5C65-columns-threequarters-2.png",
+        "time": 1788902347.556709,
+        "fps": 59.95712961394496,
+        "gpu": "GPU 56% (Mac)",
+        "telemetry_age": 0.04049110412597656,
+        "queue": 0
+      }
+    ]
+  }
+]

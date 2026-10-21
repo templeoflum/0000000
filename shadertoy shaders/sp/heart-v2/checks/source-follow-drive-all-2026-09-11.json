@@ -1,0 +1,36 @@
+{
+  "epoch": "1789151413656",
+  "target": "effect:1788150010310",
+  "protected": "1789181914343",
+  "tested": [
+    "1789181914345",
+    "1789181914347",
+    "1789181914346",
+    "1789181914348",
+    "1789181914352",
+    "1789181914353",
+    "1789181914355"
+  ],
+  "at": "2026-09-11T17:01:10.580361-05:00",
+  "off_verified": true,
+  "on_verified": true,
+  "ranges_preserved": true,
+  "off_and_on_skipped_locks": true,
+  "locks_restored": true,
+  "backend_tests": 73,
+  "isolated_ui": "Passed bulk on/off, locked on/off states, idle source bank entries, playing-name shortcut, source follow through pending launch, effect fallback and layer reorder",
+  "native_source": {
+    "selected": "feedback / Transform",
+    "scope": "layer",
+    "armed": true,
+    "active_drive_count": 9,
+    "error": ""
+  },
+  "standalone": true,
+  "native_playing_clip": {
+    "layer": "feedback",
+    "name": "FM \u00b7 Feedback [1.1.4]",
+    "id": 1789275883788,
+    "matches_heart_catalog": true
+  }
+}

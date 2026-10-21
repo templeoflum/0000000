@@ -1,0 +1,167 @@
+{
+  "SchemaVersion": "1.1-ter",
+  "ArchetypeName": "Hero",
+  "SystemOfOrigin": "HJ",
+  "CulturalLineage": [
+    "Universal",
+    "Greek",
+    "Hindu",
+    "Norse",
+    "Japanese",
+    "Celtic"
+  ],
+  "CommonAliases": [
+    "Seeker",
+    "Champion",
+    "Everyman",
+    "Initiate"
+  ],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "Embarks on the journey, faces trials, transforms, and returns bearing the boon",
+    "PrimaryDomain": "Narrative",
+    "ToneOrPolarity": "Courageous / Growth-oriented",
+    "SymbolicCore": "The Self in motion toward destiny",
+    "Correspondences": {
+      "Element": "Fire",
+      "Planet": "Sun",
+      "Chakra": "Solar-Plexus",
+      "Color": "Gold",
+      "Animal": "Lion, Falcon",
+      "Other": [
+        "Crown",
+        "Sword",
+        "Questing Road"
+      ]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": [
+      "Protagonist",
+      "Quest-bearer",
+      "Sacrifice-maker"
+    ],
+    "ComplementaryArchetypes": [
+      "Mentor",
+      "Allies",
+      "Herald"
+    ],
+    "ShadowForms": [
+      "False Hero",
+      "Ego-Inflated Hero"
+    ],
+    "DevelopmentalArc": [
+      "Call → Trials → Death/Rebirth → Return"
+    ],
+    "CyclePhase": "Initiation → Ordeal → Return"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": [
+      "Brave",
+      "Determined",
+      "Self-sacrificing",
+      "Growth-seeking"
+    ],
+    "Typologies": {
+      "MBTI": "ENFJ / ISFP (depending on story)",
+      "Enneagram": "3w2 or 1w2",
+      "Other": [
+        "Pearson.Hero",
+        "JU.Hero"
+      ]
+    },
+    "SubVariants": [
+      "Reluctant Hero",
+      "Anti-Hero",
+      "Epic Hero"
+    ],
+    "InternalFamily": "Explorer-Warrior"
+  },
+  "CulturalContext": {
+    "Regions": [
+      "Global"
+    ],
+    "MythicAppearances": [
+      "Perseus",
+      "Rama",
+      "Sigurd",
+      "Momotarō",
+      "Cú Chulainn"
+    ],
+    "ReligiousOrRitualUse": "Used in rites of passage, vision quests, and heroic initiation",
+    "HistoricalEvolution": "From tribal warrior myths to modern superhero narratives",
+    "SyncreticForms": [
+      "Superman",
+      "King Arthur",
+      "Luke Skywalker"
+    ]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "⚔️",
+    "ImageryNotes": "Rising sun over a winding road, sword raised aloft",
+    "ArtisticExamples": [
+      "Hero’s-Journey monomyth charts",
+      "Tarot: Knight of Wands",
+      "Star Wars poster art"
+    ],
+    "PoeticInvocation": "I am the footsteps on the endless road, the fire in the heart of the storm.",
+    "DreamForm": "A lone traveler climbing a mountain that grows with every step"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": [
+      "JU.Hero",
+      "JP12.Hero",
+      "KWM.Warrior",
+      "JP12.Seeker"
+    ],
+    "SemanticTags": [
+      "#quest",
+      "#fire",
+      "#sun",
+      "#mountain"
+    ],
+    "RitualFunction": "Embody courage and forward motion in rites of initiation",
+    "AIPromptSeeds": [
+      "Generate a hero who doubts their worth yet must cross a world-mountain."
+    ],
+    "NarrativeHooks": [
+      "Call to adventure",
+      "Refusal of the call",
+      "Moment of death/rebirth"
+    ]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [
+      {
+        "to": "JU.Hero",
+        "strength": "strong"
+      },
+      {
+        "to": "JP12.Hero",
+        "strength": "strong"
+      },
+      {
+        "to": "KWM.Warrior",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "FacetRegistry": [
+    {
+      "facet": "Epic Hero",
+      "weight": 0.4
+    },
+    {
+      "facet": "Reluctant Hero",
+      "weight": 0.3
+    },
+    {
+      "facet": "Anti-Hero",
+      "weight": 0.2
+    },
+    {
+      "facet": "Child Hero",
+      "weight": 0.1
+    }
+  ]
+}

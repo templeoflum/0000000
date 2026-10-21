@@ -1,0 +1,1168 @@
+{
+  "epoch": "1789151413656",
+  "layer": {
+    "id": 1788149966516,
+    "name": "feedback",
+    "index_at_capture": 1
+  },
+  "source": "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/checks/session-combined-live.json.before.json",
+  "source_type": "captured Heart catalog and state; all bindings must validate current identity before writes",
+  "generated_at": "2026-09-11T21:50:22.613495-05:00",
+  "effects": [
+    {
+      "id": "invert",
+      "label": "Invert",
+      "native_name": "InvertRGB",
+      "native_position": 2,
+      "binding": {
+        "target": "effect:1788780036854",
+        "identity": [
+          "layer",
+          1788149966516,
+          null,
+          null,
+          "InvertRGB"
+        ],
+        "opacity": 1789181912748,
+        "bypass": 1789181912745
+      },
+      "parameters": [
+        {
+          "parameter": 1789181912745,
+          "name": "Bypass",
+          "type": "ParamBoolean",
+          "min": 0,
+          "max": 1,
+          "value_at_capture": false
+        },
+        {
+          "parameter": 1789181912748,
+          "name": "Opacity",
+          "type": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "value_at_capture": 1.0
+        },
+        {
+          "parameter": 1789181912749,
+          "name": "Blend Mode",
+          "type": "ParamChoice",
+          "min": 0,
+          "max": 1,
+          "value_at_capture": "Alpha",
+          "options": [
+            "Add",
+            "Alpha",
+            "B&W",
+            "Burn",
+            "Cube",
+            "Cut",
+            "Darken",
+            "Difference",
+            "Difference I",
+            "Displace",
+            "Dissolve",
+            "Dodge",
+            "Exclusion",
+            "Hard Light",
+            "JitterBug",
+            "Lighten",
+            "LoRez",
+            "Luma Is Alpha",
+            "Luma Key",
+            "Luma Key I",
+            "Meta Mix",
+            "Multiply",
+            "Multi Task",
+            "Noisy",
+            "Overlay",
+            "Parts",
+            "PiP",
+            "Push Down",
+            "Push Left",
+            "Push Right",
+            "Push Up",
+            "RGB",
+            "Rotate X",
+            "Rotate Y",
+            "Screen",
+            "Shift RGB",
+            "Side by Side",
+            "Soft Light",
+            "Static",
+            "Subtract",
+            "Tile",
+            "TimeSwitcher",
+            "to Black",
+            "to Color",
+            "to White",
+            "Twitch",
+            "Video Bumper",
+            "Wipe Ellipse",
+            "Zoom In",
+            "Zoom Out"
+          ]
+        },
+        {
+          "parameter": 1789181912741,
+          "name": "R",
+          "type": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "value_at_capture": 1.0
+        },
+        {
+          "parameter": 1789181912742,
+          "name": "G",
+          "type": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "value_at_capture": 1.0
+        },
+        {
+          "parameter": 1789181912743,
+          "name": "B",
+          "type": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "value_at_capture": 1.0
+        },
+        {
+          "parameter": 1789181912744,
+          "name": "A",
+          "type": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "value_at_capture": 0.0
+        }
+      ]
+    },
+    {
+      "id": "blur",
+      "label": "Blur",
+      "native_name": "Blur",
+      "native_position": 3,
+      "binding": {
+        "target": "effect:1788780036860",
+        "identity": [
+          "layer",
+          1788149966516,
+          null,
+          null,
+          "Blur"
+        ],
+        "opacity": 1789181912767,
+        "bypass": 1789181912764
+      },
+      "parameters": [
+        {
+          "parameter": 1789181912764,
+          "name": "Bypass",
+          "type": "ParamBoolean",
+          "min": 0,
+          "max": 1,
+          "value_at_capture": false
+        },
+        {
+          "parameter": 1789181912767,
+          "name": "Opacity",
+          "type": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "value_at_capture": 1.0
+        },
+        {
+          "parameter": 1789181912768,
+          "name": "Blend Mode",
+          "type": "ParamChoice",
+          "min": 0,
+          "max": 1,
+          "value_at_capture": "Alpha",
+          "options": [
+            "Add",
+            "Alpha",
+            "B&W",
+            "Burn",
+            "Cube",
+            "Cut",
+            "Darken",
+            "Difference",
+            "Difference I",
+            "Displace",
+            "Dissolve",
+            "Dodge",
+            "Exclusion",
+            "Hard Light",
+            "JitterBug",
+            "Lighten",
+            "LoRez",
+            "Luma Is Alpha",
+            "Luma Key",
+            "Luma Key I",
+            "Meta Mix",
+            "Multiply",
+            "Multi Task",
+            "Noisy",
+            "Overlay",
+            "Parts",
+            "PiP",
+            "Push Down",
+            "Push Left",
+            "Push Right",
+            "Push Up",
+            "RGB",
+            "Rotate X",
+            "Rotate Y",
+            "Screen",
+            "Shift RGB",
+            "Side by Side",
+            "Soft Light",
+            "Static",
+            "Subtract",
+            "Tile",
+            "TimeSwitcher",
+            "to Black",
+            "to Color",
+            "to White",
+            "Twitch",
+            "Video Bumper",
+            "Wipe Ellipse",
+            "Zoom In",
+            "Zoom Out"
+          ]
+        },
+        {
+          "parameter": 1789181912759,
+          "name": "Blur",
+          "type": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "value_at_capture": 1.0
+        },
+        {
+          "parameter": 1789181912760,
+          "name": "Blur X Distance",
+          "type": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "value_at_capture": 0.07000000074505806
+        },
+        {
+          "parameter": 1789181912761,
+          "name": "Blur Y Distance",
+          "type": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "value_at_capture": 0.07000000074505806
+        },
+        {
+          "parameter": 1789181912762,
+          "name": "Quality",
+          "type": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "value_at_capture": 0.8852658479110055
+        },
+        {
+          "parameter": 1789181912763,
+          "name": "Gaussian",
+          "type": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "value_at_capture": 0.30072419539741846
+        }
+      ]
+    },
+    {
+      "id": "sharpen",
+      "label": "Sharpen",
+      "native_name": "Sharpen",
+      "native_position": 4,
+      "binding": {
+        "target": "effect:1788780036864",
+        "identity": [
+          "layer",
+          1788149966516,
+          null,
+          null,
+          "Sharpen"
+        ],
+        "opacity": 1789181912783,
+        "bypass": 1789181912780
+      },
+      "parameters": [
+        {
+          "parameter": 1789181912780,
+          "name": "Bypass",
+          "type": "ParamBoolean",
+          "min": 0,
+          "max": 1,
+          "value_at_capture": false
+        },
+        {
+          "parameter": 1789181912783,
+          "name": "Opacity",
+          "type": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "value_at_capture": 1.0
+        },
+        {
+          "parameter": 1789181912784,
+          "name": "Blend Mode",
+          "type": "ParamChoice",
+          "min": 0,
+          "max": 1,
+          "value_at_capture": "Alpha",
+          "options": [
+            "Add",
+            "Alpha",
+            "B&W",
+            "Burn",
+            "Cube",
+            "Cut",
+            "Darken",
+            "Difference",
+            "Difference I",
+            "Displace",
+            "Dissolve",
+            "Dodge",
+            "Exclusion",
+            "Hard Light",
+            "JitterBug",
+            "Lighten",
+            "LoRez",
+            "Luma Is Alpha",
+            "Luma Key",
+            "Luma Key I",
+            "Meta Mix",
+            "Multiply",
+            "Multi Task",
+            "Noisy",
+            "Overlay",
+            "Parts",
+            "PiP",
+            "Push Down",
+            "Push Left",
+            "Push Right",
+            "Push Up",
+            "RGB",
+            "Rotate X",
+            "Rotate Y",
+            "Screen",
+            "Shift RGB",
+            "Side by Side",
+            "Soft Light",
+            "Static",
+            "Subtract",
+            "Tile",
+            "TimeSwitcher",
+            "to Black",
+            "to Color",
+            "to White",
+            "Twitch",
+            "Video Bumper",
+            "Wipe Ellipse",
+            "Zoom In",
+            "Zoom Out"
+          ]
+        },
+        {
+          "parameter": 1789181912778,
+          "name": "Strength",
+          "type": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "value_at_capture": 1.0
+        },
+        {
+          "parameter": 1789181912779,
+          "name": "Distance",
+          "type": "ParamRange",
+          "min": 1.0,
+          "max": 25.0,
+          "value_at_capture": 25.0
+        }
+      ]
+    },
+    {
+      "id": "mirror_x",
+      "label": "Mirror X",
+      "native_name": "Mirror",
+      "native_position": 6,
+      "binding": {
+        "target": "effect:1788780036873",
+        "identity": [
+          "layer",
+          1788149966516,
+          null,
+          null,
+          "Mirror"
+        ],
+        "opacity": 1789181912822,
+        "bypass": 1789181912819
+      },
+      "parameters": [
+        {
+          "parameter": 1789181912819,
+          "name": "Bypass",
+          "type": "ParamBoolean",
+          "min": 0,
+          "max": 1,
+          "value_at_capture": true
+        },
+        {
+          "parameter": 1789181912822,
+          "name": "Opacity",
+          "type": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "value_at_capture": 1.0
+        },
+        {
+          "parameter": 1789181912823,
+          "name": "Blend Mode",
+          "type": "ParamChoice",
+          "min": 0,
+          "max": 1,
+          "value_at_capture": "Alpha",
+          "options": [
+            "Add",
+            "Alpha",
+            "B&W",
+            "Burn",
+            "Cube",
+            "Cut",
+            "Darken",
+            "Difference",
+            "Difference I",
+            "Displace",
+            "Dissolve",
+            "Dodge",
+            "Exclusion",
+            "Hard Light",
+            "JitterBug",
+            "Lighten",
+            "LoRez",
+            "Luma Is Alpha",
+            "Luma Key",
+            "Luma Key I",
+            "Meta Mix",
+            "Multiply",
+            "Multi Task",
+            "Noisy",
+            "Overlay",
+            "Parts",
+            "PiP",
+            "Push Down",
+            "Push Left",
+            "Push Right",
+            "Push Up",
+            "RGB",
+            "Rotate X",
+            "Rotate Y",
+            "Screen",
+            "Shift RGB",
+            "Side by Side",
+            "Soft Light",
+            "Static",
+            "Subtract",
+            "Tile",
+            "TimeSwitcher",
+            "to Black",
+            "to Color",
+            "to White",
+            "Twitch",
+            "Video Bumper",
+            "Wipe Ellipse",
+            "Zoom In",
+            "Zoom Out"
+          ]
+        },
+        {
+          "parameter": 1789181912813,
+          "name": "X",
+          "type": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "value_at_capture": 0.5
+        },
+        {
+          "parameter": 1789181912814,
+          "name": "Y",
+          "type": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "value_at_capture": 0.0
+        },
+        {
+          "parameter": 1789181912815,
+          "name": "In / Out",
+          "type": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "value_at_capture": 1.0
+        },
+        {
+          "parameter": 1789181912816,
+          "name": "Flip X",
+          "type": "ParamBoolean",
+          "min": 0,
+          "max": 1,
+          "value_at_capture": false
+        },
+        {
+          "parameter": 1789181912817,
+          "name": "Flip Y",
+          "type": "ParamBoolean",
+          "min": 0,
+          "max": 1,
+          "value_at_capture": false
+        },
+        {
+          "parameter": 1789181912818,
+          "name": "Black BG",
+          "type": "ParamBoolean",
+          "min": 0,
+          "max": 1,
+          "value_at_capture": false
+        }
+      ]
+    },
+    {
+      "id": "mirror_y",
+      "label": "Mirror Y",
+      "native_name": "Mirror",
+      "native_position": 7,
+      "binding": {
+        "target": "effect:1788780036877",
+        "identity": [
+          "layer",
+          1788149966516,
+          null,
+          null,
+          "Mirror"
+        ],
+        "opacity": 1789181912842,
+        "bypass": 1789181912839
+      },
+      "parameters": [
+        {
+          "parameter": 1789181912839,
+          "name": "Bypass",
+          "type": "ParamBoolean",
+          "min": 0,
+          "max": 1,
+          "value_at_capture": true
+        },
+        {
+          "parameter": 1789181912842,
+          "name": "Opacity",
+          "type": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "value_at_capture": 1.0
+        },
+        {
+          "parameter": 1789181912843,
+          "name": "Blend Mode",
+          "type": "ParamChoice",
+          "min": 0,
+          "max": 1,
+          "value_at_capture": "Alpha",
+          "options": [
+            "Add",
+            "Alpha",
+            "B&W",
+            "Burn",
+            "Cube",
+            "Cut",
+            "Darken",
+            "Difference",
+            "Difference I",
+            "Displace",
+            "Dissolve",
+            "Dodge",
+            "Exclusion",
+            "Hard Light",
+            "JitterBug",
+            "Lighten",
+            "LoRez",
+            "Luma Is Alpha",
+            "Luma Key",
+            "Luma Key I",
+            "Meta Mix",
+            "Multiply",
+            "Multi Task",
+            "Noisy",
+            "Overlay",
+            "Parts",
+            "PiP",
+            "Push Down",
+            "Push Left",
+            "Push Right",
+            "Push Up",
+            "RGB",
+            "Rotate X",
+            "Rotate Y",
+            "Screen",
+            "Shift RGB",
+            "Side by Side",
+            "Soft Light",
+            "Static",
+            "Subtract",
+            "Tile",
+            "TimeSwitcher",
+            "to Black",
+            "to Color",
+            "to White",
+            "Twitch",
+            "Video Bumper",
+            "Wipe Ellipse",
+            "Zoom In",
+            "Zoom Out"
+          ]
+        },
+        {
+          "parameter": 1789181912833,
+          "name": "X",
+          "type": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "value_at_capture": 0.0
+        },
+        {
+          "parameter": 1789181912834,
+          "name": "Y",
+          "type": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "value_at_capture": 0.5
+        },
+        {
+          "parameter": 1789181912835,
+          "name": "In / Out",
+          "type": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "value_at_capture": 1.0
+        },
+        {
+          "parameter": 1789181912836,
+          "name": "Flip X",
+          "type": "ParamBoolean",
+          "min": 0,
+          "max": 1,
+          "value_at_capture": false
+        },
+        {
+          "parameter": 1789181912837,
+          "name": "Flip Y",
+          "type": "ParamBoolean",
+          "min": 0,
+          "max": 1,
+          "value_at_capture": false
+        },
+        {
+          "parameter": 1789181912838,
+          "name": "Black BG",
+          "type": "ParamBoolean",
+          "min": 0,
+          "max": 1,
+          "value_at_capture": false
+        }
+      ]
+    },
+    {
+      "id": "mirror_xy",
+      "label": "Mirror XY",
+      "native_name": "Mirror",
+      "native_position": 8,
+      "binding": {
+        "target": "effect:1788780036881",
+        "identity": [
+          "layer",
+          1788149966516,
+          null,
+          null,
+          "Mirror"
+        ],
+        "opacity": 1789181912862,
+        "bypass": 1789181912859
+      },
+      "parameters": [
+        {
+          "parameter": 1789181912859,
+          "name": "Bypass",
+          "type": "ParamBoolean",
+          "min": 0,
+          "max": 1,
+          "value_at_capture": true
+        },
+        {
+          "parameter": 1789181912862,
+          "name": "Opacity",
+          "type": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "value_at_capture": 1.0
+        },
+        {
+          "parameter": 1789181912863,
+          "name": "Blend Mode",
+          "type": "ParamChoice",
+          "min": 0,
+          "max": 1,
+          "value_at_capture": "Add",
+          "options": [
+            "Add",
+            "Alpha",
+            "B&W",
+            "Burn",
+            "Cube",
+            "Cut",
+            "Darken",
+            "Difference",
+            "Difference I",
+            "Displace",
+            "Dissolve",
+            "Dodge",
+            "Exclusion",
+            "Hard Light",
+            "JitterBug",
+            "Lighten",
+            "LoRez",
+            "Luma Is Alpha",
+            "Luma Key",
+            "Luma Key I",
+            "Meta Mix",
+            "Multiply",
+            "Multi Task",
+            "Noisy",
+            "Overlay",
+            "Parts",
+            "PiP",
+            "Push Down",
+            "Push Left",
+            "Push Right",
+            "Push Up",
+            "RGB",
+            "Rotate X",
+            "Rotate Y",
+            "Screen",
+            "Shift RGB",
+            "Side by Side",
+            "Soft Light",
+            "Static",
+            "Subtract",
+            "Tile",
+            "TimeSwitcher",
+            "to Black",
+            "to Color",
+            "to White",
+            "Twitch",
+            "Video Bumper",
+            "Wipe Ellipse",
+            "Zoom In",
+            "Zoom Out"
+          ]
+        },
+        {
+          "parameter": 1789181912853,
+          "name": "X",
+          "type": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "value_at_capture": 0.5
+        },
+        {
+          "parameter": 1789181912854,
+          "name": "Y",
+          "type": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "value_at_capture": 0.5
+        },
+        {
+          "parameter": 1789181912855,
+          "name": "In / Out",
+          "type": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "value_at_capture": 0.7840671201548169
+        },
+        {
+          "parameter": 1789181912856,
+          "name": "Flip X",
+          "type": "ParamBoolean",
+          "min": 0,
+          "max": 1,
+          "value_at_capture": false
+        },
+        {
+          "parameter": 1789181912857,
+          "name": "Flip Y",
+          "type": "ParamBoolean",
+          "min": 0,
+          "max": 1,
+          "value_at_capture": false
+        },
+        {
+          "parameter": 1789181912858,
+          "name": "Black BG",
+          "type": "ParamBoolean",
+          "min": 0,
+          "max": 1,
+          "value_at_capture": false
+        }
+      ]
+    },
+    {
+      "id": "mirror_offset",
+      "label": "Mirror offset",
+      "native_name": "Mirror",
+      "native_position": 9,
+      "binding": {
+        "target": "effect:1788780036886",
+        "identity": [
+          "layer",
+          1788149966516,
+          null,
+          null,
+          "Mirror"
+        ],
+        "opacity": 1789181912882,
+        "bypass": 1789181912879
+      },
+      "parameters": [
+        {
+          "parameter": 1789181912879,
+          "name": "Bypass",
+          "type": "ParamBoolean",
+          "min": 0,
+          "max": 1,
+          "value_at_capture": true
+        },
+        {
+          "parameter": 1789181912882,
+          "name": "Opacity",
+          "type": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "value_at_capture": 1.0
+        },
+        {
+          "parameter": 1789181912883,
+          "name": "Blend Mode",
+          "type": "ParamChoice",
+          "min": 0,
+          "max": 1,
+          "value_at_capture": "Add",
+          "options": [
+            "Add",
+            "Alpha",
+            "B&W",
+            "Burn",
+            "Cube",
+            "Cut",
+            "Darken",
+            "Difference",
+            "Difference I",
+            "Displace",
+            "Dissolve",
+            "Dodge",
+            "Exclusion",
+            "Hard Light",
+            "JitterBug",
+            "Lighten",
+            "LoRez",
+            "Luma Is Alpha",
+            "Luma Key",
+            "Luma Key I",
+            "Meta Mix",
+            "Multiply",
+            "Multi Task",
+            "Noisy",
+            "Overlay",
+            "Parts",
+            "PiP",
+            "Push Down",
+            "Push Left",
+            "Push Right",
+            "Push Up",
+            "RGB",
+            "Rotate X",
+            "Rotate Y",
+            "Screen",
+            "Shift RGB",
+            "Side by Side",
+            "Soft Light",
+            "Static",
+            "Subtract",
+            "Tile",
+            "TimeSwitcher",
+            "to Black",
+            "to Color",
+            "to White",
+            "Twitch",
+            "Video Bumper",
+            "Wipe Ellipse",
+            "Zoom In",
+            "Zoom Out"
+          ]
+        },
+        {
+          "parameter": 1789181912873,
+          "name": "X",
+          "type": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "value_at_capture": 0.021030510847705353
+        },
+        {
+          "parameter": 1789181912874,
+          "name": "Y",
+          "type": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "value_at_capture": 0.08523867379982603
+        },
+        {
+          "parameter": 1789181912875,
+          "name": "In / Out",
+          "type": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "value_at_capture": 0.021492101877433223
+        },
+        {
+          "parameter": 1789181912876,
+          "name": "Flip X",
+          "type": "ParamBoolean",
+          "min": 0,
+          "max": 1,
+          "value_at_capture": false
+        },
+        {
+          "parameter": 1789181912877,
+          "name": "Flip Y",
+          "type": "ParamBoolean",
+          "min": 0,
+          "max": 1,
+          "value_at_capture": false
+        },
+        {
+          "parameter": 1789181912878,
+          "name": "Black BG",
+          "type": "ParamBoolean",
+          "min": 0,
+          "max": 1,
+          "value_at_capture": false
+        }
+      ]
+    }
+  ],
+  "quick_pad_order": [
+    "mirror_x",
+    "mirror_y",
+    "mirror_xy",
+    "mirror_offset",
+    "invert",
+    "blur",
+    "sharpen"
+  ],
+  "controls": [
+    {
+      "id": "invert_opacity",
+      "label": "Invert amount",
+      "min": 0.0,
+      "max": 1.0,
+      "bindings": [
+        {
+          "target": "effect:1788780036854",
+          "identity": [
+            "layer",
+            1788149966516,
+            null,
+            null,
+            "InvertRGB"
+          ],
+          "parameter": 1789181912748,
+          "name": "Opacity",
+          "type": "ParamRange",
+          "min": 0.0,
+          "max": 1.0
+        }
+      ]
+    },
+    {
+      "id": "blur_blur",
+      "label": "Blur Blur",
+      "min": 0.0,
+      "max": 1.0,
+      "bindings": [
+        {
+          "target": "effect:1788780036860",
+          "identity": [
+            "layer",
+            1788149966516,
+            null,
+            null,
+            "Blur"
+          ],
+          "parameter": 1789181912759,
+          "name": "Blur",
+          "type": "ParamRange",
+          "min": 0.0,
+          "max": 1.0
+        }
+      ]
+    },
+    {
+      "id": "blur_blur_x_distance",
+      "label": "Blur Blur X Distance",
+      "min": 0.0,
+      "max": 1.0,
+      "bindings": [
+        {
+          "target": "effect:1788780036860",
+          "identity": [
+            "layer",
+            1788149966516,
+            null,
+            null,
+            "Blur"
+          ],
+          "parameter": 1789181912760,
+          "name": "Blur X Distance",
+          "type": "ParamRange",
+          "min": 0.0,
+          "max": 1.0
+        }
+      ]
+    },
+    {
+      "id": "blur_blur_y_distance",
+      "label": "Blur Blur Y Distance",
+      "min": 0.0,
+      "max": 1.0,
+      "bindings": [
+        {
+          "target": "effect:1788780036860",
+          "identity": [
+            "layer",
+            1788149966516,
+            null,
+            null,
+            "Blur"
+          ],
+          "parameter": 1789181912761,
+          "name": "Blur Y Distance",
+          "type": "ParamRange",
+          "min": 0.0,
+          "max": 1.0
+        }
+      ]
+    },
+    {
+      "id": "blur_opacity",
+      "label": "Blur amount",
+      "min": 0.0,
+      "max": 1.0,
+      "bindings": [
+        {
+          "target": "effect:1788780036860",
+          "identity": [
+            "layer",
+            1788149966516,
+            null,
+            null,
+            "Blur"
+          ],
+          "parameter": 1789181912767,
+          "name": "Opacity",
+          "type": "ParamRange",
+          "min": 0.0,
+          "max": 1.0
+        }
+      ]
+    },
+    {
+      "id": "sharpen_strength",
+      "label": "Sharpen Strength",
+      "min": 0.0,
+      "max": 1.0,
+      "bindings": [
+        {
+          "target": "effect:1788780036864",
+          "identity": [
+            "layer",
+            1788149966516,
+            null,
+            null,
+            "Sharpen"
+          ],
+          "parameter": 1789181912778,
+          "name": "Strength",
+          "type": "ParamRange",
+          "min": 0.0,
+          "max": 1.0
+        }
+      ]
+    },
+    {
+      "id": "sharpen_distance",
+      "label": "Sharpen Distance",
+      "min": 1.0,
+      "max": 25.0,
+      "bindings": [
+        {
+          "target": "effect:1788780036864",
+          "identity": [
+            "layer",
+            1788149966516,
+            null,
+            null,
+            "Sharpen"
+          ],
+          "parameter": 1789181912779,
+          "name": "Distance",
+          "type": "ParamRange",
+          "min": 1.0,
+          "max": 25.0
+        }
+      ]
+    },
+    {
+      "id": "sharpen_opacity",
+      "label": "Sharpen amount",
+      "min": 0.0,
+      "max": 1.0,
+      "bindings": [
+        {
+          "target": "effect:1788780036864",
+          "identity": [
+            "layer",
+            1788149966516,
+            null,
+            null,
+            "Sharpen"
+          ],
+          "parameter": 1789181912783,
+          "name": "Opacity",
+          "type": "ParamRange",
+          "min": 0.0,
+          "max": 1.0
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Mirrors are four distinct native effect instances; preserve their native order and parameters. Labels describe captured X/Y values, not renamed native effects.",
+    "Opacity (0..1) is the effect amount/alpha control. InvertRGB A is alpha-channel inversion and remains 0 at capture; do not substitute it for opacity.",
+    "Mirror X: X=.5,Y=0,Alpha blend; Mirror Y: X=0,Y=.5,Alpha blend. Mirror XY: X=.5,Y=.5,Add blend. Mirror offset: X\u2248.02103,Y\u2248.08524,Add blend.",
+    "Blur strength is native Blur; Blur X/Y Distance are separate. Sharpen Strength is 0..1, Distance is native1..25. Preserve these units.",
+    "All four mirrors were bypassed with opacity1 at capture. Invert, Blur and Sharpen were enabled at opacity1. A pulse that only raises opacity to1 will make no change on those already-full effects; choose an explicit toggle or an envelope from current state rather than assume an off baseline.",
+    "No geometry, source Transform, clip animation, layer opacity, native effect parameter or bypass was changed by this discovery."
+  ]
+}

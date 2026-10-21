@@ -1,0 +1,3238 @@
+{
+  "source": "/Users/donovan/work/0000000/shadertoy shaders/sp/design/heart-performance-plan/baseline/feedback machine_16x9_1080p.avc",
+  "current_snapshot": "/Users/donovan/work/0000000/shadertoy shaders/sp/audit/trigger-and-effects-20260908/initial.json",
+  "mapping_script": "/Users/donovan/work/0000000/shadertoy shaders/sp/qa/merge_feedback_into_soup.py",
+  "key_format": "layer/<URL-escaped layer name>~<layer name occurrence>/effect/<URL-escaped native effect name>~<native name occurrence>",
+  "notes": [
+    "Read-only extraction; no live writes.",
+    "Only explicitly saved numeric, boolean and choice values are mapped to current controls. Missing controls remain unknown; serialized XML default is recorded only where explicitly present.",
+    "Exact original decimal strings are authoritative; numeric value is convenience conversion.",
+    "Native timeline phases are historical snapshots, not inferred static home values. Animation flags and phase data are preserved raw.",
+    "Wrapper Opacity and ChoosableMixer Opacity are distinct and are not conflated."
+  ],
+  "effects": [
+    {
+      "effect_key": "layer/feedback~1/effect/InvertRGB~1",
+      "current_layer_index": 0,
+      "current_layer_name": "feedback",
+      "current_effect_id": 1788780036854,
+      "name": "InvertRGB",
+      "display_name": "Invert RGB",
+      "name_occurrence_1based": 1,
+      "chain_position_0based_excluding_transform": 0,
+      "original_layer_index": 3,
+      "original_effect_id": "1777011664481",
+      "original_type_id": "A105",
+      "mapping": "ordered effect sequence per merge script; names of full target stack verified",
+      "reused_existing": false,
+      "reference_values_are_merged_saved_values": true,
+      "controls": {
+        "Opacity": {
+          "value_exact": "1",
+          "default_exact": "1",
+          "xml_tag": "ParamRange",
+          "xml_type": "DOUBLE",
+          "value": 1.0,
+          "phase_sources": [
+            {
+              "tag": "PhaseSourceTimeline",
+              "attributes": {
+                "name": "PhaseSourceTimeline",
+                "phase": "1",
+                "hardSynced": "0"
+              },
+              "children": [
+                {
+                  "tag": "Params",
+                  "attributes": {
+                    "name": "Params"
+                  },
+                  "children": [
+                    {
+                      "tag": "ParamRange",
+                      "attributes": {
+                        "name": "Max Distance",
+                        "altName": "Distance",
+                        "T": "DOUBLE",
+                        "default": "0.3125",
+                        "value": "0.3125"
+                      },
+                      "children": [
+                        {
+                          "tag": "PhaseSourceStatic",
+                          "attributes": {
+                            "name": "PhaseSourceStatic"
+                          },
+                          "children": []
+                        },
+                        {
+                          "tag": "ValueRange",
+                          "attributes": {
+                            "name": "minMax",
+                            "min": "0",
+                            "max": "0.3125"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "ParamChoice",
+                      "attributes": {
+                        "name": "PlayMode",
+                        "T": "INT32",
+                        "default": "0",
+                        "value": "3",
+                        "storeChoices": "0"
+                      },
+                      "children": []
+                    },
+                    {
+                      "tag": "Param",
+                      "attributes": {
+                        "name": "DurationIsScalable",
+                        "altName": "Duration Changes With In & Out Points",
+                        "T": "BOOL",
+                        "default": "1",
+                        "value": "0"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "Beats_d",
+                  "attributes": {
+                    "name": "Beats_d",
+                    "numManualBeats": "4",
+                    "detectedTempo": "-1"
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ],
+          "duration_sources": [
+            {
+              "tag": "DurationSource",
+              "attributes": {
+                "userDuration": "0.3125"
+              },
+              "children": []
+            }
+          ],
+          "value_ranges": [],
+          "source_path": "./Params/ParamRange[@name='Opacity']",
+          "animation_flags_exact": "9223372036854775811",
+          "current_value": 1.0,
+          "current_param_id": 1788823470638
+        },
+        "A": {
+          "value_exact": "1",
+          "default_exact": "0",
+          "xml_tag": "ParamRange",
+          "xml_type": "DOUBLE",
+          "value": 1.0,
+          "phase_sources": [
+            {
+              "tag": "PhaseSourceTimeline",
+              "attributes": {
+                "name": "PhaseSourceTimeline",
+                "phase": "1",
+                "hardSynced": "0"
+              },
+              "children": [
+                {
+                  "tag": "Params",
+                  "attributes": {
+                    "name": "Params"
+                  },
+                  "children": [
+                    {
+                      "tag": "ParamRange",
+                      "attributes": {
+                        "name": "Max Distance",
+                        "altName": "Distance",
+                        "T": "DOUBLE",
+                        "default": "0.4000000000000000222",
+                        "value": "0.25"
+                      },
+                      "children": [
+                        {
+                          "tag": "PhaseSourceStatic",
+                          "attributes": {
+                            "name": "PhaseSourceStatic"
+                          },
+                          "children": []
+                        },
+                        {
+                          "tag": "ValueRange",
+                          "attributes": {
+                            "name": "minMax",
+                            "min": "0",
+                            "max": "0.4000000000000000222"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "ParamChoice",
+                      "attributes": {
+                        "name": "PlayMode",
+                        "T": "INT32",
+                        "default": "0",
+                        "value": "3",
+                        "storeChoices": "0"
+                      },
+                      "children": []
+                    },
+                    {
+                      "tag": "Param",
+                      "attributes": {
+                        "name": "DurationIsScalable",
+                        "altName": "Duration Changes With In & Out Points",
+                        "T": "BOOL",
+                        "default": "1",
+                        "value": "0"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "Beats_d",
+                  "attributes": {
+                    "name": "Beats_d",
+                    "numManualBeats": "4",
+                    "detectedTempo": "-1"
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ],
+          "duration_sources": [
+            {
+              "tag": "DurationSource",
+              "attributes": {
+                "userDuration": "0.4000000000000000222",
+                "scale": "0.88007472111628604061"
+              },
+              "children": []
+            }
+          ],
+          "value_ranges": [
+            {
+              "tag": "ValueRange",
+              "attributes": {
+                "name": "startStop",
+                "min": "0.11992527888371394551",
+                "max": "1"
+              },
+              "children": []
+            }
+          ],
+          "source_path": "./RenderPass/Params/ParamRange[@name='A']",
+          "animation_flags_exact": "9223372036854775811",
+          "current_value": 0.0267525866572923,
+          "current_param_id": 1788823470634
+        }
+      },
+      "unknown_controls": [
+        "R",
+        "G",
+        "B"
+      ],
+      "original_wrapper_controls": {
+        "Bypassed": {
+          "value_exact": "1",
+          "default_exact": "0",
+          "xml_tag": "Param",
+          "xml_type": "BOOL",
+          "value": true,
+          "phase_sources": [],
+          "duration_sources": [],
+          "value_ranges": []
+        },
+        "Opacity": {
+          "value_exact": "1",
+          "default_exact": "1",
+          "xml_tag": "ParamRange",
+          "xml_type": "DOUBLE",
+          "value": 1.0,
+          "phase_sources": [
+            {
+              "tag": "PhaseSourceTimeline",
+              "attributes": {
+                "name": "PhaseSourceTimeline",
+                "phase": "1",
+                "hardSynced": "0"
+              },
+              "children": [
+                {
+                  "tag": "Params",
+                  "attributes": {
+                    "name": "Params"
+                  },
+                  "children": [
+                    {
+                      "tag": "ParamRange",
+                      "attributes": {
+                        "name": "Max Distance",
+                        "altName": "Distance",
+                        "T": "DOUBLE",
+                        "default": "0.3125",
+                        "value": "0.3125"
+                      },
+                      "children": [
+                        {
+                          "tag": "PhaseSourceStatic",
+                          "attributes": {
+                            "name": "PhaseSourceStatic"
+                          },
+                          "children": []
+                        },
+                        {
+                          "tag": "ValueRange",
+                          "attributes": {
+                            "name": "minMax",
+                            "min": "0",
+                            "max": "0.3125"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "ParamChoice",
+                      "attributes": {
+                        "name": "PlayMode",
+                        "T": "INT32",
+                        "default": "0",
+                        "value": "3",
+                        "storeChoices": "0"
+                      },
+                      "children": []
+                    },
+                    {
+                      "tag": "Param",
+                      "attributes": {
+                        "name": "DurationIsScalable",
+                        "altName": "Duration Changes With In & Out Points",
+                        "T": "BOOL",
+                        "default": "1",
+                        "value": "0"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "Beats_d",
+                  "attributes": {
+                    "name": "Beats_d",
+                    "numManualBeats": "4",
+                    "detectedTempo": "-1"
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ],
+          "duration_sources": [
+            {
+              "tag": "DurationSource",
+              "attributes": {
+                "userDuration": "0.3125"
+              },
+              "children": []
+            }
+          ],
+          "value_ranges": []
+        }
+      },
+      "original_mixer": {
+        "tag": "ChoosableMixer",
+        "attributes": {
+          "name": "Mixer"
+        },
+        "children": [
+          {
+            "tag": "VideoMixerStateID",
+            "attributes": {
+              "uniqueId": "1777095375407"
+            },
+            "children": []
+          },
+          {
+            "tag": "RenderPass",
+            "attributes": {
+              "name": "Alpha",
+              "type": "Alpha",
+              "uniqueTypeId": "A006",
+              "uniqueId": "1777011664486",
+              "baseType": "Mixer"
+            },
+            "children": [
+              {
+                "tag": "Params",
+                "attributes": {
+                  "name": "Params"
+                },
+                "children": [
+                  {
+                    "tag": "ParamRange",
+                    "attributes": {
+                      "name": "Opacity",
+                      "T": "DOUBLE",
+                      "default": "1",
+                      "value": "0.96002320003509500346"
+                    },
+                    "children": [
+                      {
+                        "tag": "PhaseSourceStatic",
+                        "attributes": {
+                          "name": "PhaseSourceStatic"
+                        },
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sourceIndex": 3
+    },
+    {
+      "effect_key": "layer/feedback~1/effect/Blur~1",
+      "current_layer_index": 0,
+      "current_layer_name": "feedback",
+      "current_effect_id": 1788780036860,
+      "name": "Blur",
+      "display_name": "Blur",
+      "name_occurrence_1based": 1,
+      "chain_position_0based_excluding_transform": 1,
+      "original_layer_index": 3,
+      "original_effect_id": "1777011664789",
+      "original_type_id": "A140",
+      "mapping": "ordered effect sequence per merge script; names of full target stack verified",
+      "reused_existing": false,
+      "reference_values_are_merged_saved_values": true,
+      "controls": {
+        "Blur X Distance": {
+          "value_exact": "0.070000000745058063578",
+          "default_exact": "0.050000000745058059692",
+          "xml_tag": "ParamRange",
+          "xml_type": "DOUBLE",
+          "value": 0.07000000074505806,
+          "phase_sources": [
+            {
+              "tag": "PhaseSourceStatic",
+              "attributes": {
+                "name": "PhaseSourceStatic"
+              },
+              "children": []
+            }
+          ],
+          "duration_sources": [],
+          "value_ranges": [],
+          "source_path": "./RenderPass/Params/ParamRange[@name='Blur X Distance']",
+          "current_value": 0.0267525866572923,
+          "current_param_id": 1788823470672
+        },
+        "Blur Y Distance": {
+          "value_exact": "0.070000000745058063578",
+          "default_exact": "0.050000000745058059692",
+          "xml_tag": "ParamRange",
+          "xml_type": "DOUBLE",
+          "value": 0.07000000074505806,
+          "phase_sources": [
+            {
+              "tag": "PhaseSourceStatic",
+              "attributes": {
+                "name": "PhaseSourceStatic"
+              },
+              "children": []
+            }
+          ],
+          "duration_sources": [],
+          "value_ranges": [],
+          "source_path": "./RenderPass/Params/ParamRange[@name='Blur Y Distance']",
+          "current_value": 0.0267525866572923,
+          "current_param_id": 1788823470673
+        },
+        "Quality": {
+          "value_exact": "0.88526584791100548788",
+          "default_exact": "0.15000000596046447754",
+          "xml_tag": "ParamRange",
+          "xml_type": "DOUBLE",
+          "value": 0.8852658479110055,
+          "phase_sources": [
+            {
+              "tag": "PhaseSourceStatic",
+              "attributes": {
+                "name": "PhaseSourceStatic"
+              },
+              "children": []
+            }
+          ],
+          "duration_sources": [],
+          "value_ranges": [],
+          "source_path": "./RenderPass/Params/ParamRange[@name='Quality']",
+          "current_value": 0.0267525866572923,
+          "current_param_id": 1788823470674
+        },
+        "Gaussian": {
+          "value_exact": "0.30072419539741845895",
+          "default_exact": "0.20000000298023223877",
+          "xml_tag": "ParamRange",
+          "xml_type": "DOUBLE",
+          "value": 0.30072419539741846,
+          "phase_sources": [
+            {
+              "tag": "PhaseSourceStatic",
+              "attributes": {
+                "name": "PhaseSourceStatic"
+              },
+              "children": []
+            }
+          ],
+          "duration_sources": [],
+          "value_ranges": [],
+          "source_path": "./RenderPass/Params/ParamRange[@name='Gaussian']",
+          "current_value": 0.0267525866572923,
+          "current_param_id": 1788823470675
+        }
+      },
+      "unknown_controls": [
+        "Opacity",
+        "Blur"
+      ],
+      "original_wrapper_controls": {
+        "Bypassed": {
+          "value_exact": "1",
+          "default_exact": "0",
+          "xml_tag": "Param",
+          "xml_type": "BOOL",
+          "value": true,
+          "phase_sources": [],
+          "duration_sources": [],
+          "value_ranges": []
+        }
+      },
+      "original_mixer": {
+        "tag": "ChoosableMixer",
+        "attributes": {
+          "name": "Mixer"
+        },
+        "children": [
+          {
+            "tag": "VideoMixerStateID",
+            "attributes": {
+              "uniqueId": "1777095375491"
+            },
+            "children": []
+          },
+          {
+            "tag": "RenderPass",
+            "attributes": {
+              "name": "Alpha",
+              "type": "Alpha",
+              "uniqueTypeId": "A006",
+              "uniqueId": "1777011664794",
+              "baseType": "Mixer"
+            },
+            "children": []
+          }
+        ]
+      },
+      "sourceIndex": 3
+    },
+    {
+      "effect_key": "layer/feedback~1/effect/Sharpen~1",
+      "current_layer_index": 0,
+      "current_layer_name": "feedback",
+      "current_effect_id": 1788780036864,
+      "name": "Sharpen",
+      "display_name": "Sharpen",
+      "name_occurrence_1based": 1,
+      "chain_position_0based_excluding_transform": 2,
+      "original_layer_index": 3,
+      "original_effect_id": "1777011664805",
+      "original_type_id": "89209435418021",
+      "mapping": "ordered effect sequence per merge script; names of full target stack verified",
+      "reused_existing": false,
+      "reference_values_are_merged_saved_values": true,
+      "controls": {
+        "Strength": {
+          "value_exact": "1",
+          "default_exact": "0.5",
+          "xml_tag": "ParamRange",
+          "xml_type": "DOUBLE",
+          "value": 1.0,
+          "phase_sources": [
+            {
+              "tag": "PhaseSourceStatic",
+              "attributes": {
+                "name": "PhaseSourceStatic"
+              },
+              "children": []
+            }
+          ],
+          "duration_sources": [],
+          "value_ranges": [],
+          "source_path": "./RenderPass/Params/ParamRange[@name='Strength']",
+          "current_value": 0.0267525866572923,
+          "current_param_id": 1788823470690
+        },
+        "Distance": {
+          "value_exact": "25",
+          "default_exact": "1",
+          "xml_tag": "ParamRange",
+          "xml_type": "DOUBLE",
+          "value": 25.0,
+          "phase_sources": [
+            {
+              "tag": "PhaseSourceStatic",
+              "attributes": {
+                "name": "PhaseSourceStatic"
+              },
+              "children": []
+            }
+          ],
+          "duration_sources": [],
+          "value_ranges": [],
+          "source_path": "./RenderPass/Params/ParamRange[@name='Distance']",
+          "current_value": 2.0,
+          "current_param_id": 1788823470691
+        }
+      },
+      "unknown_controls": [
+        "Opacity"
+      ],
+      "original_wrapper_controls": {
+        "Bypassed": {
+          "value_exact": "1",
+          "default_exact": "0",
+          "xml_tag": "Param",
+          "xml_type": "BOOL",
+          "value": true,
+          "phase_sources": [],
+          "duration_sources": [],
+          "value_ranges": []
+        }
+      },
+      "original_mixer": {
+        "tag": "ChoosableMixer",
+        "attributes": {
+          "name": "Mixer"
+        },
+        "children": [
+          {
+            "tag": "VideoMixerStateID",
+            "attributes": {
+              "uniqueId": "1777095375507"
+            },
+            "children": []
+          },
+          {
+            "tag": "RenderPass",
+            "attributes": {
+              "name": "Alpha",
+              "type": "Alpha",
+              "uniqueTypeId": "A006",
+              "uniqueId": "1777011664810",
+              "baseType": "Mixer"
+            },
+            "children": []
+          }
+        ]
+      },
+      "sourceIndex": 3
+    },
+    {
+      "effect_key": "layer/feedback~1/effect/Kaleidoscope~1",
+      "current_layer_index": 0,
+      "current_layer_name": "feedback",
+      "current_effect_id": 1788780036868,
+      "name": "Kaleidoscope",
+      "display_name": "Kaleidoscope",
+      "name_occurrence_1based": 1,
+      "chain_position_0based_excluding_transform": 3,
+      "original_layer_index": 3,
+      "original_effect_id": "1778058561526",
+      "original_type_id": "sy02",
+      "mapping": "ordered effect sequence per merge script; names of full target stack verified",
+      "reused_existing": false,
+      "reference_values_are_merged_saved_values": true,
+      "controls": {
+        "Angles": {
+          "value_exact": "0.35126582278481011112",
+          "default_exact": "0.30000001192092895508",
+          "xml_tag": "ParamRange",
+          "xml_type": "DOUBLE",
+          "value": 0.3512658227848101,
+          "phase_sources": [
+            {
+              "tag": "PhaseSourceStatic",
+              "attributes": {
+                "name": "PhaseSourceStatic"
+              },
+              "children": []
+            }
+          ],
+          "duration_sources": [],
+          "value_ranges": [],
+          "source_path": "./RenderPass/Params/ParamRange[@name='Angles']",
+          "current_value": 0.0267525866572923,
+          "current_param_id": 1788823470706
+        },
+        "Zoom": {
+          "value_exact": "1",
+          "default_exact": "0.5",
+          "xml_tag": "ParamRange",
+          "xml_type": "DOUBLE",
+          "value": 1.0,
+          "phase_sources": [
+            {
+              "tag": "PhaseSourceStatic",
+              "attributes": {
+                "name": "PhaseSourceStatic"
+              },
+              "children": []
+            }
+          ],
+          "duration_sources": [],
+          "value_ranges": [],
+          "source_path": "./RenderPass/Params/ParamRange[@name='Zoom']",
+          "current_value": 0.0267525866572923,
+          "current_param_id": 1788823470708
+        },
+        "Input Rotation": {
+          "value_exact": "0.61741692083391475077",
+          "default_exact": "0",
+          "xml_tag": "ParamRange",
+          "xml_type": "DOUBLE",
+          "value": 0.6174169208339148,
+          "phase_sources": [
+            {
+              "tag": "PhaseSourceTimeline",
+              "attributes": {
+                "name": "PhaseSourceTimeline",
+                "phase": "0.61741692083391475077",
+                "hardSynced": "0"
+              },
+              "children": [
+                {
+                  "tag": "Params",
+                  "attributes": {
+                    "name": "Params"
+                  },
+                  "children": [
+                    {
+                      "tag": "ParamRange",
+                      "attributes": {
+                        "name": "Max Distance",
+                        "altName": "Distance",
+                        "T": "DOUBLE",
+                        "default": "2",
+                        "value": "2"
+                      },
+                      "children": [
+                        {
+                          "tag": "PhaseSourceStatic",
+                          "attributes": {
+                            "name": "PhaseSourceStatic"
+                          },
+                          "children": []
+                        },
+                        {
+                          "tag": "ValueRange",
+                          "attributes": {
+                            "name": "minMax",
+                            "min": "0",
+                            "max": "40"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "Param",
+                      "attributes": {
+                        "name": "DurationIsScalable",
+                        "altName": "Duration Changes With In & Out Points",
+                        "T": "BOOL",
+                        "default": "1",
+                        "value": "0"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "Beats_d",
+                  "attributes": {
+                    "name": "Beats_d",
+                    "numManualBeats": "4",
+                    "detectedTempo": "-1"
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ],
+          "duration_sources": [
+            {
+              "tag": "DurationSource",
+              "attributes": {
+                "userDuration": "40"
+              },
+              "children": []
+            }
+          ],
+          "value_ranges": [],
+          "source_path": "./RenderPass/Params/ParamRange[@name='Input Rotation']",
+          "animation_flags_exact": "9223372036854775811",
+          "current_value": 0.0267525866572923,
+          "current_param_id": 1788823470709
+        }
+      },
+      "unknown_controls": [
+        "Opacity",
+        "Rotation",
+        "Black BG"
+      ],
+      "original_wrapper_controls": {
+        "Bypassed": {
+          "value_exact": "1",
+          "default_exact": "0",
+          "xml_tag": "Param",
+          "xml_type": "BOOL",
+          "value": true,
+          "phase_sources": [],
+          "duration_sources": [],
+          "value_ranges": []
+        }
+      },
+      "original_mixer": {
+        "tag": "ChoosableMixer",
+        "attributes": {
+          "name": "Mixer"
+        },
+        "children": [
+          {
+            "tag": "VideoMixerStateID",
+            "attributes": {
+              "uniqueId": "1778058561531"
+            },
+            "children": []
+          },
+          {
+            "tag": "RenderPass",
+            "attributes": {
+              "name": "Alpha",
+              "type": "Alpha",
+              "uniqueTypeId": "A006",
+              "uniqueId": "1778058561533",
+              "baseType": "Mixer"
+            },
+            "children": []
+          }
+        ]
+      },
+      "sourceIndex": 3
+    },
+    {
+      "effect_key": "layer/feedback~1/effect/Mirror~1",
+      "current_layer_index": 0,
+      "current_layer_name": "feedback",
+      "current_effect_id": 1788780036873,
+      "name": "Mirror",
+      "display_name": "Mirror X",
+      "name_occurrence_1based": 1,
+      "chain_position_0based_excluding_transform": 4,
+      "original_layer_index": 3,
+      "original_effect_id": "1778058563527",
+      "original_type_id": "A108",
+      "mapping": "ordered effect sequence per merge script; names of full target stack verified",
+      "reused_existing": false,
+      "reference_values_are_merged_saved_values": true,
+      "controls": {
+        "X": {
+          "value_exact": "0.5",
+          "default_exact": "0",
+          "xml_tag": "ParamRange",
+          "xml_type": "DOUBLE",
+          "value": 0.5,
+          "phase_sources": [
+            {
+              "tag": "PhaseSourceStatic",
+              "attributes": {
+                "name": "PhaseSourceStatic"
+              },
+              "children": []
+            }
+          ],
+          "duration_sources": [],
+          "value_ranges": [],
+          "source_path": "./RenderPass/Params/ParamRange[@name='X']",
+          "current_value": 0.0267525866572923,
+          "current_param_id": 1788823470736
+        }
+      },
+      "unknown_controls": [
+        "Opacity",
+        "Y",
+        "In / Out",
+        "Flip X",
+        "Flip Y",
+        "Black BG"
+      ],
+      "original_wrapper_controls": {
+        "Bypassed": {
+          "value_exact": "1",
+          "default_exact": "0",
+          "xml_tag": "Param",
+          "xml_type": "BOOL",
+          "value": true,
+          "phase_sources": [],
+          "duration_sources": [],
+          "value_ranges": []
+        }
+      },
+      "original_mixer": {
+        "tag": "ChoosableMixer",
+        "attributes": {
+          "name": "Mixer"
+        },
+        "children": [
+          {
+            "tag": "VideoMixerStateID",
+            "attributes": {
+              "uniqueId": "1778058563532"
+            },
+            "children": []
+          },
+          {
+            "tag": "RenderPass",
+            "attributes": {
+              "name": "Alpha",
+              "type": "Alpha",
+              "uniqueTypeId": "A006",
+              "uniqueId": "1778058563534",
+              "baseType": "Mixer"
+            },
+            "children": []
+          }
+        ]
+      },
+      "sourceIndex": 3
+    },
+    {
+      "effect_key": "layer/feedback~1/effect/Mirror~2",
+      "current_layer_index": 0,
+      "current_layer_name": "feedback",
+      "current_effect_id": 1788780036877,
+      "name": "Mirror",
+      "display_name": "Mirror Y",
+      "name_occurrence_1based": 2,
+      "chain_position_0based_excluding_transform": 5,
+      "original_layer_index": 3,
+      "original_effect_id": "1778058565505",
+      "original_type_id": "A108",
+      "mapping": "ordered effect sequence per merge script; names of full target stack verified",
+      "reused_existing": false,
+      "reference_values_are_merged_saved_values": true,
+      "controls": {
+        "Y": {
+          "value_exact": "0.5",
+          "default_exact": "0",
+          "xml_tag": "ParamRange",
+          "xml_type": "DOUBLE",
+          "value": 0.5,
+          "phase_sources": [
+            {
+              "tag": "PhaseSourceStatic",
+              "attributes": {
+                "name": "PhaseSourceStatic"
+              },
+              "children": []
+            }
+          ],
+          "duration_sources": [],
+          "value_ranges": [],
+          "source_path": "./RenderPass/Params/ParamRange[@name='Y']",
+          "current_value": 0.0267525866572923,
+          "current_param_id": 1788823470757
+        }
+      },
+      "unknown_controls": [
+        "Opacity",
+        "X",
+        "In / Out",
+        "Flip X",
+        "Flip Y",
+        "Black BG"
+      ],
+      "original_wrapper_controls": {
+        "Bypassed": {
+          "value_exact": "1",
+          "default_exact": "0",
+          "xml_tag": "Param",
+          "xml_type": "BOOL",
+          "value": true,
+          "phase_sources": [],
+          "duration_sources": [],
+          "value_ranges": []
+        }
+      },
+      "original_mixer": {
+        "tag": "ChoosableMixer",
+        "attributes": {
+          "name": "Mixer"
+        },
+        "children": [
+          {
+            "tag": "VideoMixerStateID",
+            "attributes": {
+              "uniqueId": "1778058565507"
+            },
+            "children": []
+          },
+          {
+            "tag": "RenderPass",
+            "attributes": {
+              "name": "Alpha",
+              "type": "Alpha",
+              "uniqueTypeId": "A006",
+              "uniqueId": "1778058565508",
+              "baseType": "Mixer"
+            },
+            "children": []
+          }
+        ]
+      },
+      "sourceIndex": 3
+    },
+    {
+      "effect_key": "layer/feedback~1/effect/Mirror~3",
+      "current_layer_index": 0,
+      "current_layer_name": "feedback",
+      "current_effect_id": 1788780036881,
+      "name": "Mirror",
+      "display_name": "Mirror",
+      "name_occurrence_1based": 3,
+      "chain_position_0based_excluding_transform": 6,
+      "original_layer_index": 3,
+      "original_effect_id": "1778049547126",
+      "original_type_id": "A108",
+      "mapping": "ordered effect sequence per merge script; names of full target stack verified",
+      "reused_existing": false,
+      "reference_values_are_merged_saved_values": true,
+      "controls": {
+        "X": {
+          "value_exact": "0.5",
+          "default_exact": "0",
+          "xml_tag": "ParamRange",
+          "xml_type": "DOUBLE",
+          "value": 0.5,
+          "phase_sources": [
+            {
+              "tag": "PhaseSourceStatic",
+              "attributes": {
+                "name": "PhaseSourceStatic"
+              },
+              "children": []
+            }
+          ],
+          "duration_sources": [],
+          "value_ranges": [],
+          "source_path": "./RenderPass/Params/ParamRange[@name='X']",
+          "current_value": 0.0267525866572923,
+          "current_param_id": 1788823470776
+        },
+        "Y": {
+          "value_exact": "0.5",
+          "default_exact": "0",
+          "xml_tag": "ParamRange",
+          "xml_type": "DOUBLE",
+          "value": 0.5,
+          "phase_sources": [
+            {
+              "tag": "PhaseSourceStatic",
+              "attributes": {
+                "name": "PhaseSourceStatic"
+              },
+              "children": []
+            }
+          ],
+          "duration_sources": [],
+          "value_ranges": [],
+          "source_path": "./RenderPass/Params/ParamRange[@name='Y']",
+          "current_value": 0.0267525866572923,
+          "current_param_id": 1788823470777
+        },
+        "In / Out": {
+          "value_exact": "0.78406712015481694333",
+          "default_exact": "1",
+          "xml_tag": "ParamRange",
+          "xml_type": "DOUBLE",
+          "value": 0.7840671201548169,
+          "phase_sources": [
+            {
+              "tag": "PhaseSourceTimeline",
+              "attributes": {
+                "name": "PhaseSourceTimeline",
+                "phase": "0.78406712015481694333"
+              },
+              "children": [
+                {
+                  "tag": "Params",
+                  "attributes": {
+                    "name": "Params"
+                  },
+                  "children": [
+                    {
+                      "tag": "ParamRange",
+                      "attributes": {
+                        "name": "Speed",
+                        "T": "DOUBLE",
+                        "default": "1",
+                        "value": "0.65874306197113963179"
+                      },
+                      "children": [
+                        {
+                          "tag": "PhaseSourceStatic",
+                          "attributes": {
+                            "name": "PhaseSourceStatic"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "ParamRange",
+                      "attributes": {
+                        "name": "Max Distance",
+                        "altName": "Distance",
+                        "T": "DOUBLE",
+                        "default": "2",
+                        "value": "2"
+                      },
+                      "children": [
+                        {
+                          "tag": "PhaseSourceStatic",
+                          "attributes": {
+                            "name": "PhaseSourceStatic"
+                          },
+                          "children": []
+                        },
+                        {
+                          "tag": "ValueRange",
+                          "attributes": {
+                            "name": "minMax",
+                            "min": "0",
+                            "max": "10"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "ParamChoice",
+                      "attributes": {
+                        "name": "PlayDirection",
+                        "T": "INT32",
+                        "default": "1",
+                        "value": "0",
+                        "storeChoices": "0"
+                      },
+                      "children": []
+                    },
+                    {
+                      "tag": "ParamChoice",
+                      "attributes": {
+                        "name": "PlayMode",
+                        "T": "INT32",
+                        "default": "0",
+                        "value": "1",
+                        "storeChoices": "0"
+                      },
+                      "children": []
+                    },
+                    {
+                      "tag": "Param",
+                      "attributes": {
+                        "name": "DurationIsScalable",
+                        "altName": "Duration Changes With In & Out Points",
+                        "T": "BOOL",
+                        "default": "1",
+                        "value": "0"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "Beats_d",
+                  "attributes": {
+                    "name": "Beats_d",
+                    "numManualBeats": "4",
+                    "detectedTempo": "-1"
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ],
+          "duration_sources": [
+            {
+              "tag": "DurationSource",
+              "attributes": {
+                "userDuration": "10"
+              },
+              "children": []
+            }
+          ],
+          "value_ranges": [],
+          "source_path": "./RenderPass/Params/ParamRange[@name='In / Out']",
+          "animation_flags_exact": "9223372036854775811",
+          "current_value": 0.0267525866572923,
+          "current_param_id": 1788823470778
+        }
+      },
+      "unknown_controls": [
+        "Opacity",
+        "Flip X",
+        "Flip Y",
+        "Black BG"
+      ],
+      "original_wrapper_controls": {
+        "Bypassed": {
+          "value_exact": "1",
+          "default_exact": "0",
+          "xml_tag": "Param",
+          "xml_type": "BOOL",
+          "value": true,
+          "phase_sources": [],
+          "duration_sources": [],
+          "value_ranges": []
+        }
+      },
+      "original_mixer": {
+        "tag": "ChoosableMixer",
+        "attributes": {
+          "name": "Mixer"
+        },
+        "children": [
+          {
+            "tag": "Params",
+            "attributes": {
+              "name": "Params"
+            },
+            "children": [
+              {
+                "tag": "ParamChoice",
+                "attributes": {
+                  "name": "Blend Mode",
+                  "T": "UINT64",
+                  "default": "67464115",
+                  "value": "67464114",
+                  "storeChoices": "0"
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "tag": "VideoMixerStateID",
+            "attributes": {
+              "uniqueId": "1778049547129"
+            },
+            "children": []
+          },
+          {
+            "tag": "RenderPass",
+            "attributes": {
+              "name": "Add",
+              "type": "Add",
+              "uniqueTypeId": "A005",
+              "uniqueId": "1778049547130",
+              "baseType": "Mixer"
+            },
+            "children": []
+          }
+        ]
+      },
+      "sourceIndex": 3
+    },
+    {
+      "effect_key": "layer/feedback~1/effect/Mirror~4",
+      "current_layer_index": 0,
+      "current_layer_name": "feedback",
+      "current_effect_id": 1788780036886,
+      "name": "Mirror",
+      "display_name": "Mirror",
+      "name_occurrence_1based": 4,
+      "chain_position_0based_excluding_transform": 7,
+      "original_layer_index": 3,
+      "original_effect_id": "1777011664755",
+      "original_type_id": "A108",
+      "mapping": "ordered effect sequence per merge script; names of full target stack verified",
+      "reused_existing": false,
+      "reference_values_are_merged_saved_values": true,
+      "controls": {
+        "X": {
+          "value_exact": "0.39138973611133848207",
+          "default_exact": "0",
+          "xml_tag": "ParamRange",
+          "xml_type": "DOUBLE",
+          "value": 0.3913897361113385,
+          "phase_sources": [
+            {
+              "tag": "PhaseSourceTimeline",
+              "attributes": {
+                "name": "PhaseSourceTimeline",
+                "phase": "0.39138973611133848207",
+                "hardSynced": "0"
+              },
+              "children": [
+                {
+                  "tag": "Params",
+                  "attributes": {
+                    "name": "Params"
+                  },
+                  "children": [
+                    {
+                      "tag": "ParamRange",
+                      "attributes": {
+                        "name": "Max Distance",
+                        "altName": "Distance",
+                        "T": "DOUBLE",
+                        "default": "2",
+                        "value": "2"
+                      },
+                      "children": [
+                        {
+                          "tag": "PhaseSourceStatic",
+                          "attributes": {
+                            "name": "PhaseSourceStatic"
+                          },
+                          "children": []
+                        },
+                        {
+                          "tag": "ValueRange",
+                          "attributes": {
+                            "name": "minMax",
+                            "min": "0",
+                            "max": "11.999999999999998224"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "ParamChoice",
+                      "attributes": {
+                        "name": "PlayMode",
+                        "T": "INT32",
+                        "default": "0",
+                        "value": "1",
+                        "storeChoices": "0"
+                      },
+                      "children": []
+                    },
+                    {
+                      "tag": "Param",
+                      "attributes": {
+                        "name": "DurationIsScalable",
+                        "altName": "Duration Changes With In & Out Points",
+                        "T": "BOOL",
+                        "default": "1",
+                        "value": "0"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "Beats_d",
+                  "attributes": {
+                    "name": "Beats_d",
+                    "numManualBeats": "4",
+                    "detectedTempo": "-1"
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ],
+          "duration_sources": [
+            {
+              "tag": "DurationSource",
+              "attributes": {
+                "userDuration": "11.999999999999998224"
+              },
+              "children": []
+            }
+          ],
+          "value_ranges": [],
+          "source_path": "./RenderPass/Params/ParamRange[@name='X']",
+          "animation_flags_exact": "9223372036854775811",
+          "current_value": 0.0267525866572923,
+          "current_param_id": 1788823470807
+        },
+        "Y": {
+          "value_exact": "0.54654725595331921095",
+          "default_exact": "0",
+          "xml_tag": "ParamRange",
+          "xml_type": "DOUBLE",
+          "value": 0.5465472559533192,
+          "phase_sources": [
+            {
+              "tag": "PhaseSourceTimeline",
+              "attributes": {
+                "name": "PhaseSourceTimeline",
+                "phase": "0.54654725595331921095",
+                "hardSynced": "0"
+              },
+              "children": [
+                {
+                  "tag": "Params",
+                  "attributes": {
+                    "name": "Params"
+                  },
+                  "children": [
+                    {
+                      "tag": "ParamRange",
+                      "attributes": {
+                        "name": "Max Distance",
+                        "altName": "Distance",
+                        "T": "DOUBLE",
+                        "default": "2",
+                        "value": "2"
+                      },
+                      "children": [
+                        {
+                          "tag": "PhaseSourceStatic",
+                          "attributes": {
+                            "name": "PhaseSourceStatic"
+                          },
+                          "children": []
+                        },
+                        {
+                          "tag": "ValueRange",
+                          "attributes": {
+                            "name": "minMax",
+                            "min": "0",
+                            "max": "28"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "ParamChoice",
+                      "attributes": {
+                        "name": "PlayDirection",
+                        "T": "INT32",
+                        "default": "2",
+                        "value": "0",
+                        "storeChoices": "0"
+                      },
+                      "children": []
+                    },
+                    {
+                      "tag": "ParamChoice",
+                      "attributes": {
+                        "name": "PlayMode",
+                        "T": "INT32",
+                        "default": "0",
+                        "value": "1",
+                        "storeChoices": "0"
+                      },
+                      "children": []
+                    },
+                    {
+                      "tag": "Param",
+                      "attributes": {
+                        "name": "DurationIsScalable",
+                        "altName": "Duration Changes With In & Out Points",
+                        "T": "BOOL",
+                        "default": "1",
+                        "value": "0"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "Beats_d",
+                  "attributes": {
+                    "name": "Beats_d",
+                    "numManualBeats": "4",
+                    "detectedTempo": "-1"
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ],
+          "duration_sources": [
+            {
+              "tag": "DurationSource",
+              "attributes": {
+                "userDuration": "28"
+              },
+              "children": []
+            }
+          ],
+          "value_ranges": [],
+          "source_path": "./RenderPass/Params/ParamRange[@name='Y']",
+          "animation_flags_exact": "9223372036854775811",
+          "current_value": 0.0267525866572923,
+          "current_param_id": 1788823470808
+        },
+        "In / Out": {
+          "value_exact": "0.39203356007817380391",
+          "default_exact": "1",
+          "xml_tag": "ParamRange",
+          "xml_type": "DOUBLE",
+          "value": 0.3920335600781738,
+          "phase_sources": [
+            {
+              "tag": "PhaseSourceTimeline",
+              "attributes": {
+                "name": "PhaseSourceTimeline",
+                "phase": "0.39203356007817380391"
+              },
+              "children": [
+                {
+                  "tag": "Params",
+                  "attributes": {
+                    "name": "Params"
+                  },
+                  "children": [
+                    {
+                      "tag": "ParamRange",
+                      "attributes": {
+                        "name": "Speed",
+                        "T": "DOUBLE",
+                        "default": "1",
+                        "value": "0.65874306197113963179"
+                      },
+                      "children": [
+                        {
+                          "tag": "PhaseSourceStatic",
+                          "attributes": {
+                            "name": "PhaseSourceStatic"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "ParamRange",
+                      "attributes": {
+                        "name": "Max Distance",
+                        "altName": "Distance",
+                        "T": "DOUBLE",
+                        "default": "2",
+                        "value": "2"
+                      },
+                      "children": [
+                        {
+                          "tag": "PhaseSourceStatic",
+                          "attributes": {
+                            "name": "PhaseSourceStatic"
+                          },
+                          "children": []
+                        },
+                        {
+                          "tag": "ValueRange",
+                          "attributes": {
+                            "name": "minMax",
+                            "min": "0",
+                            "max": "20"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "ParamChoice",
+                      "attributes": {
+                        "name": "PlayDirection",
+                        "T": "INT32",
+                        "default": "1",
+                        "value": "0",
+                        "storeChoices": "0"
+                      },
+                      "children": []
+                    },
+                    {
+                      "tag": "ParamChoice",
+                      "attributes": {
+                        "name": "PlayMode",
+                        "T": "INT32",
+                        "default": "0",
+                        "value": "1",
+                        "storeChoices": "0"
+                      },
+                      "children": []
+                    },
+                    {
+                      "tag": "Param",
+                      "attributes": {
+                        "name": "DurationIsScalable",
+                        "altName": "Duration Changes With In & Out Points",
+                        "T": "BOOL",
+                        "default": "1",
+                        "value": "0"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "Beats_d",
+                  "attributes": {
+                    "name": "Beats_d",
+                    "numManualBeats": "4",
+                    "detectedTempo": "-1"
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ],
+          "duration_sources": [
+            {
+              "tag": "DurationSource",
+              "attributes": {
+                "userDuration": "20"
+              },
+              "children": []
+            }
+          ],
+          "value_ranges": [],
+          "source_path": "./RenderPass/Params/ParamRange[@name='In / Out']",
+          "animation_flags_exact": "9223372036854775811",
+          "current_value": 0.0267525866572923,
+          "current_param_id": 1788823470809
+        }
+      },
+      "unknown_controls": [
+        "Opacity",
+        "Flip X",
+        "Flip Y",
+        "Black BG"
+      ],
+      "original_wrapper_controls": {
+        "Bypassed": {
+          "value_exact": "1",
+          "default_exact": "0",
+          "xml_tag": "Param",
+          "xml_type": "BOOL",
+          "value": true,
+          "phase_sources": [],
+          "duration_sources": [],
+          "value_ranges": []
+        }
+      },
+      "original_mixer": {
+        "tag": "ChoosableMixer",
+        "attributes": {
+          "name": "Mixer"
+        },
+        "children": [
+          {
+            "tag": "Params",
+            "attributes": {
+              "name": "Params"
+            },
+            "children": [
+              {
+                "tag": "ParamChoice",
+                "attributes": {
+                  "name": "Blend Mode",
+                  "T": "UINT64",
+                  "default": "67464115",
+                  "value": "67464114",
+                  "storeChoices": "0"
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "tag": "VideoMixerStateID",
+            "attributes": {
+              "uniqueId": "1777095375538"
+            },
+            "children": []
+          },
+          {
+            "tag": "RenderPass",
+            "attributes": {
+              "name": "Add",
+              "type": "Add",
+              "uniqueTypeId": "A005",
+              "uniqueId": "1777011664777",
+              "baseType": "Mixer"
+            },
+            "children": []
+          }
+        ]
+      },
+      "sourceIndex": 3
+    },
+    {
+      "effect_key": "layer/sculpt~1/effect/InvertRGB~1",
+      "current_layer_index": 1,
+      "current_layer_name": "sculpt",
+      "current_effect_id": 1788780036891,
+      "name": "InvertRGB",
+      "display_name": "Invert RGB",
+      "name_occurrence_1based": 1,
+      "chain_position_0based_excluding_transform": 0,
+      "original_layer_index": 0,
+      "original_effect_id": "1777011666111",
+      "original_type_id": "A105",
+      "mapping": "ordered effect sequence per merge script; names of full target stack verified",
+      "reused_existing": false,
+      "reference_values_are_merged_saved_values": true,
+      "controls": {
+        "Opacity": {
+          "value_exact": "0",
+          "default_exact": "1",
+          "xml_tag": "ParamRange",
+          "xml_type": "DOUBLE",
+          "value": 0.0,
+          "phase_sources": [
+            {
+              "tag": "PhaseSourceTimeline",
+              "attributes": {
+                "name": "PhaseSourceTimeline",
+                "phase": "0",
+                "hardSynced": "0"
+              },
+              "children": [
+                {
+                  "tag": "Params",
+                  "attributes": {
+                    "name": "Params"
+                  },
+                  "children": [
+                    {
+                      "tag": "ParamRange",
+                      "attributes": {
+                        "name": "Max Distance",
+                        "altName": "Distance",
+                        "T": "DOUBLE",
+                        "default": "0.3125",
+                        "value": "0.3125"
+                      },
+                      "children": [
+                        {
+                          "tag": "PhaseSourceStatic",
+                          "attributes": {
+                            "name": "PhaseSourceStatic"
+                          },
+                          "children": []
+                        },
+                        {
+                          "tag": "ValueRange",
+                          "attributes": {
+                            "name": "minMax",
+                            "min": "0",
+                            "max": "0.3125"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "ParamChoice",
+                      "attributes": {
+                        "name": "PlayDirection",
+                        "T": "INT32",
+                        "default": "2",
+                        "value": "0",
+                        "storeChoices": "0"
+                      },
+                      "children": []
+                    },
+                    {
+                      "tag": "ParamChoice",
+                      "attributes": {
+                        "name": "PlayMode",
+                        "T": "INT32",
+                        "default": "0",
+                        "value": "3",
+                        "storeChoices": "0"
+                      },
+                      "children": []
+                    },
+                    {
+                      "tag": "Param",
+                      "attributes": {
+                        "name": "DurationIsScalable",
+                        "altName": "Duration Changes With In & Out Points",
+                        "T": "BOOL",
+                        "default": "1",
+                        "value": "0"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "Beats_d",
+                  "attributes": {
+                    "name": "Beats_d",
+                    "numManualBeats": "4",
+                    "detectedTempo": "-1"
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ],
+          "duration_sources": [
+            {
+              "tag": "DurationSource",
+              "attributes": {
+                "userDuration": "0.3125"
+              },
+              "children": []
+            }
+          ],
+          "value_ranges": [],
+          "source_path": "./Params/ParamRange[@name='Opacity']",
+          "animation_flags_exact": "9223372036854775811",
+          "current_value": 1.0,
+          "current_param_id": 1788823470890
+        }
+      },
+      "unknown_controls": [
+        "R",
+        "G",
+        "B",
+        "A"
+      ],
+      "original_wrapper_controls": {
+        "Opacity": {
+          "value_exact": "0",
+          "default_exact": "1",
+          "xml_tag": "ParamRange",
+          "xml_type": "DOUBLE",
+          "value": 0.0,
+          "phase_sources": [
+            {
+              "tag": "PhaseSourceTimeline",
+              "attributes": {
+                "name": "PhaseSourceTimeline",
+                "phase": "0",
+                "hardSynced": "0"
+              },
+              "children": [
+                {
+                  "tag": "Params",
+                  "attributes": {
+                    "name": "Params"
+                  },
+                  "children": [
+                    {
+                      "tag": "ParamRange",
+                      "attributes": {
+                        "name": "Max Distance",
+                        "altName": "Distance",
+                        "T": "DOUBLE",
+                        "default": "0.3125",
+                        "value": "0.3125"
+                      },
+                      "children": [
+                        {
+                          "tag": "PhaseSourceStatic",
+                          "attributes": {
+                            "name": "PhaseSourceStatic"
+                          },
+                          "children": []
+                        },
+                        {
+                          "tag": "ValueRange",
+                          "attributes": {
+                            "name": "minMax",
+                            "min": "0",
+                            "max": "0.3125"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "ParamChoice",
+                      "attributes": {
+                        "name": "PlayDirection",
+                        "T": "INT32",
+                        "default": "2",
+                        "value": "0",
+                        "storeChoices": "0"
+                      },
+                      "children": []
+                    },
+                    {
+                      "tag": "ParamChoice",
+                      "attributes": {
+                        "name": "PlayMode",
+                        "T": "INT32",
+                        "default": "0",
+                        "value": "3",
+                        "storeChoices": "0"
+                      },
+                      "children": []
+                    },
+                    {
+                      "tag": "Param",
+                      "attributes": {
+                        "name": "DurationIsScalable",
+                        "altName": "Duration Changes With In & Out Points",
+                        "T": "BOOL",
+                        "default": "1",
+                        "value": "0"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "Beats_d",
+                  "attributes": {
+                    "name": "Beats_d",
+                    "numManualBeats": "4",
+                    "detectedTempo": "-1"
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ],
+          "duration_sources": [
+            {
+              "tag": "DurationSource",
+              "attributes": {
+                "userDuration": "0.3125"
+              },
+              "children": []
+            }
+          ],
+          "value_ranges": []
+        }
+      },
+      "original_mixer": {
+        "tag": "ChoosableMixer",
+        "attributes": {
+          "name": "Mixer"
+        },
+        "children": [
+          {
+            "tag": "VideoMixerStateID",
+            "attributes": {
+              "uniqueId": "1777095375131"
+            },
+            "children": []
+          },
+          {
+            "tag": "RenderPass",
+            "attributes": {
+              "name": "Alpha",
+              "type": "Alpha",
+              "uniqueTypeId": "A006",
+              "uniqueId": "1777011666116",
+              "baseType": "Mixer"
+            },
+            "children": [
+              {
+                "tag": "Params",
+                "attributes": {
+                  "name": "Params"
+                },
+                "children": [
+                  {
+                    "tag": "ParamRange",
+                    "attributes": {
+                      "name": "Opacity",
+                      "T": "DOUBLE",
+                      "default": "1",
+                      "value": "0.039961466789245836395"
+                    },
+                    "children": [
+                      {
+                        "tag": "PhaseSourceStatic",
+                        "attributes": {
+                          "name": "PhaseSourceStatic"
+                        },
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sourceIndex": 0
+    },
+    {
+      "effect_key": "layer/sculpt~1/effect/HueRotate~1",
+      "current_layer_index": 1,
+      "current_layer_name": "sculpt",
+      "current_effect_id": 1788780036896,
+      "name": "HueRotate",
+      "display_name": "Hue Rotate",
+      "name_occurrence_1based": 1,
+      "chain_position_0based_excluding_transform": 1,
+      "original_layer_index": 0,
+      "original_effect_id": "1777011666139",
+      "original_type_id": "A128",
+      "mapping": "ordered effect sequence per merge script; names of full target stack verified",
+      "reused_existing": false,
+      "reference_values_are_merged_saved_values": true,
+      "controls": {
+        "Opacity": {
+          "value_exact": "0",
+          "default_exact": "1",
+          "xml_tag": "ParamRange",
+          "xml_type": "DOUBLE",
+          "value": 0.0,
+          "phase_sources": [
+            {
+              "tag": "PhaseSourceStatic",
+              "attributes": {
+                "name": "PhaseSourceStatic"
+              },
+              "children": []
+            }
+          ],
+          "duration_sources": [],
+          "value_ranges": [],
+          "source_path": "./Params/ParamRange[@name='Opacity']",
+          "current_value": 0.0,
+          "current_param_id": 1788823470918
+        },
+        "Hue Rotate": {
+          "value_exact": "0.10525064889086525877",
+          "default_exact": "0",
+          "xml_tag": "ParamRange",
+          "xml_type": "DOUBLE",
+          "value": 0.10525064889086526,
+          "phase_sources": [
+            {
+              "tag": "PhaseSourceTimeline",
+              "attributes": {
+                "name": "PhaseSourceTimeline",
+                "phase": "0.10525064889086525877"
+              },
+              "children": [
+                {
+                  "tag": "Params",
+                  "attributes": {
+                    "name": "Params"
+                  },
+                  "children": [
+                    {
+                      "tag": "ParamRange",
+                      "attributes": {
+                        "name": "Max Distance",
+                        "altName": "Distance",
+                        "T": "DOUBLE",
+                        "default": "4",
+                        "value": "4"
+                      },
+                      "children": [
+                        {
+                          "tag": "PhaseSourceStatic",
+                          "attributes": {
+                            "name": "PhaseSourceStatic"
+                          },
+                          "children": []
+                        },
+                        {
+                          "tag": "ValueRange",
+                          "attributes": {
+                            "name": "minMax",
+                            "min": "0",
+                            "max": "4"
+                          },
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "Beats_d",
+                  "attributes": {
+                    "name": "Beats_d",
+                    "numManualBeats": "4",
+                    "detectedTempo": "-1"
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ],
+          "duration_sources": [
+            {
+              "tag": "DurationSource",
+              "attributes": {
+                "defaultDuration": "4b"
+              },
+              "children": []
+            }
+          ],
+          "value_ranges": [],
+          "source_path": "./RenderPass/Params/ParamRange[@name='Hue Rotate']",
+          "animation_flags_exact": "8",
+          "current_value": 0.0267525866572923,
+          "current_param_id": 1788823470913
+        }
+      },
+      "unknown_controls": [
+        "Hue Scale",
+        "Sat. Scale"
+      ],
+      "original_wrapper_controls": {
+        "Bypassed": {
+          "value_exact": "1",
+          "default_exact": "0",
+          "xml_tag": "Param",
+          "xml_type": "BOOL",
+          "value": true,
+          "phase_sources": [],
+          "duration_sources": [],
+          "value_ranges": []
+        },
+        "Opacity": {
+          "value_exact": "0",
+          "default_exact": "1",
+          "xml_tag": "ParamRange",
+          "xml_type": "DOUBLE",
+          "value": 0.0,
+          "phase_sources": [
+            {
+              "tag": "PhaseSourceStatic",
+              "attributes": {
+                "name": "PhaseSourceStatic"
+              },
+              "children": []
+            }
+          ],
+          "duration_sources": [],
+          "value_ranges": []
+        }
+      },
+      "original_mixer": {
+        "tag": "ChoosableMixer",
+        "attributes": {
+          "name": "Mixer"
+        },
+        "children": [
+          {
+            "tag": "VideoMixerStateID",
+            "attributes": {
+              "uniqueId": "1777095375159"
+            },
+            "children": []
+          },
+          {
+            "tag": "RenderPass",
+            "attributes": {
+              "name": "Alpha",
+              "type": "Alpha",
+              "uniqueTypeId": "A006",
+              "uniqueId": "1777011666144",
+              "baseType": "Mixer"
+            },
+            "children": [
+              {
+                "tag": "Params",
+                "attributes": {
+                  "name": "Params"
+                },
+                "children": [
+                  {
+                    "tag": "ParamRange",
+                    "attributes": {
+                      "name": "Opacity",
+                      "T": "DOUBLE",
+                      "default": "1",
+                      "value": "0.9903702799479167096"
+                    },
+                    "children": [
+                      {
+                        "tag": "PhaseSourceStatic",
+                        "attributes": {
+                          "name": "PhaseSourceStatic"
+                        },
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sourceIndex": 0
+    },
+    {
+      "effect_key": "layer/sculpt~1/effect/InvertRGB~2",
+      "current_layer_index": 1,
+      "current_layer_name": "sculpt",
+      "current_effect_id": 1788780036901,
+      "name": "InvertRGB",
+      "display_name": "Invert RGB",
+      "name_occurrence_1based": 2,
+      "chain_position_0based_excluding_transform": 2,
+      "original_layer_index": 1,
+      "original_effect_id": "1777011665268",
+      "original_type_id": "A105",
+      "mapping": "ordered effect sequence per merge script; names of full target stack verified",
+      "reused_existing": false,
+      "reference_values_are_merged_saved_values": true,
+      "controls": {
+        "A": {
+          "value_exact": "1",
+          "default_exact": "0",
+          "xml_tag": "ParamRange",
+          "xml_type": "DOUBLE",
+          "value": 1.0,
+          "phase_sources": [
+            {
+              "tag": "PhaseSourceStatic",
+              "attributes": {
+                "name": "PhaseSourceStatic"
+              },
+              "children": []
+            }
+          ],
+          "duration_sources": [],
+          "value_ranges": [],
+          "source_path": "./RenderPass/Params/ParamRange[@name='A']",
+          "current_value": 0.0267525866572923,
+          "current_param_id": 1788823470943
+        }
+      },
+      "unknown_controls": [
+        "Opacity",
+        "R",
+        "G",
+        "B"
+      ],
+      "original_wrapper_controls": {
+        "Bypassed": {
+          "value_exact": "1",
+          "default_exact": "0",
+          "xml_tag": "Param",
+          "xml_type": "BOOL",
+          "value": true,
+          "phase_sources": [],
+          "duration_sources": [],
+          "value_ranges": []
+        }
+      },
+      "original_mixer": {
+        "tag": "ChoosableMixer",
+        "attributes": {
+          "name": "Mixer"
+        },
+        "children": [
+          {
+            "tag": "VideoMixerStateID",
+            "attributes": {
+              "uniqueId": "1777095375196"
+            },
+            "children": []
+          },
+          {
+            "tag": "RenderPass",
+            "attributes": {
+              "name": "Alpha",
+              "type": "Alpha",
+              "uniqueTypeId": "A006",
+              "uniqueId": "1777011665273",
+              "baseType": "Mixer"
+            },
+            "children": []
+          }
+        ]
+      },
+      "sourceIndex": 1
+    },
+    {
+      "effect_key": "layer/sculpt~1/effect/DelayRGB~1",
+      "current_layer_index": 1,
+      "current_layer_name": "sculpt",
+      "current_effect_id": 1788780036905,
+      "name": "DelayRGB",
+      "display_name": "Delay RGB",
+      "name_occurrence_1based": 1,
+      "chain_position_0based_excluding_transform": 3,
+      "original_layer_index": 1,
+      "original_effect_id": "1777011665313",
+      "original_type_id": "A152",
+      "mapping": "ordered effect sequence per merge script; names of full target stack verified",
+      "reused_existing": false,
+      "reference_values_are_merged_saved_values": true,
+      "controls": {},
+      "unknown_controls": [
+        "Opacity",
+        "R delay",
+        "G delay",
+        "B delay"
+      ],
+      "original_wrapper_controls": {
+        "Bypassed": {
+          "value_exact": "1",
+          "default_exact": "0",
+          "xml_tag": "Param",
+          "xml_type": "BOOL",
+          "value": true,
+          "phase_sources": [],
+          "duration_sources": [],
+          "value_ranges": []
+        }
+      },
+      "original_mixer": {
+        "tag": "ChoosableMixer",
+        "attributes": {
+          "name": "Mixer"
+        },
+        "children": [
+          {
+            "tag": "VideoMixerStateID",
+            "attributes": {
+              "uniqueId": "1777095375251"
+            },
+            "children": []
+          },
+          {
+            "tag": "RenderPass",
+            "attributes": {
+              "name": "Alpha",
+              "type": "Alpha",
+              "uniqueTypeId": "A006",
+              "uniqueId": "1777011665318",
+              "baseType": "Mixer"
+            },
+            "children": []
+          }
+        ]
+      },
+      "sourceIndex": 1
+    },
+    {
+      "effect_key": "layer/sculpt~1/effect/AutoMask~1",
+      "current_layer_index": 1,
+      "current_layer_name": "sculpt",
+      "current_effect_id": 1788780036909,
+      "name": "AutoMask",
+      "display_name": "Auto Mask",
+      "name_occurrence_1based": 1,
+      "chain_position_0based_excluding_transform": 4,
+      "original_layer_index": 1,
+      "original_effect_id": "1777011666075",
+      "original_type_id": "A120",
+      "mapping": "ordered effect sequence per merge script; names of full target stack verified",
+      "reused_existing": false,
+      "reference_values_are_merged_saved_values": true,
+      "controls": {
+        "Opacity": {
+          "value_exact": "2.2457970771938559005e-05",
+          "default_exact": "1",
+          "xml_tag": "ParamRange",
+          "xml_type": "DOUBLE",
+          "value": 2.245797077193856e-05,
+          "phase_sources": [
+            {
+              "tag": "PhaseSourceStatic",
+              "attributes": {
+                "name": "PhaseSourceStatic"
+              },
+              "children": []
+            }
+          ],
+          "duration_sources": [],
+          "value_ranges": [],
+          "source_path": "./Params/ParamRange[@name='Opacity']",
+          "current_value": 0.0,
+          "current_param_id": 1788823470981
+        },
+        "Contrast": {
+          "value_exact": "1",
+          "default_exact": "0.5",
+          "xml_tag": "ParamRange",
+          "xml_type": "DOUBLE",
+          "value": 1.0,
+          "phase_sources": [
+            {
+              "tag": "PhaseSourceStatic",
+              "attributes": {
+                "name": "PhaseSourceStatic"
+              },
+              "children": []
+            }
+          ],
+          "duration_sources": [],
+          "value_ranges": [],
+          "source_path": "./RenderPass/Params/ParamRange[@name='Contrast']",
+          "current_value": 0.0267525866572923,
+          "current_param_id": 1788823470976
+        }
+      },
+      "unknown_controls": [
+        "Channel",
+        "Invert"
+      ],
+      "original_wrapper_controls": {
+        "Bypassed": {
+          "value_exact": "1",
+          "default_exact": "0",
+          "xml_tag": "Param",
+          "xml_type": "BOOL",
+          "value": true,
+          "phase_sources": [],
+          "duration_sources": [],
+          "value_ranges": []
+        },
+        "Opacity": {
+          "value_exact": "2.2457970771938559005e-05",
+          "default_exact": "1",
+          "xml_tag": "ParamRange",
+          "xml_type": "DOUBLE",
+          "value": 2.245797077193856e-05,
+          "phase_sources": [
+            {
+              "tag": "PhaseSourceStatic",
+              "attributes": {
+                "name": "PhaseSourceStatic"
+              },
+              "children": []
+            }
+          ],
+          "duration_sources": [],
+          "value_ranges": []
+        }
+      },
+      "original_mixer": {
+        "tag": "ChoosableMixer",
+        "attributes": {
+          "name": "Mixer"
+        },
+        "children": [
+          {
+            "tag": "VideoMixerStateID",
+            "attributes": {
+              "uniqueId": "1777095375268"
+            },
+            "children": []
+          },
+          {
+            "tag": "RenderPass",
+            "attributes": {
+              "name": "Alpha",
+              "type": "Alpha",
+              "uniqueTypeId": "A006",
+              "uniqueId": "1777011666080",
+              "baseType": "Mixer"
+            },
+            "children": []
+          }
+        ]
+      },
+      "sourceIndex": 1
+    },
+    {
+      "effect_key": "layer/figure~1/effect/Mirror~1",
+      "current_layer_index": 4,
+      "current_layer_name": "figure",
+      "current_effect_id": 1788150010717,
+      "name": "Mirror",
+      "display_name": "Mirror",
+      "name_occurrence_1based": 1,
+      "chain_position_0based_excluding_transform": 5,
+      "original_layer_index": 5,
+      "original_effect_id": "1777181544941",
+      "original_type_id": "A108",
+      "mapping": "ordered effect sequence per merge script; names of full target stack verified",
+      "reused_existing": true,
+      "reference_values_are_merged_saved_values": false,
+      "controls": {
+        "X": {
+          "value_exact": "0.5",
+          "default_exact": "0",
+          "xml_tag": "ParamRange",
+          "xml_type": "DOUBLE",
+          "value": 0.5,
+          "phase_sources": [
+            {
+              "tag": "PhaseSourceStatic",
+              "attributes": {
+                "name": "PhaseSourceStatic"
+              },
+              "children": []
+            }
+          ],
+          "duration_sources": [],
+          "value_ranges": [],
+          "source_path": "./RenderPass/Params/ParamRange[@name='X']",
+          "current_value": 0.0267525866572923,
+          "current_param_id": 1788823471856
+        },
+        "Flip X": {
+          "value_exact": "1",
+          "default_exact": "0",
+          "xml_tag": "Param",
+          "xml_type": "BOOL",
+          "value": true,
+          "phase_sources": [],
+          "duration_sources": [],
+          "value_ranges": [],
+          "source_path": "./RenderPass/Params/Param[@name='Flip X']",
+          "current_value": true,
+          "current_param_id": 1788823471859
+        }
+      },
+      "unknown_controls": [
+        "Opacity",
+        "Y",
+        "In / Out",
+        "Flip Y",
+        "Black BG"
+      ],
+      "original_wrapper_controls": {},
+      "original_mixer": {
+        "tag": "ChoosableMixer",
+        "attributes": {
+          "name": "Mixer"
+        },
+        "children": [
+          {
+            "tag": "VideoMixerStateID",
+            "attributes": {
+              "uniqueId": "1777181544946"
+            },
+            "children": []
+          },
+          {
+            "tag": "RenderPass",
+            "attributes": {
+              "name": "Alpha",
+              "type": "Alpha",
+              "uniqueTypeId": "A006",
+              "uniqueId": "1777181544948",
+              "baseType": "Mixer"
+            },
+            "children": [
+              {
+                "tag": "Params",
+                "attributes": {
+                  "name": "Params"
+                },
+                "children": [
+                  {
+                    "tag": "ParamRange",
+                    "attributes": {
+                      "name": "Opacity",
+                      "T": "DOUBLE",
+                      "default": "1",
+                      "value": "0.99234408396296203136"
+                    },
+                    "children": [
+                      {
+                        "tag": "PhaseSourceStatic",
+                        "attributes": {
+                          "name": "PhaseSourceStatic"
+                        },
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "caution": "Merge kept existing Soup instance settings; source FM saved values are reference evidence, not the values loaded by the merge.",
+      "sourceIndex": 5
+    },
+    {
+      "effect_key": "layer/figure~1/effect/Mirror~2",
+      "current_layer_index": 4,
+      "current_layer_name": "figure",
+      "current_effect_id": 1788780036968,
+      "name": "Mirror",
+      "display_name": "Mirror Y",
+      "name_occurrence_1based": 2,
+      "chain_position_0based_excluding_transform": 6,
+      "original_layer_index": 5,
+      "original_effect_id": "1778308051779",
+      "original_type_id": "A108",
+      "mapping": "ordered effect sequence per merge script; names of full target stack verified",
+      "reused_existing": false,
+      "reference_values_are_merged_saved_values": true,
+      "controls": {
+        "Y": {
+          "value_exact": "0.5",
+          "default_exact": "0",
+          "xml_tag": "ParamRange",
+          "xml_type": "DOUBLE",
+          "value": 0.5,
+          "phase_sources": [
+            {
+              "tag": "PhaseSourceStatic",
+              "attributes": {
+                "name": "PhaseSourceStatic"
+              },
+              "children": []
+            }
+          ],
+          "duration_sources": [],
+          "value_ranges": [],
+          "source_path": "./RenderPass/Params/ParamRange[@name='Y']",
+          "current_value": 0.0267525866572923,
+          "current_param_id": 1788823471877
+        },
+        "Flip X": {
+          "value_exact": "1",
+          "default_exact": "0",
+          "xml_tag": "Param",
+          "xml_type": "BOOL",
+          "value": true,
+          "phase_sources": [],
+          "duration_sources": [],
+          "value_ranges": [],
+          "source_path": "./RenderPass/Params/Param[@name='Flip X']",
+          "current_value": true,
+          "current_param_id": 1788823471879
+        }
+      },
+      "unknown_controls": [
+        "Opacity",
+        "X",
+        "In / Out",
+        "Flip Y",
+        "Black BG"
+      ],
+      "original_wrapper_controls": {
+        "Bypassed": {
+          "value_exact": "1",
+          "default_exact": "0",
+          "xml_tag": "Param",
+          "xml_type": "BOOL",
+          "value": true,
+          "phase_sources": [],
+          "duration_sources": [],
+          "value_ranges": []
+        }
+      },
+      "original_mixer": {
+        "tag": "ChoosableMixer",
+        "attributes": {
+          "name": "Mixer"
+        },
+        "children": [
+          {
+            "tag": "VideoMixerStateID",
+            "attributes": {
+              "uniqueId": "1778308051781"
+            },
+            "children": []
+          },
+          {
+            "tag": "RenderPass",
+            "attributes": {
+              "name": "Alpha",
+              "type": "Alpha",
+              "uniqueTypeId": "A006",
+              "uniqueId": "1778308051782",
+              "baseType": "Mixer"
+            },
+            "children": []
+          }
+        ]
+      },
+      "sourceIndex": 5
+    },
+    {
+      "effect_key": "layer/figure~1/effect/Mirror~3",
+      "current_layer_index": 4,
+      "current_layer_name": "figure",
+      "current_effect_id": 1788780036972,
+      "name": "Mirror",
+      "display_name": "Mirror XY",
+      "name_occurrence_1based": 3,
+      "chain_position_0based_excluding_transform": 7,
+      "original_layer_index": 5,
+      "original_effect_id": "1778308052797",
+      "original_type_id": "A108",
+      "mapping": "ordered effect sequence per merge script; names of full target stack verified",
+      "reused_existing": false,
+      "reference_values_are_merged_saved_values": true,
+      "controls": {
+        "X": {
+          "value_exact": "0.5",
+          "default_exact": "0",
+          "xml_tag": "ParamRange",
+          "xml_type": "DOUBLE",
+          "value": 0.5,
+          "phase_sources": [
+            {
+              "tag": "PhaseSourceStatic",
+              "attributes": {
+                "name": "PhaseSourceStatic"
+              },
+              "children": []
+            }
+          ],
+          "duration_sources": [],
+          "value_ranges": [],
+          "source_path": "./RenderPass/Params/ParamRange[@name='X']",
+          "current_value": 0.0267525866572923,
+          "current_param_id": 1788823471896
+        },
+        "Y": {
+          "value_exact": "0.5",
+          "default_exact": "0",
+          "xml_tag": "ParamRange",
+          "xml_type": "DOUBLE",
+          "value": 0.5,
+          "phase_sources": [
+            {
+              "tag": "PhaseSourceStatic",
+              "attributes": {
+                "name": "PhaseSourceStatic"
+              },
+              "children": []
+            }
+          ],
+          "duration_sources": [],
+          "value_ranges": [],
+          "source_path": "./RenderPass/Params/ParamRange[@name='Y']",
+          "current_value": 0.0267525866572923,
+          "current_param_id": 1788823471897
+        },
+        "In / Out": {
+          "value_exact": "0.65714910833836082116",
+          "default_exact": "1",
+          "xml_tag": "ParamRange",
+          "xml_type": "DOUBLE",
+          "value": 0.6571491083383608,
+          "phase_sources": [
+            {
+              "tag": "PhaseSourceTimeline",
+              "attributes": {
+                "name": "PhaseSourceTimeline",
+                "phase": "0.65714910833836082116",
+                "hardSynced": "0"
+              },
+              "children": [
+                {
+                  "tag": "Params",
+                  "attributes": {
+                    "name": "Params"
+                  },
+                  "children": [
+                    {
+                      "tag": "ParamRange",
+                      "attributes": {
+                        "name": "Max Distance",
+                        "altName": "Distance",
+                        "T": "DOUBLE",
+                        "default": "5",
+                        "value": "2"
+                      },
+                      "children": [
+                        {
+                          "tag": "PhaseSourceStatic",
+                          "attributes": {
+                            "name": "PhaseSourceStatic"
+                          },
+                          "children": []
+                        },
+                        {
+                          "tag": "ValueRange",
+                          "attributes": {
+                            "name": "minMax",
+                            "min": "0",
+                            "max": "5"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "ParamChoice",
+                      "attributes": {
+                        "name": "PlayMode",
+                        "T": "INT32",
+                        "default": "0",
+                        "value": "1",
+                        "storeChoices": "0"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "Beats_d",
+                  "attributes": {
+                    "name": "Beats_d",
+                    "numManualBeats": "4",
+                    "detectedTempo": "-1"
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ],
+          "duration_sources": [
+            {
+              "tag": "DurationSource",
+              "attributes": {},
+              "children": []
+            }
+          ],
+          "value_ranges": [],
+          "source_path": "./RenderPass/Params/ParamRange[@name='In / Out']",
+          "animation_flags_exact": "9223372036854775811",
+          "current_value": 0.0267525866572923,
+          "current_param_id": 1788823471898
+        },
+        "Flip X": {
+          "value_exact": "1",
+          "default_exact": "0",
+          "xml_tag": "Param",
+          "xml_type": "BOOL",
+          "value": true,
+          "phase_sources": [],
+          "duration_sources": [],
+          "value_ranges": [],
+          "source_path": "./RenderPass/Params/Param[@name='Flip X']",
+          "current_value": true,
+          "current_param_id": 1788823471899
+        }
+      },
+      "unknown_controls": [
+        "Opacity",
+        "Flip Y",
+        "Black BG"
+      ],
+      "original_wrapper_controls": {
+        "Bypassed": {
+          "value_exact": "1",
+          "default_exact": "0",
+          "xml_tag": "Param",
+          "xml_type": "BOOL",
+          "value": true,
+          "phase_sources": [],
+          "duration_sources": [],
+          "value_ranges": []
+        }
+      },
+      "original_mixer": {
+        "tag": "ChoosableMixer",
+        "attributes": {
+          "name": "Mixer"
+        },
+        "children": [
+          {
+            "tag": "VideoMixerStateID",
+            "attributes": {
+              "uniqueId": "1778308052799"
+            },
+            "children": []
+          },
+          {
+            "tag": "RenderPass",
+            "attributes": {
+              "name": "Alpha",
+              "type": "Alpha",
+              "uniqueTypeId": "A006",
+              "uniqueId": "1778308052800",
+              "baseType": "Mixer"
+            },
+            "children": []
+          }
+        ]
+      },
+      "sourceIndex": 5
+    },
+    {
+      "effect_key": "layer/figure~1/effect/LoRezEffect~1",
+      "current_layer_index": 4,
+      "current_layer_name": "figure",
+      "current_effect_id": 1788780037007,
+      "name": "LoRezEffect",
+      "display_name": "LoRez",
+      "name_occurrence_1based": 1,
+      "chain_position_0based_excluding_transform": 13,
+      "original_layer_index": 5,
+      "original_effect_id": "1778390765229",
+      "original_type_id": "A142",
+      "mapping": "ordered effect sequence per merge script; names of full target stack verified",
+      "reused_existing": false,
+      "reference_values_are_merged_saved_values": true,
+      "controls": {
+        "Opacity": {
+          "value_exact": "0",
+          "default_exact": "1",
+          "xml_tag": "ParamRange",
+          "xml_type": "DOUBLE",
+          "value": 0.0,
+          "phase_sources": [
+            {
+              "tag": "PhaseSourceTimeline",
+              "attributes": {
+                "name": "PhaseSourceTimeline",
+                "phase": "0",
+                "hardSynced": "0"
+              },
+              "children": [
+                {
+                  "tag": "Params",
+                  "attributes": {
+                    "name": "Params"
+                  },
+                  "children": [
+                    {
+                      "tag": "ParamRange",
+                      "attributes": {
+                        "name": "Max Distance",
+                        "altName": "Distance",
+                        "T": "DOUBLE",
+                        "default": "0.625",
+                        "value": "0.625"
+                      },
+                      "children": [
+                        {
+                          "tag": "PhaseSourceStatic",
+                          "attributes": {
+                            "name": "PhaseSourceStatic"
+                          },
+                          "children": []
+                        },
+                        {
+                          "tag": "ValueRange",
+                          "attributes": {
+                            "name": "minMax",
+                            "min": "0",
+                            "max": "0.625"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "ParamChoice",
+                      "attributes": {
+                        "name": "PlayDirection",
+                        "T": "INT32",
+                        "default": "2",
+                        "value": "0",
+                        "storeChoices": "0"
+                      },
+                      "children": []
+                    },
+                    {
+                      "tag": "ParamChoice",
+                      "attributes": {
+                        "name": "PlayMode",
+                        "T": "INT32",
+                        "default": "0",
+                        "value": "3",
+                        "storeChoices": "0"
+                      },
+                      "children": []
+                    },
+                    {
+                      "tag": "Param",
+                      "attributes": {
+                        "name": "DurationIsScalable",
+                        "altName": "Duration Changes With In & Out Points",
+                        "T": "BOOL",
+                        "default": "1",
+                        "value": "0"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "Beats_d",
+                  "attributes": {
+                    "name": "Beats_d",
+                    "numManualBeats": "4",
+                    "detectedTempo": "-1"
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ],
+          "duration_sources": [
+            {
+              "tag": "DurationSource",
+              "attributes": {
+                "userDuration": "0.625"
+              },
+              "children": []
+            }
+          ],
+          "value_ranges": [],
+          "source_path": "./Params/ParamRange[@name='Opacity']",
+          "animation_flags_exact": "9223372036854775811",
+          "current_value": 0.0,
+          "current_param_id": 1788823472182
+        },
+        "Pixel Size": {
+          "value_exact": "0.9109599210778061007",
+          "default_exact": "0",
+          "xml_tag": "ParamRange",
+          "xml_type": "DOUBLE",
+          "value": 0.9109599210778061,
+          "phase_sources": [
+            {
+              "tag": "PhaseSourceStatic",
+              "attributes": {
+                "name": "PhaseSourceStatic"
+              },
+              "children": []
+            }
+          ],
+          "duration_sources": [],
+          "value_ranges": [],
+          "source_path": "./RenderPass/Params/ParamRange[@name='Pixel Size']",
+          "current_value": 0.0267525866572923,
+          "current_param_id": 1788823472176
+        },
+        "Bit Reduction": {
+          "value_exact": "0.77188205848745750082",
+          "default_exact": "0",
+          "xml_tag": "ParamRange",
+          "xml_type": "DOUBLE",
+          "value": 0.7718820584874575,
+          "phase_sources": [
+            {
+              "tag": "PhaseSourceStatic",
+              "attributes": {
+                "name": "PhaseSourceStatic"
+              },
+              "children": []
+            }
+          ],
+          "duration_sources": [],
+          "value_ranges": [],
+          "source_path": "./RenderPass/Params/ParamRange[@name='Bit Reduction']",
+          "current_value": 0.0267525866572923,
+          "current_param_id": 1788823472177
+        },
+        "Dither": {
+          "value_exact": "0.013605442176870747792",
+          "default_exact": "0",
+          "xml_tag": "ParamRange",
+          "xml_type": "DOUBLE",
+          "value": 0.013605442176870748,
+          "phase_sources": [
+            {
+              "tag": "PhaseSourceStatic",
+              "attributes": {
+                "name": "PhaseSourceStatic"
+              },
+              "children": []
+            }
+          ],
+          "duration_sources": [],
+          "value_ranges": [],
+          "source_path": "./RenderPass/Params/ParamRange[@name='Dither']",
+          "current_value": 0.0267525866572923,
+          "current_param_id": 1788823472178
+        }
+      },
+      "unknown_controls": [],
+      "original_wrapper_controls": {
+        "Opacity": {
+          "value_exact": "0",
+          "default_exact": "1",
+          "xml_tag": "ParamRange",
+          "xml_type": "DOUBLE",
+          "value": 0.0,
+          "phase_sources": [
+            {
+              "tag": "PhaseSourceTimeline",
+              "attributes": {
+                "name": "PhaseSourceTimeline",
+                "phase": "0",
+                "hardSynced": "0"
+              },
+              "children": [
+                {
+                  "tag": "Params",
+                  "attributes": {
+                    "name": "Params"
+                  },
+                  "children": [
+                    {
+                      "tag": "ParamRange",
+                      "attributes": {
+                        "name": "Max Distance",
+                        "altName": "Distance",
+                        "T": "DOUBLE",
+                        "default": "0.625",
+                        "value": "0.625"
+                      },
+                      "children": [
+                        {
+                          "tag": "PhaseSourceStatic",
+                          "attributes": {
+                            "name": "PhaseSourceStatic"
+                          },
+                          "children": []
+                        },
+                        {
+                          "tag": "ValueRange",
+                          "attributes": {
+                            "name": "minMax",
+                            "min": "0",
+                            "max": "0.625"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "ParamChoice",
+                      "attributes": {
+                        "name": "PlayDirection",
+                        "T": "INT32",
+                        "default": "2",
+                        "value": "0",
+                        "storeChoices": "0"
+                      },
+                      "children": []
+                    },
+                    {
+                      "tag": "ParamChoice",
+                      "attributes": {
+                        "name": "PlayMode",
+                        "T": "INT32",
+                        "default": "0",
+                        "value": "3",
+                        "storeChoices": "0"
+                      },
+                      "children": []
+                    },
+                    {
+                      "tag": "Param",
+                      "attributes": {
+                        "name": "DurationIsScalable",
+                        "altName": "Duration Changes With In & Out Points",
+                        "T": "BOOL",
+                        "default": "1",
+                        "value": "0"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "Beats_d",
+                  "attributes": {
+                    "name": "Beats_d",
+                    "numManualBeats": "4",
+                    "detectedTempo": "-1"
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ],
+          "duration_sources": [
+            {
+              "tag": "DurationSource",
+              "attributes": {
+                "userDuration": "0.625"
+              },
+              "children": []
+            }
+          ],
+          "value_ranges": []
+        }
+      },
+      "original_mixer": {
+        "tag": "ChoosableMixer",
+        "attributes": {
+          "name": "Mixer"
+        },
+        "children": [
+          {
+            "tag": "VideoMixerStateID",
+            "attributes": {
+              "uniqueId": "1778390765245"
+            },
+            "children": []
+          },
+          {
+            "tag": "RenderPass",
+            "attributes": {
+              "name": "Alpha",
+              "type": "Alpha",
+              "uniqueTypeId": "A006",
+              "uniqueId": "1778390765247",
+              "baseType": "Mixer"
+            },
+            "children": [
+              {
+                "tag": "Params",
+                "attributes": {
+                  "name": "Params"
+                },
+                "children": [
+                  {
+                    "tag": "ParamRange",
+                    "attributes": {
+                      "name": "Opacity",
+                      "T": "DOUBLE",
+                      "default": "1",
+                      "value": "0.013243999958038189801"
+                    },
+                    "children": [
+                      {
+                        "tag": "PhaseSourceStatic",
+                        "attributes": {
+                          "name": "PhaseSourceStatic"
+                        },
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sourceIndex": 5
+    }
+  ]
+}

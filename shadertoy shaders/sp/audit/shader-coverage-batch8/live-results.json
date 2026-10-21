@@ -1,0 +1,725 @@
+[
+  {
+    "layer": 5,
+    "col": 15,
+    "source": "Metaballs",
+    "controls": [
+      "Grid",
+      "Size",
+      "Distance",
+      "Radius",
+      "Fuzzyness",
+      "Speed",
+      "Position X",
+      "Position Y"
+    ],
+    "discovered": [
+      "Grid",
+      "Blend",
+      "Size",
+      "Distance",
+      "Radius",
+      "Fuzzyness",
+      "Speed",
+      "Position X",
+      "Position Y"
+    ],
+    "probe": "Radius",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.953418960295474,
+      0.7720183389607527,
+      0.5815827959075119,
+      0.4337453701430949
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 16,
+    "source": "z33d+",
+    "controls": [
+      "mx",
+      "my",
+      "e",
+      "axis x",
+      "axis y",
+      "rot angle",
+      "axis drift"
+    ],
+    "discovered": [
+      "mx",
+      "my",
+      "e",
+      "axis x",
+      "axis y",
+      "rot angle",
+      "axis drift"
+    ],
+    "probe": "e",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.22130458987006923,
+      0.22251521410722208,
+      0.23534535408810597,
+      0.26204740917643243
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 17,
+    "source": "DimensionMorphingTopography",
+    "controls": [
+      "rx",
+      "ry",
+      "rz",
+      "zoom",
+      "blend x",
+      "blend y",
+      "subdivisons",
+      "light",
+      "rate",
+      "cycle",
+      "roto"
+    ],
+    "discovered": [
+      "rx",
+      "ry",
+      "rz",
+      "zoom",
+      "blend x",
+      "blend y",
+      "subdivisons",
+      "light",
+      "rate",
+      "cycle",
+      "roto"
+    ],
+    "probe": "blend x",
+    "checks": [
+      {
+        "requested": -0.4,
+        "observed": -0.4,
+        "ok": true
+      },
+      {
+        "requested": 0.3999999999999999,
+        "observed": 0.3999999999999999,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.90991958079589,
+      0.5493832584244658,
+      0.1721353038932092,
+      -0.12916009684697105
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 18,
+    "source": "MagicLougie",
+    "controls": [
+      "seed1",
+      "seed2",
+      "seed3",
+      "offset1",
+      "offset2",
+      "offset3",
+      "depth",
+      "rate",
+      "cycle",
+      "multiplier",
+      "scale",
+      "rotx",
+      "roty",
+      "rotz"
+    ],
+    "discovered": [
+      "seed1",
+      "seed2",
+      "seed3",
+      "offset1",
+      "offset2",
+      "offset3",
+      "depth",
+      "rate",
+      "cycle",
+      "multiplier",
+      "scale",
+      "rotx",
+      "roty",
+      "rotz"
+    ],
+    "probe": "depth",
+    "checks": [
+      {
+        "requested": 77.4,
+        "observed": 77.4,
+        "ok": true
+      },
+      {
+        "requested": 156.6,
+        "observed": 156.6,
+        "ok": true
+      }
+    ],
+    "samples": [
+      205.6929803092441,
+      169.50851630750716,
+      131.68607410636142,
+      103.0015210873438
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 19,
+    "source": "GeodesicTiling",
+    "controls": [
+      "Float In",
+      "Float In 2",
+      "Float In 3",
+      "Float In 4",
+      "subdivison"
+    ],
+    "discovered": [
+      "Float In",
+      "Float In 2",
+      "Float In 3",
+      "Float In 4",
+      "subdivison"
+    ],
+    "probe": "subdivison",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.9439851579584668,
+      0.7666481078796341,
+      0.5824480484411181,
+      0.4352692179032686
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 21,
+    "source": "SpaceSpore",
+    "controls": [
+      "o x",
+      "c1",
+      "r1",
+      "r2",
+      "zoom",
+      "morph",
+      "depth",
+      "gamma",
+      "saturation",
+      "x axis",
+      "y axis",
+      "rot angle",
+      "axis drift",
+      "o y",
+      "c2"
+    ],
+    "discovered": [
+      "o x",
+      "c1",
+      "r1",
+      "r2",
+      "zoom",
+      "morph",
+      "depth",
+      "gamma",
+      "saturation",
+      "x axis",
+      "y axis",
+      "rot angle",
+      "axis drift",
+      "o y",
+      "c2"
+    ],
+    "probe": "morph",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.3676846326161354,
+      0.3075211843480527,
+      0.2728279975852062,
+      0.2825209880315232
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 22,
+    "source": "4D Voronoi + Hopf Fibration",
+    "controls": [
+      "Speed",
+      "Camera Distance",
+      "FOV",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z",
+      "Brightness"
+    ],
+    "discovered": [
+      "Speed",
+      "Camera Distance",
+      "FOV",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z",
+      "Brightness"
+    ],
+    "probe": "Brightness",
+    "checks": [
+      {
+        "requested": 1.25,
+        "observed": 1.25,
+        "ok": true
+      },
+      {
+        "requested": 2.25,
+        "observed": 2.25,
+        "ok": true
+      }
+    ],
+    "samples": [
+      1.4465194564408108,
+      1.2874598065213592,
+      1.1938732481311651,
+      1.2148951890672706
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 23,
+    "source": "16 Dimensional Julia (Sedenion)",
+    "controls": [
+      "Speed",
+      "Camera Distance",
+      "FOV",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z",
+      "Julia Amplitude"
+    ],
+    "discovered": [
+      "Speed",
+      "Camera Distance",
+      "FOV",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z",
+      "Julia Amplitude"
+    ],
+    "probe": "Julia Amplitude",
+    "checks": [
+      {
+        "requested": 0.5200000010430812,
+        "observed": 0.5200000010430812,
+        "ok": true
+      },
+      {
+        "requested": 1.080000000447035,
+        "observed": 1.080000000447035,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.6352275701554536,
+      0.5305367723391803,
+      0.4887252877213579,
+      0.5080342117210057
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 24,
+    "source": "Barth Sextic Surfaces",
+    "controls": [
+      "Speed",
+      "Camera Distance",
+      "FOV",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z",
+      "Surface K"
+    ],
+    "discovered": [
+      "Speed",
+      "Camera Distance",
+      "FOV",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z",
+      "Surface K"
+    ],
+    "probe": "Surface K",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.3218111041131215,
+      0.2768553788880657,
+      0.2483293606178404,
+      0.26824922533752565
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 26,
+    "source": "curved surface",
+    "controls": [
+      "Speed",
+      "Camera Distance",
+      "FOV",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z"
+    ],
+    "discovered": [
+      "Speed",
+      "Camera Distance",
+      "FOV",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z"
+    ],
+    "probe": "Speed",
+    "checks": [
+      {
+        "requested": 0.8999999999999999,
+        "observed": 0.8999999999999999,
+        "ok": true
+      },
+      {
+        "requested": 2.0999999999999996,
+        "observed": 0.8999999999999999,
+        "ok": false
+      }
+    ],
+    "samples": [
+      0.9487000947582748,
+      0.8141225950052254,
+      0.7385014909496772,
+      0.8056225509443248
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 27,
+    "source": "Hopf + Poincare",
+    "controls": [
+      "Speed",
+      "Zoom",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z",
+      "Refraction"
+    ],
+    "discovered": [
+      "Speed",
+      "Zoom",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z",
+      "Refraction"
+    ],
+    "probe": "Refraction",
+    "checks": [
+      {
+        "requested": 1.6,
+        "observed": 1.6,
+        "ok": true
+      },
+      {
+        "requested": 2.4,
+        "observed": 2.4,
+        "ok": true
+      }
+    ],
+    "samples": [
+      2.2510023976974636,
+      2.014535810533746,
+      1.8062360205482069,
+      1.6909824977414276
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 28,
+    "source": "HypnoWorm",
+    "controls": [
+      "size",
+      "amp1",
+      "amp2",
+      "freq1",
+      "freq2",
+      "phase1",
+      "phase2",
+      "rate"
+    ],
+    "discovered": [
+      "size",
+      "amp1",
+      "amp2",
+      "freq1",
+      "freq2",
+      "phase1",
+      "phase2",
+      "rate"
+    ],
+    "probe": "amp1",
+    "checks": [
+      {
+        "requested": 0.0819999998435378,
+        "observed": 0.0819999998435378,
+        "ok": true
+      },
+      {
+        "requested": 0.17799999993294477,
+        "observed": 0.17799999993294477,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.11100150280130316,
+      0.09393556225974171,
+      0.08217348035839514,
+      0.08059879350435337
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 29,
+    "source": "Melty Boi",
+    "controls": [
+      "speed",
+      "intensity",
+      "scale x",
+      "scale y",
+      "spread",
+      "vignette",
+      "contrast"
+    ],
+    "discovered": [
+      "speed",
+      "intensity",
+      "scale x",
+      "scale y",
+      "spread",
+      "vignette",
+      "contrast"
+    ],
+    "probe": "intensity",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.9039210278844072,
+      0.724809844327415,
+      0.5398631745744134,
+      0.4116884196680791
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 30,
+    "source": "QUANTUM WAVE INTERFERENCE",
+    "controls": [
+      "Speed",
+      "Energy Scale"
+    ],
+    "discovered": [
+      "Speed",
+      "Energy Scale"
+    ],
+    "probe": "Energy Scale",
+    "checks": [
+      {
+        "requested": 0.3350000005215406,
+        "observed": 0.3350000005215406,
+        "ok": true
+      },
+      {
+        "requested": 0.7150000002235174,
+        "observed": 0.7150000002235174,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.1929587326319964,
+      0.18115920167863955,
+      0.20291781774627707,
+      0.2658457854314344
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 31,
+    "source": "Quantum Zappy Sphere",
+    "controls": [
+      "Speed",
+      "Zoom",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z",
+      "Glow"
+    ],
+    "discovered": [
+      "Speed",
+      "Zoom",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z",
+      "Glow"
+    ],
+    "probe": "Glow",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.47393982553922737,
+      0.39240757055532266,
+      0.3260470262135474,
+      0.30781692071416
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 32,
+    "source": "Quaternion Averaging",
+    "controls": [
+      "Speed",
+      "Camera Distance",
+      "FOV",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z"
+    ],
+    "discovered": [
+      "Speed",
+      "Camera Distance",
+      "FOV",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z"
+    ],
+    "probe": "Speed",
+    "checks": [
+      {
+        "requested": 0.8999999999999999,
+        "observed": 0.8999999999999999,
+        "ok": true
+      },
+      {
+        "requested": 2.0999999999999996,
+        "observed": 2.0999999999999996,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.9462110611744912,
+      0.8025387454884605,
+      0.738554151576157,
+      0.8117793558449486
+    ],
+    "drive_varied": true
+  }
+]

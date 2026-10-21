@@ -1,0 +1,357 @@
+[
+  {
+    "label": "baseline",
+    "effects": {
+      "composition/effect/MTK_PXLMELT~1": {
+        "id": 1788780037026,
+        "is_user_removable": true,
+        "name": "MTK_PXLMELT",
+        "display_name": "MTK_PXLMELT",
+        "bypassed": {
+          "valuetype": "ParamBoolean",
+          "id": 1788823470235,
+          "value": true
+        },
+        "mixer": {
+          "Blend Mode": {
+            "id": 1788823470239,
+            "valuetype": "ParamChoice",
+            "value": "Alpha",
+            "index": 1,
+            "options": [
+              "Add",
+              "Alpha",
+              "B&W",
+              "Burn",
+              "Cube",
+              "Cut",
+              "Darken",
+              "Difference",
+              "Difference I",
+              "Displace",
+              "Dissolve",
+              "Dodge",
+              "Exclusion",
+              "Hard Light",
+              "JitterBug",
+              "Lighten",
+              "LoRez",
+              "Luma Is Alpha",
+              "Luma Key",
+              "Luma Key I",
+              "Meta Mix",
+              "Multiply",
+              "Multi Task",
+              "Noisy",
+              "Overlay",
+              "Parts",
+              "PiP",
+              "Push Down",
+              "Push Left",
+              "Push Right",
+              "Push Up",
+              "RGB",
+              "Rotate X",
+              "Rotate Y",
+              "Screen",
+              "Shift RGB",
+              "Side by Side",
+              "Soft Light",
+              "Static",
+              "Subtract",
+              "Tile",
+              "TimeSwitcher",
+              "to Black",
+              "to Color",
+              "to White",
+              "Twitch",
+              "Video Bumper",
+              "Wipe Ellipse",
+              "Zoom In",
+              "Zoom Out"
+            ],
+            "view": {
+              "suffix": "",
+              "control_type": "choice_combobox"
+            }
+          }
+        },
+        "params": {
+          "Opacity": {
+            "id": 1788823470238,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.0,
+            "view": {
+              "suffix": " %",
+              "multiplier": 100.0,
+              "display_units": "percent",
+              "control_type": "slider_color_opacity"
+            }
+          },
+          "STYLE": {
+            "id": 1788823470224,
+            "valuetype": "ParamChoice",
+            "value": "ORGANK",
+            "index": 5,
+            "options": [
+              "THICK",
+              "THIN",
+              "FINE",
+              "SLIT",
+              "QUAD",
+              "ORGANK"
+            ],
+            "view": {
+              "suffix": "",
+              "display_units": "integer",
+              "control_type": "choice_buttons"
+            }
+          },
+          "DRIVER": {
+            "id": 1788823470225,
+            "valuetype": "ParamChoice",
+            "value": "NOIZ",
+            "index": 0,
+            "options": [
+              "NOIZ",
+              "NOIZMOD",
+              "LUMA"
+            ],
+            "view": {
+              "suffix": "",
+              "display_units": "integer",
+              "control_type": "choice_buttons"
+            }
+          },
+          "DENSITY": {
+            "id": 1788823470226,
+            "valuetype": "ParamRange",
+            "min": 0.009999999776482582,
+            "max": 0.9900000095367432,
+            "in": 0.009999999776482582,
+            "out": 0.9900000095367432,
+            "value": 0.9900000095367432,
+            "view": {
+              "suffix": "",
+              "display_units": "real"
+            }
+          },
+          "TIMESTRETCH": {
+            "id": 1788823470227,
+            "valuetype": "ParamRange",
+            "min": 0.009999999776482582,
+            "max": 0.20000000298023224,
+            "in": 0.009999999776482582,
+            "out": 0.20000000298023224,
+            "value": 0.20000000298023224,
+            "view": {
+              "suffix": "",
+              "display_units": "real"
+            }
+          },
+          "MOSHLINES": {
+            "id": 1788823470228,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 1.0,
+            "view": {
+              "suffix": "",
+              "display_units": "real"
+            }
+          },
+          "MELT_LOCK": {
+            "valuetype": "ParamBoolean",
+            "id": 1788823470229,
+            "value": false
+          },
+          "MELT_TRIGGER": {
+            "id": 1788823470230,
+            "valuetype": "ParamEvent"
+          },
+          "FADETIME": {
+            "id": 1788823470231,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 1.0,
+            "view": {
+              "suffix": "",
+              "display_units": "real"
+            }
+          },
+          "WRAP": {
+            "valuetype": "ParamBoolean",
+            "id": 1788823470232,
+            "value": true
+          },
+          "FX_AREA": {
+            "id": 1788823470233,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 2.0,
+            "in": 0.0,
+            "out": 2.0,
+            "value": 2.0,
+            "view": {
+              "suffix": "",
+              "display_units": "real"
+            }
+          },
+          "AREA FEATHER": {
+            "id": 1788823470234,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 0.25,
+            "in": 0.0,
+            "out": 0.25,
+            "value": 0.006688146664323075,
+            "view": {
+              "suffix": "",
+              "display_units": "real"
+            }
+          }
+        }
+      },
+      "layer/sculpt~1/effect/DelayRGB~1": {
+        "id": 1788780036905,
+        "is_user_removable": true,
+        "name": "DelayRGB",
+        "display_name": "Delay RGB",
+        "bypassed": {
+          "valuetype": "ParamBoolean",
+          "id": 1788823470961,
+          "value": true
+        },
+        "mixer": {
+          "Blend Mode": {
+            "id": 1788823470965,
+            "valuetype": "ParamChoice",
+            "value": "Alpha",
+            "index": 1,
+            "options": [
+              "Add",
+              "Alpha",
+              "B&W",
+              "Burn",
+              "Cube",
+              "Cut",
+              "Darken",
+              "Difference",
+              "Difference I",
+              "Displace",
+              "Dissolve",
+              "Dodge",
+              "Exclusion",
+              "Hard Light",
+              "JitterBug",
+              "Lighten",
+              "LoRez",
+              "Luma Is Alpha",
+              "Luma Key",
+              "Luma Key I",
+              "Meta Mix",
+              "Multiply",
+              "Multi Task",
+              "Noisy",
+              "Overlay",
+              "Parts",
+              "PiP",
+              "Push Down",
+              "Push Left",
+              "Push Right",
+              "Push Up",
+              "RGB",
+              "Rotate X",
+              "Rotate Y",
+              "Screen",
+              "Shift RGB",
+              "Side by Side",
+              "Soft Light",
+              "Static",
+              "Subtract",
+              "Tile",
+              "TimeSwitcher",
+              "to Black",
+              "to Color",
+              "to White",
+              "Twitch",
+              "Video Bumper",
+              "Wipe Ellipse",
+              "Zoom In",
+              "Zoom Out"
+            ],
+            "view": {
+              "suffix": "",
+              "control_type": "choice_combobox"
+            }
+          }
+        },
+        "params": {
+          "Opacity": {
+            "id": 1788823470964,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.0,
+            "view": {
+              "suffix": " %",
+              "multiplier": 100.0,
+              "display_units": "percent",
+              "control_type": "slider_color_opacity"
+            }
+          },
+          "R delay": {
+            "id": 1788823470958,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.0,
+            "view": {
+              "suffix": "",
+              "alternative_name": "Delay R"
+            }
+          },
+          "G delay": {
+            "id": 1788823470959,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.15,
+            "view": {
+              "suffix": "",
+              "alternative_name": "Delay G"
+            }
+          },
+          "B delay": {
+            "id": 1788823470960,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.3,
+            "view": {
+              "suffix": "",
+              "alternative_name": "Delay B"
+            }
+          }
+        }
+      }
+    }
+  }
+]

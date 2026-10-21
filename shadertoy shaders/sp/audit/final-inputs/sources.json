@@ -1,0 +1,73 @@
+[
+  {
+    "old": "Concentrip",
+    "name": "Heart Concentrip",
+    "col": 9,
+    "source": "/Users/donovan/Documents/Resolume Wire/Patches/Concentrip/Resource/Concentrip.isf",
+    "controls": [
+      "radialDensity",
+      "angularDensity",
+      "blendThreshold",
+      "blendWidth",
+      "phase",
+      "hue"
+    ]
+  },
+  {
+    "old": "TwoFiftySixBiatch",
+    "name": "Heart Puls Lattice",
+    "col": 10,
+    "source": "/Users/donovan/Documents/Resolume Wire/Patches/TwoFiftySixBiatch/Resource/TwoFiftySixBiatch.isf",
+    "controls": [
+      "cellSpacing",
+      "barWidth",
+      "boltWidth",
+      "greenExpansion",
+      "orangeExpansion",
+      "pulsePhase",
+      "travelPhase"
+    ]
+  },
+  {
+    "old": "kali - ancient temple",
+    "name": "Heart Ancient Temple",
+    "col": 11,
+    "source": "/Users/donovan/Documents/Resolume Wire/Patches/kali - ancient temple/Resource/kali - ancient temple.isf",
+    "controls": [
+      "zoom",
+      "morph",
+      "speed",
+      "cameraPitch",
+      "cameraYaw",
+      "cameraRoll",
+      "fractalScale",
+      "fractalIterations",
+      "surfaceShake",
+      "floorPattern",
+      "orbSize",
+      "orbPattern",
+      "colorPalette",
+      "contrast",
+      "saturation",
+      "brightness"
+    ]
+  },
+  {
+    "old": "kali liberation of the true self",
+    "name": "Heart Kali Liberation",
+    "col": 12,
+    "source": "/Users/donovan/Documents/Resolume Wire/Patches/kali liberation of the true self/Resource/kali liberation of the true self.isf",
+    "controls": [
+      "speed",
+      "zoom",
+      "morphing",
+      "colorPulse",
+      "brightness",
+      "contrast",
+      "cameraX",
+      "cameraY",
+      "cameraZ",
+      "colorPalette"
+    ]
+  }
+]

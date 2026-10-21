@@ -1,0 +1,694 @@
+Heart v2 http://localhost:8875 · dashboard /progress · starts read-only
+Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<main() done, defined at /Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/bridge.py:9> exception=SystemExit()>
+Traceback (most recent call last):
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/bridge.py", line 63, in <module>
+    await asyncio.gather(commands(),actions(),socket())
+    ^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 204, in run
+    with Runner(debug=debug, loop_factory=loop_factory) as runner:
+         ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 64, in __exit__
+    self.close()
+    ~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 72, in close
+    _cancel_all_tasks(loop)
+    ~~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 216, in _cancel_all_tasks
+    loop.run_until_complete(tasks.gather(*to_cancel, return_exceptions=True))
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 706, in run_until_complete
+    self.run_forever()
+    ~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 677, in run_forever
+    self._run_once()
+    ~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 2056, in _run_once
+    handle._run()
+    ~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/bridge.py", line 62, in main
+    await asyncio.sleep(1)
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 205, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 128, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 706, in run_until_complete
+    self.run_forever()
+    ~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 677, in run_forever
+    self._run_once()
+    ~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 2056, in _run_once
+    handle._run()
+    ~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/bridge.py", line 15, in commands
+    line=await asyncio.to_thread(sys.stdin.readline)
+                ^^^^^^^^^^^^^^^^
+SystemExit
+Exception ignored while closing generator <coroutine object main.<locals>.socket at 0x106645f80>:
+Traceback (most recent call last):
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/bridge.py", line 59, in socket
+    finally:receiver.cancel();await asyncio.gather(receiver,return_exceptions=True)
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/bridge.py", line 5, in report
+    WS_URL=os.environ.get('HEART_V2_SOCKET',BASE.replace('http://','ws://').replace('https://','wss://'))
+BrokenPipeError: [Errno 32] Broken pipe
+Heart v2 http://localhost:8875 · dashboard /progress · starts read-only
+Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<main() done, defined at /Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/bridge.py:10> exception=SystemExit()>
+Traceback (most recent call last):
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/bridge.py", line 64, in <module>
+    asyncio.run(main())
+    ~~~~~~~~~~~^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 204, in run
+    with Runner(debug=debug, loop_factory=loop_factory) as runner:
+         ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 64, in __exit__
+    self.close()
+    ~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 72, in close
+    _cancel_all_tasks(loop)
+    ~~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 216, in _cancel_all_tasks
+    loop.run_until_complete(tasks.gather(*to_cancel, return_exceptions=True))
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 706, in run_until_complete
+    self.run_forever()
+    ~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 677, in run_forever
+    self._run_once()
+    ~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 2056, in _run_once
+    handle._run()
+    ~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/bridge.py", line 63, in main
+    await asyncio.gather(commands(),actions(),socket())
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 205, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 128, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 706, in run_until_complete
+    self.run_forever()
+    ~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 677, in run_forever
+    self._run_once()
+    ~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 2056, in _run_once
+    handle._run()
+    ~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/bridge.py", line 16, in commands
+    if not line:raise SystemExit
+                ^^^^^^^^^^^^^^^^
+SystemExit
+Exception ignored while closing generator <coroutine object main.<locals>.socket at 0x1081c5f80>:
+Traceback (most recent call last):
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/bridge.py", line 60, in socket
+    except Exception as e:report(error=str(e))
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/bridge.py", line 6, in report
+    def report(**kw):print(json.dumps(kw,separators=(',',':')),flush=True)
+BrokenPipeError: [Errno 32] Broken pipe
+Heart v2 http://localhost:8875 · dashboard /progress · starts read-only
+Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<main() done, defined at /Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/bridge.py:10> exception=SystemExit()>
+Traceback (most recent call last):
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/bridge.py", line 64, in <module>
+    asyncio.run(main())
+    ~~~~~~~~~~~^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 204, in run
+    with Runner(debug=debug, loop_factory=loop_factory) as runner:
+         ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 64, in __exit__
+    self.close()
+    ~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 72, in close
+    _cancel_all_tasks(loop)
+    ~~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 216, in _cancel_all_tasks
+    loop.run_until_complete(tasks.gather(*to_cancel, return_exceptions=True))
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 706, in run_until_complete
+    self.run_forever()
+    ~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 677, in run_forever
+    self._run_once()
+    ~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 2056, in _run_once
+    handle._run()
+    ~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/bridge.py", line 63, in main
+    await asyncio.gather(commands(),actions(),socket())
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 205, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 128, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 706, in run_until_complete
+    self.run_forever()
+    ~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 677, in run_forever
+    self._run_once()
+    ~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 2056, in _run_once
+    handle._run()
+    ~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/bridge.py", line 16, in commands
+    if not line:raise SystemExit
+                ^^^^^^^^^^^^^^^^
+SystemExit
+Exception ignored while closing generator <coroutine object main.<locals>.socket at 0x10ac75f80>:
+Traceback (most recent call last):
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/bridge.py", line 60, in socket
+    except Exception as e:report(error=str(e))
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/bridge.py", line 6, in report
+    def report(**kw):print(json.dumps(kw,separators=(',',':')),flush=True)
+BrokenPipeError: [Errno 32] Broken pipe
+Heart v2 http://localhost:8875 · dashboard /progress · starts read-only
+Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<main() done, defined at /Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/bridge.py:10> exception=SystemExit()>
+Traceback (most recent call last):
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/bridge.py", line 64, in <module>
+    asyncio.run(main())
+    ~~~~~~~~~~~^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 204, in run
+    with Runner(debug=debug, loop_factory=loop_factory) as runner:
+         ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 64, in __exit__
+    self.close()
+    ~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 72, in close
+    _cancel_all_tasks(loop)
+    ~~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 216, in _cancel_all_tasks
+    loop.run_until_complete(tasks.gather(*to_cancel, return_exceptions=True))
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 706, in run_until_complete
+    self.run_forever()
+    ~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 677, in run_forever
+    self._run_once()
+    ~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 2056, in _run_once
+    handle._run()
+    ~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/bridge.py", line 63, in main
+    await asyncio.gather(commands(),actions(),socket())
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 205, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 128, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 706, in run_until_complete
+    self.run_forever()
+    ~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 677, in run_forever
+    self._run_once()
+    ~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 2056, in _run_once
+    handle._run()
+    ~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/bridge.py", line 16, in commands
+    if not line:raise SystemExit
+                ^^^^^^^^^^^^^^^^
+SystemExit
+Exception ignored while closing generator <coroutine object main.<locals>.socket at 0x10ae1df80>:
+Traceback (most recent call last):
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/bridge.py", line 60, in socket
+    except Exception as e:report(error=str(e))
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/bridge.py", line 6, in report
+    def report(**kw):print(json.dumps(kw,separators=(',',':')),flush=True)
+BrokenPipeError: [Errno 32] Broken pipe
+Heart v2 http://localhost:8875 · dashboard /progress · starts read-only
+connection handler failed
+Traceback (most recent call last):
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/.venv/lib/python3.14/site-packages/websockets/asyncio/server.py", line 747, in protocol_handler
+    await handler(connection)
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/server.py", line 175, in handler
+    async for raw in ws:
+    ...<44 lines>...
+     except Exception as ex:e.error=str(ex)
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/.venv/lib/python3.14/site-packages/websockets/asyncio/connection.py", line 237, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/.venv/lib/python3.14/site-packages/websockets/asyncio/connection.py", line 317, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<main() done, defined at /Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/bridge.py:10> exception=SystemExit()>
+Traceback (most recent call last):
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/bridge.py", line 64, in <module>
+    elif cmd=='values' and armed and connected and m['epoch']==epoch:
+    ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 204, in run
+    with Runner(debug=debug, loop_factory=loop_factory) as runner:
+         ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 64, in __exit__
+    self.close()
+    ~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 72, in close
+    _cancel_all_tasks(loop)
+    ~~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 216, in _cancel_all_tasks
+    loop.run_until_complete(tasks.gather(*to_cancel, return_exceptions=True))
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 706, in run_until_complete
+    self.run_forever()
+    ~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 677, in run_forever
+    self._run_once()
+    ~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 2056, in _run_once
+    handle._run()
+    ~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/bridge.py", line 63, in main
+    await queue.put((generation,m))
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 205, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 128, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 706, in run_until_complete
+    self.run_forever()
+    ~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 677, in run_forever
+    self._run_once()
+    ~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 2056, in _run_once
+    handle._run()
+    ~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/bridge.py", line 16, in commands
+    if m['cmd']=='animation_get':return read()
+                  ^^^^^^^^^^^^^^^^
+SystemExit
+Exception ignored while closing generator <coroutine object main.<locals>.socket at 0x10b065f80>:
+Traceback (most recent call last):
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/bridge.py", line 60, in socket
+    if cmd=='animation_set':
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/bridge.py", line 6, in report
+    def report(**kw):print(json.dumps(kw,separators=(',',':')),flush=True)
+BrokenPipeError: [Errno 32] Broken pipe
+Heart v2 http://localhost:8875 · dashboard /progress · starts read-only
+connection handler failed
+Traceback (most recent call last):
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/.venv/lib/python3.14/site-packages/websockets/asyncio/server.py", line 747, in protocol_handler
+    await handler(connection)
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/server.py", line 188, in handler
+    async for raw in ws:
+    ...<58 lines>...
+     except Exception as ex:e.error=str(ex)
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/.venv/lib/python3.14/site-packages/websockets/asyncio/connection.py", line 237, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/.venv/lib/python3.14/site-packages/websockets/asyncio/connection.py", line 317, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+connection handler failed
+Traceback (most recent call last):
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/.venv/lib/python3.14/site-packages/websockets/asyncio/server.py", line 747, in protocol_handler
+    await handler(connection)
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/server.py", line 188, in handler
+    async for raw in ws:
+    ...<58 lines>...
+     except Exception as ex:e.error=str(ex)
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/.venv/lib/python3.14/site-packages/websockets/asyncio/connection.py", line 237, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/.venv/lib/python3.14/site-packages/websockets/asyncio/connection.py", line 317, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<main() done, defined at /Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/bridge.py:46> exception=SystemExit()>
+Traceback (most recent call last):
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/bridge.py", line 120, in <module>
+    if not armed or gen!=generation:break
+                  ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 204, in run
+    with Runner(debug=debug, loop_factory=loop_factory) as runner:
+         ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 64, in __exit__
+    self.close()
+    ~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 72, in close
+    _cancel_all_tasks(loop)
+    ~~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 216, in _cancel_all_tasks
+    loop.run_until_complete(tasks.gather(*to_cancel, return_exceptions=True))
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 706, in run_until_complete
+    self.run_forever()
+    ~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 677, in run_forever
+    self._run_once()
+    ~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 2056, in _run_once
+    handle._run()
+    ~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/bridge.py", line 119, in main
+    except Exception as e:report(error=f'Cannot claim {pid}: {e}');continue
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 205, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 128, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 706, in run_until_complete
+    self.run_forever()
+    ~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 677, in run_forever
+    self._run_once()
+    ~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 2056, in _run_once
+    handle._run()
+    ~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/bridge.py", line 52, in commands
+    return math.isclose(a,b,rel_tol=1e-6,abs_tol=1e-7) if isinstance(a,(float,int)) and isinstance(b,(float,int)) else a==b
+                 ^^^^^^^^^^^^^^^^
+SystemExit
+Heart v2 http://localhost:8875 · dashboard /progress · starts read-only
+Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<main() done, defined at /Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/bridge.py:58> exception=SystemExit()>
+Traceback (most recent call last):
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/bridge.py", line 132, in <module>
+    if __name__=='__main__':asyncio.run(main())
+                            ~~~~~~~~~~~^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 204, in run
+    with Runner(debug=debug, loop_factory=loop_factory) as runner:
+         ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 64, in __exit__
+    self.close()
+    ~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 72, in close
+    _cancel_all_tasks(loop)
+    ~~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 216, in _cancel_all_tasks
+    loop.run_until_complete(tasks.gather(*to_cancel, return_exceptions=True))
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 706, in run_until_complete
+    self.run_forever()
+    ~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 677, in run_forever
+    self._run_once()
+    ~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 2056, in _run_once
+    handle._run()
+    ~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/bridge.py", line 131, in main
+    await asyncio.gather(commands(),actions(),socket())
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 205, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 128, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 706, in run_until_complete
+    self.run_forever()
+    ~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 677, in run_forever
+    self._run_once()
+    ~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 2056, in _run_once
+    handle._run()
+    ~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/bridge.py", line 64, in commands
+    if not line:raise SystemExit
+                ^^^^^^^^^^^^^^^^
+SystemExit
+Heart v2 http://localhost:8875 · dashboard /progress · starts read-only
+connection handler failed
+Traceback (most recent call last):
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/.venv/lib/python3.14/site-packages/websockets/asyncio/server.py", line 747, in protocol_handler
+    await handler(connection)
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/server.py", line 216, in handler
+    async for raw in ws:
+    ...<60 lines>...
+     except Exception as ex:e.error=str(ex)
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/.venv/lib/python3.14/site-packages/websockets/asyncio/connection.py", line 237, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/.venv/lib/python3.14/site-packages/websockets/asyncio/connection.py", line 317, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+Heart v2 http://localhost:8875 · dashboard /progress · starts read-only
+connection handler failed
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/selector_events.py", line 1012, in _read_ready__data_received
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 54] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/.venv/lib/python3.14/site-packages/websockets/asyncio/server.py", line 747, in protocol_handler
+    await handler(connection)
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/server.py", line 267, in handler
+    async for raw in ws:
+    ...<68 lines>...
+     except Exception as ex:e.error=str(ex)
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/.venv/lib/python3.14/site-packages/websockets/asyncio/connection.py", line 237, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/.venv/lib/python3.14/site-packages/websockets/asyncio/connection.py", line 317, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+Heart v2 http://localhost:8875 · dashboard /progress · starts read-only
+Heart v2 http://localhost:8875 · dashboard /progress · starts read-only
+Heart v2 http://localhost:8875 · dashboard /progress · starts read-only
+connection handler failed
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/selector_events.py", line 1012, in _read_ready__data_received
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 54] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/.venv/lib/python3.14/site-packages/websockets/asyncio/server.py", line 747, in protocol_handler
+    await handler(connection)
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/server.py", line 374, in handler
+    async for raw in ws:
+    ...<55 lines>...
+     except Exception as ex:e.error=str(ex)
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/.venv/lib/python3.14/site-packages/websockets/asyncio/connection.py", line 237, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/.venv/lib/python3.14/site-packages/websockets/asyncio/connection.py", line 317, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+Heart v2 http://localhost:8875 · dashboard /progress · starts read-only
+Heart v2 http://localhost:8875 · dashboard /progress · starts read-only
+connection handler failed
+Traceback (most recent call last):
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/.venv/lib/python3.14/site-packages/websockets/asyncio/server.py", line 747, in protocol_handler
+    await handler(connection)
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/server.py", line 489, in handler
+    async for raw in ws:
+    ...<63 lines>...
+     except Exception as ex:e.error=str(ex)
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/.venv/lib/python3.14/site-packages/websockets/asyncio/connection.py", line 237, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/.venv/lib/python3.14/site-packages/websockets/asyncio/connection.py", line 317, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+connection handler failed
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/selector_events.py", line 1012, in _read_ready__data_received
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 54] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/.venv/lib/python3.14/site-packages/websockets/asyncio/server.py", line 747, in protocol_handler
+    await handler(connection)
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/server.py", line 489, in handler
+    async for raw in ws:
+    ...<63 lines>...
+     except Exception as ex:e.error=str(ex)
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/.venv/lib/python3.14/site-packages/websockets/asyncio/connection.py", line 237, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/.venv/lib/python3.14/site-packages/websockets/asyncio/connection.py", line 317, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+Heart v2 http://localhost:8875 · dashboard /progress · starts read-only
+Heart v2 http://localhost:8875 · dashboard /progress · starts read-only
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 128, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/server.py", line 861, in main
+    await asyncio.gather(scan(),tick(),publish(),bridge_read(),surface_updates())
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/server.py", line 475, in scan
+    try:await asyncio.wait_for(rescan.wait(),1 if e.armed else 15)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/tasks.py", line 488, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/locks.py", line 213, in wait
+    await fut
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/server.py", line 864, in <module>
+    if __name__=='__main__':asyncio.run(main())
+                            ~~~~~~~~~~~^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 205, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 133, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/server.py", line 6, in <module>
+    import websockets
+ModuleNotFoundError: No module named 'websockets'
+Heart v2 http://localhost:8875 · dashboard /progress · starts read-only
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 128, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/server.py", line 1025, in main
+    await asyncio.gather(scan(),tick(),publish(),bridge_read(),surface_updates())
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/server.py", line 556, in scan
+    try:await asyncio.wait_for(rescan.wait(),1 if e.armed else 15)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/tasks.py", line 488, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/locks.py", line 213, in wait
+    await fut
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/server.py", line 1028, in <module>
+    if __name__=='__main__':asyncio.run(main())
+                            ~~~~~~~~~~~^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 205, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 133, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+Heart v2 http://localhost:8875 · dashboard /progress · starts read-only
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 128, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/server.py", line 1082, in main
+    await asyncio.gather(scan(),tick(),publish(),bridge_read(),surface_updates())
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/server.py", line 580, in scan
+    try:await asyncio.wait_for(rescan.wait(),1 if e.armed else 15)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/tasks.py", line 488, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/locks.py", line 213, in wait
+    await fut
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/server.py", line 1085, in <module>
+    if __name__=='__main__':asyncio.run(main())
+                            ~~~~~~~~~~~^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 205, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 133, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+Heart v2 http://localhost:8875 · dashboard /progress · starts read-only
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 128, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/server.py", line 1082, in main
+    await asyncio.gather(scan(),tick(),publish(),bridge_read(),surface_updates())
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/server.py", line 580, in scan
+    try:await asyncio.wait_for(rescan.wait(),1 if e.armed else 15)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/tasks.py", line 488, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/locks.py", line 213, in wait
+    await fut
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/server.py", line 1085, in <module>
+    if __name__=='__main__':asyncio.run(main())
+                            ~~~~~~~~~~~^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 205, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 133, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt

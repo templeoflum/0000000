@@ -1,0 +1,147 @@
+{
+  "stage": "treehouse",
+  "sections": [
+    {
+      "layer": 1,
+      "name": "bg",
+      "images": 121,
+      "transition": "LumaKeyI",
+      "blend": "LumaKeyI",
+      "mask": null
+    },
+    {
+      "layer": 2,
+      "name": "leaves6",
+      "images": 107,
+      "transition": "LumaKeyI",
+      "blend": "Add",
+      "mask": "/Users/donovan/work/Visuals/infra/treehouse/MASKS/leaves6.png"
+    },
+    {
+      "layer": 3,
+      "name": "leaves5",
+      "images": 115,
+      "transition": "LumaKeyI",
+      "blend": "Add",
+      "mask": "/Users/donovan/work/Visuals/infra/treehouse/MASKS/leaves5.png"
+    },
+    {
+      "layer": 4,
+      "name": "leaves4",
+      "images": 114,
+      "transition": "LumaKeyI",
+      "blend": "Add",
+      "mask": "/Users/donovan/work/Visuals/infra/treehouse/MASKS/leaves4.png"
+    },
+    {
+      "layer": 5,
+      "name": "leaves3",
+      "images": 101,
+      "transition": "LumaKeyI",
+      "blend": "Add",
+      "mask": "/Users/donovan/work/Visuals/infra/treehouse/MASKS/leaves3.png"
+    },
+    {
+      "layer": 6,
+      "name": "leaves2",
+      "images": 117,
+      "transition": "LumaKeyI",
+      "blend": "Add",
+      "mask": "/Users/donovan/work/Visuals/infra/treehouse/MASKS/leaves2.png"
+    },
+    {
+      "layer": 7,
+      "name": "leaves1",
+      "images": 100,
+      "transition": "LumaKeyI",
+      "blend": "Add",
+      "mask": "/Users/donovan/work/Visuals/infra/treehouse/MASKS/leaves1.png"
+    },
+    {
+      "layer": 8,
+      "name": "house5",
+      "images": 114,
+      "transition": "LumaKeyI",
+      "blend": "Add",
+      "mask": "/Users/donovan/work/Visuals/infra/treehouse/MASKS/house5.png"
+    },
+    {
+      "layer": 9,
+      "name": "house1",
+      "images": 121,
+      "transition": "LumaKeyI",
+      "blend": "LumaKeyI",
+      "mask": "/Users/donovan/work/Visuals/infra/treehouse/MASKS/house1.png"
+    },
+    {
+      "layer": 10,
+      "name": "house2",
+      "images": 104,
+      "transition": "LumaKeyI",
+      "blend": "LumaKeyI",
+      "mask": "/Users/donovan/work/Visuals/infra/treehouse/MASKS/house2.png"
+    },
+    {
+      "layer": 11,
+      "name": "house3",
+      "images": 103,
+      "transition": "LumaKeyI",
+      "blend": "LumaKeyI",
+      "mask": "/Users/donovan/work/Visuals/infra/treehouse/MASKS/house3.png"
+    },
+    {
+      "layer": 12,
+      "name": "house4",
+      "images": 116,
+      "transition": "LumaKeyI",
+      "blend": "LumaKeyI",
+      "mask": "/Users/donovan/work/Visuals/infra/treehouse/MASKS/house4.png"
+    },
+    {
+      "layer": 13,
+      "name": "house6",
+      "images": 114,
+      "transition": "LumaKeyI",
+      "blend": "Add",
+      "mask": "/Users/donovan/work/Visuals/infra/treehouse/MASKS/house6.png"
+    },
+    {
+      "layer": 16,
+      "name": "shading",
+      "images": 1,
+      "transition": "Alpha",
+      "blend": "LumaKey",
+      "mask": null
+    },
+    {
+      "layer": 17,
+      "name": "windowL",
+      "images": 62,
+      "transition": "LumaKeyI",
+      "blend": "Add",
+      "mask": "/Users/donovan/work/Visuals/infra/treehouse/MASKS/windowL.png"
+    },
+    {
+      "layer": 18,
+      "name": "windowS",
+      "images": 78,
+      "transition": "LumaKeyI",
+      "blend": "Add",
+      "mask": "/Users/donovan/work/Visuals/infra/treehouse/MASKS/windowS.png"
+    }
+  ],
+  "images": 1588,
+  "nodes": 1953,
+  "wire": "/Users/donovan/work/0000000/shadertoy shaders/sp/experiments/stage-frame/Heart Treehouse Frame/Heart Treehouse Frame.wire",
+  "status": "Loaded and rendered in Wire and Arena; installed in Resolume Wire/Patches",
+  "limitations": [
+    "Native outline/detail generators and group effects are not ported; use original composition for exact appearance.",
+    "Opacity bounce interpretation and per-clip duration variations require parity checks."
+  ],
+  "arena_test": {
+    "layer": 9,
+    "column": 2,
+    "composition": "Heart Festival Stage Test.avc",
+    "notes": "Layer Alpha blend, ignores column triggers. Treehouse Shuffle All event successfully triggered. Portal left active at layer opacity 1."
+  }
+}

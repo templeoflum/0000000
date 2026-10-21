@@ -1,0 +1,78 @@
+// [HJ] Allies
+{
+  "SchemaVersion": "1.1-ter",
+  "ArchetypeName": "Allies",
+  "SystemOfOrigin": "HJ",
+  "CulturalLineage": ["Universal"],
+  "CommonAliases": ["Companions", "Helpers", "Sidekicks", "Team"],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "Provide support, skills, and emotional grounding",
+    "PrimaryDomain": "Narrative",
+    "ToneOrPolarity": "Supportive / Loyal",
+    "SymbolicCore": "Many hearts beating as one",
+    "Correspondences": {
+      "Element": "Water",
+      "Planet": "Moon",
+      "Chakra": "Heart",
+      "Color": "Green",
+      "Animal": "Wolf pack, Dolphin",
+      "Other": ["Shield", "Rope", "Campfire"]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": ["Support", "Comic relief", "Skill complement"],
+    "ComplementaryArchetypes": ["Hero", "Mentor"],
+    "ShadowForms": ["Traitor Ally", "Deadweight Companion"],
+    "DevelopmentalArc": ["Meet → Bond → Test → Stand together"],
+    "CyclePhase": "Initiation → Ordeal"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": ["Loyal", "Resourceful", "Empathic", "Diverse"],
+    "Typologies": {
+      "MBTI": "ISFJ / ESFP / INTP (varies)",
+      "Enneagram": "2w1, 6w7, 9w1 (varies)",
+      "Other": ["JP12.Caregiver", "JP12.Everyman"]
+    },
+    "SubVariants": ["Loyal Shield", "Comic Relief", "Skill Expert"],
+    "InternalFamily": "Helper"
+  },
+  "CulturalContext": {
+    "Regions": ["Global"],
+    "MythicAppearances": ["Argonauts", "Knights of the Round Table", "Seven Samurai"],
+    "ReligiousOrRitualUse": "Warrior bands, fellowship oaths, team initiations",
+    "HistoricalEvolution": "Warrior companions → comic sidekicks → ensemble casts",
+    "SyncreticForms": ["Fellowship of the Ring", "Guardians of the Galaxy"]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "👥",
+    "ImageryNotes": "Circle of hands around a campfire",
+    "ArtisticExamples": [
+      "Samwise Gamgee",
+      "Ron & Hermione",
+      "Sancho Panza"
+    ],
+    "PoeticInvocation": "We are the many voices that make one song.",
+    "DreamForm": "A chorus of silhouettes holding torches in a dark wood"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": ["JP12.Caregiver", "JP12.Everyman", "JU.Persona"],
+    "SemanticTags": ["#team", "#heart", "#support", "#unity"],
+    "RitualFunction": "Invoke group cohesion and shared purpose",
+    "AIPromptSeeds": [
+      "Create an ally who mirrors the hero’s flaw."
+    ],
+    "NarrativeHooks": ["Band of misfits", "Unexpected helper", "Last-minute rescue"]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [
+      { "to": "JP12.Caregiver", "strength": "moderate" },
+      { "to": "JP12.Everyman", "strength": "moderate" }
+    ]
+  },
+  "FacetRegistry": [
+    { "facet": "Loyal Shield", "weight": 0.4 },
+    { "facet": "Comic Relief", "weight": 0.3 },
+    { "facet": "Skill Expert", "weight": 0.3 }
+  ]
+}

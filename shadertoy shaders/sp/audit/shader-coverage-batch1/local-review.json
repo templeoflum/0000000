@@ -1,0 +1,71 @@
+{
+  "answer": {
+    "records": [
+      {
+        "source": "ButterflyEffect",
+        "continuous_controls": [
+          "x",
+          "y",
+          "rate",
+          "phase",
+          "freq",
+          "amp",
+          "zoom",
+          "offset"
+        ],
+        "unsupported_controls": [],
+        "note": "Live testing required."
+      },
+      {
+        "source": "Gradient Bars",
+        "continuous_controls": [
+          "gradient power",
+          "balance",
+          "speed",
+          "offset",
+          "use odd directions",
+          "columns",
+          "x iterations",
+          "invert speed",
+          "phase iterations",
+          "easing type"
+        ],
+        "unsupported_controls": [
+          "use columns"
+        ],
+        "note": "Live testing required."
+      },
+      {
+        "source": "Melty Boi",
+        "continuous_controls": [
+          "speed",
+          "intensity",
+          "scale x",
+          "scale y",
+          "spread",
+          "vignette",
+          "contrast"
+        ],
+        "unsupported_controls": [],
+        "note": "Live testing required."
+      }
+    ]
+  },
+  "checks": [
+    {
+      "source": "ButterflyEffect",
+      "exact_continuous_match": true,
+      "exact_other_match": true
+    },
+    {
+      "source": "Gradient Bars",
+      "exact_continuous_match": true,
+      "exact_other_match": true
+    },
+    {
+      "source": "Melty Boi",
+      "exact_continuous_match": true,
+      "exact_other_match": true
+    }
+  ]
+}

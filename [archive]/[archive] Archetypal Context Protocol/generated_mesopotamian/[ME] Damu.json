@@ -1,0 +1,189 @@
+{
+  "SchemaVersion": "1.1-ter",
+  "ArchetypeName": "Damu",
+  "SystemOfOrigin": "ME",
+  "CulturalLineage": [
+    "Sumerian",
+    "Akkadian"
+  ],
+  "CommonAliases": [
+    "Divine Physician",
+    "Son of Gula",
+    "Healing God",
+    "Child Healer",
+    "Vegetation Spirit"
+  ],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "Healing deity embodying medicine, vegetation renewal, youthful healing power, and the physician's compassion",
+    "PrimaryDomain": "Healing/Medicine/Vegetation",
+    "ToneOrPolarity": "Healing / Youthful / Compassionate / Renewing",
+    "SymbolicCore": "The young healer - fresh healing power and vegetation's renewal",
+    "Correspondences": {
+      "Element": "Earth (vegetation/herbs) and Water (healing)",
+      "Planet": "Mercury (healing)",
+      "Chakra": "Heart (compassion)",
+      "Color": "Healing Green, Fresh Gold, Life Blue",
+      "Animal": "Gazelle (youth/grace)",
+      "Other": [
+        "Medicinal herbs",
+        "Healing implements",
+        "Vegetation growth",
+        "Youthful vigor",
+        "Physician's tools",
+        "Spring renewal",
+        "Medical incantations"
+      ]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": [
+      "Divine Healer",
+      "Vegetation God",
+      "Youthful Physician",
+      "Renewal Spirit",
+      "Medical Deity",
+      "Spring Power"
+    ],
+    "ComplementaryArchetypes": [
+      "Gula (Mother healer)",
+      "Ninurta (Father in some versions)",
+      "Ningishzida (Vegetation parallel)",
+      "Dumuzi (Dying god parallel)"
+    ],
+    "ShadowForms": [
+      "Ineffectual Youth",
+      "Overwhelmed Healer",
+      "Withered Spring"
+    ],
+    "DevelopmentalArc": [
+      "Child Healer → Vegetation Spirit → Divine Physician → Renewal Power"
+    ],
+    "CyclePhase": "Spring → Growth → Healing → Renewal"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": [
+      "Healing",
+      "Youthful",
+      "Compassionate",
+      "Renewing",
+      "Fresh",
+      "Vigorous",
+      "Medical"
+    ],
+    "Typologies": {
+      "MBTI": "INFP",
+      "Enneagram": "2w1 (The Servant)",
+      "Other": [
+        "JP12.Caregiver",
+        "Pearson.Caregiver",
+        "Healer archetype",
+        "Youth healer"
+      ]
+    },
+    "SubVariants": [
+      "Divine Physician",
+      "Vegetation Spirit",
+      "Youthful Healer",
+      "Renewal God",
+      "Spring Power"
+    ],
+    "InternalFamily": "Healer - Youth - Renewer"
+  },
+  "CulturalContext": {
+    "Regions": [
+      "Isin (with mother Gula)",
+      "Girsu",
+      "Sumer",
+      "Akkad"
+    ],
+    "MythicAppearances": [
+      "Healing narratives",
+      "Son of Gula myths",
+      "Vegetation cycle myths",
+      "Medical incantations",
+      "Spring renewal rites",
+      "Herbal lore"
+    ],
+    "ReligiousOrRitualUse": "Medical healing rituals, herbal medicine invocations, spring festivals, youth and renewal rites, physician training blessings",
+    "HistoricalEvolution": "Ancient Sumerian healing deity, son of great healer Gula, merged vegetation and medical functions, influenced youth healer traditions",
+    "SyncreticForms": [
+      "Apollo (Greek healing/youth)",
+      "Asclepius (Greek medicine - though older)",
+      "Telesphorus (Greek child healer)",
+      "Iaso (Greek healing)"
+    ]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "🌱💚 (vegetation and healing)",
+    "ImageryNotes": "Depicted as youthful healer, with medicinal plants, healing tools, vegetation imagery, compassionate expression, fresh vigor",
+    "ArtisticExamples": [
+      "Healing deity imagery",
+      "Medical incantation texts",
+      "Vegetation renewal scenes"
+    ],
+    "PoeticInvocation": "I am the fresh green shoot of healing, the youth whose touch renews, the spring that brings life back.",
+    "DreamForm": "A young healer with infinite compassion; spring vegetation bursting forth; fresh healing power untainted by cynicism"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": [
+      "ME.Gula",
+      "ME.Ningishzida",
+      "ME.Dumuzi-Tammuz",
+      "GR.Apollo",
+      "GR.Asclepius"
+    ],
+    "SemanticTags": [
+      "#healing",
+      "#medicine",
+      "#youth",
+      "#vegetation",
+      "#renewal",
+      "#spring",
+      "#compassion",
+      "#herbs"
+    ],
+    "RitualFunction": "Invoke for healing (especially youth), herbal medicine, spring renewal, fresh starts, youthful healing power, vegetation magic",
+    "AIPromptSeeds": [
+      "Generate a youthful healing deity whose power is fresh and renewing like spring vegetation.",
+      "Create a divine physician who heals with the vigor of youth and compassion of the healer lineage."
+    ],
+    "NarrativeHooks": [
+      "The young healer learning from mother",
+      "Spring vegetation as medicine",
+      "Fresh healing power",
+      "Youthful compassion unlimited",
+      "Renewal through medical arts"
+    ]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [
+      {
+        "to": "GR.Apollo",
+        "strength": "moderate"
+      },
+      {
+        "to": "GR.Telesphorus",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "FacetRegistry": [
+    {
+      "facet": "Divine Physician",
+      "weight": 0.4
+    },
+    {
+      "facet": "Vegetation Spirit",
+      "weight": 0.25
+    },
+    {
+      "facet": "Youthful Healer",
+      "weight": 0.25
+    },
+    {
+      "facet": "Renewal Power",
+      "weight": 0.1
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+# Demo Manifest Template
+# Copy this file to assets/{slug}/manifest.yml and fill in the details.
+# Each illusion's demo folder contains a manifest listing all available demonstrations.
+
+slug: illusion-slug
+demos:
+  # --- Static Image ---
+  # Use for SVG, PNG, or GIF images that show the illusion stimulus.
+  # SVG is preferred over raster formats for scalability and editability.
+  - file: static.svg
+    type: static-image          # static-image | interactive | generator | video
+    format: svg                 # svg, png, gif
+    title: "Standard stimulus"
+    description: "Brief description of what this image shows"
+    parameters: {}              # Key stimulus parameters used (e.g., line_length: "50px")
+
+  # --- Interactive Demo ---
+  # Self-contained HTML files with embedded CSS/JS. No external CDN dependencies.
+  - file: interactive.html
+    type: interactive
+    format: html
+    title: "Parameter explorer"
+    description: "Adjust X and Y to see how the illusion changes"
+    parameters:
+      adjustable:
+        - name: "Arrow angle"
+          range: "10-80 degrees"
+    requirements: []            # e.g. ["modern browser", "WebGL"]
+
+  # --- Generator Script ---
+  # Python scripts that produce stimulus images with configurable parameters.
+  - file: generate.py
+    type: generator
+    format: py
+    title: "Stimulus generator"
+    description: "Generates stimulus images with configurable parameters"
+    dependencies:               # Python packages needed
+      - matplotlib
+      - numpy
+    outputs:
+      - "output.png"
+      - "output.svg"
+
+  # --- Video / Animation ---
+  # Animated demonstrations in GIF, MP4, or WebM format.
+  - file: demo.gif
+    type: video
+    format: gif                 # gif, mp4, webm
+    title: "Animated demonstration"
+    description: "Shows the illusion with motion"
+    duration_seconds: 5
+
+external_references:            # Links to well-known demonstrations elsewhere
+  - url: "https://example.com/demo"
+    title: "Description of external demo"
+    type: website               # website | video | app

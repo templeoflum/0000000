@@ -1,0 +1,36 @@
+{
+  "status": "staged; running armed backend unchanged",
+  "backend_tests": 55,
+  "isolated_checks": [
+    "native subscription scope and stale binding fences",
+    "stable-ID launch/eject and unrelated ownership retention",
+    "momentary release ownership",
+    "color and alpha",
+    "clip browser/favorites and layer actions",
+    "relationship families/per-parameter motion",
+    "weighted opacity sets and external Mixed state",
+    "A/B pin and stable viewport",
+    "legacy surface/mapping and controller regression",
+    "keyboard clip browse/launch, momentary Space release and Escape"
+  ],
+  "composition_preview": {
+    "layers": 26,
+    "targets": 197,
+    "viewport": [
+      1280,
+      800
+    ],
+    "source": "read-only snapshot; simulated state transport"
+  },
+  "live_read_only": [
+    "one native parameter subscription confirmed reply schema",
+    "Heart connected and armed; seven owned parameters at read"
+  ],
+  "not_accepted": [
+    "new native parameter/clip output",
+    "feedback route, accumulation and reset",
+    "Base/Safe returns",
+    "physical PS4 navigation",
+    "combined rendered show output"
+  ]
+}

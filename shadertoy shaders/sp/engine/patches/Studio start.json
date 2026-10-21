@@ -1,0 +1,1735 @@
+{
+  "version": 1,
+  "name": "Studio start",
+  "composition": "Studio start.avc",
+  "bars": 8.0,
+  "hold": false,
+  "instruments": {
+    "feedback/map": {
+      "version": 2,
+      "global": {
+        "speed": 0.25,
+        "relationship": {
+          "kind": "pendulum",
+          "base": 17,
+          "step": 1,
+          "members": {
+            "Zoom": 0,
+            "Rotate": 1,
+            "Drift X": 2,
+            "Drift Y": 3,
+            "Center X": 4,
+            "Center Y": 5
+          }
+        },
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "Zoom": {
+          "config": {
+            "manual": 0.7132,
+            "drive": true,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.7071999999999999,
+            "hi": 0.7192,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.7132,
+          "identity": "SPChainMap/1/Zoom"
+        },
+        "Rotate": {
+          "config": {
+            "manual": 0.4631,
+            "drive": true,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.16666666666666666,
+            "shape": 1,
+            "lo": 0.4631,
+            "hi": 0.4691,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.4631,
+          "identity": "SPChainMap/1/Rotate"
+        },
+        "Drift X": {
+          "config": {
+            "manual": 0.4492,
+            "drive": true,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.3333333333333333,
+            "shape": 1,
+            "lo": 0.4492,
+            "hi": 0.4532,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.4492,
+          "identity": "SPChainMap/1/Drift X"
+        },
+        "Drift Y": {
+          "config": {
+            "manual": 0.5,
+            "drive": true,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.5,
+            "shape": 1,
+            "lo": 0.498,
+            "hi": 0.502,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.5,
+          "identity": "SPChainMap/1/Drift Y"
+        },
+        "Center X": {
+          "config": {
+            "manual": 0.5,
+            "drive": true,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.6666666666666666,
+            "shape": 1,
+            "lo": 0.47,
+            "hi": 0.53,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.5,
+          "identity": "SPChainMap/1/Center X"
+        },
+        "Center Y": {
+          "config": {
+            "manual": 0.5,
+            "drive": true,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.8333333333333334,
+            "shape": 1,
+            "lo": 0.47,
+            "hi": 0.53,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.5,
+          "identity": "SPChainMap/1/Center Y"
+        },
+        "Gain": {
+          "config": {
+            "manual": 1.0,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 1.0,
+          "identity": "SPChainMap/1/Gain"
+        },
+        "Floor": {
+          "config": {
+            "manual": 0.4335,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.4335,
+          "identity": "SPChainMap/1/Floor"
+        },
+        "Key": {
+          "config": {
+            "manual": 0.4351310004752852,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.4351310004752852,
+          "identity": "SPChainMap/1/Key"
+        }
+      }
+    },
+    "sculpt/level": {
+      "version": 2,
+      "global": {
+        "speed": 0.25,
+        "relationship": {
+          "kind": "pendulum",
+          "base": 17,
+          "step": 1,
+          "members": {
+            "Key": 0,
+            "Soft": 1,
+            "Gain": 2,
+            "Floor": 3,
+            "Curve": 4,
+            "Ceiling": 5,
+            "Lift": 6
+          }
+        },
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "Gain": {
+          "config": {
+            "manual": 1.0,
+            "drive": true,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.2857142857142857,
+            "shape": 1,
+            "lo": 0.97,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 1.0,
+          "identity": "SPStudyLevel/1/Gain"
+        },
+        "Floor": {
+          "config": {
+            "manual": 0.0,
+            "drive": true,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.42857142857142855,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 0.025,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.0,
+          "identity": "SPStudyLevel/1/Floor"
+        },
+        "Key": {
+          "config": {
+            "manual": 0.3725,
+            "drive": true,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.355,
+            "hi": 0.39,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.3725,
+          "identity": "SPStudyLevel/1/Key"
+        },
+        "Soft": {
+          "config": {
+            "manual": 0.0,
+            "drive": true,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.14285714285714285,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 0.015,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.0,
+          "identity": "SPStudyLevel/1/Soft"
+        },
+        "Curve": {
+          "config": {
+            "manual": 0.0,
+            "drive": true,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.5714285714285714,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 0.08,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.0,
+          "identity": "SPStudyLevel/1/Curve"
+        },
+        "Ceiling": {
+          "config": {
+            "manual": 1.0,
+            "drive": true,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.7142857142857143,
+            "shape": 1,
+            "lo": 0.92,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 1.0,
+          "identity": "SPStudyLevel/1/Ceiling"
+        },
+        "Lift": {
+          "config": {
+            "manual": 0.0,
+            "drive": true,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.8571428571428571,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 0.025,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.0,
+          "identity": "SPStudyLevel/1/Lift"
+        }
+      }
+    },
+    "field/ground": {
+      "version": 2,
+      "global": {
+        "speed": 0.25,
+        "relationship": {
+          "kind": "pendulum",
+          "base": 17,
+          "step": 1,
+          "members": {
+            "Tilt": 0,
+            "Sway": 1,
+            "Bob": 2,
+            "Travel": 3,
+            "Horizon": 4,
+            "Yaw": 5,
+            "Dolly": 6,
+            "Focal mm": 7,
+            "Distort": 8,
+            "Scale": 9,
+            "Gap": 10,
+            "Seam": 11,
+            "Bands": 12,
+            "Sun": 13,
+            "Height": 14,
+            "Relief": 15,
+            "Haze": 16,
+            "Soft": 17
+          }
+        },
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "Tilt": {
+          "config": {
+            "manual": 0.975,
+            "drive": true,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 0.05,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.975,
+          "identity": "SP Atom Ground/1/Tilt"
+        },
+        "Sway": {
+          "config": {
+            "manual": 0.5200885485468957,
+            "drive": true,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.05555555555555555,
+            "shape": 1,
+            "lo": 0.420089,
+            "hi": 0.620089,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.5200885485468957,
+          "identity": "SP Atom Ground/1/Sway"
+        },
+        "Bob": {
+          "config": {
+            "manual": 0.4056565802509908,
+            "drive": true,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.1111111111111111,
+            "shape": 1,
+            "lo": 0.305657,
+            "hi": 0.505657,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.4056565802509908,
+          "identity": "SP Atom Ground/1/Bob"
+        },
+        "Travel": {
+          "config": {
+            "manual": 0.025235303830911493,
+            "drive": true,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.16666666666666666,
+            "shape": 1,
+            "lo": 0.025235,
+            "hi": 0.375235,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.025235303830911493,
+          "identity": "SP Atom Ground/1/Travel"
+        },
+        "Horizon": {
+          "config": {
+            "manual": 0.4885805399603699,
+            "drive": true,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.2222222222222222,
+            "shape": 1,
+            "lo": 0.438581,
+            "hi": 0.538581,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.4885805399603699,
+          "identity": "SP Atom Ground/1/Horizon"
+        },
+        "Yaw": {
+          "config": {
+            "manual": 0.95,
+            "drive": true,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.2777777777777778,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 0.1,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.95,
+          "identity": "SP Atom Ground/1/Yaw"
+        },
+        "Dolly": {
+          "config": {
+            "manual": 0.6772188102119461,
+            "drive": true,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.3333333333333333,
+            "shape": 1,
+            "lo": 0.627219,
+            "hi": 0.727219,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.6772188102119461,
+          "identity": "SP Atom Ground/1/Dolly"
+        },
+        "Focal mm": {
+          "config": {
+            "manual": 0.40869592140026423,
+            "drive": true,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.3888888888888889,
+            "shape": 1,
+            "lo": 0.358696,
+            "hi": 0.458696,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.40869592140026423,
+          "identity": "SP Atom Ground/1/Focal mm"
+        },
+        "Lens": {
+          "config": {
+            "manual": 0.0,
+            "drive": false,
+            "ratio": "1/pi",
+            "mult": -1.0,
+            "offset": 0.8441455049329178,
+            "shape": 0,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0,
+          "identity": "SP Atom Ground/1/Lens"
+        },
+        "Distort": {
+          "config": {
+            "manual": 0.8201525346763541,
+            "drive": true,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.4444444444444444,
+            "shape": 1,
+            "lo": 0.720153,
+            "hi": 0.920153,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.8201525346763541,
+          "identity": "SP Atom Ground/1/Distort"
+        },
+        "Scale": {
+          "config": {
+            "manual": 0.5463029865125241,
+            "drive": true,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.5,
+            "shape": 1,
+            "lo": 0.446303,
+            "hi": 0.646303,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.5463029865125241,
+          "identity": "SP Atom Ground/1/Scale"
+        },
+        "Gap": {
+          "config": {
+            "manual": 0.5630469782034346,
+            "drive": true,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.5555555555555556,
+            "shape": 1,
+            "lo": 0.463047,
+            "hi": 0.663047,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.5630469782034346,
+          "identity": "SP Atom Ground/1/Gap"
+        },
+        "Seam": {
+          "config": {
+            "manual": 0.15000000596046448,
+            "drive": true,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.6111111111111112,
+            "shape": 1,
+            "lo": 0.05,
+            "hi": 0.25,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.15000000596046448,
+          "identity": "SP Atom Ground/1/Seam"
+        },
+        "Bands": {
+          "config": {
+            "manual": 0.5462423493408662,
+            "drive": true,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.6666666666666666,
+            "shape": 1,
+            "lo": 0.446242,
+            "hi": 0.646242,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.5462423493408662,
+          "identity": "SP Atom Ground/1/Bands"
+        },
+        "Sun": {
+          "config": {
+            "manual": 0.44830067090395476,
+            "drive": true,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.7222222222222222,
+            "shape": 1,
+            "lo": 0.448301,
+            "hi": 0.798301,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.44830067090395476,
+          "identity": "SP Atom Ground/1/Sun"
+        },
+        "Height": {
+          "config": {
+            "manual": 0.8855270127118644,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.7777777777777778,
+            "shape": 1,
+            "lo": 0.785527,
+            "hi": 0.985527,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.8855270127118644,
+          "identity": "SP Atom Ground/1/Height"
+        },
+        "Relief": {
+          "config": {
+            "manual": 0.6828712066473989,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.8333333333333334,
+            "shape": 1,
+            "lo": 0.582871,
+            "hi": 0.782871,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.6828712066473989,
+          "identity": "SP Atom Ground/1/Relief"
+        },
+        "Haze": {
+          "config": {
+            "manual": 0.07308224951830443,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.8888888888888888,
+            "shape": 1,
+            "lo": 0,
+            "hi": 0.173082,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.07308224951830443,
+          "identity": "SP Atom Ground/1/Haze"
+        },
+        "Soft": {
+          "config": {
+            "manual": 0.41436355973025046,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.9444444444444444,
+            "shape": 1,
+            "lo": 0.314364,
+            "hi": 0.514364,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.41436355973025046,
+          "identity": "SP Atom Ground/1/Soft"
+        }
+      }
+    },
+    "figure/shell": {
+      "version": 2,
+      "global": {
+        "speed": 0.25,
+        "relationship": {
+          "kind": "pendulum",
+          "base": 17,
+          "step": 1,
+          "members": {
+            "Turn": 0,
+            "Spin": 1,
+            "Double": 2,
+            "Sweep": 3,
+            "Thickness": 4,
+            "Hue": 5,
+            "W": 6,
+            "Sun": 7,
+            "Height": 8,
+            "X": 9,
+            "Y": 10,
+            "Morph": 11,
+            "Size": 12,
+            "Spread": 13,
+            "Drift": 14,
+            "Distance": 15,
+            "Faces": 16,
+            "Edges": 17,
+            "Round": 18,
+            "Shade": 19,
+            "Rim": 20,
+            "Haze": 21,
+            "Halo": 22,
+            "Focus": 23,
+            "Wet": 24,
+            "Loop": 25,
+            "Red": 26,
+            "Green": 27,
+            "Blue": 28,
+            "Depth": 29
+          }
+        },
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "Figure A": {
+          "config": {
+            "manual": 1.0,
+            "drive": false,
+            "ratio": "1:3",
+            "mult": 1.0,
+            "offset": 0.25,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 1.0,
+          "identity": "SP Atom 4D Field/1/Figure A"
+        },
+        "Figure B": {
+          "config": {
+            "manual": 0.0,
+            "drive": false,
+            "ratio": "3:2",
+            "mult": 2.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0,
+          "identity": "SP Atom 4D Field/1/Figure B"
+        },
+        "Morph": {
+          "config": {
+            "manual": 0.6587,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.36666666666666664,
+            "shape": 1,
+            "lo": 0.5787,
+            "hi": 0.7386999999999999,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.6587,
+          "identity": "SP Atom 4D Field/1/Morph"
+        },
+        "Size": {
+          "config": {
+            "manual": 0.3593,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.4,
+            "shape": 1,
+            "lo": 0.32930000000000004,
+            "hi": 0.3893,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.3593,
+          "identity": "SP Atom 4D Field/1/Size"
+        },
+        "W": {
+          "config": {
+            "manual": 0.5445,
+            "drive": true,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.2,
+            "shape": 1,
+            "lo": 0.46449999999999997,
+            "hi": 0.6244999999999999,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.5445,
+          "identity": "SP Atom 4D Field/1/W"
+        },
+        "Thickness": {
+          "config": {
+            "manual": 0.7874,
+            "drive": true,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.13333333333333333,
+            "shape": 1,
+            "lo": 0.7424,
+            "hi": 0.8324,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.7874,
+          "identity": "SP Atom 4D Field/1/Thickness"
+        },
+        "Layers": {
+          "config": {
+            "manual": 0.9849,
+            "drive": false,
+            "ratio": "8:13",
+            "mult": 2.0,
+            "offset": 0.0,
+            "shape": 0,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.9849,
+          "identity": "SP Atom 4D Field/1/Layers"
+        },
+        "Spread": {
+          "config": {
+            "manual": 0.0278,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.43333333333333335,
+            "shape": 1,
+            "lo": 0,
+            "hi": 0.1078,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.0278,
+          "identity": "SP Atom 4D Field/1/Spread"
+        },
+        "Sweep": {
+          "config": {
+            "manual": 0.6544000000000001,
+            "drive": true,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.1,
+            "shape": 1,
+            "lo": 0.6544000000000001,
+            "hi": 0.8044,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.6544000000000001,
+          "identity": "SP Atom 4D Field/1/Sweep"
+        },
+        "Drift": {
+          "config": {
+            "manual": 0.8822,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.4666666666666667,
+            "shape": 1,
+            "lo": 0.8022,
+            "hi": 0.9621999999999999,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.8822,
+          "identity": "SP Atom 4D Field/1/Drift"
+        },
+        "Turn": {
+          "config": {
+            "manual": 0.3538000000000001,
+            "drive": true,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.35380000000000006,
+            "hi": 0.7038,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.3538000000000001,
+          "identity": "SP Atom 4D Field/1/Turn"
+        },
+        "Spin": {
+          "config": {
+            "manual": 0.4972,
+            "drive": true,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.03333333333333333,
+            "shape": 1,
+            "lo": 0.4972,
+            "hi": 0.7472,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.4972,
+          "identity": "SP Atom 4D Field/1/Spin"
+        },
+        "Double": {
+          "config": {
+            "manual": 0.9692500000000001,
+            "drive": true,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.06666666666666667,
+            "shape": 1,
+            "lo": 0,
+            "hi": 0.1185,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.9692500000000001,
+          "identity": "SP Atom 4D Field/1/Double"
+        },
+        "X": {
+          "config": {
+            "manual": 0.4389,
+            "drive": true,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.3,
+            "shape": 1,
+            "lo": 0.3589,
+            "hi": 0.5189,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.4389,
+          "identity": "SP Atom 4D Field/1/X"
+        },
+        "Y": {
+          "config": {
+            "manual": 0.3411,
+            "drive": true,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.3333333333333333,
+            "shape": 1,
+            "lo": 0.2611,
+            "hi": 0.42110000000000003,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.3411,
+          "identity": "SP Atom 4D Field/1/Y"
+        },
+        "Perspective": {
+          "config": {
+            "manual": 0.0,
+            "drive": false,
+            "ratio": "3:4",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0,
+          "identity": "SP Atom 4D Field/1/Perspective"
+        },
+        "Sun": {
+          "config": {
+            "manual": 0.2794,
+            "drive": true,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.23333333333333334,
+            "shape": 1,
+            "lo": 0.2794,
+            "hi": 0.4394,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.2794,
+          "identity": "SP Atom 4D Field/1/Sun"
+        },
+        "Height": {
+          "config": {
+            "manual": 0.647,
+            "drive": true,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.26666666666666666,
+            "shape": 1,
+            "lo": 0.5670000000000001,
+            "hi": 0.727,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.647,
+          "identity": "SP Atom 4D Field/1/Height"
+        },
+        "Distance": {
+          "config": {
+            "manual": 0.6053,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.5,
+            "shape": 1,
+            "lo": 0.5253,
+            "hi": 0.6852999999999999,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.6053,
+          "identity": "SP Atom 4D Field/1/Distance"
+        },
+        "Faces": {
+          "config": {
+            "manual": 0.5993,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.5333333333333333,
+            "shape": 1,
+            "lo": 0.5193000000000001,
+            "hi": 0.6793,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.5993,
+          "identity": "SP Atom 4D Field/1/Faces"
+        },
+        "Edges": {
+          "config": {
+            "manual": 0.0001,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.5666666666666667,
+            "shape": 1,
+            "lo": 0,
+            "hi": 0.0801,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.0001,
+          "identity": "SP Atom 4D Field/1/Edges"
+        },
+        "Round": {
+          "config": {
+            "manual": 0.0,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.6,
+            "shape": 1,
+            "lo": 0,
+            "hi": 0.08,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.0,
+          "identity": "SP Atom 4D Field/1/Round"
+        },
+        "Vertices": {
+          "config": {
+            "manual": 0.0,
+            "drive": false,
+            "ratio": "1:3",
+            "mult": 1.0,
+            "offset": 0.25,
+            "shape": 0,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0,
+          "identity": "SP Atom 4D Field/1/Vertices"
+        },
+        "Shade": {
+          "config": {
+            "manual": 1.0,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.6333333333333333,
+            "shape": 1,
+            "lo": 0.92,
+            "hi": 1,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 1.0,
+          "identity": "SP Atom 4D Field/1/Shade"
+        },
+        "Rim": {
+          "config": {
+            "manual": 0.0,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.6666666666666666,
+            "shape": 1,
+            "lo": 0,
+            "hi": 0.08,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.0,
+          "identity": "SP Atom 4D Field/1/Rim"
+        },
+        "Haze": {
+          "config": {
+            "manual": 0.0,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.7,
+            "shape": 1,
+            "lo": 0,
+            "hi": 0.08,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.0,
+          "identity": "SP Atom 4D Field/1/Haze"
+        },
+        "Halo": {
+          "config": {
+            "manual": 0.373,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.7333333333333333,
+            "shape": 1,
+            "lo": 0.293,
+            "hi": 0.453,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.373,
+          "identity": "SP Atom 4D Field/1/Halo"
+        },
+        "Focus": {
+          "config": {
+            "manual": 0.6111,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.7666666666666667,
+            "shape": 1,
+            "lo": 0.5311,
+            "hi": 0.6910999999999999,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.6111,
+          "identity": "SP Atom 4D Field/1/Focus"
+        },
+        "Material": {
+          "config": {
+            "manual": 0.0,
+            "drive": false,
+            "ratio": "3:2",
+            "mult": -1.0,
+            "offset": 0.75,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.0,
+          "identity": "SP Atom 4D Field/1/Material"
+        },
+        "Micro": {
+          "config": {
+            "manual": 0.6283,
+            "drive": false,
+            "ratio": "2:3",
+            "mult": 2.0,
+            "offset": 0.5,
+            "shape": 0,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.6283,
+          "identity": "SP Atom 4D Field/1/Micro"
+        },
+        "Fine": {
+          "config": {
+            "manual": 0.5,
+            "drive": false,
+            "ratio": "3:5",
+            "mult": 1.0,
+            "offset": 0.5,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.5,
+          "identity": "SP Atom 4D Field/1/Fine"
+        },
+        "Base": {
+          "config": {
+            "manual": 1.0,
+            "drive": false,
+            "ratio": "1:3",
+            "mult": 2.0,
+            "offset": 0.75,
+            "shape": 0,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 1.0,
+          "identity": "SP Atom 4D Field/1/Base"
+        },
+        "Wet": {
+          "config": {
+            "manual": 1.0,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.8,
+            "shape": 1,
+            "lo": 0.92,
+            "hi": 1,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 1.0,
+          "identity": "SP Atom 4D Field/1/Wet"
+        },
+        "Loop": {
+          "config": {
+            "manual": 0.5154,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.8333333333333334,
+            "shape": 1,
+            "lo": 0.43539999999999995,
+            "hi": 0.5953999999999999,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.5154,
+          "identity": "SP Atom 4D Field/1/Loop"
+        },
+        "Hue": {
+          "config": {
+            "manual": 0.6609,
+            "drive": true,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.16666666666666666,
+            "shape": 1,
+            "lo": 0.6609,
+            "hi": 0.8109,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.6609,
+          "identity": "SP Atom 4D Field/1/Hue"
+        },
+        "Depth": {
+          "config": {
+            "manual": 0.9931,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.9666666666666667,
+            "shape": 1,
+            "lo": 0.9631,
+            "hi": 1,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.9931,
+          "identity": "SP Atom 4D Field/1/Depth"
+        },
+        "Red": {
+          "config": {
+            "manual": 0.5487,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.8666666666666667,
+            "shape": 1,
+            "lo": 0.46869999999999995,
+            "hi": 0.6286999999999999,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.5487,
+          "identity": "SP Atom 4D Field/1/Red"
+        },
+        "Green": {
+          "config": {
+            "manual": 0.3727,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.9,
+            "shape": 1,
+            "lo": 0.29269999999999996,
+            "hi": 0.4527,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.3727,
+          "identity": "SP Atom 4D Field/1/Green"
+        },
+        "Blue": {
+          "config": {
+            "manual": 0.6168,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.9333333333333333,
+            "shape": 1,
+            "lo": 0.5368,
+            "hi": 0.6968,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.6168,
+          "identity": "SP Atom 4D Field/1/Blue"
+        }
+      }
+    }
+  },
+  "layers": {
+    "feedback": {
+      "clip": "map",
+      "level": 0.6,
+      "bypass": false
+    },
+    "sculpt": {
+      "clip": "level",
+      "level": 1.0,
+      "bypass": false
+    },
+    "field": {
+      "clip": "ground",
+      "level": 0.45,
+      "bypass": false
+    },
+    "delay": {
+      "clip": null,
+      "level": 0.0,
+      "bypass": false
+    },
+    "figure": {
+      "clip": "shell",
+      "level": 0.65,
+      "bypass": false
+    },
+    "glyph": {
+      "clip": null,
+      "level": 0.0,
+      "bypass": false
+    },
+    "texture": {
+      "clip": null,
+      "level": 0.0,
+      "bypass": false
+    },
+    "grain": {
+      "clip": null,
+      "level": 0.0,
+      "bypass": false
+    }
+  },
+  "signature": {
+    "size": [
+      1920.0,
+      1080.0
+    ],
+    "effects": [
+      "Transform"
+    ],
+    "groups": [
+      [
+        "Group #",
+        [
+          "Transform"
+        ]
+      ]
+    ],
+    "layers": [
+      [
+        "feedback",
+        [
+          "Transform",
+          "HueRotate",
+          "DelayRGB",
+          "AutoMask",
+          "Mirror"
+        ],
+        [
+          [
+            "map",
+            "Video Router",
+            [
+              "Transform",
+              "SPChainMap",
+              "InvertRGB",
+              "Blur",
+              "Sharpen"
+            ]
+          ],
+          [
+            "texture",
+            "Video Router",
+            [
+              "Transform",
+              "SPStudyTexture"
+            ]
+          ],
+          [
+            "fold",
+            "Video Router",
+            [
+              "Transform",
+              "SPStudyFold"
+            ]
+          ],
+          [
+            "level",
+            "Video Router",
+            [
+              "Transform",
+              "SPChainLevel"
+            ]
+          ],
+          [
+            "pass",
+            "Video Router",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "Flow",
+            "Feedback",
+            [
+              "Transform",
+              "SPLoopFlow",
+              "SPLoopColor"
+            ]
+          ]
+        ]
+      ],
+      [
+        "sculpt",
+        [
+          "Transform"
+        ],
+        [
+          [
+            "level",
+            "Video Router",
+            [
+              "Transform",
+              "SPStudyLevel"
+            ]
+          ],
+          [
+            "pass",
+            "Video Router",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "color",
+            "Video Router",
+            [
+              "Transform",
+              "SPStudyColor"
+            ]
+          ],
+          [
+            "mixer",
+            "Video Router",
+            [
+              "Transform",
+              "SPStudyMixer"
+            ]
+          ],
+          [
+            "Shape",
+            "Feedback",
+            [
+              "Transform",
+              "SPLoopShape"
+            ]
+          ]
+        ]
+      ],
+      [
+        "field",
+        [
+          "Transform"
+        ],
+        [
+          [
+            "ground",
+            "SP Atom Ground",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "room",
+            "SP Atom Room",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "void",
+            "SP Atom Void",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "SP Field",
+            "SP Field",
+            [
+              "Transform"
+            ]
+          ]
+        ]
+      ],
+      [
+        "delay",
+        [
+          "Transform"
+        ],
+        [
+          [
+            "figure",
+            "Video Router",
+            [
+              "Transform",
+              "SPDelayChain"
+            ]
+          ],
+          [
+            "field",
+            "Video Router",
+            [
+              "Transform",
+              "SPDelayChain"
+            ]
+          ],
+          [
+            "Color",
+            "Feedback",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "figure \u00b7 light delay",
+            "Video Router",
+            [
+              "Transform",
+              "SPDelayPerformance"
+            ]
+          ]
+        ]
+      ],
+      [
+        "figure",
+        [
+          "Transform",
+          "LinearCloner",
+          "Mirror"
+        ],
+        [
+          [
+            "1d",
+            "Video Router",
+            [
+              "Transform",
+              "SPAtomLine"
+            ]
+          ],
+          [
+            "2d",
+            "SP Atom Figure 2D",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "3d",
+            "SP Atom Solid",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "4d",
+            "SP Atom 4D",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "shell",
+            "SP Atom 4D Field",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "hybrid",
+            "SP Atom Hybrid",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "Figure 3D SP",
+            "SP Figure 3D",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "Figure 2D SP",
+            "SP Figure",
+            [
+              "Transform"
+            ]
+          ]
+        ]
+      ],
+      [
+        "glyph",
+        [
+          "Transform"
+        ],
+        [
+          [
+            "glyph",
+            "SP Atom Glyph",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "script",
+            "SP Atom Script",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "SP Glyphmass",
+            "SP Glyphmass",
+            [
+              "Transform"
+            ]
+          ]
+        ]
+      ],
+      [
+        "texture",
+        [
+          "Transform"
+        ],
+        [
+          [
+            "dither",
+            "Video Router",
+            [
+              "Transform",
+              "SPAtomDither"
+            ]
+          ],
+          [
+            "texture",
+            "SP Atom Texture",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "SP Scan",
+            "SP Scan",
+            [
+              "Transform"
+            ]
+          ]
+        ]
+      ],
+      [
+        "grain",
+        [
+          "Transform"
+        ],
+        [
+          [
+            "grain",
+            "SP Atom Grain",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "SP Grain",
+            "SP Grain",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "SP State Test",
+            "SP State Test",
+            [
+              "Transform"
+            ]
+          ]
+        ]
+      ]
+    ]
+  }
+}

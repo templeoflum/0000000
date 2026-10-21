@@ -1,0 +1,581 @@
+[
+  {
+    "key": "L3C1",
+    "source": "SP Atom Ground",
+    "home": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 31.14,
+      "stddev": 61.42,
+      "near_black": 0.6684,
+      "near_white": 0.0
+    },
+    "shuffle": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 0.0,
+      "stddev": 0.0,
+      "near_black": 1.0,
+      "near_white": 0.0
+    },
+    "pixel_difference": 31.137
+  },
+  {
+    "key": "L3C2",
+    "source": "SP Atom Room",
+    "home": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 138.74,
+      "stddev": 50.26,
+      "near_black": 0.0,
+      "near_white": 0.0
+    },
+    "shuffle": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 138.73,
+      "stddev": 30.54,
+      "near_black": 0.0,
+      "near_white": 0.0
+    },
+    "pixel_difference": 47.772
+  },
+  {
+    "key": "L3C3",
+    "source": "SP Atom Void",
+    "home": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 1.18,
+      "stddev": 13.85,
+      "near_black": 0.9878,
+      "near_white": 0.0
+    },
+    "shuffle": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 27.85,
+      "stddev": 74.3,
+      "near_black": 0.8629,
+      "near_white": 0.0
+    },
+    "pixel_difference": 27.542
+  },
+  {
+    "key": "L3C4",
+    "source": "Heart Quaternion Field",
+    "home": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 125.11,
+      "stddev": 55.13,
+      "near_black": 0.0,
+      "near_white": 0.0001
+    },
+    "shuffle": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 110.64,
+      "stddev": 43.54,
+      "near_black": 0.0,
+      "near_white": 0.0
+    },
+    "pixel_difference": 100.413
+  },
+  {
+    "key": "L3C5",
+    "source": "Heart Quaternion Swell",
+    "home": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 1.7,
+      "stddev": 15.81,
+      "near_black": 0.9845,
+      "near_white": 0.0
+    },
+    "shuffle": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 4.9,
+      "stddev": 26.59,
+      "near_black": 0.955,
+      "near_white": 0.0
+    },
+    "pixel_difference": 5.619
+  },
+  {
+    "key": "L3C6",
+    "source": "Heart Paper Fractal",
+    "home": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 156.38,
+      "stddev": 95.07,
+      "near_black": 0.2442,
+      "near_white": 0.0
+    },
+    "shuffle": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 255.0,
+      "stddev": 0.0,
+      "near_black": 0.0,
+      "near_white": 1.0
+    },
+    "pixel_difference": 97.42
+  },
+  {
+    "key": "L3C7",
+    "source": "Heart Vector Lattice",
+    "home": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 43.08,
+      "stddev": 36.34,
+      "near_black": 0.0939,
+      "near_white": 0.0
+    },
+    "shuffle": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 25.74,
+      "stddev": 29.17,
+      "near_black": 0.179,
+      "near_white": 0.0
+    },
+    "pixel_difference": 40.962
+  },
+  {
+    "key": "L3C8",
+    "source": "SP Field",
+    "home": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 120.78,
+      "stddev": 59.86,
+      "near_black": 0.0234,
+      "near_white": 0.0092
+    },
+    "shuffle": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 122.68,
+      "stddev": 69.1,
+      "near_black": 0.0496,
+      "near_white": 0.0334
+    },
+    "pixel_difference": 61.324
+  },
+  {
+    "key": "L3C9",
+    "source": "Heart Concentrip",
+    "home": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 91.22,
+      "stddev": 41.23,
+      "near_black": 0.0034,
+      "near_white": 0.0
+    },
+    "shuffle": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 39.13,
+      "stddev": 37.27,
+      "near_black": 0.2307,
+      "near_white": 0.0
+    },
+    "pixel_difference": 57.614
+  },
+  {
+    "key": "L3C10",
+    "source": "Heart Puls Lattice",
+    "home": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 91.44,
+      "stddev": 75.18,
+      "near_black": 0.0668,
+      "near_white": 0.0528
+    },
+    "shuffle": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 79.92,
+      "stddev": 57.94,
+      "near_black": 0.0424,
+      "near_white": 0.0052
+    },
+    "pixel_difference": 83.01
+  },
+  {
+    "key": "L3C11",
+    "source": "Heart Ancient Temple",
+    "home": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 73.83,
+      "stddev": 65.83,
+      "near_black": 0.0002,
+      "near_white": 0.0424
+    },
+    "shuffle": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 95.04,
+      "stddev": 50.3,
+      "near_black": 0.0,
+      "near_white": 0.0
+    },
+    "pixel_difference": 54.138
+  },
+  {
+    "key": "L3C12",
+    "source": "Heart Kali Liberation",
+    "home": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 11.61,
+      "stddev": 20.09,
+      "near_black": 0.6305,
+      "near_white": 0.0
+    },
+    "shuffle": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 0.53,
+      "stddev": 10.37,
+      "near_black": 0.997,
+      "near_white": 0.0008
+    },
+    "pixel_difference": 34.013
+  },
+  {
+    "key": "L3C13",
+    "source": "Heart Color Wheel",
+    "home": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 160.86,
+      "stddev": 53.52,
+      "near_black": 0.0,
+      "near_white": 0.0024
+    },
+    "shuffle": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 75.99,
+      "stddev": 31.39,
+      "near_black": 0.0,
+      "near_white": 0.0
+    },
+    "pixel_difference": 111.326
+  },
+  {
+    "key": "L3C14",
+    "source": "Heart Barberpole Field"
+  },
+  {
+    "key": "L3C15",
+    "source": "MTK_Worleyz",
+    "home": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 5.37,
+      "stddev": 24.29,
+      "near_black": 0.9046,
+      "near_white": 0.0035
+    },
+    "shuffle": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 37.08,
+      "stddev": 64.14,
+      "near_black": 0.4824,
+      "near_white": 0.0129
+    },
+    "pixel_difference": 39.056
+  },
+  {
+    "key": "L3C16",
+    "source": "ButterflyEffect",
+    "home": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 85.06,
+      "stddev": 105.27,
+      "near_black": 0.4916,
+      "near_white": 0.196
+    },
+    "shuffle": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 83.52,
+      "stddev": 105.15,
+      "near_black": 0.5008,
+      "near_white": 0.1968
+    },
+    "pixel_difference": 111.376
+  },
+  {
+    "key": "L3C19",
+    "source": "fractal alien text",
+    "home": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 14.31,
+      "stddev": 49.6,
+      "near_black": 0.8901,
+      "near_white": 0.0115
+    },
+    "shuffle": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 13.91,
+      "stddev": 51.91,
+      "near_black": 0.896,
+      "near_white": 0.0223
+    },
+    "pixel_difference": 24.311
+  },
+  {
+    "key": "L3C20",
+    "source": "Gradient Bars",
+    "home": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 110.94,
+      "stddev": 41.12,
+      "near_black": 0.0,
+      "near_white": 0.0
+    },
+    "shuffle": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 102.26,
+      "stddev": 61.95,
+      "near_black": 0.0,
+      "near_white": 0.0015
+    },
+    "pixel_difference": 82.933
+  },
+  {
+    "key": "L3C22",
+    "source": "Melty Boi",
+    "home": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 20.3,
+      "stddev": 55.5,
+      "near_black": 0.8044,
+      "near_white": 0.005
+    },
+    "shuffle": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 20.3,
+      "stddev": 55.29,
+      "near_black": 0.8065,
+      "near_white": 0.0049
+    },
+    "pixel_difference": 13.823
+  },
+  {
+    "key": "L3C23",
+    "source": "Screen Weaver",
+    "home": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 53.68,
+      "stddev": 87.62,
+      "near_black": 0.7132,
+      "near_white": 0.0262
+    },
+    "shuffle": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 53.48,
+      "stddev": 87.71,
+      "near_black": 0.7145,
+      "near_white": 0.0275
+    },
+    "pixel_difference": 78.715
+  },
+  {
+    "key": "L3C24",
+    "source": "sin_wave",
+    "home": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 60.19,
+      "stddev": 88.19,
+      "near_black": 0.5641,
+      "near_white": 0.0395
+    },
+    "shuffle": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 60.11,
+      "stddev": 88.16,
+      "near_black": 0.5646,
+      "near_white": 0.0394
+    },
+    "pixel_difference": 39.017
+  },
+  {
+    "key": "L3C26",
+    "source": "Dark Tomb",
+    "home": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 8.5,
+      "stddev": 21.06,
+      "near_black": 0.6959,
+      "near_white": 0.0
+    },
+    "shuffle": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 7.02,
+      "stddev": 16.17,
+      "near_black": 0.7004,
+      "near_white": 0.0
+    },
+    "pixel_difference": 12.096
+  },
+  {
+    "key": "L3C27",
+    "source": "cubes + spheres",
+    "home": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 26.4,
+      "stddev": 57.07,
+      "near_black": 0.7056,
+      "near_white": 0.0144
+    },
+    "shuffle": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 32.68,
+      "stddev": 56.66,
+      "near_black": 0.5261,
+      "near_white": 0.028
+    },
+    "pixel_difference": 43.6
+  },
+  {
+    "key": "L3C29",
+    "source": "quantum chaos",
+    "home": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 85.79,
+      "stddev": 109.38,
+      "near_black": 0.4596,
+      "near_white": 0.271
+    },
+    "shuffle": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 126.88,
+      "stddev": 104.9,
+      "near_black": 0.144,
+      "near_white": 0.3549
+    },
+    "pixel_difference": 117.936
+  }
+]

@@ -1,0 +1,291 @@
+{
+ "Hopf fibers SP": {
+  "_last": {
+   "global": [],
+   "slots": {
+    "Orbit": [
+     "look",
+     "motion",
+     "range",
+     "timing"
+    ],
+    "Spin": [
+     "look",
+     "motion",
+     "range",
+     "timing"
+    ],
+    "Axis": [
+     "look",
+     "motion",
+     "range",
+     "timing"
+    ],
+    "Morph": [
+     "look",
+     "motion",
+     "range",
+     "timing"
+    ],
+    "Hue": [
+     "look",
+     "motion",
+     "range",
+     "timing"
+    ],
+    "Density": [
+     "look",
+     "motion",
+     "range",
+     "timing"
+    ],
+    "Pitch": [
+     "look",
+     "motion",
+     "range",
+     "timing"
+    ],
+    "FOV": [
+     "look",
+     "motion",
+     "range",
+     "timing"
+    ],
+    "Cam Dist": [
+     "look",
+     "motion",
+     "range",
+     "timing"
+    ]
+   }
+  },
+  "orbit+pattern": {
+   "global": [
+    "pattern"
+   ],
+   "slots": {
+    "Orbit": [
+     "drive",
+     "look",
+     "motion",
+     "range",
+     "timing"
+    ]
+   }
+  },
+  "no drive": {
+   "global": [
+    "pattern",
+    "timing"
+   ],
+   "slots": {
+    "Orbit": [
+     "look",
+     "motion",
+     "range",
+     "timing"
+    ],
+    "Spin": [
+     "look",
+     "motion",
+     "range",
+     "timing"
+    ],
+    "Axis": [
+     "look",
+     "motion",
+     "range",
+     "timing"
+    ],
+    "Morph": [
+     "look",
+     "motion",
+     "range",
+     "timing"
+    ],
+    "Hue": [
+     "look",
+     "motion",
+     "range",
+     "timing"
+    ],
+    "Density": [
+     "look",
+     "motion",
+     "range",
+     "timing"
+    ],
+    "Pitch": [
+     "look",
+     "motion",
+     "range",
+     "timing"
+    ],
+    "FOV": [
+     "look",
+     "motion",
+     "range",
+     "timing"
+    ],
+    "Cam Dist": [
+     "look",
+     "motion",
+     "range",
+     "timing"
+    ]
+   }
+  }
+ },
+ "Gentle Rings SP": {
+  "_last": {
+   "global": [
+    "pattern"
+   ],
+   "slots": {
+    "A Ring": [
+     "drive",
+     "look",
+     "motion",
+     "range",
+     "timing"
+    ],
+    "B Hue": [
+     "drive",
+     "look",
+     "motion",
+     "range",
+     "timing"
+    ],
+    "C Swirl": [
+     "drive",
+     "look",
+     "motion",
+     "range",
+     "timing"
+    ],
+    "Ring": [
+     "drive",
+     "look",
+     "motion",
+     "range",
+     "timing"
+    ],
+    "Hue": [
+     "drive",
+     "look",
+     "motion",
+     "range",
+     "timing"
+    ],
+    "Swirl": [
+     "drive",
+     "look",
+     "motion",
+     "range",
+     "timing"
+    ],
+    "Scroll": [
+     "drive",
+     "look",
+     "motion",
+     "range",
+     "timing"
+    ]
+   }
+  }
+ },
+ "Figure 3D SP": {
+  "_last": {
+   "global": [
+    "pattern",
+    "timing"
+   ],
+   "slots": {
+    "Size": [
+     "drive",
+     "look",
+     "motion",
+     "range",
+     "timing"
+    ],
+    "X": [
+     "drive",
+     "look",
+     "motion",
+     "range",
+     "timing"
+    ],
+    "Y": [
+     "drive",
+     "look",
+     "motion",
+     "range",
+     "timing"
+    ],
+    "Tumble": [
+     "drive",
+     "look",
+     "motion",
+     "range",
+     "timing"
+    ],
+    "Axis": [
+     "drive",
+     "look",
+     "motion",
+     "range",
+     "timing"
+    ],
+    "Edge": [
+     "drive",
+     "look",
+     "motion",
+     "range",
+     "timing"
+    ],
+    "Outline": [
+     "drive",
+     "look",
+     "motion",
+     "range",
+     "timing"
+    ],
+    "Emboss": [
+     "drive",
+     "look",
+     "motion",
+     "range",
+     "timing"
+    ],
+    "Stroke": [
+     "drive",
+     "look",
+     "motion",
+     "range",
+     "timing"
+    ],
+    "Shadow": [
+     "drive",
+     "look",
+     "motion",
+     "range",
+     "timing"
+    ],
+    "Drop": [
+     "drive",
+     "look",
+     "motion",
+     "range",
+     "timing"
+    ],
+    "Micro": [
+     "drive",
+     "look",
+     "motion",
+     "range",
+     "timing"
+    ]
+   }
+  }
+ }
+}

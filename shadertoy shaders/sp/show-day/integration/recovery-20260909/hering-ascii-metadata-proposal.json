@@ -1,0 +1,21 @@
+{
+  "status": "UNTESTED offline single-variable proposal; no files applied",
+  "package": "/Users/donovan/work/0000000/shadertoy shaders/sp/show-day/integration/quarantine-20260909-new-fields/Heart Hering Field",
+  "preserve_identifier": "8c5e9cb3-5902-47b2-ae9f-99419d33407a",
+  "operations": [
+    {
+      "file": "Heart Hering Field.wire",
+      "json_pointer": "/patch/meta/description",
+      "old": "Corpus Hering. Test lines stay straight and parallel; radial fan varies. Fan0 is proof. Lines rounds12\u2013180; keep density manual in Open.",
+      "proposed": "Corpus Hering. Test lines stay straight and parallel; radial fan varies. Fan0 is proof. Lines rounds12-180; keep density manual in Open."
+    },
+    {
+      "file": "Resource/Heart Hering Field.fs",
+      "isf_header_key": "DESCRIPTION",
+      "old": "Corpus Hering. Test lines stay straight and parallel; radial fan varies. Fan0 is proof. Lines rounds12\u2013180; keep density manual in Open.",
+      "proposed": "Corpus Hering. Test lines stay straight and parallel; radial fan varies. Fan0 is proof. Lines rounds12-180; keep density manual in Open."
+    }
+  ],
+  "rationale": "Exact crash offset throws std::range_error with wstring_convert: to_bytes error. Hering has one non-ASCII metadata string. Input Unicode is valid, and working Pinna also has non-ASCII, so this is a diagnostic normalization\u2014not a proven repair.",
+  "do_not": "Do not install or rescan during current show work; do not alter original quarantined copies."
+}

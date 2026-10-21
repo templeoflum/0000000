@@ -1,0 +1,129 @@
+# Canonical Category Definitions
+# Each category corresponds to a heading in the seed file (optical-illusions-comprehensive-list.md).
+# All primary_category and secondary_categories values in report frontmatter must reference an id from this file.
+
+categories:
+
+  - id: geometric-size-length
+    name: "Geometric / Size / Length Illusions"
+    description: >
+      Illusions involving misperception of geometric properties such as size, length,
+      angle, area, curvature, parallelism, or spatial extent. Includes distortions of
+      lines, shapes, and spatial relationships caused by surrounding context or
+      configural cues.
+    seed_file_heading: "Geometric / Size / Length Illusions"
+
+  - id: brightness-lightness-contrast
+    name: "Brightness / Lightness / Contrast Illusions"
+    description: >
+      Illusions involving misperception of surface lightness, brightness, luminance,
+      or contrast. Includes simultaneous contrast effects, assimilation, and
+      context-dependent lightness/brightness shifts.
+    seed_file_heading: "Brightness / Lightness / Contrast Illusions"
+
+  - id: color
+    name: "Color Illusions"
+    description: >
+      Illusions involving misperception of hue, saturation, or chromatic properties.
+      Includes color constancy failures, chromatic adaptation, color spreading,
+      subjective colors, and color aftereffects.
+    seed_file_heading: "Color Illusions"
+
+  - id: motion-movement
+    name: "Motion / Movement Illusions"
+    description: >
+      Illusions involving perceived motion where none exists, misperception of motion
+      direction or speed, or failure to perceive actual motion. Includes apparent
+      motion, illusory motion from static patterns, and motion-related temporal
+      distortions.
+    seed_file_heading: "Motion / Movement Illusions"
+
+  - id: ambiguous-bistable-multistable
+    name: "Ambiguous / Bistable / Multistable Illusions"
+    description: >
+      Stimuli that support two or more equally valid perceptual interpretations,
+      producing spontaneous alternation between percepts. Includes figure-ground
+      reversals, depth reversals, and semantic ambiguity.
+    seed_file_heading: "Ambiguous / Bistable / Multistable Illusions"
+
+  - id: impossible-objects-paradox
+    name: "Impossible Objects / Paradox Illusions"
+    description: >
+      Figures that depict objects which cannot exist in three-dimensional space.
+      Locally consistent but globally contradictory depth or structural cues create
+      a paradoxical percept.
+    seed_file_heading: "Impossible Objects / Paradox Illusions"
+
+  - id: depth-3d-stereoscopic
+    name: "Depth / 3D / Stereoscopic Illusions"
+    description: >
+      Illusions involving misperception of depth, distance, or three-dimensional
+      structure. Includes stereoscopic effects, monocular depth cue manipulations,
+      forced perspective, and depth inversion.
+    seed_file_heading: "Depth / 3D / Stereoscopic Illusions"
+
+  - id: aftereffect-adaptation
+    name: "Aftereffect / Adaptation Illusions"
+    description: >
+      Perceptual distortions resulting from prolonged exposure to a stimulus.
+      Adaptation in neural populations causes systematic misperception of
+      subsequently viewed stimuli along the adapted dimension (motion, tilt,
+      size, color, face identity, etc.).
+    seed_file_heading: "Aftereffect / Adaptation Illusions"
+
+  - id: contour-shape-completion
+    name: "Contour / Shape / Completion Illusions"
+    description: >
+      Illusions involving perception of contours, shapes, or completed forms that
+      are not physically present. Includes illusory contours, amodal and modal
+      completion, and perceptual grouping into coherent shapes.
+    seed_file_heading: "Contour / Shape / Completion Illusions"
+
+  - id: atmospheric-natural
+    name: "Atmospheric / Natural Optical Illusions"
+    description: >
+      Optical phenomena occurring in the natural environment due to atmospheric
+      refraction, diffraction, scattering, or reflection. Includes mirages, halos,
+      rainbows, and other meteorological optics effects.
+    seed_file_heading: "Atmospheric / Natural Optical Illusions"
+
+  - id: pareidolia-pattern-recognition
+    name: "Pareidolia / Pattern Recognition Illusions"
+    description: >
+      Illusory perception of meaningful patterns (especially faces) in ambiguous or
+      random stimuli. Driven by top-down pattern recognition mechanisms, particularly
+      face-processing systems.
+    seed_file_heading: "Pareidolia / Pattern Recognition Illusions"
+
+  - id: persistence-temporal
+    name: "Persistence / Temporal Illusions"
+    description: >
+      Illusions involving the temporal dynamics of visual perception, including
+      persistence of vision, temporal integration, and distortions of perceived
+      timing or duration.
+    seed_file_heading: "Persistence / Temporal Illusions"
+
+  - id: op-art-artistic
+    name: "Op Art / Artistic Illusion Forms"
+    description: >
+      Illusion-based art forms and techniques that exploit perceptual mechanisms
+      for aesthetic effect. Includes Op Art, trompe-l'oeil, anamorphosis, and
+      other artistic traditions centered on visual illusion.
+    seed_file_heading: "Op Art / Artistic Illusion Forms"
+
+  - id: cognitive-higher-order
+    name: "Cognitive / Higher-Order Illusions"
+    description: >
+      Illusions arising primarily from higher-order cognitive processes rather than
+      low-level sensory mechanisms. Includes attentional failures, cross-modal
+      conflicts, expectation effects, and top-down processing distortions.
+    seed_file_heading: "Cognitive / Higher-Order Illusions"
+
+  - id: miscellaneous-specialized
+    name: "Miscellaneous / Specialized"
+    description: >
+      Illusions that do not fit neatly into the other categories, or that span
+      multiple domains in ways that resist primary classification. Includes
+      psychophysical law effects, specialized face illusions, topological
+      illusions, and other unique phenomena.
+    seed_file_heading: "Miscellaneous / Specialized"

@@ -1,0 +1,25 @@
+{
+  "id": "aff878fe2df7",
+  "filename": "00_design language format.docx",
+  "path": "02_DESIGN_LANGUAGES_PHILOSOPHY_EXISTING\\Design languages_\\Narrative universe creation\\New round\\00_design language format.docx",
+  "category": "design_language",
+  "content_type": "design_language",
+  "metadata": {
+    "title": "designLanguageDocument:",
+    "file_size": 7112,
+    "modified_date": "2024-12-23T19:22:44",
+    "created_date": "2026-01-22T18:31:23.909984"
+  },
+  "concepts": [],
+  "structure": {
+    "sections": [],
+    "section_count": 0,
+    "has_clear_structure": false
+  },
+  "content": "designLanguageDocument:\n  version: 1.0\n  name:  # text (e.g., \"The Overarching Theme\")\n  stepNumber:  # number (e.g., 1)\n  intentions:\n    purpose: # text\n    values: # list of text\n    scope: # text\n    futureOrientation: # text\n  coreComponents:\n    lexicon:\n      - concept:  # text (e.g., \"PrimaryTheme\")\n        attributes: # list of text (e.g., [\"central_philosophical_or_emotional_kernel\"])\n      - concept: # text\n        attributes: # list of text\n      # ... other concepts\n    patterns:\n      - pattern: # text (e.g., \"UnifiedEmotionalArc\")\n        description: # text\n      - pattern: # text\n        description: # text\n      # ... other patterns\n    masterKey:\n      integrators:\n        - integrator:  # text (e.g., \"RootedIntent\")\n          role: # text\n        - integrator: # text\n          role: # text\n        # ... other integrators\n  guidelines:\n    textNarratives: # list of text (guideline statements)\n    visualConcepts: # list of text (guideline statements)\n    interactiveDesign: # list of text (guideline statements)\n  implementationStrategies: # list of text (strategy statements)",
+  "word_count": 130,
+  "char_count": 1108,
+  "related_documents": [],
+  "maturity": "sketch",
+  "maturity_score": -1
+}

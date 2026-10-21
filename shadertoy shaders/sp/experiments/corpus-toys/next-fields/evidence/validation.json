@@ -1,0 +1,28 @@
+{
+  "pairs": [
+    {
+      "home": "cafe-home.png",
+      "proof": "cafe-aligned.png",
+      "changed_pixels": 35980,
+      "compile": "glslang and actual offscreen OpenGL passed"
+    },
+    {
+      "home": "fraser-home.png",
+      "proof": "fraser-proof.png",
+      "changed_pixels": 33035,
+      "compile": "glslang and actual offscreen OpenGL passed"
+    },
+    {
+      "home": "hering-home.png",
+      "proof": "hering-proof.png",
+      "changed_pixels": 39728,
+      "compile": "glslang and actual offscreen OpenGL passed"
+    }
+  ],
+  "scope": "two small actual offscreen samples per source; no native/runtime/performance certification",
+  "shader_sha256": {
+    "Heart Fraser Spiral Field.fs": "9009a4c53a5eec6a1b415d4ab5a94a67282ae75f09718ffa3b34074897446229",
+    "Heart Cafe Wall Field.fs": "77076fe988ba58084642950ad8bdb6d1a1169c6bd70e477b4456e1732e3b89cd",
+    "Heart Hering Field.fs": "9cc7a16ad4d7b1b3a7f4c7c81dfb986f6114c749f90d5704c8ecb89cb3c16f36"
+  }
+}

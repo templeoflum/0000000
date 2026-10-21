@@ -1,0 +1,56 @@
+{
+  "passed": true,
+  "unique_sources": 194,
+  "unique_documented_instances": 299,
+  "replacement_targets_resolve": true,
+  "required_fields": true,
+  "missing_referenced_paths": [],
+  "isf_header_parse_errors": [],
+  "installed_patch_matches": 174,
+  "factory_recovery_sources": [
+    "Heart Ancient Temple",
+    "Heart Capsule",
+    "Heart Color Wheel",
+    "Heart Concentrip",
+    "Heart HypnoWorm",
+    "Heart Kali Liberation",
+    "Heart Klein Bottle",
+    "Heart Melting Fractal",
+    "Heart Paper Fractal",
+    "Heart Puls Lattice",
+    "Heart Quaternion Field",
+    "Heart Quaternion Swell",
+    "Heart Torus",
+    "Heart Vector Lattice"
+  ],
+  "counts": {
+    "source_descriptions": 194,
+    "documented_instances": 299,
+    "control_classes": {
+      "no_eligible_source_controls_in_snapshot": 17,
+      "numeric_or_choice_exposed": 145,
+      "speed_only": 32
+    },
+    "readiness": {
+      "unknown": 30,
+      "historical_samples_only": 150,
+      "historical_factory_recovery_and_sampled_output": 14
+    }
+  },
+  "checks_run": [
+    "JSON parse",
+    "unique source identity and deck/layer/column",
+    "replacement targets exist",
+    "required per-source fields",
+    "audit/image/installed resource paths exist",
+    "referenced ISF header parsing",
+    "14 named recovery records"
+  ],
+  "not_run": [
+    "live API queries or mutations",
+    "GPU rendering or compilation",
+    "engine test suite",
+    "source repair tests",
+    "current occupancy verification"
+  ]
+}

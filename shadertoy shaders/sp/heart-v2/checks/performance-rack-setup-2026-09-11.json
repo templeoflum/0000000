@@ -1,0 +1,1021 @@
+{
+  "before": {
+    "1789181911555": {
+      "phase_source": "timeline",
+      "dial": null,
+      "parameters": {
+        "Speed": {
+          "id": 1789181911653,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 10.0,
+          "in": 0.0,
+          "out": 10.0,
+          "value": 1.0,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "Multiplier": {
+          "id": 1789181911654,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 16.0,
+          "in": 0.0,
+          "out": 16.0,
+          "value": 1.0,
+          "view": {
+            "suffix": "",
+            "display_units": "fractions",
+            "alternative_name": "Speed"
+          }
+        },
+        "Interval": {
+          "id": 1789181911655,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 5.0,
+          "in": 0.0,
+          "out": 5.0,
+          "value": 0.5,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "Max Distance": {
+          "id": 1789181911656,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 0.625,
+          "in": 0.0,
+          "out": 0.625,
+          "value": 0.625,
+          "view": {
+            "suffix": "",
+            "display_units": "real",
+            "alternative_name": "Distance"
+          }
+        },
+        "PlayDirection": {
+          "id": 1789181911649,
+          "valuetype": "ParamChoice",
+          "value": "<",
+          "index": 0,
+          "options": [
+            "<",
+            "||",
+            ">"
+          ]
+        },
+        "PlayMode": {
+          "id": 1789181911650,
+          "valuetype": "ParamChoice",
+          "value": "Play Once & Clear",
+          "index": 3,
+          "options": [
+            "Loop",
+            "Bounce",
+            "Random",
+            "Play Once & Clear"
+          ]
+        },
+        "PlayModeAway": {
+          "id": 1789181911651,
+          "valuetype": "ParamChoice",
+          "value": "Restart",
+          "index": 0,
+          "options": [
+            "Restart",
+            "Continue"
+          ]
+        },
+        "Finished": {
+          "valuetype": "ParamNumber",
+          "id": 1789181911652,
+          "value": 128
+        },
+        "DurationIsScalable": {
+          "valuetype": "ParamBoolean",
+          "id": 1789181911659,
+          "value": false
+        },
+        "Duration": {
+          "id": 1789181911657,
+          "valuetype": "ParamRange",
+          "min": 0.001,
+          "max": 604800.0,
+          "in": 0.001,
+          "out": 604800.0,
+          "value": 0.625,
+          "view": {
+            "suffix": " s",
+            "step": 1.0,
+            "display_units": "seconds",
+            "control_type": "duration_spinner"
+          }
+        },
+        "DurationType": {
+          "id": 1789181911658,
+          "valuetype": "ParamChoice",
+          "value": "S",
+          "index": 0,
+          "options": [
+            "S",
+            "mS",
+            "B"
+          ]
+        }
+      },
+      "parameter": {
+        "id": 1789181911555,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.0
+      }
+    },
+    "1789421994503": {
+      "phase_source": "static",
+      "dial": null,
+      "parameter": {
+        "id": 1789421994503,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.0
+      }
+    },
+    "1789181912416": {
+      "phase_source": "timeline",
+      "dial": null,
+      "parameters": {
+        "Speed": {
+          "id": 1789181912423,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 10.0,
+          "in": 0.0,
+          "out": 10.0,
+          "value": 1.0,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "Multiplier": {
+          "id": 1789181912424,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 16.0,
+          "in": 0.0,
+          "out": 16.0,
+          "value": 1.0,
+          "view": {
+            "suffix": "",
+            "display_units": "fractions",
+            "alternative_name": "Speed"
+          }
+        },
+        "Interval": {
+          "id": 1789181912425,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 5.0,
+          "in": 0.0,
+          "out": 5.0,
+          "value": 0.5,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "Max Distance": {
+          "id": 1789181912426,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 0.625,
+          "in": 0.0,
+          "out": 0.625,
+          "value": 0.625,
+          "view": {
+            "suffix": "",
+            "display_units": "real",
+            "alternative_name": "Distance"
+          }
+        },
+        "PlayDirection": {
+          "id": 1789181912419,
+          "valuetype": "ParamChoice",
+          "value": "<",
+          "index": 0,
+          "options": [
+            "<",
+            "||",
+            ">"
+          ]
+        },
+        "PlayMode": {
+          "id": 1789181912420,
+          "valuetype": "ParamChoice",
+          "value": "Play Once & Clear",
+          "index": 3,
+          "options": [
+            "Loop",
+            "Bounce",
+            "Random",
+            "Play Once & Clear"
+          ]
+        },
+        "PlayModeAway": {
+          "id": 1789181912421,
+          "valuetype": "ParamChoice",
+          "value": "Restart",
+          "index": 0,
+          "options": [
+            "Restart",
+            "Continue"
+          ]
+        },
+        "Finished": {
+          "valuetype": "ParamNumber",
+          "id": 1789181912422,
+          "value": 128
+        },
+        "DurationIsScalable": {
+          "valuetype": "ParamBoolean",
+          "id": 1789181912429,
+          "value": false
+        },
+        "Duration": {
+          "id": 1789181912427,
+          "valuetype": "ParamRange",
+          "min": 0.001,
+          "max": 604800.0,
+          "in": 0.001,
+          "out": 604800.0,
+          "value": 0.625,
+          "view": {
+            "suffix": " s",
+            "step": 1.0,
+            "display_units": "seconds",
+            "control_type": "duration_spinner"
+          }
+        },
+        "DurationType": {
+          "id": 1789181912428,
+          "valuetype": "ParamChoice",
+          "value": "S",
+          "index": 0,
+          "options": [
+            "S",
+            "mS",
+            "B"
+          ]
+        }
+      },
+      "parameter": {
+        "id": 1789181912416,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.0
+      }
+    },
+    "1789422031980": {
+      "phase_source": "static",
+      "dial": null,
+      "parameter": {
+        "id": 1789422031980,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.0
+      }
+    },
+    "1789181914269": {
+      "phase_source": "static",
+      "dial": null,
+      "parameter": {
+        "id": 1789181914269,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.0
+      }
+    },
+    "1789181914233": {
+      "phase_source": "static",
+      "dial": null,
+      "parameter": {
+        "id": 1789181914233,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 1.0
+      }
+    },
+    "1789422114545": {
+      "phase_source": "static",
+      "dial": null,
+      "parameter": {
+        "id": 1789422114545,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.0
+      }
+    },
+    "1789422062026": {
+      "phase_source": "static",
+      "dial": null,
+      "parameter": {
+        "id": 1789422062026,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.0
+      }
+    },
+    "1789422077033": {
+      "phase_source": "static",
+      "dial": null,
+      "parameter": {
+        "id": 1789422077033,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.0
+      }
+    },
+    "1789422046987": {
+      "phase_source": "static",
+      "dial": null,
+      "parameter": {
+        "id": 1789422046987,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.0
+      }
+    },
+    "1789422107034": {
+      "phase_source": "static",
+      "dial": null,
+      "parameter": {
+        "id": 1789422107034,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.0
+      }
+    },
+    "1789422054515": {
+      "phase_source": "static",
+      "dial": null,
+      "parameter": {
+        "id": 1789422054515,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.0
+      }
+    },
+    "1789181911544": {
+      "phase_source": "timeline",
+      "dial": null,
+      "parameters": {
+        "Speed": {
+          "id": 1789181911573,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 10.0,
+          "in": 0.0,
+          "out": 10.0,
+          "value": 1.0,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "Multiplier": {
+          "id": 1789181911574,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 16.0,
+          "in": 0.0,
+          "out": 16.0,
+          "value": 1.0,
+          "view": {
+            "suffix": "",
+            "display_units": "fractions",
+            "alternative_name": "Speed"
+          }
+        },
+        "Interval": {
+          "id": 1789181911575,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 5.0,
+          "in": 0.0,
+          "out": 5.0,
+          "value": 0.5,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "Max Distance": {
+          "id": 1789181911576,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 5.0,
+          "in": 0.0,
+          "out": 5.0,
+          "value": 2.5,
+          "view": {
+            "suffix": "",
+            "display_units": "real",
+            "alternative_name": "Distance"
+          }
+        },
+        "PlayDirection": {
+          "id": 1789181911569,
+          "valuetype": "ParamChoice",
+          "value": ">",
+          "index": 2,
+          "options": [
+            "<",
+            "||",
+            ">"
+          ]
+        },
+        "PlayMode": {
+          "id": 1789181911570,
+          "valuetype": "ParamChoice",
+          "value": "Loop",
+          "index": 0,
+          "options": [
+            "Loop",
+            "Bounce",
+            "Random",
+            "Play Once & Clear"
+          ]
+        },
+        "PlayModeAway": {
+          "id": 1789181911571,
+          "valuetype": "ParamChoice",
+          "value": "Restart",
+          "index": 0,
+          "options": [
+            "Restart",
+            "Continue"
+          ]
+        },
+        "Finished": {
+          "valuetype": "ParamNumber",
+          "id": 1789181911572,
+          "value": 0
+        },
+        "DurationIsScalable": {
+          "valuetype": "ParamBoolean",
+          "id": 1789181911579,
+          "value": true
+        },
+        "Duration": {
+          "id": 1789181911577,
+          "valuetype": "ParamRange",
+          "min": 0.001,
+          "max": 604800.0,
+          "in": 0.001,
+          "out": 604800.0,
+          "value": 5.0,
+          "view": {
+            "suffix": " s",
+            "step": 1.0,
+            "display_units": "seconds",
+            "control_type": "duration_spinner"
+          }
+        },
+        "DurationType": {
+          "id": 1789181911578,
+          "valuetype": "ParamChoice",
+          "value": "S",
+          "index": 0,
+          "options": [
+            "S",
+            "mS",
+            "B"
+          ]
+        }
+      },
+      "parameter": {
+        "id": 1789181911544,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.9276670500039199
+      }
+    },
+    "1789422031969": {
+      "phase_source": "static",
+      "dial": null,
+      "parameter": {
+        "id": 1789422031969,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.4690560750006824
+      }
+    },
+    "1789422114534": {
+      "phase_source": "static",
+      "dial": null,
+      "parameter": {
+        "id": 1789422114534,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.4690560750006824
+      }
+    },
+    "1789422062015": {
+      "phase_source": "static",
+      "dial": null,
+      "parameter": {
+        "id": 1789422062015,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.4690560750006824
+      }
+    }
+  },
+  "colors": [
+    {
+      "row": "stage",
+      "effect": "effect:1789004679745",
+      "id": 1789181911544,
+      "duration": 24,
+      "start": 0,
+      "readback": 0.0
+    },
+    {
+      "row": "figure",
+      "effect": "effect:1789422031978",
+      "id": 1789422031969,
+      "duration": 24,
+      "start": 0.3333333333333333,
+      "readback": 0.3333333333333333
+    },
+    {
+      "row": "field",
+      "effect": "effect:1789422114543",
+      "id": 1789422114534,
+      "duration": 24,
+      "start": 0.6666666666666666,
+      "readback": 0.6666666666666666
+    },
+    {
+      "row": "field",
+      "effect": "effect:1789422062024",
+      "id": 1789422062015,
+      "duration": 24,
+      "start": 0.6666666666666666,
+      "readback": 0.6666666666666666
+    }
+  ],
+  "topology_unchanged": true,
+  "layer_id_order": [
+    1788149966516,
+    1788149966656,
+    1788149967550,
+    1789004679883,
+    1789004679894,
+    1789004679901,
+    1789004679907,
+    1789004679914,
+    1789004679921,
+    1789004679928,
+    1789004679935,
+    1789004679946,
+    1789004679953,
+    1789004679960,
+    1789004679967,
+    1789004679974,
+    1789004679981,
+    1789004679988,
+    1789004679995,
+    1789004680002,
+    1788149966376,
+    1788149968008,
+    1788149968473,
+    1788149968938,
+    1788149969457,
+    1789004569851
+  ],
+  "groups": [
+    {
+      "id": 1789004679714,
+      "name": "__stage__ Portal Frame",
+      "members": [
+        1789004679883,
+        1789004679894,
+        1789004679901,
+        1789004679907,
+        1789004679914,
+        1789004679921,
+        1789004679928,
+        1789004679935,
+        1789004679946,
+        1789004679953,
+        1789004679960,
+        1789004679967,
+        1789004679974,
+        1789004679981,
+        1789004679988,
+        1789004679995,
+        1789004680002
+      ],
+      "stage": true
+    },
+    {
+      "id": 1788405566947,
+      "name": "Group #",
+      "members": [
+        1788149966376,
+        1788149968008,
+        1788149968473
+      ],
+      "stage": false
+    }
+  ],
+  "config": {
+    "epoch": "1789151413656",
+    "rows": [
+      {
+        "id": "stage",
+        "label": "Stage",
+        "color_hex": "#8fc9ff",
+        "pads": [
+          {
+            "id": "melt",
+            "label": "Melt",
+            "bindings": [
+              {
+                "target": "effect:1789421994501",
+                "identity": [
+                  "stage",
+                  null,
+                  1789004679714,
+                  null,
+                  "mtk_lut_corrupt"
+                ],
+                "opacity": 1789421994503,
+                "bypass": 1789421994500,
+                "event": 1789421994491,
+                "event_name": "MELT"
+              }
+            ]
+          },
+          {
+            "id": "blok",
+            "label": "Blok",
+            "bindings": [
+              {
+                "target": "effect:1789421994501",
+                "identity": [
+                  "stage",
+                  null,
+                  1789004679714,
+                  null,
+                  "mtk_lut_corrupt"
+                ],
+                "opacity": 1789421994503,
+                "bypass": 1789421994500,
+                "event": 1789421994493,
+                "event_name": "BLOK"
+              }
+            ]
+          },
+          {
+            "id": "twitch",
+            "label": "Twitch",
+            "bindings": [
+              {
+                "target": "effect:1789004679842",
+                "identity": [
+                  "stage",
+                  null,
+                  1789004679714,
+                  null,
+                  "TwitchEffect"
+                ],
+                "opacity": 1789181912416,
+                "bypass": 1789181912413
+              }
+            ]
+          }
+        ],
+        "color": [
+          {
+            "target": "effect:1789004679745",
+            "identity": [
+              "stage",
+              null,
+              1789004679714,
+              null,
+              "ColourLoop"
+            ],
+            "opacity": 1789181911555,
+            "bypass": 1789181911552
+          }
+        ]
+      },
+      {
+        "id": "figure",
+        "label": "Figure",
+        "color_hex": "#f6bd77",
+        "pads": [
+          {
+            "id": "melt",
+            "label": "Melt",
+            "bindings": [
+              {
+                "target": "effect:1788780036952",
+                "identity": [
+                  "layer",
+                  1788149968008,
+                  1788405566947,
+                  null,
+                  "mtk_lut_corrupt"
+                ],
+                "opacity": 1789181914269,
+                "bypass": 1789181914266,
+                "event": 1789181914257,
+                "event_name": "MELT"
+              }
+            ]
+          },
+          {
+            "id": "blok",
+            "label": "Blok",
+            "bindings": [
+              {
+                "target": "effect:1788780036952",
+                "identity": [
+                  "layer",
+                  1788149968008,
+                  1788405566947,
+                  null,
+                  "mtk_lut_corrupt"
+                ],
+                "opacity": 1789181914269,
+                "bypass": 1789181914266,
+                "event": 1789181914259,
+                "event_name": "BLOK"
+              }
+            ]
+          },
+          {
+            "id": "twitch",
+            "label": "Twitch",
+            "bindings": [
+              {
+                "target": "effect:1788780036947",
+                "identity": [
+                  "layer",
+                  1788149968008,
+                  1788405566947,
+                  null,
+                  "TwitchEffect"
+                ],
+                "opacity": 1789181914233,
+                "bypass": 1789181914230
+              }
+            ]
+          }
+        ],
+        "color": [
+          {
+            "target": "effect:1789422031978",
+            "identity": [
+              "layer",
+              1788149968008,
+              1788405566947,
+              null,
+              "ColourLoop"
+            ],
+            "opacity": 1789422031980,
+            "bypass": 1789422031977
+          }
+        ]
+      },
+      {
+        "id": "field",
+        "label": "Field + video",
+        "color_hex": "#95d5aa",
+        "pads": [
+          {
+            "id": "melt",
+            "label": "Melt",
+            "bindings": [
+              {
+                "target": "effect:1789435860820",
+                "identity": [
+                  "layer",
+                  1788149967550,
+                  null,
+                  null,
+                  "mtk_lut_corrupt"
+                ],
+                "opacity": 1789435860822,
+                "bypass": 1789435860819,
+                "event": 1789435860810,
+                "event_name": "MELT"
+              },
+              {
+                "target": "effect:1789422046985",
+                "identity": [
+                  "layer",
+                  1788149966656,
+                  null,
+                  null,
+                  "mtk_lut_corrupt"
+                ],
+                "opacity": 1789422046987,
+                "bypass": 1789422046984,
+                "event": 1789422046975,
+                "event_name": "MELT"
+              }
+            ]
+          },
+          {
+            "id": "blok",
+            "label": "Blok",
+            "bindings": [
+              {
+                "target": "effect:1789435860820",
+                "identity": [
+                  "layer",
+                  1788149967550,
+                  null,
+                  null,
+                  "mtk_lut_corrupt"
+                ],
+                "opacity": 1789435860822,
+                "bypass": 1789435860819,
+                "event": 1789435860812,
+                "event_name": "BLOK"
+              },
+              {
+                "target": "effect:1789422046985",
+                "identity": [
+                  "layer",
+                  1788149966656,
+                  null,
+                  null,
+                  "mtk_lut_corrupt"
+                ],
+                "opacity": 1789422046987,
+                "bypass": 1789422046984,
+                "event": 1789422046977,
+                "event_name": "BLOK"
+              }
+            ]
+          },
+          {
+            "id": "twitch",
+            "label": "Twitch",
+            "bindings": [
+              {
+                "target": "effect:1789422107032",
+                "identity": [
+                  "layer",
+                  1788149967550,
+                  null,
+                  null,
+                  "TwitchEffect"
+                ],
+                "opacity": 1789422107034,
+                "bypass": 1789422107031
+              },
+              {
+                "target": "effect:1789422054513",
+                "identity": [
+                  "layer",
+                  1788149966656,
+                  null,
+                  null,
+                  "TwitchEffect"
+                ],
+                "opacity": 1789422054515,
+                "bypass": 1789422054512
+              }
+            ]
+          }
+        ],
+        "color": [
+          {
+            "target": "effect:1789422114543",
+            "identity": [
+              "layer",
+              1788149967550,
+              null,
+              null,
+              "ColourLoop"
+            ],
+            "opacity": 1789422114545,
+            "bypass": 1789422114542
+          },
+          {
+            "target": "effect:1789422062024",
+            "identity": [
+              "layer",
+              1788149966656,
+              null,
+              null,
+              "ColourLoop"
+            ],
+            "opacity": 1789422062026,
+            "bypass": 1789422062023
+          }
+        ]
+      }
+    ]
+  },
+  "existing_layer_group_parameter_ids_preserved": true,
+  "color_progress_check": {
+    "before": [
+      0.7351972777769407,
+      0.05563413715240061,
+      0.6445777152777112,
+      0.7018638767364653
+    ],
+    "after": [
+      0.7768641302076917,
+      0.09730098958315164,
+      0.6862445677084623,
+      0.7435307291672164
+    ],
+    "delta": [
+      0.04166685243075108,
+      0.04166685243075103,
+      0.04166685243075108,
+      0.04166685243075108
+    ]
+  },
+  "color_phase_aligned": {
+    "samples": [
+      0.004166697931611755,
+      0.3378422534732672,
+      0.6711866267238026,
+      0.6711960260568691
+    ],
+    "field_video_difference": 9.399333066539839e-06,
+    "offsets_from_stage": [
+      0.0,
+      0.33367555554165546,
+      0.6670199287921909,
+      0.6670293281252574
+    ]
+  },
+  "field_lut_replacement": {
+    "missing_effect": 1789422077031,
+    "new_effect": 1789435860820,
+    "reason": "Previous instance returned native 404 before live acceptance; installed replacement at same chain position."
+  }
+}

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>◐</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{height:100%;overflow:hidden;overscroll-behavior:none;background:#0e0d12}
+#app{height:100vh;height:100dvh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:26px}
+#scene{width:min(80vw,340px);aspect-ratio:1;background:#fff;border-radius:3px}
+#rail{width:min(86vw,420px);height:auto;touch-action:none;cursor:pointer}
+</style>
+</head>
+<body>
+<div id="app">
+  <canvas id="scene"></canvas>
+  <svg id="rail" viewBox="0 0 420 56" aria-label="the knob">
+    <line x1="30" y1="28" x2="390" y2="28" stroke="#26242f" stroke-width="2" stroke-linecap="round"/>
+    <circle id="knob" cx="30" cy="28" r="13" fill="#0e0d12" stroke="#93a4c2" stroke-width="2"/>
+    <circle id="knobcore" cx="30" cy="28" r="4" fill="#93a4c2"/>
+  </svg>
+</div>
+<script>
+/* ── S18 · DEEP MASK ─────────────────────────────────────────────────────
+   one mask, many depths.
+
+   THE MACHINE. P is a single binary mask on a 136x136 torus, converged by
+   Ulichney's void-and-cluster algorithm (Ulichney, "The void-and-cluster
+   method for dither array generation", SPIE 1913, 1993): minority pixels
+   (45% ink) repel through a Gaussian kernel exp(-d^2/2 s^2), s=1.9 px;
+   each move evicts the tightest cluster into the largest void until the
+   swap would undo itself (1098 moves from a random start). verified a true
+   local optimum: 80000 forced continuations never lowered the total kernel
+   energy (lab/18/verify_vc2.py). the mask ships below as packed bits.
+
+   THE KNOB. the state at k is the Gaussian scale-space (Witkin, "Scale-
+   space filtering", IJCAI 1983) of that one mask: F = G_sigma * P on the
+   torus, sigma = 7.0*k^2 mask px, exact separable convolution per apply
+   (no stop-lerp, no stops at all). the field is tiled 5x5 onto the 680
+   canvas with bilinear (= tent-kernel) sampling, then thresholded at the
+   exact 45th percentile of the per-frame landscape (atom 02's conservation
+   law). ink is pinned at 0.4500 at every k; what reorganizes is the DEPTH
+   of the mask — its skeleton at progressively longer correlation lengths,
+   the low-frequency body the eye cannot see in the raw mask.
+
+   THE JOURNEY (named states, lab/18/final_k*.png):
+     k=0.00  sigma 0.0  the circuit maze — the raw converged mask (blue
+                        noise at 45% ink is a labyrinth, not dots)
+     k=0.25  sigma 0.4  melting curds — walls round off, pores coarsen
+     k=0.50  sigma 1.8  coral — worms and lobes
+     k=0.75  sigma 3.9  cow hide — large irregular patches
+     k=1.00  sigma 7.0  the world map — continents and inland seas
+
+   MEASURED (offline, exact pipeline, lab/18/tune2.py, granularity.py):
+     ink at every k of the 200-step sweep: 0.4500
+     worst flip per 1/200 k-step: 1.61% (at k=0.185, the early melt)
+
+   DEVIATIONS.
+     - tie-break jitter: at sigma=0 the landscape is binary, so the 45th
+       percentile sits inside a tie mass and ink wanders (measured 0.4436;
+       with nearest-neighbour sampling it collapses to 0.0000 — dead end).
+       a fixed hash jitter of amplitude 1e-4 is added to the landscape to
+       break ties; it is orders of magnitude below the blurred field's
+       contrast at the deep end and only ever decides exact ties.
+       deterministic; not a pattern source.
+     - bilinear upsampling is itself a tent-kernel convolution, so the
+       k=0 state is the mask filtered by a tent of width 5 canvas px;
+       canvas pixel centers land exactly on mask pixels and the maze
+       renders pixel-true.
+
+   DEAD ENDS.
+     - schedule sigma = 7*k^2.5 compressed the early melt (k=0 and k=0.25
+       too alike); k^2 spreads the states and still peaks at 1.61% flips.
+     - depths past sigma 7 empty the stage to one landmass; sigma_max=7
+       keeps inland seas and archipelagos alive.
+   ─────────────────────────────────────────────────────────────────────── */
+const M=136, UP=5;
+const MASK=(()=>{
+  const b64="Kl0RgTpiZ3rKksospuuSVWXxwexZs6xiRFLIMsGdFh1UZDJqNo0ISY5XTHVabiIxxYsNhi0B7KsrcsxlG8UkyZMxNuYtirRC+thYgLWQCzItlKqQkcSppikCKwU+hK15M2k8ms0cuZ0ctkSRmbN0xJMrmMWScumqJKWQ3cSyIEtamUEGkrcVihLB0ZdUPU8MmkXMfHs0CKRhWrkmWqLJYPek0A2XSM2ypw7LFzSglmJU0GQ34qEkqdMZdIBiSJbLCp4Rk4xIkycoFLHJ/W1erJh1UNYdOK5udqdmMRQSxkDmc6zGZ2ERJMlQ1ZXOVYUQ6wGTAZUSq2e1kIYiSEVm7bmJfJi2NZg0aBRetMyqciAoki5FlLVExs0NxsUlczqY76a3cjTHomS5QWI4hm2SgcsQMkgjZVkrPYq61UX0yIyuHVWao9SEUiJSIpKbTBCkmZSgakKqGz0504VZciEnNxvUVM2Fynawo4K8rWaOaLiisjOzkd56gaVSOgkolIGuw9aiRSZ0CIE0Kk1SyrOU/IaZEFqrSAdk2yvOqmZlCIsI6RUrWPA32lUK1lEpIp3tuG2UcVMLC1NRY3RQmULmQJIlhRuOWapXUBoUQ2Gm3RY5CppUsMRsZjAqo3a6lzax2ObcqOVCuaEUzZasiUwuQAhJhsDNKb4nDWrLSc0ypMkdrqtEN0sMKTGuVJE5UVKZlPKumLyUk1VDyGGUtmQlZlNlG0DKY/J0sexbLlUqh0olJCiEGRomCmFSCUOosyG5ObS5m+m3ZaEqjpczWFHLaRGKK8UsK8RCrO1SUTanFghPOarETVMQSV0bgsyZoJmk2kkiIjJhwnZVGKiYYdVFCDMp4SdrXpw6Upbiwm1WUn3V1ksd7FlCyYuG5Q0uSxyKRD0SZJISyShppNii1qbiQrWSwZLTOamK7orcCgihUBb2tM00fFxkphaEtAru/JyPqSJEUWPHE8dZsVGMqYKPE2iqpMtZngDAMiVamjLlNELoMkpdrSsAft8tWMTNZpTVcI1FWZCSwj7QKFHWlGYyTEqNJ6cSLEpVUk+TjJI1icTVonVwKGZm2lXiwVpsgqZQTLM8hhtbUtTTtQ0yYkV3Sb9VBRKxxWUmQhAAKLso8zhpBCdM6Va1NTTdnf/miy6kEl0xonmTGIkJsI1hCBKJSI3Gwaa5hCaVa0nHqJa1dHk1THUVtRIltGCE/AIhqUSNQYtpgnSJFNamn3yFfrWkZmdOtCa5jFn2VEjIEKZEZhqbiHIR4RZJqiNJ1YtXiK0U6uRkkbQ3oWqpGNQKsWM9kmoEETWMt0gWZKllM2ZUqGFRy3NbKq4CVuoNRzSJeRceK7UMZyvSSbo5acrYxt0FTEGoC2WMaArRiYkEtRUZCnjx6cy0KqmDeVz1yyohSzJghkpaU6FRZNyOEhSqba1lY28mQiETF50SosE3JSkoaTHMsum3n2Q4hJpaqmDULsWDHAqEkzEgXeZ16wkt6xNhGW3CelSoNmbAgVQUdZkSNVLmKjeSXjdBOi6cSeG2yIXTJlOYcErQwtxN0turFwBLfJi9FFeHKkaYg8CkISik1apmiolK4KSrK1jeGlKqJjxcVRDM0bMVdcqsSwRqnYs1oyZmxmVMolqIqGjT02ZJdOIKsUjbUtSc0UyTFZwyhWCUqeMSuREKjU2G2pZHETZwlygqWFUTWnIzyFohU+htY101h6U3eslLLVAKZjcxNmKSA9B6ywFCTNlgy/LR4JQNbTRmCuA5VItlBY25GqZWndCE07QuDkL7vJK1OQRMGkWBprKJSeSh2xIiNkpLdaHirX43LTZMSq8mFHXi5kElSpTIKIkkSyzYkSjjhA6Z/ol2FSrDUSrgYY3qKV1lqBEBehXklrSdzqemki7LpE5lyrUCoq2oKnEgGj0yIGoSWTOUJt5MFCc3RrtloObHim2SjHdYQ3Ojc0hOEkkLMtoTVWMyEosohDyIo2jTaOySMOoimstk5u1cw9WaCWU3OoqNUeUZMWkIJkHSDDn1iIkB7WmeDMMlBrtRbxi7SRQ+xWQqhEV1bO00xlUQq0GKUcjdPsM1IJlFC2spUtSKjO1aiSokbHe/hFtIkKyyZmj2ISabIaMggGC7UHUapR0qmYE7cPVRS1+0RlJHh9YnxUzMHJEEgV8pJRu1jS1gI2gtqlPXg1dZJFwgYk0y0C2JVOBSomF8VicjRa/MZNGWcrouKyEdMk1gtcxc4BM0mo2KK8Gu72ksgVskJOA2M0VMaZOiTygqSZdnCzk7J4vmNIjNNNR4k5DOwTp5I9IZqhiz3qBGDsGYtwiZUqCtIsgYyqiAj3mkDW0EtK6UhmQ2XerKxldZDLF2JXFikTM/VanFJVJU8FTCl4aMrSzRTGgqiRJBmJaVpHnIMOkFDVtFwciut3wjUgsbBIdyWbbSRlkcV2Iwh19JcbLc9UUEqJyhSzckmoSJUDU2BI0QbrOhwrXJkSaSqnJRt0L+QVZDWD5Vrhmk2TLvtFagawFpiuRLSTmA5F2UyiANpRbIdX1assXCJDqWSKmWZtnJaS2JAWAMuEnWrBvNpjKWxBpvMxuqT50UnoXDoCiFVGhKxkBK8BURQVbYuhZlNXxrTKx8quCK6upkwiGE2R6qCYmTk0JLPY2Ure2ZzmWhUYnZTEmSk/UJciNADKiQnKsUrUbw2GpoJKMi7F6oZzfQqdJgNBPKKp0V7g4lZGcZmA05TpuTXBelScxRckiTo2SEpY1FKqmNcKpZsIzJ56qcGW7ZhOoiOyFKnURPa0SYaRm2Qpn0KeiBbsyhGiiRPJINSoF0UBuRH7YiGptz5bkja+NhOqueRS5E2m1mqMIVRpYmWrLGIMG0SXERQKBSJrAWsTSEHnKWNrO5Cxanr46rN8jjYXWjCra6JQXspjwoWdikXQ5XI9jWmYDE8ijZkSbSCSRRITaYJVjItSzKwtTG2Snb7cv2oGYqESaXqQk+EtiExkRFGgwOz9Lbc1Q03QiUjnc8qhVokuigVaVEIYWK6dpjSATT6Eazaxq2GybattDnkpkt6j0e8soNZIkwsSsgFgQmusKLgIEMNaKa0MRtSS0=";
+  const bin=atob(b64);
+  const t=new Float32Array(M*M);
+  for(let i=0;i<M*M;i++)t[i]=(bin.charCodeAt(i>>3)>>(7-(i&7)))&1;
+  return t;
+})();
+function hash2(ix,iy,seed){let h=(ix*374761393+iy*668265263+seed*1442695040)|0;h=(h^(h>>>13))|0;h=Math.imul(h,1274126177);h=(h^(h>>>16))>>>0;return h/4294967296;}
+const scene=document.getElementById("scene");
+const DPR=2;               /* fixed internal resolution — layout-independent */
+let S=680;
+scene.width=S;scene.height=S;
+const ctx=scene.getContext("2d");
+const img=ctx.createImageData(S,S);
+const N=S*S;
+/* bilinear sampling maps: canvas px -> torus mask coordinates */
+const X0=new Int16Array(S),X1=new Int16Array(S),FX=new Float32Array(S);
+const Y0=new Int16Array(S),Y1=new Int16Array(S),FY=new Float32Array(S);
+for(let x=0;x<S;x++){const mx=(x+0.5)/UP-0.5,x0=Math.floor(mx);X0[x]=((x0%M)+M)%M;X1[x]=(X0[x]+1)%M;FX[x]=mx-x0;}
+for(let y=0;y<S;y++){const my=(y+0.5)/UP-0.5,y0=Math.floor(my);Y0[y]=((y0%M)+M)%M;Y1[y]=(Y0[y]+1)%M;FY[y]=my-y0;}
+/* deterministic tie-break jitter, amplitude 1e-4 (see header) */
+const JIT=new Float32Array(N);
+for(let y=0;y<S;y++)for(let x=0;x<S;x++)JIT[y*S+x]=hash2(x,y,5)*1e-4;
+/* the blurred mask field on the 136x136 torus */
+const FM=new Float32Array(M*M),TM=new Float32Array(M*M);
+function blurField(sig){
+  if(sig<=0){FM.set(MASK);return;}
+  const r=Math.ceil(3*sig),w=2*r+1,g=new Float32Array(w);
+  let gs=0;
+  for(let j=-r;j<=r;j++){const v=Math.exp(-(j*j)/(2*sig*sig));g[j+r]=v;gs+=v;}
+  for(let j=0;j<w;j++)g[j]/=gs;
+  for(let y=0;y<M;y++){const yo=y*M;
+    for(let x=0;x<M;x++){let s=0;
+      for(let j=-r;j<=r;j++){let xx=x+j;xx=xx<0?xx+M:(xx>=M?xx-M:xx);s+=g[j+r]*MASK[yo+xx];}
+      TM[yo+x]=s;}}
+  for(let x=0;x<M;x++){
+    for(let y=0;y<M;y++){let s=0;
+      for(let j=-r;j<=r;j++){let yy=y+j;yy=yy<0?yy+M:(yy>=M?yy-M:yy);s+=g[j+r]*TM[yy*M+x];}
+      FM[y*M+x]=s;}}
+}
+const F=new Float32Array(N);
+const hist=new Uint32Array(513);
+const SIGMAX=7.0;
+let k=0;
+function apply(){
+  blurField(SIGMAX*k*k);
+  /* upsample + jitter + histogram in one pass */
+  hist.fill(0);
+  for(let y=0;y<S;y++){
+    const r0=Y0[y]*M,r1=Y1[y]*M,fy=FY[y],yo=y*S;
+    for(let x=0;x<S;x++){
+      const i=yo+x,fx=FX[x],x0=X0[x],x1=X1[x];
+      const top=FM[r0+x0]*(1-fx)+FM[r0+x1]*fx;
+      const bot=FM[r1+x0]*(1-fx)+FM[r1+x1]*fx;
+      const v=top*(1-fy)+bot*fy+JIT[i];
+      F[i]=v;
+      let q=(v*512)|0;if(q<0)q=0;if(q>512)q=512;hist[q]++;
+    }
+  }
+  /* pin the quantity: threshold at the exact 45th percentile of the landscape */
+  const target=N*0.45;let acc=0,thr=0.5;
+  for(let q=0;q<=512;q++){acc+=hist[q];if(acc>=target){thr=(q+0.5)/512;break;}}
+  const d=img.data;
+  for(let i=0;i<N;i++){
+    const on=F[i]<thr;
+    const v=on?0:255,j=i*4;
+    d[j]=v;d[j+1]=v;d[j+2]=v;d[j+3]=255;
+  }
+  ctx.putImageData(img,0,0);
+}
+apply();
+ 
+const rail=document.getElementById("rail");
+const knob=document.getElementById("knob");
+const knobcore=document.getElementById("knobcore");
+let dragging=false;
+function set(clientX){
+  const r=rail.getBoundingClientRect();
+  k=Math.min(1,Math.max(0,(clientX-r.left-r.width*30/420)/(r.width*360/420)));
+  apply();
+  const x=30+360*k;
+  knob.setAttribute("cx",x); knobcore.setAttribute("cx",x);
+}
+function start(e){dragging=true;move(e);}
+function move(e){
+  if(!dragging)return;
+  set(e.touches?e.touches[0].clientX:e.clientX);
+  if(e.cancelable)e.preventDefault();
+}
+rail.addEventListener("mousedown",start);
+rail.addEventListener("touchstart",start,{passive:false});
+window.addEventListener("mousemove",move);
+window.addEventListener("touchmove",move,{passive:false});
+window.addEventListener("mouseup",()=>dragging=false);
+window.addEventListener("touchend",()=>dragging=false);
+document.addEventListener("touchmove",e=>{if(dragging)e.preventDefault();},{passive:false});
+ 
+(function(){
+  const rail=document.getElementById("rail");
+  function n2c(t){const r=rail.getBoundingClientRect();return r.left+r.width*(30+360*Math.min(1,Math.max(0,t)))/420;}
+  window.atom={name:"S18",
+    set:function(t){set(n2c(t));},
+    get:function(){const x=parseFloat(document.getElementById("knob").getAttribute("cx"));return (x-30)/360;}};
+  const q=new URLSearchParams(location.search).get("k");
+  if(q!==null) setTimeout(function(){window.atom.set(parseFloat(q));},80);
+  window.addEventListener("message",function(e){if(e.data&&typeof e.data.atomSet==="number")window.atom.set(e.data.atomSet);});
+  let lx=null;
+  setInterval(function(){
+    const x=parseFloat(document.getElementById("knob").getAttribute("cx"));
+    if(x!==lx){lx=x;try{if(parent!==window)parent.postMessage({atomChange:{name:window.atom.name,k:(x-30)/360}},"*");}catch(err){}}
+  },150);
+})();
+</script>
+</body>
+</html>
+ 

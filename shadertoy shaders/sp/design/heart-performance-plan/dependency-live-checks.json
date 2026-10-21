@@ -1,0 +1,132 @@
+[
+  {
+    "command": "patch_save",
+    "seconds": 1.06,
+    "stages": [
+      "Applying",
+      "Ready"
+    ],
+    "instruments": [
+      [
+        1,
+        "heart feedback",
+        3
+      ],
+      [
+        2,
+        "level",
+        7
+      ],
+      [
+        3,
+        "void",
+        4
+      ],
+      [
+        4,
+        "figure",
+        3
+      ],
+      [
+        5,
+        "shell",
+        30
+      ],
+      [
+        7,
+        "dither",
+        0
+      ]
+    ]
+  },
+  {
+    "command": "patch_recall",
+    "seconds": 5.099,
+    "stages": [
+      "Saving recovery snapshot",
+      "Opening Feedback checked \u00b7 waiting for Resolume",
+      "Restoring layer sculpt",
+      "Verifying native routing and required effects",
+      "Resolving controls \u00b7 waiting for connection",
+      "Applying motion relationships",
+      "Ready"
+    ],
+    "instruments": [
+      [
+        1,
+        "heart feedback",
+        3
+      ],
+      [
+        2,
+        "level",
+        7
+      ],
+      [
+        3,
+        "void",
+        4
+      ],
+      [
+        4,
+        "figure",
+        3
+      ],
+      [
+        5,
+        "shell",
+        30
+      ],
+      [
+        7,
+        "dither",
+        0
+      ]
+    ]
+  },
+  {
+    "command": "patch_recall",
+    "seconds": 5.301,
+    "stages": [
+      "Saving recovery snapshot",
+      "Opening Feedback checked \u00b7 waiting for Resolume",
+      "Restoring layer feedback",
+      "Verifying native routing and required effects",
+      "Resolving controls \u00b7 waiting for connection",
+      "Applying motion relationships",
+      "Ready"
+    ],
+    "instruments": [
+      [
+        1,
+        "heart feedback",
+        3
+      ],
+      [
+        2,
+        "level",
+        7
+      ],
+      [
+        3,
+        "void",
+        4
+      ],
+      [
+        4,
+        "figure",
+        3
+      ],
+      [
+        5,
+        "shell",
+        30
+      ],
+      [
+        7,
+        "dither",
+        0
+      ]
+    ]
+  }
+]

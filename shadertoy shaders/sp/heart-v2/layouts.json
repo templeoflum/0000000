@@ -1,0 +1,212 @@
+{
+  "version": 1,
+  "layouts": [
+    {
+      "id": "backend-check",
+      "name": "Backend check",
+      "controls": [
+        {
+          "id": "mix",
+          "label": "Content pair",
+          "kind": "continuous",
+          "members": [
+            {
+              "id": 1789004732067,
+              "weight": 1.0,
+              "contract": "[\"1788966235720\",[\"layer:1788149967550\",\"layer\",\"layer\",1788149967550,null,\"Level\",\"ParamRange\",0,1,[]]]",
+              "low": 0,
+              "high": 1
+            },
+            {
+              "id": 1789004732347,
+              "weight": 0.5,
+              "contract": "[\"1788966235720\",[\"layer:1788149968008\",\"layer\",\"layer\",1788149968008,null,\"Level\",\"ParamRange\",0,1,[]]]",
+              "low": 0,
+              "high": 1
+            }
+          ],
+          "entry": "absolute",
+          "release": "hold",
+          "release_time": 0.15,
+          "home": 0.0
+        },
+        {
+          "id": "rate",
+          "label": "Motion rate",
+          "kind": "rate",
+          "members": [
+            {
+              "id": 1789004743098,
+              "contract": "[\"1788966235720\",[\"source:1788405553998\",\"source\",\"clip\",1788149967550,1788405553998,\"Sway\",\"ParamRange\",-1.0,1.0,[]]]",
+              "low": -1.0,
+              "high": 1.0,
+              "weight": 1.0
+            }
+          ],
+          "entry": "absolute",
+          "release": "hold",
+          "release_time": 0.15,
+          "home": 0.0
+        },
+        {
+          "id": "intensity",
+          "label": "Motion amount",
+          "kind": "intensity",
+          "members": [
+            {
+              "id": 1789004743098,
+              "contract": "[\"1788966235720\",[\"source:1788405553998\",\"source\",\"clip\",1788149967550,1788405553998,\"Sway\",\"ParamRange\",-1.0,1.0,[]]]",
+              "low": -1.0,
+              "high": 1.0,
+              "weight": 1.0
+            }
+          ],
+          "entry": "absolute",
+          "release": "hold",
+          "release_time": 0.15,
+          "home": 0.0
+        }
+      ],
+      "inputs": [
+        {
+          "device": "backend-check",
+          "control": "fader",
+          "slot": "mix",
+          "sensitivity": 0.5,
+          "deadzone": 0.12,
+          "threshold": 0.6,
+          "hysteresis": 0.1
+        }
+      ],
+      "surface": {
+        "faders": [],
+        "pads": []
+      }
+    },
+    {
+      "id": "cde5c910-eaf6-41a9-a26a-2fcd19ffdc1e",
+      "name": "Controller check",
+      "controls": [
+        {
+          "id": "8fc4be84-06a0-4828-bb56-0517ed0a7533",
+          "label": "Portal stage mask",
+          "kind": "continuous",
+          "members": [
+            {
+              "id": 1789004735287,
+              "weight": 1.0,
+              "contract": "[\"1788966235720\",[\"layer:1789004569851\",\"layer\",\"layer\",1789004569851,null,\"Level\",\"ParamRange\",0,1,[]]]",
+              "low": 0,
+              "high": 1
+            }
+          ],
+          "entry": "absolute",
+          "release": "hold",
+          "release_time": 0.15,
+          "home": 0.0
+        },
+        {
+          "id": "1a39beb7-457a-472c-9a3f-bf57db88ccfd",
+          "label": "grain",
+          "kind": "continuous",
+          "members": [
+            {
+              "id": 1789004732767,
+              "weight": 1.0,
+              "contract": "[\"1788966235720\",[\"layer:1788149969457\",\"layer\",\"layer\",1788149969457,null,\"Level\",\"ParamRange\",0,1,[]]]",
+              "low": 0,
+              "high": 1
+            }
+          ],
+          "entry": "absolute",
+          "release": "hold",
+          "release_time": 0.15,
+          "home": 0.0
+        },
+        {
+          "id": "ea15ef24-734b-4ee3-b08a-66f988e47c94",
+          "label": "texture",
+          "kind": "continuous",
+          "members": [
+            {
+              "id": 1789004732627,
+              "weight": 1.0,
+              "contract": "[\"1788966235720\",[\"layer:1788149968938\",\"layer\",\"layer\",1788149968938,null,\"Level\",\"ParamRange\",0,1,[]]]",
+              "low": 0,
+              "high": 1
+            }
+          ],
+          "entry": "absolute",
+          "release": "hold",
+          "release_time": 0.15,
+          "home": 0.0
+        },
+        {
+          "id": "16be9328-9e34-4045-bf6c-a67ce2d3cd76",
+          "label": "glyph",
+          "kind": "continuous",
+          "members": [
+            {
+              "id": 1789004732487,
+              "weight": 1.0,
+              "contract": "[\"1788966235720\",[\"layer:1788149968473\",\"layer\",\"layer\",1788149968473,null,\"Level\",\"ParamRange\",0,1,[]]]",
+              "low": 0,
+              "high": 1
+            }
+          ],
+          "entry": "absolute",
+          "release": "hold",
+          "release_time": 0.15,
+          "home": 0.0
+        }
+      ],
+      "inputs": [
+        {
+          "device": "trackpad",
+          "control": "fader:0",
+          "slot": "8fc4be84-06a0-4828-bb56-0517ed0a7533",
+          "sensitivity": 0.5,
+          "deadzone": 0.12,
+          "threshold": 0.6,
+          "hysteresis": 0.1
+        },
+        {
+          "device": "trackpad",
+          "control": "fader:1",
+          "slot": "1a39beb7-457a-472c-9a3f-bf57db88ccfd",
+          "sensitivity": 0.5,
+          "deadzone": 0.12,
+          "threshold": 0.6,
+          "hysteresis": 0.1
+        },
+        {
+          "device": "trackpad",
+          "control": "fader:2",
+          "slot": "ea15ef24-734b-4ee3-b08a-66f988e47c94",
+          "sensitivity": 0.5,
+          "deadzone": 0.12,
+          "threshold": 0.6,
+          "hysteresis": 0.1
+        },
+        {
+          "device": "trackpad",
+          "control": "fader:3",
+          "slot": "16be9328-9e34-4045-bf6c-a67ce2d3cd76",
+          "sensitivity": 0.5,
+          "deadzone": 0.12,
+          "threshold": 0.6,
+          "hysteresis": 0.1
+        }
+      ],
+      "surface": {
+        "faders": [
+          "8fc4be84-06a0-4828-bb56-0517ed0a7533",
+          "1a39beb7-457a-472c-9a3f-bf57db88ccfd",
+          "ea15ef24-734b-4ee3-b08a-66f988e47c94",
+          "16be9328-9e34-4045-bf6c-a67ce2d3cd76"
+        ],
+        "pads": []
+      }
+    }
+  ]
+}

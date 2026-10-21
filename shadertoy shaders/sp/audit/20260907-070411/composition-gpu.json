@@ -1,0 +1,185 @@
+{
+  "note": "System-wide GPU utilization, not per-shader GPU time or Arena FPS; motion held across comparison",
+  "results": [
+    {
+      "condition": "baseline",
+      "samples": [
+        {
+          "Renderer Utilization %": 54,
+          "Device Utilization %": 55,
+          "In use system memory": 11625431040
+        },
+        {
+          "Renderer Utilization %": 59,
+          "Device Utilization %": 62,
+          "In use system memory": 11466178560
+        },
+        {
+          "Renderer Utilization %": 55,
+          "Device Utilization %": 56,
+          "In use system memory": 11503255552
+        },
+        {
+          "Renderer Utilization %": 46,
+          "Device Utilization %": 47,
+          "In use system memory": 11585142784
+        },
+        {
+          "Renderer Utilization %": 58,
+          "Device Utilization %": 62,
+          "In use system memory": 11651661824
+        },
+        {
+          "Renderer Utilization %": 57,
+          "Device Utilization %": 59,
+          "In use system memory": 11682873344
+        }
+      ],
+      "median_gpu_percent": 57.5
+    },
+    {
+      "condition": "Blur",
+      "samples": [
+        {
+          "Renderer Utilization %": 49,
+          "Device Utilization %": 50,
+          "In use system memory": 11693211648
+        },
+        {
+          "Renderer Utilization %": 53,
+          "Device Utilization %": 60,
+          "In use system memory": 11730780160
+        },
+        {
+          "Renderer Utilization %": 51,
+          "Device Utilization %": 55,
+          "In use system memory": 11829313536
+        },
+        {
+          "Renderer Utilization %": 42,
+          "Device Utilization %": 49,
+          "In use system memory": 11871125504
+        },
+        {
+          "Renderer Utilization %": 50,
+          "Device Utilization %": 57,
+          "In use system memory": 11868291072
+        },
+        {
+          "Renderer Utilization %": 57,
+          "Device Utilization %": 61,
+          "In use system memory": 11438686208
+        }
+      ],
+      "median_gpu_percent": 56.0
+    },
+    {
+      "condition": "Sharpen",
+      "samples": [
+        {
+          "Renderer Utilization %": 53,
+          "Device Utilization %": 56,
+          "In use system memory": 11455578112
+        },
+        {
+          "Renderer Utilization %": 51,
+          "Device Utilization %": 55,
+          "In use system memory": 11586486272
+        },
+        {
+          "Renderer Utilization %": 49,
+          "Device Utilization %": 53,
+          "In use system memory": 11696373760
+        },
+        {
+          "Renderer Utilization %": 48,
+          "Device Utilization %": 53,
+          "In use system memory": 11750211584
+        },
+        {
+          "Renderer Utilization %": 55,
+          "Device Utilization %": 57,
+          "In use system memory": 11854102528
+        },
+        {
+          "Renderer Utilization %": 43,
+          "Device Utilization %": 52,
+          "In use system memory": 11845844992
+        }
+      ],
+      "median_gpu_percent": 54.0
+    },
+    {
+      "condition": "SPDelayChain",
+      "samples": [
+        {
+          "Renderer Utilization %": 54,
+          "Device Utilization %": 56,
+          "In use system memory": 8844066816
+        },
+        {
+          "Renderer Utilization %": 62,
+          "Device Utilization %": 63,
+          "In use system memory": 7630241792
+        },
+        {
+          "Renderer Utilization %": 29,
+          "Device Utilization %": 44,
+          "In use system memory": 7653130240
+        },
+        {
+          "Renderer Utilization %": 41,
+          "Device Utilization %": 48,
+          "In use system memory": 7593132032
+        },
+        {
+          "Renderer Utilization %": 26,
+          "Device Utilization %": 37,
+          "In use system memory": 7307608064
+        },
+        {
+          "Renderer Utilization %": 48,
+          "Device Utilization %": 54,
+          "In use system memory": 7481147392
+        }
+      ],
+      "median_gpu_percent": 51.0
+    },
+    {
+      "condition": "baseline-repeat",
+      "samples": [
+        {
+          "Renderer Utilization %": 51,
+          "Device Utilization %": 51,
+          "In use system memory": 11421663232
+        },
+        {
+          "Renderer Utilization %": 41,
+          "Device Utilization %": 55,
+          "In use system memory": 11505025024
+        },
+        {
+          "Renderer Utilization %": 43,
+          "Device Utilization %": 47,
+          "In use system memory": 11627085824
+        },
+        {
+          "Renderer Utilization %": 57,
+          "Device Utilization %": 58,
+          "In use system memory": 11696783360
+        },
+        {
+          "Renderer Utilization %": 52,
+          "Device Utilization %": 60,
+          "In use system memory": 11782979584
+        },
+        {
+          "Renderer Utilization %": 43,
+          "Device Utilization %": 57,
+          "In use system memory": 11817959424
+        }
+      ],
+      "median_gpu_percent": 56.0
+    }
+  ]
+}

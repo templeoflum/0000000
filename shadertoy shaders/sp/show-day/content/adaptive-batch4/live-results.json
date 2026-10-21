@@ -1,0 +1,144 @@
+[
+  {
+    "shuffle_checked": true,
+    "relaunch_checked": true,
+    "source": "FM \u00b7 AI Escape valve [1.5.52]",
+    "col": 63,
+    "driven": [
+      "IFS Scale",
+      "IFS Translate"
+    ],
+    "samples": [
+      {
+        "IFS Scale": 1.8749160390536896,
+        "IFS Translate": 7.01096381391401
+      },
+      {
+        "IFS Scale": 1.8703279342164687,
+        "IFS Translate": 7.037475518971825
+      },
+      {
+        "IFS Scale": 1.8538070682615049,
+        "IFS Translate": 7.065842750566234
+      }
+    ],
+    "home_recovered": true
+  },
+  {
+    "shuffle_checked": true,
+    "relaunch_checked": true,
+    "source": "FM \u00b7 Apollonian [1.5.53]",
+    "col": 64,
+    "driven": [
+      "Fractal Scale"
+    ],
+    "samples": [
+      {
+        "Fractal Scale": 1.25075120094403
+      },
+      {
+        "Fractal Scale": 1.2480378688359008
+      },
+      {
+        "Fractal Scale": 1.2311083678551922
+      }
+    ],
+    "home_recovered": true
+  },
+  {
+    "shuffle_checked": true,
+    "relaunch_checked": true,
+    "source": "FM \u00b7 Equirectangular Apollonian [1.5.54]",
+    "col": 65,
+    "driven": [
+      "Fractal Scale"
+    ],
+    "samples": [
+      {
+        "Fractal Scale": 1.3249969919214006
+      },
+      {
+        "Fractal Scale": 1.3176769586215538
+      },
+      {
+        "Fractal Scale": 1.296980762363519
+      }
+    ],
+    "home_recovered": true
+  },
+  {
+    "shuffle_checked": true,
+    "relaunch_checked": true,
+    "source": "FM \u00b7 Kissing Donuts [1.5.56]",
+    "col": 67,
+    "driven": [
+      "Torus Radius",
+      "Torus Thickness",
+      "Ray Twist"
+    ],
+    "samples": [
+      {
+        "Torus Radius": 0.1045719301971673,
+        "Torus Thickness": 0.16349987392816703,
+        "Ray Twist": 0.02879952524316315
+      },
+      {
+        "Torus Radius": 0.10760475933090093,
+        "Torus Thickness": 0.16215863038738657,
+        "Ray Twist": 0.03014744932491769
+      },
+      {
+        "Torus Radius": 0.11102471616463971,
+        "Torus Thickness": 0.1579246727124561,
+        "Ray Twist": 0.0316674301650788
+      }
+    ],
+    "home_recovered": true
+  },
+  {
+    "shuffle_checked": true,
+    "relaunch_checked": true,
+    "source": "FM \u00b7 Kleinian limit set [1.5.57]",
+    "col": 68,
+    "driven": [
+      "View Scale",
+      "Light Height"
+    ],
+    "samples": [
+      {
+        "View Scale": 1.4639451268250354,
+        "Light Height": 0.7287109432981822
+      },
+      {
+        "View Scale": 1.4546622585103195,
+        "Light Height": 0.7600840898213845
+      },
+      {
+        "View Scale": 1.4194392243054377,
+        "Light Height": 0.7980124126411295
+      }
+    ],
+    "home_recovered": true
+  },
+  {
+    "shuffle_checked": true,
+    "relaunch_checked": true,
+    "source": "FM \u00b7 Kleinian limit set-Maskit slice [1.5.58]",
+    "col": 69,
+    "driven": [
+      "Offset X"
+    ],
+    "samples": [
+      {
+        "Offset X": 1.9973514091347364
+      },
+      {
+        "Offset X": 1.9930864093299423
+      },
+      {
+        "Offset X": 1.9518078242198276
+      }
+    ],
+    "home_recovered": true
+  }
+]

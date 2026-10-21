@@ -1,0 +1,157 @@
+{
+  "SchemaVersion": "1.1-ter",
+  "ArchetypeName": "Thanatos",
+  "SystemOfOrigin": "GR",
+  "CulturalLineage": [
+    "Greek"
+  ],
+  "CommonAliases": [
+    "Death",
+    "Mors",
+    "Gentle Death",
+    "Peaceful End"
+  ],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "To embody peaceful death, the inevitable end, and the transition from life to the underworld.",
+    "PrimaryDomain": "Mythic / Natural",
+    "ToneOrPolarity": "Inevitable / Gentle",
+    "SymbolicCore": "The peaceful release, the gentle transition, death without violence.",
+    "Correspondences": {
+      "Element": "Air",
+      "Planet": "Pluto",
+      "Chakra": "Crown",
+      "Color": "Black, Deep Purple",
+      "Animal": "Butterfly, Moth",
+      "Other": [
+        "Wings",
+        "Inverted Torch",
+        "Sword (sheathed)",
+        "Poppies"
+      ]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": [
+      "Death Personified",
+      "Psychopomp",
+      "Inevitable End",
+      "Peaceful Release"
+    ],
+    "ComplementaryArchetypes": [
+      "Hypnos ([GR] Brother/Sleep)",
+      "Nyx ([GR] Mother)",
+      "Hades ([GR] Underworld King)"
+    ],
+    "ShadowForms": [
+      "Violent Death",
+      "Untimely End",
+      "Death Denial"
+    ],
+    "DevelopmentalArc": [],
+    "CyclePhase": "Ending / Transition"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": [
+      "Inevitable",
+      "Gentle",
+      "Impartial",
+      "Peaceful",
+      "Unavoidable",
+      "Accepting"
+    ],
+    "Typologies": {
+      "MBTI": "INFJ",
+      "Enneagram": "9w1",
+      "Other": [
+        "Death",
+        "Transition",
+        "Release"
+      ]
+    },
+    "SubVariants": [
+      "Peaceful Death",
+      "Natural End",
+      "Gentle Transition"
+    ],
+    "InternalFamily": "Acceptance"
+  },
+  "CulturalContext": {
+    "Regions": [
+      "Greece"
+    ],
+    "MythicAppearances": [
+      "Hesiod's Theogony",
+      "Sisyphus myths (chained by Sisyphus)",
+      "Twin brother of Hypnos (Sleep)"
+    ],
+    "ReligiousOrRitualUse": "Invoked for peaceful death; depicted as less fearsome than violent death (Keres); associated with funeral rites.",
+    "HistoricalEvolution": "Personification of non-violent death; less prominent than Hades but philosophically significant; merged with Roman Mors.",
+    "SyncreticForms": [
+      "Mors (Roman)",
+      "Tarot.Death",
+      "Grim Reaper (medieval)"
+    ]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "💀",
+    "ImageryNotes": "Depicted as winged young man, sometimes bearded; carrying inverted torch or sword; twin to Hypnos; often gentle in appearance.",
+    "ArtisticExamples": [
+      "Greek vase paintings",
+      "Victorian mourning art",
+      "Pre-Raphaelite paintings"
+    ],
+    "PoeticInvocation": "Gentle Thanatos, inevitable friend, who takes us softly into eternal night.",
+    "DreamForm": "A winged figure with kind eyes, extending a hand to guide you across a threshold"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": [
+      "Tarot.Death",
+      "JU.Death_Archetype",
+      "JP12.Outlaw"
+    ],
+    "SemanticTags": [
+      "#death",
+      "#transition",
+      "#inevitability",
+      "#peace",
+      "#ending"
+    ],
+    "RitualFunction": "Invoked for peaceful passing, acceptance of mortality, and honoring of natural death.",
+    "AIPromptSeeds": [
+      "The gentle psychopomp who brings not fear but release.",
+      "Death personified as a peaceful transition, not a violent end."
+    ],
+    "NarrativeHooks": [
+      "The character who must accept mortality",
+      "The gentle death vs violent end",
+      "Death as friend rather than enemy"
+    ]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [
+      {
+        "to": "Tarot.Death",
+        "strength": "strong"
+      },
+      {
+        "to": "Mors (Roman)",
+        "strength": "strong"
+      }
+    ]
+  },
+  "FacetRegistry": [
+    {
+      "facet": "Peaceful Death",
+      "weight": 0.6
+    },
+    {
+      "facet": "Inevitable End",
+      "weight": 0.3
+    },
+    {
+      "facet": "Psychopomp",
+      "weight": 0.1
+    }
+  ]
+}

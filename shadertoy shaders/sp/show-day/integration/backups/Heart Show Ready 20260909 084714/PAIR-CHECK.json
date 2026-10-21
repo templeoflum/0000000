@@ -1,0 +1,55 @@
+{
+  "result": "PASS \u2014 offline pair integrity/dependency check only",
+  "sha256": {
+    "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/patches/Heart Show Ready 20260909 084714.avc": "2e8e67f58f602ae80215f40566005ac8188058f8c085ab4bf766738a6e8f3f41",
+    "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/patches/Heart Show Ready 20260909 084714.json": "1a553bf49d1900187f856603b77d6c51848c1fe4b17fa3cb84b6ff7bac00b756"
+  },
+  "hold": false,
+  "bars": 8.0,
+  "active_layers": {
+    "feedback": {
+      "clip": "FM \u00b7 Anim Rotate Left Z [1.4.3]",
+      "level": 0.4730769230769229,
+      "bypass": false
+    },
+    "sculpt": {
+      "clip": "level",
+      "level": 0.0,
+      "bypass": false
+    },
+    "field": {
+      "clip": "FM \u00b7 Checkered [2.1.2]",
+      "level": 0.0,
+      "bypass": false
+    },
+    "delay": {
+      "clip": "figure",
+      "level": 0.4461538461538467,
+      "bypass": false
+    },
+    "figure": {
+      "clip": "Heart Capsule",
+      "level": 0.5089029460291544,
+      "bypass": false
+    },
+    "glyph": {
+      "clip": null,
+      "level": 0.0,
+      "bypass": false
+    },
+    "texture": {
+      "clip": "FM \u00b7 MTK_Retrovision [1.8.1]",
+      "level": 0.1769230769230769,
+      "bypass": false
+    },
+    "grain": {
+      "clip": "grain",
+      "level": 0.0,
+      "bypass": false
+    }
+  },
+  "live_signature_compared": true,
+  "name": "Heart Show Ready 20260909 084714",
+  "avc": "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/patches/Heart Show Ready 20260909 084714.avc",
+  "save_start": 1788961634.310835
+}

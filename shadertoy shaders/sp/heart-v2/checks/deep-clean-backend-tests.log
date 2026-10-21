@@ -1,0 +1,36 @@
+..................Executing <Task finished name='Task-2' coro=<BridgeTests.test_values_claim_disarm_and_stale_epoch() done, defined at /tmp/heart-clean-build/test_bridge.py:7> result=None created at /opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py:110> took 0.356 seconds
+............................................{"status": "pause", "pid": 123, "footprint_bytes": 75161927680, "footprint_gib": 70.0, "warn_gib": 40, "pause_gib": 64, "at": "2026-09-11T19:47:50.107761-05:00"}
+/tmp/heart-clean-build/test_memory_guard.py:12: ResourceWarning: unclosed file <_io.TextIOWrapper name='/var/folders/68/g_fps9fj1s7gwyq7t365v6hw0000gn/T/tmpod9srm8p/memory-guard.lock' mode='w' encoding='UTF-8'>
+  with patch.object(guard,'footprint',return_value=70*guard.GIB):guard.main()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+{"status": "normal", "pid": 123, "footprint_bytes": 21474836480, "footprint_gib": 20.0, "warn_gib": 40, "pause_gib": 64, "at": "2026-09-11T19:47:50.110292-05:00"}
+/tmp/heart-clean-build/test_memory_guard.py:15: ResourceWarning: unclosed file <_io.TextIOWrapper name='/var/folders/68/g_fps9fj1s7gwyq7t365v6hw0000gn/T/tmpod9srm8p/memory-guard.lock' mode='w' encoding='UTF-8'>
+  with patch.object(guard,'footprint',return_value=20*guard.GIB):guard.main()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.{"status": "warning", "pid": 123, "footprint_bytes": 48318382080, "footprint_gib": 45.0, "warn_gib": 40, "pause_gib": 64, "at": "2026-09-11T19:47:50.111064-05:00"}
+/tmp/heart-clean-build/test_memory_guard.py:22: ResourceWarning: unclosed file <_io.TextIOWrapper name='/var/folders/68/g_fps9fj1s7gwyq7t365v6hw0000gn/T/tmpvjmlc8_f/memory-guard.lock' mode='w' encoding='UTF-8'>
+  with patch.object(guard,'footprint',return_value=45*guard.GIB):guard.main()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+{"status": "unavailable", "error": "permission denied", "at": "2026-09-11T19:47:50.111356-05:00"}
+.......connection handler failed
+Traceback (most recent call last):
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/.venv/lib/python3.14/site-packages/websockets/asyncio/server.py", line 747, in protocol_handler
+    await handler(connection)
+  File "/tmp/heart-clean-build/test_observation.py", line 12, in handler
+    async for raw in ws:
+     m=json.loads(raw);requests.append(m);pid=int(m['parameter'].split('/')[-1])
+     if m['action']=='subscribe':await ws.send(json.dumps(dict(id=pid,type='parameter_subscribed',value=.3)))
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/.venv/lib/python3.14/site-packages/websockets/asyncio/connection.py", line 237, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/.venv/lib/python3.14/site-packages/websockets/asyncio/connection.py", line 317, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+...../tmp/heart-clean-build/server.py:39: ResourceWarning: unclosed file <_io.FileIO name='/var/folders/68/g_fps9fj1s7gwyq7t365v6hw0000gn/T/tmpvjmlc8_f/memory-guard.lock' mode='wb' closefd=True>
+  self.catalog={'type':'catalog','epoch':'','targets':[],'layers':[]};self.params={};self.slots={};self.groups={};self.owned=set();self.selected='';self.armed=False;self.connected=False;self.hold=False;self.bpm=120.;self.error='';self.revision=0;self.lastout={};self.gaps=deque(maxlen=600);self.work=deque(maxlen=600);self.bridgework=0;self.sent=0;self.scan_ms=0
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+......................
+----------------------------------------------------------------------
+Ran 97 tests in 13.615s
+
+OK

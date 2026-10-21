@@ -1,0 +1,188 @@
+{
+  "SchemaVersion": "1.1-ter",
+  "ArchetypeName": "Anzu",
+  "SystemOfOrigin": "ME",
+  "CulturalLineage": [
+    "Sumerian",
+    "Akkadian",
+    "Babylonian"
+  ],
+  "CommonAliases": [
+    "Imdugud (Sumerian)",
+    "Zu",
+    "Divine Storm-Bird",
+    "Tablet Thief",
+    "Lion-Headed Eagle"
+  ],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "Divine storm-bird embodying chaotic ambition, theft of divine power, and rebellion against cosmic order",
+    "PrimaryDomain": "Chaos/Theft/Storm/Rebellion",
+    "ToneOrPolarity": "Chaotic / Ambitious / Rebellious / Monstrous",
+    "SymbolicCore": "The rebel who steals destiny itself - chaos grasping at cosmic order",
+    "Correspondences": {
+      "Element": "Air (storm)",
+      "Planet": "Uranus (rebellion)",
+      "Chakra": "Throat (stolen voice)",
+      "Color": "Storm Black, Lightning White, Chaos Gray",
+      "Animal": "Lion-headed eagle (hybrid)",
+      "Other": [
+        "Tablet of Destinies (stolen object)",
+        "Storm clouds (wings)",
+        "Thunder and lightning",
+        "Mountain hiding place",
+        "Divine power usurped",
+        "Monstrous bird form"
+      ]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": [
+      "Divine Rebel",
+      "Thief of Destiny",
+      "Chaos Monster",
+      "Storm Bird",
+      "Usurper",
+      "Defeated Challenger"
+    ],
+    "ComplementaryArchetypes": [
+      "Ninurta (Hero slayer)",
+      "Enlil (Authority robbed)",
+      "Marduk (Also defeats in variants)",
+      "Tablet of Destinies (stolen object)"
+    ],
+    "ShadowForms": [
+      "Pure Chaos",
+      "Overreaching Ambition",
+      "Cosmic Thief"
+    ],
+    "DevelopmentalArc": [
+      "Divine Servant → Ambitious Plot → Theft of Tablet → Chaos Reign → Hero Combat → Defeat → Order Restored"
+    ],
+    "CyclePhase": "Service → Rebellion → Chaos → Combat → Defeat"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": [
+      "Ambitious",
+      "Rebellious",
+      "Chaotic",
+      "Thieving",
+      "Overreaching",
+      "Monstrous",
+      "Defeated"
+    ],
+    "Typologies": {
+      "MBTI": "ENTP (chaotic ambition)",
+      "Enneagram": "8w7 (The Maverick)",
+      "Other": [
+        "Rebel archetype",
+        "Trickster-gone-wrong",
+        "Chaos monster",
+        "Usurper"
+      ]
+    },
+    "SubVariants": [
+      "Divine Thief",
+      "Storm Monster",
+      "Cosmic Rebel",
+      "Usurper Bird",
+      "Chaos Bringer"
+    ],
+    "InternalFamily": "Rebel - Thief - Chaos"
+  },
+  "CulturalContext": {
+    "Regions": [
+      "Mesopotamia",
+      "Sumer",
+      "Akkad",
+      "Babylonia"
+    ],
+    "MythicAppearances": [
+      "Anzu and the Tablet of Destinies (Akkadian)",
+      "Lugalbanda and the Anzu bird (Sumerian)",
+      "Ninurta's combat with Anzu",
+      "Storm-bird myths",
+      "Chaos combat narratives"
+    ],
+    "ReligiousOrRitualUse": "Represented chaos to be overcome, used in heroic narratives, apotropaic imagery (sometimes), symbol of storm power",
+    "HistoricalEvolution": "Ancient storm-bird deity became chaotic rebel in mythology, sometimes benevolent in early texts, later predominantly negative chaos monster",
+    "SyncreticForms": [
+      "Typhon (Greek chaos monster)",
+      "Prometheus (thief of divine power - though heroic)",
+      "Lucifer (rebellious angel)",
+      "Thunderbird (various - though usually benevolent)"
+    ]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "🦅🦁 (eagle-lion hybrid)",
+    "ImageryNotes": "Depicted as massive bird with lion's head, storm clouds for wings, grasping Tablet of Destinies, monstrous and fierce, in combat with gods",
+    "ArtisticExamples": [
+      "Cylinder seals showing Anzu combat",
+      "Lion-headed eagle imagery",
+      "Temple reliefs of bird monsters"
+    ],
+    "PoeticInvocation": "I am the storm that stole the sky's decrees, the rebel who grasped destiny, the chaos that heroes must defeat.",
+    "DreamForm": "A monstrous bird stealing the laws of reality; storm wings carrying off cosmic order; ambition becoming chaos"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": [
+      "ME.Ninurta",
+      "ME.Enlil",
+      "ME.Marduk",
+      "GR.Typhon",
+      "GR.Prometheus"
+    ],
+    "SemanticTags": [
+      "#chaos",
+      "#rebellion",
+      "#theft",
+      "#storm",
+      "#bird",
+      "#ambition",
+      "#monster",
+      "#destiny"
+    ],
+    "RitualFunction": "Invoke for understanding rebellion, chaos work, ambition's shadow, confronting usurpation",
+    "AIPromptSeeds": [
+      "Generate a storm-bird who steals the very tablets of fate, whose ambition brings chaos that heroes must overcome.",
+      "Create a rebel who grasps cosmic power beyond their station, embodying chaotic ambition."
+    ],
+    "NarrativeHooks": [
+      "Theft of cosmic order",
+      "Rebellion against divine hierarchy",
+      "Chaos unleashed by ambition",
+      "Hero combat with storm monster",
+      "Recovery of stolen destiny"
+    ]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [
+      {
+        "to": "GR.Typhon",
+        "strength": "moderate"
+      },
+      {
+        "to": "GR.Prometheus",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "FacetRegistry": [
+    {
+      "facet": "Divine Thief",
+      "weight": 0.35
+    },
+    {
+      "facet": "Storm Monster",
+      "weight": 0.3
+    },
+    {
+      "facet": "Cosmic Rebel",
+      "weight": 0.25
+    },
+    {
+      "facet": "Chaos Bringer",
+      "weight": 0.1
+    }
+  ]
+}

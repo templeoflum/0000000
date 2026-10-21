@@ -1,0 +1,33 @@
+# Scoped Homes: offline helper and integration proposal
+
+`sp/engine/home_store.py` is **not connected to Heart yet**. No Home file has been migrated, no running behavior has changed, and no existing Home has been modified. Thirteen isolated tests pass in temporary directories.
+
+## Storage contract
+
+Keep existing `home.json` read-only during migration. Store new scoped records in a separate, initially absent `homes-scoped.json` sidecar. This avoids reserving a top-level key that might collide with an existing clip name and preserves every legacy entry, including old numeric runtime-ID records, unchanged. An explicit new user save may shadow a legacy Home for one scope; it never deletes that legacy record.
+
+`Scope(role, name, source, layer_occurrence=1, clip_occurrence=1)` uses a JSON-framed tuple rather than slash concatenation. Source must be a durable instrument/source identity, not a runtime parameter ID. Include the meaningful source/effect chain identity for compound instruments. Count duplicate layer roles and duplicate instrument identities from the full composition to disambiguate occurrences; do not derive them only from playing clips. Reordering identical duplicates can change their correspondence and requires an explicit mapping review; occurrence numbers are not globally stable instrument UUIDs. Renaming an instrument or changing its source intentionally produces a new scope and leaves the old Home recoverable.
+
+`Catalog(scopes, complete=True)` is a caller assertion backed by a complete, fresh composition snapshot including inactive, diagnostic, static and unsupported named clips. The helper cannot independently verify snapshot completeness. A disconnected, partial or stale discovery must not claim `complete=True`. Legacy fallback is permitted only when this exact scope occurs once and the clip name occurs once in the complete composition. An active-clip-only list can never justify fallback. Adding another same-name clip makes fallback ambiguous, even if the added clip is inactive.
+
+## Minimal API
+
+- `HomeStore(legacy_path, scoped_path)` does no migration or I/O until used.
+- `lookup(scope, catalog=None)` returns `Result(status, record)`. Status is `scoped`, `legacy_unique`, `missing`, `legacy_unverified`, `legacy_ambiguous`, or `legacy_invalid`. Ambiguous/unverified records return no bound record; their bytes remain in the original file.
+- `save(scope, record, replace=False)` is an explicit save. The default is create-only and returns `exists` for a present scoped record. `replace=True` is for a deliberate user save/replacement. It returns `saved` on a write. Payloads retain their existing format; this helper does not convert old parameter IDs to new identities.
+- `seed(scope, record, catalog=None)` is the auto-capture path. It creates only when lookup returns `missing`, and returns `seeded`. Any existing scoped or same-name legacy record blocks it, including ambiguous records. Lookup and write occur under one lock, preventing a delayed auto-capture from replacing a newly saved user Home.
+
+Both thread and process writers using this helper serialize through a shared path lock and advisory file lock. Updates reread the latest sidecar while locked, write a complete temporary JSON file, flush and fsync it, then atomically replace the destination. Corrupt or unknown-version scoped files raise instead of being treated as empty. Unrelated entries are retained. This is atomic visibility and flushed file data, not a guarantee of directory metadata durability under sudden power loss. All writers must use the helper: an old engine writing files directly is outside the lock contract.
+
+## Integration steps after the sustained run
+
+1. Build scopes and a composition-wide name catalog from the same complete discovery generation. Keep source/effect identity resolution separate from numeric live IDs. Invalidate the catalog on reconnect, composition replacement and bank changes. A full refresh must also reevaluate any cached Home that came from `legacy_unique` when the bank gains a duplicate name.
+2. Replace `load_homes`, `set_home`, takeover auto-capture, `axis_good_set`, `axis_good_go` and `go_home` access together. Do not integrate only the main Home button while old paths still write by name. Preserve `factory=True` bypass behavior.
+3. Expose provenance in card status: saved scoped Home, unique legacy Home, factory profile, unrefined Home, or **Home needs matching**. Ambiguous/unverified legacy lookup must remain visibly unresolved rather than silently choosing another layer's Home. Users can explicitly save a new scoped Home or match a retained legacy record after reviewing it.
+4. Discovery auto-capture uses `seed`, reads its returned record/status, and never assigns its stale candidate into `clip.home` if the helper rejected it. Explicit Save Home uses `save(..., replace=True)`. Since the sidecar lock alone cannot protect an in-memory cache from a late thread assignment, serialize cache assignment with saves or tag it with a Home revision and recheck before publishing. Also reject a result if the clip's discovery generation/identity changed during capture.
+5. Per-axis edits need a locked record mutation operation (or one serialized Home mutation executor) rather than an unlocked `lookup → modify → save` across callers. The current helper intentionally offers whole-record saves only; do not claim it prevents lost edits to different axes of the same Home when independent callers use read/modify/replace. Existing `axis_good_set` upgrades a legacy record by capturing live state; preserve the old record and require intentional scoped replacement when making that upgrade.
+6. Before live integration, add engine tests for duplicate names across inactive layers, generation changes between capture and cache publication, concurrent Save Home versus delayed auto-capture, and migration of old runtime-ID records without cross-binding. Then verify Home/save/axis-return on two same-name instruments in a backed-up working patch. No mass migration is necessary: retain legacy, write scopes only on deliberate saves, and keep unmatched records inspectable.
+
+## Checks completed
+
+`python3 -m unittest discover -s sp/engine -p test_home_store.py`: 13 passing tests covering full-catalog unique legacy fallback, active-only refusal, inactive duplicate refusal, new-layer isolation, slash-safe keys and duplicate occurrences, 50 concurrent disjoint writes across separate store instances, user Home protection against seeding, preservation of ambiguous legacy records, explicit replacement semantics, corrupt/future-format refusal, and separate-path enforcement. These tests do not exercise live renderer state or integration with Heart's in-memory cache.

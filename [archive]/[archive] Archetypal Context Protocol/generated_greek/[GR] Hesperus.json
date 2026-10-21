@@ -1,0 +1,64 @@
+{
+  "SchemaVersion": "1.1-ter",
+  "ArchetypeName": "Hesperus",
+  "SystemOfOrigin": "GR",
+  "CulturalLineage": ["Greek"],
+  "CommonAliases": ["Evening Star", "Vesper", "Western Star", "Son of Dawn"],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "To be the evening star; to herald dusk and night's approach; to guide travelers at twilight.",
+    "PrimaryDomain": "Mythic / Celestial",
+    "ToneOrPolarity": "Twilight / Heralding",
+    "SymbolicCore": "Venus as evening star, the herald of night, twilight guide.",
+    "Correspondences": {
+      "Element": "Air",
+      "Planet": "Venus (Evening)",
+      "Chakra": "Heart",
+      "Color": "Violet, Deep Blue, Silver",
+      "Animal": "Moth, Night Bird",
+      "Other": ["Evening Star", "Twilight", "West", "Torch"]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": ["Evening Star", "Dusk Herald", "Twilight Guide", "Western Light"],
+    "ComplementaryArchetypes": ["Eos ([GR] Mother)", "Phosphorus ([GR] Twin/Morning Star)", "Astraeus ([GR] Father)"],
+    "ShadowForms": ["Fading Light", "End of Day", "Approaching Dark"],
+    "DevelopmentalArc": [],
+    "CyclePhase": "Evening / Twilight"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": ["Twilight", "Heralding", "Transitional", "Beautiful", "Evening", "Guiding"],
+    "Typologies": {
+      "MBTI": "INFP",
+      "Enneagram": "4w5",
+      "Other": ["Lover", "Guide", "Mystic"]
+    },
+    "SubVariants": ["Evening Herald", "Twilight Star", "Dusk Guide"],
+    "InternalFamily": "Transition"
+  },
+  "CulturalContext": {
+    "Regions": ["Greece"],
+    "MythicAppearances": ["Son of Eos and Astraeus", "Evening aspect of Venus", "Hesperides guardian (some accounts)"],
+    "ReligiousOrRitualUse": "Invoked at evening; honored as first star; guide for twilight travelers.",
+    "HistoricalEvolution": "Evening star personified; later understood as Venus; merged with Roman Vesper.",
+    "SyncreticForms": ["Vesper (Roman)", "Venus (Evening Star)"]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "⭐",
+    "ImageryNotes": "Depicted as beautiful youth carrying torch or as brilliant evening star; often shown at twilight.",
+    "ArtisticExamples": ["Evening star imagery", "Twilight allegories", "Venus evening depictions"],
+    "PoeticInvocation": "Hesperus, fairest star, who brings the evening and heralds gentle night.",
+    "DreamForm": "The first star appearing at dusk, guiding travelers home as day fades"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": ["Tarot.The_Star", "Venus", "Twilight"],
+    "SemanticTags": ["#evening-star", "#dusk", "#twilight", "#venus", "#herald"],
+    "RitualFunction": "Invoked at evening, for safe passage through twilight, and for evening beauty.",
+    "AIPromptSeeds": ["The evening star that heralds the coming night.", "First light in the darkening sky, guide for twilight travelers."],
+    "NarrativeHooks": ["The first star appears", "Twilight guidance", "Evening's beauty"]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [{"to": "Vesper (Roman)", "strength": "strong"}, {"to": "Venus (Evening)", "strength": "strong"}]
+  },
+  "FacetRegistry": [{"facet": "Evening Star", "weight": 0.7}, {"facet": "Twilight Herald", "weight": 0.2}, {"facet": "Dusk Guide", "weight": 0.1}]
+}

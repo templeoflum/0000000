@@ -1,0 +1,32 @@
+{
+  "name": "Heart Pinna Brelstaff Figure",
+  "source": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/pinna-brelstaff.html",
+  "source_sha256": "183cebe56bbf793d90822f30eca1901053c6d2ada29f74d4f0bfe7a47fe8aac3",
+  "shader_sha256": "09362de36e58d86a04404b2d25f5545b67c87083e7e366d2239958258dec5a60",
+  "smart_params_sha256": "01f101d2cc2a5710f31c8f24398c3c5dc643d2c3edd3e60d4d111196b614e98e",
+  "slots": [
+    {
+      "name": "tilt",
+      "label": "Tilt",
+      "default": 0.5333333333333333,
+      "drive": false,
+      "cyclic": false,
+      "shape": 1
+    },
+    {
+      "name": "contrast",
+      "label": "Contrast",
+      "default": 1.0,
+      "drive": false,
+      "cyclic": false,
+      "shape": 1
+    }
+  ],
+  "source_radius_pixels": "0.36 * min(width,height) + 1",
+  "ring_counts": [
+    21,
+    30
+  ],
+  "geometry_scale_from_source": 0.8,
+  "installed": false
+}

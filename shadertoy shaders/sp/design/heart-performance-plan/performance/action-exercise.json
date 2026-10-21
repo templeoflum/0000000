@@ -1,0 +1,575 @@
+[
+  {
+    "time": 1788826691.094286,
+    "command": {
+      "cmd": "patch_save",
+      "name": "Before endurance"
+    }
+  },
+  {
+    "time": 1788826691.9460108,
+    "operation": "patch_save",
+    "stage": "Ready"
+  },
+  {
+    "time": 1788826691.946239,
+    "command": {
+      "cmd": "hold",
+      "on": true
+    }
+  },
+  {
+    "time": 1788826697.058569,
+    "command": {
+      "cmd": "hold",
+      "on": false
+    }
+  },
+  {
+    "time": 1788826700.0874,
+    "command": {
+      "cmd": "clip_nav",
+      "dir": "next",
+      "layer": 8
+    }
+  },
+  {
+    "time": 1788826708.115038,
+    "layer": 8,
+    "after_next": [
+      [
+        1,
+        "grain"
+      ]
+    ]
+  },
+  {
+    "time": 1788826708.11526,
+    "command": {
+      "cmd": "clip_nav",
+      "dir": "prev",
+      "layer": 8
+    }
+  },
+  {
+    "time": 1788826716.1868238,
+    "layer": 8,
+    "after_prev": []
+  },
+  {
+    "time": 1788826716.1872509,
+    "command": {
+      "cmd": "patch_recall",
+      "name": "Before endurance"
+    }
+  },
+  {
+    "time": 1788826721.488791,
+    "operation": "patch_recall",
+    "stage": "Ready"
+  },
+  {
+    "time": 1788826727.499525,
+    "command": {
+      "cmd": "clip_nav",
+      "dir": "next",
+      "layer": 7
+    }
+  },
+  {
+    "time": 1788826735.535605,
+    "layer": 7,
+    "after_next": [
+      [
+        2,
+        "texture"
+      ]
+    ]
+  },
+  {
+    "time": 1788826735.5358562,
+    "command": {
+      "cmd": "clip_nav",
+      "dir": "prev",
+      "layer": 7
+    }
+  },
+  {
+    "time": 1788826743.540676,
+    "layer": 7,
+    "after_prev": [
+      [
+        1,
+        "dither"
+      ]
+    ]
+  },
+  {
+    "time": 1788826743.541162,
+    "command": {
+      "cmd": "patch_recall",
+      "name": "Before endurance"
+    }
+  },
+  {
+    "time": 1788826748.7462232,
+    "operation": "patch_recall",
+    "stage": "Ready"
+  },
+  {
+    "time": 1788826754.769972,
+    "command": {
+      "cmd": "clip_nav",
+      "dir": "next",
+      "layer": 6
+    }
+  },
+  {
+    "time": 1788826762.802181,
+    "layer": 6,
+    "after_next": [
+      [
+        1,
+        "glyph"
+      ]
+    ]
+  },
+  {
+    "time": 1788826762.8024719,
+    "command": {
+      "cmd": "clip_nav",
+      "dir": "prev",
+      "layer": 6
+    }
+  },
+  {
+    "time": 1788826770.848269,
+    "layer": 6,
+    "after_prev": [
+      [
+        8,
+        "SP Glyphmass"
+      ]
+    ]
+  },
+  {
+    "time": 1788826770.848521,
+    "command": {
+      "cmd": "patch_recall",
+      "name": "Before endurance"
+    }
+  },
+  {
+    "time": 1788826776.034024,
+    "operation": "patch_recall",
+    "stage": "Ready"
+  },
+  {
+    "time": 1788826782.087049,
+    "command": {
+      "cmd": "clip_nav",
+      "dir": "next",
+      "layer": 5
+    }
+  },
+  {
+    "time": 1788826790.090873,
+    "layer": 5,
+    "after_next": [
+      [
+        6,
+        "hybrid"
+      ]
+    ]
+  },
+  {
+    "time": 1788826790.091072,
+    "command": {
+      "cmd": "clip_nav",
+      "dir": "prev",
+      "layer": 5
+    }
+  },
+  {
+    "time": 1788826798.154229,
+    "layer": 5,
+    "after_prev": [
+      [
+        5,
+        "shell"
+      ]
+    ]
+  },
+  {
+    "time": 1788826798.154619,
+    "command": {
+      "cmd": "patch_recall",
+      "name": "Before endurance"
+    }
+  },
+  {
+    "time": 1788826803.324359,
+    "operation": "patch_recall",
+    "stage": "Ready"
+  },
+  {
+    "time": 1788826809.346654,
+    "command": {
+      "cmd": "clip_nav",
+      "dir": "next",
+      "layer": 4
+    }
+  },
+  {
+    "time": 1788826817.3880801,
+    "layer": 4,
+    "after_next": [
+      [
+        2,
+        "field"
+      ]
+    ]
+  },
+  {
+    "time": 1788826817.3883588,
+    "command": {
+      "cmd": "clip_nav",
+      "dir": "prev",
+      "layer": 4
+    }
+  },
+  {
+    "time": 1788826825.402547,
+    "layer": 4,
+    "after_prev": [
+      [
+        1,
+        "figure"
+      ]
+    ]
+  },
+  {
+    "time": 1788826825.402817,
+    "command": {
+      "cmd": "patch_recall",
+      "name": "Before endurance"
+    }
+  },
+  {
+    "time": 1788826830.5660958,
+    "operation": "patch_recall",
+    "stage": "Ready"
+  },
+  {
+    "time": 1788826836.604853,
+    "command": {
+      "cmd": "clip_nav",
+      "dir": "next",
+      "layer": 3
+    }
+  },
+  {
+    "time": 1788826844.6151621,
+    "layer": 3,
+    "after_next": [
+      [
+        8,
+        "SP Field"
+      ]
+    ]
+  },
+  {
+    "time": 1788826844.615476,
+    "command": {
+      "cmd": "clip_nav",
+      "dir": "prev",
+      "layer": 3
+    }
+  },
+  {
+    "time": 1788826852.639133,
+    "layer": 3,
+    "after_prev": [
+      [
+        3,
+        "void"
+      ]
+    ]
+  },
+  {
+    "time": 1788826852.639529,
+    "command": {
+      "cmd": "patch_recall",
+      "name": "Before endurance"
+    }
+  },
+  {
+    "time": 1788826857.303411,
+    "operation": "patch_recall",
+    "stage": "Ready"
+  },
+  {
+    "time": 1788826863.3177621,
+    "command": {
+      "cmd": "clip_nav",
+      "dir": "next",
+      "layer": 2
+    }
+  },
+  {
+    "time": 1788826871.3185961,
+    "layer": 2,
+    "after_next": []
+  },
+  {
+    "time": 1788826871.319048,
+    "command": {
+      "cmd": "clip_nav",
+      "dir": "prev",
+      "layer": 2
+    }
+  },
+  {
+    "time": 1788826879.370359,
+    "layer": 2,
+    "after_prev": [
+      [
+        1,
+        "level"
+      ]
+    ]
+  },
+  {
+    "time": 1788826879.370657,
+    "command": {
+      "cmd": "patch_recall",
+      "name": "Before endurance"
+    }
+  },
+  {
+    "time": 1788826884.784272,
+    "operation": "patch_recall",
+    "stage": "Ready"
+  },
+  {
+    "time": 1788826890.800437,
+    "command": {
+      "cmd": "clip_nav",
+      "dir": "next",
+      "layer": 1
+    }
+  },
+  {
+    "time": 1788826898.819871,
+    "layer": 1,
+    "after_next": [
+      [
+        9,
+        "Flow"
+      ]
+    ]
+  },
+  {
+    "time": 1788826898.8204339,
+    "command": {
+      "cmd": "clip_nav",
+      "dir": "prev",
+      "layer": 1
+    }
+  },
+  {
+    "time": 1788826906.8422809,
+    "layer": 1,
+    "after_prev": [
+      [
+        6,
+        "heart feedback"
+      ]
+    ]
+  },
+  {
+    "time": 1788826906.8427699,
+    "command": {
+      "cmd": "patch_recall",
+      "name": "Before endurance"
+    }
+  },
+  {
+    "time": 1788826912.041989,
+    "operation": "patch_recall",
+    "stage": "Ready"
+  },
+  {
+    "time": 1788826918.0718,
+    "command": {
+      "cmd": "feedback_behavior",
+      "name": "Drift",
+      "layer": 1,
+      "col": 6
+    }
+  },
+  {
+    "time": 1788826933.107852,
+    "command": {
+      "cmd": "feedback_behavior",
+      "name": "Breathe",
+      "layer": 1,
+      "col": 6
+    }
+  },
+  {
+    "time": 1788826948.149952,
+    "command": {
+      "cmd": "feedback_behavior",
+      "name": "Fold",
+      "layer": 1,
+      "col": 6
+    }
+  },
+  {
+    "time": 1788826963.2138271,
+    "command": {
+      "cmd": "feedback_behavior",
+      "name": "Turn",
+      "layer": 1,
+      "col": 6
+    }
+  },
+  {
+    "time": 1788826978.2675729,
+    "command": {
+      "cmd": "bars",
+      "bars": 4
+    }
+  },
+  {
+    "time": 1788826993.293004,
+    "command": {
+      "cmd": "home",
+      "factory": true,
+      "layer": 1,
+      "col": 6
+    }
+  },
+  {
+    "time": 1788827008.32581,
+    "command": {
+      "cmd": "fx_amount",
+      "key": "layer/feedback~1/effect/DelayRGB~1",
+      "value": 1
+    }
+  },
+  {
+    "time": 1788827016.378536,
+    "command": {
+      "cmd": "fx_amount",
+      "key": "layer/feedback~1/effect/DelayRGB~1",
+      "value": 0
+    }
+  },
+  {
+    "time": 1788827021.386784,
+    "command": {
+      "cmd": "fx_amount",
+      "key": "layer/feedback~1/clip/heart%20feedback~1/effect/InvertRGB~1",
+      "value": 1
+    }
+  },
+  {
+    "time": 1788827029.4226182,
+    "command": {
+      "cmd": "fx_amount",
+      "key": "layer/feedback~1/clip/heart%20feedback~1/effect/InvertRGB~1",
+      "value": 0
+    }
+  },
+  {
+    "time": 1788827034.455325,
+    "command": {
+      "cmd": "fx_amount",
+      "key": "layer/feedback~1/clip/heart%20feedback~1/effect/Blur~1",
+      "value": 1
+    }
+  },
+  {
+    "time": 1788827042.463417,
+    "command": {
+      "cmd": "fx_amount",
+      "key": "layer/feedback~1/clip/heart%20feedback~1/effect/Blur~1",
+      "value": 0
+    }
+  },
+  {
+    "time": 1788827047.493203,
+    "command": {
+      "cmd": "fx_amount",
+      "key": "layer/feedback~1/clip/heart%20feedback~1/effect/Sharpen~1",
+      "value": 1
+    }
+  },
+  {
+    "time": 1788827055.510566,
+    "command": {
+      "cmd": "fx_amount",
+      "key": "layer/feedback~1/clip/heart%20feedback~1/effect/Sharpen~1",
+      "value": 0
+    }
+  },
+  {
+    "time": 1788827060.515916,
+    "command": {
+      "cmd": "feedback_reset",
+      "layer": 1,
+      "col": 6
+    }
+  },
+  {
+    "time": 1788827068.5707679,
+    "command": {
+      "cmd": "reconnect"
+    }
+  },
+  {
+    "time": 1788827080.6299388,
+    "command": {
+      "cmd": "patch_recall",
+      "name": "Before endurance"
+    }
+  },
+  {
+    "time": 1788827086.0068102,
+    "operation": "patch_recall",
+    "stage": "Ready"
+  },
+  {
+    "time": 1788827094.051064,
+    "result": "passed",
+    "note": "Heart command path exercised; not a trackpad/focus GUI acceptance claim"
+  },
+  {
+    "time": 1788827094.0513139,
+    "command": {
+      "cmd": "patch_recall",
+      "name": "Before endurance"
+    }
+  },
+  {
+    "time": 1788827099.39409,
+    "operation": "patch_recall",
+    "stage": "Ready"
+  },
+  {
+    "time": 1788827380.977831,
+    "command": {
+      "cmd": "patch_recall",
+      "name": "Feedback checked"
+    },
+    "via": "native Heart Start button"
+  },
+  {
+    "time": 1788827412.73756,
+    "operation": "patch_recall",
+    "stage": "Ready",
+    "via": "native Heart Start button"
+  }
+]

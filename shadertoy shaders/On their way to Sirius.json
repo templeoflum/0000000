@@ -1,0 +1,27 @@
+{
+  "id": "slS3DK",
+  "name": "On their way to Sirius",
+  "username": "elefAntti",
+  "description": "An old shader that I did, now moved to Shadertoy. I left it a bit glitchy on purpose, but I'm not sure how consistent the glitches behave on different platforms.",
+  "tags": [
+    "quaternion"
+  ],
+  "date": "1624705924",
+  "viewed": 236,
+  "likes": 11,
+  "published": 1,
+  "renderpass": [
+    {
+      "type": "image",
+      "name": "Image",
+      "inputs": [],
+      "outputs": [
+        {
+          "id": "4dfGRr",
+          "channel": 0
+        }
+      ],
+      "code": "\n#define M_PI 3.1415926535897932384626433832795\n\nvec3 to_polar(vec3 pos)\n{\n    float x = atan( pos.x, pos.z );\n    float y = atan( pos.y, length(pos.xz));\n    return vec3(x, y, length(pos));\n}\n\nvec4 quaternion_multiply(vec4 a, vec4 b)\n{\n    float real_p = a.x*b.x - dot(a.yzw, b.yzw);\n    vec3 imag_p = a.x * b.yzw + b.x * a.yzw + cross(a.yzw, b.yzw);\n    return vec4(real_p, imag_p);\n}\n\nvec4 quaternion_inverse(vec4 a)\n{\n    float len = length(a);\n    return a * vec4(1.0, vec3(-1.0)) / (len * len);\n}\n\nvec4 rotation_quaternion(vec3 axis, float angle)\n{\n    return vec4(cos(angle/2.0), sin(angle/2.0) * axis);\n}\n\nvec3 rotate_around_axis(vec3 v, vec3 axis, float angle)\n{\n    vec4 Q = rotation_quaternion(axis, angle);\n    vec4 Q_inv = quaternion_inverse(Q);\n    return quaternion_multiply(quaternion_multiply(Q, vec4(0.0, v)), Q_inv).yzw;\n}\n\nfloat noise(float pos)\n{\n    //Picking the low bits, which are more random\n    return mod(sin(pos) * 10000.0, 1.0);\n}\n\nfloat noise(vec3 pos)\n{\n    float key = pos.x * 111.0 + pos.y * 788.0 + pos.z * 827.0;\n    return noise(key);\n}\n\n\nmat3 camera_rotation( vec3 look_at )\n{\n    //look_at = normalize(look_at);\n    vec3 x = vec3( look_at.z, 0, -look_at.x ); \n    vec3 y = cross( look_at, x );\n    return mat3( x, y, look_at );\n}\n\n#define AccuracyDropoff 10.0\n#define MaxCastLen 27.0\n#define HitDistance 0.05\n#define FocalLength 2.0\n#define DistanceMultiplier 1.0\n#define DistanceNoise 0.2\n#define GlowRadius 0.05\n#define InnerRadius 7.95\n#define OuterRadius 8.0\n\n#define TimeStep 2.0\n#define SpokeCount 5.0\n\nfloat model_radius_fcn(float time)\n{\n   return mix(InnerRadius, 0.0, clamp(time  / TimeStep - 5.0, 0.0, 1.0));\n} \n\nfloat spoke_model(vec3 pos, float my_time)\n{\n    vec3 polar = to_polar(pos);\n    vec2 xy = polar.xy / (M_PI * 2.0);\n    //Adjust spoke position away from the poles\n    xy.y /= 0.75;\n    xy += 0.5;\n    \n    vec2 xy2 = fract(xy * SpokeCount) - 0.5;\n\n    float dist_polar = length(xy2) * polar.z;\n    float inner_radius = model_radius_fcn(iTime);\n    return max(max(dist_polar - 0.25, polar.z - 8.0), inner_radius - polar.z ) * 0.4;  \n}\n\nfloat rotated_model(vec3 pos, float my_time)\n{\n    float t = floor(my_time / TimeStep);\n    float angle = fract(my_time / TimeStep) * 2.0 * M_PI;\n    vec3 axis =  t < 1.0  ?\n         vec3( 0.0, 1.0, 0.0) :\n         vec3(noise(t + 0.2) - 0.5,\n              noise(t + 0.7) - 0.5,\n              noise(t + 1.1) - 0.5);\n    axis = normalize(axis);\n    return spoke_model(rotate_around_axis(pos, axis, angle), my_time);\n}\n\nfloat dist_model(vec3 pos, float my_time)\n{\n    float len = length(pos);\n    //Early out\n    if( len > (OuterRadius + 0.5))\n    {\n        return len - OuterRadius;\n    }\n    return rotated_model(pos, (my_time - 0.3 * len) * 0.25);\n}\n\nfloat castRay( vec3 vStart, vec3 vDir, float my_time )\n{\n    float fCastLen = 0.0;\n    float fMinDist = 100.0;\n    vec3 vHit = vStart + vDir * 0.03;\n    while( fCastLen < MaxCastLen )\n    {\n        float fDistance = dist_model( vHit, my_time );\n        fMinDist = min(fMinDist, fDistance);\n\n        if( fDistance < HitDistance)\n        {\n            return fMinDist;\n        }\n\n        fDistance *= max(1.0, fCastLen / AccuracyDropoff);\n#ifdef DistanceNoise\n        fDistance *= ( 1.0 - noise(vHit) * DistanceNoise);\n#endif\n        fCastLen += fDistance;\n        vHit = vDir * fCastLen + vStart;\n    }\n\n    return fMinDist;\n}\n\nvec3 glow( vec3 dist )\n{\n    return pow(abs(dist - 0.1) / GlowRadius, vec3(-2.0));\n}\n\nvec4 rayTraceMain( vec2 fragCoord )\n{\n    float dt = 0.1;\n    vec2 position = fragCoord * -2.0 + 1.0;\n    vec3 cameraPos = vec3( 6.0, 1.0, -21.0 );\n    vec3 rayDir = normalize( vec3( position, 2.0 ) );\n    float dist_r = castRay( cameraPos, rayDir, iTime );\n    float dist_g = castRay( cameraPos, rayDir, iTime + dt);\n    float dist_b = castRay( cameraPos, rayDir, iTime + dt * 2.0);\n\n    return vec4(glow(vec3(dist_r, dist_g, dist_b)), 1.0);\n}\n\nvoid mainImage( out vec4 fragColor, in vec2 fragCoord )\n{\n    // Normalized pixel coordinates (from 0 to 1)\n    vec2 uv = fragCoord/iResolution.y;\n\n    // Time varying pixel color\n    vec3 col = 0.5 + 0.5*cos(iTime+uv.xyx+vec3(0,2,4));\n\n    // Output to screen\n    fragColor = vec4(col,1.0);\n\n    fragColor = rayTraceMain( uv );\n}"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "label": "gflash",
+    "model": "gemini-flash-latest",
+    "local": false,
+    "status": "complete",
+    "checks": {
+      "inputs": true,
+      "TIME": true,
+      "scale_type": true,
+      "continuous": true,
+      "travel": true,
+      "scale_expression": true,
+      "performance": true
+    },
+    "score": 7,
+    "max_score": 7,
+    "tool_pass": true,
+    "answer": {
+      "scale_type": "float",
+      "inputs": [
+        {
+          "name": "scale",
+          "type": "float"
+        },
+        {
+          "type": "float",
+          "name": "speed"
+        },
+        {
+          "name": "mode",
+          "type": "long"
+        },
+        {
+          "name": "brightness",
+          "type": "float"
+        }
+      ],
+      "scale_continuous": true,
+      "phase_expression": "TIME * speed",
+      "radius_expression": "0.1 + scale * 0.4",
+      "brightness_less_instructions": false,
+      "uses_TIME": true
+    },
+    "seconds": 7.9,
+    "tool_calls": [
+      "read_shader",
+      "submit_audit"
+    ],
+    "output_tokens": 126
+  }
+]

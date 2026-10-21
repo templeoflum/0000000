@@ -1,0 +1,9 @@
+# Native workspace bank parity patch
+
+Staged only; no shared edits or live control. Apply workspace-banks.patch from the workspace root after reviewing current shared changes. The patch has narrow hunks for workspace.js plus five appended tests in test_workspace.cjs. Do not replace the shared files wholesale with the staged runnable copies. BASE.json records hashes of the freshly read files, including the existing Melt UI and tests.
+
+Behavior: Clip Library and Play labels now use backend heart_copies / explore / forms / clips for Heart copies / Explore figures / Forms / All sources. Backend ordering is preserved. Available bank choices no longer depend on Forms existing; an empty selected bank stays selected and empty so the user can switch back to All. Copies display source identity even when clip names differ. Notes appear via a warning marker and tooltip; search covers clip name, source and note. Explore carries the existing containment caveat. No backend, navigation, Melt, CSS, routing or shared configuration changes.
+
+Validation: staged JavaScript syntax passes; 44 offline DOM checks pass (39 existing, including Melt checks, plus five bank regressions). Unpatched shared workspace fails the new Heart-bank identity test as expected. Patch dry-run applies cleanly to both current shared files; hashes confirm neither shared file was edited. Existing mock DOM cannot pixel-review native layout; root should check bank dropdown, visible source list, Play label and next/previous agreement in the live window after integration.
+
+Artifacts: workspace-banks.patch (integration patch), workspace.js/test_workspace.cjs/test_fixtures/workspace.json (isolated runnable candidate), BASE.json, test-results.txt, baseline-result.txt. Parent stage_bank_patch.py and bank-tests.append.cjs reproduce the staging against current shared code and fail if expected edit anchors changed.

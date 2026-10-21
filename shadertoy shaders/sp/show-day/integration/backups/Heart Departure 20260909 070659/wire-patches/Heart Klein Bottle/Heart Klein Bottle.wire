@@ -1,0 +1,930 @@
+{
+  "formatVersion": {
+    "major": 1,
+    "minor": 1,
+    "patch": 0
+  },
+  "patch": {
+    "connections": [
+      {
+        "from": [
+          2,
+          "seconds"
+        ],
+        "to": [
+          0,
+          "time"
+        ]
+      },
+      {
+        "from": [
+          0,
+          "output"
+        ],
+        "to": [
+          1,
+          "input"
+        ]
+      },
+      {
+        "from": [
+          10,
+          "output"
+        ],
+        "to": [
+          0,
+          "quatW"
+        ]
+      },
+      {
+        "from": [
+          11,
+          "output"
+        ],
+        "to": [
+          0,
+          "quatX"
+        ]
+      },
+      {
+        "from": [
+          12,
+          "output"
+        ],
+        "to": [
+          0,
+          "quatY"
+        ]
+      },
+      {
+        "from": [
+          13,
+          "output"
+        ],
+        "to": [
+          0,
+          "quatZ"
+        ]
+      },
+      {
+        "from": [
+          14,
+          "output"
+        ],
+        "to": [
+          0,
+          "refractIdx"
+        ]
+      },
+      {
+        "from": [
+          15,
+          "output"
+        ],
+        "to": [
+          0,
+          "wallThickness"
+        ]
+      },
+      {
+        "from": [
+          16,
+          "output"
+        ],
+        "to": [
+          0,
+          "exposure"
+        ]
+      }
+    ],
+    "inputOrder": {
+      "groups": {},
+      "roots": [
+        {
+          "node": 10
+        },
+        {
+          "node": 11
+        },
+        {
+          "node": 12
+        },
+        {
+          "node": 13
+        },
+        {
+          "node": 14
+        },
+        {
+          "node": 15
+        },
+        {
+          "node": 16
+        }
+      ]
+    },
+    "meta": {
+      "author": "",
+      "category": "source",
+      "deploymentTarget": {
+        "branch": "",
+        "name": "Wire",
+        "version": {
+          "major": 7,
+          "minor": 23,
+          "patch": 0
+        }
+      },
+      "description": "Heart Klein Bottle: guarded quaternion, ray and light math; shared Figure Transform owns placement. Original preserved.",
+      "displayName": "Heart Klein Bottle",
+      "identifier": "e64511f6-710e-413a-b0ef-9de03fa869df",
+      "licenseName": "",
+      "mail": "",
+      "note": {
+        "text": "",
+        "textColorIndex": 1,
+        "textSizeMultiplier": 3
+      },
+      "originalTarget": {
+        "branch": "",
+        "name": "Wire",
+        "version": {
+          "major": 7,
+          "minor": 26,
+          "patch": 0
+        }
+      },
+      "quality": 34842,
+      "resolution": {
+        "height": 1080,
+        "width": 1920
+      },
+      "saveTarget": {
+        "branch": "",
+        "name": "Wire",
+        "version": {
+          "major": 7,
+          "minor": 26,
+          "patch": 1
+        }
+      },
+      "thumbnail": "",
+      "url": "",
+      "vendor": ""
+    },
+    "nextNodeId": 17,
+    "nodes": {
+      "0": {
+        "attributes": {
+          "bitdepth": {
+            "type": "integer",
+            "value": 0
+          },
+          "fragment-shader": {
+            "type": "resourceIsf",
+            "value": {
+              "path": {
+                "main": "Resource/Heart Klein Bottle.fs",
+                "sub": ""
+              },
+              "value": {
+                "inputs": [
+                  {
+                    "defaultValue": 1.0,
+                    "label": "Quat W",
+                    "max": 1.0,
+                    "min": -1.0,
+                    "name": "quatW",
+                    "type": "float"
+                  },
+                  {
+                    "defaultValue": 0.0,
+                    "label": "Quat X",
+                    "max": 1.0,
+                    "min": -1.0,
+                    "name": "quatX",
+                    "type": "float"
+                  },
+                  {
+                    "defaultValue": 0.0,
+                    "label": "Quat Y",
+                    "max": 1.0,
+                    "min": -1.0,
+                    "name": "quatY",
+                    "type": "float"
+                  },
+                  {
+                    "defaultValue": 0.0,
+                    "label": "Quat Z",
+                    "max": 1.0,
+                    "min": -1.0,
+                    "name": "quatZ",
+                    "type": "float"
+                  },
+                  {
+                    "defaultValue": 0.5,
+                    "label": "Refraction",
+                    "max": 1.0,
+                    "min": 0.0,
+                    "name": "refractIdx",
+                    "type": "float"
+                  },
+                  {
+                    "defaultValue": 0.02,
+                    "label": "Wall Thickness",
+                    "max": 0.08,
+                    "min": 0.01,
+                    "name": "wallThickness",
+                    "type": "float"
+                  },
+                  {
+                    "defaultValue": 2.0,
+                    "label": "Exposure",
+                    "max": 4.0,
+                    "min": 0.5,
+                    "name": "exposure",
+                    "type": "float"
+                  }
+                ]
+              }
+            }
+          },
+          "instances": {
+            "type": "integer",
+            "value": 1
+          },
+          "resolution-absolute": {
+            "type": "float2",
+            "value": [
+              1920,
+              1080
+            ]
+          },
+          "resolution-mode": {
+            "type": "integer",
+            "value": 0
+          },
+          "resolution-relative": {
+            "type": "float2",
+            "value": [
+              1,
+              1
+            ]
+          }
+        },
+        "bounds": {
+          "height": 82,
+          "width": 195,
+          "x": -145,
+          "y": -129
+        },
+        "class": {
+          "id": "77697265-4576-4C11-899B-6F11F3275D36",
+          "version": 4
+        },
+        "clock": "video",
+        "color": "ffff6a00",
+        "constants": {
+          "bypass": {
+            "type": "bool",
+            "value": false
+          },
+          "time": {
+            "type": "float",
+            "value": 0
+          },
+          "quatW": {
+            "type": "float",
+            "value": 1.0
+          },
+          "quatX": {
+            "type": "float",
+            "value": 0.0
+          },
+          "quatY": {
+            "type": "float",
+            "value": 0.0
+          },
+          "quatZ": {
+            "type": "float",
+            "value": 0.0
+          },
+          "refractIdx": {
+            "type": "float",
+            "value": 0.5
+          },
+          "wallThickness": {
+            "type": "float",
+            "value": 0.02
+          },
+          "exposure": {
+            "type": "float",
+            "value": 2.0
+          }
+        },
+        "hidden": [
+          "bitdepth",
+          "bypass",
+          "instances",
+          "resolution-absolute",
+          "resolution-mode",
+          "resolution-relative"
+        ],
+        "name": "ISF",
+        "thumbnail_visible": true
+      },
+      "1": {
+        "attributes": {
+          "instances": {
+            "type": "integer",
+            "value": 1
+          }
+        },
+        "bounds": {
+          "height": 82,
+          "width": 132,
+          "x": 110,
+          "y": -129
+        },
+        "class": {
+          "id": "77697265-BEEA-4D38-8EE5-0EBA4CBD0AEE",
+          "version": 1
+        },
+        "clock": "video",
+        "color": "ffff6a00",
+        "constants": {
+          "input": {
+            "type": "texture2d",
+            "value": null
+          }
+        },
+        "hidden": [
+          "instances"
+        ],
+        "name": "Texture Out",
+        "thumbnail_visible": true
+      },
+      "2": {
+        "attributes": {},
+        "bounds": {
+          "height": 106,
+          "width": 195,
+          "x": -400,
+          "y": -129
+        },
+        "class": {
+          "id": "77697265-896F-4C6D-AF54-35624F8E23D8",
+          "version": 0
+        },
+        "clock": "video",
+        "color": "ffff6a00",
+        "constants": {},
+        "hidden": [],
+        "name": "Transport Time",
+        "thumbnail_visible": true
+      },
+      "10": {
+        "attributes": {
+          "flow": {
+            "type": "flow",
+            "value": "signal"
+          },
+          "has-max": {
+            "type": "bool",
+            "value": true
+          },
+          "has-min": {
+            "type": "bool",
+            "value": true
+          },
+          "instances": {
+            "type": "integer",
+            "value": 1
+          },
+          "max": {
+            "type": "float",
+            "value": 1.0
+          },
+          "min": {
+            "type": "float",
+            "value": -1.0
+          },
+          "options-count": {
+            "type": "integer",
+            "value": 0
+          },
+          "unit": {
+            "type": "integer",
+            "value": 0
+          },
+          "widget": {
+            "type": "integer",
+            "value": 0
+          }
+        },
+        "bounds": {
+          "height": 82,
+          "width": 150,
+          "x": -420,
+          "y": -300
+        },
+        "class": {
+          "id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+          "version": 4
+        },
+        "clock": "video",
+        "color": "ffff6a00",
+        "constants": {
+          "input": {
+            "type": "float",
+            "value": 1.0
+          }
+        },
+        "hidden": [
+          "flow",
+          "has-max",
+          "has-min",
+          "input",
+          "instances",
+          "max",
+          "min",
+          "options-count",
+          "unit",
+          "widget"
+        ],
+        "name": "Quat W",
+        "thumbnail_visible": true
+      },
+      "11": {
+        "attributes": {
+          "flow": {
+            "type": "flow",
+            "value": "signal"
+          },
+          "has-max": {
+            "type": "bool",
+            "value": true
+          },
+          "has-min": {
+            "type": "bool",
+            "value": true
+          },
+          "instances": {
+            "type": "integer",
+            "value": 1
+          },
+          "max": {
+            "type": "float",
+            "value": 1.0
+          },
+          "min": {
+            "type": "float",
+            "value": -1.0
+          },
+          "options-count": {
+            "type": "integer",
+            "value": 0
+          },
+          "unit": {
+            "type": "integer",
+            "value": 0
+          },
+          "widget": {
+            "type": "integer",
+            "value": 0
+          }
+        },
+        "bounds": {
+          "height": 82,
+          "width": 150,
+          "x": -420,
+          "y": -205
+        },
+        "class": {
+          "id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+          "version": 4
+        },
+        "clock": "video",
+        "color": "ffff6a00",
+        "constants": {
+          "input": {
+            "type": "float",
+            "value": 0.0
+          }
+        },
+        "hidden": [
+          "flow",
+          "has-max",
+          "has-min",
+          "input",
+          "instances",
+          "max",
+          "min",
+          "options-count",
+          "unit",
+          "widget"
+        ],
+        "name": "Quat X",
+        "thumbnail_visible": true
+      },
+      "12": {
+        "attributes": {
+          "flow": {
+            "type": "flow",
+            "value": "signal"
+          },
+          "has-max": {
+            "type": "bool",
+            "value": true
+          },
+          "has-min": {
+            "type": "bool",
+            "value": true
+          },
+          "instances": {
+            "type": "integer",
+            "value": 1
+          },
+          "max": {
+            "type": "float",
+            "value": 1.0
+          },
+          "min": {
+            "type": "float",
+            "value": -1.0
+          },
+          "options-count": {
+            "type": "integer",
+            "value": 0
+          },
+          "unit": {
+            "type": "integer",
+            "value": 0
+          },
+          "widget": {
+            "type": "integer",
+            "value": 0
+          }
+        },
+        "bounds": {
+          "height": 82,
+          "width": 150,
+          "x": -420,
+          "y": -110
+        },
+        "class": {
+          "id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+          "version": 4
+        },
+        "clock": "video",
+        "color": "ffff6a00",
+        "constants": {
+          "input": {
+            "type": "float",
+            "value": 0.0
+          }
+        },
+        "hidden": [
+          "flow",
+          "has-max",
+          "has-min",
+          "input",
+          "instances",
+          "max",
+          "min",
+          "options-count",
+          "unit",
+          "widget"
+        ],
+        "name": "Quat Y",
+        "thumbnail_visible": true
+      },
+      "13": {
+        "attributes": {
+          "flow": {
+            "type": "flow",
+            "value": "signal"
+          },
+          "has-max": {
+            "type": "bool",
+            "value": true
+          },
+          "has-min": {
+            "type": "bool",
+            "value": true
+          },
+          "instances": {
+            "type": "integer",
+            "value": 1
+          },
+          "max": {
+            "type": "float",
+            "value": 1.0
+          },
+          "min": {
+            "type": "float",
+            "value": -1.0
+          },
+          "options-count": {
+            "type": "integer",
+            "value": 0
+          },
+          "unit": {
+            "type": "integer",
+            "value": 0
+          },
+          "widget": {
+            "type": "integer",
+            "value": 0
+          }
+        },
+        "bounds": {
+          "height": 82,
+          "width": 150,
+          "x": -420,
+          "y": -15
+        },
+        "class": {
+          "id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+          "version": 4
+        },
+        "clock": "video",
+        "color": "ffff6a00",
+        "constants": {
+          "input": {
+            "type": "float",
+            "value": 0.0
+          }
+        },
+        "hidden": [
+          "flow",
+          "has-max",
+          "has-min",
+          "input",
+          "instances",
+          "max",
+          "min",
+          "options-count",
+          "unit",
+          "widget"
+        ],
+        "name": "Quat Z",
+        "thumbnail_visible": true
+      },
+      "14": {
+        "attributes": {
+          "flow": {
+            "type": "flow",
+            "value": "signal"
+          },
+          "has-max": {
+            "type": "bool",
+            "value": true
+          },
+          "has-min": {
+            "type": "bool",
+            "value": true
+          },
+          "instances": {
+            "type": "integer",
+            "value": 1
+          },
+          "max": {
+            "type": "float",
+            "value": 1.0
+          },
+          "min": {
+            "type": "float",
+            "value": 0.0
+          },
+          "options-count": {
+            "type": "integer",
+            "value": 0
+          },
+          "unit": {
+            "type": "integer",
+            "value": 0
+          },
+          "widget": {
+            "type": "integer",
+            "value": 0
+          }
+        },
+        "bounds": {
+          "height": 82,
+          "width": 150,
+          "x": -420,
+          "y": 80
+        },
+        "class": {
+          "id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+          "version": 4
+        },
+        "clock": "video",
+        "color": "ffff6a00",
+        "constants": {
+          "input": {
+            "type": "float",
+            "value": 0.5
+          }
+        },
+        "hidden": [
+          "flow",
+          "has-max",
+          "has-min",
+          "input",
+          "instances",
+          "max",
+          "min",
+          "options-count",
+          "unit",
+          "widget"
+        ],
+        "name": "Refraction",
+        "thumbnail_visible": true
+      },
+      "15": {
+        "attributes": {
+          "flow": {
+            "type": "flow",
+            "value": "signal"
+          },
+          "has-max": {
+            "type": "bool",
+            "value": true
+          },
+          "has-min": {
+            "type": "bool",
+            "value": true
+          },
+          "instances": {
+            "type": "integer",
+            "value": 1
+          },
+          "max": {
+            "type": "float",
+            "value": 0.08
+          },
+          "min": {
+            "type": "float",
+            "value": 0.01
+          },
+          "options-count": {
+            "type": "integer",
+            "value": 0
+          },
+          "unit": {
+            "type": "integer",
+            "value": 0
+          },
+          "widget": {
+            "type": "integer",
+            "value": 0
+          }
+        },
+        "bounds": {
+          "height": 82,
+          "width": 150,
+          "x": -420,
+          "y": 175
+        },
+        "class": {
+          "id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+          "version": 4
+        },
+        "clock": "video",
+        "color": "ffff6a00",
+        "constants": {
+          "input": {
+            "type": "float",
+            "value": 0.02
+          }
+        },
+        "hidden": [
+          "flow",
+          "has-max",
+          "has-min",
+          "input",
+          "instances",
+          "max",
+          "min",
+          "options-count",
+          "unit",
+          "widget"
+        ],
+        "name": "Wall Thickness",
+        "thumbnail_visible": true
+      },
+      "16": {
+        "attributes": {
+          "flow": {
+            "type": "flow",
+            "value": "signal"
+          },
+          "has-max": {
+            "type": "bool",
+            "value": true
+          },
+          "has-min": {
+            "type": "bool",
+            "value": true
+          },
+          "instances": {
+            "type": "integer",
+            "value": 1
+          },
+          "max": {
+            "type": "float",
+            "value": 4.0
+          },
+          "min": {
+            "type": "float",
+            "value": 0.5
+          },
+          "options-count": {
+            "type": "integer",
+            "value": 0
+          },
+          "unit": {
+            "type": "integer",
+            "value": 0
+          },
+          "widget": {
+            "type": "integer",
+            "value": 0
+          }
+        },
+        "bounds": {
+          "height": 82,
+          "width": 150,
+          "x": -420,
+          "y": 270
+        },
+        "class": {
+          "id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+          "version": 4
+        },
+        "clock": "video",
+        "color": "ffff6a00",
+        "constants": {
+          "input": {
+            "type": "float",
+            "value": 2.0
+          }
+        },
+        "hidden": [
+          "flow",
+          "has-max",
+          "has-min",
+          "input",
+          "instances",
+          "max",
+          "min",
+          "options-count",
+          "unit",
+          "widget"
+        ],
+        "name": "Exposure",
+        "thumbnail_visible": true
+      }
+    },
+    "ui": {
+      "camera": {
+        "x": -416.8947448730469,
+        "y": -623.7052612304688,
+        "zoom": 0.6658878326416016
+      },
+      "selection": [
+        "0"
+      ]
+    }
+  },
+  "ui": {
+    "audio": {
+      "routing": {
+        "in": {},
+        "out": []
+      }
+    },
+    "deviceConnections": {
+      "input": {}
+    },
+    "transport": {
+      "bpm": 120,
+      "time-signature": [
+        4,
+        4
+      ]
+    },
+    "video": {
+      "routing": {
+        "out": {
+          "Display 1": null,
+          "Display 2": null,
+          "Display 3": null,
+          "Display 4": null
+        }
+      }
+    }
+  }
+}

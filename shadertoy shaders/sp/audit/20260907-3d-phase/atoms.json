@@ -1,0 +1,3797 @@
+{
+ "SP Atom 4D Field": {
+  "_global": {
+   "pattern": 0,
+   "seed": 0,
+   "spread": 1,
+   "depth": 1.0,
+   "fm": 0.0
+  },
+  "Turn": {
+   "cyclic": true,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.35380000000000006,
+   "hi": 0.7038,
+   "drive": true,
+   "lock": false
+  },
+  "Spin": {
+   "cyclic": true,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.03333333333333333,
+   "shape": 1,
+   "lo": 0.4972,
+   "hi": 0.7472,
+   "drive": true,
+   "lock": false
+  },
+  "Double": {
+   "cyclic": true,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.06666666666666667,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 0.1185,
+   "drive": true,
+   "lock": false
+  },
+  "Sweep": {
+   "cyclic": true,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.1,
+   "shape": 1,
+   "lo": 0.6544000000000001,
+   "hi": 0.8044,
+   "drive": true,
+   "lock": false
+  },
+  "W": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.2,
+   "shape": 1,
+   "lo": 0.46449999999999997,
+   "hi": 0.6244999999999999,
+   "drive": true,
+   "lock": false
+  },
+  "Thickness": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.13333333333333333,
+   "shape": 1,
+   "lo": 0.7424,
+   "hi": 0.8324,
+   "drive": true,
+   "lock": false
+  },
+  "Hue": {
+   "cyclic": true,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.16666666666666666,
+   "shape": 1,
+   "lo": 0.6609,
+   "hi": 0.8109,
+   "drive": true,
+   "lock": false
+  },
+  "Sun": {
+   "cyclic": true,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.23333333333333334,
+   "shape": 1,
+   "lo": 0.2794,
+   "hi": 0.4394,
+   "drive": true,
+   "lock": false
+  },
+  "Height": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.26666666666666666,
+   "shape": 1,
+   "lo": 0.5670000000000001,
+   "hi": 0.727,
+   "drive": true,
+   "lock": false
+  },
+  "X": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.3,
+   "shape": 1,
+   "lo": 0.3589,
+   "hi": 0.5189,
+   "drive": true,
+   "lock": false
+  },
+  "Y": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.3333333333333333,
+   "shape": 1,
+   "lo": 0.2611,
+   "hi": 0.42110000000000003,
+   "drive": true,
+   "lock": false
+  },
+  "Morph": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.36666666666666664,
+   "shape": 1,
+   "lo": 0.5787,
+   "hi": 0.7386999999999999,
+   "drive": false,
+   "lock": false
+  },
+  "Size": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.4,
+   "shape": 1,
+   "lo": 0.32930000000000004,
+   "hi": 0.3893,
+   "drive": false,
+   "lock": false
+  },
+  "Layers": {
+   "cyclic": false,
+   "ratio": "1/phi",
+   "mult": 1.0,
+   "offset": 0.4305100846025618,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Spread": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.43333333333333335,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 0.1078,
+   "drive": false,
+   "lock": false
+  },
+  "Drift": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.4666666666666667,
+   "shape": 1,
+   "lo": 0.8022,
+   "hi": 0.9621999999999999,
+   "drive": false,
+   "lock": false
+  },
+  "Distance": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.5,
+   "shape": 1,
+   "lo": 0.5253,
+   "hi": 0.6852999999999999,
+   "drive": false,
+   "lock": false
+  },
+  "Faces": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.5333333333333333,
+   "shape": 1,
+   "lo": 0.5193000000000001,
+   "hi": 0.6793,
+   "drive": false,
+   "lock": false
+  },
+  "Edges": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.5666666666666667,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 0.0801,
+   "drive": false,
+   "lock": false
+  },
+  "Round": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.6,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 0.08,
+   "drive": false,
+   "lock": false
+  },
+  "Vertices": {
+   "cyclic": false,
+   "ratio": "1/pi",
+   "mult": 1.0,
+   "offset": 0.19011732384588975,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Shade": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.6333333333333333,
+   "shape": 1,
+   "lo": 0.92,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Rim": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.6666666666666666,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 0.08,
+   "drive": false,
+   "lock": false
+  },
+  "Haze": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.7,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 0.08,
+   "drive": false,
+   "lock": false
+  },
+  "Halo": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.7333333333333333,
+   "shape": 1,
+   "lo": 0.293,
+   "hi": 0.453,
+   "drive": false,
+   "lock": false
+  },
+  "Focus": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.7666666666666667,
+   "shape": 1,
+   "lo": 0.5311,
+   "hi": 0.6910999999999999,
+   "drive": false,
+   "lock": false
+  },
+  "Micro": {
+   "cyclic": false,
+   "ratio": "1/pi",
+   "mult": 1.0,
+   "offset": 0.85715686604263,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Fine": {
+   "cyclic": false,
+   "ratio": "1/phi",
+   "mult": 1.0,
+   "offset": 0.9345605671740246,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Perspective": {
+   "cyclic": false,
+   "ratio": "1/pi",
+   "mult": 2.0,
+   "offset": 0.503545145486337,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Wet": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.8,
+   "shape": 1,
+   "lo": 0.92,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Loop": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.8333333333333334,
+   "shape": 1,
+   "lo": 0.43539999999999995,
+   "hi": 0.5953999999999999,
+   "drive": false,
+   "lock": false
+  },
+  "Red": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.8666666666666667,
+   "shape": 1,
+   "lo": 0.46869999999999995,
+   "hi": 0.6286999999999999,
+   "drive": false,
+   "lock": false
+  },
+  "Green": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.9,
+   "shape": 1,
+   "lo": 0.29269999999999996,
+   "hi": 0.4527,
+   "drive": false,
+   "lock": false
+  },
+  "Blue": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.9333333333333333,
+   "shape": 1,
+   "lo": 0.5368,
+   "hi": 0.6968,
+   "drive": false,
+   "lock": false
+  },
+  "Depth": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.9666666666666667,
+   "shape": 1,
+   "lo": 0.9631,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Figure A": {
+   "cyclic": false,
+   "ratio": "1/sqrt2",
+   "mult": 2.0,
+   "offset": 0.4080430013369486,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "choice": true,
+   "lock": false
+  },
+  "Figure B": {
+   "cyclic": false,
+   "ratio": "1/phi",
+   "mult": -1.0,
+   "offset": 0.8579032352630932,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "choice": true,
+   "lock": false
+  },
+  "Material": {
+   "cyclic": false,
+   "ratio": "1/sqrt2",
+   "mult": 1.0,
+   "offset": 0.3087058646265419,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "choice": true,
+   "lock": false
+  },
+  "Base": {
+   "cyclic": false,
+   "ratio": "1/sqrt2",
+   "mult": 1.0,
+   "offset": 0.898451350309612,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "choice": true,
+   "lock": false
+  }
+ },
+ "SP Atom Void": {
+  "_global": {
+   "pattern": 0,
+   "seed": 0,
+   "spread": 1,
+   "depth": 1.0,
+   "fm": 0.0
+  },
+  "Travel": {
+   "cyclic": true,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.8124,
+   "hi": 0.9924,
+   "drive": true,
+   "lock": false
+  },
+  "Sway": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.07142857142857142,
+   "shape": 1,
+   "lo": 0.47,
+   "hi": 0.54,
+   "drive": true,
+   "lock": false
+  },
+  "Bob": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.14285714285714285,
+   "shape": 1,
+   "lo": 0.34430000000000005,
+   "hi": 0.4143,
+   "drive": true,
+   "lock": false
+  },
+  "Yaw": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.21428571428571427,
+   "shape": 1,
+   "lo": 0.5054,
+   "hi": 0.5454,
+   "drive": true,
+   "lock": false
+  },
+  "Tilt": {
+   "cyclic": true,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.2857142857142857,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 0.106,
+   "drive": false,
+   "lock": false
+  },
+  "Horizon": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.35714285714285715,
+   "shape": 1,
+   "lo": 0.41769999999999996,
+   "hi": 0.5777,
+   "drive": false,
+   "lock": false
+  },
+  "Dolly": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.42857142857142855,
+   "shape": 1,
+   "lo": 0.5608,
+   "hi": 0.6208,
+   "drive": false,
+   "lock": false
+  },
+  "Focal mm": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.5,
+   "shape": 1,
+   "lo": 0.3698,
+   "hi": 0.42979999999999996,
+   "drive": false,
+   "lock": false
+  },
+  "Distort": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.5714285714285714,
+   "shape": 1,
+   "lo": 0.24559999999999998,
+   "hi": 0.4056,
+   "drive": false,
+   "lock": false
+  },
+  "Density": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.6428571428571429,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 0.03,
+   "drive": false,
+   "lock": false
+  },
+  "Size": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.7142857142857143,
+   "shape": 1,
+   "lo": 0.0655,
+   "hi": 0.1255,
+   "drive": false,
+   "lock": false
+  },
+  "Reach": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.7857142857142857,
+   "shape": 1,
+   "lo": 0.15410000000000001,
+   "hi": 0.2141,
+   "drive": false,
+   "lock": false
+  },
+  "Haze": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.8571428571428571,
+   "shape": 1,
+   "lo": 0.6479,
+   "hi": 0.8079,
+   "drive": false,
+   "lock": false
+  },
+  "Soft": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.9285714285714286,
+   "shape": 1,
+   "lo": 0.5705,
+   "hi": 0.7304999999999999,
+   "drive": false,
+   "lock": false
+  },
+  "Lens": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "choice": true,
+   "lock": false
+  }
+ },
+ "SPChainMap": {
+  "_global": {
+   "pattern": 0,
+   "seed": 0,
+   "spread": 1,
+   "depth": 1.0,
+   "fm": 0.0
+  },
+  "Zoom": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.7071999999999999,
+   "hi": 0.7192,
+   "drive": false,
+   "lock": false
+  },
+  "Rotate": {
+   "cyclic": true,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.16666666666666666,
+   "shape": 1,
+   "lo": 0.4631,
+   "hi": 0.4691,
+   "drive": false,
+   "lock": false
+  },
+  "Drift X": {
+   "cyclic": true,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.3333333333333333,
+   "shape": 1,
+   "lo": 0.4492,
+   "hi": 0.4532,
+   "drive": false,
+   "lock": false
+  },
+  "Drift Y": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.5,
+   "shape": 1,
+   "lo": 0.498,
+   "hi": 0.502,
+   "drive": false,
+   "lock": false
+  },
+  "Center X": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.6666666666666666,
+   "shape": 1,
+   "lo": 0.47,
+   "hi": 0.53,
+   "drive": false,
+   "lock": false
+  },
+  "Center Y": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.8333333333333334,
+   "shape": 1,
+   "lo": 0.47,
+   "hi": 0.53,
+   "drive": false,
+   "lock": false
+  },
+  "Gain": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Floor": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Key": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Opacity": {
+   "cyclic": false,
+   "drive": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "lock": false
+  }
+ },
+ "SPStudyTexture": {
+  "_global": {
+   "pattern": 0,
+   "seed": 0,
+   "spread": 1,
+   "depth": 1.0,
+   "fm": 0.0
+  },
+  "Diffuse": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Etch": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Grain": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Gain": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Floor": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Key": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  }
+ },
+ "SPStudyFold": {
+  "_global": {
+   "pattern": 0,
+   "seed": 0,
+   "spread": 1,
+   "depth": 1.0,
+   "fm": 0.0
+  },
+  "Mirror": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "choice": true
+  },
+  "Fold": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Center X": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Center Y": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Gain": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Floor": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Key": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  }
+ },
+ "SPChainLevel": {
+  "_global": {
+   "pattern": 0,
+   "seed": 0,
+   "spread": 1,
+   "depth": 1.0,
+   "fm": 0.0
+  },
+  "Curve": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Ceiling": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Lift": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Gain": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Floor": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Key": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  }
+ },
+ "SPStudyLevel": {
+  "_global": {
+   "pattern": 0,
+   "seed": 0,
+   "spread": 1,
+   "depth": 1.0,
+   "fm": 0.0
+  },
+  "Gain": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.2857142857142857,
+   "shape": 1,
+   "lo": 0.97,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Floor": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.42857142857142855,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 0.025,
+   "drive": false,
+   "lock": false
+  },
+  "Key": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.355,
+   "hi": 0.39,
+   "drive": false,
+   "lock": false
+  },
+  "Soft": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.14285714285714285,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 0.015,
+   "drive": false,
+   "lock": false
+  },
+  "Curve": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.5714285714285714,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 0.08,
+   "drive": false,
+   "lock": false
+  },
+  "Ceiling": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.7142857142857143,
+   "shape": 1,
+   "lo": 0.92,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Lift": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.8571428571428571,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 0.025,
+   "drive": false,
+   "lock": false
+  },
+  "Opacity": {
+   "cyclic": false,
+   "drive": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "lock": false
+  }
+ },
+ "SPStudyColor": {
+  "_global": {
+   "pattern": 0,
+   "seed": 0,
+   "spread": 1,
+   "depth": 1.0,
+   "fm": 0.0
+  },
+  "Hue Step": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Sat": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Gain": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Floor": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Key": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  }
+ },
+ "SPStudyMixer": {
+  "_global": {
+   "pattern": 0,
+   "seed": 0,
+   "spread": 1,
+   "depth": 1.0,
+   "fm": 0.0
+  },
+  "Blend": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "choice": true
+  },
+  "Feed": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Gain": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Floor": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Key": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  }
+ },
+ "SP Atom Ground": {
+  "_global": {
+   "pattern": 0,
+   "seed": 0,
+   "spread": 1,
+   "depth": 1.0,
+   "fm": 0.0
+  },
+  "Tilt": {
+   "cyclic": true,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Sway": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Bob": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Travel": {
+   "cyclic": true,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Horizon": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Yaw": {
+   "cyclic": true,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Dolly": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Focal mm": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Lens": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "choice": true,
+   "lock": false
+  },
+  "Distort": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Scale": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Gap": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Seam": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Bands": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Sun": {
+   "cyclic": true,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Height": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Relief": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Haze": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Soft": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  }
+ },
+ "SP Atom Room": {
+  "_global": {
+   "pattern": 0,
+   "seed": 0,
+   "spread": 1,
+   "depth": 1.0,
+   "fm": 0.0
+  },
+  "Tilt": {
+   "cyclic": true,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.554525,
+   "hi": 0.654525,
+   "drive": false,
+   "lock": false
+  },
+  "Sway": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.041666666666666664,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 0.120801,
+   "drive": false,
+   "lock": false
+  },
+  "Bob": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.08333333333333333,
+   "shape": 1,
+   "lo": 0.057049,
+   "hi": 0.257049,
+   "drive": false,
+   "lock": false
+  },
+  "Travel": {
+   "cyclic": true,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.125,
+   "shape": 1,
+   "lo": 0.072493,
+   "hi": 0.422493,
+   "drive": false,
+   "lock": false
+  },
+  "Horizon": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.16666666666666666,
+   "shape": 1,
+   "lo": 0.45,
+   "hi": 0.55,
+   "drive": false,
+   "lock": false
+  },
+  "Yaw": {
+   "cyclic": true,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.20833333333333334,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 0.1,
+   "drive": false,
+   "lock": false
+  },
+  "Dolly": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.25,
+   "shape": 1,
+   "lo": 0.65448,
+   "hi": 0.75448,
+   "drive": false,
+   "lock": false
+  },
+  "Focal mm": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.2916666666666667,
+   "shape": 1,
+   "lo": 0.25404,
+   "hi": 0.35404,
+   "drive": false,
+   "lock": false
+  },
+  "Lens": {
+   "cyclic": false,
+   "ratio": "1/sqrt2",
+   "mult": 2.0,
+   "offset": 0.9647831015643641,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "choice": true,
+   "lock": false
+  },
+  "Distort": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.3333333333333333,
+   "shape": 1,
+   "lo": 0.4,
+   "hi": 0.6,
+   "drive": false,
+   "lock": false
+  },
+  "Left": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.375,
+   "shape": 1,
+   "lo": 0.144191,
+   "hi": 0.214191,
+   "drive": false,
+   "lock": false
+  },
+  "Right": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.4166666666666667,
+   "shape": 1,
+   "lo": 0.14815,
+   "hi": 0.21815,
+   "drive": false,
+   "lock": false
+  },
+  "Floor": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.4583333333333333,
+   "shape": 1,
+   "lo": 0.844554,
+   "hi": 0.914554,
+   "drive": false,
+   "lock": false
+  },
+  "Ceiling": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.5,
+   "shape": 1,
+   "lo": 0.101199,
+   "hi": 0.171199,
+   "drive": false,
+   "lock": false
+  },
+  "Back": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.5416666666666666,
+   "shape": 1,
+   "lo": 0.154873,
+   "hi": 0.224873,
+   "drive": false,
+   "lock": false
+  },
+  "Front": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.5833333333333334,
+   "shape": 1,
+   "lo": 0.154873,
+   "hi": 0.224873,
+   "drive": false,
+   "lock": false
+  },
+  "Scale": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.625,
+   "shape": 1,
+   "lo": 0.688475,
+   "hi": 0.888475,
+   "drive": false,
+   "lock": false
+  },
+  "Gap": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.6666666666666666,
+   "shape": 1,
+   "lo": 0.23441,
+   "hi": 0.43441,
+   "drive": false,
+   "lock": false
+  },
+  "Seam": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.7083333333333334,
+   "shape": 1,
+   "lo": 0.05,
+   "hi": 0.25,
+   "drive": false,
+   "lock": false
+  },
+  "Bands": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.75,
+   "shape": 1,
+   "lo": 0.83254,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Sun": {
+   "cyclic": true,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.7916666666666666,
+   "shape": 1,
+   "lo": 0.325,
+   "hi": 0.675,
+   "drive": false,
+   "lock": false
+  },
+  "Height": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.8333333333333334,
+   "shape": 1,
+   "lo": 0.782188,
+   "hi": 0.982188,
+   "drive": false,
+   "lock": false
+  },
+  "Relief": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.875,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 0.1,
+   "drive": false,
+   "lock": false
+  },
+  "Haze": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.9166666666666666,
+   "shape": 1,
+   "lo": 0.2,
+   "hi": 0.4,
+   "drive": false,
+   "lock": false
+  },
+  "Soft": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.9583333333333334,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 0.1,
+   "drive": false,
+   "lock": false
+  }
+ },
+ "SPDelayChain": {
+  "_global": {
+   "pattern": 0,
+   "seed": 0,
+   "spread": 1,
+   "depth": 1.0,
+   "fm": 0.0
+  },
+  "Taps": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Span": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.6,
+   "shape": 1,
+   "lo": 0.92,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Glide": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.8,
+   "shape": 1,
+   "lo": 0.20479999999999998,
+   "hi": 0.3648,
+   "drive": false,
+   "lock": false
+  },
+  "R": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.105,
+   "hi": 0.145,
+   "drive": false,
+   "lock": false
+  },
+  "G": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.2,
+   "shape": 1,
+   "lo": 0.1675,
+   "hi": 0.2075,
+   "drive": false,
+   "lock": false
+  },
+  "B": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.4,
+   "shape": 1,
+   "lo": 0.23,
+   "hi": 0.27,
+   "drive": false,
+   "lock": false
+  },
+  "Opacity": {
+   "cyclic": false,
+   "drive": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "lock": false
+  }
+ },
+ "SPAtomLine": {
+  "_global": {
+   "pattern": 0,
+   "seed": 0,
+   "spread": 1,
+   "depth": 1.0,
+   "fm": 0.0
+  },
+  "Length": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Position 1": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Position 2": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Angle": {
+   "cyclic": true,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "End 1": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "End 2": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Signal": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "choice": true
+  },
+  "Cycles": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Rate": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Read": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Count": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Gap": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  }
+ },
+ "SP Atom Figure 2D": {
+  "_global": {
+   "pattern": 0,
+   "seed": 0,
+   "spread": 1,
+   "depth": 1.0,
+   "fm": 0.0
+  },
+  "Figure A": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "choice": true
+  },
+  "Figure B": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "choice": true
+  },
+  "Morph": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Sides": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Size": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "X": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Y": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Turn": {
+   "cyclic": true,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Spin": {
+   "cyclic": true,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Outline": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Soft": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Sun": {
+   "cyclic": true,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Bevel": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Emboss": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Inner Shadow": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Inner Glow": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Outer Glow": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Satin": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Gradient": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Contour": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Flow": {
+   "cyclic": true,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Shadow": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Base": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "choice": true
+  },
+  "Wet": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Loop": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Hue": {
+   "cyclic": true,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Red": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Green": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Blue": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  }
+ },
+ "SP Atom Solid": {
+  "_global": {
+   "pattern": 0,
+   "seed": 0,
+   "spread": 1,
+   "depth": 1.0,
+   "fm": 0.0
+  },
+  "Figure A": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "choice": true,
+   "lock": false
+  },
+  "Figure B": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "choice": true,
+   "lock": false
+  },
+  "Morph": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.9,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Size": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.05555555555555555,
+   "shape": 1,
+   "lo": 0.580971,
+   "hi": 0.680971,
+   "drive": false,
+   "lock": false
+  },
+  "X": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.1111111111111111,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 0.162462,
+   "drive": false,
+   "lock": false
+  },
+  "Y": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.16666666666666666,
+   "shape": 1,
+   "lo": 0.237778,
+   "hi": 0.417778,
+   "drive": false,
+   "lock": false
+  },
+  "Tumble": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.2222222222222222,
+   "shape": 1,
+   "lo": 0.63157,
+   "hi": 0.98157,
+   "drive": false,
+   "lock": false
+  },
+  "Axis": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.2777777777777778,
+   "shape": 1,
+   "lo": 0.165971,
+   "hi": 0.515971,
+   "drive": false,
+   "lock": false
+  },
+  "Sun": {
+   "cyclic": true,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.3333333333333333,
+   "shape": 1,
+   "lo": 0.725,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Height": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.3888888888888889,
+   "shape": 1,
+   "lo": 0.6,
+   "hi": 0.8,
+   "drive": false,
+   "lock": false
+  },
+  "Distance": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.4444444444444444,
+   "shape": 1,
+   "lo": 0.6,
+   "hi": 0.8,
+   "drive": false,
+   "lock": false
+  },
+  "Shadow": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.5,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 0.1,
+   "drive": false,
+   "lock": false
+  },
+  "Material": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "choice": true,
+   "lock": false
+  },
+  "Micro": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Fine": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Color": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "choice": true,
+   "lock": false
+  },
+  "Loop": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.5555555555555556,
+   "shape": 1,
+   "lo": 0.9,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Hue": {
+   "cyclic": true,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.6111111111111112,
+   "shape": 1,
+   "lo": 0.565058,
+   "hi": 0.915058,
+   "drive": false,
+   "lock": false
+  },
+  "Red": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.6666666666666666,
+   "shape": 1,
+   "lo": 0.689022,
+   "hi": 0.889022,
+   "drive": false,
+   "lock": false
+  },
+  "Green": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.7222222222222222,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 0.101263,
+   "drive": false,
+   "lock": false
+  },
+  "Blue": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.7777777777777778,
+   "shape": 1,
+   "lo": 0.079664,
+   "hi": 0.279664,
+   "drive": false,
+   "lock": false
+  },
+  "Shade": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.8333333333333334,
+   "shape": 1,
+   "lo": 0.7,
+   "hi": 0.9,
+   "drive": false,
+   "lock": false
+  },
+  "Edge": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.8888888888888888,
+   "shape": 1,
+   "lo": 0.3,
+   "hi": 0.5,
+   "drive": false,
+   "lock": false
+  },
+  "Emboss": {
+   "cyclic": false,
+   "ratio": "1:1",
+   "mult": 1.0,
+   "offset": 0.9444444444444444,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 0.1,
+   "drive": false,
+   "lock": false
+  }
+ },
+ "SP Atom 4D": {
+  "_global": {
+   "pattern": 0,
+   "seed": 0,
+   "spread": 1,
+   "depth": 1.0,
+   "fm": 0.0
+  },
+  "Size": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "W": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Thickness": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Turn": {
+   "cyclic": true,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Spin": {
+   "cyclic": true,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Double": {
+   "cyclic": true,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Sun": {
+   "cyclic": true,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Height": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Distance": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Faces": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Edges": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Round": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Vertices": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Shade": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Bevel": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Emboss": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Inner Shadow": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Inner Glow": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Gradient": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Contour": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Base": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "choice": true,
+   "lock": false
+  },
+  "Wet": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Loop": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Hue": {
+   "cyclic": true,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Red": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Green": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Blue": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  }
+ },
+ "SP Atom Hybrid": {
+  "_global": {
+   "pattern": 0,
+   "seed": 0,
+   "spread": 1,
+   "depth": 1.0,
+   "fm": 0.0
+  },
+  "Size": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "W": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Thickness": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Connect": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Layers": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Spread": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Sweep": {
+   "cyclic": true,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Drift": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Turn": {
+   "cyclic": true,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Spin": {
+   "cyclic": true,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Double": {
+   "cyclic": true,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Sun": {
+   "cyclic": true,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Height": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Distance": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Faces": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Shade": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Edges": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Round": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Vertices": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Bevel": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Emboss": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Inner Shadow": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Inner Glow": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Gradient": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Contour": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Base": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "choice": true,
+   "lock": false
+  },
+  "Wet": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Loop": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Hue": {
+   "cyclic": true,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Red": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Green": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  },
+  "Blue": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1.0,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "lock": false
+  }
+ },
+ "SP Atom Glyph": {
+  "_global": {
+   "pattern": 0,
+   "seed": 0,
+   "spread": 1,
+   "depth": 1.0,
+   "fm": 0.0
+  },
+  "Style": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "choice": true
+  },
+  "Language": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Glyph": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Ends": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "choice": true
+  },
+  "Write": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Size": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "X": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Y": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Weight": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Contrast": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Slant": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Width": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Round": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Hand": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Soft": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  }
+ },
+ "SP Atom Script": {
+  "_global": {
+   "pattern": 0,
+   "seed": 0,
+   "spread": 1,
+   "depth": 1.0,
+   "fm": 0.0
+  },
+  "Script": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "choice": true
+  },
+  "Glyph": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Write": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Size": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "X": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Y": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Weight": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Ends": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "choice": true
+  },
+  "Slant": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Soft": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  }
+ },
+ "SPAtomDither": {
+  "_global": {
+   "pattern": 0,
+   "seed": 0,
+   "spread": 1,
+   "depth": 1.0,
+   "fm": 0.0
+  },
+  "Pattern": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "choice": true
+  },
+  "Size": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Mode": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "choice": true
+  },
+  "Levels": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Contrast": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Bias": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Color": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "choice": true
+  },
+  "Dither": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Cells": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "choice": true
+  },
+  "Engine": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "choice": true
+  },
+  "Native": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "choice": true
+  },
+  "Scan": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Spacing": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Tint": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "choice": true
+  },
+  "Key": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Mix": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Opacity": {
+   "cyclic": false,
+   "drive": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0,
+   "shape": 1,
+   "lo": 0,
+   "hi": 1
+  }
+ },
+ "SP Atom Texture": {
+  "_global": {
+   "pattern": 0,
+   "seed": 0,
+   "spread": 1,
+   "depth": 1.0,
+   "fm": 0.0
+  },
+  "Texture": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "choice": true
+  },
+  "Count": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Drift": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Duty": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Soft": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Level": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  }
+ },
+ "SP Atom Grain": {
+  "_global": {
+   "pattern": 0,
+   "seed": 0,
+   "spread": 1,
+   "depth": 1.0,
+   "fm": 0.0
+  },
+  "Grain": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 0,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false,
+   "choice": true
+  },
+  "Amount": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Size": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Flicker": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Level": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  }
+ },
+ "SPDelayPerformance": {
+  "_global": {
+   "pattern": 0,
+   "seed": 0,
+   "spread": 1,
+   "depth": 1.0,
+   "fm": 0.0
+  },
+  "Taps": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Span": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "Glide": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "R": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "G": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  },
+  "B": {
+   "cyclic": false,
+   "ratio": "1:4",
+   "mult": 1,
+   "offset": 0.0,
+   "shape": 1,
+   "lo": 0.0,
+   "hi": 1.0,
+   "drive": false
+  }
+ }
+}

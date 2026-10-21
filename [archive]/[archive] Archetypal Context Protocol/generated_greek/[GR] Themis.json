@@ -1,0 +1,163 @@
+{
+  "SchemaVersion": "1.1-ter",
+  "ArchetypeName": "Themis",
+  "SystemOfOrigin": "GR",
+  "CulturalLineage": [
+    "Greek"
+  ],
+  "CommonAliases": [
+    "Divine Law",
+    "Lady Justice",
+    "Oracle",
+    "Divine Order",
+    "Iustitia"
+  ],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "To embody divine law, cosmic order, and prophetic wisdom; to maintain balance through justice.",
+    "PrimaryDomain": "Mythic / Social",
+    "ToneOrPolarity": "Orderly / Just",
+    "SymbolicCore": "The eternal principle of right order and divine law.",
+    "Correspondences": {
+      "Element": "Air",
+      "Planet": "Saturn",
+      "Chakra": "Third Eye",
+      "Color": "White, Gold, Purple",
+      "Animal": "Owl, Sphinx",
+      "Other": [
+        "Scales",
+        "Sword",
+        "Blindfold",
+        "Oracular Tripod"
+      ]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": [
+      "Judge",
+      "Oracle",
+      "Lawgiver",
+      "Counselor",
+      "Witness"
+    ],
+    "ComplementaryArchetypes": [
+      "Zeus ([GR] King/Consort)",
+      "Dike ([GR] Justice/Daughter)",
+      "Moirai ([GR] Fates/Daughters)"
+    ],
+    "ShadowForms": [
+      "Rigid Legalist",
+      "Blind Bureaucrat",
+      "Tyrannical Order"
+    ],
+    "DevelopmentalArc": [],
+    "CyclePhase": "Cosmic Order / Divine Law"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": [
+      "Just",
+      "Wise",
+      "Impartial",
+      "Prophetic",
+      "Orderly",
+      "Balanced"
+    ],
+    "Typologies": {
+      "MBTI": "INTJ",
+      "Enneagram": "1w9",
+      "Other": [
+        "Sage",
+        "Judge",
+        "Oracle"
+      ]
+    },
+    "SubVariants": [
+      "Divine Judge",
+      "Prophetess",
+      "Cosmic Order"
+    ],
+    "InternalFamily": "Inner Judge"
+  },
+  "CulturalContext": {
+    "Regions": [
+      "Greece",
+      "Delphi"
+    ],
+    "MythicAppearances": [
+      "Hesiod's Theogony",
+      "Delphic Oracle traditions",
+      "Horae mythology"
+    ],
+    "ReligiousOrRitualUse": "Oracle at Delphi before Apollo; invoked in oaths and legal proceedings; goddess of assemblies and counsel.",
+    "HistoricalEvolution": "Pre-Olympian oracle deity absorbed into Zeus's reign; mother of the Horae (Seasons) and Moirai (Fates).",
+    "SyncreticForms": [
+      "Iustitia (Roman)",
+      "Ma'at (Egyptian parallels)"
+    ]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "⚖️",
+    "ImageryNotes": "Depicted holding scales and sword, often blindfolded; seated on throne or at Delphic tripod; radiating authority.",
+    "ArtisticExamples": [
+      "Classical courthouse statues",
+      "Renaissance allegorical paintings",
+      "Modern Lady Justice sculptures"
+    ],
+    "PoeticInvocation": "First voice of Delphi, mother of order, who weighs the cosmos in eternal balance.",
+    "DreamForm": "A blindfolded figure holding scales that measure not weight but truth itself"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": [
+      "JP12.Sage",
+      "KWM.Judge",
+      "Tarot.Justice"
+    ],
+    "SemanticTags": [
+      "#justice",
+      "#law",
+      "#oracle",
+      "#balance",
+      "#divine-order"
+    ],
+    "RitualFunction": "Invoked for fair judgment, prophetic insight, and establishment of divine order in human affairs.",
+    "AIPromptSeeds": [
+      "An oracle whose every word reshapes the law of nations.",
+      "The judge who sees beyond appearance to the truth of cosmic order."
+    ],
+    "NarrativeHooks": [
+      "The prophecy that cannot be avoided",
+      "Justice vs mercy dilemmas",
+      "The law that transcends human understanding"
+    ]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [
+      {
+        "to": "Iustitia (Roman)",
+        "strength": "strong"
+      },
+      {
+        "to": "Tarot.Justice",
+        "strength": "strong"
+      },
+      {
+        "to": "JP12.Sage",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "FacetRegistry": [
+    {
+      "facet": "Divine Judge",
+      "weight": 0.4
+    },
+    {
+      "facet": "Oracle",
+      "weight": 0.3
+    },
+    {
+      "facet": "Cosmic Order",
+      "weight": 0.3
+    }
+  ]
+}

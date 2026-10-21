@@ -1,0 +1,151 @@
+[
+  {
+    "source": "Heart Quaternion Field",
+    "checks": [
+      {
+        "name": "Speed",
+        "want": 0.2,
+        "actual": 0.2
+      },
+      {
+        "name": "Field Scale",
+        "want": 0.55,
+        "actual": 0.55
+      },
+      {
+        "name": "Hue Speed",
+        "want": 0.3,
+        "actual": 0.3
+      },
+      {
+        "name": "Axis 1 Freq",
+        "want": 0.3,
+        "actual": 0.3000008740888787
+      },
+      {
+        "name": "Axis 2 Freq",
+        "want": 0.3,
+        "actual": 0.3
+      },
+      {
+        "name": "Axis 3 Freq",
+        "want": 0.3,
+        "actual": 0.3
+      },
+      {
+        "name": "Coupling",
+        "want": 0.5,
+        "actual": 0.5
+      },
+      {
+        "name": "Brightness",
+        "want": 0.75,
+        "actual": 0.75
+      },
+      {
+        "name": "Saturation",
+        "want": 0.5,
+        "actual": 0.5
+      },
+      {
+        "name": "Mean Radius",
+        "want": 0.5,
+        "actual": 0.5
+      },
+      {
+        "name": "Sample Distance",
+        "want": 0.55,
+        "actual": 0.55
+      }
+    ],
+    "opened": 11,
+    "rest_drives": 0,
+    "effects_on": []
+  },
+  {
+    "source": "Heart Klein Bottle",
+    "checks": [
+      {
+        "name": "Quat W",
+        "want": 1.0,
+        "actual": 1.0
+      },
+      {
+        "name": "Quat X",
+        "want": 0.5,
+        "actual": 0.5
+      },
+      {
+        "name": "Quat Y",
+        "want": 0.5,
+        "actual": 0.5
+      },
+      {
+        "name": "Quat Z",
+        "want": 0.5,
+        "actual": 0.5000002078722237
+      },
+      {
+        "name": "Refraction",
+        "want": 0.5,
+        "actual": 0.5
+      },
+      {
+        "name": "Wall Thickness",
+        "want": 0.14285714285714285,
+        "actual": 0.14285714285714277
+      },
+      {
+        "name": "Exposure",
+        "want": 0.42857142857142855,
+        "actual": 0.42857142857142855
+      }
+    ],
+    "opened": 7,
+    "rest_drives": 0,
+    "effects_on": []
+  },
+  {
+    "source": "Heart Melting Fractal",
+    "checks": [
+      {
+        "name": "Fold Phase",
+        "want": 1.0,
+        "actual": 1.0
+      },
+      {
+        "name": "Twist Amount",
+        "want": 0.5,
+        "actual": 0.5
+      },
+      {
+        "name": "Orbit Phase",
+        "want": 0.333,
+        "actual": 0.333
+      },
+      {
+        "name": "Camera Roll",
+        "want": 0.0,
+        "actual": 0.0
+      },
+      {
+        "name": "Cone Radius",
+        "want": 0.5,
+        "actual": 0.5
+      },
+      {
+        "name": "Fold Offset",
+        "want": 0.5,
+        "actual": 0.5000000041152407
+      },
+      {
+        "name": "Glow Strength",
+        "want": 0.2,
+        "actual": 0.2
+      }
+    ],
+    "opened": 7,
+    "rest_drives": 0,
+    "effects_on": []
+  }
+]

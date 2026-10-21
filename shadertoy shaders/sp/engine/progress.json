@@ -1,0 +1,4315 @@
+{
+  "updated": "2026-09-10T19:57:12.098420+00:00",
+  "phase": "Live verification",
+  "current": "Performance controls repaired: shared Open/Shuffle/Low\u2013High/Home; 4D live readback verified (0.2\u20130.55s). Ergonomics pass loaded. Further latency reduction and full-composition rehearsal still outstanding.",
+  "events": [
+    {
+      "at": "2026-09-10T19:57:12.098420+00:00",
+      "text": "Performance controls repaired: shared Open/Shuffle/Low\u2013High/Home; 4D live readback verified (0.2\u20130.55s). Ergonomics pass loaded. Further latency reduction and full-composition rehearsal still outstanding."
+    },
+    {
+      "at": "2026-09-09T17:28:14.743831+00:00",
+      "text": "Complete:149/149 remaining source checks;271 tests pass. Heart Show Ready 20260909 122632 saved, reopened and backed up."
+    },
+    {
+      "at": "2026-09-09T17:23:32.740606+00:00",
+      "text": "149/149 source checks complete; finishing visual repairs and final save/reopen."
+    },
+    {
+      "at": "2026-09-09T17:14:46.637723+00:00",
+      "text": "Full library 149/149: L8C18 Spiral \u2014 pass. {'pass': 104, 'manual-only': 36, 'render-only': 9, 'review': 0, 'error': 0}"
+    },
+    {
+      "at": "2026-09-09T17:14:35.300061+00:00",
+      "text": "Full library 148/149: L8C17 Checkered \u2014 pass. {'pass': 103, 'manual-only': 36, 'render-only': 9, 'review': 0, 'error': 0}"
+    },
+    {
+      "at": "2026-09-09T17:14:25.990051+00:00",
+      "text": "Full library 147/149: L8C16 Lines \u2014 pass. {'pass': 102, 'manual-only': 36, 'render-only': 9, 'review': 0, 'error': 0}"
+    },
+    {
+      "at": "2026-09-09T17:14:15.728048+00:00",
+      "text": "Full library 146/149: L8C15 Static \u2014 manual-only. {'pass': 101, 'manual-only': 36, 'render-only': 9, 'review': 0, 'error': 0}"
+    },
+    {
+      "at": "2026-09-09T17:14:06.602808+00:00",
+      "text": "Full library 145/149: L8C9 SP State Test \u2014 manual-only. {'pass': 101, 'manual-only': 35, 'render-only': 9, 'review': 0, 'error': 0}"
+    },
+    {
+      "at": "2026-09-09T17:13:57.447880+00:00",
+      "text": "Full library 144/149: L8C8 SP Grain \u2014 pass. {'pass': 101, 'manual-only': 34, 'render-only': 9, 'review': 0, 'error': 0}"
+    },
+    {
+      "at": "2026-09-09T17:13:47.344620+00:00",
+      "text": "Full library 143/149: L8C1 SP Atom Grain \u2014 pass. {'pass': 100, 'manual-only': 34, 'render-only': 9, 'review': 0, 'error': 0}"
+    },
+    {
+      "at": "2026-09-09T17:13:36.919538+00:00",
+      "text": "Full library 142/149: L7C8 SP Scan \u2014 pass. {'pass': 99, 'manual-only': 34, 'render-only': 9, 'review': 0, 'error': 0}"
+    },
+    {
+      "at": "2026-09-09T17:13:27.812712+00:00",
+      "text": "Full library 141/149: L7C2 SP Atom Texture \u2014 pass. {'pass': 98, 'manual-only': 34, 'render-only': 9, 'review': 0, 'error': 0}"
+    },
+    {
+      "at": "2026-09-09T17:13:17.561795+00:00",
+      "text": "Full library 140/149: L5C75 SP Toy Quasicrystal Figure 01 \u2014 pass. {'pass': 97, 'manual-only': 34, 'render-only': 9, 'review': 0, 'error': 0}"
+    },
+    {
+      "at": "2026-09-09T17:13:07.027525+00:00",
+      "text": "Full library 139/149: L5C74 SP Toy Transit Figure 01 \u2014 pass. {'pass': 96, 'manual-only': 34, 'render-only': 9, 'review': 0, 'error': 0}"
+    },
+    {
+      "at": "2026-09-09T17:12:56.806263+00:00",
+      "text": "Full library 138/149: L5C73 Heart Capsule \u2014 pass. {'pass': 95, 'manual-only': 34, 'render-only': 9, 'review': 0, 'error': 0}"
+    },
+    {
+      "at": "2026-09-09T17:12:45.634522+00:00",
+      "text": "Full library 137/149: L5C72 Heart Melting Fractal \u2014 pass. {'pass': 94, 'manual-only': 34, 'render-only': 9, 'review': 0, 'error': 0}"
+    },
+    {
+      "at": "2026-09-09T17:12:34.193666+00:00",
+      "text": "Full library 136/149: L5C71 Heart Klein Bottle \u2014 pass. {'pass': 93, 'manual-only': 34, 'render-only': 9, 'review': 0, 'error': 0}"
+    },
+    {
+      "at": "2026-09-09T17:12:22.865114+00:00",
+      "text": "Full library 135/149: L5C69 Tunnelines \u2014 pass. {'pass': 92, 'manual-only': 34, 'render-only': 9, 'review': 0, 'error': 0}"
+    },
+    {
+      "at": "2026-09-09T17:12:11.589124+00:00",
+      "text": "Full library 134/149: L5C68 Rings \u2014 pass. {'pass': 91, 'manual-only': 34, 'render-only': 9, 'review': 0, 'error': 0}"
+    },
+    {
+      "at": "2026-09-09T17:12:00.187574+00:00",
+      "text": "Full library 133/149: L5C67 Shaper \u2014 pass. {'pass': 90, 'manual-only': 34, 'render-only': 9, 'review': 0, 'error': 0}"
+    },
+    {
+      "at": "2026-09-09T17:11:48.782659+00:00",
+      "text": "Full library 132/149: L5C65 Gradient Bars \u2014 pass. {'pass': 89, 'manual-only': 34, 'render-only': 9, 'review': 0, 'error': 0}"
+    },
+    {
+      "at": "2026-09-09T17:11:36.904792+00:00",
+      "text": "Full library 131/149: L5C62 SP State Test \u2014 manual-only. {'pass': 88, 'manual-only': 34, 'render-only': 9, 'review': 0, 'error': 0}"
+    },
+    {
+      "at": "2026-09-09T17:11:27.199011+00:00",
+      "text": "Full library 130/149: L5C61 Hopf fibers SP \u2014 pass. {'pass': 88, 'manual-only': 33, 'render-only': 9, 'review': 0, 'error': 0}"
+    },
+    {
+      "at": "2026-09-09T17:11:17.094618+00:00",
+      "text": "Full library 129/149: L5C60 Superfluid helium \u2014 manual-only. {'pass': 87, 'manual-only': 33, 'render-only': 9, 'review': 0, 'error': 0}"
+    },
+    {
+      "at": "2026-09-09T17:11:06.817348+00:00",
+      "text": "Full library 128/149: L5C59 Spinor Belt Trick \u2014 pass. {'pass': 87, 'manual-only': 32, 'render-only': 9, 'review': 0, 'error': 0}"
+    },
+    {
+      "at": "2026-09-09T17:10:55.158789+00:00",
+      "text": "Full library 127/149: L5C58 Quaternion Twister \u2014 pass. {'pass': 86, 'manual-only': 32, 'render-only': 9, 'review': 0, 'error': 0}"
+    },
+    {
+      "at": "2026-09-09T17:10:43.224289+00:00",
+      "text": "Full library 126/149: L5C56 quaternion slerp \u2014 pass. {'pass': 85, 'manual-only': 32, 'render-only': 9, 'review': 0, 'error': 0}"
+    },
+    {
+      "at": "2026-09-09T17:10:31.688833+00:00",
+      "text": "Full library 125/149: L5C55 HEPTANION transformation \u2014 pass. {'pass': 84, 'manual-only': 32, 'render-only': 9, 'review': 0, 'error': 0}"
+    },
+    {
+      "at": "2026-09-09T17:10:20.046993+00:00",
+      "text": "Full library 124/149: L5C54 4-space rotations \u2014 pass. {'pass': 83, 'manual-only': 32, 'render-only': 9, 'review': 0, 'error': 0}"
+    },
+    {
+      "at": "2026-09-09T17:10:08.251895+00:00",
+      "text": "Full library 123/149: L5C53 4D Rounded box (Bluey) \u2014 pass. {'pass': 82, 'manual-only': 32, 'render-only': 9, 'review': 0, 'error': 0}"
+    },
+    {
+      "at": "2026-09-09T17:09:56.404787+00:00",
+      "text": "Full library 122/149: L5C52 Klein Bottle (3D) \u2014 pass. {'pass': 81, 'manual-only': 32, 'render-only': 9, 'review': 0, 'error': 0}"
+    }
+  ],
+  "overrides": {
+    "D1 L5C20": {
+      "id": "D1 L5C20",
+      "status": "Blocked",
+      "sampled": true,
+      "note": "Original retained; bounded replacement tested and installed in Figure L5C10."
+    },
+    "D1 L5C25": {
+      "id": "D1 L5C25",
+      "status": "Blocked",
+      "sampled": true,
+      "note": "Controls tested; satellite droplets cross the frame during motion. Needs bounded geometry or a different layer role."
+    },
+    "D1 L5C38": {
+      "id": "D1 L5C38",
+      "status": "Blocked",
+      "sampled": true,
+      "note": "Controls tested; FOV .75 clips the spikes. Needs a bounded source copy before Figure acceptance."
+    },
+    "D1 L5C10": {
+      "id": "D1 L5C10",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "New bounded source: landscape/portrait/square checks passed. Thickness + twists driven; shared Transform owns size/position."
+    },
+    "D1 L5C11": {
+      "id": "D1 L5C11",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Spike Sharpness: 2/2 native manual readbacks; driven values varied; two full-output frames reviewed. New copy; nine GPU aspect/parameter cases passed. Home/relaunch not checked."
+    },
+    "D1 L5C12": {
+      "id": "D1 L5C12",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Refraction: 2/2 native manual readbacks; driven values varied; two full-output frames reviewed. New copy; nine GPU aspect/parameter cases passed. Home/relaunch not checked."
+    },
+    "D1 L3C21": {
+      "id": "D1 L3C21",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "scale: 2/2 native manual readbacks; driven values varied; two full-output frames reviewed."
+    },
+    "D1 L3C23": {
+      "id": "D1 L3C23",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Speed: 2/2 native manual readbacks; driven values varied; two full-output frames reviewed. Speed-only source: richer shape controls and continuous-warp behavior remain unverified."
+    },
+    "D1 L3C24": {
+      "id": "D1 L3C24",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Speed: 2/2 native manual readbacks; driven values varied; two full-output frames reviewed. Speed-only source: richer shape controls and continuous-warp behavior remain unverified."
+    },
+    "D1 L3C25": {
+      "id": "D1 L3C25",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "density: 2/2 native manual readbacks; driven values varied; two full-output frames reviewed."
+    },
+    "D1 L3C29": {
+      "id": "D1 L3C29",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Speed: 2/2 native manual readbacks; driven values varied; two full-output frames reviewed. Speed-only source: richer shape controls and continuous-warp behavior remain unverified."
+    },
+    "D1 L3C34": {
+      "id": "D1 L3C34",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "width: 2/2 native manual readbacks; driven values varied; two full-output frames reviewed."
+    },
+    "D1 L3C15": {
+      "id": "D1 L3C15",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "JITTER: native drive varied; two actual output frames reviewed. 2/2 manual targets passed."
+    },
+    "D1 L3C19": {
+      "id": "D1 L3C19",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "dimensions: native drive varied; two actual output frames reviewed. 2/2 manual targets passed."
+    },
+    "D1 L3C26": {
+      "id": "D1 L3C26",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "een: native drive varied; two actual output frames reviewed. 2/2 manual targets passed."
+    },
+    "D1 L3C27": {
+      "id": "D1 L3C27",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "x: native drive varied; two actual output frames reviewed. Near-black output during sampled motion; useful camera/shape range needs follow-up."
+    },
+    "D1 L3C30": {
+      "id": "D1 L3C30",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Speed: native drive varied; two actual output frames reviewed. 2/2 manual targets passed. Speed-only source; richer shape control and continuous warping not verified."
+    },
+    "D1 L3C35": {
+      "id": "D1 L3C35",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "scale: native drive varied; two actual output frames reviewed. 2/2 manual targets passed."
+    },
+    "D1 L3C37": {
+      "id": "D1 L3C37",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Speed: native drive varied; two actual output frames reviewed. 2/2 manual targets passed. Speed-only source; richer shape control and continuous warping not verified."
+    },
+    "D1 L3C38": {
+      "id": "D1 L3C38",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Radius: native drive varied; two actual output frames reviewed. Radius missed the second manual target on first pass, passed targeted retry. Reliability issue remains."
+    },
+    "D1 L3C39": {
+      "id": "D1 L3C39",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "scale: native drive varied; two actual output frames reviewed. 2/2 manual targets passed."
+    },
+    "D1 L3C40": {
+      "id": "D1 L3C40",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Speed: native drive varied; two actual output frames reviewed. Rendered output contains heavy noise around rainbow forms; intended appearance versus numerical artifact not yet determined. Speed-only source; richer shape control and continuous warping not verified."
+    },
+    "D1 L3C41": {
+      "id": "D1 L3C41",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Nebula Brightness: native drive varied; two actual output frames reviewed. 2/2 manual targets passed."
+    },
+    "D1 L3C42": {
+      "id": "D1 L3C42",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Speed: native drive varied; two actual output frames reviewed. 2/2 manual targets passed. Speed-only source; richer shape control and continuous warping not verified."
+    },
+    "D1 L3C45": {
+      "id": "D1 L3C45",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "strength: native drive varied; two actual output frames reviewed. 2/2 manual targets passed."
+    },
+    "D1 L3C46": {
+      "id": "D1 L3C46",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "wave scale: native drive varied; two actual output frames reviewed. 2/2 manual targets passed."
+    },
+    "D1 L3C48": {
+      "id": "D1 L3C48",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "intensity: native drive varied; two actual output frames reviewed. Output is dark at the sampled intensity, but visible and changing."
+    },
+    "D1 L3C51": {
+      "id": "D1 L3C51",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "g1: native drive varied; two actual output frames reviewed. 2/2 manual targets passed."
+    },
+    "D1 L3C47": {
+      "id": "D1 L3C47",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "draaixas: native drive varied; two actual output frames reviewed. Centered flower in both frames: candidate for Figure sorting; containment not certified."
+    },
+    "D1 L3C49": {
+      "id": "D1 L3C49",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Speed: native drive varied; two actual output frames reviewed. 2/2 manual readbacks passed. Speed-only source: shape control expansion remains."
+    },
+    "D1 L3C50": {
+      "id": "D1 L3C50",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Speed: native drive varied; two actual output frames reviewed. 2/2 manual readbacks passed. Speed-only source: shape control expansion remains."
+    },
+    "D1 L3C52": {
+      "id": "D1 L3C52",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Overlap: native drive varied; two actual output frames reviewed. 2/2 manual readbacks passed."
+    },
+    "D1 L3C53": {
+      "id": "D1 L3C53",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Speed: native drive varied; two actual output frames reviewed. Second manual target missed initially; targeted retry passed. Intermittent command reliability remains unresolved. Speed-only source: shape control expansion remains."
+    },
+    "D1 L3C54": {
+      "id": "D1 L3C54",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "amp: native drive varied; two actual output frames reviewed. 2/2 manual readbacks passed."
+    },
+    "D1 L3C55": {
+      "id": "D1 L3C55",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "depth: native drive varied; two actual output frames reviewed. 2/2 manual readbacks passed."
+    },
+    "D1 L3C56": {
+      "id": "D1 L3C56",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Speed: native drive varied; two actual output frames reviewed. 2/2 manual readbacks passed. Speed-only source: shape control expansion remains."
+    },
+    "D1 L3C58": {
+      "id": "D1 L3C58",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "warp: native drive varied; two actual output frames reviewed. Diffuse output with little distinct structure in these samples; camera/warp relationship needs deeper review."
+    },
+    "D1 L3C59": {
+      "id": "D1 L3C59",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "main form: native drive varied; two actual output frames reviewed. Object-like geometry against a background; review role before sorting."
+    },
+    "D1 L3C60": {
+      "id": "D1 L3C60",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "scale: native drive varied; two actual output frames reviewed. Large curling geometry leaves the frame; acceptable for Field, not certified for Figure."
+    },
+    "D1 L3C61": {
+      "id": "D1 L3C61",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "angle: native drive varied; two actual output frames reviewed. 2/2 manual readbacks passed."
+    },
+    "D1 L3C63": {
+      "id": "D1 L3C63",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "IFS Scale: native drive varied; two actual output frames reviewed. Geometry intersects frame edges; current Field role retained."
+    },
+    "D1 L3C64": {
+      "id": "D1 L3C64",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Fractal Scale: native drive varied; two actual output frames reviewed. 2/2 manual readbacks passed."
+    },
+    "D1 L3C65": {
+      "id": "D1 L3C65",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Fractal Scale: native drive varied; two actual output frames reviewed. 2/2 manual readbacks passed."
+    },
+    "D1 L3C75": {
+      "id": "D1 L3C75",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "choppy: native drive varied; two actual output frames reviewed. 2/2 manual readbacks passed."
+    },
+    "D1 L3C67": {
+      "id": "D1 L3C67",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Torus Thickness: native drive varied; two actual output frames reviewed. Very close camera/geometry view; useful framing needs tuning."
+    },
+    "D1 L3C68": {
+      "id": "D1 L3C68",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "View Scale: native drive varied; two actual output frames reviewed. 2/2 manual targets passed."
+    },
+    "D1 L3C69": {
+      "id": "D1 L3C69",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Offset X: native drive varied; two actual output frames reviewed. 2/2 manual targets passed."
+    },
+    "D1 L3C71": {
+      "id": "D1 L3C71",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Speed: native drive varied; two actual output frames reviewed. 2/2 manual targets passed. Speed-only exposure; richer shape relationships remain."
+    },
+    "D1 L3C72": {
+      "id": "D1 L3C72",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Speed: native drive varied; two actual output frames reviewed. 2/2 manual targets passed. Speed-only exposure; richer shape relationships remain."
+    },
+    "D1 L3C73": {
+      "id": "D1 L3C73",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Speed: native drive varied; two actual output frames reviewed. 2/2 manual targets passed. Speed-only exposure; richer shape relationships remain."
+    },
+    "D1 L3C74": {
+      "id": "D1 L3C74",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Speed: native drive varied; two actual output frames reviewed. 2/2 manual targets passed. Speed-only exposure; richer shape relationships remain."
+    },
+    "D1 L3C76": {
+      "id": "D1 L3C76",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "height: native drive varied; two actual output frames reviewed. Height test produced a pale surface filling the view before a normal ocean view; follow up camera/height relationship."
+    },
+    "D1 L3C77": {
+      "id": "D1 L3C77",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Speed: native drive varied; two actual output frames reviewed. 2/2 manual targets passed. Speed-only exposure; richer shape relationships remain."
+    },
+    "D1 L3C78": {
+      "id": "D1 L3C78",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Speed: native drive varied; two actual output frames reviewed. One initial Speed request missed; targeted retry passed. Command reliability remains unresolved. Speed-only exposure; richer shape relationships remain."
+    },
+    "D1 L3C79": {
+      "id": "D1 L3C79",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Camera Angle: native drive varied; two actual output frames reviewed. 2/2 manual targets passed."
+    },
+    "D1 L3C80": {
+      "id": "D1 L3C80",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Speed: native drive varied; two actual output frames reviewed. 2/2 manual targets passed. Speed-only exposure; richer shape relationships remain."
+    },
+    "D1 L3C81": {
+      "id": "D1 L3C81",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Speed: native drive varied; two actual output frames reviewed. 2/2 manual targets passed. Speed-only exposure; richer shape relationships remain."
+    },
+    "D1 L3C82": {
+      "id": "D1 L3C82",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Speed: native drive varied; two actual output frames reviewed. 2/2 manual targets passed. Speed-only exposure; richer shape relationships remain."
+    },
+    "D1 L3C83": {
+      "id": "D1 L3C83",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Speed: native drive varied; two actual output frames reviewed. 2/2 manual targets passed. Speed-only exposure; richer shape relationships remain."
+    },
+    "D1 L3C84": {
+      "id": "D1 L3C84",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Speed: native drive varied; two actual output frames reviewed. 2/2 manual targets passed. Speed-only exposure; richer shape relationships remain."
+    },
+    "D1 L3C85": {
+      "id": "D1 L3C85",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Speed: native drive varied; two actual output frames reviewed. 2/2 manual targets passed. Speed-only exposure; richer shape relationships remain."
+    },
+    "D1 L3C86": {
+      "id": "D1 L3C86",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Speed: native drive varied; two actual output frames reviewed. Large flat surfaces obscure much of the view; useful camera/phase behavior needs review. Speed-only exposure; richer shape relationships remain."
+    },
+    "D1 L3C87": {
+      "id": "D1 L3C87",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Morph Rate: native drive varied; two actual output frames reviewed. Object-like source with clipped geometry in a sample; Figure suitability not certified."
+    },
+    "D1 L3C88": {
+      "id": "D1 L3C88",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Speed: native drive varied; two actual output frames reviewed. Recognizable socket device; object-like content but touches edges, role/framing review needed. Speed-only exposure; richer shape relationships remain."
+    },
+    "D1 L3C89": {
+      "id": "D1 L3C89",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Speed: native drive varied; two actual output frames reviewed. 2/2 manual targets passed. Speed-only exposure; richer shape relationships remain."
+    },
+    "D1 L3C90": {
+      "id": "D1 L3C90",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "angle: native drive varied; two actual output frames reviewed. Soft, diffuse pattern in samples; review intended sharpness before tuning."
+    },
+    "D1 L3C91": {
+      "id": "D1 L3C91",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Speed: native drive varied; two actual output frames reviewed. 2/2 manual targets passed. Speed-only exposure; richer shape relationships remain."
+    },
+    "D1 L3C36": {
+      "id": "D1 L3C36",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Render-only: two actual output frames reviewed. Resolume sourceparams is null; source controls must be added to a new copy before Heart can drive it."
+    },
+    "D1 L3C43": {
+      "id": "D1 L3C43",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Render-only: two actual output frames reviewed. Resolume sourceparams is null; source controls must be added to a new copy before Heart can drive it."
+    },
+    "D1 L3C44": {
+      "id": "D1 L3C44",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Render-only: two actual output frames reviewed. Resolume sourceparams is null; source controls must be added to a new copy before Heart can drive it."
+    },
+    "D1 L3C57": {
+      "id": "D1 L3C57",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Render-only: two actual output frames reviewed. Resolume sourceparams is null; source controls must be added to a new copy before Heart can drive it."
+    },
+    "D1 L3C62": {
+      "id": "D1 L3C62",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Render-only: two actual output frames reviewed. Resolume sourceparams is null; source controls must be added to a new copy before Heart can drive it."
+    },
+    "D1 L3C66": {
+      "id": "D1 L3C66",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Render-only: two actual output frames reviewed. Resolume sourceparams is null; source controls must be added to a new copy before Heart can drive it."
+    },
+    "D1 L3C70": {
+      "id": "D1 L3C70",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Render-only: two actual output frames reviewed. Resolume sourceparams is null; source controls must be added to a new copy before Heart can drive it."
+    },
+    "D1 L5C15": {
+      "id": "D1 L5C15",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Radius: native drive varied; two actual output captures reviewed. Metaballs reaches frame edges; Figure role/framing requires follow-up."
+    },
+    "D1 L5C16": {
+      "id": "D1 L5C16",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "e: native drive varied; two actual output captures reviewed. Centered visible form in samples; containment not certified."
+    },
+    "D1 L5C17": {
+      "id": "D1 L5C17",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "blend x: native drive varied; two actual output captures reviewed. Centered visible form in samples; containment not certified."
+    },
+    "D1 L5C18": {
+      "id": "D1 L5C18",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "depth: native drive varied; two actual output captures reviewed. Centered visible form in samples; containment not certified."
+    },
+    "D1 L5C19": {
+      "id": "D1 L5C19",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "subdivison: native drive varied; two actual output captures reviewed. Centered visible form in samples; containment not certified."
+    },
+    "D1 L5C21": {
+      "id": "D1 L5C21",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "morph: native drive varied; two actual output captures reviewed. Centered visible form in samples; containment not certified."
+    },
+    "D1 L5C22": {
+      "id": "D1 L5C22",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Brightness: native drive varied; two actual output captures reviewed. Centered visible form in samples; containment not certified."
+    },
+    "D1 L5C23": {
+      "id": "D1 L5C23",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Julia Amplitude: native drive varied; two actual output captures reviewed. Centered visible form in samples; containment not certified."
+    },
+    "D1 L5C24": {
+      "id": "D1 L5C24",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Surface K: native drive varied; two actual output captures reviewed. Centered visible form in samples; containment not certified."
+    },
+    "D1 L5C26": {
+      "id": "D1 L5C26",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Speed: native drive varied; two actual output captures reviewed. One Speed target missed initially; targeted retry passed. Reliability remains unresolved."
+    },
+    "D1 L5C27": {
+      "id": "D1 L5C27",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Refraction: native drive varied; two actual output captures reviewed. Centered visible form in samples; containment not certified."
+    },
+    "D1 L5C28": {
+      "id": "D1 L5C28",
+      "status": "Blocked",
+      "sampled": true,
+      "note": "Original preserved. Control-ready replacement installed and live-rendered in Figure L5C13; see source-repair/REPORT.md."
+    },
+    "D1 L5C29": {
+      "id": "D1 L5C29",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "intensity: native drive varied; two actual output captures reviewed. Intensity produces visible variation. Outer rings are near frame edges; containment not certified."
+    },
+    "D1 L5C30": {
+      "id": "D1 L5C30",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Energy Scale: native drive varied; two actual output captures reviewed. Broad glow reaches frame edges; strict Figure containment not certified."
+    },
+    "D1 L5C31": {
+      "id": "D1 L5C31",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Glow: native drive varied; two actual output captures reviewed. Centered visible form in samples; containment not certified."
+    },
+    "D1 L5C32": {
+      "id": "D1 L5C32",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Speed: native drive varied; two actual output captures reviewed. Centered visible form in samples; containment not certified."
+    },
+    "D1 L5C33": {
+      "id": "D1 L5C33",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Speed: native drive varied; two actual output captures reviewed. Visible form in both samples; full containment and parameter audit pending."
+    },
+    "D1 L5C34": {
+      "id": "D1 L5C34",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Speed: native drive varied; two actual output captures reviewed. Visible form in both samples; full containment and parameter audit pending."
+    },
+    "D1 L5C35": {
+      "id": "D1 L5C35",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Speed: native drive varied; two actual output captures reviewed. Off-center emission touches frame edge; Figure framing follow-up required."
+    },
+    "D1 L5C36": {
+      "id": "D1 L5C36",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Displacement: native drive varied; two actual output captures reviewed. Visible form in both samples; full containment and parameter audit pending."
+    },
+    "D1 L5C37": {
+      "id": "D1 L5C37",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Speed: native drive varied; two actual output captures reviewed. Visible form in both samples; full containment and parameter audit pending."
+    },
+    "D1 L5C39": {
+      "id": "D1 L5C39",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Wave Count: native drive varied; two actual output captures reviewed. Wave Count missed one initial target; targeted retry passed. Command reliability remains unresolved."
+    },
+    "D1 L5C41": {
+      "id": "D1 L5C41",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Fiber Radius: native drive varied; two actual output captures reviewed. Large fiber loops reach top/bottom frame edges in first sample."
+    },
+    "D1 L5C42": {
+      "id": "D1 L5C42",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "een: native drive varied; two actual output captures reviewed. Long spikes leave the frame and object is off-center; Figure suitability/framing follow-up required."
+    },
+    "D1 L5C43": {
+      "id": "D1 L5C43",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Float In: native drive varied; two actual output captures reviewed. Long glow rays approach/reach frame edges; full source containment needs follow-up."
+    },
+    "D1 L5C45": {
+      "id": "D1 L5C45",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "pulse: native drive varied; two actual output captures reviewed. Very small, dim cubes in samples; useful scale/brightness needs tuning."
+    },
+    "D1 L5C46": {
+      "id": "D1 L5C46",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Line Width: native drive varied; two actual output captures reviewed. Visible form in both samples; full containment and parameter audit pending."
+    },
+    "D1 L5C47": {
+      "id": "D1 L5C47",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "drift: native drive varied; two actual output captures reviewed. Small dim cube at current settings; second Multi Cube instance is much larger."
+    },
+    "D1 L5C48": {
+      "id": "D1 L5C48",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "drift: native drive varied; two actual output captures reviewed. Visible form in both samples; full containment and parameter audit pending."
+    },
+    "D1 L5C49": {
+      "id": "D1 L5C49",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Speed: native drive varied; two actual output captures reviewed. Visible form in both samples; full containment and parameter audit pending."
+    },
+    "D1 L5C50": {
+      "id": "D1 L5C50",
+      "status": "Blocked",
+      "sampled": true,
+      "note": "Original preserved. Empty fold states addressed in new Heart Melting Fractal, Figure 72."
+    },
+    "D1 L5C51": {
+      "id": "D1 L5C51",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Deform Amplitude: native drive varied; two actual output captures reviewed. Visible form in both samples; full containment and parameter audit pending."
+    },
+    "D1 L5C52": {
+      "id": "D1 L5C52",
+      "status": "Blocked",
+      "sampled": true,
+      "note": "Original preserved. Visible control-ready replacement Heart Klein Bottle installed in Figure 71."
+    },
+    "D1 L5C53": {
+      "id": "D1 L5C53",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Hyper Slice: native drive varied; two actual output captures reviewed. Visible form in both samples; full containment and parameter audit pending."
+    },
+    "D1 L5C54": {
+      "id": "D1 L5C54",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Line Scale: native drive varied; two actual output captures reviewed. Very dim wire geometry, with lower edge contact in second capture; visibility/framing follow-up needed."
+    },
+    "D1 L5C55": {
+      "id": "D1 L5C55",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Gizmo Scale: native drive varied; two actual output captures reviewed. Small axis/gizmo content; review role and useful scale."
+    },
+    "D1 L5C56": {
+      "id": "D1 L5C56",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Speed: native drive varied; two actual output captures reviewed. Speed missed one initial target; targeted retry passed. Command reliability remains unresolved."
+    },
+    "D1 L5C57": {
+      "id": "D1 L5C57",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Speed: native drive varied; two actual output captures reviewed. Long axis arms reach frame edges; Figure framing needs follow-up."
+    },
+    "D1 L5C58": {
+      "id": "D1 L5C58",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Twist Rate: native drive varied; two actual output captures reviewed. Visible form in both samples; full containment and parameter audit pending."
+    },
+    "D1 L5C59": {
+      "id": "D1 L5C59",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Twist Scale: native drive varied; two actual output captures reviewed. Visible form in both samples; full containment and parameter audit pending."
+    },
+    "D1 L5C60": {
+      "id": "D1 L5C60",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Speed: native drive varied; two actual output captures reviewed. Visible form in both samples; full containment and parameter audit pending."
+    },
+    "D1 L5C40": {
+      "id": "D1 L5C40",
+      "status": "Blocked",
+      "sampled": true,
+      "note": "Original preserved. Control-ready replacement installed and live-rendered in Figure L5C14; see source-repair/REPORT.md."
+    },
+    "D1 L5C44": {
+      "id": "D1 L5C44",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Render-only: nonempty changing form in two captures. No source parameters exposed; needs new copy with controls for direct Heart drive."
+    },
+    "D1 L5C2": {
+      "id": "D1 L5C2",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Morph: native drive varies; two actual output captures reviewed. Visible response in samples; complete parameter audit remains."
+    },
+    "D1 L5C3": {
+      "id": "D1 L5C3",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Tumble: native drive varies; two actual output captures reviewed. Tumble missed second initial target; retry passed. Command reliability remains unresolved."
+    },
+    "D1 L5C4": {
+      "id": "D1 L5C4",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "W: native drive varies; two actual output captures reviewed. Visible response in samples; complete parameter audit remains."
+    },
+    "D1 L5C5": {
+      "id": "D1 L5C5",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Thickness: native drive varies; two actual output captures reviewed. Small, near-edge-on form at current settings; useful orientation needs tuning."
+    },
+    "D1 L5C6": {
+      "id": "D1 L5C6",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Connect: native drive varies; two actual output captures reviewed. Visible response in samples; complete parameter audit remains."
+    },
+    "D1 L5C7": {
+      "id": "D1 L5C7",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Morph: native drive varies; two actual output captures reviewed. Small and noisy material at current settings; useful appearance needs tuning."
+    },
+    "D1 L5C8": {
+      "id": "D1 L5C8",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Tumble: native drive varies; two actual output captures reviewed. Visible response in samples; complete parameter audit remains."
+    },
+    "D1 L5C9": {
+      "id": "D1 L5C9",
+      "status": "Original retained",
+      "note": "Edge-on Spin plus source XY reproduced thin sliver. Centered replacement Heart Capsule is in Figure 73; original preserved."
+    },
+    "D1 L5C61": {
+      "id": "D1 L5C61",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Morph: native drive varies; two actual output captures reviewed. Full-frame close-up; Figure framing/role needs follow-up."
+    },
+    "D1 L5C62": {
+      "id": "D1 L5C62",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Rate: native drive varies; two actual output captures reviewed. Diagnostic state-test source; separate from performance content."
+    },
+    "D1 L5C63": {
+      "id": "D1 L5C63",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Radius: native drive varies; two actual output captures reviewed. Scattered circles reach edges; Figure role needs follow-up."
+    },
+    "D1 L5C64": {
+      "id": "D1 L5C64",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Morph: native drive varies; two actual output captures reviewed. Full-frame close-up; Figure framing/role needs follow-up."
+    },
+    "D1 L5C65": {
+      "id": "D1 L5C65",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "balance: native drive varies; two actual output captures reviewed. Full-frame bars; sorting/role follow-up needed."
+    },
+    "D1 L5C66": {
+      "id": "D1 L5C66",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Rate: native drive varies; two actual output captures reviewed. Diagnostic state-test source; separate from performance content."
+    },
+    "D1 L5C67": {
+      "id": "D1 L5C67",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Noise Amount: native drive varies; two actual output captures reviewed. Visible response in samples; complete parameter audit remains."
+    },
+    "D1 L5C68": {
+      "id": "D1 L5C68",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Spacing: native drive varies; two actual output captures reviewed. Rings reach all frame edges; Figure role/framing follow-up needed."
+    },
+    "D1 L5C69": {
+      "id": "D1 L5C69",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Frequency: native drive varies; two actual output captures reviewed. Full-frame tunnel pattern; Figure role/framing follow-up needed."
+    },
+    "D1 L5C70": {
+      "id": "D1 L5C70",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Radius: native drive varies; two actual output captures reviewed. Scattered balls across frame; Figure role follow-up needed."
+    },
+    "D1 L7C2": {
+      "id": "D1 L7C2",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Duty: native drive varies; two actual output captures reviewed. Visible response in samples; complete parameter audit remains."
+    },
+    "D1 L7C8": {
+      "id": "D1 L7C8",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Duty: native drive varies; two actual output captures reviewed. Visible response in samples; complete parameter audit remains."
+    },
+    "D1 L8C1": {
+      "id": "D1 L8C1",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Corrected alpha-aware review: original motion captures show visible changing output. Previous white/static flag was a review conversion error. Fresh neutral settings also render correctly; no shader change needed."
+    },
+    "D1 L8C8": {
+      "id": "D1 L8C8",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Amount: native drive varies; two actual output captures reviewed. Visible response in samples; complete parameter audit remains."
+    },
+    "D1 L8C9": {
+      "id": "D1 L8C9",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Rate: native drive varies; two actual output captures reviewed. Diagnostic state-test source; separate from performance content."
+    },
+    "D1 L8C16": {
+      "id": "D1 L8C16",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Width: native drive varies; two actual output captures reviewed. Width motion fills the frame white in the second sample; needs a useful performance range."
+    },
+    "D1 L8C17": {
+      "id": "D1 L8C17",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Num X: native drive varies; two actual output captures reviewed. Num X exposes a huge range (1\u2013100000); sampled high counts alias densely. Needs a usable musical range."
+    },
+    "D1 L8C18": {
+      "id": "D1 L8C18",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Distortion: native drive varies; two actual output captures reviewed. Visible response in samples; complete parameter audit remains."
+    },
+    "D1 L8C15": {
+      "id": "D1 L8C15",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Choice control: Color and Two-tone selected through Heart, 2/2 native acknowledgements and actual output reviewed. Not a continuous drive test."
+    },
+    "D1 L3C1": {
+      "id": "D1 L3C1",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Scale: 2/2 manual targets passed; native drive varies; actual output reviewed. Full parameter, Home, continuity and relaunch audit remains."
+    },
+    "D1 L3C2": {
+      "id": "D1 L3C2",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Scale: 2/2 manual targets passed; native drive varies; actual output reviewed. Full parameter, Home, continuity and relaunch audit remains."
+    },
+    "D1 L3C3": {
+      "id": "D1 L3C3",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Density: 2/2 manual targets passed; native drive varies; actual output reviewed. Full parameter, Home, continuity and relaunch audit remains."
+    },
+    "D1 L3C8": {
+      "id": "D1 L3C8",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Corrected alpha-aware review: original motion captures show visible changing output. Previous white/static flag was a review conversion error. Fresh neutral settings also render correctly; no shader change needed."
+    },
+    "D1 L3C92": {
+      "id": "D1 L3C92",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Ring: 2/2 manual targets passed; native drive varies; actual output reviewed. Full parameter, Home, continuity and relaunch audit remains."
+    },
+    "D1 L3C94": {
+      "id": "D1 L3C94",
+      "status": "Blocked",
+      "sampled": true,
+      "note": "Original signed warp multiplies RGB and can produce black. New Heart Color Wheel in Field 13 provides labeled positive Gain and bounded saturation."
+    },
+    "D1 L3C95": {
+      "id": "D1 L3C95",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Amplitude: 2/2 manual targets passed; native drive varies; actual output reviewed. Full parameter, Home, continuity and relaunch audit remains."
+    },
+    "D1 L3C96": {
+      "id": "D1 L3C96",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Ring: 2/2 manual targets passed; native drive varies; actual output reviewed. Full parameter, Home, continuity and relaunch audit remains."
+    },
+    "D1 L3C97": {
+      "id": "D1 L3C97",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Num X: 2/2 manual targets passed; native drive varies; actual output reviewed. 8 and 32 cells accepted manually; driven samples exceeded requested 8\u201332 range. Config transition/range behavior not certified."
+    },
+    "D1 L3C98": {
+      "id": "D1 L3C98",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Distortion: 2/2 manual targets passed; native drive varies; actual output reviewed. Full parameter, Home, continuity and relaunch audit remains."
+    },
+    "D1 L3C99": {
+      "id": "D1 L3C99",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Width: 2/2 manual targets passed; native drive varies; actual output reviewed. Width test fills output white in second frame; useful range needs tuning."
+    },
+    "D1 L3C101": {
+      "id": "D1 L3C101",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Width: 2/2 manual targets passed; native drive varies; actual output reviewed. Width test fills output white in second frame; useful range needs tuning."
+    },
+    "D1 L3C102": {
+      "id": "D1 L3C102",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Spacing: 2/2 manual targets passed; native drive varies; actual output reviewed. Full parameter, Home, continuity and relaunch audit remains."
+    },
+    "D1 L3C103": {
+      "id": "D1 L3C103",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Distortion: 2/2 manual targets passed; native drive varies; actual output reviewed. Full parameter, Home, continuity and relaunch audit remains."
+    },
+    "D1 L3C104": {
+      "id": "D1 L3C104",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Num X: 2/2 manual targets passed; native drive varies; actual output reviewed. 8 and 32 cells accepted manually; driven samples exceeded requested 8\u201332 range. Config transition/range behavior not certified."
+    },
+    "D1 L3C105": {
+      "id": "D1 L3C105",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Amplitude: 2/2 manual targets passed; native drive varies; actual output reviewed. Full parameter, Home, continuity and relaunch audit remains."
+    },
+    "D1 L3C107": {
+      "id": "D1 L3C107",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Num X: 2/2 manual targets passed; native drive varies; actual output reviewed. 8 and 32 cells accepted manually; driven samples exceeded requested 8\u201332 range. Config transition/range behavior not certified."
+    },
+    "D1 L3C108": {
+      "id": "D1 L3C108",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Distortion: 2/2 manual targets passed; native drive varies; actual output reviewed. Full parameter, Home, continuity and relaunch audit remains."
+    },
+    "D1 L3C93": {
+      "id": "D1 L3C93",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Choice Type: 2/2 native acknowledgements; both actual output captures reviewed. Continuous controls not exhaustively tested."
+    },
+    "D1 L3C100": {
+      "id": "D1 L3C100",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Choice Type: 2/2 native acknowledgements; both actual output captures reviewed. Continuous controls not exhaustively tested."
+    },
+    "D1 L3C106": {
+      "id": "D1 L3C106",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Choice Mode: 2/2 native acknowledgements; both actual output captures reviewed. Continuous controls not exhaustively tested."
+    },
+    "D1 L5C13": {
+      "id": "D1 L5C13",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Heart HypnoWorm: new copy installed and live output reviewed. Across both copies: 44/44 manual control targets, two driven structural controls, six framing renders passed. Home/Settle and exhaustive smoothness remain unverified. Factory Home and Open/Home recovery: 14/14 native values; drives/effects off; actual rest output reviewed."
+    },
+    "D1 L5C14": {
+      "id": "D1 L5C14",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Heart Torus: new copy installed and live output reviewed. Across both copies: 44/44 manual control targets, two driven structural controls, six framing renders passed. Home/Settle and exhaustive smoothness remain unverified. Factory Home and Open/Home recovery: 8/8 native values; drives/effects off; actual rest output reviewed."
+    },
+    "D1 L3C4": {
+      "id": "D1 L3C4",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Heart Quaternion Field: 11 controls exposed in new copy; all manual targets passed, structural drive varied and live output reviewed. Home/Settle remains unverified. Factory Home recovery and Open/Home cycle now passed live; output reviewed. User-saved Home overrides preserved."
+    },
+    "D1 L3C5": {
+      "id": "D1 L3C5",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Heart Quaternion Swell: 7 controls exposed in new copy; all manual targets passed, structural drive varied and live output reviewed. Home/Settle remains unverified. Factory Home and Open/Home recovery: 7/7 native values; drives/effects off; actual rest output reviewed."
+    },
+    "D1 L3C6": {
+      "id": "D1 L3C6",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Heart Paper Fractal: 13 controls exposed in new copy; all manual targets passed, structural drive varied and live output reviewed. Home/Settle remains unverified. Factory Home and Open/Home recovery: 13/13 native values; drives/effects off; actual rest output reviewed."
+    },
+    "D1 L3C7": {
+      "id": "D1 L3C7",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Heart Vector Lattice: 6 controls exposed in new copy; all manual targets passed, structural drive varied and live output reviewed. Home/Settle remains unverified. Factory Home and Open/Home recovery: 6/6 native values; drives/effects off; actual rest output reviewed."
+    },
+    "D1 L3C9": {
+      "id": "D1 L3C9",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Heart Concentrip: 6 controls exposed; live structural motion reviewed. Batch manual pass 75/78 initially; three delivery misses under follow-up. Home/Settle not certified; Kali placement provisional. Factory Home and Open/Home recovery: 6/6 native values; drives/effects off; actual rest output reviewed."
+    },
+    "D1 L3C10": {
+      "id": "D1 L3C10",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Heart Puls Lattice: 7 controls exposed; live structural motion reviewed. Batch manual pass 75/78 initially; three delivery misses under follow-up. Home/Settle not certified; Kali placement provisional. Factory Home and Open/Home recovery: 7/7 native values; drives/effects off; actual rest output reviewed."
+    },
+    "D1 L3C11": {
+      "id": "D1 L3C11",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Heart Ancient Temple: 16 controls exposed; live structural motion reviewed. Batch manual pass 75/78 initially; three delivery misses under follow-up. Home/Settle not certified; Kali placement provisional. Factory Home and Open/Home recovery: 16/16 native values; drives/effects off; actual rest output reviewed."
+    },
+    "D1 L3C12": {
+      "id": "D1 L3C12",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Heart Kali Liberation: 10 controls exposed; live structural motion reviewed. Batch manual pass 75/78 initially; three delivery misses under follow-up. Home/Settle not certified; Kali placement provisional. Factory Home and Open/Home recovery: 10/10 native values; drives/effects off; actual rest output reviewed."
+    },
+    "D1 L3C13": {
+      "id": "D1 L3C13",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Heart Color Wheel: positive Gain replaces misleading signed warp; 12/12 controls passed, live hue motion reviewed. High gain can wash to white. Original preserved. Factory Home and Open/Home recovery: 6/6 native values; drives/effects off; actual rest output reviewed."
+    },
+    "D1 L5C71": {
+      "id": "D1 L5C71",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Heart Klein Bottle: visible output and orientation drive reviewed; 14/14 manual targets, six framing cases pass. Refraction subtle; Home/Settle and exhaustive bounds unverified. Factory Home recovery and Open/Home cycle now passed live; output reviewed. User-saved Home overrides preserved."
+    },
+    "D1 L5C72": {
+      "id": "D1 L5C72",
+      "status": "Sampled",
+      "sampled": true,
+      "note": "Heart Melting Fractal: 14/14 manual checks; live Fold Phase visibly changes geometry. 24 fold/phase/twist cases nonempty; four aspect cases contained. Full sweeps and Home/Settle unverified. Factory Home recovery and Open/Home cycle now passed live; output reviewed. User-saved Home overrides preserved."
+    },
+    "D1 L5C73": {
+      "id": "D1 L5C73",
+      "status": "Sampled",
+      "note": "10/10 native manual values; live Tilt visibly moves; 21 sampled aspect/tilt cases nonempty with zero edge alpha. 5/5 Home recovery values; drives/effects off. Original preserved; not exhaustive acceptance."
+    }
+  },
+  "rows": [
+    {
+      "id": "D1 L1C1",
+      "source": "Video Router",
+      "layer": 1,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L1C2",
+      "source": "Video Router",
+      "layer": 1,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L1C3",
+      "source": "Video Router",
+      "layer": 1,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L1C4",
+      "source": "Video Router",
+      "layer": 1,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L1C5",
+      "source": "Video Router",
+      "layer": 1,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L1C8",
+      "source": "Feedback",
+      "layer": 1,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L1C15",
+      "source": "Feedback",
+      "layer": 1,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L1C16",
+      "source": "Feedback",
+      "layer": 1,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L1C17",
+      "source": "Feedback",
+      "layer": 1,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L1C18",
+      "source": "Feedback",
+      "layer": 1,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L1C19",
+      "source": "Feedback",
+      "layer": 1,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L1C20",
+      "source": "Feedback",
+      "layer": 1,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L1C21",
+      "source": "Feedback",
+      "layer": 1,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L1C22",
+      "source": "Feedback",
+      "layer": 1,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L1C23",
+      "source": "Feedback",
+      "layer": 1,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L1C24",
+      "source": "Feedback",
+      "layer": 1,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L1C25",
+      "source": "Feedback",
+      "layer": 1,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L1C26",
+      "source": "Feedback",
+      "layer": 1,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L1C27",
+      "source": "Feedback",
+      "layer": 1,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L1C28",
+      "source": "Feedback",
+      "layer": 1,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L1C29",
+      "source": "Feedback",
+      "layer": 1,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L1C30",
+      "source": "Feedback",
+      "layer": 1,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L1C31",
+      "source": "Feedback",
+      "layer": 1,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L1C32",
+      "source": "Feedback",
+      "layer": 1,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L1C33",
+      "source": "Feedback",
+      "layer": 1,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L1C34",
+      "source": "Feedback",
+      "layer": 1,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L1C35",
+      "source": "Feedback",
+      "layer": 1,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L1C36",
+      "source": "Feedback",
+      "layer": 1,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L1C37",
+      "source": "Feedback",
+      "layer": 1,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L1C38",
+      "source": "Feedback",
+      "layer": 1,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L1C39",
+      "source": "Feedback",
+      "layer": 1,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L1C40",
+      "source": "Feedback",
+      "layer": 1,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L1C41",
+      "source": "Feedback",
+      "layer": 1,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L1C42",
+      "source": "Feedback",
+      "layer": 1,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L2C1",
+      "source": "Video Router",
+      "layer": 2,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L2C2",
+      "source": "Video Router",
+      "layer": 2,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L2C3",
+      "source": "Video Router",
+      "layer": 2,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L2C4",
+      "source": "Video Router",
+      "layer": 2,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L2C8",
+      "source": "Feedback",
+      "layer": 2,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L2C15",
+      "source": "Feedback",
+      "layer": 2,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L2C16",
+      "source": "Feedback",
+      "layer": 2,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L3C1",
+      "source": "SP Atom Ground",
+      "layer": 3,
+      "controls": 19,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Scale: 2/2 manual targets passed; native drive varies; actual output reviewed. Full parameter, Home, continuity and relaunch audit remains."
+    },
+    {
+      "id": "D1 L3C2",
+      "source": "SP Atom Room",
+      "layer": 3,
+      "controls": 25,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Scale: 2/2 manual targets passed; native drive varies; actual output reviewed. Full parameter, Home, continuity and relaunch audit remains."
+    },
+    {
+      "id": "D1 L3C3",
+      "source": "SP Atom Void",
+      "layer": 3,
+      "controls": 15,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Density: 2/2 manual targets passed; native drive varies; actual output reviewed. Full parameter, Home, continuity and relaunch audit remains."
+    },
+    {
+      "id": "D1 L3C8",
+      "source": "SP Field",
+      "layer": 3,
+      "controls": 34,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Corrected alpha-aware review: original motion captures show visible changing output. Previous white/static flag was a review conversion error. Fresh neutral settings also render correctly; no shader change needed."
+    },
+    {
+      "id": "D1 L3C15",
+      "source": "MTK_Worleyz",
+      "layer": 3,
+      "controls": 15,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "JITTER: native drive varied; two actual output frames reviewed. 2/2 manual targets passed."
+    },
+    {
+      "id": "D1 L3C16",
+      "source": "ButterflyEffect",
+      "layer": 3,
+      "controls": 8,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "batch1: two rendered probe positions + driven samples; all numeric readback checked"
+    },
+    {
+      "id": "D1 L3C17",
+      "source": "Cuadricula rect",
+      "layer": 3,
+      "controls": 10,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "batch2: rendered probe positions + restrained two-drive samples; numeric readbacks checked; Home and relaunch verified"
+    },
+    {
+      "id": "D1 L3C18",
+      "source": "data blocks",
+      "layer": 3,
+      "controls": 13,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "batch2: rendered probe positions + restrained two-drive samples; numeric readbacks checked; Home and relaunch verified"
+    },
+    {
+      "id": "D1 L3C19",
+      "source": "fractal alien text",
+      "layer": 3,
+      "controls": 4,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "dimensions: native drive varied; two actual output frames reviewed. 2/2 manual targets passed."
+    },
+    {
+      "id": "D1 L3C20",
+      "source": "Gradient Bars",
+      "layer": 3,
+      "controls": 10,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "batch1: two rendered probe positions + driven samples; all numeric readback checked"
+    },
+    {
+      "id": "D1 L3C21",
+      "source": "TileIllusion",
+      "layer": 3,
+      "controls": 2,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "scale: 2/2 native manual readbacks; driven values varied; two full-output frames reviewed."
+    },
+    {
+      "id": "D1 L3C22",
+      "source": "Melty Boi",
+      "layer": 3,
+      "controls": 7,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "batch1: two rendered probe positions + driven samples; all numeric readback checked"
+    },
+    {
+      "id": "D1 L3C23",
+      "source": "Screen Weaver",
+      "layer": 3,
+      "controls": 1,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Speed: 2/2 native manual readbacks; driven values varied; two full-output frames reviewed. Speed-only source: richer shape controls and continuous-warp behavior remain unverified."
+    },
+    {
+      "id": "D1 L3C24",
+      "source": "sin_wave",
+      "layer": 3,
+      "controls": 1,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Speed: 2/2 native manual readbacks; driven values varied; two full-output frames reviewed. Speed-only source: richer shape controls and continuous-warp behavior remain unverified."
+    },
+    {
+      "id": "D1 L3C25",
+      "source": "SpiralSurface",
+      "layer": 3,
+      "controls": 4,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "density: 2/2 native manual readbacks; driven values varied; two full-output frames reviewed."
+    },
+    {
+      "id": "D1 L3C26",
+      "source": "Dark Tomb",
+      "layer": 3,
+      "controls": 4,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "een: native drive varied; two actual output frames reviewed. 2/2 manual targets passed."
+    },
+    {
+      "id": "D1 L3C27",
+      "source": "cubes + spheres",
+      "layer": 3,
+      "controls": 2,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "x: native drive varied; two actual output frames reviewed. Near-black output during sampled motion; useful camera/shape range needs follow-up."
+    },
+    {
+      "id": "D1 L3C28",
+      "source": "RailroadTracks",
+      "layer": 3,
+      "controls": 7,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "batch2: rendered probe positions + restrained two-drive samples; numeric readbacks checked; Home and relaunch verified"
+    },
+    {
+      "id": "D1 L3C29",
+      "source": "quantum chaos",
+      "layer": 3,
+      "controls": 1,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Speed: 2/2 native manual readbacks; driven values varied; two full-output frames reviewed. Speed-only source: richer shape controls and continuous-warp behavior remain unverified."
+    },
+    {
+      "id": "D1 L3C30",
+      "source": "Quaternion RGB vector rotation",
+      "layer": 3,
+      "controls": 1,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Speed: native drive varied; two actual output frames reviewed. 2/2 manual targets passed. Speed-only source; richer shape control and continuous warping not verified."
+    },
+    {
+      "id": "D1 L3C31",
+      "source": "RetroTechnicolorComputer",
+      "layer": 3,
+      "controls": 8,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "batch2: rendered probe positions + restrained two-drive samples; numeric readbacks checked; Home and relaunch verified"
+    },
+    {
+      "id": "D1 L3C32",
+      "source": "SmoothXORi",
+      "layer": 3,
+      "controls": 9,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "batch2: rendered probe positions + restrained two-drive samples; numeric readbacks checked; Home and relaunch verified"
+    },
+    {
+      "id": "D1 L3C33",
+      "source": "TruchetDualLevelSpin",
+      "layer": 3,
+      "controls": 11,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "batch2: rendered probe positions + restrained two-drive samples; numeric readbacks checked; Home and relaunch verified"
+    },
+    {
+      "id": "D1 L3C34",
+      "source": "TwinRays",
+      "layer": 3,
+      "controls": 6,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "width: 2/2 native manual readbacks; driven values varied; two full-output frames reviewed."
+    },
+    {
+      "id": "D1 L3C35",
+      "source": "VoroniCubes",
+      "layer": 3,
+      "controls": 5,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "scale: native drive varied; two actual output frames reviewed. 2/2 manual targets passed."
+    },
+    {
+      "id": "D1 L3C36",
+      "source": "Concentrip",
+      "layer": 3,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Render-only: two actual output frames reviewed. Resolume sourceparams is null; source controls must be added to a new copy before Heart can drive it."
+    },
+    {
+      "id": "D1 L3C37",
+      "source": "Higgs Mechanism",
+      "layer": 3,
+      "controls": 1,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Speed: native drive varied; two actual output frames reviewed. 2/2 manual targets passed. Speed-only source; richer shape control and continuous warping not verified."
+    },
+    {
+      "id": "D1 L3C38",
+      "source": "Klein bottle figure 8 immersion",
+      "layer": 3,
+      "controls": 3,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Radius: native drive varied; two actual output frames reviewed. Radius missed the second manual target on first pass, passed targeted retry. Reliability issue remains."
+    },
+    {
+      "id": "D1 L3C39",
+      "source": "PsychedeliaGenerica",
+      "layer": 3,
+      "controls": 6,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "scale: native drive varied; two actual output frames reviewed. 2/2 manual targets passed."
+    },
+    {
+      "id": "D1 L3C40",
+      "source": "Potential Energy",
+      "layer": 3,
+      "controls": 1,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Speed: native drive varied; two actual output frames reviewed. Rendered output contains heavy noise around rainbow forms; intended appearance versus numerical artifact not yet determined. Speed-only source; richer shape control and continuous warping not verified."
+    },
+    {
+      "id": "D1 L3C41",
+      "source": "Magnetic Anomaly",
+      "layer": 3,
+      "controls": 8,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Nebula Brightness: native drive varied; two actual output frames reviewed. 2/2 manual targets passed."
+    },
+    {
+      "id": "D1 L3C42",
+      "source": "Quantum Field Theory",
+      "layer": 3,
+      "controls": 1,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Speed: native drive varied; two actual output frames reviewed. 2/2 manual targets passed. Speed-only source; richer shape control and continuous warping not verified."
+    },
+    {
+      "id": "D1 L3C43",
+      "source": "QuarternionSwell",
+      "layer": 3,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Render-only: two actual output frames reviewed. Resolume sourceparams is null; source controls must be added to a new copy before Heart can drive it."
+    },
+    {
+      "id": "D1 L3C44",
+      "source": "QField2",
+      "layer": 3,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Render-only: two actual output frames reviewed. Resolume sourceparams is null; source controls must be added to a new copy before Heart can drive it."
+    },
+    {
+      "id": "D1 L3C45",
+      "source": "QuarternionFieldDistortion",
+      "layer": 3,
+      "controls": 6,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "strength: native drive varied; two actual output frames reviewed. 2/2 manual targets passed."
+    },
+    {
+      "id": "D1 L3C46",
+      "source": "Cos Orbit",
+      "layer": 3,
+      "controls": 6,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "wave scale: native drive varied; two actual output frames reviewed. 2/2 manual targets passed."
+    },
+    {
+      "id": "D1 L3C47",
+      "source": "Flower2",
+      "layer": 3,
+      "controls": 4,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "draaixas: native drive varied; two actual output frames reviewed. Centered flower in both frames: candidate for Figure sorting; containment not certified."
+    },
+    {
+      "id": "D1 L3C48",
+      "source": "Creation",
+      "layer": 3,
+      "controls": 3,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "intensity: native drive varied; two actual output frames reviewed. Output is dark at the sampled intensity, but visible and changing."
+    },
+    {
+      "id": "D1 L3C49",
+      "source": "Gentle Rings",
+      "layer": 3,
+      "controls": 1,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Speed: native drive varied; two actual output frames reviewed. 2/2 manual readbacks passed. Speed-only source: shape control expansion remains."
+    },
+    {
+      "id": "D1 L3C50",
+      "source": "Quantum Fractal",
+      "layer": 3,
+      "controls": 1,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Speed: native drive varied; two actual output frames reviewed. 2/2 manual readbacks passed. Speed-only source: shape control expansion remains."
+    },
+    {
+      "id": "D1 L3C51",
+      "source": "spiral intersect",
+      "layer": 3,
+      "controls": 8,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "g1: native drive varied; two actual output frames reviewed. 2/2 manual targets passed."
+    },
+    {
+      "id": "D1 L3C52",
+      "source": "Quasi-Kleinian Ring of Circles",
+      "layer": 3,
+      "controls": 6,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Overlap: native drive varied; two actual output frames reviewed. 2/2 manual readbacks passed."
+    },
+    {
+      "id": "D1 L3C53",
+      "source": "Poincare Disk",
+      "layer": 3,
+      "controls": 1,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Speed: native drive varied; two actual output frames reviewed. Second manual target missed initially; targeted retry passed. Intermittent command reliability remains unresolved. Speed-only source: shape control expansion remains."
+    },
+    {
+      "id": "D1 L3C54",
+      "source": "FractalCartoon",
+      "layer": 3,
+      "controls": 5,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "amp: native drive varied; two actual output frames reviewed. 2/2 manual readbacks passed."
+    },
+    {
+      "id": "D1 L3C55",
+      "source": "MergerTunnel",
+      "layer": 3,
+      "controls": 5,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "depth: native drive varied; two actual output frames reviewed. 2/2 manual readbacks passed."
+    },
+    {
+      "id": "D1 L3C56",
+      "source": "Sands",
+      "layer": 3,
+      "controls": 1,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Speed: native drive varied; two actual output frames reviewed. 2/2 manual readbacks passed. Speed-only source: shape control expansion remains."
+    },
+    {
+      "id": "D1 L3C57",
+      "source": "Paper Fractal",
+      "layer": 3,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Render-only: two actual output frames reviewed. Resolume sourceparams is null; source controls must be added to a new copy before Heart can drive it."
+    },
+    {
+      "id": "D1 L3C58",
+      "source": "ShaderLamb",
+      "layer": 3,
+      "controls": 5,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "warp: native drive varied; two actual output frames reviewed. Diffuse output with little distinct structure in these samples; camera/warp relationship needs deeper review."
+    },
+    {
+      "id": "D1 L3C59",
+      "source": "Cumulus",
+      "layer": 3,
+      "controls": 9,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "main form: native drive varied; two actual output frames reviewed. Object-like geometry against a background; review role before sorting."
+    },
+    {
+      "id": "D1 L3C60",
+      "source": "MetaSevenVortex",
+      "layer": 3,
+      "controls": 9,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "scale: native drive varied; two actual output frames reviewed. Large curling geometry leaves the frame; acceptable for Field, not certified for Figure."
+    },
+    {
+      "id": "D1 L3C61",
+      "source": "Wild Style",
+      "layer": 3,
+      "controls": 5,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "angle: native drive varied; two actual output frames reviewed. 2/2 manual readbacks passed."
+    },
+    {
+      "id": "D1 L3C62",
+      "source": "VectorFromHell",
+      "layer": 3,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Render-only: two actual output frames reviewed. Resolume sourceparams is null; source controls must be added to a new copy before Heart can drive it."
+    },
+    {
+      "id": "D1 L3C63",
+      "source": "AI Escape valve",
+      "layer": 3,
+      "controls": 5,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "IFS Scale: native drive varied; two actual output frames reviewed. Geometry intersects frame edges; current Field role retained."
+    },
+    {
+      "id": "D1 L3C64",
+      "source": "Apollonian",
+      "layer": 3,
+      "controls": 3,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Fractal Scale: native drive varied; two actual output frames reviewed. 2/2 manual readbacks passed."
+    },
+    {
+      "id": "D1 L3C65",
+      "source": "Equirectangular Apollonian",
+      "layer": 3,
+      "controls": 3,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Fractal Scale: native drive varied; two actual output frames reviewed. 2/2 manual readbacks passed."
+    },
+    {
+      "id": "D1 L3C66",
+      "source": "Kali - ancient temple",
+      "layer": 3,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Render-only: two actual output frames reviewed. Resolume sourceparams is null; source controls must be added to a new copy before Heart can drive it."
+    },
+    {
+      "id": "D1 L3C67",
+      "source": "Kissing Donuts",
+      "layer": 3,
+      "controls": 6,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Torus Thickness: native drive varied; two actual output frames reviewed. Very close camera/geometry view; useful framing needs tuning."
+    },
+    {
+      "id": "D1 L3C68",
+      "source": "Kleinian limit set",
+      "layer": 3,
+      "controls": 5,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "View Scale: native drive varied; two actual output frames reviewed. 2/2 manual targets passed."
+    },
+    {
+      "id": "D1 L3C69",
+      "source": "Kleinian limit set-Maskit slice",
+      "layer": 3,
+      "controls": 3,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Offset X: native drive varied; two actual output frames reviewed. 2/2 manual targets passed."
+    },
+    {
+      "id": "D1 L3C70",
+      "source": "TwoFiftySixBiatch",
+      "layer": 3,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Render-only: two actual output frames reviewed. Resolume sourceparams is null; source controls must be added to a new copy before Heart can drive it."
+    },
+    {
+      "id": "D1 L3C71",
+      "source": "MegaWave 2",
+      "layer": 3,
+      "controls": 1,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Speed: native drive varied; two actual output frames reviewed. 2/2 manual targets passed. Speed-only exposure; richer shape relationships remain."
+    },
+    {
+      "id": "D1 L3C72",
+      "source": "[phreax] quantum field",
+      "layer": 3,
+      "controls": 1,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Speed: native drive varied; two actual output frames reviewed. 2/2 manual targets passed. Speed-only exposure; richer shape relationships remain."
+    },
+    {
+      "id": "D1 L3C73",
+      "source": "Oldschool Tube",
+      "layer": 3,
+      "controls": 1,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Speed: native drive varied; two actual output frames reviewed. 2/2 manual targets passed. Speed-only exposure; richer shape relationships remain."
+    },
+    {
+      "id": "D1 L3C74",
+      "source": "Full Spectrum Cyber",
+      "layer": 3,
+      "controls": 1,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Speed: native drive varied; two actual output frames reviewed. 2/2 manual targets passed. Speed-only exposure; richer shape relationships remain."
+    },
+    {
+      "id": "D1 L3C75",
+      "source": "ocean waves",
+      "layer": 3,
+      "controls": 10,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "choppy: native drive varied; two actual output frames reviewed. 2/2 manual readbacks passed."
+    },
+    {
+      "id": "D1 L3C76",
+      "source": "ocean waves",
+      "layer": 3,
+      "controls": 10,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "height: native drive varied; two actual output frames reviewed. Height test produced a pale surface filling the view before a normal ocean view; follow up camera/height relationship."
+    },
+    {
+      "id": "D1 L3C77",
+      "source": "Dodecahedral Permutations",
+      "layer": 3,
+      "controls": 1,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Speed: native drive varied; two actual output frames reviewed. 2/2 manual targets passed. Speed-only exposure; richer shape relationships remain."
+    },
+    {
+      "id": "D1 L3C78",
+      "source": "Deep Quantum Time State",
+      "layer": 3,
+      "controls": 1,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Speed: native drive varied; two actual output frames reviewed. One initial Speed request missed; targeted retry passed. Command reliability remains unresolved. Speed-only exposure; richer shape relationships remain."
+    },
+    {
+      "id": "D1 L3C79",
+      "source": "q_interference23",
+      "layer": 3,
+      "controls": 3,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Camera Angle: native drive varied; two actual output frames reviewed. 2/2 manual targets passed."
+    },
+    {
+      "id": "D1 L3C80",
+      "source": "flex links - v2",
+      "layer": 3,
+      "controls": 1,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Speed: native drive varied; two actual output frames reviewed. 2/2 manual targets passed. Speed-only exposure; richer shape relationships remain."
+    },
+    {
+      "id": "D1 L3C81",
+      "source": "flex links - v3",
+      "layer": 3,
+      "controls": 1,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Speed: native drive varied; two actual output frames reviewed. 2/2 manual targets passed. Speed-only exposure; richer shape relationships remain."
+    },
+    {
+      "id": "D1 L3C82",
+      "source": "flex links radial - slice",
+      "layer": 3,
+      "controls": 1,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Speed: native drive varied; two actual output frames reviewed. 2/2 manual targets passed. Speed-only exposure; richer shape relationships remain."
+    },
+    {
+      "id": "D1 L3C83",
+      "source": "flex links radial - slice2",
+      "layer": 3,
+      "controls": 1,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Speed: native drive varied; two actual output frames reviewed. 2/2 manual targets passed. Speed-only exposure; richer shape relationships remain."
+    },
+    {
+      "id": "D1 L3C84",
+      "source": "flex links radial - v4",
+      "layer": 3,
+      "controls": 1,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Speed: native drive varied; two actual output frames reviewed. 2/2 manual targets passed. Speed-only exposure; richer shape relationships remain."
+    },
+    {
+      "id": "D1 L3C85",
+      "source": "Quaternion controls",
+      "layer": 3,
+      "controls": 1,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Speed: native drive varied; two actual output frames reviewed. 2/2 manual targets passed. Speed-only exposure; richer shape relationships remain."
+    },
+    {
+      "id": "D1 L3C86",
+      "source": "Space Warping Portals",
+      "layer": 3,
+      "controls": 1,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Speed: native drive varied; two actual output frames reviewed. Large flat surfaces obscure much of the view; useful camera/phase behavior needs review. Speed-only exposure; richer shape relationships remain."
+    },
+    {
+      "id": "D1 L3C87",
+      "source": "Steiner Surfaces",
+      "layer": 3,
+      "controls": 8,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Morph Rate: native drive varied; two actual output frames reviewed. Object-like source with clipped geometry in a sample; Figure suitability not certified."
+    },
+    {
+      "id": "D1 L3C88",
+      "source": "Quantum Socket",
+      "layer": 3,
+      "controls": 1,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Speed: native drive varied; two actual output frames reviewed. Recognizable socket device; object-like content but touches edges, role/framing review needed. Speed-only exposure; richer shape relationships remain."
+    },
+    {
+      "id": "D1 L3C89",
+      "source": "Quaternion Kinematics",
+      "layer": 3,
+      "controls": 1,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Speed: native drive varied; two actual output frames reviewed. 2/2 manual targets passed. Speed-only exposure; richer shape relationships remain."
+    },
+    {
+      "id": "D1 L3C90",
+      "source": "HopfFibration",
+      "layer": 3,
+      "controls": 3,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "angle: native drive varied; two actual output frames reviewed. Soft, diffuse pattern in samples; review intended sharpness before tuning."
+    },
+    {
+      "id": "D1 L3C91",
+      "source": "[2TC 15] old skool 3d driving",
+      "layer": 3,
+      "controls": 1,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Speed: native drive varied; two actual output frames reviewed. 2/2 manual targets passed. Speed-only exposure; richer shape relationships remain."
+    },
+    {
+      "id": "D1 L3C92",
+      "source": "Gentle Rings SP",
+      "layer": 3,
+      "controls": 34,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Ring: 2/2 manual targets passed; native drive varies; actual output reviewed. Full parameter, Home, continuity and relaunch audit remains."
+    },
+    {
+      "id": "D1 L3C93",
+      "source": "Gradient",
+      "layer": 3,
+      "controls": 4,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Choice Type: 2/2 native acknowledgements; both actual output captures reviewed. Continuous controls not exhaustively tested."
+    },
+    {
+      "id": "D1 L3C94",
+      "source": "Color Wheel",
+      "layer": 3,
+      "controls": 8,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Blocked",
+      "note": "Original signed warp multiplies RGB and can produce black. New Heart Color Wheel in Field 13 provides labeled positive Gain and bounded saturation."
+    },
+    {
+      "id": "D1 L3C95",
+      "source": "Sine Wave",
+      "layer": 3,
+      "controls": 12,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Amplitude: 2/2 manual targets passed; native drive varies; actual output reviewed. Full parameter, Home, continuity and relaunch audit remains."
+    },
+    {
+      "id": "D1 L3C96",
+      "source": "Gentle Rings SP",
+      "layer": 3,
+      "controls": 34,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Ring: 2/2 manual targets passed; native drive varies; actual output reviewed. Full parameter, Home, continuity and relaunch audit remains."
+    },
+    {
+      "id": "D1 L3C97",
+      "source": "Checkered",
+      "layer": 3,
+      "controls": 2,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Num X: 2/2 manual targets passed; native drive varies; actual output reviewed. 8 and 32 cells accepted manually; driven samples exceeded requested 8\u201332 range. Config transition/range behavior not certified."
+    },
+    {
+      "id": "D1 L3C98",
+      "source": "Spiral",
+      "layer": 3,
+      "controls": 12,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Distortion: 2/2 manual targets passed; native drive varies; actual output reviewed. Full parameter, Home, continuity and relaunch audit remains."
+    },
+    {
+      "id": "D1 L3C99",
+      "source": "Lines",
+      "layer": 3,
+      "controls": 5,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Width: 2/2 manual targets passed; native drive varies; actual output reviewed. Width test fills output white in second frame; useful range needs tuning."
+    },
+    {
+      "id": "D1 L3C100",
+      "source": "Gradient",
+      "layer": 3,
+      "controls": 4,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Choice Type: 2/2 native acknowledgements; both actual output captures reviewed. Continuous controls not exhaustively tested."
+    },
+    {
+      "id": "D1 L3C101",
+      "source": "Lines",
+      "layer": 3,
+      "controls": 5,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Width: 2/2 manual targets passed; native drive varies; actual output reviewed. Width test fills output white in second frame; useful range needs tuning."
+    },
+    {
+      "id": "D1 L3C102",
+      "source": "Rings",
+      "layer": 3,
+      "controls": 8,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Spacing: 2/2 manual targets passed; native drive varies; actual output reviewed. Full parameter, Home, continuity and relaunch audit remains."
+    },
+    {
+      "id": "D1 L3C103",
+      "source": "Spiral",
+      "layer": 3,
+      "controls": 12,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Distortion: 2/2 manual targets passed; native drive varies; actual output reviewed. Full parameter, Home, continuity and relaunch audit remains."
+    },
+    {
+      "id": "D1 L3C104",
+      "source": "Checkered",
+      "layer": 3,
+      "controls": 2,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Num X: 2/2 manual targets passed; native drive varies; actual output reviewed. 8 and 32 cells accepted manually; driven samples exceeded requested 8\u201332 range. Config transition/range behavior not certified."
+    },
+    {
+      "id": "D1 L3C105",
+      "source": "Sine Wave",
+      "layer": 3,
+      "controls": 12,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Amplitude: 2/2 manual targets passed; native drive varies; actual output reviewed. Full parameter, Home, continuity and relaunch audit remains."
+    },
+    {
+      "id": "D1 L3C106",
+      "source": "Static",
+      "layer": 3,
+      "controls": 1,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Choice Mode: 2/2 native acknowledgements; both actual output captures reviewed. Continuous controls not exhaustively tested."
+    },
+    {
+      "id": "D1 L3C107",
+      "source": "Checkered",
+      "layer": 3,
+      "controls": 2,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Num X: 2/2 manual targets passed; native drive varies; actual output reviewed. 8 and 32 cells accepted manually; driven samples exceeded requested 8\u201332 range. Config transition/range behavior not certified."
+    },
+    {
+      "id": "D1 L3C108",
+      "source": "Spiral",
+      "layer": 3,
+      "controls": 12,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Distortion: 2/2 manual targets passed; native drive varies; actual output reviewed. Full parameter, Home, continuity and relaunch audit remains."
+    },
+    {
+      "id": "D1 L4C1",
+      "source": "Video Router",
+      "layer": 4,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L4C2",
+      "source": "Video Router",
+      "layer": 4,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L4C8",
+      "source": "Feedback",
+      "layer": 4,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L4C12",
+      "source": "Video Router",
+      "layer": 4,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L5C1",
+      "source": "Video Router",
+      "layer": 5,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L5C2",
+      "source": "SP Atom Figure 2D",
+      "layer": 5,
+      "controls": 29,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Morph: native drive varies; two actual output captures reviewed. Visible response in samples; complete parameter audit remains."
+    },
+    {
+      "id": "D1 L5C3",
+      "source": "SP Atom Solid",
+      "layer": 5,
+      "controls": 24,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Tumble: native drive varies; two actual output captures reviewed. Tumble missed second initial target; retry passed. Command reliability remains unresolved."
+    },
+    {
+      "id": "D1 L5C4",
+      "source": "SP Atom 4D",
+      "layer": 5,
+      "controls": 27,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "W: native drive varies; two actual output captures reviewed. Visible response in samples; complete parameter audit remains."
+    },
+    {
+      "id": "D1 L5C5",
+      "source": "SP Atom 4D Field",
+      "layer": 5,
+      "controls": 39,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Thickness: native drive varies; two actual output captures reviewed. Small, near-edge-on form at current settings; useful orientation needs tuning."
+    },
+    {
+      "id": "D1 L5C6",
+      "source": "SP Atom Hybrid",
+      "layer": 5,
+      "controls": 32,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Connect: native drive varies; two actual output captures reviewed. Visible response in samples; complete parameter audit remains."
+    },
+    {
+      "id": "D1 L5C7",
+      "source": "SP Figure Solid Source",
+      "layer": 5,
+      "controls": 21,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Morph: native drive varies; two actual output captures reviewed. Small and noisy material at current settings; useful appearance needs tuning."
+    },
+    {
+      "id": "D1 L5C8",
+      "source": "SP Figure 3D",
+      "layer": 5,
+      "controls": 90,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Tumble: native drive varies; two actual output captures reviewed. Visible response in samples; complete parameter audit remains."
+    },
+    {
+      "id": "D1 L5C9",
+      "source": "SP Figure",
+      "layer": 5,
+      "controls": 62,
+      "enrolled": true,
+      "sampled": false,
+      "status": "Original retained",
+      "note": "Edge-on Spin plus source XY reproduced thin sliver. Centered replacement Heart Capsule is in Figure 73; original preserved."
+    },
+    {
+      "id": "D1 L5C15",
+      "source": "Metaballs",
+      "layer": 5,
+      "controls": 9,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Radius: native drive varied; two actual output captures reviewed. Metaballs reaches frame edges; Figure role/framing requires follow-up."
+    },
+    {
+      "id": "D1 L5C16",
+      "source": "z33d+",
+      "layer": 5,
+      "controls": 7,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "e: native drive varied; two actual output captures reviewed. Centered visible form in samples; containment not certified."
+    },
+    {
+      "id": "D1 L5C17",
+      "source": "DimensionMorphingTopography",
+      "layer": 5,
+      "controls": 11,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "blend x: native drive varied; two actual output captures reviewed. Centered visible form in samples; containment not certified."
+    },
+    {
+      "id": "D1 L5C18",
+      "source": "MagicLougie",
+      "layer": 5,
+      "controls": 14,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "depth: native drive varied; two actual output captures reviewed. Centered visible form in samples; containment not certified."
+    },
+    {
+      "id": "D1 L5C19",
+      "source": "GeodesicTiling",
+      "layer": 5,
+      "controls": 5,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "subdivison: native drive varied; two actual output captures reviewed. Centered visible form in samples; containment not certified."
+    },
+    {
+      "id": "D1 L5C20",
+      "source": "RainbowRingCubicTwist",
+      "layer": 5,
+      "controls": 5,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Blocked",
+      "note": "Original retained; bounded replacement tested and installed in Figure L5C10."
+    },
+    {
+      "id": "D1 L5C21",
+      "source": "SpaceSpore",
+      "layer": 5,
+      "controls": 15,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "morph: native drive varied; two actual output captures reviewed. Centered visible form in samples; containment not certified."
+    },
+    {
+      "id": "D1 L5C22",
+      "source": "4D Voronoi + Hopf Fibration",
+      "layer": 5,
+      "controls": 8,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Brightness: native drive varied; two actual output captures reviewed. Centered visible form in samples; containment not certified."
+    },
+    {
+      "id": "D1 L5C23",
+      "source": "16 Dimensional Julia (Sedenion)",
+      "layer": 5,
+      "controls": 8,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Julia Amplitude: native drive varied; two actual output captures reviewed. Centered visible form in samples; containment not certified."
+    },
+    {
+      "id": "D1 L5C24",
+      "source": "Barth Sextic Surfaces",
+      "layer": 5,
+      "controls": 8,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Surface K: native drive varied; two actual output captures reviewed. Centered visible form in samples; containment not certified."
+    },
+    {
+      "id": "D1 L5C25",
+      "source": "Crystal Drops",
+      "layer": 5,
+      "controls": 8,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Blocked",
+      "note": "Controls tested; satellite droplets cross the frame during motion. Needs bounded geometry or a different layer role."
+    },
+    {
+      "id": "D1 L5C26",
+      "source": "curved surface",
+      "layer": 5,
+      "controls": 7,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Speed: native drive varied; two actual output captures reviewed. One Speed target missed initially; targeted retry passed. Reliability remains unresolved."
+    },
+    {
+      "id": "D1 L5C27",
+      "source": "Hopf + Poincare",
+      "layer": 5,
+      "controls": 7,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Refraction: native drive varied; two actual output captures reviewed. Centered visible form in samples; containment not certified."
+    },
+    {
+      "id": "D1 L5C28",
+      "source": "HypnoWorm",
+      "layer": 5,
+      "controls": 8,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Blocked",
+      "note": "Original preserved. Control-ready replacement installed and live-rendered in Figure L5C13; see source-repair/REPORT.md."
+    },
+    {
+      "id": "D1 L5C29",
+      "source": "Melty Boi",
+      "layer": 5,
+      "controls": 7,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "intensity: native drive varied; two actual output captures reviewed. Intensity produces visible variation. Outer rings are near frame edges; containment not certified."
+    },
+    {
+      "id": "D1 L5C30",
+      "source": "QUANTUM WAVE INTERFERENCE",
+      "layer": 5,
+      "controls": 2,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Energy Scale: native drive varied; two actual output captures reviewed. Broad glow reaches frame edges; strict Figure containment not certified."
+    },
+    {
+      "id": "D1 L5C31",
+      "source": "Quantum Zappy Sphere",
+      "layer": 5,
+      "controls": 7,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Glow: native drive varied; two actual output captures reviewed. Centered visible form in samples; containment not certified."
+    },
+    {
+      "id": "D1 L5C32",
+      "source": "Quaternion Averaging",
+      "layer": 5,
+      "controls": 7,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Speed: native drive varied; two actual output captures reviewed. Centered visible form in samples; containment not certified."
+    },
+    {
+      "id": "D1 L5C33",
+      "source": "Quaternion Conjugation 2",
+      "layer": 5,
+      "controls": 7,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Speed: native drive varied; two actual output captures reviewed. Visible form in both samples; full containment and parameter audit pending."
+    },
+    {
+      "id": "D1 L5C34",
+      "source": "quantum droplet",
+      "layer": 5,
+      "controls": 7,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Speed: native drive varied; two actual output captures reviewed. Visible form in both samples; full containment and parameter audit pending."
+    },
+    {
+      "id": "D1 L5C35",
+      "source": "On their way to Sirius",
+      "layer": 5,
+      "controls": 1,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Speed: native drive varied; two actual output captures reviewed. Off-center emission touches frame edge; Figure framing follow-up required."
+    },
+    {
+      "id": "D1 L5C36",
+      "source": "Ray Marching Experiment n35",
+      "layer": 5,
+      "controls": 8,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Displacement: native drive varied; two actual output captures reviewed. Visible form in both samples; full containment and parameter audit pending."
+    },
+    {
+      "id": "D1 L5C37",
+      "source": "Shaderdough",
+      "layer": 5,
+      "controls": 1,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Speed: native drive varied; two actual output captures reviewed. Visible form in both samples; full containment and parameter audit pending."
+    },
+    {
+      "id": "D1 L5C38",
+      "source": "Spikeball_v2",
+      "layer": 5,
+      "controls": 8,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Blocked",
+      "note": "Controls tested; FOV .75 clips the spikes. Needs a bounded source copy before Figure acceptance."
+    },
+    {
+      "id": "D1 L5C39",
+      "source": "Quantum Carpets",
+      "layer": 5,
+      "controls": 4,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Wave Count: native drive varied; two actual output captures reviewed. Wave Count missed one initial target; targeted retry passed. Command reliability remains unresolved."
+    },
+    {
+      "id": "D1 L5C40",
+      "source": "Torus thingy",
+      "layer": 5,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": true,
+      "status": "Blocked",
+      "note": "Original preserved. Control-ready replacement installed and live-rendered in Figure L5C14; see source-repair/REPORT.md."
+    },
+    {
+      "id": "D1 L5C41",
+      "source": "Raymarched Hopf Fibers",
+      "layer": 5,
+      "controls": 8,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Fiber Radius: native drive varied; two actual output captures reviewed. Large fiber loops reach top/bottom frame edges in first sample."
+    },
+    {
+      "id": "D1 L5C42",
+      "source": "Dodecahedron",
+      "layer": 5,
+      "controls": 9,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "een: native drive varied; two actual output captures reviewed. Long spikes leave the frame and object is off-center; Figure suitability/framing follow-up required."
+    },
+    {
+      "id": "D1 L5C43",
+      "source": "Wireframe stellated dodecahedron",
+      "layer": 5,
+      "controls": 1,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Float In: native drive varied; two actual output captures reviewed. Long glow rays approach/reach frame edges; full source containment needs follow-up."
+    },
+    {
+      "id": "D1 L5C44",
+      "source": "Kali liberation of the true self",
+      "layer": 5,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Render-only: nonempty changing form in two captures. No source parameters exposed; needs new copy with controls for direct Heart drive."
+    },
+    {
+      "id": "D1 L5C45",
+      "source": "CubeCluster",
+      "layer": 5,
+      "controls": 6,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "pulse: native drive varied; two actual output captures reviewed. Very small, dim cubes in samples; useful scale/brightness needs tuning."
+    },
+    {
+      "id": "D1 L5C46",
+      "source": "example using quaternions",
+      "layer": 5,
+      "controls": 8,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Line Width: native drive varied; two actual output captures reviewed. Visible form in both samples; full containment and parameter audit pending."
+    },
+    {
+      "id": "D1 L5C47",
+      "source": "Multi Cube",
+      "layer": 5,
+      "controls": 10,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "drift: native drive varied; two actual output captures reviewed. Small dim cube at current settings; second Multi Cube instance is much larger."
+    },
+    {
+      "id": "D1 L5C48",
+      "source": "Multi Cube",
+      "layer": 5,
+      "controls": 10,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "drift: native drive varied; two actual output captures reviewed. Visible form in both samples; full containment and parameter audit pending."
+    },
+    {
+      "id": "D1 L5C49",
+      "source": "quantum computer",
+      "layer": 5,
+      "controls": 7,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Speed: native drive varied; two actual output captures reviewed. Visible form in both samples; full containment and parameter audit pending."
+    },
+    {
+      "id": "D1 L5C50",
+      "source": "Melting Fractal",
+      "layer": 5,
+      "controls": 8,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Blocked",
+      "note": "Original preserved. Empty fold states addressed in new Heart Melting Fractal, Figure 72."
+    },
+    {
+      "id": "D1 L5C51",
+      "source": "quadratic bezier triangle 2 AABV",
+      "layer": 5,
+      "controls": 8,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Deform Amplitude: native drive varied; two actual output captures reviewed. Visible form in both samples; full containment and parameter audit pending."
+    },
+    {
+      "id": "D1 L5C52",
+      "source": "Klein Bottle (3D)",
+      "layer": 5,
+      "controls": 8,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Blocked",
+      "note": "Original preserved. Visible control-ready replacement Heart Klein Bottle installed in Figure 71."
+    },
+    {
+      "id": "D1 L5C53",
+      "source": "4D Rounded box (Bluey)",
+      "layer": 5,
+      "controls": 8,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Hyper Slice: native drive varied; two actual output captures reviewed. Visible form in both samples; full containment and parameter audit pending."
+    },
+    {
+      "id": "D1 L5C54",
+      "source": "4-space rotations",
+      "layer": 5,
+      "controls": 8,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Line Scale: native drive varied; two actual output captures reviewed. Very dim wire geometry, with lower edge contact in second capture; visibility/framing follow-up needed."
+    },
+    {
+      "id": "D1 L5C55",
+      "source": "HEPTANION transformation",
+      "layer": 5,
+      "controls": 8,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Gizmo Scale: native drive varied; two actual output captures reviewed. Small axis/gizmo content; review role and useful scale."
+    },
+    {
+      "id": "D1 L5C56",
+      "source": "quaternion slerp",
+      "layer": 5,
+      "controls": 7,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Speed: native drive varied; two actual output captures reviewed. Speed missed one initial target; targeted retry passed. Command reliability remains unresolved."
+    },
+    {
+      "id": "D1 L5C57",
+      "source": "quaternion slerp",
+      "layer": 5,
+      "controls": 7,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Speed: native drive varied; two actual output captures reviewed. Long axis arms reach frame edges; Figure framing needs follow-up."
+    },
+    {
+      "id": "D1 L5C58",
+      "source": "Quaternion Twister",
+      "layer": 5,
+      "controls": 8,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Twist Rate: native drive varied; two actual output captures reviewed. Visible form in both samples; full containment and parameter audit pending."
+    },
+    {
+      "id": "D1 L5C59",
+      "source": "Spinor Belt Trick",
+      "layer": 5,
+      "controls": 8,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Twist Scale: native drive varied; two actual output captures reviewed. Visible form in both samples; full containment and parameter audit pending."
+    },
+    {
+      "id": "D1 L5C60",
+      "source": "Superfluid helium",
+      "layer": 5,
+      "controls": 2,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Speed: native drive varied; two actual output captures reviewed. Visible form in both samples; full containment and parameter audit pending."
+    },
+    {
+      "id": "D1 L5C61",
+      "source": "Hopf fibers SP",
+      "layer": 5,
+      "controls": 69,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Morph: native drive varies; two actual output captures reviewed. Full-frame close-up; Figure framing/role needs follow-up."
+    },
+    {
+      "id": "D1 L5C62",
+      "source": "SP State Test",
+      "layer": 5,
+      "controls": 1,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Rate: native drive varies; two actual output captures reviewed. Diagnostic state-test source; separate from performance content."
+    },
+    {
+      "id": "D1 L5C63",
+      "source": "Metaballs",
+      "layer": 5,
+      "controls": 9,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Radius: native drive varies; two actual output captures reviewed. Scattered circles reach edges; Figure role needs follow-up."
+    },
+    {
+      "id": "D1 L5C64",
+      "source": "Hopf fibers SP",
+      "layer": 5,
+      "controls": 69,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Morph: native drive varies; two actual output captures reviewed. Full-frame close-up; Figure framing/role needs follow-up."
+    },
+    {
+      "id": "D1 L5C65",
+      "source": "Gradient Bars",
+      "layer": 5,
+      "controls": 10,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "balance: native drive varies; two actual output captures reviewed. Full-frame bars; sorting/role follow-up needed."
+    },
+    {
+      "id": "D1 L5C66",
+      "source": "SP State Test",
+      "layer": 5,
+      "controls": 1,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Rate: native drive varies; two actual output captures reviewed. Diagnostic state-test source; separate from performance content."
+    },
+    {
+      "id": "D1 L5C67",
+      "source": "Shaper",
+      "layer": 5,
+      "controls": 5,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Noise Amount: native drive varies; two actual output captures reviewed. Visible response in samples; complete parameter audit remains."
+    },
+    {
+      "id": "D1 L5C68",
+      "source": "Rings",
+      "layer": 5,
+      "controls": 8,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Spacing: native drive varies; two actual output captures reviewed. Rings reach all frame edges; Figure role/framing follow-up needed."
+    },
+    {
+      "id": "D1 L5C69",
+      "source": "Tunnelines",
+      "layer": 5,
+      "controls": 5,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Frequency: native drive varies; two actual output captures reviewed. Full-frame tunnel pattern; Figure role/framing follow-up needed."
+    },
+    {
+      "id": "D1 L5C70",
+      "source": "Metaballs",
+      "layer": 5,
+      "controls": 9,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Radius: native drive varies; two actual output captures reviewed. Scattered balls across frame; Figure role follow-up needed."
+    },
+    {
+      "id": "D1 L6C1",
+      "source": "SP Atom Glyph",
+      "layer": 6,
+      "controls": 15,
+      "enrolled": true,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C2",
+      "source": "SP Atom Script",
+      "layer": 6,
+      "controls": 10,
+      "enrolled": true,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C8",
+      "source": "SP Glyphmass",
+      "layer": 6,
+      "controls": 34,
+      "enrolled": true,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C15",
+      "source": "MTK_Tentaclone_1.1",
+      "layer": 6,
+      "controls": 21,
+      "enrolled": true,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C16",
+      "source": "MTK_Worm Fresnel",
+      "layer": 6,
+      "controls": 10,
+      "enrolled": true,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C17",
+      "source": "MTK_Worm Walker",
+      "layer": 6,
+      "controls": 10,
+      "enrolled": true,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C18",
+      "source": "MTK_Worm_Banded",
+      "layer": 6,
+      "controls": 13,
+      "enrolled": true,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C19",
+      "source": "Tunnelines",
+      "layer": 6,
+      "controls": 5,
+      "enrolled": true,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C20",
+      "source": "Shaper",
+      "layer": 6,
+      "controls": 5,
+      "enrolled": true,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C21",
+      "source": "Shaper",
+      "layer": 6,
+      "controls": 5,
+      "enrolled": true,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C22",
+      "source": "Rings",
+      "layer": 6,
+      "controls": 8,
+      "enrolled": true,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C23",
+      "source": "fractal sponge",
+      "layer": 6,
+      "controls": 11,
+      "enrolled": true,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C24",
+      "source": "Hologram Boxes",
+      "layer": 6,
+      "controls": 8,
+      "enrolled": true,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C25",
+      "source": "spiragraph",
+      "layer": 6,
+      "controls": 9,
+      "enrolled": true,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C26",
+      "source": "Test Card",
+      "layer": 6,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C27",
+      "source": "Gradient",
+      "layer": 6,
+      "controls": 4,
+      "enrolled": true,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C28",
+      "source": "Gradient",
+      "layer": 6,
+      "controls": 4,
+      "enrolled": true,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C29",
+      "source": "Gradient",
+      "layer": 6,
+      "controls": 4,
+      "enrolled": true,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C30",
+      "source": "Gradient",
+      "layer": 6,
+      "controls": 4,
+      "enrolled": true,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C31",
+      "source": "Gradient",
+      "layer": 6,
+      "controls": 4,
+      "enrolled": true,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C32",
+      "source": "Gradient",
+      "layer": 6,
+      "controls": 5,
+      "enrolled": true,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C33",
+      "source": "Gradient",
+      "layer": 6,
+      "controls": 4,
+      "enrolled": true,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C34",
+      "source": "Gradient",
+      "layer": 6,
+      "controls": 4,
+      "enrolled": true,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C35",
+      "source": "Gradient",
+      "layer": 6,
+      "controls": 5,
+      "enrolled": true,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C36",
+      "source": "Gradient",
+      "layer": 6,
+      "controls": 5,
+      "enrolled": true,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C37",
+      "source": "plasma sparkle",
+      "layer": 6,
+      "controls": 9,
+      "enrolled": true,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C38",
+      "source": "00000",
+      "layer": 6,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C39",
+      "source": "BlackCherryCosmos",
+      "layer": 6,
+      "controls": 9,
+      "enrolled": true,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C40",
+      "source": "CloudVortex",
+      "layer": 6,
+      "controls": 5,
+      "enrolled": true,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C41",
+      "source": "CollapsingArchi",
+      "layer": 6,
+      "controls": 6,
+      "enrolled": true,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C42",
+      "source": "CosmicJourney",
+      "layer": 6,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C43",
+      "source": "Color Wheel",
+      "layer": 6,
+      "controls": 8,
+      "enrolled": true,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C44",
+      "source": "DoubleGalaxy",
+      "layer": 6,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C45",
+      "source": "KaliCiruitsExplorer",
+      "layer": 6,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C46",
+      "source": "MetablobStarz",
+      "layer": 6,
+      "controls": 10,
+      "enrolled": true,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C47",
+      "source": "UltimateKaliCircuits",
+      "layer": 6,
+      "controls": 7,
+      "enrolled": true,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C48",
+      "source": "Abstract Field",
+      "layer": 6,
+      "controls": 3,
+      "enrolled": true,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C49",
+      "source": "Checkered",
+      "layer": 6,
+      "controls": 2,
+      "enrolled": true,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C50",
+      "source": "Spiral",
+      "layer": 6,
+      "controls": 12,
+      "enrolled": true,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C51",
+      "source": "Lines",
+      "layer": 6,
+      "controls": 5,
+      "enrolled": true,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C52",
+      "source": "Sine Wave",
+      "layer": 6,
+      "controls": 12,
+      "enrolled": true,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C53",
+      "source": "Sine Wave",
+      "layer": 6,
+      "controls": 12,
+      "enrolled": true,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C54",
+      "source": "Sine Wave",
+      "layer": 6,
+      "controls": 11,
+      "enrolled": true,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C55",
+      "source": "Sine Wave",
+      "layer": 6,
+      "controls": 11,
+      "enrolled": true,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C56",
+      "source": "Line Scape",
+      "layer": 6,
+      "controls": 10,
+      "enrolled": true,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C57",
+      "source": "Free-particle propagator",
+      "layer": 6,
+      "controls": 1,
+      "enrolled": true,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C58",
+      "source": "Spinor = Quaternion",
+      "layer": 6,
+      "controls": 1,
+      "enrolled": true,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C59",
+      "source": "SquareCellStructureScan",
+      "layer": 6,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C60",
+      "source": "Balls and Springs",
+      "layer": 6,
+      "controls": 1,
+      "enrolled": true,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C61",
+      "source": "Test Card",
+      "layer": 6,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C62",
+      "source": "Lines",
+      "layer": 6,
+      "controls": 5,
+      "enrolled": true,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C63",
+      "source": "Sine Wave",
+      "layer": 6,
+      "controls": 12,
+      "enrolled": true,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L6C64",
+      "source": "Gradient Bars",
+      "layer": 6,
+      "controls": 10,
+      "enrolled": true,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L7C1",
+      "source": "Video Router",
+      "layer": 7,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L7C2",
+      "source": "SP Atom Texture",
+      "layer": 7,
+      "controls": 6,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Duty: native drive varies; two actual output captures reviewed. Visible response in samples; complete parameter audit remains."
+    },
+    {
+      "id": "D1 L7C8",
+      "source": "SP Scan",
+      "layer": 7,
+      "controls": 34,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Duty: native drive varies; two actual output captures reviewed. Visible response in samples; complete parameter audit remains."
+    },
+    {
+      "id": "D1 L7C15",
+      "source": "Video Router",
+      "layer": 7,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L7C16",
+      "source": "Video Router",
+      "layer": 7,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L7C17",
+      "source": "Video Router",
+      "layer": 7,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L7C18",
+      "source": "Video Router",
+      "layer": 7,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L7C19",
+      "source": "Video Router",
+      "layer": 7,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L7C20",
+      "source": "Video Router",
+      "layer": 7,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L7C21",
+      "source": "Video Router",
+      "layer": 7,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L7C22",
+      "source": "Video Router",
+      "layer": 7,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L7C23",
+      "source": "Video Router",
+      "layer": 7,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L7C24",
+      "source": "Video Router",
+      "layer": 7,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L7C25",
+      "source": "Video Router",
+      "layer": 7,
+      "controls": 0,
+      "enrolled": false,
+      "sampled": false,
+      "status": "Untested",
+      "note": "No rendered check in this coverage run"
+    },
+    {
+      "id": "D1 L8C1",
+      "source": "SP Atom Grain",
+      "layer": 8,
+      "controls": 5,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Corrected alpha-aware review: original motion captures show visible changing output. Previous white/static flag was a review conversion error. Fresh neutral settings also render correctly; no shader change needed."
+    },
+    {
+      "id": "D1 L8C8",
+      "source": "SP Grain",
+      "layer": 8,
+      "controls": 34,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Amount: native drive varies; two actual output captures reviewed. Visible response in samples; complete parameter audit remains."
+    },
+    {
+      "id": "D1 L8C9",
+      "source": "SP State Test",
+      "layer": 8,
+      "controls": 1,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Rate: native drive varies; two actual output captures reviewed. Diagnostic state-test source; separate from performance content."
+    },
+    {
+      "id": "D1 L8C15",
+      "source": "Static",
+      "layer": 8,
+      "controls": 1,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Choice control: Color and Two-tone selected through Heart, 2/2 native acknowledgements and actual output reviewed. Not a continuous drive test."
+    },
+    {
+      "id": "D1 L8C16",
+      "source": "Lines",
+      "layer": 8,
+      "controls": 5,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Width: native drive varies; two actual output captures reviewed. Width motion fills the frame white in the second sample; needs a useful performance range."
+    },
+    {
+      "id": "D1 L8C17",
+      "source": "Checkered",
+      "layer": 8,
+      "controls": 2,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Num X: native drive varies; two actual output captures reviewed. Num X exposes a huge range (1\u2013100000); sampled high counts alias densely. Needs a usable musical range."
+    },
+    {
+      "id": "D1 L8C18",
+      "source": "Spiral",
+      "layer": 8,
+      "controls": 12,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Distortion: native drive varies; two actual output captures reviewed. Visible response in samples; complete parameter audit remains."
+    },
+    {
+      "id": "D1 L5C10",
+      "source": "SP Figure Ring Source",
+      "layer": 5,
+      "controls": 4,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "New bounded source: landscape/portrait/square checks passed. Thickness + twists driven; shared Transform owns size/position."
+    },
+    {
+      "id": "D1 L5C11",
+      "source": "SP Figure Spike Source",
+      "layer": 5,
+      "controls": 6,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Spike Sharpness: 2/2 native manual readbacks; driven values varied; two full-output frames reviewed. New copy; nine GPU aspect/parameter cases passed. Home/relaunch not checked."
+    },
+    {
+      "id": "D1 L5C12",
+      "source": "SP Figure Crystal Source",
+      "layer": 5,
+      "controls": 6,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Refraction: 2/2 native manual readbacks; driven values varied; two full-output frames reviewed. New copy; nine GPU aspect/parameter cases passed. Home/relaunch not checked."
+    },
+    {
+      "id": "D1 L5C13",
+      "source": "Heart HypnoWorm",
+      "layer": 5,
+      "controls": 14,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Heart HypnoWorm: new copy installed and live output reviewed. Across both copies: 44/44 manual control targets, two driven structural controls, six framing renders passed. Home/Settle and exhaustive smoothness remain unverified. Factory Home and Open/Home recovery: 14/14 native values; drives/effects off; actual rest output reviewed."
+    },
+    {
+      "id": "D1 L5C14",
+      "source": "Heart Torus",
+      "layer": 5,
+      "controls": 8,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Heart Torus: new copy installed and live output reviewed. Across both copies: 44/44 manual control targets, two driven structural controls, six framing renders passed. Home/Settle and exhaustive smoothness remain unverified. Factory Home and Open/Home recovery: 8/8 native values; drives/effects off; actual rest output reviewed."
+    },
+    {
+      "id": "D1 L3C4",
+      "source": "Heart Quaternion Field",
+      "layer": 3,
+      "controls": 11,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Heart Quaternion Field: 11 controls exposed in new copy; all manual targets passed, structural drive varied and live output reviewed. Home/Settle remains unverified. Factory Home recovery and Open/Home cycle now passed live; output reviewed. User-saved Home overrides preserved."
+    },
+    {
+      "id": "D1 L3C5",
+      "source": "Heart Quaternion Swell",
+      "layer": 3,
+      "controls": 7,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Heart Quaternion Swell: 7 controls exposed in new copy; all manual targets passed, structural drive varied and live output reviewed. Home/Settle remains unverified. Factory Home and Open/Home recovery: 7/7 native values; drives/effects off; actual rest output reviewed."
+    },
+    {
+      "id": "D1 L3C6",
+      "source": "Heart Paper Fractal",
+      "layer": 3,
+      "controls": 13,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Heart Paper Fractal: 13 controls exposed in new copy; all manual targets passed, structural drive varied and live output reviewed. Home/Settle remains unverified. Factory Home and Open/Home recovery: 13/13 native values; drives/effects off; actual rest output reviewed."
+    },
+    {
+      "id": "D1 L3C7",
+      "source": "Heart Vector Lattice",
+      "layer": 3,
+      "controls": 6,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Heart Vector Lattice: 6 controls exposed in new copy; all manual targets passed, structural drive varied and live output reviewed. Home/Settle remains unverified. Factory Home and Open/Home recovery: 6/6 native values; drives/effects off; actual rest output reviewed."
+    },
+    {
+      "id": "D1 L3C9",
+      "source": "Heart Concentrip",
+      "layer": 3,
+      "controls": 6,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Heart Concentrip: 6 controls exposed; live structural motion reviewed. Batch manual pass 75/78 initially; three delivery misses under follow-up. Home/Settle not certified; Kali placement provisional. Factory Home and Open/Home recovery: 6/6 native values; drives/effects off; actual rest output reviewed."
+    },
+    {
+      "id": "D1 L3C10",
+      "source": "Heart Puls Lattice",
+      "layer": 3,
+      "controls": 7,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Heart Puls Lattice: 7 controls exposed; live structural motion reviewed. Batch manual pass 75/78 initially; three delivery misses under follow-up. Home/Settle not certified; Kali placement provisional. Factory Home and Open/Home recovery: 7/7 native values; drives/effects off; actual rest output reviewed."
+    },
+    {
+      "id": "D1 L3C11",
+      "source": "Heart Ancient Temple",
+      "layer": 3,
+      "controls": 16,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Heart Ancient Temple: 16 controls exposed; live structural motion reviewed. Batch manual pass 75/78 initially; three delivery misses under follow-up. Home/Settle not certified; Kali placement provisional. Factory Home and Open/Home recovery: 16/16 native values; drives/effects off; actual rest output reviewed."
+    },
+    {
+      "id": "D1 L3C12",
+      "source": "Heart Kali Liberation",
+      "layer": 3,
+      "controls": 10,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Heart Kali Liberation: 10 controls exposed; live structural motion reviewed. Batch manual pass 75/78 initially; three delivery misses under follow-up. Home/Settle not certified; Kali placement provisional. Factory Home and Open/Home recovery: 10/10 native values; drives/effects off; actual rest output reviewed."
+    },
+    {
+      "id": "D1 L3C13",
+      "source": "Heart Color Wheel",
+      "layer": 3,
+      "controls": 6,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Heart Color Wheel: positive Gain replaces misleading signed warp; 12/12 controls passed, live hue motion reviewed. High gain can wash to white. Original preserved. Factory Home and Open/Home recovery: 6/6 native values; drives/effects off; actual rest output reviewed."
+    },
+    {
+      "id": "D1 L5C71",
+      "source": "Heart Klein Bottle",
+      "layer": 5,
+      "controls": 7,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Heart Klein Bottle: visible output and orientation drive reviewed; 14/14 manual targets, six framing cases pass. Refraction subtle; Home/Settle and exhaustive bounds unverified. Factory Home recovery and Open/Home cycle now passed live; output reviewed. User-saved Home overrides preserved."
+    },
+    {
+      "id": "D1 L5C72",
+      "source": "Heart Melting Fractal",
+      "layer": 5,
+      "controls": 7,
+      "enrolled": true,
+      "sampled": true,
+      "status": "Sampled",
+      "note": "Heart Melting Fractal: 14/14 manual checks; live Fold Phase visibly changes geometry. 24 fold/phase/twist cases nonempty; four aspect cases contained. Full sweeps and Home/Settle unverified. Factory Home recovery and Open/Home cycle now passed live; output reviewed. User-saved Home overrides preserved."
+    },
+    {
+      "id": "D1 L5C73",
+      "source": "Heart Capsule",
+      "layer": 5,
+      "controls": 5,
+      "enrolled": true,
+      "sampled": false,
+      "status": "Sampled",
+      "note": "10/10 native manual values; live Tilt visibly moves; 21 sampled aspect/tilt cases nonempty with zero edge alpha. 5/5 Home recovery values; drives/effects off. Original preserved; not exhaustive acceptance."
+    }
+  ],
+  "issues": [
+    "Routine-rescan queue loss repaired: 149/156 before, 156/156 after. Narrow-range drive startup repaired: 40/40 live samples in range; 220 tests pass.",
+    "Enrollment exposes controls; it does not certify shader behavior or Figure containment.",
+    "Source boolean, trigger and color exposure is incomplete."
+  ],
+  "scope": "299 populated clips across all three decks. Includes routers and repeated sources. Rendered samples include flagged candidates; sampling is not exhaustive acceptance.",
+  "roadmap": {
+    "updated": "2026-09-09T17:28:14.739630+00:00",
+    "goal": "Leave with a playable show set and a clear way back to safety.",
+    "next": "Remaining-library pass complete. Open Heart Show Ready 20260909 122632 to play. All149 queued source checks finished; save/reopen and recovery verified.",
+    "milestones": [
+      {
+        "title": "Control delivery",
+        "state": "done",
+        "detail": "Queue-loss and range-start repairs verified live."
+      },
+      {
+        "title": "Recovery homes",
+        "state": "done",
+        "detail": "14 new Heart copies checked through Open \u2192 Home."
+      },
+      {
+        "title": "Content & readiness",
+        "state": "done",
+        "detail": "149 remaining representatives checked, plus 28 previous; duplicates and routing tracked separately. Glyph deferred."
+      },
+      {
+        "title": "Live rehearsal",
+        "state": "done",
+        "detail": "Full-library completion plus global Open \u2192 Shuffle \u2192 Settle verified;271 unit tests pass."
+      },
+      {
+        "title": "Departure save",
+        "state": "done",
+        "detail": "Heart Show Ready 20260909 122632 saved, actually reopened, and backed up."
+      }
+    ],
+    "workers": [
+      {
+        "title": "Content",
+        "state": "done",
+        "label": "Blackout + Delay access live",
+        "detail": "236 Python and47 interface checks passed. Native cut/restore verified with faders preserved.",
+        "next": "User feel check; refine remaining jumpy transitions.",
+        "updated": "2026-09-09T13:35:27.139298+00:00"
+      },
+      {
+        "title": "Effects & routing",
+        "state": "done",
+        "label": "Both RGB stages preserved",
+        "detail": "Internal RGB before ColourLoop; independent Layer RGB after ColourLoop. Clear labels added; original graphs retained.",
+        "next": "Use either stage or combine them.",
+        "updated": "2026-09-09T13:35:27.139298+00:00"
+      },
+      {
+        "title": "Departure",
+        "state": "done",
+        "label": "Heart Show Ready 20260909 122632",
+        "detail": "Saved pair/dependencies verified; actual reopen matched clips, levels, drive states and native signature. Centered Figure2D visible.",
+        "next": "Recovery copy available alongside the project.",
+        "updated": "2026-09-09T17:28:14.739630+00:00"
+      },
+      {
+        "title": "Integration \u00b7 here",
+        "state": "done",
+        "label": "149/149 complete \u00b7 0 control errors",
+        "detail": "104 driven,36 manual-only,9 render-only.298 actual renders reviewed. Repaired HypnoWorm/Torus, centered Figure2D, saved visible Scan Home; Grain confirmed with proper alpha review.",
+        "next": "Play the complete source library; remaining visual-range and transition-feel polish is tracked separately.",
+        "updated": "2026-09-09T17:28:14.739630+00:00"
+      },
+      {
+        "title": "Toy shaders",
+        "state": "active",
+        "label": "Offline import-crash investigation",
+        "detail": "New wrappers quarantined. Separate task found a native string-conversion exception; investigating Unicode metadata. No live installation.",
+        "next": "Prove and repair importer compatibility offline.",
+        "updated": "2026-09-09T13:35:27.139298+00:00"
+      }
+    ],
+    "attention": [
+      {
+        "title": "Transition feel still needs polish",
+        "state": "waiting",
+        "owner": "Integration + user",
+        "detail": "User rehearsal good overall; some shuffles/transitions remain jumpy. No blanket smoothness claim."
+      },
+      {
+        "title": "Full app cold start untested",
+        "state": "waiting",
+        "owner": "Integration + user",
+        "detail": "Saved-setup reopen passed. Quitting and restarting all applications or the OS was not rehearsed."
+      },
+      {
+        "title": "Pixel Melt rehearsal inconclusive",
+        "state": "blocked",
+        "owner": "Integration + Effects",
+        "detail": "Snapshot timed out after IN, before trigger. Cleanup succeeded; effect parked off."
+      },
+      {
+        "title": "Portal media gap",
+        "detail": "290 approved relinks intact. Remaining: 139 files without known replacements + 5 unapproved candidates; only needed Portal clips are blocked.",
+        "owner": "Departure \u2192 Integration",
+        "state": "blocked"
+      },
+      {
+        "title": "App-only copy is not portable",
+        "detail": "Heart currently depends on its workspace Syphon framework path; keep the workspace with the launcher.",
+        "owner": "Departure \u2192 Integration",
+        "state": "waiting"
+      },
+      {
+        "title": "Full-range Figure framing remains sampled",
+        "state": "waiting",
+        "owner": "Content",
+        "detail": "All remaining representative sources checked for controls and sampled output. Sparse/cropped sources are documented in full-library/visual-review.json; exhaustive source containment and transition smoothness remain follow-up."
+      }
+    ]
+  }
+}

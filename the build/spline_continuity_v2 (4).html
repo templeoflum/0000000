@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Continuity across mediums — the derivative ladder</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500&family=Spline+Sans+Mono:wght@400;500&display=swap');
+  :root{
+    --bg:#0a0b0e; --panel:#121419; --ink:#e9ecf0; --dim:#6a7280; --line:#1f232c;
+    --v:#62f0c0;      /* value */
+    --d1:#74d0ff;     /* 1st deriv */
+    --d2:#ffd166;     /* 2nd deriv */
+    --d3:#ff8a8a;     /* 3rd deriv */
+    --accent:#9d8cff; --break:#ff5c5c;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--ink);font-family:'Spline Sans Mono',monospace;padding:18px;max-width:1180px;margin:0 auto}
+  h1{font-family:'Fraunces',serif;font-weight:300;font-size:clamp(22px,4vw,36px);letter-spacing:-.02em}
+  h1 em{font-style:italic;color:var(--v)}
+  .sub{color:var(--dim);font-size:12.5px;margin:7px 0 14px;max-width:80ch;line-height:1.5}
+  .params{display:flex;flex-wrap:wrap;gap:10px;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 13px;margin-bottom:8px}
+  label{font-size:11.5px;color:var(--dim);display:flex;align-items:center;gap:6px}
+  .seg{display:flex;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+  .seg button{background:transparent;color:var(--dim);border:none;padding:8px 13px;font-family:inherit;font-size:12px;cursor:pointer;transition:.15s}
+  .seg button.on{background:var(--v);color:#0a0b0e;font-weight:500}
+  .scrub{font-size:11.5px;color:var(--dim);background:#06070a;border:1px solid var(--line);border-radius:6px;padding:6px 10px;cursor:ew-resize;user-select:none;white-space:nowrap}
+  .scrub b{color:var(--v);font-weight:500;margin-left:3px}
+  .scrub:hover{border-color:var(--accent)}
+  button.act{background:var(--accent);color:#0a0b0e;border:none;border-radius:8px;padding:8px 15px;font-family:inherit;font-weight:500;cursor:pointer;font-size:12px}
+  button.act.stop{background:var(--break)}
+  .hint{font-size:11px;color:var(--dim);margin:-2px 0 10px;font-style:italic}
+  .main{display:grid;grid-template-columns:1fr;gap:14px;align-items:start}
+  @media(min-width:820px){.main{grid-template-columns:1.6fr 1fr}}
+  .right-col{position:sticky;top:14px}
+  .panel{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px}
+  .panel h2{font-family:'Fraunces',serif;font-weight:500;font-size:14px;margin-bottom:9px;color:var(--ink)}
+  canvas{display:block;width:100%;border-radius:6px;background:#06070a;touch-action:none}
+  .ladder canvas{margin-bottom:2px}
+  .ladder .lab{font-size:10.5px;color:var(--dim);display:flex;justify-content:space-between;margin:6px 0 2px}
+  .domains{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  .dom{background:#06070a;border:1px solid var(--line);border-radius:8px;padding:10px;position:relative;overflow:hidden}
+  .dom .t{font-size:10.5px;color:var(--dim);margin-bottom:8px;display:flex;justify-content:space-between;align-items:center;gap:6px}
+  .dpick{font-size:10px;color:var(--accent);background:#11141b;border:1px solid var(--line);border-radius:5px;padding:2px 7px;cursor:ew-resize;user-select:none;white-space:nowrap}
+  .dpick b{color:#fff;font-weight:600;margin-left:1px}
+  .dpick:hover{border-color:var(--accent)}
+  .dpick.hot{border-color:var(--break);color:var(--break)}
+  .minibox{height:42px;display:flex;align-items:center;justify-content:center}
+  .minibox i{display:block;width:18px;height:18px;border-radius:50%}
+  .dom .t{font-size:10.5px;color:var(--dim);margin-bottom:8px}
+  .swatch{height:42px;border-radius:5px}
+  .ballbox{height:42px;position:relative;border-radius:5px;background:#0a0b0e}
+  .ballbox i{position:absolute;top:50%;width:14px;height:14px;border-radius:50%;background:var(--v);transform:translate(-50%,-50%);box-shadow:0 0 10px var(--v)}
+  .sizebox{height:42px;display:flex;align-items:center;justify-content:center}
+  .sizebox i{display:block;border-radius:50%;background:var(--d1);box-shadow:0 0 12px var(--d1)}
+  .rotbox{height:42px;display:flex;align-items:center;justify-content:center}
+  .rotbox i{display:block;width:34px;height:4px;border-radius:2px;background:var(--d2);box-shadow:0 0 8px var(--d2)}
+  .opbox{height:42px;display:flex;align-items:center;justify-content:center;background:repeating-conic-gradient(#14171d 0% 25%,#0a0b0e 0% 50%) 50%/12px 12px;border-radius:5px}
+  .opbox i{display:block;width:30px;height:22px;border-radius:4px;background:var(--d3);box-shadow:0 0 10px var(--d3)}
+  .skewbox{height:42px;display:flex;align-items:center;justify-content:center;perspective:200px}
+  .skewbox i{display:block;width:26px;height:26px;border-radius:4px;background:var(--accent);box-shadow:0 0 10px var(--accent)}
+  .famlabel{font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--dim);margin:14px 0 7px}
+  .famlabel:first-of-type{margin-top:4px}
+  .domains3{grid-template-columns:1fr 1fr 1fr}
+  .domains1{grid-template-columns:1fr}
+  /* generic signal-output monitor: a bar + numeric readout, bipolar-aware */
+  .gb{height:42px;display:flex;flex-direction:column;justify-content:center;gap:4px}
+  .gbtrack{position:relative;height:10px;background:#11141b;border:1px solid var(--line);border-radius:5px;overflow:hidden}
+  .gbfill{position:absolute;top:0;bottom:0;left:0;background:linear-gradient(90deg,var(--accent),#74e0ff);border-radius:5px}
+  .gbcenter{position:absolute;top:0;bottom:0;left:50%;width:1px;background:rgba(255,255,255,0.3)}
+  .gbnum{font-size:10px;color:var(--dim);font-variant-numeric:tabular-nums}
+  .arrowbox{height:42px;display:flex;align-items:center;justify-content:center}
+  .scrubbox{height:42px;position:relative;background:#11141b;border:1px solid var(--line);border-radius:6px;overflow:hidden}
+  .scrubbox::after{content:'';position:absolute;top:0;bottom:0;width:2px;background:var(--accent);left:var(--p,0%)}
+  .trigbox{height:42px;display:flex;align-items:center;justify-content:center}
+  .trigdot{width:18px;height:18px;border-radius:50%;background:#1a1d26;transition:background .04s,box-shadow .04s}
+  .dotsbox{height:42px;display:flex;align-items:center;justify-content:center;gap:3px;flex-wrap:wrap;padding:4px}
+  .dotsbox i{width:5px;height:5px;border-radius:50%;background:var(--accent)}
+  .strokebox{height:42px;display:flex;align-items:center;justify-content:center}
+  .strokebox span{display:block;width:70%;background:var(--ink);border-radius:4px}
+  .blurbox,.rgbbox{height:42px;display:flex;align-items:center;justify-content:center;font-size:22px;color:var(--accent)}
+  .glowbox{height:42px;display:flex;align-items:center;justify-content:center}
+  .glowbox::before{content:'';width:18px;height:18px;border-radius:50%;background:var(--accent)}
+  .xfadebox{height:42px;position:relative;border-radius:6px;overflow:hidden;display:flex}
+  .xfadebox .a,.xfadebox .b{flex:1;display:flex;align-items:center;justify-content:center;font-size:10px;color:#0a0b0e;font-weight:600}
+  .read{font-size:12px;color:var(--dim);line-height:1.6;margin-top:14px;min-height:2.4em}
+  .read b{color:var(--ink)} .read .brk{color:var(--break);font-weight:500}
+  .note{font-size:11px;color:var(--dim);border-left:2px solid var(--accent);padding-left:10px;margin-top:12px;line-height:1.55}
+  .legend{display:flex;gap:14px;font-size:11px;flex-wrap:wrap;margin-top:8px;color:var(--dim)}
+  .legend span{display:flex;align-items:center;gap:5px}
+  .ln{width:14px;height:3px;border-radius:2px}
+</style>
+</head>
+<body>
+  <h1>Continuity across <em>mediums</em></h1>
+  <p class="sub">One spline. Many signals. Drag the joins to break it, raise the continuity order to heal it, and watch the <b>derivative ladder</b> show you exactly which order broke — then watch that same break appear in every medium at once. Crank the order <b>way past</b> where anyone bothers: the breaks retreat into derivatives no one perceives (jerk, snap, crackle…), and the curve starts to <b>oscillate</b> between knots — Runge's phenomenon — a texture, not just a cost. Purely abstract, purely trajectory.</p>
+
+  <div class="params">
+    <div class="seg" id="mode">
+      <button data-m="spline" class="on">local spline</button>
+      <button data-m="coupled">coupled spline</button>
+      <button data-m="global">global polynomial</button>
+    </div>
+    <span class="scrub" data-k="tension" data-step="0.01" data-min="0" data-max="1" id="tensionScrub">tension <b>0.00</b></span>
+    <span class="scrub" data-k="order" data-step="0.05" data-min="0" data-max="12" data-int="1">continuity C<b>0</b></span>
+    <span class="scrub" data-k="segs" data-step="0.04" data-min="2" data-max="12" data-int="1">segments <b>4</b></span>
+    <span class="scrub" data-k="speed" data-step="0.01" data-min="0.05">play speed <b>1.00</b></span>
+    <div class="seg" id="polmode" title="unipolar 0..1, or bipolar -1..+1 with zero pinned to center">
+      <button data-pol="uni" class="on">unipolar</button>
+      <button data-pol="bi">bipolar</button>
+    </div>
+    <button class="act" id="play">▶ play</button>
+    <button class="act" id="rand" style="background:#2a2d38;color:var(--ink)">↻ new shape</button>
+  </div>
+  <div class="hint" id="modeHint">drag any join (○) up/down · raise the order to match more derivatives at each join · past C³ the break hides in derivatives no one perceives</div>
+  <div class="params" style="margin-top:8px">
+    <label>detail
+      <div class="seg" id="detail">
+        <button data-d="0">clean</button>
+        <button data-d="1" class="on">standard</button>
+        <button data-d="2">full</button>
+      </div>
+    </label>
+    <label>combs
+      <div class="seg" id="combs">
+        <button data-c="off" class="on">off</button>
+        <button data-c="curv">curvature</button>
+      </div>
+    </label>
+    <label>after a drag (retrospective)
+      <div class="seg" id="influence">
+        <button data-i="all" class="on">all</button>
+        <button data-i="ghost">ghost</button>
+        <button data-i="heat">heat</button>
+        <button data-i="tug">tug</button>
+        <button data-i="off">off</button>
+      </div>
+    </label>
+    <label>predict (before you drag)
+      <div class="seg" id="predict">
+        <button data-p="off" class="on">off</button>
+        <button data-p="zones">reach-zones</button>
+        <button data-p="hover">hover-preview</button>
+        <button data-p="both">both</button>
+      </div>
+    </label>
+  </div>
+  <div class="hint" style="margin:-2px 0 8px">detail gates how much is shown · combs = curvature hairs (length ∝ bend) · drag now shows a live running preview + the before-ghost · retrospective = what a drag did · predict = what it would do</div>
+  <div class="hint" style="color:var(--accent)">each medium has a <b>d:N</b> picker — choose which derivative drives it. drive a medium with the order that's broken (e.g. f‴ on a C² spline) and the break jumps into that medium.</div>
+
+  <div class="main">
+    <div class="panel ladder">
+      <h2>The spline & its derivative ladder</h2>
+      <div id="ladderRows"></div>
+      <div class="legend">
+        <span><span class="ln" style="background:var(--break)"></span>discontinuity (a break at this order)</span>
+      </div>
+    </div>
+
+    <div class="right-col">
+    <div class="panel">
+      <h2>Signal outputs — one spline driving real parameters</h2>
+      <div class="famlabel">transform</div>
+      <div class="domains">
+        <div class="dom"><div class="t"><span>position</span><span class="dpick" data-driver="position">f<b>0</b></span></div><div class="ballbox"><i id="dBall"></i></div></div>
+        <div class="dom"><div class="t"><span>scale</span><span class="dpick" data-driver="size">f<b>0</b></span></div><div class="sizebox"><i id="dSize"></i></div></div>
+        <div class="dom"><div class="t"><span>rotation</span><span class="dpick" data-driver="rotation">f<b>0</b></span></div><div class="rotbox"><i id="dRot"></i></div></div>
+        <div class="dom"><div class="t"><span>skew</span><span class="dpick" data-driver="skew">f<b>0</b></span></div><div class="skewbox"><i id="dSkew"></i></div></div>
+      </div>
+      <div class="famlabel">appearance</div>
+      <div class="domains">
+        <div class="dom"><div class="t"><span>hue</span><span class="dpick" data-driver="hue">f<b>0</b></span></div><div class="swatch" id="dHue"></div></div>
+        <div class="dom"><div class="t"><span>brightness</span><span class="dpick" data-driver="bright">f<b>0</b></span></div><div class="swatch" id="dBright"></div></div>
+        <div class="dom"><div class="t"><span>saturation</span><span class="dpick" data-driver="sat">f<b>0</b></span></div><div class="swatch" id="dSat"></div></div>
+        <div class="dom"><div class="t"><span>opacity</span><span class="dpick" data-driver="opacity">f<b>0</b></span></div><div class="opbox"><i id="dOpac"></i></div></div>
+      </div>
+      <div class="famlabel">gate (discrete events from the curve)</div>
+      <div class="domains domains3">
+        <div class="dom"><div class="t"><span>knot gate</span></div><div class="trigbox" id="dGate"></div></div>
+        <div class="dom"><div class="t"><span>peak gate (f′=0)</span></div><div class="trigbox" id="dPeak"></div></div>
+        <div class="dom"><div class="t"><span>zero-cross gate</span><span class="dpick" data-driver="zc">f<b>1</b></span></div><div class="trigbox" id="dZC"></div></div>
+      </div>
+      <div class="famlabel">sound (one fused voice — each attribute on its own derivative)</div>
+      <div class="domains domains3">
+        <div class="dom"><div class="t"><span>pitch</span><span class="dpick" data-driver="pitch">f<b>0</b></span></div><div class="minibox" id="dPitchBox"></div></div>
+        <div class="dom"><div class="t"><span>amplitude</span><span class="dpick" data-driver="amp">f<b>0</b></span></div><div class="minibox" id="dAmpBox"></div></div>
+        <div class="dom"><div class="t"><span>timbre</span><span class="dpick" data-driver="timbre">f<b>0</b></span></div><div class="minibox" id="dTimbreBox"></div></div>
+      </div>
+      <div class="domains domains1" style="margin-top:10px">
+        <div class="dom"><div class="t"><span>fused waveform trace (pitch)</span></div><canvas id="dWave" height="42"></canvas></div>
+      </div>
+    </div>
+    <div class="panel" style="margin-top:14px">
+      <div class="read" id="read"></div>
+      <div class="note" id="note"></div>
+    </div>
+    </div>
+  </div>
+
+<script>
+// ---------- spline engine: piecewise cubic-ish, C^k at each join ----------
+// We place `segs` segments over t in [0,1] with knots at i/segs.
+// Each knot has a target value y[i] (draggable). To realize C^k continuity we
+// build each segment as a polynomial that matches the *required* number of
+// derivatives at its left knot, carried forward from the previous segment.
+// At C0: segments only share value (slope/curv free) -> kinks allowed.
+// At C1: share value+slope. C2: +curvature. C3: +3rd deriv.
+// We construct via Hermite-style: each segment is a degree-(2k+1) poly on [0,1]
+// matching k derivatives at both ends where constrained.
+
+let order=0, nseg=4, speed=1, mode='spline', tension=0;
+let knots=[0.5,0.7,0.35,0.65,0.5];   // length nseg+1, populated before any draw
+let segPolys=[];     // per-segment polynomial coefficients (in local t 0..1)
+let globalPoly=[];   // single polynomial fit through all knots (global mode)
+
+function randShape(){
+  knots=[];
+  for(let i=0;i<=nseg;i++){
+    knots.push(0.5 + 0.36*Math.sin(i*1.7+0.6) * (0.6+0.4*Math.random()));
+  }
+  rebuild();
+}
+
+// numerically derive: we represent each segment as samples and differentiate.
+// But to get clean controllable continuity we build polynomials explicitly.
+// Approach: maintain at each knot a vector of derivatives d[0..order] (value..order-th).
+// Going left-to-right, the left knot's derivatives are fixed (from continuity);
+// the right knot's value is the target; remaining right-derivatives are FREE and
+// chosen = a natural-ish guess. Segment poly = Hermite matching (order+1) derivs
+// at left and (order+1) at right -> degree 2*order+1.
+
+function factorial(n){let r=1;for(let i=2;i<=n;i++)r*=i;return r;}
+
+// solve for polynomial of degree D = 2m+1 (m=order) on [0,1] matching
+// derivatives L[0..m] at t=0 and R[0..m] at t=1.
+function hermitePoly(L,R,m){
+  const D=2*m+1; const N=D+1;
+  // build linear system A c = b for coeffs c[0..D] of sum c_j t^j
+  const A=[],b=[];
+  // at t=0, d-th derivative = d! * c_d  -> gives c_d directly
+  for(let d=0;d<=m;d++){ const row=new Array(N).fill(0); row[d]=factorial(d); A.push(row); b.push(L[d]); }
+  // at t=1, d-th derivative = sum_{j>=d} j!/(j-d)! * c_j
+  for(let d=0;d<=m;d++){
+    const row=new Array(N).fill(0);
+    for(let j=d;j<N;j++){ row[j]=factorial(j)/factorial(j-d); }
+    A.push(row); b.push(R[d]);
+  }
+  return solve(A,b);
+}
+function solve(A,b){ // gaussian elimination
+  const n=b.length; const M=A.map((r,i)=>r.concat(b[i]));
+  for(let i=0;i<n;i++){
+    let p=i; for(let r=i+1;r<n;r++) if(Math.abs(M[r][i])>Math.abs(M[p][i])) p=r;
+    [M[i],M[p]]=[M[p],M[i]];
+    const piv=M[i][i]||1e-9;
+    for(let j=i;j<=n;j++) M[i][j]/=piv;
+    for(let r=0;r<n;r++){ if(r!==i){ const f=M[r][i]; for(let j=i;j<=n;j++) M[r][j]-=f*M[i][j]; } }
+  }
+  return M.map(r=>r[n]);
+}
+function polyEval(c,t){ let s=0; for(let j=c.length-1;j>=0;j--) s=s*t+c[j]; return s; }
+function polyDeriv(c){ const d=[]; for(let j=1;j<c.length;j++) d.push(j*c[j]); return d.length?d:[0]; }
+
+// PERIODIC spline. The signal loops: knot[nseg] == knot[0], and the loop seam
+// obeys the SAME continuity order as every other join. So at C0 the loop click
+// is real and audible; at C2 the loop is genuinely seamless.
+//
+// Method: compute target derivatives (value..order) AT EVERY KNOT from periodic
+// finite differences of the knot values, then build each segment to match those
+// targets at both ends. Matching shared targets from both sides => C^order at
+// every join automatically, including the seam. At C0 we match value only, so
+// slopes are free and kinks (incl. a loop-seam kink) appear.
+function periodicKnot(i){ // wrap index into 0..nseg-1 (knot nseg === knot 0)
+  const n=nseg; return ((i%n)+n)%n;
+}
+function kv(i){ return knots[periodicKnot(i)]; } // periodic knot value
+function rebuild(){
+  knots[nseg]=knots[0];              // enforce periodicity of the value
+  segPolys=[];
+  const m=order;
+  const wseg=1/nseg;
+  // global-t derivative target at knot i, from periodic finite differences
+  function targetG(i,d){
+    if(d===0) return kv(i);
+    if(d===1) return (kv(i+1)-kv(i-1))/(2*wseg);
+    if(d===2) return (kv(i+1)-2*kv(i)+kv(i-1))/(wseg*wseg);
+    // d===3
+    return (kv(i+2)-2*kv(i+1)+2*kv(i-1)-kv(i-2))/(2*wseg*wseg*wseg);
+  }
+  // convert global derivative target -> LOCAL (per-segment, lt in 0..1): local = global * wseg^d
+  function localTargets(i){
+    const L=[];
+    for(let d=0;d<=m;d++) L.push( targetG(i,d) * Math.pow(wseg,d) );
+    return L;
+  }
+  for(let i=0;i<nseg;i++){
+    const L = (m===0) ? [kv(i)]   : localTargets(i);
+    const R = (m===0) ? [kv(i+1)] : localTargets(i+1);
+    segPolys.push( hermitePoly(L,R,m) );
+  }
+  buildGlobal();
+  if(mode==='coupled') buildCoupledSegments();
+}
+
+// build the actual segment polynomials for the coupled engine, using blended slopes.
+// Each segment is a cubic matching value+slope at both ends (Hermite, C1), where
+// the slopes come from the global coupled solve (blended toward local by tension).
+function buildCoupledSegments(){
+  buildCoupled();
+  const wseg=1/nseg;
+  segPolys=[];
+  for(let i=0;i<nseg;i++){
+    // local-units derivatives: value, and slope*wseg (chain rule global->local)
+    const L=[ kv(i),   blendedSlope(i)*wseg ];
+    const R=[ kv(i+1), blendedSlope(i+1)*wseg ];
+    segPolys.push( hermitePoly(L,R,1) );
+  }
+}
+
+// GLOBAL MODE: fit ONE polynomial of degree nseg through all nseg+1 knots
+// (knot i at t = i/nseg). This is the classic high-degree interpolation that
+// Runges — it oscillates between the points. It's C-infinity (no breaks ever),
+// so it's the opposite extreme from the piecewise spline: perfectly smooth, wildly wiggly.
+function buildGlobal(){
+  const n=nseg+1;            // number of points -> degree nseg polynomial, n coeffs
+  const A=[], b=[];
+  for(let i=0;i<n;i++){
+    const t=i/nseg;          // sample abscissa
+    const row=[]; let p=1;
+    for(let j=0;j<n;j++){ row.push(p); p*=t; }   // [1, t, t^2, ... t^(n-1)]
+    A.push(row); b.push(knots[i]);
+  }
+  globalPoly=solve(A,b);
+}
+
+// COUPLED MODE: periodic natural cubic spline. Solve ONE system for the first
+// derivatives at every knot so the whole curve is C2 and mutually dependent —
+// moving one knot ripples through all of them (a tensioned membrane), but it
+// stays smooth (no Runge). `tension` blends the globally-solved slopes toward
+// the LOCAL finite-difference slopes: tension=0 -> fully coupled/loose,
+// tension=1 -> behaves like the local engine. So local<->coupled is one slider.
+let coupledSlopes=[];   // first derivative (global units) at each knot
+function buildCoupled(){
+  const n=nseg;            // n distinct knots (periodic; knot n == knot 0)
+  const wseg=1/nseg;
+  // Periodic cubic spline: solve for slopes D[i] s.t. second derivatives match
+  // across every knot. Standard system: D[i-1] + 4 D[i] + D[i+1] = 3 (y[i+1]-y[i-1]) ... /wseg
+  // (uniform spacing). Build the cyclic matrix and solve with the existing solver.
+  const A=[], b=[];
+  for(let i=0;i<n;i++){
+    const row=new Array(n).fill(0);
+    row[i]=4;
+    row[(i-1+n)%n]=1;
+    row[(i+1)%n]=1;
+    A.push(row);
+    b.push( 3*(kv(i+1)-kv(i-1)) );   // RHS in units where slope ~ (y/wseg); we rescale after
+  }
+  const Draw=solve(A,b);
+  // Draw[i] is the per-index slope (dy per unit index); global slope dy/dt = Draw/wseg.
+  coupledSlopes=Draw.map(d=> d / wseg);
+}
+// blended slope at knot i: tension pulls coupled -> local
+function blendedSlope(i){
+  const wseg=1/nseg;
+  const localS=(kv(i+1)-kv(i-1))/(2*wseg);     // local finite-difference slope
+  const coupS = coupledSlopes.length? coupledSlopes[periodicKnot(i)] : localS;
+  return coupS*(1-tension) + localS*tension;
+}
+
+// value & derivatives at global t in [0,1] — branches on mode
+function fAt(t){
+  if(mode==='global'){ return globalPoly.length? polyEval(globalPoly,t) : 0; }
+  if(!segPolys.length) return 0;
+  let i=Math.min(nseg-1, Math.max(0, Math.floor(t*nseg)));
+  const lt=(t*nseg)-i; // local 0..1
+  return polyEval(segPolys[i], lt);
+}
+function derivAt(t,dn){
+  if(mode==='global'){
+    if(!globalPoly.length) return 0;
+    let c=globalPoly.slice(); for(let d=0;d<dn;d++) c=polyDeriv(c);
+    return polyEval(c,t);   // already in global t, no chain-rule scaling
+  }
+  if(!segPolys.length) return 0;
+  let i=Math.min(nseg-1, Math.max(0, Math.floor(t*nseg)));
+  const lt=(t*nseg)-i;
+  let c=segPolys[i].slice();
+  for(let d=0;d<dn;d++) c=polyDeriv(c);
+  // chain rule: each derivative wrt global t scales by nseg (since local=global*nseg)
+  return polyEval(c,lt)*Math.pow(nseg,dn);
+}
+
+// ---------- dynamic derivative ladder ----------
+const ladderHost=document.getElementById('ladderRows');
+const dWave=document.getElementById('dWave'), wx=dWave.getContext('2d');
+let cs=[], ctxs=[], heights=[], W=0;
+
+// derivative names: 0..3 have words, beyond that physics nicknames then generic
+const derivWord=['value — the spline f(t)','f′ — velocity (slope)','f″ — acceleration (curvature)','f‴ — jerk','f⁗ — snap','f⁽⁵⁾ — crackle','f⁽⁶⁾ — pop'];
+function rowLabel(d){
+  if(d<derivWord.length) return derivWord[d];
+  return 'f⁽'+d+'⁾ — '+d+'th derivative';
+}
+// color per order: value green, then cycle a hue ramp so each row is distinct
+function rowColor(d){
+  if(d===0) return cssv('--v');
+  // hue ramp from cyan(190) through to magenta/red as order climbs
+  const hue=(190 + (d-1)*42) % 360;
+  return `hsl(${hue} 85% 66%)`;
+}
+function cssv(n){return getComputedStyle(document.documentElement).getPropertyValue(n).trim();}
+
+// (re)build the ladder DOM to have order+1 rows
+function buildLadder(){
+  const rows = mode==='global' ? 4 : (order+1);   // global is C-inf; show f..f‴ to watch wiggle amplify
+  ladderHost.innerHTML='';
+  cs=[]; ctxs=[]; heights=[];
+  for(let d=0;d<rows;d++){
+    const lab=document.createElement('div'); lab.className='lab';
+    const left=document.createElement('span'); left.style.color=rowColor(d); left.textContent=rowLabel(d);
+    const right=document.createElement('span'); right.id='lab'+d;
+    lab.appendChild(left); lab.appendChild(right);
+    const cv=document.createElement('canvas'); cv.id='c'+d;
+    const h = d===0 ? 150 : Math.max(44, 78 - rows*2);  // shrink rows as ladder grows
+    cv.height=h;
+    ladderHost.appendChild(lab); ladderHost.appendChild(cv);
+    cs.push(cv); ctxs.push(cv.getContext('2d')); heights.push(h);
+  }
+  sizeCanvases();
+}
+function sizeCanvases(){
+  const dpr=devicePixelRatio||1;
+  cs.concat([dWave]).forEach((c,idx)=>{
+    c.width=c.clientWidth*dpr;
+    const h=idx<heights.length?heights[idx]:42;
+    c.height=h*dpr; c.getContext('2d').setTransform(dpr,0,0,dpr,0,0);
+  });
+  if(cs[0]) W=cs[0].clientWidth;
+}
+function resize(){ sizeCanvases(); draw(); }
+addEventListener('resize',resize);
+
+// detect discontinuities at knots for derivative order dn: compare left/right limits
+function knotBreaks(dn){
+  if(mode==='global') return [];   // single polynomial: C-infinity, no breaks anywhere
+  const breaks=[];
+  for(let i=1;i<nseg;i++){
+    const t=i/nseg;
+    const lft=derivAtSeg(i-1,1,dn);   // right end of seg i-1
+    const rgt=derivAtSeg(i,0,dn);     // left end of seg i
+    if(Math.abs(lft-rgt) > 0.06*Math.max(1,Math.abs(lft),Math.abs(rgt))) breaks.push(t);
+  }
+  // loop seam: end of last segment vs start of first segment
+  const sl=derivAtSeg(nseg-1,1,dn), sr=derivAtSeg(0,0,dn);
+  if(Math.abs(sl-sr) > 0.06*Math.max(1,Math.abs(sl),Math.abs(sr))){ breaks.push(0); breaks.push(1); }
+  return breaks;
+}
+function derivAtSeg(i,lt,dn){
+  if(!segPolys.length) return 0;
+  i=((i%nseg)+nseg)%nseg;            // periodic wrap: -1 -> last seg, nseg -> first
+  let c=segPolys[i].slice();
+  for(let d=0;d<dn;d++) c=polyDeriv(c);
+  return polyEval(c,lt)*Math.pow(nseg,dn);
+}
+
+let playing=false, phase=0, lastT=0;
+let influenceMode='all';   // all | ghost | heat | tug | off
+let predictMode='off';     // off | zones | hover | both
+let hoverKnot=-1;          // knot currently hovered (for hover-preview)
+let detail=1;              // 0 clean | 1 standard | 2 full — master density gate
+let combMode='off';        // off | curv — curvature combs
+
+// compute the curve that WOULD result if knot ki were set to value nv — without
+// disturbing real state. Returns sampled values over [0,1]. Used for prediction.
+function previewCurve(ki, nv, N){
+  N=N||160;
+  const saved=knots.slice();
+  knots[ki]=nv;
+  if(ki===0) knots[nseg]=nv; if(ki===nseg) knots[0]=nv;
+  rebuild();
+  const out=[]; for(let s=0;s<=N;s++) out.push(fAt(s/N));
+  knots=saved; rebuild();   // restore
+  return out;
+}
+// the reach footprint of knot ki: which t-range it measurably affects (local engine).
+// computed by probing a small displacement and seeing where the curve moves.
+function reachZone(ki){
+  const N=120;
+  const base=[]; for(let s=0;s<=N;s++) base.push(fAt(s/N));
+  const pv=previewCurve(ki, knots[ki]+0.15, N);
+  let lo=1, hi=0, any=false;
+  for(let s=0;s<=N;s++){ if(Math.abs(pv[s]-base[s])>0.004){ const u=s/N; lo=Math.min(lo,u); hi=Math.max(hi,u); any=true; } }
+  return any? {lo,hi} : null;
+}
+
+// how much the curve changed from baseline, at sample fraction u in [0,1]
+function influenceAt(u){
+  if(!baseline) return 0;
+  const N=baseline.samp.length-1;
+  const cur=fAt(u);
+  const base=baseline.samp[Math.round(u*N)];
+  return Math.abs(cur-base);
+}
+
+function drawLadder(){
+  const rows=cs.length;
+  for(let d=0;d<rows;d++){
+    const ctx=ctxs[d], h=heights[d];
+    ctx.clearRect(0,0,W,h);
+    // grid baseline
+    ctx.strokeStyle='#15181f'; ctx.lineWidth=1;
+    for(let i=0;i<=nseg;i++){const x=i/nseg*W;ctx.beginPath();ctx.moveTo(x,0);ctx.lineTo(x,h);ctx.stroke();}
+    // sample
+    const N=320; let vals=[];
+    for(let s=0;s<=N;s++){ const t=s/N; vals.push(derivAt(t,d)); }
+    // autoscale
+    let mn=Math.min(...vals), mx=Math.max(...vals); if(mx-mn<1e-6){mx+=1;mn-=1;}
+    const pad=(mx-mn)*0.15; mn-=pad; mx+=pad;
+    const Y=v=> h - ( (v-mn)/(mx-mn) )*(h-10) - 5;
+    if(!window._rowY) window._rowY={}; window._rowY[d]=Y;
+    // zero line
+    if(mn<0&&mx>0){ctx.strokeStyle='#1f2530';ctx.setLineDash([2,3]);ctx.beginPath();ctx.moveTo(0,Y(0));ctx.lineTo(W,Y(0));ctx.stroke();ctx.setLineDash([]);}
+    // breaks at this order
+    const brks=knotBreaks(d);
+    brks.forEach(t=>{ ctx.strokeStyle=cssv('--break'); ctx.lineWidth=2; ctx.beginPath();ctx.moveTo(t*W,0);ctx.lineTo(t*W,h);ctx.stroke();
+      // mark the jump
+      const lf=derivAtSeg(Math.round(t*nseg)-1,1,d), rg=derivAtSeg(Math.round(t*nseg),0,d);
+      ctx.fillStyle=cssv('--break');
+      ctx.beginPath();ctx.arc(t*W,Y(lf),3.2,0,7);ctx.fill();
+      ctx.beginPath();ctx.arc(t*W,Y(rg),3.2,0,7);ctx.fill();
+    });
+    // PREDICT: reach-zones — each knot's influence footprint, shown at rest
+    if(d===0 && dragI<0 && (predictMode==='zones'||predictMode==='both')){
+      for(let i=0;i<nseg;i++){   // skip duplicate seam knot (nseg)
+        const z=reachZone(i);
+        if(!z) continue;
+        const hovered=(i===hoverKnot);
+        const grd=ctx.createLinearGradient(z.lo*W,0,z.hi*W,0);
+        const mid=(z.lo+z.hi)/2;
+        const a=hovered?0.22:0.10;
+        ctx.fillStyle=`rgba(116,224,255,${a})`;
+        ctx.fillRect(z.lo*W, 0, (z.hi-z.lo)*W, h);
+      }
+    }
+    // INFLUENCE: heat tint — how much each region changed from pre-drag baseline
+    if(d===0 && dragI>=0 && baseline && (influenceMode==='all'||influenceMode==='heat')){
+      // find max influence for normalization
+      let maxInf=1e-6;
+      for(let s=0;s<=120;s++) maxInf=Math.max(maxInf, influenceAt(s/120));
+      for(let s=0;s<120;s++){
+        const u=s/120, inf=influenceAt(u)/maxInf;
+        if(inf<0.02) continue;
+        ctx.fillStyle=`rgba(255,92,92,${(inf*0.5).toFixed(3)})`;
+        ctx.fillRect(u*W, 0, W/120+1, h);
+      }
+    }
+    // the curve (draw per-segment so C0 breaks show as separate strokes)
+    ctx.strokeStyle=rowColor(d); ctx.lineWidth=d===0?2.2:1.5;
+    for(let sg=0;sg<nseg;sg++){
+      ctx.beginPath();
+      const steps=140;   // fine enough to render high-order Runge wiggle
+      for(let s=0;s<=steps;s++){
+        const lt=s/steps; const t=(sg+lt)/nseg;
+        const x=t*W, y=Y(derivAt(t,d));
+        s===0?ctx.moveTo(x,y):ctx.lineTo(x,y);
+      }
+      ctx.stroke();
+    }
+    // CURVATURE COMBS — hairs perpendicular to the curve, length ∝ |curvature|
+    if(d===0 && combMode==='curv' && detail>=1){
+      const M = detail>=2 ? 130 : 80;   // denser combs at full detail
+      // screen position of the curve at fraction u
+      const sx=u=>u*W, sy=u=>Y(fAt(u));
+      let maxK=1e-6;
+      for(let s=0;s<=M;s++) maxK=Math.max(maxK, Math.abs(derivAt(s/M,2)));
+      ctx.lineWidth=1;
+      const tips=[];
+      for(let s=0;s<=M;s++){
+        const u=s/M;
+        const k=derivAt(u,2);
+        // numerical screen tangent from neighboring points
+        const du=0.004, ua=Math.max(0,u-du), ub=Math.min(1,u+du);
+        let tx=sx(ub)-sx(ua), ty=sy(ub)-sy(ua); const tl=Math.hypot(tx,ty)||1; tx/=tl; ty/=tl;
+        // perpendicular, pointing toward concavity (sign of k), y-down screen
+        let nx=-ty, ny=tx;
+        const dir = k>=0 ? 1 : -1;   // up-concave one way, down the other
+        const len=Math.min(32, Math.abs(k)/maxK*28)+1;
+        const x=sx(u), y=sy(u);
+        const ex=x+nx*len*dir, ey=y+ny*len*dir;
+        ctx.strokeStyle = k>=0 ? 'rgba(116,224,255,0.45)' : 'rgba(255,160,115,0.45)';
+        ctx.beginPath(); ctx.moveTo(x,y); ctx.lineTo(ex,ey); ctx.stroke();
+        tips.push([ex,ey]);
+      }
+      // spine connecting the comb tips
+      ctx.strokeStyle='rgba(180,200,220,0.3)'; ctx.lineWidth=1; ctx.beginPath();
+      tips.forEach(([x,y],i)=> i===0?ctx.moveTo(x,y):ctx.lineTo(x,y));
+      ctx.stroke();
+    }
+    // RUNNING DRAG PREVIEW: keep the before-ghost visible the whole drag (detail>=1)
+    if(d===0 && dragI>=0 && baseline && detail>=1 && !(influenceMode==='ghost'||influenceMode==='all')){
+      const N=baseline.samp.length-1;
+      ctx.strokeStyle='rgba(150,160,180,0.4)'; ctx.lineWidth=1.3; ctx.setLineDash([3,3]);
+      ctx.beginPath();
+      for(let s=0;s<=N;s++){ const x=s/N*W, y=Y(baseline.samp[s]); s===0?ctx.moveTo(x,y):ctx.lineTo(x,y); }
+      ctx.stroke(); ctx.setLineDash([]);
+    }
+    // on value plot, draw draggable knots + influence overlays
+    if(d===0){
+      // PREDICT: hover-preview — ghost the result of pulling the hovered knot up & down
+      if(dragI<0 && hoverKnot>=0 && (predictMode==='hover'||predictMode==='both')){
+        const span=(mx-mn)*0.28||0.25;
+        [[span,'rgba(98,240,192,0.5)'],[-span,'rgba(255,160,115,0.5)']].forEach(([dv,col])=>{
+          const pv=previewCurve(hoverKnot, knots[hoverKnot]+dv, 160);
+          ctx.strokeStyle=col; ctx.lineWidth=1.3; ctx.setLineDash([4,3]); ctx.beginPath();
+          for(let s=0;s<=160;s++){ const x=s/160*W, y=Y(pv[s]); s===0?ctx.moveTo(x,y):ctx.lineTo(x,y); }
+          ctx.stroke(); ctx.setLineDash([]);
+        });
+        // a vertical guide at the hovered knot
+        const hx=hoverKnot/nseg*W;
+        ctx.strokeStyle='rgba(255,255,255,0.25)';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(hx,0);ctx.lineTo(hx,h);ctx.stroke();
+      }
+      // INFLUENCE: ghost trail — where the curve was before this drag
+      if(dragI>=0 && baseline && (influenceMode==='all'||influenceMode==='ghost')){
+        const N=baseline.samp.length-1;
+        ctx.strokeStyle='rgba(150,160,180,0.45)'; ctx.lineWidth=1.4; ctx.setLineDash([3,3]);
+        ctx.beginPath();
+        for(let s=0;s<=N;s++){ const x=s/N*W, y=Y(baseline.samp[s]); s===0?ctx.moveTo(x,y):ctx.lineTo(x,y); }
+        ctx.stroke(); ctx.setLineDash([]);
+      }
+      // INFLUENCE: tug vectors — how each OTHER knot's effective slope target shifted
+      if(dragI>=0 && baseline && (influenceMode==='all'||influenceMode==='tug')){
+        const wseg=1/nseg;
+        for(let i=0;i<=nseg;i++){
+          if(i===dragI || (dragI===0&&i===nseg) || (dragI===nseg&&i===0)) continue;
+          const a=knots[((i-1)%nseg+nseg)%nseg], b=knots[(i+1)%nseg];
+          const slopeNow=(b-a)/(2*wseg);
+          const slopeWas=baseline.slopes[i];
+          const dSlope=slopeNow-slopeWas;
+          if(Math.abs(dSlope)<1e-4) continue;
+          const x=i/nseg*W, y=Y(knots[i]);
+          // draw a small arrow whose tilt = new slope target, length = magnitude of change
+          const mag=Math.min(26, 6+Math.abs(dSlope)*40);
+          const ang=Math.atan2(-(slopeNow)*( (mx-mn)?40/(mx-mn):1 ), 40); // visual tilt
+          const ex=x+Math.cos(ang)*mag, ey=y+Math.sin(ang)*mag;
+          ctx.strokeStyle='#74e0ff'; ctx.lineWidth=2; ctx.beginPath();ctx.moveTo(x,y);ctx.lineTo(ex,ey);ctx.stroke();
+          // arrowhead
+          ctx.fillStyle='#74e0ff';
+          const ah=4, a1=ang+2.5, a2=ang-2.5;
+          ctx.beginPath();ctx.moveTo(ex,ey);ctx.lineTo(ex+Math.cos(a1)*ah,ey+Math.sin(a1)*ah);ctx.lineTo(ex+Math.cos(a2)*ah,ey+Math.sin(a2)*ah);ctx.closePath();ctx.fill();
+        }
+      }
+      for(let i=0;i<=nseg;i++){
+        const t=i/nseg; const x=t*W;
+        const isDrag = (i===dragI)||(dragI===0&&i===nseg)||(dragI===nseg&&i===0);
+        ctx.fillStyle = isDrag ? '#ffd166' : ((i>0&&i<nseg)?'#fff':'#5a6270');
+        ctx.beginPath();ctx.arc(x, Y(knots[i]), isDrag?6.5:5, 0,7);ctx.fill();
+        ctx.strokeStyle='#0a0b0e';ctx.lineWidth=1.5;ctx.stroke();
+      }
+      window._Y0=Y; window._mn0=mn; window._mx0=mx;
+    }
+    const labEl=document.getElementById('lab'+d);
+    if(labEl){
+      labEl.textContent = brks.length? (brks.length+' break'+(brks.length>1?'s':'')+' here') : 'continuous';
+      labEl.style.color = brks.length? cssv('--break'):'var(--dim)';
+    }
+  }
+}
+
+function draw(){ if(!knots||knots.length<nseg+1){ return; } rebuild(); if(!segPolys.length||!cs.length) return; computeRanges(); drawLadder(); updateDomains(0); }
+
+// ---------- per-medium derivative drivers ----------
+// each medium reads a chosen derivative order of f; default 0 (the value itself).
+let polarity='uni';   // uni [0,1] | bi [-1,1] zero-preserving
+const drivers={
+  position:0,size:0,rotation:0,opacity:0,skew:0,
+  hue:0,bright:0,sat:0,
+  zc:1,
+  pitch:0,amp:0,timbre:0
+};
+// cache min/max of each derivative order over [0,1] so we can normalize on the fly
+let derivRange={};   // order -> {mn,mx}
+function computeRanges(){
+  derivRange={};
+  const maxOrd=12;
+  const N=240;
+  for(let d=0; d<=maxOrd; d++){
+    let mn=1e30,mx=-1e30;
+    for(let s=0;s<=N;s++){ const v=derivAt(s/N, d); if(v<mn)mn=v; if(v>mx)mx=v; }
+    if(mx-mn<1e-12){ mx=mn+1; }
+    derivRange[d]={mn,mx};
+  }
+}
+// TRUE SIGNED value of a channel in [-1,1], ZERO-PRESERVING: the signal's real
+// zero (flat slope / no curvature) sits exactly at 0, regardless of range skew.
+// This is what makes derivatives usable as bipolar modulation (rising=+, falling=-).
+function chanSigned(key, t){
+  const d=drivers[key]||0;
+  const raw=derivAt(Math.min(0.99999,Math.max(0,t)), d);
+  const r=derivRange[d]||{mn:-1,mx:1};
+  const A=Math.max(Math.abs(r.mn),Math.abs(r.mx))||1;   // scale by max-abs, not range
+  return Math.max(-1,Math.min(1, raw/A));
+}
+// channel value the MONITORS consume, in [0,1].
+// unipolar: fills [0,1] across the observed range (zero may land off-center).
+// bipolar: zero is pinned to 0.5 (center), so slope/curvature sign reads as
+// "above vs below the midline" — the meaningful contrast vs unipolar.
+function chan(key, t){
+  if(polarity==='bi'){
+    return (chanSigned(key,t)+1)/2;
+  }
+  const d=drivers[key]||0;
+  const raw=derivAt(Math.min(0.99999,Math.max(0,t)), d);
+  const r=derivRange[d]||{mn:0,mx:1};
+  return Math.max(0,Math.min(1,(raw-r.mn)/(r.mx-r.mn)));
+}
+
+// ---------- domains ----------
+const dBall=document.getElementById('dBall'), dSize=document.getElementById('dSize'),
+      dRot=document.getElementById('dRot'), dOpac=document.getElementById('dOpac'),
+      dSkew=document.getElementById('dSkew'),
+      dHue=document.getElementById('dHue'), dBright=document.getElementById('dBright'),
+      dSat=document.getElementById('dSat'),
+      dPitchBox=document.getElementById('dPitchBox'), dAmpBox=document.getElementById('dAmpBox'),
+      dTimbreBox=document.getElementById('dTimbreBox');
+let waveHist=[];
+function updateDomains(t){
+  const bi = polarity==='bi';
+  // spatial family — each its own derivative
+  dBall.style.left=(chan('position',t)*100)+'%';
+  const sz=8+chan('size',t)*30; dSize.style.width=sz+'px'; dSize.style.height=sz+'px';
+  // rotation showcases bipolar: signed → spins ±180° around center (0 = up)
+  const rot = bi ? chanSigned('rotation',t)*180 : (chan('rotation',t)*360-120);
+  dRot.style.transform=`rotate(${rot}deg)`;
+  dOpac.style.opacity=(0.06+chan('opacity',t)*0.94).toFixed(3);
+  dSkew.style.transform=`skewX(${(chan('skew',t)*80-40)}deg) scaleY(${0.5+chan('skew',t)})`;
+  // color family
+  dHue.style.background=`hsl(${chan('hue',t)*330} 75% 55%)`;
+  dBright.style.background=`hsl(150 0% ${10+chan('bright',t)*80}%)`;
+  dSat.style.background=`hsl(280 ${chan('sat',t)*100}% 55%)`;
+  // ---- GATES: discrete events derived from the curve, fired as the playhead passes ----
+  // A gate is a flash when a feature is crossed between the previous playhead and now.
+  const prevT = (window._prevPhase!==undefined)? window._prevPhase : t;
+  function flash(id, on){
+    const el=document.getElementById(id); if(!el) return;
+    el.innerHTML=`<div class="trigdot" style="background:${on?'#62f0c0':'#1a1d26'};box-shadow:${on?'0 0 14px #62f0c0':'none'}"></div>`;
+  }
+  // knot gate: fired when the playhead crosses a knot boundary (i/nseg)
+  let knotFired=false;
+  for(let i=0;i<nseg;i++){ const kt=i/nseg; if((prevT< kt && t>=kt) || (prevT>kt && t<=kt)) knotFired=true; }
+  if(t<prevT){ knotFired=true; }  // loop wrap crosses the seam knot
+  flash('dGate', knotFired);
+  // peak gate: f' changes sign (a max or min of the curve)
+  const s1a=derivAt(Math.max(0,prevT),1), s1b=derivAt(Math.min(0.99999,t),1);
+  flash('dPeak', Math.sign(s1a)!==Math.sign(s1b) && Math.sign(s1b)!==0 && Math.abs(t-prevT)<0.5);
+  // zero-cross gate: the chosen derivative crosses zero
+  const zd=drivers.zc||1;
+  const za=derivAt(Math.max(0,prevT),zd), zb=derivAt(Math.min(0.99999,t),zd);
+  flash('dZC', Math.sign(za)!==Math.sign(zb) && Math.sign(zb)!==0 && Math.abs(t-prevT)<0.5);
+  window._prevPhase=t;
+  // sound attribute indicators (visual mirror of what the audio is doing)
+  const cp=chan('pitch',t), ca=chan('amp',t), ct=chan('timbre',t);
+  dPitchBox.firstChild && (dPitchBox.innerHTML='');
+  dPitchBox.innerHTML=`<i style="background:hsl(${160+cp*60} 80% 60%);width:${10+cp*22}px;height:${10+cp*22}px;box-shadow:0 0 10px hsl(${160+cp*60} 80% 60%)"></i>`;
+  dAmpBox.innerHTML=`<i style="background:var(--d1);opacity:${(0.12+ca*0.88).toFixed(2)};width:24px;height:24px;box-shadow:0 0 ${ca*16}px var(--d1)"></i>`;
+  dTimbreBox.innerHTML=`<i style="background:var(--d2);width:24px;height:24px;border-radius:${(2+ct*10)}px;filter:blur(${((1-ct)*2).toFixed(1)}px);box-shadow:0 0 10px var(--d2)"></i>`;
+  // fused waveform trace follows pitch channel
+  waveHist.push(cp); if(waveHist.length>120)waveHist.shift();
+  drawStrip(wx,dWave,waveHist,'--d1');
+}
+function drawStrip(ctx,cv,hist,col,asPath){
+  const w=cv.clientWidth,h=42; ctx.clearRect(0,0,w,h);
+  ctx.strokeStyle=cssv(col);ctx.lineWidth=1.6;ctx.beginPath();
+  hist.forEach((v,i)=>{const x=i/119*w,y=h-(v*(h-8)+4);i===0?ctx.moveTo(x,y):ctx.lineTo(x,y);});
+  ctx.stroke();
+  if(hist.length){const v=hist[hist.length-1];ctx.fillStyle='#fff';ctx.beginPath();ctx.arc(w-1,h-(v*(h-8)+4),2.5,0,7);ctx.fill();}
+}
+
+// ---------- audio: 3 oscillators, one shared base pitch, fused into one voice ----------
+// osc1: PITCH rides f.  osc2: AMPLITUDE rides f.  osc3: TIMBRE (filter) rides f.
+// All on the same fundamental so you hear ONE evolving tone, three attributes at once.
+let actx, o1,o2,o3, g1,g2,g3, filt, master;
+function audioOn(){
+  if(!actx){
+    actx=new (window.AudioContext||window.webkitAudioContext)();
+    master=actx.createGain(); master.gain.value=0.0; master.connect(actx.destination);
+    o1=actx.createOscillator(); o2=actx.createOscillator(); o3=actx.createOscillator();
+    g1=actx.createGain(); g2=actx.createGain(); g3=actx.createGain();
+    o1.type='sine'; o2.type='triangle'; o3.type='sawtooth';
+    g1.gain.value=0.5; g2.gain.value=0.0; g3.gain.value=0.35;
+    filt=actx.createBiquadFilter(); filt.type='lowpass'; filt.frequency.value=600; filt.Q.value=4;
+    // osc1 -> g1 -> master ; osc2 -> g2 -> master ; osc3 -> filt -> g3 -> master
+    o1.connect(g1); g1.connect(master);
+    o2.connect(g2); g2.connect(master);
+    o3.connect(filt); filt.connect(g3); g3.connect(master);
+    o1.start(); o2.start(); o3.start();
+  }
+  actx.resume();
+}
+function setTone(t){
+  if(!actx)return;
+  const now=actx.currentTime, tc=0.004;
+  const cp=chan('pitch',t), ca=chan('amp',t), ct=chan('timbre',t);
+  const base=160+cp*520;                 // pitch channel
+  o1.frequency.setTargetAtTime(base, now, tc);
+  o2.frequency.setTargetAtTime(base, now, tc);   // shared fundamental
+  o3.frequency.setTargetAtTime(base, now, tc);
+  g2.gain.setTargetAtTime(0.05+ca*0.4, now, tc); // amplitude channel
+  filt.frequency.setTargetAtTime(250+ct*4000, now, tc); // timbre channel
+  master.gain.setTargetAtTime(0.05, now, 0.01);
+}
+function toneOff(){ if(master)master.gain.setTargetAtTime(0,actx.currentTime,0.02); }
+
+// ---------- play loop ----------
+function loop(ts){
+  if(!playing)return;
+  if(!lastT)lastT=ts;
+  const dt=(ts-lastT)/1000; lastT=ts;
+  phase=(phase+dt*0.28*speed)%1;
+  updateDomains(phase);
+  setTone(phase);
+  // playhead across ALL ladder rows + a dot marking the current value on each
+  drawLadder();
+  for(let d=0;d<cs.length;d++){
+    const ctx=ctxs[d], h=heights[d];
+    ctx.strokeStyle='rgba(255,255,255,0.45)';ctx.lineWidth=1;
+    ctx.beginPath();ctx.moveTo(phase*W,0);ctx.lineTo(phase*W,h);ctx.stroke();
+    // dot at the current derivative value on this row (needs that row's scale)
+    if(window._rowY && window._rowY[d]){
+      const yy=window._rowY[d](derivAt(phase,d));
+      ctx.fillStyle='#fff';ctx.beginPath();ctx.arc(phase*W, yy, 3, 0, 7);ctx.fill();
+    }
+  }
+  requestAnimationFrame(loop);
+}
+
+// ---------- interaction: drag knots (delegated to persistent host) ----------
+let dragI=-1;
+let baseline=null;   // snapshot of curve+targets before a drag, for influence viz
+function snapshotBaseline(){
+  const N=200, samp=[];
+  for(let s=0;s<=N;s++) samp.push(fAt(s/N));
+  // per-knot effective slope target (finite-difference, periodic) — what propagation acts on
+  const wseg=1/nseg, slopes=[];
+  for(let i=0;i<=nseg;i++){
+    const a=knots[((i-1)%nseg+nseg)%nseg], b=knots[(i+1)%nseg];
+    slopes.push((b-a)/(2*wseg));
+  }
+  baseline={samp, knots:knots.slice(), slopes};
+}
+function valueCanvas(){ return cs[0]; }
+ladderHost.addEventListener('pointerdown',e=>{
+  const vc=valueCanvas(); if(!vc || e.target!==vc) return;   // only the value plot
+  const r=vc.getBoundingClientRect(); const mx=e.clientX-r.left;
+  let best=-1,bd=1e9;
+  for(let i=0;i<=nseg;i++){const x=i/nseg*W;const d=Math.abs(mx-x);if(d<bd){bd=d;best=i;}}
+  if(bd<22){dragI=best; snapshotBaseline(); vc.setPointerCapture(e.pointerId);}
+});
+ladderHost.addEventListener('pointermove',e=>{
+  if(dragI<0){
+    // hover detection for prediction (only when predict needs it and not dragging)
+    if(predictMode==='hover'||predictMode==='both'){
+      const vc=valueCanvas(); if(!vc){return;}
+      if(e.target===vc){
+        const r=vc.getBoundingClientRect(); const mx2=e.clientX-r.left;
+        let best=-1,bd=1e9;
+        for(let i=0;i<nseg;i++){const x=i/nseg*W;const dd=Math.abs(mx2-x);if(dd<bd){bd=dd;best=i;}}
+        const nh = bd<26? best : -1;
+        if(nh!==hoverKnot){ hoverKnot=nh; draw(); }
+      } else if(hoverKnot!==-1){ hoverKnot=-1; draw(); }
+    }
+    return;
+  }
+  const vc=valueCanvas(); const r=vc.getBoundingClientRect(); const my=e.clientY-r.top;
+  const mn=window._mn0,mx=window._mx0;
+  const v = mn + ( (heights[0]-5-my) / (heights[0]-10) )*(mx-mn);
+  knots[dragI]=v;
+  if(dragI===0) knots[nseg]=v;        // seam knots move together
+  if(dragI===nseg) knots[0]=v;
+  draw();
+});
+ladderHost.addEventListener('pointerleave',()=>{ if(hoverKnot!==-1){hoverKnot=-1; draw();} });
+addEventListener('pointerup',()=>{ dragI=-1; baseline=null; draw(); });
+
+// ---------- controls ----------
+document.querySelectorAll('#mode button').forEach(btn=>btn.onclick=()=>{
+  document.querySelectorAll('#mode button').forEach(z=>z.classList.remove('on'));
+  btn.classList.add('on'); mode=btn.dataset.m;
+  const ts=document.getElementById('tensionScrub'); if(ts) ts.style.display = (mode==='coupled')?'':'none';
+  buildLadder(); draw(); setText(); if(typeof refreshPickers==='function') refreshPickers();
+});
+document.getElementById('play').onclick=function(){
+  playing=!playing;
+  this.textContent=playing?'⏸ pause':'▶ play'; this.classList.toggle('stop',playing);
+  if(playing){audioOn();lastT=0;requestAnimationFrame(loop);} else toneOff();
+};
+document.getElementById('rand').onclick=()=>{randShape();draw();};
+
+// scrubbers
+function initScrub(el){
+  const key=el.dataset.k, step=+el.dataset.step||1, min=el.dataset.min!==undefined?+el.dataset.min:null,
+        max=el.dataset.max!==undefined?+el.dataset.max:null, isInt=el.dataset.int==='1';
+  let b=el.querySelector('b');
+  function get(){return key==='segs'?nseg:key==='order'?order:key==='tension'?tension:speed;}
+  function set(v){ if(min!==null)v=Math.max(min,v); if(max!==null)v=Math.min(max,v); if(isInt)v=Math.round(v);
+    if(key==='segs'){ if(v!==nseg){nseg=v; randShape(); if(mode==='global') buildLadder();} }
+    else if(key==='order'){ if(v!==order){ order=v; if(mode!=='global') buildLadder(); setText(); if(typeof refreshPickers==='function') refreshPickers(); } }
+    else if(key==='tension'){ tension=v; }
+    else speed=v;
+    b.textContent=isInt?v.toFixed(0):v.toFixed(2); draw(); }
+  set(get());
+  let drag=false,sx=0,sv=0;
+  el.addEventListener('pointerdown',e=>{drag=true;sx=e.clientX;sv=get();el.classList.add('dragging');el.setPointerCapture(e.pointerId);e.preventDefault();});
+  el.addEventListener('pointermove',e=>{if(!drag)return;set(sv+(e.clientX-sx)*step);});
+  el.addEventListener('pointerup',()=>{drag=false;});
+}
+document.querySelectorAll('.scrub').forEach(initScrub);
+
+// derivative pickers (per medium) — drag to scrub order, click to +1
+function maxDriverOrder(){ return mode==='global' ? 9 : order; }  // global is C-inf so any order is meaningful
+function refreshPickers(){
+  document.querySelectorAll('.dpick').forEach(el=>{
+    const key=el.dataset.driver;
+    let d=Math.min(drivers[key], maxDriverOrder());
+    drivers[key]=d;
+    el.querySelector('b').textContent=d;
+    // mark "hot" if this medium is driven by the broken order (spline mode: order+1 and up are broken; the value 'order' is the highest continuous)
+    const isBroken = (mode!=='global') && (d>order);
+    el.classList.toggle('hot', isBroken);
+  });
+}
+document.querySelectorAll('.dpick').forEach(el=>{
+  const key=el.dataset.driver, b=el.querySelector('b');
+  function set(d){ d=Math.max(0,Math.min(maxDriverOrder(),Math.round(d))); drivers[key]=d; refreshPickers(); draw(); }
+  let drag=false,sx=0,sv=0,moved=false;
+  el.addEventListener('pointerdown',e=>{drag=true;moved=false;sx=e.clientX;sv=drivers[key];el.setPointerCapture(e.pointerId);e.preventDefault();});
+  el.addEventListener('pointermove',e=>{if(!drag)return;const dd=(e.clientX-sx)*0.08;if(Math.abs(e.clientX-sx)>3)moved=true;set(sv+dd);});
+  el.addEventListener('pointerup',e=>{ if(!moved){ set((drivers[key]+1)>maxDriverOrder()?0:drivers[key]+1); } drag=false;});
+});
+
+// unipolar / bipolar toggle
+document.querySelectorAll('#polmode button').forEach(btn=>btn.onclick=()=>{
+  document.querySelectorAll('#polmode button').forEach(z=>z.classList.remove('on'));
+  btn.classList.add('on'); polarity=btn.dataset.pol; draw();
+});
+// influence-visualization toggle
+document.querySelectorAll('#influence button').forEach(btn=>btn.onclick=()=>{
+  document.querySelectorAll('#influence button').forEach(z=>z.classList.remove('on'));
+  btn.classList.add('on'); influenceMode=btn.dataset.i; draw();
+});
+// prediction toggle
+document.querySelectorAll('#predict button').forEach(btn=>btn.onclick=()=>{
+  document.querySelectorAll('#predict button').forEach(z=>z.classList.remove('on'));
+  btn.classList.add('on'); predictMode=btn.dataset.p; if(predictMode==='off'||predictMode==='zones')hoverKnot=-1; draw();
+});
+// detail-level master
+document.querySelectorAll('#detail button').forEach(btn=>btn.onclick=()=>{
+  document.querySelectorAll('#detail button').forEach(z=>z.classList.remove('on'));
+  btn.classList.add('on'); detail=+btn.dataset.d; draw();
+});
+// curvature combs toggle
+document.querySelectorAll('#combs button').forEach(btn=>btn.onclick=()=>{
+  document.querySelectorAll('#combs button').forEach(z=>z.classList.remove('on'));
+  btn.classList.add('on'); combMode=btn.dataset.c; draw();
+});
+
+function ordName(k){
+  const w=['C⁰ — pieces only touch','C¹ — slopes match too','C² — curvature matches too','C³ — jerk matches too','C⁴ — snap matches too','C⁵ — crackle matches too'];
+  return k<w.length?w[k]:('C'+k+' — derivatives 0…'+k+' all match');
+}
+function setText(){
+  const r=document.getElementById('read');
+  const hintEl=document.getElementById('modeHint');
+  if(mode==='global'){
+    hintEl.innerHTML=`drag any knot (○) up/down · this is ONE polynomial of degree ${nseg} forced through all ${nseg+1} points · more segments = higher degree = wilder oscillation`;
+    r.innerHTML=`<b>Global polynomial — degree ${nseg}, forced through all ${nseg+1} knots.</b> This is the opposite extreme from the spline: a single polynomial is infinitely smooth (C<sup>∞</sup> — <span class="brk">no breaks anywhere</span>, ever), yet it <b>oscillates wildly between the points</b> it's pinned to. That's <b>Runge's phenomenon</b>: buying continuity by raising a single polynomial's degree makes it whip around between control points, and the wiggle gets <i>worse</i> in each higher derivative row. Add segments to raise the degree and watch it blow up. Perfect smoothness, useless control — the cautionary twin of the well-behaved spline.`;
+    document.getElementById('note').innerHTML=`<b>Why this matters for driving things:</b> the spline gives you <i>local</i> control (move one knot, only nearby changes) but only finite smoothness. The global polynomial gives infinite smoothness but <i>global</i>, unpredictable swings — move one knot and the whole curve thrashes. Between these two extremes is the whole design space of "how do I make a signal that's both smooth and controllable." The oscillation here isn't just a warning; cranked deliberately it's a rich, tunable texture — exactly the kind of hypersensitive driver that could steer a 4-sphere's chaotic regime. <br><br><b>Same eleven mediums, same f(t):</b> watch the wiggle propagate identically through every channel on the right.`;
+    return;
+  }
+  if(mode==='coupled'){
+    const t=tension;
+    const feel = t<0.15?'fully coupled — a loose, tensioned membrane: move one knot and the whole curve responds':
+                 t>0.85?'nearly local — coupling almost off, edits stay close to where you drag':
+                 'partly coupled — influence spreads but is reined in';
+    hintEl.innerHTML=`drag any knot (○) up/down · <b>tension</b> slides this engine between coupled (0) and local (1) · grab a knot with reach-zones on and watch the influence reach across the curve`;
+    r.innerHTML=`<b>Coupled spline (natural cubic), tension ${t.toFixed(2)}.</b> Unlike the local engine, every segment's curvature is solved <i>together</i> in one system, so the curve behaves like a flexible ruler: ${feel}. It stays smooth (C²) and never thrashes — this is <b>global influence without Runge oscillation</b>, the controllable cousin of the global polynomial. <br><br><b>Tension</b> blends the globally-solved slopes toward purely local ones: at 0 it's the full tensioned membrane, at 1 it collapses to the same local behavior as "local spline." So the two engines are really two ends of this one dial.`;
+    document.getElementById('note').innerHTML=`<b>The three engines, one spectrum of connectedness:</b> <b>local spline</b> — low-degree pieces, slopes set from immediate neighbors → surgical, no ripple. <b>coupled spline</b> (here) — same pieces, slopes solved globally → graceful ripple, still smooth. <b>global polynomial</b> — one high-degree piece → ripple AND chaos (Runge). Flip between them with reach-zones on to <i>see</i> the difference: local zones are tight bands; coupled zones reach across the whole curve. <br><br><b>Same eleven mediums:</b> every channel reads whichever engine is active.`;
+    return;
+  }
+  hintEl.innerHTML=`drag any join (○) up/down · raise the order to match more derivatives at each join · past C³ the break hides in derivatives no one perceives`;
+  const breakRow = order+1; // first discontinuous derivative
+  const brkName = breakRow<=3 ? 'f'+'′″‴'.slice(0,breakRow) : 'f⁽'+breakRow+'⁾';
+  const runge = order>=4 ? ` At this order each segment is degree ${2*order+1} — high enough that the patches start to bow slightly between knots, a mild local cousin of Runge's phenomenon. (For the dramatic version, switch to global-polynomial mode.)` : '';
+  r.innerHTML=`<b>${ordName(order)}.</b> Derivatives 0…${order} are continuous everywhere, so the <span class="brk">first break appears in ${brkName}</span> — the bottom ladder row. By C³ that break is already in jerk, which almost no one perceives directly; past that it retreats into snap, crackle, and beyond — imperceptible as smoothness, but a live bank of knobs if this drives a sensitive system.${runge}`;
+  document.getElementById('note').innerHTML=`<b>The cross-medium point:</b> every channel — position, size, rotation, opacity, skew; hue, brightness, saturation; and the fused tone (pitch + amplitude + timbre) — is the <i>same f(t)</i>. A break in the curve is the same break in all of them at once, because it's one broken derivative driving everything. The three color axes and the three sound attributes are there to ask: does continuity <i>read</i> equally in each, or do some channels hide a break the others expose? <br><br><b>The loop is periodic.</b> Playback cycles, and the loop seam (t=1 → t=0) obeys the same continuity order as every join. At C⁰ the wrap clicks every cycle; at C² it's seamless. <br><br><b>Where the picture stops:</b> all of these are media where a real number is being splined. Whether non-numeric domains (narrative, emotion) have continuity classes is a separate question this toy deliberately doesn't touch yet.`;
+}
+
+document.getElementById('tensionScrub').style.display='none';
+randShape(); buildLadder(); resize(); setText(); refreshPickers();
+</script>
+</body>
+</html>

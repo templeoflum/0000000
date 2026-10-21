@@ -1,0 +1,40 @@
+{
+  "at": "2026-09-11T16:41:03.401111-05:00",
+  "standalone": true,
+  "bank_during_test": {
+    "count": 8,
+    "pattern": 3,
+    "rate": 2.0
+  },
+  "driven_parameters": [
+    "1789181914343",
+    "1789181914345",
+    "1789181914347",
+    "1789181914346",
+    "1789181914348",
+    "1789181914352",
+    "1789181914353",
+    "1789181914355"
+  ],
+  "ranges_unchanged": true,
+  "undriven_parameters_unchanged": true,
+  "drive_set_unchanged": true,
+  "native_parameter": 1789181914343,
+  "native_samples": [
+    0.4645290743833077,
+    0.5007532222823272,
+    0.5817738143508018,
+    0.6533503722361815,
+    0.7087705535203255,
+    0.7207260352321732,
+    0.717689820205085,
+    0.7146488855925095,
+    0.7115865307152713,
+    0.7085112696442879
+  ],
+  "backend_tests": 70,
+  "isolated_ui": "Passed compact viewport, pin persistence, offline rows, family/rate/shuffle, layer shuffle and direct editor access",
+  "native_ui": "Pinned LinearCloner, chose harmonic and 2\u00d7, performed target and layer Shuffle",
+  "restored": true,
+  "error": ""
+}

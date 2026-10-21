@@ -1,0 +1,650 @@
+----- START BUNDLE -----
+{
+  "SchemaVersion": "1.1",
+  "ArchetypeName": "Hero",
+  "SystemOfOrigin": "MTH",
+  "CulturalLineage": ["Modern coaching", "Global mythic"],
+  "CommonAliases": ["Seeker", "Protagonist", "Champion"],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "Embodies the call to growth and the courage to act",
+    "PrimaryDomain": "Narrative / Coaching",
+    "ToneOrPolarity": "Courageous / Inspirational",
+    "SymbolicCore": "Flame of purposeful action",
+    "Correspondences": {
+      "Element": "Fire",
+      "Planet": "Mars",
+      "Chakra": "Solar-Plexus",
+      "Color": "Gold",
+      "Animal": "Lion",
+      "Other": ["Torch", "Road", "Helm"]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": ["Central protagonist", "Growth catalyst", "Sacrifice-maker"],
+    "ComplementaryArchetypes": ["Sage", "Rebel", "Lover"],
+    "ShadowForms": ["Ego-hero", "Martyr"],
+    "DevelopmentalArc": ["Call → Trials → Revelation → Mastery"],
+    "CyclePhase": "Initiation → Return"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": ["Brave", "Determined", "Visionary", "Self-sacrificing"],
+    "Typologies": {
+      "MBTI": "ENFJ",
+      "Enneagram": "3w2",
+      "Other": ["JP12.Hero", "JU.Hero"]
+    },
+    "SubVariants": ["Reluctant hero", "Epic hero", "Anti-hero"],
+    "InternalFamily": "Explorer"
+  },
+  "CulturalContext": {
+    "Regions": ["Global"],
+    "MythicAppearances": ["Every heroic epic", "Joseph Campbell monomyth"],
+    "ReligiousOrRitualUse": "Personal growth quests, leadership initiations",
+    "HistoricalEvolution": "Mythic warrior → modern protagonist",
+    "SyncreticForms": ["Luke Skywalker", "Moana", "Katniss Everdeen"]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "🔥",
+    "ImageryNotes": "Silhouette striding toward sunrise",
+    "ArtisticExamples": ["Rocky training montage", "Wonder Woman charge", "Neo in Matrix"],
+    "PoeticInvocation": "I rise where the path disappears into dawn.",
+    "DreamForm": "A lone runner on an endless bridge of light"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": ["JP12.Hero", "JU.Hero", "KWM.Warrior"],
+    "SemanticTags": ["#quest", "#fire", "#dawn", "#courage"],
+    "RitualFunction": "Embody call to action in coaching journeys",
+    "AIPromptSeeds": ["Create a hero who must choose between glory and compassion"],
+    "NarrativeHooks": ["The impossible challenge", "Moment of self-doubt"]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [
+      { "to": "JP12.Hero", "strength": "strong" },
+      { "to": "JU.Hero", "strength": "strong" },
+      { "to": "KWM.Warrior", "strength": "moderate" }
+    ]
+  },
+  "FacetRegistry": [
+    { "facet": "Epic Hero", "weight": 0.5 },
+    { "facet": "Reluctant Hero", "weight": 0.3 },
+    { "facet": "Anti-Hero", "weight": 0.2 }
+  ]
+}
+
+{
+  "SchemaVersion": "1.1",
+  "ArchetypeName": "Sage",
+  "SystemOfOrigin": "MTH",
+  "CulturalLineage": ["Universal", "Greek", "Eastern", "Indigenous"],
+  "CommonAliases": ["Mentor", "Seer", "Wise One"],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "Distills insight and offers objective guidance",
+    "PrimaryDomain": "Coaching / Wisdom",
+    "ToneOrPolarity": "Neutral / Illuminating",
+    "SymbolicCore": "Lantern that lights without burning",
+    "Correspondences": {
+      "Element": "Air",
+      "Planet": "Mercury",
+      "Chakra": "Third-Eye",
+      "Color": "Indigo",
+      "Animal": "Owl",
+      "Other": ["Scroll", "Crystal", "Spectacles"]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": ["Advisor", "Clarifier", "Truth-teller"],
+    "ComplementaryArchetypes": ["Hero", "Rebel"],
+    "ShadowForms": ["Detached Critic", "Know-it-all"],
+    "DevelopmentalArc": ["Question → Reflection → Teaching"],
+    "CyclePhase": "Return"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": ["Insightful", "Patient", "Analytical", "Detached"],
+    "Typologies": {
+      "MBTI": "INTP",
+      "Enneagram": "5w6",
+      "Other": ["JP12.Sage", "JU.WiseOldMan"]
+    },
+    "SubVariants": ["Teacher Sage", "Hermit Sage", "Digital Oracle"],
+    "InternalFamily": "Sage"
+  },
+  "CulturalContext": {
+    "Regions": ["Global"],
+    "MythicAppearances": ["Socrates", "Gandalf", "Yoda", "Laozi"],
+    "ReligiousOrRitualUse": "Wisdom teachings, counselor roles",
+    "HistoricalEvolution": "Oracle → philosopher → life-coach",
+    "SyncreticForms": ["Mr. Miyagi", "Dumbledore", "Oracle at Delphi"]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "🔮",
+    "ImageryNotes": "Mountain peak under starlight with lone figure",
+    "ArtisticExamples": ["Yoda meditating", "Gandalf staff raised", "Ancient scroll opening"],
+    "PoeticInvocation": "I am the echo of tomorrow in the heart of today.",
+    "DreamForm": "An old traveler with cloak of stars who vanishes at dawn"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": ["JP12.Sage", "JU.WiseOldMan", "KB.Chokhmah"],
+    "SemanticTags": ["#wisdom", "#star", "#guide", "#clarity"],
+    "RitualFunction": "Invoke reflective insight in coaching sessions",
+    "AIPromptSeeds": ["Write a sage who speaks only in questions that heal"],
+    "NarrativeHooks": ["The cryptic map", "The warning prophecy"]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [
+      { "to": "JP12.Sage", "strength": "strong" },
+      { "to": "JU.WiseOldMan", "strength": "strong" }
+    ]
+  },
+  "FacetRegistry": [
+    { "facet": "Teacher Sage", "weight": 0.5 },
+    { "facet": "Hermit Sage", "weight": 0.3 },
+    { "facet": "Digital Oracle", "weight": 0.2 }
+  ]
+}
+
+{
+  "SchemaVersion": "1.1",
+  "ArchetypeName": "Victim",
+  "SystemOfOrigin": "MTH",
+  "CulturalLineage": ["Modern psychology", "Global folklore"],
+  "CommonAliases": ["Wounded Self", "Scapegoat", "Damaged Innocent"],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "Holds the wound that demands healing and agency",
+    "PrimaryDomain": "Psychological / Coaching",
+    "ToneOrPolarity": "Vulnerable / Reactive",
+    "SymbolicCore": "Cracked vessel that must be mended",
+    "Correspondences": {
+      "Element": "Water",
+      "Planet": "Moon",
+      "Chakra": "Heart",
+      "Color": "Bruised Violet",
+      "Animal": "Injured Dove",
+      "Other": ["Chain", "Bandage", "Rain"]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": ["Catalyst for rescue", "Lesson in empathy", "Call to justice"],
+    "ComplementaryArchetypes": ["Healer", "Warrior", "Lover"],
+    "ShadowForms": ["Eternal Victim", "Manipulative Martyr"],
+    "DevelopmentalArc": ["Wound → Recognition → Empowerment"],
+    "CyclePhase": "Crisis"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": ["Sensitive", "Power-threatened", "Empathic", "Resilient"],
+    "Typologies": {
+      "MBTI": "INFP",
+      "Enneagram": "4w5",
+      "Other": ["CMY.Victim", "JU.WoundedChild"]
+    },
+    "SubVariants": ["Wounded Inner Child", "Collective Victim", "Survivor"],
+    "InternalFamily": "Victim"
+  },
+  "CulturalContext": {
+    "Regions": ["Global"],
+    "MythicAppearances": ["Persephone in chains", "Job", "Little Match Girl"],
+    "ReligiousOrRitualUse": ["Compassion rituals", "Healing circles"],
+    "HistoricalEvolution": "Tragic figure → psychological wound → empowerment story",
+    "SyncreticForms": ["Cinderella pre-transformation", "Neo before awakening"]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "💔",
+    "ImageryNotes": "Rain-soaked child at locked gate",
+    "ArtisticExamples": ["Bambi’s mother scene", "Schindler’s List girl in red", "Precious film poster"],
+    "PoeticInvocation": "I am the broken place where light gets in.",
+    "DreamForm": "A chained figure whose tears become keys"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": ["CMY.Victim", "JU.WoundedChild", "JP12.Orphan"],
+    "SemanticTags": ["#wound", "#empathy", "#heal", "#rain"],
+    "RitualFunction": "Hold space for shadow empathy and reclamation",
+    "AIPromptSeeds": ["Create a victim who becomes their own rescuer"],
+    "NarrativeHooks": ["The unjust accusation", "The locked attic"]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [
+      { "to": "CMY.Victim", "strength": "strong" },
+      { "to": "JP12.Orphan", "strength": "moderate" }
+    ]
+  },
+  "FacetRegistry": [
+    { "facet": "Wounded Inner Child", "weight": 0.5 },
+    { "facet": "Survivor", "weight": 0.3 },
+    { "facet": "Collective Victim", "weight": 0.2 }
+  ]
+}
+
+{
+  "SchemaVersion": "1.1",
+  "ArchetypeName": "Warrior",
+  "SystemOfOrigin": "MTH",
+  "CulturalLineage": ["Universal", "Norse", "Japanese", "Spartan"],
+  "CommonAliases": ["Guardian", "Defender", "Fighter"],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "Embodies focused action, boundaries, and protection",
+    "PrimaryDomain": "Coaching / Action",
+    "ToneOrPolarity": "Courageous / Disciplined",
+    "SymbolicCore": "Unbroken shield forged in fire",
+    "Correspondences": {
+      "Element": "Fire",
+      "Planet": "Mars",
+      "Chakra": "Solar-Plexus",
+      "Color": "Crimson",
+      "Animal": "Wolf",
+      "Other": ["Sword", "Shield", "Banner"]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": ["Protector", "Boundary-setter", "Action taker"],
+    "ComplementaryArchetypes": ["Sage", "Lover"],
+    "ShadowForms": ["Warmonger", "Bully"],
+    "DevelopmentalArc": ["Call → Training → Battle → Mastery"],
+    "CyclePhase": "Ordeal"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": ["Courageous", "Disciplined", "Assertive", "Loyal"],
+    "Typologies": {
+      "MBTI": "ESTJ",
+      "Enneagram": "8w9",
+      "Other": ["KWM.Warrior", "JP12.Warrior"]
+    },
+    "SubVariants": ["Noble Warrior", "Guardian", "Berserker"],
+    "InternalFamily": "Warrior"
+  },
+  "CulturalContext": {
+    "Regions": ["Global"],
+    "MythicAppearances": ["Achilles", "Samurai", "Spartacus"],
+    "ReligiousOrRitualUse": "Martial initiations, protector vows",
+    "HistoricalEvolution": "Tribal warrior → knight → modern soldier",
+    "SyncreticForms": ["Wonder Woman", "Captain America", "Vikings"]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "⚔️",
+    "ImageryNotes": "Silhouette on battlefield at dawn",
+    "ArtisticExamples": ["300 Spartans", "Samurai with rising sun", "G.I. Jane"],
+    "PoeticInvocation": "I stand where the fire meets the flood.",
+    "DreamForm": "A sentinel whose armor glows with inner light"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": ["KWM.Warrior", "JP12.Warrior", "GM.Rubeus"],
+    "SemanticTags": ["#boundary", "#fire", "#discipline", "#courage"],
+    "RitualFunction": "Embody assertive action and boundary protection",
+    "AIPromptSeeds": ["Create a warrior who must fight only to protect"],
+    "NarrativeHooks": ["The last stand", "The broken sword reforged"]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [
+      { "to": "KWM.Warrior", "strength": "strong" },
+      { "to": "JP12.Warrior", "strength": "strong" }
+    ]
+  },
+  "FacetRegistry": [
+    { "facet": "Noble Warrior", "weight": 0.5 },
+    { "facet": "Guardian", "weight": 0.3 },
+    { "facet": "Berserker", "weight": 0.2 }
+  ]
+}
+
+{
+  "SchemaVersion": "1.1",
+  "ArchetypeName": "Muse",
+  "SystemOfOrigin": "MTH",
+  "CulturalLineage": ["Classical Greek", "Renaissance", "Modern coaching"],
+  "CommonAliases": ["Inspirer", "Creative Spark", "Inner Artist"],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "Ignites creativity and visionary flow",
+    "PrimaryDomain": "Coaching / Creativity",
+    "ToneOrPolarity": "Inspiring / Playful",
+    "SymbolicCore": "Whisper of wind through open windows",
+    "Correspondences": {
+      "Element": "Air",
+      "Planet": "Venus",
+      "Chakra": "Sacral",
+      "Color": "Rose-gold",
+      "Animal": "Butterfly",
+      "Other": ["Lyre", "Paintbrush", "Feather"]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": ["Inspiration", "Creative catalyst", "Soul-tickle"],
+    "ComplementaryArchetypes": ["Creator", "Lover"],
+    "ShadowForms": ["Unattainable Ideal", "Creative Block"],
+    "DevelopmentalArc": ["Spark → Flow → Manifestation"],
+    "CyclePhase": "Emergence"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": ["Inspiring", "Playful", "Sensual", "Intuitive"],
+    "Typologies": {
+      "MBTI": "INFP",
+      "Enneagram": "4w5",
+      "Other": ["JP12.Creator", "JP12.Lover"]
+    },
+    "SubVariants": ["Divine Muse", "Inner Child Muse", "Dark Muse"],
+    "InternalFamily": "Creator"
+  },
+  "CulturalContext": {
+    "Regions": ["Mediterranean", "Global arts"],
+    "MythicAppearances": ["Nine Muses", "Aphrodite", "Saraswati"],
+    "ReligiousOrRitualUse": "Invocation in creative rites, songwriting circles",
+    "HistoricalEvolution": "Divine inspiration → romantic muse → coaching creativity",
+    "SyncreticForms": ["Elizabeth Gilbert’s Big Magic muse"]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "🪶",
+    "ImageryNotes": "Butterfly landing on an open notebook",
+    "ArtisticExamples": ["Sandro Botticelli’s Primavera", "Saraswati with veena"],
+    "PoeticInvocation": "I am the breath that moves the brush and the hush that stills the mind.",
+    "DreamForm": "A dancing figure who dissolves into birdsong"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": ["JP12.Creator", "JP12.Lover", "GR.Melpomene"],
+    "SemanticTags": ["#inspire", "#air", "#rose", "#flow"],
+    "RitualFunction": "Invoke creative flow and artistic courage",
+    "AIPromptSeeds": ["Create a muse who speaks only through color"],
+    "NarrativeHooks": ["The sudden melody", "The blank canvas that paints itself"]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [
+      { "to": "JP12.Creator", "strength": "strong" },
+      { "to": "JP12.Lover", "strength": "moderate" }
+    ]
+  },
+  "FacetRegistry": [
+    { "facet": "Divine Muse", "weight": 0.5 },
+    { "facet": "Inner Child Muse", "weight": 0.3 },
+    { "facet": "Dark Muse", "weight": 0.2 }
+  ]
+}
+
+{
+  "SchemaVersion": "1.1",
+  "ArchetypeName": "Sovereign",
+  "SystemOfOrigin": "MTH",
+  "CulturalLineage": ["Global", "Egyptian", "European", "Asian"],
+  "CommonAliases": ["King", "Queen", "Leader", "Ruler"],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "Embodies integrated authority and stewardship",
+    "PrimaryDomain": "Coaching / Leadership",
+    "ToneOrPolarity": "Regal / Grounded",
+    "SymbolicCore": "Crown that blesses rather than binds",
+    "Correspondences": {
+      "Element": "Earth",
+      "Planet": "Sun",
+      "Chakra": "Crown",
+      "Color": "Royal Purple",
+      "Animal": "Lion",
+      "Other": ["Scepter", "Globe", "Throne"]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": ["Governance", "Blessing", "Legacy building"],
+    "ComplementaryArchetypes": ["Sage", "Lover"],
+    "ShadowForms": ["Tyrant", "Powerless Monarch"],
+    "DevelopmentalArc": ["Rise → Rule → Serve → Abdicate"],
+    "CyclePhase": "Return"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": ["Authoritative", "Compassionate", "Visionary", "Accountable"],
+    "Typologies": {
+      "MBTI": "ENTJ",
+      "Enneagram": "8w9",
+      "Other": ["KWM.King", "JP12.Ruler"]
+    },
+    "SubVariants": ["Benevolent Sovereign", "Wounded King", "Tyrant"],
+    "InternalFamily": "Sovereign"
+  },
+  "CulturalContext": {
+    "Regions": ["Global"],
+    "MythicAppearances": ["King Arthur", "Ramesses", "Emperor Ashoka", "Elizabeth I"],
+    "ReligiousOrRitualUse": "Coronations, leadership initiations",
+    "HistoricalEvolution": "Divine monarch → servant leader → conscious CEO",
+    "SyncreticForms": ["Aragorn", "T’Challa", "Servant-leader model"]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "👑",
+    "ImageryNotes": "Sovereign seated beneath living tree of state",
+    "ArtisticExamples": ["Coronation portraits", "Aragorn’s return", "Black Panther throne"],
+    "PoeticInvocation": "I wear the crown to lift the people, not to tower above them.",
+    "DreamForm": "A ruler whose shadow is a giant tree"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": ["KWM.King", "JP12.Ruler", "KB.Tiferet"],
+    "SemanticTags": ["#leadership", "#earth", "#purple", "#service"],
+    "RitualFunction": "Invoke balanced authority and stewardship",
+    "AIPromptSeeds": ["Create a sovereign who must choose between power and love"],
+    "NarrativeHooks": ["The coronation test", "The abdication moment"]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [
+      { "to": "KWM.King", "strength": "strong" },
+      { "to": "JP12.Ruler", "strength": "strong" }
+    ]
+  },
+  "FacetRegistry": [
+    { "facet": "Benevolent Sovereign", "weight": 0.5 },
+    { "facet": "Wounded King", "weight": 0.3 },
+    { "facet": "Tyrant", "weight": 0.2 }
+  ]
+}
+
+{
+  "SchemaVersion": "1.1",
+  "ArchetypeName": "Shadow",
+  "SystemOfOrigin": "MTH",
+  "CulturalLineage": ["Universal", "Jungian", "Global mythic"],
+  "CommonAliases": ["Dark Mirror", "Inner Demon", "Repressed Self"],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "Holds rejected power and unacknowledged gifts",
+    "PrimaryDomain": "Psychological / Coaching",
+    "ToneOrPolarity": "Revealing / Integrative",
+    "SymbolicCore": "Face beneath the mask",
+    "Correspondences": {
+      "Element": "Void",
+      "Planet": "Pluto",
+      "Chakra": "Root",
+      "Color": "Obsidian",
+      "Animal": "Wolf",
+      "Other": ["Mirror", "Abyss", "Mask"]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": ["Revelation", "Integration challenge", "Hidden power"],
+    "ComplementaryArchetypes": ["Hero", "Warrior"],
+    "ShadowForms": ["Demonized Other", "Overwhelming Darkness"],
+    "DevelopmentalArc": ["Encounter → Struggle → Integration"],
+    "CyclePhase": "Ordeal"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": ["Powerful", "Fearsome", "Magnetic", "Repressed"],
+    "Typologies": {
+      "MBTI": "INTJ",
+      "Enneagram": "8w4",
+      "Other": ["JU.Shadow", "JP12.Destroyer"]
+    },
+    "SubVariants": ["Inner Demon", "Dark Twin", "Cosmic Villain"],
+    "InternalFamily": "Shadow"
+  },
+  "CulturalContext": {
+    "Regions": ["Global"],
+    "MythicAppearances": ["Jungian Shadow", "Dark Lord", "Voldemort"],
+    "ReligiousOrRitualUse": "Shadow work, integration rites",
+    "HistoricalEvolution": "Villain → psychological shadow → integrated power",
+    "SyncreticForms": ["Darth Vader", "Voldemort", "Dark Link"]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "🌑",
+    "ImageryNotes": "Hooded figure wearing the dreamer’s face",
+    "ArtisticExamples": ["Star Wars Vader", "Jung’s Red Book illustrations", "Dark Link"],
+    "PoeticInvocation": "I am the darkness you must swallow to find your light.",
+    "DreamForm": "A hooded figure whose hood lifts to reveal your own face"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": ["JU.Shadow", "JP12.Destroyer", "KB.Gevurah"],
+    "SemanticTags": ["#shadow", "#integration", "#pluto", "#mirror"],
+    "RitualFunction": "Confront and integrate repressed aspects",
+    "AIPromptSeeds": ["Create a villain who is the hero’s future self"],
+    "NarrativeHooks": ["Revelation of shared identity", "Final showdown in the abyss"]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [
+      { "to": "JU.Shadow", "strength": "strong" },
+      { "to": "JP12.Destroyer", "strength": "strong" }
+    ]
+  },
+  "FacetRegistry": [
+    { "facet": "Inner Demon", "weight": 0.4 },
+    { "facet": "Dark Twin", "weight": 0.3 },
+    { "facet": "Cosmic Villain", "weight": 0.3 }
+  ]
+}
+
+{
+  "SchemaVersion": "1.1",
+  "ArchetypeName": "Rebel",
+  "SystemOfOrigin": "MTH",
+  "CulturalLineage": ["Universal", "Revolutionary", "Counter-culture"],
+  "CommonAliases": ["Outlaw", "Revolutionary", "Change-agent"],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "Challenges systems to spark transformation",
+    "PrimaryDomain": "Coaching / Change",
+    "ToneOrPolarity": "Disruptive / Liberating",
+    "SymbolicCore": "Lightning bolt that splits the wall",
+    "Correspondences": {
+      "Element": "Fire",
+      "Planet": "Uranus",
+      "Chakra": "Throat",
+      "Color": "Electric Blue",
+      "Animal": "Phoenix",
+      "Other": ["Lightning bolt", "Broken chain", "Graffiti"]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": ["Disruptor", "Catalyst", "Reform instigator"],
+    "ComplementaryArchetypes": ["Hero", "Sage"],
+    "ShadowForms": ["Anarchist", "Destructive Rebel"],
+    "DevelopmentalArc": ["Dissent → Action → Reform → Integration"],
+    "CyclePhase": "Crisis → Revolution"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": ["Defiant", "Visionary", "Courageous", "Unorthodox"],
+    "Typologies": {
+      "MBTI": "ENTP",
+      "Enneagram": "7w8",
+      "Other": ["JP12.Rebel", "JU.Trickster"]
+    },
+    "SubVariants": ["Reform Rebel", "Anarchist Rebel", "Creative Rebel"],
+    "InternalFamily": "Rebel"
+  },
+  "CulturalContext": {
+    "Regions": ["Global"],
+    "MythicAppearances": ["Prometheus", "Robin Hood", "Che Guevara"],
+    "ReligiousOrRitualUse": "Protest rituals, creative disruptions",
+    "HistoricalEvolution": "Mythic trickster → revolutionary → social innovator",
+    "SyncreticForms": ["Katniss Everdeen", "V for Vendetta", " Banksy"]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "⚡",
+    "ImageryNotes": "Lightning bolt cracking a stone wall",
+    "ArtisticExamples": ["V for Vendetta mask", "Prometheus fire", "Banksy rat"],
+    "PoeticInvocation": "I am the crack in the wall where the light pours through.",
+    "DreamForm": "A masked figure spray-painting the future"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": ["JP12.Rebel", "JU.Trickster", "KB.Gevurah"],
+    "SemanticTags": ["#rebel", "#lightning", "#break", "#change"],
+    "RitualFunction": "Invoke breakthrough energy and boundary breaking",
+    "AIPromptSeeds": ["Create a rebel who must burn the old world to plant a garden"],
+    "NarrativeHooks": ["The forbidden graffiti", "The midnight uprising"]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [
+      { "to": "JP12.Rebel", "strength": "strong" },
+      { "to": "JU.Trickster", "strength": "moderate" }
+    ]
+  },
+  "FacetRegistry": [
+    { "facet": "Reform Rebel", "weight": 0.5 },
+    { "facet": "Creative Rebel", "weight": 0.3 },
+    { "facet": "Anarchist Rebel", "weight": 0.2 }
+  ]
+}
+
+{
+  "SchemaVersion": "1.1",
+  "ArchetypeName": "Lover",
+  "SystemOfOrigin": "MTH",
+  "CulturalLineage": ["Universal", "Greek", "Persian", "Modern"],
+  "CommonAliases": ["Heart", "Beloved", "Sensualist", "Connector"],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "Embodies connection, intimacy, and passionate engagement",
+    "PrimaryDomain": "Coaching / Relationships",
+    "ToneOrPolarity": "Sensual / Compassionate",
+    "SymbolicCore": "Two flames merging into one",
+    "Correspondences": {
+      "Element": "Water",
+      "Planet": "Venus",
+      "Chakra": "Heart",
+      "Color": "Rose",
+      "Animal": "Swan",
+      "Other": ["Rose", "Chalice", "Veil"]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": ["Union", "Empathy", "Devotion"],
+    "ComplementaryArchetypes": ["Hero", "Warrior", "Sovereign"],
+    "ShadowForms": ["Obsessive Lover", "Cold Seducer"],
+    "DevelopmentalArc": ["Attraction → Union → Devotion → Transcendence"],
+    "CyclePhase": "Return"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": ["Passionate", "Empathic", "Sensual", "Devoted"],
+    "Typologies": {
+      "MBTI": "ENFJ",
+      "Enneagram": "2w3",
+      "Other": ["JP12.Lover", "KWM.Lover"]
+    },
+    "SubVariants": ["Romantic Lover", "Platonic Lover", "Divine Lover"],
+    "InternalFamily": "Lover"
+  },
+  "CulturalContext": {
+    "Regions": ["Global"],
+    "MythicAppearances": ["Eros", "Radha", "Romeo", "Layla & Majnun"],
+    "ReligiousOrRitualUse": "Sacred union rites, tantric practices",
+    "HistoricalEvolution": "Courtly love → romantic ideal → conscious partnership",
+    "SyncreticForms": ["Modern conscious couples", "Rumi poetry"]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "❤️",
+    "ImageryNotes": "Two swans forming a heart on a lake",
+    "ArtisticExamples": ["Rumi’s poetry", "Klimt’s The Kiss", "Romeo & Juliet"],
+    "PoeticInvocation": "I am the heat between heartbeats, the pause that joins two souls.",
+    "DreamForm": "Two silhouettes dissolving into sunrise"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": ["JP12.Lover", "KWM.Lover", "KB.Tiferet"],
+    "SemanticTags": ["#love", "#rose", "#heart", "#union"],
+    "RitualFunction": "Invoke connection, intimacy, and embodied passion",
+    "AIPromptSeeds": ["Create a lover who must choose between passion and duty"],
+    "NarrativeHooks": ["The first kiss", "The final vow"]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [
+      { "to": "JP12.Lover", "strength": "strong" },
+      { "to": "KWM.Lover", "strength": "strong" }
+    ]
+  },
+  "FacetRegistry": [
+    { "facet": "Romantic Lover", "weight": 0.5 },
+    { "facet": "Divine Lover", "weight": 0.3 },
+    { "facet": "Platonic Lover", "weight": 0.2 }
+  ]
+}
+----- END BUNDLE -----

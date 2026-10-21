@@ -1,0 +1,18 @@
+from pathlib import Path
+import difflib,hashlib,json
+root=Path(__file__).resolve().parents[3];out=Path(__file__).resolve().parent/'bank-patch';out.mkdir(exist_ok=True)
+p=root/'sp/engine/workspace.js';before=p.read_text();s=before
+changes=[("function bankLabel(l){return l?.bank==='forms'?'Forms':'All sources';}\n  function bankClips(l){return (l?.bank==='forms'?l.forms:l?.clips)||[];}","function bankLabel(l){return {heart:'Heart copies',explore:'Explore figures',forms:'Forms'}[l?.bank]||'All sources';}\n  function bankClips(l){return (l?.bank==='heart'?l.heart_copies:l?.bank==='explore'?l.explore:l?.bank==='forms'?l.forms:l?.clips)||[];}\n  function clipLabel(x){return (x.heart_copy?x.source:x.name)||x.source||'Untitled';}"),
+("bankSelect.setAttribute('aria-label','Clip bank');option(bankSelect,'forms','Forms');option(bankSelect,'all','All sources');","bankSelect.setAttribute('aria-label','Clip bank');"),
+("const l=state.layers.find(l=>l.i===focusLayer);bankSelect.disabled=!l?.forms?.length||!state.arena_connected;if(document.activeElement!==bankSelect)bankSelect.value=l?.bank||'all';", "const l=state.layers.find(l=>l.i===focusLayer);\n    const banks=[['heart','Heart copies',l?.heart_copies],['explore','Explore figures',l?.explore],['forms','Forms',l?.forms],['all','All sources',l?.clips]].filter(([key,,clips])=>key==='all'||clips?.length||key===l?.bank);\n    const bankSig=JSON.stringify(banks.map(([key,label])=>[key,label]));if(bankSelect.dataset.sig!==bankSig){bankSelect.dataset.sig=bankSig;bankSelect.replaceChildren();for(const [key,label] of banks)option(bankSelect,key,label);}\n    bankSelect.disabled=!l||!state.arena_connected;if(document.activeElement!==bankSelect)bankSelect.value=l?.bank||'all';"),
+("filtered=list.filter(x=>x.name.toLowerCase().includes(q));","filtered=list.filter(x=>[x.name,x.source,x.note].some(v=>String(v||'').toLowerCase().includes(q)));"),
+("`${bankLabel(l)} · ${filtered.length} of ${list.length} clips · Play arrows use this bank`","`${bankLabel(l)} · ${filtered.length} of ${list.length} clips · Play arrows use this bank${l?.bank==='explore'?' · Full-range containment unchecked':''}`"),
+("const b=button(x.name,()=>cmd({cmd:'launch',layer:l.i,col:x.col}));b.classList.toggle('active'", "const b=button((x.note?'⚠ ':'')+clipLabel(x),()=>cmd({cmd:'launch',layer:l.i,col:x.col}));b.title=`${x.col} · ${x.source||x.name}${x.note?' — '+x.note:''}`;b.classList.toggle('active'")]
+for old,new in changes:
+ assert s.count(old)==1,old;s=s.replace(old,new)
+(out/'workspace.js').write_text(s)
+tests=(Path(__file__).resolve().parent/'bank-tests.append.cjs').read_text();tp=root/'sp/engine/test_workspace.cjs';original=tp.read_text();mark='console.log(`${tests} offline DOM checks passed`);';assert original.count(mark)==1;updated=original.replace(mark,tests+'\n'+mark);(out/'test_workspace.cjs').write_text(updated)
+(out/'test_fixtures').mkdir(exist_ok=True);(out/'test_fixtures/workspace.json').write_bytes((root/'sp/engine/test_fixtures/workspace.json').read_bytes())
+patch=''.join(difflib.unified_diff(before.splitlines(True),s.splitlines(True),fromfile='a/sp/engine/workspace.js',tofile='b/sp/engine/workspace.js'))+''.join(difflib.unified_diff(original.splitlines(True),updated.splitlines(True),fromfile='a/sp/engine/test_workspace.cjs',tofile='b/sp/engine/test_workspace.cjs'))
+(out/'workspace-banks.patch').write_text(patch)
+(out/'BASE.json').write_text(json.dumps({'workspace_sha256':hashlib.sha256(before.encode()).hexdigest(),'test_sha256':hashlib.sha256(original.encode()).hexdigest(),'note':'Fresh shared source read; includes existing Melt changes, which are not changed by this patch.'},indent=2)+'\n')

@@ -1,0 +1,58 @@
+{
+  "at": "2026-09-11T15:59:16.607450-05:00",
+  "cause": {
+    "large_native_websocket_frames": 10,
+    "received_mb": 365.4,
+    "window_seconds": 8,
+    "periodic_full_scan_read_stall_ms": 292.759
+  },
+  "changes": [
+    "HTTP by-ID output and scoped readback; no native WebSocket by default",
+    "120 Hz motion generation with latest-value output",
+    "Small active-clip refresh during armed play; full grid on startup, deliberate Refresh, unknown active clips and idle discovery"
+  ],
+  "single_drive": {
+    "native_read_ms_p95": 0.939,
+    "native_read_ms_max": 16.826
+  },
+  "five_drives": {
+    "drives": 5,
+    "samples": 842,
+    "changes": 813,
+    "read_ms": [
+      0.325,
+      0.77,
+      11.779
+    ],
+    "change_gap_ms": [
+      9.433,
+      13.473,
+      29.004
+    ],
+    "steps": [
+      0.001,
+      0.001,
+      0.002
+    ],
+    "sent": 4795,
+    "max_driven": 5,
+    "errors": []
+  },
+  "native_boolean": {
+    "id": 1789181914087,
+    "before": false,
+    "checks": [
+      {
+        "requested": true,
+        "actual": true,
+        "ms": 11.93
+      },
+      {
+        "requested": false,
+        "actual": false,
+        "ms": 11.97
+      }
+    ]
+  },
+  "verification": "62 backend regression tests passed, then three new active-discovery cases and six final affected regressions passed. Native API value delivery measured; rendered-frame cadence and performer acceptance remain separate."
+}

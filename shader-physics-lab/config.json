@@ -1,0 +1,25 @@
+{
+  "verification": {
+    "max_attempts": 10,
+    "screenshot_resolution": [1024, 1024],
+    "comparison_threshold": 0.85,
+    "required_criteria": ["structure", "dynamics"],
+    "warmup_frames": 30
+  },
+  "rendering": {
+    "default_duration": 5.0,
+    "fps": 60,
+    "canvas_size": [1024, 1024]
+  },
+  "shader_defaults": {
+    "precision": "highp",
+    "coordinate_system": "normalized",
+    "time_uniform": "u_time",
+    "resolution_uniform": "u_resolution"
+  },
+  "library": {
+    "metadata_file": "shaders/metadata.json",
+    "auto_tag": true,
+    "version_control": true
+  }
+}

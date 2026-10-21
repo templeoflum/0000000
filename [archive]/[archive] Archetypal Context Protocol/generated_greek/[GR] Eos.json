@@ -1,0 +1,64 @@
+{
+  "SchemaVersion": "1.1-ter",
+  "ArchetypeName": "Eos",
+  "SystemOfOrigin": "GR",
+  "CulturalLineage": ["Greek"],
+  "CommonAliases": ["Dawn", "Aurora", "Rosy-Fingered Dawn", "Morning"],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "To embody dawn; to herald the sun; to bring new beginnings with rosy fingers each morning.",
+    "PrimaryDomain": "Mythic / Celestial",
+    "ToneOrPolarity": "Renewing / Heralding",
+    "SymbolicCore": "Dawn personified, threshold between night and day, eternal renewal.",
+    "Correspondences": {
+      "Element": "Air",
+      "Planet": "Venus (Morning Star)",
+      "Chakra": "Heart",
+      "Color": "Rose, Pink, Golden",
+      "Animal": "Dove, Cicada",
+      "Other": ["Saffron Veil", "Dew", "Morning Star", "Chariot"]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": ["Dawn Bringer", "Herald of Sun", "New Beginning", "Threshold Goddess"],
+    "ComplementaryArchetypes": ["Hyperion ([GR] Father)", "Helios ([GR] Brother)", "Selene ([GR] Sister)"],
+    "ShadowForms": ["False Dawn", "Premature Beginning", "Abduction"],
+    "DevelopmentalArc": [],
+    "CyclePhase": "Dawn / Renewal"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": ["Renewing", "Beautiful", "Heralding", "Passionate", "Fresh", "Hopeful"],
+    "Typologies": {
+      "MBTI": "ENFP",
+      "Enneagram": "7w8",
+      "Other": ["Lover", "Hero", "Innocent"]
+    },
+    "SubVariants": ["Rosy Dawn", "Morning Herald", "Eternal Youth"],
+    "InternalFamily": "Hope Renewed"
+  },
+  "CulturalContext": {
+    "Regions": ["Greece"],
+    "MythicAppearances": ["Tithonus myth (eternal life curse)", "Mother of winds and stars", "Abducted mortal lovers"],
+    "ReligiousOrRitualUse": "Honored at dawn; invoked for new beginnings; associated with dew and morning freshness.",
+    "HistoricalEvolution": "Titan dawn goddess; Homer's 'rosy-fingered dawn'; became Roman Aurora.",
+    "SyncreticForms": ["Aurora (Roman)", "Ushas (Vedic parallel)"]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "🌅",
+    "ImageryNotes": "Depicted as beautiful goddess in saffron robes, driving chariot ahead of sun, sprinkling dew with rosy fingers.",
+    "ArtisticExamples": ["Greek vase paintings", "Aurora imagery", "Dawn goddess art"],
+    "PoeticInvocation": "Eos of rosy fingers, who brings each new day with saffron veil and hope renewed.",
+    "DreamForm": "A beautiful woman in rose-colored robes, opening the gates of morning"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": ["Tarot.The_Star", "JP12.Innocent", "New_Beginnings"],
+    "SemanticTags": ["#dawn", "#renewal", "#beginning", "#hope", "#morning"],
+    "RitualFunction": "Invoked for new beginnings, hope, and fresh starts; dawn meditation and renewal rites.",
+    "AIPromptSeeds": ["The goddess whose rosy fingers bring each new day.", "Dawn personified, eternal herald of renewal and hope."],
+    "NarrativeHooks": ["New beginnings at dawn", "Hope renewed", "The curse of immortality without eternal youth"]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [{"to": "Aurora (Roman)", "strength": "strong"}, {"to": "Ushas (Vedic)", "strength": "moderate"}, {"to": "Tarot.The_Star", "strength": "moderate"}]
+  },
+  "FacetRegistry": [{"facet": "Dawn Bringer", "weight": 0.6}, {"facet": "Herald of Day", "weight": 0.2}, {"facet": "Eternal Renewer", "weight": 0.2}]
+}

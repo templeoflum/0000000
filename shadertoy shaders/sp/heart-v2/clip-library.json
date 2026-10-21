@@ -1,0 +1,1681 @@
+{
+  "epoch": "1789151413656",
+  "layers": {
+    "1788149967550": {
+      "name": "field",
+      "clips": 133,
+      "families": 106
+    },
+    "1788149968008": {
+      "name": "figure",
+      "clips": 75,
+      "families": 63
+    }
+  },
+  "clips": {
+    "1788405553998": {
+      "layer_id": 1788149967550,
+      "name": "ground",
+      "description": "SP Atom Ground",
+      "family": "ground",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788405554006": {
+      "layer_id": 1788149967550,
+      "name": "room",
+      "description": "SP Atom Room",
+      "family": "room",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788405553990": {
+      "layer_id": 1788149967550,
+      "name": "void",
+      "description": "SP Atom Void",
+      "family": "void",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037825": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 QField2 [1.5.32]",
+      "description": "QField2",
+      "family": "QField2",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788149967797": {
+      "layer_id": 1788149967550,
+      "name": "Heart Quaternion Field",
+      "description": "Heart Quaternion Field",
+      "family": "QField2",
+      "variant": "Original 2",
+      "primary": false
+    },
+    "1788780037810": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 QuarternionSwell [1.5.31]",
+      "description": "QuarternionSwell",
+      "family": "QuarternionSwell",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788149967833": {
+      "layer_id": 1788149967550,
+      "name": "Heart Quaternion Swell",
+      "description": "Heart Quaternion Swell",
+      "family": "QuarternionSwell",
+      "variant": "Original 2",
+      "primary": false
+    },
+    "1788780037987": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Paper Fractal [1.5.46]",
+      "description": "Paper Fractal",
+      "family": "Paper Fractal",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788149967869": {
+      "layer_id": 1788149967550,
+      "name": "Heart Paper Fractal",
+      "description": "Heart Paper Fractal",
+      "family": "Paper Fractal",
+      "variant": "Original 2",
+      "primary": false
+    },
+    "1788780038030": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 VectorFromHell [1.5.51]",
+      "description": "VectorFromHell",
+      "family": "VectorFromHell",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788149967905": {
+      "layer_id": 1788149967550,
+      "name": "Heart Vector Lattice",
+      "description": "Heart Vector Lattice",
+      "family": "VectorFromHell",
+      "variant": "Original 2",
+      "primary": false
+    },
+    "1788149967689": {
+      "layer_id": 1788149967550,
+      "name": "SP Field",
+      "description": "SP Field",
+      "family": "SP Field",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037724": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Concentrip [1.5.24]",
+      "description": "Concentrip",
+      "family": "Concentrip",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788149967977": {
+      "layer_id": 1788149967550,
+      "name": "Heart Concentrip",
+      "description": "Heart Concentrip",
+      "family": "Concentrip",
+      "variant": "Original 2",
+      "primary": false
+    },
+    "1788780038111": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 TwoFiftySixBiatch [1.5.59]",
+      "description": "TwoFiftySixBiatch",
+      "family": "TwoFiftySixBiatch",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788323601027": {
+      "layer_id": 1788149967550,
+      "name": "Heart Puls Lattice",
+      "description": "Heart Puls Lattice",
+      "family": "TwoFiftySixBiatch",
+      "variant": "Original 2",
+      "primary": false
+    },
+    "1788780038064": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Kali - ancient temple [1.5.55]",
+      "description": "Kali - ancient temple",
+      "family": "Kali - ancient temple",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788323602370": {
+      "layer_id": 1788149967550,
+      "name": "Heart Ancient Temple",
+      "description": "Heart Ancient Temple",
+      "family": "Kali - ancient temple",
+      "variant": "Original 2",
+      "primary": false
+    },
+    "1788323603033": {
+      "layer_id": 1788149967550,
+      "name": "Heart Kali Liberation",
+      "description": "Heart Kali Liberation",
+      "family": "Kali liberation of the true self",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1789458164396": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Color Wheel [1.7.81]",
+      "description": "Color Wheel",
+      "family": "Color Wheel",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780024586": {
+      "layer_id": 1788149967550,
+      "name": "Heart Color Wheel",
+      "description": "Heart Color Wheel",
+      "family": "Color Wheel",
+      "variant": "Original 2",
+      "primary": false
+    },
+    "1788780037136": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 MTK_Worleyz [1.5.2]",
+      "description": "MTK_Worleyz",
+      "family": "MTK_Worleyz",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037181": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 ButterflyEffect [1.5.3]",
+      "description": "ButterflyEffect",
+      "family": "ButterflyEffect",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037227": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Cuadricula rect [1.5.4]",
+      "description": "Cuadricula rect",
+      "family": "Cuadricula rect",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037274": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 data blocks [1.5.5]",
+      "description": "data blocks",
+      "family": "data blocks",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037321": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 fractal alien text [1.5.6]",
+      "description": "fractal alien text",
+      "family": "fractal alien text",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037369": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Gradient Bars [1.5.7]",
+      "description": "Gradient Bars",
+      "family": "Gradient Bars",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1789277713080": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Gradient Bars [2.4.2]",
+      "description": "Gradient Bars",
+      "family": "Gradient Bars",
+      "variant": "Original 2",
+      "primary": false
+    },
+    "1789458164230": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Gradient Bars [2.7.4]",
+      "description": "Gradient Bars",
+      "family": "Gradient Bars",
+      "variant": "Original 3",
+      "primary": false
+    },
+    "1788780037412": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 TileIllusion [1.5.8]",
+      "description": "TileIllusion",
+      "family": "TileIllusion",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037441": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Melty Boi [1.5.9]",
+      "description": "Melty Boi",
+      "family": "Melty Boi",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037468": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Screen Weaver [1.5.10]",
+      "description": "Screen Weaver",
+      "family": "Screen Weaver",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037496": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 sin_wave [1.5.11]",
+      "description": "sin_wave",
+      "family": "sin_wave",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037531": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 SpiralSurface [1.5.12]",
+      "description": "SpiralSurface",
+      "family": "SpiralSurface",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037552": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Dark Tomb [1.5.13]",
+      "description": "Dark Tomb",
+      "family": "Dark Tomb",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037576": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 cubes + spheres [1.5.14]",
+      "description": "cubes + spheres",
+      "family": "cubes + spheres",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037601": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 RailroadTracks [1.5.15]",
+      "description": "RailroadTracks",
+      "family": "RailroadTracks",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037625": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 quantum chaos [1.5.16]",
+      "description": "quantum chaos",
+      "family": "quantum chaos",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037645": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Quaternion RGB vector rotation [1.5.18]",
+      "description": "Quaternion RGB vector rotation",
+      "family": "Quaternion RGB vector rotation",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037659": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 RetroTechnicolorComputer [1.5.19]",
+      "description": "RetroTechnicolorComputer",
+      "family": "RetroTechnicolorComputer",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037671": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 SmoothXORi [1.5.20]",
+      "description": "SmoothXORi",
+      "family": "SmoothXORi",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037683": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 TruchetDualLevelSpin [1.5.21]",
+      "description": "TruchetDualLevelSpin",
+      "family": "TruchetDualLevelSpin",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037694": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 TwinRays [1.5.22]",
+      "description": "TwinRays",
+      "family": "TwinRays",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037710": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 VoroniCubes [1.5.23]",
+      "description": "VoroniCubes",
+      "family": "VoroniCubes",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037735": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Higgs Mechanism [1.5.25]",
+      "description": "Higgs Mechanism",
+      "family": "Higgs Mechanism",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037745": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Klein bottle figure 8 immersion [1.5.26]",
+      "description": "Klein bottle figure 8 immersion",
+      "family": "Klein bottle figure 8 immersion",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037757": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 PsychedeliaGenerica [1.5.27]",
+      "description": "PsychedeliaGenerica",
+      "family": "PsychedeliaGenerica",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037773": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Potential Energy [1.5.28]",
+      "description": "Potential Energy",
+      "family": "Potential Energy",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037783": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Magnetic Anomaly [1.5.29]",
+      "description": "Magnetic Anomaly",
+      "family": "Magnetic Anomaly",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037795": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Quantum Field Theory [1.5.30]",
+      "description": "Quantum Field Theory",
+      "family": "Quantum Field Theory",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037835": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 QuarternionFieldDistortion [1.5.33]",
+      "description": "QuarternionFieldDistortion",
+      "family": "QuarternionFieldDistortion",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037852": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Cos Orbit [1.5.35]",
+      "description": "Cos Orbit",
+      "family": "Cos Orbit",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037864": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Flower2 [1.5.36]",
+      "description": "Flower2",
+      "family": "Flower2",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037876": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Creation [1.5.37]",
+      "description": "Creation",
+      "family": "Creation",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037892": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Gentle Rings [1.5.38]",
+      "description": "Gentle Rings",
+      "family": "Gentle Rings",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037903": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Quantum Fractal [1.5.39]",
+      "description": "Quantum Fractal",
+      "family": "Quantum Fractal",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037917": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 spiral intersect [1.5.40]",
+      "description": "spiral intersect",
+      "family": "spiral intersect",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037929": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Quasi-Kleinian Ring of Circles [1.5.41]",
+      "description": "Quasi-Kleinian Ring of Circles",
+      "family": "Quasi-Kleinian Ring of Circles",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037939": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Poincare Disk [1.5.42]",
+      "description": "Poincare Disk",
+      "family": "Poincare Disk",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037950": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 FractalCartoon [1.5.43]",
+      "description": "FractalCartoon",
+      "family": "FractalCartoon",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037960": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 MergerTunnel [1.5.44]",
+      "description": "MergerTunnel",
+      "family": "MergerTunnel",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037972": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Sands [1.5.45]",
+      "description": "Sands",
+      "family": "Sands",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037998": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 ShaderLamb [1.5.47]",
+      "description": "ShaderLamb",
+      "family": "ShaderLamb",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780038009": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Cumulus [1.5.48]",
+      "description": "Cumulus",
+      "family": "Cumulus",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780038020": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 MetaSevenVortex [1.5.49]",
+      "description": "MetaSevenVortex",
+      "family": "MetaSevenVortex",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780038025": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Wild Style [1.5.50]",
+      "description": "Wild Style",
+      "family": "Wild Style",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780038035": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 AI Escape valve [1.5.52]",
+      "description": "AI Escape valve",
+      "family": "AI Escape valve",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780038040": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Apollonian [1.5.53]",
+      "description": "Apollonian",
+      "family": "Apollonian",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780038053": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Equirectangular Apollonian [1.5.54]",
+      "description": "Equirectangular Apollonian",
+      "family": "Equirectangular Apollonian",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780038075": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Kissing Donuts [1.5.56]",
+      "description": "Kissing Donuts",
+      "family": "Kissing Donuts",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780038086": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Kleinian limit set [1.5.57]",
+      "description": "Kleinian limit set",
+      "family": "Kleinian limit set",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780038101": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Kleinian limit set-Maskit slice [1.5.58]",
+      "description": "Kleinian limit set-Maskit slice",
+      "family": "Kleinian limit set-Maskit slice",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780038121": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 MegaWave 2 [1.5.60]",
+      "description": "MegaWave 2",
+      "family": "MegaWave 2",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780038132": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 [phreax] quantum field [1.5.61]",
+      "description": "[phreax] quantum field",
+      "family": "[phreax] quantum field",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780038147": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Oldschool Tube [1.5.62]",
+      "description": "Oldschool Tube",
+      "family": "Oldschool Tube",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780038158": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Full Spectrum Cyber [1.5.63]",
+      "description": "Full Spectrum Cyber",
+      "family": "Full Spectrum Cyber",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780038178": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 ocean waves [1.5.65]",
+      "description": "ocean waves",
+      "family": "ocean waves",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780038190": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 ocean waves [1.5.66]",
+      "description": "ocean waves",
+      "family": "ocean waves",
+      "variant": "Original 2",
+      "primary": false
+    },
+    "1788780038208": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Dodecahedral Permutations [1.5.68]",
+      "description": "Dodecahedral Permutations",
+      "family": "Dodecahedral Permutations",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780038218": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Deep Quantum Time State [1.5.69]",
+      "description": "Deep Quantum Time State",
+      "family": "Deep Quantum Time State",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780038229": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 q_interference23 [1.5.70]",
+      "description": "q_interference23",
+      "family": "q_interference23",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780038243": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 flex links - v2 [1.5.71]",
+      "description": "flex links - v2",
+      "family": "flex links - v2",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780038254": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 flex links - v3 [1.5.72]",
+      "description": "flex links - v3",
+      "family": "flex links - v3",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780038265": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 flex links radial - slice [1.5.73]",
+      "description": "flex links radial - slice",
+      "family": "flex links radial - slice",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780038277": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 flex links radial - slice2 [1.5.74]",
+      "description": "flex links radial - slice2",
+      "family": "flex links radial - slice2",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780038288": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 flex links radial - v4 [1.5.75]",
+      "description": "flex links radial - v4",
+      "family": "flex links radial - v4",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780038303": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Quaternion controls [1.5.76]",
+      "description": "Quaternion controls",
+      "family": "Quaternion controls",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780038313": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Space Warping Portals [1.5.77]",
+      "description": "Space Warping Portals",
+      "family": "Space Warping Portals",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780038328": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Steiner Surfaces [1.5.78]",
+      "description": "Steiner Surfaces",
+      "family": "Steiner Surfaces",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780038339": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Quantum Socket [1.5.79]",
+      "description": "Quantum Socket",
+      "family": "Quantum Socket",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780038349": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Quaternion Kinematics [1.5.80]",
+      "description": "Quaternion Kinematics",
+      "family": "Quaternion Kinematics",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780038363": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 HopfFibration [1.5.81]",
+      "description": "HopfFibration",
+      "family": "HopfFibration",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780038384": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 [2TC 15] old skool 3d driving [1.5.83]",
+      "description": "[2TC 15] old skool 3d driving",
+      "family": "[2TC 15] old skool 3d driving",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780038403": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Gentle Rings SP [1.5.85]",
+      "description": "Gentle Rings SP",
+      "family": "Gentle Rings SP",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1789277185879": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Hopf fibers SP [1.6.85]",
+      "description": "Hopf fibers SP",
+      "family": "Hopf fibers SP",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1789277713072": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Hopf fibers SP [2.6.1]",
+      "description": "Hopf fibers SP",
+      "family": "Hopf fibers SP",
+      "variant": "Original 2",
+      "primary": false
+    },
+    "1789458164238": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Test Card [1.7.64]",
+      "description": "Test Card",
+      "family": "Test Card",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1789458164589": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Test Card [2.7.1]",
+      "description": "Test Card",
+      "family": "Test Card",
+      "variant": "Original 2",
+      "primary": false
+    },
+    "1789458164246": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Gradient [1.7.65]",
+      "description": "Gradient",
+      "family": "Gradient",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1789458164254": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Gradient [1.7.66]",
+      "description": "Gradient",
+      "family": "Gradient",
+      "variant": "Original 2",
+      "primary": false
+    },
+    "1789458164262": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Gradient [1.7.67]",
+      "description": "Gradient",
+      "family": "Gradient",
+      "variant": "Original 3",
+      "primary": false
+    },
+    "1789458164270": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Gradient [1.7.68]",
+      "description": "Gradient",
+      "family": "Gradient",
+      "variant": "Original 4",
+      "primary": false
+    },
+    "1789458164278": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Gradient [1.7.69]",
+      "description": "Gradient",
+      "family": "Gradient",
+      "variant": "Original 5",
+      "primary": false
+    },
+    "1789458164286": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Gradient [1.7.70]",
+      "description": "Gradient",
+      "family": "Gradient",
+      "variant": "Original 6",
+      "primary": false
+    },
+    "1789458164294": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Gradient [1.7.71]",
+      "description": "Gradient",
+      "family": "Gradient",
+      "variant": "Original 7",
+      "primary": false
+    },
+    "1789458164304": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Gradient [1.7.72]",
+      "description": "Gradient",
+      "family": "Gradient",
+      "variant": "Original 8",
+      "primary": false
+    },
+    "1789458164314": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Gradient [1.7.73]",
+      "description": "Gradient",
+      "family": "Gradient",
+      "variant": "Original 9",
+      "primary": false
+    },
+    "1789458164324": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Gradient [1.7.74]",
+      "description": "Gradient",
+      "family": "Gradient",
+      "variant": "Original 10",
+      "primary": false
+    },
+    "1789458164334": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 plasma sparkle [1.7.75]",
+      "description": "plasma sparkle",
+      "family": "plasma sparkle",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1789458164349": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 00000 [1.7.76]",
+      "description": "00000",
+      "family": "00000",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1789458164357": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 BlackCherryCosmos [1.7.77]",
+      "description": "BlackCherryCosmos",
+      "family": "BlackCherryCosmos",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1789458164372": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 CloudVortex [1.7.78]",
+      "description": "CloudVortex",
+      "family": "CloudVortex",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1789458164380": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 CollapsingArchi [1.7.79]",
+      "description": "CollapsingArchi",
+      "family": "CollapsingArchi",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1789458164388": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 CosmicJourney [1.7.80]",
+      "description": "CosmicJourney",
+      "family": "CosmicJourney",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1789458164404": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 DoubleGalaxy [1.7.82]",
+      "description": "DoubleGalaxy",
+      "family": "DoubleGalaxy",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1789458164419": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 KaliCiruitsExplorer [1.7.83]",
+      "description": "KaliCiruitsExplorer",
+      "family": "KaliCiruitsExplorer",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1789458164427": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 MetablobStarz [1.7.84]",
+      "description": "MetablobStarz",
+      "family": "MetablobStarz",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1789458164442": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 UltimateKaliCircuits [1.7.85]",
+      "description": "UltimateKaliCircuits",
+      "family": "UltimateKaliCircuits",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1789458164450": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Abstract Field [1.7.86]",
+      "description": "Abstract Field",
+      "family": "Abstract Field",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1789458164465": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Checkered [1.7.87]",
+      "description": "Checkered",
+      "family": "Checkered",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1789458164480": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Spiral [1.7.88]",
+      "description": "Spiral",
+      "family": "Spiral",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1789458164495": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Lines [1.7.89]",
+      "description": "Lines",
+      "family": "Lines",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1789458164597": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Lines [2.7.2]",
+      "description": "Lines",
+      "family": "Lines",
+      "variant": "Original 2",
+      "primary": false
+    },
+    "1789458164503": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Sine Wave [1.7.90]",
+      "description": "Sine Wave",
+      "family": "Sine Wave",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1789458164511": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Sine Wave [1.7.91]",
+      "description": "Sine Wave",
+      "family": "Sine Wave",
+      "variant": "Original 2",
+      "primary": false
+    },
+    "1789458164519": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Sine Wave [1.7.92]",
+      "description": "Sine Wave",
+      "family": "Sine Wave",
+      "variant": "Original 3",
+      "primary": false
+    },
+    "1789458164527": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Sine Wave [1.7.93]",
+      "description": "Sine Wave",
+      "family": "Sine Wave",
+      "variant": "Original 4",
+      "primary": false
+    },
+    "1789458164605": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Sine Wave [2.7.3]",
+      "description": "Sine Wave",
+      "family": "Sine Wave",
+      "variant": "Original 5",
+      "primary": false
+    },
+    "1789458164535": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Line Scape [1.7.94]",
+      "description": "Line Scape",
+      "family": "Line Scape",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1789458164543": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Free-particle propagator [1.7.95]",
+      "description": "Free-particle propagator",
+      "family": "Free-particle propagator",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1789458164551": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Spinor = Quaternion [1.7.96]",
+      "description": "Spinor = Quaternion",
+      "family": "Spinor = Quaternion",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1789458164559": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 SquareCellStructureScan [1.7.97]",
+      "description": "SquareCellStructureScan",
+      "family": "SquareCellStructureScan",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1789458164567": {
+      "layer_id": 1788149967550,
+      "name": "FM \u00b7 Balls and Springs [1.7.98]",
+      "description": "Balls and Springs",
+      "family": "Balls and Springs",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788149968298": {
+      "layer_id": 1788149968008,
+      "name": "1d",
+      "description": "Video Router",
+      "family": "1d",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788149968442": {
+      "layer_id": 1788149968008,
+      "name": "2d",
+      "description": "SP Atom Figure 2D",
+      "family": "2d",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788149968406": {
+      "layer_id": 1788149968008,
+      "name": "3d",
+      "description": "SP Atom Solid",
+      "family": "3d",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788149968262": {
+      "layer_id": 1788149968008,
+      "name": "4d",
+      "description": "SP Atom 4D",
+      "family": "4d",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788149968226": {
+      "layer_id": 1788149968008,
+      "name": "shell",
+      "description": "SP Atom 4D Field",
+      "family": "shell",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788149968334": {
+      "layer_id": 1788149968008,
+      "name": "hybrid",
+      "description": "SP Atom Hybrid",
+      "family": "hybrid",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788149968370": {
+      "layer_id": 1788149968008,
+      "name": "SP Figure Solid Source",
+      "description": "SP Figure Solid Source",
+      "family": "SP Figure Solid Source",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788149968190": {
+      "layer_id": 1788149968008,
+      "name": "Figure 3D SP",
+      "description": "SP Figure 3D",
+      "family": "Figure 3D SP",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788149968154": {
+      "layer_id": 1788149968008,
+      "name": "Figure 2D SP",
+      "description": "SP Figure",
+      "family": "Figure 2D SP",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037417": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 RainbowRingCubicTwist [1.6.8]",
+      "description": "RainbowRingCubicTwist",
+      "family": "RainbowRingCubicTwist",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788323600991": {
+      "layer_id": 1788149968008,
+      "name": "SP Figure Ring Source",
+      "description": "SP Figure Ring Source",
+      "family": "RainbowRingCubicTwist",
+      "variant": "Original 2",
+      "primary": false
+    },
+    "1788780037751": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 Spikeball_v2 [1.6.26]",
+      "description": "Spikeball_v2",
+      "family": "Spikeball_v2",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788323602334": {
+      "layer_id": 1788149968008,
+      "name": "SP Figure Spike Source",
+      "description": "SP Figure Spike Source",
+      "family": "Spikeball_v2",
+      "variant": "Original 2",
+      "primary": false
+    },
+    "1788780037561": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 Crystal Drops [1.6.13]",
+      "description": "Crystal Drops",
+      "family": "Crystal Drops",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788323602997": {
+      "layer_id": 1788149968008,
+      "name": "SP Figure Crystal Source",
+      "description": "SP Figure Crystal Source",
+      "family": "Crystal Drops",
+      "variant": "Original 2",
+      "primary": false
+    },
+    "1788780037630": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 HypnoWorm [1.6.16]",
+      "description": "Heart HypnoWorm",
+      "family": "HypnoWorm",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780024514": {
+      "layer_id": 1788149968008,
+      "name": "Heart HypnoWorm",
+      "description": "Heart HypnoWorm",
+      "family": "HypnoWorm",
+      "variant": "Original 2",
+      "primary": false
+    },
+    "1788780037778": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 Torus thingy [1.6.28]",
+      "description": "Heart Torus",
+      "family": "Torus thingy",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780026136": {
+      "layer_id": 1788149968008,
+      "name": "Heart Torus",
+      "description": "Heart Torus",
+      "family": "Torus thingy",
+      "variant": "Original 2",
+      "primary": false
+    },
+    "1788780037187": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 Metaballs [1.6.3]",
+      "description": "Metaballs",
+      "family": "Metaballs",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780038528": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 Metaballs [2.4.1]",
+      "description": "Metaballs",
+      "family": "Metaballs",
+      "variant": "Original 2",
+      "primary": false
+    },
+    "1789278295295": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 Metaballs [2.6.4]",
+      "description": "Metaballs",
+      "family": "Metaballs",
+      "variant": "Original 3",
+      "primary": false
+    },
+    "1788780037237": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 z33d+ [1.6.4]",
+      "description": "z33d+",
+      "family": "z33d+",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037284": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 DimensionMorphingTopography [1.6.5]",
+      "description": "DimensionMorphingTopography",
+      "family": "DimensionMorphingTopography",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037336": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 MagicLougie [1.6.6]",
+      "description": "MagicLougie",
+      "family": "MagicLougie",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037375": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 GeodesicTiling [1.6.7]",
+      "description": "GeodesicTiling",
+      "family": "GeodesicTiling",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037446": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 SpaceSpore [1.6.9]",
+      "description": "SpaceSpore",
+      "family": "SpaceSpore",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037477": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 4D Voronoi + Hopf Fibration [1.6.10]",
+      "description": "4D Voronoi + Hopf Fibration",
+      "family": "4D Voronoi + Hopf Fibration",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037505": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 16 Dimensional Julia (Sedenion) [1.6.11]",
+      "description": "16 Dimensional Julia (Sedenion)",
+      "family": "16 Dimensional Julia (Sedenion)",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037537": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 Barth Sextic Surfaces [1.6.12]",
+      "description": "Barth Sextic Surfaces",
+      "family": "Barth Sextic Surfaces",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037586": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 curved surface [1.6.14]",
+      "description": "curved surface",
+      "family": "curved surface",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037610": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 Hopf + Poincare [1.6.15]",
+      "description": "Hopf + Poincare",
+      "family": "Hopf + Poincare",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037635": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 Melty Boi [1.6.17]",
+      "description": "Melty Boi",
+      "family": "Melty Boi",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037650": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 QUANTUM WAVE INTERFERENCE [1.6.18]",
+      "description": "QUANTUM WAVE INTERFERENCE",
+      "family": "QUANTUM WAVE INTERFERENCE",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037665": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 Quantum Zappy Sphere [1.6.19]",
+      "description": "Quantum Zappy Sphere",
+      "family": "Quantum Zappy Sphere",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037677": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 Quaternion Averaging [1.6.20]",
+      "description": "Quaternion Averaging",
+      "family": "Quaternion Averaging",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037688": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 Quaternion Conjugation 2 [1.6.21]",
+      "description": "Quaternion Conjugation 2",
+      "family": "Quaternion Conjugation 2",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037704": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 quantum droplet [1.6.22]",
+      "description": "quantum droplet",
+      "family": "quantum droplet",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037715": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 On their way to Sirius [1.6.23]",
+      "description": "On their way to Sirius",
+      "family": "On their way to Sirius",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037729": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 Ray Marching Experiment n35 [1.6.24]",
+      "description": "Ray Marching Experiment n35",
+      "family": "Ray Marching Experiment n35",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037740": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 Shaderdough [1.6.25]",
+      "description": "Shaderdough",
+      "family": "Shaderdough",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037763": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 Quantum Carpets [1.6.27]",
+      "description": "Quantum Carpets",
+      "family": "Quantum Carpets",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037789": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 Raymarched Hopf Fibers [1.6.29]",
+      "description": "Raymarched Hopf Fibers",
+      "family": "Raymarched Hopf Fibers",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037804": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 Dodecahedron [1.6.30]",
+      "description": "Dodecahedron",
+      "family": "Dodecahedron",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037815": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 Wireframe stellated dodecahedron [1.6.31]",
+      "description": "Wireframe stellated dodecahedron",
+      "family": "Wireframe stellated dodecahedron",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037830": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 Kali liberation of the true self [1.6.32]",
+      "description": "Kali liberation of the true self",
+      "family": "Kali liberation of the true self",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037840": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 CubeCluster [1.6.33]",
+      "description": "CubeCluster",
+      "family": "CubeCluster",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037846": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 example using quaternions [1.6.34]",
+      "description": "example using quaternions",
+      "family": "example using quaternions",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037858": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 Multi Cube [1.6.35]",
+      "description": "Multi Cube",
+      "family": "Multi Cube",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037870": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 Multi Cube [1.6.36]",
+      "description": "Multi Cube",
+      "family": "Multi Cube",
+      "variant": "Original 2",
+      "primary": false
+    },
+    "1788780037886": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 quantum computer [1.6.37]",
+      "description": "quantum computer",
+      "family": "quantum computer",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037897": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 Melting Fractal [1.6.38]",
+      "description": "Melting Fractal",
+      "family": "Melting Fractal",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1789278295287": {
+      "layer_id": 1788149968008,
+      "name": "Heart Melting Fractal",
+      "description": "Heart Melting Fractal",
+      "family": "Melting Fractal",
+      "variant": "Original 2",
+      "primary": false
+    },
+    "1788780037912": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 quadratic bezier triangle 2 AABV [1.6.39]",
+      "description": "quadratic bezier triangle 2 AABV",
+      "family": "quadratic bezier triangle 2 AABV",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037923": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 Klein Bottle (3D) [1.6.40]",
+      "description": "Klein Bottle (3D)",
+      "family": "Klein Bottle (3D)",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1789278295303": {
+      "layer_id": 1788149968008,
+      "name": "Heart Klein Bottle",
+      "description": "Heart Klein Bottle",
+      "family": "Klein Bottle (3D)",
+      "variant": "Original 2",
+      "primary": false
+    },
+    "1788780037934": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 4D Rounded box (Bluey) [1.6.41]",
+      "description": "4D Rounded box (Bluey)",
+      "family": "4D Rounded box (Bluey)",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037944": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 4-space rotations [1.6.42]",
+      "description": "4-space rotations",
+      "family": "4-space rotations",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037955": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 HEPTANION transformation [1.6.43]",
+      "description": "HEPTANION transformation",
+      "family": "HEPTANION transformation",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037966": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 quaternion slerp [1.6.44]",
+      "description": "quaternion slerp",
+      "family": "quaternion slerp",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780037981": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 quaternion slerp [1.6.45]",
+      "description": "quaternion slerp",
+      "family": "quaternion slerp",
+      "variant": "Original 2",
+      "primary": false
+    },
+    "1788780037992": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 Quaternion Twister [1.6.46]",
+      "description": "Quaternion Twister",
+      "family": "Quaternion Twister",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780038004": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 Spinor Belt Trick [1.6.47]",
+      "description": "Spinor Belt Trick",
+      "family": "Spinor Belt Trick",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1788780038015": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 Superfluid helium [1.6.48]",
+      "description": "Superfluid helium",
+      "family": "Superfluid helium",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1789457764801": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 MTK_Tentaclone_1.1 [1.7.53]",
+      "description": "MTK_Tentaclone_1.1",
+      "family": "MTK_Tentaclone_1.1",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1789457764809": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 MTK_Worm Fresnel [1.7.54]",
+      "description": "MTK_Worm Fresnel",
+      "family": "MTK_Worm Fresnel",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1789457764817": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 MTK_Worm Walker [1.7.55]",
+      "description": "MTK_Worm Walker",
+      "family": "MTK_Worm Walker",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1789457764825": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 MTK_Worm_Banded [1.7.56]",
+      "description": "MTK_Worm_Banded",
+      "family": "MTK_Worm_Banded",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1789457764833": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 Tunnelines [1.7.57]",
+      "description": "Tunnelines",
+      "family": "Tunnelines",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1789457764848": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 Shaper [1.7.58]",
+      "description": "Shaper",
+      "family": "Shaper",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1789457764858": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 Shaper [1.7.59]",
+      "description": "Shaper",
+      "family": "Shaper",
+      "variant": "Original 2",
+      "primary": false
+    },
+    "1789457764868": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 Rings [1.7.60]",
+      "description": "Rings",
+      "family": "Rings",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1789457764876": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 fractal sponge [1.7.61]",
+      "description": "fractal sponge",
+      "family": "fractal sponge",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1789457764884": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 Hologram Boxes [1.7.62]",
+      "description": "Hologram Boxes",
+      "family": "Hologram Boxes",
+      "variant": "Original 1",
+      "primary": true
+    },
+    "1789457764786": {
+      "layer_id": 1788149968008,
+      "name": "FM \u00b7 spiragraph [1.7.63]",
+      "description": "spiragraph",
+      "family": "spiragraph",
+      "variant": "Original 1",
+      "primary": true
+    }
+  }
+}

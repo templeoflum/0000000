@@ -1,0 +1,50 @@
+{
+  "id": "lX3yD2",
+  "name": "quantum droplet",
+  "username": "ProfessorPixels",
+  "description": "i want to do more shader code but like im realising how garbage i am at it and now it's incredibly hard to do anything right",
+  "tags": [
+    "raymarch"
+  ],
+  "date": "1735624224",
+  "viewed": 84,
+  "likes": 4,
+  "published": 1,
+  "renderpass": [
+    {
+      "type": "image",
+      "name": "Image",
+      "inputs": [
+        {
+          "id": "4dXGR8",
+          "filepath": "/media/previz/buffer00.png",
+          "previewfilepath": "/media/previz/buffer00.png",
+          "type": "buffer",
+          "channel": 0,
+          "sampler": {
+            "filter": "linear",
+            "wrap": "clamp",
+            "vflip": "true",
+            "srgb": "false",
+            "internal": "byte"
+          },
+          "published": 1
+        }
+      ],
+      "outputs": [
+        {
+          "id": "4dfGRr",
+          "channel": 0
+        }
+      ],
+      "code": "#define ds (7.+sin(iTime*.5)*5.)\n#define dm (sin(iTime*.5)*.2+.2)\n#define S (length(p+sin(p*ds)*dm)-2.)\nM\n    v3 p=v3(0,0,6),t=N(v3(F-R*.5,-R.y*.7));\n    mat2 r=mat2(cos(iTime),-sin(iTime),sin(iTime),cos(iTime));\n    t.xz*=r;\n    p.xz*=r;\n    t.zy*=r;\n    p.zy*=r;\n    t.xy*=r;\n    p.xy*=r;\n    for (float d; length(p)<100.;d++)\n    {\n        p+=t*S;\n        O.r=d;\n        if (S<.01)\n        {\n            break;\n        }\n    }\n    O.rgb=v3(1.-S-O.r*.1);\n    O.a=1.;\n}"
+    },
+    {
+      "type": "common",
+      "name": "Common",
+      "inputs": [],
+      "outputs": [],
+      "code": "#define R iResolution.xy\n#define T texture(iChannel0,\n#define M void mainImage(out vec4 O,vec2 F){\n#define N normalize\n#define v2 vec2\n#define v3 vec3\n#define v4 vec4"
+    }
+  ]
+}

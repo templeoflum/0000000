@@ -1,0 +1,2488 @@
+{
+  "output": "/Users/donovan/work/0000000/shadertoy shaders/sp/restored-compositions/soup-restoration/generative soup_16x9_1920x1080_60fps.avc",
+  "base": "/Users/donovan/work/0000000/shadertoy shaders/sp/restored-compositions/soup-restoration/Soup latest before merge.avc",
+  "reference": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+  "layout": [
+    "feedback",
+    "sculpt",
+    "field",
+    "delay",
+    "figure",
+    "glyph",
+    "texture",
+    "grain"
+  ],
+  "imported_clips": [
+    {
+      "source_deck": 0,
+      "source_layer": 0,
+      "source_column": 0,
+      "name": "Feedback",
+      "layer": 1,
+      "column": 15,
+      "imported_name": "FM \u00b7 Feedback [1.1.1]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 1,
+      "source_column": 0,
+      "name": "Feedback",
+      "layer": 2,
+      "column": 15,
+      "imported_name": "FM \u00b7 Feedback [1.2.1]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 2,
+      "source_column": 0,
+      "name": "XY 1",
+      "layer": 1,
+      "column": 16,
+      "imported_name": "FM \u00b7 XY 1 [1.3.1]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 3,
+      "source_column": 0,
+      "name": "Static Rotate Left Z",
+      "layer": 1,
+      "column": 17,
+      "imported_name": "FM \u00b7 Static Rotate Left Z [1.4.1]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 7,
+      "source_column": 0,
+      "name": "MTK_Retrovision",
+      "layer": 7,
+      "column": 15,
+      "imported_name": "FM \u00b7 MTK_Retrovision [1.8.1]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 0,
+      "source_column": 1,
+      "name": "Feedback",
+      "layer": 1,
+      "column": 18,
+      "imported_name": "FM \u00b7 Feedback [1.1.2]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 1,
+      "source_column": 1,
+      "name": "Feedback",
+      "layer": 2,
+      "column": 16,
+      "imported_name": "FM \u00b7 Feedback [1.2.2]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 2,
+      "source_column": 1,
+      "name": "XY 2",
+      "layer": 1,
+      "column": 19,
+      "imported_name": "FM \u00b7 XY 2 [1.3.2]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 3,
+      "source_column": 1,
+      "name": "Static Rotate Left Z",
+      "layer": 1,
+      "column": 20,
+      "imported_name": "FM \u00b7 Static Rotate Left Z [1.4.2]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 1,
+      "name": "MTK_Worleyz",
+      "layer": 3,
+      "column": 15,
+      "imported_name": "FM \u00b7 MTK_Worleyz [1.5.2]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 7,
+      "source_column": 1,
+      "name": "MTK_Filmschool_1.2",
+      "layer": 7,
+      "column": 16,
+      "imported_name": "FM \u00b7 MTK_Filmschool_1.2 [1.8.2]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 0,
+      "source_column": 2,
+      "name": "Feedback",
+      "layer": 1,
+      "column": 21,
+      "imported_name": "FM \u00b7 Feedback [1.1.3]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 2,
+      "source_column": 2,
+      "name": "up/down",
+      "layer": 1,
+      "column": 22,
+      "imported_name": "FM \u00b7 up/down [1.3.3]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 3,
+      "source_column": 2,
+      "name": "Anim Rotate Left Z",
+      "layer": 1,
+      "column": 23,
+      "imported_name": "FM \u00b7 Anim Rotate Left Z [1.4.3]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 2,
+      "name": "ButterflyEffect",
+      "layer": 3,
+      "column": 16,
+      "imported_name": "FM \u00b7 ButterflyEffect [1.5.3]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 5,
+      "source_column": 2,
+      "name": "Metaballs",
+      "layer": 5,
+      "column": 15,
+      "imported_name": "FM \u00b7 Metaballs [1.6.3]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 7,
+      "source_column": 2,
+      "name": "MTK_ASCII_Playground",
+      "layer": 7,
+      "column": 17,
+      "imported_name": "FM \u00b7 MTK_ASCII_Playground [1.8.3]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 0,
+      "source_column": 3,
+      "name": "Feedback",
+      "layer": 1,
+      "column": 24,
+      "imported_name": "FM \u00b7 Feedback [1.1.4]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 2,
+      "source_column": 3,
+      "name": "up",
+      "layer": 1,
+      "column": 25,
+      "imported_name": "FM \u00b7 up [1.3.4]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 3,
+      "source_column": 3,
+      "name": "Rotate Right Z",
+      "layer": 1,
+      "column": 26,
+      "imported_name": "FM \u00b7 Rotate Right Z [1.4.4]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 3,
+      "name": "Cuadricula rect",
+      "layer": 3,
+      "column": 17,
+      "imported_name": "FM \u00b7 Cuadricula rect [1.5.4]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 5,
+      "source_column": 3,
+      "name": "z33d+",
+      "layer": 5,
+      "column": 16,
+      "imported_name": "FM \u00b7 z33d+ [1.6.4]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 7,
+      "source_column": 3,
+      "name": "MTK_Ditherx",
+      "layer": 7,
+      "column": 18,
+      "imported_name": "FM \u00b7 MTK_Ditherx [1.8.4]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 2,
+      "source_column": 4,
+      "name": "down",
+      "layer": 1,
+      "column": 27,
+      "imported_name": "FM \u00b7 down [1.3.5]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 3,
+      "source_column": 4,
+      "name": "Rotate Up X",
+      "layer": 1,
+      "column": 28,
+      "imported_name": "FM \u00b7 Rotate Up X [1.4.5]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 4,
+      "name": "data blocks",
+      "layer": 3,
+      "column": 18,
+      "imported_name": "FM \u00b7 data blocks [1.5.5]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 5,
+      "source_column": 4,
+      "name": "DimensionMorphingTopography",
+      "layer": 5,
+      "column": 17,
+      "imported_name": "FM \u00b7 DimensionMorphingTopography [1.6.5]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 7,
+      "source_column": 4,
+      "name": "CRT",
+      "layer": 7,
+      "column": 19,
+      "imported_name": "FM \u00b7 CRT [1.8.5]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 2,
+      "source_column": 5,
+      "name": "left/right",
+      "layer": 1,
+      "column": 29,
+      "imported_name": "FM \u00b7 left/right [1.3.6]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 3,
+      "source_column": 5,
+      "name": "Rotate Down X",
+      "layer": 1,
+      "column": 30,
+      "imported_name": "FM \u00b7 Rotate Down X [1.4.6]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 5,
+      "name": "fractal alien text",
+      "layer": 3,
+      "column": 19,
+      "imported_name": "FM \u00b7 fractal alien text [1.5.6]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 5,
+      "source_column": 5,
+      "name": "MagicLougie",
+      "layer": 5,
+      "column": 18,
+      "imported_name": "FM \u00b7 MagicLougie [1.6.6]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 7,
+      "source_column": 5,
+      "name": "Delay RGB",
+      "layer": 7,
+      "column": 20,
+      "imported_name": "FM \u00b7 Delay RGB [1.8.6]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 2,
+      "source_column": 6,
+      "name": "right",
+      "layer": 1,
+      "column": 31,
+      "imported_name": "FM \u00b7 right [1.3.7]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 3,
+      "source_column": 6,
+      "name": "Rotate Right Y",
+      "layer": 1,
+      "column": 32,
+      "imported_name": "FM \u00b7 Rotate Right Y [1.4.7]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 6,
+      "name": "Gradient Bars",
+      "layer": 3,
+      "column": 20,
+      "imported_name": "FM \u00b7 Gradient Bars [1.5.7]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 5,
+      "source_column": 6,
+      "name": "GeodesicTiling",
+      "layer": 5,
+      "column": 19,
+      "imported_name": "FM \u00b7 GeodesicTiling [1.6.7]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 7,
+      "source_column": 6,
+      "name": "MTK_Kaleidolax",
+      "layer": 7,
+      "column": 21,
+      "imported_name": "FM \u00b7 MTK_Kaleidolax [1.8.7]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 2,
+      "source_column": 7,
+      "name": "left",
+      "layer": 1,
+      "column": 33,
+      "imported_name": "FM \u00b7 left [1.3.8]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 3,
+      "source_column": 7,
+      "name": "Rotate Left Y",
+      "layer": 1,
+      "column": 34,
+      "imported_name": "FM \u00b7 Rotate Left Y [1.4.8]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 7,
+      "name": "TileIllusion",
+      "layer": 3,
+      "column": 21,
+      "imported_name": "FM \u00b7 TileIllusion [1.5.8]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 5,
+      "source_column": 7,
+      "name": "RainbowRingCubicTwist",
+      "layer": 5,
+      "column": 20,
+      "imported_name": "FM \u00b7 RainbowRingCubicTwist [1.6.8]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 7,
+      "source_column": 7,
+      "name": "Edge Detection",
+      "layer": 7,
+      "column": 22,
+      "imported_name": "FM \u00b7 Edge Detection [1.8.8]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 3,
+      "source_column": 8,
+      "name": "Scale W",
+      "layer": 1,
+      "column": 35,
+      "imported_name": "FM \u00b7 Scale W [1.4.9]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 8,
+      "name": "Melty Boi",
+      "layer": 3,
+      "column": 22,
+      "imported_name": "FM \u00b7 Melty Boi [1.5.9]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 5,
+      "source_column": 8,
+      "name": "SpaceSpore",
+      "layer": 5,
+      "column": 21,
+      "imported_name": "FM \u00b7 SpaceSpore [1.6.9]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 7,
+      "source_column": 8,
+      "name": "MTK_TripleRipple",
+      "layer": 7,
+      "column": 23,
+      "imported_name": "FM \u00b7 MTK_TripleRipple [1.8.9]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 3,
+      "source_column": 9,
+      "name": "Scale H",
+      "layer": 1,
+      "column": 36,
+      "imported_name": "FM \u00b7 Scale H [1.4.10]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 9,
+      "name": "Screen Weaver",
+      "layer": 3,
+      "column": 23,
+      "imported_name": "FM \u00b7 Screen Weaver [1.5.10]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 5,
+      "source_column": 9,
+      "name": "4D Voronoi + Hopf Fibration",
+      "layer": 5,
+      "column": 22,
+      "imported_name": "FM \u00b7 4D Voronoi + Hopf Fibration [1.6.10]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 7,
+      "source_column": 9,
+      "name": "Edge Detection",
+      "layer": 7,
+      "column": 24,
+      "imported_name": "FM \u00b7 Edge Detection [1.8.10]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 3,
+      "source_column": 10,
+      "name": "Scale In",
+      "layer": 1,
+      "column": 37,
+      "imported_name": "FM \u00b7 Scale In [1.4.11]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 10,
+      "name": "sin_wave",
+      "layer": 3,
+      "column": 24,
+      "imported_name": "FM \u00b7 sin_wave [1.5.11]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 5,
+      "source_column": 10,
+      "name": "16 Dimensional Julia (Sedenion)",
+      "layer": 5,
+      "column": 23,
+      "imported_name": "FM \u00b7 16 Dimensional Julia (Sedenion) [1.6.11]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 7,
+      "source_column": 10,
+      "name": "Polkadot",
+      "layer": 7,
+      "column": 25,
+      "imported_name": "FM \u00b7 Polkadot [1.8.11]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 3,
+      "source_column": 11,
+      "name": "Scale Out",
+      "layer": 1,
+      "column": 38,
+      "imported_name": "FM \u00b7 Scale Out [1.4.12]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 11,
+      "name": "SpiralSurface",
+      "layer": 3,
+      "column": 25,
+      "imported_name": "FM \u00b7 SpiralSurface [1.5.12]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 5,
+      "source_column": 11,
+      "name": "Barth Sextic Surfaces",
+      "layer": 5,
+      "column": 24,
+      "imported_name": "FM \u00b7 Barth Sextic Surfaces [1.6.12]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 3,
+      "source_column": 12,
+      "name": "Move Right",
+      "layer": 1,
+      "column": 39,
+      "imported_name": "FM \u00b7 Move Right [1.4.13]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 12,
+      "name": "Dark Tomb",
+      "layer": 3,
+      "column": 26,
+      "imported_name": "FM \u00b7 Dark Tomb [1.5.13]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 5,
+      "source_column": 12,
+      "name": "Crystal Drops",
+      "layer": 5,
+      "column": 25,
+      "imported_name": "FM \u00b7 Crystal Drops [1.6.13]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 3,
+      "source_column": 13,
+      "name": "Move Left",
+      "layer": 1,
+      "column": 40,
+      "imported_name": "FM \u00b7 Move Left [1.4.14]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 13,
+      "name": "cubes + spheres",
+      "layer": 3,
+      "column": 27,
+      "imported_name": "FM \u00b7 cubes + spheres [1.5.14]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 5,
+      "source_column": 13,
+      "name": "curved surface",
+      "layer": 5,
+      "column": 26,
+      "imported_name": "FM \u00b7 curved surface [1.6.14]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 3,
+      "source_column": 14,
+      "name": "move down",
+      "layer": 1,
+      "column": 41,
+      "imported_name": "FM \u00b7 move down [1.4.15]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 14,
+      "name": "RailroadTracks",
+      "layer": 3,
+      "column": 28,
+      "imported_name": "FM \u00b7 RailroadTracks [1.5.15]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 5,
+      "source_column": 14,
+      "name": "Hopf + Poincare",
+      "layer": 5,
+      "column": 27,
+      "imported_name": "FM \u00b7 Hopf + Poincare [1.6.15]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 3,
+      "source_column": 15,
+      "name": "move up",
+      "layer": 1,
+      "column": 42,
+      "imported_name": "FM \u00b7 move up [1.4.16]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 15,
+      "name": "quantum chaos",
+      "layer": 3,
+      "column": 29,
+      "imported_name": "FM \u00b7 quantum chaos [1.5.16]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 5,
+      "source_column": 15,
+      "name": "HypnoWorm",
+      "layer": 5,
+      "column": 28,
+      "imported_name": "FM \u00b7 HypnoWorm [1.6.16]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 5,
+      "source_column": 16,
+      "name": "Melty Boi",
+      "layer": 5,
+      "column": 29,
+      "imported_name": "FM \u00b7 Melty Boi [1.6.17]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 17,
+      "name": "Quaternion RGB vector rotation",
+      "layer": 3,
+      "column": 30,
+      "imported_name": "FM \u00b7 Quaternion RGB vector rotation [1.5.18]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 5,
+      "source_column": 17,
+      "name": "QUANTUM WAVE INTERFERENCE",
+      "layer": 5,
+      "column": 30,
+      "imported_name": "FM \u00b7 QUANTUM WAVE INTERFERENCE [1.6.18]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 18,
+      "name": "RetroTechnicolorComputer",
+      "layer": 3,
+      "column": 31,
+      "imported_name": "FM \u00b7 RetroTechnicolorComputer [1.5.19]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 5,
+      "source_column": 18,
+      "name": "Quantum Zappy Sphere",
+      "layer": 5,
+      "column": 31,
+      "imported_name": "FM \u00b7 Quantum Zappy Sphere [1.6.19]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 19,
+      "name": "SmoothXORi",
+      "layer": 3,
+      "column": 32,
+      "imported_name": "FM \u00b7 SmoothXORi [1.5.20]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 5,
+      "source_column": 19,
+      "name": "Quaternion Averaging",
+      "layer": 5,
+      "column": 32,
+      "imported_name": "FM \u00b7 Quaternion Averaging [1.6.20]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 20,
+      "name": "TruchetDualLevelSpin",
+      "layer": 3,
+      "column": 33,
+      "imported_name": "FM \u00b7 TruchetDualLevelSpin [1.5.21]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 5,
+      "source_column": 20,
+      "name": "Quaternion Conjugation 2",
+      "layer": 5,
+      "column": 33,
+      "imported_name": "FM \u00b7 Quaternion Conjugation 2 [1.6.21]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 21,
+      "name": "TwinRays",
+      "layer": 3,
+      "column": 34,
+      "imported_name": "FM \u00b7 TwinRays [1.5.22]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 5,
+      "source_column": 21,
+      "name": "quantum droplet",
+      "layer": 5,
+      "column": 34,
+      "imported_name": "FM \u00b7 quantum droplet [1.6.22]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 22,
+      "name": "VoroniCubes",
+      "layer": 3,
+      "column": 35,
+      "imported_name": "FM \u00b7 VoroniCubes [1.5.23]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 5,
+      "source_column": 22,
+      "name": "On their way to Sirius",
+      "layer": 5,
+      "column": 35,
+      "imported_name": "FM \u00b7 On their way to Sirius [1.6.23]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 23,
+      "name": "Concentrip",
+      "layer": 3,
+      "column": 36,
+      "imported_name": "FM \u00b7 Concentrip [1.5.24]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 5,
+      "source_column": 23,
+      "name": "Ray Marching Experiment n35",
+      "layer": 5,
+      "column": 36,
+      "imported_name": "FM \u00b7 Ray Marching Experiment n35 [1.6.24]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 24,
+      "name": "Higgs Mechanism",
+      "layer": 3,
+      "column": 37,
+      "imported_name": "FM \u00b7 Higgs Mechanism [1.5.25]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 5,
+      "source_column": 24,
+      "name": "Shaderdough",
+      "layer": 5,
+      "column": 37,
+      "imported_name": "FM \u00b7 Shaderdough [1.6.25]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 25,
+      "name": "Klein bottle figure 8 immersion",
+      "layer": 3,
+      "column": 38,
+      "imported_name": "FM \u00b7 Klein bottle figure 8 immersion [1.5.26]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 5,
+      "source_column": 25,
+      "name": "Spikeball_v2",
+      "layer": 5,
+      "column": 38,
+      "imported_name": "FM \u00b7 Spikeball_v2 [1.6.26]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 26,
+      "name": "PsychedeliaGenerica",
+      "layer": 3,
+      "column": 39,
+      "imported_name": "FM \u00b7 PsychedeliaGenerica [1.5.27]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 5,
+      "source_column": 26,
+      "name": "Quantum Carpets",
+      "layer": 5,
+      "column": 39,
+      "imported_name": "FM \u00b7 Quantum Carpets [1.6.27]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 27,
+      "name": "Potential Energy",
+      "layer": 3,
+      "column": 40,
+      "imported_name": "FM \u00b7 Potential Energy [1.5.28]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 5,
+      "source_column": 27,
+      "name": "Torus thingy",
+      "layer": 5,
+      "column": 40,
+      "imported_name": "FM \u00b7 Torus thingy [1.6.28]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 28,
+      "name": "Magnetic Anomaly",
+      "layer": 3,
+      "column": 41,
+      "imported_name": "FM \u00b7 Magnetic Anomaly [1.5.29]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 5,
+      "source_column": 28,
+      "name": "Raymarched Hopf Fibers",
+      "layer": 5,
+      "column": 41,
+      "imported_name": "FM \u00b7 Raymarched Hopf Fibers [1.6.29]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 29,
+      "name": "Quantum Field Theory",
+      "layer": 3,
+      "column": 42,
+      "imported_name": "FM \u00b7 Quantum Field Theory [1.5.30]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 5,
+      "source_column": 29,
+      "name": "Dodecahedron",
+      "layer": 5,
+      "column": 42,
+      "imported_name": "FM \u00b7 Dodecahedron [1.6.30]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 30,
+      "name": "QuarternionSwell",
+      "layer": 3,
+      "column": 43,
+      "imported_name": "FM \u00b7 QuarternionSwell [1.5.31]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 5,
+      "source_column": 30,
+      "name": "Wireframe stellated dodecahedron",
+      "layer": 5,
+      "column": 43,
+      "imported_name": "FM \u00b7 Wireframe stellated dodecahedron [1.6.31]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 31,
+      "name": "QField2",
+      "layer": 3,
+      "column": 44,
+      "imported_name": "FM \u00b7 QField2 [1.5.32]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 5,
+      "source_column": 31,
+      "name": "Kali liberation of the true self",
+      "layer": 5,
+      "column": 44,
+      "imported_name": "FM \u00b7 Kali liberation of the true self [1.6.32]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 32,
+      "name": "QuarternionFieldDistortion",
+      "layer": 3,
+      "column": 45,
+      "imported_name": "FM \u00b7 QuarternionFieldDistortion [1.5.33]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 5,
+      "source_column": 32,
+      "name": "CubeCluster",
+      "layer": 5,
+      "column": 45,
+      "imported_name": "FM \u00b7 CubeCluster [1.6.33]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 5,
+      "source_column": 33,
+      "name": "example using quaternions",
+      "layer": 5,
+      "column": 46,
+      "imported_name": "FM \u00b7 example using quaternions [1.6.34]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 34,
+      "name": "Cos Orbit",
+      "layer": 3,
+      "column": 46,
+      "imported_name": "FM \u00b7 Cos Orbit [1.5.35]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 5,
+      "source_column": 34,
+      "name": "Multi Cube",
+      "layer": 5,
+      "column": 47,
+      "imported_name": "FM \u00b7 Multi Cube [1.6.35]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 35,
+      "name": "Flower2",
+      "layer": 3,
+      "column": 47,
+      "imported_name": "FM \u00b7 Flower2 [1.5.36]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 5,
+      "source_column": 35,
+      "name": "Multi Cube",
+      "layer": 5,
+      "column": 48,
+      "imported_name": "FM \u00b7 Multi Cube [1.6.36]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 36,
+      "name": "Creation",
+      "layer": 3,
+      "column": 48,
+      "imported_name": "FM \u00b7 Creation [1.5.37]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 5,
+      "source_column": 36,
+      "name": "quantum computer",
+      "layer": 5,
+      "column": 49,
+      "imported_name": "FM \u00b7 quantum computer [1.6.37]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 37,
+      "name": "Gentle Rings",
+      "layer": 3,
+      "column": 49,
+      "imported_name": "FM \u00b7 Gentle Rings [1.5.38]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 5,
+      "source_column": 37,
+      "name": "Melting Fractal",
+      "layer": 5,
+      "column": 50,
+      "imported_name": "FM \u00b7 Melting Fractal [1.6.38]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 38,
+      "name": "Quantum Fractal",
+      "layer": 3,
+      "column": 50,
+      "imported_name": "FM \u00b7 Quantum Fractal [1.5.39]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 5,
+      "source_column": 38,
+      "name": "quadratic bezier triangle 2 AABV",
+      "layer": 5,
+      "column": 51,
+      "imported_name": "FM \u00b7 quadratic bezier triangle 2 AABV [1.6.39]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 39,
+      "name": "spiral intersect",
+      "layer": 3,
+      "column": 51,
+      "imported_name": "FM \u00b7 spiral intersect [1.5.40]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 5,
+      "source_column": 39,
+      "name": "Klein Bottle (3D)",
+      "layer": 5,
+      "column": 52,
+      "imported_name": "FM \u00b7 Klein Bottle (3D) [1.6.40]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 40,
+      "name": "Quasi-Kleinian Ring of Circles",
+      "layer": 3,
+      "column": 52,
+      "imported_name": "FM \u00b7 Quasi-Kleinian Ring of Circles [1.5.41]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 5,
+      "source_column": 40,
+      "name": "4D Rounded box (Bluey)",
+      "layer": 5,
+      "column": 53,
+      "imported_name": "FM \u00b7 4D Rounded box (Bluey) [1.6.41]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 41,
+      "name": "Poincare Disk",
+      "layer": 3,
+      "column": 53,
+      "imported_name": "FM \u00b7 Poincare Disk [1.5.42]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 5,
+      "source_column": 41,
+      "name": "4-space rotations",
+      "layer": 5,
+      "column": 54,
+      "imported_name": "FM \u00b7 4-space rotations [1.6.42]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 42,
+      "name": "FractalCartoon",
+      "layer": 3,
+      "column": 54,
+      "imported_name": "FM \u00b7 FractalCartoon [1.5.43]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 5,
+      "source_column": 42,
+      "name": "HEPTANION transformation",
+      "layer": 5,
+      "column": 55,
+      "imported_name": "FM \u00b7 HEPTANION transformation [1.6.43]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 43,
+      "name": "MergerTunnel",
+      "layer": 3,
+      "column": 55,
+      "imported_name": "FM \u00b7 MergerTunnel [1.5.44]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 5,
+      "source_column": 43,
+      "name": "quaternion slerp",
+      "layer": 5,
+      "column": 56,
+      "imported_name": "FM \u00b7 quaternion slerp [1.6.44]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 44,
+      "name": "Sands",
+      "layer": 3,
+      "column": 56,
+      "imported_name": "FM \u00b7 Sands [1.5.45]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 5,
+      "source_column": 44,
+      "name": "quaternion slerp",
+      "layer": 5,
+      "column": 57,
+      "imported_name": "FM \u00b7 quaternion slerp [1.6.45]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 45,
+      "name": "Paper Fractal",
+      "layer": 3,
+      "column": 57,
+      "imported_name": "FM \u00b7 Paper Fractal [1.5.46]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 5,
+      "source_column": 45,
+      "name": "Quaternion Twister",
+      "layer": 5,
+      "column": 58,
+      "imported_name": "FM \u00b7 Quaternion Twister [1.6.46]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 46,
+      "name": "ShaderLamb",
+      "layer": 3,
+      "column": 58,
+      "imported_name": "FM \u00b7 ShaderLamb [1.5.47]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 5,
+      "source_column": 46,
+      "name": "Spinor Belt Trick",
+      "layer": 5,
+      "column": 59,
+      "imported_name": "FM \u00b7 Spinor Belt Trick [1.6.47]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 47,
+      "name": "Cumulus",
+      "layer": 3,
+      "column": 59,
+      "imported_name": "FM \u00b7 Cumulus [1.5.48]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 5,
+      "source_column": 47,
+      "name": "Superfluid helium",
+      "layer": 5,
+      "column": 60,
+      "imported_name": "FM \u00b7 Superfluid helium [1.6.48]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 48,
+      "name": "MetaSevenVortex",
+      "layer": 3,
+      "column": 60,
+      "imported_name": "FM \u00b7 MetaSevenVortex [1.5.49]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 49,
+      "name": "Wild Style",
+      "layer": 3,
+      "column": 61,
+      "imported_name": "FM \u00b7 Wild Style [1.5.50]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 50,
+      "name": "VectorFromHell",
+      "layer": 3,
+      "column": 62,
+      "imported_name": "FM \u00b7 VectorFromHell [1.5.51]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 51,
+      "name": "AI Escape valve",
+      "layer": 3,
+      "column": 63,
+      "imported_name": "FM \u00b7 AI Escape valve [1.5.52]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 52,
+      "name": "Apollonian",
+      "layer": 3,
+      "column": 64,
+      "imported_name": "FM \u00b7 Apollonian [1.5.53]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 6,
+      "source_column": 52,
+      "name": "MTK_Tentaclone_1.1",
+      "layer": 6,
+      "column": 15,
+      "imported_name": "FM \u00b7 MTK_Tentaclone_1.1 [1.7.53]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 53,
+      "name": "Equirectangular Apollonian",
+      "layer": 3,
+      "column": 65,
+      "imported_name": "FM \u00b7 Equirectangular Apollonian [1.5.54]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 6,
+      "source_column": 53,
+      "name": "MTK_Worm Fresnel",
+      "layer": 6,
+      "column": 16,
+      "imported_name": "FM \u00b7 MTK_Worm Fresnel [1.7.54]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 54,
+      "name": "Kali - ancient temple",
+      "layer": 3,
+      "column": 66,
+      "imported_name": "FM \u00b7 Kali - ancient temple [1.5.55]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 6,
+      "source_column": 54,
+      "name": "MTK_Worm Walker",
+      "layer": 6,
+      "column": 17,
+      "imported_name": "FM \u00b7 MTK_Worm Walker [1.7.55]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 55,
+      "name": "Kissing Donuts",
+      "layer": 3,
+      "column": 67,
+      "imported_name": "FM \u00b7 Kissing Donuts [1.5.56]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 6,
+      "source_column": 55,
+      "name": "MTK_Worm_Banded",
+      "layer": 6,
+      "column": 18,
+      "imported_name": "FM \u00b7 MTK_Worm_Banded [1.7.56]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 56,
+      "name": "Kleinian limit set",
+      "layer": 3,
+      "column": 68,
+      "imported_name": "FM \u00b7 Kleinian limit set [1.5.57]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 6,
+      "source_column": 56,
+      "name": "Tunnelines",
+      "layer": 6,
+      "column": 19,
+      "imported_name": "FM \u00b7 Tunnelines [1.7.57]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 57,
+      "name": "Kleinian limit set-Maskit slice",
+      "layer": 3,
+      "column": 69,
+      "imported_name": "FM \u00b7 Kleinian limit set-Maskit slice [1.5.58]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 6,
+      "source_column": 57,
+      "name": "Shaper",
+      "layer": 6,
+      "column": 20,
+      "imported_name": "FM \u00b7 Shaper [1.7.58]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 58,
+      "name": "TwoFiftySixBiatch",
+      "layer": 3,
+      "column": 70,
+      "imported_name": "FM \u00b7 TwoFiftySixBiatch [1.5.59]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 6,
+      "source_column": 58,
+      "name": "Shaper",
+      "layer": 6,
+      "column": 21,
+      "imported_name": "FM \u00b7 Shaper [1.7.59]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 59,
+      "name": "MegaWave 2",
+      "layer": 3,
+      "column": 71,
+      "imported_name": "FM \u00b7 MegaWave 2 [1.5.60]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 6,
+      "source_column": 59,
+      "name": "Rings",
+      "layer": 6,
+      "column": 22,
+      "imported_name": "FM \u00b7 Rings [1.7.60]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 60,
+      "name": "[phreax] quantum field",
+      "layer": 3,
+      "column": 72,
+      "imported_name": "FM \u00b7 [phreax] quantum field [1.5.61]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 6,
+      "source_column": 60,
+      "name": "fractal sponge",
+      "layer": 6,
+      "column": 23,
+      "imported_name": "FM \u00b7 fractal sponge [1.7.61]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 61,
+      "name": "Oldschool Tube",
+      "layer": 3,
+      "column": 73,
+      "imported_name": "FM \u00b7 Oldschool Tube [1.5.62]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 6,
+      "source_column": 61,
+      "name": "Hologram Boxes",
+      "layer": 6,
+      "column": 24,
+      "imported_name": "FM \u00b7 Hologram Boxes [1.7.62]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 62,
+      "name": "Full Spectrum Cyber",
+      "layer": 3,
+      "column": 74,
+      "imported_name": "FM \u00b7 Full Spectrum Cyber [1.5.63]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 6,
+      "source_column": 62,
+      "name": "spiragraph",
+      "layer": 6,
+      "column": 25,
+      "imported_name": "FM \u00b7 spiragraph [1.7.63]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 6,
+      "source_column": 63,
+      "name": "Test Card",
+      "layer": 6,
+      "column": 26,
+      "imported_name": "FM \u00b7 Test Card [1.7.64]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 64,
+      "name": "ocean waves",
+      "layer": 3,
+      "column": 75,
+      "imported_name": "FM \u00b7 ocean waves [1.5.65]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 6,
+      "source_column": 64,
+      "name": "Gradient",
+      "layer": 6,
+      "column": 27,
+      "imported_name": "FM \u00b7 Gradient [1.7.65]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 65,
+      "name": "ocean waves",
+      "layer": 3,
+      "column": 76,
+      "imported_name": "FM \u00b7 ocean waves [1.5.66]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 6,
+      "source_column": 65,
+      "name": "Gradient",
+      "layer": 6,
+      "column": 28,
+      "imported_name": "FM \u00b7 Gradient [1.7.66]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 6,
+      "source_column": 66,
+      "name": "Gradient",
+      "layer": 6,
+      "column": 29,
+      "imported_name": "FM \u00b7 Gradient [1.7.67]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 67,
+      "name": "Dodecahedral Permutations",
+      "layer": 3,
+      "column": 77,
+      "imported_name": "FM \u00b7 Dodecahedral Permutations [1.5.68]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 6,
+      "source_column": 67,
+      "name": "Gradient",
+      "layer": 6,
+      "column": 30,
+      "imported_name": "FM \u00b7 Gradient [1.7.68]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 68,
+      "name": "Deep Quantum Time State",
+      "layer": 3,
+      "column": 78,
+      "imported_name": "FM \u00b7 Deep Quantum Time State [1.5.69]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 6,
+      "source_column": 68,
+      "name": "Gradient",
+      "layer": 6,
+      "column": 31,
+      "imported_name": "FM \u00b7 Gradient [1.7.69]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 69,
+      "name": "q_interference23",
+      "layer": 3,
+      "column": 79,
+      "imported_name": "FM \u00b7 q_interference23 [1.5.70]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 6,
+      "source_column": 69,
+      "name": "Gradient",
+      "layer": 6,
+      "column": 32,
+      "imported_name": "FM \u00b7 Gradient [1.7.70]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 70,
+      "name": "flex links - v2",
+      "layer": 3,
+      "column": 80,
+      "imported_name": "FM \u00b7 flex links - v2 [1.5.71]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 6,
+      "source_column": 70,
+      "name": "Gradient",
+      "layer": 6,
+      "column": 33,
+      "imported_name": "FM \u00b7 Gradient [1.7.71]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 71,
+      "name": "flex links - v3",
+      "layer": 3,
+      "column": 81,
+      "imported_name": "FM \u00b7 flex links - v3 [1.5.72]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 6,
+      "source_column": 71,
+      "name": "Gradient",
+      "layer": 6,
+      "column": 34,
+      "imported_name": "FM \u00b7 Gradient [1.7.72]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 72,
+      "name": "flex links radial - slice",
+      "layer": 3,
+      "column": 82,
+      "imported_name": "FM \u00b7 flex links radial - slice [1.5.73]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 6,
+      "source_column": 72,
+      "name": "Gradient",
+      "layer": 6,
+      "column": 35,
+      "imported_name": "FM \u00b7 Gradient [1.7.73]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 73,
+      "name": "flex links radial - slice2",
+      "layer": 3,
+      "column": 83,
+      "imported_name": "FM \u00b7 flex links radial - slice2 [1.5.74]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 6,
+      "source_column": 73,
+      "name": "Gradient",
+      "layer": 6,
+      "column": 36,
+      "imported_name": "FM \u00b7 Gradient [1.7.74]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 74,
+      "name": "flex links radial - v4",
+      "layer": 3,
+      "column": 84,
+      "imported_name": "FM \u00b7 flex links radial - v4 [1.5.75]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 6,
+      "source_column": 74,
+      "name": "plasma sparkle",
+      "layer": 6,
+      "column": 37,
+      "imported_name": "FM \u00b7 plasma sparkle [1.7.75]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 75,
+      "name": "Quaternion controls",
+      "layer": 3,
+      "column": 85,
+      "imported_name": "FM \u00b7 Quaternion controls [1.5.76]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 6,
+      "source_column": 75,
+      "name": "00000",
+      "layer": 6,
+      "column": 38,
+      "imported_name": "FM \u00b7 00000 [1.7.76]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 76,
+      "name": "Space Warping Portals",
+      "layer": 3,
+      "column": 86,
+      "imported_name": "FM \u00b7 Space Warping Portals [1.5.77]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 6,
+      "source_column": 76,
+      "name": "BlackCherryCosmos",
+      "layer": 6,
+      "column": 39,
+      "imported_name": "FM \u00b7 BlackCherryCosmos [1.7.77]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 77,
+      "name": "Steiner Surfaces",
+      "layer": 3,
+      "column": 87,
+      "imported_name": "FM \u00b7 Steiner Surfaces [1.5.78]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 6,
+      "source_column": 77,
+      "name": "CloudVortex",
+      "layer": 6,
+      "column": 40,
+      "imported_name": "FM \u00b7 CloudVortex [1.7.78]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 78,
+      "name": "Quantum Socket",
+      "layer": 3,
+      "column": 88,
+      "imported_name": "FM \u00b7 Quantum Socket [1.5.79]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 6,
+      "source_column": 78,
+      "name": "CollapsingArchi",
+      "layer": 6,
+      "column": 41,
+      "imported_name": "FM \u00b7 CollapsingArchi [1.7.79]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 79,
+      "name": "Quaternion Kinematics",
+      "layer": 3,
+      "column": 89,
+      "imported_name": "FM \u00b7 Quaternion Kinematics [1.5.80]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 6,
+      "source_column": 79,
+      "name": "CosmicJourney",
+      "layer": 6,
+      "column": 42,
+      "imported_name": "FM \u00b7 CosmicJourney [1.7.80]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 80,
+      "name": "HopfFibration",
+      "layer": 3,
+      "column": 90,
+      "imported_name": "FM \u00b7 HopfFibration [1.5.81]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 6,
+      "source_column": 80,
+      "name": "Color Wheel",
+      "layer": 6,
+      "column": 43,
+      "imported_name": "FM \u00b7 Color Wheel [1.7.81]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 6,
+      "source_column": 81,
+      "name": "DoubleGalaxy",
+      "layer": 6,
+      "column": 44,
+      "imported_name": "FM \u00b7 DoubleGalaxy [1.7.82]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 82,
+      "name": "[2TC 15] old skool 3d driving",
+      "layer": 3,
+      "column": 91,
+      "imported_name": "FM \u00b7 [2TC 15] old skool 3d driving [1.5.83]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 6,
+      "source_column": 82,
+      "name": "KaliCiruitsExplorer",
+      "layer": 6,
+      "column": 45,
+      "imported_name": "FM \u00b7 KaliCiruitsExplorer [1.7.83]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 6,
+      "source_column": 83,
+      "name": "MetablobStarz",
+      "layer": 6,
+      "column": 46,
+      "imported_name": "FM \u00b7 MetablobStarz [1.7.84]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 4,
+      "source_column": 84,
+      "name": "Gentle Rings SP",
+      "layer": 3,
+      "column": 92,
+      "imported_name": "FM \u00b7 Gentle Rings SP [1.5.85]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 5,
+      "source_column": 84,
+      "name": "Hopf fibers SP",
+      "layer": 5,
+      "column": 61,
+      "imported_name": "FM \u00b7 Hopf fibers SP [1.6.85]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 6,
+      "source_column": 84,
+      "name": "UltimateKaliCircuits",
+      "layer": 6,
+      "column": 47,
+      "imported_name": "FM \u00b7 UltimateKaliCircuits [1.7.85]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 5,
+      "source_column": 85,
+      "name": "SP State Test",
+      "layer": 5,
+      "column": 62,
+      "imported_name": "FM \u00b7 SP State Test [1.6.86]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 6,
+      "source_column": 85,
+      "name": "Abstract Field",
+      "layer": 6,
+      "column": 48,
+      "imported_name": "FM \u00b7 Abstract Field [1.7.86]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 6,
+      "source_column": 86,
+      "name": "Checkered",
+      "layer": 6,
+      "column": 49,
+      "imported_name": "FM \u00b7 Checkered [1.7.87]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 6,
+      "source_column": 87,
+      "name": "Spiral",
+      "layer": 6,
+      "column": 50,
+      "imported_name": "FM \u00b7 Spiral [1.7.88]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 6,
+      "source_column": 88,
+      "name": "Lines",
+      "layer": 6,
+      "column": 51,
+      "imported_name": "FM \u00b7 Lines [1.7.89]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 6,
+      "source_column": 89,
+      "name": "Sine Wave",
+      "layer": 6,
+      "column": 52,
+      "imported_name": "FM \u00b7 Sine Wave [1.7.90]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 6,
+      "source_column": 90,
+      "name": "Sine Wave",
+      "layer": 6,
+      "column": 53,
+      "imported_name": "FM \u00b7 Sine Wave [1.7.91]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 6,
+      "source_column": 91,
+      "name": "Sine Wave",
+      "layer": 6,
+      "column": 54,
+      "imported_name": "FM \u00b7 Sine Wave [1.7.92]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 6,
+      "source_column": 92,
+      "name": "Sine Wave",
+      "layer": 6,
+      "column": 55,
+      "imported_name": "FM \u00b7 Sine Wave [1.7.93]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 6,
+      "source_column": 93,
+      "name": "Line Scape",
+      "layer": 6,
+      "column": 56,
+      "imported_name": "FM \u00b7 Line Scape [1.7.94]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 6,
+      "source_column": 94,
+      "name": "Free-particle propagator",
+      "layer": 6,
+      "column": 57,
+      "imported_name": "FM \u00b7 Free-particle propagator [1.7.95]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 6,
+      "source_column": 95,
+      "name": "Spinor = Quaternion",
+      "layer": 6,
+      "column": 58,
+      "imported_name": "FM \u00b7 Spinor = Quaternion [1.7.96]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 6,
+      "source_column": 96,
+      "name": "SquareCellStructureScan",
+      "layer": 6,
+      "column": 59,
+      "imported_name": "FM \u00b7 SquareCellStructureScan [1.7.97]"
+    },
+    {
+      "source_deck": 0,
+      "source_layer": 6,
+      "source_column": 97,
+      "name": "Balls and Springs",
+      "layer": 6,
+      "column": 60,
+      "imported_name": "FM \u00b7 Balls and Springs [1.7.98]"
+    },
+    {
+      "source_deck": 1,
+      "source_layer": 0,
+      "source_column": 0,
+      "name": "Gradient",
+      "layer": 3,
+      "column": 93,
+      "imported_name": "FM \u00b7 Gradient [2.1.1]"
+    },
+    {
+      "source_deck": 1,
+      "source_layer": 1,
+      "source_column": 0,
+      "name": "Color Wheel",
+      "layer": 3,
+      "column": 94,
+      "imported_name": "FM \u00b7 Color Wheel [2.2.1]"
+    },
+    {
+      "source_deck": 1,
+      "source_layer": 2,
+      "source_column": 0,
+      "name": "Sine Wave",
+      "layer": 3,
+      "column": 95,
+      "imported_name": "FM \u00b7 Sine Wave [2.3.1]"
+    },
+    {
+      "source_deck": 1,
+      "source_layer": 3,
+      "source_column": 0,
+      "name": "Metaballs",
+      "layer": 5,
+      "column": 63,
+      "imported_name": "FM \u00b7 Metaballs [2.4.1]"
+    },
+    {
+      "source_deck": 1,
+      "source_layer": 4,
+      "source_column": 0,
+      "name": "Gentle Rings SP",
+      "layer": 3,
+      "column": 96,
+      "imported_name": "FM \u00b7 Gentle Rings SP [2.5.1]"
+    },
+    {
+      "source_deck": 1,
+      "source_layer": 5,
+      "source_column": 0,
+      "name": "Hopf fibers SP",
+      "layer": 5,
+      "column": 64,
+      "imported_name": "FM \u00b7 Hopf fibers SP [2.6.1]"
+    },
+    {
+      "source_deck": 1,
+      "source_layer": 6,
+      "source_column": 0,
+      "name": "Test Card",
+      "layer": 6,
+      "column": 61,
+      "imported_name": "FM \u00b7 Test Card [2.7.1]"
+    },
+    {
+      "source_deck": 1,
+      "source_layer": 7,
+      "source_column": 0,
+      "name": "Static",
+      "layer": 8,
+      "column": 15,
+      "imported_name": "FM \u00b7 Static [2.8.1]"
+    },
+    {
+      "source_deck": 1,
+      "source_layer": 0,
+      "source_column": 1,
+      "name": "Checkered",
+      "layer": 3,
+      "column": 97,
+      "imported_name": "FM \u00b7 Checkered [2.1.2]"
+    },
+    {
+      "source_deck": 1,
+      "source_layer": 1,
+      "source_column": 1,
+      "name": "Spiral",
+      "layer": 3,
+      "column": 98,
+      "imported_name": "FM \u00b7 Spiral [2.2.2]"
+    },
+    {
+      "source_deck": 1,
+      "source_layer": 2,
+      "source_column": 1,
+      "name": "Lines",
+      "layer": 3,
+      "column": 99,
+      "imported_name": "FM \u00b7 Lines [2.3.2]"
+    },
+    {
+      "source_deck": 1,
+      "source_layer": 3,
+      "source_column": 1,
+      "name": "Gradient Bars",
+      "layer": 5,
+      "column": 65,
+      "imported_name": "FM \u00b7 Gradient Bars [2.4.2]"
+    },
+    {
+      "source_deck": 1,
+      "source_layer": 4,
+      "source_column": 1,
+      "name": "Gradient",
+      "layer": 3,
+      "column": 100,
+      "imported_name": "FM \u00b7 Gradient [2.5.2]"
+    },
+    {
+      "source_deck": 1,
+      "source_layer": 5,
+      "source_column": 1,
+      "name": "SP State Test",
+      "layer": 5,
+      "column": 66,
+      "imported_name": "FM \u00b7 SP State Test [2.6.2]"
+    },
+    {
+      "source_deck": 1,
+      "source_layer": 6,
+      "source_column": 1,
+      "name": "Lines",
+      "layer": 6,
+      "column": 62,
+      "imported_name": "FM \u00b7 Lines [2.7.2]"
+    },
+    {
+      "source_deck": 1,
+      "source_layer": 7,
+      "source_column": 1,
+      "name": "Lines",
+      "layer": 8,
+      "column": 16,
+      "imported_name": "FM \u00b7 Lines [2.8.2]"
+    },
+    {
+      "source_deck": 1,
+      "source_layer": 0,
+      "source_column": 2,
+      "name": "Lines",
+      "layer": 3,
+      "column": 101,
+      "imported_name": "FM \u00b7 Lines [2.1.3]"
+    },
+    {
+      "source_deck": 1,
+      "source_layer": 1,
+      "source_column": 2,
+      "name": "Rings",
+      "layer": 3,
+      "column": 102,
+      "imported_name": "FM \u00b7 Rings [2.2.3]"
+    },
+    {
+      "source_deck": 1,
+      "source_layer": 2,
+      "source_column": 2,
+      "name": "Spiral",
+      "layer": 3,
+      "column": 103,
+      "imported_name": "FM \u00b7 Spiral [2.3.3]"
+    },
+    {
+      "source_deck": 1,
+      "source_layer": 3,
+      "source_column": 2,
+      "name": "Shaper",
+      "layer": 5,
+      "column": 67,
+      "imported_name": "FM \u00b7 Shaper [2.4.3]"
+    },
+    {
+      "source_deck": 1,
+      "source_layer": 4,
+      "source_column": 2,
+      "name": "Checkered",
+      "layer": 3,
+      "column": 104,
+      "imported_name": "FM \u00b7 Checkered [2.5.3]"
+    },
+    {
+      "source_deck": 1,
+      "source_layer": 5,
+      "source_column": 2,
+      "name": "Rings",
+      "layer": 5,
+      "column": 68,
+      "imported_name": "FM \u00b7 Rings [2.6.3]"
+    },
+    {
+      "source_deck": 1,
+      "source_layer": 6,
+      "source_column": 2,
+      "name": "Sine Wave",
+      "layer": 6,
+      "column": 63,
+      "imported_name": "FM \u00b7 Sine Wave [2.7.3]"
+    },
+    {
+      "source_deck": 1,
+      "source_layer": 7,
+      "source_column": 2,
+      "name": "Checkered",
+      "layer": 8,
+      "column": 17,
+      "imported_name": "FM \u00b7 Checkered [2.8.3]"
+    },
+    {
+      "source_deck": 1,
+      "source_layer": 0,
+      "source_column": 3,
+      "name": "Sine Wave",
+      "layer": 3,
+      "column": 105,
+      "imported_name": "FM \u00b7 Sine Wave [2.1.4]"
+    },
+    {
+      "source_deck": 1,
+      "source_layer": 1,
+      "source_column": 3,
+      "name": "Static",
+      "layer": 3,
+      "column": 106,
+      "imported_name": "FM \u00b7 Static [2.2.4]"
+    },
+    {
+      "source_deck": 1,
+      "source_layer": 2,
+      "source_column": 3,
+      "name": "Checkered",
+      "layer": 3,
+      "column": 107,
+      "imported_name": "FM \u00b7 Checkered [2.3.4]"
+    },
+    {
+      "source_deck": 1,
+      "source_layer": 3,
+      "source_column": 3,
+      "name": "Tunnelines",
+      "layer": 5,
+      "column": 69,
+      "imported_name": "FM \u00b7 Tunnelines [2.4.4]"
+    },
+    {
+      "source_deck": 1,
+      "source_layer": 4,
+      "source_column": 3,
+      "name": "Spiral",
+      "layer": 3,
+      "column": 108,
+      "imported_name": "FM \u00b7 Spiral [2.5.4]"
+    },
+    {
+      "source_deck": 1,
+      "source_layer": 5,
+      "source_column": 3,
+      "name": "Metaballs",
+      "layer": 5,
+      "column": 70,
+      "imported_name": "FM \u00b7 Metaballs [2.6.4]"
+    },
+    {
+      "source_deck": 1,
+      "source_layer": 6,
+      "source_column": 3,
+      "name": "Gradient Bars",
+      "layer": 6,
+      "column": 64,
+      "imported_name": "FM \u00b7 Gradient Bars [2.7.4]"
+    },
+    {
+      "source_deck": 1,
+      "source_layer": 7,
+      "source_column": 3,
+      "name": "Spiral",
+      "layer": 8,
+      "column": 18,
+      "imported_name": "FM \u00b7 Spiral [2.8.4]"
+    }
+  ],
+  "rack": [
+    {
+      "from": 3,
+      "to": 0,
+      "effect": "InvertRGB",
+      "reused_existing": false
+    },
+    {
+      "from": 3,
+      "to": 0,
+      "effect": "Blur",
+      "reused_existing": false
+    },
+    {
+      "from": 3,
+      "to": 0,
+      "effect": "Sharpen",
+      "reused_existing": false
+    },
+    {
+      "from": 3,
+      "to": 0,
+      "effect": "Kaleidoscope",
+      "reused_existing": false
+    },
+    {
+      "from": 3,
+      "to": 0,
+      "effect": "Mirror",
+      "reused_existing": false
+    },
+    {
+      "from": 3,
+      "to": 0,
+      "effect": "Mirror",
+      "reused_existing": false
+    },
+    {
+      "from": 3,
+      "to": 0,
+      "effect": "Mirror",
+      "reused_existing": false
+    },
+    {
+      "from": 3,
+      "to": 0,
+      "effect": "Mirror",
+      "reused_existing": false
+    },
+    {
+      "from": 0,
+      "to": 1,
+      "effect": "InvertRGB",
+      "reused_existing": false
+    },
+    {
+      "from": 0,
+      "to": 1,
+      "effect": "HueRotate",
+      "reused_existing": false
+    },
+    {
+      "from": 1,
+      "to": 1,
+      "effect": "InvertRGB",
+      "reused_existing": false
+    },
+    {
+      "from": 1,
+      "to": 1,
+      "effect": "DelayRGB",
+      "reused_existing": false
+    },
+    {
+      "from": 1,
+      "to": 1,
+      "effect": "AutoMask",
+      "reused_existing": false
+    },
+    {
+      "from": 4,
+      "to": 2,
+      "effect": "Twisted",
+      "reused_existing": false
+    },
+    {
+      "from": 4,
+      "to": 2,
+      "effect": "Twisted",
+      "reused_existing": false
+    },
+    {
+      "from": 4,
+      "to": 2,
+      "effect": "Suckr",
+      "reused_existing": false
+    },
+    {
+      "from": 4,
+      "to": 2,
+      "effect": "FishEye",
+      "reused_existing": false
+    },
+    {
+      "from": 2,
+      "to": 3,
+      "effect": "InvertRGB",
+      "reused_existing": false
+    },
+    {
+      "from": 2,
+      "to": 3,
+      "effect": "AutoMask",
+      "reused_existing": false
+    },
+    {
+      "from": 5,
+      "to": 4,
+      "effect": "TwitchEffect",
+      "reused_existing": false
+    },
+    {
+      "from": 5,
+      "to": 4,
+      "effect": "mtk_lut_corrupt",
+      "reused_existing": false
+    },
+    {
+      "from": 5,
+      "to": 4,
+      "effect": "RadialCloner",
+      "reused_existing": false
+    },
+    {
+      "from": 5,
+      "to": 4,
+      "effect": "LinearCloner",
+      "reused_existing": true
+    },
+    {
+      "from": 5,
+      "to": 4,
+      "effect": "Iterate",
+      "reused_existing": false
+    },
+    {
+      "from": 5,
+      "to": 4,
+      "effect": "Mirror",
+      "reused_existing": true
+    },
+    {
+      "from": 5,
+      "to": 4,
+      "effect": "Mirror",
+      "reused_existing": false
+    },
+    {
+      "from": 5,
+      "to": 4,
+      "effect": "Mirror",
+      "reused_existing": false
+    },
+    {
+      "from": 5,
+      "to": 4,
+      "effect": "MTK_Gradient_Shadow",
+      "reused_existing": false
+    },
+    {
+      "from": 5,
+      "to": 4,
+      "effect": "Displace",
+      "reused_existing": false
+    },
+    {
+      "from": 5,
+      "to": 4,
+      "effect": "Distortion",
+      "reused_existing": false
+    },
+    {
+      "from": 5,
+      "to": 4,
+      "effect": "ASCII",
+      "reused_existing": false
+    },
+    {
+      "from": 5,
+      "to": 4,
+      "effect": "InfiniteZoom",
+      "reused_existing": false
+    },
+    {
+      "from": 5,
+      "to": 4,
+      "effect": "LoRezEffect",
+      "reused_existing": false
+    },
+    {
+      "from": 6,
+      "to": 5,
+      "effect": "MTK_Gradient_Shadow",
+      "reused_existing": false
+    },
+    {
+      "from": 6,
+      "to": 5,
+      "effect": "Goo",
+      "reused_existing": false
+    },
+    {
+      "from": "composition",
+      "to": "composition",
+      "effect": "MTK_STROKE_VOLT",
+      "reused_existing": false
+    },
+    {
+      "from": "composition",
+      "to": "composition",
+      "effect": "MTK_PXLMELT",
+      "reused_existing": false
+    },
+    {
+      "from": "composition",
+      "to": "composition",
+      "effect": "HueRotate",
+      "reused_existing": false
+    },
+    {
+      "from": "composition",
+      "to": "composition",
+      "effect": "mtk_lut_corrupt",
+      "reused_existing": false
+    },
+    {
+      "from": "composition",
+      "to": "composition",
+      "effect": "ColourLoop",
+      "reused_existing": false
+    },
+    {
+      "from": "composition",
+      "to": "composition",
+      "effect": "TwitchEffect",
+      "reused_existing": false
+    },
+    {
+      "from": "composition",
+      "to": "composition",
+      "effect": "MTK_STROKEDIFFUSE",
+      "reused_existing": false
+    },
+    {
+      "from": "composition",
+      "to": "composition",
+      "effect": "Strobe",
+      "reused_existing": false
+    }
+  ],
+  "columns": 108,
+  "limits": [
+    "New persistent effects bypassed; existing effect settings preserved.",
+    "Native feedback sources sample the composition; Soup shader-owned history retains its existing semantics.",
+    "Reference transport automation and clip effects retained; custom Heart Homes are not fabricated."
+  ]
+}

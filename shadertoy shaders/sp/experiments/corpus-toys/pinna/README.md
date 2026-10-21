@@ -1,0 +1,9 @@
+# Heart Pinna Brelstaff Figure
+
+Ready shader and .sp.json; provenance in manifest.json. No texture dependencies. Tilt=24/45 (.5333333), Contrast=1, both Drive off, noncyclic shape1. Tilt maps0–45deg; Contrast maps55–100% of original tile contrast so Open cannot wash tiles completely away. Density fixed21/30 to avoid popping.
+
+Invariant: angular tile centers are fixed on radii.22/.37 with opposite tile tilt signs; no independent ring phase or real rotation. Retains alternating ink/paper tiles and opposing outlines. Geometry uniformly reduced by.8; opaque neutral circular plate radius.36 short-side preserves background around both rings. Register source radius=.36*shortSide+1pixel including AA. At1.15× plate radius remains~.414 short-side; existing external guard must constrain greater scale/placement. No local XY, size, zoom or spin.
+
+Suggested Open: keep Tilt at24deg and Contrast1 stationary; animate ONLY existing external Figure Transform uniform Scale (e.g91–109%, source default zoom60% implies±9%). Tilt-to-zero is deliberate proof; optional slow Tilt modulation is an artistic variation that physically reorients tiles, not the pure breathing demonstration. Source code itself moves ring centers radially while leaving individual square sizes fixed; external uniform scaling also scales squares/plate, an explicit adaptation approved for shared Transform ownership. Fixation cross stays centered. Do not claim apparent counterrotation from a static sample.
+
+Actual offscreen OpenGL compilation and three480×480 samples passed; glslang1/1. Tilt0 and Contrast0 both change real image pixels while alpha plate remains fixed (evidence/validation.json). Contact sheet in evidence/contact-sheet.jpg. No native Wire/Arena or external Scale integration test by builder. Root owns that acceptance. Original record is thin corpus intake; source mechanism preserved without new scientific claims.

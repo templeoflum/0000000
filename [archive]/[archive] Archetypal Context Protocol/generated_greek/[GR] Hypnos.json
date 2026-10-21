@@ -1,0 +1,157 @@
+{
+  "SchemaVersion": "1.1-ter",
+  "ArchetypeName": "Hypnos",
+  "SystemOfOrigin": "GR",
+  "CulturalLineage": [
+    "Greek"
+  ],
+  "CommonAliases": [
+    "Sleep",
+    "Somnus",
+    "Slumber",
+    "Lord of Dreams"
+  ],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "To embody sleep, rest, and the threshold between waking and dreaming; to provide respite and regeneration.",
+    "PrimaryDomain": "Mythic / Natural",
+    "ToneOrPolarity": "Restful / Regenerative",
+    "SymbolicCore": "The gentle darkness of sleep, brother to death, father of dreams.",
+    "Correspondences": {
+      "Element": "Water",
+      "Planet": "Moon",
+      "Chakra": "Third Eye",
+      "Color": "Indigo, Midnight Blue",
+      "Animal": "Owl, Bat",
+      "Other": [
+        "Poppy",
+        "River Lethe",
+        "Horn of Sleep",
+        "Pillow",
+        "Wings"
+      ]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": [
+      "Sleep Bringer",
+      "Rest Giver",
+      "Dream Father",
+      "Regenerator"
+    ],
+    "ComplementaryArchetypes": [
+      "Thanatos ([GR] Brother/Death)",
+      "Morpheus ([GR] Son/Dreams)",
+      "Nyx ([GR] Mother)"
+    ],
+    "ShadowForms": [
+      "Eternal Slumber",
+      "Escapist Sleep",
+      "Drugged Unconsciousness"
+    ],
+    "DevelopmentalArc": [],
+    "CyclePhase": "Rest / Regeneration"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": [
+      "Soothing",
+      "Restful",
+      "Gentle",
+      "Regenerative",
+      "Dreamlike",
+      "Restorative"
+    ],
+    "Typologies": {
+      "MBTI": "INFP",
+      "Enneagram": "9w1",
+      "Other": [
+        "Innocent",
+        "Caregiver",
+        "Healer"
+      ]
+    },
+    "SubVariants": [
+      "Gentle Sleep",
+      "Dream Gateway",
+      "Rest Bringer"
+    ],
+    "InternalFamily": "Inner Rest"
+  },
+  "CulturalContext": {
+    "Regions": [
+      "Greece"
+    ],
+    "MythicAppearances": [
+      "Hesiod's Theogony",
+      "Iliad (puts Zeus to sleep)",
+      "Father of Morpheus and dream gods"
+    ],
+    "ReligiousOrRitualUse": "Invoked for sleep and rest; associated with healing temples of Asclepius; offerings of poppies and milk.",
+    "HistoricalEvolution": "Ancient sleep deity; twin of Thanatos; dwelling in underworld near Lethe; merged with Roman Somnus.",
+    "SyncreticForms": [
+      "Somnus (Roman)",
+      "Morpheus (often confused)"
+    ]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "🌙",
+    "ImageryNotes": "Depicted as gentle winged youth, sometimes winged at temples; touching mortals with magic wand or pouring from horn; surrounded by poppies.",
+    "ArtisticExamples": [
+      "Waterhouse's 'Sleep and his Half-Brother Death'",
+      "Greek vase paintings",
+      "Renaissance dream allegories"
+    ],
+    "PoeticInvocation": "Sweet Hypnos, gentle brother, who brings rest to gods and mortals alike.",
+    "DreamForm": "Soft wings brushing your eyelids as consciousness gently fades into renewal"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": [
+      "JP12.Innocent",
+      "Tarot.The_Star",
+      "JU.Restoration"
+    ],
+    "SemanticTags": [
+      "#sleep",
+      "#rest",
+      "#dreams",
+      "#regeneration",
+      "#peace"
+    ],
+    "RitualFunction": "Invoked for restful sleep, healing dreams, and regeneration of body and spirit.",
+    "AIPromptSeeds": [
+      "The gentle god who brings rest even to the king of gods.",
+      "Sleep personified, the necessary darkness that renews all things."
+    ],
+    "NarrativeHooks": [
+      "The character who cannot sleep or rest",
+      "Sleep as escape vs regeneration",
+      "The threshold between waking and dreaming"
+    ]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [
+      {
+        "to": "Somnus (Roman)",
+        "strength": "strong"
+      },
+      {
+        "to": "JP12.Innocent",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "FacetRegistry": [
+    {
+      "facet": "Sleep Bringer",
+      "weight": 0.5
+    },
+    {
+      "facet": "Dream Father",
+      "weight": 0.3
+    },
+    {
+      "facet": "Restorer",
+      "weight": 0.2
+    }
+  ]
+}

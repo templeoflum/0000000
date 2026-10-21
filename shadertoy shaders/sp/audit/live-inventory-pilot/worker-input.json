@@ -1,0 +1,103 @@
+[
+  {
+    "id": "fixture-1",
+    "source_controls": [
+      "rate",
+      "loops",
+      "radius",
+      "roto",
+      "turbulance"
+    ],
+    "source_numeric": 5,
+    "effects": [
+      {
+        "name": "Transform",
+        "controls": [
+          "Position X",
+          "Position Y",
+          "Scale",
+          "Scale W",
+          "Scale H",
+          "Rotation X",
+          "Rotation Y",
+          "Rotation Z",
+          "Anchor X",
+          "Anchor Y",
+          "Anchor Z"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fixture-2",
+    "source_controls": [
+      "Speed",
+      "Zoom",
+      "Brightness",
+      "Wave Count"
+    ],
+    "source_numeric": 4,
+    "effects": [
+      {
+        "name": "Transform",
+        "controls": [
+          "Position X",
+          "Position Y",
+          "Scale",
+          "Scale W",
+          "Scale H",
+          "Rotation X",
+          "Rotation Y",
+          "Rotation Z",
+          "Anchor X",
+          "Anchor Y",
+          "Anchor Z"
+        ]
+      },
+      {
+        "name": "Auto Mask",
+        "controls": [
+          "Opacity",
+          "Channel",
+          "Contrast",
+          "Invert"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fixture-3",
+    "source_controls": [
+      "gradient power",
+      "balance",
+      "speed",
+      "offset",
+      "use odd directions",
+      "columns",
+      "x iterations",
+      "invert speed",
+      "use columns",
+      "phase iterations",
+      "easing type"
+    ],
+    "source_numeric": 10,
+    "effects": [
+      {
+        "name": "Transform",
+        "controls": [
+          "Position X",
+          "Position Y",
+          "Scale",
+          "Scale W",
+          "Scale H",
+          "Rotation X",
+          "Rotation Y",
+          "Rotation Z",
+          "Anchor X",
+          "Anchor Y",
+          "Anchor Z"
+        ]
+      }
+    ]
+  }
+]

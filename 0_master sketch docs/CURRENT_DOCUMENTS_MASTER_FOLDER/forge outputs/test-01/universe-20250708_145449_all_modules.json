@@ -1,0 +1,285 @@
+{
+  "finedetail": {
+    "cultureDetails": [
+      {
+        "cultureStratumRef": "Chrono-Weavers",
+        "foodways": [
+          {
+            "name": "Iteration-Stew",
+            "occasion": "daily",
+            "keyIngredients": [
+              "Bloom-root",
+              "Chronocrystal Shavings",
+              "Temporal Herbs"
+            ],
+            "sensoryMotifs": [
+              "shifting-emerald broth",
+              "Temporal-Shimmering Chimes"
+            ]
+          },
+          {
+            "name": "Bloom-nectar Wine",
+            "occasion": "festival",
+            "keyIngredients": [
+              "Fermented Bloom-petals",
+              "Sparkling Chronocrystal Dust"
+            ],
+            "sensoryMotifs": [
+              "bloom-pink hue",
+              "Overripe Bloomscent"
+            ]
+          }
+        ],
+        "idiomShards": [
+          {
+            "phrase": "Weave the tick, save the tale.",
+            "meaning": "Preserve history through careful action in the present."
+          },
+          {
+            "phrase": "Thread the severance.",
+            "meaning": "Navigate chaotic situations with precision."
+          }
+        ],
+        "microRituals": [
+          {
+            "name": "Thread-Tethering",
+            "trigger": "farewell",
+            "symbolicLink": "Continuity through iteration",
+            "sensoryMotifs": [
+              "Temporal-Shimmering Chimes"
+            ]
+          },
+          {
+            "name": "Loom-Touch",
+            "trigger": "threshold",
+            "symbolicLink": "Respect for the Unwoven Loom",
+            "sensoryMotifs": [
+              "shifting-emerald"
+            ]
+          }
+        ],
+        "folkArtForms": [
+          {
+            "type": "Chronoweaving Tapestry",
+            "motif": "Bloom-Iterated Timelines",
+            "sensoryMotifs": [
+              "shifting-emerald",
+              "bloom-pink"
+            ]
+          },
+          {
+            "type": "Temporal-Lattice Knotwork",
+            "motif": "Interwoven Destinies",
+            "sensoryMotifs": [
+              "Temporal-Shimmering Chimes"
+            ]
+          }
+        ],
+        "symbolicArtifacts": [
+          {
+            "item": "Iteration-Spindle",
+            "significance": "Tool for mapping alternate timelines",
+            "materialOrigin": "Chronocrystal-infused wood",
+            "sensoryMotifs": [
+              "Temporal-Shimmering Chimes"
+            ]
+          },
+          {
+            "item": "Bloom-petal Brooch",
+            "significance": "Symbol of ongoing renewal",
+            "materialOrigin": "Bloomdrift Bloom",
+            "sensoryMotifs": [
+              "bloom-pink"
+            ]
+          }
+        ]
+      },
+      {
+        "cultureStratumRef": "Residuum-Scribes",
+        "foodways": [
+          {
+            "name": "Scarp-Dust Cakes",
+            "occasion": "daily",
+            "keyIngredients": [
+              "Residuum Flour",
+              "Erosion-root",
+              "Temporal Dust"
+            ],
+            "sensoryMotifs": [
+              "Erosion-Grey",
+              "Scraping whispers"
+            ]
+          },
+          {
+            "name": "Fracture-sap Brew",
+            "occasion": "lifecycle",
+            "keyIngredients": [
+              "Petrified-wood sap",
+              "Shard-filtered water"
+            ],
+            "sensoryMotifs": [
+              "Shard-Black",
+              "Temporal Dust"
+            ]
+          }
+        ],
+        "idiomShards": [
+          {
+            "phrase": "Each shard a story, every crack a path.",
+            "meaning": "Value the remnants of the past and learn from their decay."
+          },
+          {
+            "phrase": "Dust whispers truth.",
+            "meaning": "The smallest traces can reveal profound secrets."
+          }
+        ],
+        "microRituals": [
+          {
+            "name": "Dust-Tracing",
+            "trigger": "greeting",
+            "symbolicLink": "Acknowledgement of shared history",
+            "sensoryMotifs": [
+              "Erosion-Grey"
+            ]
+          },
+          {
+            "name": "Shard-Grave Vigil",
+            "trigger": "farewell",
+            "symbolicLink": "Respect for temporal severance",
+            "sensoryMotifs": [
+              "Scraping whispers"
+            ]
+          }
+        ],
+        "folkArtForms": [
+          {
+            "type": "Petrified-wood Carving",
+            "motif": "Fracture-rune Spirals",
+            "sensoryMotifs": [
+              "Erosion-Grey",
+              "Shard-Black"
+            ]
+          },
+          {
+            "type": "Residuum-Shard Mosaic",
+            "motif": "Shattered Timelines Reconstructed",
+            "sensoryMotifs": [
+              "Shard-Black"
+            ]
+          }
+        ],
+        "symbolicArtifacts": [
+          {
+            "item": "Fracture-Rune Amulet",
+            "significance": "Protection against temporal erosion",
+            "materialOrigin": "Residuum Shard",
+            "sensoryMotifs": [
+              "Shard-Black"
+            ]
+          },
+          {
+            "item": "Petrified-wood Quill",
+            "significance": "Tool for preserving fragmented knowledge",
+            "materialOrigin": "Chronal Scarp Petrification",
+            "sensoryMotifs": [
+              "Erosion-Grey"
+            ]
+          }
+        ]
+      },
+      {
+        "cultureStratumRef": "Memoric-Echo Keepers",
+        "foodways": [
+          {
+            "name": "Echo-root Soup",
+            "occasion": "daily",
+            "keyIngredients": [
+              "Memoric-root",
+              "Plainsong Herbs",
+              "Whisper-salt"
+            ],
+            "sensoryMotifs": [
+              "Memory-Violet",
+              "Echoing Harmonies"
+            ]
+          },
+          {
+            "name": "Memory-Fruit Preserves",
+            "occasion": "festival",
+            "keyIngredients": [
+              "Echoing-Plains Fruit",
+              "Forgotten Spices"
+            ],
+            "sensoryMotifs": [
+              "Whisper-White",
+              "Forgotten-Spice Winds"
+            ]
+          }
+        ],
+        "idiomShards": [
+          {
+            "phrase": "Listen to the wind, recall the way.",
+            "meaning": "Guidance can be found in the echoes of the past."
+          },
+          {
+            "phrase": "Silence holds echoes too.",
+            "meaning": "Even in stillness, memories linger."
+          }
+        ],
+        "microRituals": [
+          {
+            "name": "Plainsong Greeting",
+            "trigger": "greeting",
+            "symbolicLink": "Harmonic connection",
+            "sensoryMotifs": [
+              "Echoing Harmonies"
+            ]
+          },
+          {
+            "name": "Echo-Stone Touch",
+            "trigger": "threshold",
+            "symbolicLink": "Resonance with past events",
+            "sensoryMotifs": [
+              "Memory-Violet"
+            ]
+          }
+        ],
+        "folkArtForms": [
+          {
+            "type": "Crystalline Sound Sculpture",
+            "motif": "Memoriaflux Cascade",
+            "sensoryMotifs": [
+              "Whisper-White",
+              "Echoing Harmonies"
+            ]
+          },
+          {
+            "type": "Wind-Whisper Banner Weaving",
+            "motif": "Echoes of Lost Voices",
+            "sensoryMotifs": [
+              "Memory-Violet"
+            ]
+          }
+        ],
+        "symbolicArtifacts": [
+          {
+            "item": "Resonance Amulet",
+            "significance": "Amplifies Memoric Resonance",
+            "materialOrigin": "Memoric Ore Crystal",
+            "sensoryMotifs": [
+              "Echoing Harmonies"
+            ]
+          },
+          {
+            "item": "Plainsong Flute",
+            "significance": "Tool for memory manipulation",
+            "materialOrigin": "Crystalline Memory Steppe Reeds",
+            "sensoryMotifs": [
+              "Whisper-White"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

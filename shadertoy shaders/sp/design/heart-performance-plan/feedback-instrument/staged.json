@@ -1,0 +1,485 @@
+{
+  "layer": 1,
+  "col": 6,
+  "effect": [
+    {
+      "id": 1788814543744,
+      "is_user_removable": false,
+      "name": "Transform",
+      "display_name": "Transform",
+      "mixer": null,
+      "params": {
+        "Position X": {
+          "id": 1788814543836,
+          "valuetype": "ParamRange",
+          "min": -16384.0,
+          "max": 16384.0,
+          "in": -16384.0,
+          "out": 16384.0,
+          "value": 0.0,
+          "view": {
+            "suffix": "",
+            "step": 1.0,
+            "display_units": "real",
+            "control_type": "spinner"
+          }
+        },
+        "Position Y": {
+          "id": 1788814543837,
+          "valuetype": "ParamRange",
+          "min": -16384.0,
+          "max": 16384.0,
+          "in": -16384.0,
+          "out": 16384.0,
+          "value": 0.0,
+          "view": {
+            "suffix": "",
+            "step": 1.0,
+            "display_units": "real",
+            "control_type": "spinner"
+          }
+        },
+        "Scale": {
+          "id": 1788814543833,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1000.0,
+          "in": 0.0,
+          "out": 1000.0,
+          "value": 100.0,
+          "view": {
+            "suffix": " %",
+            "step": 1.0,
+            "multiplier": 1.0,
+            "display_units": "percent",
+            "control_type": "slider"
+          }
+        },
+        "Scale W": {
+          "id": 1788814543834,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1000.0,
+          "in": 0.0,
+          "out": 1000.0,
+          "value": 100.0,
+          "view": {
+            "suffix": " %",
+            "step": 1.0,
+            "multiplier": 1.0,
+            "display_units": "percent",
+            "control_type": "slider"
+          }
+        },
+        "Scale H": {
+          "id": 1788814543835,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1000.0,
+          "in": 0.0,
+          "out": 1000.0,
+          "value": 100.0,
+          "view": {
+            "suffix": " %",
+            "step": 1.0,
+            "multiplier": 1.0,
+            "display_units": "percent",
+            "control_type": "slider"
+          }
+        },
+        "Rotation X": {
+          "id": 1788814543838,
+          "valuetype": "ParamRange",
+          "min": -180.0,
+          "max": 180.0,
+          "in": -180.0,
+          "out": 180.0,
+          "value": 0.0,
+          "view": {
+            "suffix": " \u00b0",
+            "step": 1.0,
+            "display_units": "degrees",
+            "control_type": "slider"
+          }
+        },
+        "Rotation Y": {
+          "id": 1788814543839,
+          "valuetype": "ParamRange",
+          "min": -180.0,
+          "max": 180.0,
+          "in": -180.0,
+          "out": 180.0,
+          "value": 0.0,
+          "view": {
+            "suffix": " \u00b0",
+            "step": 1.0,
+            "display_units": "degrees",
+            "control_type": "slider"
+          }
+        },
+        "Rotation Z": {
+          "id": 1788814543840,
+          "valuetype": "ParamRange",
+          "min": -180.0,
+          "max": 180.0,
+          "in": -180.0,
+          "out": 180.0,
+          "value": 0.0,
+          "view": {
+            "suffix": " \u00b0",
+            "step": 1.0,
+            "display_units": "degrees",
+            "control_type": "slider"
+          }
+        },
+        "Anchor X": {
+          "id": 1788814543841,
+          "valuetype": "ParamRange",
+          "min": -8192.0,
+          "max": 8192.0,
+          "in": -8192.0,
+          "out": 8192.0,
+          "value": 0.0,
+          "view": {
+            "suffix": "",
+            "step": 1.0,
+            "control_type": "slider"
+          }
+        },
+        "Anchor Y": {
+          "id": 1788814543842,
+          "valuetype": "ParamRange",
+          "min": -8192.0,
+          "max": 8192.0,
+          "in": -8192.0,
+          "out": 8192.0,
+          "value": 0.0,
+          "view": {
+            "suffix": "",
+            "step": 1.0,
+            "control_type": "slider"
+          }
+        },
+        "Anchor Z": {
+          "id": 1788814543843,
+          "valuetype": "ParamRange",
+          "min": -8192.0,
+          "max": 8192.0,
+          "in": -8192.0,
+          "out": 8192.0,
+          "value": 0.0,
+          "view": {
+            "suffix": "",
+            "step": 1.0,
+            "control_type": "slider"
+          }
+        }
+      }
+    },
+    {
+      "id": 1788814545059,
+      "is_user_removable": true,
+      "name": "SPHeartFeedback",
+      "display_name": "SP Heart Feedback",
+      "bypassed": {
+        "valuetype": "ParamBoolean",
+        "id": 1788814545058,
+        "value": false
+      },
+      "mixer": {
+        "Blend Mode": {
+          "id": 1788814545062,
+          "valuetype": "ParamChoice",
+          "value": "Alpha",
+          "index": 1,
+          "options": [
+            "Add",
+            "Alpha",
+            "B&W",
+            "Burn",
+            "Cube",
+            "Cut",
+            "Darken",
+            "Difference",
+            "Difference I",
+            "Displace",
+            "Dissolve",
+            "Dodge",
+            "Exclusion",
+            "Hard Light",
+            "JitterBug",
+            "Lighten",
+            "LoRez",
+            "Luma Is Alpha",
+            "Luma Key",
+            "Luma Key I",
+            "Meta Mix",
+            "Multiply",
+            "Multi Task",
+            "Noisy",
+            "Overlay",
+            "Parts",
+            "PiP",
+            "Push Down",
+            "Push Left",
+            "Push Right",
+            "Push Up",
+            "RGB",
+            "Rotate X",
+            "Rotate Y",
+            "Screen",
+            "Shift RGB",
+            "Side by Side",
+            "Soft Light",
+            "Static",
+            "Subtract",
+            "Tile",
+            "TimeSwitcher",
+            "to Black",
+            "to Color",
+            "to White",
+            "Twitch",
+            "Video Bumper",
+            "Wipe Ellipse",
+            "Zoom In",
+            "Zoom Out"
+          ],
+          "view": {
+            "suffix": "",
+            "control_type": "choice_combobox"
+          }
+        }
+      },
+      "params": {
+        "Opacity": {
+          "id": 1788814545061,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 1.0,
+          "view": {
+            "suffix": " %",
+            "multiplier": 100.0,
+            "display_units": "percent",
+            "control_type": "slider_color_opacity"
+          }
+        },
+        "Zoom": {
+          "id": 1788814545041,
+          "valuetype": "ParamRange",
+          "min": 0.800000011920929,
+          "max": 1.2000000476837158,
+          "in": 0.800000011920929,
+          "out": 1.2000000476837158,
+          "value": 1.0,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "Rotate": {
+          "id": 1788814545042,
+          "valuetype": "ParamRange",
+          "min": -30.0,
+          "max": 30.0,
+          "in": -30.0,
+          "out": 30.0,
+          "value": 0.0,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "Drift X": {
+          "id": 1788814545043,
+          "valuetype": "ParamRange",
+          "min": -0.019999999552965164,
+          "max": 0.019999999552965164,
+          "in": -0.019999999552965164,
+          "out": 0.019999999552965164,
+          "value": 0.0,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "Drift Y": {
+          "id": 1788814545044,
+          "valuetype": "ParamRange",
+          "min": -0.019999999552965164,
+          "max": 0.019999999552965164,
+          "in": -0.019999999552965164,
+          "out": 0.019999999552965164,
+          "value": 0.0,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "Center X": {
+          "id": 1788814545045,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 0.5,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "Center Y": {
+          "id": 1788814545046,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 0.5,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "Gain": {
+          "id": 1788814545047,
+          "valuetype": "ParamRange",
+          "min": 0.800000011920929,
+          "max": 1.0,
+          "in": 0.800000011920929,
+          "out": 1.0,
+          "value": 0.9700000286102295,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "Floor": {
+          "id": 1788814545048,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 0.10000000149011612,
+          "in": 0.0,
+          "out": 0.10000000149011612,
+          "value": 0.0,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "Key": {
+          "id": 1788814545049,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 0.5,
+          "in": 0.0,
+          "out": 0.5,
+          "value": 0.0,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "Loop Hue": {
+          "id": 1788814545050,
+          "valuetype": "ParamRange",
+          "min": -10.0,
+          "max": 10.0,
+          "in": -10.0,
+          "out": 10.0,
+          "value": 0.0,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "Loop Invert": {
+          "id": 1788814545051,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 0.0,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "Loop Fold": {
+          "id": 1788814545052,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 0.0,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "Loop Detail": {
+          "id": 1788814545053,
+          "valuetype": "ParamRange",
+          "min": -1.0,
+          "max": 1.0,
+          "in": -1.0,
+          "out": 1.0,
+          "value": 0.0,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "Red Decay": {
+          "id": 1788814545054,
+          "valuetype": "ParamRange",
+          "min": 0.800000011920929,
+          "max": 1.0,
+          "in": 0.800000011920929,
+          "out": 1.0,
+          "value": 1.0,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "Green Decay": {
+          "id": 1788814545055,
+          "valuetype": "ParamRange",
+          "min": 0.800000011920929,
+          "max": 1.0,
+          "in": 0.800000011920929,
+          "out": 1.0,
+          "value": 1.0,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "Blue Decay": {
+          "id": 1788814545056,
+          "valuetype": "ParamRange",
+          "min": 0.800000011920929,
+          "max": 1.0,
+          "in": 0.800000011920929,
+          "out": 1.0,
+          "value": 1.0,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "Clear History": {
+          "valuetype": "ParamBoolean",
+          "id": 1788814545057,
+          "value": false
+        }
+      }
+    }
+  ]
+}

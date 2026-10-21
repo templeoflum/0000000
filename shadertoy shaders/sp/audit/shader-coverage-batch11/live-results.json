@@ -1,0 +1,893 @@
+[
+  {
+    "layer": 3,
+    "col": 1,
+    "source": "SP Atom Ground",
+    "controls": [
+      "Tilt",
+      "Sway",
+      "Bob",
+      "Travel",
+      "Horizon",
+      "Yaw",
+      "Dolly",
+      "Focal mm",
+      "Distort",
+      "Scale",
+      "Gap",
+      "Seam",
+      "Bands",
+      "Sun",
+      "Height",
+      "Relief",
+      "Haze",
+      "Soft"
+    ],
+    "discovered": [
+      "Tilt",
+      "Sway",
+      "Bob",
+      "Travel",
+      "Horizon",
+      "Yaw",
+      "Dolly",
+      "Focal mm",
+      "Lens",
+      "Distort",
+      "Scale",
+      "Gap",
+      "Seam",
+      "Bands",
+      "Sun",
+      "Height",
+      "Relief",
+      "Haze",
+      "Soft"
+    ],
+    "probe": "Scale",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.5722008631472363,
+      0.5903196908506168,
+      0.6174871102934293,
+      0.649682352695182
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 3,
+    "col": 2,
+    "source": "SP Atom Room",
+    "controls": [
+      "Tilt",
+      "Sway",
+      "Bob",
+      "Travel",
+      "Horizon",
+      "Yaw",
+      "Dolly",
+      "Focal mm",
+      "Distort",
+      "Left",
+      "Right",
+      "Floor",
+      "Ceiling",
+      "Back",
+      "Front",
+      "Scale",
+      "Gap",
+      "Seam",
+      "Bands",
+      "Sun",
+      "Height",
+      "Relief",
+      "Haze",
+      "Soft"
+    ],
+    "discovered": [
+      "Tilt",
+      "Sway",
+      "Bob",
+      "Travel",
+      "Horizon",
+      "Yaw",
+      "Dolly",
+      "Focal mm",
+      "Lens",
+      "Distort",
+      "Left",
+      "Right",
+      "Floor",
+      "Ceiling",
+      "Back",
+      "Front",
+      "Scale",
+      "Gap",
+      "Seam",
+      "Bands",
+      "Sun",
+      "Height",
+      "Relief",
+      "Haze",
+      "Soft"
+    ],
+    "probe": "Scale",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.7350945202328892,
+      0.7437196555694365,
+      0.720087740262869,
+      0.6582477089636259
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 3,
+    "col": 3,
+    "source": "SP Atom Void",
+    "controls": [
+      "Tilt",
+      "Sway",
+      "Bob",
+      "Travel",
+      "Horizon",
+      "Yaw",
+      "Dolly",
+      "Focal mm",
+      "Distort",
+      "Density",
+      "Size",
+      "Reach",
+      "Haze",
+      "Soft"
+    ],
+    "discovered": [
+      "Tilt",
+      "Sway",
+      "Bob",
+      "Travel",
+      "Horizon",
+      "Yaw",
+      "Dolly",
+      "Focal mm",
+      "Lens",
+      "Distort",
+      "Density",
+      "Size",
+      "Reach",
+      "Haze",
+      "Soft"
+    ],
+    "probe": "Density",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.004778098514010428,
+      0.04385136097286373,
+      0.15944263756390376,
+      0.33478520739731454
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 3,
+    "col": 8,
+    "source": "SP Field",
+    "controls": [
+      "Heart Rate (turns/s)",
+      "Depth",
+      "FM",
+      "Scale",
+      "Scale Mult",
+      "Scale Offset",
+      "Scale Lo",
+      "Scale Hi",
+      "Drift",
+      "Drift Mult",
+      "Drift Offset",
+      "Drift Lo",
+      "Drift Hi",
+      "Contrast",
+      "Contrast Mult",
+      "Contrast Offset",
+      "Contrast Lo",
+      "Contrast Hi",
+      "Level",
+      "Level Mult",
+      "Level Offset",
+      "Level Lo",
+      "Level Hi"
+    ],
+    "discovered": [
+      "Scale",
+      "Drift",
+      "Contrast",
+      "Level"
+    ],
+    "probe": "Scale",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.6657911052525277,
+      0.5474078091189817,
+      0.4504146847814845,
+      0.40333094253953006
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 3,
+    "col": 92,
+    "source": "Gentle Rings SP",
+    "controls": [
+      "Heart Rate (turns/s)",
+      "Depth",
+      "FM",
+      "Ring",
+      "Ring Mult",
+      "Ring Offset",
+      "Ring Lo",
+      "Ring Hi",
+      "Hue",
+      "Hue Mult",
+      "Hue Offset",
+      "Hue Lo",
+      "Hue Hi",
+      "Swirl",
+      "Swirl Mult",
+      "Swirl Offset",
+      "Swirl Lo",
+      "Swirl Hi",
+      "Scroll",
+      "Scroll Mult",
+      "Scroll Offset",
+      "Scroll Lo",
+      "Scroll Hi"
+    ],
+    "discovered": [
+      "Ring",
+      "Hue",
+      "Swirl",
+      "Scroll"
+    ],
+    "probe": "Ring",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.5407829828299255,
+      0.496414048661099,
+      0.4552080795552876,
+      0.4484738151649525
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 3,
+    "col": 94,
+    "source": "Color Wheel",
+    "controls": [
+      "rotate",
+      "multiply",
+      "sharpen",
+      "invert",
+      "warp",
+      "radius",
+      "x",
+      "y"
+    ],
+    "discovered": [
+      "rotate",
+      "multiply",
+      "sharpen",
+      "invert",
+      "warp",
+      "radius",
+      "x",
+      "y"
+    ],
+    "probe": "warp",
+    "checks": [
+      {
+        "requested": -2.0,
+        "observed": -2.0,
+        "ok": true
+      },
+      {
+        "requested": 2.0,
+        "observed": 2.0,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.4417316968278211,
+      -0.5970735976591444,
+      -1.4245203351984381,
+      -1.752284468574266
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 3,
+    "col": 95,
+    "source": "Sine Wave",
+    "controls": [
+      "Waves",
+      "Line Width",
+      "Fuzzyness",
+      "Frequency",
+      "Main Speed",
+      "Modulator",
+      "Modulation Depth",
+      "Modulator Speed",
+      "Amplitude",
+      "Position"
+    ],
+    "discovered": [
+      "Waves",
+      "Mode",
+      "Line Width",
+      "Fuzzyness",
+      "Direction",
+      "Frequency",
+      "Main Speed",
+      "Modulator",
+      "Modulation Depth",
+      "Modulator Speed",
+      "Amplitude",
+      "Position"
+    ],
+    "probe": "Amplitude",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.19057624983815483,
+      0.16890755013044542,
+      0.1815191939074879,
+      0.23628984418629892
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 3,
+    "col": 96,
+    "source": "Gentle Rings SP",
+    "controls": [
+      "Heart Rate (turns/s)",
+      "Depth",
+      "FM",
+      "Ring",
+      "Ring Mult",
+      "Ring Offset",
+      "Ring Lo",
+      "Ring Hi",
+      "Hue",
+      "Hue Mult",
+      "Hue Offset",
+      "Hue Lo",
+      "Hue Hi",
+      "Swirl",
+      "Swirl Mult",
+      "Swirl Offset",
+      "Swirl Lo",
+      "Swirl Hi",
+      "Scroll",
+      "Scroll Mult",
+      "Scroll Offset",
+      "Scroll Lo",
+      "Scroll Hi"
+    ],
+    "discovered": [
+      "Ring",
+      "Hue",
+      "Swirl",
+      "Scroll"
+    ],
+    "probe": "Ring",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.6571801030984579,
+      0.5698644782587032,
+      0.46249902757902994,
+      0.4130955040419936
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 3,
+    "col": 97,
+    "source": "Checkered",
+    "controls": [
+      "Num X",
+      "Num Y"
+    ],
+    "discovered": [
+      "Num X",
+      "Num Y"
+    ],
+    "probe": "Num X",
+    "checks": [
+      {
+        "requested": 8.0,
+        "observed": 8.0,
+        "ok": true
+      },
+      {
+        "requested": 32.0,
+        "observed": 32.0,
+        "ok": true
+      }
+    ],
+    "samples": [
+      33.037809090055205,
+      109.73443215588505,
+      355.5641614187577,
+      657.7435867471476
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 3,
+    "col": 98,
+    "source": "Spiral",
+    "controls": [
+      "Spread Even",
+      "Detail",
+      "Speed",
+      "Zoom",
+      "Leafs",
+      "Distortion",
+      "Fuzzyness",
+      "Ramification",
+      "Button Size",
+      "Button Fuzzyness"
+    ],
+    "discovered": [
+      "Direction",
+      "Control Mode",
+      "Spread Even",
+      "Detail",
+      "Speed",
+      "Zoom",
+      "Leafs",
+      "Distortion",
+      "Fuzzyness",
+      "Ramification",
+      "Button Size",
+      "Button Fuzzyness"
+    ],
+    "probe": "Distortion",
+    "checks": [
+      {
+        "requested": 30.0,
+        "observed": 30.0,
+        "ok": true
+      },
+      {
+        "requested": 70.0,
+        "observed": 70.0,
+        "ok": true
+      }
+    ],
+    "samples": [
+      1.031257108389021,
+      3.073527963652054,
+      9.839796203929536,
+      20.556230931069827
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 3,
+    "col": 99,
+    "source": "Lines",
+    "controls": [
+      "Fuzzyness",
+      "Amount",
+      "Width",
+      "Rotation",
+      "Position"
+    ],
+    "discovered": [
+      "Fuzzyness",
+      "Amount",
+      "Width",
+      "Rotation",
+      "Position"
+    ],
+    "probe": "Width",
+    "checks": [
+      {
+        "requested": 0.6,
+        "observed": 0.6,
+        "ok": true
+      },
+      {
+        "requested": 1.4,
+        "observed": 1.4,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.2848266560947151,
+      0.26421012170941294,
+      0.31013980303914745,
+      0.4437464567897962
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 3,
+    "col": 101,
+    "source": "Lines",
+    "controls": [
+      "Fuzzyness",
+      "Amount",
+      "Width",
+      "Rotation",
+      "Position"
+    ],
+    "discovered": [
+      "Fuzzyness",
+      "Amount",
+      "Width",
+      "Rotation",
+      "Position"
+    ],
+    "probe": "Width",
+    "checks": [
+      {
+        "requested": 0.6,
+        "observed": 0.6,
+        "ok": true
+      },
+      {
+        "requested": 1.4,
+        "observed": 1.4,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.285588990505022,
+      0.26422875016559183,
+      0.3141969159149966,
+      0.4493121797357953
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 3,
+    "col": 102,
+    "source": "Rings",
+    "controls": [
+      "Num Rings",
+      "Size",
+      "Spacing",
+      "Line Width",
+      "Gap",
+      "Rotation",
+      "Rotation Step"
+    ],
+    "discovered": [
+      "Num Rings",
+      "Size",
+      "Spacing",
+      "Line Width",
+      "Style",
+      "Gap",
+      "Rotation",
+      "Rotation Step"
+    ],
+    "probe": "Spacing",
+    "checks": [
+      {
+        "requested": 0.97,
+        "observed": 0.97,
+        "ok": true
+      },
+      {
+        "requested": 2.13,
+        "observed": 2.13,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.29135923710234385,
+      0.31246719685629193,
+      0.4502654370236667,
+      0.7080855911807336
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 3,
+    "col": 103,
+    "source": "Spiral",
+    "controls": [
+      "Spread Even",
+      "Detail",
+      "Speed",
+      "Zoom",
+      "Leafs",
+      "Distortion",
+      "Fuzzyness",
+      "Ramification",
+      "Button Size",
+      "Button Fuzzyness"
+    ],
+    "discovered": [
+      "Direction",
+      "Control Mode",
+      "Spread Even",
+      "Detail",
+      "Speed",
+      "Zoom",
+      "Leafs",
+      "Distortion",
+      "Fuzzyness",
+      "Ramification",
+      "Button Size",
+      "Button Fuzzyness"
+    ],
+    "probe": "Distortion",
+    "checks": [
+      {
+        "requested": 30.0,
+        "observed": 30.0,
+        "ok": true
+      },
+      {
+        "requested": 70.0,
+        "observed": 70.0,
+        "ok": true
+      }
+    ],
+    "samples": [
+      1.0485171752996765,
+      3.1340931911551433,
+      10.00647637950298,
+      20.187722042467612
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 3,
+    "col": 104,
+    "source": "Checkered",
+    "controls": [
+      "Num X",
+      "Num Y"
+    ],
+    "discovered": [
+      "Num X",
+      "Num Y"
+    ],
+    "probe": "Num X",
+    "checks": [
+      {
+        "requested": 8.0,
+        "observed": 8.0,
+        "ok": true
+      },
+      {
+        "requested": 32.0,
+        "observed": 32.0,
+        "ok": true
+      }
+    ],
+    "samples": [
+      32.33477644806861,
+      94.741320601322,
+      360.43362635841385,
+      656.2039114035686
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 3,
+    "col": 105,
+    "source": "Sine Wave",
+    "controls": [
+      "Waves",
+      "Line Width",
+      "Fuzzyness",
+      "Frequency",
+      "Main Speed",
+      "Modulator",
+      "Modulation Depth",
+      "Modulator Speed",
+      "Amplitude",
+      "Position"
+    ],
+    "discovered": [
+      "Waves",
+      "Mode",
+      "Line Width",
+      "Fuzzyness",
+      "Direction",
+      "Frequency",
+      "Main Speed",
+      "Modulator",
+      "Modulation Depth",
+      "Modulator Speed",
+      "Amplitude",
+      "Position"
+    ],
+    "probe": "Amplitude",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.190282321142259,
+      0.16951715282819607,
+      0.1823504336789529,
+      0.2388932876840015
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 3,
+    "col": 107,
+    "source": "Checkered",
+    "controls": [
+      "Num X",
+      "Num Y"
+    ],
+    "discovered": [
+      "Num X",
+      "Num Y"
+    ],
+    "probe": "Num X",
+    "checks": [
+      {
+        "requested": 8.0,
+        "observed": 8.0,
+        "ok": true
+      },
+      {
+        "requested": 32.0,
+        "observed": 32.0,
+        "ok": true
+      }
+    ],
+    "samples": [
+      33.1403603821875,
+      98.3119688392973,
+      343.8994737260892,
+      652.8202087012025
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 3,
+    "col": 108,
+    "source": "Spiral",
+    "controls": [
+      "Spread Even",
+      "Detail",
+      "Speed",
+      "Zoom",
+      "Leafs",
+      "Distortion",
+      "Fuzzyness",
+      "Ramification",
+      "Button Size",
+      "Button Fuzzyness"
+    ],
+    "discovered": [
+      "Direction",
+      "Control Mode",
+      "Spread Even",
+      "Detail",
+      "Speed",
+      "Zoom",
+      "Leafs",
+      "Distortion",
+      "Fuzzyness",
+      "Ramification",
+      "Button Size",
+      "Button Fuzzyness"
+    ],
+    "probe": "Distortion",
+    "checks": [
+      {
+        "requested": 30.0,
+        "observed": 30.0,
+        "ok": true
+      },
+      {
+        "requested": 70.0,
+        "observed": 70.0,
+        "ok": true
+      }
+    ],
+    "samples": [
+      1.0340234651304288,
+      2.456172585109744,
+      8.90317599586265,
+      19.235126034339668
+    ],
+    "drive_varied": true
+  }
+]

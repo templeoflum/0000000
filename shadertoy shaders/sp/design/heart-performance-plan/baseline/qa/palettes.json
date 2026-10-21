@@ -1,0 +1,1327 @@
+{
+ "nes": {
+  "name": "NES / Famicom",
+  "resolution": [
+   256,
+   240
+  ],
+  "resolution_note": "256x240 rendered; NTSC TVs show ~256x224 (8 lines cropped top/bottom)",
+  "palette_kind": "fixed",
+  "palette": [
+   "7C7C7C",
+   "0000FC",
+   "0000BC",
+   "4428BC",
+   "940084",
+   "A80020",
+   "A81000",
+   "881400",
+   "503000",
+   "007800",
+   "006800",
+   "005800",
+   "004058",
+   "000000",
+   "000000",
+   "000000",
+   "BCBCBC",
+   "0078F8",
+   "0058F8",
+   "6844FC",
+   "D800CC",
+   "E40058",
+   "F83800",
+   "E45C10",
+   "AC7C00",
+   "00B800",
+   "00A800",
+   "00A844",
+   "008888",
+   "000000",
+   "000000",
+   "000000",
+   "F8F8F8",
+   "3CBCFC",
+   "6888FC",
+   "9878F8",
+   "F878F8",
+   "F85898",
+   "F87858",
+   "FCA044",
+   "F8B800",
+   "B8F818",
+   "58D854",
+   "58F898",
+   "00E8D8",
+   "787878",
+   "000000",
+   "000000",
+   "FCFCFC",
+   "A4E4FC",
+   "B8B8F8",
+   "D8B8F8",
+   "F8B8F8",
+   "F8A4C0",
+   "F0D0B0",
+   "FCE0A8",
+   "F8D878",
+   "D8F878",
+   "B8F8B8",
+   "B8F8D8",
+   "00FCFC",
+   "F8D8F8",
+   "000000",
+   "000000"
+  ],
+  "palette_note": "64 entries in PPU index order $00-$3F, 'classic' FCEUX/Nestopia-style 2C02 NTSC palette (the same 55-value set Lospec publishes as 'NES'). $0D/$0E/$0F/$1D-$1F/$2E/$2F/$3E/$3F are blacks ($0D is 'blacker than black', avoid) -> 54 distinct usable colors. No single canonical 2C02 RGB set exists; NesDev publishes signal-derived alternatives.",
+  "onscreen": 25,
+  "onscreen_note": "4 BG palettes x 3 colors + 1 shared backdrop = 13 BG colors, plus 4 sprite palettes x 3 = 12 -> 25 on screen; each 16x16 px BG block limited to one 4-color palette (attribute table)",
+  "dither_note": "Checkerboard/stipple dithering inside a tile using the 3 palette colors + backdrop; color count limited per 16x16 attribute block (attribute clash), so artists rely on palette choice more than dither. Composite NTSC blending also blurs adjacent columns."
+ },
+ "gameboy_dmg": {
+  "name": "Game Boy (DMG) - mono green",
+  "resolution": [
+   160,
+   144
+  ],
+  "palette_kind": "fixed",
+  "palette": [
+   "0F380F",
+   "306230",
+   "8BAC0F",
+   "9BBC0F"
+  ],
+  "mono_shades": [
+   "0F380F",
+   "306230",
+   "8BAC0F",
+   "9BBC0F"
+  ],
+  "shades_note": "Classic widely used DMG set (darkest->lightest). Alternates: Wikipedia 'List of video game console palettes' 294139/39594A/5A7942/7B8210; BGB emulator 081820/346856/88C070/E0F8D0; SameBoy DMG 081810/396139/84A563/C6DE8C.",
+  "onscreen": 4,
+  "dither_note": "2-bit greenscale: checkerboard/stipple dithering between the 4 shades is common (e.g. faux mid-tones, transparency via alternating-frame flicker exploiting LCD ghosting). BGP/OBP0/OBP1 remap the 4 shades per layer."
+ },
+ "gameboy_pocket": {
+  "name": "Game Boy Pocket (MGB) - mono gray",
+  "resolution": [
+   160,
+   144
+  ],
+  "palette_kind": "fixed",
+  "palette": [
+   "181818",
+   "4A5138",
+   "8C926B",
+   "C5CAA4"
+  ],
+  "mono_shades": [
+   "181818",
+   "4A5138",
+   "8C926B",
+   "C5CAA4"
+  ],
+  "shades_note": "Wikipedia 'List of video game console palettes' Pocket set (darkest->lightest). Alternates: SameBoy MGB (olive) 07100E/3A4C3A/818D66/C2CE93; pure 2-bit grayscale 000000/555555/AAAAAA/FFFFFF (Lospec '2-bit grayscale' uses 000000/676767/B6B6B6/FFFFFF); Lospec 'PocketGB' (photographed) 4E3F2A/605444/887B6A/AEA691.",
+  "onscreen": 4,
+  "dither_note": "Same as DMG: 2-bit checkerboard/stipple dithering; FSTN LCD shows true gray so dithers read cleaner than on the DMG."
+ },
+ "gameboy_light": {
+  "name": "Game Boy Light (MGB-101) - mono warm/backlit",
+  "resolution": [
+   160,
+   144
+  ],
+  "palette_kind": "fixed",
+  "palette": [
+   "004F3A",
+   "00694A",
+   "009A70",
+   "00B582"
+  ],
+  "mono_shades": [
+   "004F3A",
+   "00694A",
+   "009A70",
+   "00B582"
+  ],
+  "shades_note": "Wikipedia 'List of video game console palettes' Game Boy Light (backlit) set: the EL backlight gives a teal/blue-green glow (Bulbapedia: 'light cyan, cyan, dark cyan, black'). Alternate: SameBoy GB_PALETTE_GBL 0A1C15/357862/56B495/7FE2C3. With backlight off it looks like the Pocket gray set.",
+  "onscreen": 4,
+  "dither_note": "Same 2-bit dithering as DMG/Pocket."
+ },
+ "virtual_boy": {
+  "name": "Virtual Boy - mono red",
+  "resolution": [
+   384,
+   224
+  ],
+  "palette_kind": "fixed",
+  "palette": [
+   "000000",
+   "550000",
+   "A40000",
+   "EF0000"
+  ],
+  "mono_shades": [
+   "000000",
+   "550000",
+   "A40000",
+   "EF0000"
+  ],
+  "shades_note": "Black + 3 red LED intensities (2-bit). Lospec 'Virtual Boy' (sampled from screenshots): 000000/550000/A40000/EF0000. Alternate linear set used by Mednafen/most emulators: 000000/550000/AA0000/FF0000. Hardware brightness registers (BRTA/BRTB/BRTC) are programmable so the 3 red levels vary per game.",
+  "onscreen": 4,
+  "dither_note": "2-bit red: checkerboard dithering between brightness levels; per-column LED scanning means fine vertical patterns are common. Games also use 'gradient' effects via per-frame brightness changes."
+ },
+ "gameboy_color": {
+  "name": "Game Boy Color (classic 16)",
+  "resolution": [
+   160,
+   144
+  ],
+  "palette_kind": "fixed",
+  "bits": [
+   5,
+   5,
+   5
+  ],
+  "total_colors": 32768,
+  "onscreen": 56,
+  "onscreen_note": "8 BG palettes x 4 + 8 OBJ palettes x 3 = 56 without tricks (Wikipedia). DMG games in compatibility mode: 4 BG + 2x3 OBJ = up to 10.",
+  "default_dmg_compat_palette": {
+   "bg": [
+    "FFFFFF",
+    "7BFF31",
+    "0063C5",
+    "000000"
+   ],
+   "obj0": [
+    "FFFFFF",
+    "FF8484",
+    "943A3A",
+    "000000"
+   ],
+   "obj1": [
+    "FFFFFF",
+    "FF8484",
+    "943A3A",
+    "000000"
+   ],
+   "note": "'Dark green' default used for unrecognized mono cartridges (also Right+A). Decoded from the CGB boot ROM palette table (SameBoy cgb_boot.asm), 5-bit->8-bit round(v*255/31)."
+  },
+  "button_palettes_bg": {
+   "Up (brown)": [
+    "FFFFFF",
+    "FFAD63",
+    "843100",
+    "000000"
+   ],
+   "Down (pastel)": [
+    "FFFFA5",
+    "FF9494",
+    "9494FF",
+    "000000"
+   ],
+   "Left (blue)": [
+    "FFFFFF",
+    "63A5FF",
+    "0000FF",
+    "000000"
+   ],
+   "Right (green)": [
+    "FFFFFF",
+    "52FF00",
+    "FF4200",
+    "000000"
+   ],
+   "Up+A (red)": [
+    "FFFFFF",
+    "FF8484",
+    "943A3A",
+    "000000"
+   ],
+   "Down+A (orange)": [
+    "FFFFFF",
+    "FFFF00",
+    "FF0000",
+    "000000"
+   ],
+   "Left+A (dark blue)": [
+    "FFFFFF",
+    "8C8CDE",
+    "52528C",
+    "000000"
+   ],
+   "Right+A (dark green, default)": [
+    "FFFFFF",
+    "7BFF31",
+    "0063C5",
+    "000000"
+   ],
+   "Up+B (dark brown)": [
+    "FFE6C5",
+    "CE9C84",
+    "846B29",
+    "5A3108"
+   ],
+   "Down+B (yellow)": [
+    "FFFFFF",
+    "FFFF00",
+    "7B4A00",
+    "000000"
+   ],
+   "Left+B (grayscale)": [
+    "FFFFFF",
+    "A5A5A5",
+    "525252",
+    "000000"
+   ],
+   "Right+B (inverted)": [
+    "000000",
+    "008484",
+    "FFDE00",
+    "FFFFFF"
+   ]
+  },
+  "suggested_16": [
+   "000000",
+   "FFFFFF",
+   "7BFF31",
+   "0063C5",
+   "FF8484",
+   "943A3A",
+   "FFAD63",
+   "843100",
+   "52FF00",
+   "FF4200",
+   "63A5FF",
+   "0000FF",
+   "FFFF00",
+   "FF0000",
+   "A5A5A5",
+   "525252"
+  ],
+  "suggested_16_note": "'Classic 16' is not a hardware term; this is a derived 16-color union of the default + most-used built-in DMG-compat palettes (BG colors) - use it if the plugin means a 16-entry look, otherwise quantize to 5-5-5 with 56 colors.",
+  "dither_note": "Little dithering needed: 4 colors per 8x8 tile palette (attribute per tile), 15-bit RGB. Artists blend by picking per-tile palettes; occasional checkerboard inside tiles. LCD has muted saturation - emulators apply 'color correction'.",
+  "palette": [
+   "000000",
+   "FFFFFF",
+   "7BFF31",
+   "0063C5",
+   "FF8484",
+   "943A3A",
+   "FFAD63",
+   "843100",
+   "52FF00",
+   "FF4200",
+   "63A5FF",
+   "0000FF",
+   "FFFF00",
+   "FF0000",
+   "A5A5A5",
+   "525252"
+  ]
+ },
+ "c64": {
+  "name": "Commodore 64",
+  "resolution": [
+   320,
+   200
+  ],
+  "resolution_note": "Hires 320x200 (2 colors per 8x8 cell); Multicolor 160x200 (double-wide px, 4 colors per 4x8 cell). Overscan area 403x284 PAL not drawable.",
+  "palette_kind": "fixed",
+  "palette": [
+   "000000",
+   "FFFFFF",
+   "68372B",
+   "70A4B2",
+   "6F3D86",
+   "588D43",
+   "352879",
+   "B8C76F",
+   "6F4F25",
+   "433900",
+   "9A6759",
+   "444444",
+   "6C6C6C",
+   "9AD284",
+   "6C5EB5",
+   "959595"
+  ],
+  "palette_names": [
+   "black",
+   "white",
+   "red",
+   "cyan",
+   "purple",
+   "green",
+   "blue",
+   "yellow",
+   "orange",
+   "brown",
+   "light red",
+   "dark gray",
+   "gray",
+   "light green",
+   "light blue",
+   "light gray"
+  ],
+  "palette_note": "Chosen: Pepto (2001, PAL) palette in VIC-II index order 0-15 - the most widely cited set and the classic VICE default. Alternate 'Colodore' (Pepto 2015 recalculation, now VICE/Lospec default): 000000 FFFFFF 813338 75CEC8 8E3C97 56AC4D 2E2C9B EDF171 8E5029 553800 C46C71 4A4A4A 7B7B7B A9FF9F 706DEB B2B2B2.",
+  "onscreen": 16,
+  "dither_note": "Attribute clash: hires = 2 colors per 8x8 cell; multicolor = 3 free + 1 global background per 4x8 cell of 2:1 wide pixels. Typical dithering is horizontal/vertical stipple (checkerboard reads badly with 2:1 pixels) and 'PAL blending' of adjacent same-luma colors; Koala/IFLI use interlace/flicker to mix colors."
+ },
+ "atari_2600": {
+  "name": "Atari 2600",
+  "resolution": [
+   160,
+   192
+  ],
+  "resolution_note": "160 color clocks wide (playfield 40 blocks of 4 px), ~192 visible NTSC lines (up to 262 total); pixel aspect ~1.6:1",
+  "palette_kind": "fixed",
+  "total_colors": 128,
+  "palette_structure": "NTSC: 16 hues x 8 luminances = 128 colors (byte = hhhhllll, luma in bits 1-3); PAL: 104 usable (13 hues x 8); SECAM: 8. Too many to list (>64): use a TIA NTSC palette table (Stella emulator default, or Lospec 'Atari 2600').",
+  "onscreen": 128,
+  "onscreen_note": "Only 4 color registers (background, playfield/ball, player0/missile0, player1/missile1) per scanline, but all can be rewritten every scanline ('racing the beam'), so whole palette can appear per frame.",
+  "dither_note": "No pixel dithering in the usual sense: color changes per scanline (raster bars/gradients) are the idiom; horizontal stripes and 'venetian blind' line alternation; flicker (alternate frames) to multiplex sprites and mix colors.",
+  "palette": [
+   "000000",
+   "4F4F4F",
+   "9E9E9E",
+   "EDEDED",
+   "542C06",
+   "BC620F",
+   "F09A4B",
+   "F8D4B3",
+   "544906",
+   "BCA40F",
+   "F0D94B",
+   "F8EFB3",
+   "425406",
+   "93BC0F",
+   "C8F04B",
+   "E8F8B3",
+   "245406",
+   "51BC0F",
+   "8AF04B",
+   "CDF8B3",
+   "065406",
+   "0FBC0F",
+   "4BF04B",
+   "B3F8B3",
+   "065424",
+   "0FBC51",
+   "4BF08A",
+   "B3F8CD",
+   "065442",
+   "0FBC93",
+   "4BF0C8",
+   "B3F8E8",
+   "064954",
+   "0FA4BC",
+   "4BD9F0",
+   "B3EFF8",
+   "062C54",
+   "0F62BC",
+   "4B9AF0",
+   "B3D4F8",
+   "060E54",
+   "0F20BC",
+   "4B5CF0",
+   "B3BAF8",
+   "1C0654",
+   "3F0FBC",
+   "794BF0",
+   "C6B3F8",
+   "3A0654",
+   "810FBC",
+   "B84BF0",
+   "E1B3F8",
+   "540651",
+   "BC0FB5",
+   "F04BE9",
+   "F8B3F6",
+   "540634",
+   "BC0F73",
+   "F04BAB",
+   "F8B3DB",
+   "540616",
+   "BC0F31",
+   "F04B6C",
+   "F8B3C1"
+  ],
+  "palette_note": "APPROXIMATION: TIA 16 hues x 4 of 8 lumas synthesised in HLS (no canonical table); replace with a Stella NTSC table when wanted"
+ },
+ "zx_spectrum": {
+  "name": "ZX Spectrum",
+  "resolution": [
+   256,
+   192
+  ],
+  "palette_kind": "fixed",
+  "palette": [
+   "000000",
+   "0000D7",
+   "D70000",
+   "D700D7",
+   "00D700",
+   "00D7D7",
+   "D7D700",
+   "D7D7D7",
+   "000000",
+   "0000FF",
+   "FF0000",
+   "FF00FF",
+   "00FF00",
+   "00FFFF",
+   "FFFF00",
+   "FFFFFF"
+  ],
+  "palette_names": [
+   "black",
+   "blue",
+   "red",
+   "magenta",
+   "green",
+   "cyan",
+   "yellow",
+   "white",
+   "bright black",
+   "bright blue",
+   "bright red",
+   "bright magenta",
+   "bright green",
+   "bright cyan",
+   "bright yellow",
+   "bright white"
+  ],
+  "palette_note": "Wikipedia 'ZX Spectrum' / 8-bit list values (basic level 0xD7=215, bright 0xFF); 15 distinct colors since basic black = bright black. Variants: Lospec uses D8 (85% voltage), some emulators CD (205).",
+  "onscreen": 15,
+  "dither_note": "Attribute clash: each 8x8 cell has 1 INK + 1 PAPER from the same BRIGHT level (BRIGHT/FLASH per cell). Dithering = checkerboard/stipple between ink and paper within a cell to fake a third tone; artists align art to the 8x8 attribute grid."
+ },
+ "pico8": {
+  "name": "PICO-8",
+  "resolution": [
+   128,
+   128
+  ],
+  "palette_kind": "fixed",
+  "palette": [
+   "000000",
+   "1D2B53",
+   "7E2553",
+   "008751",
+   "AB5236",
+   "5F574F",
+   "C2C3C7",
+   "FFF1E8",
+   "FF004D",
+   "FFA300",
+   "FFEC27",
+   "00E436",
+   "29ADFF",
+   "83769C",
+   "FF77A8",
+   "FFCCAA"
+  ],
+  "palette_names": [
+   "black",
+   "dark blue",
+   "dark purple",
+   "dark green",
+   "brown",
+   "dark gray",
+   "light gray",
+   "white",
+   "red",
+   "orange",
+   "yellow",
+   "green",
+   "blue",
+   "lavender/indigo",
+   "pink",
+   "light peach"
+  ],
+  "palette_note": "Official 16 (indices 0-15). A second 'secret' set (128-143) exists: 291814 111D35 422136 125359 742F29 49333B A28879 F3EF7D BE1250 FF6C24 A8E72E 00B543 065AB5 754665 FF6E59 FF9D81.",
+  "onscreen": 16,
+  "dither_note": "Free per-pixel color (no attributes), so classic checkerboard and 'fillp' 4x4 fill patterns between two palette colors are the norm; palette swaps (pal()) for shading."
+ },
+ "ega16": {
+  "name": "IBM PC EGA (16)",
+  "resolution": [
+   320,
+   200
+  ],
+  "resolution_note": "320x200 16-color (mode 0Dh) most common for games; also 640x200 and 640x350 16-color",
+  "palette_kind": "fixed",
+  "palette": [
+   "000000",
+   "0000AA",
+   "00AA00",
+   "00AAAA",
+   "AA0000",
+   "AA00AA",
+   "AA5500",
+   "AAAAAA",
+   "555555",
+   "5555FF",
+   "55FF55",
+   "55FFFF",
+   "FF5555",
+   "FF55FF",
+   "FFFF55",
+   "FFFFFF"
+  ],
+  "palette_names": [
+   "black",
+   "blue",
+   "green",
+   "cyan",
+   "red",
+   "magenta",
+   "brown",
+   "light gray",
+   "dark gray",
+   "light blue",
+   "light green",
+   "light cyan",
+   "light red",
+   "light magenta",
+   "yellow",
+   "white"
+  ],
+  "palette_note": "Default 16 (identical to CGA RGBI colors); EGA can remap each of the 16 to any of 64 (2 bits per channel, levels 00/55/AA/FF) in 350-line modes.",
+  "onscreen": 16,
+  "total_colors": 64,
+  "dither_note": "Free per-pixel, 16 colors: heavy checkerboard/ordered dithering to fake more shades (Sierra/LucasArts EGA look); artists also exploit the 64-color re-palette on 640x350."
+ },
+ "master_system": {
+  "name": "Sega Master System",
+  "resolution": [
+   256,
+   192
+  ],
+  "palette_kind": "rgb_bits",
+  "bits": [
+   2,
+   2,
+   2
+  ],
+  "total_colors": 64,
+  "onscreen": 32,
+  "onscreen_note": "2 palettes of 16 (BG, sprites); BG tiles may use either; 31 + backdrop",
+  "palette": [
+   "000000",
+   "550000",
+   "AA0000",
+   "FF0000",
+   "005500",
+   "555500",
+   "AA5500",
+   "FF5500",
+   "00AA00",
+   "55AA00",
+   "AAAA00",
+   "FFAA00",
+   "00FF00",
+   "55FF00",
+   "AAFF00",
+   "FFFF00",
+   "000055",
+   "550055",
+   "AA0055",
+   "FF0055",
+   "005555",
+   "555555",
+   "AA5555",
+   "FF5555",
+   "00AA55",
+   "55AA55",
+   "AAAA55",
+   "FFAA55",
+   "00FF55",
+   "55FF55",
+   "AAFF55",
+   "FFFF55",
+   "0000AA",
+   "5500AA",
+   "AA00AA",
+   "FF00AA",
+   "0055AA",
+   "5555AA",
+   "AA55AA",
+   "FF55AA",
+   "00AAAA",
+   "55AAAA",
+   "AAAAAA",
+   "FFAAAA",
+   "00FFAA",
+   "55FFAA",
+   "AAFFAA",
+   "FFFFAA",
+   "0000FF",
+   "5500FF",
+   "AA00FF",
+   "FF00FF",
+   "0055FF",
+   "5555FF",
+   "AA55FF",
+   "FF55FF",
+   "00AAFF",
+   "55AAFF",
+   "AAAAFF",
+   "FFAAFF",
+   "00FFFF",
+   "55FFFF",
+   "AAFFFF",
+   "FFFFFF"
+  ],
+  "palette_note": "All 64 colors listed in CRAM byte order (--BBGGRR), levels 00/55/AA/FF.",
+  "dither_note": "Coarse 2-bit-per-channel steps, so checkerboard and vertical-line dither between neighbouring levels are common; composite output blends them. 8x8 tile picks one of 2 palettes."
+ },
+ "snes": {
+  "name": "SNES / Super Famicom (subset)",
+  "resolution": [
+   256,
+   224
+  ],
+  "resolution_note": "256x224 standard; 256x239 PAL, 512x224/512x448 hi-res modes rare",
+  "palette_kind": "rgb_bits",
+  "bits": [
+   5,
+   5,
+   5
+  ],
+  "total_colors": 32768,
+  "onscreen": 256,
+  "onscreen_note": "256-entry CGRAM: 8 BG palettes x 16 (mode 1) + 8 sprite palettes x 16; mode 7 uses all 256; direct-color 2048",
+  "dither_note": "Rarely needed - 15-bit RGB with 16 colors per tile; ordered/checkerboard dither used mainly in mode-7 ground textures and pseudo-transparency (alternating pixel columns blend on composite); color math (half-add) handles transparency."
+ },
+ "amiga_ocs": {
+  "name": "Amiga OCS/ECS",
+  "resolution": [
+   320,
+   256
+  ],
+  "resolution_note": "PAL lo-res 320x256 (NTSC 320x200); hi-res 640x256/512; interlace doubles vertical",
+  "palette_kind": "rgb_bits",
+  "bits": [
+   4,
+   4,
+   4
+  ],
+  "total_colors": 4096,
+  "onscreen": 32,
+  "onscreen_note": "32 in lo-res (5 bitplanes); 64 in Extra-Half-Brite; 4096 in HAM6; Copper can change palette per scanline",
+  "dither_note": "Ordered (Bayer) dithering and hand checkerboards very common in Amiga art/demos; 'copper gradients' for skies; HAM/EHB tricks; 16-color hi-res games often dither heavily."
+ },
+ "apple_ii": {
+  "name": "Apple II (6-color hi-res)",
+  "resolution": [
+   280,
+   192
+  ],
+  "resolution_note": "280x192 monochrome bitmap; effective color resolution 140x192 (color = pair of pixels); lo-res 40x48 16 colors",
+  "palette_kind": "fixed",
+  "palette": [
+   "000000",
+   "CE2DFF",
+   "31D200",
+   "FF5600",
+   "00A9FF",
+   "FFFFFF"
+  ],
+  "palette_names": [
+   "black",
+   "purple/violet",
+   "green",
+   "orange",
+   "blue",
+   "white"
+  ],
+  "palette_note": "Wikipedia 'Apple II graphics' YIQ-derived sRGB (purple=lo-res 3, green=12, orange=9, blue=6). Common emulator alternate (AppleWin-style): purple FF44FD, green 14F53C, orange FF6A3C, blue 14CFFD.",
+  "onscreen": 6,
+  "dither_note": "NTSC artifact color: hue depends on pixel column parity (even=purple/blue, odd=green/orange) and the per-byte high bit (palette shift), so every 7-pixel byte is either the purple/green or blue/orange pair; adjacent lit pixels turn white. Dithering = alternating columns to mix hues; 'color fringing' on edges."
+ },
+ "apple_iigs": {
+  "name": "Apple IIgs",
+  "resolution": [
+   320,
+   200
+  ],
+  "resolution_note": "Super Hi-Res 320x200 16 colors/line (or 640x200 4 colors + dither)",
+  "palette_kind": "rgb_bits",
+  "bits": [
+   4,
+   4,
+   4
+  ],
+  "total_colors": 4096,
+  "onscreen": 16,
+  "onscreen_note": "16 colors per scanline from 16 stored palettes -> up to 256 on screen; 3200-color mode via per-line palette loading",
+  "dither_note": "640 mode uses hardware 'fill/dither' (alternating even/odd pixel palettes blend to fake 16 colors); 320 mode uses ordered dither and per-scanline palette swaps."
+ },
+ "game_gear": {
+  "name": "Sega Game Gear",
+  "resolution": [
+   160,
+   144
+  ],
+  "palette_kind": "rgb_bits",
+  "bits": [
+   4,
+   4,
+   4
+  ],
+  "total_colors": 4096,
+  "onscreen": 32,
+  "onscreen_note": "2 palettes x 16 (BG, sprite)",
+  "dither_note": "Same VDP as Master System; 12-bit color reduces need for dither, but 16 colors per tile group leads to checkerboard shading; the blurry LCD smears fine dithers into gradients."
+ },
+ "msx": {
+  "name": "MSX (MSX1 / TMS9918, 16)",
+  "resolution": [
+   256,
+   192
+  ],
+  "palette_kind": "fixed",
+  "palette": [
+   "000000",
+   "000000",
+   "40B74A",
+   "75CF7E",
+   "5955DE",
+   "4097EF",
+   "B85F51",
+   "66DBEE",
+   "D9665A",
+   "FD8A7E",
+   "CCC360",
+   "DED088",
+   "3BA142",
+   "B667B4",
+   "CCCCCC",
+   "FFFFFF"
+  ],
+  "palette_names": [
+   "transparent",
+   "black",
+   "medium green",
+   "light green",
+   "dark blue",
+   "light blue",
+   "dark red",
+   "cyan",
+   "medium red",
+   "light red",
+   "dark yellow",
+   "light yellow",
+   "dark green",
+   "magenta",
+   "gray",
+   "white"
+  ],
+  "palette_note": "Wikipedia 'List of 8-bit computer hardware graphics' TMS9918 (MSX) set, index 0 = transparent (shown as black). openMSX default is nearly identical (3EB849/74D07D/5955E0/...). MSX2 has 3-3-3 (512) with 16 on screen.",
+  "onscreen": 15,
+  "dither_note": "Screen 2: 2 colors per 8x1 pixel line segment (per byte) - 'attribute clash' per row of 8, finer than Spectrum. Dithering: horizontal stipple within an 8x1 run and vertical alternation between rows."
+ },
+ "amstrad_cpc": {
+  "name": "Amstrad CPC",
+  "resolution": [
+   160,
+   200
+  ],
+  "resolution_note": "Mode 0: 160x200 16 colors (2:1 wide px) - typical for games; Mode 1: 320x200 4 colors; Mode 2: 640x200 2 colors",
+  "palette_kind": "fixed",
+  "palette": [
+   "000000",
+   "000080",
+   "0000FF",
+   "800000",
+   "800080",
+   "8000FF",
+   "FF0000",
+   "FF0080",
+   "FF00FF",
+   "008000",
+   "008080",
+   "0080FF",
+   "808000",
+   "808080",
+   "8080FF",
+   "FF8000",
+   "FF8080",
+   "FF80FF",
+   "00FF00",
+   "00FF80",
+   "00FFFF",
+   "80FF00",
+   "80FF80",
+   "80FFFF",
+   "FFFF00",
+   "FFFF80",
+   "FFFFFF"
+  ],
+  "palette_names": [
+   "black",
+   "blue",
+   "bright blue",
+   "red",
+   "magenta",
+   "mauve",
+   "bright red",
+   "purple",
+   "bright magenta",
+   "green",
+   "cyan",
+   "sky blue",
+   "yellow",
+   "white",
+   "pastel blue",
+   "orange",
+   "pink",
+   "pastel magenta",
+   "bright green",
+   "sea green",
+   "bright cyan",
+   "lime",
+   "pastel green",
+   "pastel cyan",
+   "bright yellow",
+   "pastel yellow",
+   "bright white"
+  ],
+  "palette_note": "27 colors = 3 levels per channel (0/0x80/0xFF), listed in firmware INK number order 0-26. Lospec 'Amstrad CPC' uses near-identical values (e.g. 040404, 7F/80).",
+  "onscreen": 16,
+  "dither_note": "No attribute clash (per-pixel color from the chosen 16 of 27). Mode 0 art uses horizontal stipple / checkerboard between the wide pixels; Mode 1 (4 colors) relies on heavy checkerboard dithering."
+ },
+ "ti99": {
+  "name": "TI-99/4A (TMS9918A, 16)",
+  "resolution": [
+   256,
+   192
+  ],
+  "palette_kind": "fixed",
+  "palette": [
+   "000000",
+   "000000",
+   "21C842",
+   "5EDC78",
+   "5455ED",
+   "7D76FC",
+   "D4524D",
+   "42EBF5",
+   "FC5554",
+   "FF7978",
+   "D4C154",
+   "E6CE80",
+   "21B03B",
+   "C95BBA",
+   "CCCCCC",
+   "FFFFFF"
+  ],
+  "palette_names": [
+   "transparent",
+   "black",
+   "medium green",
+   "light green",
+   "dark blue",
+   "light blue",
+   "dark red",
+   "cyan",
+   "medium red",
+   "light red",
+   "dark yellow",
+   "light yellow",
+   "dark green",
+   "magenta",
+   "gray",
+   "white"
+  ],
+  "palette_note": "TI datasheet-derived TMS9918A set used by MAME/Classic99 and long-standing Wikipedia TMS9918 table. Current Wikipedia 'TMS9918' gamma-corrected alternate: 000000 0AAD1E 34C84C 2B2DE3 514BFB BD2925 1EE2EF FB2C2B FF5F4C BDA22B D7B454 0A8C18 AF329A B2B2B2 FFFFFF.",
+  "onscreen": 15,
+  "dither_note": "Same VDP as MSX1: Graphics II mode = 2 colors per 8x1 segment; 'bitmap' art dithers horizontally within a byte and alternates rows; 4-color 'multicolor' mode 64x48 blocks."
+ },
+ "pc98": {
+  "name": "NEC PC-9801 / PC-98",
+  "resolution": [
+   640,
+   400
+  ],
+  "palette_kind": "rgb_bits",
+  "bits": [
+   4,
+   4,
+   4
+  ],
+  "total_colors": 4096,
+  "onscreen": 16,
+  "onscreen_note": "16 from 4096 (VM/VX and later); early models 8 digital RGB; PC-9821 adds 256 from 16.7M",
+  "default_palette_note": "Digital 8-color set (index bits G-R-B): 000000 0000FF FF0000 FF00FF 00FF00 00FFFF FFFF00 FFFFFF; analog boot default = these at reduced level (0-7) + full level (8-15).",
+  "dither_note": "The defining PC-98 look: 640x400 at 16 colors forces intensive ordered/checkerboard dithering ('tile dithering', 2x2/4x4 patterns) for skin and gradients in visual novels; 1:1.2 non-square pixels on early CRTs."
+ },
+ "cga": {
+  "name": "IBM PC CGA",
+  "resolution": [
+   320,
+   200
+  ],
+  "resolution_note": "320x200 4-color; 640x200 2-color; 160x100 16-color via text-mode hack; composite 'artifact' 160x200",
+  "palette_kind": "fixed",
+  "palette": [
+   "000000",
+   "0000AA",
+   "00AA00",
+   "00AAAA",
+   "AA0000",
+   "AA00AA",
+   "AA5500",
+   "AAAAAA",
+   "555555",
+   "5555FF",
+   "55FF55",
+   "55FFFF",
+   "FF5555",
+   "FF55FF",
+   "FFFF55",
+   "FFFFFF"
+  ],
+  "palette_names": [
+   "black",
+   "blue",
+   "green",
+   "cyan",
+   "red",
+   "magenta",
+   "brown",
+   "light gray",
+   "dark gray",
+   "light blue",
+   "light green",
+   "light cyan",
+   "light red",
+   "light magenta",
+   "yellow",
+   "white"
+  ],
+  "mode_palettes": {
+   "palette0_low": [
+    "000000",
+    "00AA00",
+    "AA0000",
+    "AA5500"
+   ],
+   "palette0_high": [
+    "000000",
+    "55FF55",
+    "FF5555",
+    "FFFF55"
+   ],
+   "palette1_low": [
+    "000000",
+    "00AAAA",
+    "AA00AA",
+    "AAAAAA"
+   ],
+   "palette1_high": [
+    "000000",
+    "55FFFF",
+    "FF55FF",
+    "FFFFFF"
+   ],
+   "palette2_low_(undocumented)": [
+    "000000",
+    "00AAAA",
+    "AA0000",
+    "AAAAAA"
+   ],
+   "palette2_high": [
+    "000000",
+    "55FFFF",
+    "FF5555",
+    "FFFFFF"
+   ]
+  },
+  "palette_note": "Full 16-color RGBI list; 320x200 games see only 4 (background selectable from 16). Brown (AA5500) is the RGBI monitor's special case (would be AAAA00 = dark yellow on a naive RGBI decode).",
+  "onscreen": 4,
+  "dither_note": "Cyan/magenta/white (palette 1) checkerboards everywhere; composite CGA artifact colors (16 shades at 160x200) from 4-pixel patterns; ordered dither to fake extra colors."
+ },
+ "vga16": {
+  "name": "IBM PC VGA (16)",
+  "resolution": [
+   320,
+   200
+  ],
+  "resolution_note": "16-color VGA modes: 640x480 (12h) and 640x350; most 16-color VGA-era games actually ran 320x200 (EGA-style, mode 0Dh/1 pixel aspect 1.2:1). Mode 13h 320x200 = 256 colors.",
+  "palette_kind": "fixed",
+  "palette": [
+   "000000",
+   "0000AA",
+   "00AA00",
+   "00AAAA",
+   "AA0000",
+   "AA00AA",
+   "AA5500",
+   "AAAAAA",
+   "555555",
+   "5555FF",
+   "55FF55",
+   "55FFFF",
+   "FF5555",
+   "FF55FF",
+   "FFFF55",
+   "FFFFFF"
+  ],
+  "palette_names": [
+   "black",
+   "blue",
+   "green",
+   "cyan",
+   "red",
+   "magenta",
+   "brown",
+   "light gray",
+   "dark gray",
+   "light blue",
+   "light green",
+   "light cyan",
+   "light red",
+   "light magenta",
+   "yellow",
+   "white"
+  ],
+  "palette_note": "Default 16 = CGA/EGA RGBI colors; VGA DAC is 6 bits per channel (262,144) so each entry is re-programmable.",
+  "total_colors": 262144,
+  "bits": [
+   6,
+   6,
+   6
+  ],
+  "onscreen": 16,
+  "dither_note": "Ordered/checkerboard dithering as on EGA; 640x480 16-color Windows-era art uses fine 2x2 patterns."
+ },
+ "tandy_pcjr": {
+  "name": "Tandy 1000 / PCjr (TGA 16)",
+  "resolution": [
+   320,
+   200
+  ],
+  "resolution_note": "320x200 16 colors (and 160x200 16 colors); 640x200 4 colors",
+  "palette_kind": "fixed",
+  "palette": [
+   "000000",
+   "0000AA",
+   "00AA00",
+   "00AAAA",
+   "AA0000",
+   "AA00AA",
+   "AA5500",
+   "AAAAAA",
+   "555555",
+   "5555FF",
+   "55FF55",
+   "55FFFF",
+   "FF5555",
+   "FF55FF",
+   "FFFF55",
+   "FFFFFF"
+  ],
+  "palette_names": [
+   "black",
+   "blue",
+   "green",
+   "cyan",
+   "red",
+   "magenta",
+   "brown",
+   "light gray",
+   "dark gray",
+   "light blue",
+   "light green",
+   "light cyan",
+   "light red",
+   "light magenta",
+   "yellow",
+   "white"
+  ],
+  "palette_note": "Same 16 RGBI colors as CGA, all usable at once.",
+  "onscreen": 16,
+  "dither_note": "16 free colors per pixel: Sierra 'Tandy' versions used checkerboard dithering between RGBI colors for skin tones and gradients."
+ },
+ "hercules": {
+  "name": "Hercules (amber mono)",
+  "resolution": [
+   720,
+   348
+  ],
+  "palette_kind": "fixed",
+  "palette": [
+   "000000",
+   "FFB000"
+  ],
+  "mono_shades": [
+   "000000",
+   "553B00",
+   "AA7600",
+   "FFB000"
+  ],
+  "shades_note": "1-bit hardware: black + phosphor color. Amber P3 phosphor commonly approximated FFB000 (also FFBF00 'amber', FFAA00); intermediate shades are only for CRT glow/bloom emulation, not hardware. Green P1 alternative ~33FF33.",
+  "onscreen": 2,
+  "dither_note": "Pure 1-bit: all tone comes from ordered (Bayer) or error-diffusion dithering of black/amber pixels; very fine 720x348 grid, non-square pixels (~1.55:1 aspect correction)."
+ },
+ "macintosh_1bit": {
+  "name": "Macintosh 1-bit (B/W)",
+  "resolution": [
+   512,
+   342
+  ],
+  "palette_kind": "fixed",
+  "palette": [
+   "000000",
+   "FFFFFF"
+  ],
+  "mono_shades": [
+   "000000",
+   "555555",
+   "AAAAAA",
+   "FFFFFF"
+  ],
+  "shades_note": "Hardware is pure 1-bit black/white; intermediate shades only if the shader wants a 4-level ramp.",
+  "onscreen": 2,
+  "dither_note": "The canonical dither platform: Floyd-Steinberg / Atkinson (Bill Atkinson's MacPaint) error diffusion and 8x8 ordered patterns at 72 dpi square pixels."
+ },
+ "pc88": {
+  "name": "NEC PC-8801 (PC-88, 8)",
+  "resolution": [
+   640,
+   200
+  ],
+  "resolution_note": "640x200 8 colors (V1); 640x400 2 colors; SR and later: 8 of 512 (3-3-3)",
+  "palette_kind": "fixed",
+  "palette": [
+   "000000",
+   "0000FF",
+   "FF0000",
+   "FF00FF",
+   "00FF00",
+   "00FFFF",
+   "FFFF00",
+   "FFFFFF"
+  ],
+  "palette_names": [
+   "black",
+   "blue",
+   "red",
+   "magenta",
+   "green",
+   "cyan",
+   "yellow",
+   "white"
+  ],
+  "palette_note": "Digital RGB 8 colors (index bit order G-R-B on the hardware). PC-8801mkII SR+ can remap the 8 to any of 512 (3-3-3).",
+  "onscreen": 8,
+  "dither_note": "8 saturated colors at 640x200 (2:1 tall pixels): PC-88 art is famous for dense 'tile' / checkerboard dithering to fake mid-tones and skin."
+ },
+ "x68000": {
+  "name": "Sharp X68000",
+  "resolution": [
+   256,
+   256
+  ],
+  "resolution_note": "Games typically 256x256 (15 kHz) or 512x512 / 768x512 (31 kHz)",
+  "palette_kind": "rgb_bits",
+  "bits": [
+   5,
+   5,
+   5
+  ],
+  "intensity_bit": 1,
+  "total_colors": 65536,
+  "bits_note": "16-bit palette entry GGGGGRRRRRBBBBBI: 5-5-5 RGB + 1 shared intensity/luminance LSB",
+  "onscreen": 256,
+  "onscreen_note": "256-color graphics layer (or 65536 direct at 512x512); sprites/BG use 16 palettes x 16 from the 65536",
+  "dither_note": "Arcade-style: little dithering; 16-color sprite palettes, checkerboard used for pseudo-transparency and shadows; 256-color layer for backgrounds."
+ },
+ "atari_st": {
+  "name": "Atari ST",
+  "resolution": [
+   320,
+   200
+  ],
+  "resolution_note": "Low res 320x200 16 colors; medium 640x200 4; high 640x400 mono",
+  "palette_kind": "rgb_bits",
+  "bits": [
+   3,
+   3,
+   3
+  ],
+  "total_colors": 512,
+  "onscreen": 16,
+  "onscreen_note": "STE: 4-4-4 (4096); raster tricks (Spectrum 512) get more per line",
+  "dither_note": "16 colors at 320x200 -> ordered dithering and checkerboards everywhere (Degas/NeoChrome era); no hardware assist, composite/RF blur hides it."
+ },
+ "bbc_micro": {
+  "name": "BBC Micro (Mode 2, 8)",
+  "resolution": [
+   160,
+   256
+  ],
+  "resolution_note": "MODE 2: 160x256, 16 logical colours (8 + 8 flashing) with 2:1 wide pixels; MODE 1 320x256 4 colours; MODE 5 160x256 4",
+  "palette_kind": "fixed",
+  "palette": [
+   "000000",
+   "FF0000",
+   "00FF00",
+   "FFFF00",
+   "0000FF",
+   "FF00FF",
+   "00FFFF",
+   "FFFFFF"
+  ],
+  "palette_names": [
+   "black",
+   "red",
+   "green",
+   "yellow",
+   "blue",
+   "magenta",
+   "cyan",
+   "white"
+  ],
+  "palette_note": "8 saturated TTL RGB colours (BBC order 0-7: black, red, green, yellow, blue, magenta, cyan, white) plus flashing variants 8-15.",
+  "onscreen": 8,
+  "dither_note": "Per-pixel colour (no attribute clash) but wide pixels and only 8 hues: stipple/checkerboard dithering between primaries to fake browns, oranges, greys."
+ },
+ "pc_engine": {
+  "name": "PC Engine / TurboGrafx-16",
+  "resolution": [
+   256,
+   224
+  ],
+  "resolution_note": "256-wide low-res is most common; vertical 224 (visible) to 239/240; 336 and 512 wide also supported",
+  "palette_kind": "rgb_bits",
+  "bits": [
+   3,
+   3,
+   3
+  ],
+  "total_colors": 512,
+  "onscreen": 482,
+  "onscreen_note": "16 BG palettes x 16 + 16 sprite palettes x 16 = 512 entries, 482 unique on screen",
+  "dither_note": "Rarely dithers; 16-color palettes per tile give rich art. Composite output of 256-wide modes blends any checkerboards used for shadows/transparency."
+ },
+ "mega_drive": {
+  "name": "Sega Mega Drive / Genesis",
+  "resolution": [
+   320,
+   224
+  ],
+  "resolution_note": "H40 mode 320x224 (most common); H32 256x224; interlace 320x448",
+  "palette_kind": "rgb_bits",
+  "bits": [
+   3,
+   3,
+   3
+  ],
+  "total_colors": 512,
+  "onscreen": 64,
+  "onscreen_note": "4 palettes x 16 (index 0 transparent) = 61 unique + backdrop; Shadow/Highlight mode ~1536 tones",
+  "dither_note": "Signature look: vertical-line and checkerboard dithering between two palette colours, relied on composite/RF blur to blend into new colours and pseudo-transparency (water in Sonic); 3-3-3 steps make ramps coarse."
+ }
+}

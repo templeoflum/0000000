@@ -1,0 +1,4115 @@
+{
+  "scope": "Only current Portal VideoFile/value and fileName video references, recorded relink destinations and recorded candidate paths. No disk scan or playback.",
+  "occurrences": 1048,
+  "missing_occurrences": 464,
+  "unique_literal_missing_paths": 288,
+  "unique_normalized_missing_paths": 144,
+  "missing_by_historical_status": {
+    "not_found": 278,
+    "different_extension_candidate": 6,
+    "parent_folder_candidate": 2,
+    "filename_only_candidate": 2
+  },
+  "missing_video_identities_by_status": {
+    "not_found": 139,
+    "different_extension_candidate": 3,
+    "parent_folder_candidate": 1,
+    "filename_only_candidate": 1
+  },
+  "recorded_linked_target_count": 290,
+  "recorded_linked_targets_missing": [],
+  "recorded_linked_targets_absent_from_xml": [],
+  "missing_references_with_recorded_relink": [],
+  "missing": [
+    {
+      "path": "/C:/Users/User/Videos/blender/cube03 01.mov",
+      "historical_status": "not_found",
+      "filename": "cube03 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/blender/cube03 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/blender/cube05 02 AE 01.mov",
+      "historical_status": "different_extension_candidate",
+      "filename": "cube05 02 ae 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [
+        {
+          "path": "/Users/donovan/Desktop/blender/cube05/cube05 02 AE 01.mp4",
+          "exists": true
+        }
+      ],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/blender/cube05 02 AE 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/blender/cube06 03 AE 01.mov",
+      "historical_status": "different_extension_candidate",
+      "filename": "cube06 03 ae 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [
+        {
+          "path": "/Users/donovan/Desktop/blender/cube06/cube06 03 AE 01.mp4",
+          "exists": true
+        }
+      ],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/blender/cube06 03 AE 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/blender/cube07 01 AE 01.mov",
+      "historical_status": "different_extension_candidate",
+      "filename": "cube07 01 ae 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [
+        {
+          "path": "/Users/donovan/Desktop/blender/cube07/cube07 01 AE 01.mp4",
+          "exists": true
+        }
+      ],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/blender/cube07 01 AE 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/1-1-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "1-1-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-1-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/1-11-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "1-11-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-11-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/1-12-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "1-12-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-12-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/1-13-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "1-13-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-13-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/1-14-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "1-14-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-14-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/1-14-2021 02.mov",
+      "historical_status": "not_found",
+      "filename": "1-14-2021 02.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-14-2021 02.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/1-15-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "1-15-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-15-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/1-15-2021 02.mov",
+      "historical_status": "not_found",
+      "filename": "1-15-2021 02.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-15-2021 02.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/1-16-2021 001.mov",
+      "historical_status": "not_found",
+      "filename": "1-16-2021 001.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-16-2021 001.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/1-16-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "1-16-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-16-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/1-16-2021 02.mov",
+      "historical_status": "not_found",
+      "filename": "1-16-2021 02.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-16-2021 02.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/1-16-2021 03.mov",
+      "historical_status": "not_found",
+      "filename": "1-16-2021 03.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-16-2021 03.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/1-16-2021 04.mov",
+      "historical_status": "not_found",
+      "filename": "1-16-2021 04.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-16-2021 04.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/1-17-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "1-17-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-17-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/1-18-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "1-18-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-18-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/1-19-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "1-19-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-19-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/1-19-2021 02.mov",
+      "historical_status": "not_found",
+      "filename": "1-19-2021 02.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-19-2021 02.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/1-19-2021 03.mov",
+      "historical_status": "not_found",
+      "filename": "1-19-2021 03.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-19-2021 03.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/1-19-2021 04.mov",
+      "historical_status": "not_found",
+      "filename": "1-19-2021 04.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-19-2021 04.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/1-2-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "1-2-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-2-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/1-22-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "1-22-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-22-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/1-22-2021 02.mov",
+      "historical_status": "not_found",
+      "filename": "1-22-2021 02.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-22-2021 02.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/1-24-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "1-24-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-24-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/1-25-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "1-25-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-25-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/1-26-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "1-26-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-26-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/1-27-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "1-27-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-27-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/1-27-2021 02.mov",
+      "historical_status": "not_found",
+      "filename": "1-27-2021 02.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-27-2021 02.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/1-27-2021 03.mov",
+      "historical_status": "not_found",
+      "filename": "1-27-2021 03.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-27-2021 03.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/1-27-2021 04.mov",
+      "historical_status": "not_found",
+      "filename": "1-27-2021 04.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-27-2021 04.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/1-27-2021 05.mov",
+      "historical_status": "not_found",
+      "filename": "1-27-2021 05.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-27-2021 05.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/1-27-2021 06.mov",
+      "historical_status": "not_found",
+      "filename": "1-27-2021 06.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-27-2021 06.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/1-27-2021 07.mov",
+      "historical_status": "not_found",
+      "filename": "1-27-2021 07.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-27-2021 07.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/1-27-2021 08.mov",
+      "historical_status": "not_found",
+      "filename": "1-27-2021 08.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-27-2021 08.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/1-27-2021 09.mov",
+      "historical_status": "not_found",
+      "filename": "1-27-2021 09.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-27-2021 09.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/1-27-2021 10.mov",
+      "historical_status": "not_found",
+      "filename": "1-27-2021 10.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-27-2021 10.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/1-27-2021 11.mov",
+      "historical_status": "not_found",
+      "filename": "1-27-2021 11.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-27-2021 11.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/1-3-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "1-3-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-3-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/1-4-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "1-4-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-4-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/1-5-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "1-5-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-5-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/1-6-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "1-6-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-6-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/1-7-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "1-7-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-7-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/1-8-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "1-8-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-8-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/12-13-2020 01.mov",
+      "historical_status": "not_found",
+      "filename": "12-13-2020 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/12-13-2020 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/12-13-2020 02.mov",
+      "historical_status": "not_found",
+      "filename": "12-13-2020 02.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/12-13-2020 02.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/12-13-2020 03.mov",
+      "historical_status": "not_found",
+      "filename": "12-13-2020 03.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/12-13-2020 03.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/12-13-2020 04.mov",
+      "historical_status": "not_found",
+      "filename": "12-13-2020 04.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/12-13-2020 04.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/12-13-2020 05.mov",
+      "historical_status": "not_found",
+      "filename": "12-13-2020 05.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/12-13-2020 05.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/12-13-2020 06.mov",
+      "historical_status": "not_found",
+      "filename": "12-13-2020 06.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/12-13-2020 06.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/12-13-2020 07.mov",
+      "historical_status": "not_found",
+      "filename": "12-13-2020 07.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/12-13-2020 07.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/12-13-2020 08.mov",
+      "historical_status": "not_found",
+      "filename": "12-13-2020 08.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/12-13-2020 08.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/12-19-2020 01.mov",
+      "historical_status": "not_found",
+      "filename": "12-19-2020 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/12-19-2020 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/12-21-2020 01.mov",
+      "historical_status": "not_found",
+      "filename": "12-21-2020 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/12-21-2020 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/12-22-2020 01.mov",
+      "historical_status": "not_found",
+      "filename": "12-22-2020 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/12-22-2020 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/12-22-2020 02.mov",
+      "historical_status": "not_found",
+      "filename": "12-22-2020 02.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/12-22-2020 02.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/12-24-2020 01.mov",
+      "historical_status": "not_found",
+      "filename": "12-24-2020 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/12-24-2020 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/12-25-2020 01.mov",
+      "historical_status": "not_found",
+      "filename": "12-25-2020 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/12-25-2020 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/12-26-2020 01.mov",
+      "historical_status": "not_found",
+      "filename": "12-26-2020 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/12-26-2020 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/12-27-2020 01.mov",
+      "historical_status": "not_found",
+      "filename": "12-27-2020 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/12-27-2020 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/12-28-2020 01.mov",
+      "historical_status": "not_found",
+      "filename": "12-28-2020 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/12-28-2020 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/12-29-2020 01.mov",
+      "historical_status": "not_found",
+      "filename": "12-29-2020 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/12-29-2020 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/12-30-2020 01.mov",
+      "historical_status": "not_found",
+      "filename": "12-30-2020 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/12-30-2020 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/12-31-2020 01.mov",
+      "historical_status": "not_found",
+      "filename": "12-31-2020 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/12-31-2020 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/2-10-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "2-10-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/2-10-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/2-11-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "2-11-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/2-11-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/2-12-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "2-12-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/2-12-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/2-13-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "2-13-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/2-13-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/2-3-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "2-3-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/2-3-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/2-3-2021 02.mov",
+      "historical_status": "not_found",
+      "filename": "2-3-2021 02.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/2-3-2021 02.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/2-3-2021 03.mov",
+      "historical_status": "not_found",
+      "filename": "2-3-2021 03.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/2-3-2021 03.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/2-3-2021 04.mov",
+      "historical_status": "not_found",
+      "filename": "2-3-2021 04.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/2-3-2021 04.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/2-3-2021 05.mov",
+      "historical_status": "not_found",
+      "filename": "2-3-2021 05.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/2-3-2021 05.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/2-3-2021 06.mov",
+      "historical_status": "not_found",
+      "filename": "2-3-2021 06.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/2-3-2021 06.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/2-7-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "2-7-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/2-7-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/2-8-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "2-8-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/2-8-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/2-8-2021 02.mov",
+      "historical_status": "not_found",
+      "filename": "2-8-2021 02.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/2-8-2021 02.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/4-15-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "4-15-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/4-15-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/4-20-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "4-20-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/4-20-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/4-20-2021 02.mov",
+      "historical_status": "not_found",
+      "filename": "4-20-2021 02.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/4-20-2021 02.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/4-20-2021 03.mov",
+      "historical_status": "not_found",
+      "filename": "4-20-2021 03.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/4-20-2021 03.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/4-20-2021 04.mov",
+      "historical_status": "not_found",
+      "filename": "4-20-2021 04.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/4-20-2021 04.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/4-20-2021 05.mov",
+      "historical_status": "not_found",
+      "filename": "4-20-2021 05.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/4-20-2021 05.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/hypno recordings/dxv/4-20-2021 06.mov",
+      "historical_status": "not_found",
+      "filename": "4-20-2021 06.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/4-20-2021 06.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/visuals/Cyberscape (1997) 60fps DVD Rip (New Version).ia.mov",
+      "historical_status": "parent_folder_candidate",
+      "filename": "cyberscape (1997) 60fps dvd rip (new version).ia.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [
+        {
+          "path": "/Users/donovan/work/Visuals/Cyberscape (1997) 60fps DVD Rip (New Version).ia.mov",
+          "exists": true
+        }
+      ],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/visuals/Cyberscape (1997) 60fps DVD Rip (New Version).ia.mov",
+          "exists": false
+        },
+        {
+          "path": "/Users/donovan/work/Visuals/Cyberscape (1997) 60fps DVD Rip (New Version).ia.mov",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/#UnrealOrganism.mov",
+      "historical_status": "not_found",
+      "filename": "#unrealorganism.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/#UnrealOrganism.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/0-9matrix10bt.sleepytom.Pjpeg80_512kb.mov",
+      "historical_status": "not_found",
+      "filename": "0-9matrix10bt.sleepytom.pjpeg80_512kb.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/0-9matrix10bt.sleepytom.Pjpeg80_512kb.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/0767_Incredible_Machine_The_20_26_47_00_3mb.mov",
+      "historical_status": "not_found",
+      "filename": "0767_incredible_machine_the_20_26_47_00_3mb.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/0767_Incredible_Machine_The_20_26_47_00_3mb.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/1-4tvmash16bt.sleepytom.Pjpeg80_512kb.mov",
+      "historical_status": "not_found",
+      "filename": "1-4tvmash16bt.sleepytom.pjpeg80_512kb.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/1-4tvmash16bt.sleepytom.Pjpeg80_512kb.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/4K Fungi and Bacteria Time-Lapse #12.mov",
+      "historical_status": "not_found",
+      "filename": "4k fungi and bacteria time-lapse #12.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/4K Fungi and Bacteria Time-Lapse #12.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/Abstract Fly Agaric time lapse. Amanita muscaria. Poisonous Toadstool  #fungi.mov",
+      "historical_status": "not_found",
+      "filename": "abstract fly agaric time lapse. amanita muscaria. poisonous toadstool  #fungi.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Abstract Fly Agaric time lapse. Amanita muscaria. Poisonous Toadstool  #fungi.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/Abstract Iris flower opening and dying time lapse #abstractflower #timelapse.mov",
+      "historical_status": "not_found",
+      "filename": "abstract iris flower opening and dying time lapse #abstractflower #timelapse.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Abstract Iris flower opening and dying time lapse #abstractflower #timelapse.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/Adventures of Mark Twain.mov",
+      "historical_status": "not_found",
+      "filename": "adventures of mark twain.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Adventures of Mark Twain.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/Amazing Slime Mold Time lapse.mov",
+      "historical_status": "not_found",
+      "filename": "amazing slime mold time lapse.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Amazing Slime Mold Time lapse.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/Amazing Slime Molds Just a Coincidence.mov",
+      "historical_status": "not_found",
+      "filename": "amazing slime molds just a coincidence.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Amazing Slime Molds Just a Coincidence.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/Amazing Time lapse of cell division No CGI.mov",
+      "historical_status": "not_found",
+      "filename": "amazing time lapse of cell division no cgi.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Amazing Time lapse of cell division No CGI.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/Amoeba video.mov",
+      "historical_status": "not_found",
+      "filename": "amoeba video.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Amoeba video.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/Birdy Nam Nam - Cadillac Dreams (feat. Teki Latex) [Official Music Video].mov",
+      "historical_status": "not_found",
+      "filename": "birdy nam nam - cadillac dreams (feat. teki latex) [official music video].mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Birdy Nam Nam - Cadillac Dreams (feat. Teki Latex) [Official Music Video].mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/Cell Division Time Lapse under the microscope (400x Magnification)!.mov",
+      "historical_status": "not_found",
+      "filename": "cell division time lapse under the microscope (400x magnification)!.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Cell Division Time Lapse under the microscope (400x Magnification)!.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/Cell Division Time lapse.mov",
+      "historical_status": "not_found",
+      "filename": "cell division time lapse.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Cell Division Time lapse.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/Cellular Development Aborted time lapse.mov",
+      "historical_status": "not_found",
+      "filename": "cellular development aborted time lapse.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Cellular Development Aborted time lapse.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/Cleavage Time lapse.mov",
+      "historical_status": "not_found",
+      "filename": "cleavage time lapse.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Cleavage Time lapse.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/Comb Jelly Fish.mov",
+      "historical_status": "not_found",
+      "filename": "comb jelly fish.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Comb Jelly Fish.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/Dad is Awake.mov",
+      "historical_status": "not_found",
+      "filename": "dad is awake.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Dad is Awake.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/Egg Development Cleavage Time Lapse Watch Closely.mov",
+      "historical_status": "not_found",
+      "filename": "egg development cleavage time lapse watch closely.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Egg Development Cleavage Time Lapse Watch Closely.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/Epipedobates Egg Development Poison Dart Frog.mov",
+      "historical_status": "not_found",
+      "filename": "epipedobates egg development poison dart frog.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Epipedobates Egg Development Poison Dart Frog.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/Fear and Loathing in Las Vegas - Reptiles Scene.mov",
+      "historical_status": "not_found",
+      "filename": "fear and loathing in las vegas - reptiles scene.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Fear and Loathing in Las Vegas - Reptiles Scene.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/Fear and loathing in las vegas - Flea scene.mov",
+      "historical_status": "not_found",
+      "filename": "fear and loathing in las vegas - flea scene.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Fear and loathing in las vegas - Flea scene.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/Fern crosiers unfurling time lapse. Dryopteris affinis cristata 'The King' 4K #ferns#timelapse#king.mov",
+      "historical_status": "not_found",
+      "filename": "fern crosiers unfurling time lapse. dryopteris affinis cristata 'the king' 4k #ferns#timelapse#king.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Fern crosiers unfurling time lapse. Dryopteris affinis cristata 'The King' 4K #ferns#timelapse#king.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/Fuchsia flower opening time lapse. 4K #fuchsia.mov",
+      "historical_status": "not_found",
+      "filename": "fuchsia flower opening time lapse. 4k #fuchsia.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Fuchsia flower opening time lapse. 4K #fuchsia.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/Guess It In 5 Seconds.mov",
+      "historical_status": "not_found",
+      "filename": "guess it in 5 seconds.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Guess It In 5 Seconds.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/HowtheEy1941.mov",
+      "historical_status": "not_found",
+      "filename": "howtheey1941.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/HowtheEy1941.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/Lichen Time lapse.mov",
+      "historical_status": "not_found",
+      "filename": "lichen time lapse.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Lichen Time lapse.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/Living Tardigrades Water Bears.mov",
+      "historical_status": "not_found",
+      "filename": "living tardigrades water bears.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Living Tardigrades Water Bears.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/Maral - Ground Groove.mov",
+      "historical_status": "not_found",
+      "filename": "maral - ground groove.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Maral - Ground Groove.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/Maral ft. Panda Bear \u2013 'On Your Way'.mov",
+      "historical_status": "not_found",
+      "filename": "maral ft. panda bear \u2013 'on your way'.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Maral ft. Panda Bear \u2013 'On Your Way'.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/Meadow Goat's-Beard seedhead opening in time lapse to real time seeds blowing away. Black & White 4K.mov",
+      "historical_status": "not_found",
+      "filename": "meadow goat's-beard seedhead opening in time lapse to real time seeds blowing away. black & white 4k.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Meadow Goat's-Beard seedhead opening in time lapse to real time seeds blowing away. Black & White 4K.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/Mushroom time lapse Fairy Ink Cap.mov",
+      "historical_status": "not_found",
+      "filename": "mushroom time lapse fairy ink cap.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Mushroom time lapse Fairy Ink Cap.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/Mycelium Time Lapse Soil.mov",
+      "historical_status": "not_found",
+      "filename": "mycelium time lapse soil.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Mycelium Time Lapse Soil.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/Parasite Attacks!.mov",
+      "historical_status": "not_found",
+      "filename": "parasite attacks!.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Parasite Attacks!.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/Physarium polycephalum Slime Mold.mov",
+      "historical_status": "not_found",
+      "filename": "physarium polycephalum slime mold.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Physarium polycephalum Slime Mold.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/RARE NASA Mission Control Consoles CLOSE UP SCREEN VIEWS 1970 HD (Space Apollo Computers MOCR).mov",
+      "historical_status": "filename_only_candidate",
+      "filename": "rare nasa mission control consoles close up screen views 1970 hd (space apollo computers mocr).mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [
+        {
+          "path": "/Users/donovan/Documents/Resolume Arena/Renders/RARE NASA Mission Control Consoles CLOSE UP SCREEN VIEWS 1970 HD (Space Apollo Computers MOCR).mov",
+          "exists": true
+        }
+      ],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/RARE NASA Mission Control Consoles CLOSE UP SCREEN VIEWS 1970 HD (Space Apollo Computers MOCR).mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/Rainer Kohlberger & Jung An Tagen - Emergence Collapse.mov",
+      "historical_status": "not_found",
+      "filename": "rainer kohlberger & jung an tagen - emergence collapse.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Rainer Kohlberger & Jung An Tagen - Emergence Collapse.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/Raoul Duke's Drugs Collection - Fear & Loathing in Las Vegas - Full Scene.mov",
+      "historical_status": "not_found",
+      "filename": "raoul duke's drugs collection - fear & loathing in las vegas - full scene.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Raoul Duke's Drugs Collection - Fear & Loathing in Las Vegas - Full Scene.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/Rose Chafer Beetle.mov",
+      "historical_status": "not_found",
+      "filename": "rose chafer beetle.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Rose Chafer Beetle.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/Scanner Darkly - Completely Bonkers.mov",
+      "historical_status": "not_found",
+      "filename": "scanner darkly - completely bonkers.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Scanner Darkly - Completely Bonkers.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/Security Features Of The US $100 Dollar Bill Under A Microscope.mov",
+      "historical_status": "not_found",
+      "filename": "security features of the us $100 dollar bill under a microscope.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Security Features Of The US $100 Dollar Bill Under A Microscope.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/Slime Mold White.mov",
+      "historical_status": "not_found",
+      "filename": "slime mold white.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Slime Mold White.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/Tadpole Development Time Lapse.mov",
+      "historical_status": "not_found",
+      "filename": "tadpole development time lapse.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Tadpole Development Time Lapse.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/The Aftermath  Halo 2 Super Bouncing.mov",
+      "historical_status": "not_found",
+      "filename": "the aftermath  halo 2 super bouncing.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/The Aftermath  Halo 2 Super Bouncing.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/The Wacky Adventures of Ronald McDonald Scared Silly (1 4).mov",
+      "historical_status": "not_found",
+      "filename": "the wacky adventures of ronald mcdonald scared silly (1 4).mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/The Wacky Adventures of Ronald McDonald Scared Silly (1 4).mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/Time-Lapse Flower.mov",
+      "historical_status": "not_found",
+      "filename": "time-lapse flower.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Time-Lapse Flower.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/Tiny cactus, extreme macro..mov",
+      "historical_status": "not_found",
+      "filename": "tiny cactus, extreme macro..mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Tiny cactus, extreme macro..mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/Vasulkas Transformations.mov",
+      "historical_status": "not_found",
+      "filename": "vasulkas transformations.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Vasulkas Transformations.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/Why The Wiggling Introduction To MacroLab3D.mov",
+      "historical_status": "not_found",
+      "filename": "why the wiggling introduction to macrolab3d.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Why The Wiggling Introduction To MacroLab3D.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/Willy Wonka  Shamanic Boat Ride.mov",
+      "historical_status": "not_found",
+      "filename": "willy wonka  shamanic boat ride.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Willy Wonka  Shamanic Boat Ride.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/Woodland fungi growing time lapses. Fly agaric, Shaggy ink and Earthstar.mov",
+      "historical_status": "not_found",
+      "filename": "woodland fungi growing time lapses. fly agaric, shaggy ink and earthstar.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Woodland fungi growing time lapses. Fly agaric, Shaggy ink and Earthstar.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/dancingwoman16bt.sleepytom.Pjpeg80_512kb.mov",
+      "historical_status": "not_found",
+      "filename": "dancingwoman16bt.sleepytom.pjpeg80_512kb.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/dancingwoman16bt.sleepytom.Pjpeg80_512kb.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/\u0413\u0440\u0430\u0432\u0438\u0442\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0435 \u043f\u043e\u043b\u0435, \u041a\u0438\u0435\u0432\u043d\u0430\u0443\u0447\u0444\u0438\u043b\u044c\u043c, 1987.mov",
+      "historical_status": "not_found",
+      "filename": "\u0433\u0440\u0430\u0432\u0438\u0442\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0435 \u043f\u043e\u043b\u0435, \u043a\u0438\u0435\u0432\u043d\u0430\u0443\u0447\u0444\u0438\u043b\u044c\u043c, 1987.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/\u0413\u0440\u0430\u0432\u0438\u0442\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0435 \u043f\u043e\u043b\u0435, \u041a\u0438\u0435\u0432\u043d\u0430\u0443\u0447\u0444\u0438\u043b\u044c\u043c, 1987.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/\u041b\u0435\u043d\u044c 1979 \u041c\u0443\u043b\u044c\u0442\u0444\u0438\u043b\u044c\u043c \u0434\u043b\u044f \u0434\u0435\u0442\u0435\u0439 \u0438 \u0432\u0437\u0440\u043e\u0441\u043b\u044b\u0445 \u0438 \u0440\u043e\u0434\u0438\u0442\u0435\u043b\u0435\u0439 \u041a\u0438\u0435\u0432\u043d\u0430\u0443\u0447\u0444\u0438\u043b\u044c\u043c\u0430.mov",
+      "historical_status": "not_found",
+      "filename": "\u043b\u0435\u043d\u044c 1979 \u043c\u0443\u043b\u044c\u0442\u0444\u0438\u043b\u044c\u043c \u0434\u043b\u044f \u0434\u0435\u0442\u0435\u0439 \u0438 \u0432\u0437\u0440\u043e\u0441\u043b\u044b\u0445 \u0438 \u0440\u043e\u0434\u0438\u0442\u0435\u043b\u0435\u0439 \u043a\u0438\u0435\u0432\u043d\u0430\u0443\u0447\u0444\u0438\u043b\u044c\u043c\u0430.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/\u041b\u0435\u043d\u044c 1979 \u041c\u0443\u043b\u044c\u0442\u0444\u0438\u043b\u044c\u043c \u0434\u043b\u044f \u0434\u0435\u0442\u0435\u0439 \u0438 \u0432\u0437\u0440\u043e\u0441\u043b\u044b\u0445 \u0438 \u0440\u043e\u0434\u0438\u0442\u0435\u043b\u0435\u0439 \u041a\u0438\u0435\u0432\u043d\u0430\u0443\u0447\u0444\u0438\u043b\u044c\u043c\u0430.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/\u041c\u0443\u043b\u044c\u0442\u0444\u0438\u043b\u044c\u043c  \u0428\u043a\u0430\u0442\u0443\u043b\u043a\u0430 \u0441 \u0441\u0435\u043a\u0440\u0435\u0442\u043e\u043c.mov",
+      "historical_status": "not_found",
+      "filename": "\u043c\u0443\u043b\u044c\u0442\u0444\u0438\u043b\u044c\u043c  \u0448\u043a\u0430\u0442\u0443\u043b\u043a\u0430 \u0441 \u0441\u0435\u043a\u0440\u0435\u0442\u043e\u043c.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/\u041c\u0443\u043b\u044c\u0442\u0444\u0438\u043b\u044c\u043c  \u0428\u043a\u0430\u0442\u0443\u043b\u043a\u0430 \u0441 \u0441\u0435\u043a\u0440\u0435\u0442\u043e\u043c.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "/C:/Users/User/Videos/youtube rips/dxv/\u041f\u043e\u043b\u0443\u043d\u043e\u0447\u043d\u044b\u0435 \u0438\u0433\u0440\u044b   \u043c\u0443\u043b\u044c\u0442\u0444\u0438\u043b\u044c\u043c (1991, \u0441\u0442\u0443\u0434\u0438\u044f  \u041f\u0438\u043b\u043e\u0442 ).mov",
+      "historical_status": "not_found",
+      "filename": "\u043f\u043e\u043b\u0443\u043d\u043e\u0447\u043d\u044b\u0435 \u0438\u0433\u0440\u044b   \u043c\u0443\u043b\u044c\u0442\u0444\u0438\u043b\u044c\u043c (1991, \u0441\u0442\u0443\u0434\u0438\u044f  \u043f\u0438\u043b\u043e\u0442 ).mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/\u041f\u043e\u043b\u0443\u043d\u043e\u0447\u043d\u044b\u0435 \u0438\u0433\u0440\u044b   \u043c\u0443\u043b\u044c\u0442\u0444\u0438\u043b\u044c\u043c (1991, \u0441\u0442\u0443\u0434\u0438\u044f  \u041f\u0438\u043b\u043e\u0442 ).mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\blender\\cube03 01.mov",
+      "historical_status": "not_found",
+      "filename": "cube03 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/blender/cube03 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\blender\\cube05 02 AE 01.mov",
+      "historical_status": "different_extension_candidate",
+      "filename": "cube05 02 ae 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [
+        {
+          "path": "/Users/donovan/Desktop/blender/cube05/cube05 02 AE 01.mp4",
+          "exists": true
+        }
+      ],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/blender/cube05 02 AE 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\blender\\cube06 03 AE 01.mov",
+      "historical_status": "different_extension_candidate",
+      "filename": "cube06 03 ae 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [
+        {
+          "path": "/Users/donovan/Desktop/blender/cube06/cube06 03 AE 01.mp4",
+          "exists": true
+        }
+      ],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/blender/cube06 03 AE 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\blender\\cube07 01 AE 01.mov",
+      "historical_status": "different_extension_candidate",
+      "filename": "cube07 01 ae 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [
+        {
+          "path": "/Users/donovan/Desktop/blender/cube07/cube07 01 AE 01.mp4",
+          "exists": true
+        }
+      ],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/blender/cube07 01 AE 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\1-1-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "1-1-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-1-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\1-11-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "1-11-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-11-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\1-12-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "1-12-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-12-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\1-13-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "1-13-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-13-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\1-14-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "1-14-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-14-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\1-14-2021 02.mov",
+      "historical_status": "not_found",
+      "filename": "1-14-2021 02.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-14-2021 02.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\1-15-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "1-15-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-15-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\1-15-2021 02.mov",
+      "historical_status": "not_found",
+      "filename": "1-15-2021 02.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-15-2021 02.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\1-16-2021 001.mov",
+      "historical_status": "not_found",
+      "filename": "1-16-2021 001.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-16-2021 001.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\1-16-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "1-16-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-16-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\1-16-2021 02.mov",
+      "historical_status": "not_found",
+      "filename": "1-16-2021 02.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-16-2021 02.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\1-16-2021 03.mov",
+      "historical_status": "not_found",
+      "filename": "1-16-2021 03.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-16-2021 03.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\1-16-2021 04.mov",
+      "historical_status": "not_found",
+      "filename": "1-16-2021 04.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-16-2021 04.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\1-17-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "1-17-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-17-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\1-18-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "1-18-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-18-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\1-19-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "1-19-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-19-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\1-19-2021 02.mov",
+      "historical_status": "not_found",
+      "filename": "1-19-2021 02.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-19-2021 02.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\1-19-2021 03.mov",
+      "historical_status": "not_found",
+      "filename": "1-19-2021 03.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-19-2021 03.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\1-19-2021 04.mov",
+      "historical_status": "not_found",
+      "filename": "1-19-2021 04.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-19-2021 04.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\1-2-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "1-2-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-2-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\1-22-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "1-22-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-22-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\1-22-2021 02.mov",
+      "historical_status": "not_found",
+      "filename": "1-22-2021 02.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-22-2021 02.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\1-24-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "1-24-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-24-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\1-25-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "1-25-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-25-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\1-26-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "1-26-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-26-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\1-27-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "1-27-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-27-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\1-27-2021 02.mov",
+      "historical_status": "not_found",
+      "filename": "1-27-2021 02.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-27-2021 02.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\1-27-2021 03.mov",
+      "historical_status": "not_found",
+      "filename": "1-27-2021 03.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-27-2021 03.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\1-27-2021 04.mov",
+      "historical_status": "not_found",
+      "filename": "1-27-2021 04.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-27-2021 04.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\1-27-2021 05.mov",
+      "historical_status": "not_found",
+      "filename": "1-27-2021 05.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-27-2021 05.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\1-27-2021 06.mov",
+      "historical_status": "not_found",
+      "filename": "1-27-2021 06.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-27-2021 06.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\1-27-2021 07.mov",
+      "historical_status": "not_found",
+      "filename": "1-27-2021 07.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-27-2021 07.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\1-27-2021 08.mov",
+      "historical_status": "not_found",
+      "filename": "1-27-2021 08.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-27-2021 08.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\1-27-2021 09.mov",
+      "historical_status": "not_found",
+      "filename": "1-27-2021 09.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-27-2021 09.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\1-27-2021 10.mov",
+      "historical_status": "not_found",
+      "filename": "1-27-2021 10.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-27-2021 10.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\1-27-2021 11.mov",
+      "historical_status": "not_found",
+      "filename": "1-27-2021 11.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-27-2021 11.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\1-3-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "1-3-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-3-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\1-4-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "1-4-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-4-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\1-5-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "1-5-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-5-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\1-6-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "1-6-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-6-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\1-7-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "1-7-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-7-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\1-8-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "1-8-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/1-8-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\12-13-2020 01.mov",
+      "historical_status": "not_found",
+      "filename": "12-13-2020 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/12-13-2020 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\12-13-2020 02.mov",
+      "historical_status": "not_found",
+      "filename": "12-13-2020 02.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/12-13-2020 02.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\12-13-2020 03.mov",
+      "historical_status": "not_found",
+      "filename": "12-13-2020 03.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/12-13-2020 03.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\12-13-2020 04.mov",
+      "historical_status": "not_found",
+      "filename": "12-13-2020 04.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/12-13-2020 04.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\12-13-2020 05.mov",
+      "historical_status": "not_found",
+      "filename": "12-13-2020 05.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/12-13-2020 05.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\12-13-2020 06.mov",
+      "historical_status": "not_found",
+      "filename": "12-13-2020 06.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/12-13-2020 06.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\12-13-2020 07.mov",
+      "historical_status": "not_found",
+      "filename": "12-13-2020 07.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/12-13-2020 07.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\12-13-2020 08.mov",
+      "historical_status": "not_found",
+      "filename": "12-13-2020 08.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/12-13-2020 08.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\12-19-2020 01.mov",
+      "historical_status": "not_found",
+      "filename": "12-19-2020 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/12-19-2020 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\12-21-2020 01.mov",
+      "historical_status": "not_found",
+      "filename": "12-21-2020 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/12-21-2020 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\12-22-2020 01.mov",
+      "historical_status": "not_found",
+      "filename": "12-22-2020 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/12-22-2020 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\12-22-2020 02.mov",
+      "historical_status": "not_found",
+      "filename": "12-22-2020 02.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/12-22-2020 02.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\12-24-2020 01.mov",
+      "historical_status": "not_found",
+      "filename": "12-24-2020 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/12-24-2020 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\12-25-2020 01.mov",
+      "historical_status": "not_found",
+      "filename": "12-25-2020 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/12-25-2020 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\12-26-2020 01.mov",
+      "historical_status": "not_found",
+      "filename": "12-26-2020 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/12-26-2020 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\12-27-2020 01.mov",
+      "historical_status": "not_found",
+      "filename": "12-27-2020 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/12-27-2020 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\12-28-2020 01.mov",
+      "historical_status": "not_found",
+      "filename": "12-28-2020 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/12-28-2020 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\12-29-2020 01.mov",
+      "historical_status": "not_found",
+      "filename": "12-29-2020 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/12-29-2020 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\12-30-2020 01.mov",
+      "historical_status": "not_found",
+      "filename": "12-30-2020 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/12-30-2020 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\12-31-2020 01.mov",
+      "historical_status": "not_found",
+      "filename": "12-31-2020 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/12-31-2020 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\2-10-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "2-10-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/2-10-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\2-11-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "2-11-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/2-11-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\2-12-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "2-12-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/2-12-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\2-13-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "2-13-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/2-13-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\2-3-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "2-3-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/2-3-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\2-3-2021 02.mov",
+      "historical_status": "not_found",
+      "filename": "2-3-2021 02.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/2-3-2021 02.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\2-3-2021 03.mov",
+      "historical_status": "not_found",
+      "filename": "2-3-2021 03.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/2-3-2021 03.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\2-3-2021 04.mov",
+      "historical_status": "not_found",
+      "filename": "2-3-2021 04.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/2-3-2021 04.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\2-3-2021 05.mov",
+      "historical_status": "not_found",
+      "filename": "2-3-2021 05.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/2-3-2021 05.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\2-3-2021 06.mov",
+      "historical_status": "not_found",
+      "filename": "2-3-2021 06.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/2-3-2021 06.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\2-7-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "2-7-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/2-7-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\2-8-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "2-8-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/2-8-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\2-8-2021 02.mov",
+      "historical_status": "not_found",
+      "filename": "2-8-2021 02.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/2-8-2021 02.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\4-15-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "4-15-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/4-15-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\4-20-2021 01.mov",
+      "historical_status": "not_found",
+      "filename": "4-20-2021 01.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/4-20-2021 01.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\4-20-2021 02.mov",
+      "historical_status": "not_found",
+      "filename": "4-20-2021 02.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/4-20-2021 02.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\4-20-2021 03.mov",
+      "historical_status": "not_found",
+      "filename": "4-20-2021 03.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/4-20-2021 03.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\4-20-2021 04.mov",
+      "historical_status": "not_found",
+      "filename": "4-20-2021 04.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/4-20-2021 04.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\4-20-2021 05.mov",
+      "historical_status": "not_found",
+      "filename": "4-20-2021 05.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/4-20-2021 05.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\hypno recordings\\dxv\\4-20-2021 06.mov",
+      "historical_status": "not_found",
+      "filename": "4-20-2021 06.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/hypno recordings/dxv/4-20-2021 06.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\visuals\\Cyberscape (1997) 60fps DVD Rip (New Version).ia.mov",
+      "historical_status": "parent_folder_candidate",
+      "filename": "cyberscape (1997) 60fps dvd rip (new version).ia.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [
+        {
+          "path": "/Users/donovan/work/Visuals/Cyberscape (1997) 60fps DVD Rip (New Version).ia.mov",
+          "exists": true
+        }
+      ],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/visuals/Cyberscape (1997) 60fps DVD Rip (New Version).ia.mov",
+          "exists": false
+        },
+        {
+          "path": "/Users/donovan/work/Visuals/Cyberscape (1997) 60fps DVD Rip (New Version).ia.mov",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\#UnrealOrganism.mov",
+      "historical_status": "not_found",
+      "filename": "#unrealorganism.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/#UnrealOrganism.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\0-9matrix10bt.sleepytom.Pjpeg80_512kb.mov",
+      "historical_status": "not_found",
+      "filename": "0-9matrix10bt.sleepytom.pjpeg80_512kb.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/0-9matrix10bt.sleepytom.Pjpeg80_512kb.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\0767_Incredible_Machine_The_20_26_47_00_3mb.mov",
+      "historical_status": "not_found",
+      "filename": "0767_incredible_machine_the_20_26_47_00_3mb.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/0767_Incredible_Machine_The_20_26_47_00_3mb.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\1-4tvmash16bt.sleepytom.Pjpeg80_512kb.mov",
+      "historical_status": "not_found",
+      "filename": "1-4tvmash16bt.sleepytom.pjpeg80_512kb.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/1-4tvmash16bt.sleepytom.Pjpeg80_512kb.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\4K Fungi and Bacteria Time-Lapse #12.mov",
+      "historical_status": "not_found",
+      "filename": "4k fungi and bacteria time-lapse #12.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/4K Fungi and Bacteria Time-Lapse #12.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\Abstract Fly Agaric time lapse. Amanita muscaria. Poisonous Toadstool  #fungi.mov",
+      "historical_status": "not_found",
+      "filename": "abstract fly agaric time lapse. amanita muscaria. poisonous toadstool  #fungi.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Abstract Fly Agaric time lapse. Amanita muscaria. Poisonous Toadstool  #fungi.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\Abstract Iris flower opening and dying time lapse #abstractflower #timelapse.mov",
+      "historical_status": "not_found",
+      "filename": "abstract iris flower opening and dying time lapse #abstractflower #timelapse.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Abstract Iris flower opening and dying time lapse #abstractflower #timelapse.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\Adventures of Mark Twain.mov",
+      "historical_status": "not_found",
+      "filename": "adventures of mark twain.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Adventures of Mark Twain.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\Amazing Slime Mold Time lapse.mov",
+      "historical_status": "not_found",
+      "filename": "amazing slime mold time lapse.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Amazing Slime Mold Time lapse.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\Amazing Slime Molds Just a Coincidence.mov",
+      "historical_status": "not_found",
+      "filename": "amazing slime molds just a coincidence.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Amazing Slime Molds Just a Coincidence.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\Amazing Time lapse of cell division No CGI.mov",
+      "historical_status": "not_found",
+      "filename": "amazing time lapse of cell division no cgi.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Amazing Time lapse of cell division No CGI.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\Amoeba video.mov",
+      "historical_status": "not_found",
+      "filename": "amoeba video.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Amoeba video.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\Birdy Nam Nam - Cadillac Dreams (feat. Teki Latex) [Official Music Video].mov",
+      "historical_status": "not_found",
+      "filename": "birdy nam nam - cadillac dreams (feat. teki latex) [official music video].mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Birdy Nam Nam - Cadillac Dreams (feat. Teki Latex) [Official Music Video].mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\Cell Division Time Lapse under the microscope (400x Magnification)!.mov",
+      "historical_status": "not_found",
+      "filename": "cell division time lapse under the microscope (400x magnification)!.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Cell Division Time Lapse under the microscope (400x Magnification)!.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\Cell Division Time lapse.mov",
+      "historical_status": "not_found",
+      "filename": "cell division time lapse.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Cell Division Time lapse.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\Cellular Development Aborted time lapse.mov",
+      "historical_status": "not_found",
+      "filename": "cellular development aborted time lapse.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Cellular Development Aborted time lapse.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\Cleavage Time lapse.mov",
+      "historical_status": "not_found",
+      "filename": "cleavage time lapse.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Cleavage Time lapse.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\Comb Jelly Fish.mov",
+      "historical_status": "not_found",
+      "filename": "comb jelly fish.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Comb Jelly Fish.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\Dad is Awake.mov",
+      "historical_status": "not_found",
+      "filename": "dad is awake.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Dad is Awake.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\Egg Development Cleavage Time Lapse Watch Closely.mov",
+      "historical_status": "not_found",
+      "filename": "egg development cleavage time lapse watch closely.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Egg Development Cleavage Time Lapse Watch Closely.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\Epipedobates Egg Development Poison Dart Frog.mov",
+      "historical_status": "not_found",
+      "filename": "epipedobates egg development poison dart frog.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Epipedobates Egg Development Poison Dart Frog.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\Fear and Loathing in Las Vegas - Reptiles Scene.mov",
+      "historical_status": "not_found",
+      "filename": "fear and loathing in las vegas - reptiles scene.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Fear and Loathing in Las Vegas - Reptiles Scene.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\Fear and loathing in las vegas - Flea scene.mov",
+      "historical_status": "not_found",
+      "filename": "fear and loathing in las vegas - flea scene.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Fear and loathing in las vegas - Flea scene.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\Fern crosiers unfurling time lapse. Dryopteris affinis cristata 'The King' 4K #ferns#timelapse#king.mov",
+      "historical_status": "not_found",
+      "filename": "fern crosiers unfurling time lapse. dryopteris affinis cristata 'the king' 4k #ferns#timelapse#king.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Fern crosiers unfurling time lapse. Dryopteris affinis cristata 'The King' 4K #ferns#timelapse#king.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\Fuchsia flower opening time lapse. 4K #fuchsia.mov",
+      "historical_status": "not_found",
+      "filename": "fuchsia flower opening time lapse. 4k #fuchsia.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Fuchsia flower opening time lapse. 4K #fuchsia.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\Guess It In 5 Seconds.mov",
+      "historical_status": "not_found",
+      "filename": "guess it in 5 seconds.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Guess It In 5 Seconds.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\HowtheEy1941.mov",
+      "historical_status": "not_found",
+      "filename": "howtheey1941.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/HowtheEy1941.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\Lichen Time lapse.mov",
+      "historical_status": "not_found",
+      "filename": "lichen time lapse.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Lichen Time lapse.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\Living Tardigrades Water Bears.mov",
+      "historical_status": "not_found",
+      "filename": "living tardigrades water bears.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Living Tardigrades Water Bears.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\Maral - Ground Groove.mov",
+      "historical_status": "not_found",
+      "filename": "maral - ground groove.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Maral - Ground Groove.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\Maral ft. Panda Bear \u2013 'On Your Way'.mov",
+      "historical_status": "not_found",
+      "filename": "maral ft. panda bear \u2013 'on your way'.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Maral ft. Panda Bear \u2013 'On Your Way'.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\Meadow Goat's-Beard seedhead opening in time lapse to real time seeds blowing away. Black & White 4K.mov",
+      "historical_status": "not_found",
+      "filename": "meadow goat's-beard seedhead opening in time lapse to real time seeds blowing away. black & white 4k.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Meadow Goat's-Beard seedhead opening in time lapse to real time seeds blowing away. Black & White 4K.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\Mushroom time lapse Fairy Ink Cap.mov",
+      "historical_status": "not_found",
+      "filename": "mushroom time lapse fairy ink cap.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Mushroom time lapse Fairy Ink Cap.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\Mycelium Time Lapse Soil.mov",
+      "historical_status": "not_found",
+      "filename": "mycelium time lapse soil.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Mycelium Time Lapse Soil.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\Parasite Attacks!.mov",
+      "historical_status": "not_found",
+      "filename": "parasite attacks!.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Parasite Attacks!.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\Physarium polycephalum Slime Mold.mov",
+      "historical_status": "not_found",
+      "filename": "physarium polycephalum slime mold.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Physarium polycephalum Slime Mold.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\RARE NASA Mission Control Consoles CLOSE UP SCREEN VIEWS 1970 HD (Space Apollo Computers MOCR).mov",
+      "historical_status": "filename_only_candidate",
+      "filename": "rare nasa mission control consoles close up screen views 1970 hd (space apollo computers mocr).mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [
+        {
+          "path": "/Users/donovan/Documents/Resolume Arena/Renders/RARE NASA Mission Control Consoles CLOSE UP SCREEN VIEWS 1970 HD (Space Apollo Computers MOCR).mov",
+          "exists": true
+        }
+      ],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/RARE NASA Mission Control Consoles CLOSE UP SCREEN VIEWS 1970 HD (Space Apollo Computers MOCR).mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\Rainer Kohlberger & Jung An Tagen - Emergence Collapse.mov",
+      "historical_status": "not_found",
+      "filename": "rainer kohlberger & jung an tagen - emergence collapse.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Rainer Kohlberger & Jung An Tagen - Emergence Collapse.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\Raoul Duke's Drugs Collection - Fear & Loathing in Las Vegas - Full Scene.mov",
+      "historical_status": "not_found",
+      "filename": "raoul duke's drugs collection - fear & loathing in las vegas - full scene.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Raoul Duke's Drugs Collection - Fear & Loathing in Las Vegas - Full Scene.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\Rose Chafer Beetle.mov",
+      "historical_status": "not_found",
+      "filename": "rose chafer beetle.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Rose Chafer Beetle.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\Scanner Darkly - Completely Bonkers.mov",
+      "historical_status": "not_found",
+      "filename": "scanner darkly - completely bonkers.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Scanner Darkly - Completely Bonkers.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\Security Features Of The US $100 Dollar Bill Under A Microscope.mov",
+      "historical_status": "not_found",
+      "filename": "security features of the us $100 dollar bill under a microscope.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Security Features Of The US $100 Dollar Bill Under A Microscope.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\Slime Mold White.mov",
+      "historical_status": "not_found",
+      "filename": "slime mold white.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Slime Mold White.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\Tadpole Development Time Lapse.mov",
+      "historical_status": "not_found",
+      "filename": "tadpole development time lapse.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Tadpole Development Time Lapse.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\The Aftermath  Halo 2 Super Bouncing.mov",
+      "historical_status": "not_found",
+      "filename": "the aftermath  halo 2 super bouncing.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/The Aftermath  Halo 2 Super Bouncing.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\The Wacky Adventures of Ronald McDonald Scared Silly (1 4).mov",
+      "historical_status": "not_found",
+      "filename": "the wacky adventures of ronald mcdonald scared silly (1 4).mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/The Wacky Adventures of Ronald McDonald Scared Silly (1 4).mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\Time-Lapse Flower.mov",
+      "historical_status": "not_found",
+      "filename": "time-lapse flower.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Time-Lapse Flower.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\Tiny cactus, extreme macro..mov",
+      "historical_status": "not_found",
+      "filename": "tiny cactus, extreme macro..mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Tiny cactus, extreme macro..mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\Vasulkas Transformations.mov",
+      "historical_status": "not_found",
+      "filename": "vasulkas transformations.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Vasulkas Transformations.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\Why The Wiggling Introduction To MacroLab3D.mov",
+      "historical_status": "not_found",
+      "filename": "why the wiggling introduction to macrolab3d.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Why The Wiggling Introduction To MacroLab3D.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\Willy Wonka  Shamanic Boat Ride.mov",
+      "historical_status": "not_found",
+      "filename": "willy wonka  shamanic boat ride.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Willy Wonka  Shamanic Boat Ride.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\Woodland fungi growing time lapses. Fly agaric, Shaggy ink and Earthstar.mov",
+      "historical_status": "not_found",
+      "filename": "woodland fungi growing time lapses. fly agaric, shaggy ink and earthstar.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/Woodland fungi growing time lapses. Fly agaric, Shaggy ink and Earthstar.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\dancingwoman16bt.sleepytom.Pjpeg80_512kb.mov",
+      "historical_status": "not_found",
+      "filename": "dancingwoman16bt.sleepytom.pjpeg80_512kb.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/dancingwoman16bt.sleepytom.Pjpeg80_512kb.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\\u0413\u0440\u0430\u0432\u0438\u0442\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0435 \u043f\u043e\u043b\u0435, \u041a\u0438\u0435\u0432\u043d\u0430\u0443\u0447\u0444\u0438\u043b\u044c\u043c, 1987.mov",
+      "historical_status": "not_found",
+      "filename": "\u0433\u0440\u0430\u0432\u0438\u0442\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0435 \u043f\u043e\u043b\u0435, \u043a\u0438\u0435\u0432\u043d\u0430\u0443\u0447\u0444\u0438\u043b\u044c\u043c, 1987.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/\u0413\u0440\u0430\u0432\u0438\u0442\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0435 \u043f\u043e\u043b\u0435, \u041a\u0438\u0435\u0432\u043d\u0430\u0443\u0447\u0444\u0438\u043b\u044c\u043c, 1987.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\\u041b\u0435\u043d\u044c 1979 \u041c\u0443\u043b\u044c\u0442\u0444\u0438\u043b\u044c\u043c \u0434\u043b\u044f \u0434\u0435\u0442\u0435\u0439 \u0438 \u0432\u0437\u0440\u043e\u0441\u043b\u044b\u0445 \u0438 \u0440\u043e\u0434\u0438\u0442\u0435\u043b\u0435\u0439 \u041a\u0438\u0435\u0432\u043d\u0430\u0443\u0447\u0444\u0438\u043b\u044c\u043c\u0430.mov",
+      "historical_status": "not_found",
+      "filename": "\u043b\u0435\u043d\u044c 1979 \u043c\u0443\u043b\u044c\u0442\u0444\u0438\u043b\u044c\u043c \u0434\u043b\u044f \u0434\u0435\u0442\u0435\u0439 \u0438 \u0432\u0437\u0440\u043e\u0441\u043b\u044b\u0445 \u0438 \u0440\u043e\u0434\u0438\u0442\u0435\u043b\u0435\u0439 \u043a\u0438\u0435\u0432\u043d\u0430\u0443\u0447\u0444\u0438\u043b\u044c\u043c\u0430.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/\u041b\u0435\u043d\u044c 1979 \u041c\u0443\u043b\u044c\u0442\u0444\u0438\u043b\u044c\u043c \u0434\u043b\u044f \u0434\u0435\u0442\u0435\u0439 \u0438 \u0432\u0437\u0440\u043e\u0441\u043b\u044b\u0445 \u0438 \u0440\u043e\u0434\u0438\u0442\u0435\u043b\u0435\u0439 \u041a\u0438\u0435\u0432\u043d\u0430\u0443\u0447\u0444\u0438\u043b\u044c\u043c\u0430.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\\u041c\u0443\u043b\u044c\u0442\u0444\u0438\u043b\u044c\u043c  \u0428\u043a\u0430\u0442\u0443\u043b\u043a\u0430 \u0441 \u0441\u0435\u043a\u0440\u0435\u0442\u043e\u043c.mov",
+      "historical_status": "not_found",
+      "filename": "\u043c\u0443\u043b\u044c\u0442\u0444\u0438\u043b\u044c\u043c  \u0448\u043a\u0430\u0442\u0443\u043b\u043a\u0430 \u0441 \u0441\u0435\u043a\u0440\u0435\u0442\u043e\u043c.mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/\u041c\u0443\u043b\u044c\u0442\u0444\u0438\u043b\u044c\u043c  \u0428\u043a\u0430\u0442\u0443\u043b\u043a\u0430 \u0441 \u0441\u0435\u043a\u0440\u0435\u0442\u043e\u043c.mov",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\User\\Videos\\youtube rips\\dxv\\\u041f\u043e\u043b\u0443\u043d\u043e\u0447\u043d\u044b\u0435 \u0438\u0433\u0440\u044b   \u043c\u0443\u043b\u044c\u0442\u0444\u0438\u043b\u044c\u043c (1991, \u0441\u0442\u0443\u0434\u0438\u044f  \u041f\u0438\u043b\u043e\u0442 ).mov",
+      "historical_status": "not_found",
+      "filename": "\u043f\u043e\u043b\u0443\u043d\u043e\u0447\u043d\u044b\u0435 \u0438\u0433\u0440\u044b   \u043c\u0443\u043b\u044c\u0442\u0444\u0438\u043b\u044c\u043c (1991, \u0441\u0442\u0443\u0434\u0438\u044f  \u043f\u0438\u043b\u043e\u0442 ).mov",
+      "recorded_relink_target": null,
+      "recorded_target_exists": null,
+      "candidates": [],
+      "bounded_mirror_checks": [
+        {
+          "path": "/Users/donovan/work/Visuals/youtube rips/dxv/\u041f\u043e\u043b\u0443\u043d\u043e\u0447\u043d\u044b\u0435 \u0438\u0433\u0440\u044b   \u043c\u0443\u043b\u044c\u0442\u0444\u0438\u043b\u044c\u043c (1991, \u0441\u0442\u0443\u0434\u0438\u044f  \u041f\u0438\u043b\u043e\u0442 ).mov",
+          "exists": false
+        }
+      ]
+    }
+  ]
+}

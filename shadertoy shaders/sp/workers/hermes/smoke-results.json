@@ -1,0 +1,101 @@
+[
+  {
+    "alias": "hy3",
+    "provider": "nous",
+    "model": "tencent/hy3:free",
+    "status": "credential resolution failed",
+    "error_type": "AuthError"
+  },
+  {
+    "alias": "fable5",
+    "provider": "nous",
+    "model": "anthropic/claude-fable-5",
+    "status": "credential resolution failed",
+    "error_type": "AuthError"
+  },
+  {
+    "alias": "gflash",
+    "provider": "gemini",
+    "model": "gemini-flash-latest",
+    "http": 200,
+    "status": "PASS",
+    "reply_chars": 8,
+    "seconds": 2.32
+  },
+  {
+    "alias": "g35",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash",
+    "http": 200,
+    "status": "responded; unexpected/empty text",
+    "reply_chars": 6,
+    "seconds": 1.07
+  },
+  {
+    "alias": "g25",
+    "provider": "gemini",
+    "model": "gemini-2.5-flash",
+    "http": 404,
+    "status": "model or route unavailable",
+    "seconds": 0.31
+  },
+  {
+    "alias": "kimik2",
+    "provider": "huggingface",
+    "model": "moonshotai/Kimi-K2.5",
+    "http": 402,
+    "status": "credit/payment required",
+    "seconds": 0.55
+  },
+  {
+    "alias": "bonsai",
+    "provider": "huggingface",
+    "model": "prism-ml/Ternary-Bonsai-27B-gguf",
+    "http": 200,
+    "status": "responded; unexpected/empty text",
+    "reply_chars": 0,
+    "seconds": 1.37
+  },
+  {
+    "alias": "kimik3",
+    "provider": "openrouter",
+    "model": "moonshotai/kimi-k3",
+    "http": 200,
+    "status": "PASS",
+    "reply_chars": 8,
+    "seconds": 3.68
+  },
+  {
+    "alias": "grok",
+    "provider": "xai",
+    "model": "grok-build-0.1",
+    "http": 403,
+    "status": "access denied",
+    "seconds": 0.23
+  },
+  {
+    "alias": "nvidia",
+    "provider": "nvidia",
+    "model": "01-ai/yi-large",
+    "http": 401,
+    "status": "authentication rejected",
+    "seconds": 0.47
+  },
+  {
+    "alias": "deepinfra",
+    "provider": "deepinfra",
+    "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+    "http": 402,
+    "status": "credit/payment required",
+    "seconds": 1.14
+  },
+  {
+    "alias": "copilot",
+    "provider": "copilot",
+    "model": "gpt-4o-mini-2024-07-18",
+    "http": 200,
+    "status": "PASS",
+    "reply_chars": 8,
+    "seconds": 1.14
+  }
+]

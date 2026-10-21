@@ -1,0 +1,3920 @@
+{
+  "H": 90.062,
+  "bpm": 120.0,
+  "fps": 238.4,
+  "worst": 1.22,
+  "clips": [
+    {
+      "name": "map",
+      "layer": 1,
+      "col": 1,
+      "pattern": "per-slot",
+      "g": {
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0,
+        "relationship": {
+          "kind": "pendulum",
+          "base": 17,
+          "step": 1,
+          "members": {
+            "Zoom": 0,
+            "Rotate": 1,
+            "Drift X": 2,
+            "Drift Y": 3,
+            "Center X": 4,
+            "Center Y": 5
+          }
+        },
+        "speed": 0.25
+      },
+      "morph": 3.0,
+      "home": true,
+      "feedback_behaviors": [],
+      "home_kind": "factory Home",
+      "arm": {
+        "global": [],
+        "slots": {}
+      },
+      "auto": 0,
+      "armsets": [],
+      "presets": [],
+      "preset_names": {},
+      "slots": [
+        {
+          "name": "Zoom",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.7192,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.7071999999999999,
+          "hi": 0.7192,
+          "lock": false
+        },
+        {
+          "name": "Rotate",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.4643,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": true,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.16666666666666666,
+          "shape": 1,
+          "lo": 0.4631,
+          "hi": 0.4691,
+          "lock": false
+        },
+        {
+          "name": "Drift X",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.4532,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": true,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.3333333333333333,
+          "shape": 1,
+          "lo": 0.4492,
+          "hi": 0.4532,
+          "lock": false
+        },
+        {
+          "name": "Drift Y",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.498,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.5,
+          "shape": 1,
+          "lo": 0.498,
+          "hi": 0.502,
+          "lock": false
+        },
+        {
+          "name": "Center X",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.5297,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.6666666666666666,
+          "shape": 1,
+          "lo": 0.47,
+          "hi": 0.53,
+          "lock": false
+        },
+        {
+          "name": "Center Y",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.4707,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.8333333333333334,
+          "shape": 1,
+          "lo": 0.47,
+          "hi": 0.53,
+          "lock": false
+        },
+        {
+          "name": "Gain",
+          "owner": "heart",
+          "choices": [],
+          "v": 1.0,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Floor",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.4335,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Key",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.4351,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        }
+      ]
+    },
+    {
+      "name": "level",
+      "layer": 2,
+      "col": 1,
+      "pattern": "per-slot",
+      "g": {
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0,
+        "relationship": {
+          "kind": "pendulum",
+          "base": 17,
+          "step": 1,
+          "members": {
+            "Key": 0,
+            "Soft": 1,
+            "Gain": 2,
+            "Floor": 3,
+            "Curve": 4,
+            "Ceiling": 5,
+            "Lift": 6
+          }
+        },
+        "speed": 0.25
+      },
+      "morph": 3.0,
+      "home": true,
+      "feedback_behaviors": [],
+      "home_kind": "factory Home",
+      "arm": {
+        "global": [],
+        "slots": {}
+      },
+      "auto": 0,
+      "armsets": [],
+      "presets": [],
+      "preset_names": {},
+      "slots": [
+        {
+          "name": "Gain",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.9991,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.2857142857142857,
+          "shape": 1,
+          "lo": 0.97,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Floor",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.0018,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.42857142857142855,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 0.025,
+          "lock": false
+        },
+        {
+          "name": "Key",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.39,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.355,
+          "hi": 0.39,
+          "lock": false
+        },
+        {
+          "name": "Soft",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.0001,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.14285714285714285,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 0.015,
+          "lock": false
+        },
+        {
+          "name": "Curve",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.0692,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.5714285714285714,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 0.08,
+          "lock": false
+        },
+        {
+          "name": "Ceiling",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.937,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.7142857142857143,
+          "shape": 1,
+          "lo": 0.92,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Lift",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.0174,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.8571428571428571,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 0.025,
+          "lock": false
+        }
+      ]
+    },
+    {
+      "name": "void",
+      "layer": 3,
+      "col": 3,
+      "pattern": "per-slot",
+      "g": {
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0,
+        "relationship": {
+          "kind": "pendulum",
+          "base": 17,
+          "step": 1,
+          "members": {
+            "Travel": 0,
+            "Sway": 1,
+            "Bob": 2,
+            "Yaw": 3,
+            "Tilt": 4,
+            "Horizon": 5,
+            "Dolly": 6,
+            "Focal mm": 7,
+            "Distort": 8,
+            "Density": 9,
+            "Size": 10,
+            "Reach": 11,
+            "Haze": 12,
+            "Soft": 13
+          }
+        },
+        "speed": 0.25
+      },
+      "morph": 3.0,
+      "home": true,
+      "feedback_behaviors": [],
+      "home_kind": "factory Home",
+      "arm": {
+        "global": [],
+        "slots": {}
+      },
+      "auto": 0,
+      "armsets": [],
+      "presets": [],
+      "preset_names": {},
+      "slots": [
+        {
+          "name": "Tilt",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.0789,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": true,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.2857142857142857,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 0.106,
+          "lock": false
+        },
+        {
+          "name": "Sway",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.4759,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.07142857142857142,
+          "shape": 1,
+          "lo": 0.47,
+          "hi": 0.54,
+          "lock": false
+        },
+        {
+          "name": "Bob",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.3906,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.14285714285714285,
+          "shape": 1,
+          "lo": 0.34430000000000005,
+          "hi": 0.4143,
+          "lock": false
+        },
+        {
+          "name": "Travel",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.0613,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": true,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.8124,
+          "hi": 0.9924,
+          "lock": false
+        },
+        {
+          "name": "Horizon",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.565,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.35714285714285715,
+          "shape": 1,
+          "lo": 0.41769999999999996,
+          "hi": 0.5777,
+          "lock": false
+        },
+        {
+          "name": "Yaw",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.5318,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.21428571428571427,
+          "shape": 1,
+          "lo": 0.5054,
+          "hi": 0.5454,
+          "lock": false
+        },
+        {
+          "name": "Dolly",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.6048,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.42857142857142855,
+          "shape": 1,
+          "lo": 0.5608,
+          "hi": 0.6208,
+          "lock": false
+        },
+        {
+          "name": "Focal mm",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.3989,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.5,
+          "shape": 1,
+          "lo": 0.3698,
+          "hi": 0.42979999999999996,
+          "lock": false
+        },
+        {
+          "name": "Lens",
+          "owner": "heart",
+          "choices": [
+            "rectilinear",
+            "stereographic",
+            "equidistant",
+            "equisolid",
+            "orthographic"
+          ],
+          "v": 0.0,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:4",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 0,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Distort",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.2841,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.5714285714285714,
+          "shape": 1,
+          "lo": 0.24559999999999998,
+          "hi": 0.4056,
+          "lock": false
+        },
+        {
+          "name": "Density",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.0019,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.6428571428571429,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 0.03,
+          "lock": false
+        },
+        {
+          "name": "Size",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.0655,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.7142857142857143,
+          "shape": 1,
+          "lo": 0.0655,
+          "hi": 0.1255,
+          "lock": false
+        },
+        {
+          "name": "Reach",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.1581,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.7857142857142857,
+          "shape": 1,
+          "lo": 0.15410000000000001,
+          "hi": 0.2141,
+          "lock": false
+        },
+        {
+          "name": "Haze",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.6872,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.8571428571428571,
+          "shape": 1,
+          "lo": 0.6479,
+          "hi": 0.8079,
+          "lock": false
+        },
+        {
+          "name": "Soft",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.649,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.9285714285714286,
+          "shape": 1,
+          "lo": 0.5705,
+          "hi": 0.7304999999999999,
+          "lock": false
+        }
+      ]
+    },
+    {
+      "name": "figure",
+      "layer": 4,
+      "col": 1,
+      "pattern": "per-slot",
+      "g": {
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0,
+        "relationship": {
+          "kind": "pendulum",
+          "base": 17,
+          "step": 1,
+          "members": {
+            "R": 0,
+            "G": 1,
+            "B": 2,
+            "Span": 3,
+            "Glide": 4
+          }
+        },
+        "speed": 8.0
+      },
+      "morph": 3.0,
+      "home": true,
+      "feedback_behaviors": [],
+      "home_kind": "factory Home",
+      "arm": {
+        "global": [],
+        "slots": {}
+      },
+      "auto": 0,
+      "armsets": [],
+      "presets": [],
+      "preset_names": {},
+      "slots": [
+        {
+          "name": "Taps",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.2638,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Span",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.9752,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.6,
+          "shape": 1,
+          "lo": 0.92,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Glide",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.2054,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.8,
+          "shape": 1,
+          "lo": 0.20479999999999998,
+          "hi": 0.3648,
+          "lock": false
+        },
+        {
+          "name": "R",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.7745,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "G",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.1702,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.2,
+          "shape": 1,
+          "lo": 0.1675,
+          "hi": 0.2075,
+          "lock": false
+        },
+        {
+          "name": "B",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.2699,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.4,
+          "shape": 1,
+          "lo": 0.23,
+          "hi": 0.27,
+          "lock": false
+        }
+      ]
+    },
+    {
+      "name": "shell",
+      "layer": 5,
+      "col": 5,
+      "pattern": "per-slot",
+      "g": {
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0,
+        "relationship": {
+          "kind": "pendulum",
+          "base": 17,
+          "step": 1,
+          "members": {
+            "Turn": 0,
+            "Spin": 1,
+            "Double": 2,
+            "Sweep": 3,
+            "Thickness": 4,
+            "Hue": 5,
+            "W": 6,
+            "Sun": 7,
+            "Height": 8,
+            "X": 9,
+            "Y": 10,
+            "Morph": 11,
+            "Size": 12,
+            "Spread": 13,
+            "Drift": 14,
+            "Distance": 15,
+            "Faces": 16,
+            "Edges": 17,
+            "Round": 18,
+            "Shade": 19,
+            "Rim": 20,
+            "Haze": 21,
+            "Halo": 22,
+            "Focus": 23,
+            "Wet": 24,
+            "Loop": 25,
+            "Red": 26,
+            "Green": 27,
+            "Blue": 28,
+            "Depth": 29
+          }
+        },
+        "speed": 0.25
+      },
+      "morph": 3.0,
+      "home": true,
+      "feedback_behaviors": [],
+      "home_kind": "factory Home",
+      "arm": {
+        "global": [],
+        "slots": {}
+      },
+      "auto": 0,
+      "armsets": [],
+      "presets": [],
+      "preset_names": {},
+      "slots": [
+        {
+          "name": "Figure A",
+          "owner": "heart",
+          "choices": [
+            "tesseract",
+            "4-sphere",
+            "duocylinder",
+            "16-cell",
+            "4D torus",
+            "24-cell"
+          ],
+          "v": 1.0,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:3",
+          "mult": 1.0,
+          "offset": 0.25,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Figure B",
+          "owner": "heart",
+          "choices": [
+            "tesseract",
+            "4-sphere",
+            "duocylinder",
+            "16-cell",
+            "4D torus",
+            "24-cell"
+          ],
+          "v": 0.0,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "3:2",
+          "mult": 2.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Morph",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.7336,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.36666666666666664,
+          "shape": 1,
+          "lo": 0.5787,
+          "hi": 0.7386999999999999,
+          "lock": false
+        },
+        {
+          "name": "Size",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.35,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.4,
+          "shape": 1,
+          "lo": 0.32930000000000004,
+          "hi": 0.3893,
+          "lock": false
+        },
+        {
+          "name": "W",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.5894,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.2,
+          "shape": 1,
+          "lo": 0.46449999999999997,
+          "hi": 0.6244999999999999,
+          "lock": false
+        },
+        {
+          "name": "Thickness",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.7455,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.13333333333333333,
+          "shape": 1,
+          "lo": 0.7424,
+          "hi": 0.8324,
+          "lock": false
+        },
+        {
+          "name": "Layers",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.9849,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "8:13",
+          "mult": 2.0,
+          "offset": 0.0,
+          "shape": 0,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Spread",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.0243,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.43333333333333335,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 0.1078,
+          "lock": false
+        },
+        {
+          "name": "Sweep",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.1157,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": true,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.1,
+          "shape": 1,
+          "lo": 0.6544000000000001,
+          "hi": 0.8044,
+          "lock": false
+        },
+        {
+          "name": "Drift",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.9618,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.4666666666666667,
+          "shape": 1,
+          "lo": 0.8022,
+          "hi": 0.9621999999999999,
+          "lock": false
+        },
+        {
+          "name": "Turn",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.2613,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": true,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.35380000000000006,
+          "hi": 0.7038,
+          "lock": false
+        },
+        {
+          "name": "Spin",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.7576,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": true,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.03333333333333333,
+          "shape": 1,
+          "lo": 0.4972,
+          "hi": 0.7472,
+          "lock": false
+        },
+        {
+          "name": "Double",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.1615,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": true,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.06666666666666667,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 0.1185,
+          "lock": false
+        },
+        {
+          "name": "X",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.4501,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.3,
+          "shape": 1,
+          "lo": 0.3589,
+          "hi": 0.5189,
+          "lock": false
+        },
+        {
+          "name": "Y",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.2723,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.3333333333333333,
+          "shape": 1,
+          "lo": 0.2611,
+          "hi": 0.42110000000000003,
+          "lock": false
+        },
+        {
+          "name": "Perspective",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.0,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "3:4",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Sun",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.4495,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": true,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.23333333333333334,
+          "shape": 1,
+          "lo": 0.2794,
+          "hi": 0.4394,
+          "lock": false
+        },
+        {
+          "name": "Height",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.7018,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.26666666666666666,
+          "shape": 1,
+          "lo": 0.5670000000000001,
+          "hi": 0.727,
+          "lock": false
+        },
+        {
+          "name": "Distance",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.5496,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.5,
+          "shape": 1,
+          "lo": 0.5253,
+          "hi": 0.6852999999999999,
+          "lock": false
+        },
+        {
+          "name": "Faces",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.5893,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.5333333333333333,
+          "shape": 1,
+          "lo": 0.5193000000000001,
+          "hi": 0.6793,
+          "lock": false
+        },
+        {
+          "name": "Edges",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.0742,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.5666666666666667,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 0.0801,
+          "lock": false
+        },
+        {
+          "name": "Round",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.0024,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.6,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 0.08,
+          "lock": false
+        },
+        {
+          "name": "Vertices",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.0,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:3",
+          "mult": 1.0,
+          "offset": 0.25,
+          "shape": 0,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Shade",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.9729,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.6333333333333333,
+          "shape": 1,
+          "lo": 0.92,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Rim",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.0615,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.6666666666666666,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 0.08,
+          "lock": false
+        },
+        {
+          "name": "Haze",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.0002,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.7,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 0.08,
+          "lock": false
+        },
+        {
+          "name": "Halo",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.4295,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.7333333333333333,
+          "shape": 1,
+          "lo": 0.293,
+          "hi": 0.453,
+          "lock": false
+        },
+        {
+          "name": "Focus",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.62,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.7666666666666667,
+          "shape": 1,
+          "lo": 0.5311,
+          "hi": 0.6910999999999999,
+          "lock": false
+        },
+        {
+          "name": "Material",
+          "owner": "heart",
+          "choices": [
+            "smooth",
+            "stone",
+            "crystal",
+            "glass"
+          ],
+          "v": 0.0,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "3:2",
+          "mult": -1.0,
+          "offset": 0.75,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Micro",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.6283,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "2:3",
+          "mult": 2.0,
+          "offset": 0.5,
+          "shape": 0,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Fine",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.5,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "3:5",
+          "mult": 1.0,
+          "offset": 0.5,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Base",
+          "owner": "heart",
+          "choices": [
+            "gray",
+            "normal"
+          ],
+          "v": 1.0,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:3",
+          "mult": 2.0,
+          "offset": 0.75,
+          "shape": 0,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Wet",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.9262,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.8,
+          "shape": 1,
+          "lo": 0.92,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Loop",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.591,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.8333333333333334,
+          "shape": 1,
+          "lo": 0.43539999999999995,
+          "hi": 0.5953999999999999,
+          "lock": false
+        },
+        {
+          "name": "Hue",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.8663,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": true,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.16666666666666666,
+          "shape": 1,
+          "lo": 0.6609,
+          "hi": 0.8109,
+          "lock": false
+        },
+        {
+          "name": "Depth",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.9683,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.9666666666666667,
+          "shape": 1,
+          "lo": 0.9631,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Red",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.5217,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.8666666666666667,
+          "shape": 1,
+          "lo": 0.46869999999999995,
+          "hi": 0.6286999999999999,
+          "lock": false
+        },
+        {
+          "name": "Green",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.3308,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.9,
+          "shape": 1,
+          "lo": 0.29269999999999996,
+          "hi": 0.4527,
+          "lock": false
+        },
+        {
+          "name": "Blue",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.6962,
+          "drive": true,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.9333333333333333,
+          "shape": 1,
+          "lo": 0.5368,
+          "hi": 0.6968,
+          "lock": false
+        }
+      ]
+    },
+    {
+      "name": "dither",
+      "layer": 7,
+      "col": 1,
+      "pattern": "per-slot",
+      "g": {
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "morph": 3.0,
+      "home": true,
+      "feedback_behaviors": [],
+      "home_kind": "factory Home",
+      "arm": {
+        "global": [],
+        "slots": {}
+      },
+      "auto": 0,
+      "armsets": [],
+      "presets": [],
+      "preset_names": {},
+      "slots": [
+        {
+          "name": "Pattern",
+          "owner": "heart",
+          "choices": [
+            "bayer 2x2",
+            "bayer 4x4",
+            "bayer 8x8",
+            "halftone dots",
+            "halftone lines",
+            "checker",
+            "noise",
+            "hex dots",
+            "crosshatch",
+            "diamond",
+            "rings",
+            "value noise"
+          ],
+          "v": 1.0,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:4",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 0,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Size",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.2421,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:4",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Mode",
+          "owner": "heart",
+          "choices": [
+            "luminance",
+            "per channel"
+          ],
+          "v": 1.0,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:4",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 0,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Levels",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.0,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:4",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Contrast",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.2,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:4",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Bias",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.5,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:4",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Color",
+          "owner": "heart",
+          "choices": [
+            "sampled",
+            "tinted"
+          ],
+          "v": 0.0,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:4",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 0,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Dither",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.0,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:4",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Cells",
+          "owner": "heart",
+          "choices": [
+            "off",
+            "on"
+          ],
+          "v": 0.0,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:4",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 0,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Engine",
+          "owner": "heart",
+          "choices": [
+            "none",
+            "NES / Famicom",
+            "Game Boy (DMG) - mono green",
+            "Game Boy Pocket (MGB) - mono gray",
+            "Game Boy Light (MGB-101) - mono warm/backlit",
+            "Virtual Boy - mono red",
+            "Game Boy Color (classic 16)",
+            "Commodore 64",
+            "Atari 2600",
+            "ZX Spectrum",
+            "PICO-8",
+            "IBM PC EGA (16)",
+            "Sega Master System",
+            "SNES / Super Famicom (subset)",
+            "Amiga OCS/ECS",
+            "Apple II (6-color hi-res)",
+            "Apple IIgs",
+            "Sega Game Gear",
+            "MSX (MSX1 / TMS9918, 16)",
+            "Amstrad CPC",
+            "TI-99/4A (TMS9918A, 16)",
+            "NEC PC-9801 / PC-98",
+            "IBM PC CGA",
+            "IBM PC VGA (16)",
+            "Tandy 1000 / PCjr (TGA 16)",
+            "Hercules (amber mono)",
+            "Macintosh 1-bit (B/W)",
+            "NEC PC-8801 (PC-88, 8)",
+            "Sharp X68000",
+            "Atari ST",
+            "BBC Micro (Mode 2, 8)",
+            "PC Engine / TurboGrafx-16",
+            "Sega Mega Drive / Genesis"
+          ],
+          "v": 0.3438,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:4",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 0,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Native",
+          "owner": "heart",
+          "choices": [
+            "authentic",
+            "x2"
+          ],
+          "v": 0.0,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:4",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 0,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Scan",
+          "owner": "heart",
+          "choices": [],
+          "v": 1.0,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:4",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Spacing",
+          "owner": "heart",
+          "choices": [],
+          "v": 1.0,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:4",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Tint",
+          "owner": "heart",
+          "choices": [
+            "none",
+            "amber",
+            "green",
+            "blue",
+            "sepia",
+            "warm lcd",
+            "cool lcd"
+          ],
+          "v": 0.0,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:4",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 0,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Key",
+          "owner": "heart",
+          "choices": [],
+          "v": 0.0,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:4",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Mix",
+          "owner": "heart",
+          "choices": [],
+          "v": 1.0,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:4",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        }
+      ]
+    }
+  ],
+  "events": [
+    "17:36:30 map: home loaded",
+    "17:36:30 took over L1C1 'map': 9 slots",
+    "17:36:30 level: home loaded",
+    "17:36:30 took over L2C1 'level': 7 slots",
+    "17:36:30 void: home loaded",
+    "17:36:30 took over L3C3 'void': 15 slots",
+    "17:36:30 figure: home loaded",
+    "17:36:30 took over L4C1 'figure': 6 slots",
+    "17:36:30 shell: home loaded",
+    "17:36:30 took over L5C5 'shell': 39 slots",
+    "17:36:30 dither: home loaded",
+    "17:36:30 took over L7C1 'dither': 16 slots"
+  ],
+  "bars": 2.0,
+  "hold": false,
+  "arena_connected": true,
+  "surface": {
+    "pad": {
+      "assign": {},
+      "cfg": {},
+      "home": {}
+    }
+  },
+  "patches": [
+    "Connection check",
+    "Start",
+    "Studio start"
+  ],
+  "patch_recall_ready": true,
+  "patch_status": "Idle",
+  "patch_operation": {
+    "active": false,
+    "stage": "Idle",
+    "elapsed": 0
+  },
+  "queue": 43,
+  "delivery": {
+    "pending": 43,
+    "coalesced": 27479,
+    "dequeued": 894709,
+    "max_pending_age_ms": 31.68
+  },
+  "layers": [
+    {
+      "i": 8,
+      "name": "grain",
+      "opacity": 0.0,
+      "bypass": false,
+      "clip": "",
+      "clips": [
+        {
+          "col": 1,
+          "name": "grain"
+        },
+        {
+          "col": 8,
+          "name": "SP Grain"
+        },
+        {
+          "col": 9,
+          "name": "SP State Test"
+        }
+      ],
+      "ccol": 0,
+      "ap": 0
+    },
+    {
+      "i": 7,
+      "name": "texture",
+      "opacity": 0.0,
+      "bypass": false,
+      "clip": "",
+      "clips": [
+        {
+          "col": 1,
+          "name": "dither"
+        },
+        {
+          "col": 2,
+          "name": "texture"
+        },
+        {
+          "col": 8,
+          "name": "SP Scan"
+        }
+      ],
+      "ccol": 1,
+      "ap": 0
+    },
+    {
+      "i": 6,
+      "name": "glyph",
+      "opacity": 0.0,
+      "bypass": false,
+      "clip": "",
+      "clips": [
+        {
+          "col": 1,
+          "name": "glyph"
+        },
+        {
+          "col": 2,
+          "name": "script"
+        },
+        {
+          "col": 8,
+          "name": "SP Glyphmass"
+        }
+      ],
+      "ccol": 0,
+      "ap": 0
+    },
+    {
+      "i": 5,
+      "name": "figure",
+      "opacity": 0.65,
+      "bypass": false,
+      "clip": "",
+      "clips": [
+        {
+          "col": 1,
+          "name": "1d"
+        },
+        {
+          "col": 2,
+          "name": "2d"
+        },
+        {
+          "col": 3,
+          "name": "3d"
+        },
+        {
+          "col": 4,
+          "name": "4d"
+        },
+        {
+          "col": 5,
+          "name": "shell"
+        },
+        {
+          "col": 6,
+          "name": "hybrid"
+        },
+        {
+          "col": 8,
+          "name": "Figure 3D SP"
+        },
+        {
+          "col": 9,
+          "name": "Figure 2D SP"
+        }
+      ],
+      "ccol": 5,
+      "ap": 0
+    },
+    {
+      "i": 4,
+      "name": "delay",
+      "opacity": 0.0,
+      "bypass": false,
+      "clip": "",
+      "clips": [
+        {
+          "col": 1,
+          "name": "figure"
+        },
+        {
+          "col": 2,
+          "name": "field"
+        },
+        {
+          "col": 8,
+          "name": "Color"
+        },
+        {
+          "col": 12,
+          "name": "figure \u00b7 light delay"
+        }
+      ],
+      "ccol": 1,
+      "ap": 0
+    },
+    {
+      "i": 3,
+      "name": "field",
+      "opacity": 1.0,
+      "bypass": false,
+      "clip": "",
+      "clips": [
+        {
+          "col": 1,
+          "name": "ground"
+        },
+        {
+          "col": 2,
+          "name": "room"
+        },
+        {
+          "col": 3,
+          "name": "void"
+        },
+        {
+          "col": 8,
+          "name": "SP Field"
+        }
+      ],
+      "ccol": 3,
+      "ap": 0
+    },
+    {
+      "i": 2,
+      "name": "sculpt",
+      "opacity": 1.0,
+      "bypass": false,
+      "clip": "",
+      "clips": [
+        {
+          "col": 1,
+          "name": "level"
+        },
+        {
+          "col": 2,
+          "name": "pass"
+        },
+        {
+          "col": 3,
+          "name": "color"
+        },
+        {
+          "col": 4,
+          "name": "mixer"
+        },
+        {
+          "col": 8,
+          "name": "Shape"
+        }
+      ],
+      "ccol": 1,
+      "ap": 0
+    },
+    {
+      "i": 1,
+      "name": "feedback",
+      "opacity": 0.6,
+      "bypass": false,
+      "clip": "",
+      "clips": [
+        {
+          "col": 1,
+          "name": "map"
+        },
+        {
+          "col": 2,
+          "name": "texture"
+        },
+        {
+          "col": 3,
+          "name": "fold"
+        },
+        {
+          "col": 4,
+          "name": "level"
+        },
+        {
+          "col": 5,
+          "name": "pass"
+        },
+        {
+          "col": 6,
+          "name": "heart feedback"
+        },
+        {
+          "col": 9,
+          "name": "Flow"
+        }
+      ],
+      "ccol": 1,
+      "ap": 0
+    }
+  ],
+  "fx": [
+    {
+      "key": "layer/feedback~1/effect/HueRotate~1",
+      "scope": "L",
+      "layer": 1,
+      "lname": "feedback",
+      "name": "Hue Rotate",
+      "colors": {},
+      "params": {
+        "Opacity": {
+          "id": 1788814537354,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 1.0,
+          "view": {
+            "suffix": " %",
+            "multiplier": 100.0,
+            "display_units": "percent",
+            "control_type": "slider_color_opacity"
+          }
+        },
+        "Hue Scale": {
+          "id": 1788814537348,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 1.0
+        },
+        "Hue Rotate": {
+          "id": 1788814537349,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 0.0
+        },
+        "Sat. Scale": {
+          "id": 1788814537350,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 0.5
+        }
+      },
+      "has_amount": true,
+      "env": 1.0,
+      "target": 1.0,
+      "pending": false,
+      "bypassed": false,
+      "cfg": {
+        "attack": 0.5,
+        "release": 1.0,
+        "mode": "latch",
+        "quant": 0,
+        "hold": 1.0,
+        "key": "",
+        "bypass0": true,
+        "bind": null
+      }
+    },
+    {
+      "key": "layer/feedback~1/effect/DelayRGB~1",
+      "scope": "L",
+      "layer": 1,
+      "lname": "feedback",
+      "name": "Delay RGB",
+      "colors": {},
+      "params": {
+        "Opacity": {
+          "id": 1788814537371,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 0.0,
+          "view": {
+            "suffix": " %",
+            "multiplier": 100.0,
+            "display_units": "percent",
+            "control_type": "slider_color_opacity"
+          }
+        },
+        "R delay": {
+          "id": 1788814537365,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 0.0,
+          "view": {
+            "suffix": "",
+            "alternative_name": "Delay R"
+          }
+        },
+        "G delay": {
+          "id": 1788814537366,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 0.15,
+          "view": {
+            "suffix": "",
+            "alternative_name": "Delay G"
+          }
+        },
+        "B delay": {
+          "id": 1788814537367,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 0.3,
+          "view": {
+            "suffix": "",
+            "alternative_name": "Delay B"
+          }
+        }
+      },
+      "has_amount": true,
+      "env": 0.0,
+      "target": 0.0,
+      "pending": false,
+      "bypassed": true,
+      "cfg": {
+        "attack": 0.5,
+        "release": 1.0,
+        "mode": "latch",
+        "quant": 0,
+        "hold": 1.0,
+        "key": "",
+        "bypass0": true,
+        "bind": null
+      }
+    },
+    {
+      "key": "layer/feedback~1/effect/AutoMask~1",
+      "scope": "L",
+      "layer": 1,
+      "lname": "feedback",
+      "name": "Auto Mask",
+      "colors": {},
+      "params": {
+        "Opacity": {
+          "id": 1788814537388,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 0.0,
+          "view": {
+            "suffix": " %",
+            "multiplier": 100.0,
+            "display_units": "percent",
+            "control_type": "slider_color_opacity"
+          }
+        },
+        "Channel": {
+          "id": 1788814537382,
+          "valuetype": "ParamChoice",
+          "value": "Luminance",
+          "index": 0,
+          "options": [
+            "Luminance",
+            "Red",
+            "Green",
+            "Blue"
+          ],
+          "view": {
+            "suffix": "",
+            "control_type": "choice_combobox"
+          }
+        },
+        "Contrast": {
+          "id": 1788814537383,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 0.5
+        },
+        "Invert": {
+          "valuetype": "ParamBoolean",
+          "id": 1788814537384,
+          "value": false
+        }
+      },
+      "has_amount": true,
+      "env": 0.0,
+      "target": 0.0,
+      "pending": false,
+      "bypassed": true,
+      "cfg": {
+        "attack": 0.5,
+        "release": 1.0,
+        "mode": "latch",
+        "quant": 0,
+        "hold": 0.0,
+        "key": "",
+        "bypass0": true,
+        "bind": null
+      }
+    },
+    {
+      "key": "layer/feedback~1/effect/Mirror~1",
+      "scope": "L",
+      "layer": 1,
+      "lname": "feedback",
+      "name": "Mirror",
+      "colors": {},
+      "params": {
+        "Opacity": {
+          "id": 1788814537408,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 1.0,
+          "view": {
+            "suffix": " %",
+            "multiplier": 100.0,
+            "display_units": "percent",
+            "control_type": "slider_color_opacity"
+          }
+        },
+        "X": {
+          "id": 1788814537399,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 0.0
+        },
+        "Y": {
+          "id": 1788814537400,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 0.0
+        },
+        "In / Out": {
+          "id": 1788814537401,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 1.0
+        },
+        "Flip X": {
+          "valuetype": "ParamBoolean",
+          "id": 1788814537402,
+          "value": false
+        },
+        "Flip Y": {
+          "valuetype": "ParamBoolean",
+          "id": 1788814537403,
+          "value": false
+        },
+        "Black BG": {
+          "valuetype": "ParamBoolean",
+          "id": 1788814537404,
+          "value": false
+        }
+      },
+      "has_amount": true,
+      "env": 1.0,
+      "target": 1.0,
+      "pending": false,
+      "bypassed": false,
+      "cfg": {
+        "attack": 0.5,
+        "release": 1.0,
+        "mode": "latch",
+        "quant": 0,
+        "hold": 0.0,
+        "key": "",
+        "bypass0": true,
+        "bind": null
+      }
+    },
+    {
+      "key": "layer/feedback~1/clip/map~1/effect/SPChainMap~1",
+      "scope": "K",
+      "layer": 1,
+      "lname": "feedback",
+      "name": "SP Chain Map",
+      "colors": {},
+      "params": {
+        "Opacity": {
+          "id": 1788814539132,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 1.0,
+          "view": {
+            "suffix": " %",
+            "multiplier": 100.0,
+            "display_units": "percent",
+            "control_type": "slider_color_opacity"
+          }
+        },
+        "Zoom": {
+          "id": 1788814539120,
+          "valuetype": "ParamRange",
+          "min": 0.800000011920929,
+          "max": 1.2000000476837158,
+          "in": 0.800000011920929,
+          "out": 1.2000000476837158,
+          "value": 1.0876787985500196,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "Rotate": {
+          "id": 1788814539121,
+          "valuetype": "ParamRange",
+          "min": -30.0,
+          "max": 30.0,
+          "in": -30.0,
+          "out": 30.0,
+          "value": -2.14117764976271,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "Drift X": {
+          "id": 1788814539122,
+          "valuetype": "ParamRange",
+          "min": -0.019999999552965164,
+          "max": 0.019999999552965164,
+          "in": -0.019999999552965164,
+          "out": 0.019999999552965164,
+          "value": -0.001873010531969723,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "Drift Y": {
+          "id": 1788814539123,
+          "valuetype": "ParamRange",
+          "min": -0.019999999552965164,
+          "max": 0.019999999552965164,
+          "in": -0.019999999552965164,
+          "out": 0.019999999552965164,
+          "value": -7.802604015177267e-05,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "Center X": {
+          "id": 1788814539124,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 0.528780590110618,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "Center Y": {
+          "id": 1788814539125,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 0.4718145610808801,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "Gain": {
+          "id": 1788814539126,
+          "valuetype": "ParamRange",
+          "min": 0.800000011920929,
+          "max": 1.0,
+          "in": 0.800000011920929,
+          "out": 1.0,
+          "value": 1.0,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "Floor": {
+          "id": 1788814539127,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 0.10000000149011612,
+          "in": 0.0,
+          "out": 0.10000000149011612,
+          "value": 0.043350000645965336,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "Key": {
+          "id": 1788814539128,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 0.5,
+          "in": 0.0,
+          "out": 0.5,
+          "value": 0.21755,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        }
+      },
+      "has_amount": true,
+      "env": 1.0,
+      "target": 1.0,
+      "pending": false,
+      "bypassed": false,
+      "cfg": {
+        "attack": 0.5,
+        "release": 1.0,
+        "mode": "latch",
+        "quant": 0,
+        "hold": 0.0,
+        "key": "",
+        "bypass0": true,
+        "bind": null
+      }
+    },
+    {
+      "key": "layer/feedback~1/clip/map~1/effect/InvertRGB~1",
+      "scope": "K",
+      "layer": 1,
+      "lname": "feedback",
+      "name": "Invert RGB",
+      "colors": {},
+      "params": {
+        "Opacity": {
+          "id": 1788814539150,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 1.0,
+          "view": {
+            "suffix": " %",
+            "multiplier": 100.0,
+            "display_units": "percent",
+            "control_type": "slider_color_opacity"
+          }
+        },
+        "R": {
+          "id": 1788814539143,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 1.0,
+          "view": {
+            "suffix": ""
+          }
+        },
+        "G": {
+          "id": 1788814539144,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 1.0,
+          "view": {
+            "suffix": ""
+          }
+        },
+        "B": {
+          "id": 1788814539145,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 1.0,
+          "view": {
+            "suffix": ""
+          }
+        },
+        "A": {
+          "id": 1788814539146,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 0.0
+        }
+      },
+      "has_amount": true,
+      "env": 1.0,
+      "target": 1.0,
+      "pending": false,
+      "bypassed": false,
+      "cfg": {
+        "attack": 0.5,
+        "release": 1.0,
+        "mode": "latch",
+        "quant": 0,
+        "hold": 0.0,
+        "key": "",
+        "bypass0": true,
+        "bind": null
+      }
+    },
+    {
+      "key": "layer/feedback~1/clip/map~1/effect/Blur~1",
+      "scope": "K",
+      "layer": 1,
+      "lname": "feedback",
+      "name": "Blur",
+      "colors": {},
+      "params": {
+        "Opacity": {
+          "id": 1788814539182,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 0.9999777499997436,
+          "view": {
+            "suffix": " %",
+            "multiplier": 100.0,
+            "display_units": "percent",
+            "control_type": "slider_color_opacity"
+          }
+        },
+        "Blur": {
+          "id": 1788814539172,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 1.0
+        },
+        "Blur X Distance": {
+          "id": 1788814539173,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 0.07860028517110267
+        },
+        "Blur Y Distance": {
+          "id": 1788814539174,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 0.0
+        },
+        "Quality": {
+          "id": 1788814539175,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 1.0
+        },
+        "Gaussian": {
+          "id": 1788814539176,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 0.13076283269961977
+        }
+      },
+      "has_amount": true,
+      "env": 1.0,
+      "target": 0.9999777499997436,
+      "pending": false,
+      "bypassed": false,
+      "cfg": {
+        "attack": 0.5,
+        "release": 1.0,
+        "mode": "latch",
+        "quant": 0,
+        "hold": 0.0,
+        "key": "",
+        "bypass0": true,
+        "bind": null
+      }
+    },
+    {
+      "key": "layer/feedback~1/clip/map~1/effect/Sharpen~1",
+      "scope": "K",
+      "layer": 1,
+      "lname": "feedback",
+      "name": "Sharpen",
+      "colors": {},
+      "params": {
+        "Opacity": {
+          "id": 1788814539264,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 0.9999777499997436,
+          "view": {
+            "suffix": " %",
+            "multiplier": 100.0,
+            "display_units": "percent",
+            "control_type": "slider_color_opacity"
+          }
+        },
+        "Strength": {
+          "id": 1788814539251,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 0.0
+        },
+        "Distance": {
+          "id": 1788814539253,
+          "valuetype": "ParamRange",
+          "min": 1.0,
+          "max": 25.0,
+          "in": 1.0,
+          "out": 25.0,
+          "value": 1.0,
+          "view": {
+            "suffix": "",
+            "step": 1.0,
+            "display_units": "integer",
+            "control_type": "spinner"
+          }
+        }
+      },
+      "has_amount": true,
+      "env": 1.0,
+      "target": 0.9999777499997436,
+      "pending": false,
+      "bypassed": false,
+      "cfg": {
+        "attack": 0.5,
+        "release": 1.0,
+        "mode": "latch",
+        "quant": 0,
+        "hold": 0.0,
+        "key": "",
+        "bypass0": true,
+        "bind": null
+      }
+    },
+    {
+      "key": "layer/sculpt~1/clip/level~1/effect/SPStudyLevel~1",
+      "scope": "K",
+      "layer": 2,
+      "lname": "sculpt",
+      "name": "SP Study Level",
+      "colors": {},
+      "params": {
+        "Opacity": {
+          "id": 1788814538914,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 1.0,
+          "view": {
+            "suffix": " %",
+            "multiplier": 100.0,
+            "display_units": "percent",
+            "control_type": "slider_color_opacity"
+          }
+        },
+        "Gain": {
+          "id": 1788814538904,
+          "valuetype": "ParamRange",
+          "min": 0.800000011920929,
+          "max": 1.0,
+          "in": 0.800000011920929,
+          "out": 1.0,
+          "value": 0.9996883536466232,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "Floor": {
+          "id": 1788814538905,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 0.10000000149011612,
+          "in": 0.0,
+          "out": 0.10000000149011612,
+          "value": 0.0002725743085250293,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "Key": {
+          "id": 1788814538906,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 0.5,
+          "in": 0.0,
+          "out": 0.5,
+          "value": 0.1949950873309817,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "Soft": {
+          "id": 1788814538907,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 0.00022704012580233987,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "Curve": {
+          "id": 1788814538908,
+          "valuetype": "ParamRange",
+          "min": 0.4000000059604645,
+          "max": 2.5,
+          "in": 0.4000000059604645,
+          "out": 2.5,
+          "value": 0.5371186509666851,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "Ceiling": {
+          "id": 1788814538909,
+          "valuetype": "ParamRange",
+          "min": 0.5,
+          "max": 1.0,
+          "in": 0.5,
+          "out": 1.0,
+          "value": 0.9709167605775362,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "Lift": {
+          "id": 1788814538910,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 0.10000000149011612,
+          "in": 0.0,
+          "out": 0.10000000149011612,
+          "value": 0.001569249055771424,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        }
+      },
+      "has_amount": true,
+      "env": 1.0,
+      "target": 1.0,
+      "pending": false,
+      "bypassed": false,
+      "cfg": {
+        "attack": 0.5,
+        "release": 1.0,
+        "mode": "latch",
+        "quant": 0,
+        "hold": 0.0,
+        "key": "",
+        "bypass0": true,
+        "bind": null
+      }
+    },
+    {
+      "key": "layer/delay~1/clip/figure~1/effect/SPDelayChain~1",
+      "scope": "K",
+      "layer": 4,
+      "lname": "delay",
+      "name": "SP Delay Chain",
+      "colors": {},
+      "params": {
+        "Opacity": {
+          "id": 1788814538985,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 1.0,
+          "view": {
+            "suffix": " %",
+            "multiplier": 100.0,
+            "display_units": "percent",
+            "control_type": "slider_color_opacity"
+          }
+        },
+        "Taps": {
+          "id": 1788814538973,
+          "valuetype": "ParamRange",
+          "min": 1.0,
+          "max": 6.0,
+          "in": 1.0,
+          "out": 6.0,
+          "value": 2.319,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "Span": {
+          "id": 1788814538974,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 16.0,
+          "in": 0.0,
+          "out": 16.0,
+          "value": 15.6032,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "\u26a1 Shuffle": {
+          "id": 1788814538975,
+          "valuetype": "ParamEvent"
+        },
+        "\u2302 Home": {
+          "id": 1788814538976,
+          "valuetype": "ParamEvent"
+        },
+        "Glide": {
+          "id": 1788814538977,
+          "valuetype": "ParamRange",
+          "min": 0.10000000149011612,
+          "max": 8.0,
+          "in": 0.10000000149011612,
+          "out": 8.0,
+          "value": 1.7226600011840465,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "\u03c6": {
+          "id": 1788814538978,
+          "valuetype": "ParamEvent"
+        },
+        "R": {
+          "id": 1788814538979,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 16.0,
+          "in": 0.0,
+          "out": 16.0,
+          "value": 5.985190938228493,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "G": {
+          "id": 1788814538980,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 16.0,
+          "in": 0.0,
+          "out": 16.0,
+          "value": 3.15616310637926,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "B": {
+          "id": 1788814538981,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 16.0,
+          "in": 0.0,
+          "out": 16.0,
+          "value": 3.7783827325907615,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        }
+      },
+      "has_amount": true,
+      "env": 1.0,
+      "target": 1.0,
+      "pending": false,
+      "bypassed": false,
+      "cfg": {
+        "attack": 0.5,
+        "release": 1.0,
+        "mode": "latch",
+        "quant": 0,
+        "hold": 0.0,
+        "key": "",
+        "bypass0": true,
+        "bind": null
+      }
+    },
+    {
+      "key": "layer/figure~1/effect/LinearCloner~1",
+      "scope": "L",
+      "layer": 5,
+      "lname": "figure",
+      "name": "Linear Cloner",
+      "colors": {},
+      "params": {
+        "Opacity": {
+          "id": 1788814537531,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 0.0,
+          "view": {
+            "suffix": " %",
+            "multiplier": 100.0,
+            "display_units": "percent",
+            "control_type": "slider_color_opacity"
+          }
+        },
+        "Clones": {
+          "id": 1788814537511,
+          "valuetype": "ParamRange",
+          "min": 1.0,
+          "max": 50.0,
+          "in": 1.0,
+          "out": 50.0,
+          "value": 18.0,
+          "view": {
+            "suffix": "",
+            "step": 1.0,
+            "display_units": "integer",
+            "control_type": "spinner"
+          }
+        },
+        "Tails": {
+          "id": 1788814537512,
+          "valuetype": "ParamRange",
+          "min": 1.0,
+          "max": 8.0,
+          "in": 1.0,
+          "out": 8.0,
+          "value": 8.0,
+          "view": {
+            "suffix": "",
+            "step": 1.0,
+            "display_units": "integer",
+            "control_type": "spinner"
+          }
+        },
+        "Center": {
+          "id": 1788814537513,
+          "valuetype": "ParamRange",
+          "min": -1.0,
+          "max": 1.0,
+          "in": -1.0,
+          "out": 1.0,
+          "value": 0.0
+        },
+        "Tail Length": {
+          "id": 1788814537514,
+          "valuetype": "ParamRange",
+          "min": -1.0,
+          "max": 1.0,
+          "in": -0.5,
+          "out": 0.5,
+          "value": 0.09006622734023129
+        },
+        "Start Scale": {
+          "id": 1788814537515,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 100.0,
+          "in": 0.0,
+          "out": 100.0,
+          "value": 30.434782608695656,
+          "view": {
+            "suffix": " %",
+            "step": 1.0,
+            "multiplier": 1.0,
+            "display_units": "percent",
+            "control_type": "slider"
+          }
+        },
+        "Start Rotation": {
+          "id": 1788814537517,
+          "valuetype": "ParamRange",
+          "min": -180.0,
+          "max": 180.0,
+          "in": -180.0,
+          "out": 180.0,
+          "value": 75.40324641373073,
+          "view": {
+            "suffix": " \u00b0",
+            "step": 1.0,
+            "display_units": "degrees",
+            "control_type": "slider"
+          }
+        },
+        "End Scale": {
+          "id": 1788814537516,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 100.0,
+          "in": 0.0,
+          "out": 100.0,
+          "value": 0.0,
+          "view": {
+            "suffix": " %",
+            "step": 1.0,
+            "multiplier": 1.0,
+            "display_units": "percent",
+            "control_type": "slider"
+          }
+        },
+        "End Rotation": {
+          "id": 1788814537518,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 360.0,
+          "in": 0.0,
+          "out": 360.0,
+          "value": 90.0,
+          "view": {
+            "suffix": " \u00b0",
+            "step": 1.0,
+            "display_units": "degrees",
+            "control_type": "slider"
+          }
+        },
+        "Distribution": {
+          "id": 1788814537519,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 100.0,
+          "in": 0.0,
+          "out": 100.0,
+          "value": 30.0,
+          "view": {
+            "suffix": " %",
+            "step": 1.0,
+            "multiplier": 1.0,
+            "display_units": "percent",
+            "control_type": "slider"
+          }
+        },
+        "Distortion": {
+          "id": 1788814537520,
+          "valuetype": "ParamRange",
+          "min": -100.0,
+          "max": 100.0,
+          "in": -100.0,
+          "out": 100.0,
+          "value": 45.0,
+          "view": {
+            "suffix": " %",
+            "step": 1.0,
+            "multiplier": 1.0,
+            "display_units": "percent",
+            "control_type": "slider"
+          }
+        },
+        "Reverse": {
+          "valuetype": "ParamBoolean",
+          "id": 1788814537521,
+          "value": true
+        },
+        "Tail Rotation": {
+          "id": 1788814537522,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 100.0,
+          "in": 0.0,
+          "out": 100.0,
+          "value": 0.0,
+          "view": {
+            "suffix": " %",
+            "step": 1.0,
+            "multiplier": 1.0,
+            "display_units": "percent",
+            "control_type": "slider"
+          }
+        },
+        "Master Rotation": {
+          "id": 1788814537523,
+          "valuetype": "ParamRange",
+          "min": -180.0,
+          "max": 180.0,
+          "in": -180.0,
+          "out": 180.0,
+          "value": -75.40324641373347,
+          "view": {
+            "suffix": " \u00b0",
+            "step": 1.0,
+            "display_units": "degrees",
+            "control_type": "slider"
+          }
+        },
+        "Delay Enabled": {
+          "valuetype": "ParamBoolean",
+          "id": 1788814537524,
+          "value": false,
+          "view": {
+            "suffix": "",
+            "alternative_name": "Enabled"
+          }
+        },
+        "Delay Amount": {
+          "id": 1788814537525,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 0.5,
+          "view": {
+            "suffix": "",
+            "alternative_name": "Amount"
+          }
+        },
+        "Delay Order": {
+          "id": 1788814537526,
+          "valuetype": "ParamChoice",
+          "value": "New To Old",
+          "index": 0,
+          "options": [
+            "New To Old",
+            "Old To New",
+            "Bounce",
+            "Bounce Tail",
+            "Random"
+          ],
+          "view": {
+            "suffix": "",
+            "control_type": "choice_combobox",
+            "alternative_name": "Order"
+          }
+        },
+        "Delay Fill": {
+          "id": 1788814537527,
+          "valuetype": "ParamChoice",
+          "value": "Repeat",
+          "index": 0,
+          "options": [
+            "Repeat",
+            "Transparent"
+          ],
+          "view": {
+            "suffix": "",
+            "control_type": "choice_combobox",
+            "alternative_name": "Fill"
+          }
+        }
+      },
+      "has_amount": true,
+      "env": 0.0,
+      "target": 0.0,
+      "pending": false,
+      "bypassed": true,
+      "cfg": {
+        "attack": 0.5,
+        "release": 1.0,
+        "mode": "latch",
+        "quant": 0,
+        "hold": 1.0,
+        "key": "",
+        "bypass0": true,
+        "bind": null
+      }
+    },
+    {
+      "key": "layer/figure~1/effect/Mirror~1",
+      "scope": "L",
+      "layer": 5,
+      "lname": "figure",
+      "name": "Mirror",
+      "colors": {},
+      "params": {
+        "Opacity": {
+          "id": 1788814537604,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 0.0,
+          "view": {
+            "suffix": " %",
+            "multiplier": 100.0,
+            "display_units": "percent",
+            "control_type": "slider_color_opacity"
+          }
+        },
+        "X": {
+          "id": 1788814537595,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 0.5
+        },
+        "Y": {
+          "id": 1788814537596,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 0.0
+        },
+        "In / Out": {
+          "id": 1788814537597,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 1.0
+        },
+        "Flip X": {
+          "valuetype": "ParamBoolean",
+          "id": 1788814537598,
+          "value": true
+        },
+        "Flip Y": {
+          "valuetype": "ParamBoolean",
+          "id": 1788814537599,
+          "value": false
+        },
+        "Black BG": {
+          "valuetype": "ParamBoolean",
+          "id": 1788814537600,
+          "value": false
+        }
+      },
+      "has_amount": true,
+      "env": 0.0,
+      "target": 0.0,
+      "pending": false,
+      "bypassed": true,
+      "cfg": {
+        "attack": 0.5,
+        "release": 1.0,
+        "mode": "latch",
+        "quant": 0,
+        "hold": 1.0,
+        "key": "",
+        "bypass0": true,
+        "bind": null
+      }
+    },
+    {
+      "key": "layer/texture~1/clip/dither~1/effect/SPAtomDither~1",
+      "scope": "K",
+      "layer": 7,
+      "lname": "texture",
+      "name": "SP Atom Dither",
+      "colors": {},
+      "params": {
+        "Opacity": {
+          "id": 1788814539015,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 1.0,
+          "view": {
+            "suffix": " %",
+            "multiplier": 100.0,
+            "display_units": "percent",
+            "control_type": "slider_color_opacity"
+          }
+        },
+        "Pattern": {
+          "id": 1788814538996,
+          "valuetype": "ParamChoice",
+          "value": "value noise",
+          "index": 11,
+          "options": [
+            "bayer 2x2",
+            "bayer 4x4",
+            "bayer 8x8",
+            "halftone dots",
+            "halftone lines",
+            "checker",
+            "noise",
+            "hex dots",
+            "crosshatch",
+            "diamond",
+            "rings",
+            "value noise"
+          ],
+          "view": {
+            "suffix": "",
+            "display_units": "integer",
+            "control_type": "choice_buttons"
+          }
+        },
+        "Size": {
+          "id": 1788814538997,
+          "valuetype": "ParamRange",
+          "min": 1.0,
+          "max": 40.0,
+          "in": 1.0,
+          "out": 40.0,
+          "value": 10.4419,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "Mode": {
+          "id": 1788814538998,
+          "valuetype": "ParamChoice",
+          "value": "per channel",
+          "index": 1,
+          "options": [
+            "luminance",
+            "per channel"
+          ],
+          "view": {
+            "suffix": "",
+            "display_units": "integer",
+            "control_type": "choice_buttons"
+          }
+        },
+        "Levels": {
+          "id": 1788814538999,
+          "valuetype": "ParamRange",
+          "min": 2.0,
+          "max": 16.0,
+          "in": 2.0,
+          "out": 16.0,
+          "value": 2.0,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "Contrast": {
+          "id": 1788814539000,
+          "valuetype": "ParamRange",
+          "min": 0.25,
+          "max": 4.0,
+          "in": 0.25,
+          "out": 4.0,
+          "value": 1.0,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "Bias": {
+          "id": 1788814539001,
+          "valuetype": "ParamRange",
+          "min": -0.5,
+          "max": 0.5,
+          "in": -0.5,
+          "out": 0.5,
+          "value": 0.0,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "Color": {
+          "id": 1788814539002,
+          "valuetype": "ParamChoice",
+          "value": "sampled",
+          "index": 0,
+          "options": [
+            "sampled",
+            "tinted"
+          ],
+          "view": {
+            "suffix": "",
+            "display_units": "integer",
+            "control_type": "choice_buttons"
+          }
+        },
+        "Dither": {
+          "id": 1788814539003,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 0.0,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "Cells": {
+          "id": 1788814539004,
+          "valuetype": "ParamChoice",
+          "value": "off",
+          "index": 0,
+          "options": [
+            "off",
+            "on"
+          ],
+          "view": {
+            "suffix": "",
+            "display_units": "integer",
+            "control_type": "choice_buttons"
+          }
+        },
+        "Engine": {
+          "id": 1788814539005,
+          "valuetype": "ParamChoice",
+          "value": "IBM PC EGA (16)",
+          "index": 11,
+          "options": [
+            "none",
+            "NES / Famicom",
+            "Game Boy (DMG) - mono green",
+            "Game Boy Pocket (MGB) - mono gray",
+            "Game Boy Light (MGB-101) - mono warm/backlit",
+            "Virtual Boy - mono red",
+            "Game Boy Color (classic 16)",
+            "Commodore 64",
+            "Atari 2600",
+            "ZX Spectrum",
+            "PICO-8",
+            "IBM PC EGA (16)",
+            "Sega Master System",
+            "SNES / Super Famicom (subset)",
+            "Amiga OCS/ECS",
+            "Apple II (6-color hi-res)",
+            "Apple IIgs",
+            "Sega Game Gear",
+            "MSX (MSX1 / TMS9918, 16)",
+            "Amstrad CPC",
+            "TI-99/4A (TMS9918A, 16)",
+            "NEC PC-9801 / PC-98",
+            "IBM PC CGA",
+            "IBM PC VGA (16)",
+            "Tandy 1000 / PCjr (TGA 16)",
+            "Hercules (amber mono)",
+            "Macintosh 1-bit (B/W)",
+            "NEC PC-8801 (PC-88, 8)",
+            "Sharp X68000",
+            "Atari ST",
+            "BBC Micro (Mode 2, 8)",
+            "PC Engine / TurboGrafx-16",
+            "Sega Mega Drive / Genesis"
+          ],
+          "view": {
+            "suffix": "",
+            "display_units": "integer",
+            "control_type": "choice_buttons"
+          }
+        },
+        "Native": {
+          "id": 1788814539006,
+          "valuetype": "ParamChoice",
+          "value": "authentic",
+          "index": 0,
+          "options": [
+            "authentic",
+            "x2"
+          ],
+          "view": {
+            "suffix": "",
+            "display_units": "integer",
+            "control_type": "choice_buttons"
+          }
+        },
+        "Scan": {
+          "id": 1788814539007,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 1.0,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "Spacing": {
+          "id": 1788814539008,
+          "valuetype": "ParamRange",
+          "min": 1.0,
+          "max": 12.0,
+          "in": 1.0,
+          "out": 12.0,
+          "value": 12.0,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "Tint": {
+          "id": 1788814539009,
+          "valuetype": "ParamChoice",
+          "value": "none",
+          "index": 0,
+          "options": [
+            "none",
+            "amber",
+            "green",
+            "blue",
+            "sepia",
+            "warm lcd",
+            "cool lcd"
+          ],
+          "view": {
+            "suffix": "",
+            "display_units": "integer",
+            "control_type": "choice_buttons"
+          }
+        },
+        "Key": {
+          "id": 1788814539010,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 0.0,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        },
+        "Mix": {
+          "id": 1788814539011,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 1.0,
+          "view": {
+            "suffix": "",
+            "display_units": "real"
+          }
+        }
+      },
+      "has_amount": true,
+      "env": 1.0,
+      "target": 1.0,
+      "pending": false,
+      "bypassed": false,
+      "cfg": {
+        "attack": 0.5,
+        "release": 1.0,
+        "mode": "latch",
+        "quant": 0,
+        "hold": 0.0,
+        "key": "",
+        "bypass0": true,
+        "bind": null
+      }
+    }
+  ],
+  "arena_socket": true
+}

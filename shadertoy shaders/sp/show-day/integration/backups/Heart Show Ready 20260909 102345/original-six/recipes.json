@@ -1,0 +1,156 @@
+[
+  {
+    "source": "Cuadricula rect",
+    "col": 17,
+    "home": {
+      "tile": 12,
+      "offset": 0.5,
+      "stroke width": 0.55,
+      "gradient": 0.025,
+      "even rows": 1,
+      "odd rows": 2,
+      "rotate": 0,
+      "warp": 1,
+      "x": 0.5,
+      "y": 0.5
+    },
+    "drives": {
+      "warp": [
+        0.8,
+        1.2
+      ],
+      "rotate": [
+        0.1,
+        0.35
+      ]
+    }
+  },
+  {
+    "source": "data blocks",
+    "col": 18,
+    "home": {
+      "grid x": 24,
+      "grid y": 32,
+      "grid2 x": 6,
+      "grid2 y": 24,
+      "center x": 0,
+      "center y": 0,
+      "curve x": 0,
+      "curve y": 0,
+      "shift": 0.4,
+      "density": 400,
+      "rate": 0.08,
+      "seed": 71.34,
+      "offset": 0.2
+    },
+    "drives": {
+      "shift": [
+        0.25,
+        0.55
+      ],
+      "density": [
+        350,
+        600
+      ]
+    }
+  },
+  {
+    "source": "RailroadTracks",
+    "col": 28,
+    "home": {
+      "intensity": 0.6,
+      "speed": 0.18,
+      "curve1": 0.5,
+      "curve1 freq": 0.25,
+      "curve2": 0.5,
+      "curve2 freq": 0.25,
+      "color mix": 0
+    },
+    "drives": {
+      "curve1": [
+        0.4,
+        0.6
+      ],
+      "intensity": [
+        0.45,
+        0.65
+      ]
+    }
+  },
+  {
+    "source": "RetroTechnicolorComputer",
+    "col": 31,
+    "home": {
+      "offset x": 0.5,
+      "offset y": 0.5,
+      "matrix x": 0.2,
+      "matrix y": 0.4,
+      "size": 0.28,
+      "speed": 0.08,
+      "hue": 0.5,
+      "saturation": 0.65
+    },
+    "drives": {
+      "hue": [
+        0.35,
+        0.65
+      ],
+      "saturation": [
+        0.4,
+        0.8
+      ]
+    }
+  },
+  {
+    "source": "SmoothXORi",
+    "col": 32,
+    "home": {
+      "rate": 0.12,
+      "scrolls y": 0.5,
+      "scroll x": 0.5,
+      "intensity": 0.5,
+      "seed1": 0.5,
+      "seed2": 0.5,
+      "zoom": 0.35,
+      "tint": 0.5,
+      "sat": 0.5
+    },
+    "drives": {
+      "intensity": [
+        0.35,
+        0.6
+      ],
+      "tint": [
+        0.35,
+        0.65
+      ]
+    }
+  },
+  {
+    "source": "TruchetDualLevelSpin",
+    "col": 33,
+    "home": {
+      "spin x": 0.05,
+      "spin y": 0.05,
+      "seed x": 0.18,
+      "seed y": 0.54,
+      "edge": 0.58,
+      "glow": 0.65,
+      "freq": 0.9,
+      "pulse": 0.25,
+      "pulse rate": 0.1,
+      "thickness": 0.5,
+      "scale": 0.3
+    },
+    "drives": {
+      "thickness": [
+        0.4,
+        0.6
+      ],
+      "glow": [
+        0.45,
+        0.7
+      ]
+    }
+  }
+]

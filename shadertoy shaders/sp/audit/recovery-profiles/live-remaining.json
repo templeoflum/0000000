@@ -1,0 +1,1032 @@
+[
+  {
+    "recovered": [
+      {
+        "name": "Field Scale",
+        "want": 0.5,
+        "actual": 0.4999996210899671
+      },
+      {
+        "name": "Speed",
+        "want": 0.09999999999999999,
+        "actual": 0.09999999999999999
+      },
+      {
+        "name": "Swell Threshold",
+        "want": 0.55,
+        "actual": 0.55
+      },
+      {
+        "name": "Swell Sharpness",
+        "want": 0.6,
+        "actual": 0.6
+      },
+      {
+        "name": "Hue Shift",
+        "want": 0.0,
+        "actual": 3.41493328718533e-07
+      },
+      {
+        "name": "Coupling",
+        "want": 0.5,
+        "actual": 0.49999968108850906
+      },
+      {
+        "name": "Darkness",
+        "want": 0.7,
+        "actual": 0.7
+      }
+    ],
+    "source": "Heart Quaternion Swell",
+    "checks": [
+      {
+        "name": "Field Scale",
+        "want": 0.5,
+        "actual": 0.5
+      },
+      {
+        "name": "Speed",
+        "want": 0.09999999999999999,
+        "actual": 0.09999999999999998
+      },
+      {
+        "name": "Swell Threshold",
+        "want": 0.55,
+        "actual": 0.5500000856043588
+      },
+      {
+        "name": "Swell Sharpness",
+        "want": 0.6,
+        "actual": 0.6
+      },
+      {
+        "name": "Hue Shift",
+        "want": 0.0,
+        "actual": 0.0
+      },
+      {
+        "name": "Coupling",
+        "want": 0.5,
+        "actual": 0.5
+      },
+      {
+        "name": "Darkness",
+        "want": 0.7,
+        "actual": 0.7
+      }
+    ],
+    "opened": 7,
+    "rest_drives": 0,
+    "effects_on": []
+  },
+  {
+    "recovered": [
+      {
+        "name": "rotAsymX",
+        "want": 0.5,
+        "actual": 0.5
+      },
+      {
+        "name": "rotAsymY",
+        "want": 0.5,
+        "actual": 0.5
+      },
+      {
+        "name": "spinRate",
+        "want": 0.0,
+        "actual": 0.0
+      },
+      {
+        "name": "foldRate",
+        "want": 0.0,
+        "actual": 0.0
+      },
+      {
+        "name": "spinOffset",
+        "want": 0.5,
+        "actual": 0.5
+      },
+      {
+        "name": "foldOffset",
+        "want": 0.03,
+        "actual": 0.03
+      },
+      {
+        "name": "sizeOffset",
+        "want": 0.5,
+        "actual": 0.5
+      },
+      {
+        "name": "foldDistA",
+        "want": 0.3,
+        "actual": 0.3
+      },
+      {
+        "name": "foldDistB",
+        "want": 0.1,
+        "actual": 0.10000000044752144
+      },
+      {
+        "name": "camX",
+        "want": 0.5,
+        "actual": 0.5
+      },
+      {
+        "name": "camY",
+        "want": 0.5,
+        "actual": 0.5
+      },
+      {
+        "name": "camZ",
+        "want": 0.0,
+        "actual": 0.0
+      },
+      {
+        "name": "glowAmount",
+        "want": 0.5,
+        "actual": 0.5
+      }
+    ],
+    "source": "Heart Paper Fractal",
+    "checks": [
+      {
+        "name": "rotAsymX",
+        "want": 0.5,
+        "actual": 0.5
+      },
+      {
+        "name": "rotAsymY",
+        "want": 0.5,
+        "actual": 0.5
+      },
+      {
+        "name": "spinRate",
+        "want": 0.0,
+        "actual": 0.0
+      },
+      {
+        "name": "foldRate",
+        "want": 0.0,
+        "actual": 0.0
+      },
+      {
+        "name": "spinOffset",
+        "want": 0.5,
+        "actual": 0.5
+      },
+      {
+        "name": "foldOffset",
+        "want": 0.03,
+        "actual": 0.030000000000000027
+      },
+      {
+        "name": "sizeOffset",
+        "want": 0.5,
+        "actual": 0.5
+      },
+      {
+        "name": "foldDistA",
+        "want": 0.3,
+        "actual": 0.3
+      },
+      {
+        "name": "foldDistB",
+        "want": 0.1,
+        "actual": 0.09999999999999998
+      },
+      {
+        "name": "camX",
+        "want": 0.5,
+        "actual": 0.5
+      },
+      {
+        "name": "camY",
+        "want": 0.5,
+        "actual": 0.5
+      },
+      {
+        "name": "camZ",
+        "want": 0.0,
+        "actual": 0.0
+      },
+      {
+        "name": "glowAmount",
+        "want": 0.5,
+        "actual": 0.5
+      }
+    ],
+    "opened": 13,
+    "rest_drives": 0,
+    "effects_on": []
+  },
+  {
+    "recovered": [
+      {
+        "name": "camSpeed",
+        "want": 0.5,
+        "actual": 0.5
+      },
+      {
+        "name": "rotX",
+        "want": 0.5,
+        "actual": 0.5
+      },
+      {
+        "name": "rotZ",
+        "want": 0.5,
+        "actual": 0.49999921438765565
+      },
+      {
+        "name": "colorR",
+        "want": 0.5,
+        "actual": 0.5
+      },
+      {
+        "name": "colorG",
+        "want": 0.5,
+        "actual": 0.5
+      },
+      {
+        "name": "colorB",
+        "want": 0.5,
+        "actual": 0.5
+      }
+    ],
+    "source": "Heart Vector Lattice",
+    "checks": [
+      {
+        "name": "camSpeed",
+        "want": 0.5,
+        "actual": 0.5
+      },
+      {
+        "name": "rotX",
+        "want": 0.5,
+        "actual": 0.5
+      },
+      {
+        "name": "rotZ",
+        "want": 0.5,
+        "actual": 0.5
+      },
+      {
+        "name": "colorR",
+        "want": 0.5,
+        "actual": 0.5
+      },
+      {
+        "name": "colorG",
+        "want": 0.5,
+        "actual": 0.5
+      },
+      {
+        "name": "colorB",
+        "want": 0.5,
+        "actual": 0.5000002235853762
+      }
+    ],
+    "opened": 6,
+    "rest_drives": 0,
+    "effects_on": []
+  },
+  {
+    "recovered": [
+      {
+        "name": "radialDensity",
+        "want": 0.5238095238095238,
+        "actual": 0.5238101275119228
+      },
+      {
+        "name": "angularDensity",
+        "want": 0.5384615384615384,
+        "actual": 0.5384615384615384
+      },
+      {
+        "name": "blendThreshold",
+        "want": 0.5,
+        "actual": 0.5
+      },
+      {
+        "name": "blendWidth",
+        "want": 0.6,
+        "actual": 0.6
+      },
+      {
+        "name": "phase",
+        "want": 0.0,
+        "actual": 0.0
+      },
+      {
+        "name": "hue",
+        "want": 0.0,
+        "actual": 1.9454982939296364e-08
+      }
+    ],
+    "source": "Heart Concentrip",
+    "checks": [
+      {
+        "name": "radialDensity",
+        "want": 0.5238095238095238,
+        "actual": 0.5238095238095238
+      },
+      {
+        "name": "angularDensity",
+        "want": 0.5384615384615384,
+        "actual": 0.5384615384615384
+      },
+      {
+        "name": "blendThreshold",
+        "want": 0.5,
+        "actual": 0.5
+      },
+      {
+        "name": "blendWidth",
+        "want": 0.6,
+        "actual": 0.6
+      },
+      {
+        "name": "phase",
+        "want": 0.0,
+        "actual": 0.0
+      },
+      {
+        "name": "hue",
+        "want": 0.0,
+        "actual": 0.0
+      }
+    ],
+    "opened": 6,
+    "rest_drives": 0,
+    "effects_on": []
+  },
+  {
+    "recovered": [
+      {
+        "name": "cellSpacing",
+        "want": 0.4,
+        "actual": 0.3999997045959226
+      },
+      {
+        "name": "barWidth",
+        "want": 0.42105263157894746,
+        "actual": 0.42105263157894746
+      },
+      {
+        "name": "boltWidth",
+        "want": 0.5000000000000001,
+        "actual": 0.5
+      },
+      {
+        "name": "greenExpansion",
+        "want": 0.0,
+        "actual": 0.0
+      },
+      {
+        "name": "orangeExpansion",
+        "want": 0.0,
+        "actual": 0.0
+      },
+      {
+        "name": "pulsePhase",
+        "want": 0.0,
+        "actual": 0.0
+      },
+      {
+        "name": "travelPhase",
+        "want": 0.0,
+        "actual": 0.0
+      }
+    ],
+    "source": "Heart Puls Lattice",
+    "checks": [
+      {
+        "name": "cellSpacing",
+        "want": 0.4,
+        "actual": 0.4
+      },
+      {
+        "name": "barWidth",
+        "want": 0.42105263157894746,
+        "actual": 0.42105263157894746
+      },
+      {
+        "name": "boltWidth",
+        "want": 0.5000000000000001,
+        "actual": 0.5
+      },
+      {
+        "name": "greenExpansion",
+        "want": 0.0,
+        "actual": 1.1192562321404864e-08
+      },
+      {
+        "name": "orangeExpansion",
+        "want": 0.0,
+        "actual": 0.0
+      },
+      {
+        "name": "pulsePhase",
+        "want": 0.0,
+        "actual": 0.0
+      },
+      {
+        "name": "travelPhase",
+        "want": 0.0,
+        "actual": 0.0
+      }
+    ],
+    "opened": 7,
+    "rest_drives": 0,
+    "effects_on": []
+  },
+  {
+    "recovered": [
+      {
+        "name": "zoom",
+        "want": 0.18367346938775508,
+        "actual": 0.18367310813691637
+      },
+      {
+        "name": "morph",
+        "want": 0.0,
+        "actual": 0.0
+      },
+      {
+        "name": "speed",
+        "want": 0.2,
+        "actual": 0.199999945346551
+      },
+      {
+        "name": "cameraPitch",
+        "want": 0.5,
+        "actual": 0.5
+      },
+      {
+        "name": "cameraYaw",
+        "want": 0.5,
+        "actual": 0.4999995233027464
+      },
+      {
+        "name": "cameraRoll",
+        "want": 0.5,
+        "actual": 0.5
+      },
+      {
+        "name": "fractalScale",
+        "want": 0.3333333333333333,
+        "actual": 0.3333333333333333
+      },
+      {
+        "name": "fractalIterations",
+        "want": 0.6842105263157895,
+        "actual": 0.6842105263157895
+      },
+      {
+        "name": "surfaceShake",
+        "want": 0.0,
+        "actual": 0.0
+      },
+      {
+        "name": "floorPattern",
+        "want": 0.0,
+        "actual": 3.524288155780262e-08
+      },
+      {
+        "name": "orbSize",
+        "want": 0.0368421052631579,
+        "actual": 0.03684210526315789
+      },
+      {
+        "name": "orbPattern",
+        "want": 0.2,
+        "actual": 0.19999987036460656
+      },
+      {
+        "name": "colorPalette",
+        "want": 0.0,
+        "actual": 0.0
+      },
+      {
+        "name": "contrast",
+        "want": 0.3333333333333333,
+        "actual": 0.3333333217158891
+      },
+      {
+        "name": "saturation",
+        "want": 0.5,
+        "actual": 0.5
+      },
+      {
+        "name": "brightness",
+        "want": 0.5,
+        "actual": 0.5
+      }
+    ],
+    "source": "Heart Ancient Temple",
+    "checks": [
+      {
+        "name": "zoom",
+        "want": 0.18367346938775508,
+        "actual": 0.18367346938775508
+      },
+      {
+        "name": "morph",
+        "want": 0.0,
+        "actual": 0.0
+      },
+      {
+        "name": "speed",
+        "want": 0.2,
+        "actual": 0.2
+      },
+      {
+        "name": "cameraPitch",
+        "want": 0.5,
+        "actual": 0.5
+      },
+      {
+        "name": "cameraYaw",
+        "want": 0.5,
+        "actual": 0.5
+      },
+      {
+        "name": "cameraRoll",
+        "want": 0.5,
+        "actual": 0.5
+      },
+      {
+        "name": "fractalScale",
+        "want": 0.3333333333333333,
+        "actual": 0.3333333333333333
+      },
+      {
+        "name": "fractalIterations",
+        "want": 0.6842105263157895,
+        "actual": 0.6842110898598789
+      },
+      {
+        "name": "surfaceShake",
+        "want": 0.0,
+        "actual": 0.0
+      },
+      {
+        "name": "floorPattern",
+        "want": 0.0,
+        "actual": 0.0
+      },
+      {
+        "name": "orbSize",
+        "want": 0.0368421052631579,
+        "actual": 0.03684210526315789
+      },
+      {
+        "name": "orbPattern",
+        "want": 0.2,
+        "actual": 0.2
+      },
+      {
+        "name": "colorPalette",
+        "want": 0.0,
+        "actual": 0.0
+      },
+      {
+        "name": "contrast",
+        "want": 0.3333333333333333,
+        "actual": 0.3333333333333333
+      },
+      {
+        "name": "saturation",
+        "want": 0.5,
+        "actual": 0.5
+      },
+      {
+        "name": "brightness",
+        "want": 0.5,
+        "actual": 0.5
+      }
+    ],
+    "opened": 16,
+    "rest_drives": 0,
+    "effects_on": []
+  },
+  {
+    "recovered": [
+      {
+        "name": "speed",
+        "want": 0.525,
+        "actual": 0.525
+      },
+      {
+        "name": "zoom",
+        "want": 0.18367346938775508,
+        "actual": 0.18367253583305487
+      },
+      {
+        "name": "morphing",
+        "want": 0.5,
+        "actual": 0.5
+      },
+      {
+        "name": "colorPulse",
+        "want": 0.2,
+        "actual": 0.1999999826033429
+      },
+      {
+        "name": "brightness",
+        "want": 0.3333333333333333,
+        "actual": 0.3333328306530495
+      },
+      {
+        "name": "contrast",
+        "want": 0.3333333333333333,
+        "actual": 0.3333333333333333
+      },
+      {
+        "name": "cameraX",
+        "want": 0.5,
+        "actual": 0.4999996584909681
+      },
+      {
+        "name": "cameraY",
+        "want": 0.5,
+        "actual": 0.5
+      },
+      {
+        "name": "cameraZ",
+        "want": 0.847457627118644,
+        "actual": 0.847457627118644
+      },
+      {
+        "name": "colorPalette",
+        "want": 0.0,
+        "actual": 6.862886274346366e-08
+      }
+    ],
+    "source": "Heart Kali Liberation",
+    "checks": [
+      {
+        "name": "speed",
+        "want": 0.525,
+        "actual": 0.525
+      },
+      {
+        "name": "zoom",
+        "want": 0.18367346938775508,
+        "actual": 0.18367346938775508
+      },
+      {
+        "name": "morphing",
+        "want": 0.5,
+        "actual": 0.5
+      },
+      {
+        "name": "colorPulse",
+        "want": 0.2,
+        "actual": 0.2
+      },
+      {
+        "name": "brightness",
+        "want": 0.3333333333333333,
+        "actual": 0.3333333333333333
+      },
+      {
+        "name": "contrast",
+        "want": 0.3333333333333333,
+        "actual": 0.33333394081807116
+      },
+      {
+        "name": "cameraX",
+        "want": 0.5,
+        "actual": 0.5
+      },
+      {
+        "name": "cameraY",
+        "want": 0.5,
+        "actual": 0.5
+      },
+      {
+        "name": "cameraZ",
+        "want": 0.847457627118644,
+        "actual": 0.847457627118644
+      },
+      {
+        "name": "colorPalette",
+        "want": 0.0,
+        "actual": 0.0
+      }
+    ],
+    "opened": 10,
+    "rest_drives": 0,
+    "effects_on": []
+  },
+  {
+    "recovered": [
+      {
+        "name": "Hue Rotation",
+        "want": 0.0,
+        "actual": 0.0
+      },
+      {
+        "name": "Color Repeats",
+        "want": 0.21739130434782608,
+        "actual": 0.2173912539144696
+      },
+      {
+        "name": "Saturation Contrast",
+        "want": 0.0,
+        "actual": 0.0
+      },
+      {
+        "name": "Center Brightness",
+        "want": 1.0,
+        "actual": 1.0
+      },
+      {
+        "name": "Gain",
+        "want": 0.4736842105263158,
+        "actual": 0.47368409860604754
+      },
+      {
+        "name": "Saturation Spread",
+        "want": 0.6363636363636364,
+        "actual": 0.6363636363636364
+      }
+    ],
+    "source": "Heart Color Wheel",
+    "checks": [
+      {
+        "name": "Hue Rotation",
+        "want": 0.0,
+        "actual": 0.0
+      },
+      {
+        "name": "Color Repeats",
+        "want": 0.21739130434782608,
+        "actual": 0.21739130434782605
+      },
+      {
+        "name": "Saturation Contrast",
+        "want": 0.0,
+        "actual": 0.0
+      },
+      {
+        "name": "Center Brightness",
+        "want": 1.0,
+        "actual": 1.0
+      },
+      {
+        "name": "Gain",
+        "want": 0.4736842105263158,
+        "actual": 0.4736842105263159
+      },
+      {
+        "name": "Saturation Spread",
+        "want": 0.6363636363636364,
+        "actual": 0.6363636363636364
+      }
+    ],
+    "opened": 6,
+    "rest_drives": 0,
+    "effects_on": []
+  },
+  {
+    "recovered": [
+      {
+        "name": "color1R",
+        "want": 0.7,
+        "actual": 0.7
+      },
+      {
+        "name": "color1G",
+        "want": 0.1,
+        "actual": 0.10000003369298338
+      },
+      {
+        "name": "color1B",
+        "want": 1.0,
+        "actual": 1.0
+      },
+      {
+        "name": "color2R",
+        "want": 0.2,
+        "actual": 0.19999961329474397
+      },
+      {
+        "name": "color2G",
+        "want": 0.8,
+        "actual": 0.8
+      },
+      {
+        "name": "color2B",
+        "want": 0.7,
+        "actual": 0.6999996350696609
+      },
+      {
+        "name": "gamma",
+        "want": 0.16,
+        "actual": 0.16
+      },
+      {
+        "name": "amp1",
+        "want": 0.37500000000000006,
+        "actual": 0.3750000000000001
+      },
+      {
+        "name": "amp2",
+        "want": 0.04761904761904763,
+        "actual": 0.047619047619047644
+      },
+      {
+        "name": "freq1",
+        "want": 0.475,
+        "actual": 0.475
+      },
+      {
+        "name": "freq2",
+        "want": 0.55,
+        "actual": 0.55
+      },
+      {
+        "name": "phase1",
+        "want": 0.5375,
+        "actual": 0.5375
+      },
+      {
+        "name": "phase2",
+        "want": 0.2375,
+        "actual": 0.23749986897362485
+      },
+      {
+        "name": "rate",
+        "want": 0.65,
+        "actual": 0.6499992636675369
+      }
+    ],
+    "source": "Heart HypnoWorm",
+    "checks": [
+      {
+        "name": "color1R",
+        "want": 0.7,
+        "actual": 0.7
+      },
+      {
+        "name": "color1G",
+        "want": 0.1,
+        "actual": 0.09999999999999998
+      },
+      {
+        "name": "color1B",
+        "want": 1.0,
+        "actual": 0.9999999599577778
+      },
+      {
+        "name": "color2R",
+        "want": 0.2,
+        "actual": 0.2
+      },
+      {
+        "name": "color2G",
+        "want": 0.8,
+        "actual": 0.8
+      },
+      {
+        "name": "color2B",
+        "want": 0.7,
+        "actual": 0.7
+      },
+      {
+        "name": "gamma",
+        "want": 0.16,
+        "actual": 0.16000000000000006
+      },
+      {
+        "name": "amp1",
+        "want": 0.37500000000000006,
+        "actual": 0.3750000000000001
+      },
+      {
+        "name": "amp2",
+        "want": 0.04761904761904763,
+        "actual": 0.04761904761904768
+      },
+      {
+        "name": "freq1",
+        "want": 0.475,
+        "actual": 0.475
+      },
+      {
+        "name": "freq2",
+        "want": 0.55,
+        "actual": 0.55
+      },
+      {
+        "name": "phase1",
+        "want": 0.5375,
+        "actual": 0.537500777173789
+      },
+      {
+        "name": "phase2",
+        "want": 0.2375,
+        "actual": 0.2375
+      },
+      {
+        "name": "rate",
+        "want": 0.65,
+        "actual": 0.65
+      }
+    ],
+    "opened": 14,
+    "rest_drives": 0,
+    "effects_on": []
+  },
+  {
+    "recovered": [
+      {
+        "name": "animationSpeed",
+        "want": 0.5,
+        "actual": 0.5
+      },
+      {
+        "name": "torusSize",
+        "want": 0.3,
+        "actual": 0.3
+      },
+      {
+        "name": "color1R",
+        "want": 0.3,
+        "actual": 0.3
+      },
+      {
+        "name": "color1G",
+        "want": 0.7,
+        "actual": 0.7
+      },
+      {
+        "name": "color1B",
+        "want": 0.9,
+        "actual": 0.9
+      },
+      {
+        "name": "color2R",
+        "want": 0.95,
+        "actual": 0.95
+      },
+      {
+        "name": "color2G",
+        "want": 0.5,
+        "actual": 0.49999954518218814
+      },
+      {
+        "name": "color2B",
+        "want": 0.1,
+        "actual": 0.1000000488832918
+      }
+    ],
+    "source": "Heart Torus",
+    "checks": [
+      {
+        "name": "animationSpeed",
+        "want": 0.5,
+        "actual": 0.5000008022999586
+      },
+      {
+        "name": "torusSize",
+        "want": 0.3,
+        "actual": 0.3
+      },
+      {
+        "name": "color1R",
+        "want": 0.3,
+        "actual": 0.3
+      },
+      {
+        "name": "color1G",
+        "want": 0.7,
+        "actual": 0.7
+      },
+      {
+        "name": "color1B",
+        "want": 0.9,
+        "actual": 0.9
+      },
+      {
+        "name": "color2R",
+        "want": 0.95,
+        "actual": 0.9499997831767162
+      },
+      {
+        "name": "color2G",
+        "want": 0.5,
+        "actual": 0.5
+      },
+      {
+        "name": "color2B",
+        "want": 0.1,
+        "actual": 0.09999999999999998
+      }
+    ],
+    "opened": 8,
+    "rest_drives": 0,
+    "effects_on": []
+  }
+]

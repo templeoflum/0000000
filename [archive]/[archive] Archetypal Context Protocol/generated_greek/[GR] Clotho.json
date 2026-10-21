@@ -1,0 +1,158 @@
+{
+  "SchemaVersion": "1.1-ter",
+  "ArchetypeName": "Clotho",
+  "SystemOfOrigin": "GR",
+  "CulturalLineage": [
+    "Greek"
+  ],
+  "CommonAliases": [
+    "The Spinner",
+    "Fate of Birth",
+    "Thread Spinner",
+    "Youngest Fate"
+  ],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "To spin the thread of life at birth; to determine the moment and circumstances of each soul's beginning.",
+    "PrimaryDomain": "Mythic / Fate",
+    "ToneOrPolarity": "Creative / Beginning",
+    "SymbolicCore": "The beginning of all life threads, the spinner who starts every destiny.",
+    "Correspondences": {
+      "Element": "Air",
+      "Planet": "Moon",
+      "Chakra": "Sacral",
+      "Color": "White, Silver",
+      "Animal": "Spider, Lamb",
+      "Other": [
+        "Spindle",
+        "Distaff",
+        "White Thread",
+        "Birth",
+        "Spinning Wheel"
+      ]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": [
+      "Birth Fate",
+      "Thread Spinner",
+      "Life Beginner",
+      "Destiny Weaver"
+    ],
+    "ComplementaryArchetypes": [
+      "Lachesis ([GR] Sister/Measurer)",
+      "Atropos ([GR] Sister/Cutter)",
+      "Moirai ([GR] The Three Fates)"
+    ],
+    "ShadowForms": [
+      "Unwanted Birth",
+      "Tangled Threads",
+      "Predetermined Limitation"
+    ],
+    "DevelopmentalArc": [],
+    "CyclePhase": "Beginning / Birth"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": [
+      "Creative",
+      "Beginnings",
+      "Generative",
+      "Spinning",
+      "Natal",
+      "Potential"
+    ],
+    "Typologies": {
+      "MBTI": "ISFP",
+      "Enneagram": "9w1",
+      "Other": [
+        "Creator",
+        "Innocent",
+        "Weaver"
+      ]
+    },
+    "SubVariants": [
+      "Life Spinner",
+      "Birth Goddess",
+      "Thread Weaver"
+    ],
+    "InternalFamily": "Creative Potential"
+  },
+  "CulturalContext": {
+    "Regions": [
+      "Greece"
+    ],
+    "MythicAppearances": [
+      "Hesiod's Theogony",
+      "One of the Three Moirai",
+      "Daughter of Zeus and Themis (or Nyx)"
+    ],
+    "ReligiousOrRitualUse": "Invoked at births; honored with her sisters as the Fates; present at every birth with her spindle.",
+    "HistoricalEvolution": "Ancient pre-Olympian fate goddess; absorbed into classical pantheon; influenced Roman Nona.",
+    "SyncreticForms": [
+      "Nona (Roman)",
+      "Norns.Urd (Norse parallel)",
+      "Spinning goddesses (various)"
+    ]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "🧵",
+    "ImageryNotes": "Depicted as youngest of three sisters, holding spindle and distaff, spinning the thread of life; often crowned with stars.",
+    "ArtisticExamples": [
+      "Classical sculpture of Three Fates",
+      "Renaissance paintings",
+      "Spinning wheel imagery"
+    ],
+    "PoeticInvocation": "Clotho, spinner of life's first thread, who begins every story at the spindle.",
+    "DreamForm": "A gentle woman spinning endless thread from starlight, each strand becoming a new life"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": [
+      "JP12.Creator",
+      "Tarot.The_Star",
+      "JU.Birth"
+    ],
+    "SemanticTags": [
+      "#fate",
+      "#birth",
+      "#spinning",
+      "#beginning",
+      "#thread"
+    ],
+    "RitualFunction": "Invoked at births, new beginnings, and when seeking understanding of one's natal destiny.",
+    "AIPromptSeeds": [
+      "The spinner who begins every life thread, determining what you will become.",
+      "The youngest fate whose spindle never stops, creating new destinies endlessly."
+    ],
+    "NarrativeHooks": [
+      "The moment of birth that determines everything",
+      "Potential spun into being",
+      "The thread that connects to destiny"
+    ]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [
+      {
+        "to": "Nona (Roman)",
+        "strength": "strong"
+      },
+      {
+        "to": "Norns.Urd",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "FacetRegistry": [
+    {
+      "facet": "Life Spinner",
+      "weight": 0.6
+    },
+    {
+      "facet": "Birth Fate",
+      "weight": 0.3
+    },
+    {
+      "facet": "Potential Weaver",
+      "weight": 0.1
+    }
+  ]
+}

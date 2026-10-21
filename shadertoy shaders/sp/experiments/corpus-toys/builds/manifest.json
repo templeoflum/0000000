@@ -1,0 +1,65 @@
+{
+  "pilots": [
+    {
+      "name": "Heart Barberpole Field",
+      "source": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/barberpole.html",
+      "source_sha256": "fc83848a48977da7087dd2e41f3aa4827ce454dc128b0745384c31e05df89fb1",
+      "slots": [
+        {
+          "name": "phase",
+          "label": "Phase",
+          "default": 0.5,
+          "cyclic": true,
+          "drive": false,
+          "shape": 0
+        },
+        {
+          "name": "aperture",
+          "label": "Aperture",
+          "default": 0,
+          "cyclic": false,
+          "drive": false,
+          "shape": 1
+        },
+        {
+          "name": "contrast",
+          "label": "Contrast",
+          "default": 1,
+          "cyclic": false,
+          "drive": false,
+          "shape": 1
+        }
+      ]
+    },
+    {
+      "name": "Heart Stepping Feet Field",
+      "source": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/stepping-feet.html",
+      "source_sha256": "e2f38f4e9ef05a86fd334dcb61be064c10ecb898e5a2cd25462044b1b327ca3d",
+      "slots": [
+        {
+          "name": "phase",
+          "label": "Phase",
+          "default": 0.5,
+          "cyclic": true,
+          "drive": false,
+          "shape": 0
+        },
+        {
+          "name": "stripes",
+          "label": "Stripes",
+          "default": 1,
+          "cyclic": false,
+          "drive": false,
+          "shape": 1
+        }
+      ]
+    }
+  ],
+  "shared_sp_sha256": "01f101d2cc2a5710f31c8f24398c3c5dc643d2c3edd3e60d4d111196b614e98e",
+  "installed": false,
+  "canonical_shader_sha256": {
+    "Heart Barberpole Field.fs": "61183aa1de0310216aab322dce41de3f921cb92b6370ce8e16794f20d3a15bfb",
+    "Heart Stepping Feet Field.fs": "e6bb74e1d36a2ae0e69f38f80c0d5a6cbb5b95e2f020c6a1a75711f0b0dd293e"
+  },
+  "barberpole_rectangle_fix": "Scalar edge coverage promoted following main-task live confirmation."
+}

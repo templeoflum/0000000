@@ -1,0 +1,266 @@
+{
+  "duration": 19.992869582987623,
+  "addresses": 41,
+  "packets": 6416,
+  "read_count": 4983,
+  "read_ms": {
+    "p50": 1.4728750102221966,
+    "p95": 2.959083009045571,
+    "max": 31.488040986005217
+  },
+  "owned": [
+    2,
+    8,
+    9,
+    12,
+    13,
+    15,
+    16,
+    18,
+    19,
+    21,
+    23,
+    26,
+    37,
+    39,
+    40,
+    41
+  ],
+  "engine_gap_max": 45.212540979264304,
+  "engine_work_max": 2.140333002898842,
+  "waiting": 11,
+  "worst_routes": [
+    {
+      "address": "/composition/layers/3/video/effects/colourloop/effect/offset/phase",
+      "count": 1423,
+      "gap_p95": 12.67783300136216,
+      "gap_max": 40.50712499883957,
+      "age_p95": 2.8034170099999756,
+      "age_max": 11.798541992902756,
+      "bursts": 37
+    },
+    {
+      "address": "/composition/layers/3/video/effects/colourloop/effect/redoffset/phase",
+      "count": 1423,
+      "gap_p95": 12.67783300136216,
+      "gap_max": 40.50712499883957,
+      "age_p95": 2.8034170099999756,
+      "age_max": 11.798541992902756,
+      "bursts": 37
+    },
+    {
+      "address": "/composition/layers/3/video/effects/colourloop/effect/greenoffset/phase",
+      "count": 1423,
+      "gap_p95": 12.67783300136216,
+      "gap_max": 40.50712499883957,
+      "age_p95": 2.8034170099999756,
+      "age_max": 11.798541992902756,
+      "bursts": 37
+    },
+    {
+      "address": "/composition/layers/3/video/effects/colourloop/effect/blueoffset/phase",
+      "count": 1423,
+      "gap_p95": 12.67783300136216,
+      "gap_max": 40.50712499883957,
+      "age_p95": 2.8034170099999756,
+      "age_max": 11.798541992902756,
+      "bursts": 37
+    },
+    {
+      "address": "/composition/layers/22/video/effects/linearcloner/effect/center/phase",
+      "count": 1423,
+      "gap_p95": 12.67783300136216,
+      "gap_max": 40.50712499883957,
+      "age_p95": 2.8034170099999756,
+      "age_max": 11.798541992902756,
+      "bursts": 37
+    },
+    {
+      "address": "/composition/layers/22/video/effects/linearcloner/effect/taillength/phase",
+      "count": 1423,
+      "gap_p95": 12.67783300136216,
+      "gap_max": 40.50712499883957,
+      "age_p95": 2.8034170099999756,
+      "age_max": 11.798541992902756,
+      "bursts": 37
+    },
+    {
+      "address": "/composition/layers/22/video/effects/linearcloner/effect/startscale/phase",
+      "count": 1423,
+      "gap_p95": 12.67783300136216,
+      "gap_max": 40.50712499883957,
+      "age_p95": 2.8034170099999756,
+      "age_max": 11.798541992902756,
+      "bursts": 37
+    },
+    {
+      "address": "/composition/layers/22/video/effects/linearcloner/effect/endscale/phase",
+      "count": 1423,
+      "gap_p95": 12.67783300136216,
+      "gap_max": 40.50712499883957,
+      "age_p95": 2.8034170099999756,
+      "age_max": 11.798541992902756,
+      "bursts": 37
+    }
+  ],
+  "worst_gaps": [
+    {
+      "at": 13.70733824998024,
+      "gap_ms": 40.50712499883957,
+      "phase_step": -0.0038261711597442627,
+      "address": "/composition/layers/3/video/effects/colourloop/effect/offset/phase",
+      "sampled_ms": 35.32733299653046,
+      "age_ms": 6.47379198926501
+    },
+    {
+      "at": 13.70733824998024,
+      "gap_ms": 40.50712499883957,
+      "phase_step": -0.004970073699951172,
+      "address": "/composition/layers/3/video/effects/colourloop/effect/redoffset/phase",
+      "sampled_ms": 35.32733299653046,
+      "age_ms": 6.47379198926501
+    },
+    {
+      "at": 13.70733824998024,
+      "gap_ms": 40.50712499883957,
+      "phase_step": 0.002077501267194748,
+      "address": "/composition/layers/3/video/effects/colourloop/effect/greenoffset/phase",
+      "sampled_ms": 35.32733299653046,
+      "age_ms": 6.47379198926501
+    },
+    {
+      "at": 13.70733824998024,
+      "gap_ms": 40.50712499883957,
+      "phase_step": 0.0083712637424469,
+      "address": "/composition/layers/3/video/effects/colourloop/effect/blueoffset/phase",
+      "sampled_ms": 35.32733299653046,
+      "age_ms": 6.47379198926501
+    },
+    {
+      "at": 13.70733824998024,
+      "gap_ms": 40.50712499883957,
+      "phase_step": 0.0008755037561058998,
+      "address": "/composition/layers/22/video/effects/linearcloner/effect/center/phase",
+      "sampled_ms": 35.32733299653046,
+      "age_ms": 6.47379198926501
+    },
+    {
+      "at": 13.70733824998024,
+      "gap_ms": 40.50712499883957,
+      "phase_step": 0.0008755037561058998,
+      "address": "/composition/layers/22/video/effects/linearcloner/effect/taillength/phase",
+      "sampled_ms": 35.32733299653046,
+      "age_ms": 6.47379198926501
+    },
+    {
+      "at": 13.70733824998024,
+      "gap_ms": 40.50712499883957,
+      "phase_step": 0.0008755037561058998,
+      "address": "/composition/layers/22/video/effects/linearcloner/effect/startscale/phase",
+      "sampled_ms": 35.32733299653046,
+      "age_ms": 6.47379198926501
+    },
+    {
+      "at": 13.70733824998024,
+      "gap_ms": 40.50712499883957,
+      "phase_step": 0.0008755037561058998,
+      "address": "/composition/layers/22/video/effects/linearcloner/effect/endscale/phase",
+      "sampled_ms": 35.32733299653046,
+      "age_ms": 6.47379198926501
+    },
+    {
+      "at": 13.70733824998024,
+      "gap_ms": 40.50712499883957,
+      "phase_step": 0.0008755037561058998,
+      "address": "/composition/layers/22/video/effects/linearcloner/effect/startrotation/phase",
+      "sampled_ms": 35.32733299653046,
+      "age_ms": 6.47379198926501
+    },
+    {
+      "at": 13.70733824998024,
+      "gap_ms": 40.50712499883957,
+      "phase_step": 0.0008755037561058998,
+      "address": "/composition/layers/22/video/effects/linearcloner/effect/endrotation/phase",
+      "sampled_ms": 35.32733299653046,
+      "age_ms": 6.47379198926501
+    },
+    {
+      "at": 13.70733824998024,
+      "gap_ms": 40.50712499883957,
+      "phase_step": 0.0008755037561058998,
+      "address": "/composition/layers/22/video/effects/linearcloner/effect/distribution/phase",
+      "sampled_ms": 35.32733299653046,
+      "age_ms": 6.47379198926501
+    },
+    {
+      "at": 13.70733824998024,
+      "gap_ms": 40.50712499883957,
+      "phase_step": 0.0008755037561058998,
+      "address": "/composition/layers/22/video/effects/linearcloner/effect/distortion/phase",
+      "sampled_ms": 35.32733299653046,
+      "age_ms": 6.47379198926501
+    }
+  ],
+  "worst_events": [
+    {
+      "start": 15.703547874989454,
+      "ms": 8.994500007247552,
+      "name": "reconcile"
+    },
+    {
+      "start": 19.910492374998285,
+      "ms": 8.5317499761004,
+      "name": "reconcile"
+    },
+    {
+      "start": 19.558065624994924,
+      "ms": 8.375167002668604,
+      "name": "reconcile"
+    },
+    {
+      "start": 13.683500457991613,
+      "ms": 7.755917002214119,
+      "name": "reconcile"
+    },
+    {
+      "start": 12.334807707986329,
+      "ms": 7.6467499893624336,
+      "name": "reconcile"
+    },
+    {
+      "start": 14.538309750001645,
+      "ms": 7.626332982908934,
+      "name": "reconcile"
+    },
+    {
+      "start": 16.203852332982933,
+      "ms": 7.459667016519234,
+      "name": "reconcile"
+    },
+    {
+      "start": 19.53266899997834,
+      "ms": 7.394042011583224,
+      "name": "reconcile"
+    },
+    {
+      "start": 14.01776454198989,
+      "ms": 7.390332990325987,
+      "name": "reconcile"
+    },
+    {
+      "start": 19.548307499993825,
+      "ms": 7.349291990976781,
+      "name": "reconcile"
+    },
+    {
+      "start": 13.706161541980691,
+      "ms": 7.210166018921882,
+      "name": "reconcile"
+    },
+    {
+      "start": 18.20518758299295,
+      "ms": 7.103958982042968,
+      "name": "reconcile"
+    }
+  ]
+}

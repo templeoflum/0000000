@@ -1,0 +1,2670 @@
+{
+ "SP Atom 4D Field:shell": {
+  "relationship": {
+   "kind": "pendulum",
+   "base": 17,
+   "step": 1,
+   "members": {
+    "Turn": 0,
+    "Spin": 1,
+    "Double": 2,
+    "Sweep": 3,
+    "Thickness": 4,
+    "Hue": 5,
+    "W": 6,
+    "Sun": 7,
+    "Height": 8,
+    "X": 9,
+    "Y": 10,
+    "Morph": 11,
+    "Size": 12,
+    "Spread": 13,
+    "Drift": 14,
+    "Distance": 15,
+    "Faces": 16,
+    "Edges": 17,
+    "Round": 18,
+    "Shade": 19,
+    "Rim": 20,
+    "Haze": 21,
+    "Halo": 22,
+    "Focus": 23,
+    "Wet": 24,
+    "Loop": 25,
+    "Red": 26,
+    "Green": 27,
+    "Blue": 28,
+    "Depth": 29
+   }
+  },
+  "speed": 0.25
+ },
+ "SPDelayChain:figure": {
+  "relationship": {
+   "kind": "pendulum",
+   "base": 17,
+   "step": 1,
+   "members": {
+    "R": 0,
+    "G": 1,
+    "B": 2,
+    "Span": 3,
+    "Glide": 4
+   }
+  },
+  "speed": 0.25
+ },
+ "SP Atom Hybrid:hybrid": {
+  "relationship": null,
+  "speed": 1.0
+ },
+ "SP Atom 4D:4d": {
+  "relationship": null,
+  "speed": 1.0
+ },
+ "SP Atom Void:void": {
+  "relationship": {
+   "kind": "pendulum",
+   "base": 17,
+   "step": 1,
+   "members": {
+    "Travel": 0,
+    "Sway": 1,
+    "Bob": 2,
+    "Yaw": 3,
+    "Tilt": 4,
+    "Horizon": 5,
+    "Dolly": 6,
+    "Focal mm": 7,
+    "Distort": 8,
+    "Density": 9,
+    "Size": 10,
+    "Reach": 11,
+    "Haze": 12,
+    "Soft": 13
+   }
+  },
+  "speed": 0.25
+ },
+ "SPStudyLevel:level": {
+  "relationship": {
+   "kind": "pendulum",
+   "base": 17,
+   "step": 1,
+   "members": {
+    "Key": 0,
+    "Soft": 1,
+    "Gain": 2,
+    "Floor": 3,
+    "Curve": 4,
+    "Ceiling": 5,
+    "Lift": 6
+   }
+  },
+  "speed": 0.25
+ },
+ "SPChainMap:map": {
+  "relationship": {
+   "kind": "pendulum",
+   "base": 17,
+   "step": 1,
+   "members": {
+    "Zoom": 0,
+    "Rotate": 1,
+    "Drift X": 2,
+    "Drift Y": 3,
+    "Center X": 4,
+    "Center Y": 5
+   }
+  },
+  "speed": 0.25
+ },
+ "SP Atom Room:room": {
+  "relationship": {
+   "kind": "pendulum",
+   "base": 17,
+   "step": 1,
+   "members": {
+    "Tilt": 0,
+    "Sway": 1,
+    "Bob": 2,
+    "Travel": 3,
+    "Horizon": 4,
+    "Yaw": 5,
+    "Dolly": 6,
+    "Focal mm": 7,
+    "Distort": 8,
+    "Left": 9,
+    "Right": 10,
+    "Floor": 11,
+    "Ceiling": 12,
+    "Back": 13,
+    "Front": 14,
+    "Scale": 15,
+    "Gap": 16,
+    "Seam": 17,
+    "Bands": 18,
+    "Sun": 19,
+    "Height": 20,
+    "Relief": 21,
+    "Haze": 22,
+    "Soft": 23
+   }
+  },
+  "speed": 0.25
+ },
+ "SP Atom Solid:3d": {
+  "relationship": {
+   "kind": "pendulum",
+   "base": 17,
+   "step": 1,
+   "members": {
+    "Morph": 0,
+    "Size": 1,
+    "X": 2,
+    "Y": 3,
+    "Tumble": 4,
+    "Axis": 5,
+    "Sun": 6,
+    "Height": 7,
+    "Distance": 8,
+    "Shadow": 9,
+    "Loop": 10,
+    "Hue": 11,
+    "Red": 12,
+    "Green": 13,
+    "Blue": 14,
+    "Shade": 15,
+    "Edge": 16,
+    "Emboss": 17
+   }
+  },
+  "speed": 1.0
+ },
+ "SP Atom Ground:ground": {
+  "relationship": null,
+  "speed": 0.25
+ },
+ "feedback/SPChainMap:map": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "relationship": {
+   "kind": "pendulum",
+   "base": 17,
+   "step": 1,
+   "members": {
+    "Zoom": 0,
+    "Rotate": 1,
+    "Drift X": 2,
+    "Drift Y": 3,
+    "Center X": 4,
+    "Center Y": 5
+   }
+  },
+  "speed": 0.25,
+  "timing_mode": "harmonic"
+ },
+ "sculpt/SPStudyLevel:level": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "relationship": null,
+  "speed": 0.25,
+  "timing_mode": "harmonic"
+ },
+ "field/SP Atom Ground:ground": {
+  "relationship": null,
+  "speed": 0.25,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "timing_mode": "harmonic"
+ },
+ "figure/SP Atom 4D Field:shell": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "relationship": null,
+  "speed": 0.125,
+  "timing_mode": "harmonic"
+ },
+ "field/SP Atom Room:room": {
+  "relationship": null,
+  "speed": 0.25,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "timing_mode": "harmonic"
+ },
+ "delay/SPDelayChain:figure": {
+  "relationship": null,
+  "speed": 0.25,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "timing_mode": null
+ },
+ "feedback/SPHeartFeedback:heart feedback": {
+  "relationship": {
+   "kind": "pendulum",
+   "base": 17,
+   "step": 1,
+   "members": {
+    "Zoom": 0,
+    "Rotate": 1,
+    "Loop Hue": 2
+   }
+  },
+  "speed": 0.25,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/SP Atom Void:void": {
+  "relationship": null,
+  "speed": 0.25,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "timing_mode": "harmonic"
+ },
+ "texture/SPAtomDither:dither": {
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/SP Atom Solid:3d": {
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "timing_mode": "harmonic"
+ },
+ "figure/z33d+:FM \u00b7 z33d+ [1.6.4]": {
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:layer/figure~1/effect/LinearCloner~1": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "speed": 0.5,
+  "relationship": null,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:composition/effect/MTK_STROKE_VOLT~1": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "speed": 1.0,
+  "relationship": null,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:composition/effect/MTK_PXLMELT~1": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "speed": 1.0,
+  "relationship": null,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:composition/effect/HueRotate~1": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "speed": 1.0,
+  "relationship": null,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:composition/effect/mtk_lut_corrupt~1": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "speed": 1.0,
+  "relationship": null,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:composition/effect/ColourLoop~1": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "speed": 1.0,
+  "relationship": null,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:composition/effect/TwitchEffect~1": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "speed": 1.0,
+  "relationship": null,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:composition/effect/MTK_STROKEDIFFUSE~1": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "speed": 1.0,
+  "relationship": null,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:composition/effect/Strobe~1": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "speed": 1.0,
+  "relationship": null,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:layer/feedback~1/effect/InvertRGB~1": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "speed": 1.0,
+  "relationship": null,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:layer/feedback~1/effect/Blur~1": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "speed": 1.0,
+  "relationship": null,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:layer/feedback~1/effect/Sharpen~1": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "speed": 1.0,
+  "relationship": null,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:layer/feedback~1/effect/Kaleidoscope~1": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "speed": 1.0,
+  "relationship": null,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:layer/feedback~1/effect/Mirror~1": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "speed": 1.0,
+  "relationship": null,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:layer/feedback~1/effect/Mirror~2": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "speed": 1.0,
+  "relationship": null,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:layer/feedback~1/effect/Mirror~3": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "speed": 1.0,
+  "relationship": null,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:layer/feedback~1/effect/Mirror~4": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "speed": 1.0,
+  "relationship": null,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:layer/feedback~1/clip/map~1/effect/InvertRGB~1": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "speed": 1.0,
+  "relationship": null
+ },
+ "effects/effect:layer/feedback~1/clip/map~1/effect/Blur~1": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "speed": 1.0,
+  "relationship": null
+ },
+ "effects/effect:layer/feedback~1/clip/map~1/effect/Sharpen~1": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "speed": 1.0,
+  "relationship": null
+ },
+ "effects/effect:layer/sculpt~1/effect/InvertRGB~1": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "speed": 1.0,
+  "relationship": null,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:layer/sculpt~1/effect/HueRotate~1": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "speed": 1.0,
+  "relationship": null,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:layer/sculpt~1/effect/InvertRGB~2": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "speed": 1.0,
+  "relationship": null,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:layer/sculpt~1/effect/DelayRGB~1": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "speed": 1.0,
+  "relationship": null,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:layer/sculpt~1/effect/AutoMask~1": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "speed": 1.0,
+  "relationship": null,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:layer/field~1/effect/Twisted~1": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "speed": 1.0,
+  "relationship": null,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:layer/field~1/effect/Twisted~2": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "speed": 1.0,
+  "relationship": null,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:layer/field~1/effect/Suckr~1": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "speed": 1.0,
+  "relationship": null,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:layer/field~1/effect/FishEye~1": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "speed": 1.0,
+  "relationship": null,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:layer/delay~1/effect/InvertRGB~1": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "speed": 1.0,
+  "relationship": null,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:layer/delay~1/effect/AutoMask~1": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "speed": 1.0,
+  "relationship": null,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:layer/figure~1/effect/TwitchEffect~1": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "speed": 1.0,
+  "relationship": null,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:layer/figure~1/effect/mtk_lut_corrupt~1": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "speed": 1.0,
+  "relationship": null,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:layer/figure~1/effect/RadialCloner~1": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "speed": 1.0,
+  "relationship": null,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:layer/figure~1/effect/Iterate~1": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "speed": 1.0,
+  "relationship": null,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:layer/figure~1/effect/Mirror~1": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "speed": 1.0,
+  "relationship": null,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:layer/figure~1/effect/Mirror~2": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "speed": 1.0,
+  "relationship": null,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:layer/figure~1/effect/Mirror~3": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "speed": 1.0,
+  "relationship": null,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:layer/figure~1/effect/MTK_Gradient_Shadow~1": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "speed": 1.0,
+  "relationship": null,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:layer/figure~1/effect/Displace~1": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "speed": 1.0,
+  "relationship": null,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:layer/figure~1/effect/Distortion~1": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "speed": 1.0,
+  "relationship": null,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:layer/figure~1/effect/ASCII~1": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "speed": 1.0,
+  "relationship": null,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:layer/figure~1/effect/InfiniteZoom~1": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "speed": 1.0,
+  "relationship": null,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:layer/figure~1/effect/LoRezEffect~1": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "speed": 1.0,
+  "relationship": null,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:layer/glyph~1/effect/MTK_Gradient_Shadow~1": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "speed": 1.0,
+  "relationship": null,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:layer/glyph~1/effect/Goo~1": {
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "speed": 1.0,
+  "relationship": null,
+  "timing_mode": "harmonic"
+ },
+ "figure/SP Figure Solid Source:SP Figure Solid Source": {
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:layer/figure~1/effect/Transform~1": {
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "timing_mode": "harmonic"
+ },
+ "field/ButterflyEffect:FM \u00b7 ButterflyEffect [1.5.3]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/Gradient Bars:FM \u00b7 Gradient Bars [1.5.7]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/Melty Boi:FM \u00b7 Melty Boi [1.5.9]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 0.125,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/Cuadricula rect:FM \u00b7 Cuadricula rect [1.5.4]": {
+  "timing_mode": null,
+  "speed": 1.0,
+  "relationship": null,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/data blocks:FM \u00b7 data blocks [1.5.5]": {
+  "timing_mode": null,
+  "speed": 1.0,
+  "relationship": null,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/RailroadTracks:FM \u00b7 RailroadTracks [1.5.15]": {
+  "timing_mode": null,
+  "speed": 1.0,
+  "relationship": null,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/RetroTechnicolorComputer:FM \u00b7 RetroTechnicolorComputer [1.5.19]": {
+  "timing_mode": null,
+  "speed": 1.0,
+  "relationship": null,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/SmoothXORi:FM \u00b7 SmoothXORi [1.5.20]": {
+  "timing_mode": null,
+  "speed": 1.0,
+  "relationship": null,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/TruchetDualLevelSpin:FM \u00b7 TruchetDualLevelSpin [1.5.21]": {
+  "timing_mode": null,
+  "speed": 1.0,
+  "relationship": null,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/RainbowRingCubicTwist:FM \u00b7 RainbowRingCubicTwist [1.6.8]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/Crystal Drops:FM \u00b7 Crystal Drops [1.6.13]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/Spikeball_v2:FM \u00b7 Spikeball_v2 [1.6.26]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/SP Figure Ring Source:SP Figure Ring Source": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/SP Figure Spike Source:SP Figure Spike Source": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/SP Figure Crystal Source:SP Figure Crystal Source": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/TileIllusion:FM \u00b7 TileIllusion [1.5.8]": {
+  "timing_mode": null,
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/Screen Weaver:FM \u00b7 Screen Weaver [1.5.10]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/sin_wave:FM \u00b7 sin_wave [1.5.11]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/SpiralSurface:FM \u00b7 SpiralSurface [1.5.12]": {
+  "timing_mode": null,
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/quantum chaos:FM \u00b7 quantum chaos [1.5.16]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/TwinRays:FM \u00b7 TwinRays [1.5.22]": {
+  "timing_mode": null,
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/MTK_Worleyz:FM \u00b7 MTK_Worleyz [1.5.2]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/fractal alien text:FM \u00b7 fractal alien text [1.5.6]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/Dark Tomb:FM \u00b7 Dark Tomb [1.5.13]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/cubes + spheres:FM \u00b7 cubes + spheres [1.5.14]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/Quaternion RGB vector rotation:FM \u00b7 Quaternion RGB vector rotation [1.5.18]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/VoroniCubes:FM \u00b7 VoroniCubes [1.5.23]": {
+  "timing_mode": null,
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/Higgs Mechanism:FM \u00b7 Higgs Mechanism [1.5.25]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/Klein bottle figure 8 immersion:FM \u00b7 Klein bottle figure 8 immersion [1.5.26]": {
+  "timing_mode": null,
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/PsychedeliaGenerica:FM \u00b7 PsychedeliaGenerica [1.5.27]": {
+  "timing_mode": null,
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/Potential Energy:FM \u00b7 Potential Energy [1.5.28]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/Magnetic Anomaly:FM \u00b7 Magnetic Anomaly [1.5.29]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/Quantum Field Theory:FM \u00b7 Quantum Field Theory [1.5.30]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/QuarternionFieldDistortion:FM \u00b7 QuarternionFieldDistortion [1.5.33]": {
+  "timing_mode": null,
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/Cos Orbit:FM \u00b7 Cos Orbit [1.5.35]": {
+  "timing_mode": null,
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/Creation:FM \u00b7 Creation [1.5.37]": {
+  "timing_mode": null,
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/spiral intersect:FM \u00b7 spiral intersect [1.5.40]": {
+  "timing_mode": null,
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/Flower2:FM \u00b7 Flower2 [1.5.36]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/Gentle Rings:FM \u00b7 Gentle Rings [1.5.38]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/Quantum Fractal:FM \u00b7 Quantum Fractal [1.5.39]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/Quasi-Kleinian Ring of Circles:FM \u00b7 Quasi-Kleinian Ring of Circles [1.5.41]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/Poincare Disk:FM \u00b7 Poincare Disk [1.5.42]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/FractalCartoon:FM \u00b7 FractalCartoon [1.5.43]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/MergerTunnel:FM \u00b7 MergerTunnel [1.5.44]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/Sands:FM \u00b7 Sands [1.5.45]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/ShaderLamb:FM \u00b7 ShaderLamb [1.5.47]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/Cumulus:FM \u00b7 Cumulus [1.5.48]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/MetaSevenVortex:FM \u00b7 MetaSevenVortex [1.5.49]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/Wild Style:FM \u00b7 Wild Style [1.5.50]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/AI Escape valve:FM \u00b7 AI Escape valve [1.5.52]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/Apollonian:FM \u00b7 Apollonian [1.5.53]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/Equirectangular Apollonian:FM \u00b7 Equirectangular Apollonian [1.5.54]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/ocean waves:FM \u00b7 ocean waves [1.5.65]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/Kissing Donuts:FM \u00b7 Kissing Donuts [1.5.56]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/Kleinian limit set:FM \u00b7 Kleinian limit set [1.5.57]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/Kleinian limit set-Maskit slice:FM \u00b7 Kleinian limit set-Maskit slice [1.5.58]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/MegaWave 2:FM \u00b7 MegaWave 2 [1.5.60]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/[phreax] quantum field:FM \u00b7 [phreax] quantum field [1.5.61]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/Oldschool Tube:FM \u00b7 Oldschool Tube [1.5.62]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/Full Spectrum Cyber:FM \u00b7 Full Spectrum Cyber [1.5.63]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/ocean waves:FM \u00b7 ocean waves [1.5.66]": {
+  "timing_mode": null
+ },
+ "field/Dodecahedral Permutations:FM \u00b7 Dodecahedral Permutations [1.5.68]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/Deep Quantum Time State:FM \u00b7 Deep Quantum Time State [1.5.69]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/q_interference23:FM \u00b7 q_interference23 [1.5.70]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/flex links - v2:FM \u00b7 flex links - v2 [1.5.71]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/flex links - v3:FM \u00b7 flex links - v3 [1.5.72]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/flex links radial - slice:FM \u00b7 flex links radial - slice [1.5.73]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/flex links radial - slice2:FM \u00b7 flex links radial - slice2 [1.5.74]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/flex links radial - v4:FM \u00b7 flex links radial - v4 [1.5.75]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/Quaternion controls:FM \u00b7 Quaternion controls [1.5.76]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/Space Warping Portals:FM \u00b7 Space Warping Portals [1.5.77]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/Steiner Surfaces:FM \u00b7 Steiner Surfaces [1.5.78]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/Quantum Socket:FM \u00b7 Quantum Socket [1.5.79]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/Quaternion Kinematics:FM \u00b7 Quaternion Kinematics [1.5.80]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/HopfFibration:FM \u00b7 HopfFibration [1.5.81]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/[2TC 15] old skool 3d driving:FM \u00b7 [2TC 15] old skool 3d driving [1.5.83]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/Metaballs:FM \u00b7 Metaballs [1.6.3]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/DimensionMorphingTopography:FM \u00b7 DimensionMorphingTopography [1.6.5]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/MagicLougie:FM \u00b7 MagicLougie [1.6.6]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/GeodesicTiling:FM \u00b7 GeodesicTiling [1.6.7]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/SpaceSpore:FM \u00b7 SpaceSpore [1.6.9]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/4D Voronoi + Hopf Fibration:FM \u00b7 4D Voronoi + Hopf Fibration [1.6.10]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/16 Dimensional Julia (Sedenion):FM \u00b7 16 Dimensional Julia (Sedenion) [1.6.11]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/Barth Sextic Surfaces:FM \u00b7 Barth Sextic Surfaces [1.6.12]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/curved surface:FM \u00b7 curved surface [1.6.14]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/Hopf + Poincare:FM \u00b7 Hopf + Poincare [1.6.15]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/HypnoWorm:FM \u00b7 HypnoWorm [1.6.16]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/Melty Boi:FM \u00b7 Melty Boi [1.6.17]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/QUANTUM WAVE INTERFERENCE:FM \u00b7 QUANTUM WAVE INTERFERENCE [1.6.18]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/Quantum Zappy Sphere:FM \u00b7 Quantum Zappy Sphere [1.6.19]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/Quaternion Averaging:FM \u00b7 Quaternion Averaging [1.6.20]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/Quaternion Conjugation 2:FM \u00b7 Quaternion Conjugation 2 [1.6.21]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/quantum droplet:FM \u00b7 quantum droplet [1.6.22]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/On their way to Sirius:FM \u00b7 On their way to Sirius [1.6.23]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/Ray Marching Experiment n35:FM \u00b7 Ray Marching Experiment n35 [1.6.24]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/Shaderdough:FM \u00b7 Shaderdough [1.6.25]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/Quantum Carpets:FM \u00b7 Quantum Carpets [1.6.27]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/Raymarched Hopf Fibers:FM \u00b7 Raymarched Hopf Fibers [1.6.29]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/Dodecahedron:FM \u00b7 Dodecahedron [1.6.30]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/Wireframe stellated dodecahedron:FM \u00b7 Wireframe stellated dodecahedron [1.6.31]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/CubeCluster:FM \u00b7 CubeCluster [1.6.33]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/example using quaternions:FM \u00b7 example using quaternions [1.6.34]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/Multi Cube:FM \u00b7 Multi Cube [1.6.35]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/Multi Cube:FM \u00b7 Multi Cube [1.6.36]": {
+  "timing_mode": null
+ },
+ "figure/quantum computer:FM \u00b7 quantum computer [1.6.37]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/Melting Fractal:FM \u00b7 Melting Fractal [1.6.38]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/quadratic bezier triangle 2 AABV:FM \u00b7 quadratic bezier triangle 2 AABV [1.6.39]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/Klein Bottle (3D):FM \u00b7 Klein Bottle (3D) [1.6.40]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/4D Rounded box (Bluey):FM \u00b7 4D Rounded box (Bluey) [1.6.41]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/4-space rotations:FM \u00b7 4-space rotations [1.6.42]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/HEPTANION transformation:FM \u00b7 HEPTANION transformation [1.6.43]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/quaternion slerp:FM \u00b7 quaternion slerp [1.6.44]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/quaternion slerp:FM \u00b7 quaternion slerp [1.6.45]": {
+  "timing_mode": null
+ },
+ "figure/Quaternion Twister:FM \u00b7 Quaternion Twister [1.6.46]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/Spinor Belt Trick:FM \u00b7 Spinor Belt Trick [1.6.47]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/Superfluid helium:FM \u00b7 Superfluid helium [1.6.48]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/SP Atom Figure 2D:2d": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/SP Atom 4D:4d": {
+  "relationship": null,
+  "speed": 1.0,
+  "timing_mode": "harmonic",
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/SP Atom Hybrid:hybrid": {
+  "relationship": null,
+  "speed": 1.0,
+  "timing_mode": "harmonic",
+  "pattern": 0,
+  "seed": 0,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/Figure 3D SP:Figure 3D SP": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0
+ },
+ "figure/Figure 2D SP:Figure 2D SP": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "depth": 1.0,
+  "pattern": 0
+ },
+ "figure/FM \u00b7 Hopf fibers SP [1.6.85]:FM \u00b7 Hopf fibers SP [1.6.85]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0
+ },
+ "figure/SP State Test:FM \u00b7 SP State Test [1.6.86]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/Metaballs:FM \u00b7 Metaballs [2.4.1]": {
+  "timing_mode": null
+ },
+ "figure/FM \u00b7 Hopf fibers SP [2.6.1]:FM \u00b7 Hopf fibers SP [2.6.1]": {
+  "timing_mode": null
+ },
+ "figure/Gradient Bars:FM \u00b7 Gradient Bars [2.4.2]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/SP State Test:FM \u00b7 SP State Test [2.6.2]": {
+  "timing_mode": null
+ },
+ "figure/Shaper:FM \u00b7 Shaper [2.4.3]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/Rings:FM \u00b7 Rings [2.6.3]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/Tunnelines:FM \u00b7 Tunnelines [2.4.4]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/Metaballs:FM \u00b7 Metaballs [2.6.4]": {
+  "timing_mode": null
+ },
+ "texture/SP Atom Texture:texture": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "texture/SP Scan:SP Scan": {
+  "timing_mode": "harmonic",
+  "depth": 1.0,
+  "relationship": null,
+  "pattern": 0,
+  "speed": 1.0
+ },
+ "grain/SP Atom Grain:grain": {
+  "timing_mode": "harmonic",
+  "depth": 1.0,
+  "relationship": null,
+  "pattern": 0,
+  "speed": 1.0,
+  "seed": 0,
+  "spread": 1,
+  "fm": 0.0
+ },
+ "grain/SP Grain:SP Grain": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0
+ },
+ "grain/SP State Test:SP State Test": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "grain/Lines:FM \u00b7 Lines [2.8.2]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "grain/Checkered:FM \u00b7 Checkered [2.8.3]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "grain/Spiral:FM \u00b7 Spiral [2.8.4]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/SP Field:SP Field": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0
+ },
+ "field/FM \u00b7 Gentle Rings SP [1.5.85]:FM \u00b7 Gentle Rings SP [1.5.85]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0
+ },
+ "field/Color Wheel:FM \u00b7 Color Wheel [2.2.1]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/Sine Wave:FM \u00b7 Sine Wave [2.3.1]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/FM \u00b7 Gentle Rings SP [2.5.1]:FM \u00b7 Gentle Rings SP [2.5.1]": {
+  "timing_mode": null
+ },
+ "field/Checkered:FM \u00b7 Checkered [2.1.2]": {
+  "timing_mode": "harmonic",
+  "depth": 1.0,
+  "relationship": null,
+  "pattern": 0,
+  "speed": 1.0,
+  "seed": 0,
+  "spread": 1,
+  "fm": 0.0
+ },
+ "field/Spiral:FM \u00b7 Spiral [2.2.2]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/Lines:FM \u00b7 Lines [2.3.2]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/Lines:FM \u00b7 Lines [2.1.3]": {
+  "timing_mode": null
+ },
+ "field/Rings:FM \u00b7 Rings [2.2.3]": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/Spiral:FM \u00b7 Spiral [2.3.3]": {
+  "timing_mode": null
+ },
+ "field/Checkered:FM \u00b7 Checkered [2.5.3]": {
+  "timing_mode": null
+ },
+ "field/Sine Wave:FM \u00b7 Sine Wave [2.1.4]": {
+  "timing_mode": null
+ },
+ "field/Checkered:FM \u00b7 Checkered [2.3.4]": {
+  "timing_mode": null
+ },
+ "field/Spiral:FM \u00b7 Spiral [2.5.4]": {
+  "timing_mode": null
+ },
+ "figure/Heart HypnoWorm:Heart HypnoWorm": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/Heart Torus:Heart Torus": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/Heart Quaternion Field:Heart Quaternion Field": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/Heart Quaternion Swell:Heart Quaternion Swell": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/Heart Paper Fractal:Heart Paper Fractal": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/Heart Vector Lattice:Heart Vector Lattice": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/Heart Concentrip:Heart Concentrip": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/Heart Puls Lattice:Heart Puls Lattice": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/Heart Ancient Temple:Heart Ancient Temple": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/Heart Kali Liberation:Heart Kali Liberation": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/Heart Color Wheel:Heart Color Wheel": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/Heart Klein Bottle:Heart Klein Bottle": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/Heart Melting Fractal:Heart Melting Fractal": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/Heart Capsule:Heart Capsule": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "sculpt/Heart Capsule:Heart Capsule": {
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "effects/effect:composition/effect/Transform~1": {
+  "depth": 1.0,
+  "relationship": null,
+  "pattern": 0,
+  "timing_mode": "harmonic",
+  "speed": 1.0,
+  "seed": 0,
+  "spread": 1,
+  "fm": 0.0
+ },
+ "effects/effect:group/Group%20%23~1/effect/Transform~1": {
+  "depth": 1.0,
+  "relationship": null,
+  "pattern": 0,
+  "timing_mode": "harmonic",
+  "speed": 1.0,
+  "seed": 0,
+  "spread": 1,
+  "fm": 0.0
+ },
+ "effects/effect:layer/feedback~1/effect/Transform~1": {
+  "depth": 1.0,
+  "relationship": null,
+  "pattern": 0,
+  "timing_mode": "harmonic",
+  "speed": 1.0,
+  "seed": 0,
+  "spread": 1,
+  "fm": 0.0
+ },
+ "effects/effect:layer/feedback~1/clip/FM%20%C2%B7%20Static%20Rotate%20Left%20Z%20%5B1.4.1%5D~1/effect/Transform~1": {
+  "depth": 1.0,
+  "relationship": null,
+  "pattern": 0,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:layer/sculpt~1/effect/Transform~1": {
+  "depth": 1.0,
+  "relationship": null,
+  "pattern": 0,
+  "timing_mode": "harmonic",
+  "speed": 1.0,
+  "seed": 0,
+  "spread": 1,
+  "fm": 0.0
+ },
+ "effects/effect:layer/sculpt~1/clip/level~1/effect/Transform~1": {
+  "depth": 1.0,
+  "relationship": null,
+  "pattern": 0,
+  "timing_mode": "harmonic",
+  "speed": 1.0,
+  "seed": 0,
+  "spread": 1,
+  "fm": 0.0
+ },
+ "effects/effect:layer/field~1/effect/Transform~1": {
+  "depth": 1.0,
+  "relationship": null,
+  "pattern": 0,
+  "timing_mode": "harmonic",
+  "speed": 1.0,
+  "seed": 0,
+  "spread": 1,
+  "fm": 0.0
+ },
+ "effects/effect:layer/field~1/clip/FM%20%C2%B7%20Checkered%20%5B2.1.2%5D~1/effect/Transform~1": {
+  "depth": 1.0,
+  "relationship": null,
+  "pattern": 0,
+  "timing_mode": "harmonic",
+  "speed": 1.0,
+  "seed": 0,
+  "spread": 1,
+  "fm": 0.0
+ },
+ "effects/effect:layer/delay~1/effect/Transform~1": {
+  "depth": 1.0,
+  "relationship": null,
+  "pattern": 0,
+  "timing_mode": "harmonic",
+  "speed": 1.0,
+  "seed": 0,
+  "spread": 1,
+  "fm": 0.0
+ },
+ "effects/effect:layer/delay~1/clip/figure~1/effect/Transform~1": {
+  "depth": 1.0,
+  "relationship": null,
+  "pattern": 0,
+  "timing_mode": "harmonic",
+  "speed": 1.0,
+  "seed": 0,
+  "spread": 1,
+  "fm": 0.0
+ },
+ "effects/effect:layer/figure~1/effect/Transform~2": {
+  "depth": 1.0,
+  "relationship": null,
+  "pattern": 0,
+  "timing_mode": "harmonic",
+  "speed": 1.0,
+  "seed": 0,
+  "spread": 1,
+  "fm": 0.0
+ },
+ "effects/effect:layer/figure~1/clip/Heart%20Capsule~1/effect/Transform~1": {
+  "depth": 1.0,
+  "relationship": null,
+  "pattern": 0,
+  "timing_mode": "harmonic",
+  "speed": 1.0,
+  "seed": 0,
+  "spread": 1,
+  "fm": 0.0
+ },
+ "effects/effect:layer/glyph~1/effect/Transform~1": {
+  "depth": 1.0,
+  "relationship": null,
+  "pattern": 0,
+  "timing_mode": "harmonic",
+  "speed": 1.0,
+  "seed": 0,
+  "spread": 1,
+  "fm": 0.0
+ },
+ "effects/effect:layer/texture~1/effect/Transform~1": {
+  "depth": 1.0,
+  "relationship": null,
+  "pattern": 0,
+  "timing_mode": "harmonic",
+  "speed": 1.0,
+  "seed": 0,
+  "spread": 1,
+  "fm": 0.0
+ },
+ "effects/effect:layer/texture~1/clip/SP%20Scan~1/effect/Transform~1": {
+  "depth": 1.0,
+  "relationship": null,
+  "pattern": 0,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:layer/grain~1/effect/Transform~1": {
+  "depth": 1.0,
+  "relationship": null,
+  "pattern": 0,
+  "timing_mode": "harmonic",
+  "speed": 1.0,
+  "seed": 0,
+  "spread": 1,
+  "fm": 0.0
+ },
+ "effects/effect:layer/grain~1/clip/grain~1/effect/Transform~1": {
+  "depth": 1.0,
+  "relationship": null,
+  "pattern": 0,
+  "timing_mode": "harmonic",
+  "speed": 1.0,
+  "seed": 0,
+  "spread": 1,
+  "fm": 0.0
+ },
+ "effects/effect:layer/field~1/clip/FM%20%C2%B7%20Checkered%20%5B2.1.2%5D~1/source": {
+  "depth": 1.0,
+  "relationship": null,
+  "pattern": 0,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:layer/texture~1/clip/SP%20Scan~1/source": {
+  "depth": 1.0,
+  "relationship": null,
+  "pattern": 0,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:layer/feedback~1/clip/FM%20%C2%B7%20Static%20Rotate%20Left%20Z%20%5B1.4.1%5D~1/effect/Transform~2": {
+  "relationship": null,
+  "pattern": 0,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:layer/sculpt~1/clip/level~1/effect/SPStudyLevel~1": {
+  "relationship": null,
+  "pattern": 0,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:layer/delay~1/clip/figure~1/effect/SPDelayChain~1": {
+  "relationship": null,
+  "pattern": 0,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:layer/feedback~1/clip/FM%20%C2%B7%20Anim%20Rotate%20Left%20Z%20%5B1.4.3%5D~1/effect/Transform~1": {
+  "depth": 1.0,
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "fm": 0.0
+ },
+ "effects/effect:layer/texture~1/clip/FM%20%C2%B7%20MTK_Retrovision%20%5B1.8.1%5D~1/effect/Transform~1": {
+  "depth": 1.0,
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "fm": 0.0
+ },
+ "figure/SP Toy Transit Figure 01:SP Toy Transit Figure 01": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0
+ },
+ "figure/SP Toy Quasicrystal Figure 01:SP Toy Quasicrystal Figure 01": {
+  "timing_mode": "harmonic",
+  "relationship": null,
+  "speed": 1.0
+ },
+ "field/Heart Barberpole Field:Heart Barberpole Field": {
+  "relationship": null,
+  "speed": 1.0,
+  "timing_mode": "harmonic"
+ },
+ "field/Heart Stepping Feet Field:Heart Stepping Feet Field": {
+  "relationship": null,
+  "speed": 1.0,
+  "timing_mode": "harmonic"
+ },
+ "figure/Heart Pinna Brelstaff Figure:Heart Pinna Brelstaff Figure": {
+  "relationship": null,
+  "speed": 1.0
+ },
+ "field/Gradient:FM \u00b7 Gradient [2.1.1]": {
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "timing_mode": "harmonic"
+ },
+ "field/Static:FM \u00b7 Static [2.2.4]": {
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "timing_mode": "harmonic"
+ },
+ "grain/Static:FM \u00b7 Static [2.8.1]": {
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "timing_mode": "harmonic"
+ },
+ "figure/Heart HypnoWorm:FM \u00b7 HypnoWorm [1.6.16]": {
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "timing_mode": "harmonic"
+ },
+ "figure/Heart Torus:FM \u00b7 Torus thingy [1.6.28]": {
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:layer/field~1/clip/Heart%20Puls%20Lattice~1/effect/Transform~1": {
+  "depth": 1.0,
+  "relationship": null,
+  "pattern": 0,
+  "timing_mode": "harmonic",
+  "speed": 1.0,
+  "seed": 0,
+  "spread": 1,
+  "fm": 0.0
+ },
+ "effects/effect:layer/figure~1/clip/Figure%202D%20SP~1/effect/Transform~1": {
+  "depth": 1.0,
+  "relationship": null,
+  "pattern": 0,
+  "timing_mode": "harmonic",
+  "speed": 1.0,
+  "seed": 0,
+  "spread": 1,
+  "fm": 0.0
+ },
+ "effects/effect:layer/figure~1/clip/Figure%202D%20SP~1/source": {
+  "depth": 1.0,
+  "relationship": null,
+  "pattern": 0,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:layer/delay~1/effect/ColourLoop~1": {
+  "relationship": null,
+  "pattern": 0,
+  "timing_mode": "harmonic"
+ },
+ "effects/effect:layer/delay~1/effect/DelayRGB~1": {
+  "relationship": null,
+  "pattern": 0,
+  "timing_mode": "harmonic"
+ }
+}

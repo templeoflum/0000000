@@ -1,0 +1,395 @@
+{
+  "started": 1789180720.954483,
+  "rows": [
+    {
+      "row": "stage",
+      "colors": [
+        {
+          "control": "Factor",
+          "native": [
+            0.43
+          ],
+          "static": true
+        },
+        {
+          "control": "Red offset",
+          "native": [
+            0.43
+          ],
+          "static": true
+        },
+        {
+          "control": "Green offset",
+          "native": [
+            0.43
+          ],
+          "static": true
+        },
+        {
+          "control": "Blue offset",
+          "native": [
+            0.43
+          ],
+          "static": true
+        }
+      ],
+      "pulses": [
+        {
+          "pad": "twitch",
+          "sampled": {
+            "1789181912416": 0.6967918966843469,
+            "1789181912413": false
+          },
+          "restored": true
+        },
+        {
+          "pad": "stack",
+          "sampled": {
+            "1789181912416": 0.6929373204724273,
+            "1789181912413": false,
+            "1789181912692": 0.6929373204724273,
+            "1789181912689": false
+          },
+          "restored": true
+        }
+      ],
+      "loops": [
+        {
+          "pattern": "kick",
+          "beats": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "stopped": true
+        },
+        {
+          "pattern": "alternate",
+          "beats": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "stopped": true
+        }
+      ]
+    },
+    {
+      "row": "figure",
+      "colors": [
+        {
+          "control": "Factor",
+          "native": [
+            0.43
+          ],
+          "static": true
+        },
+        {
+          "control": "Red offset",
+          "native": [
+            0.43
+          ],
+          "static": true
+        },
+        {
+          "control": "Green offset",
+          "native": [
+            0.43
+          ],
+          "static": true
+        },
+        {
+          "control": "Blue offset",
+          "native": [
+            0.43
+          ],
+          "static": true
+        }
+      ],
+      "pulses": [
+        {
+          "pad": "twitch",
+          "sampled": {
+            "1789181914233": 0.6303273409194406,
+            "1789181914230": false
+          },
+          "restored": true
+        },
+        {
+          "pad": "stack",
+          "sampled": {
+            "1789181914330": 0.6883613613968397,
+            "1789181914327": false,
+            "1789181914550": 0.6883613613968397,
+            "1789181914547": false
+          },
+          "restored": true
+        }
+      ],
+      "loops": [
+        {
+          "pattern": "kick",
+          "beats": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "stopped": true
+        },
+        {
+          "pattern": "alternate",
+          "beats": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "stopped": true
+        }
+      ]
+    },
+    {
+      "row": "field",
+      "colors": [
+        {
+          "control": "Factor",
+          "native": [
+            0.43,
+            0.43
+          ],
+          "static": true
+        },
+        {
+          "control": "Red offset",
+          "native": [
+            0.43,
+            0.43
+          ],
+          "static": true
+        },
+        {
+          "control": "Green offset",
+          "native": [
+            0.43,
+            0.43
+          ],
+          "static": true
+        },
+        {
+          "control": "Blue offset",
+          "native": [
+            0.43,
+            0.43
+          ],
+          "static": true
+        }
+      ],
+      "pulses": [
+        {
+          "pad": "twitch",
+          "sampled": {
+            "1789422107034": 0.6991224307735332,
+            "1789422107031": false,
+            "1789422054515": 0.6967470540403626,
+            "1789422054512": false
+          },
+          "restored": true
+        },
+        {
+          "pad": "stack",
+          "sampled": {
+            "1789422107034": 0.7,
+            "1789422107031": false,
+            "1789422054515": 0.7,
+            "1789422054512": false,
+            "1789181912975": 0.7,
+            "1789181912972": false
+          },
+          "restored": true
+        }
+      ],
+      "loops": [
+        {
+          "pattern": "kick",
+          "beats": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "stopped": true
+        },
+        {
+          "pattern": "alternate",
+          "beats": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "stopped": true
+        }
+      ]
+    }
+  ],
+  "recovery": {
+    "base": {
+      "captured_before_edits": true,
+      "native_programs": 4,
+      "returned": true,
+      "native_clocks_verified": [
+        1789181911543,
+        1789181911545,
+        1789181911546,
+        1789181911547
+      ],
+      "clock_motion": {
+        "1789181911543": true,
+        "1789181911545": true,
+        "1789181911546": true,
+        "1789181911547": true
+      }
+    },
+    "safe": {
+      "returned": true,
+      "cross_clip": [
+        "2d",
+        "3d",
+        "2d"
+      ],
+      "parameter": 1789181920923,
+      "edited_range": [
+        0.01875,
+        0.10625
+      ],
+      "native_samples": [
+        0.08541112411773547,
+        0.08782249743448514
+      ]
+    }
+  },
+  "restoration": {
+    "complete": true,
+    "original_running": {
+      "stage": false,
+      "figure": false,
+      "field": false
+    },
+    "hold": false,
+    "tempo_before": 70.0,
+    "tempo_after": 70.0,
+    "tempo_written": false
+  },
+  "scope": "Native parameter and program delivery; rendered FPS and artistic acceptance are separate.",
+  "before": {
+    "values": {
+      "1789181911552": false,
+      "1789451629442": false,
+      "1789181911555": 0.0,
+      "1789421994500": true,
+      "1789421994503": 1.0,
+      "1789451629448": false,
+      "1789422046984": true,
+      "1789451681929": false,
+      "1789451629451": 1.0,
+      "1789422046987": 1.0,
+      "1789181912972": true,
+      "1789451681935": false,
+      "1789181912975": 0.0,
+      "1789451681938": 1.0,
+      "1789422107031": false,
+      "1789181914266": true,
+      "1789422107034": 0.0,
+      "1789181914269": 1.0,
+      "1789181914547": true,
+      "1789181914550": 0.0,
+      "1789422062014": 0.2376125743552912,
+      "1789422062016": 0.3694825694662483,
+      "1789181914233": 0.0,
+      "1789422062017": 0.9394430046658682,
+      "1789422062018": 0.12351585401454356,
+      "1789151413702": -1.0,
+      "1789422062023": false,
+      "1789422062026": 0.0,
+      "1789435860819": true,
+      "1789435860822": 1.0,
+      "1789181914327": true,
+      "1789181914330": 0.0,
+      "1789181912413": true,
+      "1789181912416": 0.0,
+      "1789422031968": 0.2376125743552912,
+      "1789422031970": 0.3694825694662483,
+      "1789422031971": 0.9394430046658682,
+      "1789422031972": 0.12351585401454356,
+      "1789451689445": false,
+      "1789422114533": 0.2376125743552912,
+      "1789422114535": 0.3694825694662483,
+      "1789422114536": 0.9394430046658682,
+      "1789422031977": false,
+      "1789451666922": false,
+      "1789451689451": false,
+      "1789422031980": 0.0,
+      "1789422114537": 0.12351585401454356,
+      "1789422114542": false,
+      "1789451689454": 1.0,
+      "1789451666928": false,
+      "1789181912689": true,
+      "1789422114545": 0.0,
+      "1789451666931": 1.0,
+      "1789181912692": 0.0,
+      "1789422054515": 0.0,
+      "1789181914230": false,
+      "1789181911543": 0.007212661565548175,
+      "1789422054512": false,
+      "1789181911545": 0.019794692420646298,
+      "1789181911546": 0.26777029454163426,
+      "1789181911547": 0.03825663681981606
+    },
+    "loops": {
+      "stage": {
+        "running": false,
+        "pattern": "kick",
+        "kick": "twitch",
+        "snare": "melt_hit",
+        "strength": 0.65,
+        "length": 0.25,
+        "generation": 5,
+        "last": -1,
+        "skipped": 0,
+        "beat": 2
+      },
+      "figure": {
+        "running": false,
+        "pattern": "kick",
+        "kick": "twitch",
+        "snare": "melt_hit",
+        "strength": 0.65,
+        "length": 0.25,
+        "generation": 5,
+        "last": -1,
+        "skipped": 0,
+        "beat": 2
+      },
+      "field": {
+        "running": false,
+        "pattern": "alternate",
+        "kick": "decon",
+        "snare": "blok",
+        "strength": 0.65,
+        "length": 0.25,
+        "generation": 12,
+        "last": 50,
+        "skipped": 0,
+        "beat": 2
+      }
+    },
+    "occupied_returns": [],
+    "tempo": 70.0,
+    "hold": false
+  },
+  "crossfader": true,
+  "passed": true
+}

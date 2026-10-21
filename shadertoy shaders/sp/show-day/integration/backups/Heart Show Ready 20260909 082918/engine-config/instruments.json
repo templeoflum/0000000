@@ -1,0 +1,657 @@
+{
+  "version": 1,
+  "instruments": [
+    {
+      "id": "figure.solid",
+      "label": "3D",
+      "role": "figure",
+      "family": "forms",
+      "source": {
+        "description": "SP Atom Solid",
+        "native_id": "25e59d30-2314-4786-9cdf-4ecfd360c152",
+        "file": "SP Atom Solid.fs"
+      },
+      "framing": {
+        "scope": "source",
+        "downstream_effects": "unrestricted",
+        "rule": "Complete subject with breathing room before the effect stack; cloned instances may go offscreen."
+      },
+      "primary_controls": [
+        "Tumble",
+        "Morph",
+        "Size",
+        "Hue",
+        "Axis",
+        "Shade"
+      ],
+      "home": {
+        "speed": 0.5,
+        "choices": {
+          "Figure A": "torus",
+          "Figure B": "icosahedron",
+          "Material": "smooth",
+          "Color": "loop"
+        },
+        "static": {
+          "Shadow": 0.0,
+          "Micro": 0.15,
+          "Fine": 0.5,
+          "Emboss": 0.0,
+          "Red": 0.0,
+          "Green": 0.33,
+          "Blue": 0.67
+        },
+        "bindings": {
+          "Tumble": {
+            "center": 0.2,
+            "range": [
+              0,
+              1
+            ],
+            "cyclic": true,
+            "shape": 0
+          },
+          "Axis": {
+            "center": 0.3,
+            "range": [
+              0.22,
+              0.38
+            ],
+            "cyclic": false,
+            "shape": 1
+          },
+          "Morph": {
+            "center": 0.45,
+            "range": [
+              0.18,
+              0.72
+            ],
+            "cyclic": false,
+            "shape": 1
+          },
+          "Size": {
+            "center": 0.6,
+            "range": [
+              0.55,
+              0.65
+            ],
+            "cyclic": false,
+            "shape": 1
+          },
+          "X": {
+            "center": 0.5,
+            "range": [
+              0.47,
+              0.53
+            ],
+            "cyclic": false,
+            "shape": 1
+          },
+          "Y": {
+            "center": 0.5,
+            "range": [
+              0.47,
+              0.53
+            ],
+            "cyclic": false,
+            "shape": 1
+          },
+          "Sun": {
+            "center": 0.85,
+            "range": [
+              0.55,
+              0.95
+            ],
+            "cyclic": true,
+            "shape": 1
+          },
+          "Height": {
+            "center": 0.65,
+            "range": [
+              0.5,
+              0.8
+            ],
+            "cyclic": false,
+            "shape": 1
+          },
+          "Distance": {
+            "center": 0.75,
+            "range": [
+              0.65,
+              0.85
+            ],
+            "cyclic": false,
+            "shape": 1
+          },
+          "Hue": {
+            "center": 0.2,
+            "range": [
+              0,
+              1
+            ],
+            "cyclic": true,
+            "shape": 0
+          },
+          "Loop": {
+            "center": 0.3,
+            "range": [
+              0.22,
+              0.38
+            ],
+            "cyclic": false,
+            "shape": 1
+          },
+          "Shade": {
+            "center": 0.8,
+            "range": [
+              0.7,
+              0.9
+            ],
+            "cyclic": false,
+            "shape": 1
+          },
+          "Edge": {
+            "center": 0.3,
+            "range": [
+              0.2,
+              0.4
+            ],
+            "cyclic": false,
+            "shape": 1
+          }
+        }
+      },
+      "status": "Home and cloner reviewed; broader manual range review pending",
+      "routing": {
+        "feeds": "Figure layer effects, including Linear Cloner; then existing Soup group/sculpt/feedback path"
+      },
+      "history": {
+        "owns_feedback": false
+      },
+      "performance": {
+        "resolution": [
+          1920,
+          1080
+        ],
+        "review": "Sampled source framing and live 1080p playback; sustained full-stack performance not certified"
+      }
+    },
+    {
+      "id": "figure.shell",
+      "label": "Shell",
+      "role": "figure",
+      "family": "forms",
+      "source": {
+        "description": "SP Atom 4D Field",
+        "native_id": "d39907f4-89ed-4395-9f06-0e89552ff238",
+        "file": "SP Atom 4D Field.fs"
+      },
+      "framing": {
+        "scope": "source",
+        "downstream_effects": "unrestricted",
+        "rule": "Complete subject with breathing room before the effect stack; cloned instances may go offscreen."
+      },
+      "primary_controls": [
+        "Turn",
+        "Spin",
+        "Morph",
+        "Thickness",
+        "W",
+        "Hue"
+      ],
+      "home": {
+        "speed": 0.5,
+        "choices": {
+          "Figure A": "24-cell",
+          "Figure B": "tesseract",
+          "Material": "smooth",
+          "Base": "normal"
+        },
+        "static": {
+          "Layers": 0.2,
+          "Perspective": 0.0,
+          "Edges": 0.12,
+          "Vertices": 0.0,
+          "Round": 0.5,
+          "Haze": 0.02,
+          "Rim": 0.05,
+          "Halo": 0.2,
+          "Focus": 0.15,
+          "Micro": 0.15,
+          "Fine": 0.5,
+          "Wet": 1.0,
+          "Red": 0.0,
+          "Green": 0.33,
+          "Blue": 0.67,
+          "Depth": 0.7,
+          "Shade": 0.9
+        },
+        "bindings": {
+          "Turn": {
+            "center": 0.2,
+            "range": [
+              0,
+              1
+            ],
+            "cyclic": true,
+            "shape": 0
+          },
+          "Spin": {
+            "center": 0.6,
+            "range": [
+              0.3,
+              0.7
+            ],
+            "cyclic": true,
+            "shape": 1
+          },
+          "Double": {
+            "center": 0.1,
+            "range": [
+              0,
+              0.16
+            ],
+            "cyclic": true,
+            "shape": 1
+          },
+          "Sweep": {
+            "center": 0.2,
+            "range": [
+              0,
+              1
+            ],
+            "cyclic": true,
+            "shape": 0
+          },
+          "W": {
+            "center": 0.5,
+            "range": [
+              0.44,
+              0.56
+            ],
+            "cyclic": false,
+            "shape": 1
+          },
+          "Thickness": {
+            "center": 0.72,
+            "range": [
+              0.62,
+              0.82
+            ],
+            "cyclic": false,
+            "shape": 1
+          },
+          "Morph": {
+            "center": 0.45,
+            "range": [
+              0.25,
+              0.65
+            ],
+            "cyclic": false,
+            "shape": 1
+          },
+          "Size": {
+            "center": 0.55,
+            "range": [
+              0.5,
+              0.6
+            ],
+            "cyclic": false,
+            "shape": 1
+          },
+          "X": {
+            "center": 0.5,
+            "range": [
+              0.48,
+              0.52
+            ],
+            "cyclic": false,
+            "shape": 1
+          },
+          "Y": {
+            "center": 0.5,
+            "range": [
+              0.48,
+              0.52
+            ],
+            "cyclic": false,
+            "shape": 1
+          },
+          "Spread": {
+            "center": 0.18,
+            "range": [
+              0.06,
+              0.3
+            ],
+            "cyclic": false,
+            "shape": 1
+          },
+          "Drift": {
+            "center": 0.5,
+            "range": [
+              0.35,
+              0.65
+            ],
+            "cyclic": false,
+            "shape": 1
+          },
+          "Sun": {
+            "center": 0.85,
+            "range": [
+              0.6,
+              1
+            ],
+            "cyclic": true,
+            "shape": 1
+          },
+          "Height": {
+            "center": 0.65,
+            "range": [
+              0.5,
+              0.8
+            ],
+            "cyclic": false,
+            "shape": 1
+          },
+          "Distance": {
+            "center": 0.75,
+            "range": [
+              0.65,
+              0.85
+            ],
+            "cyclic": false,
+            "shape": 1
+          },
+          "Faces": {
+            "center": 0.7,
+            "range": [
+              0.6,
+              0.8
+            ],
+            "cyclic": false,
+            "shape": 1
+          },
+          "Hue": {
+            "center": 0.2,
+            "range": [
+              0,
+              1
+            ],
+            "cyclic": true,
+            "shape": 0
+          },
+          "Loop": {
+            "center": 0.3,
+            "range": [
+              0.22,
+              0.38
+            ],
+            "cyclic": false,
+            "shape": 1
+          }
+        }
+      },
+      "status": "Home and cloner reviewed; broader manual range review pending",
+      "routing": {
+        "feeds": "Figure layer effects, including Linear Cloner; then existing Soup group/sculpt/feedback path"
+      },
+      "history": {
+        "owns_feedback": false
+      },
+      "performance": {
+        "resolution": [
+          1920,
+          1080
+        ],
+        "review": "Sampled source framing and live 1080p playback; sustained full-stack performance not certified"
+      }
+    },
+    {
+      "id": "figure.seed",
+      "label": "Seed \u00b7 z33d+",
+      "role": "figure",
+      "family": "forms",
+      "source": {
+        "description": "z33d+",
+        "native_id": "becacca4-9c21-4a66-a75d-52d37199ba1f",
+        "file": null
+      },
+      "framing": {
+        "scope": "source",
+        "downstream_effects": "unrestricted",
+        "rule": "Complete subject with breathing room before the effect stack; cloned instances may go offscreen."
+      },
+      "primary_controls": [
+        "rot angle",
+        "mx",
+        "my",
+        "e",
+        "axis x",
+        "axis y"
+      ],
+      "home": {
+        "speed": 0.5,
+        "static": {
+          "axis drift": 0.0
+        },
+        "bindings": {
+          "rot angle": {
+            "center": 0.25,
+            "range": [
+              0,
+              1
+            ],
+            "cyclic": true,
+            "shape": 0
+          },
+          "axis x": {
+            "center": 0.7,
+            "range": [
+              0.65,
+              0.75
+            ],
+            "cyclic": false,
+            "shape": 1
+          },
+          "axis y": {
+            "center": 0.8,
+            "range": [
+              0.75,
+              0.85
+            ],
+            "cyclic": false,
+            "shape": 1
+          },
+          "mx": {
+            "center": 0.34,
+            "range": [
+              0.28,
+              0.4
+            ],
+            "cyclic": false,
+            "shape": 1
+          },
+          "my": {
+            "center": 0.5,
+            "range": [
+              0.44,
+              0.56
+            ],
+            "cyclic": false,
+            "shape": 1
+          },
+          "e": {
+            "center": 0.22,
+            "range": [
+              0.18,
+              0.26
+            ],
+            "cyclic": false,
+            "shape": 1
+          }
+        }
+      },
+      "status": "Home and cloner reviewed; broader manual range review pending",
+      "routing": {
+        "feeds": "Figure layer effects, including Linear Cloner; then existing Soup group/sculpt/feedback path"
+      },
+      "history": {
+        "owns_feedback": false
+      },
+      "performance": {
+        "resolution": [
+          1920,
+          1080
+        ],
+        "review": "Sampled source framing and live 1080p playback; sustained full-stack performance not certified"
+      }
+    },
+    {
+      "id": "figure.solid-source",
+      "label": "3D \u00b7 source",
+      "role": "figure",
+      "family": "forms",
+      "source": {
+        "description": "SP Figure Solid Source",
+        "file": "SP Figure Solid Source.fs",
+        "native_id": "8e016778-0fe3-4b4e-ad29-13b2c019ba09"
+      },
+      "framing": {
+        "scope": "source",
+        "downstream_effects": "unrestricted",
+        "rule": "Centered source envelope sized from shorter frame dimension; shared Figure layer Transform owns placement and scale."
+      },
+      "primary_controls": [
+        "Tumble",
+        "Morph",
+        "Hue",
+        "Axis",
+        "Shade"
+      ],
+      "home": {
+        "speed": 0.5,
+        "choices": {
+          "Figure A": "torus",
+          "Figure B": "icosahedron",
+          "Material": "smooth",
+          "Color": "loop"
+        },
+        "static": {
+          "Shadow": 0.0,
+          "Micro": 0.15,
+          "Fine": 0.5,
+          "Emboss": 0.0,
+          "Red": 0.0,
+          "Green": 0.33,
+          "Blue": 0.67
+        },
+        "bindings": {
+          "Tumble": {
+            "center": 0.2,
+            "range": [
+              0,
+              1
+            ],
+            "cyclic": true,
+            "shape": 0
+          },
+          "Axis": {
+            "center": 0.3,
+            "range": [
+              0.22,
+              0.38
+            ],
+            "cyclic": false,
+            "shape": 1
+          },
+          "Morph": {
+            "center": 0.45,
+            "range": [
+              0.18,
+              0.72
+            ],
+            "cyclic": false,
+            "shape": 1
+          },
+          "Sun": {
+            "center": 0.85,
+            "range": [
+              0.55,
+              0.95
+            ],
+            "cyclic": true,
+            "shape": 1
+          },
+          "Height": {
+            "center": 0.65,
+            "range": [
+              0.5,
+              0.8
+            ],
+            "cyclic": false,
+            "shape": 1
+          },
+          "Distance": {
+            "center": 0.75,
+            "range": [
+              0.65,
+              0.85
+            ],
+            "cyclic": false,
+            "shape": 1
+          },
+          "Hue": {
+            "center": 0.2,
+            "range": [
+              0,
+              1
+            ],
+            "cyclic": true,
+            "shape": 0
+          },
+          "Loop": {
+            "center": 0.3,
+            "range": [
+              0.22,
+              0.38
+            ],
+            "cyclic": false,
+            "shape": 1
+          },
+          "Shade": {
+            "center": 0.8,
+            "range": [
+              0.7,
+              0.9
+            ],
+            "cyclic": false,
+            "shape": 1
+          },
+          "Edge": {
+            "center": 0.3,
+            "range": [
+              0.2,
+              0.4
+            ],
+            "cyclic": false,
+            "shape": 1
+          }
+        }
+      },
+      "status": "Home and cloner reviewed; broader manual range review pending",
+      "routing": {
+        "feeds": "Figure layer effects, including Linear Cloner; then existing Soup group/sculpt/feedback path"
+      },
+      "history": {
+        "owns_feedback": false
+      },
+      "performance": {
+        "resolution": [
+          1920,
+          1080
+        ],
+        "review": "Sampled source framing and live 1080p playback; sustained full-stack performance not certified"
+      }
+    }
+  ]
+}

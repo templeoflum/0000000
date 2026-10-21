@@ -1,0 +1,11 @@
+{
+  "worker": "copilot",
+  "model": "gpt-4o-mini-2024-07-18",
+  "data_scope": "Opaque IDs, source/effect control labels and counts only",
+  "capability_scope": "Single-trial schema extraction and uncertainty discipline; no rendered behavior or live operation tested",
+  "local_gpu_used": false,
+  "paid_fallback": false,
+  "status": "failed",
+  "error_type": "AuthError",
+  "seconds": 0.31
+}

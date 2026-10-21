@@ -1,0 +1,406 @@
+[
+  {
+    "col": 16,
+    "source": "ButterflyEffect",
+    "expected_controls": [
+      "x",
+      "y",
+      "rate",
+      "phase",
+      "freq",
+      "amp",
+      "zoom",
+      "offset"
+    ],
+    "discovered_controls": [
+      "x",
+      "y",
+      "rate",
+      "phase",
+      "freq",
+      "amp",
+      "zoom",
+      "offset"
+    ],
+    "checks": [
+      {
+        "control": "x",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "x",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "y",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "y",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "rate",
+        "requested": 0.7000000011175871,
+        "observed": 0.7000000011175871,
+        "ok": true
+      },
+      {
+        "control": "rate",
+        "requested": 1.900000000372529,
+        "observed": 1.900000000372529,
+        "ok": true
+      },
+      {
+        "control": "phase",
+        "requested": 1.325000001117587,
+        "observed": 1.325000001117587,
+        "ok": true
+      },
+      {
+        "control": "phase",
+        "requested": 3.775000000372529,
+        "observed": 3.775000000372529,
+        "ok": true
+      },
+      {
+        "control": "freq",
+        "requested": 1.007499999832362,
+        "observed": 1.007499999832362,
+        "ok": true
+      },
+      {
+        "control": "freq",
+        "requested": 3.0024999999441206,
+        "observed": 3.0024999999441206,
+        "ok": true
+      },
+      {
+        "control": "amp",
+        "requested": 257.5,
+        "observed": 257.5,
+        "ok": true
+      },
+      {
+        "control": "amp",
+        "requested": 752.5,
+        "observed": 752.5,
+        "ok": true
+      },
+      {
+        "control": "zoom",
+        "requested": 125.75,
+        "observed": 125.75,
+        "ok": true
+      },
+      {
+        "control": "zoom",
+        "requested": 375.25,
+        "observed": 375.25,
+        "ok": true
+      },
+      {
+        "control": "offset",
+        "requested": -0.75,
+        "observed": -0.75,
+        "ok": true
+      },
+      {
+        "control": "offset",
+        "requested": 1.75,
+        "observed": 1.75,
+        "ok": true
+      }
+    ],
+    "drive_samples": [
+      322.8932165038015,
+      310.60583717633807,
+      327.8873815907761,
+      359.6416229864809,
+      354.0743708331779
+    ],
+    "drive_varied": true
+  },
+  {
+    "col": 20,
+    "source": "Gradient Bars",
+    "expected_controls": [
+      "gradient power",
+      "balance",
+      "speed",
+      "offset",
+      "use odd directions",
+      "columns",
+      "x iterations",
+      "invert speed",
+      "phase iterations",
+      "easing type"
+    ],
+    "discovered_controls": [
+      "gradient power",
+      "balance",
+      "speed",
+      "offset",
+      "use odd directions",
+      "columns",
+      "x iterations",
+      "invert speed",
+      "phase iterations",
+      "easing type"
+    ],
+    "checks": [
+      {
+        "control": "gradient power",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "gradient power",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "balance",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "balance",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "speed",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "speed",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "offset",
+        "requested": 4.0,
+        "observed": 4.0,
+        "ok": true
+      },
+      {
+        "control": "offset",
+        "requested": 12.0,
+        "observed": 12.0,
+        "ok": true
+      },
+      {
+        "control": "use odd directions",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "use odd directions",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "columns",
+        "requested": 8.75,
+        "observed": 8.75,
+        "ok": true
+      },
+      {
+        "control": "columns",
+        "requested": 24.25,
+        "observed": 24.25,
+        "ok": true
+      },
+      {
+        "control": "x iterations",
+        "requested": 1.25,
+        "observed": 1.25,
+        "ok": true
+      },
+      {
+        "control": "x iterations",
+        "requested": 1.75,
+        "observed": 1.75,
+        "ok": true
+      },
+      {
+        "control": "invert speed",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "invert speed",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "phase iterations",
+        "requested": 4.75,
+        "observed": 4.75,
+        "ok": true
+      },
+      {
+        "control": "phase iterations",
+        "requested": 12.25,
+        "observed": 12.25,
+        "ok": true
+      },
+      {
+        "control": "easing type",
+        "requested": 7.25,
+        "observed": 7.25,
+        "ok": true
+      },
+      {
+        "control": "easing type",
+        "requested": 21.75,
+        "observed": 21.75,
+        "ok": true
+      }
+    ],
+    "drive_samples": [
+      19.043957930616752,
+      18.62453019076462,
+      20.10388804035552,
+      22.119908860154375,
+      22.9444090916126
+    ],
+    "drive_varied": true
+  },
+  {
+    "col": 22,
+    "source": "Melty Boi",
+    "expected_controls": [
+      "speed",
+      "intensity",
+      "scale x",
+      "scale y",
+      "spread",
+      "vignette",
+      "contrast"
+    ],
+    "discovered_controls": [
+      "speed",
+      "intensity",
+      "scale x",
+      "scale y",
+      "spread",
+      "vignette",
+      "contrast"
+    ],
+    "checks": [
+      {
+        "control": "speed",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "speed",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "intensity",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "intensity",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "scale x",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "scale x",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "scale y",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "scale y",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "spread",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "spread",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "vignette",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "vignette",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "contrast",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "contrast",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      }
+    ],
+    "drive_samples": [
+      0.5757658647377022,
+      0.5625768359938407,
+      0.6093673828851867,
+      0.689818399843248,
+      0.7059439547757641
+    ],
+    "drive_varied": true
+  }
+]

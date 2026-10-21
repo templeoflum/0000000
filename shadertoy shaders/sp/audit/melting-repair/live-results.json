@@ -1,0 +1,45 @@
+[
+  {
+    "layer": 5,
+    "col": 72,
+    "source": "Heart Melting Fractal",
+    "controls": [
+      "Fold Phase",
+      "Twist Amount",
+      "Orbit Phase",
+      "Camera Roll",
+      "Cone Radius",
+      "Fold Offset",
+      "Glow Strength"
+    ],
+    "discovered": [
+      "Fold Phase",
+      "Twist Amount",
+      "Orbit Phase",
+      "Camera Roll",
+      "Cone Radius",
+      "Fold Offset",
+      "Glow Strength"
+    ],
+    "probe": "Fold Phase",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.9424841418643236,
+      0.7485880360106636,
+      0.5489830557715553,
+      0.4124099452460923
+    ],
+    "drive_varied": true
+  }
+]

@@ -1,0 +1,9585 @@
+{
+ "feedback/map/SPChainMap/1/Zoom": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "feedback/map/SPChainMap/1/Rotate": {
+  "cyclic": true,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.16666666666666666,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "feedback/map/SPChainMap/1/Drift X": {
+  "cyclic": true,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.3333333333333333,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "feedback/map/SPChainMap/1/Drift Y": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.5,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "feedback/map/SPChainMap/1/Center X": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.6666666666666666,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "feedback/map/SPChainMap/1/Center Y": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.8333333333333334,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "feedback/map/SPChainMap/1/Gain": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "feedback/map/SPChainMap/1/Floor": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "feedback/map/SPChainMap/1/Key": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "sculpt/level/SPStudyLevel/1/Gain": {
+  "cyclic": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "sculpt/level/SPStudyLevel/1/Floor": {
+  "cyclic": false,
+  "ratio": "2:5",
+  "mult": -1.0,
+  "offset": 0.5,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "sculpt/level/SPStudyLevel/1/Key": {
+  "cyclic": false,
+  "ratio": "3:4",
+  "mult": 1.0,
+  "offset": 0.5,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "sculpt/level/SPStudyLevel/1/Soft": {
+  "cyclic": false,
+  "ratio": "3:2",
+  "mult": 1.0,
+  "offset": 0.5,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "sculpt/level/SPStudyLevel/1/Curve": {
+  "cyclic": false,
+  "ratio": "8:13",
+  "mult": 1.0,
+  "offset": 0.5,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "sculpt/level/SPStudyLevel/1/Ceiling": {
+  "cyclic": false,
+  "ratio": "3:2",
+  "mult": 1.0,
+  "offset": 0.25,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "sculpt/level/SPStudyLevel/1/Lift": {
+  "cyclic": false,
+  "ratio": "1:2",
+  "mult": 2.0,
+  "offset": 0.25,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "field/ground/SP Atom Ground/1/Tilt": {
+  "cyclic": true,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 0.05,
+  "drive": false,
+  "lock": false
+ },
+ "field/ground/SP Atom Ground/1/Sway": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.05555555555555555,
+  "shape": 1,
+  "lo": 0.420089,
+  "hi": 0.620089,
+  "drive": false,
+  "lock": false
+ },
+ "field/ground/SP Atom Ground/1/Bob": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.1111111111111111,
+  "shape": 1,
+  "lo": 0.305657,
+  "hi": 0.505657,
+  "drive": false,
+  "lock": false
+ },
+ "field/ground/SP Atom Ground/1/Travel": {
+  "cyclic": true,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.16666666666666666,
+  "shape": 1,
+  "lo": 0.025235,
+  "hi": 0.375235,
+  "drive": false,
+  "lock": false
+ },
+ "field/ground/SP Atom Ground/1/Horizon": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.2222222222222222,
+  "shape": 1,
+  "lo": 0.438581,
+  "hi": 0.538581,
+  "drive": false,
+  "lock": false
+ },
+ "field/ground/SP Atom Ground/1/Yaw": {
+  "cyclic": true,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.2777777777777778,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 0.1,
+  "drive": false,
+  "lock": false
+ },
+ "field/ground/SP Atom Ground/1/Dolly": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.3333333333333333,
+  "shape": 1,
+  "lo": 0.627219,
+  "hi": 0.727219,
+  "drive": false,
+  "lock": false
+ },
+ "field/ground/SP Atom Ground/1/Focal mm": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.3888888888888889,
+  "shape": 1,
+  "lo": 0.358696,
+  "hi": 0.458696,
+  "drive": false,
+  "lock": false
+ },
+ "field/ground/SP Atom Ground/1/Lens": {
+  "cyclic": false,
+  "ratio": "1/pi",
+  "mult": 2.0,
+  "offset": 0.136482801654073,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "choice": true,
+  "lock": false
+ },
+ "field/ground/SP Atom Ground/1/Distort": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.4444444444444444,
+  "shape": 1,
+  "lo": 0.720153,
+  "hi": 0.920153,
+  "drive": false,
+  "lock": false
+ },
+ "field/ground/SP Atom Ground/1/Scale": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.5,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7,
+  "drive": false,
+  "lock": false
+ },
+ "field/ground/SP Atom Ground/1/Gap": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.5555555555555556,
+  "shape": 1,
+  "lo": 0.463047,
+  "hi": 0.663047,
+  "drive": false,
+  "lock": false
+ },
+ "field/ground/SP Atom Ground/1/Seam": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.6111111111111112,
+  "shape": 1,
+  "lo": 0.05,
+  "hi": 0.25,
+  "drive": false,
+  "lock": false
+ },
+ "field/ground/SP Atom Ground/1/Bands": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.6666666666666666,
+  "shape": 1,
+  "lo": 0.446242,
+  "hi": 0.646242,
+  "drive": false,
+  "lock": false
+ },
+ "field/ground/SP Atom Ground/1/Sun": {
+  "cyclic": true,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.7222222222222222,
+  "shape": 1,
+  "lo": 0.448301,
+  "hi": 0.798301,
+  "drive": false,
+  "lock": false
+ },
+ "field/ground/SP Atom Ground/1/Height": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.7777777777777778,
+  "shape": 1,
+  "lo": 0.785527,
+  "hi": 0.985527,
+  "drive": false,
+  "lock": false
+ },
+ "field/ground/SP Atom Ground/1/Relief": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.8333333333333334,
+  "shape": 1,
+  "lo": 0.582871,
+  "hi": 0.782871,
+  "drive": false,
+  "lock": false
+ },
+ "field/ground/SP Atom Ground/1/Haze": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.8888888888888888,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 0.173082,
+  "drive": false,
+  "lock": false
+ },
+ "field/ground/SP Atom Ground/1/Soft": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.9444444444444444,
+  "shape": 1,
+  "lo": 0.314364,
+  "hi": 0.514364,
+  "drive": false,
+  "lock": false
+ },
+ "figure/shell/SP Atom 4D Field/1/Figure A": {
+  "cyclic": false,
+  "ratio": "1/sqrt2",
+  "mult": 2.0,
+  "offset": 0.00545693843553996,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "choice": true,
+  "lock": false
+ },
+ "figure/shell/SP Atom 4D Field/1/Figure B": {
+  "cyclic": false,
+  "ratio": "1/pi",
+  "mult": 1.0,
+  "offset": 0.7886404022194874,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "choice": true,
+  "lock": false
+ },
+ "figure/shell/SP Atom 4D Field/1/Morph": {
+  "cyclic": false,
+  "ratio": "1/pi",
+  "mult": 1.0,
+  "offset": 0.6259447714650315,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "figure/shell/SP Atom 4D Field/1/Size": {
+  "cyclic": false,
+  "ratio": "1/sqrt2",
+  "mult": -1.0,
+  "offset": 0.18845980874918966,
+  "shape": 1,
+  "lo": 0.5,
+  "hi": 0.6,
+  "drive": false,
+  "lock": false
+ },
+ "figure/shell/SP Atom 4D Field/1/W": {
+  "cyclic": false,
+  "ratio": "1/phi",
+  "mult": 1.0,
+  "offset": 0.7489094251517299,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": true,
+  "lock": false
+ },
+ "figure/shell/SP Atom 4D Field/1/Thickness": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.29234948218466195,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7,
+  "drive": true,
+  "lock": false
+ },
+ "figure/shell/SP Atom 4D Field/1/Layers": {
+  "cyclic": false,
+  "ratio": "1/sqrt2",
+  "mult": -1.0,
+  "offset": 0.9992479924339188,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "figure/shell/SP Atom 4D Field/1/Spread": {
+  "cyclic": false,
+  "ratio": "1/pi",
+  "mult": 1.0,
+  "offset": 0.09299738573596417,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "figure/shell/SP Atom 4D Field/1/Sweep": {
+  "cyclic": true,
+  "ratio": "1/pi",
+  "mult": 2.0,
+  "offset": 0.6131221162507042,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": true,
+  "lock": false
+ },
+ "figure/shell/SP Atom 4D Field/1/Drift": {
+  "cyclic": false,
+  "ratio": "1/sqrt2",
+  "mult": 2.0,
+  "offset": 0.1369763629300088,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "figure/shell/SP Atom 4D Field/1/Turn": {
+  "cyclic": true,
+  "ratio": "1/phi",
+  "mult": 1.0,
+  "offset": 0.41620242699545185,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": true,
+  "lock": false
+ },
+ "figure/shell/SP Atom 4D Field/1/Spin": {
+  "cyclic": true,
+  "ratio": "1/phi",
+  "mult": 1.0,
+  "offset": 0.5516883702500637,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": true,
+  "lock": false
+ },
+ "figure/shell/SP Atom 4D Field/1/Double": {
+  "cyclic": true,
+  "ratio": "1/pi",
+  "mult": 1.0,
+  "offset": 0.7710899430367004,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": true,
+  "lock": false
+ },
+ "figure/shell/SP Atom 4D Field/1/X": {
+  "cyclic": false,
+  "ratio": "1/sqrt2",
+  "mult": 2.0,
+  "offset": 0.5552483938027202,
+  "shape": 0,
+  "lo": 0.48,
+  "hi": 0.52,
+  "drive": true,
+  "lock": false
+ },
+ "figure/shell/SP Atom 4D Field/1/Y": {
+  "cyclic": false,
+  "ratio": "1/phi",
+  "mult": 2.0,
+  "offset": 0.36958306203314917,
+  "shape": 1,
+  "lo": 0.48,
+  "hi": 0.52,
+  "drive": true,
+  "lock": false
+ },
+ "figure/shell/SP Atom 4D Field/1/Perspective": {
+  "cyclic": false,
+  "ratio": "1/sqrt2",
+  "mult": 2.0,
+  "offset": 0.15273563860155326,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "figure/shell/SP Atom 4D Field/1/Sun": {
+  "cyclic": true,
+  "ratio": "1/pi",
+  "mult": 1.0,
+  "offset": 0.47983789318021086,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": true,
+  "lock": false
+ },
+ "figure/shell/SP Atom 4D Field/1/Height": {
+  "cyclic": false,
+  "ratio": "1/phi",
+  "mult": 1.0,
+  "offset": 0.22910936292053707,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": true,
+  "lock": false
+ },
+ "figure/shell/SP Atom 4D Field/1/Distance": {
+  "cyclic": false,
+  "ratio": "1/sqrt2",
+  "mult": 1.0,
+  "offset": 0.3783061323139276,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "figure/shell/SP Atom 4D Field/1/Faces": {
+  "cyclic": false,
+  "ratio": "1/pi",
+  "mult": 1.0,
+  "offset": 0.6528021173061027,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "figure/shell/SP Atom 4D Field/1/Edges": {
+  "cyclic": false,
+  "ratio": "1/sqrt2",
+  "mult": 2.0,
+  "offset": 0.944820220424307,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "figure/shell/SP Atom 4D Field/1/Round": {
+  "cyclic": false,
+  "ratio": "1/phi",
+  "mult": 1.0,
+  "offset": 0.4889105995943892,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "figure/shell/SP Atom 4D Field/1/Vertices": {
+  "cyclic": false,
+  "ratio": "1/phi",
+  "mult": -1.0,
+  "offset": 0.23529318142480438,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "figure/shell/SP Atom 4D Field/1/Shade": {
+  "cyclic": false,
+  "ratio": "1/pi",
+  "mult": 1.0,
+  "offset": 0.6436834220978559,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "figure/shell/SP Atom 4D Field/1/Rim": {
+  "cyclic": false,
+  "ratio": "1/phi",
+  "mult": 2.0,
+  "offset": 0.7159328329435052,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "figure/shell/SP Atom 4D Field/1/Haze": {
+  "cyclic": false,
+  "ratio": "1/sqrt2",
+  "mult": 1.0,
+  "offset": 0.057809684147193674,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "figure/shell/SP Atom 4D Field/1/Halo": {
+  "cyclic": false,
+  "ratio": "1/phi",
+  "mult": 2.0,
+  "offset": 0.046023805926092676,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "figure/shell/SP Atom 4D Field/1/Focus": {
+  "cyclic": false,
+  "ratio": "1/sqrt2",
+  "mult": -1.0,
+  "offset": 0.6203133752591752,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "figure/shell/SP Atom 4D Field/1/Material": {
+  "cyclic": false,
+  "ratio": "1/sqrt2",
+  "mult": -1.0,
+  "offset": 0.9422849007018922,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "choice": true,
+  "lock": false
+ },
+ "figure/shell/SP Atom 4D Field/1/Micro": {
+  "cyclic": false,
+  "ratio": "1/phi",
+  "mult": -1.0,
+  "offset": 0.38040721893670637,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "figure/shell/SP Atom 4D Field/1/Fine": {
+  "cyclic": false,
+  "ratio": "1/pi",
+  "mult": 1.0,
+  "offset": 0.5616369504152873,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "figure/shell/SP Atom 4D Field/1/Base": {
+  "cyclic": false,
+  "ratio": "1/pi",
+  "mult": 1.0,
+  "offset": 0.6511007094136115,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "choice": true,
+  "lock": false
+ },
+ "figure/shell/SP Atom 4D Field/1/Wet": {
+  "cyclic": false,
+  "ratio": "1/phi",
+  "mult": 1.0,
+  "offset": 0.20466660679044635,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "figure/shell/SP Atom 4D Field/1/Loop": {
+  "cyclic": false,
+  "ratio": "1/sqrt2",
+  "mult": 2.0,
+  "offset": 0.7782386233906139,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "figure/shell/SP Atom 4D Field/1/Hue": {
+  "cyclic": true,
+  "ratio": "1/phi",
+  "mult": 1.0,
+  "offset": 0.06028452589787536,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": true,
+  "lock": false
+ },
+ "figure/shell/SP Atom 4D Field/1/Depth": {
+  "cyclic": false,
+  "ratio": "1/phi",
+  "mult": 2.0,
+  "offset": 0.6174805058066479,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "figure/shell/SP Atom 4D Field/1/Red": {
+  "cyclic": false,
+  "ratio": "1/phi",
+  "mult": 1.0,
+  "offset": 0.5158747248508695,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "figure/shell/SP Atom 4D Field/1/Green": {
+  "cyclic": false,
+  "ratio": "1/phi",
+  "mult": 1.0,
+  "offset": 0.46101857617781683,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "figure/shell/SP Atom 4D Field/1/Blue": {
+  "cyclic": false,
+  "ratio": "1/sqrt2",
+  "mult": 2.0,
+  "offset": 0.8014553672275301,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "field/room/SP Atom Room/1/Tilt": {
+  "cyclic": true,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.554525,
+  "hi": 0.654525,
+  "drive": false,
+  "lock": false
+ },
+ "field/room/SP Atom Room/1/Sway": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.041666666666666664,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 0.120801,
+  "drive": false,
+  "lock": false
+ },
+ "field/room/SP Atom Room/1/Bob": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.08333333333333333,
+  "shape": 1,
+  "lo": 0.057049,
+  "hi": 0.257049,
+  "drive": false,
+  "lock": false
+ },
+ "field/room/SP Atom Room/1/Travel": {
+  "cyclic": true,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.125,
+  "shape": 1,
+  "lo": 0.072493,
+  "hi": 0.422493,
+  "drive": false,
+  "lock": false
+ },
+ "field/room/SP Atom Room/1/Horizon": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.16666666666666666,
+  "shape": 1,
+  "lo": 0.45,
+  "hi": 0.55,
+  "drive": false,
+  "lock": false
+ },
+ "field/room/SP Atom Room/1/Yaw": {
+  "cyclic": true,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.20833333333333334,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 0.1,
+  "drive": false,
+  "lock": false
+ },
+ "field/room/SP Atom Room/1/Dolly": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.25,
+  "shape": 1,
+  "lo": 0.65448,
+  "hi": 0.75448,
+  "drive": false,
+  "lock": false
+ },
+ "field/room/SP Atom Room/1/Focal mm": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.2916666666666667,
+  "shape": 1,
+  "lo": 0.25404,
+  "hi": 0.35404,
+  "drive": false,
+  "lock": false
+ },
+ "field/room/SP Atom Room/1/Lens": {
+  "cyclic": false,
+  "ratio": "1/sqrt2",
+  "mult": 2.0,
+  "offset": 0.9647831015643641,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "choice": true,
+  "lock": false
+ },
+ "field/room/SP Atom Room/1/Distort": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.3333333333333333,
+  "shape": 1,
+  "lo": 0.4,
+  "hi": 0.6,
+  "drive": false,
+  "lock": false
+ },
+ "field/room/SP Atom Room/1/Left": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.375,
+  "shape": 1,
+  "lo": 0.144191,
+  "hi": 0.214191,
+  "drive": false,
+  "lock": false
+ },
+ "field/room/SP Atom Room/1/Right": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.4166666666666667,
+  "shape": 1,
+  "lo": 0.14815,
+  "hi": 0.21815,
+  "drive": false,
+  "lock": false
+ },
+ "field/room/SP Atom Room/1/Floor": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.4583333333333333,
+  "shape": 1,
+  "lo": 0.844554,
+  "hi": 0.914554,
+  "drive": false,
+  "lock": false
+ },
+ "field/room/SP Atom Room/1/Ceiling": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.5,
+  "shape": 1,
+  "lo": 0.101199,
+  "hi": 0.171199,
+  "drive": false,
+  "lock": false
+ },
+ "field/room/SP Atom Room/1/Back": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.5416666666666666,
+  "shape": 1,
+  "lo": 0.154873,
+  "hi": 0.224873,
+  "drive": false,
+  "lock": false
+ },
+ "field/room/SP Atom Room/1/Front": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.5833333333333334,
+  "shape": 1,
+  "lo": 0.154873,
+  "hi": 0.224873,
+  "drive": false,
+  "lock": false
+ },
+ "field/room/SP Atom Room/1/Scale": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.625,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7,
+  "drive": false,
+  "lock": false
+ },
+ "field/room/SP Atom Room/1/Gap": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.6666666666666666,
+  "shape": 1,
+  "lo": 0.23441,
+  "hi": 0.43441,
+  "drive": false,
+  "lock": false
+ },
+ "field/room/SP Atom Room/1/Seam": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.7083333333333334,
+  "shape": 1,
+  "lo": 0.05,
+  "hi": 0.25,
+  "drive": false,
+  "lock": false
+ },
+ "field/room/SP Atom Room/1/Bands": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.75,
+  "shape": 1,
+  "lo": 0.83254,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "field/room/SP Atom Room/1/Sun": {
+  "cyclic": true,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.7916666666666666,
+  "shape": 1,
+  "lo": 0.325,
+  "hi": 0.675,
+  "drive": false,
+  "lock": false
+ },
+ "field/room/SP Atom Room/1/Height": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.8333333333333334,
+  "shape": 1,
+  "lo": 0.782188,
+  "hi": 0.982188,
+  "drive": false,
+  "lock": false
+ },
+ "field/room/SP Atom Room/1/Relief": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.875,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 0.1,
+  "drive": false,
+  "lock": false
+ },
+ "field/room/SP Atom Room/1/Haze": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.9166666666666666,
+  "shape": 1,
+  "lo": 0.2,
+  "hi": 0.4,
+  "drive": false,
+  "lock": false
+ },
+ "field/room/SP Atom Room/1/Soft": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.9583333333333334,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 0.1,
+  "drive": false,
+  "lock": false
+ },
+ "delay/figure/SPDelayChain/1/R": {
+  "cyclic": false,
+  "ratio": "1:4",
+  "mult": -1.0,
+  "offset": 0.75,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "feedback/heart feedback/SPHeartFeedback/1/Zoom": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.505,
+  "hi": 0.525,
+  "lock": false
+ },
+ "feedback/heart feedback/SPHeartFeedback/1/Rotate": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.3333333333333333,
+  "shape": 1,
+  "lo": 0.502,
+  "hi": 0.509,
+  "lock": false
+ },
+ "feedback/heart feedback/SPHeartFeedback/1/Drift X": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.25,
+  "shape": 1,
+  "lo": 0.47,
+  "hi": 0.53,
+  "lock": false
+ },
+ "feedback/heart feedback/SPHeartFeedback/1/Drift Y": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.5,
+  "shape": 1,
+  "lo": 0.48,
+  "hi": 0.52,
+  "lock": false
+ },
+ "feedback/heart feedback/SPHeartFeedback/1/Center X": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.5,
+  "shape": 1,
+  "lo": 0.46,
+  "hi": 0.54,
+  "lock": false
+ },
+ "feedback/heart feedback/SPHeartFeedback/1/Center Y": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.75,
+  "shape": 1,
+  "lo": 0.47,
+  "hi": 0.53,
+  "lock": false
+ },
+ "feedback/heart feedback/SPHeartFeedback/1/Gain": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "feedback/heart feedback/SPHeartFeedback/1/Floor": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "feedback/heart feedback/SPHeartFeedback/1/Key": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "feedback/heart feedback/SPHeartFeedback/1/Loop Hue": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.6666666666666666,
+  "shape": 1,
+  "lo": 0.499,
+  "hi": 0.501,
+  "lock": false
+ },
+ "feedback/heart feedback/SPHeartFeedback/1/Loop Invert": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "feedback/heart feedback/SPHeartFeedback/1/Loop Fold": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.5,
+  "shape": 1,
+  "lo": 0.2,
+  "hi": 0.7,
+  "lock": false
+ },
+ "feedback/heart feedback/SPHeartFeedback/1/Loop Detail": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "feedback/heart feedback/SPHeartFeedback/1/Red Decay": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "feedback/heart feedback/SPHeartFeedback/1/Green Decay": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "feedback/heart feedback/SPHeartFeedback/1/Blue Decay": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/void/SP Atom Void/1/Tilt": {
+  "cyclic": true,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.2857142857142857,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 0.106,
+  "drive": false,
+  "lock": false
+ },
+ "field/void/SP Atom Void/1/Sway": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.07142857142857142,
+  "shape": 1,
+  "lo": 0.47,
+  "hi": 0.54,
+  "drive": true,
+  "lock": false
+ },
+ "field/void/SP Atom Void/1/Bob": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.14285714285714285,
+  "shape": 1,
+  "lo": 0.34430000000000005,
+  "hi": 0.4143,
+  "drive": true,
+  "lock": false
+ },
+ "field/void/SP Atom Void/1/Travel": {
+  "cyclic": true,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.8124,
+  "hi": 0.9924,
+  "drive": true,
+  "lock": false
+ },
+ "field/void/SP Atom Void/1/Horizon": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.35714285714285715,
+  "shape": 1,
+  "lo": 0.41769999999999996,
+  "hi": 0.5777,
+  "drive": false,
+  "lock": false
+ },
+ "field/void/SP Atom Void/1/Yaw": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.21428571428571427,
+  "shape": 1,
+  "lo": 0.5054,
+  "hi": 0.5454,
+  "drive": true,
+  "lock": false
+ },
+ "field/void/SP Atom Void/1/Dolly": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.42857142857142855,
+  "shape": 1,
+  "lo": 0.5608,
+  "hi": 0.6208,
+  "drive": false,
+  "lock": false
+ },
+ "field/void/SP Atom Void/1/Focal mm": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.5,
+  "shape": 1,
+  "lo": 0.3698,
+  "hi": 0.42979999999999996,
+  "drive": false,
+  "lock": false
+ },
+ "field/void/SP Atom Void/1/Lens": {
+  "cyclic": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "choice": true,
+  "lock": false
+ },
+ "field/void/SP Atom Void/1/Distort": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.5714285714285714,
+  "shape": 1,
+  "lo": 0.24559999999999998,
+  "hi": 0.4056,
+  "drive": false,
+  "lock": false
+ },
+ "field/void/SP Atom Void/1/Density": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.6428571428571429,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7,
+  "drive": false,
+  "lock": false
+ },
+ "field/void/SP Atom Void/1/Size": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.7142857142857143,
+  "shape": 1,
+  "lo": 0.0655,
+  "hi": 0.1255,
+  "drive": false,
+  "lock": false
+ },
+ "field/void/SP Atom Void/1/Reach": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.7857142857142857,
+  "shape": 1,
+  "lo": 0.15410000000000001,
+  "hi": 0.2141,
+  "drive": false,
+  "lock": false
+ },
+ "field/void/SP Atom Void/1/Haze": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.8571428571428571,
+  "shape": 1,
+  "lo": 0.6479,
+  "hi": 0.8079,
+  "drive": false,
+  "lock": false
+ },
+ "field/void/SP Atom Void/1/Soft": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.9285714285714286,
+  "shape": 1,
+  "lo": 0.5705,
+  "hi": 0.7304999999999999,
+  "drive": false,
+  "lock": false
+ },
+ "delay/figure/SPDelayChain/1/Taps": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.75,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "delay/figure/SPDelayChain/1/Span": {
+  "cyclic": false,
+  "ratio": "5:8",
+  "mult": 1.0,
+  "offset": 0.75,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "delay/figure/SPDelayChain/1/Glide": {
+  "cyclic": false,
+  "ratio": "1:2",
+  "mult": 1.0,
+  "offset": 0.75,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "delay/figure/SPDelayChain/1/G": {
+  "cyclic": false,
+  "ratio": "4:5",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "delay/figure/SPDelayChain/1/B": {
+  "cyclic": false,
+  "ratio": "4:5",
+  "mult": -1.0,
+  "offset": 0.5,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "texture/dither/SPAtomDither/1/Pattern": {
+  "cyclic": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "choice": true,
+  "lock": false
+ },
+ "texture/dither/SPAtomDither/1/Size": {
+  "cyclic": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "texture/dither/SPAtomDither/1/Mode": {
+  "cyclic": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "choice": true,
+  "lock": false
+ },
+ "texture/dither/SPAtomDither/1/Levels": {
+  "cyclic": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "texture/dither/SPAtomDither/1/Contrast": {
+  "cyclic": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "texture/dither/SPAtomDither/1/Bias": {
+  "cyclic": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "texture/dither/SPAtomDither/1/Color": {
+  "cyclic": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "choice": true,
+  "lock": false
+ },
+ "texture/dither/SPAtomDither/1/Dither": {
+  "cyclic": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "texture/dither/SPAtomDither/1/Cells": {
+  "cyclic": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "choice": true,
+  "lock": false
+ },
+ "texture/dither/SPAtomDither/1/Engine": {
+  "cyclic": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "choice": true,
+  "lock": false
+ },
+ "texture/dither/SPAtomDither/1/Native": {
+  "cyclic": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "choice": true,
+  "lock": false
+ },
+ "texture/dither/SPAtomDither/1/Scan": {
+  "cyclic": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "texture/dither/SPAtomDither/1/Spacing": {
+  "cyclic": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "texture/dither/SPAtomDither/1/Tint": {
+  "cyclic": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "choice": true,
+  "lock": false
+ },
+ "texture/dither/SPAtomDither/1/Key": {
+  "cyclic": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "texture/dither/SPAtomDither/1/Mix": {
+  "cyclic": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "figure/3d/SP Atom Solid/1/Figure A": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "choice": true,
+  "lock": false
+ },
+ "figure/3d/SP Atom Solid/1/Figure B": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "choice": true,
+  "lock": false
+ },
+ "figure/3d/SP Atom Solid/1/Morph": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.15384615384615385,
+  "shape": 1,
+  "lo": 0.18,
+  "hi": 0.72,
+  "drive": false,
+  "lock": false
+ },
+ "figure/3d/SP Atom Solid/1/Size": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.23076923076923078,
+  "shape": 1,
+  "lo": 0.55,
+  "hi": 0.65,
+  "drive": false,
+  "lock": false
+ },
+ "figure/3d/SP Atom Solid/1/X": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.3076923076923077,
+  "shape": 1,
+  "lo": 0.47,
+  "hi": 0.53,
+  "drive": false,
+  "lock": false
+ },
+ "figure/3d/SP Atom Solid/1/Y": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.38461538461538464,
+  "shape": 1,
+  "lo": 0.47,
+  "hi": 0.53,
+  "drive": false,
+  "lock": false
+ },
+ "figure/3d/SP Atom Solid/1/Tumble": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7,
+  "drive": false,
+  "lock": false
+ },
+ "figure/3d/SP Atom Solid/1/Axis": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.07692307692307693,
+  "shape": 1,
+  "lo": 0.22,
+  "hi": 0.38,
+  "drive": false,
+  "lock": false
+ },
+ "figure/3d/SP Atom Solid/1/Sun": {
+  "cyclic": true,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.46153846153846156,
+  "shape": 1,
+  "lo": 0.55,
+  "hi": 0.95,
+  "drive": false,
+  "lock": false
+ },
+ "figure/3d/SP Atom Solid/1/Height": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.5384615384615384,
+  "shape": 1,
+  "lo": 0.5,
+  "hi": 0.8,
+  "drive": false,
+  "lock": false
+ },
+ "figure/3d/SP Atom Solid/1/Distance": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.6153846153846154,
+  "shape": 1,
+  "lo": 0.65,
+  "hi": 0.85,
+  "drive": false,
+  "lock": false
+ },
+ "figure/3d/SP Atom Solid/1/Shadow": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.5,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 0.1,
+  "drive": false,
+  "lock": false
+ },
+ "figure/3d/SP Atom Solid/1/Material": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "choice": true,
+  "lock": false
+ },
+ "figure/3d/SP Atom Solid/1/Micro": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "figure/3d/SP Atom Solid/1/Fine": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "figure/3d/SP Atom Solid/1/Color": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "choice": true,
+  "lock": false
+ },
+ "figure/3d/SP Atom Solid/1/Loop": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.7692307692307693,
+  "shape": 1,
+  "lo": 0.22,
+  "hi": 0.38,
+  "drive": false,
+  "lock": false
+ },
+ "figure/3d/SP Atom Solid/1/Hue": {
+  "cyclic": true,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.6923076923076923,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "figure/3d/SP Atom Solid/1/Red": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 7.25,
+  "offset": 0.6666666666666666,
+  "shape": 1,
+  "lo": 0.689022,
+  "hi": 0.889022,
+  "drive": false,
+  "lock": false
+ },
+ "figure/3d/SP Atom Solid/1/Green": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 6.75,
+  "offset": 0.7222222222222222,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 0.101263,
+  "drive": false,
+  "lock": false
+ },
+ "figure/3d/SP Atom Solid/1/Blue": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 7.75,
+  "offset": 0.7777777777777778,
+  "shape": 1,
+  "lo": 0.079664,
+  "hi": 0.279664,
+  "drive": false,
+  "lock": false
+ },
+ "figure/3d/SP Atom Solid/1/Shade": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.8461538461538461,
+  "shape": 1,
+  "lo": 0.7,
+  "hi": 0.9,
+  "drive": false,
+  "lock": false
+ },
+ "figure/3d/SP Atom Solid/1/Edge": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.9230769230769231,
+  "shape": 1,
+  "lo": 0.2,
+  "hi": 0.4,
+  "drive": false,
+  "lock": false
+ },
+ "figure/3d/SP Atom Solid/1/Emboss": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.9444444444444444,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 0.1,
+  "drive": false,
+  "lock": false
+ },
+ "figure/FM \u00b7 z33d+ [1.6.4]/z33d+/1/mx": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.5,
+  "shape": 1,
+  "lo": 0.28,
+  "hi": 0.4,
+  "lock": false
+ },
+ "figure/FM \u00b7 z33d+ [1.6.4]/z33d+/1/my": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.6666666666666666,
+  "shape": 1,
+  "lo": 0.44,
+  "hi": 0.56,
+  "lock": false
+ },
+ "figure/FM \u00b7 z33d+ [1.6.4]/z33d+/1/e": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.8333333333333334,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7,
+  "lock": false
+ },
+ "figure/FM \u00b7 z33d+ [1.6.4]/z33d+/1/axis x": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.16666666666666666,
+  "shape": 1,
+  "lo": 0.65,
+  "hi": 0.75,
+  "lock": false
+ },
+ "figure/FM \u00b7 z33d+ [1.6.4]/z33d+/1/axis y": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.3333333333333333,
+  "shape": 1,
+  "lo": 0.75,
+  "hi": 0.85,
+  "lock": false
+ },
+ "figure/FM \u00b7 z33d+ [1.6.4]/z33d+/1/rot angle": {
+  "cyclic": true,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "figure/FM \u00b7 z33d+ [1.6.4]/z33d+/1/axis drift": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/LinearCloner~1/param/End%20Scale": {
+  "lo": 0.2,
+  "hi": 1.0,
+  "ratio": "1/sqrt2",
+  "mult": 1.0,
+  "offset": 0.2987677890518219,
+  "shape": 0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/LinearCloner~1/param/Clones": {
+  "ratio": "1/pi",
+  "mult": -1.0,
+  "offset": 0.5730281170367989,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/LinearCloner~1/param/Tails": {
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.5135403804969505,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": true
+ },
+ "effect/layer/figure~1/effect/LinearCloner~1/param/Center": {
+  "ratio": "1/phi",
+  "mult": 2.0,
+  "offset": 0.16064675508891801,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/LinearCloner~1/param/Tail%20Length": {
+  "ratio": "1/phi",
+  "mult": 1.0,
+  "offset": 0.8382678426281304,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/LinearCloner~1/param/Start%20Scale": {
+  "ratio": "1/pi",
+  "mult": -1.0,
+  "offset": 0.41360436579218485,
+  "shape": 0,
+  "lo": 0.21400351243542498,
+  "hi": 0.6114386069583572,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/LinearCloner~1/param/Start%20Rotation": {
+  "ratio": "1/pi",
+  "mult": -1.0,
+  "offset": 0.028876391187718453,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/LinearCloner~1/param/End%20Rotation": {
+  "ratio": "1/sqrt2",
+  "mult": 2.0,
+  "offset": 0.2080939735730738,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/LinearCloner~1/param/Distribution": {
+  "ratio": "1/sqrt2",
+  "mult": 1.0,
+  "offset": 0.035091110221014965,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/LinearCloner~1/param/Distortion": {
+  "ratio": "1/phi",
+  "mult": 2.0,
+  "offset": 0.7687759503479049,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/LinearCloner~1/param/Tail%20Rotation": {
+  "ratio": "1/pi",
+  "mult": 1.0,
+  "offset": 0.7574776286675166,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/LinearCloner~1/param/Master%20Rotation": {
+  "ratio": "1/phi",
+  "mult": 2.0,
+  "offset": 0.2973979603558836,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/LinearCloner~1/param/Delay%20Amount": {
+  "ratio": "1/pi",
+  "mult": 2.0,
+  "offset": 0.22591814868242677,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/MTK_STROKE_VOLT~1/param/WIDTH": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/MTK_STROKE_VOLT~1/param/RGBMOD_SPEED": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/MTK_STROKE_VOLT~1/param/OFFSET": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/MTK_STROKE_VOLT~1/param/VOLTMIX": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/MTK_STROKE_VOLT~1/param/FEEDBACK": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/MTK_STROKE_VOLT~1/param/SOFTEN%280%3DOFF%29": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/MTK_PXLMELT~1/param/DENSITY": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/MTK_PXLMELT~1/param/TIMESTRETCH": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/MTK_PXLMELT~1/param/MOSHLINES": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/MTK_PXLMELT~1/param/FADETIME": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/MTK_PXLMELT~1/param/FX_AREA": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/MTK_PXLMELT~1/param/AREA%20FEATHER": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/HueRotate~1/param/Hue%20Scale": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/HueRotate~1/param/Hue%20Rotate": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/HueRotate~1/param/Sat.%20Scale": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/mtk_lut_corrupt~1/param/TRIG_RELEASE": {
+  "ratio": "1/pi",
+  "mult": -1.0,
+  "offset": 0.5597318429292746,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/mtk_lut_corrupt~1/param/IN_WHITE": {
+  "ratio": "1/phi",
+  "mult": 2.0,
+  "offset": 0.07938453081657826,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/mtk_lut_corrupt~1/param/OUT_WHITE": {
+  "ratio": "1/pi",
+  "mult": -1.0,
+  "offset": 0.3202056835527346,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/mtk_lut_corrupt~1/param/IN%20BLACK": {
+  "ratio": "1/pi",
+  "mult": 1.0,
+  "offset": 0.5652239049441793,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/mtk_lut_corrupt~1/param/OUT%20BLACK": {
+  "ratio": "1/phi",
+  "mult": -1.0,
+  "offset": 0.5599043352801012,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/mtk_lut_corrupt~1/param/SMOOTH%20TIME": {
+  "ratio": "1/pi",
+  "mult": 1.0,
+  "offset": 0.8022520948331832,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/ColourLoop~1/param/Factor": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/ColourLoop~1/param/Offset": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/ColourLoop~1/param/Red%20offset": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/ColourLoop~1/param/Green%20offset": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/ColourLoop~1/param/Blue%20offset": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/TwitchEffect~1/param/Global%20Twitch": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/TwitchEffect~1/param/Max%20Pos%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/TwitchEffect~1/param/Max%20Pos%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/TwitchEffect~1/param/Pos%20Frequency": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/TwitchEffect~1/param/Max%20Scale": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/TwitchEffect~1/param/Scale%20Frequency": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/TwitchEffect~1/param/Max%20Opacity": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/TwitchEffect~1/param/Opacity%20Frequency": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/TwitchEffect~1/param/Max%20Light": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/TwitchEffect~1/param/Light%20Frequency": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/TwitchEffect~1/param/Max%20RGB%20Shift": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/TwitchEffect~1/param/RGB%20Frequency": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/TwitchEffect~1/param/Max%20Blur": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/TwitchEffect~1/param/Blur%20Frequency": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/MTK_STROKEDIFFUSE~1/param/STICKY": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/MTK_STROKEDIFFUSE~1/param/SMUDGE": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/MTK_STROKEDIFFUSE~1/param/GRADIENT_FX": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/MTK_STROKEDIFFUSE~1/param/BEVEL": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/MTK_STROKEDIFFUSE~1/param/BEVEL%20ANGLE": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/Strobe~1/param/Frequency": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/effect/InvertRGB~1/param/R": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/effect/InvertRGB~1/param/G": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/effect/InvertRGB~1/param/B": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/effect/InvertRGB~1/param/A": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/effect/Blur~1/param/Blur": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/effect/Blur~1/param/Blur%20X%20Distance": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/effect/Blur~1/param/Blur%20Y%20Distance": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/effect/Blur~1/param/Quality": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/effect/Blur~1/param/Gaussian": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/effect/Sharpen~1/param/Strength": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/effect/Sharpen~1/param/Distance": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/effect/Kaleidoscope~1/param/Angles": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/effect/Kaleidoscope~1/param/Rotation": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/effect/Kaleidoscope~1/param/Zoom": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/effect/Kaleidoscope~1/param/Input%20Rotation": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/effect/Mirror~1/param/X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/effect/Mirror~1/param/Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/effect/Mirror~1/param/In%20%2F%20Out": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/effect/Mirror~2/param/X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/effect/Mirror~2/param/Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/effect/Mirror~2/param/In%20%2F%20Out": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/effect/Mirror~3/param/X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/effect/Mirror~3/param/Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/effect/Mirror~3/param/In%20%2F%20Out": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/effect/Mirror~4/param/X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/effect/Mirror~4/param/Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/effect/Mirror~4/param/In%20%2F%20Out": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/clip/map~1/effect/InvertRGB~1/param/R": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/clip/map~1/effect/InvertRGB~1/param/G": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/clip/map~1/effect/InvertRGB~1/param/B": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/clip/map~1/effect/InvertRGB~1/param/A": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/clip/map~1/effect/Blur~1/param/Blur": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/clip/map~1/effect/Blur~1/param/Blur%20X%20Distance": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/clip/map~1/effect/Blur~1/param/Blur%20Y%20Distance": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/clip/map~1/effect/Blur~1/param/Quality": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/clip/map~1/effect/Blur~1/param/Gaussian": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/clip/map~1/effect/Sharpen~1/param/Strength": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/clip/map~1/effect/Sharpen~1/param/Distance": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/sculpt~1/effect/InvertRGB~1/param/R": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/sculpt~1/effect/InvertRGB~1/param/G": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/sculpt~1/effect/InvertRGB~1/param/B": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/sculpt~1/effect/InvertRGB~1/param/A": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/sculpt~1/effect/HueRotate~1/param/Hue%20Scale": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/sculpt~1/effect/HueRotate~1/param/Hue%20Rotate": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/sculpt~1/effect/HueRotate~1/param/Sat.%20Scale": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/sculpt~1/effect/InvertRGB~2/param/R": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/sculpt~1/effect/InvertRGB~2/param/G": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/sculpt~1/effect/InvertRGB~2/param/B": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/sculpt~1/effect/InvertRGB~2/param/A": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/sculpt~1/effect/DelayRGB~1/param/R%20delay": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/sculpt~1/effect/DelayRGB~1/param/G%20delay": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/sculpt~1/effect/DelayRGB~1/param/B%20delay": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/sculpt~1/effect/AutoMask~1/param/Contrast": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/field~1/effect/Twisted~1/param/Twirl": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/field~1/effect/Twisted~1/param/Radius": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/field~1/effect/Twisted~2/param/Twirl": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/field~1/effect/Twisted~2/param/Radius": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/field~1/effect/Suckr~1/param/Suck": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/field~1/effect/FishEye~1/param/FishEye": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/delay~1/effect/InvertRGB~1/param/R": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/delay~1/effect/InvertRGB~1/param/G": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/delay~1/effect/InvertRGB~1/param/B": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/delay~1/effect/InvertRGB~1/param/A": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/delay~1/effect/AutoMask~1/param/Contrast": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/TwitchEffect~1/param/Global%20Twitch": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/TwitchEffect~1/param/Max%20Pos%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/TwitchEffect~1/param/Max%20Pos%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/TwitchEffect~1/param/Pos%20Frequency": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/TwitchEffect~1/param/Max%20Scale": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/TwitchEffect~1/param/Scale%20Frequency": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/TwitchEffect~1/param/Max%20Opacity": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/TwitchEffect~1/param/Opacity%20Frequency": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/TwitchEffect~1/param/Max%20Light": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/TwitchEffect~1/param/Light%20Frequency": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/TwitchEffect~1/param/Max%20RGB%20Shift": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/TwitchEffect~1/param/RGB%20Frequency": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/TwitchEffect~1/param/Max%20Blur": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/TwitchEffect~1/param/Blur%20Frequency": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/mtk_lut_corrupt~1/param/TRIG_RELEASE": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/mtk_lut_corrupt~1/param/IN_WHITE": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/mtk_lut_corrupt~1/param/OUT_WHITE": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/mtk_lut_corrupt~1/param/IN%20BLACK": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/mtk_lut_corrupt~1/param/OUT%20BLACK": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/mtk_lut_corrupt~1/param/SMOOTH%20TIME": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/RadialCloner~1/param/Clones": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/RadialCloner~1/param/Start%20Radius": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/RadialCloner~1/param/Start%20Scale": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/RadialCloner~1/param/Start%20Rotation": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/RadialCloner~1/param/End%20Radius": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/RadialCloner~1/param/End%20Scale": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/RadialCloner~1/param/End%20Rotation": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/RadialCloner~1/param/Fan": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/RadialCloner~1/param/Fan%20Offset": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/RadialCloner~1/param/Master%20Rotation": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/RadialCloner~1/param/Delay%20Amount": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Iterate~1/param/TransformStrength": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Iterate~1/param/Iterations": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Iterate~1/param/StartOpacity": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Iterate~1/param/OpacityChange": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Iterate~1/param/TranslateX": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Iterate~1/param/TranslateY": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Iterate~1/param/TranslateZ": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Iterate~1/param/RotateX": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Iterate~1/param/RotateY": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Iterate~1/param/RotateZ": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Iterate~1/param/Scale": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Iterate~1/param/DOpacityChange": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Iterate~1/param/DTranslateX": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Iterate~1/param/DTranslateY": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Iterate~1/param/DTranslateZ": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Iterate~1/param/DRotateX": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Iterate~1/param/DRotateY": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Iterate~1/param/DRotateZ": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Iterate~1/param/DScale": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Iterate~1/param/BlendMode": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Iterate~1/param/GRotateX": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Iterate~1/param/GRotateY": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Iterate~1/param/GRotateZ": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Mirror~1/param/X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Mirror~1/param/Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Mirror~1/param/In%20%2F%20Out": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Mirror~2/param/X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Mirror~2/param/Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Mirror~2/param/In%20%2F%20Out": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Mirror~3/param/X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Mirror~3/param/Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Mirror~3/param/In%20%2F%20Out": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/MTK_Gradient_Shadow~1/param/BANDS": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/MTK_Gradient_Shadow~1/param/POSITION": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/MTK_Gradient_Shadow~1/param/ROTATE": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/MTK_Gradient_Shadow~1/param/OFFSET": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Displace~1/param/X%20factor": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Displace~1/param/Y%20factor": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Displace~1/param/Threshold": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Distortion~1/param/Distort": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Distortion~1/param/Radius": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/ASCII~1/param/Scale": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/ASCII~1/param/Threshold": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/ASCII~1/param/OverscanX": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/ASCII~1/param/OverscanY": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/ASCII~1/param/Aspect": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/InfiniteZoom~1/param/Rotation%20Speed": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/InfiniteZoom~1/param/Zoom": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/InfiniteZoom~1/param/Range": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/InfiniteZoom~1/param/Alpha": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/InfiniteZoom~1/param/Num%20Slices": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/LoRezEffect~1/param/Pixel%20Size": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/LoRezEffect~1/param/Bit%20Reduction": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/LoRezEffect~1/param/Dither": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/glyph~1/effect/MTK_Gradient_Shadow~1/param/BANDS": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/glyph~1/effect/MTK_Gradient_Shadow~1/param/POSITION": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/glyph~1/effect/MTK_Gradient_Shadow~1/param/ROTATE": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/glyph~1/effect/MTK_Gradient_Shadow~1/param/OFFSET": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/glyph~1/effect/Goo~1/param/Resolution": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/glyph~1/effect/Goo~1/param/Speed": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/glyph~1/effect/Goo~1/param/MaxDistortionX": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/glyph~1/effect/Goo~1/param/MaxDistortionY": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/glyph~1/effect/Goo~1/param/MaxDistortionZ": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/glyph~1/effect/Goo~1/param/Shade": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "figure/SP Figure Solid Source/SP Figure Solid Source/1/Figure A": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "choice": true,
+  "lock": false
+ },
+ "figure/SP Figure Solid Source/SP Figure Solid Source/1/Figure B": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "choice": true,
+  "lock": false
+ },
+ "figure/SP Figure Solid Source/SP Figure Solid Source/1/Morph": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7,
+  "drive": false,
+  "lock": false
+ },
+ "figure/SP Figure Solid Source/SP Figure Solid Source/1/Tumble": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.2222222222222222,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "figure/SP Figure Solid Source/SP Figure Solid Source/1/Axis": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.2777777777777778,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "figure/SP Figure Solid Source/SP Figure Solid Source/1/Sun": {
+  "cyclic": true,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.3333333333333333,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "figure/SP Figure Solid Source/SP Figure Solid Source/1/Height": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.3888888888888889,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "figure/SP Figure Solid Source/SP Figure Solid Source/1/Distance": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.4444444444444444,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "figure/SP Figure Solid Source/SP Figure Solid Source/1/Shadow": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.5,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "figure/SP Figure Solid Source/SP Figure Solid Source/1/Material": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "choice": true,
+  "lock": false
+ },
+ "figure/SP Figure Solid Source/SP Figure Solid Source/1/Micro": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "figure/SP Figure Solid Source/SP Figure Solid Source/1/Fine": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "figure/SP Figure Solid Source/SP Figure Solid Source/1/Color": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "choice": true,
+  "lock": false
+ },
+ "figure/SP Figure Solid Source/SP Figure Solid Source/1/Loop": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.5555555555555556,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "figure/SP Figure Solid Source/SP Figure Solid Source/1/Hue": {
+  "cyclic": true,
+  "ratio": "1:1",
+  "mult": 6.75,
+  "offset": 0.6111111111111112,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "figure/SP Figure Solid Source/SP Figure Solid Source/1/Red": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 7.25,
+  "offset": 0.6666666666666666,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "figure/SP Figure Solid Source/SP Figure Solid Source/1/Green": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 6.75,
+  "offset": 0.7222222222222222,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "figure/SP Figure Solid Source/SP Figure Solid Source/1/Blue": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 7.75,
+  "offset": 0.7777777777777778,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "figure/SP Figure Solid Source/SP Figure Solid Source/1/Shade": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.8333333333333334,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "figure/SP Figure Solid Source/SP Figure Solid Source/1/Edge": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.8888888888888888,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "figure/SP Figure Solid Source/SP Figure Solid Source/1/Emboss": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.9444444444444444,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Transform~1/param/Position%20X": {
+  "ratio": "3:5",
+  "mult": 2.0,
+  "offset": 0.75,
+  "shape": 1,
+  "lo": 0.4736328125,
+  "hi": 0.5263671875,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Transform~1/param/Position%20Y": {
+  "ratio": "3:4",
+  "mult": -1.0,
+  "offset": 0.75,
+  "shape": 1,
+  "lo": 0.48516845703125,
+  "hi": 0.51483154296875,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Transform~1/param/Scale": {
+  "ratio": "2:3",
+  "mult": 2.0,
+  "offset": 0.5,
+  "shape": 0,
+  "lo": 0.011276008511548856,
+  "hi": 0.03608322723695634,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Transform~1/param/Scale%20W": {
+  "ratio": "1/sqrt2",
+  "mult": 1.0,
+  "offset": 0.825240038090058,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Transform~1/param/Scale%20H": {
+  "ratio": "1/sqrt2",
+  "mult": 1.0,
+  "offset": 0.747695202508515,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Transform~1/param/Rotation%20X": {
+  "ratio": "1/sqrt2",
+  "mult": 1.0,
+  "offset": 0.13292450879526674,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Transform~1/param/Rotation%20Y": {
+  "ratio": "1/phi",
+  "mult": 1.0,
+  "offset": 0.13525592167516198,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Transform~1/param/Rotation%20Z": {
+  "ratio": "1:3",
+  "mult": 2.0,
+  "offset": 0.25,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Transform~1/param/Anchor%20X": {
+  "ratio": "1/pi",
+  "mult": 2.0,
+  "offset": 0.31211089413408644,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Transform~1/param/Anchor%20Y": {
+  "ratio": "1/sqrt2",
+  "mult": 1.0,
+  "offset": 0.08878315917367063,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Transform~1/param/Anchor%20Z": {
+  "ratio": "1/sqrt2",
+  "mult": 1.0,
+  "offset": 0.11582001654860741,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 ButterflyEffect [1.5.3]/ButterflyEffect/1/zoom": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.25,
+  "hi": 0.75
+ },
+ "field/FM \u00b7 Gradient Bars [1.5.7]/Gradient Bars/1/columns": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.25,
+  "hi": 0.75
+ },
+ "field/FM \u00b7 Melty Boi [1.5.9]/Melty Boi/1/intensity": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.25,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 Melty Boi [1.5.9]/Melty Boi/1/speed": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "5:6",
+  "mult": 2.0,
+  "offset": 0.5,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 Melty Boi [1.5.9]/Melty Boi/1/scale x": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "3:2",
+  "mult": 1.0,
+  "offset": 0.25,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 Melty Boi [1.5.9]/Melty Boi/1/scale y": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "5:8",
+  "mult": 2.0,
+  "offset": 0.5,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 Melty Boi [1.5.9]/Melty Boi/1/spread": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "3:2",
+  "mult": 1.0,
+  "offset": 0.25,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 Melty Boi [1.5.9]/Melty Boi/1/vignette": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.75,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 Melty Boi [1.5.9]/Melty Boi/1/contrast": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "3:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 Cuadricula rect [1.5.4]/Cuadricula rect/1/warp": {
+  "cyclic": false,
+  "drive": true,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.4,
+  "hi": 0.6,
+  "lock": false
+ },
+ "field/FM \u00b7 data blocks [1.5.5]/data blocks/1/shift": {
+  "cyclic": false,
+  "drive": true,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.25,
+  "hi": 0.55,
+  "lock": false
+ },
+ "field/FM \u00b7 RailroadTracks [1.5.15]/RailroadTracks/1/curve1": {
+  "cyclic": false,
+  "drive": true,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.4,
+  "hi": 0.6,
+  "lock": false
+ },
+ "field/FM \u00b7 RetroTechnicolorComputer [1.5.19]/RetroTechnicolorComputer/1/hue": {
+  "cyclic": false,
+  "drive": true,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.35,
+  "hi": 0.65,
+  "lock": false
+ },
+ "field/FM \u00b7 SmoothXORi [1.5.20]/SmoothXORi/1/intensity": {
+  "cyclic": false,
+  "drive": true,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.35,
+  "hi": 0.6,
+  "lock": false
+ },
+ "field/FM \u00b7 TruchetDualLevelSpin [1.5.21]/TruchetDualLevelSpin/1/thickness": {
+  "cyclic": false,
+  "drive": true,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.4,
+  "hi": 0.6,
+  "lock": false
+ },
+ "field/FM \u00b7 Cuadricula rect [1.5.4]/Cuadricula rect/1/rotate": {
+  "cyclic": false,
+  "drive": true,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.25,
+  "shape": 1,
+  "lo": 0.1,
+  "hi": 0.35,
+  "lock": false
+ },
+ "field/FM \u00b7 Cuadricula rect [1.5.4]/Cuadricula rect/1/tile": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 Cuadricula rect [1.5.4]/Cuadricula rect/1/offset": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 Cuadricula rect [1.5.4]/Cuadricula rect/1/stroke width": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 Cuadricula rect [1.5.4]/Cuadricula rect/1/gradient": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 Cuadricula rect [1.5.4]/Cuadricula rect/1/even rows": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 Cuadricula rect [1.5.4]/Cuadricula rect/1/odd rows": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 Cuadricula rect [1.5.4]/Cuadricula rect/1/x": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 Cuadricula rect [1.5.4]/Cuadricula rect/1/y": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 data blocks [1.5.5]/data blocks/1/density": {
+  "cyclic": false,
+  "drive": true,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.25,
+  "shape": 1,
+  "lo": 0.46296296296296297,
+  "hi": 0.5555555555555556,
+  "lock": false
+ },
+ "field/FM \u00b7 data blocks [1.5.5]/data blocks/1/grid x": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 data blocks [1.5.5]/data blocks/1/grid y": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 data blocks [1.5.5]/data blocks/1/grid2 x": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 data blocks [1.5.5]/data blocks/1/center x": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 data blocks [1.5.5]/data blocks/1/center y": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 data blocks [1.5.5]/data blocks/1/curve x": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 data blocks [1.5.5]/data blocks/1/curve y": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 data blocks [1.5.5]/data blocks/1/rate": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 data blocks [1.5.5]/data blocks/1/seed": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 data blocks [1.5.5]/data blocks/1/offset": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 data blocks [1.5.5]/data blocks/1/grid2 y": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 RailroadTracks [1.5.15]/RailroadTracks/1/intensity": {
+  "cyclic": false,
+  "drive": true,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.25,
+  "shape": 1,
+  "lo": 0.45,
+  "hi": 0.65,
+  "lock": false
+ },
+ "field/FM \u00b7 RailroadTracks [1.5.15]/RailroadTracks/1/speed": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 RailroadTracks [1.5.15]/RailroadTracks/1/curve1 freq": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 RailroadTracks [1.5.15]/RailroadTracks/1/curve2": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 RailroadTracks [1.5.15]/RailroadTracks/1/curve2 freq": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 RailroadTracks [1.5.15]/RailroadTracks/1/color mix": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 RetroTechnicolorComputer [1.5.19]/RetroTechnicolorComputer/1/saturation": {
+  "cyclic": false,
+  "drive": true,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.25,
+  "shape": 1,
+  "lo": 0.4,
+  "hi": 0.8,
+  "lock": false
+ },
+ "field/FM \u00b7 RetroTechnicolorComputer [1.5.19]/RetroTechnicolorComputer/1/offset x": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 RetroTechnicolorComputer [1.5.19]/RetroTechnicolorComputer/1/offset y": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 RetroTechnicolorComputer [1.5.19]/RetroTechnicolorComputer/1/matrix x": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 RetroTechnicolorComputer [1.5.19]/RetroTechnicolorComputer/1/matrix y": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 RetroTechnicolorComputer [1.5.19]/RetroTechnicolorComputer/1/size": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 RetroTechnicolorComputer [1.5.19]/RetroTechnicolorComputer/1/speed": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 SmoothXORi [1.5.20]/SmoothXORi/1/tint": {
+  "cyclic": false,
+  "drive": true,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.25,
+  "shape": 1,
+  "lo": 0.35,
+  "hi": 0.65,
+  "lock": false
+ },
+ "field/FM \u00b7 SmoothXORi [1.5.20]/SmoothXORi/1/rate": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 SmoothXORi [1.5.20]/SmoothXORi/1/scrolls y": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 SmoothXORi [1.5.20]/SmoothXORi/1/scroll x": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 SmoothXORi [1.5.20]/SmoothXORi/1/seed1": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 SmoothXORi [1.5.20]/SmoothXORi/1/seed2": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 SmoothXORi [1.5.20]/SmoothXORi/1/zoom": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 SmoothXORi [1.5.20]/SmoothXORi/1/sat": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 TruchetDualLevelSpin [1.5.21]/TruchetDualLevelSpin/1/glow": {
+  "cyclic": false,
+  "drive": true,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.25,
+  "shape": 1,
+  "lo": 0.45,
+  "hi": 0.7,
+  "lock": false
+ },
+ "field/FM \u00b7 TruchetDualLevelSpin [1.5.21]/TruchetDualLevelSpin/1/spin x": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 TruchetDualLevelSpin [1.5.21]/TruchetDualLevelSpin/1/spin y": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 TruchetDualLevelSpin [1.5.21]/TruchetDualLevelSpin/1/seed x": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 TruchetDualLevelSpin [1.5.21]/TruchetDualLevelSpin/1/edge": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 TruchetDualLevelSpin [1.5.21]/TruchetDualLevelSpin/1/freq": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 TruchetDualLevelSpin [1.5.21]/TruchetDualLevelSpin/1/pulse": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 TruchetDualLevelSpin [1.5.21]/TruchetDualLevelSpin/1/pulse rate": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 TruchetDualLevelSpin [1.5.21]/TruchetDualLevelSpin/1/scale": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 TruchetDualLevelSpin [1.5.21]/TruchetDualLevelSpin/1/seed y": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "figure/FM \u00b7 RainbowRingCubicTwist [1.6.8]/RainbowRingCubicTwist/1/thickness": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.25,
+  "hi": 0.75
+ },
+ "figure/FM \u00b7 Crystal Drops [1.6.13]/Crystal Drops/1/Refraction": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.25,
+  "hi": 0.75
+ },
+ "figure/FM \u00b7 Spikeball_v2 [1.6.26]/Spikeball_v2/1/Spike Sharpness": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.25,
+  "hi": 0.75
+ },
+ "figure/SP Figure Ring Source/SP Figure Ring Source/1/thickness": {
+  "cyclic": false,
+  "drive": true,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.25,
+  "hi": 0.8
+ },
+ "figure/SP Figure Ring Source/SP Figure Ring Source/1/twists": {
+  "cyclic": false,
+  "drive": true,
+  "ratio": "1:2",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.25,
+  "hi": 0.8
+ },
+ "figure/SP Figure Spike Source/SP Figure Spike Source/1/Spike Sharpness": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/SP Figure Crystal Source/SP Figure Crystal Source/1/Refraction": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 TileIllusion [1.5.8]/TileIllusion/1/scale": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 Screen Weaver [1.5.10]/Screen Weaver/1/Speed": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 sin_wave [1.5.11]/sin_wave/1/Speed": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 SpiralSurface [1.5.12]/SpiralSurface/1/density": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 quantum chaos [1.5.16]/quantum chaos/1/Speed": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 TwinRays [1.5.22]/TwinRays/1/width": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 MTK_Worleyz [1.5.2]/MTK_Worleyz/1/JITTER": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 fractal alien text [1.5.6]/fractal alien text/1/dimensions": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 Dark Tomb [1.5.13]/Dark Tomb/1/een": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 cubes + spheres [1.5.14]/cubes + spheres/1/x": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 Quaternion RGB vector rotation [1.5.18]/Quaternion RGB vector rotation/1/Speed": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 VoroniCubes [1.5.23]/VoroniCubes/1/scale": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 Higgs Mechanism [1.5.25]/Higgs Mechanism/1/Speed": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 Klein bottle figure 8 immersion [1.5.26]/Klein bottle figure 8 immersion/1/Radius": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 PsychedeliaGenerica [1.5.27]/PsychedeliaGenerica/1/scale": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 Potential Energy [1.5.28]/Potential Energy/1/Speed": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 Magnetic Anomaly [1.5.29]/Magnetic Anomaly/1/Nebula Brightness": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 Quantum Field Theory [1.5.30]/Quantum Field Theory/1/Speed": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 QuarternionFieldDistortion [1.5.33]/QuarternionFieldDistortion/1/strength": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 Cos Orbit [1.5.35]/Cos Orbit/1/wave scale": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 Creation [1.5.37]/Creation/1/intensity": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 spiral intersect [1.5.40]/spiral intersect/1/g1": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 Flower2 [1.5.36]/Flower2/1/draaixas": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 Gentle Rings [1.5.38]/Gentle Rings/1/Speed": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 Quantum Fractal [1.5.39]/Quantum Fractal/1/Speed": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 Quasi-Kleinian Ring of Circles [1.5.41]/Quasi-Kleinian Ring of Circles/1/Overlap": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 Poincare Disk [1.5.42]/Poincare Disk/1/Speed": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 FractalCartoon [1.5.43]/FractalCartoon/1/amp": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 MergerTunnel [1.5.44]/MergerTunnel/1/depth": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 Sands [1.5.45]/Sands/1/Speed": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 ShaderLamb [1.5.47]/ShaderLamb/1/warp": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 Cumulus [1.5.48]/Cumulus/1/main form": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 MetaSevenVortex [1.5.49]/MetaSevenVortex/1/scale": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 Wild Style [1.5.50]/Wild Style/1/angle": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 AI Escape valve [1.5.52]/AI Escape valve/1/IFS Scale": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 Apollonian [1.5.53]/Apollonian/1/Fractal Scale": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 Equirectangular Apollonian [1.5.54]/Equirectangular Apollonian/1/Fractal Scale": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 ocean waves [1.5.65]/ocean waves/1/choppy": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 Kissing Donuts [1.5.56]/Kissing Donuts/1/Torus Thickness": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 Kleinian limit set [1.5.57]/Kleinian limit set/1/View Scale": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 Kleinian limit set-Maskit slice [1.5.58]/Kleinian limit set-Maskit slice/1/Offset X": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 MegaWave 2 [1.5.60]/MegaWave 2/1/Speed": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 [phreax] quantum field [1.5.61]/[phreax] quantum field/1/Speed": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 Oldschool Tube [1.5.62]/Oldschool Tube/1/Speed": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 Full Spectrum Cyber [1.5.63]/Full Spectrum Cyber/1/Speed": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 ocean waves [1.5.66]/ocean waves/1/height": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 Dodecahedral Permutations [1.5.68]/Dodecahedral Permutations/1/Speed": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 Deep Quantum Time State [1.5.69]/Deep Quantum Time State/1/Speed": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 q_interference23 [1.5.70]/q_interference23/1/Camera Angle": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 flex links - v2 [1.5.71]/flex links - v2/1/Speed": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 flex links - v3 [1.5.72]/flex links - v3/1/Speed": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 flex links radial - slice [1.5.73]/flex links radial - slice/1/Speed": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 flex links radial - slice2 [1.5.74]/flex links radial - slice2/1/Speed": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 flex links radial - v4 [1.5.75]/flex links radial - v4/1/Speed": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 Quaternion controls [1.5.76]/Quaternion controls/1/Speed": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 Space Warping Portals [1.5.77]/Space Warping Portals/1/Speed": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 Steiner Surfaces [1.5.78]/Steiner Surfaces/1/Morph Rate": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 Quantum Socket [1.5.79]/Quantum Socket/1/Speed": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 Quaternion Kinematics [1.5.80]/Quaternion Kinematics/1/Speed": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 HopfFibration [1.5.81]/HopfFibration/1/angle": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 [2TC 15] old skool 3d driving [1.5.83]/[2TC 15] old skool 3d driving/1/Speed": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/FM \u00b7 Metaballs [1.6.3]/Metaballs/1/Radius": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/FM \u00b7 DimensionMorphingTopography [1.6.5]/DimensionMorphingTopography/1/blend x": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/FM \u00b7 MagicLougie [1.6.6]/MagicLougie/1/depth": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/FM \u00b7 GeodesicTiling [1.6.7]/GeodesicTiling/1/subdivison": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/FM \u00b7 SpaceSpore [1.6.9]/SpaceSpore/1/morph": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/FM \u00b7 4D Voronoi + Hopf Fibration [1.6.10]/4D Voronoi + Hopf Fibration/1/Brightness": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/FM \u00b7 16 Dimensional Julia (Sedenion) [1.6.11]/16 Dimensional Julia (Sedenion)/1/Julia Amplitude": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/FM \u00b7 Barth Sextic Surfaces [1.6.12]/Barth Sextic Surfaces/1/Surface K": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/FM \u00b7 curved surface [1.6.14]/curved surface/1/Speed": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/FM \u00b7 Hopf + Poincare [1.6.15]/Hopf + Poincare/1/Refraction": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/FM \u00b7 HypnoWorm [1.6.16]/HypnoWorm/1/amp1": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/FM \u00b7 Melty Boi [1.6.17]/Melty Boi/1/intensity": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/FM \u00b7 QUANTUM WAVE INTERFERENCE [1.6.18]/QUANTUM WAVE INTERFERENCE/1/Energy Scale": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/FM \u00b7 Quantum Zappy Sphere [1.6.19]/Quantum Zappy Sphere/1/Glow": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/FM \u00b7 Quaternion Averaging [1.6.20]/Quaternion Averaging/1/Speed": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/FM \u00b7 Quaternion Conjugation 2 [1.6.21]/Quaternion Conjugation 2/1/Speed": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/FM \u00b7 quantum droplet [1.6.22]/quantum droplet/1/Speed": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/FM \u00b7 On their way to Sirius [1.6.23]/On their way to Sirius/1/Speed": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/FM \u00b7 Ray Marching Experiment n35 [1.6.24]/Ray Marching Experiment n35/1/Displacement": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/FM \u00b7 Shaderdough [1.6.25]/Shaderdough/1/Speed": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/FM \u00b7 Quantum Carpets [1.6.27]/Quantum Carpets/1/Wave Count": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/FM \u00b7 Raymarched Hopf Fibers [1.6.29]/Raymarched Hopf Fibers/1/Fiber Radius": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/FM \u00b7 Dodecahedron [1.6.30]/Dodecahedron/1/een": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/FM \u00b7 Wireframe stellated dodecahedron [1.6.31]/Wireframe stellated dodecahedron/1/Float In": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/FM \u00b7 CubeCluster [1.6.33]/CubeCluster/1/pulse": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/FM \u00b7 example using quaternions [1.6.34]/example using quaternions/1/Line Width": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/FM \u00b7 Multi Cube [1.6.35]/Multi Cube/1/drift": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/FM \u00b7 Multi Cube [1.6.36]/Multi Cube/1/drift": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/FM \u00b7 quantum computer [1.6.37]/quantum computer/1/Speed": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/FM \u00b7 Melting Fractal [1.6.38]/Melting Fractal/1/fold offset": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/FM \u00b7 quadratic bezier triangle 2 AABV [1.6.39]/quadratic bezier triangle 2 AABV/1/Deform Amplitude": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/FM \u00b7 Klein Bottle (3D) [1.6.40]/Klein Bottle (3D)/1/Refraction": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/FM \u00b7 4D Rounded box (Bluey) [1.6.41]/4D Rounded box (Bluey)/1/Hyper Slice": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/FM \u00b7 4-space rotations [1.6.42]/4-space rotations/1/Line Scale": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/FM \u00b7 HEPTANION transformation [1.6.43]/HEPTANION transformation/1/Gizmo Scale": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/FM \u00b7 quaternion slerp [1.6.44]/quaternion slerp/1/Speed": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/FM \u00b7 quaternion slerp [1.6.45]/quaternion slerp/1/Speed": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/FM \u00b7 Quaternion Twister [1.6.46]/Quaternion Twister/1/Twist Rate": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/FM \u00b7 Spinor Belt Trick [1.6.47]/Spinor Belt Trick/1/Twist Scale": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/FM \u00b7 Superfluid helium [1.6.48]/Superfluid helium/1/Speed": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/2d/SP Atom Figure 2D/1/Morph": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7,
+  "drive": false
+ },
+ "figure/4d/SP Atom 4D/1/W": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7,
+  "drive": false,
+  "lock": false
+ },
+ "figure/hybrid/SP Atom Hybrid/1/Connect": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7,
+  "drive": false,
+  "lock": false
+ },
+ "figure/FM \u00b7 SP State Test [1.6.86]/SP State Test/1/Rate": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/FM \u00b7 Metaballs [2.4.1]/Metaballs/1/Radius": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/FM \u00b7 Gradient Bars [2.4.2]/Gradient Bars/1/balance": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/FM \u00b7 SP State Test [2.6.2]/SP State Test/1/Rate": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/FM \u00b7 Shaper [2.4.3]/Shaper/1/Noise Amount": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/FM \u00b7 Rings [2.6.3]/Rings/1/Spacing": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/FM \u00b7 Tunnelines [2.4.4]/Tunnelines/1/Frequency": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/FM \u00b7 Metaballs [2.6.4]/Metaballs/1/Radius": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "texture/texture/SP Atom Texture/1/Duty": {
+  "cyclic": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7,
+  "drive": false
+ },
+ "grain/grain/SP Atom Grain/1/Amount": {
+  "cyclic": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "grain/SP State Test/SP State Test/1/Rate": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "grain/FM \u00b7 Lines [2.8.2]/Lines/1/Width": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "grain/FM \u00b7 Checkered [2.8.3]/Checkered/1/Num X": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "grain/FM \u00b7 Spiral [2.8.4]/Spiral/1/Distortion": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 Color Wheel [2.2.1]/Color Wheel/1/warp": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 Sine Wave [2.3.1]/Sine Wave/1/Amplitude": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 Checkered [2.1.2]/Checkered/1/Num X": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "8:13",
+  "mult": 1.0,
+  "offset": 0.75,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 Spiral [2.2.2]/Spiral/1/Distortion": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 Lines [2.3.2]/Lines/1/Width": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 Lines [2.1.3]/Lines/1/Width": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 Rings [2.2.3]/Rings/1/Spacing": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 Spiral [2.3.3]/Spiral/1/Distortion": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 Checkered [2.5.3]/Checkered/1/Num X": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 7.000070000700007e-05,
+  "hi": 0.0003100031000310003
+ },
+ "field/FM \u00b7 Sine Wave [2.1.4]/Sine Wave/1/Amplitude": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "field/FM \u00b7 Checkered [2.3.4]/Checkered/1/Num X": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 7.000070000700007e-05,
+  "hi": 0.0003100031000310003
+ },
+ "field/FM \u00b7 Spiral [2.5.4]/Spiral/1/Distortion": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1,
+  "offset": 0,
+  "shape": 1,
+  "lo": 0.3,
+  "hi": 0.7
+ },
+ "figure/Heart HypnoWorm/Heart HypnoWorm/1/amp1": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "figure/Heart Torus/Heart Torus/1/torusSize": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Quaternion Field/Heart Quaternion Field/1/Coupling": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Quaternion Swell/Heart Quaternion Swell/1/Swell Threshold": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Paper Fractal/Heart Paper Fractal/1/foldDistA": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Vector Lattice/Heart Vector Lattice/1/rotX": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Concentrip/Heart Concentrip/1/radialDensity": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Puls Lattice/Heart Puls Lattice/1/barWidth": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Ancient Temple/Heart Ancient Temple/1/morph": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Kali Liberation/Heart Kali Liberation/1/morphing": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Color Wheel/Heart Color Wheel/1/Hue Rotation": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "figure/Heart Klein Bottle/Heart Klein Bottle/1/Quat Y": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "figure/Heart Melting Fractal/Heart Melting Fractal/1/Fold Phase": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Quaternion Field/Heart Quaternion Field/1/Speed": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Quaternion Field/Heart Quaternion Field/1/Field Scale": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Quaternion Field/Heart Quaternion Field/1/Hue Speed": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Quaternion Field/Heart Quaternion Field/1/Axis 1 Freq": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Quaternion Field/Heart Quaternion Field/1/Axis 2 Freq": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Quaternion Field/Heart Quaternion Field/1/Axis 3 Freq": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Quaternion Field/Heart Quaternion Field/1/Brightness": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Quaternion Field/Heart Quaternion Field/1/Saturation": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Quaternion Field/Heart Quaternion Field/1/Mean Radius": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Quaternion Field/Heart Quaternion Field/1/Sample Distance": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "figure/Heart Klein Bottle/Heart Klein Bottle/1/Quat W": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "figure/Heart Klein Bottle/Heart Klein Bottle/1/Quat X": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "figure/Heart Klein Bottle/Heart Klein Bottle/1/Quat Z": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "figure/Heart Klein Bottle/Heart Klein Bottle/1/Refraction": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "figure/Heart Klein Bottle/Heart Klein Bottle/1/Wall Thickness": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "figure/Heart Klein Bottle/Heart Klein Bottle/1/Exposure": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "figure/Heart Melting Fractal/Heart Melting Fractal/1/Twist Amount": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "figure/Heart Melting Fractal/Heart Melting Fractal/1/Orbit Phase": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "figure/Heart Melting Fractal/Heart Melting Fractal/1/Camera Roll": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "figure/Heart Melting Fractal/Heart Melting Fractal/1/Cone Radius": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "figure/Heart Melting Fractal/Heart Melting Fractal/1/Fold Offset": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "figure/Heart Melting Fractal/Heart Melting Fractal/1/Glow Strength": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Quaternion Swell/Heart Quaternion Swell/1/Field Scale": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Quaternion Swell/Heart Quaternion Swell/1/Speed": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Quaternion Swell/Heart Quaternion Swell/1/Swell Sharpness": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Quaternion Swell/Heart Quaternion Swell/1/Hue Shift": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Quaternion Swell/Heart Quaternion Swell/1/Coupling": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Quaternion Swell/Heart Quaternion Swell/1/Darkness": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Paper Fractal/Heart Paper Fractal/1/rotAsymX": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Paper Fractal/Heart Paper Fractal/1/rotAsymY": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Paper Fractal/Heart Paper Fractal/1/spinRate": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Paper Fractal/Heart Paper Fractal/1/foldRate": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Paper Fractal/Heart Paper Fractal/1/spinOffset": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Paper Fractal/Heart Paper Fractal/1/foldOffset": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Paper Fractal/Heart Paper Fractal/1/sizeOffset": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Paper Fractal/Heart Paper Fractal/1/foldDistB": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Paper Fractal/Heart Paper Fractal/1/camX": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Paper Fractal/Heart Paper Fractal/1/camY": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Paper Fractal/Heart Paper Fractal/1/camZ": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Paper Fractal/Heart Paper Fractal/1/glowAmount": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Vector Lattice/Heart Vector Lattice/1/camSpeed": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Vector Lattice/Heart Vector Lattice/1/rotZ": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Vector Lattice/Heart Vector Lattice/1/colorR": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Vector Lattice/Heart Vector Lattice/1/colorG": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Vector Lattice/Heart Vector Lattice/1/colorB": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Concentrip/Heart Concentrip/1/angularDensity": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Concentrip/Heart Concentrip/1/blendThreshold": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Concentrip/Heart Concentrip/1/blendWidth": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Concentrip/Heart Concentrip/1/phase": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Concentrip/Heart Concentrip/1/hue": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Puls Lattice/Heart Puls Lattice/1/cellSpacing": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Puls Lattice/Heart Puls Lattice/1/boltWidth": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Puls Lattice/Heart Puls Lattice/1/greenExpansion": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Puls Lattice/Heart Puls Lattice/1/orangeExpansion": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Puls Lattice/Heart Puls Lattice/1/pulsePhase": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Puls Lattice/Heart Puls Lattice/1/travelPhase": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Ancient Temple/Heart Ancient Temple/1/zoom": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Ancient Temple/Heart Ancient Temple/1/speed": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Ancient Temple/Heart Ancient Temple/1/cameraPitch": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Ancient Temple/Heart Ancient Temple/1/cameraYaw": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Ancient Temple/Heart Ancient Temple/1/cameraRoll": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Ancient Temple/Heart Ancient Temple/1/fractalScale": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Ancient Temple/Heart Ancient Temple/1/fractalIterations": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Ancient Temple/Heart Ancient Temple/1/surfaceShake": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Ancient Temple/Heart Ancient Temple/1/floorPattern": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Ancient Temple/Heart Ancient Temple/1/orbSize": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Ancient Temple/Heart Ancient Temple/1/orbPattern": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Ancient Temple/Heart Ancient Temple/1/colorPalette": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Ancient Temple/Heart Ancient Temple/1/contrast": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Ancient Temple/Heart Ancient Temple/1/saturation": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Ancient Temple/Heart Ancient Temple/1/brightness": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Kali Liberation/Heart Kali Liberation/1/speed": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Kali Liberation/Heart Kali Liberation/1/zoom": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Kali Liberation/Heart Kali Liberation/1/colorPulse": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Kali Liberation/Heart Kali Liberation/1/brightness": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Kali Liberation/Heart Kali Liberation/1/contrast": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Kali Liberation/Heart Kali Liberation/1/cameraX": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Kali Liberation/Heart Kali Liberation/1/cameraY": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Kali Liberation/Heart Kali Liberation/1/cameraZ": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Kali Liberation/Heart Kali Liberation/1/colorPalette": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Color Wheel/Heart Color Wheel/1/Color Repeats": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Color Wheel/Heart Color Wheel/1/Saturation Contrast": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Color Wheel/Heart Color Wheel/1/Center Brightness": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Color Wheel/Heart Color Wheel/1/Gain": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/Heart Color Wheel/Heart Color Wheel/1/Saturation Spread": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "figure/Heart HypnoWorm/Heart HypnoWorm/1/color1R": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "figure/Heart HypnoWorm/Heart HypnoWorm/1/color1G": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "figure/Heart HypnoWorm/Heart HypnoWorm/1/color1B": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "figure/Heart HypnoWorm/Heart HypnoWorm/1/color2R": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "figure/Heart HypnoWorm/Heart HypnoWorm/1/color2G": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "figure/Heart HypnoWorm/Heart HypnoWorm/1/color2B": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "figure/Heart HypnoWorm/Heart HypnoWorm/1/gamma": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "figure/Heart HypnoWorm/Heart HypnoWorm/1/amp2": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "figure/Heart HypnoWorm/Heart HypnoWorm/1/freq1": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "figure/Heart HypnoWorm/Heart HypnoWorm/1/freq2": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "figure/Heart HypnoWorm/Heart HypnoWorm/1/phase1": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "figure/Heart HypnoWorm/Heart HypnoWorm/1/phase2": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "figure/Heart HypnoWorm/Heart HypnoWorm/1/rate": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "figure/Heart Torus/Heart Torus/1/animationSpeed": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "figure/Heart Torus/Heart Torus/1/color1R": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "figure/Heart Torus/Heart Torus/1/color1G": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "figure/Heart Torus/Heart Torus/1/color1B": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "figure/Heart Torus/Heart Torus/1/color2R": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "figure/Heart Torus/Heart Torus/1/color2G": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "figure/Heart Torus/Heart Torus/1/color2B": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "figure/Heart Capsule/Heart Capsule/1/Tilt": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "4:5",
+  "mult": 1.0,
+  "offset": 0.25,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "figure/Heart Capsule/Heart Capsule/1/Turn": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:3",
+  "mult": 2.0,
+  "offset": 0.25,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "figure/Heart Capsule/Heart Capsule/1/Outline": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.75,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "figure/Heart Capsule/Heart Capsule/1/Material": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "4:5",
+  "mult": 1.0,
+  "offset": 0.75,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "figure/Heart Capsule/Heart Capsule/1/Float": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "5:6",
+  "mult": -1.0,
+  "offset": 0.5,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "sculpt/Heart Capsule/Heart Capsule/1/Turn": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "sculpt/Heart Capsule/Heart Capsule/1/Outline": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "sculpt/Heart Capsule/Heart Capsule/1/Material": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "sculpt/Heart Capsule/Heart Capsule/1/Float": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "sculpt/Heart Capsule/Heart Capsule/1/Tilt": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "field/FM \u00b7 Checkered [2.1.2]/Checkered/1/Num Y": {
+  "cyclic": false,
+  "drive": false,
+  "ratio": "4:5",
+  "mult": 2.0,
+  "offset": 0.5,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "grain/grain/SP Atom Grain/1/Size": {
+  "cyclic": false,
+  "ratio": "2:5",
+  "mult": 1.0,
+  "offset": 0.25,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "grain/grain/SP Atom Grain/1/Flicker": {
+  "cyclic": false,
+  "ratio": "3:5",
+  "mult": 1.0,
+  "offset": 0.25,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "grain/grain/SP Atom Grain/1/Level": {
+  "cyclic": false,
+  "ratio": "3:2",
+  "mult": 2.0,
+  "offset": 0.5,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "lock": false
+ },
+ "grain/grain/SP Atom Grain/1/Grain": {
+  "cyclic": false,
+  "ratio": "1:4",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 0,
+  "lo": 0.0,
+  "hi": 1.0,
+  "drive": false,
+  "choice": true,
+  "lock": false
+ },
+ "effect/composition/effect/Transform~1/param/Position%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/Transform~1/param/Position%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/Transform~1/param/Scale": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/Transform~1/param/Scale%20W": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/Transform~1/param/Scale%20H": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/Transform~1/param/Rotation%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/Transform~1/param/Rotation%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/Transform~1/param/Rotation%20Z": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/Transform~1/param/Anchor%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/Transform~1/param/Anchor%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/composition/effect/Transform~1/param/Anchor%20Z": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/group/Group%20%23~1/effect/Transform~1/param/Position%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/group/Group%20%23~1/effect/Transform~1/param/Position%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/group/Group%20%23~1/effect/Transform~1/param/Scale": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/group/Group%20%23~1/effect/Transform~1/param/Scale%20W": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/group/Group%20%23~1/effect/Transform~1/param/Scale%20H": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/group/Group%20%23~1/effect/Transform~1/param/Rotation%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/group/Group%20%23~1/effect/Transform~1/param/Rotation%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/group/Group%20%23~1/effect/Transform~1/param/Rotation%20Z": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/group/Group%20%23~1/effect/Transform~1/param/Anchor%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/group/Group%20%23~1/effect/Transform~1/param/Anchor%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/group/Group%20%23~1/effect/Transform~1/param/Anchor%20Z": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/effect/Transform~1/param/Position%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/effect/Transform~1/param/Position%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/effect/Transform~1/param/Scale": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/effect/Transform~1/param/Scale%20W": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/effect/Transform~1/param/Scale%20H": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/effect/Transform~1/param/Rotation%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/effect/Transform~1/param/Rotation%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/effect/Transform~1/param/Rotation%20Z": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/effect/Transform~1/param/Anchor%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/effect/Transform~1/param/Anchor%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/effect/Transform~1/param/Anchor%20Z": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/clip/FM%20%C2%B7%20Anim%20Rotate%20Left%20Z%20%5B1.4.3%5D~1/effect/Transform~1/param/Position%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/clip/FM%20%C2%B7%20Anim%20Rotate%20Left%20Z%20%5B1.4.3%5D~1/effect/Transform~1/param/Position%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/clip/FM%20%C2%B7%20Anim%20Rotate%20Left%20Z%20%5B1.4.3%5D~1/effect/Transform~1/param/Scale": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/clip/FM%20%C2%B7%20Anim%20Rotate%20Left%20Z%20%5B1.4.3%5D~1/effect/Transform~1/param/Scale%20W": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/clip/FM%20%C2%B7%20Anim%20Rotate%20Left%20Z%20%5B1.4.3%5D~1/effect/Transform~1/param/Scale%20H": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/clip/FM%20%C2%B7%20Anim%20Rotate%20Left%20Z%20%5B1.4.3%5D~1/effect/Transform~1/param/Rotation%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/clip/FM%20%C2%B7%20Anim%20Rotate%20Left%20Z%20%5B1.4.3%5D~1/effect/Transform~1/param/Rotation%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/clip/FM%20%C2%B7%20Anim%20Rotate%20Left%20Z%20%5B1.4.3%5D~1/effect/Transform~1/param/Rotation%20Z": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/clip/FM%20%C2%B7%20Anim%20Rotate%20Left%20Z%20%5B1.4.3%5D~1/effect/Transform~1/param/Anchor%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/clip/FM%20%C2%B7%20Anim%20Rotate%20Left%20Z%20%5B1.4.3%5D~1/effect/Transform~1/param/Anchor%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/feedback~1/clip/FM%20%C2%B7%20Anim%20Rotate%20Left%20Z%20%5B1.4.3%5D~1/effect/Transform~1/param/Anchor%20Z": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/sculpt~1/effect/Transform~1/param/Position%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/sculpt~1/effect/Transform~1/param/Position%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/sculpt~1/effect/Transform~1/param/Scale": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/sculpt~1/effect/Transform~1/param/Scale%20W": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/sculpt~1/effect/Transform~1/param/Scale%20H": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/sculpt~1/effect/Transform~1/param/Rotation%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/sculpt~1/effect/Transform~1/param/Rotation%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/sculpt~1/effect/Transform~1/param/Rotation%20Z": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/sculpt~1/effect/Transform~1/param/Anchor%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/sculpt~1/effect/Transform~1/param/Anchor%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/sculpt~1/effect/Transform~1/param/Anchor%20Z": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/sculpt~1/clip/level~1/effect/Transform~1/param/Position%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/sculpt~1/clip/level~1/effect/Transform~1/param/Position%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/sculpt~1/clip/level~1/effect/Transform~1/param/Scale": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/sculpt~1/clip/level~1/effect/Transform~1/param/Scale%20W": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/sculpt~1/clip/level~1/effect/Transform~1/param/Scale%20H": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/sculpt~1/clip/level~1/effect/Transform~1/param/Rotation%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/sculpt~1/clip/level~1/effect/Transform~1/param/Rotation%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/sculpt~1/clip/level~1/effect/Transform~1/param/Rotation%20Z": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/sculpt~1/clip/level~1/effect/Transform~1/param/Anchor%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/sculpt~1/clip/level~1/effect/Transform~1/param/Anchor%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/sculpt~1/clip/level~1/effect/Transform~1/param/Anchor%20Z": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/field~1/effect/Transform~1/param/Position%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/field~1/effect/Transform~1/param/Position%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/field~1/effect/Transform~1/param/Scale": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/field~1/effect/Transform~1/param/Scale%20W": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/field~1/effect/Transform~1/param/Scale%20H": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/field~1/effect/Transform~1/param/Rotation%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/field~1/effect/Transform~1/param/Rotation%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/field~1/effect/Transform~1/param/Rotation%20Z": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/field~1/effect/Transform~1/param/Anchor%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/field~1/effect/Transform~1/param/Anchor%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/field~1/effect/Transform~1/param/Anchor%20Z": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/field~1/clip/FM%20%C2%B7%20Checkered%20%5B2.1.2%5D~1/effect/Transform~1/param/Position%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/field~1/clip/FM%20%C2%B7%20Checkered%20%5B2.1.2%5D~1/effect/Transform~1/param/Position%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/field~1/clip/FM%20%C2%B7%20Checkered%20%5B2.1.2%5D~1/effect/Transform~1/param/Scale": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/field~1/clip/FM%20%C2%B7%20Checkered%20%5B2.1.2%5D~1/effect/Transform~1/param/Scale%20W": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/field~1/clip/FM%20%C2%B7%20Checkered%20%5B2.1.2%5D~1/effect/Transform~1/param/Scale%20H": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/field~1/clip/FM%20%C2%B7%20Checkered%20%5B2.1.2%5D~1/effect/Transform~1/param/Rotation%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/field~1/clip/FM%20%C2%B7%20Checkered%20%5B2.1.2%5D~1/effect/Transform~1/param/Rotation%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/field~1/clip/FM%20%C2%B7%20Checkered%20%5B2.1.2%5D~1/effect/Transform~1/param/Rotation%20Z": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/field~1/clip/FM%20%C2%B7%20Checkered%20%5B2.1.2%5D~1/effect/Transform~1/param/Anchor%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/field~1/clip/FM%20%C2%B7%20Checkered%20%5B2.1.2%5D~1/effect/Transform~1/param/Anchor%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/field~1/clip/FM%20%C2%B7%20Checkered%20%5B2.1.2%5D~1/effect/Transform~1/param/Anchor%20Z": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/delay~1/effect/Transform~1/param/Position%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/delay~1/effect/Transform~1/param/Position%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/delay~1/effect/Transform~1/param/Scale": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/delay~1/effect/Transform~1/param/Scale%20W": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/delay~1/effect/Transform~1/param/Scale%20H": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/delay~1/effect/Transform~1/param/Rotation%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/delay~1/effect/Transform~1/param/Rotation%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/delay~1/effect/Transform~1/param/Rotation%20Z": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/delay~1/effect/Transform~1/param/Anchor%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/delay~1/effect/Transform~1/param/Anchor%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/delay~1/effect/Transform~1/param/Anchor%20Z": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/delay~1/clip/figure~1/effect/Transform~1/param/Position%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/delay~1/clip/figure~1/effect/Transform~1/param/Position%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/delay~1/clip/figure~1/effect/Transform~1/param/Scale": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/delay~1/clip/figure~1/effect/Transform~1/param/Scale%20W": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/delay~1/clip/figure~1/effect/Transform~1/param/Scale%20H": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/delay~1/clip/figure~1/effect/Transform~1/param/Rotation%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/delay~1/clip/figure~1/effect/Transform~1/param/Rotation%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/delay~1/clip/figure~1/effect/Transform~1/param/Rotation%20Z": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/delay~1/clip/figure~1/effect/Transform~1/param/Anchor%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/delay~1/clip/figure~1/effect/Transform~1/param/Anchor%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/delay~1/clip/figure~1/effect/Transform~1/param/Anchor%20Z": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Transform~2/param/Position%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Transform~2/param/Position%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Transform~2/param/Scale": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Transform~2/param/Scale%20W": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Transform~2/param/Scale%20H": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Transform~2/param/Rotation%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Transform~2/param/Rotation%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Transform~2/param/Rotation%20Z": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Transform~2/param/Anchor%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Transform~2/param/Anchor%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/effect/Transform~2/param/Anchor%20Z": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/clip/Heart%20Capsule~1/effect/Transform~1/param/Position%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/clip/Heart%20Capsule~1/effect/Transform~1/param/Position%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/clip/Heart%20Capsule~1/effect/Transform~1/param/Scale": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/clip/Heart%20Capsule~1/effect/Transform~1/param/Scale%20W": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/clip/Heart%20Capsule~1/effect/Transform~1/param/Scale%20H": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/clip/Heart%20Capsule~1/effect/Transform~1/param/Rotation%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/clip/Heart%20Capsule~1/effect/Transform~1/param/Rotation%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/clip/Heart%20Capsule~1/effect/Transform~1/param/Rotation%20Z": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/clip/Heart%20Capsule~1/effect/Transform~1/param/Anchor%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/clip/Heart%20Capsule~1/effect/Transform~1/param/Anchor%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/figure~1/clip/Heart%20Capsule~1/effect/Transform~1/param/Anchor%20Z": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/glyph~1/effect/Transform~1/param/Position%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/glyph~1/effect/Transform~1/param/Position%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/glyph~1/effect/Transform~1/param/Scale": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/glyph~1/effect/Transform~1/param/Scale%20W": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/glyph~1/effect/Transform~1/param/Scale%20H": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/glyph~1/effect/Transform~1/param/Rotation%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/glyph~1/effect/Transform~1/param/Rotation%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/glyph~1/effect/Transform~1/param/Rotation%20Z": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/glyph~1/effect/Transform~1/param/Anchor%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/glyph~1/effect/Transform~1/param/Anchor%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/glyph~1/effect/Transform~1/param/Anchor%20Z": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/texture~1/effect/Transform~1/param/Position%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/texture~1/effect/Transform~1/param/Position%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/texture~1/effect/Transform~1/param/Scale": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/texture~1/effect/Transform~1/param/Scale%20W": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/texture~1/effect/Transform~1/param/Scale%20H": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/texture~1/effect/Transform~1/param/Rotation%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/texture~1/effect/Transform~1/param/Rotation%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/texture~1/effect/Transform~1/param/Rotation%20Z": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/texture~1/effect/Transform~1/param/Anchor%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/texture~1/effect/Transform~1/param/Anchor%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/texture~1/effect/Transform~1/param/Anchor%20Z": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/grain~1/effect/Transform~1/param/Position%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/grain~1/effect/Transform~1/param/Position%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/grain~1/effect/Transform~1/param/Scale": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/grain~1/effect/Transform~1/param/Scale%20W": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/grain~1/effect/Transform~1/param/Scale%20H": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/grain~1/effect/Transform~1/param/Rotation%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/grain~1/effect/Transform~1/param/Rotation%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/grain~1/effect/Transform~1/param/Rotation%20Z": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/grain~1/effect/Transform~1/param/Anchor%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/grain~1/effect/Transform~1/param/Anchor%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/grain~1/effect/Transform~1/param/Anchor%20Z": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/grain~1/clip/grain~1/effect/Transform~1/param/Position%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/grain~1/clip/grain~1/effect/Transform~1/param/Position%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/grain~1/clip/grain~1/effect/Transform~1/param/Scale": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/grain~1/clip/grain~1/effect/Transform~1/param/Scale%20W": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/grain~1/clip/grain~1/effect/Transform~1/param/Scale%20H": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/grain~1/clip/grain~1/effect/Transform~1/param/Rotation%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/grain~1/clip/grain~1/effect/Transform~1/param/Rotation%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/grain~1/clip/grain~1/effect/Transform~1/param/Rotation%20Z": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/grain~1/clip/grain~1/effect/Transform~1/param/Anchor%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/grain~1/clip/grain~1/effect/Transform~1/param/Anchor%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/grain~1/clip/grain~1/effect/Transform~1/param/Anchor%20Z": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/texture~1/clip/FM%20%C2%B7%20MTK_Retrovision%20%5B1.8.1%5D~1/effect/Transform~1/param/Position%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/texture~1/clip/FM%20%C2%B7%20MTK_Retrovision%20%5B1.8.1%5D~1/effect/Transform~1/param/Position%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/texture~1/clip/FM%20%C2%B7%20MTK_Retrovision%20%5B1.8.1%5D~1/effect/Transform~1/param/Scale": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/texture~1/clip/FM%20%C2%B7%20MTK_Retrovision%20%5B1.8.1%5D~1/effect/Transform~1/param/Scale%20W": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/texture~1/clip/FM%20%C2%B7%20MTK_Retrovision%20%5B1.8.1%5D~1/effect/Transform~1/param/Scale%20H": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/texture~1/clip/FM%20%C2%B7%20MTK_Retrovision%20%5B1.8.1%5D~1/effect/Transform~1/param/Rotation%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/texture~1/clip/FM%20%C2%B7%20MTK_Retrovision%20%5B1.8.1%5D~1/effect/Transform~1/param/Rotation%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/texture~1/clip/FM%20%C2%B7%20MTK_Retrovision%20%5B1.8.1%5D~1/effect/Transform~1/param/Rotation%20Z": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/texture~1/clip/FM%20%C2%B7%20MTK_Retrovision%20%5B1.8.1%5D~1/effect/Transform~1/param/Anchor%20X": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/texture~1/clip/FM%20%C2%B7%20MTK_Retrovision%20%5B1.8.1%5D~1/effect/Transform~1/param/Anchor%20Y": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ },
+ "effect/layer/texture~1/clip/FM%20%C2%B7%20MTK_Retrovision%20%5B1.8.1%5D~1/effect/Transform~1/param/Anchor%20Z": {
+  "ratio": "1:1",
+  "mult": 1.0,
+  "offset": 0.0,
+  "shape": 1,
+  "lo": 0.0,
+  "hi": 1.0,
+  "lock": false
+ }
+}

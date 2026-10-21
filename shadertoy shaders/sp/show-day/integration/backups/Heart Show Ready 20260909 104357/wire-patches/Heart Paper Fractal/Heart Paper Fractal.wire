@@ -1,0 +1,1512 @@
+{
+  "formatVersion": {
+    "major": 1,
+    "minor": 1,
+    "patch": 0
+  },
+  "patch": {
+    "connections": [
+      {
+        "from": [
+          2,
+          "seconds"
+        ],
+        "to": [
+          0,
+          "time"
+        ]
+      },
+      {
+        "from": [
+          0,
+          "output"
+        ],
+        "to": [
+          1,
+          "input"
+        ]
+      },
+      {
+        "from": [
+          10,
+          "output"
+        ],
+        "to": [
+          0,
+          "rotAsymX"
+        ]
+      },
+      {
+        "from": [
+          11,
+          "output"
+        ],
+        "to": [
+          0,
+          "rotAsymY"
+        ]
+      },
+      {
+        "from": [
+          12,
+          "output"
+        ],
+        "to": [
+          0,
+          "spinRate"
+        ]
+      },
+      {
+        "from": [
+          13,
+          "output"
+        ],
+        "to": [
+          0,
+          "foldRate"
+        ]
+      },
+      {
+        "from": [
+          14,
+          "output"
+        ],
+        "to": [
+          0,
+          "spinOffset"
+        ]
+      },
+      {
+        "from": [
+          15,
+          "output"
+        ],
+        "to": [
+          0,
+          "foldOffset"
+        ]
+      },
+      {
+        "from": [
+          16,
+          "output"
+        ],
+        "to": [
+          0,
+          "sizeOffset"
+        ]
+      },
+      {
+        "from": [
+          17,
+          "output"
+        ],
+        "to": [
+          0,
+          "foldDistA"
+        ]
+      },
+      {
+        "from": [
+          18,
+          "output"
+        ],
+        "to": [
+          0,
+          "foldDistB"
+        ]
+      },
+      {
+        "from": [
+          19,
+          "output"
+        ],
+        "to": [
+          0,
+          "camX"
+        ]
+      },
+      {
+        "from": [
+          20,
+          "output"
+        ],
+        "to": [
+          0,
+          "camY"
+        ]
+      },
+      {
+        "from": [
+          21,
+          "output"
+        ],
+        "to": [
+          0,
+          "camZ"
+        ]
+      },
+      {
+        "from": [
+          22,
+          "output"
+        ],
+        "to": [
+          0,
+          "glowAmount"
+        ]
+      }
+    ],
+    "inputOrder": {
+      "groups": {},
+      "roots": [
+        {
+          "node": 10
+        },
+        {
+          "node": 11
+        },
+        {
+          "node": 12
+        },
+        {
+          "node": 13
+        },
+        {
+          "node": 14
+        },
+        {
+          "node": 15
+        },
+        {
+          "node": 16
+        },
+        {
+          "node": 17
+        },
+        {
+          "node": 18
+        },
+        {
+          "node": 19
+        },
+        {
+          "node": 20
+        },
+        {
+          "node": 21
+        },
+        {
+          "node": 22
+        }
+      ]
+    },
+    "meta": {
+      "author": "",
+      "category": "source",
+      "deploymentTarget": {
+        "branch": "",
+        "name": "Wire",
+        "version": {
+          "major": 7,
+          "minor": 23,
+          "patch": 0
+        }
+      },
+      "description": "Heart control-ready Field copy; original shader body preserved. Plane folding fractal with raymarched SDF, glow, and genuine alpha transparency.",
+      "displayName": "Heart Paper Fractal",
+      "identifier": "6106e6a1-7e7a-4934-8fdb-202ecb1a38c5",
+      "licenseName": "",
+      "mail": "",
+      "note": {
+        "text": "",
+        "textColorIndex": 1,
+        "textSizeMultiplier": 3
+      },
+      "originalTarget": {
+        "branch": "",
+        "name": "Wire",
+        "version": {
+          "major": 7,
+          "minor": 26,
+          "patch": 0
+        }
+      },
+      "quality": 34842,
+      "resolution": {
+        "height": 1080,
+        "width": 1920
+      },
+      "saveTarget": {
+        "branch": "",
+        "name": "Wire",
+        "version": {
+          "major": 7,
+          "minor": 26,
+          "patch": 1
+        }
+      },
+      "thumbnail": "",
+      "url": "",
+      "vendor": ""
+    },
+    "nextNodeId": 23,
+    "nodes": {
+      "0": {
+        "attributes": {
+          "bitdepth": {
+            "type": "integer",
+            "value": 0
+          },
+          "fragment-shader": {
+            "type": "resourceIsf",
+            "value": {
+              "path": {
+                "main": "Resource/Heart Paper Fractal.fs",
+                "sub": ""
+              },
+              "value": {
+                "inputs": [
+                  {
+                    "defaultValue": 0.5,
+                    "label": "rotAsymX",
+                    "max": 1.0,
+                    "min": 0.0,
+                    "name": "rotAsymX",
+                    "type": "float"
+                  },
+                  {
+                    "defaultValue": 0.5,
+                    "label": "rotAsymY",
+                    "max": 1.0,
+                    "min": 0.0,
+                    "name": "rotAsymY",
+                    "type": "float"
+                  },
+                  {
+                    "defaultValue": 0.0,
+                    "label": "spinRate",
+                    "max": 1.0,
+                    "min": 0.0,
+                    "name": "spinRate",
+                    "type": "float"
+                  },
+                  {
+                    "defaultValue": 0.0,
+                    "label": "foldRate",
+                    "max": 1.0,
+                    "min": 0.0,
+                    "name": "foldRate",
+                    "type": "float"
+                  },
+                  {
+                    "defaultValue": 0.5,
+                    "label": "spinOffset",
+                    "max": 1.0,
+                    "min": 0.0,
+                    "name": "spinOffset",
+                    "type": "float"
+                  },
+                  {
+                    "defaultValue": 0.03,
+                    "label": "foldOffset",
+                    "max": 1.0,
+                    "min": 0.0,
+                    "name": "foldOffset",
+                    "type": "float"
+                  },
+                  {
+                    "defaultValue": 0.5,
+                    "label": "sizeOffset",
+                    "max": 1.0,
+                    "min": 0.0,
+                    "name": "sizeOffset",
+                    "type": "float"
+                  },
+                  {
+                    "defaultValue": 0.3,
+                    "label": "foldDistA",
+                    "max": 1.0,
+                    "min": 0.0,
+                    "name": "foldDistA",
+                    "type": "float"
+                  },
+                  {
+                    "defaultValue": 0.1,
+                    "label": "foldDistB",
+                    "max": 1.0,
+                    "min": 0.0,
+                    "name": "foldDistB",
+                    "type": "float"
+                  },
+                  {
+                    "defaultValue": 0.5,
+                    "label": "camX",
+                    "max": 1.0,
+                    "min": 0.0,
+                    "name": "camX",
+                    "type": "float"
+                  },
+                  {
+                    "defaultValue": 0.5,
+                    "label": "camY",
+                    "max": 1.0,
+                    "min": 0.0,
+                    "name": "camY",
+                    "type": "float"
+                  },
+                  {
+                    "defaultValue": 0.0,
+                    "label": "camZ",
+                    "max": 1.0,
+                    "min": 0.0,
+                    "name": "camZ",
+                    "type": "float"
+                  },
+                  {
+                    "defaultValue": 0.5,
+                    "label": "glowAmount",
+                    "max": 1.0,
+                    "min": 0.0,
+                    "name": "glowAmount",
+                    "type": "float"
+                  }
+                ]
+              }
+            }
+          },
+          "instances": {
+            "type": "integer",
+            "value": 1
+          },
+          "resolution-absolute": {
+            "type": "float2",
+            "value": [
+              1920,
+              1080
+            ]
+          },
+          "resolution-mode": {
+            "type": "integer",
+            "value": 0
+          },
+          "resolution-relative": {
+            "type": "float2",
+            "value": [
+              1,
+              1
+            ]
+          }
+        },
+        "bounds": {
+          "height": 82,
+          "width": 195,
+          "x": -145,
+          "y": -129
+        },
+        "class": {
+          "id": "77697265-4576-4C11-899B-6F11F3275D36",
+          "version": 4
+        },
+        "clock": "video",
+        "color": "ffff6a00",
+        "constants": {
+          "bypass": {
+            "type": "bool",
+            "value": false
+          },
+          "time": {
+            "type": "float",
+            "value": 0
+          },
+          "rotAsymX": {
+            "type": "float",
+            "value": 0.5
+          },
+          "rotAsymY": {
+            "type": "float",
+            "value": 0.5
+          },
+          "spinRate": {
+            "type": "float",
+            "value": 0.0
+          },
+          "foldRate": {
+            "type": "float",
+            "value": 0.0
+          },
+          "spinOffset": {
+            "type": "float",
+            "value": 0.5
+          },
+          "foldOffset": {
+            "type": "float",
+            "value": 0.03
+          },
+          "sizeOffset": {
+            "type": "float",
+            "value": 0.5
+          },
+          "foldDistA": {
+            "type": "float",
+            "value": 0.3
+          },
+          "foldDistB": {
+            "type": "float",
+            "value": 0.1
+          },
+          "camX": {
+            "type": "float",
+            "value": 0.5
+          },
+          "camY": {
+            "type": "float",
+            "value": 0.5
+          },
+          "camZ": {
+            "type": "float",
+            "value": 0.0
+          },
+          "glowAmount": {
+            "type": "float",
+            "value": 0.5
+          }
+        },
+        "hidden": [
+          "bitdepth",
+          "bypass",
+          "instances",
+          "resolution-absolute",
+          "resolution-mode",
+          "resolution-relative"
+        ],
+        "name": "ISF",
+        "thumbnail_visible": true
+      },
+      "1": {
+        "attributes": {
+          "instances": {
+            "type": "integer",
+            "value": 1
+          }
+        },
+        "bounds": {
+          "height": 82,
+          "width": 132,
+          "x": 110,
+          "y": -129
+        },
+        "class": {
+          "id": "77697265-BEEA-4D38-8EE5-0EBA4CBD0AEE",
+          "version": 1
+        },
+        "clock": "video",
+        "color": "ffff6a00",
+        "constants": {
+          "input": {
+            "type": "texture2d",
+            "value": null
+          }
+        },
+        "hidden": [
+          "instances"
+        ],
+        "name": "Texture Out",
+        "thumbnail_visible": true
+      },
+      "2": {
+        "attributes": {},
+        "bounds": {
+          "height": 106,
+          "width": 195,
+          "x": -400,
+          "y": -129
+        },
+        "class": {
+          "id": "77697265-896F-4C6D-AF54-35624F8E23D8",
+          "version": 0
+        },
+        "clock": "video",
+        "color": "ffff6a00",
+        "constants": {},
+        "hidden": [],
+        "name": "Transport Time",
+        "thumbnail_visible": true
+      },
+      "10": {
+        "attributes": {
+          "flow": {
+            "type": "flow",
+            "value": "signal"
+          },
+          "has-max": {
+            "type": "bool",
+            "value": true
+          },
+          "has-min": {
+            "type": "bool",
+            "value": true
+          },
+          "instances": {
+            "type": "integer",
+            "value": 1
+          },
+          "max": {
+            "type": "float",
+            "value": 1.0
+          },
+          "min": {
+            "type": "float",
+            "value": 0.0
+          },
+          "options-count": {
+            "type": "integer",
+            "value": 0
+          },
+          "unit": {
+            "type": "integer",
+            "value": 0
+          },
+          "widget": {
+            "type": "integer",
+            "value": 0
+          }
+        },
+        "bounds": {
+          "height": 82,
+          "width": 150,
+          "x": -420,
+          "y": -300
+        },
+        "class": {
+          "id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+          "version": 4
+        },
+        "clock": "video",
+        "color": "ffff6a00",
+        "constants": {
+          "input": {
+            "type": "float",
+            "value": 0.5
+          }
+        },
+        "hidden": [
+          "flow",
+          "has-max",
+          "has-min",
+          "input",
+          "instances",
+          "max",
+          "min",
+          "options-count",
+          "unit",
+          "widget"
+        ],
+        "name": "rotAsymX",
+        "thumbnail_visible": true
+      },
+      "11": {
+        "attributes": {
+          "flow": {
+            "type": "flow",
+            "value": "signal"
+          },
+          "has-max": {
+            "type": "bool",
+            "value": true
+          },
+          "has-min": {
+            "type": "bool",
+            "value": true
+          },
+          "instances": {
+            "type": "integer",
+            "value": 1
+          },
+          "max": {
+            "type": "float",
+            "value": 1.0
+          },
+          "min": {
+            "type": "float",
+            "value": 0.0
+          },
+          "options-count": {
+            "type": "integer",
+            "value": 0
+          },
+          "unit": {
+            "type": "integer",
+            "value": 0
+          },
+          "widget": {
+            "type": "integer",
+            "value": 0
+          }
+        },
+        "bounds": {
+          "height": 82,
+          "width": 150,
+          "x": -420,
+          "y": -205
+        },
+        "class": {
+          "id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+          "version": 4
+        },
+        "clock": "video",
+        "color": "ffff6a00",
+        "constants": {
+          "input": {
+            "type": "float",
+            "value": 0.5
+          }
+        },
+        "hidden": [
+          "flow",
+          "has-max",
+          "has-min",
+          "input",
+          "instances",
+          "max",
+          "min",
+          "options-count",
+          "unit",
+          "widget"
+        ],
+        "name": "rotAsymY",
+        "thumbnail_visible": true
+      },
+      "12": {
+        "attributes": {
+          "flow": {
+            "type": "flow",
+            "value": "signal"
+          },
+          "has-max": {
+            "type": "bool",
+            "value": true
+          },
+          "has-min": {
+            "type": "bool",
+            "value": true
+          },
+          "instances": {
+            "type": "integer",
+            "value": 1
+          },
+          "max": {
+            "type": "float",
+            "value": 1.0
+          },
+          "min": {
+            "type": "float",
+            "value": 0.0
+          },
+          "options-count": {
+            "type": "integer",
+            "value": 0
+          },
+          "unit": {
+            "type": "integer",
+            "value": 0
+          },
+          "widget": {
+            "type": "integer",
+            "value": 0
+          }
+        },
+        "bounds": {
+          "height": 82,
+          "width": 150,
+          "x": -420,
+          "y": -110
+        },
+        "class": {
+          "id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+          "version": 4
+        },
+        "clock": "video",
+        "color": "ffff6a00",
+        "constants": {
+          "input": {
+            "type": "float",
+            "value": 0.0
+          }
+        },
+        "hidden": [
+          "flow",
+          "has-max",
+          "has-min",
+          "input",
+          "instances",
+          "max",
+          "min",
+          "options-count",
+          "unit",
+          "widget"
+        ],
+        "name": "spinRate",
+        "thumbnail_visible": true
+      },
+      "13": {
+        "attributes": {
+          "flow": {
+            "type": "flow",
+            "value": "signal"
+          },
+          "has-max": {
+            "type": "bool",
+            "value": true
+          },
+          "has-min": {
+            "type": "bool",
+            "value": true
+          },
+          "instances": {
+            "type": "integer",
+            "value": 1
+          },
+          "max": {
+            "type": "float",
+            "value": 1.0
+          },
+          "min": {
+            "type": "float",
+            "value": 0.0
+          },
+          "options-count": {
+            "type": "integer",
+            "value": 0
+          },
+          "unit": {
+            "type": "integer",
+            "value": 0
+          },
+          "widget": {
+            "type": "integer",
+            "value": 0
+          }
+        },
+        "bounds": {
+          "height": 82,
+          "width": 150,
+          "x": -420,
+          "y": -15
+        },
+        "class": {
+          "id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+          "version": 4
+        },
+        "clock": "video",
+        "color": "ffff6a00",
+        "constants": {
+          "input": {
+            "type": "float",
+            "value": 0.0
+          }
+        },
+        "hidden": [
+          "flow",
+          "has-max",
+          "has-min",
+          "input",
+          "instances",
+          "max",
+          "min",
+          "options-count",
+          "unit",
+          "widget"
+        ],
+        "name": "foldRate",
+        "thumbnail_visible": true
+      },
+      "14": {
+        "attributes": {
+          "flow": {
+            "type": "flow",
+            "value": "signal"
+          },
+          "has-max": {
+            "type": "bool",
+            "value": true
+          },
+          "has-min": {
+            "type": "bool",
+            "value": true
+          },
+          "instances": {
+            "type": "integer",
+            "value": 1
+          },
+          "max": {
+            "type": "float",
+            "value": 1.0
+          },
+          "min": {
+            "type": "float",
+            "value": 0.0
+          },
+          "options-count": {
+            "type": "integer",
+            "value": 0
+          },
+          "unit": {
+            "type": "integer",
+            "value": 0
+          },
+          "widget": {
+            "type": "integer",
+            "value": 0
+          }
+        },
+        "bounds": {
+          "height": 82,
+          "width": 150,
+          "x": -420,
+          "y": 80
+        },
+        "class": {
+          "id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+          "version": 4
+        },
+        "clock": "video",
+        "color": "ffff6a00",
+        "constants": {
+          "input": {
+            "type": "float",
+            "value": 0.5
+          }
+        },
+        "hidden": [
+          "flow",
+          "has-max",
+          "has-min",
+          "input",
+          "instances",
+          "max",
+          "min",
+          "options-count",
+          "unit",
+          "widget"
+        ],
+        "name": "spinOffset",
+        "thumbnail_visible": true
+      },
+      "15": {
+        "attributes": {
+          "flow": {
+            "type": "flow",
+            "value": "signal"
+          },
+          "has-max": {
+            "type": "bool",
+            "value": true
+          },
+          "has-min": {
+            "type": "bool",
+            "value": true
+          },
+          "instances": {
+            "type": "integer",
+            "value": 1
+          },
+          "max": {
+            "type": "float",
+            "value": 1.0
+          },
+          "min": {
+            "type": "float",
+            "value": 0.0
+          },
+          "options-count": {
+            "type": "integer",
+            "value": 0
+          },
+          "unit": {
+            "type": "integer",
+            "value": 0
+          },
+          "widget": {
+            "type": "integer",
+            "value": 0
+          }
+        },
+        "bounds": {
+          "height": 82,
+          "width": 150,
+          "x": -420,
+          "y": 175
+        },
+        "class": {
+          "id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+          "version": 4
+        },
+        "clock": "video",
+        "color": "ffff6a00",
+        "constants": {
+          "input": {
+            "type": "float",
+            "value": 0.03
+          }
+        },
+        "hidden": [
+          "flow",
+          "has-max",
+          "has-min",
+          "input",
+          "instances",
+          "max",
+          "min",
+          "options-count",
+          "unit",
+          "widget"
+        ],
+        "name": "foldOffset",
+        "thumbnail_visible": true
+      },
+      "16": {
+        "attributes": {
+          "flow": {
+            "type": "flow",
+            "value": "signal"
+          },
+          "has-max": {
+            "type": "bool",
+            "value": true
+          },
+          "has-min": {
+            "type": "bool",
+            "value": true
+          },
+          "instances": {
+            "type": "integer",
+            "value": 1
+          },
+          "max": {
+            "type": "float",
+            "value": 1.0
+          },
+          "min": {
+            "type": "float",
+            "value": 0.0
+          },
+          "options-count": {
+            "type": "integer",
+            "value": 0
+          },
+          "unit": {
+            "type": "integer",
+            "value": 0
+          },
+          "widget": {
+            "type": "integer",
+            "value": 0
+          }
+        },
+        "bounds": {
+          "height": 82,
+          "width": 150,
+          "x": -420,
+          "y": 270
+        },
+        "class": {
+          "id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+          "version": 4
+        },
+        "clock": "video",
+        "color": "ffff6a00",
+        "constants": {
+          "input": {
+            "type": "float",
+            "value": 0.5
+          }
+        },
+        "hidden": [
+          "flow",
+          "has-max",
+          "has-min",
+          "input",
+          "instances",
+          "max",
+          "min",
+          "options-count",
+          "unit",
+          "widget"
+        ],
+        "name": "sizeOffset",
+        "thumbnail_visible": true
+      },
+      "17": {
+        "attributes": {
+          "flow": {
+            "type": "flow",
+            "value": "signal"
+          },
+          "has-max": {
+            "type": "bool",
+            "value": true
+          },
+          "has-min": {
+            "type": "bool",
+            "value": true
+          },
+          "instances": {
+            "type": "integer",
+            "value": 1
+          },
+          "max": {
+            "type": "float",
+            "value": 1.0
+          },
+          "min": {
+            "type": "float",
+            "value": 0.0
+          },
+          "options-count": {
+            "type": "integer",
+            "value": 0
+          },
+          "unit": {
+            "type": "integer",
+            "value": 0
+          },
+          "widget": {
+            "type": "integer",
+            "value": 0
+          }
+        },
+        "bounds": {
+          "height": 82,
+          "width": 150,
+          "x": -420,
+          "y": 365
+        },
+        "class": {
+          "id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+          "version": 4
+        },
+        "clock": "video",
+        "color": "ffff6a00",
+        "constants": {
+          "input": {
+            "type": "float",
+            "value": 0.3
+          }
+        },
+        "hidden": [
+          "flow",
+          "has-max",
+          "has-min",
+          "input",
+          "instances",
+          "max",
+          "min",
+          "options-count",
+          "unit",
+          "widget"
+        ],
+        "name": "foldDistA",
+        "thumbnail_visible": true
+      },
+      "18": {
+        "attributes": {
+          "flow": {
+            "type": "flow",
+            "value": "signal"
+          },
+          "has-max": {
+            "type": "bool",
+            "value": true
+          },
+          "has-min": {
+            "type": "bool",
+            "value": true
+          },
+          "instances": {
+            "type": "integer",
+            "value": 1
+          },
+          "max": {
+            "type": "float",
+            "value": 1.0
+          },
+          "min": {
+            "type": "float",
+            "value": 0.0
+          },
+          "options-count": {
+            "type": "integer",
+            "value": 0
+          },
+          "unit": {
+            "type": "integer",
+            "value": 0
+          },
+          "widget": {
+            "type": "integer",
+            "value": 0
+          }
+        },
+        "bounds": {
+          "height": 82,
+          "width": 150,
+          "x": -420,
+          "y": 460
+        },
+        "class": {
+          "id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+          "version": 4
+        },
+        "clock": "video",
+        "color": "ffff6a00",
+        "constants": {
+          "input": {
+            "type": "float",
+            "value": 0.1
+          }
+        },
+        "hidden": [
+          "flow",
+          "has-max",
+          "has-min",
+          "input",
+          "instances",
+          "max",
+          "min",
+          "options-count",
+          "unit",
+          "widget"
+        ],
+        "name": "foldDistB",
+        "thumbnail_visible": true
+      },
+      "19": {
+        "attributes": {
+          "flow": {
+            "type": "flow",
+            "value": "signal"
+          },
+          "has-max": {
+            "type": "bool",
+            "value": true
+          },
+          "has-min": {
+            "type": "bool",
+            "value": true
+          },
+          "instances": {
+            "type": "integer",
+            "value": 1
+          },
+          "max": {
+            "type": "float",
+            "value": 1.0
+          },
+          "min": {
+            "type": "float",
+            "value": 0.0
+          },
+          "options-count": {
+            "type": "integer",
+            "value": 0
+          },
+          "unit": {
+            "type": "integer",
+            "value": 0
+          },
+          "widget": {
+            "type": "integer",
+            "value": 0
+          }
+        },
+        "bounds": {
+          "height": 82,
+          "width": 150,
+          "x": -420,
+          "y": 555
+        },
+        "class": {
+          "id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+          "version": 4
+        },
+        "clock": "video",
+        "color": "ffff6a00",
+        "constants": {
+          "input": {
+            "type": "float",
+            "value": 0.5
+          }
+        },
+        "hidden": [
+          "flow",
+          "has-max",
+          "has-min",
+          "input",
+          "instances",
+          "max",
+          "min",
+          "options-count",
+          "unit",
+          "widget"
+        ],
+        "name": "camX",
+        "thumbnail_visible": true
+      },
+      "20": {
+        "attributes": {
+          "flow": {
+            "type": "flow",
+            "value": "signal"
+          },
+          "has-max": {
+            "type": "bool",
+            "value": true
+          },
+          "has-min": {
+            "type": "bool",
+            "value": true
+          },
+          "instances": {
+            "type": "integer",
+            "value": 1
+          },
+          "max": {
+            "type": "float",
+            "value": 1.0
+          },
+          "min": {
+            "type": "float",
+            "value": 0.0
+          },
+          "options-count": {
+            "type": "integer",
+            "value": 0
+          },
+          "unit": {
+            "type": "integer",
+            "value": 0
+          },
+          "widget": {
+            "type": "integer",
+            "value": 0
+          }
+        },
+        "bounds": {
+          "height": 82,
+          "width": 150,
+          "x": -420,
+          "y": 650
+        },
+        "class": {
+          "id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+          "version": 4
+        },
+        "clock": "video",
+        "color": "ffff6a00",
+        "constants": {
+          "input": {
+            "type": "float",
+            "value": 0.5
+          }
+        },
+        "hidden": [
+          "flow",
+          "has-max",
+          "has-min",
+          "input",
+          "instances",
+          "max",
+          "min",
+          "options-count",
+          "unit",
+          "widget"
+        ],
+        "name": "camY",
+        "thumbnail_visible": true
+      },
+      "21": {
+        "attributes": {
+          "flow": {
+            "type": "flow",
+            "value": "signal"
+          },
+          "has-max": {
+            "type": "bool",
+            "value": true
+          },
+          "has-min": {
+            "type": "bool",
+            "value": true
+          },
+          "instances": {
+            "type": "integer",
+            "value": 1
+          },
+          "max": {
+            "type": "float",
+            "value": 1.0
+          },
+          "min": {
+            "type": "float",
+            "value": 0.0
+          },
+          "options-count": {
+            "type": "integer",
+            "value": 0
+          },
+          "unit": {
+            "type": "integer",
+            "value": 0
+          },
+          "widget": {
+            "type": "integer",
+            "value": 0
+          }
+        },
+        "bounds": {
+          "height": 82,
+          "width": 150,
+          "x": -420,
+          "y": 745
+        },
+        "class": {
+          "id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+          "version": 4
+        },
+        "clock": "video",
+        "color": "ffff6a00",
+        "constants": {
+          "input": {
+            "type": "float",
+            "value": 0.0
+          }
+        },
+        "hidden": [
+          "flow",
+          "has-max",
+          "has-min",
+          "input",
+          "instances",
+          "max",
+          "min",
+          "options-count",
+          "unit",
+          "widget"
+        ],
+        "name": "camZ",
+        "thumbnail_visible": true
+      },
+      "22": {
+        "attributes": {
+          "flow": {
+            "type": "flow",
+            "value": "signal"
+          },
+          "has-max": {
+            "type": "bool",
+            "value": true
+          },
+          "has-min": {
+            "type": "bool",
+            "value": true
+          },
+          "instances": {
+            "type": "integer",
+            "value": 1
+          },
+          "max": {
+            "type": "float",
+            "value": 1.0
+          },
+          "min": {
+            "type": "float",
+            "value": 0.0
+          },
+          "options-count": {
+            "type": "integer",
+            "value": 0
+          },
+          "unit": {
+            "type": "integer",
+            "value": 0
+          },
+          "widget": {
+            "type": "integer",
+            "value": 0
+          }
+        },
+        "bounds": {
+          "height": 82,
+          "width": 150,
+          "x": -420,
+          "y": 840
+        },
+        "class": {
+          "id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+          "version": 4
+        },
+        "clock": "video",
+        "color": "ffff6a00",
+        "constants": {
+          "input": {
+            "type": "float",
+            "value": 0.5
+          }
+        },
+        "hidden": [
+          "flow",
+          "has-max",
+          "has-min",
+          "input",
+          "instances",
+          "max",
+          "min",
+          "options-count",
+          "unit",
+          "widget"
+        ],
+        "name": "glowAmount",
+        "thumbnail_visible": true
+      }
+    },
+    "ui": {
+      "camera": {
+        "x": -416.8947448730469,
+        "y": -623.7052612304688,
+        "zoom": 0.6658878326416016
+      },
+      "selection": [
+        "0"
+      ]
+    }
+  },
+  "ui": {
+    "audio": {
+      "routing": {
+        "in": {},
+        "out": []
+      }
+    },
+    "deviceConnections": {
+      "input": {}
+    },
+    "transport": {
+      "bpm": 120,
+      "time-signature": [
+        4,
+        4
+      ]
+    },
+    "video": {
+      "routing": {
+        "out": {
+          "Display 1": null,
+          "Display 2": null,
+          "Display 3": null,
+          "Display 4": null
+        }
+      }
+    }
+  }
+}

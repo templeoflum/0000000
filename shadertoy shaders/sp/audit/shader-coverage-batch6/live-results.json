@@ -1,0 +1,612 @@
+[
+  {
+    "layer": 3,
+    "col": 47,
+    "source": "Flower2",
+    "controls": [
+      "time",
+      "draaiomas",
+      "trigger",
+      "draaixas"
+    ],
+    "discovered": [
+      "time",
+      "draaiomas",
+      "trigger",
+      "draaixas"
+    ],
+    "probe": "draaixas",
+    "checks": [
+      {
+        "requested": 3.0,
+        "observed": 3.0,
+        "ok": true
+      },
+      {
+        "requested": 7.0,
+        "observed": 7.0,
+        "ok": true
+      }
+    ],
+    "samples": [
+      1.6103853068829337,
+      1.478511721137812,
+      1.803691920007349,
+      2.512948939189601
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 3,
+    "col": 49,
+    "source": "Gentle Rings",
+    "controls": [
+      "Speed"
+    ],
+    "discovered": [
+      "Speed"
+    ],
+    "probe": "Speed",
+    "checks": [
+      {
+        "requested": 0.8999999999999999,
+        "observed": 0.8999999999999999,
+        "ok": true
+      },
+      {
+        "requested": 2.0999999999999996,
+        "observed": 2.0999999999999996,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.949869220519709,
+      0.7670903095748128,
+      0.7457693060784398,
+      0.8484534200311934
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 3,
+    "col": 50,
+    "source": "Quantum Fractal",
+    "controls": [
+      "Speed"
+    ],
+    "discovered": [
+      "Speed"
+    ],
+    "probe": "Speed",
+    "checks": [
+      {
+        "requested": 0.8999999999999999,
+        "observed": 0.8999999999999999,
+        "ok": true
+      },
+      {
+        "requested": 2.0999999999999996,
+        "observed": 2.0999999999999996,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.9448428185311742,
+      0.7585023625969911,
+      0.7516740840390272,
+      0.8623964994867477
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 3,
+    "col": 52,
+    "source": "Quasi-Kleinian Ring of Circles",
+    "controls": [
+      "Zoom",
+      "Center X",
+      "Center Y",
+      "Speed",
+      "Line Width",
+      "Overlap"
+    ],
+    "discovered": [
+      "Zoom",
+      "Center X",
+      "Center Y",
+      "Speed",
+      "Line Width",
+      "Overlap"
+    ],
+    "probe": "Overlap",
+    "checks": [
+      {
+        "requested": 3.1,
+        "observed": 3.1,
+        "ok": true
+      },
+      {
+        "requested": 5.8999999999999995,
+        "observed": 5.8999999999999995,
+        "ok": true
+      }
+    ],
+    "samples": [
+      4.788290624171433,
+      3.881183075776835,
+      3.410441008351998,
+      3.2609711292217725
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 3,
+    "col": 53,
+    "source": "Poincare Disk",
+    "controls": [
+      "Speed"
+    ],
+    "discovered": [
+      "Speed"
+    ],
+    "probe": "Speed",
+    "checks": [
+      {
+        "requested": 0.8999999999999999,
+        "observed": 0.8999999999999999,
+        "ok": true
+      },
+      {
+        "requested": 2.0999999999999996,
+        "observed": 0.8999999999999999,
+        "ok": false
+      }
+    ],
+    "samples": [
+      0.94822563172594,
+      0.7663353864023466,
+      0.7462212157752797,
+      0.8464521275936217
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 3,
+    "col": 54,
+    "source": "FractalCartoon",
+    "controls": [
+      "amp",
+      "rate",
+      "camera speed",
+      "fov",
+      "gamma"
+    ],
+    "discovered": [
+      "amp",
+      "rate",
+      "camera speed",
+      "fov",
+      "gamma"
+    ],
+    "probe": "amp",
+    "checks": [
+      {
+        "requested": 0.24000000357627868,
+        "observed": 0.24000000357627868,
+        "ok": true
+      },
+      {
+        "requested": 0.5600000083446502,
+        "observed": 0.5600000083446502,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.3904907480645899,
+      0.30160292902164226,
+      0.2571471575919631,
+      0.2506929337740235
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 3,
+    "col": 55,
+    "source": "MergerTunnel",
+    "controls": [
+      "rate",
+      "depth",
+      "color cycle",
+      "color shift",
+      "brightness"
+    ],
+    "discovered": [
+      "rate",
+      "depth",
+      "color cycle",
+      "color shift",
+      "brightness"
+    ],
+    "probe": "depth",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.9368242726619213,
+      0.6905925839878718,
+      0.5117914496336385,
+      0.39795935408790506
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 3,
+    "col": 56,
+    "source": "Sands",
+    "controls": [
+      "Speed"
+    ],
+    "discovered": [
+      "Speed"
+    ],
+    "probe": "Speed",
+    "checks": [
+      {
+        "requested": 0.8999999999999999,
+        "observed": 0.8999999999999999,
+        "ok": true
+      },
+      {
+        "requested": 2.0999999999999996,
+        "observed": 2.0999999999999996,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.944352824455486,
+      0.7431157168149058,
+      0.7815805504552461,
+      0.9162430538253388
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 3,
+    "col": 58,
+    "source": "ShaderLamb",
+    "controls": [
+      "azimuth",
+      "elevation",
+      "cam dist",
+      "warp",
+      "timescale"
+    ],
+    "discovered": [
+      "azimuth",
+      "elevation",
+      "cam dist",
+      "warp",
+      "timescale"
+    ],
+    "probe": "warp",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.0010311650122652376,
+      0.037661018576062355,
+      0.11434865814273716,
+      0.2265192272930213
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 3,
+    "col": 59,
+    "source": "Cumulus",
+    "controls": [
+      "een",
+      "main form",
+      "soft form",
+      "zoom 1",
+      "zoom 2",
+      "dikte 1",
+      "dikte 2",
+      "dikte 3",
+      "licht"
+    ],
+    "discovered": [
+      "een",
+      "main form",
+      "soft form",
+      "zoom 1",
+      "zoom 2",
+      "dikte 1",
+      "dikte 2",
+      "dikte 3",
+      "licht"
+    ],
+    "probe": "main form",
+    "checks": [
+      {
+        "requested": 3.0,
+        "observed": 3.0,
+        "ok": true
+      },
+      {
+        "requested": 7.0,
+        "observed": 7.0,
+        "ok": true
+      }
+    ],
+    "samples": [
+      3.401963303098814,
+      2.693456267248988,
+      2.599188040778961,
+      2.9237009910197904
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 3,
+    "col": 60,
+    "source": "MetaSevenVortex",
+    "controls": [
+      "x",
+      "y",
+      "scale",
+      "rate",
+      "fov",
+      "light",
+      "hue",
+      "tint",
+      "pulse"
+    ],
+    "discovered": [
+      "x",
+      "y",
+      "scale",
+      "rate",
+      "fov",
+      "light",
+      "hue",
+      "tint",
+      "pulse"
+    ],
+    "probe": "scale",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.945102335155919,
+      0.6917408610141509,
+      0.5127729827614246,
+      0.39389885805989977
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 3,
+    "col": 61,
+    "source": "Wild Style",
+    "controls": [
+      "angle",
+      "speed",
+      "r",
+      "g",
+      "b"
+    ],
+    "discovered": [
+      "angle",
+      "speed",
+      "r",
+      "g",
+      "b"
+    ],
+    "probe": "angle",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.6572713299512288,
+      0.5091681461506903,
+      0.4185763695462891,
+      0.34740765983355426
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 3,
+    "col": 63,
+    "source": "AI Escape valve",
+    "controls": [
+      "Speed",
+      "IFS Scale",
+      "IFS Translate",
+      "Camera Distance",
+      "FOV"
+    ],
+    "discovered": [
+      "Speed",
+      "IFS Scale",
+      "IFS Translate",
+      "Camera Distance",
+      "FOV"
+    ],
+    "probe": "IFS Scale",
+    "checks": [
+      {
+        "requested": 2.25,
+        "observed": 2.25,
+        "ok": true
+      },
+      {
+        "requested": 3.25,
+        "observed": 3.25,
+        "ok": true
+      }
+    ],
+    "samples": [
+      1.5024705632730486,
+      1.6032931650121809,
+      1.8072055846803328,
+      2.0921153539570883
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 3,
+    "col": 64,
+    "source": "Apollonian",
+    "controls": [
+      "Speed",
+      "Fractal Scale",
+      "Camera Roll"
+    ],
+    "discovered": [
+      "Speed",
+      "Fractal Scale",
+      "Camera Roll"
+    ],
+    "probe": "Fractal Scale",
+    "checks": [
+      {
+        "requested": 0.95,
+        "observed": 0.95,
+        "ok": true
+      },
+      {
+        "requested": 1.5499999999999998,
+        "observed": 1.5499999999999998,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.9981145919392842,
+      0.8978400451958153,
+      0.8852993835791133,
+      0.9326622014567572
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 3,
+    "col": 65,
+    "source": "Equirectangular Apollonian",
+    "controls": [
+      "Speed",
+      "Fractal Scale",
+      "Camera Roll"
+    ],
+    "discovered": [
+      "Speed",
+      "Fractal Scale",
+      "Camera Roll"
+    ],
+    "probe": "Fractal Scale",
+    "checks": [
+      {
+        "requested": 0.95,
+        "observed": 0.95,
+        "ok": true
+      },
+      {
+        "requested": 1.5499999999999998,
+        "observed": 1.5499999999999998,
+        "ok": true
+      }
+    ],
+    "samples": [
+      1.0672282708757506,
+      0.9445025546803244,
+      0.9131678524010488,
+      0.9453428019232096
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 3,
+    "col": 75,
+    "source": "ocean waves",
+    "controls": [
+      "freq",
+      "choppy",
+      "height",
+      "speed",
+      "cam x",
+      "cam y",
+      "cam z",
+      "cam pitch",
+      "cam yaw",
+      "cam roll"
+    ],
+    "discovered": [
+      "freq",
+      "choppy",
+      "height",
+      "speed",
+      "cam x",
+      "cam y",
+      "cam z",
+      "cam pitch",
+      "cam yaw",
+      "cam roll"
+    ],
+    "probe": "choppy",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.6511593912207181,
+      0.46727212653522576,
+      0.3752386382925589,
+      0.33880791482921824
+    ],
+    "drive_varied": true
+  }
+]

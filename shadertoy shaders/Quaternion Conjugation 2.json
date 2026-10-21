@@ -1,0 +1,27 @@
+{
+  "id": "WfVyDK",
+  "name": "Quaternion Conjugation 2",
+  "username": "dathor",
+  "description": ".",
+  "tags": [
+    "raymarch"
+  ],
+  "date": "1765216779",
+  "viewed": 65,
+  "likes": 4,
+  "published": 1,
+  "renderpass": [
+    {
+      "type": "image",
+      "name": "Image",
+      "inputs": [],
+      "outputs": [
+        {
+          "id": "4dfGRr",
+          "channel": 0
+        }
+      ],
+      "code": "// --------------------------------------------------------------\n// Quaternion rotation applied to a complex SDF (Mandelbulb)\n// Optimized: quaternion -> matrix once per frame\n// --------------------------------------------------------------\nvec4 quatFromAxisAngle(vec3 axis, float angle) {\n    float h = angle * 0.5;\n    float s = sin(h);\n    return vec4(axis * s, cos(h));\n}\n\nmat3 quatToMat3(vec4 q) {\n    float x = q.x, y = q.y, z = q.z, w = q.w;\n    float x2 = x + x, y2 = y + y, z2 = z + z;\n    float xx = x * x2, yy = y * y2, zz = z * z2;\n    float xy = x * y2, xz = x * z2, yz = y * z2;\n    float wx = w * x2, wy = w * y2, wz = w * z2;\n\n    return mat3(\n        1.0 - (yy + zz), xy - wz,        xz + wy,\n        xy + wz,        1.0 - (xx + zz), yz - wx,\n        xz - wy,        yz + wx,         1.0 - (xx + yy)\n    );\n}\n\n// Mandelbulb SDF\nfloat mandelbulb(vec3 p) {\n    vec3 z = p;\n    float dr = 1.0;\n    float r = 0.0;\n\n    for (int i = 0; i < 8; i++) {\n        r = length(z);\n        if (r > 2.0) break;\n\n        // power 8 bulb\n        float theta = acos(z.z/r);\n        float phi   = atan(z.y, z.x);\n        float zr    = pow(r, 8.0);\n        dr = pow(r, 7.0) * 8.0 * dr + 1.0;\n\n        theta *= 8.0;\n        phi   *= 8.0;\n\n        z = zr * vec3(\n            sin(theta)*cos(phi),\n            sin(theta)*sin(phi),\n            cos(theta)\n        ) + p;\n    }\n\n    return 0.5 * log(r) * r / dr;\n}\n\nmat3 ROT; // global rotation matrix\n\nfloat map(vec3 p) {\n    p = ROT * p;\n    return mandelbulb(p);\n}\n\n// Raymarch\nfloat march(vec3 ro, vec3 rd) {\n    float t = 0.0;\n    for (int i=0; i<100; i++) {\n        vec3 p = ro + t * rd;\n        float d = map(p);\n        if (d < 0.001) break;\n        t += d;\n        if (t > 20.0) break;\n    }\n    return t;\n}\n\nvec3 normal(vec3 p) {\n    vec2 e = vec2(0.001, 0.0);\n    return normalize(vec3(\n        map(p+e.xyy)-map(p-e.xyy),\n        map(p+e.yxy)-map(p-e.yxy),\n        map(p+e.yyx)-map(p-e.yyx)\n    ));\n}\n\nvoid mainImage(out vec4 fragColor, in vec2 fragCoord) {\n    vec2 uv = (fragCoord - 0.5*iResolution.xy)/iResolution.y;\n\n    vec3 ro = vec3(0.0, 0.0, 4.0);\n    vec3 rd = normalize(vec3(uv, -1.5));\n\n    // build quaternion once\n    vec3 axis = normalize(vec3(sin(iTime*0.3), 1.0, cos(iTime*0.25)));\n    float angle = iTime * 0.4;\n    vec4 q = quatFromAxisAngle(axis, angle);\n    ROT = quatToMat3(q);   // global optimized matrix\n\n    float t = march(ro, rd);\n    vec3 col = vec3(0.0);\n\n    if (t < 20.0) {\n        vec3 p = ro + t * rd;\n        vec3 n = normal(p);\n\n        // simple lighting\n        vec3 light = normalize(vec3(0.6, 0.7, -0.3));\n        float diff = max(dot(n, light), 0.0);\n        col = vec3(diff) * 1.5;\n    }\n\n    fragColor = vec4(pow(col, vec3(0.4545)), 1.0);\n}\n"
+    }
+  ]
+}

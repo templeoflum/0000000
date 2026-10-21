@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Composition name="Composition" uniqueId="1707612905528" numDecks="3" currentDeckIndex="0" numLayers="3" numColumns="9" compositionIsRelative="0">
+	<versionInfo name="Resolume Arena" majorVersion="7" minorVersion="27" microVersion="1" revision="15990"/>
+	<CompositionInfo name="Heart Movement Test" description="" width="1920" height="1080">
+		<DeckInfo name="Block" id="1789181797787" closed="0"/>
+		<DeckInfo name="empty" id="1789181797793" closed="0"/>
+		<DeckInfo name="empty" id="1789181797799" closed="0"/>
+	</CompositionInfo>
+	<Params name="Params">
+		<Param name="Name" T="STRING" default="" value="Heart Movement Test"/>
+		<ParamRange name="Speed" T="DOUBLE" default="1" value="0.9999999999999741318">
+			<PhaseSourceStatic name="PhaseSourceStatic"/>
+		</ParamRange>
+		<Param name="KeyboardShortcutPreset" T="STRING" default="" value="Default"/>
+		<Param name="MidiShortcutPreset" T="STRING" default="" value="Default"/>
+		<Param name="OscShortcutPreset" T="STRING" default="" value="OutputAllMessages"/>
+		<Param name="DmxShortcutPreset" T="STRING" default="" value="Default"/>
+	</Params>
+	<AnimationSettings name="AnimationSettings" uniqueId="1618250219581">
+		<Setting name="Speed" flags="9223372036854775810"/>
+	</AnimationSettings>
+	<CompositionView name="CompositionView">
+		<FoldParams name="FoldParams">
+			<FoldState component="/compositionpropertiesdashboard" folded="0"/>
+		</FoldParams>
+	</CompositionView>
+	<AudioTrack name="AudioTrack">
+		<AudioEffectChain name="AudioEffectChain"/>
+	</AudioTrack>
+	<VideoTrack name="VideoTrack">
+		<Params name="Params">
+			<ParamRange name="Width" T="DOUBLE" default="1920" value="1920">
+				<PhaseSourceStatic name="PhaseSourceStatic"/>
+			</ParamRange>
+			<ParamRange name="Height" T="DOUBLE" default="1080" value="1080">
+				<PhaseSourceStatic name="PhaseSourceStatic"/>
+			</ParamRange>
+		</Params>
+		<RenderPass name="RenderPassChain">
+			<RenderPass storage="0" name="Transform" type="TransformEffect" uniqueTypeId="17122039101699797593" uniqueId="1789181797764" baseType="Effect">
+				<View name="View" bCanBeDisabled="0" bCanBeRemoved="0"/>
+			</RenderPass>
+		</RenderPass>
+	</VideoTrack>
+	<Layer name="Layer" uniqueId="1789181797860" layerIndex="0">
+		<Params name="Params">
+			<Param name="Name" T="STRING" default="Layer #" value="Figure"/>
+		</Params>
+		<ClipTransition name="ClipTransition"/>
+		<LayerView name="LayerView" foldedControl="0">
+			<FoldParams name="FoldParams"/>
+		</LayerView>
+		<AudioTrack name="AudioTrack">
+			<AudioEffectChain name="AudioEffectChain"/>
+		</AudioTrack>
+		<VideoTrack name="VideoTrack">
+			<Params name="Params">
+				<ParamRange name="Width" T="DOUBLE" default="1920" value="1920">
+					<PhaseSourceStatic name="PhaseSourceStatic"/>
+				</ParamRange>
+				<ParamRange name="Height" T="DOUBLE" default="1080" value="1080">
+					<PhaseSourceStatic name="PhaseSourceStatic"/>
+				</ParamRange>
+			</Params>
+			<RenderPass name="RenderPassChain">
+				<RenderPass storage="0" name="Transform" type="TransformEffect" uniqueTypeId="17122039101699797593" uniqueId="1789181797982" baseType="Effect">
+					<View name="View" bCanBeDisabled="0" bCanBeRemoved="0"/>
+				</RenderPass>
+				<RenderPass storage="0" name="MirrorQuad" type="DryWetEffect" uniqueTypeId="A180" uniqueId="1789181798738" baseType="DryWetEffect">
+					<Params name="Params">
+						<ParamRange name="Opacity" T="DOUBLE" default="1" value="0">
+							<PhaseSourceStatic name="PhaseSourceStatic"/>
+						</ParamRange>
+					</Params>
+					<RenderPass name="MirrorQuad" type="MirrorQuad" uniqueTypeId="A180" uniqueId="1789181798733" baseType="Effect" dwType="Effect"/>
+					<ChoosableMixer name="Mixer">
+						<VideoMixerStateID uniqueId="1789181798743"/>
+						<RenderPass name="Alpha" type="Alpha" uniqueTypeId="A006" uniqueId="1789181798745" baseType="Mixer"/>
+					</ChoosableMixer>
+				</RenderPass>
+				<RenderPass storage="0" name="InvertRGB" type="DryWetEffect" uniqueTypeId="A105" uniqueId="1789181798821" baseType="DryWetEffect">
+					<Params name="Params">
+						<ParamRange name="Opacity" T="DOUBLE" default="1" value="0">
+							<PhaseSourceStatic name="PhaseSourceStatic"/>
+						</ParamRange>
+					</Params>
+					<RenderPass name="InvertRGB" type="InvertRGB" uniqueTypeId="A105" uniqueId="1789181798814" baseType="Effect" dwType="Effect"/>
+					<ChoosableMixer name="Mixer">
+						<VideoMixerStateID uniqueId="1789181798826"/>
+						<RenderPass name="Alpha" type="Alpha" uniqueTypeId="A006" uniqueId="1789181798828" baseType="Mixer"/>
+					</ChoosableMixer>
+				</RenderPass>
+			</RenderPass>
+			<ChoosableMixer name="Blend">
+				<VideoMixerStateID uniqueId="1789181797971"/>
+				<RenderPass name="Add" type="Add" uniqueTypeId="A005" uniqueId="1789181797973" baseType="Mixer"/>
+			</ChoosableMixer>
+			<ChoosableMixer name="Transition">
+				<VideoMixerStateID uniqueId="1789181797976"/>
+				<RenderPass name="Alpha" type="Alpha" uniqueTypeId="A006" uniqueId="1789181797978" baseType="Mixer"/>
+			</ChoosableMixer>
+		</VideoTrack>
+	</Layer>
+	<Layer name="Layer" uniqueId="1789181798000" layerIndex="1">
+		<ClipTransition name="ClipTransition"/>
+		<LayerView name="LayerView" foldedControl="0">
+			<FoldParams name="FoldParams"/>
+		</LayerView>
+		<AudioTrack name="AudioTrack">
+			<AudioEffectChain name="AudioEffectChain"/>
+		</AudioTrack>
+		<VideoTrack name="VideoTrack">
+			<Params name="Params">
+				<ParamRange name="Width" T="DOUBLE" default="1920" value="1920">
+					<PhaseSourceStatic name="PhaseSourceStatic"/>
+				</ParamRange>
+				<ParamRange name="Height" T="DOUBLE" default="1080" value="1080">
+					<PhaseSourceStatic name="PhaseSourceStatic"/>
+				</ParamRange>
+			</Params>
+			<RenderPass name="RenderPassChain">
+				<RenderPass storage="0" name="Transform" type="TransformEffect" uniqueTypeId="17122039101699797593" uniqueId="1789181798122" baseType="Effect">
+					<View name="View" bCanBeDisabled="0" bCanBeRemoved="0"/>
+				</RenderPass>
+			</RenderPass>
+			<ChoosableMixer name="Blend">
+				<VideoMixerStateID uniqueId="1789181798111"/>
+				<RenderPass name="Add" type="Add" uniqueTypeId="A005" uniqueId="1789181798113" baseType="Mixer"/>
+			</ChoosableMixer>
+			<ChoosableMixer name="Transition">
+				<VideoMixerStateID uniqueId="1789181798116"/>
+				<RenderPass name="Alpha" type="Alpha" uniqueTypeId="A006" uniqueId="1789181798118" baseType="Mixer"/>
+			</ChoosableMixer>
+		</VideoTrack>
+	</Layer>
+	<Layer name="Layer" uniqueId="1789181798140" layerIndex="2">
+		<ClipTransition name="ClipTransition"/>
+		<LayerView name="LayerView" foldedControl="0">
+			<FoldParams name="FoldParams"/>
+		</LayerView>
+		<AudioTrack name="AudioTrack">
+			<AudioEffectChain name="AudioEffectChain"/>
+		</AudioTrack>
+		<VideoTrack name="VideoTrack">
+			<Params name="Params">
+				<ParamRange name="Width" T="DOUBLE" default="1920" value="1920">
+					<PhaseSourceStatic name="PhaseSourceStatic"/>
+				</ParamRange>
+				<ParamRange name="Height" T="DOUBLE" default="1080" value="1080">
+					<PhaseSourceStatic name="PhaseSourceStatic"/>
+				</ParamRange>
+			</Params>
+			<RenderPass name="RenderPassChain">
+				<RenderPass storage="0" name="Transform" type="TransformEffect" uniqueTypeId="17122039101699797593" uniqueId="1789181798262" baseType="Effect">
+					<View name="View" bCanBeDisabled="0" bCanBeRemoved="0"/>
+				</RenderPass>
+			</RenderPass>
+			<ChoosableMixer name="Blend">
+				<VideoMixerStateID uniqueId="1789181798251"/>
+				<RenderPass name="Add" type="Add" uniqueTypeId="A005" uniqueId="1789181798253" baseType="Mixer"/>
+			</ChoosableMixer>
+			<ChoosableMixer name="Transition">
+				<VideoMixerStateID uniqueId="1789181798256"/>
+				<RenderPass name="Alpha" type="Alpha" uniqueTypeId="A006" uniqueId="1789181798258" baseType="Mixer"/>
+			</ChoosableMixer>
+		</VideoTrack>
+	</Layer>
+	<CrossFader name="CrossFader">
+		<AudioTrack name="AudioTrack">
+			<AudioEffectChain name="AudioEffectChain"/>
+		</AudioTrack>
+		<VideoTrack name="VideoTrack">
+			<Params name="Params">
+				<ParamRange name="Width" T="DOUBLE" default="1920" value="1920">
+					<PhaseSourceStatic name="PhaseSourceStatic"/>
+				</ParamRange>
+				<ParamRange name="Height" T="DOUBLE" default="1080" value="1080">
+					<PhaseSourceStatic name="PhaseSourceStatic"/>
+				</ParamRange>
+			</Params>
+			<RenderPass name="RenderPassChain"/>
+			<ChoosableMixer name="Blend mode">
+				<VideoMixerStateID uniqueId="1789181797782"/>
+				<RenderPass name="Alpha" type="Alpha" uniqueTypeId="A006" uniqueId="1789181797784" baseType="Mixer"/>
+			</ChoosableMixer>
+		</VideoTrack>
+	</CrossFader>
+	<TempoController name="TempoController">
+		<Params name="Params">
+			<ParamChoice name="CurrentTempoDriver" T="INT32" default="0" value="1" storeChoices="0"/>
+		</Params>
+	</TempoController>
+	<Deck name="Deck" uniqueId="1789181797787" closed="0" numLayersWithContent="1" numColumnsWithContent="2" numLayers="3" numColumns="9" deckIndex="0">
+		<Params name="Params">
+			<Param name="Name" T="STRING" default="empty" value="Block"/>
+		</Params>
+		<Column uniqueId="1789181797761" columnIndex="0"/>
+		<Column uniqueId="1789181797760" columnIndex="1"/>
+		<Column uniqueId="1789181797759" columnIndex="2"/>
+		<Column uniqueId="1789181797758" columnIndex="3"/>
+		<Column uniqueId="1789181797757" columnIndex="4"/>
+		<Column uniqueId="1789181797756" columnIndex="5"/>
+		<Column uniqueId="1789181797755" columnIndex="6"/>
+		<Column uniqueId="1789181797754" columnIndex="7"/>
+		<Column uniqueId="1789181797753" columnIndex="8"/>
+		<Clip name="Clip" uniqueId="1789181797806" layerIndex="0" columnIndex="0">
+			<PreloadData>
+				<EmbeddedThumbnail encoding="LZF" width="320" height="240" bitdepth="32" data="AQAA4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P0AA0ql8f/g/wPhGwfi/TXg/wDg/wDgsQDjG/Pg/yNBB+Gx6eD/AOD/AOD9AEPT4P8D4RsH4v014P8A4P8A4LEA4xvz4P8jQQfhseng/wDg/wDg/QBD0+D/A+EbB+L9NeD/AOD/AOCxAOMb8+D/I0EH4bHp4P8A4P8A4P0AQ9Pg/wPhGwfi/TXg/wDg/wDgsQDjG/Pg/yNBB+Gx6eD/AOD/AOD9AEPT4P8D4RsH4v014P8A4P8A4LEA4xvz4P8jQQfhseng/wDg/wDg/QBD0+D/A+EbB+L9NeD/AOD/AOCxAOMb8+D/I0EH4bHp4P8A4P8A4P0AQ9Pg/wPhGwfi/TXg/wDg/wDgsQDjG/Pg/yNBB+Gx6eD/AOD/AOD9AEPT4P8D4RsH4v014P8A4P8A4LEA4xvz4P8jQQfhseng/wDg/wDg/QBD0+D/A+EbB+L9NeD/AOD/AOCxAOMb8+D/I0EH4bHp4P8A4P8A4P0AQ9Pg/wPhGwfi/TXg/wDg/wDgsQDjG/Pg/yNBB+Gx6eD/AOD/AOD9AEPT4P8D4RsH4v014P8A4P8A4LEA4xvz4P8jQQfhseng/wDg/wDg/QBD0+D/A+EbB+L9NeD/AOD/AOCxAOMb8+D/I0EH4bHp4P8A4P8A4P0AQ9Pg/wPhGwfi/TXg/wDg/wDgsQDjG/Pg/yNBB+Gx6eD/AOD/AOD9AEPT4P8D4RsH4v014P8A4P8A4LEA4xvz4P8jQQfhseng/wDg/wDg/QBD0+D/A+EbB+L9NeD/AOD/AOCxAOMb8+D/I0EH4bHp4P8A4P8A4P0AQ9Pg/wPhGwfi/TXg/wDg/wDgsQDjG/Pg/yNBB+Gx6eD/AOD/AOD9AEPT4P8D4RsH4v014P8A4P8A4LEA4xvz4P8jQQfhseng/wDg/wDg/QBD0+D/A+EbB+L9NeD/AOD/AOCxAOMb8+D/I0EH4bHp4P8A4P8A4P0AQ9Pg/wPhGwfi/TXg/wDg/wDgsQDjG/Pg/yNBB+Gx6eD/AOD/AOD9AEPT4P8D4RsH4v014P8A4P8A4LEA4xvz4P8jQQfhseng/wDg/wDg/QBD0+D/A+EbB+L9NeD/AOD/AOCxAOMb8+D/I0EH4bHp4P8A4P8A4P0AQ9Pg/wPhGwfi/TXg/wDg/wDgsQDjG/Pg/yNBB+Gx6eD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOBDAAEAAA=="/>
+			</PreloadData>
+			<Params name="Params">
+				<Param name="Name" T="STRING" default="Solid Color" value="Block"/>
+				<ParamChoice name="TransportType" default="0" value="0" storeChoices="0"/>
+			</Params>
+			<Transport name="Transport">
+				<Params name="Params">
+					<ParamRange name="Position" T="DOUBLE" default="0" value="1181.0554583337916483">
+						<DurationSource/>
+						<PhaseSourceTransportTimeline name="PhaseSourceTransportTimeline" phase="0.23621109166675832713" defaultBeatsDuration="8">
+							<Params name="Params">
+								<ParamRange name="Max Distance" altName="Distance" T="DOUBLE" default="2" value="2">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+									<ValueRange name="minMax" min="0" max="5"/>
+								</ParamRange>
+								<ParamRange name="BPM" T="DOUBLE" default="120" value="120">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</ParamRange>
+							</Params>
+							<Beats_d name="Beats_d" numManualBeats="8" detectedTempo="-1"/>
+						</PhaseSourceTransportTimeline>
+						<ValueRange name="minMax" min="0" max="5000"/>
+					</ParamRange>
+				</Params>
+			</Transport>
+			<ChoosableMixer name="Transition">
+				<VideoMixerStateID uniqueId="1789181797807"/>
+			</ChoosableMixer>
+			<ClipView name="ClipView">
+				<FoldParams name="FoldParams"/>
+			</ClipView>
+			<VideoTrack name="VideoTrack">
+				<Params name="Params">
+					<ParamRange name="Width" T="DOUBLE" default="1920" value="1920">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</ParamRange>
+					<ParamRange name="Height" T="DOUBLE" default="1080" value="1080">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</ParamRange>
+					<Param name="RScale" T="BOOL" default="1" value="1"/>
+					<Param name="GScale" T="BOOL" default="1" value="1"/>
+					<Param name="BScale" T="BOOL" default="1" value="1"/>
+					<Param name="AScale" T="BOOL" default="1" value="1"/>
+				</Params>
+				<RenderPass name="RenderPassChain">
+					<RenderPass storage="0" name="Transform" type="TransformEffect" uniqueTypeId="17122039101699797593" uniqueId="1789181798368" baseType="Effect">
+						<Params name="Params">
+							<ParamRange name="Scale" T="DOUBLE" default="100" value="24">
+								<PhaseSourceStatic name="PhaseSourceStatic"/>
+							</ParamRange>
+						</Params>
+						<View name="View" bCanBeDisabled="0" bCanBeRemoved="0"/>
+					</RenderPass>
+				</RenderPass>
+				<ChoosableMixer name="Blend">
+					<VideoMixerStateID uniqueId="1789181798366"/>
+				</ChoosableMixer>
+				<PrimarySource>
+					<VideoSource storage="0" name="VideoSource" width="1920" height="1080" type="GeneratorVideoSource">
+						<RenderPass name="SolidColor" type="SolidColor" uniqueTypeId="A403" uniqueId="1789181798321" baseType="Generator">
+							<Params name="Params">
+								<ParamColor name="Color" T="COLOR" default="4278190335" value="4283082225" channelmode="2" paletteEnabled="0" color="4283082225" interpolated="0">
+									<Params name="Channels">
+										<ParamRange name="Red" T="DOUBLE" default="1" value="0.94509804248809814453">
+											<PhaseSourceStatic name="PhaseSourceStatic"/>
+										</ParamRange>
+										<ParamRange name="Green" T="DOUBLE" default="0" value="0.64705884456634521484">
+											<PhaseSourceStatic name="PhaseSourceStatic"/>
+										</ParamRange>
+										<ParamRange name="Blue" T="DOUBLE" default="0" value="0.2901960909366607666">
+											<PhaseSourceStatic name="PhaseSourceStatic"/>
+										</ParamRange>
+										<ParamRange name="Hue" T="DOUBLE" default="0" value="0.090818367898464202881">
+											<PhaseSourceStatic name="PhaseSourceStatic"/>
+										</ParamRange>
+										<ParamRange name="Saturation" T="DOUBLE" default="1" value="0.69294607639312744141">
+											<PhaseSourceStatic name="PhaseSourceStatic"/>
+										</ParamRange>
+										<ParamRange name="Brightness" T="DOUBLE" default="1" value="0.94509804248809814453">
+											<PhaseSourceStatic name="PhaseSourceStatic"/>
+										</ParamRange>
+									</Params>
+								</ParamColor>
+							</Params>
+						</RenderPass>
+					</VideoSource>
+				</PrimarySource>
+			</VideoTrack>
+		</Clip>
+		<Clip name="Clip" uniqueId="1789181797824" layerIndex="1" columnIndex="0"/>
+		<Clip name="Clip" uniqueId="1789181797842" layerIndex="2" columnIndex="0"/>
+		<Clip name="Clip" uniqueId="1789181797808" layerIndex="0" columnIndex="1">
+			<PreloadData>
+				<EmbeddedThumbnail encoding="LZF" width="320" height="240" bitdepth="32" data="AQAA4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A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4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4CsAAQAA"/>
+			</PreloadData>
+			<Params name="Params">
+				<Param name="Name" T="STRING" default="Lines" value="Bars"/>
+				<ParamChoice name="TransportType" default="0" value="0" storeChoices="0"/>
+			</Params>
+			<Transport name="Transport">
+				<Params name="Params">
+					<ParamRange name="Position" T="DOUBLE" default="0" value="0">
+						<DurationSource/>
+						<PhaseSourceTransportTimeline name="PhaseSourceTransportTimeline" phase="0" defaultBeatsDuration="8">
+							<Params name="Params">
+								<ParamRange name="Max Distance" altName="Distance" T="DOUBLE" default="2" value="2">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+									<ValueRange name="minMax" min="0" max="5"/>
+								</ParamRange>
+								<ParamRange name="BPM" T="DOUBLE" default="120" value="120">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</ParamRange>
+							</Params>
+							<Beats_d name="Beats_d" numManualBeats="8" detectedTempo="-1"/>
+						</PhaseSourceTransportTimeline>
+						<ValueRange name="minMax" min="0" max="5000"/>
+					</ParamRange>
+				</Params>
+			</Transport>
+			<ChoosableMixer name="Transition">
+				<VideoMixerStateID uniqueId="1789181797809"/>
+			</ChoosableMixer>
+			<ClipView name="ClipView">
+				<FoldParams name="FoldParams"/>
+			</ClipView>
+			<VideoTrack name="VideoTrack">
+				<Params name="Params">
+					<ParamRange name="Width" T="DOUBLE" default="1920" value="1920">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</ParamRange>
+					<ParamRange name="Height" T="DOUBLE" default="1080" value="1080">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</ParamRange>
+					<Param name="RScale" T="BOOL" default="1" value="1"/>
+					<Param name="GScale" T="BOOL" default="1" value="1"/>
+					<Param name="BScale" T="BOOL" default="1" value="1"/>
+					<Param name="AScale" T="BOOL" default="1" value="1"/>
+				</Params>
+				<RenderPass name="RenderPassChain">
+					<RenderPass storage="0" name="Transform" type="TransformEffect" uniqueTypeId="17122039101699797593" uniqueId="1789181798441" baseType="Effect">
+						<Params name="Params">
+							<ParamRange name="Scale" T="DOUBLE" default="100" value="32">
+								<PhaseSourceStatic name="PhaseSourceStatic"/>
+							</ParamRange>
+						</Params>
+						<View name="View" bCanBeDisabled="0" bCanBeRemoved="0"/>
+					</RenderPass>
+				</RenderPass>
+				<ChoosableMixer name="Blend">
+					<VideoMixerStateID uniqueId="1789181798439"/>
+				</ChoosableMixer>
+				<PrimarySource>
+					<VideoSource storage="0" name="VideoSource" width="1920" height="1080" type="GeneratorVideoSource">
+						<RenderPass name="Lines" type="Lines" uniqueTypeId="P201" uniqueId="1789181798336" baseType="Generator">
+							<Params name="Params">
+								<ParamRange name="Width" T="DOUBLE" default="0.2999999999999999889" value="0.3499999999999999778">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</ParamRange>
+								<ParamColor name="Color" T="COLOR" default="4294967295" value="4291876465" channelmode="2" paletteEnabled="0" color="4291876465" interpolated="0">
+									<Params name="Channels">
+										<ParamRange name="Red" T="DOUBLE" default="1" value="0.44313725829124450684">
+											<PhaseSourceStatic name="PhaseSourceStatic"/>
+										</ParamRange>
+										<ParamRange name="Green" T="DOUBLE" default="1" value="0.83921569585800170898">
+											<PhaseSourceStatic name="PhaseSourceStatic"/>
+										</ParamRange>
+										<ParamRange name="Blue" T="DOUBLE" default="1" value="0.81568628549575805664">
+											<PhaseSourceStatic name="PhaseSourceStatic"/>
+										</ParamRange>
+										<ParamRange name="Hue" T="DOUBLE" default="0" value="0.49009904265403747559">
+											<PhaseSourceStatic name="PhaseSourceStatic"/>
+										</ParamRange>
+										<ParamRange name="Saturation" T="DOUBLE" default="0" value="0.4719626307487487793">
+											<PhaseSourceStatic name="PhaseSourceStatic"/>
+										</ParamRange>
+										<ParamRange name="Brightness" T="DOUBLE" default="1" value="0.83921569585800170898">
+											<PhaseSourceStatic name="PhaseSourceStatic"/>
+										</ParamRange>
+									</Params>
+								</ParamColor>
+							</Params>
+						</RenderPass>
+					</VideoSource>
+				</PrimarySource>
+			</VideoTrack>
+		</Clip>
+		<Clip name="Clip" uniqueId="1789181797826" layerIndex="1" columnIndex="1"/>
+		<Clip name="Clip" uniqueId="1789181797844" layerIndex="2" columnIndex="1"/>
+		<Clip name="Clip" uniqueId="1789181797810" layerIndex="0" columnIndex="2"/>
+		<Clip name="Clip" uniqueId="1789181797828" layerIndex="1" columnIndex="2"/>
+		<Clip name="Clip" uniqueId="1789181797846" layerIndex="2" columnIndex="2"/>
+		<Clip name="Clip" uniqueId="1789181797812" layerIndex="0" columnIndex="3"/>
+		<Clip name="Clip" uniqueId="1789181797830" layerIndex="1" columnIndex="3"/>
+		<Clip name="Clip" uniqueId="1789181797848" layerIndex="2" columnIndex="3"/>
+		<Clip name="Clip" uniqueId="1789181797814" layerIndex="0" columnIndex="4"/>
+		<Clip name="Clip" uniqueId="1789181797832" layerIndex="1" columnIndex="4"/>
+		<Clip name="Clip" uniqueId="1789181797850" layerIndex="2" columnIndex="4"/>
+		<Clip name="Clip" uniqueId="1789181797816" layerIndex="0" columnIndex="5"/>
+		<Clip name="Clip" uniqueId="1789181797834" layerIndex="1" columnIndex="5"/>
+		<Clip name="Clip" uniqueId="1789181797852" layerIndex="2" columnIndex="5"/>
+		<Clip name="Clip" uniqueId="1789181797818" layerIndex="0" columnIndex="6"/>
+		<Clip name="Clip" uniqueId="1789181797836" layerIndex="1" columnIndex="6"/>
+		<Clip name="Clip" uniqueId="1789181797854" layerIndex="2" columnIndex="6"/>
+		<Clip name="Clip" uniqueId="1789181797820" layerIndex="0" columnIndex="7"/>
+		<Clip name="Clip" uniqueId="1789181797838" layerIndex="1" columnIndex="7"/>
+		<Clip name="Clip" uniqueId="1789181797856" layerIndex="2" columnIndex="7"/>
+		<Clip name="Clip" uniqueId="1789181797822" layerIndex="0" columnIndex="8"/>
+		<Clip name="Clip" uniqueId="1789181797840" layerIndex="1" columnIndex="8"/>
+		<Clip name="Clip" uniqueId="1789181797858" layerIndex="2" columnIndex="8"/>
+	</Deck>
+	<Deck name="Deck" uniqueId="1789181797793" closed="0" numLayersWithContent="0" numColumnsWithContent="0" numLayers="0" numColumns="0" deckIndex="1"/>
+	<Deck name="Deck" uniqueId="1789181797799" closed="0" numLayersWithContent="0" numColumnsWithContent="0" numLayers="0" numColumns="0" deckIndex="2"/>
+	<Notes name="Notes">
+		<Note text_size_multiplier="2" text_color_index="3" text=""/>
+	</Notes>
+</Composition>
+

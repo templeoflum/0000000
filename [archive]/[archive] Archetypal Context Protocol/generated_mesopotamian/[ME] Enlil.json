@@ -1,0 +1,184 @@
+{
+  "SchemaVersion": "1.1-ter",
+  "ArchetypeName": "Enlil",
+  "SystemOfOrigin": "ME",
+  "CulturalLineage": [
+    "Sumerian",
+    "Akkadian",
+    "Babylonian",
+    "Assyrian"
+  ],
+  "CommonAliases": [
+    "Lord Wind",
+    "Lord of the Air",
+    "King of Gods",
+    "Mountain Storm",
+    "Nunamnir (Princely Lord)"
+  ],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "Executive power of the cosmos, enforcer of divine order, lord of destiny and fate",
+    "PrimaryDomain": "Divine Authority/Natural Force",
+    "ToneOrPolarity": "Commanding / Severe / Just",
+    "SymbolicCore": "The active will of heaven - storm and decree made manifest",
+    "Correspondences": {
+      "Element": "Air/Wind",
+      "Planet": "Jupiter (authority)",
+      "Chakra": "Throat (command)",
+      "Color": "Storm Gray, Electric Blue",
+      "Animal": "Bull, Storm Bird",
+      "Other": [
+        "Cuneiform: 𒀭𒂗𒆤",
+        "Weapon: Divine Storm",
+        "Temple: Ekur (Mountain House) at Nippur",
+        "Sacred Number: 50",
+        "Tablet of Destinies (ME)"
+      ]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": [
+      "King of Gods (active rule)",
+      "Divine Judge",
+      "Enforcer of Cosmic Law",
+      "Separator of Heaven and Earth",
+      "Destroyer and Orderer"
+    ],
+    "ComplementaryArchetypes": [
+      "An/Anu (Sovereign Father)",
+      "Enki (Wise Counselor)",
+      "Ninlil (Divine Consort)"
+    ],
+    "ShadowForms": [
+      "Tyrant God",
+      "Harsh Judge",
+      "Destroyer without Mercy"
+    ],
+    "DevelopmentalArc": [
+      "Separation of Heaven/Earth → Establishment of Order → Enforcement of Law → Judgement"
+    ],
+    "CyclePhase": "Active Rule → Divine Decree → Cosmic Enforcement"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": [
+      "Authoritative",
+      "Decisive",
+      "Just but Severe",
+      "Commanding",
+      "Powerful",
+      "Uncompromising"
+    ],
+    "Typologies": {
+      "MBTI": "ENTJ",
+      "Enneagram": "8w9 (The Bear)",
+      "Other": [
+        "JP12.Ruler",
+        "Pearson.Sovereign",
+        "Strict Father archetype"
+      ]
+    },
+    "SubVariants": [
+      "Storm Lord",
+      "Divine Executive",
+      "Cosmic Enforcer",
+      "Mountain King"
+    ],
+    "InternalFamily": "King-Father-Judge"
+  },
+  "CulturalContext": {
+    "Regions": [
+      "Nippur (cult center)",
+      "Sumer",
+      "Akkad",
+      "Babylonia"
+    ],
+    "MythicAppearances": [
+      "Separation of Heaven and Earth myth",
+      "Great Flood (decreed by Enlil)",
+      "Myth of Enlil and Ninlil",
+      "Creation of the pickaxe",
+      "Atrahasis Epic"
+    ],
+    "ReligiousOrRitualUse": "Supreme deity of most of Mesopotamian history, head of pantheon, invoked in legal oaths and royal decrees",
+    "HistoricalEvolution": "Succeeded An/Anu as active king of gods, held supremacy until Marduk's rise in Babylonian period, remained powerful throughout Mesopotamian civilization",
+    "SyncreticForms": [
+      "Zeus (executive power parallel)",
+      "Indra (storm king parallel)",
+      "Thor (storm aspect)",
+      "Biblical God (flood narrative)"
+    ]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "𒀭𒂗𒆤",
+    "ImageryNotes": "Horned crown (seven horns), storm clouds, mountain peaks, the cosmic pickaxe that separated heaven and earth",
+    "ArtisticExamples": [
+      "Ekur ziggurat at Nippur",
+      "Storm god iconography",
+      "Royal stele invoking Enlil's authority"
+    ],
+    "PoeticInvocation": "I am the wind that separates sky from soil, the decree that cannot be undone, the storm that levels mountains.",
+    "DreamForm": "Standing before a mountain throne as winds whip and thunder speaks judgment"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": [
+      "ME.An-Anu",
+      "ME.Enki-Ea",
+      "ME.Ninlil",
+      "ME.Marduk",
+      "GR.Zeus"
+    ],
+    "SemanticTags": [
+      "#wind",
+      "#storm",
+      "#authority",
+      "#judgment",
+      "#law",
+      "#kingship",
+      "#mountain"
+    ],
+    "RitualFunction": "Invoke for executive power, enforcement of justice, establishment of order through force",
+    "AIPromptSeeds": [
+      "Generate a ruler whose word becomes reality, whose storms clear away the old to make way for order.",
+      "Create a king who separates chaos from cosmos with the power of wind and decree."
+    ],
+    "NarrativeHooks": [
+      "The decree that cannot be changed",
+      "Facing the storm of divine judgment",
+      "The king whose anger is the flood"
+    ]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [
+      {
+        "to": "GR.Zeus",
+        "strength": "strong"
+      },
+      {
+        "to": "IN.Indra",
+        "strength": "moderate"
+      },
+      {
+        "to": "NO.Thor",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "FacetRegistry": [
+    {
+      "facet": "Storm Lord",
+      "weight": 0.3
+    },
+    {
+      "facet": "King of Gods",
+      "weight": 0.3
+    },
+    {
+      "facet": "Divine Judge",
+      "weight": 0.25
+    },
+    {
+      "facet": "Cosmic Separator",
+      "weight": 0.15
+    }
+  ]
+}

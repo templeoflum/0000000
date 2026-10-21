@@ -1,0 +1,65 @@
+{
+  "answer": {
+    "records": [
+      {
+        "source": "RainbowRingCubicTwist",
+        "continuous_controls": [
+          "scale",
+          "thickness",
+          "twists",
+          "rate",
+          "gamma"
+        ],
+        "unsupported_controls": [],
+        "note": "Live testing required."
+      },
+      {
+        "source": "Crystal Drops",
+        "continuous_controls": [
+          "Speed",
+          "Camera Distance",
+          "FOV",
+          "Quat W",
+          "Quat X",
+          "Quat Y",
+          "Quat Z",
+          "Refraction"
+        ],
+        "unsupported_controls": [],
+        "note": "Live testing required."
+      },
+      {
+        "source": "Spikeball_v2",
+        "continuous_controls": [
+          "Speed",
+          "Camera Distance",
+          "FOV",
+          "Quat W",
+          "Quat X",
+          "Quat Y",
+          "Quat Z",
+          "Spike Sharpness"
+        ],
+        "unsupported_controls": [],
+        "note": "Live testing required."
+      }
+    ]
+  },
+  "checks": [
+    {
+      "source": "RainbowRingCubicTwist",
+      "exact_continuous_match": true,
+      "exact_other_match": true
+    },
+    {
+      "source": "Crystal Drops",
+      "exact_continuous_match": true,
+      "exact_other_match": true
+    },
+    {
+      "source": "Spikeball_v2",
+      "exact_continuous_match": true,
+      "exact_other_match": true
+    }
+  ]
+}

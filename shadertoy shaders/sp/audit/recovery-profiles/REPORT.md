@@ -1,0 +1,9 @@
+# Rest positions for the new Heart copies
+
+Added 13 missing profiles to the existing sweetspots.json, covering 118 normalized rest values. Each uses its source's declared defaults; Quaternion Field uses the previously live-verified brighter starting combination. Existing profiles and user-saved Home states are preserved. No new preset or generator architecture was added.
+
+Home and global Settle already consult these profiles. Open remains the existing full-drive operation and does not enable parked effects. A saved user Home still overrides the factory rest. Stopping external drives does not necessarily stop a shader's internal TIME animation.
+
+Validation: all 118 values are in range; 217 tests pass. Live factory Home tests on Quaternion Field, Klein Bottle and Melting Fractal recovered 25/25 native parameter targets after deliberate disturbance. Each passed Open → Home with zero remaining external drives and no active amount-bearing effects. Actual Home output was visually reviewed for all three. Follow-up: the remaining ten copies passed 93/93 native Home targets after disturbance and another 93/93 native targets after Open → Home. Every copy opened all its drives and returned with zero external drives and no active amount-bearing effects. Their actual Home output captures were reviewed against black with alpha preserved. Kali Liberation is visible but dark; HypnoWorm and Torus are small centered forms. These are recovery checks, not exhaustive visual-range or containment acceptance. All 13 copies now have a live recovery cycle (118 distinct parameter targets across the two runs). The test intentionally used factory Home so it did not overwrite or depend upon a user's saved Home.
+
+Session left on Heart Torus at factory Home, other layers at zero opacity. Evidence: profiles.json, live.json, live-remaining.json, individual Home captures and review contact sheets.

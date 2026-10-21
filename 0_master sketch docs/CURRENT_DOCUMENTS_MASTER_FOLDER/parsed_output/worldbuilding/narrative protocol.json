@@ -1,0 +1,55 @@
+{
+  "id": "444caf367db9",
+  "filename": "narrative protocol.docx",
+  "path": "narrative protocol.docx",
+  "category": "uncategorized",
+  "content_type": "framework",
+  "metadata": {
+    "title": "One-page primer: Field → Scene → Encounter → Medium",
+    "file_size": 10559,
+    "modified_date": "2025-12-31T07:20:40",
+    "created_date": "2026-01-22T18:30:56.294499"
+  },
+  "concepts": [
+    "symbol",
+    "encounter",
+    "iterative"
+  ],
+  "structure": {
+    "sections": [],
+    "section_count": 0,
+    "has_clear_structure": false
+  },
+  "content": "One-page primer: Field → Scene → Encounter → Medium\nA medium-agnostic blueprint for building narrative/world-based work, then translating it into any form.\nCore reframing\nField = the persistent experiential world you offer (your “pool” of meaning).\n\nScene = a bounded extraction from that field (a specific instance with a turn, or a shaped traversal).\n\nNarrator = the stable interface that controls access (lens) and address (how the work speaks).\n\nAudience is not a profile. The only required “audience variable” is Encounter Mode: how the work is meant to be engaged.\n\nPipeline: Field → Scene → Encounter Mode → Medium encoding\nNarrator spans Field/Scene as the stable interface across versions.\n\nMinimal system v1 (3 modules)\n1) Field Spec (persistent)\nA field is defined by recurrence and exclusions. It preserves identity across an album/era/identity.\nFill:\nthesis: core way-of-seeing the field offers\n\nanchors: recurring symbols/motifs/objects/sounds/gestures\n\nqualities: descriptive axes (tone/texture/attitude)\n\nboundaries: hard exclusions (what it never becomes)\n\nlaws (optional): recurring cause/cost logic\n\nfield:\n  thesis: \"\"\n  anchors: [\"\", \"\", \"\"]\n  qualities: [\"\", \"\", \"\"]\n  boundaries: [\"\", \"\"]\n  laws: [\"\"]  # optional\n2) Scene Extraction (instance)\nA scene is a selection from the field plus a shaped change (or shaped traversal).\nFill:\nextracted_from_field: which anchors are active\n\nframe: where/when/scale within the field\n\nturn: start → pivot → end (omit pivot/end if field-only traversal)\n\nevidence_tokens: 3–7 must-show observables (cross-medium invariants)\n\nscene:\n  extracted_from_field: [\"anchor_id_1\", \"anchor_id_2\"]\n  frame: \"\"\n  turn: {start: \"\", pivot: \"\", end: \"\"}   # optional for field-only\n  evidence_tokens: [\"\", \"\", \"\"]\n3) Narrator Interface (lens + address)\nNarrator is the designed interface that makes the field/scene encounterable.\nLens = where the perception sits + what it can access.\nAddress = who it speaks to + posture + disclosure.\nnarrator:\n  lens:\n    vantage: \"inside|edge|outside|above\"\n    access: \"surface-only|inner-only|mixed|omniscient\"\n    time_mode: \"live|recalled|foretold|curated\"\n    reliability: \"reliable|strategic|mistaken|unstable|unknown\"\n    selection_rule: \"Notices X first; ignores Y.\"\n    agency: \"observer|participant|manipulator\"\n  address:\n    addressee: \"none|implicit witness|confidant|public|future self|unknown\"\n    posture: \"invite|assert|confess|warn|inquire|document|invoke\"\n    disclosure: \"withhold-heavy|balanced|reveal-heavy\"\n\nEncounter Mode (interaction contract)\nThis is where “audience dictates medium” belongs—without demographic profiling.\nPick one primary mode:\nambient (inhabit; low demanded attention)\n\nguided (follow; you steer attention)\n\nparticipatory (they act; choices matter)\n\nritual (repeat; meaning accrues through recurrence)\n\nbroadcast (receive; one-to-many address)\n\nprivate (intimate channel)\n\nencounter_mode:\n  mode: \"ambient|guided|participatory|ritual|broadcast|private\"\n  attention: \"low|mid|high\"\n  revisit_value: \"low|mid|high\"\n  onboarding: \"implicit|explicit\"\nDownstream medium bias (examples)\nritual → loopable forms, recurrence, replay value (mixes, live sets, iterative visuals).\n\nparticipatory → interactive systems, game-like structures, responsive installations.\n\nguided → linear time-based forms (songs, films, narrative text).\n\nambient → installation, generative works, longform atmospheres.\n\n\nFull “North Star” card (copy/paste)\nfield:\n  thesis: \"\"\n  anchors: [\"\", \"\", \"\"]\n  qualities: [\"\", \"\", \"\"]\n  boundaries: [\"\", \"\"]\n  laws: [\"\"]  # optional\n\nscene:\n  extracted_from_field: [\"\", \"\"]\n  frame: \"\"\n  turn: {start: \"\", pivot: \"\", end: \"\"}   # optional for field-only\n  evidence_tokens: [\"\", \"\", \"\"]\n\nnarrator:\n  lens:\n    vantage: \"inside|edge|outside|above\"\n    access: \"surface-only|inner-only|mixed|omniscient\"\n    time_mode: \"live|recalled|foretold|curated\"\n    reliability: \"reliable|strategic|mistaken|unstable|unknown\"\n    selection_rule: \"Notices X first; ignores Y.\"\n    agency: \"observer|participant|manipulator\"\n  address:\n    addressee: \"none|implicit witness|confidant|public|future self|unknown\"\n    posture: \"invite|assert|confess|warn|inquire|document|invoke\"\n    disclosure: \"withhold-heavy|balanced|reveal-heavy\"\n\nencounter_mode:\n  mode: \"ambient|guided|participatory|ritual|broadcast|private\"\n  attention: \"low|mid|high\"\n  revisit_value: \"low|mid|high\"\n  onboarding: \"implicit|explicit\"\n\nWorkflow (intended use)\nDefine Field once per era/album/identity.\n\nFor each output, extract a Scene (or field-only traversal).\n\nSet Narrator lens/address to control access and communication.\n\nChoose Encounter Mode to define engagement.\n\nTranslate into a medium using evidence tokens + turn + narrator + encounter as invariants.\n\n",
+  "word_count": 528,
+  "char_count": 4759,
+  "related_documents": [
+    "79efff5b322b",
+    "e3fa6d7bb766",
+    "5003ee4bfe83",
+    "b28e2e0ea6be",
+    "a37bf62e8d75",
+    "2a603a5a7185",
+    "955ce464c2c0",
+    "a9702ca0feee",
+    "f8872a5c1229",
+    "1ad21832a5ba",
+    "cdbb846dffc9",
+    "3d8a7d64b605",
+    "f4bab13153ae",
+    "3a5e88e88703",
+    "c2bd9fa7f682",
+    "80e6463986eb",
+    "f2c9615e0c9d",
+    "a3eb42b074c3",
+    "52daa9ccae25",
+    "92f01cca595a",
+    "9ad54aa1860a",
+    "a906f316c2b3",
+    "c90e869a2bf0",
+    "6f5745c5c04c",
+    "d38e73480bd2"
+  ],
+  "maturity": "emerging",
+  "maturity_score": 1
+}

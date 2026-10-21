@@ -1,0 +1,323 @@
+{
+  "shots": [
+    {
+      "row": "stage",
+      "pad": "melt",
+      "ids": [
+        1789421994503
+      ],
+      "peak": [
+        0.7974925586615856
+      ],
+      "first_nonzero_ms": [
+        30.79
+      ],
+      "final": [
+        0.0
+      ],
+      "changes": [
+        24
+      ]
+    },
+    {
+      "row": "stage",
+      "pad": "blok",
+      "ids": [
+        1789421994503
+      ],
+      "peak": [
+        0.8
+      ],
+      "first_nonzero_ms": [
+        11.35
+      ],
+      "final": [
+        0.0
+      ],
+      "changes": [
+        25
+      ]
+    },
+    {
+      "row": "stage",
+      "pad": "twitch",
+      "ids": [
+        1789181912416
+      ],
+      "peak": [
+        0.8
+      ],
+      "first_nonzero_ms": [
+        21.76
+      ],
+      "final": [
+        0.0
+      ],
+      "changes": [
+        23
+      ]
+    },
+    {
+      "row": "figure",
+      "pad": "melt",
+      "ids": [
+        1789181914269
+      ],
+      "peak": [
+        0.8
+      ],
+      "first_nonzero_ms": [
+        22.32
+      ],
+      "final": [
+        0.0
+      ],
+      "changes": [
+        25
+      ]
+    },
+    {
+      "row": "figure",
+      "pad": "blok",
+      "ids": [
+        1789181914269
+      ],
+      "peak": [
+        0.7975436408129983
+      ],
+      "first_nonzero_ms": [
+        52.15
+      ],
+      "final": [
+        0.0
+      ],
+      "changes": [
+        24
+      ]
+    },
+    {
+      "row": "figure",
+      "pad": "twitch",
+      "ids": [
+        1789181914233
+      ],
+      "peak": [
+        0.8
+      ],
+      "first_nonzero_ms": [
+        11.7
+      ],
+      "final": [
+        0.0
+      ],
+      "changes": [
+        25
+      ]
+    },
+    {
+      "row": "field",
+      "pad": "melt",
+      "ids": [
+        1789435860822,
+        1789422046987
+      ],
+      "peak": [
+        0.8,
+        0.8
+      ],
+      "first_nonzero_ms": [
+        11.7,
+        33.36
+      ],
+      "final": [
+        0.0,
+        0.0
+      ],
+      "changes": [
+        24,
+        24
+      ]
+    },
+    {
+      "row": "field",
+      "pad": "blok",
+      "ids": [
+        1789435860822,
+        1789422046987
+      ],
+      "peak": [
+        0.8,
+        0.8
+      ],
+      "first_nonzero_ms": [
+        33.39,
+        44.31
+      ],
+      "final": [
+        0.0,
+        0.0
+      ],
+      "changes": [
+        23,
+        23
+      ]
+    },
+    {
+      "row": "field",
+      "pad": "twitch",
+      "ids": [
+        1789422107034,
+        1789422054515
+      ],
+      "peak": [
+        0.8,
+        0.8
+      ],
+      "first_nonzero_ms": [
+        11.44,
+        33.45
+      ],
+      "final": [
+        0.0,
+        0.0
+      ],
+      "changes": [
+        23,
+        23
+      ]
+    }
+  ],
+  "colors": [
+    {
+      "row": "stage",
+      "ids": [
+        1789181911555
+      ],
+      "readback": [
+        0.31
+      ]
+    },
+    {
+      "row": "figure",
+      "ids": [
+        1789422031980
+      ],
+      "readback": [
+        0.31
+      ]
+    },
+    {
+      "row": "field",
+      "ids": [
+        1789422114545,
+        1789422062026
+      ],
+      "readback": [
+        0.31,
+        0.31
+      ]
+    }
+  ],
+  "epoch": "1789151413656",
+  "before_hold": false,
+  "before_selection": "",
+  "final_state": {
+    "armed": true,
+    "hold": false,
+    "connected": true,
+    "selected": "",
+    "error": "",
+    "effect_rack": {
+      "stage": {
+        "ready": true,
+        "color": 0.0,
+        "mixed": false,
+        "active": {
+          "melt": false,
+          "blok": false,
+          "twitch": false
+        }
+      },
+      "figure": {
+        "ready": true,
+        "color": 0.0,
+        "mixed": false,
+        "active": {
+          "melt": false,
+          "blok": false,
+          "twitch": false
+        }
+      },
+      "field": {
+        "ready": true,
+        "color": 0.0,
+        "mixed": false,
+        "active": {
+          "melt": false,
+          "blok": false,
+          "twitch": false
+        }
+      }
+    },
+    "metrics": {
+      "tick_p95_ms": 9.25,
+      "work_p95_ms": 0.02,
+      "scan_ms": 109,
+      "bridge_work_ms": 0.59,
+      "sent": 30,
+      "owned": 1
+    }
+  },
+  "standalone_pads": {
+    "ids": [
+      1789421994503,
+      1789181914233,
+      1789435860822,
+      1789422046987
+    ],
+    "peaks": {
+      "1789421994503": 0.8,
+      "1789181914233": 0.8,
+      "1789435860822": 0.8,
+      "1789422046987": 0.8
+    },
+    "final": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "standalone_color_readback": {
+    "stage": [
+      0.5
+    ],
+    "figure": [
+      0.5
+    ],
+    "field": [
+      0.5,
+      0.5
+    ]
+  },
+  "after_clear": {
+    "amounts": {
+      "1789181912416": 0.0,
+      "1789181911555": 0.0,
+      "1789421994503": 0.0,
+      "1789422062026": 0.0,
+      "1789422046987": 0.0,
+      "1789422031980": 0.0,
+      "1789422114545": 0.0,
+      "1789422054515": 0.0,
+      "1789435860822": 0.0,
+      "1789181914233": 0.0,
+      "1789422107034": 0.0,
+      "1789181914269": 0.0
+    },
+    "armed": true,
+    "hold": false,
+    "all_rows_ready": true,
+    "error": ""
+  }
+}

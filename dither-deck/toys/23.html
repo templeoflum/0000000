@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>◐</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{height:100%;overflow:hidden;overscroll-behavior:none;background:#0e0d12}
+#app{height:100vh;height:100dvh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:26px}
+#scene{width:min(80vw,340px);aspect-ratio:1;background:#fff;border-radius:3px}
+#rail{width:min(86vw,420px);height:auto;touch-action:none;cursor:pointer}
+</style>
+</head>
+<body>
+<div id="app">
+  <canvas id="scene"></canvas>
+  <svg id="rail" viewBox="0 0 420 56" aria-label="the knob">
+    <line x1="30" y1="28" x2="390" y2="28" stroke="#26242f" stroke-width="2" stroke-linecap="round"/>
+    <circle id="knob" cx="30" cy="28" r="13" fill="#0e0d12" stroke="#93a4c2" stroke-width="2"/>
+    <circle id="knobcore" cx="30" cy="28" r="4" fill="#93a4c2"/>
+  </svg>
+</div>
+<script>
+/* ── THE TOY: SHIMMER — one wave machine, five regimes, ink pinned at 0.45.
+   every state is a real superposition of waves, thresholded at the exact 45th
+   percentile of its own landscape (02's conservation law). the knob crossfades
+   the AMPLITUDES of neighbouring regimes — and an amplitude crossfade of two
+   wave fields is itself a wave superposition, so even the tweens are honest
+   physics: five to nine simultaneous plane/spherical waves interfering.
+
+   the five regimes (equal-λ family, 680² canvas, pitches calibrated so the
+   finest fringe ≈ 19–26 px — coarse enough to hold in 1-bit, fine enough to
+   read as field, not stripes-by-drawing):
+
+   k=0.00  BEATS — two plane waves at ±3.5°, λ=26:
+             cos(k(x·c+y·s)) + cos(k(x·c−y·s)), k=2π/26.
+             carrier = vertical stripes, envelope = horizontal beat bands of
+             period λ/(2 sin 3.5°) ≈ 213 px — three slow bands across the
+             canvas. the tide.
+   k=0.25  ZONE PLATE — a single paraxial spherical wave's plane section,
+             cos(πr²/ρ²), ρ=80: Fresnel rings whose pitch thins as ρ²/r
+             (≈19 px at the corners, 9 cycles to the edge). the bullseye.
+   k=0.50  RIPPLE TANK — two point sources INSIDE the field at (340±130, 340),
+             λ=22: cos(2πr₁/λ)+cos(2πr₂/λ) — circular wavefronts, hyperbolic
+             fringes, the textbook two-source photograph.
+   k=0.75  HERRINGBONE — two point sources far ABOVE the field at
+             (340±140, −580), λ=26: same equation, far regime — the hyperbolae
+             straighten into a nested chevron fan. the feather.
+   k=1.00  CHECKER MOIRÉ — two square lattices (four plane waves, λ=26),
+             one rotated 8°: cos kx + cos ky + cos kx' + cos ky'. the moiré
+             cells (≈ λ/(2 sin 4°) ≈ 186 px) tile the canvas with woven
+             diamond baskets.
+
+   calibrations (measured offline in numpy at full 680², 200-step sweep):
+     ink coverage = 0.4500 at every k (exact 45th-percentile threshold).
+     worst flip per 1/200 k-step = 1.84% (at the beats→zone-plate seam),
+     well under the 2.5% granularity law — the continuous amplitude blend
+     pours the morph through the landscape's own valleys, no stops needed.
+     precompute: five Float32Array(680²) landscapes at load (~1–2 s of trig);
+     apply() is one blend + one histogram + one threshold, same cost as 02.
+
+   deviations: none from 02's law. no blue-noise mask is used — the
+   interference field itself supplies the structure at every scale, and the
+   blend tweens read as hologram fringes (carrier-sheared rings), not mush.
+
+   dead ends (documented in lab/s23/FINDINGS.md): a 2.5° beat detune (only
+   one band — read as "stripes with a fault line"); a 3-wave 120° hex lattice
+   state (pretty, but a uniform dot grid — too close to the SCREENS direction;
+   killed by the one-law-of-feel, replaced by the herringbone).
+
+   static states; the knob alone moves anything. ── */
+const scene=document.getElementById("scene");
+const DPR=2;               /* fixed internal resolution — layout-independent */
+let S=680;
+scene.width=S;scene.height=S;
+const ctx=scene.getContext("2d");
+const img=ctx.createImageData(S,S);
+const N=S*S;
+const TAU=2*Math.PI;
+const CX=S/2, CY=S/2;
+/* five waypoint landscapes, precomputed at load */
+const FA=new Float32Array(N),FB=new Float32Array(N),FC=new Float32Array(N),
+      FD=new Float32Array(N),FE=new Float32Array(N);
+(function(){
+  /* BEATS: two plane waves, ±3.5°, λ=26 */
+  const thA=7*Math.PI/180, cA=Math.cos(thA/2), sA=Math.sin(thA/2), kA=TAU/26;
+  /* ZONE PLATE: cos(πr²/ρ²), ρ=80 */
+  const RHO2=80*80;
+  /* RIPPLE: near sources, λ=22 */
+  const dC=130, kC=TAU/22;
+  /* HERRINGBONE: far sources above, λ=26 */
+  const sY=CY-920, sD=140, kD=TAU/26;
+  /* CHECKER: two square lattices, 8° rotation, λ=26 */
+  const alE=8*Math.PI/180, cE=Math.cos(alE), sE=Math.sin(alE), kE=TAU/26;
+  for(let y=0;y<S;y++){
+    const dy=y-CY, o=y*S;
+    for(let x=0;x<S;x++){
+      const i=o+x, dx=x-CX;
+      FA[i]=0.5+0.25*(Math.cos(kA*(x*cA+y*sA))+Math.cos(kA*(x*cA-y*sA)));
+      FB[i]=0.5+0.5*Math.cos(Math.PI*(dx*dx+dy*dy)/RHO2);
+      const r1C=Math.sqrt((x-(CX-dC))*(x-(CX-dC))+dy*dy);
+      const r2C=Math.sqrt((x-(CX+dC))*(x-(CX+dC))+dy*dy);
+      FC[i]=0.5+0.25*(Math.cos(kC*r1C)+Math.cos(kC*r2C));
+      const r1D=Math.sqrt((x-(CX-sD))*(x-(CX-sD))+(y-sY)*(y-sY));
+      const r2D=Math.sqrt((x-(CX+sD))*(x-(CX+sD))+(y-sY)*(y-sY));
+      FD[i]=0.5+0.25*(Math.cos(kD*r1D)+Math.cos(kD*r2D));
+      const xa=dx*cE+dy*sE, ya=-dx*sE+dy*cE;
+      FE[i]=0.5+0.125*(Math.cos(kE*x)+Math.cos(kE*y)+Math.cos(kE*xa)+Math.cos(kE*ya));
+    }
+  }
+})();
+const F=new Float32Array(N);
+const hist=new Uint32Array(513);
+let k=0;
+function apply(){
+  /* traverse A→B→C→D→E */
+  let a,b,t;
+  if(k<0.25){a=FA;b=FB;t=k*4;}
+  else if(k<0.5){a=FB;b=FC;t=(k-0.25)*4;}
+  else if(k<0.75){a=FC;b=FD;t=(k-0.5)*4;}
+  else{a=FD;b=FE;t=(k-0.75)*4;}
+  for(let i=0;i<N;i++)F[i]=a[i]*(1-t)+b[i]*t;
+  /* pin the quantity: threshold at the exact 45th percentile of the landscape */
+  hist.fill(0);
+  for(let i=0;i<N;i++){let q=(F[i]*512)|0;if(q<0)q=0;if(q>512)q=512;hist[q]++;}
+  const target=N*0.45;let acc=0,thr=0.5;
+  for(let q=0;q<=512;q++){acc+=hist[q];if(acc>=target){thr=(q+0.5)/512;break;}}
+  const d=img.data;let black=0;
+  for(let i=0;i<N;i++){
+    const on=F[i]<thr;if(on)black++;
+    const v=on?0:255,j=i*4;
+    d[j]=v;d[j+1]=v;d[j+2]=v;d[j+3]=255;
+  }
+  ctx.putImageData(img,0,0);
+  const cov=black/N;
+}
+apply();
+ 
+const rail=document.getElementById("rail");
+const knob=document.getElementById("knob");
+const knobcore=document.getElementById("knobcore");
+let dragging=false;
+function set(clientX){
+  const r=rail.getBoundingClientRect();
+  k=Math.min(1,Math.max(0,(clientX-r.left-r.width*30/420)/(r.width*360/420)));
+  apply();
+  const x=30+360*k;
+  knob.setAttribute("cx",x); knobcore.setAttribute("cx",x);
+}
+function start(e){dragging=true;move(e);}
+function move(e){
+  if(!dragging)return;
+  set(e.touches?e.touches[0].clientX:e.clientX);
+  if(e.cancelable)e.preventDefault();
+}
+rail.addEventListener("mousedown",start);
+rail.addEventListener("touchstart",start,{passive:false});
+window.addEventListener("mousemove",move);
+window.addEventListener("touchmove",move,{passive:false});
+window.addEventListener("mouseup",()=>dragging=false);
+window.addEventListener("touchend",()=>dragging=false);
+document.addEventListener("touchmove",e=>{if(dragging)e.preventDefault();},{passive:false});
+ 
+(function(){
+  const rail=document.getElementById("rail");
+  function n2c(t){const r=rail.getBoundingClientRect();return r.left+r.width*(30+360*Math.min(1,Math.max(0,t)))/420;}
+  window.atom={name:"S23",
+    set:function(t){set(n2c(t));},
+    get:function(){const x=parseFloat(document.getElementById("knob").getAttribute("cx"));return (x-30)/360;}};
+  const q=new URLSearchParams(location.search).get("k");
+  if(q!==null) setTimeout(function(){window.atom.set(parseFloat(q));},80);
+  window.addEventListener("message",function(e){if(e.data&&typeof e.data.atomSet==="number")window.atom.set(e.data.atomSet);});
+  let lx=null;
+  setInterval(function(){
+    const x=parseFloat(document.getElementById("knob").getAttribute("cx"));
+    if(x!==lx){lx=x;try{if(parent!==window)parent.postMessage({atomChange:{name:window.atom.name,k:(x-30)/360}},"*");}catch(err){}}
+  },150);
+})();
+</script>
+</body>
+</html>

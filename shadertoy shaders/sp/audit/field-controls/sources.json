@@ -1,0 +1,71 @@
+[
+  {
+    "old": "QField2",
+    "name": "Heart Quaternion Field",
+    "col": 4,
+    "source": "/Users/donovan/Documents/Resolume Wire/Patches/QField2/Resource/qField1.isf",
+    "controls": [
+      "Speed",
+      "Field Scale",
+      "Hue Speed",
+      "Axis 1 Freq",
+      "Axis 2 Freq",
+      "Axis 3 Freq",
+      "Coupling",
+      "Brightness",
+      "Saturation",
+      "Mean Radius",
+      "Sample Distance"
+    ]
+  },
+  {
+    "old": "quarternionSwell",
+    "name": "Heart Quaternion Swell",
+    "col": 5,
+    "source": "/Users/donovan/Documents/Resolume Wire/Patches/quarternionSwell/Resource/quarternionSwell.isf",
+    "controls": [
+      "Field Scale",
+      "Speed",
+      "Swell Threshold",
+      "Swell Sharpness",
+      "Hue Shift",
+      "Coupling",
+      "Darkness"
+    ]
+  },
+  {
+    "old": "Paper Fractal",
+    "name": "Heart Paper Fractal",
+    "col": 6,
+    "source": "/Users/donovan/Documents/Resolume Wire/Patches/Paper Fractal/Resource/Paper Fractal.isf",
+    "controls": [
+      "rotAsymX",
+      "rotAsymY",
+      "spinRate",
+      "foldRate",
+      "spinOffset",
+      "foldOffset",
+      "sizeOffset",
+      "foldDistA",
+      "foldDistB",
+      "camX",
+      "camY",
+      "camZ",
+      "glowAmount"
+    ]
+  },
+  {
+    "old": "VectorFromHell",
+    "name": "Heart Vector Lattice",
+    "col": 7,
+    "source": "/Users/donovan/Documents/Resolume Wire/Patches/VectorFromHell/Resource/VectorFromHell.isf",
+    "controls": [
+      "camSpeed",
+      "rotX",
+      "rotZ",
+      "colorR",
+      "colorG",
+      "colorB"
+    ]
+  }
+]

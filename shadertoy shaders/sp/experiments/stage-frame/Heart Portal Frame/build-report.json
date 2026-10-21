@@ -1,0 +1,147 @@
+{
+  "stage": "portal",
+  "sections": [
+    {
+      "layer": 1,
+      "name": "base layer",
+      "images": 100,
+      "transition": "LumaKeyI",
+      "blend": "LumaKeyI",
+      "mask": null
+    },
+    {
+      "layer": 6,
+      "name": "bg3",
+      "images": 59,
+      "transition": "LumaKeyI",
+      "blend": "LumaKeyI",
+      "mask": null
+    },
+    {
+      "layer": 7,
+      "name": "bg2",
+      "images": 56,
+      "transition": "LumaKeyI",
+      "blend": "LumaKeyI",
+      "mask": null
+    },
+    {
+      "layer": 8,
+      "name": "bg1",
+      "images": 64,
+      "transition": "LumaKeyI",
+      "blend": "LumaKeyI",
+      "mask": null
+    },
+    {
+      "layer": 9,
+      "name": "blades3",
+      "images": 46,
+      "transition": "LumaKeyI",
+      "blend": "LumaKeyI",
+      "mask": null
+    },
+    {
+      "layer": 10,
+      "name": "blades2",
+      "images": 38,
+      "transition": "LumaKeyI",
+      "blend": "LumaKeyI",
+      "mask": null
+    },
+    {
+      "layer": 11,
+      "name": "blades1",
+      "images": 42,
+      "transition": "LumaKeyI",
+      "blend": "LumaKeyI",
+      "mask": null
+    },
+    {
+      "layer": 12,
+      "name": "square2",
+      "images": 50,
+      "transition": "LumaKeyI",
+      "blend": "LumaKeyI",
+      "mask": null
+    },
+    {
+      "layer": 13,
+      "name": "square1",
+      "images": 43,
+      "transition": "LumaKeyI",
+      "blend": "LumaKeyI",
+      "mask": null
+    },
+    {
+      "layer": 14,
+      "name": "balls2",
+      "images": 46,
+      "transition": "LumaKeyI",
+      "blend": "LumaKeyI",
+      "mask": null
+    },
+    {
+      "layer": 15,
+      "name": "balls1",
+      "images": 48,
+      "transition": "LumaKeyI",
+      "blend": "LumaKeyI",
+      "mask": null
+    },
+    {
+      "layer": 16,
+      "name": "ring5",
+      "images": 52,
+      "transition": "LumaKeyI",
+      "blend": "LumaKeyI",
+      "mask": null
+    },
+    {
+      "layer": 17,
+      "name": "ring4",
+      "images": 52,
+      "transition": "LumaKeyI",
+      "blend": "LumaKeyI",
+      "mask": null
+    },
+    {
+      "layer": 18,
+      "name": "ring3",
+      "images": 49,
+      "transition": "LumaKeyI",
+      "blend": "LumaKeyI",
+      "mask": null
+    },
+    {
+      "layer": 19,
+      "name": "ring2",
+      "images": 58,
+      "transition": "LumaKeyI",
+      "blend": "LumaKeyI",
+      "mask": null
+    },
+    {
+      "layer": 20,
+      "name": "ring1",
+      "images": 50,
+      "transition": "LumaKeyI",
+      "blend": "LumaKeyI",
+      "mask": null
+    }
+  ],
+  "images": 853,
+  "nodes": 1179,
+  "wire": "/Users/donovan/work/0000000/shadertoy shaders/sp/experiments/stage-frame/Heart Portal Frame/Heart Portal Frame.wire",
+  "status": "Loaded and rendered in Wire and Arena; installed in Resolume Wire/Patches",
+  "limitations": [
+    "Native outline/detail generators and group effects are not ported; use original composition for exact appearance.",
+    "Opacity bounce interpretation and per-clip duration variations require parity checks."
+  ],
+  "arena_test": {
+    "layer": 9,
+    "column": 1,
+    "composition": "Heart Festival Stage Test.avc",
+    "notes": "Layer Alpha blend, ignores column triggers. Treehouse Shuffle All event successfully triggered. Portal left active at layer opacity 1."
+  }
+}

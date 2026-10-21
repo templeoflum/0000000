@@ -1,0 +1,402 @@
+{
+  "updated": "2026-09-12T20:37:21-05:00",
+  "phase": "Post-show shader tuning",
+  "current": "Simplified effect rack and per-effect hit/fade timing installed. Figure Linear Cloner and Mirror X/Y/XY use smooth toggles. Performer feel, separate steady-output interruption and PS4 mappings remain open.",
+  "work": [
+    {
+      "name": "Rack timing, quick color and Figure fade toggles",
+      "status": "verified",
+      "detail": "Quick LUT/Color Loop on non-feedback rows; Invert A only on Feedback. Removed detail/alpha sliders and wheel-alpha gestures from pads. Independent saved \u215b\u20138 beat pulse/fade times, native event timing, persistent toggle/lock classification and appropriate loop choices. Feedback Mirrors and Figure Linear Cloner + Mirror X/Y/XY fade from current amounts, restore strength and confirm zero before bypass. 162 regression checks, 47 final LUT checks, 11 Figure checks and 639/1440/480 px mock UI passed. All five installed rows ready. Standalone Feedback Mirror native fade-in and original bypass/strength return verified. Final Figure controls validated by installed state and mock UI; no live Figure probe during active tuning."
+    },
+    {
+      "name": "Figure Infinite Zoom and Low Rez one-shots",
+      "status": "verified",
+      "detail": "Figure has Infinite Zoom and Low Rez one-shot buttons, alpha controls collapsed by default, and both kick/snare choices. Exact existing effect bindings preserve the tuned looks. 41 backend checks and compact/wide mocked click, keyboard, assignment and layout checks passed. Installed standalone buttons are present and Figure reports ready; live hits were not fired during tuning."
+    },
+    {
+      "name": "Steady motion timing and delivery",
+      "status": "built",
+      "detail": "Separate save process with small acknowledged deltas; implicit untouched defaults; incremental reconciliation; 8 ms discovery batches and stable validation keys. All 157 affected backend checks passed. Original 57 ms clock stall corrected; latest recent engine gaps max 14.71 ms and route intervals about 10.8 ms p95. A separate 201.6 ms delivery interruption occurred with delayed native control replies and expired leases. Rendered smoothness remains open. No new controller mappings installed."
+    },
+    {
+      "name": "Automatic last-used motion recall",
+      "status": "verified",
+      "detail": "Composition/native identity memory preserves Family, Shuffle assignments, ratios, multipliers, offsets, Amount, locks and Drive intent. Native ranges/programs and live clock phase are not restored. 142 backend checks plus extended real-process mock restart/clip revisit passed; 1,243 matching numeric settings migrated and 41 prepared drives later matched with no errors. Heart remains armed at the native tempo."
+    },
+    {
+      "name": "Shared motion, native ranges and incremental handoff",
+      "status": "verified",
+      "detail": "One accumulated beat transport; scope/source Mult histories, late preparation, independent Amount/Range offset/Phase offset, Hold and Base/Safe integration. 130 affected backend checks plus compact/wide mocked UI passed. Live stage autoplay required small catalogue patches instead of repeated 1.17 MB catalogues. 39 matching settings restored; 37,479 live updates in ~8 seconds, 3.37 ms p95 frame age, 9.81 ms p95 tick, no waiting destinations/errors. Moving native stage parameter retained its paused program; rendered musical acceptance remains open."
+    },
+    {
+      "name": "Clip-change output-worker stall",
+      "status": "verified",
+      "detail": "Blocked phase frames could spin the worker without yielding, freezing all output despite Driven flags. Old timeout reproduced; stale frames now discarded and pending reschedules yield. All 31 output/recovery checks passed. Native Rings motion resumed within its saved bounds and exact paused program, with 14,280 updates delivered during the final check; 31 active settings restored."
+    },
+    {
+      "name": "Scoped Mult buttons, stage Family and BPM shortcuts",
+      "status": "built",
+      "detail": "Source/target, layer, native group, stage section and Global controls with one-beat easing and custom 0.001\u201364 values. Stage Family spans active unlocked members. 68 backend checks and two compact/wide mocked surface suites passed; standalone controls displayed and 31 active settings restored. Automatic approval review blocked live Global speed change; performer feel remains open."
+    },
+    {
+      "name": "Shader OSC punctuation",
+      "status": "verified",
+      "detail": "Preserved + and parentheses in native addresses. 4D Voronoi and 16 Dimensional Julia paused timelines were detected but old addresses did not deliver. Both corrected Quat W paths passed tiny native probes with starting phase restored; regression tests added."
+    },
+    {
+      "name": "Stage section and whole-stage Shuffle",
+      "status": "verified",
+      "detail": "Native identity sections, active/unlocked prepared drives only, no additional native observation. Rings-only and all-stage UI actions changed 5 and 16 relationships respectively; native ranges/programs and drive settings preserved. 56 affected backend checks and compact/wide UI passed. User handles native timeline pausing."
+    },
+    {
+      "name": "Figure card and collapsed rack",
+      "status": "verified",
+      "detail": "Restored Figure with valid native bindings and current Twitch/Melt semantics. All cards start with color, alpha and detailed sliders hidden; Controls expands them. Six existing drive settings survived reload. Native standalone display and compact/wide mocked interactions passed."
+    },
+    {
+      "name": "Automatic native phase preparation",
+      "status": "verified",
+      "detail": "No hardcoded clip or parameter list. Figure second Transform detected X/Y/Scale; native play/pause handoff, persistent Drive off and static manual adjustment passed. All captured ranges/programs/static values preserved. 157 regression and 53 affected checks passed; isolated UI and standalone native delivery passed. Refresh after structural edits. Performer feel and native save/reopen remain open."
+    },
+    {
+      "name": "Shell native phase pilot",
+      "status": "verified",
+      "detail": "Performer accepted Shell pilot. It is superseded by generic paused-Timeline detection. Historical native movement, range/program preservation, Drive off/resume and relaunch evidence remains available."
+    },
+    {
+      "name": "Composition Goo and all controls open",
+      "status": "verified",
+      "detail": "Composition-wide Goo with all controls exposed; Stage-only Goo disabled. All rack sections open by default. Melt hit removed from buttons and loop choices. Invert A remains visible and verified."
+    },
+    {
+      "name": "Tonight\u2019s three-section Perform",
+      "status": "verified",
+      "detail": "Tonight\u2019s Stage / Field + Content / Feedback Perform is installed. Stage Goo/Distort access, stronger Twitch, full-alpha hit fix and Invert A are verified. Figure parked for tomorrow."
+    },
+    {
+      "name": "Feedback sculpting and trigger loops",
+      "status": "verified",
+      "detail": "Four mirror variants, Invert RGB, Blur, Sharpen, individual Alpha and shaping controls; native switching and loop restoration passed."
+    },
+    {
+      "name": "Ground / Room / Void stronger motion",
+      "status": "built",
+      "detail": "Wider camera ranges and approximately16/24/32-second periods preserve saved poses. Offline checks pass; performer confirmation of the current rendered result remains open."
+    },
+    {
+      "name": "Clip library cleanup",
+      "status": "verified",
+      "detail": "208 Figure/Field slots grouped into 169 visible shader families. Version buttons retain originals and repaired variants. Previous/Next/Random step between families; no native layer rearrangement or deletion."
+    },
+    {
+      "name": "Original ranges + Heart drives",
+      "status": "verified",
+      "detail": "246 baselines validate; all 208 Figure/Field clips have starting profiles. Reference timelines become Heart Low/High and start automatically; Family/Rate/Shuffle and Reset clip work. Six native launches, bounded motion and revisit passed. Some fallback controls use a recorded current baseline; full visual matching remains open."
+    },
+    {
+      "name": "Tap tempo",
+      "status": "verified",
+      "detail": "Native Tap and Heart readback measured about 120 BPM from half-second taps; restored 60 BPM. Downbeat also resyncs Resolume."
+    },
+    {
+      "name": "Performance Rack",
+      "status": "verified",
+      "detail": "All three native scopes passed: separate LUT enable and Decon event; Pixel Melt latch releases while opacity stays 1 and bypass stays false. Standalone Figure latch also verified. Color retained."
+    },
+    {
+      "name": "Combined motion / clips / effects panel",
+      "status": "verified",
+      "detail": "Full composition connected. Five simultaneous Figure source/shared movement drives verified through native readback after removing transport and full-scan stalls. Visual performance acceptance remains."
+    },
+    {
+      "name": "Feedback shared transform",
+      "status": "verified",
+      "detail": "Centered the feedback layer permanent Transform X from -1288.835 to 0. Native motion capture shows trails again, and the performer confirmed movement looks right. Clip timeline ranges remain intact."
+    },
+    {
+      "name": "Feedback timeline ranges",
+      "status": "verified",
+      "detail": "All 29 clips compared with Feedback Machine; 26 custom ranges and 33 timeline sources intact. One static Scale restored to 105%. New Heart drives inherit native In/Out, and Open preserves authored ranges. 79 backend tests pass; 26 native ranges rechecked after installation."
+    },
+    {
+      "name": "Playing source follow and locked Drive all",
+      "status": "verified",
+      "detail": "Playing source follows native clip changes. Figure/Field baselines auto-start authored motion; bulk Drive skips locks and closed ranges. Static starting controls remain manually adjustable. Fixed stale eject status after an unchanged empty-layer scan."
+    },
+    {
+      "name": "Central Drive bank",
+      "status": "verified",
+      "detail": "Standalone Family/Rate/Shuffle and layer Shuffle verified with eight LinearCloner drives. Ranges and undriven controls preserved; native motion continued. Pins persist across navigation/reload. Test settings restored."
+    },
+    {
+      "name": "Layer playing strip",
+      "status": "verified",
+      "detail": "Layer/effect opacity scroll and click-to-edit checked through standalone Heart against native values."
+    },
+    {
+      "name": "Compact FX rack",
+      "status": "verified",
+      "detail": "Four sections in Perform; Feedback seven toggles/alphas and five sculpt controls native-verified. Effects browser uses two columns."
+    },
+    {
+      "name": "Visible state and compact navigation",
+      "status": "verified",
+      "detail": "Source / Perform; rack and Drive bank together; Content excluded from Drives. Wheel over opacity controls does not pan containers."
+    },
+    {
+      "name": "Feedback controls and routing",
+      "status": "built",
+      "detail": "Actual capability view implemented. Native input route/accumulation/reset acceptance remains."
+    },
+    {
+      "name": "Native color controls",
+      "status": "verified",
+      "detail": "Factor/RGB manual takeover and native color clock recovery passed. Feedback alpha is effect opacity."
+    },
+    {
+      "name": "Base and Safe returns",
+      "status": "verified",
+      "detail": "Native animation and edited cross-clip motion recovery passed; test points cleared. Deliberate show looks remain to capture."
+    },
+    {
+      "name": "Physical and full-output acceptance",
+      "status": "pending",
+      "detail": "Verify the full Heart phrase and actual output first with mouse/keyboard, then repeat it with Grid and PS4 in the final phase."
+    },
+    {
+      "name": "Native Grid mixing + remaining inputs",
+      "status": "built",
+      "detail": "User mapped faders and knobs in Resolume. Keep these; add only needed Heart inputs after its playing workflow works."
+    },
+    {
+      "name": "Trackpad, PS4 and MIDI",
+      "status": "built",
+      "detail": "Existing adapters retained. Whole Grid and PS4 navigation integrate last; separate big knob and trackpad workflows stay deferred."
+    },
+    {
+      "name": "Scoped clip handoff",
+      "status": "verified",
+      "detail": "Native Figure launch preserved Field motion. Combined show-load rehearsal remains."
+    },
+    {
+      "name": "Saved layouts and grouped controls",
+      "status": "built",
+      "detail": "Existing implementation retained. Custom layout/Grab workflow and its acceptance are deferred from the minimum build."
+    },
+    {
+      "name": "Shared actions and release behavior",
+      "status": "built",
+      "detail": "IN/OUT, momentary actions, pickup and guarded releases implemented. Physical combined-input acceptance remains."
+    }
+  ],
+  "metrics": {
+    "Backend tests passed": 97,
+    "Native checks": "Shared X/Y, rotation, scale \u00b7 clip continuity \u00b7 relationships \u00b7 Hold/Home \u00b7 effect IN/OUT \u00b7 momentary 1\u21920",
+    "Physical PS4/MIDI rehearsal": "Grid faders/knobs mapped by user in Resolume \u00b7 PS4 navigation pending",
+    "Full-output rehearsal": "Performance investigation explicitly deferred by user: 60FPS baseline;30.2FPS combined,min28 in one second.",
+    "Motion delivery": "5 drives \u00b7 13.5 ms p95 native change interval \u00b7 29 ms max \u00b7 no errors",
+    "Drive bank": "Standalone UI + native readback verified \u00b7 8 drives \u00b7 settings restored",
+    "Source and bulk Drive": "Source follow + idle access \u00b7 locked ON/OFF \u00b7 native 7 + 1 drive check passed",
+    "Authored clips": "178 clips \u00b7 1,089 controls \u00b7 321 timelines \u00b7 202 repaired",
+    "Performance rack": "Four sections; all native switch/alpha/sculpt/loop acceptance passed",
+    "Original ranges": "246 identities validated \u00b7 339 prepared motion controls \u00b7 six live launches",
+    "Session checks": "39 focused rack/config tests;14 affected motion tests;compact/wide interface suites passed.",
+    "Timing regression checks": 157,
+    "Steady delivery investigation": "Recent engine max 14.71 ms; route interval p95 ~10.8 ms; 201.6 ms lease-expiry interruption remains unresolved."
+  },
+  "events": [
+    {
+      "at": "2026-09-12T19:48:32-05:00",
+      "text": "Figure has Infinite Zoom and Low Rez one-shot buttons, alpha controls collapsed by default, and both kick/snare choices. Exact existing effect bindings preserve the tuned looks. 41 backend checks and compact/wide mocked click, keyboard, assignment and layout checks passed. Installed standalone buttons are present and Figure reports ready; live hits were not fired during tuning."
+    },
+    {
+      "at": "2026-09-12T19:17:08-05:00",
+      "text": "Installed fixes for motion-save and catalogue timing stalls. Delayed native control replies can still interrupt delivery; smooth playback remains under investigation. PS4 direction: Tap, Downbeat, kick/snare effect and pattern selection."
+    },
+    {
+      "at": "2026-09-11T22:03:51.762551-05:00",
+      "text": "Perform combines rack and Drives. Feedback sculpting controls are installed and native-verified. Content is excluded from Drives. Two-column effects and opacity scroll fixes are installed. Field rendered-motion confirmation remains open."
+    },
+    {
+      "at": "2026-09-11T20:05:38.059107-05:00",
+      "text": "Installed and checked: original ranges drive ordinary Heart motion; grouped clip versions; separate LUT enable/Decon and Pixel Melt latch. Six live launches and all three rack rows pass. Full-library visual acceptance remains."
+    },
+    {
+      "at": "2026-09-11T19:19:49.357805-05:00",
+      "text": "Decon / Pixel Melt rack, native Original / Shuffle / Rate and Tap are installed. 178 matched clip programs verified; 202 stopped timelines repaired. Ten layer drives retained. Visual/musical acceptance remains."
+    },
+    {
+      "at": "2026-09-11T17:04:05.784448-05:00",
+      "text": "Added Drive all to the editor and bank plus per-parameter locks. Bulk Drive and Shuffle skip locked parameters without changing their current Drive state. Playing clip names open their source/instrument; clip effect controls are direct buttons. Source selection follows native clip changes and layer reordering, preserving layer-effect selection. Idle playing instruments appear in Drives. 73 backend checks and isolated UI sequence passed. Standalone OFF stopped seven unlocked drives while one locked drive continued; ON resumed them, ranges preserved and test locks restored."
+    },
+    {
+      "at": "2026-09-11T16:42:03.592909-05:00",
+      "text": "Installed the central Drive bank. Active source/effect rows appear by layer; pins stay available across navigation, idle and reload. Family/Rate/Shuffle and Shuffle layer use shared backend actions. Shuffle preserves families, bounds, Amount and undriven controls with continuous transitions. All 70 backend tests pass; isolated UI and actual protocol checks pass. Standalone test changed LinearCloner family/rate and shuffled its eight drives, with native movement confirmed. Restored settings and left its row pinned."
+    },
+    {
+      "at": "2026-09-11T16:15:44.264832-05:00",
+      "text": "Diagnosed outline misalignment: its live layer canvas was 3840\u00d71440, while the saved composition, reference stage layer and stage group use 1920\u00d7720 before the group\u2019s 200% scale. Restored only outline width/height to the saved values and confirmed native readback. Dimensions were static and outside Heart\u2019s controllable parameter catalog; what changed them is unknown. Composition was not saved to disk."
+    },
+    {
+      "at": "2026-09-11T16:11:26.222733-05:00",
+      "text": "Installed numeric Low/High scrubbing with continuous range updates, Shift fine control, native/opposite-bound limits, integer-aware increments, click-to-type and Escape cancellation. Isolated pointer/keyboard regression passed, including drive continuity, disabled-state protection and stable row positions. Native panel reloaded and all eight previously running drives resumed."
+    },
+    {
+      "at": "2026-09-11T15:59:16.607450-05:00",
+      "text": "Removed full-composition WebSocket traffic from motion delivery; use small HTTP parameter reads/writes and 120 Hz generation. Armed discovery follows active clips through small requests. Five simultaneous Figure source/shared Transform drives passed: 4,795 updates, observed native intervals 13.5 ms p95 / 29 ms max, no errors. Native effect bypass switching passed. Restored test values/settings and left Heart armed. Performer/rendered-frame acceptance remains separate."
+    },
+    {
+      "at": "2026-09-11T15:32:24.496830-05:00",
+      "text": "Installed direct effect pads with separate Edit/Pin actions, a persistent Pinned bank across layers, layer colors matching navigation and explicit ON/OFF state. Verified mouse/keyboard, rapid toggles, unchanged editor, stable pad positions, pin persistence and missing targets in isolation. Native test enabled Delay Invert and Figure Twitch together, stopped each independently and restored both initial values. Both pins remain available; Heart is armed."
+    },
+    {
+      "at": "2026-09-11T15:20:26.754479-05:00",
+      "text": "Removed the user-requested duplicate added Transform from Figure. Fixed the effect grid filtering out permanent effects without opacity or bypass. Isolated check opens the permanent Transform and its X controls directly from the grid."
+    },
+    {
+      "at": "2026-09-11T15:14:42.411819-05:00",
+      "text": "Replaced primary navigation dropdowns with named layer buttons, Source/Movement shortcuts and scoped effect names. Added selected-effect IN/OUT/Hold/bypass controls and configurable layer visibility. Portal/stage is explicitly outside Heart for this show; native MIDI handles it. Full composition connected. Motion timing investigation paused without a timing fix."
+    },
+    {
+      "at": "2026-09-11T14:46:13.737742-05:00",
+      "text": "Removed layer pagination. All filtered layers render in one scrollable area, with subscriptions following visible strips. Motion output bars are editable sliders; manual takeover stops only the edited Drive and preserves its range. Focused mouse/keyboard regression passed. Native check: dragging Fuzzyness to 0.5 read back 0.5 in Resolume; Amount, Rotation and Position drives kept running. Original driven set resumed afterward."
+    },
+    {
+      "at": "2026-09-11T14:33:36.158655-05:00",
+      "text": "Saved show snapshot, built small Resolume rig, installed combined panel. Fixed range input commits and verified shared Transform motion, clip continuity, Hold/Home, IN/OUT and keyboard momentary release against native output."
+    },
+    {
+      "at": "2026-09-11T18:11:36.745575+00:00",
+      "text": "Phases 1\u20132 candidate implemented and isolated checks pass. Added native parameter subscriptions. User settled on native Grid mixing/master and Heart clip/motion navigation. Recovery simplified to Base and Safe."
+    },
+    {
+      "at": "2026-09-11T17:17:14.666159+00:00",
+      "text": "User reprioritized: complete Heart with mouse and keyboard first. Hardware mapping is the final integration phase. Next batch is the layer playing workflow and FX rack; all instrument/recall/output requirements retained."
+    },
+    {
+      "at": "2026-09-11T17:13:26.601939+00:00",
+      "text": "Corrected scope: functional controller is only the first dependency. Restored all Heart show requirements as five phases. Grid means faders, knobs and buttons. Only explicit hardware/workflow deferrals remain; no feature implementation or testing occurred."
+    },
+    {
+      "at": "2026-09-11T17:08:16.950466+00:00",
+      "text": "User reduced the minimum scope: backend direct fader wiring first; PS4 strictly navigation with behavior deferred to frontend. Recorded MVP-SPEC.md and replaced the 64-check procedure with four basic wiring checks. No new tests were run."
+    },
+    {
+      "at": "2026-09-11T16:51:09.610729+00:00",
+      "text": "Added the full control-foundation acceptance procedure with 64 checks and a run record. All new-run results remain untested. Updated the immediate next step from feature building to acceptance."
+    },
+    {
+      "at": "2026-09-11T16:42:22.874519+00:00",
+      "text": "Replaced the stale pilot roadmap with the full agreed show spec. Controller implementation is built; physical acceptance remains separate. SHOW-CHECKLIST.md is the concise checklist."
+    },
+    {
+      "at": "2026-09-11T14:21:09.946307+00:00",
+      "text": "Safe surface update repairs and generic effect-opacity IN/OUT envelopes implemented on disk. Isolated browser and mock-output verification completed; deployment and physical MIDI rehearsal pending. Running armed session preserved."
+    },
+    {
+      "at": "2026-09-10T20:36:12.454348+00:00",
+      "text": "Roadmap corrected: 2 of 8 milestones verified. Built features are not counted as verified readiness. Next: sustained live-load responsiveness."
+    },
+    {
+      "at": "2026-09-10T20:32:43.868717+00:00",
+      "text": "Live pilot passed; previous tested parameter values restored. Motion capture confirms visible evolution, not a frame-perfect smoothness certification."
+    },
+    {
+      "at": "2026-09-10T20:25:55.391431+00:00",
+      "text": "First pilot built and tested without changing live Resolume parameters. See README for explicit limits."
+    },
+    {
+      "at": "2026-09-10T20:21:05.520272+00:00",
+      "text": "V2 built separately; read-only startup prevents competing with v1."
+    }
+  ],
+  "execution": "ready",
+  "execution_note": "Heart rearmed after one update; current captured controls and one running Figure drive restored. Native tempo70 BPM; original Hold false. Performance investigation stopped at user direction.",
+  "next": {
+    "title": "Finish Field motion acceptance and capture show returns",
+    "detail": "Confirm Ground/Room/Void rendered motion, then capture deliberate Base and Safe looks. Native duplicate cleanup is not claimed complete.",
+    "done_when": "The performer confirms Field motion and chooses the two show return states."
+  },
+  "roadmap": [
+    {
+      "name": "Combined motion / clips / effects panel",
+      "status": "verified",
+      "detail": "Small native rig verified; full composition connected. Full-show X/Y smoothness and output acceptance remain."
+    },
+    {
+      "name": "Playing source follow and locked Drive all",
+      "status": "verified",
+      "detail": "Playing clip name opens the instrument; router clips expose their effect controls. Source view follows clip changes by stable layer ID. Idle instruments appear in Drives. Bulk ON/OFF skips locks and preserves ranges; native seven-drive test passed, with one locked drive continuing."
+    },
+    {
+      "name": "Central Drive bank",
+      "status": "verified",
+      "detail": "Standalone Family/Rate/Shuffle and layer Shuffle verified with eight LinearCloner drives. Ranges and undriven controls preserved; native motion continued. Pins persist across navigation/reload. Test settings restored."
+    },
+    {
+      "name": "Layer playing strip",
+      "status": "verified",
+      "detail": "Layer/effect opacity scroll and click-to-edit checked through standalone Heart against native values."
+    },
+    {
+      "name": "Compact FX rack",
+      "status": "verified",
+      "detail": "Four sections in Perform; Feedback seven toggles/alphas and five sculpt controls native-verified. Effects browser uses two columns."
+    },
+    {
+      "name": "Visible state and compact navigation",
+      "status": "verified",
+      "detail": "Source / Perform; rack and Drive bank together; Content excluded from Drives. Wheel over opacity controls does not pan containers."
+    },
+    {
+      "name": "Feedback controls and routing",
+      "status": "built",
+      "detail": "Actual capability view implemented. Native input route/accumulation/reset acceptance remains."
+    },
+    {
+      "name": "Native color controls",
+      "status": "verified",
+      "detail": "Factor/RGB manual takeover and native color clock recovery passed. Feedback alpha is effect opacity."
+    },
+    {
+      "name": "Base and Safe returns",
+      "status": "verified",
+      "detail": "Native animation and edited cross-clip motion recovery passed; test points cleared. Deliberate show looks remain to capture."
+    },
+    {
+      "name": "Physical and full-output acceptance",
+      "status": "pending",
+      "detail": "Verify the full Heart phrase and actual output first with mouse/keyboard, then repeat it with Grid and PS4 in the final phase."
+    },
+    {
+      "name": "Native Grid mixing + remaining inputs",
+      "status": "built",
+      "detail": "User mapped faders and knobs in Resolume. Keep these; add only needed Heart inputs after its playing workflow works."
+    },
+    {
+      "name": "Trackpad, PS4 and MIDI",
+      "status": "built",
+      "detail": "Existing adapters retained. Whole Grid and PS4 navigation integrate last; separate big knob and trackpad workflows stay deferred."
+    },
+    {
+      "name": "Scoped clip handoff",
+      "status": "verified",
+      "detail": "Native Figure launch preserved Field motion. Combined show-load rehearsal remains."
+    },
+    {
+      "name": "Saved layouts and grouped controls",
+      "status": "built",
+      "detail": "Existing implementation retained. Custom layout/Grab workflow and its acceptance are deferred from the minimum build."
+    },
+    {
+      "name": "Shared actions and release behavior",
+      "status": "built",
+      "detail": "IN/OUT, momentary actions, pickup and guarded releases implemented. Physical combined-input acceptance remains."
+    }
+  ],
+  "later": [
+    "Trackpad workflows",
+    "Custom performance layouts/Grab",
+    "Optional Boustrophedon visual/material refinement after functionality"
+  ]
+}

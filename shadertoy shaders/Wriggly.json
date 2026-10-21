@@ -1,0 +1,102 @@
+{
+  "id": "ld3SW7",
+  "name": "Wriggly",
+  "username": "huwb",
+  "description": "I was inspired by an Edge of Tomorrow talk from sony imageworks at siggraph about the Mimic's tentacles. This is an attempt at a realtime approximation. See youtube.com/watch?v=iiKeTPL6HPk . Writeup: huwbowles.com/shader-breakdown-wriggly/",
+  "tags": [
+    "tentacle",
+    "mimic"
+  ],
+  "date": "1459630416",
+  "viewed": 3204,
+  "likes": 72,
+  "published": 1,
+  "renderpass": [
+    {
+      "type": "image",
+      "name": "Image",
+      "inputs": [
+        {
+          "id": "4dXGR8",
+          "filepath": "/media/previz/buffer00.png",
+          "previewfilepath": "/media/previz/buffer00.png",
+          "type": "buffer",
+          "channel": 0,
+          "sampler": {
+            "filter": "linear",
+            "wrap": "clamp",
+            "vflip": "true",
+            "srgb": "false",
+            "internal": "byte"
+          },
+          "published": 1
+        },
+        {
+          "id": "MdcGzN",
+          "filepath": "https://soundcloud.com/moon_music/crystals?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+          "previewfilepath": "https://soundcloud.com/moon_music/crystals?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+          "type": "musicstream",
+          "channel": 1,
+          "sampler": {
+            "filter": "linear",
+            "wrap": "clamp",
+            "vflip": "true",
+            "srgb": "false",
+            "internal": "byte"
+          },
+          "published": 0
+        }
+      ],
+      "outputs": [
+        {
+          "id": "4dfGRr",
+          "channel": 0
+        }
+      ],
+      "code": "// Supposed to have music but may not work :/. Clicking pause/play in iChannel1 may fix it.\n\n// Writeup: http://www.huwbowles.com/shader-breakdown-wriggly/ . UPDATE: Sorry it's dead now,\n// might bring it back one day.\n\n// Inspired by Edge of Tomorrow Mimic tech: https://www.youtube.com/watch?v=iiKeTPL6HPk .\n// I love the way they generate the tentacles, it's shown in the video from 1:30 onwards.\n// the video shows a cross section that is swept along the length of the tentacle to generate it.\n// each circle rotates around the origin at a fixed angular rate. then collisions are resolved\n// between circles. ensuring circles don't intersect will guarantee tentacles dont intersect.\n\n// this was a challenge to do stateless and fast to raymarch against. i initially resolved hard\n// collisions between circles but this could result in extremely fast pops which gives a\n// slicing/skewed appearance, and it was hard to sort this statelessly without many evaluations\n// for smoothing etc (and i think smoothing could result in self-intersections)\n\n// instead I give each tentacle a smooth potential field (instead of a hard circle collision),\n// and use this as a force field to separate tentacles which smooths out motion. a broken\n// version of this code resulted in Inky! https://www.shadertoy.com/view/4d3SD8\n\n// sadly there can still be fast motion of the circles which results in kinks and loss of volume\n// in the tentacles. it would be possible to divide by the gradient to preserve volume but i think\n// that would double the taps, ill just leave it like this for now.\n\nvoid mainImage( out vec4 fragColor, in vec2 fragCoord )\n{\n\tvec2 uv = fragCoord.xy / iResolution.xy;\n    fragColor = vec4(0.);\n    \n    float uvr = 2.*length(uv-.5);\n    float v = pow(uvr,2.);\n    v = max(v,0.05);\n    vec3 bg = .15-.07*vec3(uvr);\n    bg.r *= .75;\n    \n    // poor mans blur. not quite box, cut off the corners to reduce boxyness\n    #define R 3.\n    float twt = 0.;\n    for( float i = -R; i <= R; i++ )\n    {\n        for( float j = -R; j <= R; j++ )\n        {\n            if( abs(i)+abs(j) > 5. ) continue; // corners not welcome\n            \n            vec4 s = texture( iChannel0, uv + 2.*v*vec2(i,j)/iResolution.xy );\n            \n            s.xyz = mix( bg, s.xyz, s.a );\n\t\t    fragColor += s;\n            twt += 1.;\n        }\n    }\n    fragColor /= twt;\n    //fragColor.xyz = pow(fragColor.xyz,vec3(1.)*(1.-v/12.*vec3(1.,.1,1.)));\n    \n    //fragColor = texture( iChannel0, uv );\n    \n    fragColor *= 2.;\n}\n"
+    },
+    {
+      "type": "buffer",
+      "name": "Buffer A",
+      "inputs": [
+        {
+          "id": "4sf3Rr",
+          "filepath": "/media/a/ad56fba948dfba9ae698198c109e71f118a54d209c0ea50d77ea546abad89c57.png",
+          "previewfilepath": "/media/ap/ad56fba948dfba9ae698198c109e71f118a54d209c0ea50d77ea546abad89c57.png",
+          "type": "texture",
+          "channel": 0,
+          "sampler": {
+            "filter": "mipmap",
+            "wrap": "repeat",
+            "vflip": "true",
+            "srgb": "false",
+            "internal": "byte"
+          },
+          "published": 1
+        },
+        {
+          "id": "4dXGR8",
+          "filepath": "/media/previz/buffer00.png",
+          "previewfilepath": "/media/previz/buffer00.png",
+          "type": "buffer",
+          "channel": 1,
+          "sampler": {
+            "filter": "linear",
+            "wrap": "clamp",
+            "vflip": "true",
+            "srgb": "false",
+            "internal": "byte"
+          },
+          "published": 1
+        }
+      ],
+      "outputs": [
+        {
+          "id": "4dXGR8",
+          "channel": 0
+        }
+      ],
+      "code": "// Edge of tomorrow mimic tech: https://www.youtube.com/watch?v=iiKeTPL6HPk\n\n//#define DRAW_SLICE\n\nstruct CamData\n{\n    vec3 ro;\n    vec3 rd;\n};\nvoid computePixelRay( in vec2 p, out CamData cam );\nvec3 blackbody(float t);\n\n// tentacle temperature (the bright pulses)\nfloat tentTemp( float idx, float z )\n{\n    float phase = 8./(idx*.5+1.);\n    float freq = 10./(idx*.4+1.);\n    float s = .5+.5*sin(1.*z+freq*iTime + 0.*phase); // 0.* is linux \"fix\"..\n    return smoothstep(0.99,1.,s);\n}\n\nfloat ten_r;\n\n// each tentacle rotates at a constant rate but in alternating directions around the center\n// of the bundle\nfloat GetAngle( float i, float t )\n{\n    float amp = .75; //.25 is subtle wriggling\n\tt += amp*sin(1.*t + 4.*iTime + float(i));\n    t += .5*iTime;\n    float dir = mod(i,2.) < 0.5 ? 1. : -1.;\n    return dir * (1./(.5*i+1.)+1.) * t + i/2.;\n}\n\n// the local position of each tentacle relative to the bundle center, at \n// the current slice (slice moves with ray)\n#define POS_CNT 5\nvec2 pos[POS_CNT];\n\n// potential field from the tentacles used as a force to separate them\nfloat Potential( int numNodes, vec2 x )\n{\n    if( numNodes == 0 ) return 0.;\n    \n    float res = 0.;\n    float k = 8.;\n    for( int i = 0; i < POS_CNT; i++ )\n    {\n        if( i == numNodes ) break;\n        // smooth min https://iquilezles.org/articles/smin\n        res += exp( -k * length( pos[i]-x ) );\n    }\n    return -log(res) / k;\n}\n\n// this popoulates the pos array. \nvoid ComputePos_Soft( float t, float z )\n{\n    // center of first tentacle always next to origin\n    float a0 = GetAngle( 0., t );\n    vec2 d0 = vec2(cos(a0),sin(a0));\n    float r0 = ten_r;\n    pos[0] = r0 * d0;\n    \n    for( int i = 1; i < POS_CNT; i++ )\n    {\n\t    float a = GetAngle( float(i), t );\n        vec2 d = vec2(cos(a),sin(a));\n        float r = ten_r;\n        \n        // tentacle bloated by energy\n        float bloat = tentTemp( float(i), z );\n        \n        // some iterations to push tentacles apart. uses potential\n        // field of other tentacles and moves out to isoline\n        for( int j = 0; j < 5; j++ )\n        {\n            r += 2.*ten_r/(1.-bloat*.2)-Potential(i,r*d);\n        }\n        \n        // save final pos\n        pos[i] = r * d;\n    }\n}\n\n// distance to tentacles\nfloat dTentacle( vec3 a, vec3 b, vec3 x, out bool inTents, out float minIdx, out vec3 ori, out vec3 ri, out vec3 up )\n{\n    // compute geometric quantities of tentacle center line\n    vec3 BA = b - a;\n    float ba2 = dot( BA, BA );\n    float t = dot( x - a, BA ) / ba2;\n    ori = a + t*BA;\n    \n    // compute dist to center, if it is too far away treat tentacles a cylinder\n    float d2 = dot( x - ori, x - ori );\n\tfloat max_r = ten_r * (2.+float(POS_CNT));\n    if( d2 > max_r )\n    {\n        inTents = false;\n        return sqrt(d2) - (max_r-ten_r);\n    }\n    inTents = true;\n    \n    float ba = sqrt(ba2);\n    vec3 BA_n = BA / ba;\n    \n    // get local frame around tentacle center line.\n    // fast orthonormalization of up and BA_n\n    // NOTE this wouldn't work if BA was a verticle line\n    up = normalize( vec3(0.,1.,0.) - BA_n.y*BA_n );\n    ri = cross( up, BA_n );\n    \n    // offset in local frame\n    vec2 off_local = vec2( dot( x - ori, ri ), dot( x - ori, up ) );\n    \n    // compute local positions of tentacle centers\n    //t += 0.025*sin(8.*t + iTime);\n    float winding = 2.;\n    ComputePos_Soft( winding * t * ba, x.z );\n    // compute min dist to all tents\n    float d = 1000.;\n    for( int i = 0; i < POS_CNT; i++ )\n    {\n        // tentacle bloated by energy\n        float bloat = tentTemp( float(i), x.z );\n        // dist to this tentacle\n        float di = (1.-.4*bloat)*length( off_local - pos[i] );\n        if( di < d )\n        {\n            // if closest then save it with index\n            d = di;\n            minIdx = float(i);\n        }\n    }\n    \n    // dist is 75% of dist to nearest tentacle, gives a bit of space between.\n    // .35 scales down ray step to help convergence\n    float r = .25*ten_r;\n    // add a bit of bumpyness\n    vec2 U = vec2(4.*t,.5);\n    r *= sqrt( textureLod( iChannel0, U, 0. ).x );\n    return .2*(d - r);\n}\n\nfloat dScene( vec3 x, out bool inTents, out float minIdx, out vec3 o, out vec3 ri, out vec3 up )\n{\n    float dtent = dTentacle( vec3(0.,0.,-2.5), vec3(0.,0.,2.5), x, inTents, minIdx, o, ri, up );\n    return dtent;\n}\nvec3 normal( vec3 pos )\n{\n    vec2 dd = vec2(0.01,0.);\n    bool dum; float dum2;\n    vec3 o, dr, du;\n    float c = dScene(pos,dum,dum2,o,dr,du);\n    return normalize(\n        vec3( dScene(pos+dd.xyy,dum,dum2,o,dr,du)-c, dScene(pos+dd.yxy,dum,dum2,o,dr,du)-c, dScene(pos+dd.yyx,dum,dum2,o,dr,du)-c )\n        );\n}\n\n#define ZFAR 15.\n#define RM_STEPS 70\nfloat rayMarch( CamData cd, out float stepsInTents, out float minIdx, out vec3 o, out vec3 ri, out vec3 up )\n{\n    stepsInTents = 0.;\n    float t = 0.;\n    for( int i = 0; i < RM_STEPS; i++ )\n    {\n        if( t > ZFAR ) break;\n        bool intents;\n        float d = dScene( cd.ro + t*cd.rd, intents, minIdx, o, ri, up );\n        if( abs(d) < 0.02 ) break;\n        t += d;\n        if( intents )\n\t        stepsInTents += 1.;\n    }\n    \n    return t;\n}\n\nvec3 drawSlice( vec2 uv )\n{\n    float t = iTime/2. + 5.5;\n    ComputePos_Soft(t, 0.);\n    float pot = Potential(5,uv);\n    float dmin = 10000.;\n    for( int i = 0; i < POS_CNT; i++ )\n    {\n        dmin = min( dmin, length( uv - pos[i] ) );\n    }\n    float tent = smoothstep(ten_r*1.1,ten_r*.9,dmin);\n    tent = .4*tent;\n    return vec3(pot)+vec3(0.,tent,0.); // pot field\n}\n\nvoid mainImage( out vec4 fragColor, in vec2 fragCoord )\n{\n    // tentacle radius\n\tten_r = 0.08;\n    \n\tvec2 uv = fragCoord.xy / iResolution.xy;\n    \n    uv = 2. * uv - 1.;\n    uv.x *= iResolution.x/iResolution.y;\n    \n    // bg\n\tfragColor = vec4(0.05);\n\n    // debug draw slice that is swept along tentacle\n    #ifdef DRAW_SLICE\n    fragColor.rgb = drawSlice( uv );\n    fragColor.a = 1.;\n    return;\n    #endif\n    \n    // sample film\n    CamData cd;\n    computePixelRay( uv, cd );\n    \n    // raymarch\n    float stepCnt;\n    float minIdx;\n    vec3 o, ri, up;\n    float z = rayMarch( cd, stepCnt, minIdx, o, ri, up );\n    \n    // mask out bg\n    if( z < ZFAR )\n    {\n        // shading pt\n        vec3 pt = cd.ro + z*cd.rd;\n        vec3 n = normal(pt);\n        \n        // diffuse col\n        fragColor.xyz = vec3(.2);\n        \n        // ndotl with light source at viewer, helps 3d look\n        fragColor.xyz *= mix(0.5,1.,clamp( dot( n, -cd.rd ), 0., 1. ));\n        \n        // AO based on iters. idea - use potential instead?\n        float ao = 1. - .5*smoothstep( 0.1, .2, stepCnt/float(RM_STEPS) );\n        fragColor = mix( fragColor, ao*fragColor, .4 );\n        \n        // add a spiral motif\n        float alph = atan( n.y, n.x );\n        alph += pt.z*7.;\n        alph = mod( alph, 2.*3.141592654 );\n        float onSpiral = smoothstep(0.2,0.,abs(fract(7.5*alph/(2.*3.141592654))-.5));\n        //bool onSpiral = fract(10.*alph/(2.*3.141592654))<.5;\n        fragColor.xyz *= mix( 1., .8, onSpiral );\n        \n        // black body radiation emitted (added)\n        float temp = tentTemp( minIdx, pt.z );\n\t\tfragColor.xyz += 2.*max(1.-onSpiral,0.05) * blackbody(temp);\n        \n        // catch lighting off other tents\n        int minIdxi = int(minIdx);\n        for( int i = 0; i < POS_CNT; i++ )\n        {\n            // dont catch lighting off self\n            if( i == minIdxi )\n                continue;\n            \n            // evaluate same temperature function to give light intensity from others\n            float tempi = tentTemp( float(i), pt.z );\n            \n            // nodotl to center of other tent\n            vec3 lpos = o + pos[i].x*ri + pos[i].y*up;\n            vec3 l = lpos - pt;\n            float ndotl = dot(n,l);\n            if( ndotl > 0. )\n            {\n                // normalize\n                ndotl = ndotl/length(l);\n                // hack color added\n\t            fragColor.xyz += pow(tempi,2.) * .75 * ndotl * vec3(1.,.7,0.4);\n            }\n        }\n        \n        // exponential fog\n        fragColor.xyz *= exp(-.1*z);\n        fragColor.a = 1.;\n    }\n    else\n    {\n        fragColor.a = 0.;\n    }\n    \n    // poor mans motion blur\n    //fragColor = mix( texture(iChannel1,fragCoord.xy/iResolution.xy), fragColor, .9 );\n}\n\nvoid computePixelRay( in vec2 p, out CamData cam )\n{\n    // camera orbits around origin\n\t\n    float camRadius = 3.8;\n\t// use mouse x coord\n    float a = -290.0; //iTime*20.;\n\tif( iMouse.z > 0. )\n\t\ta = iMouse.x;\n\tfloat theta = -(a-640.)/80.;\n    float xoff = camRadius * cos(theta);\n    float zoff = camRadius * sin(theta);\n    cam.ro = vec3(xoff,3.,zoff);\n     \n    // camera target\n    vec3 target = vec3(0.,0.,0.);\n     \n    // camera frame\n    vec3 fo = normalize(target-cam.ro);\n    vec3 ri = normalize(vec3(fo.z, 0., -fo.x ));\n    vec3 up = normalize(cross(fo,ri));\n     \n    // multiplier to emulate a fov control\n    float fov = .45;\n\t\n    // ray direction\n    cam.rd = normalize(fo + fov*p.x*ri + fov*p.y*up);\n}\n\n// blackbody borrowed from here https://www.shadertoy.com/view/MdBSRW\n// this is version has a typo, see the comments\n//2200.0\t// 1500.0 is more realistic\n#define TEMPERATURE 3800.\nvec3 blackbody(float t)\n{\n    t *= TEMPERATURE;\n    \n    float u = ( 0.860117757 + 1.54118254e-4 * t + 1.28641212e-7 * t*t ) \n            / ( 1.0 + 8.42420235e-4 * t + 7.08145163e-7 * t*t );\n    \n    float v = ( 0.317398726 + 4.22806245e-5 * t + 4.20481691e-8 * t*t ) \n            / ( 1.0 - 2.89741816e-5 * t + 1.61456053e-7 * t*t );\n\n    float x = 3.0*u / (2.0*u - 8.0*v + 4.0);\n    float y = 2.0*v / (2.0*u - 8.0*v + 4.0);\n    float z = 1.0 - x - y;\n    \n    float Y = 1.0;\n    float X = Y / y * x;\n    float Z = Y / y * z;\n\n    mat3 XYZtoRGB = mat3(3.2404542, -1.5371385, -0.4985314,\n                        -0.9692660,  1.8760108,  0.0415560,\n                         0.0556434, -0.2040259,  1.0572252);\n    \n\t// wrong, see comments\n    return XYZtoRGB * vec3(X,Y,Z) * pow(t * 0.0004, 4.0);\n}\n"
+    }
+  ]
+}

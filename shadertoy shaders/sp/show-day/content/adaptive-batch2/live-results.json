@@ -1,0 +1,156 @@
+[
+  {
+    "source": "FM \u00b7 VoroniCubes [1.5.23]",
+    "col": 35,
+    "driven": [
+      "scale",
+      "c",
+      "m"
+    ],
+    "samples": [
+      {
+        "scale": 0.42275140976943815,
+        "c": 0.4117471919953906,
+        "m": 0.020772605463866584
+      },
+      {
+        "scale": 0.4212857765597504,
+        "c": 0.4186567600804536,
+        "m": 0.02422738950639808
+      },
+      {
+        "scale": 0.4099620387022091,
+        "c": 0.4260142887715877,
+        "m": 0.02790615385196508
+      }
+    ],
+    "home_recovered": true
+  },
+  {
+    "source": "FM \u00b7 Klein bottle figure 8 immersion [1.5.26]",
+    "col": 38,
+    "driven": [
+      "Radius",
+      "Scale"
+    ],
+    "samples": [
+      {
+        "Radius": 0.19569037166557793,
+        "Scale": 0.585906135388372
+      },
+      {
+        "Radius": 0.1945689633183496,
+        "Scale": 0.6000834502278317
+      },
+      {
+        "Radius": 0.1875999323186518,
+        "Scale": 0.6148512641143032
+      }
+    ],
+    "home_recovered": true
+  },
+  {
+    "source": "FM \u00b7 PsychedeliaGenerica [1.5.27]",
+    "col": 39,
+    "driven": [
+      "scale",
+      "hue offset"
+    ],
+    "samples": [
+      {
+        "scale": 0.6319337107433481,
+        "hue offset": 0.022609913894056387
+      },
+      {
+        "scale": 0.629960948529159,
+        "hue offset": 0.02596543090679574
+      },
+      {
+        "scale": 0.6173027105452868,
+        "hue offset": 0.03016876412609239
+      }
+    ],
+    "home_recovered": true
+  },
+  {
+    "source": "FM \u00b7 QuarternionFieldDistortion [1.5.33]",
+    "col": 45,
+    "driven": [
+      "strength",
+      "field scale",
+      "sharpness"
+    ],
+    "samples": [
+      {
+        "strength": 0.9999920433869176,
+        "field scale": 0.15743745158866032,
+        "sharpness": 0.8717742184338717
+      },
+      {
+        "strength": 0.9982017045929734,
+        "field scale": 0.1637980165675228,
+        "sharpness": 0.874954500923303
+      },
+      {
+        "strength": 0.9907843812483672,
+        "field scale": 0.17190255011993738,
+        "sharpness": 0.8790067676995102
+      }
+    ],
+    "home_recovered": true
+  },
+  {
+    "source": "FM \u00b7 Cos Orbit [1.5.35]",
+    "col": 46,
+    "driven": [
+      "phase",
+      "line thickness",
+      "point thickness"
+    ],
+    "samples": [
+      {
+        "phase": 0.03997966573327058,
+        "line thickness": 0.039534079727135296,
+        "point thickness": 0.5075087837618542
+      },
+      {
+        "phase": 0.046648570862541094,
+        "line thickness": 0.04446058357999983,
+        "point thickness": 0.514349351835212
+      },
+      {
+        "phase": 0.0535822928132991,
+        "line thickness": 0.04958271491084951,
+        "point thickness": 0.5214615533265361
+      }
+    ],
+    "home_recovered": true
+  },
+  {
+    "source": "FM \u00b7 spiral intersect [1.5.40]",
+    "col": 51,
+    "driven": [
+      "g1",
+      "g2",
+      "rot1"
+    ],
+    "samples": [
+      {
+        "g1": 0.7471827576582322,
+        "g2": 0.6243903701964962,
+        "rot1": 0.5145413940612423
+      },
+      {
+        "g1": 0.7430915685248362,
+        "g2": 0.6314118118486095,
+        "rot1": 0.5215628357133556
+      },
+      {
+        "g1": 0.7296499417244728,
+        "g2": 0.6387177046120985,
+        "rot1": 0.5288687284768446
+      }
+    ],
+    "home_recovered": true
+  }
+]

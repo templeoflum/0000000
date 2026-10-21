@@ -1,0 +1,106 @@
+[
+  {
+    "behavior": "Drift",
+    "drives": [
+      [
+        "Zoom",
+        0.5021
+      ],
+      [
+        "Drift X",
+        0.4701
+      ],
+      [
+        "Drift Y",
+        0.5058
+      ],
+      [
+        "Loop Hue",
+        0.5009
+      ]
+    ],
+    "delivery": {
+      "pending": 47,
+      "coalesced": 55311,
+      "dequeued": 1685423,
+      "max_pending_age_ms": 31.68
+    }
+  },
+  {
+    "behavior": "Breathe",
+    "drives": [
+      [
+        "Zoom",
+        0.5207
+      ],
+      [
+        "Rotate",
+        0.4982
+      ],
+      [
+        "Center X",
+        0.5182
+      ],
+      [
+        "Center Y",
+        0.5235
+      ]
+    ],
+    "delivery": {
+      "pending": 47,
+      "coalesced": 56036,
+      "dequeued": 1702677,
+      "max_pending_age_ms": 31.68
+    }
+  },
+  {
+    "behavior": "Fold",
+    "drives": [
+      [
+        "Zoom",
+        0.5106
+      ],
+      [
+        "Rotate",
+        0.5029
+      ],
+      [
+        "Loop Hue",
+        0.4999
+      ],
+      [
+        "Loop Fold",
+        0.69
+      ]
+    ],
+    "delivery": {
+      "pending": 0,
+      "coalesced": 56713,
+      "dequeued": 1720071,
+      "max_pending_age_ms": 31.68
+    }
+  },
+  {
+    "behavior": "Turn",
+    "drives": [
+      [
+        "Zoom",
+        0.5143
+      ],
+      [
+        "Rotate",
+        0.5026
+      ],
+      [
+        "Loop Hue",
+        0.4996
+      ]
+    ],
+    "delivery": {
+      "pending": 47,
+      "coalesced": 57330,
+      "dequeued": 1736934,
+      "max_pending_age_ms": 31.68
+    }
+  }
+]

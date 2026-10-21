@@ -1,0 +1,64 @@
+{
+  "SchemaVersion": "1.1-ter",
+  "ArchetypeName": "Moros",
+  "SystemOfOrigin": "GR",
+  "CulturalLineage": ["Greek"],
+  "CommonAliases": ["Doom", "Fate", "Inevitable Destiny", "Impending Death"],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "To embody inevitable doom and fate; to be the inescapable destiny that approaches all mortals.",
+    "PrimaryDomain": "Mythic / Fate",
+    "ToneOrPolarity": "Inevitable / Doom",
+    "SymbolicCore": "Doom approaching, fate inescapable, the end that comes for all.",
+    "Correspondences": {
+      "Element": "Spirit/Aether",
+      "Planet": "Saturn/Pluto",
+      "Chakra": "Root",
+      "Color": "Black, Deep Grey",
+      "Animal": "Crow, Black Dog",
+      "Other": ["Dark Cloud", "Shadow", "Hourglass Empty", "Final Hour"]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": ["Doom Bringer", "Inevitable Fate", "Death Harbinger", "Final Destiny"],
+    "ComplementaryArchetypes": ["Nyx ([GR] Mother)", "Thanatos ([GR] Death)", "Moirai ([GR] Fates)"],
+    "ShadowForms": ["Fatalism", "Despair", "Giving Up"],
+    "DevelopmentalArc": [],
+    "CyclePhase": "Doom / Inevitability"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": ["Inevitable", "Doomed", "Fated", "Inescapable", "Final", "Dark"],
+    "Typologies": {
+      "MBTI": "INTJ",
+      "Enneagram": "5w4",
+      "Other": ["Death", "Fate", "Shadow"]
+    },
+    "SubVariants": ["Inevitable Doom", "Fated End", "Destiny Dark"],
+    "InternalFamily": "Acceptance of Mortality"
+  },
+  "CulturalContext": {
+    "Regions": ["Greece"],
+    "MythicAppearances": ["Son of Nyx", "Spirit of doom", "Brother to death deities"],
+    "ReligiousOrRitualUse": "Acknowledged as inevitable; philosophical meditation on mortality; shadow of all hubris.",
+    "HistoricalEvolution": "Ancient doom personification; gave root to English 'morose'; represents fatalistic acceptance.",
+    "SyncreticForms": ["Fatum (Roman)", "Doom concepts"]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "☠️",
+    "ImageryNotes": "Depicted as dark, inevitable presence; shadow that follows all mortals; doom approaching.",
+    "ArtisticExamples": ["Doom imagery", "Fate personifications", "Death allegories"],
+    "PoeticInvocation": "Moros, doom inevitable, shadow that follows every mortal from birth.",
+    "DreamForm": "A dark presence always approaching, never arriving but never leaving, inevitable"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": ["Tarot.Death", "Tarot.The_Tower", "Existentialism"],
+    "SemanticTags": ["#doom", "#fate", "#inevitability", "#mortality", "#shadow"],
+    "RitualFunction": "Meditation on mortality; acceptance of inevitable ends; confronting doom.",
+    "AIPromptSeeds": ["The personification of doom, inevitable as time itself.", "Fate's darkest face, the end that comes for all."],
+    "NarrativeHooks": ["Doom foretold", "Inevitable fate approaching", "Cannot escape destiny"]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [{"to": "Fatum (Roman)", "strength": "moderate"}, {"to": "Tarot.Death", "strength": "moderate"}]
+  },
+  "FacetRegistry": [{"facet": "Inevitable Doom", "weight": 0.6}, {"facet": "Fated End", "weight": 0.3}, {"facet": "Mortality Shadow", "weight": 0.1}]
+}

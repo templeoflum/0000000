@@ -1,0 +1,579 @@
+{
+  "mode": "exercise",
+  "started": 1789180203.174185,
+  "checks": [
+    {
+      "clip": "1d",
+      "controls": [
+        {
+          "control": "Position 1",
+          "parameter": 1789181918160,
+          "first": 0.5197955170332849,
+          "second": 0.5349441887999996,
+          "bounded": true,
+          "changed": true
+        },
+        {
+          "control": "Position 2",
+          "parameter": 1789181918161,
+          "first": 0.5047817818582286,
+          "second": 0.49714920410939306,
+          "bounded": true,
+          "changed": true
+        },
+        {
+          "control": "Angle",
+          "parameter": 1789181918162,
+          "first": 0.7587596593686868,
+          "second": 0.7637159564827574,
+          "bounded": true,
+          "changed": true
+        }
+      ]
+    },
+    {
+      "clip": "2d",
+      "controls": [
+        {
+          "control": "Turn",
+          "parameter": 1789181920923,
+          "first": 9.741843115027016e-06,
+          "second": 0.004649637397783443,
+          "bounded": true,
+          "changed": true
+        },
+        {
+          "control": "Morph",
+          "parameter": 1789181920918,
+          "first": 0.00022255525947992665,
+          "second": 0.0037490475159424807,
+          "bounded": true,
+          "changed": true
+        }
+      ]
+    },
+    {
+      "clip": "3d",
+      "controls": [
+        {
+          "control": "Tumble",
+          "parameter": 1789181923369,
+          "first": 0.5598917252376496,
+          "second": 0.5919666702457638,
+          "bounded": true,
+          "changed": true
+        },
+        {
+          "control": "Axis",
+          "parameter": 1789181923370,
+          "first": 0.2223760272559184,
+          "second": 0.21639213947634553,
+          "bounded": true,
+          "changed": true
+        }
+      ]
+    },
+    {
+      "clip": "4d",
+      "controls": [
+        {
+          "control": "W",
+          "parameter": 1789181925754,
+          "first": 0.15209534913030098,
+          "second": 0.1737136786820026,
+          "bounded": true,
+          "changed": true
+        }
+      ]
+    },
+    {
+      "clip": "shell",
+      "controls": [
+        {
+          "control": "Turn",
+          "parameter": 1789181928976,
+          "first": 0.9211421912746884,
+          "second": 0.9348088114025506,
+          "bounded": true,
+          "changed": true
+        },
+        {
+          "control": "Morph",
+          "parameter": 1789181928968,
+          "first": 0.2572895773431161,
+          "second": 0.24202373721136244,
+          "bounded": true,
+          "changed": true
+        }
+      ]
+    },
+    {
+      "clip": "hybrid",
+      "controls": [
+        {
+          "control": "W",
+          "parameter": 1789181930128,
+          "first": -0.3061518580272907,
+          "second": -0.2916376460720669,
+          "bounded": true,
+          "changed": true
+        }
+      ]
+    },
+    {
+      "clip": "ground",
+      "controls": [
+        {
+          "control": "Travel",
+          "parameter": 1789181918117,
+          "first": 0.9424277181926848,
+          "second": 0.9517238923821726,
+          "bounded": true,
+          "changed": true
+        },
+        {
+          "control": "Sway",
+          "parameter": 1789181918115,
+          "first": 0.03788419359716522,
+          "second": 0.017744928130159376,
+          "bounded": true,
+          "changed": true
+        },
+        {
+          "control": "Bob",
+          "parameter": 1789181918116,
+          "first": -0.3873563147559328,
+          "second": -0.37889060982913314,
+          "bounded": true,
+          "changed": true
+        }
+      ]
+    },
+    {
+      "clip": "room",
+      "controls": [
+        {
+          "control": "Travel",
+          "parameter": 1789181918208,
+          "first": 0.4138095285860873,
+          "second": 0.42793714758590734,
+          "bounded": true,
+          "changed": true
+        },
+        {
+          "control": "Sway",
+          "parameter": 1789181918206,
+          "first": -0.8200964714005263,
+          "second": -0.8361328367532816,
+          "bounded": true,
+          "changed": true
+        },
+        {
+          "control": "Bob",
+          "parameter": 1789181918207,
+          "first": -0.5315967002551654,
+          "second": -0.5226805091085945,
+          "bounded": true,
+          "changed": true
+        }
+      ]
+    },
+    {
+      "clip": "void",
+      "controls": [
+        {
+          "control": "Travel",
+          "parameter": 1789181923324,
+          "first": 0.8650732572908917,
+          "second": 0.8789783898289063,
+          "bounded": true,
+          "changed": true
+        },
+        {
+          "control": "Sway",
+          "parameter": 1789181923322,
+          "first": 0.014996785079040675,
+          "second": -0.0008431845667853377,
+          "bounded": true,
+          "changed": true
+        },
+        {
+          "control": "Bob",
+          "parameter": 1789181923323,
+          "first": -0.20190423959319792,
+          "second": -0.19456271614183585,
+          "bounded": true,
+          "changed": true
+        }
+      ]
+    }
+  ],
+  "restoration": {
+    "complete": true,
+    "retained_drives": 10,
+    "level_readback": {},
+    "hold": false,
+    "bpm_before": 70.0,
+    "bpm_after": 70.0,
+    "tempo_written": false,
+    "clip_phase_continuity": "Relaunched clips resume settings; exact previous phase is unavailable."
+  },
+  "scope": "Native parameter delivery only; rendered FPS and visual acceptance are measured separately.",
+  "plan": [
+    {
+      "layer_id": 1788149968008,
+      "clip_id": 1788149968298,
+      "name": "1d",
+      "layer": "figure",
+      "controls": [
+        {
+          "clip": "1d",
+          "clip_id": 1788149968298,
+          "layer_id": 1788149968008,
+          "source": "Video Router",
+          "target": "effect:1788357990347",
+          "parameter": 1789181918160,
+          "control": "Position 1",
+          "value": 0.5185897036852589,
+          "low": 0.4585897036852589,
+          "high": 0.578589703685259,
+          "phase": 0.2499999999999999,
+          "nominal_seconds": 48
+        },
+        {
+          "clip": "1d",
+          "clip_id": 1788149968298,
+          "layer_id": 1788149968008,
+          "source": "Video Router",
+          "target": "effect:1788357990347",
+          "parameter": 1789181918161,
+          "control": "Position 2",
+          "value": 0.5053847111553785,
+          "low": 0.46038471115537855,
+          "high": 0.5503847111553786,
+          "phase": 0.7500000000000001,
+          "nominal_seconds": 64
+        },
+        {
+          "clip": "1d",
+          "clip_id": 1788149968298,
+          "layer_id": 1788149968008,
+          "source": "Video Router",
+          "target": "effect:1788357990347",
+          "parameter": 1789181918162,
+          "control": "Angle",
+          "value": 0.7583688682768924,
+          "low": 0.7233688682768924,
+          "high": 0.7933688682768925,
+          "phase": 0.25,
+          "nominal_seconds": 80
+        }
+      ]
+    },
+    {
+      "layer_id": 1788149968008,
+      "clip_id": 1788149968442,
+      "name": "2d",
+      "layer": "figure",
+      "controls": [
+        {
+          "clip": "2d",
+          "clip_id": 1788149968442,
+          "layer_id": 1788149968008,
+          "source": "SP Atom Figure 2D",
+          "target": "source:1788149968442",
+          "parameter": 1789181920923,
+          "control": "Turn",
+          "value": 0.0,
+          "low": 0.0,
+          "high": 0.125,
+          "phase": 2.168404344971009e-19,
+          "nominal_seconds": 48
+        },
+        {
+          "clip": "2d",
+          "clip_id": 1788149968442,
+          "layer_id": 1788149968008,
+          "source": "SP Atom Figure 2D",
+          "target": "source:1788149968442",
+          "parameter": 1789181920918,
+          "control": "Morph",
+          "value": 0.0,
+          "low": 0.0,
+          "high": 0.18,
+          "phase": 0.0,
+          "nominal_seconds": 64
+        }
+      ]
+    },
+    {
+      "layer_id": 1788149968008,
+      "clip_id": 1788149968406,
+      "name": "3d",
+      "layer": "figure",
+      "controls": [
+        {
+          "clip": "3d",
+          "clip_id": 1788149968406,
+          "layer_id": 1788149968008,
+          "source": "SP Atom Solid",
+          "target": "source:1788149968406",
+          "parameter": 1789181923369,
+          "control": "Tumble",
+          "value": 0.5580216457492497,
+          "low": 0.43302164574924973,
+          "high": 0.6830216457492497,
+          "phase": 0.25,
+          "nominal_seconds": 48
+        },
+        {
+          "clip": "3d",
+          "clip_id": 1788149968406,
+          "layer_id": 1788149968008,
+          "source": "SP Atom Solid",
+          "target": "source:1788149968406",
+          "parameter": 1789181923370,
+          "control": "Axis",
+          "value": 0.2227733458097169,
+          "low": 0.18777334580971689,
+          "high": 0.2577733458097169,
+          "phase": 0.75,
+          "nominal_seconds": 64
+        }
+      ]
+    },
+    {
+      "layer_id": 1788149968008,
+      "clip_id": 1788149968262,
+      "name": "4d",
+      "layer": "figure",
+      "controls": [
+        {
+          "clip": "4d",
+          "clip_id": 1788149968262,
+          "layer_id": 1788149968008,
+          "source": "SP Atom 4D",
+          "target": "source:1788149968262",
+          "parameter": 1789181925754,
+          "control": "W",
+          "value": 0.15149325626204235,
+          "low": 0.03149325626204236,
+          "high": 0.27149325626204235,
+          "phase": 0.25,
+          "nominal_seconds": 64
+        }
+      ]
+    },
+    {
+      "layer_id": 1788149968008,
+      "clip_id": 1788149968226,
+      "name": "shell",
+      "layer": "figure",
+      "controls": [
+        {
+          "clip": "shell",
+          "clip_id": 1788149968226,
+          "layer_id": 1788149968008,
+          "source": "SP Atom 4D Field",
+          "target": "source:1788149968226",
+          "parameter": 1789181928976,
+          "control": "Turn",
+          "value": 0.9198988384998305,
+          "low": 0.8398988384998305,
+          "high": 0.9998988384998304,
+          "phase": 0.25,
+          "nominal_seconds": 64
+        },
+        {
+          "clip": "shell",
+          "clip_id": 1788149968226,
+          "layer_id": 1788149968008,
+          "source": "SP Atom 4D Field",
+          "target": "source:1788149968226",
+          "parameter": 1789181928968,
+          "control": "Morph",
+          "value": 0.25758291483357415,
+          "low": 0.15758291483357414,
+          "high": 0.3575829148335742,
+          "phase": 0.75,
+          "nominal_seconds": 80
+        }
+      ]
+    },
+    {
+      "layer_id": 1788149968008,
+      "clip_id": 1788149968334,
+      "name": "hybrid",
+      "layer": "figure",
+      "controls": [
+        {
+          "clip": "hybrid",
+          "clip_id": 1788149968334,
+          "layer_id": 1788149968008,
+          "source": "SP Atom Hybrid",
+          "target": "source:1788149968334",
+          "parameter": 1789181930128,
+          "control": "W",
+          "value": -0.3065691233140655,
+          "low": -0.4065691233140655,
+          "high": -0.2065691233140655,
+          "phase": 0.25,
+          "nominal_seconds": 80
+        }
+      ]
+    },
+    {
+      "layer_id": 1788149967550,
+      "clip_id": 1788405553998,
+      "name": "ground",
+      "layer": "field",
+      "controls": [
+        {
+          "clip": "ground",
+          "clip_id": 1788405553998,
+          "layer_id": 1788149967550,
+          "source": "SP Atom Ground",
+          "target": "source:1788405553998",
+          "parameter": 1789181918117,
+          "control": "Travel",
+          "value": 0.9419238403656464,
+          "low": 0.8869238403656463,
+          "high": 0.9969238403656464,
+          "phase": 0.25,
+          "nominal_seconds": 64
+        },
+        {
+          "clip": "ground",
+          "clip_id": 1788405553998,
+          "layer_id": 1788149967550,
+          "source": "SP Atom Ground",
+          "target": "source:1788405553998",
+          "parameter": 1789181918115,
+          "control": "Sway",
+          "value": 0.03898354411594718,
+          "low": -0.041016455884052824,
+          "high": 0.11898354411594718,
+          "phase": 0.75,
+          "nominal_seconds": 48
+        },
+        {
+          "clip": "ground",
+          "clip_id": 1788405553998,
+          "layer_id": 1788149967550,
+          "source": "SP Atom Ground",
+          "target": "source:1788405553998",
+          "parameter": 1789181918116,
+          "control": "Bob",
+          "value": -0.38781438747208163,
+          "low": -0.44781438747208163,
+          "high": -0.32781438747208164,
+          "phase": 0.25,
+          "nominal_seconds": 80
+        }
+      ]
+    },
+    {
+      "layer_id": 1788149967550,
+      "clip_id": 1788405554006,
+      "name": "room",
+      "layer": "field",
+      "controls": [
+        {
+          "clip": "room",
+          "clip_id": 1788405554006,
+          "layer_id": 1788149967550,
+          "source": "SP Atom Room",
+          "target": "source:1788405554006",
+          "parameter": 1789181918208,
+          "control": "Travel",
+          "value": 0.41318224460216135,
+          "low": 0.33318224460216134,
+          "high": 0.49318224460216137,
+          "phase": 0.25,
+          "nominal_seconds": 64
+        },
+        {
+          "clip": "room",
+          "clip_id": 1788405554006,
+          "layer_id": 1788149967550,
+          "source": "SP Atom Room",
+          "target": "source:1788405554006",
+          "parameter": 1789181918206,
+          "control": "Sway",
+          "value": -0.8197155590920566,
+          "low": -0.8797155590920567,
+          "high": -0.7597155590920566,
+          "phase": 0.75,
+          "nominal_seconds": 48
+        },
+        {
+          "clip": "room",
+          "clip_id": 1788405554006,
+          "layer_id": 1788149967550,
+          "source": "SP Atom Room",
+          "target": "source:1788405554006",
+          "parameter": 1789181918207,
+          "control": "Bob",
+          "value": -0.5318827838511831,
+          "low": -0.5918827838511831,
+          "high": -0.47188278385118315,
+          "phase": 0.2499999999999999,
+          "nominal_seconds": 80
+        }
+      ]
+    },
+    {
+      "layer_id": 1788149967550,
+      "clip_id": 1788405553990,
+      "name": "void",
+      "layer": "field",
+      "controls": [
+        {
+          "clip": "void",
+          "clip_id": 1788405553990,
+          "layer_id": 1788149967550,
+          "source": "SP Atom Void",
+          "target": "source:1788405553990",
+          "parameter": 1789181923324,
+          "control": "Travel",
+          "value": 0.8643361410610267,
+          "low": 0.7843361410610268,
+          "high": 0.9443361410610267,
+          "phase": 0.25,
+          "nominal_seconds": 64
+        },
+        {
+          "clip": "void",
+          "clip_id": 1788405553990,
+          "layer_id": 1788149967550,
+          "source": "SP Atom Void",
+          "target": "source:1788405553990",
+          "parameter": 1789181923322,
+          "control": "Sway",
+          "value": 0.015512783915341055,
+          "low": -0.04448721608465894,
+          "high": 0.07551278391534105,
+          "phase": 0.75,
+          "nominal_seconds": 48
+        },
+        {
+          "clip": "void",
+          "clip_id": 1788405553990,
+          "layer_id": 1788149967550,
+          "source": "SP Atom Void",
+          "target": "source:1788405553990",
+          "parameter": 1789181923323,
+          "control": "Bob",
+          "value": -0.20220211901104113,
+          "low": -0.2522021190110411,
+          "high": -0.15220211901104114,
+          "phase": 0.25,
+          "nominal_seconds": 80
+        }
+      ]
+    }
+  ],
+  "skipped": [],
+  "line_opacity": 0.0,
+  "passed": true
+}

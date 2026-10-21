@@ -1,0 +1,860 @@
+{
+  "id": 1788780037751,
+  "name": {
+    "valuetype": "ParamString",
+    "id": 1788822430622,
+    "value": "FM \u00b7 Spikeball_v2 [1.6.26]"
+  },
+  "colorid": {
+    "id": 1788822430626,
+    "valuetype": "ParamChoice",
+    "value": "1",
+    "index": 0,
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  },
+  "selected": {
+    "id": 1788822430666,
+    "valuetype": "ParamTrigger",
+    "value": true
+  },
+  "connected": {
+    "value": "Connected",
+    "valuetype": "ParamState",
+    "options": [
+      "Empty",
+      "Disconnected",
+      "Previewing",
+      "Connected",
+      "Connected & previewing"
+    ],
+    "index": 3,
+    "id": 1788822430638
+  },
+  "target": {
+    "id": 1788822430598,
+    "valuetype": "ParamChoice",
+    "value": "Composition Determined",
+    "index": 0,
+    "options": [
+      "Composition Determined",
+      "Active Layer",
+      "Own Layer",
+      "Free Layer",
+      "Denon Player Determined",
+      "Pioneer Player Determined"
+    ]
+  },
+  "triggerstyle": {
+    "id": 1788822430608,
+    "valuetype": "ParamChoice",
+    "value": "Composition Determined",
+    "index": 0,
+    "options": [
+      "Composition Determined",
+      "Normal",
+      "Piano",
+      "Toggle"
+    ]
+  },
+  "beatsnap": {
+    "id": 1788822430587,
+    "valuetype": "ParamChoice",
+    "value": "None",
+    "index": 1,
+    "options": [
+      "Composition Determined",
+      "None",
+      "8 Bars",
+      "4 Bars",
+      "2 Bars",
+      "1 Bar",
+      "1/2 Bar",
+      "1/4 Bar"
+    ]
+  },
+  "ignorecolumntrigger": {
+    "id": 1788822430612,
+    "valuetype": "ParamChoice",
+    "value": "Layer Determined",
+    "index": 0,
+    "options": [
+      "Layer Determined",
+      "On",
+      "Off"
+    ]
+  },
+  "faderstart": {
+    "id": 1788822430619,
+    "valuetype": "ParamChoice",
+    "value": "Layer Determined",
+    "index": 0,
+    "options": [
+      "Layer Determined",
+      "On",
+      "Off"
+    ]
+  },
+  "transporttype": {
+    "id": 1788822430592,
+    "valuetype": "ParamChoice",
+    "value": "Timeline",
+    "index": 0,
+    "options": [
+      "Timeline",
+      "BPM Sync",
+      "SMPTE 1",
+      "SMPTE 2",
+      "Denon DJ",
+      "Pioneer DJ"
+    ]
+  },
+  "transport": {
+    "position": {
+      "id": 1788823641412,
+      "valuetype": "ParamRange",
+      "min": 0.0,
+      "max": 5000.0,
+      "in": 0.0,
+      "out": 5000.0,
+      "value": 816.7242499877831
+    },
+    "controls": {
+      "playdirection": {
+        "id": 1788823641460,
+        "valuetype": "ParamChoice",
+        "value": ">",
+        "index": 2,
+        "options": [
+          "<",
+          "||",
+          ">"
+        ]
+      },
+      "playmode": {
+        "id": 1788823641461,
+        "valuetype": "ParamChoice",
+        "value": "Loop",
+        "index": 0,
+        "options": [
+          "Loop",
+          "Bounce",
+          "Random",
+          "Play Once & Clear",
+          "Play Once & Hold"
+        ]
+      },
+      "playmodeaway": {
+        "id": 1788823641464,
+        "valuetype": "ParamChoice",
+        "value": "Restart",
+        "index": 0,
+        "options": [
+          "Restart",
+          "Continue",
+          "Relative"
+        ]
+      },
+      "duration": {
+        "id": 1788823641487,
+        "valuetype": "ParamRange",
+        "min": 0.001,
+        "max": 604800.0,
+        "in": 0.001,
+        "out": 604800.0,
+        "value": 5.0
+      },
+      "speed": {
+        "id": 1788823641468,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 10.0,
+        "in": 0.0,
+        "out": 10.0,
+        "value": 0.9999999999989674
+      }
+    }
+  },
+  "transition": {
+    "layer_determined": {
+      "valuetype": "ParamBoolean",
+      "id": 1788822430820,
+      "value": true
+    },
+    "duration": {
+      "id": 1788822430826,
+      "valuetype": "ParamRange",
+      "min": 0.0,
+      "max": 10.0,
+      "in": 0.0,
+      "out": 10.0,
+      "value": 0.0
+    },
+    "blend_mode": {
+      "id": 1788822430945,
+      "valuetype": "ParamChoice",
+      "value": "Layer Determined",
+      "index": 0,
+      "options": [
+        "Layer Determined",
+        "Add",
+        "Alpha",
+        "B&W",
+        "Burn",
+        "Cube",
+        "Cut",
+        "Darken",
+        "Difference",
+        "Difference I",
+        "Displace",
+        "Dissolve",
+        "Dodge",
+        "Exclusion",
+        "Hard Light",
+        "JitterBug",
+        "Lighten",
+        "LoRez",
+        "Luma Is Alpha",
+        "Luma Key",
+        "Luma Key I",
+        "Meta Mix",
+        "Multiply",
+        "Multi Task",
+        "Noisy",
+        "Overlay",
+        "Parts",
+        "PiP",
+        "Push Down",
+        "Push Left",
+        "Push Right",
+        "Push Up",
+        "RGB",
+        "Rotate X",
+        "Rotate Y",
+        "Screen",
+        "Shift RGB",
+        "Side by Side",
+        "Soft Light",
+        "Static",
+        "Subtract",
+        "Tile",
+        "TimeSwitcher",
+        "to Black",
+        "to Color",
+        "to White",
+        "Twitch",
+        "Video Bumper",
+        "Wipe Ellipse",
+        "Zoom In",
+        "Zoom Out"
+      ]
+    },
+    "params": null
+  },
+  "dashboard": {
+    "Link 1": {
+      "id": 1788822430479,
+      "valuetype": "ParamRange",
+      "min": 0.0,
+      "max": 1.0,
+      "in": 0.0,
+      "out": 1.0,
+      "value": 0.0,
+      "view": {
+        "suffix": "",
+        "control_type": "rotary"
+      }
+    },
+    "Link 2": {
+      "id": 1788822430494,
+      "valuetype": "ParamRange",
+      "min": 0.0,
+      "max": 1.0,
+      "in": 0.0,
+      "out": 1.0,
+      "value": 0.0,
+      "view": {
+        "suffix": "",
+        "control_type": "rotary"
+      }
+    },
+    "Link 3": {
+      "id": 1788822430498,
+      "valuetype": "ParamRange",
+      "min": 0.0,
+      "max": 1.0,
+      "in": 0.0,
+      "out": 1.0,
+      "value": 0.0,
+      "view": {
+        "suffix": "",
+        "control_type": "rotary"
+      }
+    },
+    "Link 4": {
+      "id": 1788822430501,
+      "valuetype": "ParamRange",
+      "min": 0.0,
+      "max": 1.0,
+      "in": 0.0,
+      "out": 1.0,
+      "value": 0.0,
+      "view": {
+        "suffix": "",
+        "control_type": "rotary"
+      }
+    },
+    "Link 5": {
+      "id": 1788822430516,
+      "valuetype": "ParamRange",
+      "min": 0.0,
+      "max": 1.0,
+      "in": 0.0,
+      "out": 1.0,
+      "value": 0.0,
+      "view": {
+        "suffix": "",
+        "control_type": "rotary"
+      }
+    },
+    "Link 6": {
+      "id": 1788822430519,
+      "valuetype": "ParamRange",
+      "min": 0.0,
+      "max": 1.0,
+      "in": 0.0,
+      "out": 1.0,
+      "value": 0.0,
+      "view": {
+        "suffix": "",
+        "control_type": "rotary"
+      }
+    },
+    "Link 7": {
+      "id": 1788822430523,
+      "valuetype": "ParamRange",
+      "min": 0.0,
+      "max": 1.0,
+      "in": 0.0,
+      "out": 1.0,
+      "value": 0.0,
+      "view": {
+        "suffix": "",
+        "control_type": "rotary"
+      }
+    },
+    "Link 8": {
+      "id": 1788822430524,
+      "valuetype": "ParamRange",
+      "min": 0.0,
+      "max": 1.0,
+      "in": 0.0,
+      "out": 1.0,
+      "value": 0.0,
+      "view": {
+        "suffix": "",
+        "control_type": "rotary"
+      }
+    }
+  },
+  "audio": null,
+  "video": {
+    "width": {
+      "id": 1788823641616,
+      "valuetype": "ParamRange",
+      "min": 0.0,
+      "max": 16384.0,
+      "in": 0.0,
+      "out": 16384.0,
+      "value": 1920.0
+    },
+    "height": {
+      "id": 1788823641623,
+      "valuetype": "ParamRange",
+      "min": 0.0,
+      "max": 16384.0,
+      "in": 0.0,
+      "out": 16384.0,
+      "value": 1080.0
+    },
+    "opacity": {
+      "id": 1788823641613,
+      "valuetype": "ParamRange",
+      "min": 0.0,
+      "max": 1.0,
+      "in": 0.0,
+      "out": 1.0,
+      "value": 1.0
+    },
+    "mixer": {
+      "Blend Mode": {
+        "id": 1788823641680,
+        "valuetype": "ParamChoice",
+        "value": "Layer Determined",
+        "index": 0,
+        "options": [
+          "Layer Determined",
+          "50 Add",
+          "50 Burn",
+          "50 Difference",
+          "50 Distance",
+          "50 Dodge",
+          "50 Lighten",
+          "50 Mask",
+          "50 Multiply",
+          "50 Overlay",
+          "50 Subtract",
+          "Add",
+          "Alpha",
+          "B&W",
+          "Burn",
+          "Cube",
+          "Cut",
+          "Darken",
+          "Difference",
+          "Difference I",
+          "Displace",
+          "Dissolve",
+          "Dodge",
+          "Exclusion",
+          "Hard Light",
+          "JitterBug",
+          "Lighten",
+          "LoRez",
+          "Luma Is Alpha",
+          "Luma Key",
+          "Luma Key I",
+          "Meta Mix",
+          "Multiply",
+          "Multi Task",
+          "Noisy",
+          "Overlay",
+          "Parts",
+          "PiP",
+          "Push Down",
+          "Push Left",
+          "Push Right",
+          "Push Up",
+          "RGB",
+          "Rotate X",
+          "Rotate Y",
+          "Screen",
+          "Shift RGB",
+          "Side by Side",
+          "Soft Light",
+          "Static",
+          "Subtract",
+          "Tile",
+          "TimeSwitcher",
+          "to Black",
+          "to Color",
+          "to White",
+          "Twitch",
+          "Video Bumper",
+          "Wipe Ellipse",
+          "Zoom In",
+          "Zoom Out"
+        ],
+        "view": {
+          "suffix": "",
+          "control_type": "choice_combobox"
+        }
+      }
+    },
+    "effects": [
+      {
+        "id": 1788780037753,
+        "is_user_removable": false,
+        "name": "Transform",
+        "display_name": "Transform",
+        "mixer": null,
+        "params": {
+          "Position X": {
+            "id": 1788823641718,
+            "valuetype": "ParamRange",
+            "min": -16384.0,
+            "max": 16384.0,
+            "in": -16384.0,
+            "out": 16384.0,
+            "value": 0.0,
+            "view": {
+              "suffix": "",
+              "step": 1.0,
+              "display_units": "real",
+              "control_type": "spinner"
+            }
+          },
+          "Position Y": {
+            "id": 1788823641722,
+            "valuetype": "ParamRange",
+            "min": -16384.0,
+            "max": 16384.0,
+            "in": -16384.0,
+            "out": 16384.0,
+            "value": 0.0,
+            "view": {
+              "suffix": "",
+              "step": 1.0,
+              "display_units": "real",
+              "control_type": "spinner"
+            }
+          },
+          "Scale": {
+            "id": 1788823641711,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1000.0,
+            "in": 0.0,
+            "out": 1000.0,
+            "value": 100.0,
+            "view": {
+              "suffix": " %",
+              "step": 1.0,
+              "multiplier": 1.0,
+              "display_units": "percent",
+              "control_type": "slider"
+            }
+          },
+          "Scale W": {
+            "id": 1788823641713,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1000.0,
+            "in": 0.0,
+            "out": 1000.0,
+            "value": 100.0,
+            "view": {
+              "suffix": " %",
+              "step": 1.0,
+              "multiplier": 1.0,
+              "display_units": "percent",
+              "control_type": "slider"
+            }
+          },
+          "Scale H": {
+            "id": 1788823641716,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1000.0,
+            "in": 0.0,
+            "out": 1000.0,
+            "value": 100.0,
+            "view": {
+              "suffix": " %",
+              "step": 1.0,
+              "multiplier": 1.0,
+              "display_units": "percent",
+              "control_type": "slider"
+            }
+          },
+          "Rotation X": {
+            "id": 1788823641725,
+            "valuetype": "ParamRange",
+            "min": -180.0,
+            "max": 180.0,
+            "in": -180.0,
+            "out": 180.0,
+            "value": 0.0,
+            "view": {
+              "suffix": " \u00b0",
+              "step": 1.0,
+              "display_units": "degrees",
+              "control_type": "slider"
+            }
+          },
+          "Rotation Y": {
+            "id": 1788823641729,
+            "valuetype": "ParamRange",
+            "min": -180.0,
+            "max": 180.0,
+            "in": -180.0,
+            "out": 180.0,
+            "value": 0.0,
+            "view": {
+              "suffix": " \u00b0",
+              "step": 1.0,
+              "display_units": "degrees",
+              "control_type": "slider"
+            }
+          },
+          "Rotation Z": {
+            "id": 1788823641731,
+            "valuetype": "ParamRange",
+            "min": -180.0,
+            "max": 180.0,
+            "in": -180.0,
+            "out": 180.0,
+            "value": 0.0,
+            "view": {
+              "suffix": " \u00b0",
+              "step": 1.0,
+              "display_units": "degrees",
+              "control_type": "slider"
+            }
+          },
+          "Anchor X": {
+            "id": 1788823641733,
+            "valuetype": "ParamRange",
+            "min": -8192.0,
+            "max": 8192.0,
+            "in": -8192.0,
+            "out": 8192.0,
+            "value": 0.0,
+            "view": {
+              "suffix": "",
+              "step": 1.0,
+              "control_type": "slider"
+            }
+          },
+          "Anchor Y": {
+            "id": 1788823641735,
+            "valuetype": "ParamRange",
+            "min": -8192.0,
+            "max": 8192.0,
+            "in": -8192.0,
+            "out": 8192.0,
+            "value": 0.0,
+            "view": {
+              "suffix": "",
+              "step": 1.0,
+              "control_type": "slider"
+            }
+          },
+          "Anchor Z": {
+            "id": 1788823641736,
+            "valuetype": "ParamRange",
+            "min": -8192.0,
+            "max": 8192.0,
+            "in": -8192.0,
+            "out": 8192.0,
+            "value": 0.0,
+            "view": {
+              "suffix": "",
+              "step": 1.0,
+              "control_type": "slider"
+            }
+          }
+        }
+      }
+    ],
+    "description": "Spikeball_v2",
+    "fileinfo": null,
+    "r": {
+      "valuetype": "ParamBoolean",
+      "id": 1788823641689,
+      "value": true
+    },
+    "g": {
+      "valuetype": "ParamBoolean",
+      "id": 1788823641690,
+      "value": true
+    },
+    "b": {
+      "valuetype": "ParamBoolean",
+      "id": 1788823641692,
+      "value": true
+    },
+    "a": {
+      "valuetype": "ParamBoolean",
+      "id": 1788823641693,
+      "value": true
+    },
+    "resize": {
+      "id": 1788823641688,
+      "valuetype": "ParamChoice",
+      "value": "Original",
+      "index": 3,
+      "options": [
+        "Fill",
+        "Fit",
+        "Stretch",
+        "Original"
+      ]
+    },
+    "sourceparams": {
+      "Speed": {
+        "id": 1788823642925,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 3.0,
+        "in": 0.0,
+        "out": 3.0,
+        "value": 1.0,
+        "view": {
+          "suffix": "",
+          "display_units": "real"
+        }
+      },
+      "Camera Distance": {
+        "id": 1788823642926,
+        "valuetype": "ParamRange",
+        "min": 2.0,
+        "max": 15.0,
+        "in": 2.0,
+        "out": 15.0,
+        "value": 2.5,
+        "view": {
+          "suffix": "",
+          "display_units": "real"
+        }
+      },
+      "FOV": {
+        "id": 1788823642927,
+        "valuetype": "ParamRange",
+        "min": 0.5,
+        "max": 3.0,
+        "in": 0.5,
+        "out": 3.0,
+        "value": 1.5,
+        "view": {
+          "suffix": "",
+          "display_units": "real"
+        }
+      },
+      "Quat W": {
+        "id": 1788823642928,
+        "valuetype": "ParamRange",
+        "min": -1.0,
+        "max": 1.0,
+        "in": -1.0,
+        "out": 1.0,
+        "value": -0.9489547343757452,
+        "view": {
+          "suffix": "",
+          "display_units": "real"
+        }
+      },
+      "Quat X": {
+        "id": 1788823642929,
+        "valuetype": "ParamRange",
+        "min": -1.0,
+        "max": 1.0,
+        "in": -1.0,
+        "out": 1.0,
+        "value": 0.9042302708738188,
+        "view": {
+          "suffix": "",
+          "display_units": "real"
+        }
+      },
+      "Quat Y": {
+        "id": 1788823642930,
+        "valuetype": "ParamRange",
+        "min": -1.0,
+        "max": 1.0,
+        "in": -1.0,
+        "out": 1.0,
+        "value": -0.9234703663804275,
+        "view": {
+          "suffix": "",
+          "display_units": "real"
+        }
+      },
+      "Quat Z": {
+        "id": 1788823642931,
+        "valuetype": "ParamRange",
+        "min": -1.0,
+        "max": 1.0,
+        "in": -1.0,
+        "out": 1.0,
+        "value": -0.9387211697187816,
+        "view": {
+          "suffix": "",
+          "display_units": "real"
+        }
+      },
+      "Spike Sharpness": {
+        "id": 1788823642932,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.5,
+        "view": {
+          "suffix": "",
+          "display_units": "real"
+        }
+      }
+    }
+  },
+  "thumbnail": {
+    "last_update": "1788915578652319",
+    "is_default": false,
+    "id": 1788780037751,
+    "path": "/api/v1/composition/clips/by-id/1788780037751/thumbnail"
+  },
+  "autopilot": {
+    "target": {
+      "id": 1788822430810,
+      "valuetype": "ParamChoice",
+      "value": "Layer Determined",
+      "index": 0,
+      "options": [
+        "Layer Determined",
+        "Do nothing",
+        "Play Next Clip",
+        "Play Previous Clip",
+        "Play Random Clip",
+        "Play First Clip",
+        "Play Last Clip"
+      ]
+    },
+    "duration_type": {
+      "id": 1788822430681,
+      "valuetype": "ParamChoice",
+      "value": "Layer Determined",
+      "index": 0,
+      "options": [
+        "Layer Determined",
+        "Transport",
+        "Beats",
+        "Seconds"
+      ]
+    },
+    "beats": {
+      "id": 1788822430703,
+      "valuetype": "ParamRange",
+      "min": 0.015625,
+      "max": 1048576.0,
+      "in": 0.015625,
+      "out": 1048576.0,
+      "value": 4.0
+    },
+    "seconds": {
+      "id": 1788822430709,
+      "valuetype": "ParamRange",
+      "min": 0.001,
+      "max": 604800.0,
+      "in": 0.001,
+      "out": 604800.0,
+      "value": 5.0
+    },
+    "loop_count": {
+      "id": 1788822430698,
+      "valuetype": "ParamRange",
+      "min": 1.0,
+      "max": 10000.0,
+      "in": 1.0,
+      "out": 10000.0,
+      "value": 1.0
+    },
+    "random_type": {
+      "id": 1788822430689,
+      "valuetype": "ParamChoice",
+      "value": "Other",
+      "index": 1,
+      "options": [
+        "Any",
+        "Other",
+        "Bag"
+      ]
+    }
+  }
+}

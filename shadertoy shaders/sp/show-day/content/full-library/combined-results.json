@@ -1,0 +1,6146 @@
+[
+  {
+    "layer": 3,
+    "col": 1,
+    "source": "SP Atom Ground",
+    "name": "ground",
+    "status": "pass",
+    "driven": [
+      "Tilt",
+      "Sway",
+      "Bob"
+    ],
+    "moving": [
+      "Tilt",
+      "Sway",
+      "Bob"
+    ],
+    "errors": {},
+    "slots": 19,
+    "source_numeric_not_slots": [],
+    "adaptation": "Standard Open",
+    "samples": [
+      {
+        "Tilt": 0.9812936991601875,
+        "Sway": 0.22822598874312106,
+        "Bob": -0.15754167998213475
+      },
+      {
+        "Tilt": 0.9737652429226276,
+        "Sway": 0.22438859508973596,
+        "Bob": -0.15287826210212607
+      },
+      {
+        "Tilt": 0.9662786749539464,
+        "Sway": 0.2200680231093977,
+        "Bob": -0.14826064921735993
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "SP Atom Ground",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Distinct curved grid ground with intentional black sky; shuffle visibly changes orientation. No unexpected blank or flat frame.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 2,
+    "source": "SP Atom Room",
+    "name": "room",
+    "status": "pass",
+    "driven": [
+      "Tilt",
+      "Sway",
+      "Bob"
+    ],
+    "moving": [
+      "Tilt",
+      "Sway",
+      "Bob"
+    ],
+    "errors": {},
+    "slots": 25,
+    "source_numeric_not_slots": [],
+    "adaptation": "Standard Open",
+    "samples": [
+      {
+        "Tilt": 0.3438033636712181,
+        "Sway": -0.8142249945957702,
+        "Bob": -0.5310937593749385
+      },
+      {
+        "Tilt": 0.34658718764683005,
+        "Sway": -0.809435757030971,
+        "Bob": -0.5348954499999435
+      },
+      {
+        "Tilt": 0.35106821420799017,
+        "Sway": -0.8019487197545146,
+        "Bob": -0.541114968224987
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "SP Atom Room",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Detailed perspective grid room fills both frames; visible orientation change, no unexpected blank or flat frame.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 4,
+    "source": "Heart Quaternion Field",
+    "name": "Heart Quaternion Field",
+    "status": "pass",
+    "driven": [
+      "Field Scale",
+      "Axis 1 Freq",
+      "Saturation"
+    ],
+    "moving": [
+      "Field Scale",
+      "Axis 1 Freq",
+      "Saturation"
+    ],
+    "errors": {},
+    "slots": 11,
+    "source_numeric_not_slots": [],
+    "adaptation": "Standard Open",
+    "samples": [
+      {
+        "Field Scale": 0.4381224820373973,
+        "Axis 1 Freq": 0.392816276943904,
+        "Saturation": 0.58625855391619
+      },
+      {
+        "Field Scale": 0.4456985406250169,
+        "Axis 1 Freq": 0.3814521890624746,
+        "Saturation": 0.5614743695754594
+      },
+      {
+        "Field Scale": 0.4532765039125479,
+        "Axis 1 Freq": 0.3700852441311781,
+        "Saturation": 0.5344611768721118
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Heart Quaternion Field",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Full-frame vivid continuous quaternion interference texture; shuffle changes field.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 5,
+    "source": "Heart Quaternion Swell",
+    "name": "Heart Quaternion Swell",
+    "status": "pass",
+    "driven": [
+      "Field Scale",
+      "Swell Threshold",
+      "Hue Shift"
+    ],
+    "moving": [
+      "Field Scale",
+      "Swell Threshold",
+      "Hue Shift"
+    ],
+    "errors": {},
+    "slots": 7,
+    "source_numeric_not_slots": [],
+    "adaptation": "Standard Open",
+    "samples": [
+      {
+        "Field Scale": 0.5621437688658478,
+        "Swell Threshold": 0.46841758267748024,
+        "Hue Shift": 0.1432608086517221
+      },
+      {
+        "Field Scale": 0.5747367914440493,
+        "Swell Threshold": 0.4503867461386388,
+        "Hue Shift": 0.14002770948728066
+      },
+      {
+        "Field Scale": 0.5875887268253024,
+        "Swell Threshold": 0.43090976153907834,
+        "Hue Shift": 0.13588557902558404
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Heart Quaternion Swell",
+      "home": "sparse",
+      "shuffle": "sparse",
+      "notes": "Small multicolor highlights distributed across black background; shuffle increases visible density. Near-black appearance has legitimate structured content, not blank.",
+      "figure_pre_effect_containment": "not certified from composite renders",
+      "review_method": "Straight-alpha RGBA composited over black before visual inspection."
+    }
+  },
+  {
+    "layer": 3,
+    "col": 6,
+    "source": "Heart Paper Fractal",
+    "name": "Heart Paper Fractal",
+    "status": "pass",
+    "driven": [
+      "foldOffset",
+      "foldDistA",
+      "foldDistB"
+    ],
+    "moving": [
+      "foldOffset",
+      "foldDistA",
+      "foldDistB"
+    ],
+    "errors": {},
+    "slots": 13,
+    "source_numeric_not_slots": [],
+    "adaptation": "Standard Open",
+    "samples": [
+      {
+        "foldOffset": 0.010760924542373686,
+        "foldDistA": 0.32201085429378506,
+        "foldDistB": 0.10665762142184576
+      },
+      {
+        "foldOffset": 0.003022602187229495,
+        "foldDistA": 0.3258396117186748,
+        "foldDistB": 0.10346699023443762
+      },
+      {
+        "foldOffset": 0.01595972248891485,
+        "foldDistA": 0.32943325624692077,
+        "foldDistB": 0.10047228646089934
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Heart Paper Fractal",
+      "home": "cropped",
+      "shuffle": "cropped",
+      "notes": "Large shaded white folded surfaces intersect frame edges in both captures; shuffle is tighter. Structured render, possible intentional close-up; framing merits source-intent comparison.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 7,
+    "source": "Heart Vector Lattice",
+    "name": "Heart Vector Lattice",
+    "status": "pass",
+    "driven": [
+      "colorR",
+      "colorG",
+      "colorB"
+    ],
+    "moving": [
+      "colorR",
+      "colorG",
+      "colorB"
+    ],
+    "errors": {},
+    "slots": 6,
+    "source_numeric_not_slots": [],
+    "adaptation": "Standard Open",
+    "samples": [
+      {
+        "colorR": 0.4498152355062076,
+        "colorG": 0.4443261733997133,
+        "colorB": 0.6291901667052197
+      },
+      {
+        "colorR": 0.44147628730716454,
+        "colorG": 0.4870542030503202,
+        "colorB": 0.621534216882549
+      },
+      {
+        "colorR": 0.4325544614338163,
+        "colorG": 0.5340048967998883,
+        "colorB": 0.6119075391948012
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Heart Vector Lattice",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Detailed dark architectural lattice with bright orange focal lights; shuffle visibly changes view, no blank or flat frame.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 9,
+    "source": "Heart Concentrip",
+    "name": "Heart Concentrip",
+    "status": "pass",
+    "driven": [
+      "blendWidth",
+      "phase",
+      "hue"
+    ],
+    "moving": [
+      "blendWidth",
+      "phase",
+      "hue"
+    ],
+    "errors": {},
+    "slots": 6,
+    "source_numeric_not_slots": [],
+    "adaptation": "Standard Open",
+    "samples": [
+      {
+        "blendWidth": 0.6080753840791101,
+        "phase": 0.6259124947692094,
+        "hue": 0.09748873760207442
+      },
+      {
+        "blendWidth": 0.6062681496884108,
+        "phase": 0.5662719196884214,
+        "hue": 0.0799443812592347
+      },
+      {
+        "blendWidth": 0.6042175548540649,
+        "phase": 0.5080956397453129,
+        "hue": 0.06255294311799349
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Heart Concentrip",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Concentric multicolor rings fill frame with fine structured shading; shuffle changes color and structure.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 10,
+    "source": "Heart Puls Lattice",
+    "name": "Heart Puls Lattice",
+    "status": "pass",
+    "driven": [
+      "barWidth",
+      "boltWidth",
+      "pulsePhase"
+    ],
+    "moving": [
+      "barWidth",
+      "boltWidth",
+      "pulsePhase"
+    ],
+    "errors": {},
+    "slots": 7,
+    "source_numeric_not_slots": [],
+    "adaptation": "Standard Open",
+    "samples": [
+      {
+        "barWidth": 0.16783554818473753,
+        "boltWidth": 0.2644261287730515,
+        "pulsePhase": 0.6892297887602529
+      },
+      {
+        "barWidth": 0.16709195622169296,
+        "boltWidth": 0.2586005713318967,
+        "pulsePhase": 0.5965208240545696
+      },
+      {
+        "barWidth": 0.16608096081532658,
+        "boltWidth": 0.25277233250996284,
+        "pulsePhase": 0.4981656906194608
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Heart Puls Lattice",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Dense colored angular lattice in perspective, edge intersections consistent with immersive repeating scene.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 11,
+    "source": "Heart Ancient Temple",
+    "name": "Heart Ancient Temple",
+    "status": "pass",
+    "driven": [
+      "morph",
+      "colorPalette",
+      "saturation"
+    ],
+    "moving": [
+      "morph",
+      "colorPalette",
+      "saturation"
+    ],
+    "errors": {},
+    "slots": 16,
+    "source_numeric_not_slots": [],
+    "adaptation": "Standard Open",
+    "samples": [
+      {
+        "morph": 0.03495019530135998,
+        "colorPalette": 0.019232148507983285,
+        "saturation": 0.9869679108633136
+      },
+      {
+        "morph": 0.024572095430079977,
+        "colorPalette": 0.024614673952058103,
+        "saturation": 0.9476876312503008
+      },
+      {
+        "morph": 0.01445283031272328,
+        "colorPalette": 0.032288305637992766,
+        "saturation": 0.8959889031253624
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Heart Ancient Temple",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Detailed temple corridor and central sphere remain readable; shuffle changes lighting from yellow to violet.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 12,
+    "source": "Heart Kali Liberation",
+    "name": "Heart Kali Liberation",
+    "status": "pass",
+    "driven": [
+      "morphing",
+      "colorPulse",
+      "colorPalette"
+    ],
+    "moving": [
+      "morphing",
+      "colorPulse",
+      "colorPalette"
+    ],
+    "errors": {},
+    "slots": 10,
+    "source_numeric_not_slots": [],
+    "adaptation": "Standard Open",
+    "samples": [
+      {
+        "morphing": 0.7444295000124839,
+        "colorPulse": 0.4918391055987978,
+        "colorPalette": 0.19167787499063704
+      },
+      {
+        "morphing": 0.7518864898563151,
+        "colorPulse": 0.4270597942200265,
+        "colorPalette": 0.1860851326077636
+      },
+      {
+        "morphing": 0.759606630475173,
+        "colorPulse": 0.3694165046349443,
+        "colorPalette": 0.18029502714362025
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Heart Kali Liberation",
+      "home": "cropped",
+      "shuffle": "cropped",
+      "notes": "Glowing bubble cluster on black; visible foreground forms cut at bottom, with a tighter shuffle view. Nonblank; source-intent comparison needed before calling framing defect.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 13,
+    "source": "Heart Color Wheel",
+    "name": "Heart Color Wheel",
+    "status": "pass",
+    "driven": [
+      "Hue Rotation",
+      "Color Repeats",
+      "Saturation Contrast"
+    ],
+    "moving": [
+      "Hue Rotation",
+      "Color Repeats",
+      "Saturation Contrast"
+    ],
+    "errors": {},
+    "slots": 6,
+    "source_numeric_not_slots": [],
+    "adaptation": "Standard Open",
+    "samples": [
+      {
+        "Hue Rotation": 0.022781397036026708,
+        "Color Repeats": 3.462711676924118,
+        "Saturation Contrast": 1.2081925393706816
+      },
+      {
+        "Hue Rotation": 0.014775647561564492,
+        "Color Repeats": 2.92853895895596,
+        "Saturation Contrast": 1.141495388409217
+      },
+      {
+        "Hue Rotation": 0.008637781167656346,
+        "Color Repeats": 2.678257038706124,
+        "Saturation Contrast": 1.0782165124469496
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Heart Color Wheel",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Smooth full-spectrum color wheel with visible hue structure and central glow; intentionally low detail, not flat.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 15,
+    "source": "MTK_Worleyz",
+    "name": "FM \u00b7 MTK_Worleyz [1.5.2]",
+    "status": "pass",
+    "driven": [
+      "JITTER",
+      "EDGES_WIDTH",
+      "CONTRAST"
+    ],
+    "moving": [
+      "JITTER",
+      "EDGES_WIDTH",
+      "CONTRAST"
+    ],
+    "errors": {},
+    "slots": 15,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "JITTER": 1.0493155065582642,
+        "EDGES_WIDTH": 0.19646908106873937,
+        "CONTRAST": 0.9157562508961112
+      },
+      {
+        "JITTER": 1.0587979020154707,
+        "EDGES_WIDTH": 0.19366806621853616,
+        "CONTRAST": 0.884594818474108
+      },
+      {
+        "JITTER": 1.0692590978153984,
+        "EDGES_WIDTH": 0.19048233525032943,
+        "CONTRAST": 0.8532897204496821
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "MTK_Worleyz",
+      "home": "nonblank",
+      "shuffle": "sparse",
+      "notes": "Structured cellular line pattern on black; shuffle thins lines considerably but remains visible and nonblank.",
+      "figure_pre_effect_containment": "not certified from composite renders",
+      "review_method": "Straight-alpha RGBA composited over black before visual inspection."
+    }
+  },
+  {
+    "layer": 3,
+    "col": 16,
+    "source": "ButterflyEffect",
+    "name": "FM \u00b7 ButterflyEffect [1.5.3]",
+    "status": "pass",
+    "driven": [
+      "x",
+      "y",
+      "phase"
+    ],
+    "moving": [
+      "x",
+      "y",
+      "phase"
+    ],
+    "errors": {},
+    "slots": 8,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "x": 0.9881194180320528,
+        "y": 0.9484136688128212,
+        "phase": 0.6465455752622625
+      },
+      {
+        "x": 0.9829053831305344,
+        "y": 0.954180381292749,
+        "phase": 0.6721004338241326
+      },
+      {
+        "x": 0.9764419679024468,
+        "y": 0.9603345251529,
+        "phase": 0.6993721725249902
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "ButterflyEffect",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Dense monochrome oscillating interference pattern throughout both frames.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 19,
+    "source": "fractal alien text",
+    "name": "FM \u00b7 fractal alien text [1.5.6]",
+    "status": "pass",
+    "driven": [
+      "dimensions",
+      "fade"
+    ],
+    "moving": [
+      "dimensions",
+      "fade"
+    ],
+    "errors": {},
+    "slots": 4,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "dimensions": 3.627118505825193,
+        "fade": 0.8159870096596008
+      },
+      {
+        "dimensions": 3.711201613324221,
+        "fade": 0.8117328049389562
+      },
+      {
+        "dimensions": 3.7985482432565103,
+        "fade": 0.8073134815285476
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "fractal alien text",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "White and gray geometric glyph clusters on black with intentional empty areas; shuffle changes arrangement and scale.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 20,
+    "source": "Gradient Bars",
+    "name": "FM \u00b7 Gradient Bars [1.5.7]",
+    "status": "pass",
+    "driven": [
+      "gradient power",
+      "balance",
+      "offset"
+    ],
+    "moving": [
+      "gradient power",
+      "balance",
+      "offset"
+    ],
+    "errors": {},
+    "slots": 10,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "gradient power": 0.053338430283882576,
+        "balance": 0.19265250806271575,
+        "offset": 15.637506442112262
+      },
+      {
+        "gradient power": 0.04798568885067786,
+        "balance": 0.20125930205280593,
+        "offset": 15.764718264411677
+      },
+      {
+        "gradient power": 0.042668801821464014,
+        "balance": 0.21111584061124428,
+        "offset": 15.866136583364362
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Gradient Bars",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Grayscale vertical gradient bars fill frame; shuffle adds strong contrast and diagonal light modulation.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 22,
+    "source": "Melty Boi",
+    "name": "FM \u00b7 Melty Boi [1.5.9]",
+    "status": "pass",
+    "driven": [
+      "intensity",
+      "scale x",
+      "scale y"
+    ],
+    "moving": [
+      "intensity",
+      "scale x",
+      "scale y"
+    ],
+    "errors": {},
+    "slots": 7,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "intensity": 0.07170835109001723,
+        "scale x": 0.9295439652542318,
+        "scale y": 0.830697691236626
+      },
+      {
+        "intensity": 0.07073202091515063,
+        "scale x": 0.9305488378634428,
+        "scale y": 0.8305706727374125
+      },
+      {
+        "intensity": 0.06973158749194308,
+        "scale x": 0.9315773321172532,
+        "scale y": 0.8304183731749208
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Melty Boi",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Compact luminous concentric organic disk on black; both captures have clear margin in composite, no flat or blank frame.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 23,
+    "source": "Screen Weaver",
+    "name": "FM \u00b7 Screen Weaver [1.5.10]",
+    "status": "manual-only",
+    "driven": [],
+    "moving": [],
+    "errors": {},
+    "slots": 1,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {},
+      {},
+      {}
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Screen Weaver",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "High-contrast woven checker forms across frame; shuffle changes central pattern substantially.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 24,
+    "source": "sin_wave",
+    "name": "FM \u00b7 sin_wave [1.5.11]",
+    "status": "manual-only",
+    "driven": [],
+    "moving": [],
+    "errors": {},
+    "slots": 1,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {},
+      {},
+      {}
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "sin_wave",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Thin white parallel waves show clear localized deformation in both views.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 26,
+    "source": "Dark Tomb",
+    "name": "FM \u00b7 Dark Tomb [1.5.13]",
+    "status": "pass",
+    "driven": [
+      "een",
+      "twee",
+      "vier"
+    ],
+    "moving": [
+      "een",
+      "twee",
+      "vier"
+    ],
+    "errors": {},
+    "slots": 4,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "een": 0.946489196523746,
+        "twee": 4.89052187976354,
+        "vier": 8.22755853630579
+      },
+      {
+        "een": 0.9691221253472948,
+        "twee": 4.834571031481174,
+        "vier": 8.285392286222326
+      },
+      {
+        "een": 0.9923385605783368,
+        "twee": 4.76787299382531,
+        "vier": 8.359252841712905
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Dark Tomb",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Dark reflective geometry with visible soft highlights; shuffle changes angular view. Dark style remains structured.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 27,
+    "source": "cubes + spheres",
+    "name": "FM \u00b7 cubes + spheres [1.5.14]",
+    "status": "pass",
+    "driven": [
+      "x",
+      "y"
+    ],
+    "moving": [
+      "x",
+      "y"
+    ],
+    "errors": {},
+    "slots": 2,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "x": 0.059609222076578386,
+        "y": 0.057826248239207435
+      },
+      {
+        "x": 0.052127190420291195,
+        "y": 0.052782402186556894
+      },
+      {
+        "x": 0.04441652221672848,
+        "y": 0.04758442586562581
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "cubes + spheres",
+      "home": "cropped",
+      "shuffle": "sparse",
+      "notes": "Home shows large clipped foreground spheres; shuffle is almost black with only narrow vertical reflective structure. Needs comparison to source/parameter intent; not completely blank.",
+      "figure_pre_effect_containment": "not certified from composite renders",
+      "review_method": "Straight-alpha RGBA composited over black before visual inspection."
+    }
+  },
+  {
+    "layer": 3,
+    "col": 3,
+    "source": "SP Atom Void",
+    "name": "void",
+    "status": "pass",
+    "driven": [
+      "Tilt",
+      "Sway",
+      "Bob"
+    ],
+    "moving": [
+      "Tilt",
+      "Sway",
+      "Bob"
+    ],
+    "errors": {},
+    "slots": 15,
+    "source_numeric_not_slots": [],
+    "adaptation": "Standard Open",
+    "samples": [
+      {
+        "Tilt": -0.940540319285344,
+        "Sway": 0.02367096575604921,
+        "Bob": -0.18716710898877986
+      },
+      {
+        "Tilt": -0.9378040938956662,
+        "Sway": 0.025979741500342435,
+        "Bob": -0.18987432753907463
+      },
+      {
+        "Tilt": -0.9347778115521228,
+        "Sway": 0.028193510299936886,
+        "Bob": -0.19249038558817244
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "SP Atom Void",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Fresh rerun: white floating ellipses on black void; shuffle changes positions with content preserved.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 8,
+    "source": "SP Field",
+    "name": "SP Field",
+    "status": "pass",
+    "driven": [
+      "Scale",
+      "Drift",
+      "Contrast"
+    ],
+    "moving": [
+      "Scale",
+      "Drift",
+      "Contrast"
+    ],
+    "errors": {},
+    "slots": 4,
+    "source_numeric_not_slots": [
+      "Heart Rate (turns/s)",
+      "Depth",
+      "FM"
+    ],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Scale": 0.5554860316931073,
+        "Drift": 0.5112690375922012,
+        "Contrast": 0.37671601769224017
+      },
+      {
+        "Scale": 0.5662899765418354,
+        "Drift": 0.5162197750908234,
+        "Contrast": 0.3897127721796238
+      },
+      {
+        "Scale": 0.5761906117755557,
+        "Drift": 0.5217197099002493,
+        "Contrast": 0.4038270379178984
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "SP Field",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Alpha over black shows a continuous cloudy grayscale organic field with dark gaps, not hard black blobs on uniform white; clearly structured in both captures.",
+      "figure_pre_effect_containment": "not certified from composite renders",
+      "review_method": "Straight-alpha RGBA composited over black before visual inspection."
+    }
+  },
+  {
+    "layer": 3,
+    "col": 14,
+    "source": "Heart Barberpole Field",
+    "name": "Heart Barberpole Field",
+    "status": "pass",
+    "driven": [
+      "Phase"
+    ],
+    "moving": [
+      "Phase"
+    ],
+    "errors": {},
+    "slots": 3,
+    "source_numeric_not_slots": [
+      "Heart Rate (turns/s)",
+      "Depth",
+      "FM"
+    ],
+    "adaptation": "Authored controls",
+    "samples": [
+      {
+        "Phase": 0.03417406069967055
+      },
+      {
+        "Phase": 0.44588964368777906
+      },
+      {
+        "Phase": 0.8471075606972687
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Heart Barberpole Field",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Fresh rerun replaces missing captures: narrow central barberpole with diagonal stripes on cream background, both frames visibly structured.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 29,
+    "source": "quantum chaos",
+    "name": "FM \u00b7 quantum chaos [1.5.16]",
+    "status": "manual-only",
+    "driven": [],
+    "moving": [],
+    "errors": {},
+    "slots": 1,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {},
+      {},
+      {}
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "quantum chaos",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Dense monochrome repeating cubes and spheres; immersive scene intersects frame boundaries as expected.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 30,
+    "source": "Quaternion RGB vector rotation",
+    "name": "FM \u00b7 Quaternion RGB vector rotation [1.5.18]",
+    "status": "manual-only",
+    "driven": [],
+    "moving": [],
+    "errors": {},
+    "slots": 1,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {},
+      {},
+      {}
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Quaternion RGB vector rotation",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Broad repeated colored bands and organic silhouettes fill both frames; shuffle changes palette.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 36,
+    "source": "Concentrip",
+    "name": "FM \u00b7 Concentrip [1.5.24]",
+    "status": "render-only",
+    "reason": "No Heart numeric slots; no invented controls",
+    "parameters": [],
+    "repair": null,
+    "visual": {
+      "source": "Concentrip",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Structured concentric shaded multicolor rings fill both frames.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 37,
+    "source": "Higgs Mechanism",
+    "name": "FM \u00b7 Higgs Mechanism [1.5.25]",
+    "status": "manual-only",
+    "driven": [],
+    "moving": [],
+    "errors": {},
+    "slots": 1,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {},
+      {},
+      {}
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Higgs Mechanism",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Soft rainbow radial wave contours with central highlights; low-frequency structure visible throughout.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 40,
+    "source": "Potential Energy",
+    "name": "FM \u00b7 Potential Energy [1.5.28]",
+    "status": "manual-only",
+    "driven": [],
+    "moving": [],
+    "errors": {},
+    "slots": 1,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {},
+      {},
+      {}
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Potential Energy",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Home predominantly fine multicolor noise with faint structures; shuffle displays distinct rainbow ribbon arcs over noise. No blank frame, though noisy home appearance merits source-intent comparison.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 41,
+    "source": "Magnetic Anomaly",
+    "name": "FM \u00b7 Magnetic Anomaly [1.5.29]",
+    "status": "pass",
+    "driven": [
+      "Quat W",
+      "Quat X",
+      "Quat Y"
+    ],
+    "moving": [
+      "Quat W",
+      "Quat X",
+      "Quat Y"
+    ],
+    "errors": {},
+    "slots": 8,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Quat W": -0.9956576861808216,
+        "Quat X": -0.994823461427066,
+        "Quat Y": 0.5992628252274617
+      },
+      {
+        "Quat W": -0.9939245492350772,
+        "Quat X": -0.9927573624242264,
+        "Quat Y": 0.6010909668715099
+      },
+      {
+        "Quat W": -0.9919221082161368,
+        "Quat X": -0.9903702219258153,
+        "Quat Y": 0.6032031749260809
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Magnetic Anomaly",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Pastel luminous flowing field around central green disk; fine field lines visible.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 42,
+    "source": "Quantum Field Theory",
+    "name": "FM \u00b7 Quantum Field Theory [1.5.30]",
+    "status": "manual-only",
+    "driven": [],
+    "moving": [],
+    "errors": {},
+    "slots": 1,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {},
+      {},
+      {}
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Quantum Field Theory",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Blue textured terrain against black; shuffle adds clear central rainbow peak.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 43,
+    "source": "QuarternionSwell",
+    "name": "FM \u00b7 QuarternionSwell [1.5.31]",
+    "status": "render-only",
+    "reason": "No Heart numeric slots; no invented controls",
+    "parameters": [],
+    "repair": null,
+    "visual": {
+      "source": "QuarternionSwell",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Dense saturated cellular quaternion pattern throughout both frames.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 44,
+    "source": "QField2",
+    "name": "FM \u00b7 QField2 [1.5.32]",
+    "status": "render-only",
+    "reason": "No Heart numeric slots; no invented controls",
+    "parameters": [],
+    "repair": null,
+    "visual": {
+      "source": "QField2",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Muted diagonal color streaks and gray gradients; soft but visibly structured, not flat.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 47,
+    "source": "Flower2",
+    "name": "FM \u00b7 Flower2 [1.5.36]",
+    "status": "pass",
+    "driven": [
+      "draaiomas",
+      "draaixas"
+    ],
+    "moving": [
+      "draaiomas",
+      "draaixas"
+    ],
+    "errors": {},
+    "slots": 4,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "draaiomas": -1.3009264227676027,
+        "draaixas": 0.5993861866959862
+      },
+      {
+        "draaiomas": -1.2755559909105614,
+        "draaixas": 0.7808026982937888
+      },
+      {
+        "draaiomas": -1.2468652728832303,
+        "draaixas": 0.9762676705806153
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Flower2",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Detailed pastel flower centered with ample composite black margin; slight pose variation.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 49,
+    "source": "Gentle Rings",
+    "name": "FM \u00b7 Gentle Rings [1.5.38]",
+    "status": "manual-only",
+    "driven": [],
+    "moving": [],
+    "errors": {},
+    "slots": 1,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {},
+      {},
+      {}
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Gentle Rings",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Soft multicolor spiral ring segments on black; both frames readable.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 50,
+    "source": "Quantum Fractal",
+    "name": "FM \u00b7 Quantum Fractal [1.5.39]",
+    "status": "manual-only",
+    "driven": [],
+    "moving": [],
+    "errors": {},
+    "slots": 1,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {},
+      {},
+      {}
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Quantum Fractal",
+      "home": "cropped",
+      "shuffle": "nonblank",
+      "notes": "Intricate neon radial pattern; home ornament extends beyond top/bottom, shuffle fits within visible composite with margin. Source-intent framing comparison needed.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 53,
+    "source": "Poincare Disk",
+    "name": "FM \u00b7 Poincare Disk [1.5.42]",
+    "status": "manual-only",
+    "driven": [],
+    "moving": [],
+    "errors": {},
+    "slots": 1,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {},
+      {},
+      {}
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Poincare Disk",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "High-contrast colored hyperbolic pattern with central patterned globe; dense geometry remains readable.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 56,
+    "source": "Sands",
+    "name": "FM \u00b7 Sands [1.5.45]",
+    "status": "manual-only",
+    "driven": [],
+    "moving": [],
+    "errors": {},
+    "slots": 1,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {},
+      {},
+      {}
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Sands",
+      "home": "cropped",
+      "shuffle": "cropped",
+      "notes": "Sandy sculptural structure on plane; upper beams extend outside frame in both views. Structured, likely close camera; intent comparison needed.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 57,
+    "source": "Paper Fractal",
+    "name": "FM \u00b7 Paper Fractal [1.5.46]",
+    "status": "render-only",
+    "reason": "No Heart numeric slots; no invented controls",
+    "parameters": [],
+    "repair": null,
+    "visual": {
+      "source": "Paper Fractal",
+      "home": "cropped",
+      "shuffle": "cropped",
+      "notes": "Angular white folded forms against plum background; shuffle extreme close-up. Similar immersive folded geometry to L3C6, supporting source-style explanation over blank rendering failure.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 59,
+    "source": "Cumulus",
+    "name": "FM \u00b7 Cumulus [1.5.48]",
+    "status": "pass",
+    "driven": [
+      "een",
+      "main form",
+      "soft form"
+    ],
+    "moving": [
+      "een",
+      "main form",
+      "soft form"
+    ],
+    "errors": {},
+    "slots": 9,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "een": 0.0019551404366784653,
+        "main form": 2.524088484083911,
+        "soft form": 0.001682881722241368
+      },
+      {
+        "een": 0.00281114409677162,
+        "main form": 2.700683761116051,
+        "soft form": 0.002419684504649064
+      },
+      {
+        "een": 0.003850144680027534,
+        "main form": 2.904686491262423,
+        "soft form": 0.0033140013824330475
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Cumulus",
+      "home": "cropped",
+      "shuffle": "nonblank",
+      "notes": "Home is mostly blue-gray background with huge dark curved form cut on left; shuffle reveals detailed central metallic sculpture. Strong pose/scale difference merits source-intent review.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 62,
+    "source": "VectorFromHell",
+    "name": "FM \u00b7 VectorFromHell [1.5.51]",
+    "status": "render-only",
+    "reason": "No Heart numeric slots; no invented controls",
+    "parameters": [],
+    "repair": null,
+    "visual": {
+      "source": "VectorFromHell",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Detailed orange-lit angular lattice, matching immersive source-style of Heart Vector Lattice.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 66,
+    "source": "Kali - ancient temple",
+    "name": "FM \u00b7 Kali - ancient temple [1.5.55]",
+    "status": "render-only",
+    "reason": "No Heart numeric slots; no invented controls",
+    "parameters": [],
+    "repair": null,
+    "visual": {
+      "source": "Kali - ancient temple",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Dark textured temple-like scene around central orb and amber glow; both structured, intentionally dim.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 70,
+    "source": "TwoFiftySixBiatch",
+    "name": "FM \u00b7 TwoFiftySixBiatch [1.5.59]",
+    "status": "render-only",
+    "reason": "No Heart numeric slots; no invented controls",
+    "parameters": [],
+    "repair": null,
+    "visual": {
+      "source": "TwoFiftySixBiatch",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Dense colored mechanical lattice in perspective, matching source-style of Heart Puls Lattice.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 71,
+    "source": "MegaWave 2",
+    "name": "FM \u00b7 MegaWave 2 [1.5.60]",
+    "status": "manual-only",
+    "driven": [],
+    "moving": [],
+    "errors": {},
+    "slots": 1,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {},
+      {},
+      {}
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "MegaWave 2",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Undulating blue-gray checkered surfaces surround a hazy horizon; lower contrast but coherent geometry.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 72,
+    "source": "[phreax] quantum field",
+    "name": "FM \u00b7 [phreax] quantum field [1.5.61]",
+    "status": "manual-only",
+    "driven": [],
+    "moving": [],
+    "errors": {},
+    "slots": 1,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {},
+      {},
+      {}
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "[phreax] quantum field",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Dense turquoise and orange warped repeating field fills both frames.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 73,
+    "source": "Oldschool Tube",
+    "name": "FM \u00b7 Oldschool Tube [1.5.62]",
+    "status": "manual-only",
+    "driven": [],
+    "moving": [],
+    "errors": {},
+    "slots": 1,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {},
+      {},
+      {}
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Oldschool Tube",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Detailed metallic polygon tunnel with warm lights and dark central vanishing point.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 74,
+    "source": "Full Spectrum Cyber",
+    "name": "FM \u00b7 Full Spectrum Cyber [1.5.63]",
+    "status": "manual-only",
+    "driven": [],
+    "moving": [],
+    "errors": {},
+    "slots": 1,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {},
+      {},
+      {}
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Full Spectrum Cyber",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Bright reflective hexagonal sci-fi room; shuffle changes view and color, full geometry remains visible.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 75,
+    "source": "ocean waves",
+    "name": "FM \u00b7 ocean waves [1.5.65]",
+    "status": "pass",
+    "driven": [
+      "freq",
+      "choppy",
+      "height"
+    ],
+    "moving": [
+      "freq",
+      "choppy",
+      "height"
+    ],
+    "errors": {},
+    "slots": 10,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "freq": 0.0040506181034074,
+        "choppy": 0.5757474037547833,
+        "height": 0.2174346205505357
+      },
+      {
+        "freq": 0.005229957701794324,
+        "choppy": 0.5927004723665211,
+        "height": 0.21861396014892265
+      },
+      {
+        "freq": 0.006676659205885449,
+        "choppy": 0.6125446542674196,
+        "height": 0.22006066165301377
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "ocean waves",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Textured translucent ocean waves below black sky; both frames clearly nonblank.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 77,
+    "source": "Dodecahedral Permutations",
+    "name": "FM \u00b7 Dodecahedral Permutations [1.5.68]",
+    "status": "manual-only",
+    "driven": [],
+    "moving": [],
+    "errors": {},
+    "slots": 1,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {},
+      {},
+      {}
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Dodecahedral Permutations",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Primary-color circular recursive pattern on bright field; shuffle changes scale and arrangement, edge overlap part of repeated design.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 78,
+    "source": "Deep Quantum Time State",
+    "name": "FM \u00b7 Deep Quantum Time State [1.5.69]",
+    "status": "manual-only",
+    "driven": [],
+    "moving": [],
+    "errors": {},
+    "slots": 1,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {},
+      {},
+      {}
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Deep Quantum Time State",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Two wireframe globes with blue indicators on white, both clear with margin.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 79,
+    "source": "q_interference23",
+    "name": "FM \u00b7 q_interference23 [1.5.70]",
+    "status": "manual-only",
+    "driven": [],
+    "moving": [],
+    "errors": {},
+    "slots": 3,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {},
+      {},
+      {}
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "q_interference23",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Dense rainbow interference on a centered rectangular surface against navy background.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 80,
+    "source": "flex links - v2",
+    "name": "FM \u00b7 flex links - v2 [1.5.71]",
+    "status": "manual-only",
+    "driven": [],
+    "moving": [],
+    "errors": {},
+    "slots": 1,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {},
+      {},
+      {}
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "flex links - v2",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "White twisting radial links and central block on black; links intentionally continue to frame edges.",
+      "figure_pre_effect_containment": "not certified from composite renders",
+      "review_method": "Straight-alpha RGBA composited over black before visual inspection."
+    }
+  },
+  {
+    "layer": 3,
+    "col": 81,
+    "source": "flex links - v3",
+    "name": "FM \u00b7 flex links - v3 [1.5.72]",
+    "status": "manual-only",
+    "driven": [],
+    "moving": [],
+    "errors": {},
+    "slots": 1,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {},
+      {},
+      {}
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "flex links - v3",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Colored version of twisting radial links with central block; clear form variation.",
+      "figure_pre_effect_containment": "not certified from composite renders",
+      "review_method": "Straight-alpha RGBA composited over black before visual inspection."
+    }
+  },
+  {
+    "layer": 3,
+    "col": 82,
+    "source": "flex links radial - slice",
+    "name": "FM \u00b7 flex links radial - slice [1.5.73]",
+    "status": "manual-only",
+    "driven": [],
+    "moving": [],
+    "errors": {},
+    "slots": 1,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {},
+      {},
+      {}
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "flex links radial - slice",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Fine radial links around rainbow sphere over colorful gradient; both structured.",
+      "figure_pre_effect_containment": "not certified from composite renders",
+      "review_method": "Straight-alpha RGBA composited over black before visual inspection."
+    }
+  },
+  {
+    "layer": 3,
+    "col": 83,
+    "source": "flex links radial - slice2",
+    "name": "FM \u00b7 flex links radial - slice2 [1.5.74]",
+    "status": "manual-only",
+    "driven": [],
+    "moving": [],
+    "errors": {},
+    "slots": 1,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {},
+      {},
+      {}
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "flex links radial - slice2",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Purple radial links around central rainbow sphere; substantial orientation change.",
+      "figure_pre_effect_containment": "not certified from composite renders",
+      "review_method": "Straight-alpha RGBA composited over black before visual inspection."
+    }
+  },
+  {
+    "layer": 3,
+    "col": 84,
+    "source": "flex links radial - v4",
+    "name": "FM \u00b7 flex links radial - v4 [1.5.75]",
+    "status": "manual-only",
+    "driven": [],
+    "moving": [],
+    "errors": {},
+    "slots": 1,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {},
+      {},
+      {}
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "flex links radial - v4",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Rainbow radial links around checker sphere on black; links continue to edges as design.",
+      "figure_pre_effect_containment": "not certified from composite renders",
+      "review_method": "Straight-alpha RGBA composited over black before visual inspection."
+    }
+  },
+  {
+    "layer": 3,
+    "col": 85,
+    "source": "Quaternion controls",
+    "name": "FM \u00b7 Quaternion controls [1.5.76]",
+    "status": "manual-only",
+    "driven": [],
+    "moving": [],
+    "errors": {},
+    "slots": 1,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {},
+      {},
+      {}
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Quaternion controls",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Perspective checker ground and colored horizon; both clearly structured.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 86,
+    "source": "Space Warping Portals",
+    "name": "FM \u00b7 Space Warping Portals [1.5.77]",
+    "status": "manual-only",
+    "driven": [],
+    "moving": [],
+    "errors": {},
+    "slots": 1,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {},
+      {},
+      {}
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Space Warping Portals",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Large simple portal planes with gradients; shuffle reveals checker walkway. Home low-detail close view, but geometry edges and shading distinct.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 87,
+    "source": "Steiner Surfaces",
+    "name": "FM \u00b7 Steiner Surfaces [1.5.78]",
+    "status": "pass",
+    "driven": [
+      "Quat W",
+      "Quat X",
+      "Quat Y"
+    ],
+    "moving": [
+      "Quat W",
+      "Quat X",
+      "Quat Y"
+    ],
+    "errors": {},
+    "slots": 8,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Quat W": 0.6590373568964563,
+        "Quat X": -0.9961174572273956,
+        "Quat Y": -0.9962871246056796
+      },
+      {
+        "Quat W": 0.6605383559576661,
+        "Quat X": -0.9944467423329308,
+        "Quat Y": -0.9946894200636064
+      },
+      {
+        "Quat W": 0.6623405559199633,
+        "Quat X": -0.9924407701790332,
+        "Quat Y": -0.9927711090267128
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Steiner Surfaces",
+      "home": "cropped",
+      "shuffle": "nonblank",
+      "notes": "Home softly shaded teardrop surface clipped at top; shuffle rounded surface fits. Low-contrast pastel shading is visible, not flat.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 88,
+    "source": "Quantum Socket",
+    "name": "FM \u00b7 Quantum Socket [1.5.79]",
+    "status": "manual-only",
+    "driven": [],
+    "moving": [],
+    "errors": {},
+    "slots": 1,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {},
+      {},
+      {}
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Quantum Socket",
+      "home": "cropped",
+      "shuffle": "cropped",
+      "notes": "Detailed USB-like circular device with cable, upper body clipped in both captures; structured close-up.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 89,
+    "source": "Quaternion Kinematics",
+    "name": "FM \u00b7 Quaternion Kinematics [1.5.80]",
+    "status": "manual-only",
+    "driven": [],
+    "moving": [],
+    "errors": {},
+    "slots": 1,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {},
+      {},
+      {}
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Quaternion Kinematics",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Segmented colored upright rod over green patterned ground; dark sky intentional, both poses visible.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 90,
+    "source": "HopfFibration",
+    "name": "FM \u00b7 HopfFibration [1.5.81]",
+    "status": "pass",
+    "driven": [
+      "phase",
+      "angle"
+    ],
+    "moving": [
+      "phase",
+      "angle"
+    ],
+    "errors": {},
+    "slots": 3,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "phase": 0.0012377664190380971,
+        "angle": 0.15937868146600295
+      },
+      {
+        "phase": 0.0019381689156388463,
+        "angle": 0.24525789511848123
+      },
+      {
+        "phase": 0.0027931246182717126,
+        "angle": 0.34596206373246735
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "HopfFibration",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Soft translucent multicolor fibrous loops fill scene; visible complex structure despite muted contrast.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 91,
+    "source": "[2TC 15] old skool 3d driving",
+    "name": "FM \u00b7 [2TC 15] old skool 3d driving [1.5.83]",
+    "status": "manual-only",
+    "driven": [],
+    "moving": [],
+    "errors": {},
+    "slots": 1,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {},
+      {},
+      {}
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "[2TC 15] old skool 3d driving",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Retro road across striped green ground under blue sky; shuffle visibly bends road.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 92,
+    "source": "Gentle Rings SP",
+    "name": "FM \u00b7 Gentle Rings SP [1.5.85]",
+    "status": "pass",
+    "driven": [
+      "Ring",
+      "Hue",
+      "Swirl"
+    ],
+    "moving": [
+      "Ring",
+      "Hue",
+      "Swirl"
+    ],
+    "errors": {},
+    "slots": 4,
+    "source_numeric_not_slots": [
+      "Heart Rate (turns/s)",
+      "Depth",
+      "FM"
+    ],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Ring": 0.4947101359187309,
+        "Hue": 0.683705802584846,
+        "Swirl": 0.7849359171335384
+      },
+      {
+        "Ring": 0.5169458064783066,
+        "Hue": 0.7472362898979196,
+        "Swirl": 0.8343485183770399
+      },
+      {
+        "Ring": 0.5335330617003728,
+        "Hue": 0.7946284476752516,
+        "Swirl": 0.8712090855371871
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Gentle Rings SP",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Soft colored spiral segments on black match Gentle Rings source-style.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 93,
+    "source": "Gradient",
+    "name": "FM \u00b7 Gradient [2.1.1]",
+    "status": "pass",
+    "driven": [
+      "Dither",
+      "Size"
+    ],
+    "moving": [
+      "Dither",
+      "Size"
+    ],
+    "errors": {},
+    "slots": 5,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Dither": 0.03285369095952832,
+        "Size": 0.20410671136994107
+      },
+      {
+        "Dither": 0.04951332574746736,
+        "Size": 0.20618916571843343
+      },
+      {
+        "Dither": 0.07083126430437811,
+        "Size": 0.2088539080380473
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Gradient",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Smooth orange field with broad red central gradient; intentionally simple gradient, not single-color flat frame.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 94,
+    "source": "Color Wheel",
+    "name": "FM \u00b7 Color Wheel [2.2.1]",
+    "status": "pass",
+    "driven": [
+      "rotate",
+      "multiply",
+      "warp"
+    ],
+    "moving": [
+      "rotate",
+      "multiply",
+      "warp"
+    ],
+    "errors": {},
+    "slots": 8,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "rotate": 0.0016909052388387523,
+        "multiply": 3.4956796252311393,
+        "warp": -0.21505205389830095
+      },
+      {
+        "rotate": 0.0023533739576476584,
+        "multiply": 4.865229112394393,
+        "warp": -0.030715923989088623
+      },
+      {
+        "rotate": 0.003122903734022686,
+        "multiply": 6.4561104335323325,
+        "warp": 0.17254041548923205
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Color Wheel",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Radial rainbow wheel; shuffle dramatically increases stripe count, still structured.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 95,
+    "source": "Sine Wave",
+    "name": "FM \u00b7 Sine Wave [2.3.1]",
+    "status": "pass",
+    "driven": [
+      "Line Width",
+      "Fuzzyness",
+      "Frequency"
+    ],
+    "moving": [
+      "Line Width",
+      "Fuzzyness",
+      "Frequency"
+    ],
+    "errors": {},
+    "slots": 12,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Line Width": 0.05456149424579586,
+        "Fuzzyness": 0.0023708541297408903,
+        "Frequency": 0.030924184300968105
+      },
+      {
+        "Line Width": 0.05586626344728349,
+        "Fuzzyness": 0.0033812814574922523,
+        "Frequency": 0.04410367118468156
+      },
+      {
+        "Line Width": 0.05739757016032775,
+        "Fuzzyness": 0.0045671418750012766,
+        "Frequency": 0.05957141576088626
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Sine Wave",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Two clear white sine-wave rows on black, shuffle thinner and phase shifted.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 97,
+    "source": "Checkered",
+    "name": "FM \u00b7 Checkered [2.1.2]",
+    "status": "pass",
+    "driven": [
+      "Num X",
+      "Num Y"
+    ],
+    "moving": [
+      "Num X",
+      "Num Y"
+    ],
+    "errors": {},
+    "slots": 2,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Num X": 89700.95541472352,
+        "Num Y": 28440.64252451241
+      },
+      {
+        "Num X": 89030.2909936171,
+        "Num Y": 24988.596563085634
+      },
+      {
+        "Num X": 88397.40630614359,
+        "Num Y": 21254.207400289437
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Checkered",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Very fine monochrome checker/line pattern across both frames; may alias at contact-sheet scale but not flat.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 98,
+    "source": "Spiral",
+    "name": "FM \u00b7 Spiral [2.2.2]",
+    "status": "pass",
+    "driven": [
+      "Detail",
+      "Distortion",
+      "Fuzzyness"
+    ],
+    "moving": [
+      "Detail",
+      "Distortion",
+      "Fuzzyness"
+    ],
+    "errors": {},
+    "slots": 12,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Detail": 1.005875170901369,
+        "Distortion": 3.1286619461553173,
+        "Fuzzyness": 0.003263983834093681
+      },
+      {
+        "Detail": 1.0080265824398682,
+        "Distortion": 4.170515897218114,
+        "Fuzzyness": 0.004459212466593435
+      },
+      {
+        "Detail": 1.0104763922501567,
+        "Distortion": 5.291685723685898,
+        "Fuzzyness": 0.005820217916753689
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Spiral",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Bold white spiral on black fills frame; shuffle ripples the curve.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 99,
+    "source": "Lines",
+    "name": "FM \u00b7 Lines [2.3.2]",
+    "status": "pass",
+    "driven": [
+      "Fuzzyness",
+      "Width",
+      "Rotation"
+    ],
+    "moving": [
+      "Fuzzyness",
+      "Width",
+      "Rotation"
+    ],
+    "errors": {},
+    "slots": 5,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Fuzzyness": 0.3521581821086237,
+        "Width": 0.06660618441789529,
+        "Rotation": 0.3884727795522714
+      },
+      {
+        "Fuzzyness": 0.3532931974515419,
+        "Width": 0.09969927110210015,
+        "Rotation": 0.5927755412775463
+      },
+      {
+        "Fuzzyness": 0.35458714319519274,
+        "Width": 0.13583869762912928,
+        "Rotation": 0.8256857751346939
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Lines",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Alpha over black shows luminous soft horizontal stripes at home and diagonal stripes in shuffle; both structured.",
+      "figure_pre_effect_containment": "not certified from composite renders",
+      "review_method": "Straight-alpha RGBA composited over black before visual inspection."
+    }
+  },
+  {
+    "layer": 3,
+    "col": 102,
+    "source": "Rings",
+    "name": "FM \u00b7 Rings [2.2.3]",
+    "status": "pass",
+    "driven": [
+      "Size",
+      "Spacing",
+      "Line Width"
+    ],
+    "moving": [
+      "Size",
+      "Spacing",
+      "Line Width"
+    ],
+    "errors": {},
+    "slots": 8,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Size": 0.4187305644202311,
+        "Spacing": 0.19179513239667484,
+        "Line Width": 0.016051236609550726
+      },
+      {
+        "Size": 0.423910600132616,
+        "Spacing": 0.23117361044204476,
+        "Line Width": 0.018842336020823074
+      },
+      {
+        "Size": 0.429723198415965,
+        "Spacing": 0.2732026891861001,
+        "Line Width": 0.021974271889108603
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Rings",
+      "home": "cropped",
+      "shuffle": "nonblank",
+      "notes": "Concentric segmented cyan/pink rings extend beyond top/bottom at home; shuffle compact disk with margin. Composite crop observation only.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 106,
+    "source": "Static",
+    "name": "FM \u00b7 Static [2.2.4]",
+    "status": "manual-only",
+    "driven": [],
+    "moving": [],
+    "errors": {},
+    "slots": 1,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {},
+      {},
+      {}
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Static",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Fine grayscale random texture across frame, consistent with Static source name; not flat.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 3,
+    "col": 109,
+    "source": "Heart Stepping Feet Field",
+    "name": "Heart Stepping Feet Field",
+    "status": "pass",
+    "driven": [
+      "Phase"
+    ],
+    "moving": [
+      "Phase"
+    ],
+    "errors": {},
+    "slots": 2,
+    "source_numeric_not_slots": [
+      "Heart Rate (turns/s)",
+      "Depth",
+      "FM"
+    ],
+    "adaptation": "Authored controls",
+    "samples": [
+      {
+        "Phase": 0.5339973217539117
+      },
+      {
+        "Phase": 0.5592174675663663
+      },
+      {
+        "Phase": 0.5850151238170546
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Heart Stepping Feet Field",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Vertical monochrome stripes behind two contrasting blocks; both structured.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 2,
+    "source": "SP Atom Figure 2D",
+    "name": "2d",
+    "status": "pass",
+    "driven": [
+      "Morph",
+      "Inner Glow",
+      "Outer Glow"
+    ],
+    "moving": [
+      "Morph",
+      "Inner Glow",
+      "Outer Glow"
+    ],
+    "errors": {},
+    "slots": 29,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Morph": 0.08813890625024212,
+        "Inner Glow": 0.01152855124825739,
+        "Outer Glow": 0.024466673077012533
+      },
+      {
+        "Morph": 0.0755004466251193,
+        "Inner Glow": 0.003892557990791149,
+        "Outer Glow": 0.019800164907736416
+      },
+      {
+        "Morph": 0.06327352603111637,
+        "Inner Glow": 0.0003249431909887773,
+        "Outer Glow": 0.015285609611489236
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "SP Atom Figure 2D",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Fresh rerun: small centered rainbow spiral disk on black; shuffle increases white outline. Composite has margin, pre-effect containment uncertified.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 3,
+    "source": "SP Atom Solid",
+    "name": "3d",
+    "status": "pass",
+    "driven": [
+      "Morph",
+      "Tumble",
+      "Hue"
+    ],
+    "moving": [
+      "Morph",
+      "Tumble",
+      "Hue"
+    ],
+    "errors": {},
+    "slots": 24,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Morph": 0.572737483188076,
+        "Tumble": 0.17421487580866657,
+        "Hue": 0.24755414484801583
+      },
+      {
+        "Morph": 0.5859330802696796,
+        "Tumble": 0.1976935679284707,
+        "Hue": 0.2858630578705763
+      },
+      {
+        "Morph": 0.594922814933105,
+        "Tumble": 0.2211917242391737,
+        "Hue": 0.32411042401825285
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "SP Atom Solid",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Fresh captures replace missing: compact multicolored organic solid on black with changed orientation.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 4,
+    "source": "SP Atom 4D",
+    "name": "4d",
+    "status": "pass",
+    "driven": [
+      "Thickness",
+      "Inner Glow",
+      "Hue"
+    ],
+    "moving": [
+      "Thickness",
+      "Inner Glow",
+      "Hue"
+    ],
+    "errors": {},
+    "slots": 27,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Thickness": 0.8557268325243378,
+        "Inner Glow": 0.00572683252433776,
+        "Hue": 0.007352437371627378
+      },
+      {
+        "Thickness": 0.8569334900086008,
+        "Inner Glow": 0.006933490008600718,
+        "Hue": 0.01372765807477582
+      },
+      {
+        "Thickness": 0.8582381573584884,
+        "Inner Glow": 0.008238157358488384,
+        "Hue": 0.020050777215236952
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "SP Atom 4D",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Fresh captures replace missing: compact pastel nested polyhedral box on black, clearly structured in both poses.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 5,
+    "source": "SP Atom 4D Field",
+    "name": "shell",
+    "status": "pass",
+    "driven": [
+      "Morph",
+      "Thickness",
+      "Hue"
+    ],
+    "moving": [
+      "Morph",
+      "Thickness",
+      "Hue"
+    ],
+    "errors": {},
+    "slots": 39,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Morph": 0.5455628578723848,
+        "Thickness": 0.7718339165366033,
+        "Hue": 0.20289677960801025
+      },
+      {
+        "Morph": 0.5448383940639626,
+        "Thickness": 0.7734172409602188,
+        "Hue": 0.20472837805381047
+      },
+      {
+        "Morph": 0.5441155019867929,
+        "Thickness": 0.7751394442337892,
+        "Hue": 0.2067454462496264
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "SP Atom 4D Field",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Fresh captures replace missing: small vivid angular shell with wire edges centered on black.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 6,
+    "source": "SP Atom Hybrid",
+    "name": "hybrid",
+    "status": "pass",
+    "driven": [
+      "Thickness",
+      "Inner Glow",
+      "Hue"
+    ],
+    "moving": [
+      "Thickness",
+      "Inner Glow",
+      "Hue"
+    ],
+    "errors": {},
+    "slots": 32,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Thickness": 0.9855946140623928,
+        "Inner Glow": 0.029554039453205404,
+        "Hue": 0.4975674235817137
+      },
+      {
+        "Thickness": 0.9904600260499136,
+        "Inner Glow": 0.025904980462564703,
+        "Hue": 0.512537922004855
+      },
+      {
+        "Thickness": 0.9955516151125264,
+        "Inner Glow": 0.022086288665605025,
+        "Hue": 0.5282043498898178
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "SP Atom Hybrid",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Fresh rerun: compact rainbow warped box centered on black, both clearly structured.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 7,
+    "source": "SP Figure Solid Source",
+    "name": "SP Figure Solid Source",
+    "status": "pass",
+    "driven": [
+      "Morph",
+      "Tumble",
+      "Hue"
+    ],
+    "moving": [
+      "Morph",
+      "Tumble",
+      "Hue"
+    ],
+    "errors": {},
+    "slots": 21,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Morph": 0.4197610060857469,
+        "Tumble": 0.3139497567704287,
+        "Hue": 0.21880262080881685
+      },
+      {
+        "Morph": 0.4427278877067954,
+        "Tumble": 0.3287019473958328,
+        "Hue": 0.3467091497884136
+      },
+      {
+        "Morph": 0.46622432931988805,
+        "Tumble": 0.3436823083454631,
+        "Hue": 0.4791290900545791
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "SP Figure Solid Source",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Small multicolor organic solid matching Atom Solid source style, clearly visible.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 8,
+    "source": "SP Figure 3D",
+    "name": "Figure 3D SP",
+    "status": "pass",
+    "driven": [
+      "Tumble",
+      "Axis",
+      "Edge"
+    ],
+    "moving": [
+      "Tumble",
+      "Axis",
+      "Edge"
+    ],
+    "errors": {},
+    "slots": 12,
+    "source_numeric_not_slots": [
+      "Heart Rate (turns/s)",
+      "Depth",
+      "FM"
+    ],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Tumble": 0.12460359753932448,
+        "Axis": 0.5173301234357939,
+        "Edge": 0.07022472287492643
+      },
+      {
+        "Tumble": 0.13349767416409786,
+        "Axis": 0.5295983700691247,
+        "Edge": 0.05557706814427393
+      },
+      {
+        "Tumble": 0.1407550303222409,
+        "Axis": 0.5413103508390353,
+        "Edge": 0.04070446386010618
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "SP Figure 3D",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Glossy white capsule left of center on black; readable with composite margin.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 9,
+    "source": "SP Figure",
+    "name": "Figure 2D SP",
+    "status": "pass",
+    "driven": [
+      "Turn",
+      "Outline",
+      "Material"
+    ],
+    "moving": [
+      "Turn",
+      "Outline",
+      "Material"
+    ],
+    "errors": {},
+    "slots": 8,
+    "source_numeric_not_slots": [
+      "Heart Rate (turns/s)",
+      "Depth",
+      "FM"
+    ],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Turn": 0.451796465560828,
+        "Outline": 0.8984343061432897,
+        "Material": 0.9958110044926516
+      },
+      {
+        "Turn": 0.4751144486361277,
+        "Outline": 0.8951263674248315,
+        "Material": 0.9948455700713668
+      },
+      {
+        "Turn": 0.5029253181906315,
+        "Outline": 0.8873286498084382,
+        "Material": 0.9936374925069354
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": {
+      "layer": 5,
+      "col": 9,
+      "source": "SP Figure",
+      "status": "Centered saved Home; X/Y .5, Spin0. Original shader untouched.",
+      "home_recovered": true
+    },
+    "visual": {
+      "source": "SP Figure",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Repaired: current full-resolution home/shuffle captures show a clear centered glossy white elongated loop with distinct rotation; original tiny lower-left sliver resolved.",
+      "figure_pre_effect_containment": "not certified from composite renders",
+      "original_issue": {
+        "source": "SP Figure",
+        "home": "sparse",
+        "shuffle": "sparse",
+        "notes": "Extreme near-black: only tiny thin diagonal white sliver in lower-left quadrant in both captures, confirmed at full resolution. Could be edge-on geometry; source/parameter review recommended before judging intended render."
+      },
+      "repair_status": "visually verified in current home and shuffle composite captures"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 10,
+    "source": "SP Figure Ring Source",
+    "name": "SP Figure Ring Source",
+    "status": "pass",
+    "driven": [
+      "thickness",
+      "twists",
+      "gamma"
+    ],
+    "moving": [
+      "thickness",
+      "twists",
+      "gamma"
+    ],
+    "errors": {},
+    "slots": 4,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "thickness": 0.2404065749113054,
+        "twists": 0.4395740374178961,
+        "gamma": 0.3531852441427066
+      },
+      {
+        "thickness": 0.2583320939496638,
+        "twists": 0.44455693402080343,
+        "gamma": 0.35446356025991765
+      },
+      {
+        "thickness": 0.27942627480274856,
+        "twists": 0.4506721926164368,
+        "gamma": 0.35604788679027277
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "SP Figure Ring Source",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Twisted rainbow ring centered on black; detailed shaded form visible.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 11,
+    "source": "SP Figure Spike Source",
+    "name": "SP Figure Spike Source",
+    "status": "pass",
+    "driven": [
+      "Quat W",
+      "Quat Z",
+      "Spike Sharpness"
+    ],
+    "moving": [
+      "Quat W",
+      "Quat Z",
+      "Spike Sharpness"
+    ],
+    "errors": {},
+    "slots": 6,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Quat W": 0.7032331321501553,
+        "Quat Z": -0.2935337356996893,
+        "Spike Sharpness": 0.3989904164459635
+      },
+      {
+        "Quat W": 0.7045216810579948,
+        "Quat Z": -0.29095663788401016,
+        "Spike Sharpness": 0.41702522845215834
+      },
+      {
+        "Quat W": 0.7061346556258048,
+        "Quat Z": -0.2877306887483905,
+        "Spike Sharpness": 0.4384437503348983
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "SP Figure Spike Source",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Gray radial spike star centered on black; dark but clearly structured.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 12,
+    "source": "SP Figure Crystal Source",
+    "name": "SP Figure Crystal Source",
+    "status": "pass",
+    "driven": [
+      "Quat W",
+      "Quat Z",
+      "Refraction"
+    ],
+    "moving": [
+      "Quat W",
+      "Quat Z",
+      "Refraction"
+    ],
+    "errors": {},
+    "slots": 6,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Quat W": 0.703113761225046,
+        "Quat Z": -0.2937724775499081,
+        "Refraction": 0.1437748384468554
+      },
+      {
+        "Quat W": 0.7044115836318379,
+        "Quat Z": -0.291176832736324,
+        "Refraction": 0.15198249685950377
+      },
+      {
+        "Quat W": 0.7059421968225457,
+        "Quat Z": -0.28811560635490885,
+        "Refraction": 0.16117960353452007
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "SP Figure Crystal Source",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Small dark glassy organic form with bright blue-white highlights, shape readable against black.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 13,
+    "source": "Heart HypnoWorm",
+    "name": "Heart HypnoWorm",
+    "status": "pass",
+    "driven": [
+      "color1R",
+      "phase1",
+      "phase2"
+    ],
+    "moving": [
+      "color1R",
+      "phase1",
+      "phase2"
+    ],
+    "errors": {},
+    "slots": 14,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "color1R": 0.5570220214998423,
+        "phase1": -0.4219119140006309,
+        "phase2": -1.6219119140006308
+      },
+      {
+        "color1R": 0.5590584876721026,
+        "phase1": -0.41376604931158933,
+        "phase2": -1.6137660493115893
+      },
+      {
+        "color1R": 0.5611887598597998,
+        "phase1": -0.4052449605608006,
+        "phase2": -1.6052449605608006
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Heart HypnoWorm",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Tiny but distinct magenta spiral disk centered on black.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 14,
+    "source": "Heart Torus",
+    "name": "Heart Torus",
+    "status": "pass",
+    "driven": [
+      "color1R",
+      "color1G",
+      "color1B"
+    ],
+    "moving": [
+      "color1R",
+      "color1G",
+      "color1B"
+    ],
+    "errors": {},
+    "slots": 8,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "color1R": 0.15311118822276143,
+        "color1G": 0.5531111882227614,
+        "color1B": 0.7525926568523011
+      },
+      {
+        "color1R": 0.1544005260426604,
+        "color1G": 0.5544005260426603,
+        "color1B": 0.7536671050355503
+      },
+      {
+        "color1R": 0.15591587353449024,
+        "color1G": 0.5559158735344901,
+        "color1B": 0.7549298946120752
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Heart Torus",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Small cyan wire/coiled torus with amber center, pose changes visibly.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 15,
+    "source": "Metaballs",
+    "name": "FM \u00b7 Metaballs [1.6.3]",
+    "status": "pass",
+    "driven": [
+      "Radius",
+      "Fuzzyness"
+    ],
+    "moving": [
+      "Radius",
+      "Fuzzyness"
+    ],
+    "errors": {},
+    "slots": 9,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Radius": 0.8794465803213517,
+        "Fuzzyness": 0.13679253994169677
+      },
+      {
+        "Radius": 0.889838719951734,
+        "Fuzzyness": 0.1383221055464297
+      },
+      {
+        "Radius": 0.8995004905108286,
+        "Fuzzyness": 0.1398260331818654
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Metaballs",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Alpha over black reveals softly shaded luminous metaball blobs and highlights on black; frame-edge intersections remain.",
+      "figure_pre_effect_containment": "not certified from composite renders",
+      "review_method": "Straight-alpha RGBA composited over black before visual inspection."
+    }
+  },
+  {
+    "layer": 5,
+    "col": 16,
+    "source": "z33d+",
+    "name": "FM \u00b7 z33d+ [1.6.4]",
+    "status": "pass",
+    "driven": [
+      "mx",
+      "my",
+      "e"
+    ],
+    "moving": [
+      "mx",
+      "my",
+      "e"
+    ],
+    "errors": {},
+    "slots": 7,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "mx": 0.3733555766825436,
+        "my": 0.4708777833285227,
+        "e": 0.18002080437851356
+      },
+      {
+        "mx": 0.36312429912439625,
+        "my": 0.46087594465735365,
+        "e": 0.18119904284371063
+      },
+      {
+        "mx": 0.35233877294754457,
+        "my": 0.4526940265375165,
+        "e": 0.18403170849859357
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "z33d+",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Small detailed pink-purple radial petal cluster on black.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 17,
+    "source": "DimensionMorphingTopography",
+    "name": "FM \u00b7 DimensionMorphingTopography [1.6.5]",
+    "status": "pass",
+    "driven": [
+      "rx",
+      "ry",
+      "rz"
+    ],
+    "moving": [
+      "rx",
+      "ry",
+      "rz"
+    ],
+    "errors": {},
+    "slots": 11,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "rx": 2.0579483142455324,
+        "ry": -3.133533267136875,
+        "rz": 2.1467621249957967
+      },
+      {
+        "rx": 2.062989610665918,
+        "ry": -3.1287800494274003,
+        "rz": 2.151391880400597
+      },
+      {
+        "rx": 2.068718391176146,
+        "ry": -3.1233786330645765,
+        "rz": 2.1566529978431044
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "DimensionMorphingTopography",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Colorful angular patterned solid centered on black; changed pose, visible detail throughout.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 18,
+    "source": "MagicLougie",
+    "name": "FM \u00b7 MagicLougie [1.6.6]",
+    "status": "pass",
+    "driven": [
+      "offset1",
+      "offset2",
+      "offset3"
+    ],
+    "moving": [
+      "offset1",
+      "offset2",
+      "offset3"
+    ],
+    "errors": {},
+    "slots": 14,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "offset1": -2.9776566697230775,
+        "offset2": -2.9791405219550215,
+        "offset3": 2.0431506682427445
+      },
+      {
+        "offset1": -2.9715256143405666,
+        "offset2": -2.9734166386502965,
+        "offset3": 2.04898422593147
+      },
+      {
+        "offset1": -2.9642248174135877,
+        "offset2": -2.9666006979950015,
+        "offset3": 2.055592371041758
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "MagicLougie",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Green cellular organic sphere with dark upper areas and bright highlights; readable object, not blank.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 19,
+    "source": "GeodesicTiling",
+    "name": "FM \u00b7 GeodesicTiling [1.6.7]",
+    "status": "pass",
+    "driven": [
+      "Float In",
+      "Float In 2",
+      "Float In 3"
+    ],
+    "moving": [
+      "Float In",
+      "Float In 2",
+      "Float In 3"
+    ],
+    "errors": {},
+    "slots": 5,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Float In": 5.004156234665026,
+        "Float In 2": 0.14041562555885828,
+        "Float In 3": 0.14041562555885845
+      },
+      {
+        "Float In": 5.006391745575999,
+        "Float In 2": 0.1406391766532868,
+        "Float In 3": 0.14063917665328696
+      },
+      {
+        "Float In": 5.009066118600387,
+        "Float In 2": 0.1409066139597106,
+        "Float In 3": 0.14090661395971077
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "GeodesicTiling",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Large bright multicolor hexagonal sphere with visible composite margin in both captures.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 20,
+    "source": "RainbowRingCubicTwist",
+    "name": "FM \u00b7 RainbowRingCubicTwist [1.6.8]",
+    "status": "pass",
+    "driven": [
+      "thickness",
+      "twists",
+      "gamma"
+    ],
+    "moving": [
+      "thickness",
+      "twists",
+      "gamma"
+    ],
+    "errors": {},
+    "slots": 5,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "thickness": 0.17824457761430287,
+        "twists": 0.0015614779960236552,
+        "gamma": 0.8515614779960237
+      },
+      {
+        "thickness": 0.1960400792851552,
+        "twists": 0.0021944508614448383,
+        "gamma": 0.8521944508614449
+      },
+      {
+        "thickness": 0.21738412142685837,
+        "twists": 0.0029940191474206704,
+        "gamma": 0.8529940191474207
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "RainbowRingCubicTwist",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Compact smooth rainbow twisted ring with clear silhouette.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 21,
+    "source": "SpaceSpore",
+    "name": "FM \u00b7 SpaceSpore [1.6.9]",
+    "status": "pass",
+    "driven": [
+      "c1",
+      "morph",
+      "saturation"
+    ],
+    "moving": [
+      "c1",
+      "morph",
+      "saturation"
+    ],
+    "errors": {},
+    "slots": 15,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "c1": 0.0028232830315761096,
+        "morph": 0.32098538746217875,
+        "saturation": 0.8528232830315761
+      },
+      {
+        "c1": 0.003687832818590522,
+        "morph": 0.342956516772788,
+        "saturation": 0.8536878328185905
+      },
+      {
+        "c1": 0.0046444803791551355,
+        "morph": 0.36562536692167336,
+        "saturation": 0.8546444803791551
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "SpaceSpore",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Bright red cellular sphere with white glints and dark crevices, clearly detailed.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 22,
+    "source": "4D Voronoi + Hopf Fibration",
+    "name": "FM \u00b7 4D Voronoi + Hopf Fibration [1.6.10]",
+    "status": "pass",
+    "driven": [
+      "Quat W",
+      "Quat Z",
+      "Brightness"
+    ],
+    "moving": [
+      "Quat W",
+      "Quat Z",
+      "Brightness"
+    ],
+    "errors": {},
+    "slots": 8,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Quat W": -0.9953971689353592,
+        "Quat Z": 0.5174847529378968,
+        "Brightness": 1.2822514512690484
+      },
+      {
+        "Quat W": -0.9937241863451968,
+        "Quat Z": 0.5199879635911371,
+        "Brightness": 1.333828420276304
+      },
+      {
+        "Quat W": -0.9921745509228808,
+        "Quat Z": 0.5223066152738207,
+        "Brightness": 1.379053268977089
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "4D Voronoi + Hopf Fibration",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Pastel translucent globe with fine polygon mesh and internal flowing forms.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 23,
+    "source": "16 Dimensional Julia (Sedenion)",
+    "name": "FM \u00b7 16 Dimensional Julia (Sedenion) [1.6.11]",
+    "status": "pass",
+    "driven": [
+      "Quat W",
+      "Quat Z",
+      "Julia Amplitude"
+    ],
+    "moving": [
+      "Quat W",
+      "Quat Z",
+      "Julia Amplitude"
+    ],
+    "errors": {},
+    "slots": 8,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Quat W": -0.995165154040174,
+        "Quat Z": -0.9952290618357658,
+        "Julia Amplitude": 0.5352014572966977
+      },
+      {
+        "Quat W": -0.993467336933464,
+        "Quat Z": -0.9935536867570977,
+        "Julia Amplitude": 0.5608149813210144
+      },
+      {
+        "Quat W": -0.991430384154401,
+        "Quat Z": -0.9915436587576276,
+        "Julia Amplitude": 0.5899321960965411
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "16 Dimensional Julia (Sedenion)",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Dim round boundary around bright purple-green folded central Julia form; structured.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 24,
+    "source": "Barth Sextic Surfaces",
+    "name": "FM \u00b7 Barth Sextic Surfaces [1.6.12]",
+    "status": "pass",
+    "driven": [
+      "Quat W",
+      "Quat Z",
+      "Surface K"
+    ],
+    "moving": [
+      "Quat W",
+      "Quat Z",
+      "Surface K"
+    ],
+    "errors": {},
+    "slots": 8,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Quat W": -0.993249903329688,
+        "Quat Z": 0.5568867734374088,
+        "Surface K": 0.2482384258523903
+      },
+      {
+        "Quat W": -0.9908188527924964,
+        "Quat Z": 0.5590750727363256,
+        "Surface K": 0.2680322783913932
+      },
+      {
+        "Quat W": -0.9880229580984692,
+        "Quat Z": 0.5615917848758658,
+        "Surface K": 0.28951191314892954
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Barth Sextic Surfaces",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Multicolor curved lobe cluster with dramatic orientation change; all primary forms visible in composite.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 25,
+    "source": "Crystal Drops",
+    "name": "FM \u00b7 Crystal Drops [1.6.13]",
+    "status": "pass",
+    "driven": [
+      "Quat W",
+      "Quat Z",
+      "Refraction"
+    ],
+    "moving": [
+      "Quat W",
+      "Quat Z",
+      "Refraction"
+    ],
+    "errors": {},
+    "slots": 8,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Quat W": 0.5643563200647639,
+        "Quat Z": 0.4419200215059982,
+        "Refraction": 0.1392262804420689
+      },
+      {
+        "Quat W": 0.5666248530818321,
+        "Quat Z": 0.4448261186576121,
+        "Refraction": 0.14859064177150771
+      },
+      {
+        "Quat W": 0.5688694357767892,
+        "Quat Z": 0.44770153432372695,
+        "Refraction": 0.15734488182755935
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Crystal Drops",
+      "home": "nonblank",
+      "shuffle": "cropped",
+      "notes": "Bright pale-blue orb; shuffle includes extra smaller orb partly cut at bottom. Subtle surface shading visible; not flat or blank.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 26,
+    "source": "curved surface",
+    "name": "FM \u00b7 curved surface [1.6.14]",
+    "status": "pass",
+    "driven": [
+      "Quat W",
+      "Quat Z"
+    ],
+    "moving": [
+      "Quat W",
+      "Quat Z"
+    ],
+    "errors": {},
+    "slots": 7,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Quat W": 0.6499154697522862,
+        "Quat Z": 0.6679408617380098
+      },
+      {
+        "Quat W": 0.651653150284262,
+        "Quat Z": 0.6695890713850177
+      },
+      {
+        "Quat W": 0.6536158287381311,
+        "Quat Z": 0.671450694106867
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "curved surface",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Small rainbow saddle-like cellular sphere on black, detailed curves in both captures.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 27,
+    "source": "Hopf + Poincare",
+    "name": "FM \u00b7 Hopf + Poincare [1.6.15]",
+    "status": "pass",
+    "driven": [
+      "Quat W",
+      "Quat Z",
+      "Refraction"
+    ],
+    "moving": [
+      "Quat W",
+      "Quat Z",
+      "Refraction"
+    ],
+    "errors": {},
+    "slots": 7,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Quat W": -0.996394053831138,
+        "Quat Z": 0.6841174857687533,
+        "Refraction": 2.124847086070946
+      },
+      {
+        "Quat W": -0.9948933640046018,
+        "Quat Z": 0.6856367501544831,
+        "Refraction": 2.164400507368174
+      },
+      {
+        "Quat W": -0.9932117628096166,
+        "Quat Z": 0.687339165111502,
+        "Refraction": 2.206342976274855
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Hopf + Poincare",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Smooth full-spectrum shaded disk with visible color structure on black.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 28,
+    "source": "Heart HypnoWorm",
+    "name": "FM \u00b7 HypnoWorm [1.6.16]",
+    "status": "pass",
+    "driven": [
+      "amp1",
+      "phase1",
+      "phase2"
+    ],
+    "moving": [
+      "amp1",
+      "phase1",
+      "phase2"
+    ],
+    "errors": {},
+    "slots": 8,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "amp1": 0.09609800186156064,
+        "phase1": 0.02375353643704159,
+        "phase2": -0.539814371194761
+      },
+      {
+        "amp1": 0.10116219364183512,
+        "phase1": 0.03007500341588809,
+        "phase2": -0.5334929042159144
+      },
+      {
+        "amp1": 0.10644351494703928,
+        "phase1": 0.03709055534875283,
+        "phase2": -0.5264773522830497
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": {
+      "layer": 5,
+      "col": 28,
+      "old_source": "HypnoWorm",
+      "source": "Heart HypnoWorm",
+      "status": "replaced with already-installed working Heart version",
+      "driven": [
+        "color1R",
+        "phase1",
+        "phase2"
+      ],
+      "home_recovered": true
+    },
+    "visual": {
+      "source": "Heart HypnoWorm",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Repaired: current full-resolution home/shuffle captures show a clear centered magenta spiral disk with distinct internal line change; original pure-black output resolved.",
+      "figure_pre_effect_containment": "not certified from composite renders",
+      "original_issue": {
+        "source": "HypnoWorm",
+        "home": "blank",
+        "shuffle": "blank",
+        "notes": "Both actual PNGs completely black; RGB extrema all exactly 0. Heart HypnoWorm L5C13 comparison has clear magenta spiral, so this is a true blank capture requiring investigation."
+      },
+      "repair_status": "visually verified in current home and shuffle composite captures"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 29,
+    "source": "Melty Boi",
+    "name": "FM \u00b7 Melty Boi [1.6.17]",
+    "status": "pass",
+    "driven": [
+      "intensity",
+      "spread",
+      "vignette"
+    ],
+    "moving": [
+      "intensity",
+      "spread",
+      "vignette"
+    ],
+    "errors": {},
+    "slots": 7,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "intensity": 0.8459149314759957,
+        "spread": 0.8287900122943949,
+        "vignette": 0.0019172199027527256
+      },
+      {
+        "intensity": 0.8585200821519294,
+        "spread": 0.8296297562336366,
+        "vignette": 0.0026435304338097293
+      },
+      {
+        "intensity": 0.872298159567316,
+        "spread": 0.8306021459152994,
+        "vignette": 0.0034845687945278953
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Melty Boi",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Compact multicolor warped concentric disk and soft outer glow, detailed interference visible.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 30,
+    "source": "QUANTUM WAVE INTERFERENCE",
+    "name": "FM \u00b7 QUANTUM WAVE INTERFERENCE [1.6.18]",
+    "status": "manual-only",
+    "driven": [],
+    "moving": [],
+    "errors": {},
+    "slots": 2,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {},
+      {},
+      {}
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "QUANTUM WAVE INTERFERENCE",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Soft rainbow radial interference rings centered on black, intentionally diffuse.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 31,
+    "source": "Quantum Zappy Sphere",
+    "name": "FM \u00b7 Quantum Zappy Sphere [1.6.19]",
+    "status": "pass",
+    "driven": [
+      "Quat W",
+      "Quat Z",
+      "Glow"
+    ],
+    "moving": [
+      "Quat W",
+      "Quat Z",
+      "Glow"
+    ],
+    "errors": {},
+    "slots": 7,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Quat W": -0.9951504477923367,
+        "Quat Z": -0.9950115436243876,
+        "Glow": 0.4120010577504897
+      },
+      {
+        "Quat W": -0.993377196582342,
+        "Quat Z": -0.9931875017489168,
+        "Glow": 0.4324902974508221
+      },
+      {
+        "Quat W": -0.9913739300230346,
+        "Quat Z": -0.9911268562682808,
+        "Glow": 0.4542886615244094
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Quantum Zappy Sphere",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Bright mosaic-colored sphere with distinct square cells.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 32,
+    "source": "Quaternion Averaging",
+    "name": "FM \u00b7 Quaternion Averaging [1.6.20]",
+    "status": "pass",
+    "driven": [
+      "Quat W",
+      "Quat Z"
+    ],
+    "moving": [
+      "Quat W",
+      "Quat Z"
+    ],
+    "errors": {},
+    "slots": 7,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Quat W": -0.9958190716483756,
+        "Quat Z": 0.6225464701631787
+      },
+      {
+        "Quat W": -0.9941656263329828,
+        "Quat Z": 0.6243843316489539
+      },
+      {
+        "Quat W": -0.992282897810484,
+        "Quat Z": 0.6264770493260725
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Quaternion Averaging",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Subtly shaded pastel sphere with dark center and clear rim; dim but nonblank.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 33,
+    "source": "Quaternion Conjugation 2",
+    "name": "FM \u00b7 Quaternion Conjugation 2 [1.6.21]",
+    "status": "pass",
+    "driven": [
+      "Quat W",
+      "Quat Z"
+    ],
+    "moving": [
+      "Quat W",
+      "Quat Z"
+    ],
+    "errors": {},
+    "slots": 7,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Quat W": 0.6500755659466566,
+        "Quat Z": -0.9953787139114656
+      },
+      {
+        "Quat W": 0.6519132808247836,
+        "Quat Z": -0.9935976732770776
+      },
+      {
+        "Quat W": 0.6537987972099824,
+        "Quat Z": -0.9917703053111252
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Quaternion Conjugation 2",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Dense white fractal solid with strong shadows and fine repeating detail.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 34,
+    "source": "quantum droplet",
+    "name": "FM \u00b7 quantum droplet [1.6.22]",
+    "status": "pass",
+    "driven": [
+      "Quat W",
+      "Quat Z"
+    ],
+    "moving": [
+      "Quat W",
+      "Quat Z"
+    ],
+    "errors": {},
+    "slots": 7,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Quat W": -0.9957839583694592,
+        "Quat Z": 0.5547746498029038
+      },
+      {
+        "Quat W": -0.993948758661958,
+        "Quat Z": 0.5568389544494241
+      },
+      {
+        "Quat W": -0.9919045924909934,
+        "Quat Z": 0.5591383127741525
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "quantum droplet",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Layered gray wavy square motif and small satellites; structured with composite margin.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 35,
+    "source": "On their way to Sirius",
+    "name": "FM \u00b7 On their way to Sirius [1.6.23]",
+    "status": "manual-only",
+    "driven": [],
+    "moving": [],
+    "errors": {},
+    "slots": 1,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {},
+      {},
+      {}
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "On their way to Sirius",
+      "home": "cropped",
+      "shuffle": "cropped",
+      "notes": "Sparse bright rainbow glints clustered toward right; rightmost form cut at edge in both. Visible content but off-center/cropped composition merits review.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 36,
+    "source": "Ray Marching Experiment n35",
+    "name": "FM \u00b7 Ray Marching Experiment n35 [1.6.24]",
+    "status": "pass",
+    "driven": [
+      "Quat W",
+      "Quat Z",
+      "Displacement"
+    ],
+    "moving": [
+      "Quat W",
+      "Quat Z",
+      "Displacement"
+    ],
+    "errors": {},
+    "slots": 8,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Quat W": 0.6752786463090528,
+        "Quat Z": -0.9952090511825016,
+        "Displacement": 0.41054564576403174
+      },
+      {
+        "Quat W": 0.6769139079551494,
+        "Quat Z": -0.9934468332022794,
+        "Displacement": 0.4307243854939866
+      },
+      {
+        "Quat W": 0.678511215355563,
+        "Quat Z": -0.991725516110504,
+        "Displacement": 0.4493903922021405
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Ray Marching Experiment n35",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Dark blue-purple rounded surface with soft highlights; shuffle adds broad orange fold, not flat.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 37,
+    "source": "Shaderdough",
+    "name": "FM \u00b7 Shaderdough [1.6.25]",
+    "status": "manual-only",
+    "driven": [],
+    "moving": [],
+    "errors": {},
+    "slots": 1,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {},
+      {},
+      {}
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Shaderdough",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Bright pastel sculpted spiral cube, clear shaded folds and pose change.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 38,
+    "source": "Spikeball_v2",
+    "name": "FM \u00b7 Spikeball_v2 [1.6.26]",
+    "status": "pass",
+    "driven": [
+      "Quat W",
+      "Quat Z",
+      "Spike Sharpness"
+    ],
+    "moving": [
+      "Quat W",
+      "Quat Z",
+      "Spike Sharpness"
+    ],
+    "errors": {},
+    "slots": 8,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Quat W": -0.9948194081540708,
+        "Quat Z": -0.994668385118559,
+        "Spike Sharpness": 0.1822536585380836
+      },
+      {
+        "Quat W": -0.9930266940272408,
+        "Quat Z": -0.9928234103355548,
+        "Spike Sharpness": 0.2026983658994853
+      },
+      {
+        "Quat W": -0.9909188489522168,
+        "Quat Z": -0.990654118002942,
+        "Spike Sharpness": 0.22528752308453429
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Spikeball_v2",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Gray spike star on black; shuffle thickens rounded rays, consistent with Spike Source.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 39,
+    "source": "Quantum Carpets",
+    "name": "FM \u00b7 Quantum Carpets [1.6.27]",
+    "status": "pass",
+    "driven": [
+      "Brightness"
+    ],
+    "moving": [
+      "Brightness"
+    ],
+    "errors": {},
+    "slots": 4,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Brightness": 2.1204695081047644
+      },
+      {
+        "Brightness": 2.1431316532663347
+      },
+      {
+        "Brightness": 2.169706211778447
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Quantum Carpets",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Soft luminous rainbow lobes centered on black; diffuse but clearly structured.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 40,
+    "source": "Heart Torus",
+    "name": "FM \u00b7 Torus thingy [1.6.28]",
+    "status": "render-only",
+    "reason": "No Heart numeric slots; no invented controls",
+    "parameters": [],
+    "repair": {
+      "layer": 5,
+      "col": 40,
+      "old_source": "Torus thingy",
+      "source": "Heart Torus",
+      "status": "replaced with already-installed working Heart version",
+      "driven": [
+        "color1R",
+        "color1G",
+        "color1B"
+      ],
+      "home_recovered": true
+    },
+    "visual": {
+      "source": "Heart Torus",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Repaired: current full-resolution home/shuffle captures show detailed cyan coiled torus with amber highlights and clear orientation change; original pure-black output resolved.",
+      "figure_pre_effect_containment": "not certified from composite renders",
+      "original_issue": {
+        "source": "Torus thingy",
+        "home": "blank",
+        "shuffle": "blank",
+        "notes": "Both actual PNG captures are pure black; RGB extrema exactly 0 in both. Heart Torus L5C14 has visible cyan torus, so investigate source-specific blank."
+      },
+      "repair_status": "visually verified in current home and shuffle composite captures"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 41,
+    "source": "Raymarched Hopf Fibers",
+    "name": "FM \u00b7 Raymarched Hopf Fibers [1.6.29]",
+    "status": "pass",
+    "driven": [
+      "Quat W",
+      "Quat Z",
+      "Fiber Radius"
+    ],
+    "moving": [
+      "Quat W",
+      "Quat Z",
+      "Fiber Radius"
+    ],
+    "errors": {},
+    "slots": 8,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Quat W": -0.9937250575272604,
+        "Quat Z": -0.9939733494861824,
+        "Fiber Radius": 0.2236145059885515
+      },
+      {
+        "Quat W": -0.9916905555139957,
+        "Quat Z": -0.9920193502811108,
+        "Fiber Radius": 0.22596201365219257
+      },
+      {
+        "Quat W": -0.9892297769467996,
+        "Quat Z": -0.9896559417748478,
+        "Fiber Radius": 0.22862426625442195
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Raymarched Hopf Fibers",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Gray looping flower at home changes to compact donut under shuffle; clear geometry, not blank.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 42,
+    "source": "Dodecahedron",
+    "name": "FM \u00b7 Dodecahedron [1.6.30]",
+    "status": "pass",
+    "driven": [
+      "een",
+      "twee",
+      "drie"
+    ],
+    "moving": [
+      "een",
+      "twee",
+      "drie"
+    ],
+    "errors": {},
+    "slots": 9,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "een": 7.584615572635455,
+        "twee": 7.987717322104238,
+        "drie": 3.10375445446388
+      },
+      {
+        "een": 7.764282433432622,
+        "twee": 7.996790783065539,
+        "drie": 3.117141311300024
+      },
+      {
+        "een": 7.950481085294258,
+        "twee": 8.006682437687115,
+        "drie": 3.1317353195683575
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Dodecahedron",
+      "home": "cropped",
+      "shuffle": "cropped",
+      "notes": "Long gray triangular spikes/planes shoot from small central structure beyond frame edges in both captures; extreme stretched geometry merits source-intent review.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 43,
+    "source": "Wireframe stellated dodecahedron",
+    "name": "FM \u00b7 Wireframe stellated dodecahedron [1.6.31]",
+    "status": "pass",
+    "driven": [
+      "Float In"
+    ],
+    "moving": [
+      "Float In"
+    ],
+    "errors": {},
+    "slots": 1,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Float In": 0.34325316506940223
+      },
+      {
+        "Float In": 0.35829300096947936
+      },
+      {
+        "Float In": 0.3759776209166849
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Wireframe stellated dodecahedron",
+      "home": "cropped",
+      "shuffle": "nonblank",
+      "notes": "Bright wire star with red/teal glow; home longest ray crosses top/bottom, shuffle more compact.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 44,
+    "source": "Kali liberation of the true self",
+    "name": "FM \u00b7 Kali liberation of the true self [1.6.32]",
+    "status": "render-only",
+    "reason": "No Heart numeric slots; no invented controls",
+    "parameters": [],
+    "repair": null,
+    "visual": {
+      "source": "Kali liberation of the true self",
+      "home": "nonblank",
+      "shuffle": "cropped",
+      "notes": "Home dim red bubble cloud with wire cube; shuffle much brighter and larger cloud crosses bottom. Source comparison supports bubble-cluster style seen in Heart Kali Liberation.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 45,
+    "source": "CubeCluster",
+    "name": "FM \u00b7 CubeCluster [1.6.33]",
+    "status": "pass",
+    "driven": [
+      "pulse",
+      "Float In 5",
+      "saturation"
+    ],
+    "moving": [
+      "pulse",
+      "Float In 5",
+      "saturation"
+    ],
+    "errors": {},
+    "slots": 6,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "pulse": 0.8750805868070409,
+        "Float In 5": 0.8516575038286294,
+        "saturation": 0.0016575038286293809
+      },
+      {
+        "pulse": 0.8845285261260568,
+        "Float In 5": 0.8523353321923717,
+        "saturation": 0.0023353321923716445
+      },
+      {
+        "pulse": 0.8952488123823803,
+        "Float In 5": 0.8531472571049497,
+        "saturation": 0.003147257104949655
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "CubeCluster",
+      "home": "sparse",
+      "shuffle": "sparse",
+      "notes": "Few tiny gray/gold cubes distributed around center on black; genuinely sparse but visible content in both, shuffle nearly a thin line.",
+      "figure_pre_effect_containment": "not certified from composite renders",
+      "review_method": "Straight-alpha RGBA composited over black before visual inspection."
+    }
+  },
+  {
+    "layer": 5,
+    "col": 46,
+    "source": "example using quaternions",
+    "name": "FM \u00b7 example using quaternions [1.6.34]",
+    "status": "pass",
+    "driven": [
+      "Quat W",
+      "Quat Z",
+      "Line Width"
+    ],
+    "moving": [
+      "Quat W",
+      "Quat Z",
+      "Line Width"
+    ],
+    "errors": {},
+    "slots": 8,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Quat W": 0.6039788419073775,
+        "Quat Z": -0.9947244778249994,
+        "Line Width": 1.214768684871352
+      },
+      {
+        "Quat W": 0.6059708807643873,
+        "Quat Z": -0.9928332149095171,
+        "Line Width": 1.2529148858519228
+      },
+      {
+        "Quat W": 0.6076418860436066,
+        "Quat Z": -0.9912467446933156,
+        "Line Width": 1.28333378666166
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "example using quaternions",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Thin white wireframe cube clearly visible in both orientations.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 47,
+    "source": "Multi Cube",
+    "name": "FM \u00b7 Multi Cube [1.6.35]",
+    "status": "pass",
+    "driven": [
+      "z",
+      "drift",
+      "color"
+    ],
+    "moving": [
+      "z",
+      "drift",
+      "color"
+    ],
+    "errors": {},
+    "slots": 10,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "z": 0.8336956421779796,
+        "drift": 0.04444210128443771,
+        "color": 0.00276994148031141
+      },
+      {
+        "z": 0.834649607976958,
+        "drift": 0.05747435195708215,
+        "color": 0.0036827862675155062
+      },
+      {
+        "z": 0.8357731398061233,
+        "drift": 0.07324471354466185,
+        "color": 0.004867007281300396
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Multi Cube",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Small dim red layered disk with orange/red wire cube center; low brightness but distinct structure.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 49,
+    "source": "quantum computer",
+    "name": "FM \u00b7 quantum computer [1.6.37]",
+    "status": "pass",
+    "driven": [
+      "Quat W",
+      "Quat Z"
+    ],
+    "moving": [
+      "Quat W",
+      "Quat Z"
+    ],
+    "errors": {},
+    "slots": 7,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Quat W": -0.9956414711455333,
+        "Quat Z": -0.9955386549088246
+      },
+      {
+        "Quat W": -0.9940535136033204,
+        "Quat Z": -0.9939132379797418
+      },
+      {
+        "Quat W": -0.9925488272125564,
+        "Quat Z": -0.9923730565406964
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "quantum computer",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Small highly detailed multicolor square fractal centered on black.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 50,
+    "source": "Melting Fractal",
+    "name": "FM \u00b7 Melting Fractal [1.6.38]",
+    "status": "pass",
+    "driven": [
+      "rotation mix",
+      "fold offset",
+      "glow strength"
+    ],
+    "moving": [
+      "rotation mix",
+      "fold offset",
+      "glow strength"
+    ],
+    "errors": {},
+    "slots": 8,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "rotation mix": 0.3558643956675308,
+        "fold offset": 0.5250737254207517,
+        "glow strength": 0.002050870522517187
+      },
+      {
+        "rotation mix": 0.35736306452847616,
+        "fold offset": 0.545325023843182,
+        "glow strength": 0.0028002049529898543
+      },
+      {
+        "rotation mix": 0.35880405729160736,
+        "fold offset": 0.5637663195969638,
+        "glow strength": 0.003520701334555451
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Melting Fractal",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Small warm-colored fractal cube, shuffle much dimmer but still clear repeating structure.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 51,
+    "source": "quadratic bezier triangle 2 AABV",
+    "name": "FM \u00b7 quadratic bezier triangle 2 AABV [1.6.39]",
+    "status": "pass",
+    "driven": [
+      "Quat W",
+      "Quat Z",
+      "Deform Amplitude"
+    ],
+    "moving": [
+      "Quat W",
+      "Quat Z",
+      "Deform Amplitude"
+    ],
+    "errors": {},
+    "slots": 8,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Quat W": 0.5560289531397782,
+        "Quat Z": -0.1919614256867579,
+        "Deform Amplitude": 13.320646792856405
+      },
+      {
+        "Quat W": 0.5582219703338744,
+        "Quat Z": -0.18903740260637591,
+        "Deform Amplitude": 13.459446604895732
+      },
+      {
+        "Quat W": 0.5602046062230874,
+        "Quat Z": -0.18639388794736678,
+        "Deform Amplitude": 13.578648969542783
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "quadratic bezier triangle 2 AABV",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Small rainbow curved triangular surface with black stripes; home more edge-on than shuffle.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 52,
+    "source": "Klein Bottle (3D)",
+    "name": "FM \u00b7 Klein Bottle (3D) [1.6.40]",
+    "status": "pass",
+    "driven": [
+      "Quat W",
+      "Quat Z",
+      "Refraction"
+    ],
+    "moving": [
+      "Quat W",
+      "Quat Z",
+      "Refraction"
+    ],
+    "errors": {},
+    "slots": 8,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Quat W": -0.9253368298682612,
+        "Quat Z": 0.24953599826032136,
+        "Refraction": 0.4094053729363802
+      },
+      {
+        "Quat W": -0.9224145092167,
+        "Quat Z": 0.25245831891188253,
+        "Refraction": 0.42925823528091234
+      },
+      {
+        "Quat W": -0.9190413749461586,
+        "Quat Z": 0.2558314531824242,
+        "Refraction": 0.4508804205847168
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Klein Bottle (3D)",
+      "home": "sparse",
+      "shuffle": "sparse",
+      "notes": "Very dark blue-gray Klein-bottle form at center, faint curved silhouette and highlight visible; not completely blank, brightness merits intent comparison.",
+      "figure_pre_effect_containment": "not certified from composite renders",
+      "review_method": "Straight-alpha RGBA composited over black before visual inspection."
+    }
+  },
+  {
+    "layer": 5,
+    "col": 53,
+    "source": "4D Rounded box (Bluey)",
+    "name": "FM \u00b7 4D Rounded box (Bluey) [1.6.41]",
+    "status": "pass",
+    "driven": [
+      "Quat W",
+      "Quat Z",
+      "Hyper Slice"
+    ],
+    "moving": [
+      "Quat W",
+      "Quat Z",
+      "Hyper Slice"
+    ],
+    "errors": {},
+    "slots": 8,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Quat W": 0.7040418457378703,
+        "Quat Z": -0.2919163085242593,
+        "Hyper Slice": 0.41040640355257857
+      },
+      {
+        "Quat W": 0.7055262577015053,
+        "Quat Z": -0.2889474845969895,
+        "Hyper Slice": 0.4305140667743218
+      },
+      {
+        "Quat W": 0.7072612172962067,
+        "Quat Z": -0.2854775654075864,
+        "Hyper Slice": 0.45265731078845606
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "4D Rounded box (Bluey)",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Shaded pale-blue rounded box, clear changed pose and shape.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 54,
+    "source": "4-space rotations",
+    "name": "FM \u00b7 4-space rotations [1.6.42]",
+    "status": "pass",
+    "driven": [
+      "Quat W",
+      "Quat Z"
+    ],
+    "moving": [
+      "Quat W",
+      "Quat Z"
+    ],
+    "errors": {},
+    "slots": 8,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Quat W": -0.9953553013763956,
+        "Quat Z": 0.6443773014423517
+      },
+      {
+        "Quat W": -0.99365716436162,
+        "Quat Z": 0.646210104166792
+      },
+      {
+        "Quat W": -0.9916592850389876,
+        "Quat Z": 0.6482725323685001
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "4-space rotations",
+      "home": "sparse",
+      "shuffle": "cropped",
+      "notes": "Home faint outlined rounded geometry on black; shuffle dark stretched lobes cut at top/right. Nonblank but extreme scaling/brightness warrants source-intent review.",
+      "figure_pre_effect_containment": "not certified from composite renders",
+      "review_method": "Straight-alpha RGBA composited over black before visual inspection."
+    }
+  },
+  {
+    "layer": 5,
+    "col": 55,
+    "source": "HEPTANION transformation",
+    "name": "FM \u00b7 HEPTANION transformation [1.6.43]",
+    "status": "pass",
+    "driven": [
+      "Quat W",
+      "Quat Z"
+    ],
+    "moving": [
+      "Quat W",
+      "Quat Z"
+    ],
+    "errors": {},
+    "slots": 8,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Quat W": 0.7041288417619032,
+        "Quat Z": -0.9958711582380968
+      },
+      {
+        "Quat W": 0.705680893450028,
+        "Quat Z": -0.994319106549972
+      },
+      {
+        "Quat W": 0.7075524339722508,
+        "Quat Z": -0.9925461133997272
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "HEPTANION transformation",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Small colored coordinate arms around gray sphere, clear shifted pose.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 56,
+    "source": "quaternion slerp",
+    "name": "FM \u00b7 quaternion slerp [1.6.44]",
+    "status": "pass",
+    "driven": [
+      "Quat W",
+      "Quat Z"
+    ],
+    "moving": [
+      "Quat W",
+      "Quat Z"
+    ],
+    "errors": {},
+    "slots": 7,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Quat W": 0.704181738633517,
+        "Quat Z": -0.29163652273296614
+      },
+      {
+        "Quat W": 0.7056939195364245,
+        "Quat Z": -0.28861216092715103
+      },
+      {
+        "Quat W": 0.7068522297403952,
+        "Quat Z": -0.28629554051920936
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "quaternion slerp",
+      "home": "cropped",
+      "shuffle": "cropped",
+      "notes": "Checker sphere and multiple colored axis tripods, some outer axes cut by left/right frame in both.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 58,
+    "source": "Quaternion Twister",
+    "name": "FM \u00b7 Quaternion Twister [1.6.46]",
+    "status": "pass",
+    "driven": [
+      "Quat W",
+      "Quat Z"
+    ],
+    "moving": [
+      "Quat W",
+      "Quat Z"
+    ],
+    "errors": {},
+    "slots": 8,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Quat W": -0.9927501773209714,
+        "Quat Z": 0.5786627667105209
+      },
+      {
+        "Quat W": -0.9903082647488024,
+        "Quat Z": 0.5809338483846063
+      },
+      {
+        "Quat W": -0.9879973351017391,
+        "Quat Z": 0.5830831104144438
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Quaternion Twister",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Pastel swirled line bundle centered on black with detailed small endpoint marks.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 59,
+    "source": "Spinor Belt Trick",
+    "name": "FM \u00b7 Spinor Belt Trick [1.6.47]",
+    "status": "pass",
+    "driven": [
+      "Quat W",
+      "Quat Z"
+    ],
+    "moving": [
+      "Quat W",
+      "Quat Z"
+    ],
+    "errors": {},
+    "slots": 8,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Quat W": 0.7036691998449689,
+        "Quat Z": -0.29266160031006216
+      },
+      {
+        "Quat W": 0.7051516622042835,
+        "Quat Z": -0.28969667559143286
+      },
+      {
+        "Quat W": 0.706759618875844,
+        "Quat Z": -0.28648076224831176
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Spinor Belt Trick",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Small colored curved ribbons attached to central box, clear shaded geometry.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 60,
+    "source": "Superfluid helium",
+    "name": "FM \u00b7 Superfluid helium [1.6.48]",
+    "status": "manual-only",
+    "driven": [],
+    "moving": [],
+    "errors": {},
+    "slots": 2,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {},
+      {},
+      {}
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Superfluid helium",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Soft luminous rainbow loop cluster on black with visible changed orientation.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 61,
+    "source": "Hopf fibers SP",
+    "name": "FM \u00b7 Hopf fibers SP [1.6.85]",
+    "status": "pass",
+    "driven": [
+      "Orbit",
+      "Morph",
+      "Hue"
+    ],
+    "moving": [
+      "Orbit",
+      "Morph",
+      "Hue"
+    ],
+    "errors": {},
+    "slots": 9,
+    "source_numeric_not_slots": [
+      "Heart Rate (turns/s)",
+      "Depth",
+      "FM"
+    ],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Orbit": 0.07354540817668931,
+        "Morph": 0.2451095426825855,
+        "Hue": 0.2847875099502052
+      },
+      {
+        "Orbit": 0.06598526367691854,
+        "Morph": 0.24109749673355096,
+        "Hue": 0.28770012003907214
+      },
+      {
+        "Orbit": 0.059867016507601,
+        "Morph": 0.23745501074448733,
+        "Hue": 0.2890300193051466
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Hopf fibers SP",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Full-frame translucent colored fibers, matching immersive Hopf Fibration source-style.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 62,
+    "source": "SP State Test",
+    "name": "FM \u00b7 SP State Test [1.6.86]",
+    "status": "manual-only",
+    "driven": [],
+    "moving": [],
+    "errors": {},
+    "slots": 1,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {},
+      {},
+      {}
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "SP State Test",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Simple diagnostic block layout of gray left half, black upper right, green lower right; shuffle changes gray level and green height. Not single-color flat.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 65,
+    "source": "Gradient Bars",
+    "name": "FM \u00b7 Gradient Bars [2.4.2]",
+    "status": "pass",
+    "driven": [
+      "gradient power",
+      "balance",
+      "offset"
+    ],
+    "moving": [
+      "gradient power",
+      "balance",
+      "offset"
+    ],
+    "errors": {},
+    "slots": 10,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "gradient power": 0.5090308606744758,
+        "balance": 0.4454455050492045,
+        "offset": 2.324100685311876
+      },
+      {
+        "gradient power": 0.5106210622400377,
+        "balance": 0.4665555265679269,
+        "offset": 2.3495439103608673
+      },
+      {
+        "gradient power": 0.5123535183533008,
+        "balance": 0.48816754040329674,
+        "offset": 2.377263208173076
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Gradient Bars",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Full-frame grayscale gradient bars, matching Field source pattern.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 67,
+    "source": "Shaper",
+    "name": "FM \u00b7 Shaper [2.4.3]",
+    "status": "pass",
+    "driven": [
+      "Noise Amount",
+      "Outline"
+    ],
+    "moving": [
+      "Noise Amount",
+      "Outline"
+    ],
+    "errors": {},
+    "slots": 5,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Noise Amount": -0.2169860293707504,
+        "Outline": 0.026357647819275826
+      },
+      {
+        "Noise Amount": -0.18078939290218432,
+        "Outline": 0.02699216381850858
+      },
+      {
+        "Noise Amount": -0.14045076190630623,
+        "Outline": 0.0277351088866728
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Shaper",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Large white disk with cyan outline on black; intentionally simple shape, not uniform flat frame.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 68,
+    "source": "Rings",
+    "name": "FM \u00b7 Rings [2.6.3]",
+    "status": "pass",
+    "driven": [
+      "Spacing",
+      "Line Width",
+      "Gap"
+    ],
+    "moving": [
+      "Spacing",
+      "Line Width",
+      "Gap"
+    ],
+    "errors": {},
+    "slots": 8,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Spacing": 0.2081744954924442,
+        "Line Width": 0.0171964497631791,
+        "Gap": 7.2172538362151055
+      },
+      {
+        "Spacing": 0.249373716406484,
+        "Line Width": 0.020178001421262033,
+        "Gap": 7.721572675796866
+      },
+      {
+        "Spacing": 0.29266933124677796,
+        "Line Width": 0.02348449645340717,
+        "Gap": 8.280854529315546
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Rings",
+      "home": "cropped",
+      "shuffle": "cropped",
+      "notes": "Segmented cyan/pink concentric rings cut by top/bottom, matching Field Rings source-style; shuffle lines much thinner.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 69,
+    "source": "Tunnelines",
+    "name": "FM \u00b7 Tunnelines [2.4.4]",
+    "status": "pass",
+    "driven": [
+      "Line Width",
+      "Vertical",
+      "Frequency"
+    ],
+    "moving": [
+      "Line Width",
+      "Vertical",
+      "Frequency"
+    ],
+    "errors": {},
+    "slots": 5,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Line Width": 0.00026131959135144116,
+        "Vertical": 0.0024041402217422347,
+        "Frequency": 0.0840840256706265
+      },
+      {
+        "Line Width": 0.0003768053717698808,
+        "Vertical": 0.003466609393331682,
+        "Frequency": 0.1184108355747394
+      },
+      {
+        "Line Width": 0.000508599322127392,
+        "Vertical": 0.004679113727194151,
+        "Frequency": 0.1555338910719684
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Tunnelines",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Fine blue/pink rings form dark central tunnel across frame.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 71,
+    "source": "Heart Klein Bottle",
+    "name": "Heart Klein Bottle",
+    "status": "pass",
+    "driven": [
+      "Quat W",
+      "Quat Z",
+      "Wall Thickness"
+    ],
+    "moving": [
+      "Quat W",
+      "Quat Z",
+      "Wall Thickness"
+    ],
+    "errors": {},
+    "slots": 7,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Quat W": 0.7033835178693788,
+        "Quat Z": -0.29323296426124235,
+        "Wall Thickness": 0.010231206825722258
+      },
+      {
+        "Quat W": 0.7047558775369116,
+        "Quat Z": -0.29048824492617664,
+        "Wall Thickness": 0.0103249847342409
+      },
+      {
+        "Quat W": 0.7064637568073688,
+        "Quat Z": -0.28707248638526217,
+        "Wall Thickness": 0.010441689815113585
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Heart Klein Bottle",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Small glossy gray Klein-bottle loop clearly visible; comparison indicates L5C52 dark appearance is lighting/pose-specific rather than absent geometry.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 72,
+    "source": "Heart Melting Fractal",
+    "name": "Heart Melting Fractal",
+    "status": "pass",
+    "driven": [
+      "Fold Phase",
+      "Twist Amount",
+      "Orbit Phase"
+    ],
+    "moving": [
+      "Fold Phase",
+      "Twist Amount",
+      "Orbit Phase"
+    ],
+    "errors": {},
+    "slots": 7,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Fold Phase": 0.8765048750535195,
+        "Twist Amount": 0.3535152167839193,
+        "Orbit Phase": 0.18651521678391933
+      },
+      {
+        "Fold Phase": 0.8860333777464782,
+        "Twist Amount": 0.3548928438736736,
+        "Orbit Phase": 0.1878928438736737
+      },
+      {
+        "Fold Phase": 0.8966871168109394,
+        "Twist Amount": 0.3565200338269472,
+        "Orbit Phase": 0.18952003382694724
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Heart Melting Fractal",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Small pale-peach fractal block changes into open cellular form, both detailed.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 73,
+    "source": "Heart Capsule",
+    "name": "Heart Capsule",
+    "status": "pass",
+    "driven": [
+      "Turn",
+      "Outline",
+      "Material"
+    ],
+    "moving": [
+      "Turn",
+      "Outline",
+      "Material"
+    ],
+    "errors": {},
+    "slots": 5,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Turn": 0.09929863333763932,
+        "Outline": 0.023148303865080263,
+        "Material": 0.5916832799896656
+      },
+      {
+        "Turn": 0.10440878750014232,
+        "Outline": 0.015152935622873969,
+        "Material": 0.5794189099996584
+      },
+      {
+        "Turn": 0.109717825000007,
+        "Outline": 0.008478972190212269,
+        "Material": 0.5666772199999832
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Heart Capsule",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Shiny white capsule centered on black, substantial rotation with form preserved.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 74,
+    "source": "SP Toy Transit Figure 01",
+    "name": "SP Toy Transit Figure 01",
+    "status": "pass",
+    "driven": [
+      "Phase",
+      "Impact"
+    ],
+    "moving": [
+      "Phase",
+      "Impact"
+    ],
+    "errors": {},
+    "slots": 2,
+    "source_numeric_not_slots": [
+      "Heart Rate (turns/s)",
+      "Depth",
+      "FM"
+    ],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Phase": 0.38420576500147485,
+        "Impact": 0.006197232593282689
+      },
+      {
+        "Phase": 0.4011043778630752,
+        "Impact": 0.009564018064950785
+      },
+      {
+        "Phase": 0.41950822226611306,
+        "Impact": 0.013211322671638168
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "SP Toy Transit Figure 01",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Tiny amber torus/eyeball shape centered on black, distinct shading and dark opening.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 5,
+    "col": 75,
+    "source": "SP Toy Quasicrystal Figure 01",
+    "name": "SP Toy Quasicrystal Figure 01",
+    "status": "pass",
+    "driven": [
+      "Turn",
+      "Reveal"
+    ],
+    "moving": [
+      "Turn",
+      "Reveal"
+    ],
+    "errors": {},
+    "slots": 2,
+    "source_numeric_not_slots": [
+      "Heart Rate (turns/s)",
+      "Depth",
+      "FM"
+    ],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Turn": 0.016365817998025278,
+        "Reveal": 0.8574288098333158
+      },
+      {
+        "Turn": 0.02438700991939364,
+        "Reveal": 0.8611929656903069
+      },
+      {
+        "Turn": 0.03355346939322031,
+        "Reveal": 0.8656065238306493
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "SP Toy Quasicrystal Figure 01",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Alpha over black reveals amber, blue, and green concentric rings made of small dots on black; structured ornamental disk in both frames.",
+      "figure_pre_effect_containment": "not certified from composite renders",
+      "review_method": "Straight-alpha RGBA composited over black before visual inspection."
+    }
+  },
+  {
+    "layer": 7,
+    "col": 2,
+    "source": "SP Atom Texture",
+    "name": "texture",
+    "status": "pass",
+    "driven": [
+      "Drift",
+      "Duty",
+      "Soft"
+    ],
+    "moving": [
+      "Drift",
+      "Duty",
+      "Soft"
+    ],
+    "errors": {},
+    "slots": 6,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Drift": 0.0025866153934730046,
+        "Duty": 0.40742253087605207,
+        "Soft": 0.05310394143389893
+      },
+      {
+        "Drift": 0.003675648990257699,
+        "Duty": 0.4239550539601592,
+        "Soft": 0.0544107817422512
+      },
+      {
+        "Drift": 0.005006934260493867,
+        "Duty": 0.4431306947195162,
+        "Soft": 0.056008324057012504
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "SP Atom Texture",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Alpha over black shows a shaded gray square lattice on black; shuffle increases black square area.",
+      "figure_pre_effect_containment": "not certified from composite renders",
+      "review_method": "Straight-alpha RGBA composited over black before visual inspection."
+    }
+  },
+  {
+    "layer": 7,
+    "col": 8,
+    "source": "SP Scan",
+    "name": "SP Scan",
+    "status": "pass",
+    "driven": [
+      "Phase",
+      "Duty",
+      "Soft"
+    ],
+    "moving": [
+      "Phase",
+      "Duty",
+      "Soft"
+    ],
+    "errors": {},
+    "slots": 4,
+    "source_numeric_not_slots": [
+      "Heart Rate (turns/s)",
+      "Depth",
+      "FM"
+    ],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Phase": 0.9483946743196232,
+        "Duty": 0.9829838970285428,
+        "Soft": 0.8066907418475584
+      },
+      {
+        "Phase": 0.9570033206961897,
+        "Duty": 0.9918491748541834,
+        "Soft": 0.8123933865565062
+      },
+      {
+        "Phase": 0.9668807031086516,
+        "Duty": 0.997561311588028,
+        "Soft": 0.8190019077642687
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": {
+      "layer": 7,
+      "col": 8,
+      "source": "SP Scan",
+      "status": "Saved visible stripe Home; Count.2, Duty.25, Soft.15",
+      "home_recovered": true
+    },
+    "visual": {
+      "source": "SP Scan",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Saved Count .2, Duty .25, Soft .15 as Home. Full-size alpha-over-black Home/Shuffle show clean horizontal stripes; Open/Shuffle/Home verified live.",
+      "figure_pre_effect_containment": "not certified from composite renders",
+      "review_method": "Straight-alpha RGBA composited over black before visual inspection.",
+      "repair_verified": true,
+      "original_review": {
+        "source": "SP Scan",
+        "home": "flat",
+        "shuffle": "flat",
+        "notes": "Current saved home/shuffle remain white after correct alpha-over-black compositing. Scan repair is under separate diagnosis; this review refers to existing saved pair.",
+        "figure_pre_effect_containment": "not certified from composite renders",
+        "review_method": "Straight-alpha RGBA composited over black before visual inspection."
+      }
+    }
+  },
+  {
+    "layer": 8,
+    "col": 1,
+    "source": "SP Atom Grain",
+    "name": "grain",
+    "status": "pass",
+    "driven": [
+      "Amount",
+      "Size",
+      "Flicker"
+    ],
+    "moving": [
+      "Amount",
+      "Size",
+      "Flicker"
+    ],
+    "errors": {},
+    "slots": 5,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Amount": 0.4611537955069772,
+        "Size": 0.2112731391701974,
+        "Flicker": 0.5220768940450583
+      },
+      {
+        "Amount": 0.4615810547583677,
+        "Size": 0.2130855900435243,
+        "Flicker": 0.525059369354011
+      },
+      {
+        "Amount": 0.4620472618222745,
+        "Size": 0.2147529753354059,
+        "Flicker": 0.5278791294536783
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "SP Atom Grain",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Corrected review after compositing straight-alpha RGBA over black: detailed grayscale grain fills both frames. Uniform white RGB alone was a review-tool error; varying alpha carries the texture.",
+      "figure_pre_effect_containment": "not certified from composite renders",
+      "superseded_review": {
+        "home": "flat",
+        "shuffle": "flat",
+        "notes": "Both captures are uniform white; RGB extrema exactly 255 in all channels. Compare SPGrain L8C8, which has visible noise; investigate source/compositing settings."
+      },
+      "review_correction": "Original flat-white classification invalid because alpha was dropped.",
+      "review_method": "Straight-alpha RGBA composited over black before visual inspection."
+    }
+  },
+  {
+    "layer": 8,
+    "col": 8,
+    "source": "SP Grain",
+    "name": "SP Grain",
+    "status": "pass",
+    "driven": [
+      "Amount",
+      "Flicker",
+      "Grit"
+    ],
+    "moving": [
+      "Amount",
+      "Flicker",
+      "Grit"
+    ],
+    "errors": {},
+    "slots": 4,
+    "source_numeric_not_slots": [
+      "Heart Rate (turns/s)",
+      "Depth",
+      "FM"
+    ],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Amount": 0.839610214308004,
+        "Flicker": 0.7813759166971591,
+        "Grit": 0.01048690941141401
+      },
+      {
+        "Amount": 0.8509026199884794,
+        "Flicker": 0.7863271259515565,
+        "Grit": 0.014793792189491648
+      },
+      {
+        "Amount": 0.8640604237901688,
+        "Flicker": 0.7923391736076187,
+        "Grit": 0.01996987074660931
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "SP Grain",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Full-frame grayscale noise, shuffle increases contrast; matches grain intent.",
+      "figure_pre_effect_containment": "not certified from composite renders",
+      "review_method": "Straight-alpha RGBA composited over black before visual inspection."
+    }
+  },
+  {
+    "layer": 8,
+    "col": 9,
+    "source": "SP State Test",
+    "name": "SP State Test",
+    "status": "manual-only",
+    "driven": [],
+    "moving": [],
+    "errors": {},
+    "slots": 1,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {},
+      {},
+      {}
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "SP State Test",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Diagnostic gray/black/green block layout; shuffle changes gray level and green height.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 8,
+    "col": 15,
+    "source": "Static",
+    "name": "FM \u00b7 Static [2.8.1]",
+    "status": "manual-only",
+    "driven": [],
+    "moving": [],
+    "errors": {},
+    "slots": 1,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {},
+      {},
+      {}
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Static",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Fine monochrome static texture, consistent with other Static source captures.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 8,
+    "col": 16,
+    "source": "Lines",
+    "name": "FM \u00b7 Lines [2.8.2]",
+    "status": "pass",
+    "driven": [
+      "Fuzzyness",
+      "Width",
+      "Rotation"
+    ],
+    "moving": [
+      "Fuzzyness",
+      "Width",
+      "Rotation"
+    ],
+    "errors": {},
+    "slots": 5,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Fuzzyness": 0.3527230103283416,
+        "Width": 0.08323894859342151,
+        "Rotation": 0.4901418591014853
+      },
+      {
+        "Fuzzyness": 0.3540095025082114,
+        "Width": 0.11991227447049368,
+        "Rotation": 0.7217104514780507
+      },
+      {
+        "Fuzzyness": 0.35546023157618567,
+        "Width": 0.15928538068529827,
+        "Rotation": 0.9828416837134216
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Lines",
+      "home": "nonblank",
+      "shuffle": "sparse",
+      "notes": "Alpha over black shows soft luminous horizontal lines at home; shuffle remains almost black with very faint thin diagonal lines.",
+      "figure_pre_effect_containment": "not certified from composite renders",
+      "review_method": "Straight-alpha RGBA composited over black before visual inspection."
+    }
+  },
+  {
+    "layer": 8,
+    "col": 17,
+    "source": "Checkered",
+    "name": "FM \u00b7 Checkered [2.8.3]",
+    "status": "pass",
+    "driven": [
+      "Num X",
+      "Num Y"
+    ],
+    "moving": [
+      "Num X",
+      "Num Y"
+    ],
+    "errors": {},
+    "slots": 2,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Num X": 1937.563795241912,
+        "Num Y": 127.15026002214752
+      },
+      {
+        "Num X": 2657.811778092202,
+        "Num Y": 177.01980480448782
+      },
+      {
+        "Num X": 3730.5669773445966,
+        "Num Y": 254.74406783555025
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Checkered",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Home large checkerboard; shuffle extremely fine checker pattern, visible texture though reduced preview aliases.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  },
+  {
+    "layer": 8,
+    "col": 18,
+    "source": "Spiral",
+    "name": "FM \u00b7 Spiral [2.8.4]",
+    "status": "pass",
+    "driven": [
+      "Detail",
+      "Distortion",
+      "Fuzzyness"
+    ],
+    "moving": [
+      "Detail",
+      "Distortion",
+      "Fuzzyness"
+    ],
+    "errors": {},
+    "slots": 12,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Detail": 1.007788212522048,
+        "Distortion": 4.0577453549772455,
+        "Fuzzyness": 0.004339842947235051
+      },
+      {
+        "Detail": 1.010225738980375,
+        "Distortion": 5.180108766791086,
+        "Fuzzyness": 0.005619676062654913
+      },
+      {
+        "Detail": 1.0133010416491046,
+        "Distortion": 6.500625589784698,
+        "Fuzzyness": 0.00738946758283586
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35,
+    "repair": null,
+    "visual": {
+      "source": "Spiral",
+      "home": "nonblank",
+      "shuffle": "nonblank",
+      "notes": "Bold white spiral on black fills both frames with clear curvature change.",
+      "figure_pre_effect_containment": "not certified from composite renders"
+    }
+  }
+]

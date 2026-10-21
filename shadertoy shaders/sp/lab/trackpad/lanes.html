@@ -1,0 +1,92 @@
+<!doctype html><meta charset="utf-8"><title>lanes study</title>
+<style>body{background:#05080d;color:#9fc4dc;font:12px ui-monospace,monospace;margin:0;padding:12px}h1{font-size:13px;color:#7d97ab;font-weight:500;margin:0 0 6px}
+.k{color:#7d97ab}.v{color:#62f0c0}.grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}canvas{background:#070b11;border:1px solid #1c2630;border-radius:8px;width:100%;aspect-ratio:1.3}
+.box{border:1px solid #1c2630;border-radius:6px;padding:6px 8px}pre{color:#7fd0f5;font-size:10.5px;max-height:26vh;overflow:auto;margin:6px 0 0}</style>
+<h1>⌗ lanes study — three ways to say "which finger is which fader"</h1>
+<div class="row"><span class="k">fingers</span> <span class="v" id="n">–</span> &nbsp; <span class="k">A: rank-by-x swaps</span> <span class="v" id="sA">0</span> &nbsp; <span class="k">B: fixed-zone swaps</span> <span class="v" id="sB">0</span> &nbsp; <span class="k">C: tracked-finger swaps</span> <span class="v" id="sC">0</span> &nbsp; <span class="k">C re-acquired</span> <span class="v" id="rC">0</span></div>
+<div class="grid">
+ <div class="box"><b>A · rank by x</b> <span class="k">lane = order of finger left→right (n fingers → n lanes)</span><canvas id="cA" width="600" height="460"></canvas></div>
+ <div class="box"><b>B · fixed zones</b> <span class="k">lane = floor(x·4): the pad is 4 physical strips</span><canvas id="cB" width="600" height="460"></canvas></div>
+ <div class="box"><b>C · tracked fingers</b> <span class="k">contact → nearest finger seen in last 1.5 s within 15 mm, else new</span><canvas id="cC" width="600" height="460"></canvas></div>
+</div>
+<div class="box" style="margin-top:12px"><b>D · faders</b> <span class="k">persistent values on 4 fixed zones — behaviour toggles:</span>
+ <div style="margin:6px 0;display:flex;gap:18px;flex-wrap:wrap;align-items:center">
+  <label><span class="k">touch</span> <select id="mode"><option value="abs">absolute (jump to finger)</option><option value="rel" selected>relative (finger moves value by delta)</option><option value="catch">catch (absolute once finger crosses value)</option></select></label>
+  <label><span class="k">release</span> <select id="rel"><option value="hold" selected>hold (real fader)</option><option value="zero">spring to 0 (one-shot)</option><option value="home">spring to home</option></select></label>
+  <label><span class="k">spring</span> <input type="range" id="spring" min="0" max="3" step="0.05" value="0.4" style="width:90px"> <span class="v" id="springv">0.40</span>s</label>
+  <label><span class="k">smooth</span> <input type="range" id="smooth" min="0" max="0.95" step="0.05" value="0.3" style="width:90px"> <span class="v" id="smoothv">0.30</span></label>
+  <label><input type="checkbox" id="pfine"> <span class="k">press harder = finer (relative)</span></label>
+  <label><input type="checkbox" id="dbl"> <span class="k">double-tap = set home</span></label>
+  <label><span class="k">rel gain</span> <input type="range" id="gain" min="0.25" max="3" step="0.05" value="1" style="width:90px"> <span class="v" id="gainv">1.00</span></label>
+ </div>
+ <canvas id="cD" width="1800" height="360" style="aspect-ratio:5"></canvas></div>
+<div class="box"><b>swap log</b><pre id="log"></pre></div>
+<script>
+const C={A:document.getElementById("cA").getContext("2d"),B:document.getElementById("cB").getContext("2d"),C:document.getElementById("cC").getContext("2d")};
+const NL=4;
+const swaps={A:0,B:0,C:0}; let reacq=0; const prevLane={A:{},B:{},C:{}}; const logEl=document.getElementById("log"); let lines=[];
+function log(t){lines.unshift(t); lines=lines.slice(0,60); logEl.textContent=lines.join("\n");}
+// C: persistent finger tracker
+const fingers={}; let nextF=1; const lost=[]; // {f, x,y, t}
+function trackC(contacts,now){
+  const out={}; const used=new Set();
+  for(const g of contacts){
+    let f=Object.keys(fingers).find(k=>fingers[k].id===g.id&&!used.has(k));
+    if(!f){ // new contact id: try to re-acquire a recently lost finger by position (mm)
+      let best=null,bd=15;
+      for(const l of lost){ if(now-l.t>1.5) continue; const d=Math.hypot(l.mmx-g.mmx,l.mmy-g.mmy); if(d<bd&&!used.has(l.f)){bd=d;best=l;} }
+      if(best){ f=best.f; lost.splice(lost.indexOf(best),1); reacq++; document.getElementById("rC").textContent=reacq; log(`C: contact #${g.id} re-acquired as finger ${f} (${bd.toFixed(1)} mm from where it left)`); }
+      else { f=String(nextF++); log(`C: contact #${g.id} → new finger ${f}`); }
+      fingers[f]={id:g.id};
+    }
+    used.add(f); fingers[f].id=g.id; fingers[f].mmx=g.mmx; fingers[f].mmy=g.mmy; out[f]=g;
+  }
+  for(const f in fingers) if(!used.has(f)){ lost.push({f,mmx:fingers[f].mmx,mmy:fingers[f].mmy,t:now}); delete fingers[f]; }
+  while(lost.length&&now-lost[0].t>1.5) lost.shift();
+  return out; // finger → contact
+}
+function drawLanes(ctx,assign,nl,label){const W=600,H=460; ctx.fillStyle="#070b11"; ctx.fillRect(0,0,W,H);
+  for(let i=0;i<nl;i++){const x0=i*W/nl; ctx.strokeStyle="#1c2630"; ctx.strokeRect(x0+2,10,W/nl-4,H-20);}
+  for(const [lane,g] of assign){ if(lane<0||lane>=nl) continue; const x0=lane*W/nl; const h=g.y*(H-24);
+    ctx.fillStyle="#62f0c0"; ctx.globalAlpha=0.5+Math.min(0.5,g.size*0.6); ctx.fillRect(x0+4,H-12-h,W/nl-8,h); ctx.globalAlpha=1;
+    ctx.fillStyle="#cfe6f5"; ctx.fillText(`${label}${lane+1} #${g.id}`,x0+6,22); ctx.fillText(g.y.toFixed(3),x0+6,H-14-h-4);}
+}
+function checkSwaps(mode,assign,keyOf){ // keyOf(g) = stable-ish identity to compare lanes across frames (contact id)
+  for(const [lane,g] of assign){const k=keyOf(g); if(k in prevLane[mode]&&prevLane[mode][k]!==lane){swaps[mode]++; document.getElementById("s"+mode).textContent=swaps[mode]; log(`${mode}: ${k} moved lane ${prevLane[mode][k]+1} → ${lane+1}`);} prevLane[mode][k]=lane;}
+  for(const k in prevLane[mode]) if(![...assign].some(([l,g])=>keyOf(g)===k)) delete prevLane[mode][k];
+}
+// ── D: persistent faders ──
+const D=document.getElementById("cD").getContext("2d"); const F=[...Array(NL)].map(()=>({v:0.5,home:0.5,out:0.5,touch:null,caught:false,lastTap:0}));
+for(const [id,vid] of [["spring","springv"],["smooth","smoothv"],["gain","gainv"]]) document.getElementById(id).oninput=e=>document.getElementById(vid).textContent=(+e.target.value).toFixed(2);
+let lastT=performance.now()/1000;
+function faders(c,now){const dt=Math.max(0.001,now-lastT); lastT=now; const mode=document.getElementById("mode").value, rel=document.getElementById("rel").value;
+  const spring=+document.getElementById("spring").value, sm=+document.getElementById("smooth").value, pfine=document.getElementById("pfine").checked, gain=+document.getElementById("gain").value, dbl=document.getElementById("dbl").checked;
+  const byLane={}; for(const g of c){const l=Math.min(NL-1,Math.floor(g.x*NL)); if(!byLane[l]||g.size>byLane[l].size) byLane[l]=g;}   // strongest contact per lane
+  F.forEach((f,l)=>{const g=byLane[l];
+    if(g){ if(!f.touch){ // touch begins
+        if(dbl&&now-f.lastTap<0.35){f.home=f.v; log(`D${l+1}: home set ${f.v.toFixed(2)}`);} f.lastTap=now;
+        f.touch={y:g.y,v0:f.v}; f.caught=(mode!=="catch"); if(mode==="abs"){f.v=g.y;} }
+      else { if(mode==="abs") f.v=g.y;
+        else if(mode==="rel"){ const fine=pfine?Math.max(0.15,1-(g.size-0.3)):1; f.v=Math.max(0,Math.min(1,f.v+(g.y-f.touch.y)*gain*fine)); f.touch.y=g.y; }
+        else { if(!f.caught&&((f.touch.y<=f.v&&g.y>=f.v)||(f.touch.y>=f.v&&g.y<=f.v))) f.caught=true; if(f.caught) f.v=g.y; f.touch.y=g.y; } }
+    } else { if(f.touch) f.touch=null;
+      if(rel!=="hold"){const tgt=rel==="zero"?0:f.home; if(spring<=0) f.v=tgt; else f.v+= (tgt-f.v)*Math.min(1,dt/spring*3);} }
+    f.out+= (f.v-f.out)*(1-sm);
+  });
+  const W=1800,H=360; D.fillStyle="#070b11"; D.fillRect(0,0,W,H);
+  F.forEach((f,l)=>{const x0=l*W/NL+10,w=W/NL-20; D.strokeStyle="#1c2630"; D.strokeRect(x0,10,w,H-20);
+    const h=f.out*(H-24); D.fillStyle=f.touch?"#62f0c0":"#3a8f77"; D.fillRect(x0+2,H-12-h,w-4,h);
+    const hh=H-12-f.home*(H-24); D.strokeStyle="#ff9f43"; D.beginPath(); D.moveTo(x0,hh); D.lineTo(x0+w,hh); D.stroke();
+    if(f.touch&&mode==="catch"&&!f.caught){D.fillStyle="#ff9f43"; D.fillText("not caught — cross the value",x0+8,30);}
+    D.fillStyle="#cfe6f5"; D.font="22px ui-monospace"; D.fillText(f.out.toFixed(3),x0+8,H-20); D.font="12px ui-monospace";
+    if(byLane[l]){const g=byLane[l]; D.fillStyle="#4fb8e8"; D.beginPath(); D.arc(x0+w/2,H-12-g.y*(H-24),6+g.size*10,0,7); D.fill();}
+  });
+}
+let ws; function connect(){ws=new WebSocket("ws://localhost:8770/"); ws.onmessage=e=>{const s=JSON.parse(e.data); const now=performance.now()/1000; const c=s.fingers.filter(g=>g.state==="touch"||g.state==="make"||g.state==="start"||g.state==="break"||g.state==="linger");
+  document.getElementById("n").textContent=c.length;
+  const A=[...c].sort((a,b)=>a.x-b.x).map((g,i)=>[i,g]); drawLanes(C.A,A,Math.max(NL,c.length),"A"); checkSwaps("A",A,g=>"#"+g.id);
+  const B=c.map(g=>[Math.min(NL-1,Math.floor(g.x*NL)),g]); drawLanes(C.B,B,NL,"B"); checkSwaps("B",B,g=>"#"+g.id);
+  faders(c,now);
+  const tc=trackC(c,now); const Cc=Object.entries(tc).map(([f,g])=>[(+f-1)%NL,g]); drawLanes(C.C,Cc,NL,"F"); checkSwaps("C",Cc,g=>"#"+g.id);
+ }; ws.onclose=()=>setTimeout(connect,800);} connect();
+</script>

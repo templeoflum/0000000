@@ -1,0 +1,96 @@
+[
+  {
+    "case": "original",
+    "samples": [
+      {
+        "Renderer Utilization %": 46,
+        "Device Utilization %": 54,
+        "In use system memory": 11224825856
+      },
+      {
+        "Renderer Utilization %": 33,
+        "Device Utilization %": 46,
+        "In use system memory": 11574378496
+      },
+      {
+        "Renderer Utilization %": 49,
+        "Device Utilization %": 55,
+        "In use system memory": 11650727936
+      },
+      {
+        "Renderer Utilization %": 41,
+        "Device Utilization %": 51,
+        "In use system memory": 11659214848
+      },
+      {
+        "Renderer Utilization %": 50,
+        "Device Utilization %": 51,
+        "In use system memory": 11661426688
+      },
+      {
+        "Renderer Utilization %": 46,
+        "Device Utilization %": 54,
+        "In use system memory": 11029610496
+      },
+      {
+        "Renderer Utilization %": 29,
+        "Device Utilization %": 45,
+        "In use system memory": 11024318464
+      },
+      {
+        "Renderer Utilization %": 46,
+        "Device Utilization %": 52,
+        "In use system memory": 11170971648
+      }
+    ],
+    "median_gpu_percent": 51.5,
+    "median_system_memory": 11399602176.0
+  },
+  {
+    "case": "half-resolution-history",
+    "samples": [
+      {
+        "Renderer Utilization %": 57,
+        "Device Utilization %": 57,
+        "In use system memory": 8461762560
+      },
+      {
+        "Renderer Utilization %": 38,
+        "Device Utilization %": 38,
+        "In use system memory": 8181006336
+      },
+      {
+        "Renderer Utilization %": 44,
+        "Device Utilization %": 44,
+        "In use system memory": 8462188544
+      },
+      {
+        "Renderer Utilization %": 0,
+        "Device Utilization %": 0,
+        "In use system memory": 8234893312
+      },
+      {
+        "Renderer Utilization %": 37,
+        "Device Utilization %": 38,
+        "In use system memory": 8260632576
+      },
+      {
+        "Renderer Utilization %": 31,
+        "Device Utilization %": 31,
+        "In use system memory": 8288583680
+      },
+      {
+        "Renderer Utilization %": 37,
+        "Device Utilization %": 37,
+        "In use system memory": 8324759552
+      },
+      {
+        "Renderer Utilization %": 54,
+        "Device Utilization %": 54,
+        "In use system memory": 8339734528
+      }
+    ],
+    "median_gpu_percent": 38.0,
+    "median_system_memory": 8306671616.0
+  }
+]

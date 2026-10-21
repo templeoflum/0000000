@@ -1,0 +1,78 @@
+// [HJ] Shapeshifter
+{
+  "SchemaVersion": "1.1-ter",
+  "ArchetypeName": "Shapeshifter",
+  "SystemOfOrigin": "HJ",
+  "CulturalLineage": ["Universal", "Celtic", "Norse", "Japanese", "African"],
+  "CommonAliases": ["Changeling", "Deceiver", "Enchantress", "Doppelgänger"],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "Embodies ambiguity and shifting identity; tests perception and loyalty",
+    "PrimaryDomain": "Narrative",
+    "ToneOrPolarity": "Ambiguous / Seductive",
+    "SymbolicCore": "Mask behind mask",
+    "Correspondences": {
+      "Element": "Water",
+      "Planet": "Moon",
+      "Chakra": "Sacral",
+      "Color": "Silver",
+      "Animal": "Fox, Octopus, Swan",
+      "Other": ["Mirror", "Veil", "Moonlight"]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": ["Temptation", "Doubt", "Revelation of hidden truth"],
+    "ComplementaryArchetypes": ["Hero", "Lover", "Shadow"],
+    "ShadowForms": ["Betrayer", "False Ally"],
+    "DevelopmentalArc": ["Appear → Seduce → Reveal → Transform"],
+    "CyclePhase": "Crisis"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": ["Elusive", "Magnetic", "Adaptable", "Mysterious"],
+    "Typologies": {
+      "MBTI": "INFJ / ENFP",
+      "Enneagram": "4w3",
+      "Other": ["JU.Anima", "JP12.Lover"]
+    },
+    "SubVariants": ["Femme Fatale", "Shape-shift Ally", "Doppelgänger"],
+    "InternalFamily": "Mystery"
+  },
+  "CulturalContext": {
+    "Regions": ["Global"],
+    "MythicAppearances": ["The Morrígan", "Freyja", "Kitsune", "Selkie"],
+    "ReligiousOrRitualUse": "Used in shape-shifting dances, mask ceremonies, and lunar rites",
+    "HistoricalEvolution": "Deity of transformation → courtly intrigue → spy archetype",
+    "SyncreticForms": ["Mystique (X-Men)", "Catwoman", "Zelig"]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "🦊",
+    "ImageryNotes": "Silvery mist that reveals and conceals faces",
+    "ArtisticExamples": [
+      "Celtic selkie stories",
+      "Japanese kitsune masks",
+      "Film noir femme fatale"
+    ],
+    "PoeticInvocation": "I am the moonlit tide that shows and hides your heart.",
+    "DreamForm": "A lover whose face changes with every heartbeat"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": ["JU.Anima", "JP12.Lover", "GR.Proteus"],
+    "SemanticTags": ["#moon", "#water", "#mask", "#seduction"],
+    "RitualFunction": "Explore fluid identity and shadow projection",
+    "AIPromptSeeds": [
+      "Create a shapeshifter who is every ex the hero ever loved."
+    ],
+    "NarrativeHooks": ["The kiss that changes everything", "Face in the mirror that isn’t yours"]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [
+      { "to": "JU.Anima", "strength": "moderate" },
+      { "to": "JP12.Lover", "strength": "moderate" }
+    ]
+  },
+  "FacetRegistry": [
+    { "facet": "Femme Fatale", "weight": 0.4 },
+    { "facet": "Loyal Shifter", "weight": 0.3 },
+    { "facet": "Doppelgänger", "weight": 0.3 }
+  ]
+}

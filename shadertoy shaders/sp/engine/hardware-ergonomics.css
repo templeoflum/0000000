@@ -1,0 +1,11 @@
+/* Keep release and assignment state visible while scrolling the hardware map. */
+.hardware-mapping-body{min-width:0;position:relative}
+.hardware-control-bar{position:sticky;top:0;z-index:6;display:flex;flex-direction:column;align-items:stretch;gap:5px;padding:8px;margin:0 0 8px;background:#12232b;border:1px solid #47645f;border-radius:6px;box-shadow:0 4px 8px #0005}
+.hardware-control-bar>button{min-height:36px;white-space:normal;font-weight:650;border-color:#62ba9d}
+.hardware-control-bar>button[aria-pressed=true]{background:#285845;color:#c5ffe8;border-color:#78e5be}
+.hardware-control-bar .hardware-state{margin:0;white-space:normal;overflow-wrap:anywhere;line-height:1.35;font-size:11px;color:#b7d9ca}
+.hardware-assignment-row{border-bottom:1px solid #263b45;padding:5px 0 9px}
+.hardware-drag-handle{cursor:grab;white-space:normal;line-height:1.35;overflow-wrap:anywhere}
+.hardware-assigned-target{grid-column:1/-1;min-width:0;white-space:normal;overflow-wrap:anywhere;line-height:1.4;font-size:11px;color:#829aa8;padding:2px 0}
+.hardware-assigned-target.is-assigned{color:#b7ebd7}
+.hardware-assignment-row select{max-width:100%}

@@ -1,0 +1,1705 @@
+{
+  "epoch": "1789151413656",
+  "rows": [
+    {
+      "id": "output",
+      "label": "Composition",
+      "color_hex": "#b5d89b",
+      "pads": [
+        {
+          "id": "goo",
+          "label": "Goo",
+          "mode": "toggle",
+          "bindings": [
+            {
+              "target": "effect:1789543152090",
+              "identity": [
+                "composition",
+                null,
+                null,
+                null,
+                "Goo"
+              ],
+              "opacity": 1789543152092,
+              "bypass": 1789543152089
+            }
+          ]
+        }
+      ],
+      "color": [],
+      "controls": [
+        {
+          "id": "goo_1789543152093",
+          "label": "Blend Mode",
+          "type": "ParamChoice",
+          "min": 0,
+          "max": 1,
+          "bindings": [
+            {
+              "target": "effect:1789543152090",
+              "identity": [
+                "composition",
+                null,
+                null,
+                null,
+                "Goo"
+              ],
+              "parameter": 1789543152093,
+              "name": "Blend Mode",
+              "type": "ParamChoice",
+              "min": 0,
+              "max": 1,
+              "options": [
+                "Add",
+                "Alpha",
+                "B&W",
+                "Burn",
+                "Cube",
+                "Cut",
+                "Darken",
+                "Difference",
+                "Difference I",
+                "Displace",
+                "Dissolve",
+                "Dodge",
+                "Exclusion",
+                "Hard Light",
+                "JitterBug",
+                "Lighten",
+                "LoRez",
+                "Luma Is Alpha",
+                "Luma Key",
+                "Luma Key I",
+                "Meta Mix",
+                "Multiply",
+                "Multi Task",
+                "Noisy",
+                "Overlay",
+                "Parts",
+                "PiP",
+                "Push Down",
+                "Push Left",
+                "Push Right",
+                "Push Up",
+                "RGB",
+                "Rotate X",
+                "Rotate Y",
+                "Screen",
+                "Shift RGB",
+                "Side by Side",
+                "Soft Light",
+                "Static",
+                "Subtract",
+                "Tile",
+                "TimeSwitcher",
+                "to Black",
+                "to Color",
+                "to White",
+                "Twitch",
+                "Video Bumper",
+                "Wipe Ellipse",
+                "Zoom In",
+                "Zoom Out"
+              ]
+            }
+          ],
+          "options": [
+            "Add",
+            "Alpha",
+            "B&W",
+            "Burn",
+            "Cube",
+            "Cut",
+            "Darken",
+            "Difference",
+            "Difference I",
+            "Displace",
+            "Dissolve",
+            "Dodge",
+            "Exclusion",
+            "Hard Light",
+            "JitterBug",
+            "Lighten",
+            "LoRez",
+            "Luma Is Alpha",
+            "Luma Key",
+            "Luma Key I",
+            "Meta Mix",
+            "Multiply",
+            "Multi Task",
+            "Noisy",
+            "Overlay",
+            "Parts",
+            "PiP",
+            "Push Down",
+            "Push Left",
+            "Push Right",
+            "Push Up",
+            "RGB",
+            "Rotate X",
+            "Rotate Y",
+            "Screen",
+            "Shift RGB",
+            "Side by Side",
+            "Soft Light",
+            "Static",
+            "Subtract",
+            "Tile",
+            "TimeSwitcher",
+            "to Black",
+            "to Color",
+            "to White",
+            "Twitch",
+            "Video Bumper",
+            "Wipe Ellipse",
+            "Zoom In",
+            "Zoom Out"
+          ]
+        },
+        {
+          "id": "goo_1789543152082",
+          "label": "Resolution",
+          "type": "ParamRange",
+          "min": 4.0,
+          "max": 128.0,
+          "bindings": [
+            {
+              "target": "effect:1789543152090",
+              "identity": [
+                "composition",
+                null,
+                null,
+                null,
+                "Goo"
+              ],
+              "parameter": 1789543152082,
+              "name": "Resolution",
+              "type": "ParamRange",
+              "min": 4.0,
+              "max": 128.0
+            }
+          ],
+          "step": 1
+        },
+        {
+          "id": "goo_1789543152083",
+          "label": "Speed",
+          "type": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "bindings": [
+            {
+              "target": "effect:1789543152090",
+              "identity": [
+                "composition",
+                null,
+                null,
+                null,
+                "Goo"
+              ],
+              "parameter": 1789543152083,
+              "name": "Speed",
+              "type": "ParamRange",
+              "min": 0.0,
+              "max": 1.0
+            }
+          ]
+        },
+        {
+          "id": "goo_1789543152084",
+          "label": "Goo X",
+          "type": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "bindings": [
+            {
+              "target": "effect:1789543152090",
+              "identity": [
+                "composition",
+                null,
+                null,
+                null,
+                "Goo"
+              ],
+              "parameter": 1789543152084,
+              "name": "MaxDistortionX",
+              "type": "ParamRange",
+              "min": 0.0,
+              "max": 1.0
+            }
+          ]
+        },
+        {
+          "id": "goo_1789543152085",
+          "label": "Goo Y",
+          "type": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "bindings": [
+            {
+              "target": "effect:1789543152090",
+              "identity": [
+                "composition",
+                null,
+                null,
+                null,
+                "Goo"
+              ],
+              "parameter": 1789543152085,
+              "name": "MaxDistortionY",
+              "type": "ParamRange",
+              "min": 0.0,
+              "max": 1.0
+            }
+          ]
+        },
+        {
+          "id": "goo_1789543152086",
+          "label": "Goo Z",
+          "type": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "bindings": [
+            {
+              "target": "effect:1789543152090",
+              "identity": [
+                "composition",
+                null,
+                null,
+                null,
+                "Goo"
+              ],
+              "parameter": 1789543152086,
+              "name": "MaxDistortionZ",
+              "type": "ParamRange",
+              "min": 0.0,
+              "max": 1.0
+            }
+          ]
+        },
+        {
+          "id": "goo_1789543152088",
+          "label": "Black background",
+          "type": "ParamBoolean",
+          "min": 0,
+          "max": 1,
+          "bindings": [
+            {
+              "target": "effect:1789543152090",
+              "identity": [
+                "composition",
+                null,
+                null,
+                null,
+                "Goo"
+              ],
+              "parameter": 1789543152088,
+              "name": "Black BG",
+              "type": "ParamBoolean",
+              "min": 0,
+              "max": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stage",
+      "label": "Stage",
+      "color_hex": "#8fc9ff",
+      "pads": [
+        {
+          "id": "distort",
+          "label": "Distort",
+          "mode": "toggle",
+          "bindings": [
+            {
+              "target": "effect:1789004679837",
+              "identity": [
+                "stage",
+                null,
+                1789004679714,
+                null,
+                "Distortion"
+              ],
+              "opacity": 1789181912368,
+              "bypass": 1789181912365
+            }
+          ]
+        },
+        {
+          "id": "decon",
+          "label": "Decon",
+          "bindings": [
+            {
+              "target": "effect:1789421994501",
+              "identity": [
+                "stage",
+                null,
+                1789004679714,
+                null,
+                "mtk_lut_corrupt"
+              ],
+              "opacity": 1789421994503,
+              "bypass": 1789421994500,
+              "event": 1789421994492,
+              "event_name": "DECON"
+            }
+          ],
+          "mode": "trigger"
+        },
+        {
+          "id": "pixel_melt",
+          "label": "Pixel Melt",
+          "bindings": [
+            {
+              "target": "effect:1789451629449",
+              "identity": [
+                "stage",
+                null,
+                1789004679714,
+                null,
+                "MTK_PXLMELT"
+              ],
+              "opacity": 1789451629451,
+              "bypass": 1789451629448,
+              "event": 1789451629443,
+              "event_name": "MELT_TRIGGER",
+              "latch": 1789451629442,
+              "latch_name": "MELT_LOCK"
+            }
+          ],
+          "mode": "latch"
+        },
+        {
+          "id": "blok",
+          "label": "Blok",
+          "mode": "trigger",
+          "enable_control": false,
+          "clear": false,
+          "bindings": [
+            {
+              "target": "effect:1789421994501",
+              "identity": [
+                "stage",
+                null,
+                1789004679714,
+                null,
+                "mtk_lut_corrupt"
+              ],
+              "opacity": 1789421994503,
+              "bypass": 1789421994500,
+              "event": 1789421994493,
+              "event_name": "BLOK"
+            }
+          ]
+        },
+        {
+          "id": "twitch",
+          "label": "Twitch",
+          "mode": "pulse",
+          "bindings": [
+            {
+              "target": "effect:1789004679842",
+              "identity": [
+                "stage",
+                null,
+                1789004679714,
+                null,
+                "TwitchEffect"
+              ],
+              "opacity": 1789181912416,
+              "bypass": 1789181912413
+            }
+          ],
+          "contrast_hit": true,
+          "opacity_control": true
+        },
+        {
+          "id": "stack",
+          "label": "Cut",
+          "mode": "pulse",
+          "bindings": [
+            {
+              "target": "effect:1789004679842",
+              "identity": [
+                "stage",
+                null,
+                1789004679714,
+                null,
+                "TwitchEffect"
+              ],
+              "opacity": 1789181912416,
+              "bypass": 1789181912413
+            },
+            {
+              "target": "effect:1789004679877",
+              "identity": [
+                "stage",
+                null,
+                1789004679714,
+                null,
+                "Strobe"
+              ],
+              "opacity": 1789181912692,
+              "bypass": 1789181912689
+            }
+          ]
+        }
+      ],
+      "color": [
+        {
+          "target": "effect:1789004679745",
+          "identity": [
+            "stage",
+            null,
+            1789004679714,
+            null,
+            "ColourLoop"
+          ],
+          "opacity": 1789181911555,
+          "bypass": 1789181911552
+        }
+      ],
+      "controls": [
+        {
+          "id": "twitch_power",
+          "label": "Twitch Power",
+          "min": 0.0,
+          "max": 1.0,
+          "bindings": [
+            {
+              "target": "effect:1789004679842",
+              "identity": [
+                "stage",
+                null,
+                1789004679714,
+                null,
+                "TwitchEffect"
+              ],
+              "parameter": 1789181912390,
+              "name": "Global Twitch",
+              "type": "ParamRange",
+              "min": 0.0,
+              "max": 1.0
+            }
+          ]
+        },
+        {
+          "id": "distort_radius",
+          "label": "Distort Radius",
+          "min": 0.0,
+          "max": 1.0,
+          "bindings": [
+            {
+              "target": "effect:1789004679837",
+              "identity": [
+                "stage",
+                null,
+                1789004679714,
+                null,
+                "Distortion"
+              ],
+              "parameter": 1789181912364,
+              "name": "Radius",
+              "type": "ParamRange",
+              "min": 0.0,
+              "max": 1.0
+            }
+          ]
+        },
+        {
+          "id": "distort_distort",
+          "label": "Distortion",
+          "min": 0.0,
+          "max": 1.0,
+          "bindings": [
+            {
+              "target": "effect:1789004679837",
+              "identity": [
+                "stage",
+                null,
+                1789004679714,
+                null,
+                "Distortion"
+              ],
+              "parameter": 1789181912363,
+              "name": "Distort",
+              "type": "ParamRange",
+              "min": 0.0,
+              "max": 1.0
+            }
+          ]
+        },
+        {
+          "id": "Factor",
+          "label": "Factor",
+          "min": 0.0,
+          "max": 1.0,
+          "bindings": [
+            {
+              "target": "effect:1789004679745",
+              "identity": [
+                "stage",
+                null,
+                1789004679714,
+                null,
+                "ColourLoop"
+              ],
+              "parameter": 1789181911543,
+              "name": "Factor",
+              "type": "ParamRange",
+              "min": 0.0,
+              "max": 1.0
+            }
+          ]
+        },
+        {
+          "id": "Red offset",
+          "label": "Red",
+          "min": 0.0,
+          "max": 1.0,
+          "bindings": [
+            {
+              "target": "effect:1789004679745",
+              "identity": [
+                "stage",
+                null,
+                1789004679714,
+                null,
+                "ColourLoop"
+              ],
+              "parameter": 1789181911545,
+              "name": "Red offset",
+              "type": "ParamRange",
+              "min": 0.0,
+              "max": 1.0
+            }
+          ]
+        },
+        {
+          "id": "Green offset",
+          "label": "Green",
+          "min": 0.0,
+          "max": 1.0,
+          "bindings": [
+            {
+              "target": "effect:1789004679745",
+              "identity": [
+                "stage",
+                null,
+                1789004679714,
+                null,
+                "ColourLoop"
+              ],
+              "parameter": 1789181911546,
+              "name": "Green offset",
+              "type": "ParamRange",
+              "min": 0.0,
+              "max": 1.0
+            }
+          ]
+        },
+        {
+          "id": "Blue offset",
+          "label": "Blue",
+          "min": 0.0,
+          "max": 1.0,
+          "bindings": [
+            {
+              "target": "effect:1789004679745",
+              "identity": [
+                "stage",
+                null,
+                1789004679714,
+                null,
+                "ColourLoop"
+              ],
+              "parameter": 1789181911547,
+              "name": "Blue offset",
+              "type": "ParamRange",
+              "min": 0.0,
+              "max": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "figure",
+      "label": "Figure",
+      "color_hex": "#f6bd77",
+      "pads": [
+        {
+          "id": "decon",
+          "label": "Decon",
+          "bindings": [
+            {
+              "target": "effect:1788780036952",
+              "identity": [
+                "layer",
+                1788149968008,
+                1788405566947,
+                null,
+                "mtk_lut_corrupt"
+              ],
+              "opacity": 1789181914269,
+              "bypass": 1789181914266,
+              "event": 1789181914258,
+              "event_name": "DECON"
+            }
+          ],
+          "mode": "trigger"
+        },
+        {
+          "id": "pixel_melt",
+          "label": "Pixel Melt",
+          "bindings": [
+            {
+              "target": "effect:1789451666929",
+              "identity": [
+                "layer",
+                1788149968008,
+                1788405566947,
+                null,
+                "MTK_PXLMELT"
+              ],
+              "opacity": 1789451666931,
+              "bypass": 1789451666928,
+              "event": 1789451666923,
+              "event_name": "MELT_TRIGGER",
+              "latch": 1789451666922,
+              "latch_name": "MELT_LOCK"
+            }
+          ],
+          "mode": "latch"
+        },
+        {
+          "id": "blok",
+          "label": "Blok",
+          "mode": "trigger",
+          "enable_control": false,
+          "clear": false,
+          "bindings": [
+            {
+              "target": "effect:1788780036952",
+              "identity": [
+                "layer",
+                1788149968008,
+                1788405566947,
+                null,
+                "mtk_lut_corrupt"
+              ],
+              "opacity": 1789181914269,
+              "bypass": 1789181914266,
+              "event": 1789181914259,
+              "event_name": "BLOK"
+            }
+          ]
+        },
+        {
+          "id": "twitch",
+          "label": "Twitch",
+          "mode": "pulse",
+          "bindings": [
+            {
+              "target": "effect:1788780036947",
+              "identity": [
+                "layer",
+                1788149968008,
+                1788405566947,
+                null,
+                "TwitchEffect"
+              ],
+              "opacity": 1789181914233,
+              "bypass": 1789181914230
+            }
+          ],
+          "contrast_hit": true,
+          "opacity_control": true
+        },
+        {
+          "id": "stack",
+          "label": "Prism",
+          "mode": "pulse",
+          "bindings": [
+            {
+              "target": "effect:1788780036958",
+              "identity": [
+                "layer",
+                1788149968008,
+                1788405566947,
+                null,
+                "RadialCloner"
+              ],
+              "opacity": 1789181914330,
+              "bypass": 1789181914327
+            },
+            {
+              "target": "effect:1788780036977",
+              "identity": [
+                "layer",
+                1788149968008,
+                1788405566947,
+                null,
+                "MTK_Gradient_Shadow"
+              ],
+              "opacity": 1789181914550,
+              "bypass": 1789181914547
+            }
+          ]
+        }
+      ],
+      "color": [
+        {
+          "target": "effect:1789422031978",
+          "identity": [
+            "layer",
+            1788149968008,
+            1788405566947,
+            null,
+            "ColourLoop"
+          ],
+          "opacity": 1789422031980,
+          "bypass": 1789422031977
+        }
+      ],
+      "controls": [
+        {
+          "id": "Factor",
+          "label": "Factor",
+          "min": 0.0,
+          "max": 1.0,
+          "bindings": [
+            {
+              "target": "effect:1789422031978",
+              "identity": [
+                "layer",
+                1788149968008,
+                1788405566947,
+                null,
+                "ColourLoop"
+              ],
+              "parameter": 1789422031968,
+              "name": "Factor",
+              "type": "ParamRange",
+              "min": 0.0,
+              "max": 1.0
+            }
+          ]
+        },
+        {
+          "id": "Red offset",
+          "label": "Red",
+          "min": 0.0,
+          "max": 1.0,
+          "bindings": [
+            {
+              "target": "effect:1789422031978",
+              "identity": [
+                "layer",
+                1788149968008,
+                1788405566947,
+                null,
+                "ColourLoop"
+              ],
+              "parameter": 1789422031970,
+              "name": "Red offset",
+              "type": "ParamRange",
+              "min": 0.0,
+              "max": 1.0
+            }
+          ]
+        },
+        {
+          "id": "Green offset",
+          "label": "Green",
+          "min": 0.0,
+          "max": 1.0,
+          "bindings": [
+            {
+              "target": "effect:1789422031978",
+              "identity": [
+                "layer",
+                1788149968008,
+                1788405566947,
+                null,
+                "ColourLoop"
+              ],
+              "parameter": 1789422031971,
+              "name": "Green offset",
+              "type": "ParamRange",
+              "min": 0.0,
+              "max": 1.0
+            }
+          ]
+        },
+        {
+          "id": "Blue offset",
+          "label": "Blue",
+          "min": 0.0,
+          "max": 1.0,
+          "bindings": [
+            {
+              "target": "effect:1789422031978",
+              "identity": [
+                "layer",
+                1788149968008,
+                1788405566947,
+                null,
+                "ColourLoop"
+              ],
+              "parameter": 1789422031972,
+              "name": "Blue offset",
+              "type": "ParamRange",
+              "min": 0.0,
+              "max": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "field",
+      "label": "Field + video",
+      "color_hex": "#95d5aa",
+      "pads": [
+        {
+          "id": "decon",
+          "label": "Decon",
+          "bindings": [
+            {
+              "target": "effect:1789435860820",
+              "identity": [
+                "layer",
+                1788149967550,
+                null,
+                null,
+                "mtk_lut_corrupt"
+              ],
+              "opacity": 1789435860822,
+              "bypass": 1789435860819,
+              "event": 1789435860811,
+              "event_name": "DECON"
+            },
+            {
+              "target": "effect:1789422046985",
+              "identity": [
+                "layer",
+                1788149966656,
+                null,
+                null,
+                "mtk_lut_corrupt"
+              ],
+              "opacity": 1789422046987,
+              "bypass": 1789422046984,
+              "event": 1789422046976,
+              "event_name": "DECON"
+            }
+          ],
+          "mode": "trigger"
+        },
+        {
+          "id": "pixel_melt",
+          "label": "Pixel Melt",
+          "bindings": [
+            {
+              "target": "effect:1789451681936",
+              "identity": [
+                "layer",
+                1788149967550,
+                null,
+                null,
+                "MTK_PXLMELT"
+              ],
+              "opacity": 1789451681938,
+              "bypass": 1789451681935,
+              "event": 1789451681930,
+              "event_name": "MELT_TRIGGER",
+              "latch": 1789451681929,
+              "latch_name": "MELT_LOCK"
+            },
+            {
+              "target": "effect:1789451689452",
+              "identity": [
+                "layer",
+                1788149966656,
+                null,
+                null,
+                "MTK_PXLMELT"
+              ],
+              "opacity": 1789451689454,
+              "bypass": 1789451689451,
+              "event": 1789451689446,
+              "event_name": "MELT_TRIGGER",
+              "latch": 1789451689445,
+              "latch_name": "MELT_LOCK"
+            }
+          ],
+          "mode": "latch"
+        },
+        {
+          "id": "blok",
+          "label": "Blok",
+          "mode": "trigger",
+          "enable_control": false,
+          "clear": false,
+          "bindings": [
+            {
+              "target": "effect:1789435860820",
+              "identity": [
+                "layer",
+                1788149967550,
+                null,
+                null,
+                "mtk_lut_corrupt"
+              ],
+              "opacity": 1789435860822,
+              "bypass": 1789435860819,
+              "event": 1789435860812,
+              "event_name": "BLOK"
+            },
+            {
+              "target": "effect:1789422046985",
+              "identity": [
+                "layer",
+                1788149966656,
+                null,
+                null,
+                "mtk_lut_corrupt"
+              ],
+              "opacity": 1789422046987,
+              "bypass": 1789422046984,
+              "event": 1789422046977,
+              "event_name": "BLOK"
+            }
+          ]
+        },
+        {
+          "id": "twitch",
+          "label": "Twitch",
+          "mode": "pulse",
+          "bindings": [
+            {
+              "target": "effect:1789422107032",
+              "identity": [
+                "layer",
+                1788149967550,
+                null,
+                null,
+                "TwitchEffect"
+              ],
+              "opacity": 1789422107034,
+              "bypass": 1789422107031
+            },
+            {
+              "target": "effect:1789422054513",
+              "identity": [
+                "layer",
+                1788149966656,
+                null,
+                null,
+                "TwitchEffect"
+              ],
+              "opacity": 1789422054515,
+              "bypass": 1789422054512
+            }
+          ],
+          "contrast_hit": true,
+          "opacity_control": true
+        },
+        {
+          "id": "stack",
+          "label": "Split",
+          "mode": "pulse",
+          "bindings": [
+            {
+              "target": "effect:1789422107032",
+              "identity": [
+                "layer",
+                1788149967550,
+                null,
+                null,
+                "TwitchEffect"
+              ],
+              "opacity": 1789422107034,
+              "bypass": 1789422107031
+            },
+            {
+              "target": "effect:1789422054513",
+              "identity": [
+                "layer",
+                1788149966656,
+                null,
+                null,
+                "TwitchEffect"
+              ],
+              "opacity": 1789422054515,
+              "bypass": 1789422054512
+            },
+            {
+              "target": "effect:1788780036905",
+              "identity": [
+                "layer",
+                1788149966656,
+                null,
+                null,
+                "DelayRGB"
+              ],
+              "opacity": 1789181912975,
+              "bypass": 1789181912972
+            }
+          ]
+        }
+      ],
+      "color": [
+        {
+          "target": "effect:1789422114543",
+          "identity": [
+            "layer",
+            1788149967550,
+            null,
+            null,
+            "ColourLoop"
+          ],
+          "opacity": 1789422114545,
+          "bypass": 1789422114542
+        },
+        {
+          "target": "effect:1789422062024",
+          "identity": [
+            "layer",
+            1788149966656,
+            null,
+            null,
+            "ColourLoop"
+          ],
+          "opacity": 1789422062026,
+          "bypass": 1789422062023
+        }
+      ],
+      "controls": [
+        {
+          "id": "twitch_power",
+          "label": "Twitch Power",
+          "min": 0.0,
+          "max": 1.0,
+          "bindings": [
+            {
+              "target": "effect:1789422054513",
+              "identity": [
+                "layer",
+                1788149966656,
+                null,
+                null,
+                "TwitchEffect"
+              ],
+              "parameter": 1789422054489,
+              "name": "Global Twitch",
+              "type": "ParamRange",
+              "min": 0.0,
+              "max": 1.0
+            },
+            {
+              "target": "effect:1789422107032",
+              "identity": [
+                "layer",
+                1788149967550,
+                null,
+                null,
+                "TwitchEffect"
+              ],
+              "parameter": 1789422107008,
+              "name": "Global Twitch",
+              "type": "ParamRange",
+              "min": 0.0,
+              "max": 1.0
+            }
+          ]
+        },
+        {
+          "id": "Factor",
+          "label": "Factor",
+          "min": 0.0,
+          "max": 1.0,
+          "bindings": [
+            {
+              "target": "effect:1789422114543",
+              "identity": [
+                "layer",
+                1788149967550,
+                null,
+                null,
+                "ColourLoop"
+              ],
+              "parameter": 1789422114533,
+              "name": "Factor",
+              "type": "ParamRange",
+              "min": 0.0,
+              "max": 1.0
+            },
+            {
+              "target": "effect:1789422062024",
+              "identity": [
+                "layer",
+                1788149966656,
+                null,
+                null,
+                "ColourLoop"
+              ],
+              "parameter": 1789422062014,
+              "name": "Factor",
+              "type": "ParamRange",
+              "min": 0.0,
+              "max": 1.0
+            }
+          ]
+        },
+        {
+          "id": "Red offset",
+          "label": "Red",
+          "min": 0.0,
+          "max": 1.0,
+          "bindings": [
+            {
+              "target": "effect:1789422114543",
+              "identity": [
+                "layer",
+                1788149967550,
+                null,
+                null,
+                "ColourLoop"
+              ],
+              "parameter": 1789422114535,
+              "name": "Red offset",
+              "type": "ParamRange",
+              "min": 0.0,
+              "max": 1.0
+            },
+            {
+              "target": "effect:1789422062024",
+              "identity": [
+                "layer",
+                1788149966656,
+                null,
+                null,
+                "ColourLoop"
+              ],
+              "parameter": 1789422062016,
+              "name": "Red offset",
+              "type": "ParamRange",
+              "min": 0.0,
+              "max": 1.0
+            }
+          ]
+        },
+        {
+          "id": "Green offset",
+          "label": "Green",
+          "min": 0.0,
+          "max": 1.0,
+          "bindings": [
+            {
+              "target": "effect:1789422114543",
+              "identity": [
+                "layer",
+                1788149967550,
+                null,
+                null,
+                "ColourLoop"
+              ],
+              "parameter": 1789422114536,
+              "name": "Green offset",
+              "type": "ParamRange",
+              "min": 0.0,
+              "max": 1.0
+            },
+            {
+              "target": "effect:1789422062024",
+              "identity": [
+                "layer",
+                1788149966656,
+                null,
+                null,
+                "ColourLoop"
+              ],
+              "parameter": 1789422062017,
+              "name": "Green offset",
+              "type": "ParamRange",
+              "min": 0.0,
+              "max": 1.0
+            }
+          ]
+        },
+        {
+          "id": "Blue offset",
+          "label": "Blue",
+          "min": 0.0,
+          "max": 1.0,
+          "bindings": [
+            {
+              "target": "effect:1789422114543",
+              "identity": [
+                "layer",
+                1788149967550,
+                null,
+                null,
+                "ColourLoop"
+              ],
+              "parameter": 1789422114537,
+              "name": "Blue offset",
+              "type": "ParamRange",
+              "min": 0.0,
+              "max": 1.0
+            },
+            {
+              "target": "effect:1789422062024",
+              "identity": [
+                "layer",
+                1788149966656,
+                null,
+                null,
+                "ColourLoop"
+              ],
+              "parameter": 1789422062018,
+              "name": "Blue offset",
+              "type": "ParamRange",
+              "min": 0.0,
+              "max": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "feedback",
+      "label": "Feedback",
+      "color_hex": "#b7b0e3",
+      "color": [],
+      "pads": [
+        {
+          "id": "mirror_x",
+          "label": "Mirror X",
+          "mode": "toggle",
+          "bindings": [
+            {
+              "target": "effect:1788780036873",
+              "identity": [
+                "layer",
+                1788149966516,
+                null,
+                null,
+                "Mirror"
+              ],
+              "opacity": 1789181912822,
+              "bypass": 1789181912819
+            }
+          ]
+        },
+        {
+          "id": "mirror_y",
+          "label": "Mirror Y",
+          "mode": "toggle",
+          "bindings": [
+            {
+              "target": "effect:1788780036877",
+              "identity": [
+                "layer",
+                1788149966516,
+                null,
+                null,
+                "Mirror"
+              ],
+              "opacity": 1789181912842,
+              "bypass": 1789181912839
+            }
+          ]
+        },
+        {
+          "id": "mirror_xy",
+          "label": "Mirror XY",
+          "mode": "toggle",
+          "bindings": [
+            {
+              "target": "effect:1788780036881",
+              "identity": [
+                "layer",
+                1788149966516,
+                null,
+                null,
+                "Mirror"
+              ],
+              "opacity": 1789181912862,
+              "bypass": 1789181912859
+            }
+          ]
+        },
+        {
+          "id": "mirror_offset",
+          "label": "Mirror offset",
+          "mode": "toggle",
+          "bindings": [
+            {
+              "target": "effect:1788780036886",
+              "identity": [
+                "layer",
+                1788149966516,
+                null,
+                null,
+                "Mirror"
+              ],
+              "opacity": 1789181912882,
+              "bypass": 1789181912879
+            }
+          ]
+        },
+        {
+          "id": "invert",
+          "label": "Invert RGB",
+          "mode": "toggle",
+          "bindings": [
+            {
+              "target": "effect:1788780036854",
+              "identity": [
+                "layer",
+                1788149966516,
+                null,
+                null,
+                "InvertRGB"
+              ],
+              "opacity": 1789181912748,
+              "bypass": 1789181912745
+            }
+          ]
+        },
+        {
+          "id": "blur",
+          "label": "Blur",
+          "mode": "toggle",
+          "bindings": [
+            {
+              "target": "effect:1788780036860",
+              "identity": [
+                "layer",
+                1788149966516,
+                null,
+                null,
+                "Blur"
+              ],
+              "opacity": 1789181912767,
+              "bypass": 1789181912764
+            }
+          ]
+        },
+        {
+          "id": "sharpen",
+          "label": "Sharpen",
+          "mode": "toggle",
+          "bindings": [
+            {
+              "target": "effect:1788780036864",
+              "identity": [
+                "layer",
+                1788149966516,
+                null,
+                null,
+                "Sharpen"
+              ],
+              "opacity": 1789181912783,
+              "bypass": 1789181912780
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "id": "invert_a",
+          "label": "Invert A",
+          "min": 0.0,
+          "max": 1.0,
+          "step": 0.01,
+          "bindings": [
+            {
+              "target": "effect:1788780036854",
+              "identity": [
+                "layer",
+                1788149966516,
+                null,
+                null,
+                "InvertRGB"
+              ],
+              "parameter": 1789181912744,
+              "name": "A",
+              "type": "ParamRange",
+              "min": 0.0,
+              "max": 1.0
+            }
+          ]
+        },
+        {
+          "id": "blur_blur",
+          "label": "Blur",
+          "min": 0.0,
+          "max": 1.0,
+          "bindings": [
+            {
+              "target": "effect:1788780036860",
+              "identity": [
+                "layer",
+                1788149966516,
+                null,
+                null,
+                "Blur"
+              ],
+              "parameter": 1789181912759,
+              "name": "Blur",
+              "type": "ParamRange",
+              "min": 0.0,
+              "max": 1.0
+            }
+          ]
+        },
+        {
+          "id": "blur_blur_x_distance",
+          "label": "Blur X",
+          "min": 0.0,
+          "max": 1.0,
+          "bindings": [
+            {
+              "target": "effect:1788780036860",
+              "identity": [
+                "layer",
+                1788149966516,
+                null,
+                null,
+                "Blur"
+              ],
+              "parameter": 1789181912760,
+              "name": "Blur X Distance",
+              "type": "ParamRange",
+              "min": 0.0,
+              "max": 1.0
+            }
+          ]
+        },
+        {
+          "id": "blur_blur_y_distance",
+          "label": "Blur Y",
+          "min": 0.0,
+          "max": 1.0,
+          "bindings": [
+            {
+              "target": "effect:1788780036860",
+              "identity": [
+                "layer",
+                1788149966516,
+                null,
+                null,
+                "Blur"
+              ],
+              "parameter": 1789181912761,
+              "name": "Blur Y Distance",
+              "type": "ParamRange",
+              "min": 0.0,
+              "max": 1.0
+            }
+          ]
+        },
+        {
+          "id": "sharpen_strength",
+          "label": "Sharpen",
+          "min": 0.0,
+          "max": 1.0,
+          "bindings": [
+            {
+              "target": "effect:1788780036864",
+              "identity": [
+                "layer",
+                1788149966516,
+                null,
+                null,
+                "Sharpen"
+              ],
+              "parameter": 1789181912778,
+              "name": "Strength",
+              "type": "ParamRange",
+              "min": 0.0,
+              "max": 1.0
+            }
+          ]
+        },
+        {
+          "id": "sharpen_distance",
+          "label": "Sharp radius",
+          "min": 1.0,
+          "max": 25.0,
+          "bindings": [
+            {
+              "target": "effect:1788780036864",
+              "identity": [
+                "layer",
+                1788149966516,
+                null,
+                null,
+                "Sharpen"
+              ],
+              "parameter": 1789181912779,
+              "name": "Distance",
+              "type": "ParamRange",
+              "min": 1.0,
+              "max": 25.0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recovery": {
+    "source_layers": [
+      1788149966516,
+      1788149966656,
+      1788149967550,
+      1788149966376,
+      1788149968008,
+      1788149968473
+    ],
+    "targets": [
+      "effect:1788150010310",
+      "effect:1788150010717",
+      "effect:1788780036854",
+      "effect:1788780036860",
+      "effect:1788780036864",
+      "effect:1788780036868",
+      "effect:1788780036873",
+      "effect:1788780036877",
+      "effect:1788780036881",
+      "effect:1788780036886",
+      "effect:1788780036891",
+      "effect:1788780036896",
+      "effect:1788780036901",
+      "effect:1788780036905",
+      "effect:1788780036909",
+      "effect:1788780036932",
+      "effect:1788780036938",
+      "effect:1788780036943",
+      "effect:1788780036947",
+      "effect:1788780036952",
+      "effect:1788780036958",
+      "effect:1788780036963",
+      "effect:1788780036968",
+      "effect:1788780036972",
+      "effect:1788780036977",
+      "effect:1788780036982",
+      "effect:1788780036989",
+      "effect:1788780036994",
+      "effect:1788780037001",
+      "effect:1788780037007",
+      "effect:1788780037012",
+      "effect:1788780037017",
+      "effect:1788824158773",
+      "effect:1788824160326",
+      "effect:1789004679745",
+      "effect:1789004679842",
+      "effect:1789004679877",
+      "effect:1789160575467",
+      "effect:1789421994501",
+      "effect:1789422031978",
+      "effect:1789422046985",
+      "effect:1789422054513",
+      "effect:1789422062024",
+      "effect:1789422107032",
+      "effect:1789422114543",
+      "effect:1789435860820",
+      "effect:1789451629449",
+      "effect:1789451666929",
+      "effect:1789451681936",
+      "effect:1789451689452",
+      "layer:1788149966376",
+      "layer:1788149966516",
+      "layer:1788149966656",
+      "layer:1788149967550",
+      "layer:1788149968008",
+      "layer:1788149968473",
+      "effect:1789004679813",
+      "effect:1789004679837",
+      "effect:1789543152090"
+    ]
+  },
+  "hidden_drive_layers": [
+    1788149966656
+  ],
+  "parked_rows": [],
+  "stage_motion": {
+    "groups": [
+      {
+        "group_id": 1789004679714,
+        "sections": [
+          {
+            "id": "base",
+            "label": "Base",
+            "members": [
+              1789004679883
+            ]
+          },
+          {
+            "id": "background",
+            "label": "Background",
+            "members": [
+              1789004679894,
+              1789004679901,
+              1789004679907
+            ]
+          },
+          {
+            "id": "blades",
+            "label": "Blades",
+            "members": [
+              1789004679914,
+              1789004679921,
+              1789004679928
+            ]
+          },
+          {
+            "id": "squares",
+            "label": "Squares",
+            "members": [
+              1789004679935,
+              1789004679946
+            ]
+          },
+          {
+            "id": "balls",
+            "label": "Balls",
+            "members": [
+              1789004679953,
+              1789004679960
+            ]
+          },
+          {
+            "id": "rings",
+            "label": "Rings",
+            "members": [
+              1789004679967,
+              1789004679974,
+              1789004679981,
+              1789004679988,
+              1789004679995
+            ]
+          },
+          {
+            "id": "outline",
+            "label": "Outline",
+            "members": [
+              1789004680002
+            ]
+          },
+          {
+            "id": "effects",
+            "label": "Shared effects",
+            "scope": "group"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "pad": {
+    "assign": {
+      "1": 2,
+      "3": 3,
+      "5": 1,
+      "7": 4
+    },
+    "cfg": {
+      "1": {
+        "touch": "abs",
+        "rel": "zero",
+        "spring": 0.15,
+        "smooth": 0.3,
+        "pfine": false,
+        "gain": 1
+      },
+      "5": {
+        "touch": "abs",
+        "rel": "zero",
+        "spring": 0.15,
+        "smooth": 0.3,
+        "pfine": false,
+        "gain": 1
+      }
+    },
+    "names": {
+      "1": "feedback",
+      "3": "field",
+      "5": "figure",
+      "7": "texture"
+    },
+    "home": {}
+  },
+  "start_patch": "Figure depth",
+  "banks": {
+    "figure": "all",
+    "field": "all"
+  },
+  "workspace": {
+    "version": 2,
+    "columns": [
+      25,
+      44,
+      31
+    ],
+    "row": 46,
+    "order": [
+      "mix",
+      "monitor",
+      "rack",
+      "actions",
+      "parameters",
+      "clips"
+    ],
+    "a": {
+      "kind": "follow"
+    },
+    "b": {
+      "kind": "follow-effect"
+    },
+    "rack": "follow",
+    "selectedEffect": "layer/delay~1/clip/figure~1/effect/SPDelayChain~1"
+  }
+}

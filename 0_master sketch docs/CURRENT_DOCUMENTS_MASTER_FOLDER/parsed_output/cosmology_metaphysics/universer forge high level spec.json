@@ -1,0 +1,77 @@
+{
+  "id": "b766335642a0",
+  "filename": "universer forge high level spec.docx",
+  "path": "universer forge high level spec.docx",
+  "category": "uncategorized",
+  "content_type": "specification",
+  "metadata": {
+    "title": "════════════════════════════════════════════════════════════",
+    "file_size": 8939,
+    "modified_date": "2026-01-19T00:22:06",
+    "created_date": "2026-01-22T18:30:56.272559"
+  },
+  "concepts": [
+    "creator",
+    "duality"
+  ],
+  "structure": {
+    "sections": [
+      {
+        "heading": "🌌  UNIVERSE-FORGE WIZARD — HIGH-LEVEL APP SPEC",
+        "level": 1
+      },
+      {
+        "heading": "OVERVIEW",
+        "level": 1
+      },
+      {
+        "heading": "1. Ten JSON Schemas    – shape & validation for each module",
+        "level": 1
+      },
+      {
+        "heading": "2. Master Glossary     – short definitions for every formal term",
+        "level": 1
+      },
+      {
+        "heading": "3. Module Playbooks    – prose guidance for each module",
+        "level": 1
+      },
+      {
+        "heading": "1. On “Forge” click:",
+        "level": 1
+      },
+      {
+        "heading": "2. For each remaining moduleKey in",
+        "level": 1
+      },
+      {
+        "heading": "3. After Future:",
+        "level": 1
+      },
+      {
+        "heading": "1. Project skeleton with folders exactly as outlined.",
+        "level": 1
+      },
+      {
+        "heading": "2. Stub assets:",
+        "level": 1
+      },
+      {
+        "heading": "3. A placeholder wizard component that:",
+        "level": 1
+      },
+      {
+        "heading": "4. A README in the repo root titled *“How to Add Real Data”*",
+        "level": 1
+      }
+    ],
+    "section_count": 12,
+    "has_clear_structure": true
+  },
+  "content": "════════════════════════════════════════════════════════════\n🌌  UNIVERSE-FORGE WIZARD — HIGH-LEVEL APP SPEC\n════════════════════════════════════════════════════════════\nOVERVIEW\nThe wizard lets a creator type a single **PrimaryTheme**.\nGemini then auto-generates every world-building module (Seed → Future)\nby referencing three knowledge sources we provide:\n\n  1. Ten JSON Schemas    – shape & validation for each module\n  2. Master Glossary     – short definitions for every formal term\n  3. Module Playbooks    – prose guidance for each module\n                           (lexicon, patterns, linkage, example)\n\nWe are giving you *all three* as static assets.  \nYour job is to scaffold an app that:\n\n  • Presents one PrimaryTheme input\n  • Calls Gemini for the Seed module\n  • Iterates through the nine remaining modules,\n    always sending Gemini:\n        – the universe JSON so far\n        – that module’s schema\n        – the relevant glossary slice\n        – that module’s playbook text\n  • Shows a final preview and a “Download JSON” button\n\nNo hand-coding from the human side; generate everything needed.\n\n────────────────────────────────────────────────────────────\nFOLDER PLAN (names only — you decide the file formats)\n\nsrc/\n  /schemas/01_Seed.json … 10_Future.json      ← we’ll paste after scaffold\n  /knowledge/\n       glossary.json                          ← list of {term, definition}\n       lexiconIndex.json                      ← map moduleKey → [terms]\n       modules/                               ← 10 docs: Seed.md, Duality.md …\n  /ai/                                        ← prompt builders & Gemini helpers\n  App component & minimal UI\n\nUse any stack that compiles in Firebase Studio (React + Vite is fine,\nbut you can choose).  Tailwind for styling if convenient.\n\n────────────────────────────────────────────────────────────\nAI-CALL LOGIC (conceptual, not code)\n\n1. On “Forge” click:\n      • Build **Seed prompt**:\n            – PrimaryTheme\n            – Seed.md playbook\n            – glossary slice for Seed terms\n            – Seed schema text\n      • Send to Gemini → parse JSON → add to universe.\n\n2. For each remaining moduleKey in\n      [Duality, Cosmic, World, Culture, SocioEcon,\n       TechMagic, FineDetails, Characters, Future]:\n      • Build “Next-module prompt”:\n            – Current universe JSON (read-only)\n            – playbook for that module (.md file)\n            – glossary slice (lexiconIndex)\n            – schema text for that module\n      • Gemini returns JSON → merge into universe.\n\n3. After Future:\n      • Render pretty-printed universe JSON\n      • Provide “Download” button (Blob → save as universe.json).\n\nValidate each Gemini response against its schema.\nIf invalid, show an error toast and stop the chain.\n\n────────────────────────────────────────────────────────────\nDELIVERABLES WE EXPECT FROM YOU (Gemini)\n\n1. Project skeleton with folders exactly as outlined.\n2. Stub assets:\n      – glossary.json  → include one sample entry so we see the shape\n      – lexiconIndex.json → include two sample mappings\n      – modules/*.md    → include Seed.md with one sample paragraph\n3. A placeholder wizard component that:\n      – already contains the AI-call loop *in pseudocode comments*,\n        ready for us to paste our API key and schemas.\n4. A README in the repo root titled *“How to Add Real Data”*\n   explaining where to drop:\n      – the ten JSON schemas\n      – the full glossary data\n      – the nine remaining module playbooks\n\nNO line-level implementation is required from the human after this brief.\n\nGenerate the scaffold now.\n════════════════════════════════════════════════════════════\n\n",
+  "word_count": 464,
+  "char_count": 3659,
+  "related_documents": [],
+  "maturity": "developed",
+  "maturity_score": 3
+}

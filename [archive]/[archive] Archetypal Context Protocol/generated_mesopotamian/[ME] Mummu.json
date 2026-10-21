@@ -1,0 +1,182 @@
+{
+  "SchemaVersion": "1.1-ter",
+  "ArchetypeName": "Mummu",
+  "SystemOfOrigin": "ME",
+  "CulturalLineage": [
+    "Babylonian",
+    "Akkadian"
+  ],
+  "CommonAliases": [
+    "Vizier of Apsu",
+    "Primordial Craftsman",
+    "Divine Mist",
+    "Counselor of the Abyss",
+    "Creative Thought"
+  ],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "Primordial deity embodying creative thought, mist/fog, craftmanship in potentia, and bad counsel leading to conflict",
+    "PrimaryDomain": "Mist/Craft/Counsel/Thought",
+    "ToneOrPolarity": "Primordial / Creative / Mistaken / Bound",
+    "SymbolicCore": "The mist of creative thought - potentia that counsels wrongly and becomes bound",
+    "Correspondences": {
+      "Element": "Water (mist/vapor)",
+      "Planet": "Mercury (thought/counsel)",
+      "Chakra": "Third Eye (thought) and Throat (counsel)",
+      "Color": "Mist Gray, Vapor White, Clouded Blue",
+      "Animal": "None (elemental)",
+      "Other": [
+        "Mist/fog",
+        "Primordial thought",
+        "Craftsman's vision",
+        "Bad counsel",
+        "Bound and captured",
+        "Vizier's staff",
+        "Creative potentia"
+      ]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": [
+      "Primordial Counselor",
+      "Bad Advisor",
+      "Creative Thought",
+      "Bound Deity",
+      "Mistaken Wisdom",
+      "Captured Force"
+    ],
+    "ComplementaryArchetypes": [
+      "Apsu (Master served)",
+      "Tiamat (Opposed his counsel)",
+      "Ea/Enki (Captor)",
+      "Marduk (Ultimate victor)"
+    ],
+    "ShadowForms": [
+      "Destructive Counsel",
+      "Thought Without Wisdom",
+      "Reactive Advisor"
+    ],
+    "DevelopmentalArc": [
+      "Primordial Being → Vizier of Apsu → Bad Counsel (destroy gods) → Captured by Ea → Bound → Controlled Force"
+    ],
+    "CyclePhase": "Service → Counsel → Conflict → Capture → Binding"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": [
+      "Primordial",
+      "Creative (thought)",
+      "Counseling",
+      "Mistaken",
+      "Reactive",
+      "Bound",
+      "Misty"
+    ],
+    "Typologies": {
+      "MBTI": "ENTP (undeveloped)",
+      "Enneagram": "6w5 (The Defender - bad loyalty)",
+      "Other": [
+        "Premature thought",
+        "Reactive counselor",
+        "Bound creativity",
+        "Mist archetype"
+      ]
+    },
+    "SubVariants": [
+      "Primordial Mist",
+      "Bad Counselor",
+      "Creative Thought",
+      "Bound Force",
+      "Vizier Gone Wrong"
+    ],
+    "InternalFamily": "Counselor - Thought - Mist"
+  },
+  "CulturalContext": {
+    "Regions": [
+      "Babylonia",
+      "Mesopotamia"
+    ],
+    "MythicAppearances": [
+      "Enuma Elish (counsels Apsu)",
+      "Advises killing noisy gods",
+      "Opposed by Tiamat",
+      "Captured by Ea",
+      "Bound and controlled",
+      "Primordial trio with Apsu and Tiamat"
+    ],
+    "ReligiousOrRitualUse": "Represents creative thought, bad counsel warnings, bound forces, primordial craftmanship potential",
+    "HistoricalEvolution": "Obscure primordial deity, possibly personified mist or creative thought, represents early creative forces bound by later gods, influenced thought/creation deity concepts",
+    "SyncreticForms": [
+      "Ptah (Egyptian craftsman god - though more positive)",
+      "Prometheus bound (Greek - though heroic)",
+      "Thought deities (various)"
+    ]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "🌫️💭 (mist and thought)",
+    "ImageryNotes": "Depicted as mist/vapor, as vizier with staff, bound and captured, primordial counselor, creative fog, thought made manifest",
+    "ArtisticExamples": [
+      "Enuma Elish tablets",
+      "Primordial imagery",
+      "Binding scenes"
+    ],
+    "PoeticInvocation": "I am the mist of thought before clarity, the counsel that erred, the creative force bound for wisdom's sake.",
+    "DreamForm": "Mist obscuring vision; thoughts that lead astray; creative force that must be bound to be useful; fog of confusion"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": [
+      "ME.Apsu",
+      "ME.Tiamat",
+      "ME.Enki-Ea",
+      "ME.Marduk",
+      "EG.Ptah"
+    ],
+    "SemanticTags": [
+      "#mist",
+      "#thought",
+      "#counsel",
+      "#primordial",
+      "#craft",
+      "#bound",
+      "#creative",
+      "#error"
+    ],
+    "RitualFunction": "Invoke for creative thought (carefully), understanding bad counsel, binding excessive forces, primordial creativity",
+    "AIPromptSeeds": [
+      "Generate a primordial mist of thought whose creative counsel leads to conflict, who must be bound to be useful.",
+      "Create the fog of early thought - creative but unwise, powerful but needing containment."
+    ],
+    "NarrativeHooks": [
+      "The counselor who advises wrongly",
+      "Creative thought that must be bound",
+      "Mist that obscures truth",
+      "Primordial force captured",
+      "Wisdom learning from bound folly"
+    ]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [
+      {
+        "to": "EG.Ptah",
+        "strength": "weak"
+      }
+    ]
+  },
+  "FacetRegistry": [
+    {
+      "facet": "Primordial Mist",
+      "weight": 0.3
+    },
+    {
+      "facet": "Bad Counselor",
+      "weight": 0.3
+    },
+    {
+      "facet": "Creative Thought",
+      "weight": 0.25
+    },
+    {
+      "facet": "Bound Force",
+      "weight": 0.15
+    }
+  ]
+}

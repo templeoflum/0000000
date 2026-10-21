@@ -1,0 +1,2776 @@
+{
+  "version": 1,
+  "name": "Heart Show Ready 20260909 111850",
+  "composition": "Heart Show Ready 20260909 111850.avc",
+  "bars": 8,
+  "hold": false,
+  "instruments": {
+    "field/Heart Barberpole Field": {
+      "version": 2,
+      "global": {
+        "speed": 1.0,
+        "relationship": null,
+        "pattern": 11,
+        "seed": 0,
+        "spread": 8,
+        "depth": 1.0,
+        "fm": 0.0,
+        "timing_mode": "harmonic"
+      },
+      "slots": {
+        "Phase": {
+          "config": {
+            "manual": 0.8475566614699703,
+            "drive": true,
+            "ratio": "1:1",
+            "mult": 16.0,
+            "offset": 0.0,
+            "shape": 0,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 31.089557434321293,
+          "identity": "source/Phase"
+        },
+        "Aperture": {
+          "config": {
+            "manual": 0.07440334225462789,
+            "drive": true,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.07440334225462789,
+          "identity": "source/Aperture"
+        },
+        "Contrast": {
+          "config": {
+            "manual": 0.07762425915786433,
+            "drive": true,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": true,
+          "pose": 0.07762425915786433,
+          "identity": "source/Contrast"
+        }
+      }
+    }
+  },
+  "effects": {},
+  "layers": {
+    "feedback": {
+      "clip": null,
+      "level": 0.0,
+      "bypass": false
+    },
+    "sculpt": {
+      "clip": null,
+      "level": 0.0,
+      "bypass": false
+    },
+    "field": {
+      "clip": "Heart Barberpole Field",
+      "level": 1.0,
+      "bypass": false
+    },
+    "delay": {
+      "clip": null,
+      "level": 0.0,
+      "bypass": false
+    },
+    "figure": {
+      "clip": null,
+      "level": 0.0,
+      "bypass": false
+    },
+    "glyph": {
+      "clip": null,
+      "level": 0.0,
+      "bypass": false
+    },
+    "texture": {
+      "clip": null,
+      "level": 0.1769230769230769,
+      "bypass": false
+    },
+    "grain": {
+      "clip": null,
+      "level": 0.0,
+      "bypass": false
+    }
+  },
+  "signature": {
+    "size": [
+      1920.0,
+      1080.0
+    ],
+    "effects": [
+      "Transform",
+      "MTK_STROKE_VOLT",
+      "MTK_PXLMELT",
+      "HueRotate",
+      "ColourLoop",
+      "mtk_lut_corrupt",
+      "TwitchEffect",
+      "MTK_STROKEDIFFUSE",
+      "Strobe"
+    ],
+    "groups": [
+      [
+        "Group #",
+        [
+          "Transform"
+        ]
+      ]
+    ],
+    "layers": [
+      [
+        "feedback",
+        [
+          "Transform",
+          "InvertRGB",
+          "Blur",
+          "Sharpen",
+          "Kaleidoscope",
+          "Mirror",
+          "Mirror",
+          "Mirror",
+          "Mirror"
+        ],
+        [
+          [
+            "map",
+            "Video Router",
+            [
+              "Transform",
+              "SPChainMap",
+              "InvertRGB",
+              "Blur",
+              "Sharpen"
+            ]
+          ],
+          [
+            "texture",
+            "Video Router",
+            [
+              "Transform",
+              "SPStudyTexture"
+            ]
+          ],
+          [
+            "fold",
+            "Video Router",
+            [
+              "Transform",
+              "SPStudyFold"
+            ]
+          ],
+          [
+            "level",
+            "Video Router",
+            [
+              "Transform",
+              "SPChainLevel"
+            ]
+          ],
+          [
+            "pass",
+            "Video Router",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "Flow",
+            "Feedback",
+            [
+              "Transform",
+              "SPLoopFlow",
+              "SPLoopColor"
+            ]
+          ],
+          [
+            "FM \u00b7 Feedback [1.1.1]",
+            "Feedback",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 XY 1 [1.3.1]",
+            "Feedback",
+            [
+              "Transform",
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Static Rotate Left Z [1.4.1]",
+            "Feedback",
+            [
+              "Transform",
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Feedback [1.1.2]",
+            "Feedback",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 XY 2 [1.3.2]",
+            "Feedback",
+            [
+              "Transform",
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Static Rotate Left Z [1.4.2]",
+            "Feedback",
+            [
+              "Transform",
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Feedback [1.1.3]",
+            "Feedback",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 up/down [1.3.3]",
+            "Feedback",
+            [
+              "Transform",
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Anim Rotate Left Z [1.4.3]",
+            "Feedback",
+            [
+              "Transform",
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Feedback [1.1.4]",
+            "Feedback",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 up [1.3.4]",
+            "Feedback",
+            [
+              "Transform",
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Rotate Right Z [1.4.4]",
+            "Feedback",
+            [
+              "Transform",
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 down [1.3.5]",
+            "Feedback",
+            [
+              "Transform",
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Rotate Up X [1.4.5]",
+            "Feedback",
+            [
+              "Transform",
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 left/right [1.3.6]",
+            "Feedback",
+            [
+              "Transform",
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Rotate Down X [1.4.6]",
+            "Feedback",
+            [
+              "Transform",
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 right [1.3.7]",
+            "Feedback",
+            [
+              "Transform",
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Rotate Right Y [1.4.7]",
+            "Feedback",
+            [
+              "Transform",
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 left [1.3.8]",
+            "Feedback",
+            [
+              "Transform",
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Rotate Left Y [1.4.8]",
+            "Feedback",
+            [
+              "Transform",
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Scale W [1.4.9]",
+            "Feedback",
+            [
+              "Transform",
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Scale H [1.4.10]",
+            "Feedback",
+            [
+              "Transform",
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Scale In [1.4.11]",
+            "Feedback",
+            [
+              "Transform",
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Scale Out [1.4.12]",
+            "Feedback",
+            [
+              "Transform",
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Move Right [1.4.13]",
+            "Feedback",
+            [
+              "Transform",
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Move Left [1.4.14]",
+            "Feedback",
+            [
+              "Transform",
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 move down [1.4.15]",
+            "Feedback",
+            [
+              "Transform",
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 move up [1.4.16]",
+            "Feedback",
+            [
+              "Transform",
+              "Transform"
+            ]
+          ]
+        ]
+      ],
+      [
+        "sculpt",
+        [
+          "Transform",
+          "InvertRGB",
+          "HueRotate",
+          "InvertRGB",
+          "DelayRGB",
+          "AutoMask"
+        ],
+        [
+          [
+            "level",
+            "Video Router",
+            [
+              "Transform",
+              "SPStudyLevel"
+            ]
+          ],
+          [
+            "pass",
+            "Video Router",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "color",
+            "Video Router",
+            [
+              "Transform",
+              "SPStudyColor"
+            ]
+          ],
+          [
+            "mixer",
+            "Video Router",
+            [
+              "Transform",
+              "SPStudyMixer"
+            ]
+          ],
+          [
+            "Shape",
+            "Feedback",
+            [
+              "Transform",
+              "SPLoopShape"
+            ]
+          ],
+          [
+            "FM \u00b7 Feedback [1.2.1]",
+            "Feedback",
+            [
+              "Transform",
+              "ShiftRGB"
+            ]
+          ],
+          [
+            "FM \u00b7 Feedback [1.2.2]",
+            "Feedback",
+            [
+              "Transform",
+              "DelayRGB"
+            ]
+          ]
+        ]
+      ],
+      [
+        "field",
+        [
+          "Transform",
+          "Twisted",
+          "Twisted",
+          "Suckr",
+          "FishEye"
+        ],
+        [
+          [
+            "ground",
+            "SP Atom Ground",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "room",
+            "SP Atom Room",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "void",
+            "SP Atom Void",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "Heart Quaternion Field",
+            "Heart Quaternion Field",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "Heart Quaternion Swell",
+            "Heart Quaternion Swell",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "Heart Paper Fractal",
+            "Heart Paper Fractal",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "Heart Vector Lattice",
+            "Heart Vector Lattice",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "SP Field",
+            "SP Field",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "Heart Concentrip",
+            "Heart Concentrip",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "Heart Puls Lattice",
+            "Heart Puls Lattice",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "Heart Ancient Temple",
+            "Heart Ancient Temple",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "Heart Kali Liberation",
+            "Heart Kali Liberation",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "Heart Color Wheel",
+            "Heart Color Wheel",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "Heart Barberpole Field",
+            "Heart Barberpole Field",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 MTK_Worleyz [1.5.2]",
+            "MTK_Worleyz",
+            [
+              "Transform",
+              "AutoMask"
+            ]
+          ],
+          [
+            "FM \u00b7 ButterflyEffect [1.5.3]",
+            "ButterflyEffect",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Cuadricula rect [1.5.4]",
+            "Cuadricula rect",
+            [
+              "AutoMask",
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 data blocks [1.5.5]",
+            "data blocks",
+            [
+              "AutoMask",
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 fractal alien text [1.5.6]",
+            "fractal alien text",
+            [
+              "AutoMask",
+              "Goo",
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Gradient Bars [1.5.7]",
+            "Gradient Bars",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 TileIllusion [1.5.8]",
+            "TileIllusion",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Melty Boi [1.5.9]",
+            "Melty Boi",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Screen Weaver [1.5.10]",
+            "Screen Weaver",
+            [
+              "Transform",
+              "AutoMask"
+            ]
+          ],
+          [
+            "FM \u00b7 sin_wave [1.5.11]",
+            "sin_wave",
+            [
+              "Transform",
+              "AutoMask"
+            ]
+          ],
+          [
+            "FM \u00b7 SpiralSurface [1.5.12]",
+            "SpiralSurface",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Dark Tomb [1.5.13]",
+            "Dark Tomb",
+            [
+              "AutoMask",
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 cubes + spheres [1.5.14]",
+            "cubes + spheres",
+            [
+              "AutoMask",
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 RailroadTracks [1.5.15]",
+            "RailroadTracks",
+            [
+              "Transform",
+              "AutoMask"
+            ]
+          ],
+          [
+            "FM \u00b7 quantum chaos [1.5.16]",
+            "quantum chaos",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Quaternion RGB vector rotation [1.5.18]",
+            "Quaternion RGB vector rotation",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 RetroTechnicolorComputer [1.5.19]",
+            "RetroTechnicolorComputer",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 SmoothXORi [1.5.20]",
+            "SmoothXORi",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 TruchetDualLevelSpin [1.5.21]",
+            "TruchetDualLevelSpin",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 TwinRays [1.5.22]",
+            "TwinRays",
+            [
+              "AutoMask",
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 VoroniCubes [1.5.23]",
+            "VoroniCubes",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Concentrip [1.5.24]",
+            "Concentrip",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Higgs Mechanism [1.5.25]",
+            "Higgs Mechanism",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Klein bottle figure 8 immersion [1.5.26]",
+            "Klein bottle figure 8 immersion",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 PsychedeliaGenerica [1.5.27]",
+            "PsychedeliaGenerica",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Potential Energy [1.5.28]",
+            "Potential Energy",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Magnetic Anomaly [1.5.29]",
+            "Magnetic Anomaly",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Quantum Field Theory [1.5.30]",
+            "Quantum Field Theory",
+            [
+              "Transform",
+              "AutoMask"
+            ]
+          ],
+          [
+            "FM \u00b7 QuarternionSwell [1.5.31]",
+            "QuarternionSwell",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 QField2 [1.5.32]",
+            "QField2",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 QuarternionFieldDistortion [1.5.33]",
+            "QuarternionFieldDistortion",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Cos Orbit [1.5.35]",
+            "Cos Orbit",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Flower2 [1.5.36]",
+            "Flower2",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Creation [1.5.37]",
+            "Creation",
+            [
+              "AutoMask",
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Gentle Rings [1.5.38]",
+            "Gentle Rings",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Quantum Fractal [1.5.39]",
+            "Quantum Fractal",
+            [
+              "Transform",
+              "AutoMask"
+            ]
+          ],
+          [
+            "FM \u00b7 spiral intersect [1.5.40]",
+            "spiral intersect",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Quasi-Kleinian Ring of Circles [1.5.41]",
+            "Quasi-Kleinian Ring of Circles",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Poincare Disk [1.5.42]",
+            "Poincare Disk",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 FractalCartoon [1.5.43]",
+            "FractalCartoon",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 MergerTunnel [1.5.44]",
+            "MergerTunnel",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Sands [1.5.45]",
+            "Sands",
+            [
+              "Transform",
+              "AutoMask"
+            ]
+          ],
+          [
+            "FM \u00b7 Paper Fractal [1.5.46]",
+            "Paper Fractal",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 ShaderLamb [1.5.47]",
+            "ShaderLamb",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Cumulus [1.5.48]",
+            "Cumulus",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 MetaSevenVortex [1.5.49]",
+            "MetaSevenVortex",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Wild Style [1.5.50]",
+            "Wild Style",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 VectorFromHell [1.5.51]",
+            "VectorFromHell",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 AI Escape valve [1.5.52]",
+            "AI Escape valve",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Apollonian [1.5.53]",
+            "Apollonian",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Equirectangular Apollonian [1.5.54]",
+            "Equirectangular Apollonian",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Kali - ancient temple [1.5.55]",
+            "Kali - ancient temple",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Kissing Donuts [1.5.56]",
+            "Kissing Donuts",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Kleinian limit set [1.5.57]",
+            "Kleinian limit set",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Kleinian limit set-Maskit slice [1.5.58]",
+            "Kleinian limit set-Maskit slice",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 TwoFiftySixBiatch [1.5.59]",
+            "TwoFiftySixBiatch",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 MegaWave 2 [1.5.60]",
+            "MegaWave 2",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 [phreax] quantum field [1.5.61]",
+            "[phreax] quantum field",
+            [
+              "Transform",
+              "AutoMask"
+            ]
+          ],
+          [
+            "FM \u00b7 Oldschool Tube [1.5.62]",
+            "Oldschool Tube",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Full Spectrum Cyber [1.5.63]",
+            "Full Spectrum Cyber",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 ocean waves [1.5.65]",
+            "ocean waves",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 ocean waves [1.5.66]",
+            "ocean waves",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Dodecahedral Permutations [1.5.68]",
+            "Dodecahedral Permutations",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Deep Quantum Time State [1.5.69]",
+            "Deep Quantum Time State",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 q_interference23 [1.5.70]",
+            "q_interference23",
+            [
+              "Transform",
+              "ChromaKey"
+            ]
+          ],
+          [
+            "FM \u00b7 flex links - v2 [1.5.71]",
+            "flex links - v2",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 flex links - v3 [1.5.72]",
+            "flex links - v3",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 flex links radial - slice [1.5.73]",
+            "flex links radial - slice",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 flex links radial - slice2 [1.5.74]",
+            "flex links radial - slice2",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 flex links radial - v4 [1.5.75]",
+            "flex links radial - v4",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Quaternion controls [1.5.76]",
+            "Quaternion controls",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Space Warping Portals [1.5.77]",
+            "Space Warping Portals",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Steiner Surfaces [1.5.78]",
+            "Steiner Surfaces",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Quantum Socket [1.5.79]",
+            "Quantum Socket",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Quaternion Kinematics [1.5.80]",
+            "Quaternion Kinematics",
+            [
+              "Transform",
+              "AutoMask"
+            ]
+          ],
+          [
+            "FM \u00b7 HopfFibration [1.5.81]",
+            "HopfFibration",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 [2TC 15] old skool 3d driving [1.5.83]",
+            "[2TC 15] old skool 3d driving",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Gentle Rings SP [1.5.85]",
+            "Gentle Rings SP",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Gradient [2.1.1]",
+            "Gradient",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Color Wheel [2.2.1]",
+            "Color Wheel",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Sine Wave [2.3.1]",
+            "Sine Wave",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Gentle Rings SP [2.5.1]",
+            "Gentle Rings SP",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Checkered [2.1.2]",
+            "Checkered",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Spiral [2.2.2]",
+            "Spiral",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Lines [2.3.2]",
+            "Lines",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Gradient [2.5.2]",
+            "Gradient",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Lines [2.1.3]",
+            "Lines",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Rings [2.2.3]",
+            "Rings",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Spiral [2.3.3]",
+            "Spiral",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Checkered [2.5.3]",
+            "Checkered",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Sine Wave [2.1.4]",
+            "Sine Wave",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Static [2.2.4]",
+            "Static",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Checkered [2.3.4]",
+            "Checkered",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Spiral [2.5.4]",
+            "Spiral",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "Heart Stepping Feet Field",
+            "Heart Stepping Feet Field",
+            [
+              "Transform"
+            ]
+          ]
+        ]
+      ],
+      [
+        "delay",
+        [
+          "Transform",
+          "InvertRGB",
+          "AutoMask",
+          "ColourLoop",
+          "DelayRGB"
+        ],
+        [
+          [
+            "figure",
+            "Video Router",
+            [
+              "Transform",
+              "SPDelayChain"
+            ]
+          ],
+          [
+            "field",
+            "Video Router",
+            [
+              "Transform",
+              "SPDelayChain"
+            ]
+          ],
+          [
+            "Color",
+            "Feedback",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "figure \u00b7 light delay",
+            "Video Router",
+            [
+              "Transform",
+              "SPDelayPerformance"
+            ]
+          ]
+        ]
+      ],
+      [
+        "figure",
+        [
+          "Transform",
+          "Transform",
+          "TwitchEffect",
+          "mtk_lut_corrupt",
+          "RadialCloner",
+          "LinearCloner",
+          "Iterate",
+          "Mirror",
+          "Mirror",
+          "Mirror",
+          "MTK_Gradient_Shadow",
+          "Displace",
+          "Distortion",
+          "ASCII",
+          "InfiniteZoom",
+          "LoRezEffect"
+        ],
+        [
+          [
+            "1d",
+            "Video Router",
+            [
+              "Transform",
+              "SPAtomLine"
+            ]
+          ],
+          [
+            "2d",
+            "SP Atom Figure 2D",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "3d",
+            "SP Atom Solid",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "4d",
+            "SP Atom 4D",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "shell",
+            "SP Atom 4D Field",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "hybrid",
+            "SP Atom Hybrid",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "SP Figure Solid Source",
+            "SP Figure Solid Source",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "Figure 3D SP",
+            "SP Figure 3D",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "Figure 2D SP",
+            "SP Figure",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "SP Figure Ring Source",
+            "SP Figure Ring Source",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "SP Figure Spike Source",
+            "SP Figure Spike Source",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "SP Figure Crystal Source",
+            "SP Figure Crystal Source",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "Heart HypnoWorm",
+            "Heart HypnoWorm",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "Heart Torus",
+            "Heart Torus",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Metaballs [1.6.3]",
+            "Metaballs",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 z33d+ [1.6.4]",
+            "z33d+",
+            [
+              "Transform",
+              "AutoMask"
+            ]
+          ],
+          [
+            "FM \u00b7 DimensionMorphingTopography [1.6.5]",
+            "DimensionMorphingTopography",
+            [
+              "AutoMask",
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 MagicLougie [1.6.6]",
+            "MagicLougie",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 GeodesicTiling [1.6.7]",
+            "GeodesicTiling",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 RainbowRingCubicTwist [1.6.8]",
+            "RainbowRingCubicTwist",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 SpaceSpore [1.6.9]",
+            "SpaceSpore",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 4D Voronoi + Hopf Fibration [1.6.10]",
+            "4D Voronoi + Hopf Fibration",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 16 Dimensional Julia (Sedenion) [1.6.11]",
+            "16 Dimensional Julia (Sedenion)",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Barth Sextic Surfaces [1.6.12]",
+            "Barth Sextic Surfaces",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Crystal Drops [1.6.13]",
+            "Crystal Drops",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 curved surface [1.6.14]",
+            "curved surface",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Hopf + Poincare [1.6.15]",
+            "Hopf + Poincare",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 HypnoWorm [1.6.16]",
+            "HypnoWorm",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Melty Boi [1.6.17]",
+            "Melty Boi",
+            [
+              "Transform",
+              "AutoMask"
+            ]
+          ],
+          [
+            "FM \u00b7 QUANTUM WAVE INTERFERENCE [1.6.18]",
+            "QUANTUM WAVE INTERFERENCE",
+            [
+              "Transform",
+              "AutoMask"
+            ]
+          ],
+          [
+            "FM \u00b7 Quantum Zappy Sphere [1.6.19]",
+            "Quantum Zappy Sphere",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Quaternion Averaging [1.6.20]",
+            "Quaternion Averaging",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Quaternion Conjugation 2 [1.6.21]",
+            "Quaternion Conjugation 2",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 quantum droplet [1.6.22]",
+            "quantum droplet",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 On their way to Sirius [1.6.23]",
+            "On their way to Sirius",
+            [
+              "Transform",
+              "AutoMask"
+            ]
+          ],
+          [
+            "FM \u00b7 Ray Marching Experiment n35 [1.6.24]",
+            "Ray Marching Experiment n35",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Shaderdough [1.6.25]",
+            "Shaderdough",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Spikeball_v2 [1.6.26]",
+            "Spikeball_v2",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Quantum Carpets [1.6.27]",
+            "Quantum Carpets",
+            [
+              "Transform",
+              "AutoMask"
+            ]
+          ],
+          [
+            "FM \u00b7 Torus thingy [1.6.28]",
+            "Torus thingy",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Raymarched Hopf Fibers [1.6.29]",
+            "Raymarched Hopf Fibers",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Dodecahedron [1.6.30]",
+            "Dodecahedron",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Wireframe stellated dodecahedron [1.6.31]",
+            "Wireframe stellated dodecahedron",
+            [
+              "Transform",
+              "AutoMask"
+            ]
+          ],
+          [
+            "FM \u00b7 Kali liberation of the true self [1.6.32]",
+            "Kali liberation of the true self",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 CubeCluster [1.6.33]",
+            "CubeCluster",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 example using quaternions [1.6.34]",
+            "example using quaternions",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Multi Cube [1.6.35]",
+            "Multi Cube",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Multi Cube [1.6.36]",
+            "Multi Cube",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 quantum computer [1.6.37]",
+            "quantum computer",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Melting Fractal [1.6.38]",
+            "Melting Fractal",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 quadratic bezier triangle 2 AABV [1.6.39]",
+            "quadratic bezier triangle 2 AABV",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Klein Bottle (3D) [1.6.40]",
+            "Klein Bottle (3D)",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 4D Rounded box (Bluey) [1.6.41]",
+            "4D Rounded box (Bluey)",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 4-space rotations [1.6.42]",
+            "4-space rotations",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 HEPTANION transformation [1.6.43]",
+            "HEPTANION transformation",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 quaternion slerp [1.6.44]",
+            "quaternion slerp",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 quaternion slerp [1.6.45]",
+            "quaternion slerp",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Quaternion Twister [1.6.46]",
+            "Quaternion Twister",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Spinor Belt Trick [1.6.47]",
+            "Spinor Belt Trick",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Superfluid helium [1.6.48]",
+            "Superfluid helium",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Hopf fibers SP [1.6.85]",
+            "Hopf fibers SP",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 SP State Test [1.6.86]",
+            "SP State Test",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Metaballs [2.4.1]",
+            "Metaballs",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Hopf fibers SP [2.6.1]",
+            "Hopf fibers SP",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Gradient Bars [2.4.2]",
+            "Gradient Bars",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 SP State Test [2.6.2]",
+            "SP State Test",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Shaper [2.4.3]",
+            "Shaper",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Rings [2.6.3]",
+            "Rings",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Tunnelines [2.4.4]",
+            "Tunnelines",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Metaballs [2.6.4]",
+            "Metaballs",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "Heart Klein Bottle",
+            "Heart Klein Bottle",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "Heart Melting Fractal",
+            "Heart Melting Fractal",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "Heart Capsule",
+            "Heart Capsule",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "SP Toy Transit Figure 01",
+            "SP Toy Transit Figure 01",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "SP Toy Quasicrystal Figure 01",
+            "SP Toy Quasicrystal Figure 01",
+            [
+              "Transform"
+            ]
+          ]
+        ]
+      ],
+      [
+        "glyph",
+        [
+          "Transform",
+          "MTK_Gradient_Shadow",
+          "Goo"
+        ],
+        [
+          [
+            "glyph",
+            "SP Atom Glyph",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "script",
+            "SP Atom Script",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "SP Glyphmass",
+            "SP Glyphmass",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 MTK_Tentaclone_1.1 [1.7.53]",
+            "MTK_Tentaclone_1.1",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 MTK_Worm Fresnel [1.7.54]",
+            "MTK_Worm Fresnel",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 MTK_Worm Walker [1.7.55]",
+            "MTK_Worm Walker",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 MTK_Worm_Banded [1.7.56]",
+            "MTK_Worm_Banded",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Tunnelines [1.7.57]",
+            "Tunnelines",
+            [
+              "Transform",
+              "EdgeDetection"
+            ]
+          ],
+          [
+            "FM \u00b7 Shaper [1.7.58]",
+            "Shaper",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Shaper [1.7.59]",
+            "Shaper",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Rings [1.7.60]",
+            "Rings",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 fractal sponge [1.7.61]",
+            "fractal sponge",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Hologram Boxes [1.7.62]",
+            "Hologram Boxes",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 spiragraph [1.7.63]",
+            "spiragraph",
+            [
+              "Transform",
+              "AutoMask"
+            ]
+          ],
+          [
+            "FM \u00b7 Test Card [1.7.64]",
+            "Test Card",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Gradient [1.7.65]",
+            "Gradient",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Gradient [1.7.66]",
+            "Gradient",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Gradient [1.7.67]",
+            "Gradient",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Gradient [1.7.68]",
+            "Gradient",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Gradient [1.7.69]",
+            "Gradient",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Gradient [1.7.70]",
+            "Gradient",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Gradient [1.7.71]",
+            "Gradient",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Gradient [1.7.72]",
+            "Gradient",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Gradient [1.7.73]",
+            "Gradient",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Gradient [1.7.74]",
+            "Gradient",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 plasma sparkle [1.7.75]",
+            "plasma sparkle",
+            [
+              "AutoMask",
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 00000 [1.7.76]",
+            "00000",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 BlackCherryCosmos [1.7.77]",
+            "BlackCherryCosmos",
+            [
+              "Transform",
+              "AutoMask"
+            ]
+          ],
+          [
+            "FM \u00b7 CloudVortex [1.7.78]",
+            "CloudVortex",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 CollapsingArchi [1.7.79]",
+            "CollapsingArchi",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 CosmicJourney [1.7.80]",
+            "CosmicJourney",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Color Wheel [1.7.81]",
+            "Color Wheel",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 DoubleGalaxy [1.7.82]",
+            "DoubleGalaxy",
+            [
+              "AutoMask",
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 KaliCiruitsExplorer [1.7.83]",
+            "KaliCiruitsExplorer",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 MetablobStarz [1.7.84]",
+            "MetablobStarz",
+            [
+              "Transform",
+              "AutoMask"
+            ]
+          ],
+          [
+            "FM \u00b7 UltimateKaliCircuits [1.7.85]",
+            "UltimateKaliCircuits",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Abstract Field [1.7.86]",
+            "Abstract Field",
+            [
+              "Transform",
+              "AutoMask"
+            ]
+          ],
+          [
+            "FM \u00b7 Checkered [1.7.87]",
+            "Checkered",
+            [
+              "Goo",
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Spiral [1.7.88]",
+            "Spiral",
+            [
+              "Goo",
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Lines [1.7.89]",
+            "Lines",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Sine Wave [1.7.90]",
+            "Sine Wave",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Sine Wave [1.7.91]",
+            "Sine Wave",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Sine Wave [1.7.92]",
+            "Sine Wave",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Sine Wave [1.7.93]",
+            "Sine Wave",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Line Scape [1.7.94]",
+            "Line Scape",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Free-particle propagator [1.7.95]",
+            "Free-particle propagator",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Spinor = Quaternion [1.7.96]",
+            "Spinor = Quaternion",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 SquareCellStructureScan [1.7.97]",
+            "SquareCellStructureScan",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Balls and Springs [1.7.98]",
+            "Balls and Springs",
+            [
+              "Transform",
+              "AutoMask",
+              "Crop"
+            ]
+          ],
+          [
+            "FM \u00b7 Test Card [2.7.1]",
+            "Test Card",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Lines [2.7.2]",
+            "Lines",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Sine Wave [2.7.3]",
+            "Sine Wave",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Gradient Bars [2.7.4]",
+            "Gradient Bars",
+            [
+              "Transform"
+            ]
+          ]
+        ]
+      ],
+      [
+        "texture",
+        [
+          "Transform"
+        ],
+        [
+          [
+            "dither",
+            "Video Router",
+            [
+              "Transform",
+              "SPAtomDither"
+            ]
+          ],
+          [
+            "texture",
+            "SP Atom Texture",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "SP Scan",
+            "SP Scan",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 MTK_Retrovision [1.8.1]",
+            "Video Router",
+            [
+              "MTK_Retrovision",
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 MTK_Filmschool_1.2 [1.8.2]",
+            "Video Router",
+            [
+              "MTK_Filmschool_1.2",
+              "Transform",
+              "MTK_Filmschool_1.2"
+            ]
+          ],
+          [
+            "FM \u00b7 MTK_ASCII_Playground [1.8.3]",
+            "Video Router",
+            [
+              "MTK_ASCII_Playground",
+              "AutoMask",
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 MTK_Ditherx [1.8.4]",
+            "Video Router",
+            [
+              "MTK_Ditherx",
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 CRT [1.8.5]",
+            "Video Router",
+            [
+              "CRT",
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Delay RGB [1.8.6]",
+            "Video Router",
+            [
+              "DelayRGB",
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 MTK_Kaleidolax [1.8.7]",
+            "Video Router",
+            [
+              "MTK_Kaleidolax",
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Edge Detection [1.8.8]",
+            "Video Router",
+            [
+              "EdgeDetection",
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 MTK_TripleRipple [1.8.9]",
+            "Video Router",
+            [
+              "MTK_TripleRipple",
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Edge Detection [1.8.10]",
+            "Video Router",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Polkadot [1.8.11]",
+            "Video Router",
+            [
+              "Polkadot",
+              "Transform"
+            ]
+          ]
+        ]
+      ],
+      [
+        "grain",
+        [
+          "Transform"
+        ],
+        [
+          [
+            "grain",
+            "SP Atom Grain",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "SP Grain",
+            "SP Grain",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "SP State Test",
+            "SP State Test",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Static [2.8.1]",
+            "Static",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Lines [2.8.2]",
+            "Lines",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Checkered [2.8.3]",
+            "Checkered",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "FM \u00b7 Spiral [2.8.4]",
+            "Spiral",
+            [
+              "Transform"
+            ]
+          ]
+        ]
+      ]
+    ]
+  },
+  "dependencies": {
+    "version": 1,
+    "layers": {
+      "feedback": {
+        "clip": null
+      },
+      "sculpt": {
+        "clip": null
+      },
+      "field": {
+        "clip": "Heart Barberpole Field"
+      },
+      "delay": {
+        "clip": null
+      },
+      "figure": {
+        "clip": null
+      },
+      "glyph": {
+        "clip": null
+      },
+      "texture": {
+        "clip": null
+      },
+      "grain": {
+        "clip": null
+      }
+    },
+    "dimensions": [
+      1920.0,
+      1080.0
+    ],
+    "layer_order": [
+      "feedback",
+      "sculpt",
+      "field",
+      "delay",
+      "figure",
+      "glyph",
+      "texture",
+      "grain"
+    ],
+    "groups": [
+      {
+        "index": 0,
+        "members": [
+          "field",
+          "delay",
+          "figure",
+          "glyph"
+        ],
+        "effects": [
+          {
+            "name": "Transform",
+            "id": "17122039101699797593"
+          }
+        ]
+      }
+    ],
+    "composition_effects": [
+      {
+        "name": "Transform",
+        "id": "17122039101699797593"
+      },
+      {
+        "name": "MTK_STROKE_VOLT",
+        "id": "c_347f49d5-2c43-49f0-9900-38f96e58a0ab"
+      },
+      {
+        "name": "MTK_PXLMELT",
+        "id": "c_ef5c0875-f4d9-48ba-923b-3cbe204e75c8"
+      },
+      {
+        "name": "HueRotate",
+        "id": "A128"
+      },
+      {
+        "name": "ColourLoop",
+        "id": "HTCl"
+      },
+      {
+        "name": "mtk_lut_corrupt",
+        "id": "c_e6514fee-eed3-486f-a0b0-f7b5303f4b6b"
+      },
+      {
+        "name": "TwitchEffect",
+        "id": "A183"
+      },
+      {
+        "name": "MTK_STROKEDIFFUSE",
+        "id": "c_3c676de6-01ea-4198-9187-763edb37fd14"
+      },
+      {
+        "name": "Strobe",
+        "id": "MSTX"
+      }
+    ],
+    "layer_effects": {
+      "feedback": [
+        {
+          "name": "Transform",
+          "id": "17122039101699797593"
+        },
+        {
+          "name": "InvertRGB",
+          "id": "A105"
+        },
+        {
+          "name": "Blur",
+          "id": "A140"
+        },
+        {
+          "name": "Sharpen",
+          "id": "89209435418021"
+        },
+        {
+          "name": "Kaleidoscope",
+          "id": "sy02"
+        },
+        {
+          "name": "Mirror",
+          "id": "A108"
+        },
+        {
+          "name": "Mirror",
+          "id": "A108"
+        },
+        {
+          "name": "Mirror",
+          "id": "A108"
+        },
+        {
+          "name": "Mirror",
+          "id": "A108"
+        }
+      ],
+      "sculpt": [
+        {
+          "name": "Transform",
+          "id": "17122039101699797593"
+        },
+        {
+          "name": "InvertRGB",
+          "id": "A105"
+        },
+        {
+          "name": "HueRotate",
+          "id": "A128"
+        },
+        {
+          "name": "InvertRGB",
+          "id": "A105"
+        },
+        {
+          "name": "DelayRGB",
+          "id": "A152"
+        },
+        {
+          "name": "AutoMask",
+          "id": "A120"
+        }
+      ],
+      "field": [
+        {
+          "name": "Transform",
+          "id": "17122039101699797593"
+        },
+        {
+          "name": "Twisted",
+          "id": "A122"
+        },
+        {
+          "name": "Twisted",
+          "id": "A122"
+        },
+        {
+          "name": "Suckr",
+          "id": "A126"
+        },
+        {
+          "name": "FishEye",
+          "id": "A123"
+        }
+      ],
+      "delay": [
+        {
+          "name": "Transform",
+          "id": "17122039101699797593"
+        },
+        {
+          "name": "InvertRGB",
+          "id": "A105"
+        },
+        {
+          "name": "AutoMask",
+          "id": "A120"
+        },
+        {
+          "name": "ColourLoop",
+          "id": "HTCl"
+        },
+        {
+          "name": "DelayRGB",
+          "id": "A152"
+        }
+      ],
+      "figure": [
+        {
+          "name": "Transform",
+          "id": "17122039101699797593"
+        },
+        {
+          "name": "Transform",
+          "id": "17122039101699797593"
+        },
+        {
+          "name": "TwitchEffect",
+          "id": "A183"
+        },
+        {
+          "name": "mtk_lut_corrupt",
+          "id": "c_e6514fee-eed3-486f-a0b0-f7b5303f4b6b"
+        },
+        {
+          "name": "RadialCloner",
+          "id": "15777305184926876320"
+        },
+        {
+          "name": "LinearCloner",
+          "id": "9611534302831352414"
+        },
+        {
+          "name": "Iterate",
+          "id": "sy13"
+        },
+        {
+          "name": "Mirror",
+          "id": "A108"
+        },
+        {
+          "name": "Mirror",
+          "id": "A108"
+        },
+        {
+          "name": "Mirror",
+          "id": "A108"
+        },
+        {
+          "name": "MTK_Gradient_Shadow",
+          "id": "c_bbd05cc8-7e8c-4f9d-9057-dfe86a890387"
+        },
+        {
+          "name": "Displace",
+          "id": "A131"
+        },
+        {
+          "name": "Distortion",
+          "id": "A129"
+        },
+        {
+          "name": "ASCII",
+          "id": "EYAS"
+        },
+        {
+          "name": "InfiniteZoom",
+          "id": "P205"
+        },
+        {
+          "name": "LoRezEffect",
+          "id": "A142"
+        }
+      ],
+      "glyph": [
+        {
+          "name": "Transform",
+          "id": "17122039101699797593"
+        },
+        {
+          "name": "MTK_Gradient_Shadow",
+          "id": "c_bbd05cc8-7e8c-4f9d-9057-dfe86a890387"
+        },
+        {
+          "name": "Goo",
+          "id": "sy06"
+        }
+      ],
+      "texture": [
+        {
+          "name": "Transform",
+          "id": "17122039101699797593"
+        }
+      ],
+      "grain": [
+        {
+          "name": "Transform",
+          "id": "17122039101699797593"
+        }
+      ]
+    },
+    "instruments": [
+      {
+        "layer": "field",
+        "clip": "Heart Barberpole Field",
+        "dimensions": [
+          1920.0,
+          1080.0
+        ],
+        "effects": [
+          {
+            "name": "Transform",
+            "id": "17122039101699797593"
+          }
+        ],
+        "source_type": "GeneratorVideoSource",
+        "source_id": "2f69d0bb-e917-499f-b13b-9233e90bb1ce",
+        "source_description": "Heart Barberpole Field"
+      }
+    ]
+  }
+}

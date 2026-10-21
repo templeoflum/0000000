@@ -1,0 +1,92 @@
+{
+  "overall": {
+    "seconds_sampled": 1201,
+    "median_acquisition_fps": 59.999399191196915,
+    "minimum_one_second_fps": 38.99988377128908,
+    "samples_under_55_fps": 172,
+    "p95_interval_ms": 18.185019493103027,
+    "intervals_over_100ms": 0,
+    "not_visible": 0,
+    "stale_telemetry": 0,
+    "dimensions": [
+      [
+        1920,
+        1080
+      ]
+    ],
+    "max_delivery_age_ms": 31.05,
+    "max_pending_targets": 52
+  },
+  "outside_documented_recalls_plus_two_seconds": {
+    "seconds_sampled": 1096,
+    "median_acquisition_fps": 59.99946356299314,
+    "minimum_one_second_fps": 38.99988377128908,
+    "samples_under_55_fps": 161,
+    "p95_interval_ms": 18.2039737701416,
+    "intervals_over_100ms": 0,
+    "not_visible": 0,
+    "stale_telemetry": 0,
+    "dimensions": [
+      [
+        1920,
+        1080
+      ]
+    ],
+    "max_delivery_age_ms": 31.05,
+    "max_pending_targets": 52
+  },
+  "recall_windows": [
+    [
+      1788826716.1872509,
+      1788826723.488791
+    ],
+    [
+      1788826743.541162,
+      1788826750.7462232
+    ],
+    [
+      1788826770.848521,
+      1788826778.034024
+    ],
+    [
+      1788826798.154619,
+      1788826805.324359
+    ],
+    [
+      1788826825.402817,
+      1788826832.5660958
+    ],
+    [
+      1788826852.639529,
+      1788826859.303411
+    ],
+    [
+      1788826879.370657,
+      1788826886.784272
+    ],
+    [
+      1788826906.8427699,
+      1788826914.041989
+    ],
+    [
+      1788827080.6299388,
+      1788827088.0068102
+    ],
+    [
+      1788827094.0513139,
+      1788827101.39409
+    ],
+    [
+      1788827380.977831,
+      1788827414.73756
+    ]
+  ],
+  "exercise_results": [
+    {
+      "time": 1788827094.051064,
+      "result": "passed",
+      "note": "Heart command path exercised; not a trackpad/focus GUI acceptance claim"
+    }
+  ],
+  "method": "Syphon acquisition, not presentation. Recall exclusion is disclosed; overall results retained. This is a scripted action-path exercise, not GUI/trackpad/focus acceptance."
+}

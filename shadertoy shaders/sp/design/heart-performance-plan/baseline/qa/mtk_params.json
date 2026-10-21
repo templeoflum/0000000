@@ -1,0 +1,226 @@
+{
+ "MTK_Ditherx": {
+  "Opacity": {
+   "type": "ParamRange",
+   "value": 1.0,
+   "min": 0.0,
+   "max": 1.0,
+   "options": null
+  },
+  "DOWNSAMPLE": {
+   "type": "ParamChoice",
+   "value": "OFF",
+   "min": null,
+   "max": null,
+   "options": [
+    "OFF",
+    "ON"
+   ]
+  },
+  "MODE": {
+   "type": "ParamChoice",
+   "value": "Luminance",
+   "min": null,
+   "max": null,
+   "options": [
+    "Luminance",
+    "Per-Channel RGB"
+   ]
+  },
+  "PATTERN": {
+   "type": "ParamChoice",
+   "value": "Bayer 4x4",
+   "min": null,
+   "max": null,
+   "options": [
+    "Bayer 2x2",
+    "Bayer 4x4",
+    "Halftone Dots",
+    "Halftone Lines",
+    "Checker",
+    "Noise Ordered",
+    "Bayer 8x8",
+    "Hex Dots",
+    "Crosshatch",
+    "Diamond",
+    "Spiral Rings",
+    "ValueNoise Ordered"
+   ]
+  },
+  "SIZE MULTIPLY": {
+   "type": "ParamRange",
+   "value": 1.0,
+   "min": 1.0,
+   "max": 20.0,
+   "options": null
+  },
+  "PATTERN_SIZE": {
+   "type": "ParamRange",
+   "value": 2.0,
+   "min": 2.0,
+   "max": 10.0,
+   "options": null
+  },
+  "QUANTIZE": {
+   "type": "ParamRange",
+   "value": 4.699982166290283,
+   "min": 2.0,
+   "max": 16.0,
+   "options": null
+  },
+  "CONTRAST": {
+   "type": "ParamRange",
+   "value": 1.9375,
+   "min": 0.25,
+   "max": 4.0,
+   "options": null
+  },
+  "BIAS": {
+   "type": "ParamRange",
+   "value": 0.05714400112628937,
+   "min": -0.5,
+   "max": 0.5,
+   "options": null
+  },
+  "RGB": {
+   "type": "ParamChoice",
+   "value": "TINTED",
+   "min": null,
+   "max": null,
+   "options": [
+    "SAMPLED",
+    "TINTED"
+   ]
+  },
+  "TINT LOW": {
+   "type": "ParamColor",
+   "value": "#000000ff",
+   "min": null,
+   "max": null,
+   "options": null
+  },
+  "TINT HIGH": {
+   "type": "ParamColor",
+   "value": "#00ff00ff",
+   "min": null,
+   "max": null,
+   "options": null
+  }
+ },
+ "MTK_Retrovision": {
+  "Opacity": {
+   "type": "ParamRange",
+   "value": 1.0,
+   "min": 0.0,
+   "max": 1.0,
+   "options": null
+  },
+  "Engine": {
+   "type": "ParamChoice",
+   "value": "SNES (subset)",
+   "min": null,
+   "max": null,
+   "options": [
+    "NES",
+    "Game Boy DMG (mono green)",
+    "Game Boy Pocket (mono gray)",
+    "Game Boy Light (mono warm)",
+    "Virtual Boy (mono red)",
+    "Game Boy Color (classic 16)",
+    "C64",
+    "Atari 2600 ",
+    "ZX Spectrum",
+    "PICO-8",
+    "EGA 16",
+    "Sega Master System ",
+    "SNES (subset)",
+    "Amiga OCS",
+    "Apple II (6-color)",
+    "Apple IIgs ",
+    "Game Gear",
+    "MSX (16)",
+    "Amstrad CPC ",
+    "TI-99/4A (16)",
+    "PC-98 ",
+    "IBM PC CGA",
+    "IBM PC VGA (16)",
+    "Tandy 1000 / PCjr (TGA 16)",
+    "Hercules (Amber mono)",
+    "Macintosh 1-bit (B/W)",
+    "NEC PC-8801 (PC-88 8)",
+    "Sharp X68000",
+    "Atari ST ",
+    "BBC Micro (Mode 2, 8)",
+    "PC Engine / TurboGrafx-16 ",
+    "Sega Mega Drive / Genesis "
+   ]
+  },
+  "RESOLUTION": {
+   "type": "ParamChoice",
+   "value": "AUTHENTIC",
+   "min": null,
+   "max": null,
+   "options": [
+    "AUTHENTIC",
+    "X2"
+   ]
+  },
+  "TINT": {
+   "type": "ParamChoice",
+   "value": "None",
+   "min": null,
+   "max": null,
+   "options": [
+    "None",
+    "Amber",
+    "Green",
+    "Blue",
+    "Sepia",
+    "Warm LCD",
+    "Cool LCD"
+   ]
+  },
+  "DITHER SIZE": {
+   "type": "ParamRange",
+   "value": 4.139790058135986,
+   "min": 1.0,
+   "max": 8.0,
+   "options": null
+  },
+  "LIFT/CRUSH": {
+   "type": "ParamRange",
+   "value": -0.09063100069761276,
+   "min": -1.0,
+   "max": 1.0,
+   "options": null
+  },
+  "SCANLINE": {
+   "type": "ParamRange",
+   "value": 0.3010750114917755,
+   "min": 0.0,
+   "max": 0.5,
+   "options": null
+  },
+  "SCAN_SPACING": {
+   "type": "ParamRange",
+   "value": 5.476963996887207,
+   "min": 0.5,
+   "max": 8.0,
+   "options": null
+  },
+  "TEXTURE": {
+   "type": "ParamRange",
+   "value": 0.3010750114917755,
+   "min": 0.0,
+   "max": 1.0,
+   "options": null
+  },
+  "TEX_SIZE": {
+   "type": "ParamRange",
+   "value": 0.10000000149011612,
+   "min": 0.10000000149011612,
+   "max": 5.0,
+   "options": null
+  }
+ }
+}

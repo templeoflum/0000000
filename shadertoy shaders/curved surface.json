@@ -1,0 +1,29 @@
+{
+  "id": "3XSfzK",
+  "name": "curved surface",
+  "username": "4eckme",
+  "description": "This time I used quaternions instead of rotation matrices.",
+  "tags": [
+    "rotation",
+    "surface",
+    "quaternions"
+  ],
+  "date": "1762669564",
+  "viewed": 68,
+  "likes": 6,
+  "published": 3,
+  "renderpass": [
+    {
+      "type": "image",
+      "name": "Image",
+      "inputs": [],
+      "outputs": [
+        {
+          "id": "4dfGRr",
+          "channel": 0
+        }
+      ],
+      "code": "#define pi 3.14159265359\nvec4 quatMultiply(vec4 u, vec4 v) {\n    return vec4(\n        (u.x*v.x-u.y*v.y-u.z*v.z-u.w*v.w), // 1\n        (u.x*v.y+u.y*v.x-u.z*v.w+u.w*v.z), // i\n        (u.x*v.z+u.y*v.w+u.z*v.x-u.w*v.y), // j\n        (u.x*v.w-u.y*v.z+u.z*v.y+u.w*v.x)  // k\n    );\n}\nvec4 quatConjugate(vec4 q) {\n    return vec4(-q.x, -q.y, -q.z, q.w);\n}\nvec4 quatFromAxisAngle(vec3 axis, float angle) {\n    float halfAngle = angle * 0.5;\n    float sinHalf = sin(halfAngle);\n    return vec4(axis * sinHalf, cos(halfAngle));\n}\nvec3 quatRotate(vec4 q, vec3 v) {\n    vec4 p = vec4(v, 0.0);\n    vec4 q_conj = quatConjugate(q);\n    vec4 rotated = quatMultiply(quatMultiply(q, p), q_conj);\n    return rotated.xyz;\n}\n\n\nfloat SDF(vec3 p) {\n\n    // Rotation\n    vec2 mouse = iMouse.xy/iResolution.xy+0.5;\n    mouse.y=-mouse.y;\n    if (mouse.y<0.0)mouse.x=-mouse.x;\n    if (mouse.x<0.0)mouse.y=-mouse.y;\n    float rx = -(mouse.y - 0.5) * 3.14159;\n    float ry = (mouse.x - 0.5) * 6.28318;\n    if (length(iMouse.xy)<50.0) { rx=iTime/4.0+pi/5.0; ry=rx; }\n    vec4 RX = quatFromAxisAngle(vec3(1, 0, 0), rx);\n    vec4 RY = quatFromAxisAngle(vec3(0, 1, 0), ry);\n    vec4 RXY = quatMultiply(RX, RY);\n    p = quatRotate(RXY, p);\n    \n    // Curvature\n    vec4 rotX = quatFromAxisAngle(vec3(1, 0, 0), 2.0*p.x+iTime);\n    vec4 rotY = quatFromAxisAngle(vec3(0, 1, 0), 2.0*p.y-iTime);\n    vec4 rotZ = quatFromAxisAngle(vec3(0, 0, 1), 2.0*p.z+iTime);\n    vec4 rotXY = quatMultiply(rotX, rotY);\n    vec4 totalRot = quatMultiply(rotXY, rotZ);\n    p = quatRotate(totalRot, p);\n    \n    return max(abs(p.y), length(p.xz)-4.0); // Disk in plane y=0\n}\n\nvec3 color(vec3 p) {\n    const float eps = 0.001;\n    vec3 normal = normalize(vec3(\n        SDF(p + vec3(eps, 0, 0)) - SDF(p - vec3(eps, 0, 0)),\n        SDF(p + vec3(0, eps, 0)) - SDF(p - vec3(0, eps, 0)),\n        SDF(p + vec3(0, 0, eps)) - SDF(p - vec3(0, 0, eps))\n    )); return 1.0-(normal*0.5+0.5);\n}\n\nvoid mainImage(out vec4 fragColor, in vec2 fragCoord) {\n    float time = iTime;\n    vec2 uv = (fragCoord * 2.0 - iResolution.xy) / min(iResolution.x, iResolution.y);\n    \n    vec3 ro = vec3(0, 0, -16.0);\n    vec3 rd = normalize(vec3(uv, 3));\n\n    float t = 0.0; vec3 p;\n    for(int i = 0; i < 256; i++) {\n        p = ro + rd * t;\n        float d = SDF(p)/15.0;\n        if(d < 0.0015) break;\n        if(t > 20.0) break;\n        t += d;\n    }\n    \n    if(t < 20.0) fragColor = vec4(color(p), 1.0);\n    else fragColor = vec4(0,0,0,1.0);\n}"
+    }
+  ]
+}

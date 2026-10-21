@@ -1,0 +1,620 @@
+# Portal video search
+
+Found 435 distinct video references; searched 2064 local video files.
+
+No video files moved or composition paths changed. Folder matches preserve at least two enclosing folder names plus filename. Other matches require review. Only Macintosh HD was mounted.
+
+| Result | Count |
+|---|---:|
+| not_found | 140 |
+| different_extension_candidate | 3 |
+| folder_match | 290 |
+| parent_folder_candidate | 1 |
+| filename_only_candidate | 1 |
+
+## Original library folders
+
+| Folder | References | Folder matches | Other candidates | Not found |
+|---|---:|---:|---:|---:|
+| blender | 4 | 0 | 3 | 1 |
+| circuit bent | 57 | 57 | 0 | 0 |
+| feedback loops | 29 | 29 | 0 | 0 |
+| glk visuals v4 final.mov | 1 | 0 | 0 | 1 |
+| hypno recordings | 82 | 0 | 0 | 82 |
+| visuals | 205 | 204 | 1 | 0 |
+| youtube rips | 57 | 0 | 1 | 56 |
+
+## Located files and candidates
+
+- **cube05 02 ae 01.mov** — different_extension_candidate; original: `/C:/Users/User/Videos/blender/cube05 02 AE 01.mov`
+  - `/Users/donovan/Desktop/blender/cube05/cube05 02 AE 01.mp4`
+- **cube06 03 ae 01.mov** — different_extension_candidate; original: `/C:/Users/User/Videos/blender/cube06 03 AE 01.mov`
+  - `/Users/donovan/Desktop/blender/cube06/cube06 03 AE 01.mp4`
+- **cube07 01 ae 01.mov** — different_extension_candidate; original: `/C:/Users/User/Videos/blender/cube07 01 AE 01.mov`
+  - `/Users/donovan/Desktop/blender/cube07/cube07 01 AE 01.mp4`
+- **01.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/aeon flux/dxv/01.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/aeon flux/dxv/01.mov`
+- **02.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/aeon flux/dxv/02.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/aeon flux/dxv/02.mov`
+- **03.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/aeon flux/dxv/03.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/aeon flux/dxv/03.mov`
+- **04.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/aeon flux/dxv/04.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/aeon flux/dxv/04.mov`
+- **05.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/aeon flux/dxv/05.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/aeon flux/dxv/05.mov`
+- **06.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/aeon flux/dxv/06.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/aeon flux/dxv/06.mov`
+- **07.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/aeon flux/dxv/07.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/aeon flux/dxv/07.mov`
+- **08.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/aeon flux/dxv/08.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/aeon flux/dxv/08.mov`
+- **09.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/aeon flux/dxv/09.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/aeon flux/dxv/09.mov`
+- **10.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/aeon flux/dxv/10.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/aeon flux/dxv/10.mov`
+- **11.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/aeon flux/dxv/11.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/aeon flux/dxv/11.mov`
+- **12.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/aeon flux/dxv/12.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/aeon flux/dxv/12.mov`
+- **13.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/aeon flux/dxv/13.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/aeon flux/dxv/13.mov`
+- **14.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/aeon flux/dxv/14.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/aeon flux/dxv/14.mov`
+- **15.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/aeon flux/dxv/15.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/aeon flux/dxv/15.mov`
+- **16.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/aeon flux/dxv/16.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/aeon flux/dxv/16.mov`
+- **17.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/aeon flux/dxv/17.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/aeon flux/dxv/17.mov`
+- **18.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/aeon flux/dxv/18.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/aeon flux/dxv/18.mov`
+- **19.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/aeon flux/dxv/19.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/aeon flux/dxv/19.mov`
+- **20.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/aeon flux/dxv/20.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/aeon flux/dxv/20.mov`
+- **21.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/aeon flux/dxv/21.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/aeon flux/dxv/21.mov`
+- **button 2.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/aeon flux/dxv/button 2.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/aeon flux/dxv/button 2.mov`
+- **button.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/aeon flux/dxv/button.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/aeon flux/dxv/button.mov`
+- **eye.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/aeon flux/dxv/eye.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/aeon flux/dxv/eye.mov`
+- **eyes.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/aeon flux/dxv/eyes.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/aeon flux/dxv/eyes.mov`
+- **lazer dance 2.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/aeon flux/dxv/lazer dance 2.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/aeon flux/dxv/lazer dance 2.mov`
+- **lazer dance.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/aeon flux/dxv/lazer dance.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/aeon flux/dxv/lazer dance.mov`
+- **tounge 01.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/aeon flux/dxv/tounge 01.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/aeon flux/dxv/tounge 01.mov`
+- **tv 2.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/aeon flux/dxv/TV 2.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/aeon flux/dxv/TV 2.mov`
+- **tv.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/aeon flux/dxv/TV.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/aeon flux/dxv/TV.mov`
+- **utopia.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/aeon flux/dxv/utopia.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/aeon flux/dxv/utopia.mov`
+- **dsc_0004.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/dxv/DSC_0004.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/dxv/DSC_0004.mov`
+- **dsc_0095.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/dxv/DSC_0095.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/dxv/DSC_0095.mov`
+- **dsc_0209 adjusted.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/dxv/DSC_0209 adjusted.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/dxv/DSC_0209 adjusted.mov`
+- **dsc_0223.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/dxv/DSC_0223.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/dxv/DSC_0223.mov`
+- **enter the void 01.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/dxv/Enter The Void 01.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/dxv/Enter The Void 01.mov`
+- **enter the void 02.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/dxv/Enter The Void 02.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/dxv/Enter The Void 02.mov`
+- **enter the void 03.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/dxv/Enter The Void 03.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/dxv/Enter The Void 03.mov`
+- **enter the void 04.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/dxv/Enter The Void 04.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/dxv/Enter The Void 04.mov`
+- **human traffic.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/dxv/Human Traffic.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/dxv/Human Traffic.mov`
+- **midsommar 01.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/dxv/Midsommar 01.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/dxv/Midsommar 01.mov`
+- **test pattern.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/dxv/test pattern.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/dxv/test pattern.mov`
+- **trainspotting.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/dxv/Trainspotting.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/dxv/Trainspotting.mov`
+- **zima blue 01.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/dxv/Zima Blue 01.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/dxv/Zima Blue 01.mov`
+- **zima blue 02.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/dxv/Zima Blue 02.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/dxv/Zima Blue 02.mov`
+- **zima blue 03.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/dxv/Zima Blue 03.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/dxv/Zima Blue 03.mov`
+- **zima blue 04.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/dxv/Zima Blue 04.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/dxv/Zima Blue 04.mov`
+- **01.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/flash gordon/dxv/01.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/flash gordon/dxv/01.mov`
+- **02.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/flash gordon/dxv/02.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/flash gordon/dxv/02.mov`
+- **03.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/flash gordon/dxv/03.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/flash gordon/dxv/03.mov`
+- **04.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/flash gordon/dxv/04.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/flash gordon/dxv/04.mov`
+- **05.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/flash gordon/dxv/05.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/flash gordon/dxv/05.mov`
+- **06.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/flash gordon/dxv/06.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/flash gordon/dxv/06.mov`
+- **07.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/flash gordon/dxv/07.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/flash gordon/dxv/07.mov`
+- **08.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/flash gordon/dxv/08.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/flash gordon/dxv/08.mov`
+- **09.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/flash gordon/dxv/09.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/flash gordon/dxv/09.mov`
+- **the end.mov** — folder_match; original: `/C:/Users/User/Videos/Circuit Bent/flash gordon/dxv/the end.mov`
+  - `/Users/donovan/work/Visuals/Circuit Bent/flash gordon/dxv/the end.mov`
+- **001.mov** — folder_match; original: `/C:/Users/User/Videos/feedback loops/dxv/001.mov`
+  - `/Users/donovan/work/Visuals/feedback loops/dxv/001.mov`
+- **002.mov** — folder_match; original: `/C:/Users/User/Videos/feedback loops/dxv/002.mov`
+  - `/Users/donovan/work/Visuals/feedback loops/dxv/002.mov`
+- **003.mov** — folder_match; original: `/C:/Users/User/Videos/feedback loops/dxv/003.mov`
+  - `/Users/donovan/work/Visuals/feedback loops/dxv/003.mov`
+- **004.mov** — folder_match; original: `/C:/Users/User/Videos/feedback loops/dxv/004.mov`
+  - `/Users/donovan/work/Visuals/feedback loops/dxv/004.mov`
+- **005.mov** — folder_match; original: `/C:/Users/User/Videos/feedback loops/dxv/005.mov`
+  - `/Users/donovan/work/Visuals/feedback loops/dxv/005.mov`
+- **006.mov** — folder_match; original: `/C:/Users/User/Videos/feedback loops/dxv/006.mov`
+  - `/Users/donovan/work/Visuals/feedback loops/dxv/006.mov`
+- **007.mov** — folder_match; original: `/C:/Users/User/Videos/feedback loops/dxv/007.mov`
+  - `/Users/donovan/work/Visuals/feedback loops/dxv/007.mov`
+- **008.mov** — folder_match; original: `/C:/Users/User/Videos/feedback loops/dxv/008.mov`
+  - `/Users/donovan/work/Visuals/feedback loops/dxv/008.mov`
+- **009.mov** — folder_match; original: `/C:/Users/User/Videos/feedback loops/dxv/009.mov`
+  - `/Users/donovan/work/Visuals/feedback loops/dxv/009.mov`
+- **010.mov** — folder_match; original: `/C:/Users/User/Videos/feedback loops/dxv/010.mov`
+  - `/Users/donovan/work/Visuals/feedback loops/dxv/010.mov`
+- **011.mov** — folder_match; original: `/C:/Users/User/Videos/feedback loops/dxv/011.mov`
+  - `/Users/donovan/work/Visuals/feedback loops/dxv/011.mov`
+- **012.mov** — folder_match; original: `/C:/Users/User/Videos/feedback loops/dxv/012.mov`
+  - `/Users/donovan/work/Visuals/feedback loops/dxv/012.mov`
+- **013.mov** — folder_match; original: `/C:/Users/User/Videos/feedback loops/dxv/013.mov`
+  - `/Users/donovan/work/Visuals/feedback loops/dxv/013.mov`
+- **014.mov** — folder_match; original: `/C:/Users/User/Videos/feedback loops/dxv/014.mov`
+  - `/Users/donovan/work/Visuals/feedback loops/dxv/014.mov`
+- **015.mov** — folder_match; original: `/C:/Users/User/Videos/feedback loops/dxv/015.mov`
+  - `/Users/donovan/work/Visuals/feedback loops/dxv/015.mov`
+- **016.mov** — folder_match; original: `/C:/Users/User/Videos/feedback loops/dxv/016.mov`
+  - `/Users/donovan/work/Visuals/feedback loops/dxv/016.mov`
+- **017.mov** — folder_match; original: `/C:/Users/User/Videos/feedback loops/dxv/017.mov`
+  - `/Users/donovan/work/Visuals/feedback loops/dxv/017.mov`
+- **018.mov** — folder_match; original: `/C:/Users/User/Videos/feedback loops/dxv/018.mov`
+  - `/Users/donovan/work/Visuals/feedback loops/dxv/018.mov`
+- **019.mov** — folder_match; original: `/C:/Users/User/Videos/feedback loops/dxv/019.mov`
+  - `/Users/donovan/work/Visuals/feedback loops/dxv/019.mov`
+- **020.mov** — folder_match; original: `/C:/Users/User/Videos/feedback loops/dxv/020.mov`
+  - `/Users/donovan/work/Visuals/feedback loops/dxv/020.mov`
+- **021.mov** — folder_match; original: `/C:/Users/User/Videos/feedback loops/dxv/021.mov`
+  - `/Users/donovan/work/Visuals/feedback loops/dxv/021.mov`
+- **022.mov** — folder_match; original: `/C:/Users/User/Videos/feedback loops/dxv/022.mov`
+  - `/Users/donovan/work/Visuals/feedback loops/dxv/022.mov`
+- **023.mov** — folder_match; original: `/C:/Users/User/Videos/feedback loops/dxv/023.mov`
+  - `/Users/donovan/work/Visuals/feedback loops/dxv/023.mov`
+- **024.mov** — folder_match; original: `/C:/Users/User/Videos/feedback loops/dxv/024.mov`
+  - `/Users/donovan/work/Visuals/feedback loops/dxv/024.mov`
+- **025.mov** — folder_match; original: `/C:/Users/User/Videos/feedback loops/dxv/025.mov`
+  - `/Users/donovan/work/Visuals/feedback loops/dxv/025.mov`
+- **026.mov** — folder_match; original: `/C:/Users/User/Videos/feedback loops/dxv/026.mov`
+  - `/Users/donovan/work/Visuals/feedback loops/dxv/026.mov`
+- **027.mov** — folder_match; original: `/C:/Users/User/Videos/feedback loops/dxv/027.mov`
+  - `/Users/donovan/work/Visuals/feedback loops/dxv/027.mov`
+- **028.mov** — folder_match; original: `/C:/Users/User/Videos/feedback loops/dxv/028.mov`
+  - `/Users/donovan/work/Visuals/feedback loops/dxv/028.mov`
+- **029.mov** — folder_match; original: `/C:/Users/User/Videos/feedback loops/dxv/029.mov`
+  - `/Users/donovan/work/Visuals/feedback loops/dxv/029.mov`
+- **cyberscape (1997) 60fps dvd rip (new version).ia.mov** — parent_folder_candidate; original: `/C:/Users/User/Videos/visuals/Cyberscape (1997) 60fps DVD Rip (New Version).ia.mov`
+  - `/Users/donovan/work/Visuals/Cyberscape (1997) 60fps DVD Rip (New Version).ia.mov`
+- **20250514_1342_mystical winged being_loop_01jv81n9mkegr9hhv7r6rg4bzr.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/biblically accurate/DXV/20250514_1342_Mystical Winged Being_loop_01jv81n9mkegr9hhv7r6rg4bzr.mov`
+  - `/Users/donovan/work/Visuals/sora/biblically accurate/DXV/20250514_1342_Mystical Winged Being_loop_01jv81n9mkegr9hhv7r6rg4bzr.mov`
+- **20250515_1132_charming forest pathway_loop_01jvacm8cyefxsx5y2jx8c3pfb.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/biblically accurate/DXV/20250515_1132_Charming Forest Pathway_loop_01jvacm8cyefxsx5y2jx8c3pfb.mov`
+  - `/Users/donovan/work/Visuals/sora/biblically accurate/DXV/20250515_1132_Charming Forest Pathway_loop_01jvacm8cyefxsx5y2jx8c3pfb.mov`
+- **20250515_1135_angelic radiance_loop_01jvactexceg191sm0cmfc976z.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/biblically accurate/DXV/20250515_1135_Angelic Radiance_loop_01jvactexceg191sm0cmfc976z.mov`
+  - `/Users/donovan/work/Visuals/sora/biblically accurate/DXV/20250515_1135_Angelic Radiance_loop_01jvactexceg191sm0cmfc976z.mov`
+- **20250515_1137_celestial ember trail_loop_01jvacxx3dfc68g8p0t6gh847y.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/biblically accurate/DXV/20250515_1137_Celestial Ember Trail_loop_01jvacxx3dfc68g8p0t6gh847y.mov`
+  - `/Users/donovan/work/Visuals/sora/biblically accurate/DXV/20250515_1137_Celestial Ember Trail_loop_01jvacxx3dfc68g8p0t6gh847y.mov`
+- **20250515_1138_seraphic light radiance_loop_01jvacz2xwee0s41xtse09kx6x.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/biblically accurate/DXV/20250515_1138_Seraphic Light Radiance_loop_01jvacz2xwee0s41xtse09kx6x.mov`
+  - `/Users/donovan/work/Visuals/sora/biblically accurate/DXV/20250515_1138_Seraphic Light Radiance_loop_01jvacz2xwee0s41xtse09kx6x.mov`
+- **20250515_1138_seraphic radiance_loop_01jvaczf0neyks7qyh7xek781h.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/biblically accurate/DXV/20250515_1138_Seraphic Radiance_loop_01jvaczf0neyks7qyh7xek781h.mov`
+  - `/Users/donovan/work/Visuals/sora/biblically accurate/DXV/20250515_1138_Seraphic Radiance_loop_01jvaczf0neyks7qyh7xek781h.mov`
+- **20250515_1140_ophanim's celestial trail_loop_01jvad3jeafwr8y5bt2bhj60mn.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/biblically accurate/DXV/20250515_1140_Ophanim's Celestial Trail_loop_01jvad3jeafwr8y5bt2bhj60mn.mov`
+  - `/Users/donovan/work/Visuals/sora/biblically accurate/DXV/20250515_1140_Ophanim's Celestial Trail_loop_01jvad3jeafwr8y5bt2bhj60mn.mov`
+- **20250515_1143_shimmering portal shadows_loop_01jvad8y6dfk3sk8wnd2jafzc0.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/biblically accurate/DXV/20250515_1143_Shimmering Portal Shadows_loop_01jvad8y6dfk3sk8wnd2jafzc0.mov`
+  - `/Users/donovan/work/Visuals/sora/biblically accurate/DXV/20250515_1143_Shimmering Portal Shadows_loop_01jvad8y6dfk3sk8wnd2jafzc0.mov`
+- **20250513_1511_glowing barcode rhythm_loop_01jv5mcafvfmbrqm1g51v8fm58.mp4** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/20250513_1511_Glowing Barcode Rhythm_loop_01jv5mcafvfmbrqm1g51v8fm58.mp4`
+  - `/Users/donovan/work/Visuals/sora/crisp/20250513_1511_Glowing Barcode Rhythm_loop_01jv5mcafvfmbrqm1g51v8fm58.mp4`
+- **20250513_1512_glowing barcode connection_loop_01jv5mddv8fe5r3tkw3zx5fx0e.mp4** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/20250513_1512_Glowing Barcode Connection_loop_01jv5mddv8fe5r3tkw3zx5fx0e.mp4`
+  - `/Users/donovan/work/Visuals/sora/crisp/20250513_1512_Glowing Barcode Connection_loop_01jv5mddv8fe5r3tkw3zx5fx0e.mp4`
+- **20250513_1521_mystical forest chant_loop_01jv5my5s5f8jbps3gcfe01e22.mp4** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/20250513_1521_Mystical Forest Chant_loop_01jv5my5s5f8jbps3gcfe01e22.mp4`
+  - `/Users/donovan/work/Visuals/sora/crisp/20250513_1521_Mystical Forest Chant_loop_01jv5my5s5f8jbps3gcfe01e22.mp4`
+- **20250513_1523_glowing qr codes_loop_01jv5n2bqxe0ktkcvefnq24tsz.mp4** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/20250513_1523_Glowing QR Codes_loop_01jv5n2bqxe0ktkcvefnq24tsz.mp4`
+  - `/Users/donovan/work/Visuals/sora/crisp/20250513_1523_Glowing QR Codes_loop_01jv5n2bqxe0ktkcvefnq24tsz.mp4`
+- **20250513_1523_humanoids' glowing qr codes_loop_01jv5n1ynhftwv4yv1gj1y0q2g.mp4** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/20250513_1523_Humanoids' Glowing QR Codes_loop_01jv5n1ynhftwv4yv1gj1y0q2g.mp4`
+  - `/Users/donovan/work/Visuals/sora/crisp/20250513_1523_Humanoids' Glowing QR Codes_loop_01jv5n1ynhftwv4yv1gj1y0q2g.mp4`
+- **20250513_1524_humanoids pulsing glow_loop.mp4** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/20250513_1524_Humanoids Pulsing Glow_loop.mp4`
+  - `/Users/donovan/work/Visuals/sora/crisp/20250513_1524_Humanoids Pulsing Glow_loop.mp4`
+- **20250513_1524_humanoids pulsing glow_loop_01jv5n36ereb59n82t87yseabk.mp4** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/20250513_1524_Humanoids Pulsing Glow_loop_01jv5n36ereb59n82t87yseabk.mp4`
+  - `/Users/donovan/work/Visuals/sora/crisp/20250513_1524_Humanoids Pulsing Glow_loop_01jv5n36ereb59n82t87yseabk.mp4`
+- **20241210_0148_loop video_loop_01jeqrnmdtesss07jpzwyv8j1z.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20241210_0148_Loop Video_loop_01jeqrnmdtesss07jpzwyv8j1z.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20241210_0148_Loop Video_loop_01jeqrnmdtesss07jpzwyv8j1z.mov`
+- **20241210_2010_blend video_blend_01jesqpavefpj8d0hz2ybb74ts.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20241210_2010_Blend Video_blend_01jesqpavefpj8d0hz2ybb74ts.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20241210_2010_Blend Video_blend_01jesqpavefpj8d0hz2ybb74ts.mov`
+- **20241214_1437_loop video_loop_01jf3e8965et8tv63pckb86z6t.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20241214_1437_Loop Video_loop_01jf3e8965et8tv63pckb86z6t.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20241214_1437_Loop Video_loop_01jf3e8965et8tv63pckb86z6t.mov`
+- **20241214_1441_loop video_loop_01jf3efy2webt85e8mwzmvfe31.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20241214_1441_Loop Video_loop_01jf3efy2webt85e8mwzmvfe31.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20241214_1441_Loop Video_loop_01jf3efy2webt85e8mwzmvfe31.mov`
+- **20241214_1445_loop video_loop_01jf3ep88jezgtfx0n36j4203s.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20241214_1445_Loop Video_loop_01jf3ep88jezgtfx0n36j4203s.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20241214_1445_Loop Video_loop_01jf3ep88jezgtfx0n36j4203s.mov`
+- **20241214_1500_loop video_loop_01jf3fhg87f86s3f51ghka5fsp.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20241214_1500_Loop Video_loop_01jf3fhg87f86s3f51ghka5fsp.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20241214_1500_Loop Video_loop_01jf3fhg87f86s3f51ghka5fsp.mov`
+- **20241214_1506_loop video_loop_01jf3fwjv9epc9nb7y9b6k9k97.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20241214_1506_Loop Video_loop_01jf3fwjv9epc9nb7y9b6k9k97.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20241214_1506_Loop Video_loop_01jf3fwjv9epc9nb7y9b6k9k97.mov`
+- **20241214_1506_loop video_loop_01jf3fxmq9f8crqsjgjp96ycev.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20241214_1506_Loop Video_loop_01jf3fxmq9f8crqsjgjp96ycev.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20241214_1506_Loop Video_loop_01jf3fxmq9f8crqsjgjp96ycev.mov`
+- **20241214_1919_loop video_loop_01jf3yb66tf0fb64ec9bmnjmfh.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20241214_1919_Loop Video_loop_01jf3yb66tf0fb64ec9bmnjmfh.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20241214_1919_Loop Video_loop_01jf3yb66tf0fb64ec9bmnjmfh.mov`
+- **20241214_1930_loop video_loop_01jf3yzyehfveb2g7rgg4wr05s.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20241214_1930_Loop Video_loop_01jf3yzyehfveb2g7rgg4wr05s.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20241214_1930_Loop Video_loop_01jf3yzyehfveb2g7rgg4wr05s.mov`
+- **20241214_1951_loop video_loop_01jf406sd8fm988jtrbf4gyc83.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20241214_1951_Loop Video_loop_01jf406sd8fm988jtrbf4gyc83.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20241214_1951_Loop Video_loop_01jf406sd8fm988jtrbf4gyc83.mov`
+- **20241214_2109_loop video_loop_01jf44mjrye7nr9xdemwn8b80w.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20241214_2109_Loop Video_loop_01jf44mjrye7nr9xdemwn8b80w.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20241214_2109_Loop Video_loop_01jf44mjrye7nr9xdemwn8b80w.mov`
+- **20241214_2331_loop video_loop_01jf4ct3v7f6zsxg5f60fga5wk.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20241214_2331_Loop Video_loop_01jf4ct3v7f6zsxg5f60fga5wk.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20241214_2331_Loop Video_loop_01jf4ct3v7f6zsxg5f60fga5wk.mov`
+- **20241214_2345_loop video_loop_01jf4dkzzte7stbkbe1mqh7m1f.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20241214_2345_Loop Video_loop_01jf4dkzzte7stbkbe1mqh7m1f.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20241214_2345_Loop Video_loop_01jf4dkzzte7stbkbe1mqh7m1f.mov`
+- **20241215_0027_loop video_loop_01jf4fzcwxfp68gbpn13ymces6.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20241215_0027_Loop Video_loop_01jf4fzcwxfp68gbpn13ymces6.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20241215_0027_Loop Video_loop_01jf4fzcwxfp68gbpn13ymces6.mov`
+- **20241215_0116_loop video_loop_01jf4jt171fzsrtqgbnb1ae469.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20241215_0116_Loop Video_loop_01jf4jt171fzsrtqgbnb1ae469.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20241215_0116_Loop Video_loop_01jf4jt171fzsrtqgbnb1ae469.mov`
+- **20241216_1129_loop video_loop_01jf888awbfp4sjec9yddp4czd.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20241216_1129_Loop Video_loop_01jf888awbfp4sjec9yddp4czd.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20241216_1129_Loop Video_loop_01jf888awbfp4sjec9yddp4czd.mov`
+- **20241217_0759_loop video_loop_01jfaen849ersrchg3ejhjkefw.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20241217_0759_Loop Video_loop_01jfaen849ersrchg3ejhjkefw.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20241217_0759_Loop Video_loop_01jfaen849ersrchg3ejhjkefw.mov`
+- **20241217_0814_loop video_loop_01jfafgdr9eb3tsp1j9t6y5kt0.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20241217_0814_Loop Video_loop_01jfafgdr9eb3tsp1j9t6y5kt0.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20241217_0814_Loop Video_loop_01jfafgdr9eb3tsp1j9t6y5kt0.mov`
+- **20241217_0824_loop video_loop_01jfag2y6jf8drtc4npz70t77z.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20241217_0824_Loop Video_loop_01jfag2y6jf8drtc4npz70t77z.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20241217_0824_Loop Video_loop_01jfag2y6jf8drtc4npz70t77z.mov`
+- **20241217_0829_loop video_loop_01jfagbttrfd7shfnq5tg26exn.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20241217_0829_Loop Video_loop_01jfagbttrfd7shfnq5tg26exn.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20241217_0829_Loop Video_loop_01jfagbttrfd7shfnq5tg26exn.mov`
+- **20241217_0901_loop video_loop_01jfaj77v7evebv6vx18wabj87.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20241217_0901_Loop Video_loop_01jfaj77v7evebv6vx18wabj87.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20241217_0901_Loop Video_loop_01jfaj77v7evebv6vx18wabj87.mov`
+- **20241217_0913_loop video_loop_01jfajw46se5qv6jkaks7t9wwe.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20241217_0913_Loop Video_loop_01jfajw46se5qv6jkaks7t9wwe.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20241217_0913_Loop Video_loop_01jfajw46se5qv6jkaks7t9wwe.mov`
+- **20241217_0918_mystical serenity unveiled_remix_01jfak4vmdeq8vwms733txkn8j.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20241217_0918_Mystical Serenity Unveiled_remix_01jfak4vmdeq8vwms733txkn8j.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20241217_0918_Mystical Serenity Unveiled_remix_01jfak4vmdeq8vwms733txkn8j.mov`
+- **20241220_2312_dried mushroom realism_remix_01jfkt2684ffjve0f9n6drcw28.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20241220_2312_Dried Mushroom Realism_remix_01jfkt2684ffjve0f9n6drcw28.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20241220_2312_Dried Mushroom Realism_remix_01jfkt2684ffjve0f9n6drcw28.mov`
+- **20241221_0337_iridescent crystal brilliance_remix_01jfm97znret8ret2atmh78m94.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20241221_0337_Iridescent Crystal Brilliance_remix_01jfm97znret8ret2atmh78m94.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20241221_0337_Iridescent Crystal Brilliance_remix_01jfm97znret8ret2atmh78m94.mov`
+- **20241221_0402_crystalline spectrum_storyboard_01jfmanx27ebnv32sxkbngbfjc.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20241221_0402_Crystalline Spectrum_storyboard_01jfmanx27ebnv32sxkbngbfjc.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20241221_0402_Crystalline Spectrum_storyboard_01jfmanx27ebnv32sxkbngbfjc.mov`
+- **20241221_0531_mystical morel mushrooms_storyboard_01jfmfss17fae85jqzfgfbran7.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20241221_0531_Mystical Morel Mushrooms_storyboard_01jfmfss17fae85jqzfgfbran7.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20241221_0531_Mystical Morel Mushrooms_storyboard_01jfmfss17fae85jqzfgfbran7.mov`
+- **20241228_0134_digital face illusion_storyboard_01jg630e8bfenb79vpaey6r77m.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20241228_0134_Digital Face Illusion_storyboard_01jg630e8bfenb79vpaey6r77m.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20241228_0134_Digital Face Illusion_storyboard_01jg630e8bfenb79vpaey6r77m.mov`
+- **20241228_0138_loop video_loop_01jg636m2xfy88rtcet8g6s11r.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20241228_0138_Loop Video_loop_01jg636m2xfy88rtcet8g6s11r.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20241228_0138_Loop Video_loop_01jg636m2xfy88rtcet8g6s11r.mov`
+- **20241228_2039_loop video_loop_01jg84h5s9edfv929ws4h4x25z.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20241228_2039_Loop Video_loop_01jg84h5s9edfv929ws4h4x25z.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20241228_2039_Loop Video_loop_01jg84h5s9edfv929ws4h4x25z.mov`
+- **20250114_1250_loop video_loop_01jhk2dqg7e6ft508zw0j4s0zm.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250114_1250_Loop Video_loop_01jhk2dqg7e6ft508zw0j4s0zm.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250114_1250_Loop Video_loop_01jhk2dqg7e6ft508zw0j4s0zm.mov`
+- **20250509_1710_fractal glitch gallery_loop_01jtvhkx6ee5gtxak45zt1y523.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250509_1710_Fractal Glitch Gallery_loop_01jtvhkx6ee5gtxak45zt1y523.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250509_1710_Fractal Glitch Gallery_loop_01jtvhkx6ee5gtxak45zt1y523.mov`
+- **20250510_1245_untitled images_loop_01jtxmv37geyfbycnrn3sm5fvn.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250510_1245_Untitled Images_loop_01jtxmv37geyfbycnrn3sm5fvn.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250510_1245_Untitled Images_loop_01jtxmv37geyfbycnrn3sm5fvn.mov`
+- **20250510_1248_no prompt provided_loop_01jtxn0k1xf17th6ern50yvcrj.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250510_1248_No Prompt Provided_loop_01jtxn0k1xf17th6ern50yvcrj.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250510_1248_No Prompt Provided_loop_01jtxn0k1xf17th6ern50yvcrj.mov`
+- **20250510_1249_no prompt given_loop_01jtxn14kkes78ea7d25mxeb11.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250510_1249_No Prompt Given_loop_01jtxn14kkes78ea7d25mxeb11.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250510_1249_No Prompt Given_loop_01jtxn14kkes78ea7d25mxeb11.mov`
+- **20250510_2115_pulsating eye animation_loop_01jtyhzxqtfz7r1dxqaztn98fg.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250510_2115_Pulsating Eye Animation_loop_01jtyhzxqtfz7r1dxqaztn98fg.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250510_2115_Pulsating Eye Animation_loop_01jtyhzxqtfz7r1dxqaztn98fg.mov`
+- **20250510_2124_glowing eye dynamics_loop_01jtyjggmjexpasskj90w6te5c.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250510_2124_Glowing Eye Dynamics_loop_01jtyjggmjexpasskj90w6te5c.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250510_2124_Glowing Eye Dynamics_loop_01jtyjggmjexpasskj90w6te5c.mov`
+- **20250510_2125_complex interlinked patterns_loop_01jtyjk9wfeshsgv4r1avnyr72.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250510_2125_Complex Interlinked Patterns_loop_01jtyjk9wfeshsgv4r1avnyr72.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250510_2125_Complex Interlinked Patterns_loop_01jtyjk9wfeshsgv4r1avnyr72.mov`
+- **20250510_2125_evolving geometric patterns_loop_01jtyjjcykfbw8cnt234qws47j.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250510_2125_Evolving Geometric Patterns_loop_01jtyjjcykfbw8cnt234qws47j.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250510_2125_Evolving Geometric Patterns_loop_01jtyjjcykfbw8cnt234qws47j.mov`
+- **20250511_2344_kaleidoscope of colors_loop_01jv1cxfnjf51vs1c7syp8fad0.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250511_2344_Kaleidoscope of Colors_loop_01jv1cxfnjf51vs1c7syp8fad0.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250511_2344_Kaleidoscope of Colors_loop_01jv1cxfnjf51vs1c7syp8fad0.mov`
+- **20250511_2350_pulsating starry steps_loop_01jv1d84wpey2aqxjageyeav5f.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250511_2350_Pulsating Starry Steps_loop_01jv1d84wpey2aqxjageyeav5f.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250511_2350_Pulsating Starry Steps_loop_01jv1d84wpey2aqxjageyeav5f.mov`
+- **20250511_2355_no visual data provided_loop_01jv1djnjafhvv3c4kb6c6n59s.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250511_2355_No Visual Data Provided_loop_01jv1djnjafhvv3c4kb6c6n59s.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250511_2355_No Visual Data Provided_loop_01jv1djnjafhvv3c4kb6c6n59s.mov`
+- **20250511_2356_vibrant digital flora_loop_01jv1dmm45fxf9jafcexagdjzx.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250511_2356_Vibrant Digital Flora_loop_01jv1dmm45fxf9jafcexagdjzx.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250511_2356_Vibrant Digital Flora_loop_01jv1dmm45fxf9jafcexagdjzx.mov`
+- **20250511_2358_floral fractal fantasy_loop_01jv1dqkq1e28vf06tw0c8nhqg.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250511_2358_Floral Fractal Fantasy_loop_01jv1dqkq1e28vf06tw0c8nhqg.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250511_2358_Floral Fractal Fantasy_loop_01jv1dqkq1e28vf06tw0c8nhqg.mov`
+- **20250512_0002_no prompt provided_loop_01jv1dzhv5eq6a74qye1f3xgp1.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_0002_No Prompt Provided_loop_01jv1dzhv5eq6a74qye1f3xgp1.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_0002_No Prompt Provided_loop_01jv1dzhv5eq6a74qye1f3xgp1.mov`
+- **20250512_0004_endless library's silent lament_loop_01jv1e31jze4x92ta9v0bp81qe.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_0004_Endless Library's Silent Lament_loop_01jv1e31jze4x92ta9v0bp81qe.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_0004_Endless Library's Silent Lament_loop_01jv1e31jze4x92ta9v0bp81qe.mov`
+- **20250512_0006_captivating visual journey_loop_01jv1e6qggfftaaaazs9vmn1my.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_0006_Captivating Visual Journey_loop_01jv1e6qggfftaaaazs9vmn1my.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_0006_Captivating Visual Journey_loop_01jv1e6qggfftaaaazs9vmn1my.mov`
+- **20250512_0006_untitled scene_loop_01jv1e6emse9b9vn8ggmkt34fd.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_0006_Untitled Scene_loop_01jv1e6emse9b9vn8ggmkt34fd.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_0006_Untitled Scene_loop_01jv1e6emse9b9vn8ggmkt34fd.mov`
+- **20250512_0007_talking candle faces_loop_01jv1e764rfc1b1p9h7v4endn9.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_0007_Talking Candle Faces_loop_01jv1e764rfc1b1p9h7v4endn9.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_0007_Talking Candle Faces_loop_01jv1e764rfc1b1p9h7v4endn9.mov`
+- **20250512_0016_adjusting server plants_loop_01jv1er658fqta9yvbgnd100vm.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_0016_Adjusting Server Plants_loop_01jv1er658fqta9yvbgnd100vm.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_0016_Adjusting Server Plants_loop_01jv1er658fqta9yvbgnd100vm.mov`
+- **20250512_0019_no prompt given_loop_01jv1ex647fbytnyqcfs382d9j.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_0019_No Prompt Given_loop_01jv1ex647fbytnyqcfs382d9j.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_0019_No Prompt Given_loop_01jv1ex647fbytnyqcfs382d9j.mov`
+- **20250512_0027_glowing data bloom_loop_01jv1fbwrnft68m8ave4qw9tsz.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_0027_Glowing Data Bloom_loop_01jv1fbwrnft68m8ave4qw9tsz.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_0027_Glowing Data Bloom_loop_01jv1fbwrnft68m8ave4qw9tsz.mov`
+- **20250512_0028_mesmerizing hive visions_loop_01jv1fdsrnef2amvw3aq5es1wj.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_0028_Mesmerizing Hive Visions_loop_01jv1fdsrnef2amvw3aq5es1wj.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_0028_Mesmerizing Hive Visions_loop_01jv1fdsrnef2amvw3aq5es1wj.mov`
+- **20250512_0030_caretaker's floral dance_loop_01jv1fjqp3ed2t5weppcatm4s7.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_0030_Caretaker's Floral Dance_loop_01jv1fjqp3ed2t5weppcatm4s7.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_0030_Caretaker's Floral Dance_loop_01jv1fjqp3ed2t5weppcatm4s7.mov`
+- **20250512_0043_dreamlike garden visions_loop_01jv1g97seea3rq3d488wjvx36.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_0043_Dreamlike Garden Visions_loop_01jv1g97seea3rq3d488wjvx36.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_0043_Dreamlike Garden Visions_loop_01jv1g97seea3rq3d488wjvx36.mov`
+- **20250512_0043_enchanted garden bloom_loop_01jv1gaahbecm9d7k1qwg9cjxt.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_0043_Enchanted Garden Bloom_loop_01jv1gaahbecm9d7k1qwg9cjxt.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_0043_Enchanted Garden Bloom_loop_01jv1gaahbecm9d7k1qwg9cjxt.mov`
+- **20250512_0049_no prompt detected_loop_01jv1gn1g6fydayyfjv7ffhdcb.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_0049_No Prompt Detected_loop_01jv1gn1g6fydayyfjv7ffhdcb.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_0049_No Prompt Detected_loop_01jv1gn1g6fydayyfjv7ffhdcb.mov`
+- **20250512_0056_divine goose awakening_loop_01jv1h106wez3sfegmrzz34mx3.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_0056_Divine Goose Awakening_loop_01jv1h106wez3sfegmrzz34mx3.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_0056_Divine Goose Awakening_loop_01jv1h106wez3sfegmrzz34mx3.mov`
+- **20250512_0741_missing prompt issue_loop_01jv28733yfw39qehq0dh3ra7s.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_0741_Missing Prompt Issue_loop_01jv28733yfw39qehq0dh3ra7s.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_0741_Missing Prompt Issue_loop_01jv28733yfw39qehq0dh3ra7s.mov`
+- **20250512_0743_no user prompt_loop_01jv28app7frptc7g6w516f0g7.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_0743_No User Prompt_loop_01jv28app7frptc7g6w516f0g7.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_0743_No User Prompt_loop_01jv28app7frptc7g6w516f0g7.mov`
+- **20250512_0749_no data available_loop_01jv28na3wfn1bdnf46mbpe16a.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_0749_No Data Available_loop_01jv28na3wfn1bdnf46mbpe16a.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_0749_No Data Available_loop_01jv28na3wfn1bdnf46mbpe16a.mov`
+- **20250512_1117_breathing geometric sculpture_loop_01jv2mjkrse48rbyac305ngw3a.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_1117_Breathing Geometric Sculpture_loop_01jv2mjkrse48rbyac305ngw3a.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_1117_Breathing Geometric Sculpture_loop_01jv2mjkrse48rbyac305ngw3a.mov`
+- **20250512_1125_breathing geometry_loop_01jv2n1e9eeaeac27ej14fv7m0.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_1125_Breathing Geometry_loop_01jv2n1e9eeaeac27ej14fv7m0.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_1125_Breathing Geometry_loop_01jv2n1e9eeaeac27ej14fv7m0.mov`
+- **20250512_1127_breathing geometric sculpture_loop_01jv2n5verfpyvk6267dhswah7.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_1127_Breathing Geometric Sculpture_loop_01jv2n5verfpyvk6267dhswah7.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_1127_Breathing Geometric Sculpture_loop_01jv2n5verfpyvk6267dhswah7.mov`
+- **20250512_1129_image compilation_loop_01jv2n8e9hfwe9ajdmp6k6qmaj.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_1129_Image Compilation_loop_01jv2n8e9hfwe9ajdmp6k6qmaj.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_1129_Image Compilation_loop_01jv2n8e9hfwe9ajdmp6k6qmaj.mov`
+- **20250512_1129_untitled video_loop_01jv2n9j7pfwybwhmwtqsjm6t8.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_1129_Untitled Video_loop_01jv2n9j7pfwybwhmwtqsjm6t8.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_1129_Untitled Video_loop_01jv2n9j7pfwybwhmwtqsjm6t8.mov`
+- **20250512_1130_image showcase_loop_01jv2n9yeyepwrjxw4yd1rrgtz.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_1130_Image Showcase_loop_01jv2n9yeyepwrjxw4yd1rrgtz.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_1130_Image Showcase_loop_01jv2n9yeyepwrjxw4yd1rrgtz.mov`
+- **20250512_1131_beautiful imagery exploration_loop_01jv2nbwabeveadybq0zbws5cf.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_1131_Beautiful Imagery Exploration_loop_01jv2nbwabeveadybq0zbws5cf.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_1131_Beautiful Imagery Exploration_loop_01jv2nbwabeveadybq0zbws5cf.mov`
+- **20250512_1132_nature's tranquil beauty_loop_01jv2ne7n4fn98235e5zcf8frr.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_1132_Nature's Tranquil Beauty_loop_01jv2ne7n4fn98235e5zcf8frr.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_1132_Nature's Tranquil Beauty_loop_01jv2ne7n4fn98235e5zcf8frr.mov`
+- **20250512_1148_fluid patterns unveiled_loop_01jv2pbdybfbdt2xsxebr3zr6y.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_1148_Fluid Patterns Unveiled_loop_01jv2pbdybfbdt2xsxebr3zr6y.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_1148_Fluid Patterns Unveiled_loop_01jv2pbdybfbdt2xsxebr3zr6y.mov`
+- **20250512_1151_organic digital harmony_loop_01jv2phfw9e1vvzyvtat8erhcm.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_1151_Organic Digital Harmony_loop_01jv2phfw9e1vvzyvtat8erhcm.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_1151_Organic Digital Harmony_loop_01jv2phfw9e1vvzyvtat8erhcm.mov`
+- **20250512_1153_digital dance of colors_loop_01jv2pmr86fp486pnwa240js9r.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_1153_Digital Dance of Colors_loop_01jv2pmr86fp486pnwa240js9r.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_1153_Digital Dance of Colors_loop_01jv2pmr86fp486pnwa240js9r.mov`
+- **20250512_1158_scenic journey_loop_01jv2pxqh6emptqhrfq3xn4s8a.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_1158_Scenic Journey_loop_01jv2pxqh6emptqhrfq3xn4s8a.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_1158_Scenic Journey_loop_01jv2pxqh6emptqhrfq3xn4s8a.mov`
+- **20250512_1211_digital rhythms fusion_loop_01jv2qn030f31akjmzts1e0q1h.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_1211_Digital Rhythms Fusion_loop_01jv2qn030f31akjmzts1e0q1h.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_1211_Digital Rhythms Fusion_loop_01jv2qn030f31akjmzts1e0q1h.mov`
+- **20250512_1212_crystalline beauty_loop_01jv2qq0c8fz0bdfq3zyn42p7h.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_1212_Crystalline Beauty_loop_01jv2qq0c8fz0bdfq3zyn42p7h.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_1212_Crystalline Beauty_loop_01jv2qq0c8fz0bdfq3zyn42p7h.mov`
+- **20250512_1213_mystical crystal atmosphere_loop_01jv2qsc73fzmt7x2g2wmr4tg9.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_1213_Mystical Crystal Atmosphere_loop_01jv2qsc73fzmt7x2g2wmr4tg9.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_1213_Mystical Crystal Atmosphere_loop_01jv2qsc73fzmt7x2g2wmr4tg9.mov`
+- **20250512_1214_digital nature harmony_loop_01jv2qvj65ewyteh6f9skt2w4e.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_1214_Digital Nature Harmony_loop_01jv2qvj65ewyteh6f9skt2w4e.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_1214_Digital Nature Harmony_loop_01jv2qvj65ewyteh6f9skt2w4e.mov`
+- **20250512_1216_dynamic organic tapestry_loop_01jv2qywqnfswaadem1wwxbm7e.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_1216_Dynamic Organic Tapestry_loop_01jv2qywqnfswaadem1wwxbm7e.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_1216_Dynamic Organic Tapestry_loop_01jv2qywqnfswaadem1wwxbm7e.mov`
+- **20250512_1221_ferrofluid and microscopic wonders_storyboard_01jv2r8s97f608b81cmqf0y3r8.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_1221_Ferrofluid and Microscopic Wonders_storyboard_01jv2r8s97f608b81cmqf0y3r8.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_1221_Ferrofluid and Microscopic Wonders_storyboard_01jv2r8s97f608b81cmqf0y3r8.mov`
+- **20250512_1224_ethereal crystal glow_loop_01jv2rcqt5facr38h3nq58cc8z.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_1224_Ethereal Crystal Glow_loop_01jv2rcqt5facr38h3nq58cc8z.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_1224_Ethereal Crystal Glow_loop_01jv2rcqt5facr38h3nq58cc8z.mov`
+- **20250512_1227_microscopic landscape journey_loop_01jv2rk0ntfy6rhskkpq8982zs.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_1227_Microscopic Landscape Journey_loop_01jv2rk0ntfy6rhskkpq8982zs.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_1227_Microscopic Landscape Journey_loop_01jv2rk0ntfy6rhskkpq8982zs.mov`
+- **20250512_1227_organic digital harmony_loop_01jv2rkk67egg99bpgb4z9zjd1.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_1227_Organic Digital Harmony_loop_01jv2rkk67egg99bpgb4z9zjd1.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_1227_Organic Digital Harmony_loop_01jv2rkk67egg99bpgb4z9zjd1.mov`
+- **20250512_1239_mesmerizing metallic rotation_storyboard_01jv2s8e5ke50stvkv6t16m0xp.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_1239_Mesmerizing Metallic Rotation_storyboard_01jv2s8e5ke50stvkv6t16m0xp.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_1239_Mesmerizing Metallic Rotation_storyboard_01jv2s8e5ke50stvkv6t16m0xp.mov`
+- **20250512_1244_analog kaleidoscope symphony_storyboard_01jv2sjgnrfv68dds303eds43k.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_1244_Analog Kaleidoscope Symphony_storyboard_01jv2sjgnrfv68dds303eds43k.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_1244_Analog Kaleidoscope Symphony_storyboard_01jv2sjgnrfv68dds303eds43k.mov`
+- **20250512_1244_interactive image showcase_loop_01jv2sjkadfp5shvjccnxzrgsz.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_1244_Interactive Image Showcase_loop_01jv2sjkadfp5shvjccnxzrgsz.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_1244_Interactive Image Showcase_loop_01jv2sjkadfp5shvjccnxzrgsz.mov`
+- **20250512_1244_liquid metal dance_storyboard_01jv2sh5cremf9bb6c95hppaed.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_1244_Liquid Metal Dance_storyboard_01jv2sh5cremf9bb6c95hppaed.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_1244_Liquid Metal Dance_storyboard_01jv2sh5cremf9bb6c95hppaed.mov`
+- **20250512_1245_hypnotic liquid rotation_loop_01jv2sm4daejqrkjq9zd09q0mg.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_1245_Hypnotic Liquid Rotation_loop_01jv2sm4daejqrkjq9zd09q0mg.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_1245_Hypnotic Liquid Rotation_loop_01jv2sm4daejqrkjq9zd09q0mg.mov`
+- **20250512_1249_hypnotic metal rotation_loop_01jv2sv33jeaebyfdgmxgvpfg2.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_1249_Hypnotic Metal Rotation_loop_01jv2sv33jeaebyfdgmxgvpfg2.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_1249_Hypnotic Metal Rotation_loop_01jv2sv33jeaebyfdgmxgvpfg2.mov`
+- **20250512_1257_cascading waterfall mist_loop_01jv2t9knwexy9cger9xp3wfv1.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_1257_Cascading Waterfall Mist_loop_01jv2t9knwexy9cger9xp3wfv1.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_1257_Cascading Waterfall Mist_loop_01jv2t9knwexy9cger9xp3wfv1.mov`
+- **20250512_1300_image analysis_loop_01jv2tew6efnn82yjtt1e61k58.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_1300_Image Analysis_loop_01jv2tew6efnn82yjtt1e61k58.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_1300_Image Analysis_loop_01jv2tew6efnn82yjtt1e61k58.mov`
+- **20250512_1305_dynamic knowledge crystals_loop_01jv2trhs0fzjv053nt7j11j7b.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_1305_Dynamic Knowledge Crystals_loop_01jv2trhs0fzjv053nt7j11j7b.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_1305_Dynamic Knowledge Crystals_loop_01jv2trhs0fzjv053nt7j11j7b.mov`
+- **20250512_1315_surreal memory symbols_loop_01jv2vag3jegjtywv6pkfbg6py.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_1315_Surreal Memory Symbols_loop_01jv2vag3jegjtywv6pkfbg6py.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_1315_Surreal Memory Symbols_loop_01jv2vag3jegjtywv6pkfbg6py.mov`
+- **20250512_1331_no prompt provided_loop_01jv2w78ccfv79ypzgqhkakmat.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_1331_No Prompt Provided_loop_01jv2w78ccfv79ypzgqhkakmat.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_1331_No Prompt Provided_loop_01jv2w78ccfv79ypzgqhkakmat.mov`
+- **20250512_2048_no prompt provided_loop_01jv3n8djne6ba5zp6kx721phf.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_2048_No Prompt Provided_loop_01jv3n8djne6ba5zp6kx721phf.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_2048_No Prompt Provided_loop_01jv3n8djne6ba5zp6kx721phf.mov`
+- **20250512_2053_fractal birds dance_loop_01jv3ngx82fgk9byr7m6hzz4j6.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_2053_Fractal Birds Dance_loop_01jv3ngx82fgk9byr7m6hzz4j6.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_2053_Fractal Birds Dance_loop_01jv3ngx82fgk9byr7m6hzz4j6.mov`
+- **20250512_2136_digital shaman groove_storyboard_01jv3r0y7nefevrh86768mbqse.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_2136_Digital Shaman Groove_storyboard_01jv3r0y7nefevrh86768mbqse.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_2136_Digital Shaman Groove_storyboard_01jv3r0y7nefevrh86768mbqse.mov`
+- **20250512_2352_mystical dance of light_storyboard_01jv3zrwyyed4vn63eh6exgkjx.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250512_2352_Mystical Dance of Light_storyboard_01jv3zrwyyed4vn63eh6exgkjx.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250512_2352_Mystical Dance of Light_storyboard_01jv3zrwyyed4vn63eh6exgkjx.mov`
+- **20250513_1202_æzr’eg symbol & selfhood_loop_01jv59jg0rerkb8pn4v2yaj2p5.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250513_1202_Æzr’eg Symbol & Selfhood_loop_01jv59jg0rerkb8pn4v2yaj2p5.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250513_1202_Æzr’eg Symbol & Selfhood_loop_01jv59jg0rerkb8pn4v2yaj2p5.mov`
+- **20250513_1206_construction chaos comedy_storyboard_01jv59rrhjf9yaja5axdr3j87t.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250513_1206_Construction Chaos Comedy_storyboard_01jv59rrhjf9yaja5axdr3j87t.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250513_1206_Construction Chaos Comedy_storyboard_01jv59rrhjf9yaja5axdr3j87t.mov`
+- **20250513_1219_silent montage_loop_01jv5ah8naeefb985pmw546vj7.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250513_1219_Silent Montage_loop_01jv5ah8naeefb985pmw546vj7.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250513_1219_Silent Montage_loop_01jv5ah8naeefb985pmw546vj7.mov`
+- **20250513_1221_crystal fiber optics_loop_01jv5an2s1fmzs8a11m91s0yf2.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250513_1221_Crystal Fiber Optics_loop_01jv5an2s1fmzs8a11m91s0yf2.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250513_1221_Crystal Fiber Optics_loop_01jv5an2s1fmzs8a11m91s0yf2.mov`
+- **20250513_1225_crystalline fiber optics_loop_01jv5av95jf7pvawy3td8ffga1.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250513_1225_Crystalline Fiber Optics_loop_01jv5av95jf7pvawy3td8ffga1.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250513_1225_Crystalline Fiber Optics_loop_01jv5av95jf7pvawy3td8ffga1.mov`
+- **20250513_1225_missing prompt mystery_loop_01jv5atagfe6d9hm9sjpgkc1h8.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250513_1225_Missing Prompt Mystery_loop_01jv5atagfe6d9hm9sjpgkc1h8.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250513_1225_Missing Prompt Mystery_loop_01jv5atagfe6d9hm9sjpgkc1h8.mov`
+- **20250513_1225_nature's serene landscape_loop_01jv5aw5jxex0s75vd1w604vh8.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250513_1225_Nature's Serene Landscape_loop_01jv5aw5jxex0s75vd1w604vh8.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250513_1225_Nature's Serene Landscape_loop_01jv5aw5jxex0s75vd1w604vh8.mov`
+- **20250513_1251_shaman's chaotic beat_loop_01jv5cc31gfzhsnt66ev96qg4e.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250513_1251_Shaman's Chaotic Beat_loop_01jv5cc31gfzhsnt66ev96qg4e.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250513_1251_Shaman's Chaotic Beat_loop_01jv5cc31gfzhsnt66ev96qg4e.mov`
+- **20250513_1253_digital petals rise_loop_01jv5cfay0en2vtx7jd0kg5z6a.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250513_1253_Digital Petals Rise_loop_01jv5cfay0en2vtx7jd0kg5z6a.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250513_1253_Digital Petals Rise_loop_01jv5cfay0en2vtx7jd0kg5z6a.mov`
+- **20250513_1302_digital petals ascend_loop_01jv5d0915e8183qvnfyasgyr2.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250513_1302_Digital Petals Ascend_loop_01jv5d0915e8183qvnfyasgyr2.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250513_1302_Digital Petals Ascend_loop_01jv5d0915e8183qvnfyasgyr2.mov`
+- **20250513_1302_neon fractal dance_loop_01jv5d0j4bevw95erff4fd0dv2.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250513_1302_Neon Fractal Dance_loop_01jv5d0j4bevw95erff4fd0dv2.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250513_1302_Neon Fractal Dance_loop_01jv5d0j4bevw95erff4fd0dv2.mov`
+- **20250513_1303_festival reflections_loop_01jv5d1jn7eejtcen8r0qwmcv1.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250513_1303_Festival Reflections_loop_01jv5d1jn7eejtcen8r0qwmcv1.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250513_1303_Festival Reflections_loop_01jv5d1jn7eejtcen8r0qwmcv1.mov`
+- **20250513_1304_vibrant neon dance_loop_01jv5d2wb6f3zb646a7pqtstqs.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250513_1304_Vibrant Neon Dance_loop_01jv5d2wb6f3zb646a7pqtstqs.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250513_1304_Vibrant Neon Dance_loop_01jv5d2wb6f3zb646a7pqtstqs.mov`
+- **20250513_1411_fractal hypercube journey_loop_01jv5gx1ejfpz9fcna846w206r.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250513_1411_Fractal Hypercube Journey_loop_01jv5gx1ejfpz9fcna846w206r.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250513_1411_Fractal Hypercube Journey_loop_01jv5gx1ejfpz9fcna846w206r.mov`
+- **20250513_1414_pulsating neon hypercube_loop_01jv5h40xverst2sn4s2bvarq6.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250513_1414_Pulsating Neon Hypercube_loop_01jv5h40xverst2sn4s2bvarq6.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250513_1414_Pulsating Neon Hypercube_loop_01jv5h40xverst2sn4s2bvarq6.mov`
+- **20250513_1420_neon fractal voyage_loop_01jv5hdx80e8ttmp1v79132t8r.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250513_1420_Neon Fractal Voyage_loop_01jv5hdx80e8ttmp1v79132t8r.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250513_1420_Neon Fractal Voyage_loop_01jv5hdx80e8ttmp1v79132t8r.mov`
+- **20250513_1427_ethereal cathedral visions_loop_01jv5hv6n6fn88b7mjmqt1v04a.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250513_1427_Ethereal Cathedral Visions_loop_01jv5hv6n6fn88b7mjmqt1v04a.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250513_1427_Ethereal Cathedral Visions_loop_01jv5hv6n6fn88b7mjmqt1v04a.mov`
+- **20250513_1427_totems' cosmic transformation_loop_01jv5htjhce1gs3qx3j05ky3z7.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250513_1427_Totems' Cosmic Transformation_loop_01jv5htjhce1gs3qx3j05ky3z7.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250513_1427_Totems' Cosmic Transformation_loop_01jv5htjhce1gs3qx3j05ky3z7.mov`
+- **20250513_1428_cathedral of light_loop_01jv5hx9zwfhev7ckayjhzkg1d.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250513_1428_Cathedral of Light_loop_01jv5hx9zwfhev7ckayjhzkg1d.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250513_1428_Cathedral of Light_loop_01jv5hx9zwfhev7ckayjhzkg1d.mov`
+- **20250513_1428_totemic crystal explosion_loop_01jv5hwkx7f8y9zfdy6bdtybdh.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250513_1428_Totemic Crystal Explosion_loop_01jv5hwkx7f8y9zfdy6bdtybdh.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250513_1428_Totemic Crystal Explosion_loop_01jv5hwkx7f8y9zfdy6bdtybdh.mov`
+- **20250513_1429_totemic crystal dance_loop_01jv5hz8ckfstshfq6cffn2za9.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250513_1429_Totemic Crystal Dance_loop_01jv5hz8ckfstshfq6cffn2za9.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250513_1429_Totemic Crystal Dance_loop_01jv5hz8ckfstshfq6cffn2za9.mov`
+- **20250513_1436_enigmatic elf and jewel_loop_01jv5jcfs9fpf9qa8zxrs4mx65.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250513_1436_Enigmatic Elf and Jewel_loop_01jv5jcfs9fpf9qa8zxrs4mx65.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250513_1436_Enigmatic Elf and Jewel_loop_01jv5jcfs9fpf9qa8zxrs4mx65.mov`
+- **20250513_1436_whimsical jester's joy_loop_01jv5jcgwsf3kt266kb2qapbx0.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250513_1436_Whimsical Jester's Joy_loop_01jv5jcgwsf3kt266kb2qapbx0.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250513_1436_Whimsical Jester's Joy_loop_01jv5jcgwsf3kt266kb2qapbx0.mov`
+- **20250513_1438_mystical jewel encounter_loop_01jv5jex63f2ks7gjpvwbbdvp7.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250513_1438_Mystical Jewel Encounter_loop_01jv5jex63f2ks7gjpvwbbdvp7.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250513_1438_Mystical Jewel Encounter_loop_01jv5jex63f2ks7gjpvwbbdvp7.mov`
+- **20250513_1445_sacred glow aura_loop_01jv5jvg02fykahvz69hheepkm.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250513_1445_Sacred Glow Aura_loop_01jv5jvg02fykahvz69hheepkm.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250513_1445_Sacred Glow Aura_loop_01jv5jvg02fykahvz69hheepkm.mov`
+- **20250513_1446_glowing sanctuary aura_loop_01jv5jy8s1ebbrd3w4vk34jnjz.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250513_1446_Glowing Sanctuary Aura_loop_01jv5jy8s1ebbrd3w4vk34jnjz.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250513_1446_Glowing Sanctuary Aura_loop_01jv5jy8s1ebbrd3w4vk34jnjz.mov`
+- **20250513_1447_glowing sanctuary aura_loop_01jv5jz9pjenmap13ey86fghds.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250513_1447_Glowing Sanctuary Aura_loop_01jv5jz9pjenmap13ey86fghds.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250513_1447_Glowing Sanctuary Aura_loop_01jv5jz9pjenmap13ey86fghds.mov`
+- **20250513_1452_sacred plant aura_loop_01jv5k9d1xe6bs38maf4e3eb5q.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250513_1452_Sacred Plant Aura_loop_01jv5k9d1xe6bs38maf4e3eb5q.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250513_1452_Sacred Plant Aura_loop_01jv5k9d1xe6bs38maf4e3eb5q.mov`
+- **20250513_1454_ripples beneath icons_loop_01jv5kbz5afp682fz7y52cdzhj.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250513_1454_Ripples Beneath Icons_loop_01jv5kbz5afp682fz7y52cdzhj.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250513_1454_Ripples Beneath Icons_loop_01jv5kbz5afp682fz7y52cdzhj.mov`
+- **20250513_1455_robotic dunking action_loop_01jv5kekckeff8ke2ds5egepv0.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250513_1455_Robotic Dunking Action_loop_01jv5kekckeff8ke2ds5egepv0.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250513_1455_Robotic Dunking Action_loop_01jv5kekckeff8ke2ds5egepv0.mov`
+- **20250513_1501_pulsating glowing barcodes_loop_01jv5ksyxvexh9cxdcw3w0bae1.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250513_1501_Pulsating Glowing Barcodes_loop_01jv5ksyxvexh9cxdcw3w0bae1.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250513_1501_Pulsating Glowing Barcodes_loop_01jv5ksyxvexh9cxdcw3w0bae1.mov`
+- **20250513_1504_mystical chanting journey_loop_01jv5kzx2heyx803r509zgj0r0.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250513_1504_Mystical Chanting Journey_loop_01jv5kzx2heyx803r509zgj0r0.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250513_1504_Mystical Chanting Journey_loop_01jv5kzx2heyx803r509zgj0r0.mov`
+- **20250513_1512_sacred sanctuary glow_loop_01jv5mdgake6armtd29xnc7fe0.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/crisp/DXV/20250513_1512_Sacred Sanctuary Glow_loop_01jv5mdgake6armtd29xnc7fe0.mov`
+  - `/Users/donovan/work/Visuals/sora/crisp/DXV/20250513_1512_Sacred Sanctuary Glow_loop_01jv5mdgake6armtd29xnc7fe0.mov`
+- **20250513_2320_no prompt provided_loop_01jv6gbmy9fr7awn93qyj2042s.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/escher/DXV/20250513_2320_No Prompt Provided_loop_01jv6gbmy9fr7awn93qyj2042s.mov`
+  - `/Users/donovan/work/Visuals/sora/escher/DXV/20250513_2320_No Prompt Provided_loop_01jv6gbmy9fr7awn93qyj2042s.mov`
+- **20250513_2325_no prompt given_loop_01jv6gmx5te8xt54prchnyp53q.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/escher/DXV/20250513_2325_No Prompt Given_loop_01jv6gmx5te8xt54prchnyp53q.mov`
+  - `/Users/donovan/work/Visuals/sora/escher/DXV/20250513_2325_No Prompt Given_loop_01jv6gmx5te8xt54prchnyp53q.mov`
+- **20250514_1041_title missing_loop_01jv7qazw9fk4a22cy73drds15.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/escher/DXV/20250514_1041_Title Missing_loop_01jv7qazw9fk4a22cy73drds15.mov`
+  - `/Users/donovan/work/Visuals/sora/escher/DXV/20250514_1041_Title Missing_loop_01jv7qazw9fk4a22cy73drds15.mov`
+- **20250514_1043_no prompt given_loop_01jv7qd25affjsf6kt5v7rakcd.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/escher/DXV/20250514_1043_No Prompt Given_loop_01jv7qd25affjsf6kt5v7rakcd.mov`
+  - `/Users/donovan/work/Visuals/sora/escher/DXV/20250514_1043_No Prompt Given_loop_01jv7qd25affjsf6kt5v7rakcd.mov`
+- **20250514_1043_untitled scene_loop_01jv7qetgmevztyzj8zetaxzay.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/escher/DXV/20250514_1043_Untitled Scene_loop_01jv7qetgmevztyzj8zetaxzay.mov`
+  - `/Users/donovan/work/Visuals/sora/escher/DXV/20250514_1043_Untitled Scene_loop_01jv7qetgmevztyzj8zetaxzay.mov`
+- **20250514_1044_sunset over mountains_loop_01jv7qfnt0fttt2j29yt931ffv.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/escher/DXV/20250514_1044_Sunset Over Mountains_loop_01jv7qfnt0fttt2j29yt931ffv.mov`
+  - `/Users/donovan/work/Visuals/sora/escher/DXV/20250514_1044_Sunset Over Mountains_loop_01jv7qfnt0fttt2j29yt931ffv.mov`
+- **20250514_1044_video of unshared images_loop_01jv7qg8fwfaj8h38yxx99329f.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/escher/DXV/20250514_1044_Video of Unshared Images_loop_01jv7qg8fwfaj8h38yxx99329f.mov`
+  - `/Users/donovan/work/Visuals/sora/escher/DXV/20250514_1044_Video of Unshared Images_loop_01jv7qg8fwfaj8h38yxx99329f.mov`
+- **20250514_1053_adventure awaits_loop_01jv7r0r6kfj79bt95j8e8weyv.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/escher/DXV/20250514_1053_Adventure Awaits_loop_01jv7r0r6kfj79bt95j8e8weyv.mov`
+  - `/Users/donovan/work/Visuals/sora/escher/DXV/20250514_1053_Adventure Awaits_loop_01jv7r0r6kfj79bt95j8e8weyv.mov`
+- **20250514_1054_awaiting visual journey_loop_01jv7r2ndaey1921ejg3kdanyd.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/escher/DXV/20250514_1054_Awaiting Visual Journey_loop_01jv7r2ndaey1921ejg3kdanyd.mov`
+  - `/Users/donovan/work/Visuals/sora/escher/DXV/20250514_1054_Awaiting Visual Journey_loop_01jv7r2ndaey1921ejg3kdanyd.mov`
+- **20250512_2240_colorful image gallery.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/long form/DXV/20250512_2240_Colorful Image Gallery.mov`
+  - `/Users/donovan/work/Visuals/sora/long form/DXV/20250512_2240_Colorful Image Gallery.mov`
+- **20250514_2252_dystopian tv-head figures_loop_01jv915b3per5vcpxev0ye33xm.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/long form/DXV/20250514_2252_Dystopian TV-Head Figures_loop_01jv915b3per5vcpxev0ye33xm.mov`
+  - `/Users/donovan/work/Visuals/sora/long form/DXV/20250514_2252_Dystopian TV-Head Figures_loop_01jv915b3per5vcpxev0ye33xm.mov`
+- **20250515_1040_scenic image compilation_loop_01jva9mwe4ezwshp07e2h59m7n.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/long form/DXV/20250515_1040_Scenic Image Compilation_loop_01jva9mwe4ezwshp07e2h59m7n.mov`
+  - `/Users/donovan/work/Visuals/sora/long form/DXV/20250515_1040_Scenic Image Compilation_loop_01jva9mwe4ezwshp07e2h59m7n.mov`
+- **20250515_1414_futuristic dystopian figures_storyboard_01jvanw0qteajtx3wvshrz1jqd.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/long form/DXV/20250515_1414_Futuristic Dystopian Figures_storyboard_01jvanw0qteajtx3wvshrz1jqd.mov`
+  - `/Users/donovan/work/Visuals/sora/long form/DXV/20250515_1414_Futuristic Dystopian Figures_storyboard_01jvanw0qteajtx3wvshrz1jqd.mov`
+- **20250515_1443_visual storytelling_loop_01jvaqhavnfcn88h96nnzr0t9j.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/long form/DXV/20250515_1443_Visual Storytelling_loop_01jvaqhavnfcn88h96nnzr0t9j.mov`
+  - `/Users/donovan/work/Visuals/sora/long form/DXV/20250515_1443_Visual Storytelling_loop_01jvaqhavnfcn88h96nnzr0t9j.mov`
+- **20250516_1005_futuristic mask illumination_mega loop_01.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/mega loops/DXV/20250516_1005_Futuristic Mask Illumination_mega loop_01.mov`
+  - `/Users/donovan/work/Visuals/sora/mega loops/DXV/20250516_1005_Futuristic Mask Illumination_mega loop_01.mov`
+- **20250516_1824_imaginary landscape_loop_01.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/mega loops/DXV/20250516_1824_Imaginary Landscape_loop_01.mov`
+  - `/Users/donovan/work/Visuals/sora/mega loops/DXV/20250516_1824_Imaginary Landscape_loop_01.mov`
+- **cyberhead.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/mega loops/DXV/cyberhead.mov`
+  - `/Users/donovan/work/Visuals/sora/mega loops/DXV/cyberhead.mov`
+- **20250514_2246_tv-head figures_loop_01jv90sdapfnqb4ht7cf3ap116.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/NeoRetroRender/DXV/20250514_2246_TV-Head Figures_loop_01jv90sdapfnqb4ht7cf3ap116.mov`
+  - `/Users/donovan/work/Visuals/sora/NeoRetroRender/DXV/20250514_2246_TV-Head Figures_loop_01jv90sdapfnqb4ht7cf3ap116.mov`
+- **20250514_2254_no prompt provided_loop_01jv917ndeekbrpmwrx4ep6g9s.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/NeoRetroRender/DXV/20250514_2254_No Prompt Provided_loop_01jv917ndeekbrpmwrx4ep6g9s.mov`
+  - `/Users/donovan/work/Visuals/sora/NeoRetroRender/DXV/20250514_2254_No Prompt Provided_loop_01jv917ndeekbrpmwrx4ep6g9s.mov`
+- **20250515_1032_eerie futuristic courtyard_loop_01jva96ms6fztte79ytnsjkas5.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/NeoRetroRender/DXV/20250515_1032_Eerie Futuristic Courtyard_loop_01jva96ms6fztte79ytnsjkas5.mov`
+  - `/Users/donovan/work/Visuals/sora/NeoRetroRender/DXV/20250515_1032_Eerie Futuristic Courtyard_loop_01jva96ms6fztte79ytnsjkas5.mov`
+- **20250515_1032_fall forest adventure_loop_01jva95sddf9d8pqz1pt26k2sq.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/NeoRetroRender/DXV/20250515_1032_Fall Forest Adventure_loop_01jva95sddf9d8pqz1pt26k2sq.mov`
+  - `/Users/donovan/work/Visuals/sora/NeoRetroRender/DXV/20250515_1032_Fall Forest Adventure_loop_01jva95sddf9d8pqz1pt26k2sq.mov`
+- **20250515_1041_mystical mosaic dreamscape_loop_01jva9qxp1fvht98w6mvntjfzm.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/NeoRetroRender/DXV/20250515_1041_Mystical Mosaic Dreamscape_loop_01jva9qxp1fvht98w6mvntjfzm.mov`
+  - `/Users/donovan/work/Visuals/sora/NeoRetroRender/DXV/20250515_1041_Mystical Mosaic Dreamscape_loop_01jva9qxp1fvht98w6mvntjfzm.mov`
+- **20250515_1116_scenic imagery compilation_loop_01jvabq4eqeb79k1r2fegq5d8b.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/NeoRetroRender/DXV/20250515_1116_Scenic Imagery Compilation_loop_01jvabq4eqeb79k1r2fegq5d8b.mov`
+  - `/Users/donovan/work/Visuals/sora/NeoRetroRender/DXV/20250515_1116_Scenic Imagery Compilation_loop_01jvabq4eqeb79k1r2fegq5d8b.mov`
+- **20250515_1120_no prompt provided_loop_01jvabyt8zf6bvt7zbnj3m60bg.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/NeoRetroRender/DXV/20250515_1120_No Prompt Provided_loop_01jvabyt8zf6bvt7zbnj3m60bg.mov`
+  - `/Users/donovan/work/Visuals/sora/NeoRetroRender/DXV/20250515_1120_No Prompt Provided_loop_01jvabyt8zf6bvt7zbnj3m60bg.mov`
+- **20250515_1129_no prompt provided_loop_01jvacfp0ef4896c4tsx3p7452.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/NeoRetroRender/DXV/20250515_1129_No Prompt Provided_loop_01jvacfp0ef4896c4tsx3p7452.mov`
+  - `/Users/donovan/work/Visuals/sora/NeoRetroRender/DXV/20250515_1129_No Prompt Provided_loop_01jvacfp0ef4896c4tsx3p7452.mov`
+- **20250515_1140_title needed_loop_01jvad26dxezvvjvyz2y1p20sa.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/NeoRetroRender/DXV/20250515_1140_Title Needed_loop_01jvad26dxezvvjvyz2y1p20sa.mov`
+  - `/Users/donovan/work/Visuals/sora/NeoRetroRender/DXV/20250515_1140_Title Needed_loop_01jvad26dxezvvjvyz2y1p20sa.mov`
+- **20250515_1156_untitled scene_loop_01jvadzfq9fnprbjyp60ky4cwj.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/NeoRetroRender/DXV/20250515_1156_Untitled Scene_loop_01jvadzfq9fnprbjyp60ky4cwj.mov`
+  - `/Users/donovan/work/Visuals/sora/NeoRetroRender/DXV/20250515_1156_Untitled Scene_loop_01jvadzfq9fnprbjyp60ky4cwj.mov`
+- **20250515_1157_no prompt provided_loop_01jvae2hw3ep7sv0p6a18q4fqw.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/NeoRetroRender/DXV/20250515_1157_No Prompt Provided_loop_01jvae2hw3ep7sv0p6a18q4fqw.mov`
+  - `/Users/donovan/work/Visuals/sora/NeoRetroRender/DXV/20250515_1157_No Prompt Provided_loop_01jvae2hw3ep7sv0p6a18q4fqw.mov`
+- **20250515_1159_no prompt provided_loop_01jvae5bjdfg0stkjvw351crza.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/NeoRetroRender/DXV/20250515_1159_No Prompt Provided_loop_01jvae5bjdfg0stkjvw351crza.mov`
+  - `/Users/donovan/work/Visuals/sora/NeoRetroRender/DXV/20250515_1159_No Prompt Provided_loop_01jvae5bjdfg0stkjvw351crza.mov`
+- **20250515_1200_missing prompt_loop_01jvae7egdfj9tsxktag92krwc.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/NeoRetroRender/DXV/20250515_1200_Missing Prompt_loop_01jvae7egdfj9tsxktag92krwc.mov`
+  - `/Users/donovan/work/Visuals/sora/NeoRetroRender/DXV/20250515_1200_Missing Prompt_loop_01jvae7egdfj9tsxktag92krwc.mov`
+- **20250515_1230_timeless mosaic mystique_loop_01jvafz6ycf9m84patvqwxb1tk.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/NeoRetroRender/DXV/20250515_1230_Timeless Mosaic Mystique_loop_01jvafz6ycf9m84patvqwxb1tk.mov`
+  - `/Users/donovan/work/Visuals/sora/NeoRetroRender/DXV/20250515_1230_Timeless Mosaic Mystique_loop_01jvafz6ycf9m84patvqwxb1tk.mov`
+- **20250515_1240_nature's tranquil beauty_loop_01jvaggx7jfhr8301hdpts98we.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/NeoRetroRender/DXV/20250515_1240_Nature's Tranquil Beauty_loop_01jvaggx7jfhr8301hdpts98we.mov`
+  - `/Users/donovan/work/Visuals/sora/NeoRetroRender/DXV/20250515_1240_Nature's Tranquil Beauty_loop_01jvaggx7jfhr8301hdpts98we.mov`
+- **20250515_1240_no prompt provided_loop_01jvaghmxee60re8paeq9av867.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/NeoRetroRender/DXV/20250515_1240_No Prompt Provided_loop_01jvaghmxee60re8paeq9av867.mov`
+  - `/Users/donovan/work/Visuals/sora/NeoRetroRender/DXV/20250515_1240_No Prompt Provided_loop_01jvaghmxee60re8paeq9av867.mov`
+- **20250515_1250_eerie courtyard visions_loop_01jvah3616fdxtx1ead79ca3k6.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/NeoRetroRender/DXV/20250515_1250_Eerie Courtyard Visions_loop_01jvah3616fdxtx1ead79ca3k6.mov`
+  - `/Users/donovan/work/Visuals/sora/NeoRetroRender/DXV/20250515_1250_Eerie Courtyard Visions_loop_01jvah3616fdxtx1ead79ca3k6.mov`
+- **20250515_1254_no prompt available_loop_01jvahbcmzfbg98hvf2ppfngjq.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/NeoRetroRender/DXV/20250515_1254_No Prompt Available_loop_01jvahbcmzfbg98hvf2ppfngjq.mov`
+  - `/Users/donovan/work/Visuals/sora/NeoRetroRender/DXV/20250515_1254_No Prompt Available_loop_01jvahbcmzfbg98hvf2ppfngjq.mov`
+- **20250515_1257_images requested_loop_01jvahf8nafj5bd12pgjzwnyvx.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/NeoRetroRender/DXV/20250515_1257_Images Requested_loop_01jvahf8nafj5bd12pgjzwnyvx.mov`
+  - `/Users/donovan/work/Visuals/sora/NeoRetroRender/DXV/20250515_1257_Images Requested_loop_01jvahf8nafj5bd12pgjzwnyvx.mov`
+- **20250515_1336_futuristic dystopian figures_loop_01jvakqnnhfvvbxqtx6s13t2vq.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/NeoRetroRender/DXV/20250515_1336_Futuristic Dystopian Figures_loop_01jvakqnnhfvvbxqtx6s13t2vq.mov`
+  - `/Users/donovan/work/Visuals/sora/NeoRetroRender/DXV/20250515_1336_Futuristic Dystopian Figures_loop_01jvakqnnhfvvbxqtx6s13t2vq.mov`
+- **20250515_1342_futuristic art deco conference_loop_01jvam1v1xe3qbq7kkxwe9vyq6.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/NeoRetroRender/DXV/20250515_1342_Futuristic Art Deco Conference_loop_01jvam1v1xe3qbq7kkxwe9vyq6.mov`
+  - `/Users/donovan/work/Visuals/sora/NeoRetroRender/DXV/20250515_1342_Futuristic Art Deco Conference_loop_01jvam1v1xe3qbq7kkxwe9vyq6.mov`
+- **20250515_1343_serene landscapes_loop_01jvam44h6ex5tsejy5kkc6cgw.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/NeoRetroRender/DXV/20250515_1343_Serene Landscapes_loop_01jvam44h6ex5tsejy5kkc6cgw.mov`
+  - `/Users/donovan/work/Visuals/sora/NeoRetroRender/DXV/20250515_1343_Serene Landscapes_loop_01jvam44h6ex5tsejy5kkc6cgw.mov`
+- **20250515_1345_futuristic art deco room_loop_01jvam7atzfvt9r1pez93py793.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/NeoRetroRender/DXV/20250515_1345_Futuristic Art Deco Room_loop_01jvam7atzfvt9r1pez93py793.mov`
+  - `/Users/donovan/work/Visuals/sora/NeoRetroRender/DXV/20250515_1345_Futuristic Art Deco Room_loop_01jvam7atzfvt9r1pez93py793.mov`
+- **20250515_1350_imagery collection video_loop_01jvamgyh6f6eas54kd091xpgh.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/NeoRetroRender/DXV/20250515_1350_Imagery Collection Video_loop_01jvamgyh6f6eas54kd091xpgh.mov`
+  - `/Users/donovan/work/Visuals/sora/NeoRetroRender/DXV/20250515_1350_Imagery Collection Video_loop_01jvamgyh6f6eas54kd091xpgh.mov`
+- **20250515_1355_image gallery showcase_loop_01jvamtvg5fs3sjxymk2s76kzq.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/NeoRetroRender/DXV/20250515_1355_Image Gallery Showcase_loop_01jvamtvg5fs3sjxymk2s76kzq.mov`
+  - `/Users/donovan/work/Visuals/sora/NeoRetroRender/DXV/20250515_1355_Image Gallery Showcase_loop_01jvamtvg5fs3sjxymk2s76kzq.mov`
+- **20250515_1356_mountain road adventure_loop_01jvamwpcmevjvtgtbp7f5bcew.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/NeoRetroRender/DXV/20250515_1356_Mountain Road Adventure_loop_01jvamwpcmevjvtgtbp7f5bcew.mov`
+  - `/Users/donovan/work/Visuals/sora/NeoRetroRender/DXV/20250515_1356_Mountain Road Adventure_loop_01jvamwpcmevjvtgtbp7f5bcew.mov`
+- **20250515_1414_futuristic dystopian figures_loop_01jvanxen4f3xbpgpc1svrtm76.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/NeoRetroRender/DXV/20250515_1414_Futuristic Dystopian Figures_loop_01jvanxen4f3xbpgpc1svrtm76.mov`
+  - `/Users/donovan/work/Visuals/sora/NeoRetroRender/DXV/20250515_1414_Futuristic Dystopian Figures_loop_01jvanxen4f3xbpgpc1svrtm76.mov`
+- **20250515_1416_dystopian skulls of futurity_loop_01jvap19t9eh581mg4p9pr439e.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/NeoRetroRender/DXV/20250515_1416_Dystopian Skulls of Futurity_loop_01jvap19t9eh581mg4p9pr439e.mov`
+  - `/Users/donovan/work/Visuals/sora/NeoRetroRender/DXV/20250515_1416_Dystopian Skulls of Futurity_loop_01jvap19t9eh581mg4p9pr439e.mov`
+- **20250515_1416_futuristic dystopian figures_loop_01jvap0q0df6jb3g7w9y5g1a6b.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/NeoRetroRender/DXV/20250515_1416_Futuristic Dystopian Figures_loop_01jvap0q0df6jb3g7w9y5g1a6b.mov`
+  - `/Users/donovan/work/Visuals/sora/NeoRetroRender/DXV/20250515_1416_Futuristic Dystopian Figures_loop_01jvap0q0df6jb3g7w9y5g1a6b.mov`
+- **20250515_1436_no prompt provided_loop_01jvaq50xnfp9vk3vx6krb72g4.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/NeoRetroRender/DXV/20250515_1436_No Prompt Provided_loop_01jvaq50xnfp9vk3vx6krb72g4.mov`
+  - `/Users/donovan/work/Visuals/sora/NeoRetroRender/DXV/20250515_1436_No Prompt Provided_loop_01jvaq50xnfp9vk3vx6krb72g4.mov`
+- **20250516_1001_futuristic mask illumination_loop_01jvcstwvhfj4bp4c1g4403pzy.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/NeoRetroRender/DXV/20250516_1001_Futuristic Mask Illumination_loop_01jvcstwvhfj4bp4c1g4403pzy.mov`
+  - `/Users/donovan/work/Visuals/sora/NeoRetroRender/DXV/20250516_1001_Futuristic Mask Illumination_loop_01jvcstwvhfj4bp4c1g4403pzy.mov`
+- **20250516_1007_futuristic mask enigma_loop_01jvct5q5xff2r1d796by2kger.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/NeoRetroRender/DXV/20250516_1007_Futuristic Mask Enigma_loop_01jvct5q5xff2r1d796by2kger.mov`
+  - `/Users/donovan/work/Visuals/sora/NeoRetroRender/DXV/20250516_1007_Futuristic Mask Enigma_loop_01jvct5q5xff2r1d796by2kger.mov`
+- **20250516_1604_no prompt provided_loop_01jvdejkmqe4nvhj4kn46924sj.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/NeoRetroRender/DXV/20250516_1604_No Prompt Provided_loop_01jvdejkmqe4nvhj4kn46924sj.mov`
+  - `/Users/donovan/work/Visuals/sora/NeoRetroRender/DXV/20250516_1604_No Prompt Provided_loop_01jvdejkmqe4nvhj4kn46924sj.mov`
+- **20250516_1005_futuristic face projection_storyboard_01.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/split loops/DXV/20250516_1005_Futuristic Face Projection_storyboard_01.mov`
+  - `/Users/donovan/work/Visuals/sora/split loops/DXV/20250516_1005_Futuristic Face Projection_storyboard_01.mov`
+- **20250516_1005_serene forest walk_storyboard_01.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/split loops/DXV/20250516_1005_Serene Forest Walk_storyboard_01.mov`
+  - `/Users/donovan/work/Visuals/sora/split loops/DXV/20250516_1005_Serene Forest Walk_storyboard_01.mov`
+- **20250516_1008_no title provided_storyboard_01.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/split loops/DXV/20250516_1008_No Title Provided_storyboard_01.mov`
+  - `/Users/donovan/work/Visuals/sora/split loops/DXV/20250516_1008_No Title Provided_storyboard_01.mov`
+- **20250516_1602_untitled video scene_storyboard_01.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/split loops/DXV/20250516_1602_Untitled Video Scene_storyboard_01.mov`
+  - `/Users/donovan/work/Visuals/sora/split loops/DXV/20250516_1602_Untitled Video Scene_storyboard_01.mov`
+- **20250516_1810_missing visuals inquiry_storyboard_01.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/split loops/DXV/20250516_1810_Missing Visuals Inquiry_storyboard_01.mov`
+  - `/Users/donovan/work/Visuals/sora/split loops/DXV/20250516_1810_Missing Visuals Inquiry_storyboard_01.mov`
+- **20250517_0005_image_compilation_video_gen_01.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/split loops/DXV/20250517_0005_Image_Compilation_Video_gen_01.mov`
+  - `/Users/donovan/work/Visuals/sora/split loops/DXV/20250517_0005_Image_Compilation_Video_gen_01.mov`
+- **crystal forest warp.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/split loops/DXV/crystal forest warp.mov`
+  - `/Users/donovan/work/Visuals/sora/split loops/DXV/crystal forest warp.mov`
+- **20241221_0544_blend video_blend_01jfmghbtef9pa97r8vaa4whjr.mov** — folder_match; original: `/C:/Users/User/Videos/visuals/sora/upscaled/DXV/20241221_0544_Blend Video_blend_01jfmghbtef9pa97r8vaa4whjr.mov`
+  - `/Users/donovan/work/Visuals/sora/upscaled/DXV/20241221_0544_Blend Video_blend_01jfmghbtef9pa97r8vaa4whjr.mov`
+- **rare nasa mission control consoles close up screen views 1970 hd (space apollo computers mocr).mov** — filename_only_candidate; original: `/C:/Users/User/Videos/youtube rips/dxv/RARE NASA Mission Control Consoles CLOSE UP SCREEN VIEWS 1970 HD (Space Apollo Computers MOCR).mov`
+  - `/Users/donovan/Documents/Resolume Arena/Renders/RARE NASA Mission Control Consoles CLOSE UP SCREEN VIEWS 1970 HD (Space Apollo Computers MOCR).mov`
+
+Full unresolved list and candidate details: portal-video-candidates.json.

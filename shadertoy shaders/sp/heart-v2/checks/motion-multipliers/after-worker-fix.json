@@ -1,0 +1,205 @@
+{
+  "error": "",
+  "armed": true,
+  "hold": false,
+  "bpm": 140.0,
+  "capabilities": {
+    "stage_family": true,
+    "stage_shuffle": true,
+    "motion_multiplier": true
+  },
+  "multipliers": {},
+  "stage_motion": [
+    {
+      "group_id": 1789004679714,
+      "section": null,
+      "label": "Portal Frame",
+      "ready": true,
+      "members": [
+        1789004679883,
+        1789004679894,
+        1789004679901,
+        1789004679907,
+        1789004679914,
+        1789004679921,
+        1789004679928,
+        1789004679935,
+        1789004679946,
+        1789004679953,
+        1789004679960,
+        1789004679967,
+        1789004679974,
+        1789004679981,
+        1789004679988,
+        1789004679995,
+        1789004680002
+      ],
+      "prepared": 16,
+      "driven": 16,
+      "shuffleable": 16,
+      "pattern": 0,
+      "mult": 1.0
+    },
+    {
+      "group_id": 1789004679714,
+      "section": "base",
+      "label": "Base",
+      "ready": true,
+      "members": [
+        1789004679883
+      ],
+      "prepared": 1,
+      "driven": 1,
+      "shuffleable": 1,
+      "pattern": 0,
+      "mult": 1.0
+    },
+    {
+      "group_id": 1789004679714,
+      "section": "background",
+      "label": "Background",
+      "ready": true,
+      "members": [
+        1789004679894,
+        1789004679901,
+        1789004679907
+      ],
+      "prepared": 3,
+      "driven": 3,
+      "shuffleable": 3,
+      "pattern": 0,
+      "mult": 1.0
+    },
+    {
+      "group_id": 1789004679714,
+      "section": "blades",
+      "label": "Blades",
+      "ready": true,
+      "members": [
+        1789004679914,
+        1789004679921,
+        1789004679928
+      ],
+      "prepared": 3,
+      "driven": 3,
+      "shuffleable": 3,
+      "pattern": 0,
+      "mult": 1.0
+    },
+    {
+      "group_id": 1789004679714,
+      "section": "squares",
+      "label": "Squares",
+      "ready": true,
+      "members": [
+        1789004679935,
+        1789004679946
+      ],
+      "prepared": 2,
+      "driven": 2,
+      "shuffleable": 2,
+      "pattern": 0,
+      "mult": 1.0
+    },
+    {
+      "group_id": 1789004679714,
+      "section": "balls",
+      "label": "Balls",
+      "ready": true,
+      "members": [
+        1789004679953,
+        1789004679960
+      ],
+      "prepared": 2,
+      "driven": 2,
+      "shuffleable": 2,
+      "pattern": 0,
+      "mult": 1.0
+    },
+    {
+      "group_id": 1789004679714,
+      "section": "rings",
+      "label": "Rings",
+      "ready": true,
+      "members": [
+        1789004679967,
+        1789004679974,
+        1789004679981,
+        1789004679988,
+        1789004679995
+      ],
+      "prepared": 5,
+      "driven": 5,
+      "shuffleable": 5,
+      "pattern": 0,
+      "mult": 1.0
+    },
+    {
+      "group_id": 1789004679714,
+      "section": "outline",
+      "label": "Outline",
+      "ready": true,
+      "members": [
+        1789004680002
+      ],
+      "prepared": 0,
+      "driven": 0,
+      "shuffleable": 0,
+      "pattern": null,
+      "mult": 1.0
+    },
+    {
+      "group_id": 1789004679714,
+      "section": "effects",
+      "label": "Shared effects",
+      "ready": true,
+      "members": [],
+      "prepared": 0,
+      "driven": 0,
+      "shuffleable": 0,
+      "pattern": null,
+      "mult": 1.0
+    }
+  ],
+  "metrics": {
+    "tick_p95_ms": 9.74,
+    "work_p95_ms": 0.32,
+    "scan_ms": 251,
+    "bridge_work_ms": 6.77,
+    "sent": 225841,
+    "owned": 31
+  },
+  "native_output": {
+    "parameter": 1789181905216,
+    "span": 0.023926862091664614,
+    "within_bounds": true,
+    "program_preserved": true,
+    "samples": [
+      0.9797010111294615,
+      0.9821885227971546,
+      0.9857253275884352,
+      0.9886448063644511,
+      0.9912391623348502,
+      0.9935027113219354,
+      0.9954305594614857,
+      0.997256487559223,
+      0.9984544204097612,
+      0.9993116673585274,
+      0.9998265261918797,
+      1.0,
+      0.9998309945026899,
+      0.9993151933725001,
+      0.9987886318203592,
+      0.9973816610552524,
+      0.9958765090390104,
+      0.994526623224254,
+      0.9918580689770681,
+      0.9893501003489991,
+      0.9865127533812084,
+      0.9833553902487269,
+      0.9798694390900002,
+      0.9760731379083354
+    ]
+  },
+  "sent_during_check": 14280
+}

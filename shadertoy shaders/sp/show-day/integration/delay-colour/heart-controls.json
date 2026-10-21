@@ -1,0 +1,491 @@
+[
+  {
+    "binding": [
+      1788814507977,
+      1788824158773
+    ],
+    "motion": {
+      "slots": [
+        {
+          "name": "Factor",
+          "owner": "unverified",
+          "choices": [],
+          "v": 0.4195,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false,
+          "min": 0.0,
+          "max": 1.0,
+          "integer": false,
+          "base": 0.4195095603890387,
+          "phase": 0.0,
+          "phase_fm": 0.0,
+          "rotation": 0.0
+        },
+        {
+          "name": "Offset",
+          "owner": "unverified",
+          "choices": [],
+          "v": 0.1884,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false,
+          "min": 0.0,
+          "max": 1.0,
+          "integer": false,
+          "base": 0.18839808653904605,
+          "phase": 0.0,
+          "phase_fm": 0.0,
+          "rotation": 0.0
+        },
+        {
+          "name": "Red offset",
+          "owner": "unverified",
+          "choices": [],
+          "v": 0.8131,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false,
+          "min": 0.0,
+          "max": 1.0,
+          "integer": false,
+          "base": 0.8130941496555285,
+          "phase": 0.0,
+          "phase_fm": 0.0,
+          "rotation": 0.0
+        },
+        {
+          "name": "Green offset",
+          "owner": "unverified",
+          "choices": [],
+          "v": 0.1526,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false,
+          "min": 0.0,
+          "max": 1.0,
+          "integer": false,
+          "base": 0.1525905935630703,
+          "phase": 0.0,
+          "phase_fm": 0.0,
+          "rotation": 0.0
+        },
+        {
+          "name": "Blue offset",
+          "owner": "unverified",
+          "choices": [],
+          "v": 0.0149,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false,
+          "min": 0.0,
+          "max": 1.0,
+          "integer": false,
+          "base": 0.014859987319111534,
+          "phase": 0.0,
+          "phase_fm": 0.0,
+          "rotation": 0.0
+        }
+      ],
+      "guard": "",
+      "g": {
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0,
+        "speed": 1.0,
+        "relationship": null
+      },
+      "morph": 1.0,
+      "home": false,
+      "home_kind": "Home: rest + off",
+      "arm": {
+        "global": [],
+        "slots": {
+          "Factor": [
+            "motion",
+            "timing"
+          ],
+          "Offset": [
+            "motion",
+            "timing"
+          ],
+          "Red offset": [
+            "motion",
+            "timing"
+          ],
+          "Green offset": [
+            "motion",
+            "timing"
+          ],
+          "Blue offset": [
+            "motion",
+            "timing"
+          ]
+        }
+      }
+    },
+    "pulsing": false,
+    "pulse_stage": null,
+    "instance": "b395db235b3f499d8cb6a7ca7089f8c5",
+    "key": "layer/delay~1/effect/ColourLoop~1",
+    "scope": "L",
+    "layer": 4,
+    "lname": "delay",
+    "name": "ColourLoop",
+    "target_kind": "effect",
+    "colors": {},
+    "params": {
+      "Opacity": {
+        "id": 1788824158775,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.0,
+        "view": {
+          "suffix": " %",
+          "multiplier": 100.0,
+          "display_units": "percent",
+          "control_type": "slider_color_opacity"
+        }
+      },
+      "Factor": {
+        "id": 1788824158763,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.4195095603890387,
+        "view": {
+          "suffix": ""
+        }
+      },
+      "Offset": {
+        "id": 1788824158764,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.18839808653904605,
+        "view": {
+          "suffix": ""
+        }
+      },
+      "Red offset": {
+        "id": 1788824158765,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.8130941496555285,
+        "view": {
+          "suffix": ""
+        }
+      },
+      "Green offset": {
+        "id": 1788824158766,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.1525905935630703,
+        "view": {
+          "suffix": ""
+        }
+      },
+      "Blue offset": {
+        "id": 1788824158767,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.014859987319111534,
+        "view": {
+          "suffix": ""
+        }
+      },
+      "Black & White": {
+        "valuetype": "ParamBoolean",
+        "id": 1788824158768,
+        "value": false,
+        "view": {
+          "suffix": ""
+        }
+      }
+    },
+    "has_amount": true,
+    "observed_amount": 0.0,
+    "observed_bypassed": true,
+    "env": 0.0,
+    "target": 0.0,
+    "pending": false,
+    "bypassed": true,
+    "cfg": {
+      "attack": 0.5,
+      "release": 1.0,
+      "mode": "latch",
+      "quant": 0,
+      "hold": 0.0,
+      "key": "",
+      "bypass0": true,
+      "bind": null,
+      "pulse_attack": 0.04,
+      "pulse_hold": 0.08,
+      "pulse_return": 0.25
+    }
+  },
+  {
+    "binding": [
+      1788814507977,
+      1788824160326
+    ],
+    "motion": {
+      "slots": [
+        {
+          "name": "R delay",
+          "owner": "unverified",
+          "choices": [],
+          "v": 0.0,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false,
+          "min": 0.0,
+          "max": 1.0,
+          "integer": false,
+          "base": 0.0,
+          "phase": 0.0,
+          "phase_fm": 0.0,
+          "rotation": 0.0
+        },
+        {
+          "name": "G delay",
+          "owner": "unverified",
+          "choices": [],
+          "v": 0.15,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false,
+          "min": 0.0,
+          "max": 1.0,
+          "integer": false,
+          "base": 0.15,
+          "phase": 0.0,
+          "phase_fm": 0.0,
+          "rotation": 0.0
+        },
+        {
+          "name": "B delay",
+          "owner": "unverified",
+          "choices": [],
+          "v": 0.3,
+          "drive": false,
+          "morphing": false,
+          "morph_remaining": 0.0,
+          "morph_progress": 1.0,
+          "cyc": false,
+          "ratio": "1:1",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false,
+          "min": 0.0,
+          "max": 1.0,
+          "integer": false,
+          "base": 0.3,
+          "phase": 0.0,
+          "phase_fm": 0.0,
+          "rotation": 0.0
+        }
+      ],
+      "guard": "",
+      "g": {
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0,
+        "speed": 1.0,
+        "relationship": null
+      },
+      "morph": 1.0,
+      "home": false,
+      "home_kind": "Home: rest + off",
+      "arm": {
+        "global": [],
+        "slots": {
+          "R delay": [
+            "motion",
+            "timing"
+          ],
+          "G delay": [
+            "motion",
+            "timing"
+          ],
+          "B delay": [
+            "motion",
+            "timing"
+          ]
+        }
+      }
+    },
+    "pulsing": false,
+    "pulse_stage": null,
+    "instance": "df5ee0d291064bfd8c30d44b28054913",
+    "key": "layer/delay~1/effect/DelayRGB~1",
+    "scope": "L",
+    "layer": 4,
+    "lname": "delay",
+    "name": "Delay RGB",
+    "target_kind": "effect",
+    "colors": {},
+    "params": {
+      "Opacity": {
+        "id": 1788824160328,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.0,
+        "view": {
+          "suffix": " %",
+          "multiplier": 100.0,
+          "display_units": "percent",
+          "control_type": "slider_color_opacity"
+        }
+      },
+      "R delay": {
+        "id": 1788824160322,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.0,
+        "view": {
+          "suffix": "",
+          "alternative_name": "Delay R"
+        }
+      },
+      "G delay": {
+        "id": 1788824160323,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.15,
+        "view": {
+          "suffix": "",
+          "alternative_name": "Delay G"
+        }
+      },
+      "B delay": {
+        "id": 1788824160324,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 1.0,
+        "in": 0.0,
+        "out": 1.0,
+        "value": 0.3,
+        "view": {
+          "suffix": "",
+          "alternative_name": "Delay B"
+        }
+      }
+    },
+    "has_amount": true,
+    "observed_amount": 0.0,
+    "observed_bypassed": true,
+    "env": 0.0,
+    "target": 0.0,
+    "pending": false,
+    "bypassed": true,
+    "cfg": {
+      "attack": 0.5,
+      "release": 1.0,
+      "mode": "latch",
+      "quant": 0,
+      "hold": 0.0,
+      "key": "",
+      "bypass0": true,
+      "bind": null,
+      "pulse_attack": 0.04,
+      "pulse_hold": 0.08,
+      "pulse_return": 0.25
+    }
+  }
+]

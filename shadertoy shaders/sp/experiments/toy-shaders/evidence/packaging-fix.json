@@ -1,0 +1,29 @@
+{
+  "diagnosis": "Original staged wrapper has no toyPoints cached input, constant, connection or image resource node; original shader declared it only via IMPORTED.",
+  "image_node_template": "/Applications/Resolume Wire/Documentation/Nodes/77697265-3683-409B-8C89-43AFAEA9A2B0 - Image/77697265-3683-409B-8C89-43AFAEA9A2B0 - Image.wire",
+  "image_node_id": 48,
+  "connection": {
+    "from": [
+      48,
+      "output"
+    ],
+    "to": [
+      0,
+      "toyPoints"
+    ]
+  },
+  "patch_identifier_preserved": "ae071f5a-77cb-4046-8d38-338259bbac2f",
+  "source_body_unchanged": true,
+  "point_png_sha256": "782ffd9923edc54fb41925e6394ba75478605c89362a917ed4ee059c5db5b7d7",
+  "controls_and_input_order_unchanged": true,
+  "live_validation": {
+    "reported_by": "main task 01a07bb9-9f37-79f0-b980-bea341c55d66",
+    "result": "Fixed package integrated and L5C75 reloaded; isolated Arena output visibly renders the quasicrystal.",
+    "evidence": "evidence/isolated-75.png",
+    "limits": "Image loading/output success only; sustained performance, rotation smoothness and full modulation ranges not certified. Main task owns Home verification and final save."
+  },
+  "glslang": "1/1 clean",
+  "explicit_input_offscreen_render": "passed 480x480 RGBA",
+  "original_vs_explicit_max_channel_difference": 0,
+  "original_vs_explicit_changed_pixels": 0
+}

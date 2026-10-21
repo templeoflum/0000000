@@ -1,0 +1,857 @@
+[
+  {
+    "label": "1920-1080-extreme-transform",
+    "frame": [
+      1920.0,
+      1080.0
+    ],
+    "transform": {
+      "Opacity": 1.0,
+      "Position X": 420.0,
+      "Position Y": 0.0,
+      "Scale": 10.434782608695652,
+      "Scale W": 1000.0,
+      "Scale H": 1000.0,
+      "Rotation X": 0.0,
+      "Rotation Y": 0.0,
+      "Rotation Z": 70.0,
+      "Anchor X": 0.0,
+      "Anchor Y": 0.0,
+      "Anchor Z": 0.0
+    },
+    "cloner": {
+      "Opacity": 0.0,
+      "Clones": 1.0,
+      "Tails": 1.0,
+      "Center": 0.0,
+      "Tail Length": 1.0,
+      "Start Scale": 55.24296675191817,
+      "Start Rotation": 0.0,
+      "End Scale": 45.0,
+      "End Rotation": 0.0,
+      "Distribution": 50.0,
+      "Distortion": 0.0,
+      "Reverse": false,
+      "Tail Rotation": 0.0,
+      "Master Rotation": 0.0,
+      "Delay Enabled": false,
+      "Delay Amount": 0.0,
+      "Delay Order": "New To Old",
+      "Delay Fill": "Repeat"
+    },
+    "guards": [
+      "Frame bounds \u00b7 2D",
+      "Anchor bounds \u00b7 forward / no delay / no distortion"
+    ]
+  },
+  {
+    "label": "1920-1080-anchor",
+    "frame": [
+      1920.0,
+      1080.0
+    ],
+    "transform": {
+      "Opacity": 1.0,
+      "Position X": 200.0,
+      "Position Y": 100.0,
+      "Scale": 60.0,
+      "Scale W": 100.0,
+      "Scale H": 100.0,
+      "Rotation X": 0.0,
+      "Rotation Y": 0.0,
+      "Rotation Z": 40.00000000000003,
+      "Anchor X": 0.0,
+      "Anchor Y": 0.0,
+      "Anchor Z": 0.0
+    },
+    "cloner": {
+      "Opacity": 1.0,
+      "Clones": 1.0,
+      "Tails": 1.0,
+      "Center": 0.0,
+      "Tail Length": 1.0,
+      "Start Scale": 99.3699672362508,
+      "Start Rotation": 0.0,
+      "End Scale": 45.0,
+      "End Rotation": 0.0,
+      "Distribution": 50.0,
+      "Distortion": 0.0,
+      "Reverse": false,
+      "Tail Rotation": 0.0,
+      "Master Rotation": 90.0,
+      "Delay Enabled": false,
+      "Delay Amount": 0.0,
+      "Delay Order": "New To Old",
+      "Delay Fill": "Repeat"
+    },
+    "guards": [
+      "Frame bounds \u00b7 2D",
+      "Anchor bounds \u00b7 forward / no delay / no distortion"
+    ]
+  },
+  {
+    "label": "1920-1080-open-0",
+    "frame": [
+      1920.0,
+      1080.0
+    ],
+    "transform": {
+      "Opacity": 1.0,
+      "Position X": -226.7309417865181,
+      "Position Y": 120.6412686612166,
+      "Scale": 79.78844706887772,
+      "Scale W": 100.0,
+      "Scale H": 100.0,
+      "Rotation X": 0.0,
+      "Rotation Y": 0.0,
+      "Rotation Z": 179.5353743946249,
+      "Anchor X": 0.0,
+      "Anchor Y": 0.0,
+      "Anchor Z": 0.0
+    },
+    "cloner": {
+      "Opacity": 1.0,
+      "Clones": 1.0,
+      "Tails": 1.0,
+      "Center": 0.0,
+      "Tail Length": -0.05917076000810084,
+      "Start Scale": 79.36092404696996,
+      "Start Rotation": -179.97248353979373,
+      "End Scale": 74.11628518409998,
+      "End Rotation": 356.95481771123605,
+      "Distribution": 28.922977989439513,
+      "Distortion": 0.0,
+      "Reverse": false,
+      "Tail Rotation": 98.28798434562032,
+      "Master Rotation": 53.39690793964252,
+      "Delay Enabled": false,
+      "Delay Amount": 0.0,
+      "Delay Order": "New To Old",
+      "Delay Fill": "Repeat"
+    },
+    "guards": [
+      "Frame bounds \u00b7 2D",
+      "Anchor bounds \u00b7 forward / no delay / no distortion"
+    ]
+  },
+  {
+    "label": "1920-1080-open-1",
+    "frame": [
+      1920.0,
+      1080.0
+    ],
+    "transform": {
+      "Opacity": 1.0,
+      "Position X": -36.81790878466563,
+      "Position Y": 122.02287759882165,
+      "Scale": 79.21279636552401,
+      "Scale W": 100.0,
+      "Scale H": 100.0,
+      "Rotation X": 0.0,
+      "Rotation Y": 0.0,
+      "Rotation Z": 163.17349082532638,
+      "Anchor X": 0.0,
+      "Anchor Y": 0.0,
+      "Anchor Z": 0.0
+    },
+    "cloner": {
+      "Opacity": 1.0,
+      "Clones": 1.0,
+      "Tails": 1.0,
+      "Center": 0.07174554613280848,
+      "Tail Length": 0.6816555088971654,
+      "Start Scale": 95.34962197633658,
+      "Start Rotation": 144.0110004820121,
+      "End Scale": 97.87888789965906,
+      "End Rotation": 298.90933021186174,
+      "Distribution": 99.37832826542852,
+      "Distortion": 0.0,
+      "Reverse": false,
+      "Tail Rotation": 41.19370664246844,
+      "Master Rotation": -164.46900450348096,
+      "Delay Enabled": false,
+      "Delay Amount": 0.0,
+      "Delay Order": "New To Old",
+      "Delay Fill": "Repeat"
+    },
+    "guards": [
+      "Frame bounds \u00b7 2D",
+      "Anchor bounds \u00b7 forward / no delay / no distortion"
+    ]
+  },
+  {
+    "label": "1920-1080-open-2",
+    "frame": [
+      1920.0,
+      1080.0
+    ],
+    "transform": {
+      "Opacity": 1.0,
+      "Position X": 89.76712221840717,
+      "Position Y": 122.60215799988146,
+      "Scale": 77.02182110599489,
+      "Scale W": 100.0,
+      "Scale H": 100.0,
+      "Rotation X": 0.0,
+      "Rotation Y": 0.0,
+      "Rotation Z": 141.56856462373486,
+      "Anchor X": 0.0,
+      "Anchor Y": 0.0,
+      "Anchor Z": 0.0
+    },
+    "cloner": {
+      "Opacity": 1.0,
+      "Clones": 1.0,
+      "Tails": 1.0,
+      "Center": -0.022463518576394503,
+      "Tail Length": -0.7682549862815904,
+      "Start Scale": 92.75218950707864,
+      "Start Rotation": -38.4589965608252,
+      "End Scale": 67.34303044321109,
+      "End Rotation": 97.27711223983422,
+      "Distribution": 11.959058733940816,
+      "Distortion": 0.0,
+      "Reverse": false,
+      "Tail Rotation": 20.139335112628487,
+      "Master Rotation": 25.267954821788976,
+      "Delay Enabled": false,
+      "Delay Amount": 0.0,
+      "Delay Order": "New To Old",
+      "Delay Fill": "Repeat"
+    },
+    "guards": [
+      "Frame bounds \u00b7 2D",
+      "Anchor bounds \u00b7 forward / no delay / no distortion"
+    ]
+  },
+  {
+    "label": "1920-1080-shuffle",
+    "frame": [
+      1920.0,
+      1080.0
+    ],
+    "transform": {
+      "Opacity": 1.0,
+      "Position X": 286.4271114912408,
+      "Position Y": 46.75908787604567,
+      "Scale": 72.77641661861823,
+      "Scale W": 100.0,
+      "Scale H": 100.0,
+      "Rotation X": 0.0,
+      "Rotation Y": 0.0,
+      "Rotation Z": -35.374245169415815,
+      "Anchor X": 0.0,
+      "Anchor Y": 0.0,
+      "Anchor Z": 0.0
+    },
+    "cloner": {
+      "Opacity": 1.0,
+      "Clones": 1.0,
+      "Tails": 1.0,
+      "Center": 0.0,
+      "Tail Length": -0.0933971220295502,
+      "Start Scale": 79.53702178478352,
+      "Start Rotation": -128.04730517152308,
+      "End Scale": 84.01942700828562,
+      "End Rotation": 0.9569583774931534,
+      "Distribution": 84.6764726042345,
+      "Distortion": 0.0,
+      "Reverse": false,
+      "Tail Rotation": 59.48553987955447,
+      "Master Rotation": 147.53643158753084,
+      "Delay Enabled": false,
+      "Delay Amount": 0.0,
+      "Delay Order": "New To Old",
+      "Delay Fill": "Repeat"
+    },
+    "guards": [
+      "Frame bounds \u00b7 2D",
+      "Anchor bounds \u00b7 forward / no delay / no distortion"
+    ]
+  },
+  {
+    "label": "1080-1920-extreme-transform",
+    "frame": [
+      1080.0,
+      1920.0
+    ],
+    "transform": {
+      "Opacity": 1.0,
+      "Position X": 0.0,
+      "Position Y": -420.0,
+      "Scale": 10.434782608695652,
+      "Scale W": 1000.0,
+      "Scale H": 1000.0,
+      "Rotation X": 0.0,
+      "Rotation Y": 0.0,
+      "Rotation Z": 70.0,
+      "Anchor X": 0.0,
+      "Anchor Y": 0.0,
+      "Anchor Z": 0.0
+    },
+    "cloner": {
+      "Opacity": 0.0,
+      "Clones": 1.0,
+      "Tails": 1.0,
+      "Center": 0.41194331149525176,
+      "Tail Length": 0.13710874071533952,
+      "Start Scale": 26.548765337499113,
+      "Start Rotation": -163.44723922391495,
+      "End Scale": 93.77636692801715,
+      "End Rotation": 0.4047234053327653,
+      "Distribution": 80.1044392147503,
+      "Distortion": 0.0,
+      "Reverse": false,
+      "Tail Rotation": 72.39621890003636,
+      "Master Rotation": 174.73657045886227,
+      "Delay Enabled": false,
+      "Delay Amount": 0.0,
+      "Delay Order": "New To Old",
+      "Delay Fill": "Repeat"
+    },
+    "guards": [
+      "Frame bounds \u00b7 2D",
+      "Anchor bounds \u00b7 forward / no delay / no distortion"
+    ]
+  },
+  {
+    "label": "1080-1920-anchor",
+    "frame": [
+      1080.0,
+      1920.0
+    ],
+    "transform": {
+      "Opacity": 1.0,
+      "Position X": 200.0,
+      "Position Y": 100.0,
+      "Scale": 60.0,
+      "Scale W": 100.0,
+      "Scale H": 100.0,
+      "Rotation X": 0.0,
+      "Rotation Y": 0.0,
+      "Rotation Z": 40.00000000000003,
+      "Anchor X": 0.0,
+      "Anchor Y": 0.0,
+      "Anchor Z": 0.0
+    },
+    "cloner": {
+      "Opacity": 1.0,
+      "Clones": 1.0,
+      "Tails": 1.0,
+      "Center": 0.7777777777777777,
+      "Tail Length": 0.13710874071533952,
+      "Start Scale": 99.3699672362508,
+      "Start Rotation": -163.44723922391495,
+      "End Scale": 93.77636692801715,
+      "End Rotation": 0.4047234053327653,
+      "Distribution": 80.1044392147503,
+      "Distortion": 0.0,
+      "Reverse": false,
+      "Tail Rotation": 72.39621890003636,
+      "Master Rotation": 90.0,
+      "Delay Enabled": false,
+      "Delay Amount": 0.0,
+      "Delay Order": "New To Old",
+      "Delay Fill": "Repeat"
+    },
+    "guards": [
+      "Frame bounds \u00b7 2D",
+      "Anchor bounds \u00b7 forward / no delay / no distortion"
+    ]
+  },
+  {
+    "label": "1080-1920-open-0",
+    "frame": [
+      1080.0,
+      1920.0
+    ],
+    "transform": {
+      "Opacity": 1.0,
+      "Position X": -232.78208576079487,
+      "Position Y": 374.7523041990571,
+      "Scale": 56.569216021599686,
+      "Scale W": 100.0,
+      "Scale H": 100.0,
+      "Rotation X": 0.0,
+      "Rotation Y": 0.0,
+      "Rotation Z": -14.04557803872649,
+      "Anchor X": 0.0,
+      "Anchor Y": 0.0,
+      "Anchor Z": 0.0
+    },
+    "cloner": {
+      "Opacity": 1.0,
+      "Clones": 1.0,
+      "Tails": 1.0,
+      "Center": 0.0,
+      "Tail Length": 0.8772778321036574,
+      "Start Scale": 71.78055807793815,
+      "Start Rotation": 25.05466070858347,
+      "End Scale": 68.35920463638776,
+      "End Rotation": 255.0637313591484,
+      "Distribution": 55.203860039631536,
+      "Distortion": 0.0,
+      "Reverse": false,
+      "Tail Rotation": 97.39721856599586,
+      "Master Rotation": -101.59110138493588,
+      "Delay Enabled": false,
+      "Delay Amount": 0.0,
+      "Delay Order": "New To Old",
+      "Delay Fill": "Repeat"
+    },
+    "guards": [
+      "Frame bounds \u00b7 2D",
+      "Anchor bounds \u00b7 forward / no delay / no distortion"
+    ]
+  },
+  {
+    "label": "1080-1920-open-1",
+    "frame": [
+      1080.0,
+      1920.0
+    ],
+    "transform": {
+      "Opacity": 1.0,
+      "Position X": 113.22202181584726,
+      "Position Y": -113.43283861010786,
+      "Scale": 63.6461008262802,
+      "Scale W": 100.0,
+      "Scale H": 100.0,
+      "Rotation X": 0.0,
+      "Rotation Y": 0.0,
+      "Rotation Z": 52.34853184293115,
+      "Anchor X": 0.0,
+      "Anchor Y": 0.0,
+      "Anchor Z": 0.0
+    },
+    "cloner": {
+      "Opacity": 1.0,
+      "Clones": 1.0,
+      "Tails": 1.0,
+      "Center": -0.3513390014448654,
+      "Tail Length": -0.6339261670232077,
+      "Start Scale": 97.58254457405502,
+      "Start Rotation": -69.00531604869684,
+      "End Scale": 66.28972508439203,
+      "End Rotation": 49.16915901686112,
+      "Distribution": 9.81456211474665,
+      "Distortion": 0.0,
+      "Reverse": false,
+      "Tail Rotation": 72.5965396282644,
+      "Master Rotation": 95.5241865204107,
+      "Delay Enabled": false,
+      "Delay Amount": 0.0,
+      "Delay Order": "New To Old",
+      "Delay Fill": "Repeat"
+    },
+    "guards": [
+      "Frame bounds \u00b7 2D",
+      "Anchor bounds \u00b7 forward / no delay / no distortion"
+    ]
+  },
+  {
+    "label": "1080-1920-open-2",
+    "frame": [
+      1080.0,
+      1920.0
+    ],
+    "transform": {
+      "Opacity": 1.0,
+      "Position X": 16.01278380254371,
+      "Position Y": -370.59146908862385,
+      "Scale": 37.744135681479065,
+      "Scale W": 100.0,
+      "Scale H": 100.0,
+      "Rotation X": 0.0,
+      "Rotation Y": 0.0,
+      "Rotation Z": 68.10022708179986,
+      "Anchor X": 0.0,
+      "Anchor Y": 0.0,
+      "Anchor Z": 0.0
+    },
+    "cloner": {
+      "Opacity": 1.0,
+      "Clones": 1.0,
+      "Tails": 1.0,
+      "Center": 0.8372071133210208,
+      "Tail Length": 0.029939986884068848,
+      "Start Scale": 66.71178989838427,
+      "Start Rotation": 144.25470491088618,
+      "End Scale": 31.353427807542715,
+      "End Rotation": 359.09328114080586,
+      "Distribution": 39.09157016033191,
+      "Distortion": 0.0,
+      "Reverse": false,
+      "Tail Rotation": 6.200058191252511,
+      "Master Rotation": 107.8744572884969,
+      "Delay Enabled": false,
+      "Delay Amount": 0.0,
+      "Delay Order": "New To Old",
+      "Delay Fill": "Repeat"
+    },
+    "guards": [
+      "Frame bounds \u00b7 2D",
+      "Anchor bounds \u00b7 forward / no delay / no distortion"
+    ]
+  },
+  {
+    "label": "1080-1920-shuffle",
+    "frame": [
+      1080.0,
+      1920.0
+    ],
+    "transform": {
+      "Opacity": 1.0,
+      "Position X": -116.50841940104146,
+      "Position Y": 20.51705278357258,
+      "Scale": 65.10013560991543,
+      "Scale W": 100.0,
+      "Scale H": 100.0,
+      "Rotation X": 0.0,
+      "Rotation Y": 0.0,
+      "Rotation Z": -149.0292149776914,
+      "Anchor X": 0.0,
+      "Anchor Y": 0.0,
+      "Anchor Z": 0.0
+    },
+    "cloner": {
+      "Opacity": 1.0,
+      "Clones": 1.0,
+      "Tails": 1.0,
+      "Center": 0.040031699933791076,
+      "Tail Length": 0.707459145433162,
+      "Start Scale": 97.86477768291954,
+      "Start Rotation": -19.295202628677544,
+      "End Scale": 20.03009486245002,
+      "End Rotation": 109.68349114205715,
+      "Distribution": 99.72273813872164,
+      "Distortion": 0.0,
+      "Reverse": false,
+      "Tail Rotation": 7.515581114610093,
+      "Master Rotation": -80.16307832346058,
+      "Delay Enabled": false,
+      "Delay Amount": 0.0,
+      "Delay Order": "New To Old",
+      "Delay Fill": "Repeat"
+    },
+    "guards": [
+      "Frame bounds \u00b7 2D",
+      "Anchor bounds \u00b7 forward / no delay / no distortion"
+    ]
+  },
+  {
+    "label": "1024-1024-extreme-transform",
+    "frame": [
+      1024.0,
+      1024.0
+    ],
+    "transform": {
+      "Opacity": 1.0,
+      "Position X": 0.0,
+      "Position Y": 0.0,
+      "Scale": 10.434782608695652,
+      "Scale W": 1000.0,
+      "Scale H": 1000.0,
+      "Rotation X": 0.0,
+      "Rotation Y": 0.0,
+      "Rotation Z": 70.0,
+      "Anchor X": 0.0,
+      "Anchor Y": 0.0,
+      "Anchor Z": 0.0
+    },
+    "cloner": {
+      "Opacity": 0.0,
+      "Clones": 1.0,
+      "Tails": 1.0,
+      "Center": -0.03124205999114449,
+      "Tail Length": 0.39904584175906166,
+      "Start Scale": 81.74333124180149,
+      "Start Rotation": 22.79174594354572,
+      "End Scale": 21.240081817872603,
+      "End Rotation": 85.15871817867216,
+      "Distribution": 98.42453052956446,
+      "Distortion": 0.0,
+      "Reverse": false,
+      "Tail Rotation": 3.975298256857973,
+      "Master Rotation": -122.12679893684651,
+      "Delay Enabled": false,
+      "Delay Amount": 0.0,
+      "Delay Order": "New To Old",
+      "Delay Fill": "Repeat"
+    },
+    "guards": [
+      "Frame bounds \u00b7 2D",
+      "Anchor bounds \u00b7 forward / no delay / no distortion"
+    ]
+  },
+  {
+    "label": "1024-1024-anchor",
+    "frame": [
+      1024.0,
+      1024.0
+    ],
+    "transform": {
+      "Opacity": 1.0,
+      "Position X": 200.0,
+      "Position Y": 100.0,
+      "Scale": 60.0,
+      "Scale W": 100.0,
+      "Scale H": 100.0,
+      "Rotation X": 0.0,
+      "Rotation Y": 0.0,
+      "Rotation Z": 40.00000000000003,
+      "Anchor X": 0.0,
+      "Anchor Y": 0.0,
+      "Anchor Z": 0.0
+    },
+    "cloner": {
+      "Opacity": 1.0,
+      "Clones": 1.0,
+      "Tails": 1.0,
+      "Center": 0.0,
+      "Tail Length": 0.39904584175906166,
+      "Start Scale": 97.09405318377242,
+      "Start Rotation": 22.79174594354572,
+      "End Scale": 21.240081817872603,
+      "End Rotation": 85.15871817867216,
+      "Distribution": 98.42453052956446,
+      "Distortion": 0.0,
+      "Reverse": false,
+      "Tail Rotation": 3.975298256857973,
+      "Master Rotation": 90.0,
+      "Delay Enabled": false,
+      "Delay Amount": 0.0,
+      "Delay Order": "New To Old",
+      "Delay Fill": "Repeat"
+    },
+    "guards": [
+      "Frame bounds \u00b7 2D",
+      "Anchor bounds \u00b7 forward / no delay / no distortion"
+    ]
+  },
+  {
+    "label": "1024-1024-open-0",
+    "frame": [
+      1024.0,
+      1024.0
+    ],
+    "transform": {
+      "Opacity": 1.0,
+      "Position X": -2.980425367710268,
+      "Position Y": 252.98860245347896,
+      "Scale": 50.22704520596542,
+      "Scale W": 100.0,
+      "Scale H": 100.0,
+      "Rotation X": 0.0,
+      "Rotation Y": 0.0,
+      "Rotation Z": 163.86854555495438,
+      "Anchor X": 0.0,
+      "Anchor Y": 0.0,
+      "Anchor Z": 0.0
+    },
+    "cloner": {
+      "Opacity": 1.0,
+      "Clones": 1.0,
+      "Tails": 1.0,
+      "Center": -0.016253760239268167,
+      "Tail Length": -0.8329156417646573,
+      "Start Scale": 98.789215626611,
+      "Start Rotation": -15.171040942082072,
+      "End Scale": 86.64249940868724,
+      "End Rotation": 0.1233330990007886,
+      "Distribution": 21.65104478451305,
+      "Distortion": 0.0,
+      "Reverse": false,
+      "Tail Rotation": 47.48512001538897,
+      "Master Rotation": 55.776211435632774,
+      "Delay Enabled": false,
+      "Delay Amount": 0.0,
+      "Delay Order": "New To Old",
+      "Delay Fill": "Repeat"
+    },
+    "guards": [
+      "Frame bounds \u00b7 2D",
+      "Anchor bounds \u00b7 forward / no delay / no distortion"
+    ]
+  },
+  {
+    "label": "1024-1024-open-1",
+    "frame": [
+      1024.0,
+      1024.0
+    ],
+    "transform": {
+      "Opacity": 1.0,
+      "Position X": -102.5251962323764,
+      "Position Y": -188.59563225007878,
+      "Scale": 43.06028570465517,
+      "Scale W": 100.0,
+      "Scale H": 100.0,
+      "Rotation X": 0.0,
+      "Rotation Y": 0.0,
+      "Rotation Z": -179.8476876320648,
+      "Anchor X": 0.0,
+      "Anchor Y": 0.0,
+      "Anchor Z": 0.0
+    },
+    "cloner": {
+      "Opacity": 1.0,
+      "Clones": 1.0,
+      "Tails": 1.0,
+      "Center": 0.259867394967489,
+      "Tail Length": -0.2307760254363984,
+      "Start Scale": 39.40857375353913,
+      "Start Rotation": 15.498333938007818,
+      "End Scale": 20.014462064826724,
+      "End Rotation": 234.3943961710686,
+      "Distribution": 96.38476126731707,
+      "Distortion": 0.0,
+      "Reverse": false,
+      "Tail Rotation": 24.506288471884,
+      "Master Rotation": -94.78776366372244,
+      "Delay Enabled": false,
+      "Delay Amount": 0.0,
+      "Delay Order": "New To Old",
+      "Delay Fill": "Repeat"
+    },
+    "guards": [
+      "Frame bounds \u00b7 2D",
+      "Anchor bounds \u00b7 forward / no delay / no distortion"
+    ]
+  },
+  {
+    "label": "1024-1024-open-2",
+    "frame": [
+      1024.0,
+      1024.0
+    ],
+    "transform": {
+      "Opacity": 1.0,
+      "Position X": 229.41064294571697,
+      "Position Y": -10.32671556643072,
+      "Scale": 36.08424366990506,
+      "Scale W": 100.0,
+      "Scale H": 100.0,
+      "Rotation X": 0.0,
+      "Rotation Y": 0.0,
+      "Rotation Z": 158.3185315273284,
+      "Anchor X": 0.0,
+      "Anchor Y": 0.0,
+      "Anchor Z": 0.0
+    },
+    "cloner": {
+      "Opacity": 1.0,
+      "Clones": 1.0,
+      "Tails": 1.0,
+      "Center": 0.04425553513709746,
+      "Tail Length": 0.7165577745649898,
+      "Start Scale": 78.02717703065011,
+      "Start Rotation": 48.648438938248546,
+      "End Scale": 85.44812320288038,
+      "End Rotation": 323.93416759185175,
+      "Distribution": 1.613716586824765,
+      "Distortion": 0.0,
+      "Reverse": false,
+      "Tail Rotation": 96.08414231889388,
+      "Master Rotation": -122.59331153535128,
+      "Delay Enabled": false,
+      "Delay Amount": 0.0,
+      "Delay Order": "New To Old",
+      "Delay Fill": "Repeat"
+    },
+    "guards": [
+      "Frame bounds \u00b7 2D",
+      "Anchor bounds \u00b7 forward / no delay / no distortion"
+    ]
+  },
+  {
+    "label": "1024-1024-shuffle",
+    "frame": [
+      1024.0,
+      1024.0
+    ],
+    "transform": {
+      "Opacity": 1.0,
+      "Position X": 52.306168692004576,
+      "Position Y": 86.49702146848358,
+      "Scale": 46.86239544925147,
+      "Scale W": 100.0,
+      "Scale H": 100.0,
+      "Rotation X": 0.0,
+      "Rotation Y": 0.0,
+      "Rotation Z": -140.94839941178685,
+      "Anchor X": 0.0,
+      "Anchor Y": 0.0,
+      "Anchor Z": 0.0
+    },
+    "cloner": {
+      "Opacity": 1.0,
+      "Clones": 1.0,
+      "Tails": 1.0,
+      "Center": -0.7191421713197677,
+      "Tail Length": -0.3772700357602412,
+      "Start Scale": 35.2635127349197,
+      "Start Rotation": -19.21745261177304,
+      "End Scale": 36.48404715165417,
+      "End Rotation": 321.72840865972137,
+      "Distribution": 14.134657945051343,
+      "Distortion": 0.0,
+      "Reverse": false,
+      "Tail Rotation": 96.58399440368667,
+      "Master Rotation": 32.65831413866408,
+      "Delay Enabled": false,
+      "Delay Amount": 0.0,
+      "Delay Order": "New To Old",
+      "Delay Fill": "Repeat"
+    },
+    "guards": [
+      "Frame bounds \u00b7 2D",
+      "Anchor bounds \u00b7 forward / no delay / no distortion"
+    ]
+  },
+  {
+    "label": "tail-allowed-outside",
+    "frame": [
+      1024.0,
+      1024.0
+    ],
+    "transform": {
+      "Opacity": 1.0,
+      "Position X": -22.299309762782286,
+      "Position Y": 124.28117473456223,
+      "Scale": 50.89909304722002,
+      "Scale W": 100.0,
+      "Scale H": 100.0,
+      "Rotation X": 0.0,
+      "Rotation Y": 0.0,
+      "Rotation Z": -157.30029399262094,
+      "Anchor X": 0.0,
+      "Anchor Y": 0.0,
+      "Anchor Z": 0.0
+    },
+    "cloner": {
+      "Opacity": 1.0,
+      "Clones": 7.0,
+      "Tails": 1.0,
+      "Center": 0.0,
+      "Tail Length": 1.0,
+      "Start Scale": 37.36536397069536,
+      "Start Rotation": 40.787507875448966,
+      "End Scale": 42.84450759704214,
+      "End Rotation": 319.6907832628965,
+      "Distribution": 15.677847660276711,
+      "Distortion": 0.0,
+      "Reverse": false,
+      "Tail Rotation": 96.35465319986956,
+      "Master Rotation": -11.291712913612173,
+      "Delay Enabled": false,
+      "Delay Amount": 0.0,
+      "Delay Order": "New To Old",
+      "Delay Fill": "Repeat"
+    },
+    "guards": [
+      "Frame bounds \u00b7 2D",
+      "Anchor bounds \u00b7 forward / no delay / no distortion"
+    ]
+  }
+]

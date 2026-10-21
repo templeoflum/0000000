@@ -1,0 +1,184 @@
+# Controlled Vocabulary of Perceptual Mechanisms
+# All mechanism values in report frontmatter must reference an id from this file.
+# Organized by approximate processing level in the visual hierarchy.
+
+mechanisms:
+
+  # --- Retinal-level processing ---
+  retinal:
+    - id: lateral-inhibition
+      name: "Lateral Inhibition"
+      description: >
+        Inhibitory interactions between neighboring photoreceptors or retinal ganglion
+        cells that enhance edges and contribute to contrast effects (e.g., Mach bands,
+        Hermann grid).
+
+    - id: photoreceptor-adaptation
+      name: "Photoreceptor Adaptation"
+      description: >
+        Adjustment of photoreceptor sensitivity following sustained stimulation.
+        Underlies chromatic and luminance afterimages.
+
+    - id: retinal-persistence
+      name: "Retinal Persistence"
+      description: >
+        Continued neural response after stimulus offset, producing brief afterimages
+        and enabling fusion of rapidly presented stimuli (persistence of vision).
+
+  # --- Early cortical processing (V1/V2) ---
+  early_cortical:
+    - id: orientation-selectivity
+      name: "Orientation Selectivity"
+      description: >
+        Processing by orientation-tuned neurons in V1. Underlies tilt illusions,
+        tilt aftereffects, and contextual modulation of perceived orientation.
+
+    - id: spatial-filtering
+      name: "Spatial Frequency Filtering"
+      description: >
+        Decomposition of visual input into spatial frequency channels. Relevant to
+        hybrid images, blur-dependent illusions, and scale-dependent perception.
+
+    - id: motion-energy-detection
+      name: "Motion Energy Detection"
+      description: >
+        Extraction of local motion signals by direction-selective neurons in V1.
+        Underlies apparent motion, motion aftereffects, and illusory motion from
+        static patterns.
+
+    - id: contour-integration
+      name: "Contour Integration"
+      description: >
+        Linking of co-aligned local edge elements into extended contours via
+        horizontal connections in V1/V2. Relevant to illusory contours and
+        Gestalt completion.
+
+    - id: neural-adaptation
+      name: "Neural Adaptation"
+      description: >
+        Reduction in neural response following prolonged stimulation at any cortical
+        level. Shifts population coding and produces systematic aftereffects in the
+        adapted dimension.
+
+  # --- Mid-level processing (V2/V4/MT) ---
+  mid_level:
+    - id: surface-completion
+      name: "Surface Completion"
+      description: >
+        Interpolation of surface properties (color, texture, lightness) across
+        regions lacking direct stimulation. Underlies filling-in, neon color
+        spreading, and the watercolor illusion.
+
+    - id: figure-ground-segregation
+      name: "Figure-Ground Segregation"
+      description: >
+        Assignment of border ownership and separation of figure from background.
+        Underlies ambiguous figure-ground stimuli and context-dependent lightness
+        perception.
+
+    - id: lightness-computation
+      name: "Lightness Computation"
+      description: >
+        Neural processes that derive perceived surface reflectance from luminance
+        ratios and scene context. Underlies simultaneous contrast, White's illusion,
+        and checker shadow effects.
+
+    - id: color-constancy-processing
+      name: "Color Constancy Processing"
+      description: >
+        Mechanisms that maintain stable color appearance across changes in illumination.
+        Failures or ambiguities in these mechanisms produce color illusions (e.g., the
+        Dress).
+
+    - id: motion-integration
+      name: "Motion Integration"
+      description: >
+        Integration of local motion signals into coherent global motion percepts
+        in area MT/V5. Relevant to the barberpole illusion, plaid motion, and
+        motion coherence thresholds.
+
+  # --- High-level / cognitive processing ---
+  high_level:
+    - id: misapplied-size-constancy
+      name: "Misapplied Size Constancy"
+      description: >
+        Inappropriate application of size-distance scaling mechanisms to 2D stimuli
+        containing depth cues. Proposed explanation for the Ponzo, Muller-Lyer, and
+        moon illusions.
+
+    - id: depth-cue-conflict
+      name: "Depth Cue Conflict"
+      description: >
+        Conflicting information from different depth cues (binocular disparity,
+        perspective, occlusion, etc.) producing impossible objects, depth reversals,
+        or unstable percepts.
+
+    - id: bayesian-inference
+      name: "Bayesian Inference"
+      description: >
+        Perceptual interpretation as probabilistic inference combining sensory
+        evidence with prior expectations. Illusions arise when priors dominate
+        ambiguous or impoverished sensory data.
+
+    - id: predictive-coding
+      name: "Predictive Coding"
+      description: >
+        Hierarchical processing framework in which top-down predictions are compared
+        with bottom-up sensory input. Illusions may reflect strong predictions
+        overriding weak or ambiguous sensory evidence.
+
+    - id: bistable-competition
+      name: "Bistable Competition"
+      description: >
+        Neural competition between two or more mutually exclusive perceptual
+        interpretations, producing spontaneous alternation. Underlies all bistable
+        and multistable percepts (Necker cube, binocular rivalry, etc.).
+
+    - id: top-down-expectation
+      name: "Top-Down Expectation"
+      description: >
+        Influence of knowledge, context, or expectation on perception. Underlies
+        cognitive illusions such as change blindness, inattentional blindness, and
+        expectation-driven misperceptions.
+
+    - id: attentional-modulation
+      name: "Attentional Modulation"
+      description: >
+        Effects of spatial, feature-based, or object-based attention on perception.
+        Underlies attentional blink, motion-induced blindness, Troxler's fading,
+        and crowding.
+
+    - id: cross-modal-integration
+      name: "Cross-Modal Integration"
+      description: >
+        Integration of information across sensory modalities. Underlies cross-modal
+        illusions such as the McGurk effect, rubber hand illusion, and size-weight
+        illusion.
+
+    - id: face-processing
+      name: "Face Processing"
+      description: >
+        Specialized neural mechanisms for face detection, recognition, and configural
+        processing. Underlies face pareidolia, the Thatcher illusion, hollow-face
+        illusion, and face adaptation aftereffects.
+
+  # --- Physical / optical (non-neural) ---
+  physical:
+    - id: atmospheric-refraction
+      name: "Atmospheric Refraction"
+      description: >
+        Bending of light rays passing through atmospheric layers of varying density
+        and temperature. Produces mirages, looming, Novaya Zemlya effect, and
+        distortion of astronomical objects near the horizon.
+
+    - id: light-diffraction
+      name: "Light Diffraction"
+      description: >
+        Bending and interference of light waves around obstacles or through apertures.
+        Produces coronae, glories, and supernumerary rainbows.
+
+    - id: light-scattering
+      name: "Light Scattering"
+      description: >
+        Redirection of light by atmospheric particles (Rayleigh and Mie scattering).
+        Produces crepuscular rays, the Belt of Venus, zodiacal light, and blue sky.

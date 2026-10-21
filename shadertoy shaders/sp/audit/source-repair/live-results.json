@@ -1,0 +1,104 @@
+[
+  {
+    "layer": 5,
+    "col": 13,
+    "source": "Heart HypnoWorm",
+    "controls": [
+      "color1R",
+      "color1G",
+      "color1B",
+      "color2R",
+      "color2G",
+      "color2B",
+      "gamma",
+      "amp1",
+      "amp2",
+      "freq1",
+      "freq2",
+      "phase1",
+      "phase2",
+      "rate"
+    ],
+    "discovered": [
+      "color1R",
+      "color1G",
+      "color1B",
+      "color2R",
+      "color2G",
+      "color2B",
+      "gamma",
+      "amp1",
+      "amp2",
+      "freq1",
+      "freq2",
+      "phase1",
+      "phase2",
+      "rate"
+    ],
+    "probe": "amp1",
+    "checks": [
+      {
+        "requested": 0.0819999998435378,
+        "observed": 0.0819999998435378,
+        "ok": true
+      },
+      {
+        "requested": 0.17799999993294477,
+        "observed": 0.17799999993294477,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.0949266229937855,
+      0.08145431632028217,
+      0.0739514299971328,
+      0.07676840184866877
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 14,
+    "source": "Heart Torus",
+    "controls": [
+      "animationSpeed",
+      "torusSize",
+      "color1R",
+      "color1G",
+      "color1B",
+      "color2R",
+      "color2G",
+      "color2B"
+    ],
+    "discovered": [
+      "animationSpeed",
+      "torusSize",
+      "color1R",
+      "color1G",
+      "color1B",
+      "color2R",
+      "color2G",
+      "color2B"
+    ],
+    "probe": "torusSize",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.2844561265871091,
+      0.24262906648054972,
+      0.2300141446533508,
+      0.2622003370198382
+    ],
+    "drive_varied": true
+  }
+]

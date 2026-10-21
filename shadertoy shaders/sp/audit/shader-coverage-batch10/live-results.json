@@ -1,0 +1,1527 @@
+[
+  {
+    "layer": 5,
+    "col": 2,
+    "source": "SP Atom Figure 2D",
+    "controls": [
+      "Morph",
+      "Sides",
+      "Size",
+      "X",
+      "Y",
+      "Turn",
+      "Spin",
+      "Outline",
+      "Soft",
+      "Sun",
+      "Bevel",
+      "Emboss",
+      "Inner Shadow",
+      "Inner Glow",
+      "Outer Glow",
+      "Satin",
+      "Gradient",
+      "Contour",
+      "Flow",
+      "Shadow",
+      "Wet",
+      "Loop",
+      "Hue",
+      "Red",
+      "Green",
+      "Blue"
+    ],
+    "discovered": [
+      "Figure A",
+      "Figure B",
+      "Morph",
+      "Sides",
+      "Size",
+      "X",
+      "Y",
+      "Turn",
+      "Spin",
+      "Outline",
+      "Soft",
+      "Sun",
+      "Bevel",
+      "Emboss",
+      "Inner Shadow",
+      "Inner Glow",
+      "Outer Glow",
+      "Satin",
+      "Gradient",
+      "Contour",
+      "Flow",
+      "Shadow",
+      "Base",
+      "Wet",
+      "Loop",
+      "Hue",
+      "Red",
+      "Green",
+      "Blue"
+    ],
+    "probe": "Morph",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.0009579949845921904,
+      0.022844984906304423,
+      0.08493694251903605,
+      0.1927569593881915
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 3,
+    "source": "SP Atom Solid",
+    "controls": [
+      "Morph",
+      "Size",
+      "X",
+      "Y",
+      "Tumble",
+      "Axis",
+      "Sun",
+      "Height",
+      "Distance",
+      "Shadow",
+      "Micro",
+      "Fine",
+      "Loop",
+      "Hue",
+      "Red",
+      "Green",
+      "Blue",
+      "Shade",
+      "Edge",
+      "Emboss"
+    ],
+    "discovered": [
+      "Figure A",
+      "Figure B",
+      "Morph",
+      "Size",
+      "X",
+      "Y",
+      "Tumble",
+      "Axis",
+      "Sun",
+      "Height",
+      "Distance",
+      "Shadow",
+      "Material",
+      "Micro",
+      "Fine",
+      "Color",
+      "Loop",
+      "Hue",
+      "Red",
+      "Green",
+      "Blue",
+      "Shade",
+      "Edge",
+      "Emboss"
+    ],
+    "probe": "Tumble",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.3,
+        "ok": false
+      }
+    ],
+    "samples": [
+      0.6434047041433578,
+      0.5408622398510184,
+      0.4564382383434275,
+      0.406812545504684
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 4,
+    "source": "SP Atom 4D",
+    "controls": [
+      "Size",
+      "W",
+      "Thickness",
+      "Turn",
+      "Spin",
+      "Double",
+      "Sun",
+      "Height",
+      "Distance",
+      "Faces",
+      "Edges",
+      "Round",
+      "Vertices",
+      "Shade",
+      "Bevel",
+      "Emboss",
+      "Inner Shadow",
+      "Inner Glow",
+      "Gradient",
+      "Contour",
+      "Wet",
+      "Loop",
+      "Hue",
+      "Red",
+      "Green",
+      "Blue"
+    ],
+    "discovered": [
+      "Size",
+      "W",
+      "Thickness",
+      "Turn",
+      "Spin",
+      "Double",
+      "Sun",
+      "Height",
+      "Distance",
+      "Faces",
+      "Edges",
+      "Round",
+      "Vertices",
+      "Shade",
+      "Bevel",
+      "Emboss",
+      "Inner Shadow",
+      "Inner Glow",
+      "Gradient",
+      "Contour",
+      "Base",
+      "Wet",
+      "Loop",
+      "Hue",
+      "Red",
+      "Green",
+      "Blue"
+    ],
+    "probe": "W",
+    "checks": [
+      {
+        "requested": -0.4,
+        "observed": -0.4,
+        "ok": true
+      },
+      {
+        "requested": 0.3999999999999999,
+        "observed": 0.3999999999999999,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.11210456081409048,
+      -0.07204895829154567,
+      -0.2452533381285933,
+      -0.3419190130405112
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 5,
+    "source": "SP Atom 4D Field",
+    "controls": [
+      "Morph",
+      "Size",
+      "W",
+      "Thickness",
+      "Layers",
+      "Spread",
+      "Sweep",
+      "Drift",
+      "Turn",
+      "Spin",
+      "Double",
+      "X",
+      "Y",
+      "Perspective",
+      "Sun",
+      "Height",
+      "Distance",
+      "Faces",
+      "Edges",
+      "Round",
+      "Vertices",
+      "Shade",
+      "Rim",
+      "Haze",
+      "Halo",
+      "Focus",
+      "Micro",
+      "Fine",
+      "Wet",
+      "Loop",
+      "Hue",
+      "Depth",
+      "Red",
+      "Green",
+      "Blue"
+    ],
+    "discovered": [
+      "Figure A",
+      "Figure B",
+      "Morph",
+      "Size",
+      "W",
+      "Thickness",
+      "Layers",
+      "Spread",
+      "Sweep",
+      "Drift",
+      "Turn",
+      "Spin",
+      "Double",
+      "X",
+      "Y",
+      "Perspective",
+      "Sun",
+      "Height",
+      "Distance",
+      "Faces",
+      "Edges",
+      "Round",
+      "Vertices",
+      "Shade",
+      "Rim",
+      "Haze",
+      "Halo",
+      "Focus",
+      "Material",
+      "Micro",
+      "Fine",
+      "Base",
+      "Wet",
+      "Loop",
+      "Hue",
+      "Depth",
+      "Red",
+      "Green",
+      "Blue"
+    ],
+    "probe": "Thickness",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.5788308056654454,
+      0.5816580304988305,
+      0.5840861893465247,
+      0.5818543158502465
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 6,
+    "source": "SP Atom Hybrid",
+    "controls": [
+      "Size",
+      "W",
+      "Thickness",
+      "Connect",
+      "Layers",
+      "Spread",
+      "Sweep",
+      "Drift",
+      "Turn",
+      "Spin",
+      "Double",
+      "Sun",
+      "Height",
+      "Distance",
+      "Faces",
+      "Shade",
+      "Edges",
+      "Round",
+      "Vertices",
+      "Bevel",
+      "Emboss",
+      "Inner Shadow",
+      "Inner Glow",
+      "Gradient",
+      "Contour",
+      "Wet",
+      "Loop",
+      "Hue",
+      "Red",
+      "Green",
+      "Blue"
+    ],
+    "discovered": [
+      "Size",
+      "W",
+      "Thickness",
+      "Connect",
+      "Layers",
+      "Spread",
+      "Sweep",
+      "Drift",
+      "Turn",
+      "Spin",
+      "Double",
+      "Sun",
+      "Height",
+      "Distance",
+      "Faces",
+      "Shade",
+      "Edges",
+      "Round",
+      "Vertices",
+      "Bevel",
+      "Emboss",
+      "Inner Shadow",
+      "Inner Glow",
+      "Gradient",
+      "Contour",
+      "Base",
+      "Wet",
+      "Loop",
+      "Hue",
+      "Red",
+      "Green",
+      "Blue"
+    ],
+    "probe": "Connect",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.9438151977442052,
+      0.7621234104843931,
+      0.5657278131473068,
+      0.42860698702584665
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 7,
+    "source": "SP Figure Solid Source",
+    "controls": [
+      "Morph",
+      "Tumble",
+      "Axis",
+      "Sun",
+      "Height",
+      "Distance",
+      "Shadow",
+      "Micro",
+      "Fine",
+      "Loop",
+      "Hue",
+      "Red",
+      "Green",
+      "Blue",
+      "Shade",
+      "Edge",
+      "Emboss"
+    ],
+    "discovered": [
+      "Figure A",
+      "Figure B",
+      "Morph",
+      "Tumble",
+      "Axis",
+      "Sun",
+      "Height",
+      "Distance",
+      "Shadow",
+      "Material",
+      "Micro",
+      "Fine",
+      "Color",
+      "Loop",
+      "Hue",
+      "Red",
+      "Green",
+      "Blue",
+      "Shade",
+      "Edge",
+      "Emboss"
+    ],
+    "probe": "Morph",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.9526451462588784,
+      0.7716079774074437,
+      0.5959922568167131,
+      0.47348924484031385
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 8,
+    "source": "SP Figure 3D",
+    "controls": [
+      "Heart Rate (turns/s)",
+      "Depth",
+      "FM",
+      "Size",
+      "Size Mult",
+      "Size Offset",
+      "Size Lo",
+      "Size Hi",
+      "X",
+      "X Mult",
+      "X Offset",
+      "X Lo",
+      "X Hi",
+      "Y",
+      "Y Mult",
+      "Y Offset",
+      "Y Lo",
+      "Y Hi",
+      "Tumble",
+      "Tumble Mult",
+      "Tumble Offset",
+      "Tumble Lo",
+      "Tumble Hi",
+      "Axis",
+      "Axis Mult",
+      "Axis Offset",
+      "Axis Lo",
+      "Axis Hi",
+      "Edge",
+      "Edge Mult",
+      "Edge Offset",
+      "Edge Lo",
+      "Edge Hi",
+      "Outline",
+      "Outline Mult",
+      "Outline Offset",
+      "Outline Lo",
+      "Outline Hi",
+      "Emboss",
+      "Emboss Mult",
+      "Emboss Offset",
+      "Emboss Lo",
+      "Emboss Hi",
+      "Stroke",
+      "Stroke Mult",
+      "Stroke Offset",
+      "Stroke Lo",
+      "Stroke Hi",
+      "Shadow",
+      "Shadow Mult",
+      "Shadow Offset",
+      "Shadow Lo",
+      "Shadow Hi",
+      "Drop",
+      "Drop Mult",
+      "Drop Offset",
+      "Drop Lo",
+      "Drop Hi",
+      "Micro",
+      "Micro Mult",
+      "Micro Offset",
+      "Micro Lo",
+      "Micro Hi"
+    ],
+    "discovered": [
+      "Size",
+      "X",
+      "Y",
+      "Tumble",
+      "Axis",
+      "Edge",
+      "Outline",
+      "Emboss",
+      "Stroke",
+      "Shadow",
+      "Drop",
+      "Micro"
+    ],
+    "probe": "Tumble",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.9753438583544586,
+      0.028719346329196815,
+      0.10637345166023016,
+      0.19625281535824257
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 9,
+    "source": "SP Figure",
+    "controls": [
+      "Heart Rate (turns/s)",
+      "Depth",
+      "FM",
+      "Size",
+      "Size Mult",
+      "Size Offset",
+      "Size Lo",
+      "Size Hi",
+      "X",
+      "X Mult",
+      "X Offset",
+      "X Lo",
+      "X Hi",
+      "Y",
+      "Y Mult",
+      "Y Offset",
+      "Y Lo",
+      "Y Hi",
+      "Turn",
+      "Turn Mult",
+      "Turn Offset",
+      "Turn Lo",
+      "Turn Hi",
+      "Outline",
+      "Outline Mult",
+      "Outline Offset",
+      "Outline Lo",
+      "Outline Hi",
+      "Material",
+      "Material Mult",
+      "Material Offset",
+      "Material Lo",
+      "Material Hi",
+      "Float",
+      "Float Mult",
+      "Float Offset",
+      "Float Lo",
+      "Float Hi",
+      "Spin",
+      "Spin Mult",
+      "Spin Offset",
+      "Spin Lo",
+      "Spin Hi"
+    ],
+    "discovered": [
+      "Size",
+      "X",
+      "Y",
+      "Turn",
+      "Outline",
+      "Material",
+      "Float",
+      "Spin"
+    ],
+    "probe": "Turn",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.3831883878762159,
+      0.3930218053262559,
+      0.4216462372628174,
+      0.4742071650895308
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 61,
+    "source": "Hopf fibers SP",
+    "controls": [
+      "Heart Rate (turns/s)",
+      "Depth",
+      "FM",
+      "Orbit",
+      "Orbit Mult",
+      "Orbit Offset",
+      "Orbit Lo",
+      "Orbit Hi",
+      "Spin",
+      "Spin Mult",
+      "Spin Offset",
+      "Spin Lo",
+      "Spin Hi",
+      "Axis",
+      "Axis Mult",
+      "Axis Offset",
+      "Axis Lo",
+      "Axis Hi",
+      "Morph",
+      "Morph Mult",
+      "Morph Offset",
+      "Morph Lo",
+      "Morph Hi",
+      "Hue",
+      "Hue Mult",
+      "Hue Offset",
+      "Hue Lo",
+      "Hue Hi",
+      "Density",
+      "Density Mult",
+      "Density Offset",
+      "Density Lo",
+      "Density Hi",
+      "Pitch",
+      "Pitch Mult",
+      "Pitch Offset",
+      "Pitch Lo",
+      "Pitch Hi",
+      "FOV",
+      "FOV Mult",
+      "FOV Offset",
+      "FOV Lo",
+      "FOV Hi",
+      "Cam Dist",
+      "Cam Dist Mult",
+      "Cam Dist Offset",
+      "Cam Dist Lo",
+      "Cam Dist Hi"
+    ],
+    "discovered": [
+      "Orbit",
+      "Spin",
+      "Axis",
+      "Morph",
+      "Hue",
+      "Density",
+      "Pitch",
+      "FOV",
+      "Cam Dist"
+    ],
+    "probe": "Morph",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.34880504034580917,
+      0.31856686738610773,
+      0.3043918140826051,
+      0.3126704520373251
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 62,
+    "source": "SP State Test",
+    "controls": [
+      "Rate"
+    ],
+    "discovered": [
+      "Rate"
+    ],
+    "probe": "Rate",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.09513910866047712,
+      0.09530304477376608,
+      0.13342265115177504,
+      0.212174968457442
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 63,
+    "source": "Metaballs",
+    "controls": [
+      "Grid",
+      "Size",
+      "Distance",
+      "Radius",
+      "Fuzzyness",
+      "Speed",
+      "Position X",
+      "Position Y"
+    ],
+    "discovered": [
+      "Grid",
+      "Blend",
+      "Size",
+      "Distance",
+      "Radius",
+      "Fuzzyness",
+      "Speed",
+      "Position X",
+      "Position Y"
+    ],
+    "probe": "Radius",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.47459053988044025,
+      0.3896769777366215,
+      0.326623291539223,
+      0.3078643062352029
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 64,
+    "source": "Hopf fibers SP",
+    "controls": [
+      "Heart Rate (turns/s)",
+      "Depth",
+      "FM",
+      "Orbit",
+      "Orbit Mult",
+      "Orbit Offset",
+      "Orbit Lo",
+      "Orbit Hi",
+      "Spin",
+      "Spin Mult",
+      "Spin Offset",
+      "Spin Lo",
+      "Spin Hi",
+      "Axis",
+      "Axis Mult",
+      "Axis Offset",
+      "Axis Lo",
+      "Axis Hi",
+      "Morph",
+      "Morph Mult",
+      "Morph Offset",
+      "Morph Lo",
+      "Morph Hi",
+      "Hue",
+      "Hue Mult",
+      "Hue Offset",
+      "Hue Lo",
+      "Hue Hi",
+      "Density",
+      "Density Mult",
+      "Density Offset",
+      "Density Lo",
+      "Density Hi",
+      "Pitch",
+      "Pitch Mult",
+      "Pitch Offset",
+      "Pitch Lo",
+      "Pitch Hi",
+      "FOV",
+      "FOV Mult",
+      "FOV Offset",
+      "FOV Lo",
+      "FOV Hi",
+      "Cam Dist",
+      "Cam Dist Mult",
+      "Cam Dist Offset",
+      "Cam Dist Lo",
+      "Cam Dist Hi"
+    ],
+    "discovered": [
+      "Orbit",
+      "Spin",
+      "Axis",
+      "Morph",
+      "Hue",
+      "Density",
+      "Pitch",
+      "FOV",
+      "Cam Dist"
+    ],
+    "probe": "Morph",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.9138487371259412,
+      0.7293444743688438,
+      0.556159861537111,
+      0.4267297486942252
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 65,
+    "source": "Gradient Bars",
+    "controls": [
+      "gradient power",
+      "balance",
+      "speed",
+      "offset",
+      "use odd directions",
+      "columns",
+      "x iterations",
+      "invert speed",
+      "phase iterations",
+      "easing type"
+    ],
+    "discovered": [
+      "gradient power",
+      "balance",
+      "speed",
+      "offset",
+      "use odd directions",
+      "columns",
+      "x iterations",
+      "invert speed",
+      "phase iterations",
+      "easing type"
+    ],
+    "probe": "balance",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.4985880336281323,
+      0.4076744823299429,
+      0.339153919775835,
+      0.3144731035633098
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 66,
+    "source": "SP State Test",
+    "controls": [
+      "Rate"
+    ],
+    "discovered": [
+      "Rate"
+    ],
+    "probe": "Rate",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.0960047072783862,
+      0.0942037059471523,
+      0.1271908436093766,
+      0.20581769228685115
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 67,
+    "source": "Shaper",
+    "controls": [
+      "Scale",
+      "Noise Amount",
+      "Noise Speed",
+      "Outline"
+    ],
+    "discovered": [
+      "Scale",
+      "Noise Type",
+      "Noise Amount",
+      "Noise Speed",
+      "Outline"
+    ],
+    "probe": "Noise Amount",
+    "checks": [
+      {
+        "requested": -0.4,
+        "observed": -0.4,
+        "ok": true
+      },
+      {
+        "requested": 0.3999999999999999,
+        "observed": 0.3999999999999999,
+        "ok": true
+      }
+    ],
+    "samples": [
+      -0.053410760369629995,
+      -0.1897674449164437,
+      -0.34416082075690757,
+      -0.3845253521745531
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 68,
+    "source": "Rings",
+    "controls": [
+      "Num Rings",
+      "Size",
+      "Spacing",
+      "Line Width",
+      "Gap",
+      "Rotation",
+      "Rotation Step"
+    ],
+    "discovered": [
+      "Num Rings",
+      "Size",
+      "Spacing",
+      "Line Width",
+      "Style",
+      "Gap",
+      "Rotation",
+      "Rotation Step"
+    ],
+    "probe": "Spacing",
+    "checks": [
+      {
+        "requested": 0.97,
+        "observed": 0.97,
+        "ok": true
+      },
+      {
+        "requested": 2.13,
+        "observed": 2.13,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.29149029080167077,
+      0.3092682193930234,
+      0.44123714592546526,
+      0.6954667827496878
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 69,
+    "source": "Tunnelines",
+    "controls": [
+      "Line Width",
+      "Zoom",
+      "Vertical",
+      "Frequency",
+      "Horizontal"
+    ],
+    "discovered": [
+      "Line Width",
+      "Zoom",
+      "Vertical",
+      "Frequency",
+      "Horizontal"
+    ],
+    "probe": "Frequency",
+    "checks": [
+      {
+        "requested": 0.8999999999999999,
+        "observed": 0.8999999999999999,
+        "ok": true
+      },
+      {
+        "requested": 2.0999999999999996,
+        "observed": 2.0999999999999996,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.07847269063017512,
+      0.12758849493078386,
+      0.3009181563063289,
+      0.595514748727174
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 70,
+    "source": "Metaballs",
+    "controls": [
+      "Grid",
+      "Size",
+      "Distance",
+      "Radius",
+      "Fuzzyness",
+      "Speed",
+      "Position X",
+      "Position Y"
+    ],
+    "discovered": [
+      "Grid",
+      "Blend",
+      "Size",
+      "Distance",
+      "Radius",
+      "Fuzzyness",
+      "Speed",
+      "Position X",
+      "Position Y"
+    ],
+    "probe": "Radius",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.4740744473007039,
+      0.3906915443297766,
+      0.33106380756327636,
+      0.30794789516980486
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 7,
+    "col": 2,
+    "source": "SP Atom Texture",
+    "controls": [
+      "Count",
+      "Drift",
+      "Duty",
+      "Soft",
+      "Level"
+    ],
+    "discovered": [
+      "Texture",
+      "Count",
+      "Drift",
+      "Duty",
+      "Soft",
+      "Level"
+    ],
+    "probe": "Duty",
+    "checks": [
+      {
+        "requested": 0.31999999694526193,
+        "observed": 0.31999999694526193,
+        "ok": true
+      },
+      {
+        "requested": 0.6799999918788671,
+        "observed": 0.6799999918788671,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.4763732020705616,
+      0.4046118219986806,
+      0.3449031774528922,
+      0.3271573260930214
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 7,
+    "col": 8,
+    "source": "SP Scan",
+    "controls": [
+      "Heart Rate (turns/s)",
+      "Depth",
+      "FM",
+      "Count",
+      "Count Mult",
+      "Count Offset",
+      "Count Lo",
+      "Count Hi",
+      "Phase",
+      "Phase Mult",
+      "Phase Offset",
+      "Phase Lo",
+      "Phase Hi",
+      "Duty",
+      "Duty Mult",
+      "Duty Offset",
+      "Duty Lo",
+      "Duty Hi",
+      "Soft",
+      "Soft Mult",
+      "Soft Offset",
+      "Soft Lo",
+      "Soft Hi"
+    ],
+    "discovered": [
+      "Count",
+      "Phase",
+      "Duty",
+      "Soft"
+    ],
+    "probe": "Duty",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.46529400380536495,
+      0.4133724360004573,
+      0.3417719441196262,
+      0.31945671198823467
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 8,
+    "col": 1,
+    "source": "SP Atom Grain",
+    "controls": [
+      "Amount",
+      "Size",
+      "Flicker",
+      "Level"
+    ],
+    "discovered": [
+      "Grain",
+      "Amount",
+      "Size",
+      "Flicker",
+      "Level"
+    ],
+    "probe": "Amount",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.47344849858220006,
+      0.3991197047315934,
+      0.32667049700742323,
+      0.3078865089847851
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 8,
+    "col": 8,
+    "source": "SP Grain",
+    "controls": [
+      "Heart Rate (turns/s)",
+      "Depth",
+      "FM",
+      "Amount",
+      "Amount Mult",
+      "Amount Offset",
+      "Amount Lo",
+      "Amount Hi",
+      "Flicker",
+      "Flicker Mult",
+      "Flicker Offset",
+      "Flicker Lo",
+      "Flicker Hi",
+      "Grit",
+      "Grit Mult",
+      "Grit Offset",
+      "Grit Lo",
+      "Grit Hi",
+      "Level",
+      "Level Mult",
+      "Level Offset",
+      "Level Lo",
+      "Level Hi"
+    ],
+    "discovered": [
+      "Amount",
+      "Flicker",
+      "Grit",
+      "Level"
+    ],
+    "probe": "Amount",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.937153113901793,
+      0.769432337245152,
+      0.6143540774038816,
+      0.4876877737580578
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 8,
+    "col": 9,
+    "source": "SP State Test",
+    "controls": [
+      "Rate"
+    ],
+    "discovered": [
+      "Rate"
+    ],
+    "probe": "Rate",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.09562739882959152,
+      0.0947638022710014,
+      0.1237528483223314,
+      0.2116006419441663
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 8,
+    "col": 16,
+    "source": "Lines",
+    "controls": [
+      "Fuzzyness",
+      "Amount",
+      "Width",
+      "Rotation",
+      "Position"
+    ],
+    "discovered": [
+      "Fuzzyness",
+      "Amount",
+      "Width",
+      "Rotation",
+      "Position"
+    ],
+    "probe": "Width",
+    "checks": [
+      {
+        "requested": 0.6,
+        "observed": 0.6,
+        "ok": true
+      },
+      {
+        "requested": 1.4,
+        "observed": 1.4,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.2853132827149964,
+      0.26464766191709027,
+      0.31834354979329377,
+      0.4506937782414775
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 8,
+    "col": 17,
+    "source": "Checkered",
+    "controls": [
+      "Num X",
+      "Num Y"
+    ],
+    "discovered": [
+      "Num X",
+      "Num Y"
+    ],
+    "probe": "Num X",
+    "checks": [
+      {
+        "requested": 30000.699999999997,
+        "observed": 30000.699999999997,
+        "ok": true
+      },
+      {
+        "requested": 70000.29999999999,
+        "observed": 70000.29999999999,
+        "ok": true
+      }
+    ],
+    "samples": [
+      133.8470084748976,
+      1931.9288343926544,
+      8494.7818860378,
+      18929.36766702252
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 8,
+    "col": 18,
+    "source": "Spiral",
+    "controls": [
+      "Spread Even",
+      "Detail",
+      "Speed",
+      "Zoom",
+      "Leafs",
+      "Distortion",
+      "Fuzzyness",
+      "Ramification",
+      "Button Size",
+      "Button Fuzzyness"
+    ],
+    "discovered": [
+      "Direction",
+      "Control Mode",
+      "Spread Even",
+      "Detail",
+      "Speed",
+      "Zoom",
+      "Leafs",
+      "Distortion",
+      "Fuzzyness",
+      "Ramification",
+      "Button Size",
+      "Button Fuzzyness"
+    ],
+    "probe": "Distortion",
+    "checks": [
+      {
+        "requested": 30.0,
+        "observed": 30.0,
+        "ok": true
+      },
+      {
+        "requested": 70.0,
+        "observed": 70.0,
+        "ok": true
+      }
+    ],
+    "samples": [
+      1.0441113039176575,
+      2.9908208748719836,
+      9.012154447954366,
+      19.561157650250205
+    ],
+    "drive_varied": true
+  }
+]

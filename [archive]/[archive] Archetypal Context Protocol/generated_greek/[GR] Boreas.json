@@ -1,0 +1,64 @@
+{
+  "SchemaVersion": "1.1-ter",
+  "ArchetypeName": "Boreas",
+  "SystemOfOrigin": "GR",
+  "CulturalLineage": ["Greek"],
+  "CommonAliases": ["North Wind", "Winter Wind", "Cold Breath", "Aquilo"],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "To embody the fierce north wind; to bring winter's cold; to be the breath of ice and snow.",
+    "PrimaryDomain": "Mythic / Natural",
+    "ToneOrPolarity": "Cold / Fierce",
+    "SymbolicCore": "Winter's breath, the fierce cold from the north, untamed power.",
+    "Correspondences": {
+      "Element": "Air",
+      "Planet": "Saturn",
+      "Chakra": "Throat",
+      "Color": "Icy Blue, White, Grey",
+      "Animal": "Horse (winged), Wolf",
+      "Other": ["Snow", "Ice", "Cold Breath", "Winter", "North"]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": ["North Wind", "Winter Bringer", "Cold Force", "Abductor"],
+    "ComplementaryArchetypes": ["Astraeus ([GR] Father)", "Eos ([GR] Mother)", "Zephyrus ([GR] Brother)", "Oreithyia ([GR] Wife)"],
+    "ShadowForms": ["Killing Frost", "Merciless Cold", "Violent Abduction"],
+    "DevelopmentalArc": [],
+    "CyclePhase": "Winter / North"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": ["Fierce", "Cold", "Untamed", "Powerful", "Winter-like", "Passionate"],
+    "Typologies": {
+      "MBTI": "ESTP",
+      "Enneagram": "8w7",
+      "Other": ["Warrior", "Lover", "Destroyer"]
+    },
+    "SubVariants": ["Winter Wind", "Fierce Breath", "Cold Passion"],
+    "InternalFamily": "Untamed Force"
+  },
+  "CulturalContext": {
+    "Regions": ["Greece", "Thrace"],
+    "MythicAppearances": ["Abduction of Oreithyia", "Father of winged heroes", "Contest with other winds"],
+    "ReligiousOrRitualUse": "Propitiated in winter; invoked for or against cold winds; honored in Thrace.",
+    "HistoricalEvolution": "Ancient wind god; became Roman Aquilo; represents untamed northern force.",
+    "SyncreticForms": ["Aquilo (Roman)"]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "❄️",
+    "ImageryNotes": "Depicted as winged old man or powerful mature figure, often with icy breath, carrying princess Oreithyia.",
+    "ArtisticExamples": ["Greek vase paintings", "Wind god sculptures", "Abduction of Oreithyia art"],
+    "PoeticInvocation": "Boreas fierce, breath of winter, whose cold fury sweeps from the frozen north.",
+    "DreamForm": "A powerful figure riding winds of ice, breath freezing all it touches"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": ["Tarot.The_Tower", "Winter", "North"],
+    "SemanticTags": ["#north-wind", "#winter", "#cold", "#fierce", "#untamed"],
+    "RitualFunction": "Invoked for understanding of fierce forces, winter preparation, and untamed passion.",
+    "AIPromptSeeds": ["The north wind whose icy breath brings winter's fury.", "Fierce Boreas who abducted a princess on wings of storm."],
+    "NarrativeHooks": ["Winter's arrival", "Fierce passionate nature", "Untamed force of nature"]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [{"to": "Aquilo (Roman)", "strength": "strong"}, {"to": "North_Wind", "strength": "strong"}]
+  },
+  "FacetRegistry": [{"facet": "North Wind", "weight": 0.6}, {"facet": "Winter Bringer", "weight": 0.3}, {"facet": "Fierce Force", "weight": 0.1}]
+}

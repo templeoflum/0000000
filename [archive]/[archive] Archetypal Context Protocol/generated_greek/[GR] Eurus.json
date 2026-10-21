@@ -1,0 +1,64 @@
+{
+  "SchemaVersion": "1.1-ter",
+  "ArchetypeName": "Eurus",
+  "SystemOfOrigin": "GR",
+  "CulturalLineage": ["Greek"],
+  "CommonAliases": ["East Wind", "Autumn Wind", "Unlucky Wind", "Vulturnus"],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "To embody the east wind; to be associated with autumn and ill fortune; to bring warm, dry air.",
+    "PrimaryDomain": "Mythic / Natural",
+    "ToneOrPolarity": "Warm / Unlucky",
+    "SymbolicCore": "Autumn's breath, the unlucky wind, eastern force.",
+    "Correspondences": {
+      "Element": "Air/Fire",
+      "Planet": "Mercury",
+      "Chakra": "Solar Plexus",
+      "Color": "Amber, Brown, Dusty Gold",
+      "Animal": "Horse (winged)",
+      "Other": ["Autumn Leaves", "Dry Heat", "East", "Ill Fortune"]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": ["East Wind", "Autumn Bringer", "Unlucky Force", "Warm Wind"],
+    "ComplementaryArchetypes": ["Astraeus ([GR] Father)", "Eos ([GR] Mother)", "Boreas ([GR] Brother)"],
+    "ShadowForms": ["Bad Luck", "Withering Heat", "Misfortune"],
+    "DevelopmentalArc": [],
+    "CyclePhase": "Autumn / East"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": ["Unlucky", "Warm", "Autumn-like", "Drying", "Unpopular", "Eastern"],
+    "Typologies": {
+      "MBTI": "ISTP",
+      "Enneagram": "5w6",
+      "Other": ["Outcast", "Loner", "Shadow"]
+    },
+    "SubVariants": ["Unlucky Wind", "Autumn Breeze", "Withering Force"],
+    "InternalFamily": "Bad Luck"
+  },
+  "CulturalContext": {
+    "Regions": ["Greece"],
+    "MythicAppearances": ["Son of Astraeus and Eos", "Least mentioned of the Anemoi", "Associated with autumn"],
+    "ReligiousOrRitualUse": "Less prominently worshipped; sometimes blamed for ill fortune; autumn association.",
+    "HistoricalEvolution": "Least developed of wind gods; became Roman Vulturnus; often overshadowed by brothers.",
+    "SyncreticForms": ["Vulturnus (Roman)"]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "🍂",
+    "ImageryNotes": "Depicted as winged figure associated with autumn and less favorable winds.",
+    "ArtisticExamples": ["Wind god imagery", "Autumn allegories", "Compass rose depictions"],
+    "PoeticInvocation": "Eurus of the east, unlucky wind, whose warm breath marks autumn's beginning.",
+    "DreamForm": "A solitary figure on warm dry winds, carrying fallen leaves"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": ["Autumn", "East", "Misfortune"],
+    "SemanticTags": ["#east-wind", "#autumn", "#unlucky", "#warm", "#dry"],
+    "RitualFunction": "Understanding of misfortune, acceptance of less favorable forces, autumn transitions.",
+    "AIPromptSeeds": ["The east wind associated with ill fortune and autumn's decline.", "Eurus the overlooked, whose warm breath brings change unwelcome."],
+    "NarrativeHooks": ["Bad luck personified", "The overlooked force", "Autumn's arrival"]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [{"to": "Vulturnus (Roman)", "strength": "strong"}, {"to": "East_Wind", "strength": "strong"}]
+  },
+  "FacetRegistry": [{"facet": "East Wind", "weight": 0.5}, {"facet": "Unlucky Force", "weight": 0.3}, {"facet": "Autumn Bringer", "weight": 0.2}]
+}

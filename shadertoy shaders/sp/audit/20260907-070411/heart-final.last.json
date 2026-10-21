@@ -1,0 +1,1741 @@
+{
+  "H": 3.45,
+  "bpm": 120.0,
+  "fps": 240.1,
+  "worst": 0.65,
+  "clips": [
+    {
+      "name": "map",
+      "layer": 1,
+      "col": 1,
+      "pattern": "per-slot",
+      "g": {
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "morph": 3.0,
+      "home": true,
+      "arm": {
+        "global": [],
+        "slots": {}
+      },
+      "auto": 0,
+      "armsets": [],
+      "presets": [],
+      "preset_names": {},
+      "slots": [
+        {
+          "name": "Zoom",
+          "v": 0.3175,
+          "drive": true,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1/phi",
+          "mult": -1.0,
+          "offset": 0.9295133321814115,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Rotate",
+          "v": 0.5284,
+          "drive": true,
+          "morphing": false,
+          "cyc": true,
+          "ratio": "1/pi",
+          "mult": 2.0,
+          "offset": 0.24142734370277907,
+          "shape": 0,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Drift X",
+          "v": 0.2655,
+          "drive": true,
+          "morphing": false,
+          "cyc": true,
+          "ratio": "1/phi",
+          "mult": 2.0,
+          "offset": 0.8104604560693194,
+          "shape": 0,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Drift Y",
+          "v": 0.6589,
+          "drive": true,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1/sqrt2",
+          "mult": -1.0,
+          "offset": 0.755055076606332,
+          "shape": 0,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Center X",
+          "v": 0.0166,
+          "drive": true,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1/pi",
+          "mult": 1.0,
+          "offset": 0.8998128129780834,
+          "shape": 0,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Center Y",
+          "v": 0.5109,
+          "drive": true,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1/sqrt2",
+          "mult": -1.0,
+          "offset": 0.6790660450621524,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Gain",
+          "v": 1.0,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1/sqrt2",
+          "mult": 1.0,
+          "offset": 0.8200787345356141,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Floor",
+          "v": 1.0,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1/pi",
+          "mult": 1.0,
+          "offset": 0.28819769976741383,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Key",
+          "v": 1.0,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1/phi",
+          "mult": 1.0,
+          "offset": 0.30835229545307397,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        }
+      ]
+    },
+    {
+      "name": "level",
+      "layer": 2,
+      "col": 1,
+      "pattern": "per-slot",
+      "g": {
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "morph": 3.0,
+      "home": true,
+      "arm": {
+        "global": [],
+        "slots": {}
+      },
+      "auto": 0,
+      "armsets": [],
+      "presets": [],
+      "preset_names": {},
+      "slots": [
+        {
+          "name": "Gain",
+          "v": 1.0,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1:4",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Floor",
+          "v": 0.0,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1:4",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Key",
+          "v": 0.3725,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1:4",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Soft",
+          "v": 0.0,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1:4",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Curve",
+          "v": 0.0,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1:4",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Ceiling",
+          "v": 1.0,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1:4",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Lift",
+          "v": 0.0,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1:4",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        }
+      ]
+    },
+    {
+      "name": "void",
+      "layer": 3,
+      "col": 3,
+      "pattern": "per-slot",
+      "g": {
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "morph": 3.0,
+      "home": true,
+      "arm": {
+        "global": [],
+        "slots": {}
+      },
+      "auto": 0,
+      "armsets": [],
+      "presets": [],
+      "preset_names": {},
+      "slots": [
+        {
+          "name": "Travel",
+          "v": 0.1956,
+          "drive": true,
+          "morphing": false,
+          "cyc": true,
+          "ratio": "1:1",
+          "mult": 2.0,
+          "offset": 0.75,
+          "shape": 0,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Sway",
+          "v": 0.6995,
+          "drive": true,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "4:5",
+          "mult": 2.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.3,
+          "hi": 0.7,
+          "lock": false
+        },
+        {
+          "name": "Bob",
+          "v": 0.3549,
+          "drive": true,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "3:2",
+          "mult": 2.0,
+          "offset": 0.75,
+          "shape": 1,
+          "lo": 0.35,
+          "hi": 0.65,
+          "lock": false
+        },
+        {
+          "name": "Yaw",
+          "v": 0.5489,
+          "drive": true,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "2:5",
+          "mult": -1.0,
+          "offset": 0.0,
+          "shape": 0,
+          "lo": 0.4,
+          "hi": 0.6,
+          "lock": false
+        },
+        {
+          "name": "Tilt",
+          "v": 0.026,
+          "drive": false,
+          "morphing": false,
+          "cyc": true,
+          "ratio": "1:4",
+          "mult": 2.0,
+          "offset": 0.25,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Horizon",
+          "v": 0.4977,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1:4",
+          "mult": 2.0,
+          "offset": 0.25,
+          "shape": 1,
+          "lo": 0.45,
+          "hi": 0.55,
+          "lock": false
+        },
+        {
+          "name": "Dolly",
+          "v": 0.5908,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "8:13",
+          "mult": 1.0,
+          "offset": 0.5,
+          "shape": 1,
+          "lo": 0.3,
+          "hi": 0.7,
+          "lock": false
+        },
+        {
+          "name": "Focal mm",
+          "v": 0.3998,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1:2",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.1,
+          "hi": 0.4,
+          "lock": false
+        },
+        {
+          "name": "Distort",
+          "v": 0.3256,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1:4",
+          "mult": 1.0,
+          "offset": 0.25,
+          "shape": 1,
+          "lo": 0.3,
+          "hi": 0.7,
+          "lock": false
+        },
+        {
+          "name": "Density",
+          "v": 0.0,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "8:13",
+          "mult": 1.0,
+          "offset": 0.75,
+          "shape": 0,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Size",
+          "v": 0.0955,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "3:4",
+          "mult": 2.0,
+          "offset": 0.25,
+          "shape": 0,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Reach",
+          "v": 0.1841,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "3:4",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Haze",
+          "v": 0.7279,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "3:4",
+          "mult": 1.0,
+          "offset": 0.25,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Soft",
+          "v": 0.6505,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "8:13",
+          "mult": 1.0,
+          "offset": 0.25,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Lens",
+          "v": 0.0,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1:4",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 0,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        }
+      ]
+    },
+    {
+      "name": "figure",
+      "layer": 4,
+      "col": 1,
+      "pattern": "per-slot",
+      "g": {
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "morph": 3.0,
+      "home": true,
+      "arm": {
+        "global": [],
+        "slots": {}
+      },
+      "auto": 0,
+      "armsets": [],
+      "presets": [],
+      "preset_names": {},
+      "slots": [
+        {
+          "name": "Taps",
+          "v": 1.0,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1:4",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Span",
+          "v": 1.0,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1:4",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Glide",
+          "v": 0.2848,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1:4",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "R",
+          "v": 0.125,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1:4",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "G",
+          "v": 0.1875,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1:4",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "B",
+          "v": 0.25,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1:4",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        }
+      ]
+    },
+    {
+      "name": "shell",
+      "layer": 5,
+      "col": 5,
+      "pattern": "per-slot",
+      "g": {
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "morph": 3.0,
+      "home": true,
+      "arm": {
+        "global": [],
+        "slots": {}
+      },
+      "auto": 0,
+      "armsets": [],
+      "presets": [],
+      "preset_names": {},
+      "slots": [
+        {
+          "name": "Turn",
+          "v": 0.8374,
+          "drive": true,
+          "morphing": false,
+          "cyc": true,
+          "ratio": "1/sqrt2",
+          "mult": 2.0,
+          "offset": 0.38659176149500485,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Spin",
+          "v": 0.192,
+          "drive": true,
+          "morphing": false,
+          "cyc": true,
+          "ratio": "1/pi",
+          "mult": 1.0,
+          "offset": 0.8651387547866215,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Double",
+          "v": 0.1907,
+          "drive": true,
+          "morphing": false,
+          "cyc": true,
+          "ratio": "1/sqrt2",
+          "mult": 1.0,
+          "offset": 0.6987854964748784,
+          "shape": 0,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Sweep",
+          "v": 0.9092,
+          "drive": true,
+          "morphing": false,
+          "cyc": true,
+          "ratio": "1/phi",
+          "mult": 1.0,
+          "offset": 0.6635592540875636,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "W",
+          "v": 0.7331,
+          "drive": true,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1/sqrt2",
+          "mult": 2.0,
+          "offset": 0.7079057921767985,
+          "shape": 1,
+          "lo": 0.25,
+          "hi": 0.75,
+          "lock": false
+        },
+        {
+          "name": "Thickness",
+          "v": 0.4596,
+          "drive": true,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1/sqrt2",
+          "mult": 2.0,
+          "offset": 0.023025144880098325,
+          "shape": 1,
+          "lo": 0.4,
+          "hi": 0.8,
+          "lock": false
+        },
+        {
+          "name": "Hue",
+          "v": 0.9306,
+          "drive": true,
+          "morphing": false,
+          "cyc": true,
+          "ratio": "1/sqrt2",
+          "mult": 1.0,
+          "offset": 0.34121886040738847,
+          "shape": 0,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Sun",
+          "v": 0.145,
+          "drive": true,
+          "morphing": false,
+          "cyc": true,
+          "ratio": "1/sqrt2",
+          "mult": 1.0,
+          "offset": 0.9722044685367848,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Height",
+          "v": 0.7967,
+          "drive": true,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1/sqrt2",
+          "mult": -1.0,
+          "offset": 0.09508811422280883,
+          "shape": 1,
+          "lo": 0.5,
+          "hi": 0.9,
+          "lock": false
+        },
+        {
+          "name": "X",
+          "v": 0.5703,
+          "drive": true,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1/pi",
+          "mult": 1.0,
+          "offset": 0.21536070484263758,
+          "shape": 1,
+          "lo": 0.3,
+          "hi": 0.7,
+          "lock": false
+        },
+        {
+          "name": "Y",
+          "v": 0.54,
+          "drive": true,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1/phi",
+          "mult": -1.0,
+          "offset": 0.8199556833528993,
+          "shape": 0,
+          "lo": 0.3,
+          "hi": 0.7,
+          "lock": false
+        },
+        {
+          "name": "Morph",
+          "v": 1.0,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1/sqrt2",
+          "mult": 1.0,
+          "offset": 0.952249436467943,
+          "shape": 0,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Size",
+          "v": 0.3593,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1/sqrt2",
+          "mult": 1.0,
+          "offset": 0.1361435638832631,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Layers",
+          "v": 0.9981,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1/sqrt2",
+          "mult": 1.0,
+          "offset": 0.5858461420414678,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Spread",
+          "v": 0.0278,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1/sqrt2",
+          "mult": -1.0,
+          "offset": 0.887171367698976,
+          "shape": 0,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Drift",
+          "v": 0.8822,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1/phi",
+          "mult": -1.0,
+          "offset": 0.025384336026246124,
+          "shape": 0,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Distance",
+          "v": 0.6053,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1/sqrt2",
+          "mult": 1.0,
+          "offset": 0.9322399895705658,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Faces",
+          "v": 0.5993,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1/phi",
+          "mult": 2.0,
+          "offset": 0.8081540050685297,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Edges",
+          "v": 0.0001,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1/phi",
+          "mult": 2.0,
+          "offset": 0.955065424534802,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Round",
+          "v": 0.0,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1/sqrt2",
+          "mult": 2.0,
+          "offset": 0.7009398380335748,
+          "shape": 0,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Vertices",
+          "v": 0.0,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1/sqrt2",
+          "mult": 1.0,
+          "offset": 0.25579656121303507,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Shade",
+          "v": 1.0,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1/sqrt2",
+          "mult": -1.0,
+          "offset": 0.3607836473964111,
+          "shape": 0,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Rim",
+          "v": 0.0,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1/phi",
+          "mult": 1.0,
+          "offset": 0.70344547381011,
+          "shape": 0,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Haze",
+          "v": 0.0,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1/sqrt2",
+          "mult": 2.0,
+          "offset": 0.8397434305685199,
+          "shape": 0,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Halo",
+          "v": 0.373,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1/pi",
+          "mult": 2.0,
+          "offset": 0.5931374701728495,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Focus",
+          "v": 0.6111,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1/pi",
+          "mult": 1.0,
+          "offset": 0.3623341991753971,
+          "shape": 0,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Micro",
+          "v": 0.6283,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1/sqrt2",
+          "mult": 1.0,
+          "offset": 0.5217024357741975,
+          "shape": 0,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Fine",
+          "v": 0.5,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1/phi",
+          "mult": 1.0,
+          "offset": 0.9027210470375706,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Perspective",
+          "v": 0.0,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1/phi",
+          "mult": 1.0,
+          "offset": 0.26595814393891803,
+          "shape": 0,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Wet",
+          "v": 1.0,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1/sqrt2",
+          "mult": 1.0,
+          "offset": 0.29189964246361977,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Loop",
+          "v": 0.5154,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1/phi",
+          "mult": 2.0,
+          "offset": 0.4476394679442903,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Red",
+          "v": 0.5487,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1/phi",
+          "mult": -1.0,
+          "offset": 0.13513844174216838,
+          "shape": 0,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Green",
+          "v": 0.3727,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1/phi",
+          "mult": -1.0,
+          "offset": 0.5958137063643536,
+          "shape": 0,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Blue",
+          "v": 0.6168,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1/sqrt2",
+          "mult": -1.0,
+          "offset": 0.6753577580234467,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Depth",
+          "v": 0.9931,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1/phi",
+          "mult": 1.0,
+          "offset": 0.9702764664582039,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Figure A",
+          "v": 1.0,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1/pi",
+          "mult": -1.0,
+          "offset": 0.6251997388732513,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Figure B",
+          "v": 0.0,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1/sqrt2",
+          "mult": 2.0,
+          "offset": 0.41774715238811155,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Material",
+          "v": 0.0,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1/phi",
+          "mult": 1.0,
+          "offset": 0.5761670536254855,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Base",
+          "v": 1.0,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1/phi",
+          "mult": -1.0,
+          "offset": 0.8369558725324951,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        }
+      ]
+    },
+    {
+      "name": "glyph",
+      "layer": 6,
+      "col": 1,
+      "pattern": "per-slot",
+      "g": {
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "morph": 3.0,
+      "home": true,
+      "arm": {
+        "global": [],
+        "slots": {}
+      },
+      "auto": 0,
+      "armsets": [],
+      "presets": [],
+      "preset_names": {},
+      "slots": [
+        {
+          "name": "Style",
+          "v": 0.0,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1:4",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 0,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Language",
+          "v": 0.0,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1:4",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Glyph",
+          "v": 0.0,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1:4",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Ends",
+          "v": 0.5,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1:4",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 0,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Write",
+          "v": 1.0,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1:4",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Size",
+          "v": 0.9247,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1:4",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "X",
+          "v": 0.5291,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1:4",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Y",
+          "v": 0.5,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1:4",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Weight",
+          "v": 0.4539,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1:4",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Contrast",
+          "v": 1.0,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1:4",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Slant",
+          "v": 0.5586,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1:4",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Width",
+          "v": 0.3728,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1:4",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Round",
+          "v": 0.4916,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1:4",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Hand",
+          "v": 1.0,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1:4",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        },
+        {
+          "name": "Soft",
+          "v": 0.0,
+          "drive": false,
+          "morphing": false,
+          "cyc": false,
+          "ratio": "1:4",
+          "mult": 1.0,
+          "offset": 0.0,
+          "shape": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "lock": false
+        }
+      ]
+    }
+  ],
+  "events": [
+    "07:41:06 map: home loaded",
+    "07:41:06 took over L1C1 'map': 9 slots",
+    "07:41:06 level: home loaded",
+    "07:41:06 took over L2C1 'level': 7 slots",
+    "07:41:06 void: home loaded",
+    "07:41:06 took over L3C3 'void': 15 slots",
+    "07:41:06 figure: home loaded",
+    "07:41:06 took over L4C1 'figure': 6 slots",
+    "07:41:06 shell: home loaded",
+    "07:41:06 took over L5C5 'shell': 39 slots",
+    "07:41:06 glyph: home loaded",
+    "07:41:06 took over L6C1 'glyph': 15 slots"
+  ],
+  "bars": 8,
+  "hold": false,
+  "arena_connected": true,
+  "surface": {
+    "pad": {
+      "assign": {},
+      "cfg": {},
+      "home": {}
+    }
+  },
+  "queue": 21,
+  "delivery": {
+    "pending": 21,
+    "coalesced": 126,
+    "dequeued": 59938,
+    "max_pending_age_ms": 19.28
+  },
+  "layers": [
+    {
+      "i": 8,
+      "name": "grain",
+      "opacity": 0.0,
+      "bypass": false,
+      "clip": "",
+      "clips": [
+        {
+          "col": 1,
+          "name": "grain"
+        },
+        {
+          "col": 8,
+          "name": "SP Grain"
+        },
+        {
+          "col": 9,
+          "name": "SP State Test"
+        }
+      ],
+      "ccol": 0,
+      "ap": 0
+    },
+    {
+      "i": 7,
+      "name": "texture",
+      "opacity": 0.0,
+      "bypass": false,
+      "clip": "",
+      "clips": [
+        {
+          "col": 1,
+          "name": "dither"
+        },
+        {
+          "col": 2,
+          "name": "texture"
+        },
+        {
+          "col": 8,
+          "name": "SP Scan"
+        }
+      ],
+      "ccol": 0,
+      "ap": 0
+    },
+    {
+      "i": 6,
+      "name": "glyph",
+      "opacity": 0.0,
+      "bypass": false,
+      "clip": "glyph",
+      "clips": [
+        {
+          "col": 1,
+          "name": "glyph"
+        },
+        {
+          "col": 2,
+          "name": "script"
+        },
+        {
+          "col": 8,
+          "name": "SP Glyphmass"
+        }
+      ],
+      "ccol": 1,
+      "ap": 0
+    },
+    {
+      "i": 5,
+      "name": "figure",
+      "opacity": 0.7412593482905979,
+      "bypass": false,
+      "clip": "shell",
+      "clips": [
+        {
+          "col": 1,
+          "name": "1d"
+        },
+        {
+          "col": 2,
+          "name": "2d"
+        },
+        {
+          "col": 3,
+          "name": "3d"
+        },
+        {
+          "col": 4,
+          "name": "4d"
+        },
+        {
+          "col": 5,
+          "name": "shell"
+        },
+        {
+          "col": 6,
+          "name": "hybrid"
+        },
+        {
+          "col": 8,
+          "name": "Figure 3D SP"
+        },
+        {
+          "col": 9,
+          "name": "Figure 2D SP"
+        }
+      ],
+      "ccol": 5,
+      "ap": 0
+    },
+    {
+      "i": 4,
+      "name": "delay",
+      "opacity": 1.0,
+      "bypass": false,
+      "clip": "figure",
+      "clips": [
+        {
+          "col": 1,
+          "name": "figure"
+        },
+        {
+          "col": 2,
+          "name": "field"
+        },
+        {
+          "col": 8,
+          "name": "Color"
+        },
+        {
+          "col": 12,
+          "name": "figure \u00b7 light delay"
+        }
+      ],
+      "ccol": 1,
+      "ap": 0
+    },
+    {
+      "i": 3,
+      "name": "field",
+      "opacity": 1.0,
+      "bypass": false,
+      "clip": "void",
+      "clips": [
+        {
+          "col": 1,
+          "name": "ground"
+        },
+        {
+          "col": 2,
+          "name": "room"
+        },
+        {
+          "col": 3,
+          "name": "void"
+        },
+        {
+          "col": 8,
+          "name": "SP Field"
+        }
+      ],
+      "ccol": 3,
+      "ap": 0
+    },
+    {
+      "i": 2,
+      "name": "sculpt",
+      "opacity": 1.0,
+      "bypass": false,
+      "clip": "level",
+      "clips": [
+        {
+          "col": 1,
+          "name": "level"
+        },
+        {
+          "col": 2,
+          "name": "pass"
+        },
+        {
+          "col": 3,
+          "name": "color"
+        },
+        {
+          "col": 4,
+          "name": "mixer"
+        },
+        {
+          "col": 8,
+          "name": "Shape"
+        }
+      ],
+      "ccol": 1,
+      "ap": 0
+    },
+    {
+      "i": 1,
+      "name": "feedback",
+      "opacity": 1.0,
+      "bypass": false,
+      "clip": "map",
+      "clips": [
+        {
+          "col": 1,
+          "name": "map"
+        },
+        {
+          "col": 2,
+          "name": "texture"
+        },
+        {
+          "col": 3,
+          "name": "fold"
+        },
+        {
+          "col": 4,
+          "name": "level"
+        },
+        {
+          "col": 5,
+          "name": "pass"
+        },
+        {
+          "col": 8,
+          "name": "Flow"
+        }
+      ],
+      "ccol": 1,
+      "ap": 0
+    }
+  ],
+  "fx": [
+    {
+      "key": "L5/2",
+      "scope": "L",
+      "layer": 5,
+      "lname": "figure",
+      "name": "Linear Cloner",
+      "env": 0.0,
+      "target": 0.0,
+      "pending": false,
+      "bypassed": true,
+      "cfg": {
+        "attack": 0.5,
+        "release": 1.0,
+        "mode": "latch",
+        "quant": 0,
+        "hold": 1.0,
+        "key": "",
+        "bypass0": true,
+        "bind": null
+      }
+    },
+    {
+      "key": "L5/3",
+      "scope": "L",
+      "layer": 5,
+      "lname": "figure",
+      "name": "Mirror",
+      "env": 0.0,
+      "target": 0.0,
+      "pending": false,
+      "bypassed": true,
+      "cfg": {
+        "attack": 0.5,
+        "release": 1.0,
+        "mode": "latch",
+        "quant": 0,
+        "hold": 1.0,
+        "key": "",
+        "bypass0": true,
+        "bind": null
+      }
+    }
+  ]
+}

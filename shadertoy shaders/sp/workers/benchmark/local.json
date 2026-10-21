@@ -1,0 +1,890 @@
+[
+  {
+    "label": "solo-coder",
+    "model": "qwen3-coder:30b",
+    "local": true,
+    "status": "complete",
+    "checks": {
+      "inputs": true,
+      "TIME": true,
+      "scale_type": true,
+      "continuous": true,
+      "travel": true,
+      "scale_expression": true,
+      "performance": true
+    },
+    "score": 7,
+    "max_score": 7,
+    "tool_pass": true,
+    "answer": {
+      "inputs": [
+        {
+          "name": "tilt",
+          "type": "float"
+        },
+        {
+          "name": "sway",
+          "type": "float"
+        },
+        {
+          "name": "bob",
+          "type": "float"
+        },
+        {
+          "name": "travel",
+          "type": "float"
+        },
+        {
+          "name": "horizon",
+          "type": "float"
+        },
+        {
+          "name": "yaw",
+          "type": "float"
+        },
+        {
+          "name": "dolly",
+          "type": "float"
+        },
+        {
+          "name": "focal",
+          "type": "float"
+        },
+        {
+          "name": "proj",
+          "type": "long"
+        },
+        {
+          "name": "distort",
+          "type": "float"
+        },
+        {
+          "name": "scalev",
+          "type": "float"
+        },
+        {
+          "name": "gap",
+          "type": "float"
+        },
+        {
+          "name": "seamv",
+          "type": "float"
+        },
+        {
+          "name": "bands",
+          "type": "float"
+        },
+        {
+          "name": "sun",
+          "type": "float"
+        },
+        {
+          "name": "height",
+          "type": "float"
+        },
+        {
+          "name": "relief",
+          "type": "float"
+        },
+        {
+          "name": "haze",
+          "type": "float"
+        },
+        {
+          "name": "soft",
+          "type": "float"
+        }
+      ],
+      "uses_TIME": false,
+      "scale_type": "float",
+      "scale_continuous": true,
+      "camZ_expression": "travel * 4.0 + D",
+      "f_expression": "2.0 + scalev * 18.0",
+      "haze_less_instructions": false
+    },
+    "seconds": 31.28,
+    "tool_calls": [
+      "read_shader",
+      "submit_audit"
+    ],
+    "output_tokens": 359,
+    "group_seconds": 31.28
+  },
+  {
+    "label": "solo-gemma",
+    "model": "gemma4:12b",
+    "local": true,
+    "status": "complete",
+    "checks": {
+      "inputs": true,
+      "TIME": true,
+      "scale_type": false,
+      "continuous": true,
+      "travel": true,
+      "scale_expression": true,
+      "performance": true
+    },
+    "score": 6,
+    "max_score": 7,
+    "tool_pass": true,
+    "answer": {
+      "camZ_expression": "travel * 4.0 + D",
+      "f_expression": "2.0 + scalev * 18.0",
+      "haze_less_instructions": false,
+      "inputs": [
+        {
+          "name": "tilt",
+          "type": "float"
+        },
+        {
+          "name": "sway",
+          "type": "float"
+        },
+        {
+          "name": "bob",
+          "type": "float"
+        },
+        {
+          "name": "travel",
+          "type": "float"
+        },
+        {
+          "name": "horizon",
+          "type": "float"
+        },
+        {
+          "name": "yaw",
+          "type": "float"
+        },
+        {
+          "name": "dolly",
+          "type": "float"
+        },
+        {
+          "name": "focal",
+          "type": "float"
+        },
+        {
+          "name": "proj",
+          "type": "long"
+        },
+        {
+          "name": "distort",
+          "type": "float"
+        },
+        {
+          "name": "scalev",
+          "type": "float"
+        },
+        {
+          "name": "gap",
+          "type": "float"
+        },
+        {
+          "name": "seamv",
+          "type": "float"
+        },
+        {
+          "name": "bands",
+          "type": "float"
+        },
+        {
+          "name": "sun",
+          "type": "float"
+        },
+        {
+          "name": "height",
+          "type": "float"
+        },
+        {
+          "name": "relief",
+          "type": "float"
+        },
+        {
+          "name": "haze",
+          "type": "float"
+        },
+        {
+          "name": "soft",
+          "type": "float"
+        }
+      ],
+      "scale_continuous": true,
+      "scale_type": "linear",
+      "uses_TIME": false
+    },
+    "seconds": 56.92,
+    "tool_calls": [
+      "read_shader",
+      "submit_audit"
+    ],
+    "output_tokens": 325,
+    "group_seconds": 56.92
+  },
+  {
+    "label": "solo-qwen8",
+    "model": "qwen3:8b",
+    "local": true,
+    "status": "complete",
+    "checks": {
+      "inputs": true,
+      "TIME": true,
+      "scale_type": true,
+      "continuous": true,
+      "travel": true,
+      "scale_expression": true,
+      "performance": true
+    },
+    "score": 7,
+    "max_score": 7,
+    "tool_pass": true,
+    "answer": {
+      "scale_type": "float",
+      "uses_TIME": false,
+      "camZ_expression": "travel * 4.0 + D",
+      "f_expression": "2.0 + scalev * 18.0",
+      "haze_less_instructions": false,
+      "inputs": [
+        {
+          "name": "tilt",
+          "type": "float"
+        },
+        {
+          "name": "sway",
+          "type": "float"
+        },
+        {
+          "name": "bob",
+          "type": "float"
+        },
+        {
+          "name": "travel",
+          "type": "float"
+        },
+        {
+          "name": "horizon",
+          "type": "float"
+        },
+        {
+          "name": "yaw",
+          "type": "float"
+        },
+        {
+          "name": "dolly",
+          "type": "float"
+        },
+        {
+          "name": "focal",
+          "type": "float"
+        },
+        {
+          "name": "proj",
+          "type": "long"
+        },
+        {
+          "name": "distort",
+          "type": "float"
+        },
+        {
+          "name": "scalev",
+          "type": "float"
+        },
+        {
+          "name": "gap",
+          "type": "float"
+        },
+        {
+          "name": "seamv",
+          "type": "float"
+        },
+        {
+          "name": "bands",
+          "type": "float"
+        },
+        {
+          "name": "sun",
+          "type": "float"
+        },
+        {
+          "name": "height",
+          "type": "float"
+        },
+        {
+          "name": "relief",
+          "type": "float"
+        },
+        {
+          "name": "haze",
+          "type": "float"
+        },
+        {
+          "name": "soft",
+          "type": "float"
+        }
+      ],
+      "scale_continuous": true
+    },
+    "seconds": 39.01,
+    "tool_calls": [
+      "read_shader",
+      "submit_audit"
+    ],
+    "output_tokens": 338,
+    "group_seconds": 39.01
+  },
+  {
+    "label": "pair",
+    "model": "qwen3-coder:30b",
+    "local": true,
+    "status": "complete",
+    "checks": {
+      "inputs": true,
+      "TIME": true,
+      "scale_type": true,
+      "continuous": true,
+      "travel": true,
+      "scale_expression": true,
+      "performance": true
+    },
+    "score": 7,
+    "max_score": 7,
+    "tool_pass": true,
+    "answer": {
+      "inputs": [
+        {
+          "name": "tilt",
+          "type": "float"
+        },
+        {
+          "name": "sway",
+          "type": "float"
+        },
+        {
+          "name": "bob",
+          "type": "float"
+        },
+        {
+          "name": "travel",
+          "type": "float"
+        },
+        {
+          "name": "horizon",
+          "type": "float"
+        },
+        {
+          "name": "yaw",
+          "type": "float"
+        },
+        {
+          "name": "dolly",
+          "type": "float"
+        },
+        {
+          "name": "focal",
+          "type": "float"
+        },
+        {
+          "name": "proj",
+          "type": "long"
+        },
+        {
+          "name": "distort",
+          "type": "float"
+        },
+        {
+          "name": "scalev",
+          "type": "float"
+        },
+        {
+          "name": "gap",
+          "type": "float"
+        },
+        {
+          "name": "seamv",
+          "type": "float"
+        },
+        {
+          "name": "bands",
+          "type": "float"
+        },
+        {
+          "name": "sun",
+          "type": "float"
+        },
+        {
+          "name": "height",
+          "type": "float"
+        },
+        {
+          "name": "relief",
+          "type": "float"
+        },
+        {
+          "name": "haze",
+          "type": "float"
+        },
+        {
+          "name": "soft",
+          "type": "float"
+        }
+      ],
+      "uses_TIME": false,
+      "scale_type": "float",
+      "scale_continuous": true,
+      "camZ_expression": "travel * 4.0 + D",
+      "f_expression": "2.0 + scalev * 18.0",
+      "haze_less_instructions": false
+    },
+    "seconds": 75.83,
+    "tool_calls": [
+      "read_shader",
+      "submit_audit"
+    ],
+    "output_tokens": 359,
+    "group_seconds": 75.83
+  },
+  {
+    "label": "pair",
+    "model": "gemma4:12b",
+    "local": true,
+    "status": "complete",
+    "checks": {
+      "inputs": true,
+      "TIME": true,
+      "scale_type": false,
+      "continuous": true,
+      "travel": true,
+      "scale_expression": true,
+      "performance": true
+    },
+    "score": 6,
+    "max_score": 7,
+    "tool_pass": true,
+    "answer": {
+      "camZ_expression": "travel * 4.0 + D",
+      "f_expression": "2.0 + scalev * 18.0",
+      "haze_less_instructions": false,
+      "inputs": [
+        {
+          "name": "tilt",
+          "type": "float"
+        },
+        {
+          "name": "sway",
+          "type": "float"
+        },
+        {
+          "name": "bob",
+          "type": "float"
+        },
+        {
+          "name": "travel",
+          "type": "float"
+        },
+        {
+          "name": "horizon",
+          "type": "float"
+        },
+        {
+          "name": "yaw",
+          "type": "float"
+        },
+        {
+          "name": "dolly",
+          "type": "float"
+        },
+        {
+          "name": "focal",
+          "type": "float"
+        },
+        {
+          "name": "proj",
+          "type": "long"
+        },
+        {
+          "name": "distort",
+          "type": "float"
+        },
+        {
+          "name": "scalev",
+          "type": "float"
+        },
+        {
+          "name": "gap",
+          "type": "float"
+        },
+        {
+          "name": "seamv",
+          "type": "float"
+        },
+        {
+          "name": "bands",
+          "type": "float"
+        },
+        {
+          "name": "sun",
+          "type": "float"
+        },
+        {
+          "name": "height",
+          "type": "float"
+        },
+        {
+          "name": "relief",
+          "type": "float"
+        },
+        {
+          "name": "haze",
+          "type": "float"
+        },
+        {
+          "name": "soft",
+          "type": "float"
+        }
+      ],
+      "scale_continuous": true,
+      "scale_type": "linear",
+      "uses_TIME": false
+    },
+    "seconds": 70.22,
+    "tool_calls": [
+      "read_shader",
+      "submit_audit"
+    ],
+    "output_tokens": 325,
+    "group_seconds": 75.83
+  },
+  {
+    "label": "trio",
+    "model": "qwen3-coder:30b",
+    "local": true,
+    "status": "complete",
+    "checks": {
+      "inputs": true,
+      "TIME": true,
+      "scale_type": true,
+      "continuous": true,
+      "travel": true,
+      "scale_expression": true,
+      "performance": true
+    },
+    "score": 7,
+    "max_score": 7,
+    "tool_pass": true,
+    "answer": {
+      "inputs": [
+        {
+          "name": "tilt",
+          "type": "float"
+        },
+        {
+          "name": "sway",
+          "type": "float"
+        },
+        {
+          "name": "bob",
+          "type": "float"
+        },
+        {
+          "name": "travel",
+          "type": "float"
+        },
+        {
+          "name": "horizon",
+          "type": "float"
+        },
+        {
+          "name": "yaw",
+          "type": "float"
+        },
+        {
+          "name": "dolly",
+          "type": "float"
+        },
+        {
+          "name": "focal",
+          "type": "float"
+        },
+        {
+          "name": "proj",
+          "type": "long"
+        },
+        {
+          "name": "distort",
+          "type": "float"
+        },
+        {
+          "name": "scalev",
+          "type": "float"
+        },
+        {
+          "name": "gap",
+          "type": "float"
+        },
+        {
+          "name": "seamv",
+          "type": "float"
+        },
+        {
+          "name": "bands",
+          "type": "float"
+        },
+        {
+          "name": "sun",
+          "type": "float"
+        },
+        {
+          "name": "height",
+          "type": "float"
+        },
+        {
+          "name": "relief",
+          "type": "float"
+        },
+        {
+          "name": "haze",
+          "type": "float"
+        },
+        {
+          "name": "soft",
+          "type": "float"
+        }
+      ],
+      "uses_TIME": false,
+      "scale_type": "float",
+      "scale_continuous": true,
+      "camZ_expression": "travel * 4.0 + D",
+      "f_expression": "2.0 + scalev * 18.0",
+      "haze_less_instructions": false
+    },
+    "seconds": 76.88,
+    "tool_calls": [
+      "read_shader",
+      "submit_audit"
+    ],
+    "output_tokens": 359,
+    "group_seconds": 101.59
+  },
+  {
+    "label": "trio",
+    "model": "gemma4:12b",
+    "local": true,
+    "status": "complete",
+    "checks": {
+      "inputs": true,
+      "TIME": true,
+      "scale_type": false,
+      "continuous": true,
+      "travel": true,
+      "scale_expression": true,
+      "performance": true
+    },
+    "score": 6,
+    "max_score": 7,
+    "tool_pass": true,
+    "answer": {
+      "camZ_expression": "travel * 4.0 + D",
+      "f_expression": "2.0 + scalev * 18.0",
+      "haze_less_instructions": false,
+      "inputs": [
+        {
+          "name": "tilt",
+          "type": "float"
+        },
+        {
+          "name": "sway",
+          "type": "float"
+        },
+        {
+          "name": "bob",
+          "type": "float"
+        },
+        {
+          "name": "travel",
+          "type": "float"
+        },
+        {
+          "name": "horizon",
+          "type": "float"
+        },
+        {
+          "name": "yaw",
+          "type": "float"
+        },
+        {
+          "name": "dolly",
+          "type": "float"
+        },
+        {
+          "name": "focal",
+          "type": "float"
+        },
+        {
+          "name": "proj",
+          "type": "long"
+        },
+        {
+          "name": "distort",
+          "type": "float"
+        },
+        {
+          "name": "scalev",
+          "type": "float"
+        },
+        {
+          "name": "gap",
+          "type": "float"
+        },
+        {
+          "name": "seamv",
+          "type": "float"
+        },
+        {
+          "name": "bands",
+          "type": "float"
+        },
+        {
+          "name": "sun",
+          "type": "float"
+        },
+        {
+          "name": "height",
+          "type": "float"
+        },
+        {
+          "name": "relief",
+          "type": "float"
+        },
+        {
+          "name": "haze",
+          "type": "float"
+        },
+        {
+          "name": "soft",
+          "type": "float"
+        }
+      ],
+      "scale_continuous": true,
+      "scale_type": "linear",
+      "uses_TIME": false
+    },
+    "seconds": 92.39,
+    "tool_calls": [
+      "read_shader",
+      "submit_audit"
+    ],
+    "output_tokens": 325,
+    "group_seconds": 101.59
+  },
+  {
+    "label": "trio",
+    "model": "qwen3:8b",
+    "local": true,
+    "status": "complete",
+    "checks": {
+      "inputs": true,
+      "TIME": true,
+      "scale_type": true,
+      "continuous": true,
+      "travel": true,
+      "scale_expression": true,
+      "performance": true
+    },
+    "score": 7,
+    "max_score": 7,
+    "tool_pass": true,
+    "answer": {
+      "inputs": [
+        {
+          "name": "tilt",
+          "type": "float"
+        },
+        {
+          "name": "sway",
+          "type": "float"
+        },
+        {
+          "name": "bob",
+          "type": "float"
+        },
+        {
+          "name": "travel",
+          "type": "float"
+        },
+        {
+          "name": "horizon",
+          "type": "float"
+        },
+        {
+          "name": "yaw",
+          "type": "float"
+        },
+        {
+          "name": "dolly",
+          "type": "float"
+        },
+        {
+          "name": "focal",
+          "type": "float"
+        },
+        {
+          "name": "proj",
+          "type": "long"
+        },
+        {
+          "name": "distort",
+          "type": "float"
+        },
+        {
+          "name": "scalev",
+          "type": "float"
+        },
+        {
+          "name": "gap",
+          "type": "float"
+        },
+        {
+          "name": "seamv",
+          "type": "float"
+        },
+        {
+          "name": "bands",
+          "type": "float"
+        },
+        {
+          "name": "sun",
+          "type": "float"
+        },
+        {
+          "name": "height",
+          "type": "float"
+        },
+        {
+          "name": "relief",
+          "type": "float"
+        },
+        {
+          "name": "haze",
+          "type": "float"
+        },
+        {
+          "name": "soft",
+          "type": "float"
+        }
+      ],
+      "scale_continuous": true,
+      "scale_type": "float",
+      "uses_TIME": false,
+      "camZ_expression": "travel * 4.0 + D",
+      "f_expression": "2.0 + scalev * 18.0",
+      "haze_less_instructions": false
+    },
+    "seconds": 101.59,
+    "tool_calls": [
+      "read_shader",
+      "submit_audit"
+    ],
+    "output_tokens": 338,
+    "group_seconds": 101.59
+  }
+]

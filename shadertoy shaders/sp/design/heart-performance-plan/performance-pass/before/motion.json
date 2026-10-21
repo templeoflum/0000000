@@ -1,0 +1,459 @@
+{
+ "SP Atom 4D Field:shell": {
+  "relationship": {
+   "kind": "pendulum",
+   "base": 17,
+   "step": 1,
+   "members": {
+    "Turn": 0,
+    "Spin": 1,
+    "Double": 2,
+    "Sweep": 3,
+    "Thickness": 4,
+    "Hue": 5,
+    "W": 6,
+    "Sun": 7,
+    "Height": 8,
+    "X": 9,
+    "Y": 10,
+    "Morph": 11,
+    "Size": 12,
+    "Spread": 13,
+    "Drift": 14,
+    "Distance": 15,
+    "Faces": 16,
+    "Edges": 17,
+    "Round": 18,
+    "Shade": 19,
+    "Rim": 20,
+    "Haze": 21,
+    "Halo": 22,
+    "Focus": 23,
+    "Wet": 24,
+    "Loop": 25,
+    "Red": 26,
+    "Green": 27,
+    "Blue": 28,
+    "Depth": 29
+   }
+  },
+  "speed": 0.25
+ },
+ "SPDelayChain:figure": {
+  "relationship": {
+   "kind": "pendulum",
+   "base": 17,
+   "step": 1,
+   "members": {
+    "R": 0,
+    "G": 1,
+    "B": 2,
+    "Span": 3,
+    "Glide": 4
+   }
+  },
+  "speed": 0.25
+ },
+ "SP Atom Hybrid:hybrid": {
+  "relationship": null,
+  "speed": 1.0
+ },
+ "SP Atom 4D:4d": {
+  "relationship": null,
+  "speed": 1.0
+ },
+ "SP Atom Void:void": {
+  "relationship": {
+   "kind": "pendulum",
+   "base": 17,
+   "step": 1,
+   "members": {
+    "Travel": 0,
+    "Sway": 1,
+    "Bob": 2,
+    "Yaw": 3,
+    "Tilt": 4,
+    "Horizon": 5,
+    "Dolly": 6,
+    "Focal mm": 7,
+    "Distort": 8,
+    "Density": 9,
+    "Size": 10,
+    "Reach": 11,
+    "Haze": 12,
+    "Soft": 13
+   }
+  },
+  "speed": 0.25
+ },
+ "SPStudyLevel:level": {
+  "relationship": {
+   "kind": "pendulum",
+   "base": 17,
+   "step": 1,
+   "members": {
+    "Key": 0,
+    "Soft": 1,
+    "Gain": 2,
+    "Floor": 3,
+    "Curve": 4,
+    "Ceiling": 5,
+    "Lift": 6
+   }
+  },
+  "speed": 0.25
+ },
+ "SPChainMap:map": {
+  "relationship": {
+   "kind": "pendulum",
+   "base": 17,
+   "step": 1,
+   "members": {
+    "Zoom": 0,
+    "Rotate": 1,
+    "Drift X": 2,
+    "Drift Y": 3,
+    "Center X": 4,
+    "Center Y": 5
+   }
+  },
+  "speed": 0.25
+ },
+ "SP Atom Room:room": {
+  "relationship": {
+   "kind": "pendulum",
+   "base": 17,
+   "step": 1,
+   "members": {
+    "Tilt": 0,
+    "Sway": 1,
+    "Bob": 2,
+    "Travel": 3,
+    "Horizon": 4,
+    "Yaw": 5,
+    "Dolly": 6,
+    "Focal mm": 7,
+    "Distort": 8,
+    "Left": 9,
+    "Right": 10,
+    "Floor": 11,
+    "Ceiling": 12,
+    "Back": 13,
+    "Front": 14,
+    "Scale": 15,
+    "Gap": 16,
+    "Seam": 17,
+    "Bands": 18,
+    "Sun": 19,
+    "Height": 20,
+    "Relief": 21,
+    "Haze": 22,
+    "Soft": 23
+   }
+  },
+  "speed": 0.25
+ },
+ "SP Atom Solid:3d": {
+  "relationship": {
+   "kind": "pendulum",
+   "base": 17,
+   "step": 1,
+   "members": {
+    "Morph": 0,
+    "Size": 1,
+    "X": 2,
+    "Y": 3,
+    "Tumble": 4,
+    "Axis": 5,
+    "Sun": 6,
+    "Height": 7,
+    "Distance": 8,
+    "Shadow": 9,
+    "Loop": 10,
+    "Hue": 11,
+    "Red": 12,
+    "Green": 13,
+    "Blue": 14,
+    "Shade": 15,
+    "Edge": 16,
+    "Emboss": 17
+   }
+  },
+  "speed": 1.0
+ },
+ "SP Atom Ground:ground": {
+  "relationship": null,
+  "speed": 0.25
+ },
+ "feedback/SPChainMap:map": {
+  "relationship": {
+   "kind": "pendulum",
+   "base": 17,
+   "step": 1,
+   "members": {
+    "Zoom": 0,
+    "Rotate": 1,
+    "Drift X": 2,
+    "Drift Y": 3,
+    "Center X": 4,
+    "Center Y": 5
+   }
+  },
+  "speed": 0.25,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "sculpt/SPStudyLevel:level": {
+  "relationship": {
+   "kind": "pendulum",
+   "base": 17,
+   "step": 1,
+   "members": {
+    "Key": 0,
+    "Soft": 1,
+    "Gain": 2,
+    "Floor": 3,
+    "Curve": 4,
+    "Ceiling": 5,
+    "Lift": 6
+   }
+  },
+  "speed": 0.25,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/SP Atom Ground:ground": {
+  "relationship": {
+   "kind": "pendulum",
+   "base": 17,
+   "step": 1,
+   "members": {
+    "Tilt": 0,
+    "Sway": 1,
+    "Bob": 2,
+    "Travel": 3,
+    "Horizon": 4,
+    "Yaw": 5,
+    "Dolly": 6,
+    "Focal mm": 7,
+    "Distort": 8,
+    "Scale": 9,
+    "Gap": 10,
+    "Seam": 11,
+    "Bands": 12,
+    "Sun": 13,
+    "Height": 14,
+    "Relief": 15,
+    "Haze": 16,
+    "Soft": 17
+   }
+  },
+  "speed": 0.25,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/SP Atom 4D Field:shell": {
+  "relationship": {
+   "kind": "pendulum",
+   "base": 17,
+   "step": 1,
+   "members": {
+    "Turn": 0,
+    "Spin": 1,
+    "Double": 2,
+    "Sweep": 3,
+    "W": 4,
+    "Thickness": 5,
+    "Morph": 6,
+    "Size": 7,
+    "X": 8,
+    "Y": 9,
+    "Spread": 10,
+    "Drift": 11,
+    "Sun": 12,
+    "Height": 13,
+    "Distance": 14,
+    "Faces": 15,
+    "Hue": 16,
+    "Loop": 17
+   }
+  },
+  "speed": 0.5,
+  "pattern": 0,
+  "seed": 0,
+  "fm": 0.0
+ },
+ "field/SP Atom Room:room": {
+  "relationship": {
+   "kind": "pendulum",
+   "base": 17,
+   "step": 1,
+   "members": {
+    "Tilt": 0,
+    "Sway": 1,
+    "Bob": 2,
+    "Travel": 3,
+    "Horizon": 4,
+    "Yaw": 5,
+    "Dolly": 6,
+    "Focal mm": 7,
+    "Distort": 8,
+    "Left": 9,
+    "Right": 10,
+    "Floor": 11,
+    "Ceiling": 12,
+    "Back": 13,
+    "Front": 14,
+    "Scale": 15,
+    "Gap": 16,
+    "Seam": 17,
+    "Bands": 18,
+    "Sun": 19,
+    "Height": 20,
+    "Relief": 21,
+    "Haze": 22,
+    "Soft": 23
+   }
+  },
+  "speed": 0.25,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "delay/SPDelayChain:figure": {
+  "relationship": {
+   "kind": "pendulum",
+   "base": 17,
+   "step": 1,
+   "members": {
+    "R": 0,
+    "G": 1,
+    "B": 2,
+    "Span": 3,
+    "Glide": 4
+   }
+  },
+  "speed": 0.25,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "feedback/SPHeartFeedback:heart feedback": {
+  "relationship": {
+   "kind": "pendulum",
+   "base": 17,
+   "step": 1,
+   "members": {
+    "Zoom": 0,
+    "Rotate": 1,
+    "Loop Hue": 2
+   }
+  },
+  "speed": 0.25,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "field/SP Atom Void:void": {
+  "relationship": {
+   "kind": "pendulum",
+   "base": 17,
+   "step": 1,
+   "members": {
+    "Travel": 0,
+    "Sway": 1,
+    "Bob": 2,
+    "Yaw": 3,
+    "Tilt": 4,
+    "Horizon": 5,
+    "Dolly": 6,
+    "Focal mm": 7,
+    "Distort": 8,
+    "Density": 9,
+    "Size": 10,
+    "Reach": 11,
+    "Haze": 12,
+    "Soft": 13
+   }
+  },
+  "speed": 0.25,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "texture/SPAtomDither:dither": {
+  "relationship": null,
+  "speed": 1.0,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/SP Atom Solid:3d": {
+  "relationship": {
+   "kind": "pendulum",
+   "base": 17,
+   "step": 1,
+   "members": {
+    "Tumble": 0,
+    "Axis": 1,
+    "Morph": 2,
+    "Size": 3,
+    "X": 4,
+    "Y": 5,
+    "Sun": 6,
+    "Height": 7,
+    "Distance": 8,
+    "Hue": 9,
+    "Loop": 10,
+    "Shade": 11,
+    "Edge": 12
+   }
+  },
+  "speed": 0.5,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ },
+ "figure/z33d+:FM \u00b7 z33d+ [1.6.4]": {
+  "relationship": {
+   "kind": "pendulum",
+   "base": 17,
+   "step": 1,
+   "members": {
+    "rot angle": 0,
+    "axis x": 1,
+    "axis y": 2,
+    "mx": 3,
+    "my": 4,
+    "e": 5
+   }
+  },
+  "speed": 0.5,
+  "pattern": 0,
+  "seed": 0,
+  "spread": 1,
+  "depth": 1.0,
+  "fm": 0.0
+ }
+}

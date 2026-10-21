@@ -1,0 +1,5 @@
+{
+  "model": "qwen3-coder:30b",
+  "response": "Source guarantees containment via bounded `zoom`, `axisX/Y`, and `rotAngle` ranges. Numerical hazards likely from `log(r)` and `pow(r, 7.0)` at large `r`. Four focused cases:\n\n1. **Static zoom=0.169697, axis drift=0**: Stable fractal core.\n2. **Max axis drift (drift=1)**: Dynamic axis rotation; potential instability.\n3. **Extreme zoom (zoom=3.0)**: Overzoom; risk of overflow.\n4. **High rate (rate=1)**: Fast animation; possible divergence.\n\nAll cases respect input bounds; no proof of global stability.",
+  "eval_count": 143
+}

@@ -1,0 +1,64 @@
+{
+  "SchemaVersion": "1.1-ter",
+  "ArchetypeName": "Phobos",
+  "SystemOfOrigin": "GR",
+  "CulturalLineage": ["Greek"],
+  "CommonAliases": ["Fear", "Panic", "Terror", "Dread"],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "To embody fear and panic in battle; to paralyze enemies with terror; to be the psychological weapon of war.",
+    "PrimaryDomain": "Mythic / Psychological",
+    "ToneOrPolarity": "Terrifying / Paralyzing",
+    "SymbolicCore": "Fear itself, the panic that breaks armies, terror personified.",
+    "Correspondences": {
+      "Element": "Air",
+      "Planet": "Mars",
+      "Chakra": "Solar Plexus",
+      "Color": "Dark Red, Black",
+      "Animal": "Wolf, Vulture",
+      "Other": ["Shield of Terror", "Lion's Head", "Gorgon Mask", "Panic"]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": ["Fear Bringer", "Terror God", "Panic Inducer", "War Companion"],
+    "ComplementaryArchetypes": ["Ares ([GR] Father)", "Deimos ([GR] Brother)", "Aphrodite ([GR] Mother)"],
+    "ShadowForms": ["Paralyzing Fear", "Irrational Panic", "Terror Without Cause"],
+    "DevelopmentalArc": [],
+    "CyclePhase": "Terror / Panic"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": ["Terrifying", "Panic-inducing", "Paralyzing", "Instinctive", "Primal", "Overwhelming"],
+    "Typologies": {
+      "MBTI": "ESTP",
+      "Enneagram": "6w7",
+      "Other": ["Shadow", "Terror", "Fear"]
+    },
+    "SubVariants": ["Battle Panic", "Primal Fear", "Rational Dread"],
+    "InternalFamily": "Fear Response"
+  },
+  "CulturalContext": {
+    "Regions": ["Greece"],
+    "MythicAppearances": ["Son of Ares and Aphrodite", "Accompanied father to battle", "Depicted on shields and weapons"],
+    "ReligiousOrRitualUse": "Invoked to terrify enemies; depicted on war shields; propitiated before battle.",
+    "HistoricalEvolution": "Ancient war deity; gave name to phobia; Mars's moon named after him.",
+    "SyncreticForms": ["Metus/Pavor (Roman)", "Phobia (modern psychology)"]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "😱",
+    "ImageryNotes": "Depicted on shields as terrifying face, lion head, or gorgon; personified as fierce warrior inducing panic.",
+    "ArtisticExamples": ["Greek shield decorations", "War god imagery", "Gorgon masks"],
+    "PoeticInvocation": "Phobos, terror of the battlefield, whose very presence breaks the courage of armies.",
+    "DreamForm": "A presence that fills you with overwhelming dread, freezing you in place"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": ["JU.Shadow", "Fight_or_Flight", "Amygdala_Response"],
+    "SemanticTags": ["#fear", "#panic", "#terror", "#war", "#psychology"],
+    "RitualFunction": "Shadow work with fear; understanding panic responses; warrior psychology.",
+    "AIPromptSeeds": ["The god whose name became the root of all phobias.", "Terror personified on the battlefield."],
+    "NarrativeHooks": ["Overcoming paralyzing fear", "Panic that breaks armies", "Terror as weapon"]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [{"to": "Phobia", "strength": "strong"}, {"to": "Fight_or_Flight", "strength": "moderate"}]
+  },
+  "FacetRegistry": [{"facet": "Battle Panic", "weight": 0.5}, {"facet": "Primal Fear", "weight": 0.4}, {"facet": "Terror Weapon", "weight": 0.1}]
+}

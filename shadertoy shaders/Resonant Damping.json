@@ -1,0 +1,84 @@
+{
+  "id": "M3lfWX",
+  "name": "Resonant Damping",
+  "username": "wyatt",
+  "description": "The envelop function of a resonant damped wave equation (aka klein-gordon equation)\nappears to match the energy spectrum of x-rays passing through a material. \nThis dispersive wave equation explains rainbows ",
+  "tags": [
+    "wave",
+    "light",
+    "rainbow",
+    "quantum",
+    "dispersion",
+    "xray",
+    "kleingordan"
+  ],
+  "date": "1729015469",
+  "viewed": 308,
+  "likes": 21,
+  "published": 3,
+  "renderpass": [
+    {
+      "type": "image",
+      "name": "Image",
+      "inputs": [
+        {
+          "id": "4dXGR8",
+          "filepath": "/media/previz/buffer00.png",
+          "previewfilepath": "/media/previz/buffer00.png",
+          "type": "buffer",
+          "channel": 0,
+          "sampler": {
+            "filter": "linear",
+            "wrap": "clamp",
+            "vflip": "true",
+            "srgb": "false",
+            "internal": "byte"
+          },
+          "published": 1
+        }
+      ],
+      "outputs": [
+        {
+          "id": "4dfGRr",
+          "channel": 0
+        }
+      ],
+      "code": "#define N 8.\nfloat ln (vec2 U, vec2 a, vec2 b) {\n\n    return length(U-a-(b-a)*clamp(dot(U-a,b-a)/dot(b-a,b-a),0.,1.));\n\n}\nMain {\n\n    \n    float y = floor(U.y/R.y*N);\n    \n    float d = 1e9;\n    for (float i = -3.; i <= 2.; i++) {\n        vec2 a = vec2(U.x+i,(.5+y)/N*R.y+2.*R.y/N*A(vec2(U.x+i,1.08*R.y*y/N)).y);\n        vec2 b  = vec2(U.x+i+1.,(.5+y)/N*R.y+2.*R.y/N*A(vec2(U.x+i+1.,1.08*R.y*y/N)).y);\n        d = min(d,ln(U,a,b));\n    }\n    \n    Q = mix(sin(-2.+6.2*A(U).y+vec4(1,2,3,4)),vec4(1),\n    \n        smoothstep(2.,1.,d)\n    \n    );\n    \n    \n    \n\n}"
+    },
+    {
+      "type": "common",
+      "name": "Common",
+      "inputs": [],
+      "outputs": [],
+      "code": "#define R iResolution.xy\n#define A(U) texture(iChannel0,(U)/R)\n#define Main void mainImage(out vec4 Q, in vec2 U)"
+    },
+    {
+      "type": "buffer",
+      "name": "Buffer A",
+      "inputs": [
+        {
+          "id": "4dXGR8",
+          "filepath": "/media/previz/buffer00.png",
+          "previewfilepath": "/media/previz/buffer00.png",
+          "type": "buffer",
+          "channel": 0,
+          "sampler": {
+            "filter": "linear",
+            "wrap": "clamp",
+            "vflip": "true",
+            "srgb": "false",
+            "internal": "byte"
+          },
+          "published": 1
+        }
+      ],
+      "outputs": [
+        {
+          "id": "4dXGR8",
+          "channel": 0
+        }
+      ],
+      "code": "Main {\n\n    Q = A(U-vec2(1,0));\n    vec4 e = A(U-vec2(2,0));\n    vec4 w = A(U);\n    \n    vec4 l = e+w-Q-Q;\n    \n    float E = (U.y-.5)/R.y;\n    E *= E;\n    Q.x += (1.-E)*l.y - E*Q.y;\n    Q.y += Q.x;\n    \n    \n    if (iFrame < 1) {\n        Q = vec4(0);\n        Q.y = .5*exp(-.1*(U.x-.1*R.x)*(U.x-.1*R.x));\n    \n    }\n    \n\n}"
+    }
+  ]
+}

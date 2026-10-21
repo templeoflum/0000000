@@ -1,0 +1,196 @@
+[
+  {
+    "layer": 3,
+    "col": 9,
+    "source": "Heart Concentrip",
+    "controls": [
+      "radialDensity",
+      "angularDensity",
+      "blendThreshold",
+      "blendWidth",
+      "phase",
+      "hue"
+    ],
+    "discovered": [
+      "radialDensity",
+      "angularDensity",
+      "blendThreshold",
+      "blendWidth",
+      "phase",
+      "hue"
+    ],
+    "probe": "radialDensity",
+    "checks": [
+      {
+        "requested": 15.6,
+        "observed": 15.6,
+        "ok": true
+      },
+      {
+        "requested": 32.4,
+        "observed": 32.4,
+        "ok": true
+      }
+    ],
+    "samples": [
+      24.008531649027123,
+      19.924931484710577,
+      17.046109806789485,
+      16.171003702468546
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 3,
+    "col": 10,
+    "source": "Heart Puls Lattice",
+    "controls": [
+      "cellSpacing",
+      "barWidth",
+      "boltWidth",
+      "greenExpansion",
+      "orangeExpansion",
+      "pulsePhase",
+      "travelPhase"
+    ],
+    "discovered": [
+      "cellSpacing",
+      "barWidth",
+      "boltWidth",
+      "greenExpansion",
+      "orangeExpansion",
+      "pulsePhase",
+      "travelPhase"
+    ],
+    "probe": "barWidth",
+    "checks": [
+      {
+        "requested": 0.11699999906122685,
+        "observed": 0.11699999906122682,
+        "ok": true
+      },
+      {
+        "requested": 0.19299999959766864,
+        "observed": 0.19299999959766864,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.1356910083550425,
+      0.12262987166651104,
+      0.1146127691934361,
+      0.11508329869131004
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 3,
+    "col": 11,
+    "source": "Heart Ancient Temple",
+    "controls": [
+      "zoom",
+      "morph",
+      "speed",
+      "cameraPitch",
+      "cameraYaw",
+      "cameraRoll",
+      "fractalScale",
+      "fractalIterations",
+      "surfaceShake",
+      "floorPattern",
+      "orbSize",
+      "orbPattern",
+      "colorPalette",
+      "contrast",
+      "saturation",
+      "brightness"
+    ],
+    "discovered": [
+      "zoom",
+      "morph",
+      "speed",
+      "cameraPitch",
+      "cameraYaw",
+      "cameraRoll",
+      "fractalScale",
+      "fractalIterations",
+      "surfaceShake",
+      "floorPattern",
+      "orbSize",
+      "orbPattern",
+      "colorPalette",
+      "contrast",
+      "saturation",
+      "brightness"
+    ],
+    "probe": "morph",
+    "checks": [
+      {
+        "requested": 0.6,
+        "observed": 0.6,
+        "ok": true
+      },
+      {
+        "requested": 1.4,
+        "observed": 1.4,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.0018018674405534567,
+      0.05070387563918392,
+      0.1969480417043373,
+      0.4101498801490514
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 3,
+    "col": 12,
+    "source": "Heart Kali Liberation",
+    "controls": [
+      "speed",
+      "zoom",
+      "morphing",
+      "colorPulse",
+      "brightness",
+      "contrast",
+      "cameraX",
+      "cameraY",
+      "cameraZ",
+      "colorPalette"
+    ],
+    "discovered": [
+      "speed",
+      "zoom",
+      "morphing",
+      "colorPulse",
+      "brightness",
+      "contrast",
+      "cameraX",
+      "cameraY",
+      "cameraZ",
+      "colorPalette"
+    ],
+    "probe": "morphing",
+    "checks": [
+      {
+        "requested": 0.6,
+        "observed": 0.6,
+        "ok": true
+      },
+      {
+        "requested": 1.4,
+        "observed": 1.4,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.9475408367995778,
+      0.7714860125492583,
+      0.6491391912363051,
+      0.6163680117210502
+    ],
+    "drive_varied": true
+  }
+]

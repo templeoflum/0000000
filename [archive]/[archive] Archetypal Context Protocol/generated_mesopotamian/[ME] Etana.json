@@ -1,0 +1,190 @@
+{
+  "SchemaVersion": "1.1-ter",
+  "ArchetypeName": "Etana",
+  "SystemOfOrigin": "ME",
+  "CulturalLineage": [
+    "Sumerian",
+    "Akkadian",
+    "Babylonian"
+  ],
+  "CommonAliases": [
+    "The Shepherd King",
+    "Eagle Rider",
+    "Seeker of the Plant of Birth",
+    "First King",
+    "Sky Voyager"
+  ],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "Legendary king embodying sky journey, quest for heir, partnership with eagle, and the audacity to ascend to heaven",
+    "PrimaryDomain": "Kingship/Flight/Quest/Partnership",
+    "ToneOrPolarity": "Questing / Ascending / Partnering / Audacious",
+    "SymbolicCore": "The king who rode the eagle to heaven - mortal audacity reaching for divine solutions",
+    "Correspondences": {
+      "Element": "Air (flight)",
+      "Planet": "Jupiter (kingship) and Mercury (quest)",
+      "Chakra": "Crown (heaven) and Solar Plexus (courage)",
+      "Color": "Sky Blue, Eagle Brown, Royal Gold",
+      "Animal": "Eagle (divine partner)",
+      "Other": [
+        "Eagle flight",
+        "Plant of birth",
+        "Sky journey",
+        "Serpent-eagle conflict",
+        "Kish kingship",
+        "Heaven ascent",
+        "Partnership loyalty"
+      ]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": [
+      "Questing King",
+      "Sky Voyager",
+      "Eagle Partner",
+      "Heir Seeker",
+      "Heaven Reacher",
+      "Loyal Ally"
+    ],
+    "ComplementaryArchetypes": [
+      "Eagle (Divine partner)",
+      "Serpent (Eagle's enemy/victim)",
+      "Ishtar (Heavenly goal)",
+      "Shamash (Divine guide)"
+    ],
+    "ShadowForms": [
+      "Overreaching Mortal",
+      "Failed Flyer",
+      "Fearful Quester"
+    ],
+    "DevelopmentalArc": [
+      "Childless King → Eagle-Serpent Conflict → Helps Eagle → Partnership → Sky Journey → Fear → Fall/Ascent (ambiguous) → Quest Result"
+    ],
+    "CyclePhase": "Need → Alliance → Ascent → Crisis → Resolution (uncertain)"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": [
+      "Questing",
+      "Loyal",
+      "Audacious",
+      "Fearful (at heights)",
+      "Determined",
+      "Partnering",
+      "Kingly"
+    ],
+    "Typologies": {
+      "MBTI": "ENFJ",
+      "Enneagram": "3w2 (The Charmer)",
+      "Other": [
+        "JP12.Hero",
+        "JP12.Explorer",
+        "Pearson.Hero",
+        "Sky journey archetype"
+      ]
+    },
+    "SubVariants": [
+      "Questing King",
+      "Eagle Rider",
+      "Sky Voyager",
+      "Heir Seeker",
+      "Loyal Partner"
+    ],
+    "InternalFamily": "King - Quester - Partner"
+  },
+  "CulturalContext": {
+    "Regions": [
+      "Kish (kingship)",
+      "Mesopotamia",
+      "Heaven (journey goal)"
+    ],
+    "MythicAppearances": [
+      "Etana and the Eagle myth",
+      "Serpent-eagle conflict",
+      "Sky journey to heaven",
+      "Quest for plant of birth",
+      "Partnership loyalty",
+      "Fear at heights",
+      "Sumerian king list (legendary king)"
+    ],
+    "ReligiousOrRitualUse": "Kingship traditions, quest narratives, partnership loyalty, heir-seeking rituals, sky journey symbolism",
+    "HistoricalEvolution": "Legendary king possibly based on historical ruler, became mythic sky-voyager, influenced flight and quest narratives, ambiguous ending debated",
+    "SyncreticForms": [
+      "Icarus (Greek sky flight - though failed)",
+      "Bellerophon (Greek pegasus rider)",
+      "Flying heroes (various)",
+      "Quest for child narratives"
+    ]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "🦅👑 (eagle and crown)",
+    "ImageryNotes": "Depicted riding eagle, ascending to heaven, with serpent-eagle conflict, royal and questing, partnership imagery, sky journey",
+    "ArtisticExamples": [
+      "Etana cylinder seals (eagle flight)",
+      "Sky journey imagery",
+      "King-eagle partnership scenes"
+    ],
+    "PoeticInvocation": "I am the king who rode the eagle to heaven, who dared to seek divine solutions for mortal needs, who partnered with the sky.",
+    "DreamForm": "Riding an eagle higher and higher; the ground disappearing below; partnership with divine creature; seeking heaven for earthly need"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": [
+      "ME.Shamash",
+      "ME.Inanna-Ishtar",
+      "GR.Icarus",
+      "GR.Bellerophon"
+    ],
+    "SemanticTags": [
+      "#flight",
+      "#eagle",
+      "#quest",
+      "#king",
+      "#sky",
+      "#partnership",
+      "#heaven",
+      "#heir"
+    ],
+    "RitualFunction": "Invoke for questing energy, sky journeys (astral/visionary), partnership work, heir-seeking, audacious reaching, loyal alliances",
+    "AIPromptSeeds": [
+      "Generate a king who rides an eagle to heaven seeking divine solution to mortal need, embodying audacious partnership.",
+      "Create a quester who ascends the sky through loyal alliance with divine creature, reaching for impossible solutions."
+    ],
+    "NarrativeHooks": [
+      "The eagle and serpent conflict",
+      "Loyalty rewarded with partnership",
+      "Ascending to heaven on eagle",
+      "Fear at impossible heights",
+      "Quest for heir/child",
+      "Ambiguous ending"
+    ]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [
+      {
+        "to": "GR.Bellerophon",
+        "strength": "moderate"
+      },
+      {
+        "to": "GR.Icarus",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "FacetRegistry": [
+    {
+      "facet": "Eagle Rider",
+      "weight": 0.4
+    },
+    {
+      "facet": "Questing King",
+      "weight": 0.3
+    },
+    {
+      "facet": "Sky Voyager",
+      "weight": 0.2
+    },
+    {
+      "facet": "Loyal Partner",
+      "weight": 0.1
+    }
+  ]
+}

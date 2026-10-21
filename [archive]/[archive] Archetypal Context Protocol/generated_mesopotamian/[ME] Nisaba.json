@@ -1,0 +1,192 @@
+{
+  "SchemaVersion": "1.1-ter",
+  "ArchetypeName": "Nisaba",
+  "SystemOfOrigin": "ME",
+  "CulturalLineage": [
+    "Sumerian",
+    "Akkadian"
+  ],
+  "CommonAliases": [
+    "Nidaba",
+    "Goddess of Writing",
+    "Grain Goddess",
+    "Lady of Knowledge",
+    "Divine Scribe"
+  ],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "Goddess of writing, grain, wisdom, accounting, and learning - embodying the connection between agriculture, literacy, and civilization",
+    "PrimaryDomain": "Writing/Grain/Wisdom",
+    "ToneOrPolarity": "Scholarly / Fertile / Precise / Civilizing",
+    "SymbolicCore": "The grain and the tablet - sustenance for body and mind unified",
+    "Correspondences": {
+      "Element": "Earth (grain) and Air (knowledge)",
+      "Planet": "Mercury (learning)",
+      "Chakra": "Throat (communication) and Root (sustenance)",
+      "Color": "Golden Yellow, Earth Brown, Scholarly Blue",
+      "Animal": "None specific (grain associations)",
+      "Other": [
+        "Stylus",
+        "Grain stalks",
+        "Clay tablet",
+        "Measuring rod",
+        "Temple: Various Sumerian cities",
+        "Cuneiform writing",
+        "Accounting ledgers"
+      ]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": [
+      "Scribe Goddess",
+      "Wisdom Teacher",
+      "Grain Provider",
+      "Record Keeper",
+      "Civilization Bringer",
+      "Patron of Learning"
+    ],
+    "ComplementaryArchetypes": [
+      "Nabu (Later scribe god)",
+      "Enki (Wisdom parallel)",
+      "Ninhursag (Earth mother parallel)",
+      "Haia (Consort)"
+    ],
+    "ShadowForms": [
+      "Pedantic Scholar",
+      "Sterile Knowledge",
+      "Disconnected Intellect"
+    ],
+    "DevelopmentalArc": [
+      "Grain Goddess → Writing Inventor → Wisdom Teacher → Patron of Scribes"
+    ],
+    "CyclePhase": "Harvest → Recording → Teaching → Preserving"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": [
+      "Scholarly",
+      "Precise",
+      "Wise",
+      "Nurturing (through knowledge)",
+      "Methodical",
+      "Literate",
+      "Civilized"
+    ],
+    "Typologies": {
+      "MBTI": "ISTJ",
+      "Enneagram": "5w6 (The Problem Solver)",
+      "Other": [
+        "JP12.Sage",
+        "Pearson.Sage",
+        "Scholar archetype",
+        "Earth Wisdom"
+      ]
+    },
+    "SubVariants": [
+      "Grain Goddess",
+      "Writing Goddess",
+      "Wisdom Teacher",
+      "Divine Accountant",
+      "Scribe Patron"
+    ],
+    "InternalFamily": "Scholar - Teacher - Preserver"
+  },
+  "CulturalContext": {
+    "Regions": [
+      "Sumer (widespread)",
+      "Eresh (cult center)",
+      "Umma",
+      "Lagash"
+    ],
+    "MythicAppearances": [
+      "Invention of writing myths",
+      "Grain distribution narratives",
+      "Scribal training invocations",
+      "Wisdom literature",
+      "Accounting texts",
+      "Temple records"
+    ],
+    "ReligiousOrRitualUse": "Patron goddess of scribal schools (Edubba), invoked before writing and learning, grain festivals, accounting rituals",
+    "HistoricalEvolution": "Ancient grain goddess who became associated with writing and wisdom, later partly replaced by male scribe god Nabu, remained important in Sumerian period",
+    "SyncreticForms": [
+      "Seshat (Egyptian writing goddess)",
+      "Saraswati (Vedic knowledge goddess)",
+      "Athena (Greek wisdom)",
+      "Demeter (Greek grain)"
+    ]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "✍️🌾 (stylus and grain)",
+    "ImageryNotes": "Depicted with stylus, clay tablet, grain stalks, measuring implements, scholarly attributes, sometimes with star crown",
+    "ArtisticExamples": [
+      "Scribal school dedications",
+      "Temple accounting tablets",
+      "Hymns to Nisaba"
+    ],
+    "PoeticInvocation": "I am the grain that feeds the body and the writing that feeds the mind, the measurement that brings order, the wisdom that civilizes.",
+    "DreamForm": "A granary that is also a library; writing that grows like wheat; harvesting knowledge like grain"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": [
+      "ME.Nabu",
+      "ME.Enki-Ea",
+      "ME.Ninhursag-Ki",
+      "EG.Seshat",
+      "IN.Saraswati"
+    ],
+    "SemanticTags": [
+      "#writing",
+      "#grain",
+      "#wisdom",
+      "#scribe",
+      "#learning",
+      "#accounting",
+      "#civilization",
+      "#literacy"
+    ],
+    "RitualFunction": "Invoke for learning, writing, academic success, record-keeping, grain abundance, civilized order",
+    "AIPromptSeeds": [
+      "Generate a goddess who unites sustenance and scholarship, where grain and knowledge are twin gifts of civilization.",
+      "Create a wise teacher whose domain is both the harvest and the written word."
+    ],
+    "NarrativeHooks": [
+      "Learning to write as sacred act",
+      "Recording harvest and knowledge",
+      "The scribe's patron blessing",
+      "Wisdom that sustains like grain"
+    ]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [
+      {
+        "to": "EG.Seshat",
+        "strength": "strong"
+      },
+      {
+        "to": "IN.Saraswati",
+        "strength": "moderate"
+      },
+      {
+        "to": "GR.Athena",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "FacetRegistry": [
+    {
+      "facet": "Writing Goddess",
+      "weight": 0.4
+    },
+    {
+      "facet": "Grain Goddess",
+      "weight": 0.3
+    },
+    {
+      "facet": "Wisdom Teacher",
+      "weight": 0.2
+    },
+    {
+      "facet": "Scribe Patron",
+      "weight": 0.1
+    }
+  ]
+}

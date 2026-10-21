@@ -1,0 +1,308 @@
+{
+  "H": 1139.235,
+  "bpm": 120.0,
+  "fps": 236.1,
+  "worst": 0.03,
+  "clips": [],
+  "events": [
+    "14:01:50 Reconnecting to Resolume\u2026"
+  ],
+  "bars": 2.0,
+  "hold": false,
+  "arena_connected": true,
+  "surface": {
+    "pad": {
+      "assign": {},
+      "cfg": {},
+      "home": {}
+    }
+  },
+  "queue": 0,
+  "delivery": {
+    "pending": 0,
+    "coalesced": 0,
+    "dequeued": 0,
+    "max_pending_age_ms": 0.0
+  },
+  "layers": [
+    {
+      "i": 8,
+      "name": "grain",
+      "opacity": 0.0,
+      "bypass": false,
+      "clip": "",
+      "clips": [
+        {
+          "col": 1,
+          "name": "grain"
+        },
+        {
+          "col": 8,
+          "name": "SP Grain"
+        },
+        {
+          "col": 9,
+          "name": "SP State Test"
+        }
+      ],
+      "ccol": 0,
+      "ap": 0
+    },
+    {
+      "i": 7,
+      "name": "texture",
+      "opacity": 0.0,
+      "bypass": false,
+      "clip": "",
+      "clips": [
+        {
+          "col": 1,
+          "name": "dither"
+        },
+        {
+          "col": 2,
+          "name": "texture"
+        },
+        {
+          "col": 8,
+          "name": "SP Scan"
+        }
+      ],
+      "ccol": 0,
+      "ap": 0
+    },
+    {
+      "i": 6,
+      "name": "glyph",
+      "opacity": 0.0,
+      "bypass": false,
+      "clip": "",
+      "clips": [
+        {
+          "col": 1,
+          "name": "glyph"
+        },
+        {
+          "col": 2,
+          "name": "script"
+        },
+        {
+          "col": 8,
+          "name": "SP Glyphmass"
+        }
+      ],
+      "ccol": 0,
+      "ap": 0
+    },
+    {
+      "i": 5,
+      "name": "figure",
+      "opacity": 0.6423076923076931,
+      "bypass": false,
+      "clip": "",
+      "clips": [
+        {
+          "col": 1,
+          "name": "1d"
+        },
+        {
+          "col": 2,
+          "name": "2d"
+        },
+        {
+          "col": 3,
+          "name": "3d"
+        },
+        {
+          "col": 4,
+          "name": "4d"
+        },
+        {
+          "col": 5,
+          "name": "shell"
+        },
+        {
+          "col": 6,
+          "name": "hybrid"
+        },
+        {
+          "col": 8,
+          "name": "Figure 3D SP"
+        },
+        {
+          "col": 9,
+          "name": "Figure 2D SP"
+        }
+      ],
+      "ccol": 0,
+      "ap": 0
+    },
+    {
+      "i": 4,
+      "name": "delay",
+      "opacity": 0.5538461538461538,
+      "bypass": false,
+      "clip": "",
+      "clips": [
+        {
+          "col": 1,
+          "name": "figure"
+        },
+        {
+          "col": 2,
+          "name": "field"
+        },
+        {
+          "col": 8,
+          "name": "Color"
+        },
+        {
+          "col": 12,
+          "name": "figure \u00b7 light delay"
+        }
+      ],
+      "ccol": 0,
+      "ap": 0
+    },
+    {
+      "i": 3,
+      "name": "field",
+      "opacity": 1.0,
+      "bypass": false,
+      "clip": "",
+      "clips": [
+        {
+          "col": 1,
+          "name": "ground"
+        },
+        {
+          "col": 2,
+          "name": "room"
+        },
+        {
+          "col": 3,
+          "name": "void"
+        },
+        {
+          "col": 8,
+          "name": "SP Field"
+        }
+      ],
+      "ccol": 0,
+      "ap": 0
+    },
+    {
+      "i": 2,
+      "name": "sculpt",
+      "opacity": 1.0,
+      "bypass": false,
+      "clip": "",
+      "clips": [
+        {
+          "col": 1,
+          "name": "level"
+        },
+        {
+          "col": 2,
+          "name": "pass"
+        },
+        {
+          "col": 3,
+          "name": "color"
+        },
+        {
+          "col": 4,
+          "name": "mixer"
+        },
+        {
+          "col": 8,
+          "name": "Shape"
+        }
+      ],
+      "ccol": 0,
+      "ap": 0
+    },
+    {
+      "i": 1,
+      "name": "feedback",
+      "opacity": 1.0,
+      "bypass": false,
+      "clip": "",
+      "clips": [
+        {
+          "col": 1,
+          "name": "map"
+        },
+        {
+          "col": 2,
+          "name": "texture"
+        },
+        {
+          "col": 3,
+          "name": "fold"
+        },
+        {
+          "col": 4,
+          "name": "level"
+        },
+        {
+          "col": 5,
+          "name": "pass"
+        },
+        {
+          "col": 8,
+          "name": "Flow"
+        }
+      ],
+      "ccol": 0,
+      "ap": 0
+    }
+  ],
+  "fx": [
+    {
+      "key": "L5/2",
+      "scope": "L",
+      "layer": 5,
+      "lname": "figure",
+      "name": "Linear Cloner",
+      "colors": {},
+      "env": 0.0,
+      "target": 0.0,
+      "pending": false,
+      "bypassed": true,
+      "cfg": {
+        "attack": 0.5,
+        "release": 1.0,
+        "mode": "latch",
+        "quant": 0,
+        "hold": 1.0,
+        "key": "",
+        "bypass0": true,
+        "bind": null
+      }
+    },
+    {
+      "key": "L5/3",
+      "scope": "L",
+      "layer": 5,
+      "lname": "figure",
+      "name": "Mirror",
+      "colors": {},
+      "env": 0.0,
+      "target": 0.0,
+      "pending": false,
+      "bypassed": true,
+      "cfg": {
+        "attack": 0.5,
+        "release": 1.0,
+        "mode": "latch",
+        "quant": 0,
+        "hold": 1.0,
+        "key": "",
+        "bypass0": true,
+        "bind": null
+      }
+    }
+  ],
+  "arena_socket": true
+}

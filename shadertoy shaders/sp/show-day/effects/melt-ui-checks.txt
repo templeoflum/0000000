@@ -1,0 +1,40 @@
+PASS six outer modules and A/B independent grids
+PASS all eight bank-scoped layer launchers
+PASS transport tap BPM edit and downbeat dispatch
+PASS Beatpad is inactive without capture controls
+PASS Home and Open dispatch independently to both targets while Play opens globally
+PASS source and effect use shared motion widgets with native units
+PASS manual nonnumeric effect controls and separate envelope amount
+PASS all families and timing state appear on both targets
+PASS advanced motion settings live in per-side overlays with family visible
+PASS rack has explicit In and Out directions without toggle or Pulse
+PASS rack shortcuts select scopes without opening the dropdown
+PASS parameter envelope has the same explicit directions and no pulse settings
+PASS rack selection follows B and disposes old effect widgets
+PASS pinned B survives rack selection
+PASS source pin survives selected layer change
+PASS missing pinned target remains unavailable and disposes
+PASS stale gesture closure rejects replaced instance
+PASS pointer lock keeps stale pane until release without redirect
+PASS v1 migration retains geometry order and independent target refs
+PASS malformed config safely returns defaults
+PASS empty effect motion exposes manual controls without Home
+PASS disconnect guards source and effect motion
+PASS unload disposes every active widget
+PASS Delay pattern buttons target native events and reject replacement instances
+PASS Play global settle and shuffle never carry selected layer
+PASS Trackpad tab keeps global actions visible and maps four regions
+PASS Strobe uses one momentary button and releases on cancellation and blur
+PASS rack discovers native event and trigger controls and removes changed parameters
+PASS rack event sends the exact native target once per press without toggling effect state
+PASS rack native events disable on disconnect and reject in-place replacement instances
+PASS Figure Transform directly opens only the layer transform in B without changing rack scope
+PASS Open explains operating ranges and native clone guard notes use exact canonical keys
+PASS Transform Home and Open never describe amount or fade behavior
+PASS Visible exact entry validates values, ratio selects directly, and Reset is explicit
+PASS Melt hold targets boolean and releases once on pointer and keyboard cancellation
+PASS Melt hold releases on global blur pagehide disconnect and rack disposal
+PASS Melt latch follows native readback and sends one toggle without optimistic state
+PASS Melt controls reject stale bindings disconnected targets and nonboolean lock
+PASS Trigger melt remains a single event distinct from hold and latch
+39 offline DOM checks passed

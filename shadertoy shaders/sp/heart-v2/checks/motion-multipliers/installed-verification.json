@@ -1,0 +1,201 @@
+{
+  "error": "",
+  "armed": true,
+  "bpm": 140.0,
+  "capabilities": {
+    "stage_family": true,
+    "stage_shuffle": true,
+    "motion_multiplier": true
+  },
+  "multipliers": {},
+  "stage_motion": [
+    {
+      "group_id": 1789004679714,
+      "section": null,
+      "label": "Portal Frame",
+      "ready": true,
+      "members": [
+        1789004679883,
+        1789004679894,
+        1789004679901,
+        1789004679907,
+        1789004679914,
+        1789004679921,
+        1789004679928,
+        1789004679935,
+        1789004679946,
+        1789004679953,
+        1789004679960,
+        1789004679967,
+        1789004679974,
+        1789004679981,
+        1789004679988,
+        1789004679995,
+        1789004680002
+      ],
+      "prepared": 16,
+      "driven": 16,
+      "shuffleable": 16,
+      "pattern": 0,
+      "mult": 1.0
+    },
+    {
+      "group_id": 1789004679714,
+      "section": "base",
+      "label": "Base",
+      "ready": true,
+      "members": [
+        1789004679883
+      ],
+      "prepared": 1,
+      "driven": 1,
+      "shuffleable": 1,
+      "pattern": 0,
+      "mult": 1.0
+    },
+    {
+      "group_id": 1789004679714,
+      "section": "background",
+      "label": "Background",
+      "ready": true,
+      "members": [
+        1789004679894,
+        1789004679901,
+        1789004679907
+      ],
+      "prepared": 3,
+      "driven": 3,
+      "shuffleable": 3,
+      "pattern": 0,
+      "mult": 1.0
+    },
+    {
+      "group_id": 1789004679714,
+      "section": "blades",
+      "label": "Blades",
+      "ready": true,
+      "members": [
+        1789004679914,
+        1789004679921,
+        1789004679928
+      ],
+      "prepared": 3,
+      "driven": 3,
+      "shuffleable": 3,
+      "pattern": 0,
+      "mult": 1.0
+    },
+    {
+      "group_id": 1789004679714,
+      "section": "squares",
+      "label": "Squares",
+      "ready": true,
+      "members": [
+        1789004679935,
+        1789004679946
+      ],
+      "prepared": 2,
+      "driven": 2,
+      "shuffleable": 2,
+      "pattern": 0,
+      "mult": 1.0
+    },
+    {
+      "group_id": 1789004679714,
+      "section": "balls",
+      "label": "Balls",
+      "ready": true,
+      "members": [
+        1789004679953,
+        1789004679960
+      ],
+      "prepared": 2,
+      "driven": 2,
+      "shuffleable": 2,
+      "pattern": 0,
+      "mult": 1.0
+    },
+    {
+      "group_id": 1789004679714,
+      "section": "rings",
+      "label": "Rings",
+      "ready": true,
+      "members": [
+        1789004679967,
+        1789004679974,
+        1789004679981,
+        1789004679988,
+        1789004679995
+      ],
+      "prepared": 5,
+      "driven": 5,
+      "shuffleable": 5,
+      "pattern": 0,
+      "mult": 1.0
+    },
+    {
+      "group_id": 1789004679714,
+      "section": "outline",
+      "label": "Outline",
+      "ready": true,
+      "members": [
+        1789004680002
+      ],
+      "prepared": 0,
+      "driven": 0,
+      "shuffleable": 0,
+      "pattern": null,
+      "mult": 1.0
+    },
+    {
+      "group_id": 1789004679714,
+      "section": "effects",
+      "label": "Shared effects",
+      "ready": true,
+      "members": [],
+      "prepared": 0,
+      "driven": 0,
+      "shuffleable": 0,
+      "pattern": null,
+      "mult": 1.0
+    }
+  ],
+  "metrics": {
+    "tick_p95_ms": 10.83,
+    "work_p95_ms": 0.55,
+    "scan_ms": 307,
+    "bridge_work_ms": 8.14,
+    "sent": 201205,
+    "owned": 31
+  },
+  "ring_native_output": {
+    "parameter": 1789181905216,
+    "span": 0.0,
+    "samples": [
+      0.7231407872942317,
+      0.7231407872942317,
+      0.7231407872942317,
+      0.7231407872942317,
+      0.7231407872942317,
+      0.7231407872942317,
+      0.7231407872942317,
+      0.7231407872942317,
+      0.7231407872942317,
+      0.7231407872942317,
+      0.7231407872942317,
+      0.7231407872942317
+    ],
+    "within_bounds": true,
+    "layer_samples": [
+      0.7231407872942317,
+      0.7231407872942317,
+      0.7231407872942317,
+      0.7231407872942317,
+      0.7231407872942317,
+      0.7231407872942317,
+      0.7231407872942317,
+      0.7231407872942317
+    ],
+    "layer_span": 0.0
+  }
+}

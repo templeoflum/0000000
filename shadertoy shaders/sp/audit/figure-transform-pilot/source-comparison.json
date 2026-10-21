@@ -1,0 +1,594 @@
+{
+  "before": {
+    "Figure A": {
+      "id": 1788823608361,
+      "valuetype": "ParamChoice",
+      "value": "torus",
+      "index": 0,
+      "options": [
+        "torus",
+        "sphere",
+        "box",
+        "octahedron",
+        "tetrahedron",
+        "icosahedron",
+        "dodecahedron"
+      ],
+      "view": {
+        "suffix": "",
+        "display_units": "integer",
+        "control_type": "choice_buttons"
+      }
+    },
+    "Figure B": {
+      "id": 1788823608362,
+      "valuetype": "ParamChoice",
+      "value": "icosahedron",
+      "index": 5,
+      "options": [
+        "torus",
+        "sphere",
+        "box",
+        "octahedron",
+        "tetrahedron",
+        "icosahedron",
+        "dodecahedron"
+      ],
+      "view": {
+        "suffix": "",
+        "display_units": "integer",
+        "control_type": "choice_buttons"
+      }
+    },
+    "Morph": {
+      "id": 1788823608363,
+      "valuetype": "ParamRange",
+      "min": 0.0,
+      "max": 1.0,
+      "in": 0.0,
+      "out": 1.0,
+      "value": 0.4181449352154672,
+      "view": {
+        "suffix": "",
+        "display_units": "real"
+      }
+    },
+    "Tumble": {
+      "id": 1788823608364,
+      "valuetype": "ParamRange",
+      "min": 0.0,
+      "max": 1.0,
+      "in": 0.0,
+      "out": 1.0,
+      "value": 0.8915641650662016,
+      "view": {
+        "suffix": "",
+        "display_units": "real"
+      }
+    },
+    "Axis": {
+      "id": 1788823608365,
+      "valuetype": "ParamRange",
+      "min": 0.0,
+      "max": 1.0,
+      "in": 0.0,
+      "out": 1.0,
+      "value": 0.9984980531734944,
+      "view": {
+        "suffix": "",
+        "display_units": "real"
+      }
+    },
+    "Sun": {
+      "id": 1788823608366,
+      "valuetype": "ParamRange",
+      "min": 0.0,
+      "max": 1.0,
+      "in": 0.0,
+      "out": 1.0,
+      "value": 0.8150641368647027,
+      "view": {
+        "suffix": "",
+        "display_units": "real"
+      }
+    },
+    "Height": {
+      "id": 1788823608367,
+      "valuetype": "ParamRange",
+      "min": 0.0,
+      "max": 1.0,
+      "in": 0.0,
+      "out": 1.0,
+      "value": 0.8798569716549203,
+      "view": {
+        "suffix": "",
+        "display_units": "real"
+      }
+    },
+    "Distance": {
+      "id": 1788823608368,
+      "valuetype": "ParamRange",
+      "min": 0.0,
+      "max": 1.0,
+      "in": 0.0,
+      "out": 1.0,
+      "value": 0.7457486232737337,
+      "view": {
+        "suffix": "",
+        "display_units": "real"
+      }
+    },
+    "Shadow": {
+      "id": 1788823608369,
+      "valuetype": "ParamRange",
+      "min": 0.0,
+      "max": 1.0,
+      "in": 0.0,
+      "out": 1.0,
+      "value": 0.5819986129906776,
+      "view": {
+        "suffix": "",
+        "display_units": "real"
+      }
+    },
+    "Material": {
+      "id": 1788823608370,
+      "valuetype": "ParamChoice",
+      "value": "smooth",
+      "index": 0,
+      "options": [
+        "smooth",
+        "stone",
+        "crystal",
+        "glass"
+      ],
+      "view": {
+        "suffix": "",
+        "display_units": "integer",
+        "control_type": "choice_buttons"
+      }
+    },
+    "Micro": {
+      "id": 1788823608371,
+      "valuetype": "ParamRange",
+      "min": 0.0,
+      "max": 1.0,
+      "in": 0.0,
+      "out": 1.0,
+      "value": 0.4180013870093208,
+      "view": {
+        "suffix": "",
+        "display_units": "real"
+      }
+    },
+    "Fine": {
+      "id": 1788823608372,
+      "valuetype": "ParamRange",
+      "min": 0.0,
+      "max": 1.0,
+      "in": 0.0,
+      "out": 1.0,
+      "value": 0.4180020008148237,
+      "view": {
+        "suffix": "",
+        "display_units": "real"
+      }
+    },
+    "Color": {
+      "id": 1788823608373,
+      "valuetype": "ParamChoice",
+      "value": "loop",
+      "index": 1,
+      "options": [
+        "gray",
+        "loop",
+        "normal"
+      ],
+      "view": {
+        "suffix": "",
+        "display_units": "integer",
+        "control_type": "choice_buttons"
+      }
+    },
+    "Loop": {
+      "id": 1788823608374,
+      "valuetype": "ParamRange",
+      "min": 0.0,
+      "max": 4.0,
+      "in": 0.0,
+      "out": 4.0,
+      "value": 1.6334350377887157,
+      "view": {
+        "suffix": "",
+        "display_units": "real"
+      }
+    },
+    "Hue": {
+      "id": 1788823608375,
+      "valuetype": "ParamRange",
+      "min": 0.0,
+      "max": 1.0,
+      "in": 0.0,
+      "out": 1.0,
+      "value": 0.33903967717585537,
+      "view": {
+        "suffix": "",
+        "display_units": "real"
+      }
+    },
+    "Red": {
+      "id": 1788823608376,
+      "valuetype": "ParamRange",
+      "min": 0.0,
+      "max": 1.0,
+      "in": 0.0,
+      "out": 1.0,
+      "value": 0.6215311427264203,
+      "view": {
+        "suffix": "",
+        "display_units": "real"
+      }
+    },
+    "Green": {
+      "id": 1788823608377,
+      "valuetype": "ParamRange",
+      "min": 0.0,
+      "max": 1.0,
+      "in": 0.0,
+      "out": 1.0,
+      "value": 0.4458860273136789,
+      "view": {
+        "suffix": "",
+        "display_units": "real"
+      }
+    },
+    "Blue": {
+      "id": 1788823608378,
+      "valuetype": "ParamRange",
+      "min": 0.0,
+      "max": 1.0,
+      "in": 0.0,
+      "out": 1.0,
+      "value": 0.9985610796798386,
+      "view": {
+        "suffix": "",
+        "display_units": "real"
+      }
+    },
+    "Shade": {
+      "id": 1788823608379,
+      "valuetype": "ParamRange",
+      "min": 0.0,
+      "max": 1.0,
+      "in": 0.0,
+      "out": 1.0,
+      "value": 0.03185063720043435,
+      "view": {
+        "suffix": "",
+        "display_units": "real"
+      }
+    },
+    "Edge": {
+      "id": 1788823608380,
+      "valuetype": "ParamRange",
+      "min": 0.0,
+      "max": 1.0,
+      "in": 0.0,
+      "out": 1.0,
+      "value": 0.12014302834508084,
+      "view": {
+        "suffix": "",
+        "display_units": "real"
+      }
+    },
+    "Emboss": {
+      "id": 1788823608381,
+      "valuetype": "ParamRange",
+      "min": 0.0,
+      "max": 1.0,
+      "in": 0.0,
+      "out": 1.0,
+      "value": 0.254251776363136,
+      "view": {
+        "suffix": "",
+        "display_units": "real"
+      }
+    }
+  },
+  "after": {
+    "Figure A": {
+      "id": 1788823608361,
+      "valuetype": "ParamChoice",
+      "value": "torus",
+      "index": 0,
+      "options": [
+        "torus",
+        "sphere",
+        "box",
+        "octahedron",
+        "tetrahedron",
+        "icosahedron",
+        "dodecahedron"
+      ],
+      "view": {
+        "suffix": "",
+        "display_units": "integer",
+        "control_type": "choice_buttons"
+      }
+    },
+    "Figure B": {
+      "id": 1788823608362,
+      "valuetype": "ParamChoice",
+      "value": "icosahedron",
+      "index": 5,
+      "options": [
+        "torus",
+        "sphere",
+        "box",
+        "octahedron",
+        "tetrahedron",
+        "icosahedron",
+        "dodecahedron"
+      ],
+      "view": {
+        "suffix": "",
+        "display_units": "integer",
+        "control_type": "choice_buttons"
+      }
+    },
+    "Morph": {
+      "id": 1788823608363,
+      "valuetype": "ParamRange",
+      "min": 0.0,
+      "max": 1.0,
+      "in": 0.0,
+      "out": 1.0,
+      "value": 0.4181449352154672,
+      "view": {
+        "suffix": "",
+        "display_units": "real"
+      }
+    },
+    "Tumble": {
+      "id": 1788823608364,
+      "valuetype": "ParamRange",
+      "min": 0.0,
+      "max": 1.0,
+      "in": 0.0,
+      "out": 1.0,
+      "value": 0.8915641650662016,
+      "view": {
+        "suffix": "",
+        "display_units": "real"
+      }
+    },
+    "Axis": {
+      "id": 1788823608365,
+      "valuetype": "ParamRange",
+      "min": 0.0,
+      "max": 1.0,
+      "in": 0.0,
+      "out": 1.0,
+      "value": 0.9984980531734944,
+      "view": {
+        "suffix": "",
+        "display_units": "real"
+      }
+    },
+    "Sun": {
+      "id": 1788823608366,
+      "valuetype": "ParamRange",
+      "min": 0.0,
+      "max": 1.0,
+      "in": 0.0,
+      "out": 1.0,
+      "value": 0.8150641368647027,
+      "view": {
+        "suffix": "",
+        "display_units": "real"
+      }
+    },
+    "Height": {
+      "id": 1788823608367,
+      "valuetype": "ParamRange",
+      "min": 0.0,
+      "max": 1.0,
+      "in": 0.0,
+      "out": 1.0,
+      "value": 0.8798569716549203,
+      "view": {
+        "suffix": "",
+        "display_units": "real"
+      }
+    },
+    "Distance": {
+      "id": 1788823608368,
+      "valuetype": "ParamRange",
+      "min": 0.0,
+      "max": 1.0,
+      "in": 0.0,
+      "out": 1.0,
+      "value": 0.7457486232737337,
+      "view": {
+        "suffix": "",
+        "display_units": "real"
+      }
+    },
+    "Shadow": {
+      "id": 1788823608369,
+      "valuetype": "ParamRange",
+      "min": 0.0,
+      "max": 1.0,
+      "in": 0.0,
+      "out": 1.0,
+      "value": 0.5819986129906776,
+      "view": {
+        "suffix": "",
+        "display_units": "real"
+      }
+    },
+    "Material": {
+      "id": 1788823608370,
+      "valuetype": "ParamChoice",
+      "value": "smooth",
+      "index": 0,
+      "options": [
+        "smooth",
+        "stone",
+        "crystal",
+        "glass"
+      ],
+      "view": {
+        "suffix": "",
+        "display_units": "integer",
+        "control_type": "choice_buttons"
+      }
+    },
+    "Micro": {
+      "id": 1788823608371,
+      "valuetype": "ParamRange",
+      "min": 0.0,
+      "max": 1.0,
+      "in": 0.0,
+      "out": 1.0,
+      "value": 0.4180013870093208,
+      "view": {
+        "suffix": "",
+        "display_units": "real"
+      }
+    },
+    "Fine": {
+      "id": 1788823608372,
+      "valuetype": "ParamRange",
+      "min": 0.0,
+      "max": 1.0,
+      "in": 0.0,
+      "out": 1.0,
+      "value": 0.4180020008148237,
+      "view": {
+        "suffix": "",
+        "display_units": "real"
+      }
+    },
+    "Color": {
+      "id": 1788823608373,
+      "valuetype": "ParamChoice",
+      "value": "loop",
+      "index": 1,
+      "options": [
+        "gray",
+        "loop",
+        "normal"
+      ],
+      "view": {
+        "suffix": "",
+        "display_units": "integer",
+        "control_type": "choice_buttons"
+      }
+    },
+    "Loop": {
+      "id": 1788823608374,
+      "valuetype": "ParamRange",
+      "min": 0.0,
+      "max": 4.0,
+      "in": 0.0,
+      "out": 4.0,
+      "value": 1.6334350377887157,
+      "view": {
+        "suffix": "",
+        "display_units": "real"
+      }
+    },
+    "Hue": {
+      "id": 1788823608375,
+      "valuetype": "ParamRange",
+      "min": 0.0,
+      "max": 1.0,
+      "in": 0.0,
+      "out": 1.0,
+      "value": 0.33903967717585537,
+      "view": {
+        "suffix": "",
+        "display_units": "real"
+      }
+    },
+    "Red": {
+      "id": 1788823608376,
+      "valuetype": "ParamRange",
+      "min": 0.0,
+      "max": 1.0,
+      "in": 0.0,
+      "out": 1.0,
+      "value": 0.6215311427264203,
+      "view": {
+        "suffix": "",
+        "display_units": "real"
+      }
+    },
+    "Green": {
+      "id": 1788823608377,
+      "valuetype": "ParamRange",
+      "min": 0.0,
+      "max": 1.0,
+      "in": 0.0,
+      "out": 1.0,
+      "value": 0.4458860273136789,
+      "view": {
+        "suffix": "",
+        "display_units": "real"
+      }
+    },
+    "Blue": {
+      "id": 1788823608378,
+      "valuetype": "ParamRange",
+      "min": 0.0,
+      "max": 1.0,
+      "in": 0.0,
+      "out": 1.0,
+      "value": 0.9985610796798386,
+      "view": {
+        "suffix": "",
+        "display_units": "real"
+      }
+    },
+    "Shade": {
+      "id": 1788823608379,
+      "valuetype": "ParamRange",
+      "min": 0.0,
+      "max": 1.0,
+      "in": 0.0,
+      "out": 1.0,
+      "value": 0.03185063720043435,
+      "view": {
+        "suffix": "",
+        "display_units": "real"
+      }
+    },
+    "Edge": {
+      "id": 1788823608380,
+      "valuetype": "ParamRange",
+      "min": 0.0,
+      "max": 1.0,
+      "in": 0.0,
+      "out": 1.0,
+      "value": 0.12014302834508084,
+      "view": {
+        "suffix": "",
+        "display_units": "real"
+      }
+    },
+    "Emboss": {
+      "id": 1788823608381,
+      "valuetype": "ParamRange",
+      "min": 0.0,
+      "max": 1.0,
+      "in": 0.0,
+      "out": 1.0,
+      "value": 0.254251776363136,
+      "view": {
+        "suffix": "",
+        "display_units": "real"
+      }
+    }
+  }
+}

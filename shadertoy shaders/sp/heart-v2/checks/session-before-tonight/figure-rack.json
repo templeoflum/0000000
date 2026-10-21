@@ -1,0 +1,255 @@
+{
+  "id": "figure",
+  "label": "Figure",
+  "color_hex": "#f6bd77",
+  "pads": [
+    {
+      "id": "decon",
+      "label": "Decon",
+      "bindings": [
+        {
+          "target": "effect:1788780036952",
+          "identity": [
+            "layer",
+            1788149968008,
+            1788405566947,
+            null,
+            "mtk_lut_corrupt"
+          ],
+          "opacity": 1789181914269,
+          "bypass": 1789181914266,
+          "event": 1789181914258,
+          "event_name": "DECON"
+        }
+      ],
+      "mode": "trigger"
+    },
+    {
+      "id": "pixel_melt",
+      "label": "Pixel Melt",
+      "bindings": [
+        {
+          "target": "effect:1789451666929",
+          "identity": [
+            "layer",
+            1788149968008,
+            1788405566947,
+            null,
+            "MTK_PXLMELT"
+          ],
+          "opacity": 1789451666931,
+          "bypass": 1789451666928,
+          "event": 1789451666923,
+          "event_name": "MELT_TRIGGER",
+          "latch": 1789451666922,
+          "latch_name": "MELT_LOCK"
+        }
+      ],
+      "mode": "latch"
+    },
+    {
+      "id": "blok",
+      "label": "Blok",
+      "mode": "trigger",
+      "enable_control": false,
+      "clear": false,
+      "bindings": [
+        {
+          "target": "effect:1788780036952",
+          "identity": [
+            "layer",
+            1788149968008,
+            1788405566947,
+            null,
+            "mtk_lut_corrupt"
+          ],
+          "opacity": 1789181914269,
+          "bypass": 1789181914266,
+          "event": 1789181914259,
+          "event_name": "BLOK"
+        }
+      ]
+    },
+    {
+      "id": "melt_hit",
+      "label": "Melt hit",
+      "mode": "trigger",
+      "enable_control": false,
+      "clear": false,
+      "bindings": [
+        {
+          "target": "effect:1789451666929",
+          "identity": [
+            "layer",
+            1788149968008,
+            1788405566947,
+            null,
+            "MTK_PXLMELT"
+          ],
+          "opacity": 1789451666931,
+          "bypass": 1789451666928,
+          "event": 1789451666923,
+          "event_name": "MELT_TRIGGER"
+        }
+      ]
+    },
+    {
+      "id": "twitch",
+      "label": "Twitch",
+      "mode": "pulse",
+      "bindings": [
+        {
+          "target": "effect:1788780036947",
+          "identity": [
+            "layer",
+            1788149968008,
+            1788405566947,
+            null,
+            "TwitchEffect"
+          ],
+          "opacity": 1789181914233,
+          "bypass": 1789181914230
+        }
+      ]
+    },
+    {
+      "id": "stack",
+      "label": "Prism",
+      "mode": "pulse",
+      "bindings": [
+        {
+          "target": "effect:1788780036958",
+          "identity": [
+            "layer",
+            1788149968008,
+            1788405566947,
+            null,
+            "RadialCloner"
+          ],
+          "opacity": 1789181914330,
+          "bypass": 1789181914327
+        },
+        {
+          "target": "effect:1788780036977",
+          "identity": [
+            "layer",
+            1788149968008,
+            1788405566947,
+            null,
+            "MTK_Gradient_Shadow"
+          ],
+          "opacity": 1789181914550,
+          "bypass": 1789181914547
+        }
+      ]
+    }
+  ],
+  "color": [
+    {
+      "target": "effect:1789422031978",
+      "identity": [
+        "layer",
+        1788149968008,
+        1788405566947,
+        null,
+        "ColourLoop"
+      ],
+      "opacity": 1789422031980,
+      "bypass": 1789422031977
+    }
+  ],
+  "controls": [
+    {
+      "id": "Factor",
+      "label": "Factor",
+      "min": 0.0,
+      "max": 1.0,
+      "bindings": [
+        {
+          "target": "effect:1789422031978",
+          "identity": [
+            "layer",
+            1788149968008,
+            1788405566947,
+            null,
+            "ColourLoop"
+          ],
+          "parameter": 1789422031968,
+          "name": "Factor",
+          "type": "ParamRange",
+          "min": 0.0,
+          "max": 1.0
+        }
+      ]
+    },
+    {
+      "id": "Red offset",
+      "label": "Red",
+      "min": 0.0,
+      "max": 1.0,
+      "bindings": [
+        {
+          "target": "effect:1789422031978",
+          "identity": [
+            "layer",
+            1788149968008,
+            1788405566947,
+            null,
+            "ColourLoop"
+          ],
+          "parameter": 1789422031970,
+          "name": "Red offset",
+          "type": "ParamRange",
+          "min": 0.0,
+          "max": 1.0
+        }
+      ]
+    },
+    {
+      "id": "Green offset",
+      "label": "Green",
+      "min": 0.0,
+      "max": 1.0,
+      "bindings": [
+        {
+          "target": "effect:1789422031978",
+          "identity": [
+            "layer",
+            1788149968008,
+            1788405566947,
+            null,
+            "ColourLoop"
+          ],
+          "parameter": 1789422031971,
+          "name": "Green offset",
+          "type": "ParamRange",
+          "min": 0.0,
+          "max": 1.0
+        }
+      ]
+    },
+    {
+      "id": "Blue offset",
+      "label": "Blue",
+      "min": 0.0,
+      "max": 1.0,
+      "bindings": [
+        {
+          "target": "effect:1789422031978",
+          "identity": [
+            "layer",
+            1788149968008,
+            1788405566947,
+            null,
+            "ColourLoop"
+          ],
+          "parameter": 1789422031972,
+          "name": "Blue offset",
+          "type": "ParamRange",
+          "min": 0.0,
+          "max": 1.0
+        }
+      ]
+    }
+  ]
+}

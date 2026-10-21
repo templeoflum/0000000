@@ -1,0 +1,143 @@
+{
+  "captured_at": "2026-09-11T22:37:45.289250-05:00",
+  "epoch": "1789151413656",
+  "read_only": true,
+  "composition_goo_exists": false,
+  "effects": [
+    {
+      "target": "effect:1788149966263",
+      "native_id": 1788149966263,
+      "name": "Transform",
+      "position": 1,
+      "identity": [
+        "composition",
+        null,
+        null,
+        null,
+        "Transform"
+      ]
+    },
+    {
+      "target": "effect:1788780037022",
+      "native_id": 1788780037022,
+      "name": "MTK_STROKE_VOLT",
+      "position": 2,
+      "identity": [
+        "composition",
+        null,
+        null,
+        null,
+        "MTK_STROKE_VOLT"
+      ]
+    },
+    {
+      "target": "effect:1788780037026",
+      "native_id": 1788780037026,
+      "name": "MTK_PXLMELT",
+      "position": 3,
+      "identity": [
+        "composition",
+        null,
+        null,
+        null,
+        "MTK_PXLMELT"
+      ]
+    },
+    {
+      "target": "effect:1788780037030",
+      "native_id": 1788780037030,
+      "name": "HueRotate",
+      "position": 4,
+      "identity": [
+        "composition",
+        null,
+        null,
+        null,
+        "HueRotate"
+      ]
+    },
+    {
+      "target": "effect:1788780037041",
+      "native_id": 1788780037041,
+      "name": "ColourLoop",
+      "position": 5,
+      "identity": [
+        "composition",
+        null,
+        null,
+        null,
+        "ColourLoop"
+      ]
+    },
+    {
+      "target": "effect:1788780037035",
+      "native_id": 1788780037035,
+      "name": "mtk_lut_corrupt",
+      "position": 6,
+      "identity": [
+        "composition",
+        null,
+        null,
+        null,
+        "mtk_lut_corrupt"
+      ]
+    },
+    {
+      "target": "effect:1788780037051",
+      "native_id": 1788780037051,
+      "name": "TwitchEffect",
+      "position": 7,
+      "identity": [
+        "composition",
+        null,
+        null,
+        null,
+        "TwitchEffect"
+      ]
+    },
+    {
+      "target": "effect:1788780037056",
+      "native_id": 1788780037056,
+      "name": "MTK_STROKEDIFFUSE",
+      "position": 8,
+      "identity": [
+        "composition",
+        null,
+        null,
+        null,
+        "MTK_STROKEDIFFUSE"
+      ]
+    },
+    {
+      "target": "effect:1788780037060",
+      "native_id": 1788780037060,
+      "name": "Strobe",
+      "position": 9,
+      "identity": [
+        "composition",
+        null,
+        null,
+        null,
+        "Strobe"
+      ]
+    },
+    {
+      "target": "effect:1789359623352",
+      "native_id": 1789359623352,
+      "name": "Mask",
+      "position": 10,
+      "identity": [
+        "composition",
+        null,
+        null,
+        null,
+        "Mask"
+      ]
+    }
+  ],
+  "notes": [
+    "No composition-wide Goo instance exists in this fresh Heart catalog.",
+    "Stage group Goo is a different scope and cannot implement the composition-wide request.",
+    "No native writes were made."
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "3c3czM",
+  "name": "Spinor Belt Trick",
+  "username": "cancrizans",
+  "description": "Dirac's belt trick to demonstrate that 3D rotations have a Z2 fundamental group, implying the existence of spinors. The magick is the cube can be rotated 720° without any of the attaching strings intersecting or tangling.",
+  "tags": [
+    "math",
+    "rotation",
+    "physics",
+    "quaternions",
+    "belttrick",
+    "spinors"
+  ],
+  "date": "1763385985",
+  "viewed": 167,
+  "likes": 29,
+  "published": 1,
+  "renderpass": [
+    {
+      "type": "image",
+      "name": "Image",
+      "inputs": [],
+      "outputs": [
+        {
+          "id": "4dfGRr",
+          "channel": 0
+        }
+      ],
+      "code": "const float gamma = 2.2;\nconst vec3 gamma_vec = gamma * vec3(1.,1.,1.);\nconst vec3 col_x = pow(vec3(209., 48., 107.)/255., gamma_vec);\nconst vec3 col_y = pow(vec3(52., 235., 186.)/255., gamma_vec);\nconst vec3 col_z = pow(vec3(125., 57., 219.)/255., gamma_vec);\nconst vec3 col_sky = pow(vec3(0.2,0.2,0.2),gamma_vec);\nconst vec3 col_core = pow(vec3(0.8,.8,.8), gamma_vec);\n\nvec2 rot2d(vec2 v, float angle){\n    float s = sin(angle);\n    float c = cos(angle);\n    \n    return vec2(\n        c*v.x - s*v.y, s*v.x + c*v.y\n    );\n}\n\nvec3 rot(vec3 v, float azimuth, float altitude){\n    vec3 u = v;\n    u.yz = rot2d(u.yz, altitude);\n    u.xz = rot2d(u.xz,azimuth);\n    return u;\n}\n\n\n// https://iquilezles.org/articles/smin/\nvec2 smin( float a, float b, float k )\n{\n    float h = 1.0 - min( abs(a-b)/(4.0*k), 1.0 );\n    float w = h*h;\n    float m = w*0.5;\n    float s = w*k;\n    return (a<b) ? vec2(a-s,m) : vec2(b-s,1.0-m);\n}\n\n\nfloat sdf_box( vec3 p, vec3 b, float r )\n{\n  vec3 q = abs(p) - b + r;\n  return length(max(q,0.0)) + min(max(q.x,max(q.y,q.z)),0.0) - r;\n}\n\n//multiply two vector quats\nvec4 imuli(vec3 v, vec3 w){\n    return vec4(cross(v,w),-dot(v,w));\n}\n\n//quat times vector quat\nvec4 qmuli(vec4 q, vec3 v){\n    return q.w * vec4(v,0.) + imuli(q.xyz, v);\n}\n\n\n//quat times quat\nvec4 qmulq(vec4 q, vec4 p){\n    return q * p.w + qmuli(q,p.xyz);\n}\n\nvec4 qconj(vec4 q){\n    return vec4(-q.xyz,q.w);\n}\n\nvec3 adjoint(vec4 q, vec3 x){\n    return qmulq(qmuli(q, x), qconj(q) ).xyz;\n}\n\n\nstruct Surface{\n    float sdf;\n    vec3 color;\n};\n\nSurface sunion(Surface a, Surface b){\n    if (a.sdf < b.sdf){\n        return a;\n    }\n    return b;\n}\n\nSurface smooth_union(Surface a, Surface b, float k){\n    vec2 smoothing = smin(a.sdf,b.sdf,k);\n    \n    return Surface(\n        smoothing.x,\n        mix(a.color, b.color, smoothing.y)\n    );\n}\n\n\nSurface sdf_axes(vec3 p){\n\n    \n    const float size = 0.5;\n    const vec3 b = vec3(40.,size, size);\n    const float r = 0.1;\n    return sunion(\n        Surface(sdf_box(p, b.xyz, r), col_x),\n        sunion(\n            Surface(sdf_box(p, b.yzx, r), col_y),\n            Surface(sdf_box(p, b.zxy, r), col_z)\n            )\n        );\n}\n\nconst float marker_distance = sqrt(2./0.03);\n\n//unused \nSurface markers(vec3 p){\n    vec3 q = abs(p);\n    \n    const vec3 marker_center = normalize(vec3(1.,1.,1.)) * marker_distance;\n    \n    return Surface(\n        length(q-marker_center) - 0.5,\n        \n        col_core\n    );\n}\n\nfloat rotation_angle_at_r2(float r2){\n    return 6.28318530718 * smoothstep(0.,1.,1. /(1.+0.01*r2));\n}\n\nvec4 quaternion_at_r2(float r2, float lambda){\n    float rangle =  rotation_angle_at_r2(r2);\n    float c = cos(rangle*0.5);\n    float s = sin(rangle*0.5);\n    \n    float cl = cos(lambda);\n    float sl = sin(lambda);\n\n    vec4 base_q = vec4(cl*s,sl,0.,cl*c);\n    vec4 q = base_q;\n    q.wy = rot2d(q.wy, -lambda);\n    return q;\n}\n\n\nSurface scene(vec3 pos){\n\n    float st = 2.*smoothstep(0.,1.,fract(0.65+0.1*iTime))-1.;\n    float lambda = 1.57079632679 * (st*st*st);\n    \n    \n    vec4 q = quaternion_at_r2(dot(pos,pos), lambda);\n    \n    vec3 x = adjoint(q,pos);\n    \n    \n    Surface box = Surface(sdf_box(x, vec3(1.,1.,1.), 0.2), col_core);\n    Surface axes = sdf_axes(x);\n    \n    Surface surf = smooth_union(box,axes,0.02);\n    \n    Surface sky = Surface( - (length(pos)-26.0), col_sky);\n    \n    surf = smooth_union(surf, sky,3.0);\n    \n    return surf;\n    \n}\n\nconst vec3 light = normalize(vec3(1.,-2.,0.3));\n\nvec3 march(vec3 cam, vec3 ray){\n    float t = 2.0;\n    int it=0;\n    float min_dist = 5000.0;\n    \n    for (it=0; it<1000; it++){\n        if (t > 100.){\n            break;\n        }\n        vec3 pos = cam + ray*t;\n        Surface surf = scene(pos);\n        float dist = surf.sdf;\n        \n        min_dist = min(dist, min_dist);\n        \n        if (dist < 0.01){\n            const float delta = 0.002;\n            float ndotl = (scene(pos-delta*light).sdf-dist)/delta;\n            float ao = pow(clamp(50./float(it),0.,1.),0.5);\n            vec3 shading = 0.7*vec3(1.1,1.1,1.)*smoothstep(-0.3,1.0,ndotl)+ ao*vec3(0.4,0.4,0.7);\n            \n            return surf.color * shading;\n        }\n        //unfortunately the sdf is highly imperfect,\n        //so we need to march very carefully and with a lot of iterations.\n        t += 0.2*dist;\n    }\n    \n    return vec3(1.,0.,1.);\n}\n\n\nvoid mainImage( out vec4 fragColor, in vec2 fragCoord )\n{\n    vec2 viewport = (fragCoord - 0.5*iResolution.xy)/iResolution.y;\n    vec3 cam = vec3(0.,0.,-25.);\n    vec3 ray = normalize(vec3(viewport, 1.5));\n    \n    float azimuth = 0.7 + iTime * 0.0425;\n    float altitude = 0.4;\n    \n    cam = rot(cam, azimuth, altitude);\n    ray = rot(ray, azimuth, altitude);\n    \n    \n    vec3 col = march(cam,ray);\n    fragColor = vec4(pow(col,1./gamma * vec3(1.,1.,1.)),1.0);\n}"
+    }
+  ]
+}

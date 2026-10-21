@@ -1,0 +1,78 @@
+// [HJ] Herald
+{
+  "SchemaVersion": "1.1-ter",
+  "ArchetypeName": "Herald",
+  "SystemOfOrigin": "HJ",
+  "CulturalLineage": ["Universal", "Greek", "Roman", "Celtic"],
+  "CommonAliases": ["Messenger", "Announcer", "Harbinger"],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "Signals change and delivers the call to adventure",
+    "PrimaryDomain": "Narrative",
+    "ToneOrPolarity": "Neutral / Catalyst",
+    "SymbolicCore": "Trumpet blast at dawn",
+    "Correspondences": {
+      "Element": "Air",
+      "Planet": "Mercury",
+      "Chakra": "Throat",
+      "Color": "Silver",
+      "Animal": "Swallow, Raven",
+      "Other": ["Trumpet", "Scroll", "Lightning bolt"]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": ["Call to adventure", "Inciting incident", "Plot trigger"],
+    "ComplementaryArchetypes": ["Hero", "Mentor"],
+    "ShadowForms": ["False Herald", "Bearer of bad news"],
+    "DevelopmentalArc": ["Appear → Deliver → Vanish"],
+    "CyclePhase": "Emergence"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": ["Urgent", "Articulate", "Unignorable", "Inspiring"],
+    "Typologies": {
+      "MBTI": "ENFP",
+      "Enneagram": "7w6",
+      "Other": ["JU.Trickster", "JP12.Herald"]
+    },
+    "SubVariants": ["Divine Herald", "Town Crier", "Ominous Messenger"],
+    "InternalFamily": "Messenger"
+  },
+  "CulturalContext": {
+    "Regions": ["Global"],
+    "MythicAppearances": ["Hermes", "Iris", "Banshee", "Town Crier"],
+    "ReligiousOrRitualUse": "Proclamations in sacred festivals and war declarations",
+    "HistoricalEvolution": "Divine messenger → town crier → news push notification",
+    "SyncreticForms": ["TV news anchor", "Oracle at Delphi"]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "📯",
+    "ImageryNotes": "Silver trumpet scattering sparks across the sky",
+    "ArtisticExamples": [
+      "Hermes with winged sandals",
+      "Banshee wail in Celtic lore",
+      "Bat-signal"
+    ],
+    "PoeticInvocation": "I am the crack of thunder that calls the soul to rise.",
+    "DreamForm": "A silver bird dropping sealed letters into the dreamer’s hand"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": ["JU.Trickster", "GR.Hermes", "TA.PageOfSwords"],
+    "SemanticTags": ["#call", "#messenger", "#air", "#spark"],
+    "RitualFunction": "Sound the call to begin vision quests or creative projects",
+    "AIPromptSeeds": [
+      "Create a herald who appears only as a reflection in mirrors."
+    ],
+    "NarrativeHooks": ["Unexpected letter", "Crash of thunder", "Town crier’s bell"]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [
+      { "to": "JU.Trickster", "strength": "moderate" },
+      { "to": "GR.Hermes", "strength": "strong" }
+    ]
+  },
+  "FacetRegistry": [
+    { "facet": "Divine Herald", "weight": 0.5 },
+    { "facet": "Town Crier", "weight": 0.3 },
+    { "facet": "Ominous Messenger", "weight": 0.2 }
+  ]
+}

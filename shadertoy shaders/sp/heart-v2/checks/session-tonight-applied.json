@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "invert_a_delivery": true,
+  "invert_a_restored": 1.0,
+  "rack_ready": {
+    "stage": true,
+    "field": true,
+    "feedback": true
+  },
+  "error": "",
+  "twitch_native_delivery_verified": true,
+  "goo_native_delivery_verified": true,
+  "twitch_settings": {
+    "Global Twitch": 0.82,
+    "Stage Max Pos X": 0.12,
+    "Stage Max Pos Y": 0.09,
+    "Field + Content Max Pos X": 0.14,
+    "Field + Content Max Pos Y": 0.1,
+    "Max Scale": 0.34,
+    "Pos Frequency": 0.85,
+    "Scale Frequency": 0.78
+  },
+  "goo_settings": {
+    "Opacity": 0.4,
+    "Speed": 0.17,
+    "MaxDistortionX": 0.22,
+    "MaxDistortionY": 0.16
+  }
+}

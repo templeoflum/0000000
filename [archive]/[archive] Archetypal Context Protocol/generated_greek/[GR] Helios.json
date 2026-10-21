@@ -1,0 +1,64 @@
+{
+  "SchemaVersion": "1.1-ter",
+  "ArchetypeName": "Helios",
+  "SystemOfOrigin": "GR",
+  "CulturalLineage": ["Greek"],
+  "CommonAliases": ["Sun God", "Sol", "All-Seeing", "Titan Sun"],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "To embody the sun itself; to see all with solar vision; to drive the sun chariot across sky daily.",
+    "PrimaryDomain": "Mythic / Celestial",
+    "ToneOrPolarity": "Illuminating / All-Seeing",
+    "SymbolicCore": "The sun personified, light that reveals all, daily journey across the heavens.",
+    "Correspondences": {
+      "Element": "Fire",
+      "Planet": "Sun",
+      "Chakra": "Solar Plexus",
+      "Color": "Gold, Brilliant Yellow",
+      "Animal": "Rooster, Eagle",
+      "Other": ["Chariot", "Crown of Rays", "Whip", "Cattle of the Sun"]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": ["Sun God", "All-Seeing Witness", "Light Bringer", "Time Marker"],
+    "ComplementaryArchetypes": ["Hyperion ([GR] Father)", "Selene ([GR] Sister/Moon)", "Eos ([GR] Sister/Dawn)"],
+    "ShadowForms": ["Blinding Light", "Scorching Heat", "Revealing Too Much"],
+    "DevelopmentalArc": [],
+    "CyclePhase": "Day / Illumination"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": ["Illuminating", "All-seeing", "Radiant", "Constant", "Revealing", "Powerful"],
+    "Typologies": {
+      "MBTI": "ENTJ",
+      "Enneagram": "3w2",
+      "Other": ["Hero", "Ruler", "Sage"]
+    },
+    "SubVariants": ["Solar Hero", "All-Seeing Eye", "Light Revealer"],
+    "InternalFamily": "Conscious Awareness"
+  },
+  "CulturalContext": {
+    "Regions": ["Greece", "Rhodes"],
+    "MythicAppearances": ["Odyssey (Cattle of the Sun)", "Phaethon myth", "Colossus of Rhodes"],
+    "ReligiousOrRitualUse": "Major cult at Rhodes; invoked in oaths as all-seeing witness; honored at dawn.",
+    "HistoricalEvolution": "Titan sun god; gradually superseded by Apollo; merged with Roman Sol.",
+    "SyncreticForms": ["Sol (Roman)", "Apollo (merged)", "Ra (parallel)"]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "☀️",
+    "ImageryNotes": "Depicted driving golden chariot across sky, crowned with rays, radiating light; often with cattle.",
+    "ArtisticExamples": ["Colossus of Rhodes", "Greek vase paintings", "Sun chariot imagery"],
+    "PoeticInvocation": "Helios all-seeing, who drives the sun across heaven's vault, witness to all deeds.",
+    "DreamForm": "A chariot of fire crossing the sky, its driver seeing everything below"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": ["Tarot.The_Sun", "JP12.Hero", "Eye_of_Providence"],
+    "SemanticTags": ["#sun", "#light", "#all-seeing", "#revelation", "#day"],
+    "RitualFunction": "Invoked for truth-seeing, illumination, and as witness to oaths and deeds.",
+    "AIPromptSeeds": ["The sun god who sees all from his daily journey across the heavens.", "Light personified, driving the chariot that brings day to the world."],
+    "NarrativeHooks": ["The all-seeing witness", "Truth revealed by light", "The daily journey"]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [{"to": "Sol (Roman)", "strength": "strong"}, {"to": "Tarot.The_Sun", "strength": "strong"}, {"to": "Apollo", "strength": "moderate"}]
+  },
+  "FacetRegistry": [{"facet": "Sun God", "weight": 0.5}, {"facet": "All-Seeing Witness", "weight": 0.3}, {"facet": "Daily Journey", "weight": 0.2}]
+}

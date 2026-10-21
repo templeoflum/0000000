@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>◐</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{height:100%;overflow:hidden;overscroll-behavior:none;background:#0e0d12}
+#app{height:100vh;height:100dvh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:26px}
+#scene{width:min(80vw,340px);aspect-ratio:1;background:#fff;border-radius:3px}
+#rail{width:min(86vw,420px);height:auto;touch-action:none;cursor:pointer}
+</style>
+</head>
+<body>
+<div id="app">
+  <canvas id="scene"></canvas>
+  <svg id="rail" viewBox="0 0 420 56" aria-label="the knob">
+    <line x1="30" y1="28" x2="390" y2="28" stroke="#26242f" stroke-width="2" stroke-linecap="round"/>
+    <circle id="knob" cx="30" cy="28" r="13" fill="#0e0d12" stroke="#93a4c2" stroke-width="2"/>
+    <circle id="knobcore" cx="30" cy="28" r="4" fill="#93a4c2"/>
+  </svg>
+</div>
+<script>
+/* ── THE TOY v2: the same ink traded IN PLACE — dots migrate along a fixed
+   ancestor tree and swallow each other into fewer, larger dots (and split back).
+   coverage exact at every whole level: r_L = d_L·sqrt(C/π). ── */
+function hash2(ix,iy,seed){let h=(ix*374761393+iy*668265263+seed*1442695040)|0;h=(h^(h>>>13))|0;h=Math.imul(h,1274126177);h=(h^(h>>>16))>>>0;return h/4294967296;}
+const scene=document.getElementById("scene");
+const DPR=2;               /* fixed internal resolution — layout-independent */
+let S=680;
+scene.width=S;scene.height=S;
+const ctx=scene.getContext("2d");
+const C=0.30;                          // locked coverage
+const LMAX=3;                          // four levels of ancestry
+const BASE=13*DPR;                     // level-0 cell
+const RAD=[],CELL=[];
+for(let L=0;L<=LMAX;L++){const d=BASE*Math.pow(2,L);CELL.push(d);RAD.push(d*Math.sqrt(C/Math.PI));}
+function anchor(gx,gy,L){               // jittered anchor of cell (gx,gy) at level L
+  const d=CELL[L];
+  return[(gx+0.5)*d+(hash2(gx,gy,3+L)-0.5)*d*0.55,
+         (gy+0.5)*d+(hash2(gx,gy,9+L)-0.5)*d*0.55];
+}
+/* every level-0 dot carries its whole ancestry of positions */
+const DOTS=[];
+(function(){
+  const n0=Math.ceil(S/BASE);
+  for(let gy=0;gy<n0;gy++)for(let gx=0;gx<n0;gx++){
+    const chain=[];
+    for(let L=0;L<=LMAX;L++)chain.push(anchor(gx>>L,gy>>L,L));
+    DOTS.push(chain);
+  }
+})();
+let k=0,dotCount=1,dotR=1;
+function apply(){
+  const t=k*LMAX;
+  const L=Math.min(LMAX-1,Math.floor(t)), f=t-L;
+  const rA=RAD[L], rB=RAD[L+1], r=rA+(rB-rA)*f;
+  ctx.fillStyle="#fff";ctx.fillRect(0,0,S,S);
+  ctx.fillStyle="#000";
+  for(const ch of DOTS){
+    const a=ch[L], b=ch[L+1];
+    const x=a[0]+(b[0]-a[0])*f, y=a[1]+(b[1]-a[1])*f;
+    ctx.beginPath();ctx.arc(x,y,r,0,7);ctx.fill();
+  }
+  dotCount=DOTS.length/Math.pow(4,t);   // distinct dots after merging
+  dotR=r;
+  /* a level hum = the constant ink */
+}
+apply();
+
+ 
+const rail=document.getElementById("rail");
+const knob=document.getElementById("knob");
+const knobcore=document.getElementById("knobcore");
+let dragging=false;
+function set(clientX){
+  const r=rail.getBoundingClientRect();
+  k=Math.min(1,Math.max(0,(clientX-r.left-r.width*30/420)/(r.width*360/420)));
+  apply();
+  const x=30+360*k;
+  knob.setAttribute("cx",x); knobcore.setAttribute("cx",x);
+}
+function start(e){dragging=true;move(e);}
+function move(e){
+  if(!dragging)return;
+  set(e.touches?e.touches[0].clientX:e.clientX);
+  if(e.cancelable)e.preventDefault();
+}
+rail.addEventListener("mousedown",start);
+rail.addEventListener("touchstart",start,{passive:false});
+window.addEventListener("mousemove",move);
+window.addEventListener("touchmove",move,{passive:false});
+window.addEventListener("mouseup",()=>dragging=false);
+window.addEventListener("touchend",()=>dragging=false);
+document.addEventListener("touchmove",e=>{if(dragging)e.preventDefault();},{passive:false});
+ 
+(function(){
+  const rail=document.getElementById("rail");
+  function n2c(t){const r=rail.getBoundingClientRect();return r.left+r.width*(30+360*Math.min(1,Math.max(0,t)))/420;}
+  window.atom={name:"S04",
+    set:function(t){set(n2c(t));},
+    get:function(){const x=parseFloat(document.getElementById("knob").getAttribute("cx"));return (x-30)/360;}};
+  const q=new URLSearchParams(location.search).get("k");
+  if(q!==null) setTimeout(function(){window.atom.set(parseFloat(q));},80);
+  window.addEventListener("message",function(e){if(e.data&&typeof e.data.atomSet==="number")window.atom.set(e.data.atomSet);});
+  let lx=null;
+  setInterval(function(){
+    const x=parseFloat(document.getElementById("knob").getAttribute("cx"));
+    if(x!==lx){lx=x;try{if(parent!==window)parent.postMessage({atomChange:{name:window.atom.name,k:(x-30)/360}},"*");}catch(err){}}
+  },150);
+})();
+</script>
+</body>
+</html>
+ 

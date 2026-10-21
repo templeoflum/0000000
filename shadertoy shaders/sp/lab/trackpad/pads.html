@@ -1,0 +1,93 @@
+<!doctype html><meta charset="utf-8"><title>pads study</title>
+<style>body{background:#05080d;color:#9fc4dc;font:12px ui-monospace,monospace;margin:0;padding:12px}h1{font-size:13px;color:#7d97ab;font-weight:500;margin:0 0 6px}
+.k{color:#7d97ab}.v{color:#62f0c0}.row{display:flex;gap:18px;flex-wrap:wrap;margin-bottom:8px;align-items:center}
+#grid{position:relative;background:#070b11;border:1px solid #1c2630;border-radius:8px;width:74vw;aspect-ratio:1.55;margin-bottom:10px}
+.pad{position:absolute;border:1px solid #1c2630;border-radius:6px;overflow:hidden}
+.pad .fill{position:absolute;left:0;right:0;bottom:0;background:#62f0c0;opacity:.55;height:0}
+.pad.on{border-color:#62f0c0;box-shadow:0 0 10px #62f0c055 inset}
+.pad .nm{position:absolute;top:4px;left:6px;color:#7d97ab;font-size:10px}
+.pad .md{position:absolute;top:4px;right:6px;color:#ff9f43;font-size:10px;cursor:pointer}
+.pad .sz{position:absolute;left:4px;bottom:4px;right:4px;height:3px;background:#0d131a}.pad .sz i{display:block;height:100%;background:#4fb8e8;width:0}
+.pad .dot{position:absolute;width:14px;height:14px;margin:-7px;border-radius:50%;background:#fff;opacity:.85;pointer-events:none;display:none}
+#log{color:#7fd0f5;white-space:pre;max-height:30vh;overflow:auto;border:1px solid #1c2630;border-radius:6px;padding:6px;font-size:10.5px}
+select,input[type=range]{background:#0d131a;color:#9fc4dc;border:1px solid #1c2630;border-radius:4px;font:inherit}
+</style>
+<h1>⌗ pads study — the trackpad as a playable pad bank (tap · hold · chord · slide · press-depth)</h1>
+<div class="row">
+ <span><span class="k">grid</span> <select id="gsel"><option>2x4</option><option selected>2x3</option><option>3x4</option><option>4x4</option></select></span>
+ <span><span class="k">hold ≥</span> <input type="range" id="hms" min="120" max="600" step="10" value="280" style="width:90px"> <span class="v" id="hmsv">280</span>ms</span>
+ <span><span class="k">slide</span> <select id="slide"><option value="retrig" selected>retrigger new pad</option><option value="ignore">stay on first pad</option></select></span>
+ <span><span class="k">morph</span> <input type="range" id="mor" min="0.05" max="3" step="0.05" value="0.6" style="width:90px"> <span class="v" id="morv">0.60</span>s</span>
+ <span><span class="k">fingers</span> <span class="v" id="nf">–</span></span>
+ <span><span class="k">chord</span> <span class="v" id="chord">–</span></span>
+ <span class="k">per-pad mode: click the orange letter — M momentary (spring back) · L latch (tap toggles) · T target (tap = morph there, stays)</span>
+</div>
+<div id="grid"></div>
+<div id="log"></div>
+<script>
+const grid=document.getElementById("grid"), log=document.getElementById("log");
+let C=3, R=2, pads=[], lines=[];
+const MODES=["M","L","T"];
+function addLog(t){ lines.unshift((performance.now()/1000).toFixed(2).padStart(8)+"  "+t); lines=lines.slice(0,80); log.textContent=lines.join("\n"); }
+function build(){
+  const [r,c]=document.getElementById("gsel").value.split("x").map(Number); R=r; C=c;
+  grid.innerHTML=""; pads=[];
+  for(let i=0;i<R*C;i++){
+    const d=document.createElement("div"); d.className="pad";
+    const col=i%C, row=(i/C)|0;
+    d.style.left=(col*100/C+0.6)+"%"; d.style.top=(row*100/R+1)+"%";
+    d.style.width=(100/C-1.2)+"%"; d.style.height=(100/R-2)+"%";
+    d.innerHTML=`<span class="nm">${i+1}</span><span class="md">M</span><div class="fill"></div><div class="sz"><i></i></div><div class="dot"></div>`;
+    d.querySelector(".md").onclick=ev=>{const p=pads[i]; p.mode=MODES[(MODES.indexOf(p.mode)+1)%MODES.length]; ev.target.textContent=p.mode;};
+    grid.appendChild(d);
+    pads.push({el:d, mode:"M", v:0, tgt:0, touch:null, t0:0, held:false});
+  }
+}
+document.getElementById("gsel").onchange=build;
+for(const [id,vid] of [["hms","hmsv"],["mor","morv"]]) document.getElementById(id).oninput=e=>document.getElementById(vid).textContent=(+e.target.value).toFixed(id==="mor"?2:0);
+build();
+function padAt(x,y){ const col=Math.min(C-1,Math.max(0,Math.floor(x*C))), row=Math.min(R-1,Math.max(0,Math.floor((1-y)*R))); return row*C+col; }
+function press(i,now){ const p=pads[i]; p.touch=true; p.t0=now; p.held=false; p.el.classList.add("on"); }
+function releasePad(i,now){ const p=pads[i]; const dur=((now-p.t0)*1000)|0;
+  if(!p.held){ // TAP
+    if(p.mode==="L"){ p.tgt=p.tgt>0.5?0:1; addLog(`pad ${i+1}  TAP ${dur}ms  → latch ${p.tgt?"ON":"off"}`); }
+    else if(p.mode==="T"){ p.tgt=1; for(const [j,q] of pads.entries()) if(j!==i&&q.mode==="T") q.tgt=0; addLog(`pad ${i+1}  TAP ${dur}ms  → target (morph here, stay)`); }
+    else { addLog(`pad ${i+1}  TAP ${dur}ms  (momentary: too quick — flash)`); p.tgt=1; setTimeout(()=>{if(!p.touch)p.tgt=0;},120); }
+  } else {
+    if(p.mode==="M"){ p.tgt=0; addLog(`pad ${i+1}  RELEASE after ${dur}ms  → spring back`); }
+    else addLog(`pad ${i+1}  RELEASE after ${dur}ms`);
+  }
+  p.touch=null; p.el.classList.remove("on"); p.el.querySelector(".dot").style.display="none"; p.el.querySelector(".sz i").style.width="0";
+}
+let prev={};   // fingerId → pad index
+let lastT=performance.now()/1000;
+function frame(s){
+  const now=performance.now()/1000, dt=Math.max(0.001,now-lastT); lastT=now;
+  const HMS=+document.getElementById("hms").value/1000, MOR=+document.getElementById("mor").value, SL=document.getElementById("slide").value;
+  const c=s.fingers.filter(g=>g.state!=="leave"&&g.state!=="hover");
+  document.getElementById("nf").textContent=c.length;
+  const cur={}, occupied=new Set();
+  for(const g of c){
+    let i=padAt(g.x,g.y);
+    if(prev[g.id]!=null && prev[g.id]!==i && SL==="ignore") i=prev[g.id];
+    if(prev[g.id]!=null && prev[g.id]!==i && SL==="retrig"){ releasePad(prev[g.id],now); addLog(`slide ${prev[g.id]+1} → ${i+1}`); }
+    cur[g.id]=i; occupied.add(i);
+    const p=pads[i];
+    if(!p.touch) press(i,now);
+    if(!p.held && now-p.t0>=HMS){ p.held=true;
+      if(p.mode==="M"){ p.tgt=1; addLog(`pad ${i+1}  HOLD → engage (spring back on release)`); }
+      else addLog(`pad ${i+1}  HOLD`); }
+    const b=p.el.getBoundingClientRect(), gb=grid.getBoundingClientRect();
+    const dot=p.el.querySelector(".dot");
+    dot.style.display="block";
+    dot.style.left=((g.x*C-i%C)*100)+"%"; dot.style.top=(((1-g.y)*R-((i/C)|0))*100)+"%";
+    p.el.querySelector(".sz i").style.width=Math.min(100,g.size*130)+"%";   // press-depth: size as aftertouch
+  }
+  for(const id in prev) if(!(id in cur)) releasePad(prev[id],now);
+  prev=cur;
+  const chordPads=[...occupied].map(i=>i+1).sort((a,b)=>a-b);
+  document.getElementById("chord").textContent=chordPads.length>1?chordPads.join("+"):"–";
+  for(const p of pads){ p.v+=(p.tgt-p.v)*Math.min(1,dt/Math.max(0.02,MOR)*3); p.el.querySelector(".fill").style.height=(p.v*100)+"%"; }
+}
+let ws; function connect(){ws=new WebSocket("ws://localhost:8770/"); ws.onmessage=e=>frame(JSON.parse(e.data)); ws.onclose=()=>setTimeout(connect,800);} connect();
+</script>

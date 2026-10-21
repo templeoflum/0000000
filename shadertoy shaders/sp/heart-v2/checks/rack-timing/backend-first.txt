@@ -1,0 +1,78 @@
+======================================================================
+ERROR: test_protocol_capture_fresh_return_reject_stale_hits_and_disarm_during_capture (test_session_controls.SessionRuntimeTests.test_protocol_capture_fresh_return_reject_stale_hits_and_disarm_during_capture)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/tasks.py", line 488, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/test_session_controls.py", line 374, in loop
+    message = json.loads(await ws.recv())
+                         ^^^^^^^^^^^^^^^
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/.venv/lib/python3.14/site-packages/websockets/asyncio/connection.py", line 298, in recv
+    return await self.recv_messages.get(decode)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/.venv/lib/python3.14/site-packages/websockets/asyncio/messages.py", line 158, in get
+    frame = await self.frames.get(not self.closed)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/.venv/lib/python3.14/site-packages/websockets/asyncio/messages.py", line 51, in get
+    await self.get_waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 128, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/test_session_controls.py", line 404, in test_protocol_capture_fresh_return_reject_stale_hits_and_disarm_during_capture
+    await receive(lambda m:m['type']=='state' and m['effect_rack']['feedback']['active']['mirror'])
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/test_session_controls.py", line 376, in receive
+    return await asyncio.wait_for(loop(),5)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/tasks.py", line 487, in wait_for
+    async with timeouts.timeout(timeout):
+               ~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+======================================================================
+ERROR: test_alpha_does_not_enable_bypass_and_toggle_is_a_loop_voice (test_session_controls.ToggleRackTests.test_alpha_does_not_enable_bypass_and_toggle_is_a_loop_voice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/test_session_controls.py", line 179, in test_alpha_does_not_enable_bypass_and_toggle_is_a_loop_voice
+    e.session.configure(dict(epoch=e.catalog['epoch'],row='feedback',kick='mirror',snare='mirror',running=True,pattern='alternate'))
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/session_controls.py", line 99, in configure
+    if data[name] not in choices: raise ValueError('Choose a one-shot effect')
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Choose a one-shot effect
+
+======================================================================
+FAIL: test_colour_controls_preserve_native_units_and_offset_timeline (test_session_rack_config.RackConfiguration.test_colour_controls_preserve_native_units_and_offset_timeline)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/test_session_rack_config.py", line 35, in test_colour_controls_preserve_native_units_and_offset_timeline
+    if row['color']:self.assertTrue({'Factor','Red offset','Green offset','Blue offset'}.issubset({c['id']for c in row['controls']}))
+                    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_feedback_toggles_have_exact_effect_opacity_and_bypass_bindings (test_session_rack_config.RackConfiguration.test_feedback_toggles_have_exact_effect_opacity_and_bypass_bindings)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/test_session_rack_config.py", line 62, in test_feedback_toggles_have_exact_effect_opacity_and_bypass_bindings
+    self.assertEqual(pad['mode'],'toggle')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'fade' != 'toggle'
+- fade
++ toggle
+
+
+----------------------------------------------------------------------
+Ran 49 tests in 8.543s
+
+FAILED (failures=2, errors=2)

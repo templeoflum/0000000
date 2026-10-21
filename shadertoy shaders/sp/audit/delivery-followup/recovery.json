@@ -1,0 +1,881 @@
+[
+  {
+    "action": "settle",
+    "driven": 0,
+    "slots": 40,
+    "effects": [
+      {
+        "key": "composition/effect/MTK_STROKE_VOLT~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "composition/effect/MTK_PXLMELT~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "composition/effect/HueRotate~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "composition/effect/ColourLoop~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "composition/effect/mtk_lut_corrupt~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "composition/effect/TwitchEffect~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "composition/effect/MTK_STROKEDIFFUSE~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "composition/effect/Strobe~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/feedback~1/effect/InvertRGB~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/feedback~1/effect/Blur~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/feedback~1/effect/Sharpen~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/feedback~1/effect/Kaleidoscope~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/feedback~1/effect/Mirror~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/feedback~1/effect/Mirror~2",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/feedback~1/effect/Mirror~3",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/feedback~1/effect/Mirror~4",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/feedback~1/clip/FM%20%C2%B7%20Static%20Rotate%20Left%20Z%20%5B1.4.1%5D~1/effect/Transform~2",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/sculpt~1/effect/InvertRGB~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/sculpt~1/effect/HueRotate~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/sculpt~1/effect/InvertRGB~2",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/sculpt~1/effect/DelayRGB~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/sculpt~1/effect/AutoMask~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/sculpt~1/clip/level~1/effect/SPStudyLevel~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/field~1/effect/Twisted~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/field~1/effect/Twisted~2",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/field~1/effect/Suckr~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/field~1/effect/FishEye~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/delay~1/effect/InvertRGB~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/delay~1/effect/AutoMask~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/delay~1/clip/figure~1/effect/SPDelayChain~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/figure~1/effect/Transform~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/figure~1/effect/TwitchEffect~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/figure~1/effect/mtk_lut_corrupt~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/figure~1/effect/RadialCloner~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/figure~1/effect/LinearCloner~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/figure~1/effect/Iterate~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/figure~1/effect/Mirror~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/figure~1/effect/Mirror~2",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/figure~1/effect/Mirror~3",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/figure~1/effect/MTK_Gradient_Shadow~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/figure~1/effect/Displace~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/figure~1/effect/Distortion~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/figure~1/effect/ASCII~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/figure~1/effect/InfiniteZoom~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/figure~1/effect/LoRezEffect~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/glyph~1/effect/MTK_Gradient_Shadow~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/glyph~1/effect/Goo~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      }
+    ],
+    "status": {
+      "busy": false,
+      "label": "Settling all \u00b7 269 controls"
+    }
+  },
+  {
+    "action": "open",
+    "driven": 39,
+    "slots": 40,
+    "effects": [
+      {
+        "key": "composition/effect/MTK_STROKE_VOLT~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "composition/effect/MTK_PXLMELT~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "composition/effect/HueRotate~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "composition/effect/ColourLoop~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "composition/effect/mtk_lut_corrupt~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "composition/effect/TwitchEffect~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "composition/effect/MTK_STROKEDIFFUSE~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "composition/effect/Strobe~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/feedback~1/effect/InvertRGB~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/feedback~1/effect/Blur~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/feedback~1/effect/Sharpen~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/feedback~1/effect/Kaleidoscope~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/feedback~1/effect/Mirror~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/feedback~1/effect/Mirror~2",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/feedback~1/effect/Mirror~3",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/feedback~1/effect/Mirror~4",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/feedback~1/clip/FM%20%C2%B7%20Static%20Rotate%20Left%20Z%20%5B1.4.1%5D~1/effect/Transform~2",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/sculpt~1/effect/InvertRGB~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/sculpt~1/effect/HueRotate~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/sculpt~1/effect/InvertRGB~2",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/sculpt~1/effect/DelayRGB~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/sculpt~1/effect/AutoMask~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/sculpt~1/clip/level~1/effect/SPStudyLevel~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/field~1/effect/Twisted~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/field~1/effect/Twisted~2",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/field~1/effect/Suckr~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/field~1/effect/FishEye~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/delay~1/effect/InvertRGB~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/delay~1/effect/AutoMask~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/delay~1/clip/figure~1/effect/SPDelayChain~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/figure~1/effect/Transform~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/figure~1/effect/TwitchEffect~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/figure~1/effect/mtk_lut_corrupt~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/figure~1/effect/RadialCloner~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/figure~1/effect/LinearCloner~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/figure~1/effect/Iterate~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/figure~1/effect/Mirror~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/figure~1/effect/Mirror~2",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/figure~1/effect/Mirror~3",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/figure~1/effect/MTK_Gradient_Shadow~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/figure~1/effect/Displace~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/figure~1/effect/Distortion~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/figure~1/effect/ASCII~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/figure~1/effect/InfiniteZoom~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/figure~1/effect/LoRezEffect~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/glyph~1/effect/MTK_Gradient_Shadow~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/glyph~1/effect/Goo~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      }
+    ],
+    "status": {
+      "busy": false,
+      "label": "Opening all \u00b7 226 controls"
+    }
+  },
+  {
+    "action": "settle",
+    "driven": 0,
+    "slots": 40,
+    "effects": [
+      {
+        "key": "composition/effect/MTK_STROKE_VOLT~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "composition/effect/MTK_PXLMELT~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "composition/effect/HueRotate~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "composition/effect/ColourLoop~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "composition/effect/mtk_lut_corrupt~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "composition/effect/TwitchEffect~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "composition/effect/MTK_STROKEDIFFUSE~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "composition/effect/Strobe~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/feedback~1/effect/InvertRGB~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/feedback~1/effect/Blur~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/feedback~1/effect/Sharpen~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/feedback~1/effect/Kaleidoscope~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/feedback~1/effect/Mirror~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/feedback~1/effect/Mirror~2",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/feedback~1/effect/Mirror~3",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/feedback~1/effect/Mirror~4",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/feedback~1/clip/FM%20%C2%B7%20Static%20Rotate%20Left%20Z%20%5B1.4.1%5D~1/effect/Transform~2",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/sculpt~1/effect/InvertRGB~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/sculpt~1/effect/HueRotate~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/sculpt~1/effect/InvertRGB~2",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/sculpt~1/effect/DelayRGB~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/sculpt~1/effect/AutoMask~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/sculpt~1/clip/level~1/effect/SPStudyLevel~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/field~1/effect/Twisted~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/field~1/effect/Twisted~2",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/field~1/effect/Suckr~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/field~1/effect/FishEye~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/delay~1/effect/InvertRGB~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/delay~1/effect/AutoMask~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/delay~1/clip/figure~1/effect/SPDelayChain~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/figure~1/effect/Transform~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/figure~1/effect/TwitchEffect~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/figure~1/effect/mtk_lut_corrupt~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/figure~1/effect/RadialCloner~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/figure~1/effect/LinearCloner~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/figure~1/effect/Iterate~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/figure~1/effect/Mirror~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/figure~1/effect/Mirror~2",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/figure~1/effect/Mirror~3",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/figure~1/effect/MTK_Gradient_Shadow~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/figure~1/effect/Displace~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/figure~1/effect/Distortion~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/figure~1/effect/ASCII~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/figure~1/effect/InfiniteZoom~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/figure~1/effect/LoRezEffect~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/glyph~1/effect/MTK_Gradient_Shadow~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      },
+      {
+        "key": "layer/glyph~1/effect/Goo~1",
+        "target": 0.0,
+        "amount": 0.0,
+        "bypassed": true
+      }
+    ],
+    "status": {
+      "busy": false,
+      "label": "Settling all \u00b7 445 controls"
+    }
+  }
+]

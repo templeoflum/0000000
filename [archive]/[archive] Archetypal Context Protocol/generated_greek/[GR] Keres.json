@@ -1,0 +1,64 @@
+{
+  "SchemaVersion": "1.1-ter",
+  "ArchetypeName": "Keres",
+  "SystemOfOrigin": "GR",
+  "CulturalLineage": ["Greek"],
+  "CommonAliases": ["Death Spirits", "Violent Death", "Battlefield Death", "Fates of Death"],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "To embody violent death and battlefield carnage; to feast on the blood of the slain; collective spirits of brutal ends.",
+    "PrimaryDomain": "Mythic / Death",
+    "ToneOrPolarity": "Violent / Devouring",
+    "SymbolicCore": "Violent death personified, the spirits that feast on slaughter, doom in battle.",
+    "Correspondences": {
+      "Element": "Air",
+      "Planet": "Mars/Pluto",
+      "Chakra": "Root",
+      "Color": "Black, Blood Red",
+      "Animal": "Vulture, Raven, Carrion Crow",
+      "Other": ["Claws", "Black Wings", "Blood", "Battlefield"]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": ["Death Spirits", "Battlefield Harvesters", "Violent End", "Soul Devourers"],
+    "ComplementaryArchetypes": ["Nyx ([GR] Mother)", "Thanatos ([GR] Peaceful Death)", "Ares ([GR] War)"],
+    "ShadowForms": ["Senseless Violence", "Brutal Murder", "War Atrocities"],
+    "DevelopmentalArc": [],
+    "CyclePhase": "Violent Death / Carnage"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": ["Violent", "Devouring", "Dark", "Collective", "Brutal", "Relentless"],
+    "Typologies": {
+      "MBTI": "ESTP",
+      "Enneagram": "8w7",
+      "Other": ["Destroyer", "Shadow", "Death"]
+    },
+    "SubVariants": ["Battlefield Death", "Violent Fate", "Carnage Spirits"],
+    "InternalFamily": "Shadow of Violence"
+  },
+  "CulturalContext": {
+    "Regions": ["Greece"],
+    "MythicAppearances": ["Daughters of Nyx", "Iliad battlefield scenes", "Contrasted with peaceful Thanatos"],
+    "ReligiousOrRitualUse": "Feared and propitiated; associated with violent death vs peaceful passing.",
+    "HistoricalEvolution": "Ancient death spirits; represent brutal vs gentle death; plural collective entity.",
+    "SyncreticForms": ["Valkyries (partial parallel)", "Death spirits (various)"]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "🦅",
+    "ImageryNotes": "Depicted as dark winged female spirits with claws, hovering over battlefields, drinking blood of the slain.",
+    "ArtisticExamples": ["Greek vase paintings", "Battlefield imagery", "Death spirit art"],
+    "PoeticInvocation": "Keres, dark-winged harvesters of the battlefield, who drink the blood of violent ends.",
+    "DreamForm": "Dark winged figures circling overhead, waiting for the moment of violent death"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": ["Tarot.Death", "JU.Shadow", "PTSD"],
+    "SemanticTags": ["#violent-death", "#battlefield", "#carnage", "#death-spirits", "#war"],
+    "RitualFunction": "Shadow work with violence; honoring war dead; processing trauma of violent loss.",
+    "AIPromptSeeds": ["The death spirits who feast on battlefield carnage.", "Dark fates of violent end, wings black as night."],
+    "NarrativeHooks": ["Violent vs peaceful death", "Battlefield horror", "The price of war"]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [{"to": "Valkyries", "strength": "weak"}, {"to": "Death_Spirits", "strength": "moderate"}]
+  },
+  "FacetRegistry": [{"facet": "Violent Death", "weight": 0.6}, {"facet": "Battlefield Spirits", "weight": 0.3}, {"facet": "Carnage Harvesters", "weight": 0.1}]
+}

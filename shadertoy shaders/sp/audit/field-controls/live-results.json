@@ -1,0 +1,192 @@
+[
+  {
+    "layer": 3,
+    "col": 4,
+    "source": "Heart Quaternion Field",
+    "controls": [
+      "Speed",
+      "Field Scale",
+      "Hue Speed",
+      "Axis 1 Freq",
+      "Axis 2 Freq",
+      "Axis 3 Freq",
+      "Coupling",
+      "Brightness",
+      "Saturation",
+      "Mean Radius",
+      "Sample Distance"
+    ],
+    "discovered": [
+      "Speed",
+      "Field Scale",
+      "Hue Speed",
+      "Axis 1 Freq",
+      "Axis 2 Freq",
+      "Axis 3 Freq",
+      "Coupling",
+      "Brightness",
+      "Saturation",
+      "Mean Radius",
+      "Sample Distance"
+    ],
+    "probe": "Coupling",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.4745812962178891,
+      0.39783019986780177,
+      0.32796390609177317,
+      0.30777631579271036
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 3,
+    "col": 5,
+    "source": "Heart Quaternion Swell",
+    "controls": [
+      "Field Scale",
+      "Speed",
+      "Swell Threshold",
+      "Swell Sharpness",
+      "Hue Shift",
+      "Coupling",
+      "Darkness"
+    ],
+    "discovered": [
+      "Field Scale",
+      "Speed",
+      "Swell Threshold",
+      "Swell Sharpness",
+      "Hue Shift",
+      "Coupling",
+      "Darkness"
+    ],
+    "probe": "Swell Threshold",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.5193478078315215,
+      0.4247002963258492,
+      0.34674908561867446,
+      0.3192292962236798
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 3,
+    "col": 6,
+    "source": "Heart Paper Fractal",
+    "controls": [
+      "rotAsymX",
+      "rotAsymY",
+      "spinRate",
+      "foldRate",
+      "spinOffset",
+      "foldOffset",
+      "sizeOffset",
+      "foldDistA",
+      "foldDistB",
+      "camX",
+      "camY",
+      "camZ",
+      "glowAmount"
+    ],
+    "discovered": [
+      "rotAsymX",
+      "rotAsymY",
+      "spinRate",
+      "foldRate",
+      "spinOffset",
+      "foldOffset",
+      "sizeOffset",
+      "foldDistA",
+      "foldDistB",
+      "camX",
+      "camY",
+      "camZ",
+      "glowAmount"
+    ],
+    "probe": "foldDistA",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.2853226428379132,
+      0.24022910151079305,
+      0.23188254154254628,
+      0.2677601605366448
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 3,
+    "col": 7,
+    "source": "Heart Vector Lattice",
+    "controls": [
+      "camSpeed",
+      "rotX",
+      "rotZ",
+      "colorR",
+      "colorG",
+      "colorB"
+    ],
+    "discovered": [
+      "camSpeed",
+      "rotX",
+      "rotZ",
+      "colorR",
+      "colorG",
+      "colorB"
+    ],
+    "probe": "rotX",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.4728814393136833,
+      0.3797774952407141,
+      0.3203242180325325,
+      0.3087779470557508
+    ],
+    "drive_varied": true
+  }
+]

@@ -1,0 +1,290 @@
+{
+  "id": "wfG3RD",
+  "name": "Quantum Zappy Sphere",
+  "username": "frisk256",
+  "description": "I spent a lot of time on this.",
+  "tags": [
+    "cubemap",
+    "cellularautomatacolorful",
+    "zappy",
+    "quantm"
+  ],
+  "date": "1747861776",
+  "viewed": 262,
+  "likes": 10,
+  "published": 3,
+  "renderpass": [
+    {
+      "type": "image",
+      "name": "Image",
+      "inputs": [
+        {
+          "id": "4dXGR8",
+          "filepath": "/media/previz/buffer00.png",
+          "previewfilepath": "/media/previz/buffer00.png",
+          "type": "buffer",
+          "channel": 0,
+          "sampler": {
+            "filter": "linear",
+            "wrap": "repeat",
+            "vflip": "true",
+            "srgb": "false",
+            "internal": "byte"
+          },
+          "published": 1
+        },
+        {
+          "id": "XsXGR8",
+          "filepath": "/media/previz/buffer01.png",
+          "previewfilepath": "/media/previz/buffer01.png",
+          "type": "buffer",
+          "channel": 1,
+          "sampler": {
+            "filter": "linear",
+            "wrap": "clamp",
+            "vflip": "true",
+            "srgb": "false",
+            "internal": "byte"
+          },
+          "published": 1
+        },
+        {
+          "id": "4sXGR8",
+          "filepath": "/media/previz/buffer02.png",
+          "previewfilepath": "/media/previz/buffer02.png",
+          "type": "buffer",
+          "channel": 2,
+          "sampler": {
+            "filter": "linear",
+            "wrap": "clamp",
+            "vflip": "true",
+            "srgb": "false",
+            "internal": "byte"
+          },
+          "published": 1
+        },
+        {
+          "id": "XdfGR8",
+          "filepath": "/media/previz/buffer03.png",
+          "previewfilepath": "/media/previz/buffer03.png",
+          "type": "buffer",
+          "channel": 3,
+          "sampler": {
+            "filter": "linear",
+            "wrap": "clamp",
+            "vflip": "true",
+            "srgb": "false",
+            "internal": "byte"
+          },
+          "published": 1
+        }
+      ],
+      "outputs": [
+        {
+          "id": "4dfGRr",
+          "channel": 0
+        }
+      ],
+      "code": "void mainImage(out vec4 c,vec2 p) {\n    c = vec4(0);\n    c += texture(iChannel0,p / r) * 1.;\n    c += texture(iChannel1,p / r) * 2.;\n    c += texture(iChannel2,p / r) * 3.;\n    c += texture(iChannel3,p / r) * 4.;\n}\n"
+    },
+    {
+      "type": "cubemap",
+      "name": "Cube A",
+      "inputs": [
+        {
+          "id": "4dX3Rr",
+          "filepath": "/media/a//media/previz/cubemap00.png",
+          "previewfilepath": "/media/ap//media/previz/cubemap00.png",
+          "type": "cubemap",
+          "channel": 0,
+          "sampler": {
+            "filter": "linear",
+            "wrap": "clamp",
+            "vflip": "true",
+            "srgb": "false",
+            "internal": "byte"
+          },
+          "published": 1
+        }
+      ],
+      "outputs": [
+        {
+          "id": "4dX3Rr",
+          "channel": 0
+        }
+      ],
+      "code": "float random(float v0) {return fract(v0 * (fract(v0 * 7.512 + 0.426) + 2.327) * 1.512 + 0.265);}\n\nfloat random(float v0,float v1) \n{return random(v1 + random(v0) * 100.);}\nfloat random(float v0,float v1,float v2) \n{return random(v2 + random(v0,v1) * 100.);}\nfloat random(float v0,float v1,float v2,float v3) \n{return random(v3 + random(v0,v1,v2) * 100.);}\nfloat random(float v0,float v1,float v2,float v3,float v4) \n{return random(v4 + random(v0,v1,v2,v3) * 100.);}\nfloat random(float v0,float v1,float v2,float v3,float v4,float v5) \n{return random(v5 + random(v0,v1,v2,v3,v4) * 100.);}\nfloat random(float v0,float v1,float v2,float v3,float v4,float v5,float v6) \n{return random(v6 + random(v0,v1,v2,v3,v4,v5) * 100.);}\nfloat random(float v0,float v1,float v2,float v3,float v4,float v5,float v6,float v7) \n{return random(v7 + random(v0,v1,v2,v3,v4,v5,v6) * 100.);}\n\n\nvoid mainCubemap(out vec4 c,vec2 UNUSED1,vec3 UNUSED2,vec3 p) {\n    float l = length(p / max(max(abs(p.x),abs(p.y)),abs(p.z)));\n    p /= length(p);\n    c = texture(iChannel0,p);\n    float i = 0.;\n    vec2 randvals = vec2(random(p.x,p.y,p.z,iTime,0.) * 6.28,random(p.x,p.y,p.z,iTime,1.) * 2. - 1.);\n    vec3 pole = vec3(sin(randvals.x + vec2(0,1.57)) * sqrt(1. - randvals.y * randvals.y),randvals.y);\n    while(abs(dot(pole,p)) > 0.7) {\n        i++;\n        randvals = vec2(random(p.x,p.y,p.z,iTime,0.,i) * 6.28,random(p.x,p.y,p.z,iTime,1.,i) * 2. - 1.);\n        pole = vec3(sin(randvals.x + vec2(0,1.57)) * sqrt(1. - randvals.y * randvals.y),randvals.y);\n    }\n    vec3 delx = normalize(cross(pole,p));\n    vec3 dely = normalize(cross(delx,p));\n    float dx = 0.05;\n    vec4 gpx = texture(iChannel0,normalize(p + delx * dx));\n    vec4 gnx = texture(iChannel0,normalize(p - delx * dx));\n    vec4 gpy = texture(iChannel0,normalize(p + dely * dx));\n    vec4 gny = texture(iChannel0,normalize(p - dely * dx));\n    //c.x = texture(iChannel0,p + ((c.x - gnx.x) * delx + (c.x - gny.x) * dely) * dx * 10.).x;\n    //c.y = texture(iChannel0,p + ((c.y - gnx.y) * delx + (c.y - gny.y) * dely) * dx * 10.).y;\n    //c.z = texture(iChannel0,p + ((c.z - gnx.z) * delx + (c.z - gny.z) * dely) * dx * 10.).z;\n    c += gpx + gnx + gpy + gny;\n    c /= 5.;\n    c.xyz += (c.yzx * c.zxy) * 0.72 - (c.xyz * c.yzx + c.xyz * c.zxy) * 1.5;\n    c = clamp(c,0.,1.);\n    c.xyz /= length(c.xyz) + 0.01;\n    if(iFrame < int(fract(iDate.w) * 10. + 10.)) {c.xyz = vec3(random(p.x,p.y,p.z,iTime,0.),random(p.x,p.y,p.z,iTime,1.),random(p.x,p.y,p.z,iTime,2.));}\n}"
+    },
+    {
+      "type": "common",
+      "name": "Common",
+      "inputs": [],
+      "outputs": [],
+      "code": "#define r iResolution.xy\n#define blur 3."
+    },
+    {
+      "type": "buffer",
+      "name": "Buffer A",
+      "inputs": [
+        {
+          "id": "4dX3Rr",
+          "filepath": "/media/a//media/previz/cubemap00.png",
+          "previewfilepath": "/media/ap//media/previz/cubemap00.png",
+          "type": "cubemap",
+          "channel": 0,
+          "sampler": {
+            "filter": "linear",
+            "wrap": "clamp",
+            "vflip": "true",
+            "srgb": "false",
+            "internal": "byte"
+          },
+          "published": 1
+        }
+      ],
+      "outputs": [
+        {
+          "id": "4dXGR8",
+          "channel": 0
+        }
+      ],
+      "code": "vec3 shine(vec3 c) {\n    return (c * (1. - length(c)) - 0.014) * 4.;\n}\n\nvoid mainImage(out vec4 c,vec2 p) {\n    float rsp = 1.3;\n    c = vec4(0);\n    p = (p - r / 2.) / r.y * 2.1;\n    vec3 d = vec3(p,0);\n    if(1. - dot(d,d) < -0.000001) {\n        return;\n    }\n    d.z = sqrt(1. - dot(d,d) * 0.999999);\n    d.xz *= mat2(cos(iTime * rsp),sin(iTime * rsp),-sin(iTime * rsp),cos(iTime * rsp));\n    vec3 j = shine(texture(iChannel0,d).xyz);\n    c.xyz += j;\n    c = mix(c,max(c,0.),0.5);\n}"
+    },
+    {
+      "type": "buffer",
+      "name": "Buffer B",
+      "inputs": [
+        {
+          "id": "4dXGR8",
+          "filepath": "/media/previz/buffer00.png",
+          "previewfilepath": "/media/previz/buffer00.png",
+          "type": "buffer",
+          "channel": 0,
+          "sampler": {
+            "filter": "linear",
+            "wrap": "repeat",
+            "vflip": "true",
+            "srgb": "false",
+            "internal": "byte"
+          },
+          "published": 1
+        },
+        {
+          "id": "XsXGR8",
+          "filepath": "/media/previz/buffer01.png",
+          "previewfilepath": "/media/previz/buffer01.png",
+          "type": "buffer",
+          "channel": 1,
+          "sampler": {
+            "filter": "linear",
+            "wrap": "clamp",
+            "vflip": "true",
+            "srgb": "false",
+            "internal": "byte"
+          },
+          "published": 1
+        }
+      ],
+      "outputs": [
+        {
+          "id": "XsXGR8",
+          "channel": 0
+        }
+      ],
+      "code": "void mainImage(out vec4 c,vec2 p) {\n    c = texture(iChannel1,p / r) * 0.5;\n    for(float x = 0.;x < 5.;x++)\n    for(float y = 0.;y < 5.;y++) {\n        c += texture(iChannel0,(p - vec2(x - 2.,y - 2.) * blur) / r) * 0.04;\n    }\n}"
+    },
+    {
+      "type": "buffer",
+      "name": "Buffer C",
+      "inputs": [
+        {
+          "id": "XsXGR8",
+          "filepath": "/media/previz/buffer01.png",
+          "previewfilepath": "/media/previz/buffer01.png",
+          "type": "buffer",
+          "channel": 0,
+          "sampler": {
+            "filter": "linear",
+            "wrap": "clamp",
+            "vflip": "true",
+            "srgb": "false",
+            "internal": "byte"
+          },
+          "published": 1
+        },
+        {
+          "id": "4sXGR8",
+          "filepath": "/media/previz/buffer02.png",
+          "previewfilepath": "/media/previz/buffer02.png",
+          "type": "buffer",
+          "channel": 1,
+          "sampler": {
+            "filter": "linear",
+            "wrap": "clamp",
+            "vflip": "true",
+            "srgb": "false",
+            "internal": "byte"
+          },
+          "published": 1
+        }
+      ],
+      "outputs": [
+        {
+          "id": "4sXGR8",
+          "channel": 0
+        }
+      ],
+      "code": "void mainImage(out vec4 c,vec2 p) {\n    c = texture(iChannel1,p / r) * 0.5;\n    for(float x = 0.;x < 5.;x++)\n    for(float y = 0.;y < 5.;y++) {\n        c += texture(iChannel0,(p - vec2(x - 2.,y - 2.) * blur * 5.) / r) * 0.04;\n    }\n}"
+    },
+    {
+      "type": "buffer",
+      "name": "Buffer D",
+      "inputs": [
+        {
+          "id": "4sXGR8",
+          "filepath": "/media/previz/buffer02.png",
+          "previewfilepath": "/media/previz/buffer02.png",
+          "type": "buffer",
+          "channel": 0,
+          "sampler": {
+            "filter": "linear",
+            "wrap": "clamp",
+            "vflip": "true",
+            "srgb": "false",
+            "internal": "byte"
+          },
+          "published": 1
+        },
+        {
+          "id": "XdfGR8",
+          "filepath": "/media/previz/buffer03.png",
+          "previewfilepath": "/media/previz/buffer03.png",
+          "type": "buffer",
+          "channel": 1,
+          "sampler": {
+            "filter": "linear",
+            "wrap": "clamp",
+            "vflip": "true",
+            "srgb": "false",
+            "internal": "byte"
+          },
+          "published": 1
+        }
+      ],
+      "outputs": [
+        {
+          "id": "XdfGR8",
+          "channel": 0
+        }
+      ],
+      "code": "void mainImage(out vec4 c,vec2 p) {\n    c = texture(iChannel1,p / r) * 0.5;\n    for(float x = 0.;x < 5.;x++)\n    for(float y = 0.;y < 5.;y++) {\n        c += texture(iChannel0,(p - vec2(x - 2.,y - 2.) * blur * 25.) / r) * 0.04;\n    }\n}"
+    },
+    {
+      "type": "sound",
+      "name": "Sound",
+      "inputs": [],
+      "outputs": [],
+      "code": "vec2 mainSound(int samp,float time) {\n    vec2 c = vec2(0.2);\n    for(float i; i++ < 8.;) {\n        c *= sin((fract(time / 30.) + vec2(0,1)) * 30. * (1000. + 5. * exp(i * 0.3))) * 0.8 + 1.;\n    }\n    return c;\n}"
+    }
+  ]
+}

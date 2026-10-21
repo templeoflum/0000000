@@ -1,0 +1,55 @@
+{
+  "result": "PASS \u2014 offline pair integrity/dependency check only",
+  "sha256": {
+    "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/patches/Heart Show Ready 20260909 105955.avc": "b1453aafca107292448b3325e53d446163d5205655ca25759a08ba7517a72ecb",
+    "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/patches/Heart Show Ready 20260909 105955.json": "d961db78de72787e79cff8f3f30811f6b127d0d4eed98482d0fb1805785e1bd6"
+  },
+  "hold": false,
+  "bars": 8,
+  "active_layers": {
+    "feedback": {
+      "clip": null,
+      "level": 0.0,
+      "bypass": false
+    },
+    "sculpt": {
+      "clip": null,
+      "level": 0.0,
+      "bypass": false
+    },
+    "field": {
+      "clip": "Heart Barberpole Field",
+      "level": 1.0,
+      "bypass": false
+    },
+    "delay": {
+      "clip": null,
+      "level": 0.0,
+      "bypass": false
+    },
+    "figure": {
+      "clip": null,
+      "level": 0.0,
+      "bypass": false
+    },
+    "glyph": {
+      "clip": null,
+      "level": 0.0,
+      "bypass": false
+    },
+    "texture": {
+      "clip": null,
+      "level": 0.1769230769230769,
+      "bypass": false
+    },
+    "grain": {
+      "clip": null,
+      "level": 0.0,
+      "bypass": false
+    }
+  },
+  "live_signature_compared": true,
+  "name": "Heart Show Ready 20260909 105955",
+  "avc": "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/patches/Heart Show Ready 20260909 105955.avc",
+  "save_start": 1788969595.297983
+}

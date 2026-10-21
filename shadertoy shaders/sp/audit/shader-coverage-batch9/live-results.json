@@ -1,0 +1,1061 @@
+[
+  {
+    "layer": 5,
+    "col": 33,
+    "source": "Quaternion Conjugation 2",
+    "controls": [
+      "Speed",
+      "Camera Distance",
+      "FOV",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z"
+    ],
+    "discovered": [
+      "Speed",
+      "Camera Distance",
+      "FOV",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z"
+    ],
+    "probe": "Speed",
+    "checks": [
+      {
+        "requested": 0.8999999999999999,
+        "observed": 0.8999999999999999,
+        "ok": true
+      },
+      {
+        "requested": 2.0999999999999996,
+        "observed": 2.0999999999999996,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.9485229714771956,
+      0.8002551567270991,
+      0.738607401492028,
+      0.8055937184420972
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 34,
+    "source": "quantum droplet",
+    "controls": [
+      "Speed",
+      "Camera Distance",
+      "FOV",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z"
+    ],
+    "discovered": [
+      "Speed",
+      "Camera Distance",
+      "FOV",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z"
+    ],
+    "probe": "Speed",
+    "checks": [
+      {
+        "requested": 0.8999999999999999,
+        "observed": 0.8999999999999999,
+        "ok": true
+      },
+      {
+        "requested": 2.0999999999999996,
+        "observed": 2.0999999999999996,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.9477841039026088,
+      0.8031402234941778,
+      0.7385187750327117,
+      0.8090721714349707
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 35,
+    "source": "On their way to Sirius",
+    "controls": [
+      "Speed"
+    ],
+    "discovered": [
+      "Speed"
+    ],
+    "probe": "Speed",
+    "checks": [
+      {
+        "requested": 0.8999999999999999,
+        "observed": 0.8999999999999999,
+        "ok": true
+      },
+      {
+        "requested": 2.0999999999999996,
+        "observed": 2.0999999999999996,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.9458864726478708,
+      0.7948558395039773,
+      0.738733538830557,
+      0.8130016692976116
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 36,
+    "source": "Ray Marching Experiment n35",
+    "controls": [
+      "Speed",
+      "Camera Distance",
+      "FOV",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z",
+      "Displacement"
+    ],
+    "discovered": [
+      "Speed",
+      "Camera Distance",
+      "FOV",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z",
+      "Displacement"
+    ],
+    "probe": "Displacement",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.4748982881207373,
+      0.3912702722942581,
+      0.3274897089236831,
+      0.3078075015620466
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 37,
+    "source": "Shaderdough",
+    "controls": [
+      "Speed"
+    ],
+    "discovered": [
+      "Speed"
+    ],
+    "probe": "Speed",
+    "checks": [
+      {
+        "requested": 0.8999999999999999,
+        "observed": 0.8999999999999999,
+        "ok": true
+      },
+      {
+        "requested": 2.0999999999999996,
+        "observed": 2.0999999999999996,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.9436005884252704,
+      0.8095719911767554,
+      0.7384791345896194,
+      0.8038278016320157
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 39,
+    "source": "Quantum Carpets",
+    "controls": [
+      "Speed",
+      "Zoom",
+      "Brightness",
+      "Wave Count"
+    ],
+    "discovered": [
+      "Speed",
+      "Zoom",
+      "Brightness",
+      "Wave Count"
+    ],
+    "probe": "Wave Count",
+    "checks": [
+      {
+        "requested": 5.0,
+        "observed": 5.0,
+        "ok": true
+      },
+      {
+        "requested": 9.0,
+        "observed": 5.0,
+        "ok": false
+      }
+    ],
+    "samples": [
+      4.94107603383523,
+      4.499332108835458,
+      4.3505392682863135,
+      4.646616426941362
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 41,
+    "source": "Raymarched Hopf Fibers",
+    "controls": [
+      "Speed",
+      "Camera Distance",
+      "FOV",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z",
+      "Fiber Radius"
+    ],
+    "discovered": [
+      "Speed",
+      "Camera Distance",
+      "FOV",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z",
+      "Fiber Radius"
+    ],
+    "probe": "Fiber Radius",
+    "checks": [
+      {
+        "requested": 0.08899999968707561,
+        "observed": 0.08899999968707561,
+        "ok": true
+      },
+      {
+        "requested": 0.18099999986588955,
+        "observed": 0.18099999986588955,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.23800006449106637,
+      0.19741174495273417,
+      0.1517115561698427,
+      0.11790085702639642
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 42,
+    "source": "Dodecahedron",
+    "controls": [
+      "een",
+      "twee",
+      "drie",
+      "vier",
+      "vijf",
+      "zes",
+      "zeven",
+      "acht",
+      "zoom"
+    ],
+    "discovered": [
+      "een",
+      "twee",
+      "drie",
+      "vier",
+      "vijf",
+      "zes",
+      "zeven",
+      "acht",
+      "zoom"
+    ],
+    "probe": "een",
+    "checks": [
+      {
+        "requested": 3.0,
+        "observed": 3.0,
+        "ok": true
+      },
+      {
+        "requested": 7.0,
+        "observed": 7.0,
+        "ok": true
+      }
+    ],
+    "samples": [
+      8.158167947829225,
+      6.59486261436582,
+      5.032732801558066,
+      3.961794811690458
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 43,
+    "source": "Wireframe stellated dodecahedron",
+    "controls": [
+      "Float In"
+    ],
+    "discovered": [
+      "Float In"
+    ],
+    "probe": "Float In",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.4432511603190778,
+      0.3636262529879414,
+      0.3072391077227166,
+      0.30258031045664835
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 45,
+    "source": "CubeCluster",
+    "controls": [
+      "y",
+      "x",
+      "scale",
+      "pulse",
+      "Float In 5",
+      "saturation"
+    ],
+    "discovered": [
+      "y",
+      "x",
+      "scale",
+      "pulse",
+      "Float In 5",
+      "saturation"
+    ],
+    "probe": "pulse",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.9476997002174864,
+      0.7619226739699025,
+      0.5783887567947881,
+      0.4336246247987882
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 46,
+    "source": "example using quaternions",
+    "controls": [
+      "Speed",
+      "Camera Distance",
+      "FOV",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z",
+      "Line Width"
+    ],
+    "discovered": [
+      "Speed",
+      "Camera Distance",
+      "FOV",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z",
+      "Line Width"
+    ],
+    "probe": "Line Width",
+    "checks": [
+      {
+        "requested": 0.6700000010430812,
+        "observed": 0.6700000010430812,
+        "ok": true
+      },
+      {
+        "requested": 1.4300000004470348,
+        "observed": 1.4300000004470348,
+        "ok": true
+      }
+    ],
+    "samples": [
+      1.3119999543739562,
+      1.1193637607256657,
+      0.8800172017661653,
+      0.7626837198404457
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 47,
+    "source": "Multi Cube",
+    "controls": [
+      "rot rate",
+      "x",
+      "y",
+      "z",
+      "drift",
+      "scale",
+      "zoom",
+      "color",
+      "brightness",
+      "perspective"
+    ],
+    "discovered": [
+      "rot rate",
+      "x",
+      "y",
+      "z",
+      "drift",
+      "scale",
+      "zoom",
+      "color",
+      "brightness",
+      "perspective"
+    ],
+    "probe": "drift",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.03480273489997223,
+      0.04535844139613715,
+      0.09762922298153896,
+      0.1908561788175309
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 48,
+    "source": "Multi Cube",
+    "controls": [
+      "rot rate",
+      "x",
+      "y",
+      "z",
+      "drift",
+      "scale",
+      "zoom",
+      "color",
+      "brightness",
+      "perspective"
+    ],
+    "discovered": [
+      "rot rate",
+      "x",
+      "y",
+      "z",
+      "drift",
+      "scale",
+      "zoom",
+      "color",
+      "brightness",
+      "perspective"
+    ],
+    "probe": "drift",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.06872815362823269,
+      0.07369503892351507,
+      0.12372393756836492,
+      0.21274435014847284
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 49,
+    "source": "quantum computer",
+    "controls": [
+      "Speed",
+      "Camera Distance",
+      "FOV",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z"
+    ],
+    "discovered": [
+      "Speed",
+      "Camera Distance",
+      "FOV",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z"
+    ],
+    "probe": "Speed",
+    "checks": [
+      {
+        "requested": 0.8999999999999999,
+        "observed": 0.8999999999999999,
+        "ok": true
+      },
+      {
+        "requested": 2.0999999999999996,
+        "observed": 2.0999999999999996,
+        "ok": true
+      }
+    ],
+    "samples": [
+      1.3587096821196618,
+      1.1372082699222743,
+      0.9523249675226516,
+      0.8986117579155222
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 50,
+    "source": "Melting Fractal",
+    "controls": [
+      "anim speed",
+      "rotation mix",
+      "orbit speed",
+      "camera roll",
+      "cone radius",
+      "fold offset",
+      "camera distance",
+      "glow strength"
+    ],
+    "discovered": [
+      "anim speed",
+      "rotation mix",
+      "orbit speed",
+      "camera roll",
+      "cone radius",
+      "fold offset",
+      "camera distance",
+      "glow strength"
+    ],
+    "probe": "fold offset",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.5820736549322879,
+      0.48185005448639184,
+      0.3830506453848942,
+      0.3353103393976935
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 51,
+    "source": "quadratic bezier triangle 2 AABV",
+    "controls": [
+      "Speed",
+      "Camera Distance",
+      "FOV",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z",
+      "Deform Amplitude"
+    ],
+    "discovered": [
+      "Speed",
+      "Camera Distance",
+      "FOV",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z",
+      "Deform Amplitude"
+    ],
+    "probe": "Deform Amplitude",
+    "checks": [
+      {
+        "requested": 5.2,
+        "observed": 5.2,
+        "ok": true
+      },
+      {
+        "requested": 10.799999999999999,
+        "observed": 10.8,
+        "ok": true
+      }
+    ],
+    "samples": [
+      14.216256772254004,
+      11.646936227712189,
+      8.960614747169547,
+      6.978037199442779
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 52,
+    "source": "Klein Bottle (3D)",
+    "controls": [
+      "Speed",
+      "Camera Distance",
+      "FOV",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z",
+      "Refraction"
+    ],
+    "discovered": [
+      "Speed",
+      "Camera Distance",
+      "FOV",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z",
+      "Refraction"
+    ],
+    "probe": "Refraction",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.4723766770514191,
+      0.3867172844665743,
+      0.32574426540346385,
+      0.3079728501545247
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 53,
+    "source": "4D Rounded box (Bluey)",
+    "controls": [
+      "Speed",
+      "Camera Distance",
+      "FOV",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z",
+      "Hyper Slice"
+    ],
+    "discovered": [
+      "Speed",
+      "Camera Distance",
+      "FOV",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z",
+      "Hyper Slice"
+    ],
+    "probe": "Hyper Slice",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.4726616523038826,
+      0.3864785845995756,
+      0.3252933831803187,
+      0.30804310348171243
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 54,
+    "source": "4-space rotations",
+    "controls": [
+      "Speed",
+      "Camera Distance",
+      "FOV",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z",
+      "Line Scale"
+    ],
+    "discovered": [
+      "Speed",
+      "Camera Distance",
+      "FOV",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z",
+      "Line Scale"
+    ],
+    "probe": "Line Scale",
+    "checks": [
+      {
+        "requested": 1.25,
+        "observed": 1.25,
+        "ok": true
+      },
+      {
+        "requested": 2.25,
+        "observed": 2.25,
+        "ok": true
+      }
+    ],
+    "samples": [
+      1.034446508542569,
+      0.9699308693666177,
+      0.9819493144996284,
+      1.1061924266794625
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 55,
+    "source": "HEPTANION transformation",
+    "controls": [
+      "Speed",
+      "Camera Distance",
+      "FOV",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z",
+      "Gizmo Scale"
+    ],
+    "discovered": [
+      "Speed",
+      "Camera Distance",
+      "FOV",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z",
+      "Gizmo Scale"
+    ],
+    "probe": "Gizmo Scale",
+    "checks": [
+      {
+        "requested": 1.1100000083446502,
+        "observed": 1.1100000083446502,
+        "ok": true
+      },
+      {
+        "requested": 2.1900000035762783,
+        "observed": 2.1900000035762783,
+        "ok": true
+      }
+    ],
+    "samples": [
+      1.2220452267005526,
+      1.1012274442207486,
+      1.0007000346250798,
+      1.0423046629849162
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 56,
+    "source": "quaternion slerp",
+    "controls": [
+      "Speed",
+      "Camera Distance",
+      "FOV",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z"
+    ],
+    "discovered": [
+      "Speed",
+      "Camera Distance",
+      "FOV",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z"
+    ],
+    "probe": "Speed",
+    "checks": [
+      {
+        "requested": 0.8999999999999999,
+        "observed": 0.8999999999999999,
+        "ok": true
+      },
+      {
+        "requested": 2.0999999999999996,
+        "observed": 0.8999999999999999,
+        "ok": false
+      }
+    ],
+    "samples": [
+      0.9461010052326686,
+      0.7971884737753046,
+      0.7386364747375471,
+      0.8116362895653892
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 57,
+    "source": "quaternion slerp",
+    "controls": [
+      "Speed",
+      "Camera Distance",
+      "FOV",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z"
+    ],
+    "discovered": [
+      "Speed",
+      "Camera Distance",
+      "FOV",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z"
+    ],
+    "probe": "Speed",
+    "checks": [
+      {
+        "requested": 0.8999999999999999,
+        "observed": 0.8999999999999999,
+        "ok": true
+      },
+      {
+        "requested": 2.0999999999999996,
+        "observed": 2.0999999999999996,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.966110128749555,
+      0.8241869302781182,
+      0.7409198817867383,
+      0.7852129871648187
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 58,
+    "source": "Quaternion Twister",
+    "controls": [
+      "Speed",
+      "Camera Distance",
+      "FOV",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z",
+      "Twist Rate"
+    ],
+    "discovered": [
+      "Speed",
+      "Camera Distance",
+      "FOV",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z",
+      "Twist Rate"
+    ],
+    "probe": "Twist Rate",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.4738208531250296,
+      0.38829377509525925,
+      0.3236894781145093,
+      0.3085085980193323
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 59,
+    "source": "Spinor Belt Trick",
+    "controls": [
+      "Speed",
+      "Camera Distance",
+      "FOV",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z",
+      "Twist Scale"
+    ],
+    "discovered": [
+      "Speed",
+      "Camera Distance",
+      "FOV",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z",
+      "Twist Scale"
+    ],
+    "probe": "Twist Scale",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.4735885682257827,
+      0.3918148718706991,
+      0.33343924338659003,
+      0.3079346357511887
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 60,
+    "source": "Superfluid helium",
+    "controls": [
+      "Speed",
+      "camera distance"
+    ],
+    "discovered": [
+      "Speed",
+      "camera distance"
+    ],
+    "probe": "Speed",
+    "checks": [
+      {
+        "requested": 0.8999999999999999,
+        "observed": 0.8999999999999999,
+        "ok": true
+      },
+      {
+        "requested": 2.0999999999999996,
+        "observed": 2.0999999999999996,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.9457096737921822,
+      0.8119737975372606,
+      0.7387435269694362,
+      0.8096411196390558
+    ],
+    "drive_varied": true
+  }
+]

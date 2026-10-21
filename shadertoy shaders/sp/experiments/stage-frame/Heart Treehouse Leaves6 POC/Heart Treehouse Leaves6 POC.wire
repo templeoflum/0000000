@@ -1,0 +1,9975 @@
+{
+	"formatVersion": {
+		"major": 1,
+		"minor": 1,
+		"patch": 0
+	},
+	"patch": {
+		"connections": [
+			{
+				"from": [
+					0,
+					"output"
+				],
+				"to": [
+					9,
+					"channel0"
+				]
+			},
+			{
+				"from": [
+					11,
+					"output"
+				],
+				"to": [
+					9,
+					"channel1"
+				]
+			},
+			{
+				"from": [
+					12,
+					"output"
+				],
+				"to": [
+					9,
+					"channel2"
+				]
+			},
+			{
+				"from": [
+					13,
+					"output"
+				],
+				"to": [
+					9,
+					"channel3"
+				]
+			},
+			{
+				"from": [
+					14,
+					"output"
+				],
+				"to": [
+					9,
+					"channel4"
+				]
+			},
+			{
+				"from": [
+					15,
+					"output"
+				],
+				"to": [
+					9,
+					"channel5"
+				]
+			},
+			{
+				"from": [
+					16,
+					"output"
+				],
+				"to": [
+					9,
+					"channel6"
+				]
+			},
+			{
+				"from": [
+					9,
+					"output"
+				],
+				"to": [
+					3,
+					"collection"
+				]
+			},
+			{
+				"from": [
+					9,
+					"output"
+				],
+				"to": [
+					4,
+					"collection"
+				]
+			},
+			{
+				"from": [
+					5,
+					"output"
+				],
+				"to": [
+					10,
+					"input0"
+				]
+			},
+			{
+				"from": [
+					10,
+					"output"
+				],
+				"to": [
+					17,
+					"collection"
+				]
+			},
+			{
+				"from": [
+					5,
+					"output"
+				],
+				"to": [
+					4,
+					"index"
+				]
+			},
+			{
+				"from": [
+					25,
+					"output"
+				],
+				"to": [
+					9,
+					"channel7"
+				]
+			},
+			{
+				"from": [
+					26,
+					"output"
+				],
+				"to": [
+					9,
+					"channel8"
+				]
+			},
+			{
+				"from": [
+					27,
+					"output"
+				],
+				"to": [
+					9,
+					"channel9"
+				]
+			},
+			{
+				"from": [
+					28,
+					"output"
+				],
+				"to": [
+					9,
+					"channel10"
+				]
+			},
+			{
+				"from": [
+					29,
+					"output"
+				],
+				"to": [
+					9,
+					"channel11"
+				]
+			},
+			{
+				"from": [
+					30,
+					"output"
+				],
+				"to": [
+					9,
+					"channel12"
+				]
+			},
+			{
+				"from": [
+					31,
+					"output"
+				],
+				"to": [
+					9,
+					"channel13"
+				]
+			},
+			{
+				"from": [
+					32,
+					"output"
+				],
+				"to": [
+					9,
+					"channel14"
+				]
+			},
+			{
+				"from": [
+					33,
+					"output"
+				],
+				"to": [
+					9,
+					"channel15"
+				]
+			},
+			{
+				"from": [
+					34,
+					"output"
+				],
+				"to": [
+					9,
+					"channel16"
+				]
+			},
+			{
+				"from": [
+					35,
+					"output"
+				],
+				"to": [
+					9,
+					"channel17"
+				]
+			},
+			{
+				"from": [
+					36,
+					"output"
+				],
+				"to": [
+					9,
+					"channel18"
+				]
+			},
+			{
+				"from": [
+					37,
+					"output"
+				],
+				"to": [
+					9,
+					"channel19"
+				]
+			},
+			{
+				"from": [
+					38,
+					"output"
+				],
+				"to": [
+					9,
+					"channel20"
+				]
+			},
+			{
+				"from": [
+					39,
+					"output"
+				],
+				"to": [
+					9,
+					"channel21"
+				]
+			},
+			{
+				"from": [
+					40,
+					"output"
+				],
+				"to": [
+					9,
+					"channel22"
+				]
+			},
+			{
+				"from": [
+					41,
+					"output"
+				],
+				"to": [
+					9,
+					"channel23"
+				]
+			},
+			{
+				"from": [
+					42,
+					"output"
+				],
+				"to": [
+					9,
+					"channel24"
+				]
+			},
+			{
+				"from": [
+					43,
+					"output"
+				],
+				"to": [
+					9,
+					"channel25"
+				]
+			},
+			{
+				"from": [
+					44,
+					"output"
+				],
+				"to": [
+					9,
+					"channel26"
+				]
+			},
+			{
+				"from": [
+					45,
+					"output"
+				],
+				"to": [
+					9,
+					"channel27"
+				]
+			},
+			{
+				"from": [
+					46,
+					"output"
+				],
+				"to": [
+					9,
+					"channel28"
+				]
+			},
+			{
+				"from": [
+					47,
+					"output"
+				],
+				"to": [
+					9,
+					"channel29"
+				]
+			},
+			{
+				"from": [
+					48,
+					"output"
+				],
+				"to": [
+					9,
+					"channel30"
+				]
+			},
+			{
+				"from": [
+					49,
+					"output"
+				],
+				"to": [
+					9,
+					"channel31"
+				]
+			},
+			{
+				"from": [
+					50,
+					"output"
+				],
+				"to": [
+					9,
+					"channel32"
+				]
+			},
+			{
+				"from": [
+					51,
+					"output"
+				],
+				"to": [
+					9,
+					"channel33"
+				]
+			},
+			{
+				"from": [
+					52,
+					"output"
+				],
+				"to": [
+					9,
+					"channel34"
+				]
+			},
+			{
+				"from": [
+					53,
+					"output"
+				],
+				"to": [
+					9,
+					"channel35"
+				]
+			},
+			{
+				"from": [
+					54,
+					"output"
+				],
+				"to": [
+					9,
+					"channel36"
+				]
+			},
+			{
+				"from": [
+					55,
+					"output"
+				],
+				"to": [
+					9,
+					"channel37"
+				]
+			},
+			{
+				"from": [
+					56,
+					"output"
+				],
+				"to": [
+					9,
+					"channel38"
+				]
+			},
+			{
+				"from": [
+					57,
+					"output"
+				],
+				"to": [
+					9,
+					"channel39"
+				]
+			},
+			{
+				"from": [
+					58,
+					"output"
+				],
+				"to": [
+					9,
+					"channel40"
+				]
+			},
+			{
+				"from": [
+					59,
+					"output"
+				],
+				"to": [
+					9,
+					"channel41"
+				]
+			},
+			{
+				"from": [
+					60,
+					"output"
+				],
+				"to": [
+					9,
+					"channel42"
+				]
+			},
+			{
+				"from": [
+					61,
+					"output"
+				],
+				"to": [
+					9,
+					"channel43"
+				]
+			},
+			{
+				"from": [
+					62,
+					"output"
+				],
+				"to": [
+					9,
+					"channel44"
+				]
+			},
+			{
+				"from": [
+					63,
+					"output"
+				],
+				"to": [
+					9,
+					"channel45"
+				]
+			},
+			{
+				"from": [
+					64,
+					"output"
+				],
+				"to": [
+					9,
+					"channel46"
+				]
+			},
+			{
+				"from": [
+					65,
+					"output"
+				],
+				"to": [
+					9,
+					"channel47"
+				]
+			},
+			{
+				"from": [
+					66,
+					"output"
+				],
+				"to": [
+					9,
+					"channel48"
+				]
+			},
+			{
+				"from": [
+					67,
+					"output"
+				],
+				"to": [
+					9,
+					"channel49"
+				]
+			},
+			{
+				"from": [
+					68,
+					"output"
+				],
+				"to": [
+					9,
+					"channel50"
+				]
+			},
+			{
+				"from": [
+					69,
+					"output"
+				],
+				"to": [
+					9,
+					"channel51"
+				]
+			},
+			{
+				"from": [
+					70,
+					"output"
+				],
+				"to": [
+					9,
+					"channel52"
+				]
+			},
+			{
+				"from": [
+					71,
+					"output"
+				],
+				"to": [
+					9,
+					"channel53"
+				]
+			},
+			{
+				"from": [
+					72,
+					"output"
+				],
+				"to": [
+					9,
+					"channel54"
+				]
+			},
+			{
+				"from": [
+					73,
+					"output"
+				],
+				"to": [
+					9,
+					"channel55"
+				]
+			},
+			{
+				"from": [
+					74,
+					"output"
+				],
+				"to": [
+					9,
+					"channel56"
+				]
+			},
+			{
+				"from": [
+					75,
+					"output"
+				],
+				"to": [
+					9,
+					"channel57"
+				]
+			},
+			{
+				"from": [
+					76,
+					"output"
+				],
+				"to": [
+					9,
+					"channel58"
+				]
+			},
+			{
+				"from": [
+					77,
+					"output"
+				],
+				"to": [
+					9,
+					"channel59"
+				]
+			},
+			{
+				"from": [
+					78,
+					"output"
+				],
+				"to": [
+					9,
+					"channel60"
+				]
+			},
+			{
+				"from": [
+					79,
+					"output"
+				],
+				"to": [
+					9,
+					"channel61"
+				]
+			},
+			{
+				"from": [
+					80,
+					"output"
+				],
+				"to": [
+					9,
+					"channel62"
+				]
+			},
+			{
+				"from": [
+					81,
+					"output"
+				],
+				"to": [
+					9,
+					"channel63"
+				]
+			},
+			{
+				"from": [
+					82,
+					"output"
+				],
+				"to": [
+					9,
+					"channel64"
+				]
+			},
+			{
+				"from": [
+					83,
+					"output"
+				],
+				"to": [
+					9,
+					"channel65"
+				]
+			},
+			{
+				"from": [
+					84,
+					"output"
+				],
+				"to": [
+					9,
+					"channel66"
+				]
+			},
+			{
+				"from": [
+					85,
+					"output"
+				],
+				"to": [
+					9,
+					"channel67"
+				]
+			},
+			{
+				"from": [
+					86,
+					"output"
+				],
+				"to": [
+					9,
+					"channel68"
+				]
+			},
+			{
+				"from": [
+					87,
+					"output"
+				],
+				"to": [
+					9,
+					"channel69"
+				]
+			},
+			{
+				"from": [
+					88,
+					"output"
+				],
+				"to": [
+					9,
+					"channel70"
+				]
+			},
+			{
+				"from": [
+					89,
+					"output"
+				],
+				"to": [
+					9,
+					"channel71"
+				]
+			},
+			{
+				"from": [
+					90,
+					"output"
+				],
+				"to": [
+					9,
+					"channel72"
+				]
+			},
+			{
+				"from": [
+					91,
+					"output"
+				],
+				"to": [
+					9,
+					"channel73"
+				]
+			},
+			{
+				"from": [
+					92,
+					"output"
+				],
+				"to": [
+					9,
+					"channel74"
+				]
+			},
+			{
+				"from": [
+					93,
+					"output"
+				],
+				"to": [
+					9,
+					"channel75"
+				]
+			},
+			{
+				"from": [
+					94,
+					"output"
+				],
+				"to": [
+					9,
+					"channel76"
+				]
+			},
+			{
+				"from": [
+					95,
+					"output"
+				],
+				"to": [
+					9,
+					"channel77"
+				]
+			},
+			{
+				"from": [
+					96,
+					"output"
+				],
+				"to": [
+					9,
+					"channel78"
+				]
+			},
+			{
+				"from": [
+					97,
+					"output"
+				],
+				"to": [
+					9,
+					"channel79"
+				]
+			},
+			{
+				"from": [
+					98,
+					"output"
+				],
+				"to": [
+					9,
+					"channel80"
+				]
+			},
+			{
+				"from": [
+					99,
+					"output"
+				],
+				"to": [
+					9,
+					"channel81"
+				]
+			},
+			{
+				"from": [
+					100,
+					"output"
+				],
+				"to": [
+					9,
+					"channel82"
+				]
+			},
+			{
+				"from": [
+					101,
+					"output"
+				],
+				"to": [
+					9,
+					"channel83"
+				]
+			},
+			{
+				"from": [
+					102,
+					"output"
+				],
+				"to": [
+					9,
+					"channel84"
+				]
+			},
+			{
+				"from": [
+					103,
+					"output"
+				],
+				"to": [
+					9,
+					"channel85"
+				]
+			},
+			{
+				"from": [
+					104,
+					"output"
+				],
+				"to": [
+					9,
+					"channel86"
+				]
+			},
+			{
+				"from": [
+					105,
+					"output"
+				],
+				"to": [
+					9,
+					"channel87"
+				]
+			},
+			{
+				"from": [
+					106,
+					"output"
+				],
+				"to": [
+					9,
+					"channel88"
+				]
+			},
+			{
+				"from": [
+					107,
+					"output"
+				],
+				"to": [
+					9,
+					"channel89"
+				]
+			},
+			{
+				"from": [
+					108,
+					"output"
+				],
+				"to": [
+					9,
+					"channel90"
+				]
+			},
+			{
+				"from": [
+					109,
+					"output"
+				],
+				"to": [
+					9,
+					"channel91"
+				]
+			},
+			{
+				"from": [
+					110,
+					"output"
+				],
+				"to": [
+					9,
+					"channel92"
+				]
+			},
+			{
+				"from": [
+					111,
+					"output"
+				],
+				"to": [
+					9,
+					"channel93"
+				]
+			},
+			{
+				"from": [
+					112,
+					"output"
+				],
+				"to": [
+					9,
+					"channel94"
+				]
+			},
+			{
+				"from": [
+					113,
+					"output"
+				],
+				"to": [
+					9,
+					"channel95"
+				]
+			},
+			{
+				"from": [
+					114,
+					"output"
+				],
+				"to": [
+					9,
+					"channel96"
+				]
+			},
+			{
+				"from": [
+					115,
+					"output"
+				],
+				"to": [
+					9,
+					"channel97"
+				]
+			},
+			{
+				"from": [
+					116,
+					"output"
+				],
+				"to": [
+					9,
+					"channel98"
+				]
+			},
+			{
+				"from": [
+					117,
+					"output"
+				],
+				"to": [
+					9,
+					"channel99"
+				]
+			},
+			{
+				"from": [
+					118,
+					"output"
+				],
+				"to": [
+					9,
+					"channel100"
+				]
+			},
+			{
+				"from": [
+					119,
+					"output"
+				],
+				"to": [
+					9,
+					"channel101"
+				]
+			},
+			{
+				"from": [
+					120,
+					"output"
+				],
+				"to": [
+					9,
+					"channel102"
+				]
+			},
+			{
+				"from": [
+					121,
+					"output"
+				],
+				"to": [
+					9,
+					"channel103"
+				]
+			},
+			{
+				"from": [
+					122,
+					"output"
+				],
+				"to": [
+					9,
+					"channel104"
+				]
+			},
+			{
+				"from": [
+					123,
+					"output"
+				],
+				"to": [
+					9,
+					"channel105"
+				]
+			},
+			{
+				"from": [
+					124,
+					"output"
+				],
+				"to": [
+					9,
+					"channel106"
+				]
+			},
+			{
+				"from": [
+					3,
+					"output0"
+				],
+				"to": [
+					18,
+					"input0"
+				]
+			},
+			{
+				"from": [
+					4,
+					"output0"
+				],
+				"to": [
+					20,
+					"input0"
+				]
+			},
+			{
+				"from": [
+					18,
+					"output0"
+				],
+				"to": [
+					1,
+					"input1"
+				]
+			},
+			{
+				"from": [
+					20,
+					"output0"
+				],
+				"to": [
+					1,
+					"input2"
+				]
+			},
+			{
+				"from": [
+					7,
+					"output"
+				],
+				"to": [
+					1,
+					"opacity2"
+				]
+			},
+			{
+				"from": [
+					21,
+					"output"
+				],
+				"to": [
+					22,
+					"opacity2"
+				]
+			},
+			{
+				"from": [
+					22,
+					"output"
+				],
+				"to": [
+					19,
+					"input"
+				]
+			},
+			{
+				"from": [
+					23,
+					"output"
+				],
+				"to": [
+					5,
+					"input"
+				]
+			},
+			{
+				"from": [
+					23,
+					"output"
+				],
+				"to": [
+					7,
+					"restart"
+				]
+			},
+			{
+				"from": [
+					6,
+					"trigger"
+				],
+				"to": [
+					5,
+					"input"
+				]
+			},
+			{
+				"from": [
+					6,
+					"trigger"
+				],
+				"to": [
+					7,
+					"restart"
+				]
+			},
+			{
+				"from": [
+					125,
+					"output"
+				],
+				"to": [
+					7,
+					"duration"
+				]
+			},
+			{
+				"from": [
+					126,
+					"output"
+				],
+				"to": [
+					6,
+					"frequency"
+				]
+			},
+			{
+				"from": [
+					127,
+					"output"
+				],
+				"to": [
+					129,
+					"input0"
+				]
+			},
+			{
+				"from": [
+					129,
+					"output0"
+				],
+				"to": [
+					128,
+					"mask"
+				]
+			},
+			{
+				"from": [
+					1,
+					"output"
+				],
+				"to": [
+					128,
+					"input"
+				]
+			},
+			{
+				"from": [
+					24,
+					"output"
+				],
+				"to": [
+					130,
+					"input0"
+				]
+			},
+			{
+				"from": [
+					130,
+					"output0"
+				],
+				"to": [
+					6,
+					"enabled"
+				]
+			},
+			{
+				"from": [
+					128,
+					"output"
+				],
+				"to": [
+					22,
+					"input2"
+				]
+			},
+			{
+				"from": [
+					131,
+					"output0"
+				],
+				"to": [
+					17,
+					"index"
+				]
+			},
+			{
+				"from": [
+					10,
+					"output"
+				],
+				"to": [
+					132,
+					"input"
+				]
+			},
+			{
+				"from": [
+					132,
+					"channel0"
+				],
+				"to": [
+					3,
+					"index"
+				]
+			},
+			{
+				"from": [
+					132,
+					"channel1"
+				],
+				"to": [
+					4,
+					"index"
+				]
+			}
+		],
+		"inputOrder": {
+			"groups": {},
+			"roots": [
+				{
+					"node": 21
+				},
+				{
+					"node": 23
+				},
+				{
+					"node": 24
+				},
+				{
+					"node": 125
+				},
+				{
+					"node": 126
+				}
+			]
+		},
+		"meta": {
+			"author": "",
+			"category": "source",
+			"deploymentTarget": {
+				"branch": "",
+				"name": "Wire",
+				"version": {
+					"major": 7,
+					"minor": 23,
+					"patch": 0
+				}
+			},
+			"description": "Treehouse leaves6 prototype: 107 original PNGs, previous\/current random selection, native Luma Key I transitions, fitted inverse-alpha section mask, manual section opacity. Arena parity and full-stage memory scaling are not yet verified.",
+			"displayName": "Heart Treehouse Leaves6 POC",
+			"identifier": "e8bc5d69-2547-4866-806d-ccccee58b58e",
+			"licenseName": "",
+			"mail": "",
+			"note": {
+				"text": "",
+				"textColorIndex": 1,
+				"textSizeMultiplier": 3
+			},
+			"originalTarget": {
+				"branch": "",
+				"name": "Wire",
+				"version": {
+					"major": 7,
+					"minor": 27,
+					"patch": 1
+				}
+			},
+			"quality": 32856,
+			"resolution": {
+				"height": 1080,
+				"width": 1920
+			},
+			"saveTarget": {
+				"branch": "",
+				"name": "Wire",
+				"version": {
+					"major": 7,
+					"minor": 27,
+					"patch": 1
+				}
+			},
+			"thumbnail": "",
+			"url": "",
+			"vendor": ""
+		},
+		"nextNodeId": 134,
+		"nodes": {
+			"0": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/0ddangl3_leaves6_000000.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": 0,
+					"y": 0
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Leaves6 Image A",
+				"thumbnail_visible": true
+			},
+			"1": {
+				"attributes": {
+					"bitdepth": {
+						"type": "integer",
+						"value": 0
+					},
+					"input-count": {
+						"type": "integer",
+						"value": 2
+					},
+					"instances": {
+						"type": "integer",
+						"value": 1
+					},
+					"resolution-absolute": {
+						"type": "float2",
+						"value": [
+							1920,
+							1080
+						]
+					},
+					"resolution-mode": {
+						"type": "integer",
+						"value": 0
+					},
+					"resolution-relative": {
+						"type": "float2",
+						"value": [
+							1,
+							1
+						]
+					}
+				},
+				"bounds": {
+					"height": 130,
+					"width": 195,
+					"x": 1155,
+					"y": -80
+				},
+				"class": {
+					"id": "77697265-A270-4D60-911C-A88B1BE6369A",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"bypass": {
+						"type": "bool",
+						"value": false
+					},
+					"input1": {
+						"type": "texture2d",
+						"value": null
+					},
+					"input2": {
+						"type": "texture2d",
+						"value": null
+					},
+					"mode": {
+						"type": "integer",
+						"value": 25
+					},
+					"opacity1": {
+						"type": "float",
+						"value": 1
+					},
+					"opacity2": {
+						"type": "float",
+						"value": 0.5
+					}
+				},
+				"hidden": [
+					"bitdepth",
+					"bypass",
+					"input-count",
+					"instances",
+					"mode",
+					"resolution-absolute",
+					"resolution-mode",
+					"resolution-relative"
+				],
+				"name": "Video Mixer",
+				"thumbnail_visible": true
+			},
+			"10": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "event"
+					},
+					"input0-type": {
+						"type": "type",
+						"value": "float"
+					},
+					"size": {
+						"type": "integer",
+						"value": 2
+					}
+				},
+				"bounds": {
+					"height": 130,
+					"width": 195,
+					"x": 135,
+					"y": 2552
+				},
+				"class": {
+					"id": "77697265-633D-4354-BED8-73E0D30337C7",
+					"version": 2
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input0": {
+						"type": "float",
+						"value": 42
+					},
+					"pop": {
+						"type": "trigger",
+						"value": null
+					},
+					"reset": {
+						"type": "trigger",
+						"value": null
+					}
+				},
+				"hidden": [
+					"flow",
+					"input0-type"
+				],
+				"name": "Current and Previous Picks",
+				"thumbnail_visible": true
+			},
+			"100": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/sk1723_leaves6_000104.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1300,
+					"y": 840
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 83",
+				"thumbnail_visible": true
+			},
+			"101": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/sk3255_leaves6_000106.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1120,
+					"y": 840
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 84",
+				"thumbnail_visible": true
+			},
+			"102": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/sk221122_leaves6_000105.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -940,
+					"y": 840
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 85",
+				"thumbnail_visible": true
+			},
+			"103": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/squareglitchfromthebottom_leaves6_000107.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -760,
+					"y": 840
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 86",
+				"thumbnail_visible": true
+			},
+			"104": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/thousandsofblocks_leaves6_000108.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -580,
+					"y": 840
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 87",
+				"thumbnail_visible": true
+			},
+			"105": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/uncubizm_leaves6_000110.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -2200,
+					"y": 960
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 88",
+				"thumbnail_visible": true
+			},
+			"106": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/vv01_leaves6_000111.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -2020,
+					"y": 960
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 89",
+				"thumbnail_visible": true
+			},
+			"107": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/vv02_leaves6_000112.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1840,
+					"y": 960
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 90",
+				"thumbnail_visible": true
+			},
+			"108": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/vv03_leaves6_000113.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1660,
+					"y": 960
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 91",
+				"thumbnail_visible": true
+			},
+			"109": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/vv04_leaves6_000114.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1480,
+					"y": 960
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 92",
+				"thumbnail_visible": true
+			},
+			"11": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/0rg4n1c-tr33_leaves6_000005.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1020,
+					"y": 0
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 2",
+				"thumbnail_visible": true
+			},
+			"110": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/vv05_leaves6_000115.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1300,
+					"y": 960
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 93",
+				"thumbnail_visible": true
+			},
+			"111": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/vv07_leaves6_000117.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1120,
+					"y": 960
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 94",
+				"thumbnail_visible": true
+			},
+			"112": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/vv09_leaves6_000119.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -940,
+					"y": 960
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 95",
+				"thumbnail_visible": true
+			},
+			"113": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/vv12_leaves6_000122.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -760,
+					"y": 960
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 96",
+				"thumbnail_visible": true
+			},
+			"114": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/vv14_leaves6_000124.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -580,
+					"y": 960
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 97",
+				"thumbnail_visible": true
+			},
+			"115": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/vv15_leaves6_000125.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -2200,
+					"y": 1080
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 98",
+				"thumbnail_visible": true
+			},
+			"116": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/vv17_leaves6_000127.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -2020,
+					"y": 1080
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 99",
+				"thumbnail_visible": true
+			},
+			"117": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/vv20_leaves6_000130.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1840,
+					"y": 1080
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 100",
+				"thumbnail_visible": true
+			},
+			"118": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/vv24_leaves6_000134.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1660,
+					"y": 1080
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 101",
+				"thumbnail_visible": true
+			},
+			"119": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/wat_leaves6_000136.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1480,
+					"y": 1080
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 102",
+				"thumbnail_visible": true
+			},
+			"12": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/5pl1tz_leaves6_000016.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -840,
+					"y": 0
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 3",
+				"thumbnail_visible": true
+			},
+			"120": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/web_p_like_leaves6_000139.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1300,
+					"y": 1080
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 103",
+				"thumbnail_visible": true
+			},
+			"121": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/webp_leaves6_000140.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1120,
+					"y": 1080
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 104",
+				"thumbnail_visible": true
+			},
+			"122": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/wot_leaves6_000141.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -940,
+					"y": 1080
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 105",
+				"thumbnail_visible": true
+			},
+			"123": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/wtf_leaves6_000142.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -760,
+					"y": 1080
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 106",
+				"thumbnail_visible": true
+			},
+			"124": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/wtf2_leaves6_000143.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -580,
+					"y": 1080
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 107",
+				"thumbnail_visible": true
+			},
+			"125": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"has-max": {
+						"type": "bool",
+						"value": true
+					},
+					"has-min": {
+						"type": "bool",
+						"value": true
+					},
+					"instances": {
+						"type": "integer",
+						"value": 1
+					},
+					"max": {
+						"type": "float",
+						"value": 10
+					},
+					"min": {
+						"type": "float",
+						"value": 0.05000000074505806
+					},
+					"options-count": {
+						"type": "integer",
+						"value": 0
+					},
+					"unit": {
+						"type": "integer",
+						"value": 2
+					},
+					"widget": {
+						"type": "integer",
+						"value": 0
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 130,
+					"x": 710,
+					"y": 129
+				},
+				"class": {
+					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+					"version": 4
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "float",
+						"value": 4.920654296875
+					}
+				},
+				"hidden": [
+					"flow",
+					"has-max",
+					"has-min",
+					"input",
+					"instances",
+					"max",
+					"min",
+					"options-count",
+					"unit",
+					"widget"
+				],
+				"name": "Transition Seconds",
+				"thumbnail_visible": true
+			},
+			"126": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"has-max": {
+						"type": "bool",
+						"value": true
+					},
+					"has-min": {
+						"type": "bool",
+						"value": true
+					},
+					"instances": {
+						"type": "integer",
+						"value": 1
+					},
+					"max": {
+						"type": "float",
+						"value": 1
+					},
+					"min": {
+						"type": "float",
+						"value": 0
+					},
+					"options-count": {
+						"type": "integer",
+						"value": 0
+					},
+					"unit": {
+						"type": "integer",
+						"value": 3
+					},
+					"widget": {
+						"type": "integer",
+						"value": 0
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 130,
+					"x": -565,
+					"y": 121
+				},
+				"class": {
+					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+					"version": 4
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "float",
+						"value": 0.1666666716337204
+					}
+				},
+				"hidden": [
+					"flow",
+					"has-max",
+					"has-min",
+					"input",
+					"instances",
+					"max",
+					"min",
+					"options-count",
+					"unit",
+					"widget"
+				],
+				"name": "Shuffle Rate",
+				"thumbnail_visible": true
+			},
+			"127": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/leaves6.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": 900,
+					"y": 344
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Original Section Mask",
+				"thumbnail_visible": true
+			},
+			"128": {
+				"attributes": {
+					"input-type": {
+						"type": "type",
+						"value": "texture2d"
+					},
+					"instances": {
+						"type": "integer",
+						"value": 1
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 195,
+					"x": 1410,
+					"y": -80
+				},
+				"class": {
+					"id": "77697265-CB86-4A6F-AABA-009C4C8BB5C1",
+					"version": 2
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"bypass": {
+						"type": "bool",
+						"value": false
+					},
+					"channel": {
+						"type": "integer",
+						"value": 4
+					},
+					"input": {
+						"type": "texture2d",
+						"value": null
+					},
+					"invert": {
+						"type": "bool",
+						"value": true
+					},
+					"mask": {
+						"type": "texture2d",
+						"value": null
+					}
+				},
+				"hidden": [
+					"bypass",
+					"channel",
+					"input-type",
+					"instances"
+				],
+				"name": "Section Mask",
+				"thumbnail_visible": true
+			},
+			"129": {
+				"attributes": {
+					"bitdepth": {
+						"type": "integer",
+						"value": 5
+					},
+					"input0-type": {
+						"type": "type",
+						"value": "texture2d"
+					},
+					"instances": {
+						"type": "integer",
+						"value": 1
+					},
+					"resolution-absolute": {
+						"type": "float2",
+						"value": [
+							1920,
+							1080
+						]
+					},
+					"resolution-mode": {
+						"type": "integer",
+						"value": 0
+					},
+					"resolution-relative": {
+						"type": "float2",
+						"value": [
+							1,
+							1
+						]
+					},
+					"sampling": {
+						"type": "integer",
+						"value": 1
+					}
+				},
+				"bounds": {
+					"height": 30,
+					"width": 195,
+					"x": 1155,
+					"y": 344
+				},
+				"class": {
+					"id": "77697265-BB9A-4B13-83F3-D0E4DA6CFF86",
+					"version": 2
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input0": {
+						"type": "texture2d",
+						"value": null
+					},
+					"mode": {
+						"type": "integer",
+						"value": 1
+					}
+				},
+				"hidden": [
+					"bitdepth",
+					"input0-type",
+					"instances",
+					"mode",
+					"resolution-absolute",
+					"resolution-mode",
+					"resolution-relative",
+					"sampling"
+				],
+				"name": "Fit Section Mask",
+				"thumbnail_visible": true
+			},
+			"13": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/8-b1tz_leaves6_000018.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -660,
+					"y": 0
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 4",
+				"thumbnail_visible": true
+			},
+			"130": {
+				"attributes": {
+					"input0-type": {
+						"type": "type",
+						"value": "bool"
+					},
+					"instances": {
+						"type": "integer",
+						"value": 1
+					}
+				},
+				"bounds": {
+					"height": 30,
+					"width": 195,
+					"x": -630,
+					"y": 61
+				},
+				"class": {
+					"id": "77697265-E6B2-4921-9FF4-CB3A0A78697D",
+					"version": 2
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input0": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"input0-type",
+					"instances"
+				],
+				"name": "Auto Toggle Events",
+				"thumbnail_visible": true
+			},
+			"131": {
+				"attributes": {
+					"defaultValue-type": {
+						"type": "type",
+						"value": "null"
+					},
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"input0-type": {
+						"type": "type",
+						"value": "integer"
+					},
+					"instances": {
+						"type": "integer",
+						"value": 1
+					}
+				},
+				"bounds": {
+					"height": 58,
+					"width": 195,
+					"x": 200,
+					"y": 1600
+				},
+				"class": {
+					"id": "77697265-0A11-4E95-9584-4ECE0708B834",
+					"version": 2
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input0": {
+						"type": "integer",
+						"value": 0
+					}
+				},
+				"hidden": [
+					"defaultValue-type",
+					"flow",
+					"input0-type",
+					"instances"
+				],
+				"name": "Previous Slot Index",
+				"thumbnail_visible": true
+			},
+			"132": {
+				"attributes": {
+					"channel-size": {
+						"type": "integer",
+						"value": 2
+					},
+					"flow": {
+						"type": "flow",
+						"value": "event"
+					},
+					"input-dimensions": {
+						"type": "integer",
+						"value": 2
+					},
+					"input-type": {
+						"type": "type",
+						"value": "float"
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 195,
+					"x": 200,
+					"y": 1800
+				},
+				"class": {
+					"id": "77697265-3732-42da-883e-b641d4a49224",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "float",
+						"value": [
+							54,
+							42
+						]
+					}
+				},
+				"hidden": [
+					"channel-size",
+					"flow",
+					"input-dimensions",
+					"input-type"
+				],
+				"name": "Previous And Current Index",
+				"thumbnail_visible": true
+			},
+			"133": {
+				"attributes": {
+					"anti-alias": {
+						"type": "bool",
+						"value": false
+					},
+					"instances": {
+						"type": "integer",
+						"value": 1
+					},
+					"unipolar": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"bounds": {
+					"height": 130,
+					"width": 195,
+					"x": 0,
+					"y": 2100
+				},
+				"class": {
+					"id": "77697265-9890-41DC-A93D-9F3913A78FEB",
+					"version": 1
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"amplitude": {
+						"type": "float",
+						"value": 1
+					},
+					"frequency": {
+						"type": "float",
+						"value": 0.25
+					},
+					"offset": {
+						"type": "float",
+						"value": 0
+					},
+					"phase-offset": {
+						"type": "float",
+						"value": 0
+					},
+					"reset-phase": {
+						"type": "trigger",
+						"value": null
+					}
+				},
+				"hidden": [
+					"anti-alias",
+					"instances",
+					"reset-phase",
+					"unipolar"
+				],
+				"name": "Section Opacity Motion",
+				"thumbnail_visible": true
+			},
+			"14": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/8l33dm3_leaves6_000019.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -480,
+					"y": 0
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 5",
+				"thumbnail_visible": true
+			},
+			"15": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/1211_leaves6_000007.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -300,
+					"y": 0
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 6",
+				"thumbnail_visible": true
+			},
+			"16": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/1422_leaves6_000008.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -120,
+					"y": 0
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 7",
+				"thumbnail_visible": true
+			},
+			"17": {
+				"attributes": {
+					"collection-dimensions": {
+						"type": "integer",
+						"value": 2
+					},
+					"collection-flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"collection-type": {
+						"type": "type",
+						"value": "float"
+					},
+					"index-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"index-flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"index-type": {
+						"type": "type",
+						"value": "integer"
+					},
+					"interpolation": {
+						"type": "integer",
+						"value": 0
+					},
+					"wrapping": {
+						"type": "integer",
+						"value": 0
+					}
+				},
+				"bounds": {
+					"height": 58,
+					"width": 195,
+					"x": 390,
+					"y": 2552
+				},
+				"class": {
+					"id": "77697265-A7DD-4C94-96ED-4A5E3756EA6A",
+					"version": 4
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"collection": {
+						"type": "float",
+						"value": [
+							54,
+							42
+						]
+					},
+					"index": {
+						"type": "integer",
+						"value": 0
+					}
+				},
+				"hidden": [
+					"collection-dimensions",
+					"collection-flow",
+					"collection-type",
+					"index-dimensions",
+					"index-flow",
+					"index-type",
+					"interpolation",
+					"wrapping"
+				],
+				"name": "Previous Pick",
+				"thumbnail_visible": true
+			},
+			"18": {
+				"attributes": {
+					"bitdepth": {
+						"type": "integer",
+						"value": 5
+					},
+					"input0-type": {
+						"type": "type",
+						"value": "texture2d"
+					},
+					"instances": {
+						"type": "integer",
+						"value": 1
+					},
+					"resolution-absolute": {
+						"type": "float2",
+						"value": [
+							1920,
+							1080
+						]
+					},
+					"resolution-mode": {
+						"type": "integer",
+						"value": 0
+					},
+					"resolution-relative": {
+						"type": "float2",
+						"value": [
+							1,
+							1
+						]
+					},
+					"sampling": {
+						"type": "integer",
+						"value": 1
+					}
+				},
+				"bounds": {
+					"height": 30,
+					"width": 195,
+					"x": 900,
+					"y": 284
+				},
+				"class": {
+					"id": "77697265-BB9A-4B13-83F3-D0E4DA6CFF86",
+					"version": 2
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input0": {
+						"type": "texture2d",
+						"value": null
+					},
+					"mode": {
+						"type": "integer",
+						"value": 1
+					}
+				},
+				"hidden": [
+					"bitdepth",
+					"input0-type",
+					"instances",
+					"mode",
+					"resolution-absolute",
+					"resolution-mode",
+					"resolution-relative",
+					"sampling"
+				],
+				"name": "Preserve Stage Aspect",
+				"thumbnail_visible": true
+			},
+			"19": {
+				"attributes": {
+					"instances": {
+						"type": "integer",
+						"value": 1
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 132,
+					"x": 1920,
+					"y": -80
+				},
+				"class": {
+					"id": "77697265-BEEA-4D38-8EE5-0EBA4CBD0AEE",
+					"version": 1
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "texture2d",
+						"value": null
+					}
+				},
+				"hidden": [
+					"instances"
+				],
+				"name": "Leaves6 Output",
+				"thumbnail_visible": true
+			},
+			"2": {
+				"attributes": {
+					"input0": {
+						"type": "resourceImage",
+						"value": [
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							},
+							{
+								"path": {
+									"main": "",
+									"sub": ""
+								},
+								"value": null
+							}
+						]
+					},
+					"instances": {
+						"type": "integer",
+						"value": 107
+					}
+				},
+				"bounds": {
+					"height": 30,
+					"width": 195,
+					"x": 0,
+					"y": 400
+				},
+				"class": {
+					"id": "77697265-7ed6-4662-9eee-a624eb168a19",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {},
+				"hidden": [
+					"instances"
+				],
+				"name": "Leaves6 Bank",
+				"thumbnail_visible": true
+			},
+			"20": {
+				"attributes": {
+					"bitdepth": {
+						"type": "integer",
+						"value": 5
+					},
+					"input0-type": {
+						"type": "type",
+						"value": "texture2d"
+					},
+					"instances": {
+						"type": "integer",
+						"value": 1
+					},
+					"resolution-absolute": {
+						"type": "float2",
+						"value": [
+							1920,
+							1080
+						]
+					},
+					"resolution-mode": {
+						"type": "integer",
+						"value": 0
+					},
+					"resolution-relative": {
+						"type": "float2",
+						"value": [
+							1,
+							1
+						]
+					},
+					"sampling": {
+						"type": "integer",
+						"value": 1
+					}
+				},
+				"bounds": {
+					"height": 30,
+					"width": 195,
+					"x": 900,
+					"y": -80
+				},
+				"class": {
+					"id": "77697265-BB9A-4B13-83F3-D0E4DA6CFF86",
+					"version": 2
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input0": {
+						"type": "texture2d",
+						"value": null
+					},
+					"mode": {
+						"type": "integer",
+						"value": 1
+					}
+				},
+				"hidden": [
+					"bitdepth",
+					"input0-type",
+					"instances",
+					"mode",
+					"resolution-absolute",
+					"resolution-mode",
+					"resolution-relative",
+					"sampling"
+				],
+				"name": "Fit Bank To Stage",
+				"thumbnail_visible": true
+			},
+			"21": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"has-max": {
+						"type": "bool",
+						"value": true
+					},
+					"has-min": {
+						"type": "bool",
+						"value": true
+					},
+					"instances": {
+						"type": "integer",
+						"value": 1
+					},
+					"max": {
+						"type": "float",
+						"value": 1
+					},
+					"min": {
+						"type": "float",
+						"value": 0
+					},
+					"options-count": {
+						"type": "integer",
+						"value": 0
+					},
+					"unit": {
+						"type": "integer",
+						"value": 0
+					},
+					"widget": {
+						"type": "integer",
+						"value": 0
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 130,
+					"x": 1475,
+					"y": 32
+				},
+				"class": {
+					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+					"version": 4
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "float",
+						"value": 1
+					}
+				},
+				"hidden": [
+					"flow",
+					"has-max",
+					"has-min",
+					"input",
+					"instances",
+					"max",
+					"min",
+					"options-count",
+					"unit",
+					"widget"
+				],
+				"name": "Section Opacity",
+				"thumbnail_visible": true
+			},
+			"22": {
+				"attributes": {
+					"bitdepth": {
+						"type": "integer",
+						"value": 0
+					},
+					"input-count": {
+						"type": "integer",
+						"value": 2
+					},
+					"instances": {
+						"type": "integer",
+						"value": 1
+					},
+					"resolution-absolute": {
+						"type": "float2",
+						"value": [
+							1920,
+							1080
+						]
+					},
+					"resolution-mode": {
+						"type": "integer",
+						"value": 0
+					},
+					"resolution-relative": {
+						"type": "float2",
+						"value": [
+							1,
+							1
+						]
+					}
+				},
+				"bounds": {
+					"height": 130,
+					"width": 195,
+					"x": 1665,
+					"y": -80
+				},
+				"class": {
+					"id": "77697265-A270-4D60-911C-A88B1BE6369A",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"bypass": {
+						"type": "bool",
+						"value": false
+					},
+					"input1": {
+						"type": "texture2d",
+						"value": null
+					},
+					"input2": {
+						"type": "texture2d",
+						"value": null
+					},
+					"mode": {
+						"type": "integer",
+						"value": 11
+					},
+					"opacity1": {
+						"type": "float",
+						"value": 1
+					},
+					"opacity2": {
+						"type": "float",
+						"value": 0.5
+					}
+				},
+				"hidden": [
+					"bitdepth",
+					"bypass",
+					"input-count",
+					"instances",
+					"mode",
+					"resolution-absolute",
+					"resolution-mode",
+					"resolution-relative"
+				],
+				"name": "Section Level",
+				"thumbnail_visible": true
+			},
+			"23": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "event"
+					},
+					"instances": {
+						"type": "integer",
+						"value": 1
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 130,
+					"x": -310,
+					"y": -51
+				},
+				"class": {
+					"id": "77697265-e61f-42c0-862a-0dca04e14569",
+					"version": 1
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "trigger",
+						"value": null
+					}
+				},
+				"hidden": [
+					"flow",
+					"input",
+					"instances"
+				],
+				"name": "Shuffle Now",
+				"thumbnail_visible": true
+			},
+			"24": {
+				"attributes": {
+					"bool-view": {
+						"type": "integer",
+						"value": 0
+					},
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"instances": {
+						"type": "integer",
+						"value": 1
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 130,
+					"x": -820,
+					"y": 61
+				},
+				"class": {
+					"id": "77697265-999C-4F8B-8B9D-3646DC68AA69",
+					"version": 2
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "bool",
+						"value": true
+					}
+				},
+				"hidden": [
+					"bool-view",
+					"flow",
+					"input",
+					"instances"
+				],
+				"name": "Auto Shuffle",
+				"thumbnail_visible": true
+			},
+			"25": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/2211_leaves6_000012.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -2200,
+					"y": 0
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 8",
+				"thumbnail_visible": true
+			},
+			"26": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/3255_leaves6_000014.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -2020,
+					"y": 0
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 9",
+				"thumbnail_visible": true
+			},
+			"27": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/221122_leaves6_000013.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1840,
+					"y": 0
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 10",
+				"thumbnail_visible": true
+			},
+			"28": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/abstract_expressionism_leaves6_000020.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1660,
+					"y": 0
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 11",
+				"thumbnail_visible": true
+			},
+			"29": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/ayy_leaves6_000021.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1480,
+					"y": 0
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 12",
+				"thumbnail_visible": true
+			},
+			"3": {
+				"attributes": {
+					"collection-dimensions": {
+						"type": "integer",
+						"value": 107
+					},
+					"collection-flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"collection-type": {
+						"type": "type",
+						"value": "texture2d"
+					},
+					"index-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"index-flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"index-type": {
+						"type": "type",
+						"value": "integer"
+					},
+					"interpolation": {
+						"type": "integer",
+						"value": 0
+					},
+					"wrapping": {
+						"type": "integer",
+						"value": 0
+					}
+				},
+				"bounds": {
+					"height": 58,
+					"width": 195,
+					"x": 645,
+					"y": 284
+				},
+				"class": {
+					"id": "77697265-A7DD-4C94-96ED-4A5E3756EA6A",
+					"version": 4
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"collection": {
+						"type": "texture2d",
+						"value": [
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null
+						]
+					},
+					"index": {
+						"type": "integer",
+						"value": 54
+					}
+				},
+				"hidden": [
+					"collection-dimensions",
+					"collection-flow",
+					"collection-type",
+					"index-dimensions",
+					"index-flow",
+					"index-type",
+					"interpolation",
+					"wrapping"
+				],
+				"name": "Previous Image",
+				"thumbnail_visible": true
+			},
+			"30": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/beautifulwave_leaves6_000022.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1300,
+					"y": 0
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 13",
+				"thumbnail_visible": true
+			},
+			"31": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/bi0g4n1c_leaves6_000023.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1120,
+					"y": 0
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 14",
+				"thumbnail_visible": true
+			},
+			"32": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/bispham1_leaves6_000024.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -940,
+					"y": 0
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 15",
+				"thumbnail_visible": true
+			},
+			"33": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/bl33dyl1n3z-2_leaves6_000026.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -760,
+					"y": 0
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 16",
+				"thumbnail_visible": true
+			},
+			"34": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/bl33dyl1n3z_leaves6_000025.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -580,
+					"y": 0
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 17",
+				"thumbnail_visible": true
+			},
+			"35": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/black+whiteblockyglitch_leaves6_000027.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -2200,
+					"y": 120
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 18",
+				"thumbnail_visible": true
+			},
+			"36": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/blasted_leaves6_000028.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -2020,
+					"y": 120
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 19",
+				"thumbnail_visible": true
+			},
+			"37": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/bleeding_blocks_leaves6_000029.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1840,
+					"y": 120
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 20",
+				"thumbnail_visible": true
+			},
+			"38": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/blocks_leaves6_000030.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1660,
+					"y": 120
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 21",
+				"thumbnail_visible": true
+			},
+			"39": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/blockssmoll_leaves6_000031.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1480,
+					"y": 120
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 22",
+				"thumbnail_visible": true
+			},
+			"4": {
+				"attributes": {
+					"collection-dimensions": {
+						"type": "integer",
+						"value": 107
+					},
+					"collection-flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"collection-type": {
+						"type": "type",
+						"value": "texture2d"
+					},
+					"index-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"index-flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"index-type": {
+						"type": "type",
+						"value": "integer"
+					},
+					"interpolation": {
+						"type": "integer",
+						"value": 0
+					},
+					"wrapping": {
+						"type": "integer",
+						"value": 0
+					}
+				},
+				"bounds": {
+					"height": 58,
+					"width": 195,
+					"x": 645,
+					"y": -80
+				},
+				"class": {
+					"id": "77697265-A7DD-4C94-96ED-4A5E3756EA6A",
+					"version": 4
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"collection": {
+						"type": "texture2d",
+						"value": [
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							null
+						]
+					},
+					"index": {
+						"type": "integer",
+						"value": 42
+					}
+				},
+				"hidden": [
+					"collection-dimensions",
+					"collection-flow",
+					"collection-type",
+					"index-dimensions",
+					"index-flow",
+					"index-type",
+					"interpolation",
+					"wrapping"
+				],
+				"name": "Next Image",
+				"thumbnail_visible": true
+			},
+			"40": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/burn_leaves6_000035.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1300,
+					"y": 120
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 23",
+				"thumbnail_visible": true
+			},
+			"41": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/cartoon_leaves6_000037.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1120,
+					"y": 120
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 24",
+				"thumbnail_visible": true
+			},
+			"42": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/ch3ss_leaves6_000038.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -940,
+					"y": 120
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 25",
+				"thumbnail_visible": true
+			},
+			"43": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/channels_leaves6_000039.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -760,
+					"y": 120
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 26",
+				"thumbnail_visible": true
+			},
+			"44": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/chock-a-block_leaves6_000040.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -580,
+					"y": 120
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 27",
+				"thumbnail_visible": true
+			},
+			"45": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/colour_boxy_glitch_leaves6_000041.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -2200,
+					"y": 240
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 28",
+				"thumbnail_visible": true
+			},
+			"46": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/colour_glow_leaves6_000042.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -2020,
+					"y": 240
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 29",
+				"thumbnail_visible": true
+			},
+			"47": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/colour_mess_leaves6_000043.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1840,
+					"y": 240
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 30",
+				"thumbnail_visible": true
+			},
+			"48": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/colour_mess2_leaves6_000044.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1660,
+					"y": 240
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 31",
+				"thumbnail_visible": true
+			},
+			"49": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/colour_waves_2_leaves6_000046.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1480,
+					"y": 240
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 32",
+				"thumbnail_visible": true
+			},
+			"5": {
+				"attributes": {
+					"distribution": {
+						"type": "integer",
+						"value": 0
+					},
+					"instances": {
+						"type": "integer",
+						"value": 1
+					},
+					"type": {
+						"type": "type",
+						"value": "float"
+					}
+				},
+				"bounds": {
+					"height": 130,
+					"width": 195,
+					"x": -120,
+					"y": -51
+				},
+				"class": {
+					"id": "77697265-5581-4721-8519-0b8fa3d68b4d",
+					"version": 2
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"argument1": {
+						"type": "float",
+						"value": -0.49999898672103882
+					},
+					"argument2": {
+						"type": "float",
+						"value": 106.5
+					},
+					"input": {
+						"type": "trigger",
+						"value": null
+					},
+					"precision": {
+						"type": "float",
+						"value": 1
+					},
+					"seed": {
+						"type": "integer",
+						"value": 0
+					}
+				},
+				"hidden": [
+					"distribution",
+					"precision",
+					"seed",
+					"type"
+				],
+				"name": "Shuffle",
+				"thumbnail_visible": true
+			},
+			"50": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/colour_waves_3_leaves6_000047.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1300,
+					"y": 240
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 33",
+				"thumbnail_visible": true
+			},
+			"51": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/colour_waves_leaves6_000045.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1120,
+					"y": 240
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 34",
+				"thumbnail_visible": true
+			},
+			"52": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/colour_waves_sharp_leaves6_000048.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -940,
+					"y": 240
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 35",
+				"thumbnail_visible": true
+			},
+			"53": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/colour_waves_sharp2_leaves6_000049.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -760,
+					"y": 240
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 36",
+				"thumbnail_visible": true
+			},
+			"54": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/colourful_disturbances_leaves6_000050.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -580,
+					"y": 240
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 37",
+				"thumbnail_visible": true
+			},
+			"55": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/confetti_leaves6_000051.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -2200,
+					"y": 360
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 38",
+				"thumbnail_visible": true
+			},
+			"56": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/constrctivist_leaves6_000052.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -2020,
+					"y": 360
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 39",
+				"thumbnail_visible": true
+			},
+			"57": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/constrctivist_minimal_leaves6_000054.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1840,
+					"y": 360
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 40",
+				"thumbnail_visible": true
+			},
+			"58": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/constrctivist2_leaves6_000053.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1660,
+					"y": 360
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 41",
+				"thumbnail_visible": true
+			},
+			"59": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/cr0550v3r_leaves6_000055.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1480,
+					"y": 360
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 42",
+				"thumbnail_visible": true
+			},
+			"6": {
+				"attributes": {
+					"instances": {
+						"type": "integer",
+						"value": 1
+					}
+				},
+				"bounds": {
+					"height": 130,
+					"width": 195,
+					"x": -375,
+					"y": 61
+				},
+				"class": {
+					"id": "77697265-FD65-470F-9F75-ED878267980E",
+					"version": 1
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"enabled": {
+						"type": "bool",
+						"value": true
+					},
+					"frequency": {
+						"type": "float",
+						"value": 0.1666666716337204
+					},
+					"reset": {
+						"type": "trigger",
+						"value": null
+					}
+				},
+				"hidden": [
+					"count",
+					"instances"
+				],
+				"name": "Shuffle Clock",
+				"thumbnail_visible": true
+			},
+			"60": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/cubism_leaves6_000056.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1300,
+					"y": 360
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 43",
+				"thumbnail_visible": true
+			},
+			"61": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/cute blocks_leaves6_000057.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1120,
+					"y": 360
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 44",
+				"thumbnail_visible": true
+			},
+			"62": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/d1ffu510nz_leaves6_000059.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -940,
+					"y": 360
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 45",
+				"thumbnail_visible": true
+			},
+			"63": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/diagonalcolourbleed_leaves6_000063.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -760,
+					"y": 360
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 46",
+				"thumbnail_visible": true
+			},
+			"64": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/diagonalmess_leaves6_000065.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -580,
+					"y": 360
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 47",
+				"thumbnail_visible": true
+			},
+			"65": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/erase_horizontal_leaves6_000066.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -2200,
+					"y": 480
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 48",
+				"thumbnail_visible": true
+			},
+			"66": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/erase_vertical_leaves6_000067.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -2020,
+					"y": 480
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 49",
+				"thumbnail_visible": true
+			},
+			"67": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/g0dh34d-d_leaves6_000068.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1840,
+					"y": 480
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 50",
+				"thumbnail_visible": true
+			},
+			"68": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/g0dh34d-e_leaves6_000069.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1660,
+					"y": 480
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 51",
+				"thumbnail_visible": true
+			},
+			"69": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/gif1_leaves6_000071.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1480,
+					"y": 480
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 52",
+				"thumbnail_visible": true
+			},
+			"7": {
+				"attributes": {
+					"instances": {
+						"type": "integer",
+						"value": 1
+					}
+				},
+				"bounds": {
+					"height": 274,
+					"width": 195,
+					"x": 900,
+					"y": -20
+				},
+				"class": {
+					"id": "77697265-8888-4ee6-83b9-2b12ff2a116b",
+					"version": 1
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"duration": {
+						"type": "float",
+						"value": 4.920654296875
+					},
+					"end": {
+						"type": "float",
+						"value": 1
+					},
+					"loop": {
+						"type": "bool",
+						"value": false
+					},
+					"pause": {
+						"type": "trigger",
+						"value": null
+					},
+					"play": {
+						"type": "trigger",
+						"value": null
+					},
+					"restart": {
+						"type": "trigger",
+						"value": null
+					},
+					"rewind": {
+						"type": "trigger",
+						"value": null
+					},
+					"start": {
+						"type": "float",
+						"value": 0
+					},
+					"stop": {
+						"type": "trigger",
+						"value": null
+					}
+				},
+				"hidden": [
+					"instances",
+					"loop"
+				],
+				"name": "Transition",
+				"thumbnail_visible": true
+			},
+			"70": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/gif2_leaves6_000072.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1300,
+					"y": 480
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 53",
+				"thumbnail_visible": true
+			},
+			"71": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/haze_leaves6_000073.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1120,
+					"y": 480
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 54",
+				"thumbnail_visible": true
+			},
+			"72": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/haze2_leaves6_000074.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -940,
+					"y": 480
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 55",
+				"thumbnail_visible": true
+			},
+			"73": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/high_compression_leaves6_000075.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -760,
+					"y": 480
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 56",
+				"thumbnail_visible": true
+			},
+			"74": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/idk_leaves6_000076.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -580,
+					"y": 480
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 57",
+				"thumbnail_visible": true
+			},
+			"75": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/jpegls1_leaves6_000077.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -2200,
+					"y": 600
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 58",
+				"thumbnail_visible": true
+			},
+			"76": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/lightblur_leaves6_000078.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -2020,
+					"y": 600
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 59",
+				"thumbnail_visible": true
+			},
+			"77": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/lightblur2_leaves6_000079.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1840,
+					"y": 600
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 60",
+				"thumbnail_visible": true
+			},
+			"78": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/lines_leaves6_000080.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1660,
+					"y": 600
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 61",
+				"thumbnail_visible": true
+			},
+			"79": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/liquiblock_leaves6_000081.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1480,
+					"y": 600
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 62",
+				"thumbnail_visible": true
+			},
+			"8": {
+				"attributes": {
+					"input0-flow": {
+						"type": "flow",
+						"value": "event"
+					},
+					"input0-type": {
+						"type": "type",
+						"value": "float"
+					},
+					"instances": {
+						"type": "integer",
+						"value": 1
+					},
+					"interpolation": {
+						"type": "integer",
+						"value": 1
+					},
+					"time-type": {
+						"type": "type",
+						"value": "float"
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 195,
+					"x": 440,
+					"y": 620
+				},
+				"class": {
+					"id": "77697265-4BEE-483F-9F28-1BA5F21193DB",
+					"version": 5
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input0": {
+						"type": "float",
+						"value": 0
+					},
+					"reset": {
+						"type": "trigger",
+						"value": null
+					},
+					"time": {
+						"type": "float",
+						"value": 0
+					}
+				},
+				"hidden": [
+					"input0-flow",
+					"input0-type",
+					"instances",
+					"interpolation",
+					"time-type"
+				],
+				"name": "Previous Index",
+				"thumbnail_visible": true
+			},
+			"80": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/lmao_leaves6_000082.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1300,
+					"y": 600
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 63",
+				"thumbnail_visible": true
+			},
+			"81": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/m1n1m3l0l_leaves6_000083.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1120,
+					"y": 600
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 64",
+				"thumbnail_visible": true
+			},
+			"82": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/minimaldiag_leaves6_000084.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -940,
+					"y": 600
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 65",
+				"thumbnail_visible": true
+			},
+			"83": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/mthr_leaves6_000085.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -760,
+					"y": 600
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 66",
+				"thumbnail_visible": true
+			},
+			"84": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/n07h1ng2c-2_leaves6_000087.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -580,
+					"y": 600
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 67",
+				"thumbnail_visible": true
+			},
+			"85": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/n07h1ng2c_leaves6_000086.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -2200,
+					"y": 720
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 68",
+				"thumbnail_visible": true
+			},
+			"86": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/neato_leaves6_000088.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -2020,
+					"y": 720
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 69",
+				"thumbnail_visible": true
+			},
+			"87": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/ordered_destruction_2_leaves6_000090.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1840,
+					"y": 720
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 70",
+				"thumbnail_visible": true
+			},
+			"88": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/ordered_destruction_leaves6_000089.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1660,
+					"y": 720
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 71",
+				"thumbnail_visible": true
+			},
+			"89": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/p1xx1_leaves6_000091.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1480,
+					"y": 720
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 72",
+				"thumbnail_visible": true
+			},
+			"9": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"input0-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input1-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input10-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input100-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input101-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input102-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input103-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input104-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input105-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input106-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input11-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input12-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input13-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input14-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input15-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input16-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input17-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input18-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input19-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input2-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input20-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input21-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input22-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input23-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input24-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input25-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input26-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input27-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input28-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input29-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input3-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input30-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input31-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input32-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input33-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input34-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input35-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input36-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input37-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input38-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input39-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input4-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input40-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input41-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input42-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input43-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input44-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input45-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input46-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input47-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input48-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input49-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input5-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input50-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input51-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input52-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input53-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input54-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input55-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input56-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input57-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input58-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input59-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input6-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input60-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input61-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input62-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input63-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input64-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input65-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input66-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input67-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input68-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input69-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input7-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input70-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input71-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input72-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input73-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input74-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input75-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input76-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input77-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input78-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input79-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input8-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input80-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input81-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input82-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input83-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input84-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input85-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input86-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input87-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input88-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input89-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input9-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input90-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input91-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input92-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input93-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input94-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input95-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input96-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input97-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input98-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input99-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"num-channels": {
+						"type": "integer",
+						"value": 107
+					},
+					"type": {
+						"type": "type",
+						"value": "texture2d"
+					}
+				},
+				"bounds": {
+					"height": 2602,
+					"width": 195,
+					"x": 390,
+					"y": -80
+				},
+				"class": {
+					"id": "77697265-3732-42da-653e-b641d4a49224",
+					"version": 2
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"channel0": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel1": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel10": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel100": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel101": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel102": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel103": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel104": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel105": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel106": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel11": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel12": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel13": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel14": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel15": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel16": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel17": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel18": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel19": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel2": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel20": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel21": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel22": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel23": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel24": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel25": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel26": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel27": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel28": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel29": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel3": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel30": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel31": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel32": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel33": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel34": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel35": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel36": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel37": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel38": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel39": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel4": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel40": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel41": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel42": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel43": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel44": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel45": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel46": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel47": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel48": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel49": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel5": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel50": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel51": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel52": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel53": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel54": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel55": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel56": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel57": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel58": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel59": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel6": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel60": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel61": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel62": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel63": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel64": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel65": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel66": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel67": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel68": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel69": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel7": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel70": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel71": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel72": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel73": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel74": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel75": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel76": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel77": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel78": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel79": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel8": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel80": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel81": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel82": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel83": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel84": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel85": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel86": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel87": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel88": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel89": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel9": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel90": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel91": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel92": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel93": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel94": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel95": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel96": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel97": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel98": {
+						"type": "texture2d",
+						"value": null
+					},
+					"channel99": {
+						"type": "texture2d",
+						"value": null
+					}
+				},
+				"hidden": [
+					"flow",
+					"input0-dimensions",
+					"input1-dimensions",
+					"input10-dimensions",
+					"input100-dimensions",
+					"input101-dimensions",
+					"input102-dimensions",
+					"input103-dimensions",
+					"input104-dimensions",
+					"input105-dimensions",
+					"input106-dimensions",
+					"input11-dimensions",
+					"input12-dimensions",
+					"input13-dimensions",
+					"input14-dimensions",
+					"input15-dimensions",
+					"input16-dimensions",
+					"input17-dimensions",
+					"input18-dimensions",
+					"input19-dimensions",
+					"input2-dimensions",
+					"input20-dimensions",
+					"input21-dimensions",
+					"input22-dimensions",
+					"input23-dimensions",
+					"input24-dimensions",
+					"input25-dimensions",
+					"input26-dimensions",
+					"input27-dimensions",
+					"input28-dimensions",
+					"input29-dimensions",
+					"input3-dimensions",
+					"input30-dimensions",
+					"input31-dimensions",
+					"input32-dimensions",
+					"input33-dimensions",
+					"input34-dimensions",
+					"input35-dimensions",
+					"input36-dimensions",
+					"input37-dimensions",
+					"input38-dimensions",
+					"input39-dimensions",
+					"input4-dimensions",
+					"input40-dimensions",
+					"input41-dimensions",
+					"input42-dimensions",
+					"input43-dimensions",
+					"input44-dimensions",
+					"input45-dimensions",
+					"input46-dimensions",
+					"input47-dimensions",
+					"input48-dimensions",
+					"input49-dimensions",
+					"input5-dimensions",
+					"input50-dimensions",
+					"input51-dimensions",
+					"input52-dimensions",
+					"input53-dimensions",
+					"input54-dimensions",
+					"input55-dimensions",
+					"input56-dimensions",
+					"input57-dimensions",
+					"input58-dimensions",
+					"input59-dimensions",
+					"input6-dimensions",
+					"input60-dimensions",
+					"input61-dimensions",
+					"input62-dimensions",
+					"input63-dimensions",
+					"input64-dimensions",
+					"input65-dimensions",
+					"input66-dimensions",
+					"input67-dimensions",
+					"input68-dimensions",
+					"input69-dimensions",
+					"input7-dimensions",
+					"input70-dimensions",
+					"input71-dimensions",
+					"input72-dimensions",
+					"input73-dimensions",
+					"input74-dimensions",
+					"input75-dimensions",
+					"input76-dimensions",
+					"input77-dimensions",
+					"input78-dimensions",
+					"input79-dimensions",
+					"input8-dimensions",
+					"input80-dimensions",
+					"input81-dimensions",
+					"input82-dimensions",
+					"input83-dimensions",
+					"input84-dimensions",
+					"input85-dimensions",
+					"input86-dimensions",
+					"input87-dimensions",
+					"input88-dimensions",
+					"input89-dimensions",
+					"input9-dimensions",
+					"input90-dimensions",
+					"input91-dimensions",
+					"input92-dimensions",
+					"input93-dimensions",
+					"input94-dimensions",
+					"input95-dimensions",
+					"input96-dimensions",
+					"input97-dimensions",
+					"input98-dimensions",
+					"input99-dimensions",
+					"num-channels",
+					"type"
+				],
+				"name": "Image Bank Textures",
+				"thumbnail_visible": true
+			},
+			"90": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/pcool_leaves6_000092.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1300,
+					"y": 720
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 73",
+				"thumbnail_visible": true
+			},
+			"91": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/progressive_leaves6_000095.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1120,
+					"y": 720
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 74",
+				"thumbnail_visible": true
+			},
+			"92": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/scanlined_leaves6_000096.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -940,
+					"y": 720
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 75",
+				"thumbnail_visible": true
+			},
+			"93": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/shinybright_leaves6_000097.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -760,
+					"y": 720
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 76",
+				"thumbnail_visible": true
+			},
+			"94": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/sk001xyz_leaves6_000099.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -580,
+					"y": 720
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 77",
+				"thumbnail_visible": true
+			},
+			"95": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/sk0011rgb_leaves6_000098.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -2200,
+					"y": 840
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 78",
+				"thumbnail_visible": true
+			},
+			"96": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/sk0021xyz_leaves6_000100.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -2020,
+					"y": 840
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 79",
+				"thumbnail_visible": true
+			},
+			"97": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/sk00244xyz_leaves6_000101.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1840,
+					"y": 840
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 80",
+				"thumbnail_visible": true
+			},
+			"98": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/sk00244xyz2_leaves6_000102.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1660,
+					"y": 840
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 81",
+				"thumbnail_visible": true
+			},
+			"99": {
+				"attributes": {
+					"image": {
+						"type": "resourceImage",
+						"value": {
+							"path": {
+								"main": "\/Users\/donovan\/work\/Visuals\/infra\/treehouse\/MASKS\/layers\/leaves6_FCDA2298\/sk1211_leaves6_000103.png",
+								"sub": ""
+							},
+							"value": {
+								"alphaType": "straight",
+								"bitDepth": 32,
+								"bpc": 8,
+								"channelCount": 4,
+								"codec": "PNG",
+								"resolution": {
+									"height": 1440,
+									"width": 1920
+								}
+							}
+						}
+					}
+				},
+				"bounds": {
+					"height": 140,
+					"width": 195,
+					"x": -1480,
+					"y": 840
+				},
+				"class": {
+					"id": "77697265-3683-409B-8C89-43AFAEA9A2B0",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"straight": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"straight"
+				],
+				"name": "Variant 82",
+				"thumbnail_visible": true
+			}
+		},
+		"ui": {
+			"camera": {
+				"x": 0,
+				"y": 0,
+				"zoom": 1
+			},
+			"selection": [
+				"133"
+			]
+		}
+	},
+	"ui": {
+		"audio": {
+			"routing": {
+				"in": {},
+				"out": []
+			}
+		},
+		"deviceConnections": {
+			"input": {}
+		},
+		"transport": {
+			"bpm": 120,
+			"time-signature": [
+				4,
+				4
+			]
+		},
+		"video": {
+			"routing": {
+				"out": {
+					"Display 1": null
+				}
+			}
+		}
+	}
+}

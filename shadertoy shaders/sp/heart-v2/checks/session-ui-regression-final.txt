@@ -1,0 +1,35 @@
+Heart session · final installed UI regression
+
+All three suites passed from the installed sp/heart-v2 directory, using mocked connections only. No live Heart/Arena controls were changed. Temporary browser runs have ended.
+
+PASS test_session_surface.cjs
+Scroll opacity and percentage fill; click-to-edit preserves opacity/bypass; Source / Drives / Rack navigation; one Compare A/B dialog; crossfader command; loop assignments and Run/Stop; LUT enable/Decon and Pixel Melt latch commands; missing-member guards; compact 639×734 and wide 1440×900 layouts.
+
+PASS test_playing_surface.cjs
+Clip browse/favorites/launch/next/eject; selected-effect momentary action; browser opacity gestures; color editing preserves alpha; motion families/ratios; range dragging, fine adjustment, clamping, typed edits and Escape; manual slider remains usable for a static range while Drive is disabled; Drive bank Family/Rate/Shuffle/pins/offline targets; Drive all respects locks; source handoff and stable layer identity; A pin and stable compact/wide positions. Redundant single-source tabs remain hidden while the actual instrument controls stay visible.
+
+PASS test_surface.cjs
+Delayed/empty catalog startup; A/B navigation and MIDI mapping persistence; disarmed MIDI Learn does not fire effects; synthetic note/CC edge handling; envelope timing and mapping clear; reload guards and server permission; stale parameter-contract invalidation. Zero browser page errors.
+
+Two actual issues exposed during migration were fixed and verified: Compare A/B's new dialog no longer blocks disarmed Learn buttons, and empty-catalog startup initializes Drive bank preferences before painting.
+
+The retired hidden mixer-page bank-clamp and legacy stage-opacity/linked-checkbox controls were removed from these frontend assertions. Native mixing is outside the new workspace. Selected-effect actions, the configured rack, and the full range/bank/source contracts remain covered. These isolated tests validate interface behavior and commands, not physical MIDI or native rendered acceptance.
+
+Script install and evidence verification
+
+Both installed files match the tested optimized shader:
+/Users/donovan/work/0000000/shadertoy shaders/sp/SP Atom Script.fs
+/Users/donovan/Documents/Resolume Wire/Patches/SP Atom Script/Resource/SP Atom Script.fs
+SHA-256: 2fbb3ce37a06b8940dbf7af03b734d3d4b424251398c1ae1efa3b2df89a1f722
+
+The installed sp/make_script.py matches the preserved candidate generator. Read-only template evaluation previously generated this exact shader. The Wire graph retains its original hash and still references Resource/SP Atom Script.fs; the sidecar remains empty. Original and optimized ISF headers match exactly. No Wire graph regeneration was needed.
+
+The archived evidence contains 324 passing byte-for-byte RGBA comparisons on Apple M5 Max and 80 alternating paired timing samples per scenario. Current-size default Script timing was 9.719 ms original / 0.669 ms optimized; the large Greek glyph was 0.849 / 0.333 ms. These are offscreen synchronized render timings, not Arena frame time. No shader benchmark was rerun during the final native output checks.
+
+Remaining limits / handoff wording
+
+On AC power, the unchanged idle composition published 1,200 Syphon frames in 20 seconds at 3840×1440: 60 FPS in every one-second bucket, 17.300 ms p95 frame interval, and 18.295 ms maximum. This confirms powered idle cadence. It does not establish simultaneous source/effect performance; record the separate combined-load result before claiming the session's 60 FPS target is met.
+
+SP Atom Script now avoids tracing strokes through pixels outside the complete glyph bounds plus stroke and softness support. All 159 glyph boxes contain their paths, and morphs use both complete bounds. The optimization preserves tested RGBA output and is installed in both source locations, with its generator updated. Runtime reload in Arena remains separately recorded: the install map currently says runtime_reload_verified:false. A native source load/output check can close that item. The older session-performance.md is the pre-install audit; session-performance-script-install.json records the later installation.
+
+Other shader quality changes were not inferred from the powered idle result. Hopf quality modes and the softer half-resolution Delay history remain explicit alternatives. Source dimensions, output geometry, masks, layer order and native mixing assignments were not changed by this audit.

@@ -1,0 +1,30 @@
+{
+  "id": "DtVfRy",
+  "name": "quaternion slerp",
+  "username": "DeltaT",
+  "description": "interpolating between orientations using quaternions/rotors, free of gimbal lock and always takes the shortest path",
+  "tags": [
+    "3d",
+    "raymarching",
+    "quaternion",
+    "rotor"
+  ],
+  "date": "1702225376",
+  "viewed": 348,
+  "likes": 18,
+  "published": 1,
+  "renderpass": [
+    {
+      "type": "image",
+      "name": "Image",
+      "inputs": [],
+      "outputs": [
+        {
+          "id": "4dfGRr",
+          "channel": 0
+        }
+      ],
+      "code": "#define MAX_DIST 16.\n#define PI 3.14159\n#define TAU 6.28319\n\n// Rotor/quaternion stuff\n// all pretty quick and easy to derive with some knowledge of the geometric product\nvec3 rotApply(vec3 v, vec4 R) {\n    vec3 i = cross(R.xyz, v);\n    return v + 2.*(R.w * i + cross(R.xyz, i));\n}\n\nvec4 rotReverse(vec4 R) {\n    return vec4(-R.xyz, R.w);\n}\n\nvec4 rotStack(vec4 Q, vec4 R) {\n    vec3 bQ = Q.xyz;\n    vec3 bR = R.xyz;\n    return vec4(Q.w*bR+R.w*bQ + cross(bQ, bR), Q.w*R.w - dot(bQ, bR));\n}\n\nvec4 rotSqrt(vec4 R) {\n    return R.w+1. == 0. ? vec4(1, 0, 0, 0) : normalize(vec4(R.xyz, R.w+1.));\n}\n\nvec4 rotSlerp(vec4 Q, vec4 R, float t) {\n    vec4 d = rotStack(R, rotReverse(Q)); // subtract Q from R\n    float halfangle = mod(atan(length(d.xyz), d.w)+PI*0.5, PI)-PI*0.5;\n    vec3 plane = d.xyz == vec3(0) ? vec3(1, 0, 0) : normalize(d.xyz);\n    return rotStack(vec4(plane*sin(halfangle*t), cos(halfangle*t)), Q); // multiply by t then add back Q, just like regular lerp\n}\n\nvec4 hash14(float p) { // from www.shadertoy.com/view/4djSRW\n\tvec4 p4 = fract(vec4(p) * vec4(.1031, .1030, .0973, .1099));\n    p4 += dot(p4, p4.wzxy+33.33);\n    return 2.*fract((p4.xxyz+p4.yzzw)*p4.zywx)-1.;\n}\n\n// SDFs and rendering\nfloat distBox(vec3 p, float r) {\n    vec3 p1 = abs(p);\n    float d = length(max(p1-r, 0.));\n    float dsigned = min(max(max(p1.x-r, p1.y-r), p1.z-r), 0.);\n    return d + dsigned;\n}\n\nfloat distCylinder(vec3 p, vec3 a, vec3 b, float r) { // from www.shadertoy.com/view/wdXGDr\n    vec3  ba = b - a;\n    vec3  pa = p - a;\n    float baba = dot(ba,ba);\n    float paba = dot(pa,ba);\n    float x = length(pa*baba-ba*paba) - r*baba;\n    float y = abs(paba-baba*0.5)-baba*0.5;\n    float x2 = x*x;\n    float y2 = y*y*baba;\n    \n    float d = (max(x,y)<0.0)?-min(x2,y2):(((x>0.0)?x2:0.0)+((y>0.0)?y2:0.0));\n    \n    return sign(d)*sqrt(abs(d))/baba;\n}\n\nfloat distSphere(vec3 p, float r) {\n    return length(p) - r;\n}\n\n// I was gonna have a material struct to store colour, specular strength, specular pow, etc. all in one thing\n// but while making it I forgot to hit save and closed the wrong tab :')\nvec4 distScene(vec3 p) { // w = dist, xyz = col\n    // (un-comment all the code to show axis)\n    float time = iTime*0.75;\n    vec4 R1 = normalize(hash14(floor(time)));\n    vec4 R2 = normalize(hash14(floor(time)+1.));\n    vec4 R = rotSlerp(R1, R2, smoothstep(0., 1., fract(time)));\n    //vec3 axis = normalize(rotStack(R2, rotReverse(R1)).xyz);\n    \n    float t = smoothstep(0., 1., fract(time))*3.;\n    vec3 pm = rotApply(vec3(mod(p.x+t+1.5, 3.)-1.5, p.yz), normalize(hash14(floor(time)+floor((p.x+t)/3.+0.5))));\n    p = rotApply(p, R);\n    \n    float phi = atan(p.y, p.x);\n    float theta = acos(dot(normalize(p), vec3(0, 0, 1)));\n    vec2 a = vec2(mod(theta, TAU/6.), mod(phi, TAU/6.));\n    vec4 sphere = vec4((max(a.x, a.y) < TAU/12. || min(a.x, a.y) > TAU/12.) ? vec3(1) : vec3(0.5), distSphere(p, 0.4));\n    \n    vec3 O = vec3(0);\n    //vec4 ax = vec4(vec3(1, 0, 1), distCylinder(p, -axis, axis, .03));\n    vec4 X = vec4(vec3(1, 0, 0), min(distCylinder(p, O, vec3(1, 0, 0), .03), distCylinder(pm, O, vec3(1, 0, 0), .03)));\n    vec4 Y = vec4(vec3(0, 1, 0), min(distCylinder(p, O, vec3(0, 1, 0), .03), distCylinder(pm, O, vec3(0, 1, 0), .03)));\n    vec4 Z = vec4(vec3(0, 0, 1), min(distCylinder(p, O, vec3(0, 0, 1), .03), distCylinder(pm, O, vec3(0, 0, 1), .03)));\n    //float d = min(min(min(min(X.w, Y.w), Z.w), sphere.w), ax.w);\n    //return d == X.w ? X : (d == Y.w ? Y : (d == Z.w ? Z : (d == sphere.w ? sphere : ax)));\n    float d = min(min(min(X.w, Y.w), Z.w), sphere.w); // replace these 2 lines with ones above\n    return d == X.w ? X : (d == Y.w ? Y : (d == Z.w ? Z : sphere));\n}\n\nvec4 rayMarch(vec3 pos, vec3 rd) {\n    vec4 d = vec4(0);\n    while (d.w <= MAX_DIST) {\n        vec3 p = pos + rd*d.w;\n        vec4 ds = distScene(p);\n        d.xyz = ds.xyz;\n        if (ds.w <= 0.001) { break; }\n        d.w += ds.w;\n    }\n    return d;\n}\n\nvec3 getNormal(vec3 p) {\n    vec2 e = vec2(.001, 0);\n    float d = distScene(p).w;\n    vec3 n = d-vec3(distScene(p-e.xyy).w, distScene(p-e.yxy).w, distScene(p-e.yyx).w);\n    return normalize(n);\n}\n\nvec3 render(vec3 campos, vec4 rot, vec2 coord) {\n    vec3 raydir = rotApply(normalize(vec3(coord.x, 1.5, coord.y)), rot);\n    vec4 d = rayMarch(campos, raydir);\n    float gradient = (raydir.z*5.+1.)*0.5;\n    vec3 skyColour = mix(vec3(0., 0.6, 0.8), vec3(0, 0.7, 0.9), gradient);\n    if (d.w >= MAX_DIST) { return skyColour; }\n    vec3 p = campos + raydir * d.w;\n    \n    vec3 n = getNormal(p);\n    vec3 light = vec3(3, 0, 3);\n    float diff = dot(n, normalize(light-p));\n    float specular = max(0., dot(normalize(-raydir), -normalize(reflect(light-p, n))));\n    return mix(d.xyz*mix(vec3(0.3), vec3(1), diff*0.5+0.5), vec3(1), pow(specular, 10.));\n}\n\nvoid mainImage( out vec4 fragColor, in vec2 fragCoord )\n{\n    vec2 uv = (fragCoord * 2. - iResolution.xy) / iResolution.y;\n    vec2 mouse = (iMouse.xy*2. - iResolution.xy) / iResolution.y;\n    if (iMouse.xy == vec2(0)) { mouse = vec2(0); }\n    \n    vec4 dir = rotStack(vec4(0, 0, sin(-mouse.x), cos(-mouse.x)), vec4(sin(mouse.y), 0, 0, cos(mouse.y)));\n    vec3 campos = rotApply(vec3(0, -3, 0), dir);\n    \n    vec3 col = render(campos, dir, uv);\n    \n    fragColor = vec4(col, 1);\n}"
+    }
+  ]
+}

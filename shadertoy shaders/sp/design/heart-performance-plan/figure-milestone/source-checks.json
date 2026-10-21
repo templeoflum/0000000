@@ -1,0 +1,419 @@
+{
+  "resolution": [
+    640,
+    360
+  ],
+  "method": "raw source alpha at phase and boundary samples; shell compares culling disabled on two stress cases",
+  "cases": [
+    {
+      "instrument": "figure.solid",
+      "case": "home-0",
+      "nonempty": true,
+      "edge_alpha": 0,
+      "bounds": [
+        249,
+        148,
+        399,
+        206
+      ]
+    },
+    {
+      "instrument": "figure.solid",
+      "case": "home-1",
+      "nonempty": true,
+      "edge_alpha": 0,
+      "bounds": [
+        256,
+        124,
+        402,
+        235
+      ]
+    },
+    {
+      "instrument": "figure.solid",
+      "case": "home-2",
+      "nonempty": true,
+      "edge_alpha": 0,
+      "bounds": [
+        257,
+        106,
+        396,
+        259
+      ]
+    },
+    {
+      "instrument": "figure.solid",
+      "case": "home-3",
+      "nonempty": true,
+      "edge_alpha": 0,
+      "bounds": [
+        249,
+        105,
+        390,
+        249
+      ]
+    },
+    {
+      "instrument": "figure.solid",
+      "case": "home-4",
+      "nonempty": true,
+      "edge_alpha": 0,
+      "bounds": [
+        251,
+        122,
+        379,
+        250
+      ]
+    },
+    {
+      "instrument": "figure.solid",
+      "case": "home-5",
+      "nonempty": true,
+      "edge_alpha": 0,
+      "bounds": [
+        245,
+        117,
+        382,
+        254
+      ]
+    },
+    {
+      "instrument": "figure.solid",
+      "case": "home-6",
+      "nonempty": true,
+      "edge_alpha": 0,
+      "bounds": [
+        236,
+        111,
+        383,
+        245
+      ]
+    },
+    {
+      "instrument": "figure.solid",
+      "case": "home-7",
+      "nonempty": true,
+      "edge_alpha": 0,
+      "bounds": [
+        239,
+        124,
+        387,
+        221
+      ]
+    },
+    {
+      "instrument": "figure.solid",
+      "case": "corner-0",
+      "nonempty": true,
+      "edge_alpha": 0,
+      "bounds": [
+        86,
+        102,
+        278,
+        259
+      ]
+    },
+    {
+      "instrument": "figure.solid",
+      "case": "corner-1",
+      "nonempty": true,
+      "edge_alpha": 0,
+      "bounds": [
+        83,
+        98,
+        274,
+        273
+      ]
+    },
+    {
+      "instrument": "figure.solid",
+      "case": "corner-2",
+      "nonempty": true,
+      "edge_alpha": 0,
+      "bounds": [
+        363,
+        81,
+        546,
+        280
+      ]
+    },
+    {
+      "instrument": "figure.solid",
+      "case": "corner-3",
+      "nonempty": true,
+      "edge_alpha": 0,
+      "bounds": [
+        371,
+        94,
+        553,
+        278
+      ]
+    },
+    {
+      "instrument": "figure.shell",
+      "case": "home-0",
+      "nonempty": true,
+      "edge_alpha": 0,
+      "bounds": [
+        278,
+        118,
+        361,
+        227
+      ]
+    },
+    {
+      "instrument": "figure.shell",
+      "case": "home-1",
+      "nonempty": true,
+      "edge_alpha": 0,
+      "bounds": [
+        280,
+        123,
+        372,
+        231
+      ]
+    },
+    {
+      "instrument": "figure.shell",
+      "case": "home-2",
+      "nonempty": true,
+      "edge_alpha": 0,
+      "bounds": [
+        266,
+        141,
+        378,
+        241
+      ]
+    },
+    {
+      "instrument": "figure.shell",
+      "case": "home-3",
+      "nonempty": true,
+      "edge_alpha": 0,
+      "bounds": [
+        269,
+        136,
+        365,
+        226
+      ]
+    },
+    {
+      "instrument": "figure.shell",
+      "case": "home-4",
+      "nonempty": true,
+      "edge_alpha": 0,
+      "bounds": [
+        259,
+        142,
+        347,
+        226
+      ]
+    },
+    {
+      "instrument": "figure.shell",
+      "case": "home-5",
+      "nonempty": true,
+      "edge_alpha": 0,
+      "bounds": [
+        281,
+        146,
+        355,
+        224
+      ]
+    },
+    {
+      "instrument": "figure.shell",
+      "case": "home-6",
+      "nonempty": true,
+      "edge_alpha": 0,
+      "bounds": [
+        274,
+        141,
+        362,
+        216
+      ]
+    },
+    {
+      "instrument": "figure.shell",
+      "case": "home-7",
+      "nonempty": true,
+      "edge_alpha": 0,
+      "bounds": [
+        286,
+        140,
+        360,
+        215
+      ]
+    },
+    {
+      "instrument": "figure.shell",
+      "case": "sphere-perspective-0.0",
+      "nonempty": true,
+      "edge_alpha": 0,
+      "bounds": [
+        178,
+        38,
+        461,
+        321
+      ]
+    },
+    {
+      "instrument": "figure.shell",
+      "case": "sphere-perspective-1.0",
+      "nonempty": true,
+      "edge_alpha": 0,
+      "bounds": [
+        212,
+        72,
+        427,
+        287
+      ],
+      "unculled_max_difference": 0
+    },
+    {
+      "instrument": "figure.shell",
+      "case": "bars-corner-0",
+      "nonempty": true,
+      "edge_alpha": 0,
+      "bounds": [
+        100,
+        117,
+        241,
+        264
+      ]
+    },
+    {
+      "instrument": "figure.shell",
+      "case": "bars-corner-1",
+      "nonempty": true,
+      "edge_alpha": 0,
+      "bounds": [
+        122,
+        136,
+        221,
+        231
+      ]
+    },
+    {
+      "instrument": "figure.shell",
+      "case": "bars-corner-2",
+      "nonempty": true,
+      "edge_alpha": 0,
+      "bounds": [
+        380,
+        117,
+        521,
+        264
+      ]
+    },
+    {
+      "instrument": "figure.shell",
+      "case": "bars-corner-3",
+      "nonempty": true,
+      "edge_alpha": 0,
+      "bounds": [
+        402,
+        136,
+        501,
+        231
+      ],
+      "unculled_max_difference": 1
+    },
+    {
+      "instrument": "figure.seed",
+      "case": "home-0",
+      "nonempty": true,
+      "edge_alpha": 0,
+      "bounds": [
+        180,
+        41,
+        460,
+        318
+      ]
+    },
+    {
+      "instrument": "figure.seed",
+      "case": "home-1",
+      "nonempty": true,
+      "edge_alpha": 0,
+      "bounds": [
+        182,
+        46,
+        461,
+        321
+      ]
+    },
+    {
+      "instrument": "figure.seed",
+      "case": "home-2",
+      "nonempty": true,
+      "edge_alpha": 0,
+      "bounds": [
+        178,
+        39,
+        461,
+        322
+      ]
+    },
+    {
+      "instrument": "figure.seed",
+      "case": "home-3",
+      "nonempty": true,
+      "edge_alpha": 0,
+      "bounds": [
+        174,
+        37,
+        459,
+        317
+      ]
+    },
+    {
+      "instrument": "figure.seed",
+      "case": "home-4",
+      "nonempty": true,
+      "edge_alpha": 0,
+      "bounds": [
+        178,
+        39,
+        461,
+        320
+      ]
+    },
+    {
+      "instrument": "figure.seed",
+      "case": "home-5",
+      "nonempty": true,
+      "edge_alpha": 0,
+      "bounds": [
+        174,
+        38,
+        465,
+        322
+      ]
+    },
+    {
+      "instrument": "figure.seed",
+      "case": "home-6",
+      "nonempty": true,
+      "edge_alpha": 0,
+      "bounds": [
+        176,
+        39,
+        460,
+        321
+      ]
+    },
+    {
+      "instrument": "figure.seed",
+      "case": "home-7",
+      "nonempty": true,
+      "edge_alpha": 0,
+      "bounds": [
+        174,
+        36,
+        461,
+        321
+      ]
+    }
+  ]
+}

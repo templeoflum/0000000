@@ -1,0 +1,157 @@
+{
+  "SchemaVersion": "1.1-ter",
+  "ArchetypeName": "Coeus",
+  "SystemOfOrigin": "GR",
+  "CulturalLineage": [
+    "Greek"
+  ],
+  "CommonAliases": [
+    "Titan of Intellect",
+    "Pillar of the North",
+    "The Inquirer",
+    "The Questioning One",
+    "Polus"
+  ],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "To embody intellectual curiosity, rational inquiry, and the celestial axis; father of oracular wisdom.",
+    "PrimaryDomain": "Mythic / Mental",
+    "ToneOrPolarity": "Rational / Inquisitive",
+    "SymbolicCore": "The questioning mind that seeks to understand cosmic order.",
+    "Correspondences": {
+      "Element": "Air",
+      "Planet": "Uranus",
+      "Chakra": "Third Eye",
+      "Color": "Deep Blue, Silver",
+      "Animal": "Raven, Fox",
+      "Other": [
+        "North Star",
+        "Celestial Axis",
+        "Question Mark",
+        "Compass"
+      ]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": [
+      "Questioner",
+      "Intellectual",
+      "Northern Pillar",
+      "Father of Oracles"
+    ],
+    "ComplementaryArchetypes": [
+      "Phoebe ([GR] Wife)",
+      "Leto ([GR] Daughter)",
+      "Asteria ([GR] Daughter)"
+    ],
+    "ShadowForms": [
+      "Paralysis by Analysis",
+      "Detached Intellectual",
+      "Mad from Knowledge"
+    ],
+    "DevelopmentalArc": [],
+    "CyclePhase": "Inquiry / Understanding"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": [
+      "Curious",
+      "Analytical",
+      "Intellectual",
+      "Questioning",
+      "Rational",
+      "Distant"
+    ],
+    "Typologies": {
+      "MBTI": "INTP",
+      "Enneagram": "5w6",
+      "Other": [
+        "Sage",
+        "Explorer",
+        "Scientist"
+      ]
+    },
+    "SubVariants": [
+      "Rational Mind",
+      "Cosmic Inquirer",
+      "Axis of Thought"
+    ],
+    "InternalFamily": "Inner Scientist"
+  },
+  "CulturalContext": {
+    "Regions": [
+      "Greece"
+    ],
+    "MythicAppearances": [
+      "Hesiod's Theogony",
+      "Father of Leto (mother of Apollo and Artemis)",
+      "Grandfather of oracular deities"
+    ],
+    "ReligiousOrRitualUse": "Limited direct worship; honored as pillar of the north; grandfather to oracular tradition through Leto.",
+    "HistoricalEvolution": "Obscure Titan whose name means 'query' or 'question'; functions absorbed into later intellectual deities.",
+    "SyncreticForms": [
+      "Mercury (intellectual aspects)",
+      "Thoth (distant parallel)"
+    ]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "❓",
+    "ImageryNotes": "Rarely depicted; when shown, appears as wise, contemplative Titan associated with northern constellations and celestial mechanics.",
+    "ArtisticExamples": [
+      "Astronomical charts",
+      "Philosophical allegories",
+      "Modern science fiction imagery"
+    ],
+    "PoeticInvocation": "Pillar of the North, whose very name is question, grandfather of all who seek to know.",
+    "DreamForm": "A starlit figure standing at the axis of the world, asking the question that unlocks understanding"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": [
+      "JP12.Sage",
+      "JU.Senex",
+      "Tarot.The_Hermit"
+    ],
+    "SemanticTags": [
+      "#intellect",
+      "#inquiry",
+      "#north",
+      "#axis",
+      "#question"
+    ],
+    "RitualFunction": "Invoked for intellectual pursuits, research, and the courage to question established truths.",
+    "AIPromptSeeds": [
+      "The grandfather of prophecy whose gift is the question, not the answer.",
+      "The pillar at the center of thought, around which all knowledge revolves."
+    ],
+    "NarrativeHooks": [
+      "The character driven by need to understand",
+      "The question that changes everything",
+      "Intellectual pursuit leading to madness or enlightenment"
+    ]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [
+      {
+        "to": "JP12.Sage",
+        "strength": "strong"
+      },
+      {
+        "to": "Tarot.The_Hermit",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "FacetRegistry": [
+    {
+      "facet": "Rational Inquirer",
+      "weight": 0.5
+    },
+    {
+      "facet": "Celestial Axis",
+      "weight": 0.3
+    },
+    {
+      "facet": "Grandfather of Oracles",
+      "weight": 0.2
+    }
+  ]
+}

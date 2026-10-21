@@ -1,0 +1,123 @@
+# Alias Mappings: Alternate Names → Canonical Slugs
+# Every parenthetical alternate name from the seed file is mapped here,
+# plus other well-known synonyms. When looking up an illusion by name,
+# check this file first to find the canonical report slug.
+
+aliases:
+
+  # --- Geometric / Size / Length ---
+  "Titchener Circles": ebbinghaus-illusion
+  "Munsterberg Illusion": cafe-wall-illusion
+  "Münsterberg Illusion": cafe-wall-illusion
+  "Twisted Cord Illusion": fraser-spiral-illusion
+  "False Spiral": fraser-spiral-illusion
+  "Filled Space Illusion": oppel-kundt-illusion
+  "Irradiation Illusion": helmholtz-illusion
+  "Titchener's Illusion": ebbinghaus-illusion
+
+  # --- Brightness / Lightness / Contrast ---
+  "Adelson's Illusion": checker-shadow-illusion
+  "Craik-O'Brien-Cornsweet Illusion": cornsweet-illusion
+  "Craik-Cornsweet-O'Brien Effect": cornsweet-illusion
+  "Munker-White Illusion": munker-illusion
+  "Luminosity Illusion": glare-effect
+
+  # --- Color ---
+  "Negative Afterimage": color-afterimage
+  "Benham's Disk": benhams-top
+  "Neon Flanks": neon-color-spreading
+  "Retinex Illusion": land-effect
+  "Pinna's Watercolor Effect": watercolor-illusion
+
+  # --- Motion / Movement ---
+  "Kitaoka": rotating-snakes-illusion
+  "Waterfall Illusion": motion-aftereffect
+  "Beta Movement": apparent-motion
+  "Bonneh's Illusion": motion-induced-blindness
+  "Stroboscopic Effect": wagon-wheel-effect
+  "Spinning Dancer": silhouette-illusion
+  "Silhouette Illusion": silhouette-illusion
+  "Leviant": enigma-illusion
+  "Pac-Man Illusion": lilac-chaser
+  "Stopped Clock Illusion": chronostasis
+
+  # --- Ambiguous / Bistable / Multistable ---
+  "Figure-Ground Vase": rubins-vase
+  "Boring's Illusion": my-wife-and-my-mother-in-law
+  "Hill's Illusion": my-wife-and-my-mother-in-law
+  "Sugihara": ambiguous-cylinder-illusion
+
+  # --- Impossible Objects / Paradox ---
+  "Penrose Tribar": penrose-triangle
+  "Reutersvärd Triangle": penrose-triangle
+  "Reutersvard Triangle": penrose-triangle
+  "Impossible Staircase": penrose-stairs
+  "Escher's Cube": impossible-cube
+  "Blivet": impossible-trident
+  "Devil's Tuning Fork": impossible-trident
+
+  # --- Depth / 3D / Stereoscopic ---
+  "Magic Eye": autostereogram
+  "Single-Image Stereogram": autostereogram
+  "Julesz": random-dot-stereogram
+  "Concave Face Illusion": hollow-face-illusion
+  "Ames Trapezoid": ames-window
+  "Concave/Convex Illusion": crater-illusion
+  "Anamorphic Art": anamorphosis
+  "Hollow Column": pyramid-of-giza-illusion
+
+  # --- Aftereffect / Adaptation ---
+  "Kohler and Wallach": figural-aftereffect
+  "Köhler and Wallach": figural-aftereffect
+  "Troxler Effect": troxlers-fading
+  "Flashed Face Distortion": face-distortion-effect
+  "Afterimage Gestalt": darwin-illusion
+
+  # --- Contour / Shape / Completion ---
+  "Illusory Contours": kanizsa-triangle
+  "Subjective Contours": illusory-contours
+  "16 Circles": coffer-illusion
+  "Dalmatian Dog": hidden-figure
+
+  # --- Atmospheric / Natural ---
+  "Anti-Twilight Arch": belt-of-venus
+  "Parhelion": sun-dog
+  "Magnetic Hill": gravity-hill
+  "Jacob's Ladder": crepuscular-rays
+
+  # --- Pareidolia / Pattern Recognition ---
+  "Gaze Following": mona-lisa-illusion
+
+  # --- Op Art / Artistic ---
+  "Shadow Knitting": illusion-knitting
+
+  # --- Cognitive / Higher-Order ---
+  "Audio-Visual": mcgurk-effect
+
+  # --- Miscellaneous / Specialized ---
+  "Sampling Artifact Illusion": aliasing
+  "Thompson's Inverted Face": thatcher-illusion
+  "Oliva & Schyns": hybrid-images
+
+  # --- Cross-entry synonyms (same phenomenon, different seed entries) ---
+  "Positive Afterimage": color-afterimage
+  "Negative Photo Illusion": color-afterimage
+  "Young Girl / Old Woman": my-wife-and-my-mother-in-law
+  "Margaret Thatcher Illusion": thatcher-illusion
+  "Boring's Figure": my-wife-and-my-mother-in-law
+  "Spinning Dancer (Silhouette Illusion)": silhouette-illusion
+  "Irradiation Illusion (seed: Brightness)": helmholtz-illusion
+  "Von Bezold Spreading Effect": bezold-effect
+  "Beta Movement (seed: Persistence)": apparent-motion
+  "Apparent Motion (seed: Persistence)": apparent-motion
+  "Stroboscopic Effect (seed: Persistence)": wagon-wheel-effect
+  "Flash-Lag Effect (seed: Persistence)": flash-lag-illusion
+  "Chronostasis (seed: Persistence)": chronostasis
+  "Neon Color Spreading (seed: Contour)": neon-color-spreading
+  "Anamorphic Street Art (seed: Op Art)": anamorphic-street-art
+  "Moiré Patterns (seed: Op Art)": moire-pattern-illusion
+  "Flashed Face Distortion Effect (seed: Misc)": face-distortion-effect
+  "Leaning Tower Illusion (seed: Misc)": leaning-tower-illusion
+  "Autokinetic Effect (seed: Misc)": autokinetic-effect
+  "Hollow-Face Illusion (seed: Pareidolia)": hollow-face-illusion
+  "Rotating Mask Illusion": hollow-face-illusion

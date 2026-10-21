@@ -1,0 +1,695 @@
+{
+  "changes": [
+    {
+      "key": "composition/effect/MTK_STROKE_VOLT~1",
+      "name": "WIDTH",
+      "before": 0.1824253046787227,
+      "after": 1.8444618133272657,
+      "source": "original Feedback Machine saved value",
+      "readback": 1.8444618133272657,
+      "verified": true
+    },
+    {
+      "key": "composition/effect/MTK_STROKE_VOLT~1",
+      "name": "RGBMOD_SPEED",
+      "before": 0.0267525866572923,
+      "after": 0.4694094114665744,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.4694094114665744,
+      "verified": true
+    },
+    {
+      "key": "composition/effect/MTK_STROKE_VOLT~1",
+      "name": "OFFSET",
+      "before": 0.001775825041349241,
+      "after": 0.0018463382262056001,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.0018463382262056,
+      "verified": true
+    },
+    {
+      "key": "composition/effect/MTK_STROKE_VOLT~1",
+      "name": "FEEDBACK",
+      "before": 0.6101660066440627,
+      "after": 0.643692055347096,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.643692055347096,
+      "verified": true
+    },
+    {
+      "key": "composition/effect/MTK_STROKE_VOLT~1",
+      "name": "SOFTEN(0=OFF)",
+      "before": 0.1053505191006258,
+      "after": 0.30000001192092896,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.30000001192092896,
+      "verified": true
+    },
+    {
+      "key": "composition/effect/MTK_STROKE_VOLT~1",
+      "name": "SPHERIZE",
+      "before": false,
+      "after": false,
+      "source": "original Feedback Machine saved value",
+      "readback": false,
+      "verified": true
+    },
+    {
+      "key": "composition/effect/MTK_PXLMELT~1",
+      "name": "DENSITY",
+      "before": 0.03621753496174125,
+      "after": 0.9900000095367432,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.9900000095367432,
+      "verified": true
+    },
+    {
+      "key": "composition/effect/MTK_PXLMELT~1",
+      "name": "TIMESTRETCH",
+      "before": 0.01508299132707671,
+      "after": 0.20000000298023224,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.20000000298023224,
+      "verified": true
+    },
+    {
+      "key": "composition/effect/MTK_PXLMELT~1",
+      "name": "FADETIME",
+      "before": 0.0267525866572923,
+      "after": 1.0,
+      "source": "original Feedback Machine saved value",
+      "readback": 1.0,
+      "verified": true
+    },
+    {
+      "key": "composition/effect/HueRotate~1",
+      "name": "Hue Rotate",
+      "before": 0.0267525866572923,
+      "after": 0.47245875625106487,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.47245875625106487,
+      "verified": true
+    },
+    {
+      "key": "composition/effect/mtk_lut_corrupt~1",
+      "name": "IN_WHITE",
+      "before": 0.0267525866572923,
+      "after": 0.11016497499892557,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.11016497499892557,
+      "verified": true
+    },
+    {
+      "key": "composition/effect/mtk_lut_corrupt~1",
+      "name": "OUT_WHITE",
+      "before": 0.0267525866572923,
+      "after": 0.6501178392858793,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.6501178392858793,
+      "verified": true
+    },
+    {
+      "key": "composition/effect/mtk_lut_corrupt~1",
+      "name": "IN BLACK",
+      "before": 0.0267525866572923,
+      "after": 0.6864386250022176,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.6864386250022176,
+      "verified": true
+    },
+    {
+      "key": "composition/effect/mtk_lut_corrupt~1",
+      "name": "OUT BLACK",
+      "before": 0.0267525866572923,
+      "after": 0.8116019134609428,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.8116019134609428,
+      "verified": true
+    },
+    {
+      "key": "composition/effect/ColourLoop~1",
+      "name": "Factor",
+      "before": 0.0267525866572923,
+      "after": 0.41950956038903875,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.4195095603890387,
+      "verified": true
+    },
+    {
+      "key": "composition/effect/ColourLoop~1",
+      "name": "Offset",
+      "before": 0.0267525866572923,
+      "after": 0.18839808653904605,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.18839808653904605,
+      "verified": true
+    },
+    {
+      "key": "composition/effect/ColourLoop~1",
+      "name": "Red offset",
+      "before": 0.0267525866572923,
+      "after": 0.8130941496555285,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.8130941496555285,
+      "verified": true
+    },
+    {
+      "key": "composition/effect/ColourLoop~1",
+      "name": "Green offset",
+      "before": 0.0267525866572923,
+      "after": 0.1525905935630703,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.1525905935630703,
+      "verified": true
+    },
+    {
+      "key": "composition/effect/ColourLoop~1",
+      "name": "Blue offset",
+      "before": 0.0267525866572923,
+      "after": 0.014859987319111534,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.014859987319111534,
+      "verified": true
+    },
+    {
+      "key": "composition/effect/TwitchEffect~1",
+      "name": "Max Pos X",
+      "before": 0.0267525866572923,
+      "after": 0.024926073197629517,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.024926073197629517,
+      "verified": true
+    },
+    {
+      "key": "composition/effect/TwitchEffect~1",
+      "name": "Max Pos Y",
+      "before": 0.0267525866572923,
+      "after": 0.017825203145889038,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.017825203145889038,
+      "verified": true
+    },
+    {
+      "key": "composition/effect/TwitchEffect~1",
+      "name": "Pos Frequency",
+      "before": 0.0267525866572923,
+      "after": 0.6806083650190115,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.6806083650190115,
+      "verified": true
+    },
+    {
+      "key": "composition/effect/TwitchEffect~1",
+      "name": "Max Scale",
+      "before": 0.0267525866572923,
+      "after": 0.2767215627227899,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.2767215627227899,
+      "verified": true
+    },
+    {
+      "key": "composition/effect/TwitchEffect~1",
+      "name": "Scale Frequency",
+      "before": 0.0267525866572923,
+      "after": 0.646810321300202,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.646810321300202,
+      "verified": true
+    },
+    {
+      "key": "composition/effect/TwitchEffect~1",
+      "name": "Max Light",
+      "before": 0.0267525866572923,
+      "after": 0.28010141350923834,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.28010141350923834,
+      "verified": true
+    },
+    {
+      "key": "composition/effect/TwitchEffect~1",
+      "name": "Max RGB Shift",
+      "before": 0.0267525866572923,
+      "after": 0.36290662642214233,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.36290662642214233,
+      "verified": true
+    },
+    {
+      "key": "composition/effect/TwitchEffect~1",
+      "name": "RGB Frequency",
+      "before": 0.0267525866572923,
+      "after": 0.5758344410943441,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.5758344410943441,
+      "verified": true
+    },
+    {
+      "key": "composition/effect/TwitchEffect~1",
+      "name": "Max Blur",
+      "before": 0.0267525866572923,
+      "after": 0.35769473805147056,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.35769473805147056,
+      "verified": true
+    },
+    {
+      "key": "composition/effect/TwitchEffect~1",
+      "name": "Blur Frequency",
+      "before": 0.0267525866572923,
+      "after": 0.15166876615226949,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.15166876615226949,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/RadialCloner~1",
+      "name": "Clones",
+      "before": 2.0,
+      "after": 2.415072941044879,
+      "source": "original Feedback Machine saved value",
+      "readback": 2.415072941044879,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/RadialCloner~1",
+      "name": "Start Radius",
+      "before": 0.0267525866572923,
+      "after": 0.012016502078386613,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.012016502078386612,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/RadialCloner~1",
+      "name": "Start Scale",
+      "before": 2.67525866572923,
+      "after": 67.59870673889267,
+      "source": "original Feedback Machine saved value",
+      "readback": 67.59870673889267,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/RadialCloner~1",
+      "name": "Start Rotation",
+      "before": -170.36906880337477,
+      "after": -21.6503162865026,
+      "source": "original Feedback Machine saved value",
+      "readback": -21.6503162865026,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/RadialCloner~1",
+      "name": "End Radius",
+      "before": 0.0267525866572923,
+      "after": 0.3760170676797574,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.3760170676797574,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/RadialCloner~1",
+      "name": "End Scale",
+      "before": 2.67525866572923,
+      "after": 63.51102994882033,
+      "source": "original Feedback Machine saved value",
+      "readback": 63.51102994882033,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/RadialCloner~1",
+      "name": "End Rotation",
+      "before": 9.630931196625228,
+      "after": 144.0248605169343,
+      "source": "original Feedback Machine saved value",
+      "readback": 144.0248605169343,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/RadialCloner~1",
+      "name": "Fan",
+      "before": 2.67525866572923,
+      "after": 47.28088855353906,
+      "source": "original Feedback Machine saved value",
+      "readback": 47.28088855353906,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/RadialCloner~1",
+      "name": "Fan Offset",
+      "before": 2.67525866572923,
+      "after": 35.59259763604158,
+      "source": "original Feedback Machine saved value",
+      "readback": 35.59259763604158,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/RadialCloner~1",
+      "name": "Master Rotation",
+      "before": -170.36906880337477,
+      "after": 1.544999999999959,
+      "source": "original Feedback Machine saved value",
+      "readback": 1.544999999999959,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/RadialCloner~1",
+      "name": "Delay Enabled",
+      "before": true,
+      "after": true,
+      "source": "original Feedback Machine saved value",
+      "readback": true,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/RadialCloner~1",
+      "name": "Delay Amount",
+      "before": 0.0267525866572923,
+      "after": 1.0,
+      "source": "original Feedback Machine saved value",
+      "readback": 1.0,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/RadialCloner~1",
+      "name": "Delay Order",
+      "before": "Bounce",
+      "after": "Bounce",
+      "source": "original Feedback Machine saved value",
+      "readback": "Bounce",
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/RadialCloner~1",
+      "name": "Delay Fill",
+      "before": "Transparent",
+      "after": "Transparent",
+      "source": "original Feedback Machine saved value",
+      "readback": "Transparent",
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/Iterate~1",
+      "name": "TransformStrength",
+      "before": 0.0267525866572923,
+      "after": 0.0,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.0,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/Iterate~1",
+      "name": "Iterations",
+      "before": 0.0267525866572923,
+      "after": 0.2054355539006295,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.2054355539006295,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/Iterate~1",
+      "name": "OpacityChange",
+      "before": 0.0267525866572923,
+      "after": 1.0,
+      "source": "original Feedback Machine saved value",
+      "readback": 1.0,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/Iterate~1",
+      "name": "TranslateX",
+      "before": 0.0267525866572923,
+      "after": 0.7176081531250091,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.7176081531250091,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/Iterate~1",
+      "name": "TranslateY",
+      "before": 0.0267525866572923,
+      "after": 0.5116078163416385,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.5116078163416385,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/Iterate~1",
+      "name": "TranslateZ",
+      "before": 0.0267525866572923,
+      "after": 0.46296221586984676,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.4629622158698467,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/Iterate~1",
+      "name": "RotateX",
+      "before": 0.0267525866572923,
+      "after": 0.4561082722004065,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.4561082722004065,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/Iterate~1",
+      "name": "RotateY",
+      "before": 0.0267525866572923,
+      "after": 0.5031987755377441,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.5031987755377441,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/Iterate~1",
+      "name": "RotateZ",
+      "before": 0.0267525866572923,
+      "after": 0.7016285610795399,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.7016285610795399,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/Iterate~1",
+      "name": "Scale",
+      "before": 0.0267525866572923,
+      "after": 0.7520888170008196,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.7520888170008196,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/Iterate~1",
+      "name": "DOpacityChange",
+      "before": 0.0267525866572923,
+      "after": 1.0,
+      "source": "original Feedback Machine saved value",
+      "readback": 1.0,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/Iterate~1",
+      "name": "DTranslateX",
+      "before": 0.0267525866572923,
+      "after": 0.6440740236395504,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.6440740236395504,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/Iterate~1",
+      "name": "DTranslateY",
+      "before": 0.0267525866572923,
+      "after": 0.445854928494581,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.445854928494581,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/Iterate~1",
+      "name": "DTranslateZ",
+      "before": 0.0267525866572923,
+      "after": 0.25701460844437496,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.25701460844437496,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/Iterate~1",
+      "name": "DRotateX",
+      "before": 0.0267525866572923,
+      "after": 0.5999309430085626,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.5999309430085626,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/Iterate~1",
+      "name": "DRotateY",
+      "before": 0.0267525866572923,
+      "after": 0.8001381139829683,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.8001381139829683,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/Iterate~1",
+      "name": "DRotateZ",
+      "before": 0.0267525866572923,
+      "after": 0.45511809943540454,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.45511809943540454,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/Iterate~1",
+      "name": "DScale",
+      "before": 0.0267525866572923,
+      "after": 0.5059239047557772,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.5059239047557772,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/Iterate~1",
+      "name": "BlendMode",
+      "before": 0.0267525866572923,
+      "after": 0.480416057778777,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.480416057778777,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/Iterate~1",
+      "name": "GRotateX",
+      "before": 0.0267525866572923,
+      "after": 0.0,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.0,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/Iterate~1",
+      "name": "GRotateY",
+      "before": 0.0267525866572923,
+      "after": 0.0,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.0,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/Iterate~1",
+      "name": "GRotateZ",
+      "before": 0.0267525866572923,
+      "after": 0.0,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.0,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/Displace~1",
+      "name": "X factor",
+      "before": 0.0267525866572923,
+      "after": 0.3848794933659369,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.3848794933659369,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/Displace~1",
+      "name": "Y factor",
+      "before": 0.0267525866572923,
+      "after": 0.1991931027513674,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.1991931027513674,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/InfiniteZoom~1",
+      "name": "Zoom",
+      "before": -0.1892989653370831,
+      "after": 0.01587302694515308,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.01587302694515308,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/InfiniteZoom~1",
+      "name": "Range",
+      "before": 0.535051733145846,
+      "after": 1.0093610714643428,
+      "source": "original Feedback Machine saved value",
+      "readback": 1.0093610714643428,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/InfiniteZoom~1",
+      "name": "Alpha",
+      "before": 0.0267525866572923,
+      "after": 0.7387386837521115,
+      "source": "original Feedback Machine saved value",
+      "readback": 0.7387386837521115,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/InfiniteZoom~1",
+      "name": "Num Slices",
+      "before": 2.7490724264041844,
+      "after": 7.482283308699324,
+      "source": "original Feedback Machine saved value",
+      "readback": 7.482283308699324,
+      "verified": true
+    },
+    {
+      "key": "composition/effect/HueRotate~1",
+      "name": "Hue Scale",
+      "before": 0.0267525866572923,
+      "after": 1.0,
+      "source": "native factory reset readback",
+      "readback": 1.0,
+      "verified": true
+    },
+    {
+      "key": "composition/effect/HueRotate~1",
+      "name": "Sat. Scale",
+      "before": 0.0267525866572923,
+      "after": 0.5,
+      "source": "native factory reset readback",
+      "readback": 0.5,
+      "verified": true
+    },
+    {
+      "key": "composition/effect/TwitchEffect~1",
+      "name": "Global Twitch",
+      "before": 0.0267525866572923,
+      "after": 1.0,
+      "source": "native factory reset readback",
+      "readback": 1.0,
+      "verified": true
+    },
+    {
+      "key": "composition/effect/MTK_STROKE_VOLT~1",
+      "name": "VOLTMIX",
+      "before": 0.0267525866572923,
+      "after": 1.0,
+      "source": "native factory reset readback",
+      "readback": 1.0,
+      "verified": true
+    },
+    {
+      "key": "layer/figure~1/effect/Iterate~1",
+      "name": "StartOpacity",
+      "before": 0.0267525866572923,
+      "after": 1.0,
+      "source": "native factory reset readback",
+      "readback": 1.0,
+      "verified": true
+    }
+  ],
+  "skipped": [
+    [
+      "composition/effect/mtk_lut_corrupt~1",
+      "LUT_CORRUPT_R",
+      "unmatched choice"
+    ]
+  ]
+}

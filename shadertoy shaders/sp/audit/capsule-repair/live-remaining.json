@@ -1,0 +1,62 @@
+[
+  {
+    "recovered": [
+      {
+        "name": "Turn",
+        "want": 0.0,
+        "actual": 0.0
+      },
+      {
+        "name": "Outline",
+        "want": 0.0,
+        "actual": 0.0
+      },
+      {
+        "name": "Material",
+        "want": 0.65,
+        "actual": 0.65
+      },
+      {
+        "name": "Float",
+        "want": 0.15,
+        "actual": 0.15
+      },
+      {
+        "name": "Tilt",
+        "want": 0.5,
+        "actual": 0.5
+      }
+    ],
+    "source": "Heart Capsule",
+    "checks": [
+      {
+        "name": "Turn",
+        "want": 0.0,
+        "actual": 0.0
+      },
+      {
+        "name": "Outline",
+        "want": 0.0,
+        "actual": 0.0
+      },
+      {
+        "name": "Material",
+        "want": 0.65,
+        "actual": 0.65
+      },
+      {
+        "name": "Float",
+        "want": 0.15,
+        "actual": 0.15000000000000002
+      },
+      {
+        "name": "Tilt",
+        "want": 0.5,
+        "actual": 0.5
+      }
+    ],
+    "opened": 5,
+    "rest_drives": 0,
+    "effects_on": []
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "id": "wXsfDf",
+  "name": "quantum computer",
+  "username": "orblivius",
+  "description": "quantum computer",
+  "tags": [
+    "rgb",
+    "glow"
+  ],
+  "date": "1761996470",
+  "viewed": 81,
+  "likes": 4,
+  "published": 3,
+  "renderpass": [
+    {
+      "type": "image",
+      "name": "Image",
+      "inputs": [],
+      "outputs": [
+        {
+          "id": "4dfGRr",
+          "channel": 0
+        }
+      ],
+      "code": "// Shamelessly stolen from: \n// https://neort.io/art/c4oui2s3p9ffolj084vg?index=324&origin=tag\n// But it is so .. beautiful i can't help it! ;)\n\nuniform vec2 resolution;\nuniform float time;\nuniform vec2 mouse;\nuniform sampler2D backbuffer;\n\n#define t iTime\n#define r iResolution.xy\n#define FC fragCoord\n#define o fragColor\n\nvec3 hsv(float h, float s, float v) {\n    vec4 a = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\n    vec3 p = abs(fract(vec3(h) + a.xyz) * 6.0 - vec3(a.w));\n    return v * mix(vec3(a.x), clamp(p - vec3(a.x), 0.0, 1.0), s);\n}\n\nmat3 rotate3D(float angle, vec3 axis){\n    vec3 a = normalize(axis);\n    float s = sin(angle);\n    float c = cos(angle);\n    float rr = 1.0 - c;\n    return mat3(\n        a.x * a.x * rr + c,\n        a.y * a.x * rr + a.z * s,\n        a.z * a.x * rr - a.y * s,\n        a.x * a.y * rr - a.z * s,\n        a.y * a.y * rr + c,\n        a.z * a.y * rr + a.x * s,\n        a.x * a.z * rr + a.y * s,\n        a.y * a.z * rr - a.x * s,\n        a.z * a.z * rr + c\n    );\n}\n\n\nvoid mainImage( out vec4 fragColor, in vec2 fragCoord ) {\n    vec3 P,Q,S;\n    P.z=9.;\n    float d=1.,a;\n    for(int i=0;i<99;i++){\n        if(d<1e-4)break;\n        Q=S=P*rotate3D(t,vec3(1,0,1));\n        a=1.;\n        for(int j=0;j<9;j++){\n            Q=2.*clamp(Q,-.6,.6)-Q;\n            d=clamp(dot(Q,Q),.1,1.)*.5;\n            Q=Q/d+S;\n            a=a/d+abs(cos(iTime))/d;\n        }\n        d=(length(Q)-9.)/a;\n        P+=vec3((FC.xy-r*.5)/r.y,-1)*d;\n        o.rgb+=max(0.17-d*d,0.0001)*hsv(dot(P,P)*.03,.8,min(a,4e4)*3e-5);\n     \n    }\n  \n}\n"
+    }
+  ]
+}

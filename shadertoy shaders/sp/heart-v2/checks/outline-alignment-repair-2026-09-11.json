@@ -1,0 +1,21 @@
+{
+  "layer_id": 1789004680002,
+  "layer": "Portal \u00b7 outline",
+  "reason": "Live resolution differed from saved composition and matching stage layers; mask Resize is Fit. Restore saved 1920x720 while retaining group 200% transform.",
+  "saved_reference": "checks/Heart Before Movement Test.avc",
+  "changes": [
+    {
+      "id": 1789181905917,
+      "before": 3840.0,
+      "after": 1920.0,
+      "expected": 1920
+    },
+    {
+      "id": 1789181905918,
+      "before": 1440.0,
+      "after": 720.0,
+      "expected": 720
+    }
+  ],
+  "saved_composition_file": false
+}

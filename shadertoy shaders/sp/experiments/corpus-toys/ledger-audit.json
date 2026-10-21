@@ -1,0 +1,3263 @@
+{
+  "audited_at_utc": "2026-09-09T13:52:43.045823+00:00",
+  "ledger_path": "/Users/donovan/work/0000000/mind not map/2.structure-maintains-order/21.labor-installs-practice/211.motion-builds-form/toy-ledger.data.json",
+  "ledger_sha256": "30776b4b8f4af6ec132e0249dad8bf4f660d01369a6148b157ebe4fb7f073181",
+  "ledger_summary": {
+    "updated": "20260713-095403",
+    "confirmed": 99,
+    "total": 147,
+    "queued": 33
+  },
+  "actual_status_counts": {
+    "confirmed": 99,
+    "rejected": 1,
+    "fix": 5,
+    "pending": 9,
+    "queued": 33
+  },
+  "shelf_html_toys": 113,
+  "mirror_html_toys": 113,
+  "canonical_present": 114,
+  "mirror_present": 114,
+  "matching_mirrors": 114,
+  "different_mirrors": [],
+  "missing_canonical_by_status": {
+    "confirmed": [],
+    "fix": [],
+    "pending": [],
+    "queued": [
+      "log-ear",
+      "the-criterion",
+      "power-law",
+      "the-anchor",
+      "the-fold",
+      "the-junction",
+      "the-curve",
+      "the-mask",
+      "horizon-moon",
+      "the-chair",
+      "afterglow",
+      "the-saddle",
+      "the-orbit",
+      "bayes-update",
+      "markov-walk",
+      "fourier-pair",
+      "entropy-meter",
+      "convex-hull",
+      "voronoi",
+      "curvature-flow",
+      "trefoil",
+      "tiling",
+      "doppler",
+      "damping",
+      "phase-portrait",
+      "bernoulli",
+      "diffusion",
+      "carnot",
+      "prisoners",
+      "schelling",
+      "pid",
+      "cascade"
+    ],
+    "rejected": [
+      "wagon-wheel"
+    ]
+  },
+  "queued_but_present": [
+    "slack"
+  ],
+  "untracked_shelf": [],
+  "untracked_mirror": [],
+  "shelf_only": [],
+  "mirror_only": [],
+  "duplicate_ledger_paths": [
+    "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/slack.html"
+  ],
+  "rows": [
+    {
+      "name": "aliasing",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/aliasing.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-125641",
+      "vein": "built",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/aliasing.html",
+      "mirror_path": "/Users/donovan/work/toys/aliasing.html",
+      "canonical_sha256": "aa1d66653b3afd41b10d539e2efdccb2dadf5b1e371e645b99f8241c4640ef5f",
+      "mirror_sha256": "aa1d66653b3afd41b10d539e2efdccb2dadf5b1e371e645b99f8241c4640ef5f",
+      "mirror_match": true
+    },
+    {
+      "name": "anorthoscope",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/anorthoscope.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-140703",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/anorthoscope.html",
+      "mirror_path": "/Users/donovan/work/toys/anorthoscope.html",
+      "canonical_sha256": "fae5b417d1570e2482a2827423e98ff0deac1c944eb62b523816c6f73e89c218",
+      "mirror_sha256": "fae5b417d1570e2482a2827423e98ff0deac1c944eb62b523816c6f73e89c218",
+      "mirror_match": true
+    },
+    {
+      "name": "apparent-motion",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/apparent-motion.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-140708",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/apparent-motion.html",
+      "mirror_path": "/Users/donovan/work/toys/apparent-motion.html",
+      "canonical_sha256": "45ea8ebd66e3c5b7df1de827963296bccc573cf83d1700e58618c1c160388dc2",
+      "mirror_sha256": "45ea8ebd66e3c5b7df1de827963296bccc573cf83d1700e58618c1c160388dc2",
+      "mirror_match": true
+    },
+    {
+      "name": "baldwin",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/baldwin.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-140713",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/baldwin.html",
+      "mirror_path": "/Users/donovan/work/toys/baldwin.html",
+      "canonical_sha256": "525f65860ea6aac33039b446e682e4b90f1a61d18d53c8a7ed1e0b32e7d7fe4a",
+      "mirror_sha256": "525f65860ea6aac33039b446e682e4b90f1a61d18d53c8a7ed1e0b32e7d7fe4a",
+      "mirror_match": true
+    },
+    {
+      "name": "barberpole",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/barberpole.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-140717",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/barberpole.html",
+      "mirror_path": "/Users/donovan/work/toys/barberpole.html",
+      "canonical_sha256": "fc83848a48977da7087dd2e41f3aa4827ce454dc128b0745384c31e05df89fb1",
+      "mirror_sha256": "fc83848a48977da7087dd2e41f3aa4827ce454dc128b0745384c31e05df89fb1",
+      "mirror_match": true
+    },
+    {
+      "name": "base-shift",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/base-shift.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-140747",
+      "vein": "built",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/base-shift.html",
+      "mirror_path": "/Users/donovan/work/toys/base-shift.html",
+      "canonical_sha256": "5cf7fb587912669c6058774b7c2d2fab5d66168cf64349f84a5058e5942f5161",
+      "mirror_sha256": "5cf7fb587912669c6058774b7c2d2fab5d66168cf64349f84a5058e5942f5161",
+      "mirror_match": true
+    },
+    {
+      "name": "benary-cross",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/benary-cross.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-140759",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/benary-cross.html",
+      "mirror_path": "/Users/donovan/work/toys/benary-cross.html",
+      "canonical_sha256": "2f439092afb9e0c7c5d5526863a57ebe7e6d07ab2b66a1549a0b2e4ea75adc15",
+      "mirror_sha256": "2f439092afb9e0c7c5d5526863a57ebe7e6d07ab2b66a1549a0b2e4ea75adc15",
+      "mirror_match": true
+    },
+    {
+      "name": "best-fraction",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/best-fraction.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-140810",
+      "vein": "built",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/best-fraction.html",
+      "mirror_path": "/Users/donovan/work/toys/best-fraction.html",
+      "canonical_sha256": "ceb78476f6c9b043443ed06790020e562bbcb3e94f26ad077f8afccb4a329846",
+      "mirror_sha256": "ceb78476f6c9b043443ed06790020e562bbcb3e94f26ad077f8afccb4a329846",
+      "mirror_match": true
+    },
+    {
+      "name": "blink",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/blink.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-142126",
+      "vein": "traffic & concurrency",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/blink.html",
+      "mirror_path": "/Users/donovan/work/toys/blink.html",
+      "canonical_sha256": "c9292eca7c840c287aec5defbe158b14c5f574ab4c3cd92cae0a8fdb0e2d50eb",
+      "mirror_sha256": "c9292eca7c840c287aec5defbe158b14c5f574ab4c3cd92cae0a8fdb0e2d50eb",
+      "mirror_match": true
+    },
+    {
+      "name": "cafe-wall",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/cafe-wall.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-140839",
+      "vein": "from the illusions vein",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/cafe-wall.html",
+      "mirror_path": "/Users/donovan/work/toys/cafe-wall.html",
+      "canonical_sha256": "26e125179c2526c4095dc8d72ca66dc8015e261cd2d8d7461edb06c3ba3cf950",
+      "mirror_sha256": "26e125179c2526c4095dc8d72ca66dc8015e261cd2d8d7461edb06c3ba3cf950",
+      "mirror_match": true
+    },
+    {
+      "name": "cast-and-spread",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/cast-and-spread.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-140840",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/cast-and-spread.html",
+      "mirror_path": "/Users/donovan/work/toys/cast-and-spread.html",
+      "canonical_sha256": "b323a4b1f039d366790d3b1c8df9202f7dcca90897d2a6ed0f325e02e270abbe",
+      "mirror_sha256": "b323a4b1f039d366790d3b1c8df9202f7dcca90897d2a6ed0f325e02e270abbe",
+      "mirror_match": true
+    },
+    {
+      "name": "checker-shadow",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/checker-shadow.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-140852",
+      "vein": "from the illusions vein",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/checker-shadow.html",
+      "mirror_path": "/Users/donovan/work/toys/checker-shadow.html",
+      "canonical_sha256": "898aadd309aee30db7c7eb7781c266990368c90a73c7cc88db78564c87b88d6e",
+      "mirror_sha256": "898aadd309aee30db7c7eb7781c266990368c90a73c7cc88db78564c87b88d6e",
+      "mirror_match": true
+    },
+    {
+      "name": "chevreul",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/chevreul.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-142133",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/chevreul.html",
+      "mirror_path": "/Users/donovan/work/toys/chevreul.html",
+      "canonical_sha256": "23fc74d0fb40eb148585d68dc81c51f3fb854aaa5e2a44599e044a2fb9eaffb6",
+      "mirror_sha256": "23fc74d0fb40eb148585d68dc81c51f3fb854aaa5e2a44599e044a2fb9eaffb6",
+      "mirror_match": true
+    },
+    {
+      "name": "chubb",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/chubb.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-142142",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/chubb.html",
+      "mirror_path": "/Users/donovan/work/toys/chubb.html",
+      "canonical_sha256": "4aaa697e7011a42ba7aac6e41b78e87db5a8d7ea46b3416504c1a42cfb2ce51a",
+      "mirror_sha256": "4aaa697e7011a42ba7aac6e41b78e87db5a8d7ea46b3416504c1a42cfb2ce51a",
+      "mirror_match": true
+    },
+    {
+      "name": "cornsweet",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/cornsweet.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-142148",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/cornsweet.html",
+      "mirror_path": "/Users/donovan/work/toys/cornsweet.html",
+      "canonical_sha256": "f1f8e00169ef21eb4d9bc3c4f945979c27c8ac76f7507761d386ac02ed56bbbb",
+      "mirror_sha256": "f1f8e00169ef21eb4d9bc3c4f945979c27c8ac76f7507761d386ac02ed56bbbb",
+      "mirror_match": true
+    },
+    {
+      "name": "corridor",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/corridor.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-142227",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/corridor.html",
+      "mirror_path": "/Users/donovan/work/toys/corridor.html",
+      "canonical_sha256": "eab9fcd232ac09be57a020ab88adc4f703ef74b84b0608cbecbbab2d342d09c6",
+      "mirror_sha256": "eab9fcd232ac09be57a020ab88adc4f703ef74b84b0608cbecbbab2d342d09c6",
+      "mirror_match": true
+    },
+    {
+      "name": "cross-ratio",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/cross-ratio.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-142237",
+      "vein": "built",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/cross-ratio.html",
+      "mirror_path": "/Users/donovan/work/toys/cross-ratio.html",
+      "canonical_sha256": "93ad24d85eaab747738e733a8247366c90fb70aa97561dcdce654358b6227572",
+      "mirror_sha256": "93ad24d85eaab747738e733a8247366c90fb70aa97561dcdce654358b6227572",
+      "mirror_match": true
+    },
+    {
+      "name": "dart-area",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/dart-area.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-142242",
+      "vein": "signal & measure",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/dart-area.html",
+      "mirror_path": "/Users/donovan/work/toys/dart-area.html",
+      "canonical_sha256": "f5a9e3f616f74f21bd110ff1cc74359ad9e60e4169b9af0f4e2ea942a1354b02",
+      "mirror_sha256": "f5a9e3f616f74f21bd110ff1cc74359ad9e60e4169b9af0f4e2ea942a1354b02",
+      "mirror_match": true
+    },
+    {
+      "name": "delboeuf",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/delboeuf.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-142247",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/delboeuf.html",
+      "mirror_path": "/Users/donovan/work/toys/delboeuf.html",
+      "canonical_sha256": "2fa8e3a133990ca2c8716a6d0de704f1de9eb30c0388a5976297901b65d29aa9",
+      "mirror_sha256": "2fa8e3a133990ca2c8716a6d0de704f1de9eb30c0388a5976297901b65d29aa9",
+      "mirror_match": true
+    },
+    {
+      "name": "disc-size",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/disc-size.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-142251",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/disc-size.html",
+      "mirror_path": "/Users/donovan/work/toys/disc-size.html",
+      "canonical_sha256": "d6756ad6ff7fd9597a8b85eccfaec7ddb28fe0c4013e688d9f77afd449aa7a70",
+      "mirror_sha256": "d6756ad6ff7fd9597a8b85eccfaec7ddb28fe0c4013e688d9f77afd449aa7a70",
+      "mirror_match": true
+    },
+    {
+      "name": "divided-line",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/divided-line.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-142255",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/divided-line.html",
+      "mirror_path": "/Users/donovan/work/toys/divided-line.html",
+      "canonical_sha256": "4b6ad5151a0959221e7b2b68139c7ab980df9e9fef4bfe9db92fb3e25345568f",
+      "mirror_sha256": "4b6ad5151a0959221e7b2b68139c7ab980df9e9fef4bfe9db92fb3e25345568f",
+      "mirror_match": true
+    },
+    {
+      "name": "drag",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/drag.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-142347",
+      "vein": "friction & flow dynamics",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/drag.html",
+      "mirror_path": "/Users/donovan/work/toys/drag.html",
+      "canonical_sha256": "aca9c0a2eeacb43d20ccb9aa92359ca61134f216f16280c0c168c711dff075c4",
+      "mirror_sha256": "aca9c0a2eeacb43d20ccb9aa92359ca61134f216f16280c0c168c711dff075c4",
+      "mirror_match": true
+    },
+    {
+      "name": "earcons",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/earcons.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "",
+      "vein": "the audio vein",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/earcons.html",
+      "mirror_path": "/Users/donovan/work/toys/earcons.html",
+      "canonical_sha256": "c5fa5d5cebe4a3792d4bc84ad50d2c7065a29415fcc52323c9d0d93b5f849429",
+      "mirror_sha256": "c5fa5d5cebe4a3792d4bc84ad50d2c7065a29415fcc52323c9d0d93b5f849429",
+      "mirror_match": true
+    },
+    {
+      "name": "ebbinghaus",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/ebbinghaus.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-142351",
+      "vein": "from the illusions vein",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/ebbinghaus.html",
+      "mirror_path": "/Users/donovan/work/toys/ebbinghaus.html",
+      "canonical_sha256": "21223a87f7676e47c8f8cb5a9135bd04e33bf50df611a0a60a22537355744d6a",
+      "mirror_sha256": "21223a87f7676e47c8f8cb5a9135bd04e33bf50df611a0a60a22537355744d6a",
+      "mirror_match": true
+    },
+    {
+      "name": "ehrenstein",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/ehrenstein.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-142355",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/ehrenstein.html",
+      "mirror_path": "/Users/donovan/work/toys/ehrenstein.html",
+      "canonical_sha256": "249b2a5573e3d5ce9eac8bac2fe1e76d46c188010df4f9b95a979e6d4ffaf406",
+      "mirror_sha256": "249b2a5573e3d5ce9eac8bac2fe1e76d46c188010df4f9b95a979e6d4ffaf406",
+      "mirror_match": true
+    },
+    {
+      "name": "epicycles",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/epicycles.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-142412",
+      "vein": "built",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/epicycles.html",
+      "mirror_path": "/Users/donovan/work/toys/epicycles.html",
+      "canonical_sha256": "6a48e59d183b15e9e12b2f14a226a1bf8b92492f4f9a885177c3af9ff82978bd",
+      "mirror_sha256": "6a48e59d183b15e9e12b2f14a226a1bf8b92492f4f9a885177c3af9ff82978bd",
+      "mirror_match": true
+    },
+    {
+      "name": "event-stream",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/event-stream.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-144803",
+      "vein": "signal & measure",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/event-stream.html",
+      "mirror_path": "/Users/donovan/work/toys/event-stream.html",
+      "canonical_sha256": "21ce22d7ca1847770347ab31065a036aeedb5205f7228ea411d13cd4e18557dc",
+      "mirror_sha256": "21ce22d7ca1847770347ab31065a036aeedb5205f7228ea411d13cd4e18557dc",
+      "mirror_match": true
+    },
+    {
+      "name": "feedback",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/feedback.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-144822",
+      "vein": "mind & coordination",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/feedback.html",
+      "mirror_path": "/Users/donovan/work/toys/feedback.html",
+      "canonical_sha256": "75e1a5921d1616b604e3eab3ea60ecb7ffd707e619ecb10a64d1b11b1bcac89f",
+      "mirror_sha256": "75e1a5921d1616b604e3eab3ea60ecb7ffd707e619ecb10a64d1b11b1bcac89f",
+      "mirror_match": true
+    },
+    {
+      "name": "fick",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/fick.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-144828",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/fick.html",
+      "mirror_path": "/Users/donovan/work/toys/fick.html",
+      "canonical_sha256": "31522568c771afbde73b867ab59624bfd3550e0c0a580d53a08396235826412c",
+      "mirror_sha256": "31522568c771afbde73b867ab59624bfd3550e0c0a580d53a08396235826412c",
+      "mirror_match": true
+    },
+    {
+      "name": "fraser-spiral",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/fraser-spiral.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-144833",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/fraser-spiral.html",
+      "mirror_path": "/Users/donovan/work/toys/fraser-spiral.html",
+      "canonical_sha256": "092373cde8536af5f1b5c1a8a986d27965f23eae5c90b30189d3ffc6da4c75ca",
+      "mirror_sha256": "092373cde8536af5f1b5c1a8a986d27965f23eae5c90b30189d3ffc6da4c75ca",
+      "mirror_match": true
+    },
+    {
+      "name": "grammar-crank",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/grammar-crank.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-144840",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/grammar-crank.html",
+      "mirror_path": "/Users/donovan/work/toys/grammar-crank.html",
+      "canonical_sha256": "ec775c0f28aa84b6ce9370916ce007e60d728e2a8b9cb35ce3d06d03025823f0",
+      "mirror_sha256": "ec775c0f28aa84b6ce9370916ce007e60d728e2a8b9cb35ce3d06d03025823f0",
+      "mirror_match": true
+    },
+    {
+      "name": "hering",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/hering.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "",
+      "vein": "from the illusions vein",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/hering.html",
+      "mirror_path": "/Users/donovan/work/toys/hering.html",
+      "canonical_sha256": "4b00941c8299400a8b4fc90421e959c9477a13f8772b54da78fc7abf721ae718",
+      "mirror_sha256": "4b00941c8299400a8b4fc90421e959c9477a13f8772b54da78fc7abf721ae718",
+      "mirror_match": true
+    },
+    {
+      "name": "hermann-grid",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/hermann-grid.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-144852",
+      "vein": "from the illusions vein",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/hermann-grid.html",
+      "mirror_path": "/Users/donovan/work/toys/hermann-grid.html",
+      "canonical_sha256": "26ed130bece2b98a322b42d72173147f5a06d60bfe086be864b8b8ae7ddba2fc",
+      "mirror_sha256": "26ed130bece2b98a322b42d72173147f5a06d60bfe086be864b8b8ae7ddba2fc",
+      "mirror_match": true
+    },
+    {
+      "name": "jastrow",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/jastrow.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-144926",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/jastrow.html",
+      "mirror_path": "/Users/donovan/work/toys/jastrow.html",
+      "canonical_sha256": "117947f23938234f303492294c247e3fc394fdce7d2f15d74ddd5b336147b948",
+      "mirror_sha256": "117947f23938234f303492294c247e3fc394fdce7d2f15d74ddd5b336147b948",
+      "mirror_match": true
+    },
+    {
+      "name": "judd",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/judd.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-144930",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/judd.html",
+      "mirror_path": "/Users/donovan/work/toys/judd.html",
+      "canonical_sha256": "b5636cecaf34df66157180b54fa20c33407fd128edde6f103fd212e6f78a9534",
+      "mirror_sha256": "b5636cecaf34df66157180b54fa20c33407fd128edde6f103fd212e6f78a9534",
+      "mirror_match": true
+    },
+    {
+      "name": "kanizsa",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/kanizsa.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-144936",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/kanizsa.html",
+      "mirror_path": "/Users/donovan/work/toys/kanizsa.html",
+      "canonical_sha256": "89d632373ded2f55eecadfc55492abddb695b29e34dcfa920950deb6a92d67e0",
+      "mirror_sha256": "89d632373ded2f55eecadfc55492abddb695b29e34dcfa920950deb6a92d67e0",
+      "mirror_match": true
+    },
+    {
+      "name": "line-motion",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/line-motion.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-144941",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/line-motion.html",
+      "mirror_path": "/Users/donovan/work/toys/line-motion.html",
+      "canonical_sha256": "46617579e1428d72ac1ef0a184bc08930b5fb918fdf7f68d38799d5ac6b7f4f3",
+      "mirror_sha256": "46617579e1428d72ac1ef0a184bc08930b5fb918fdf7f68d38799d5ac6b7f4f3",
+      "mirror_match": true
+    },
+    {
+      "name": "mach-bands",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/mach-bands.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-144946",
+      "vein": "from the illusions vein",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/mach-bands.html",
+      "mirror_path": "/Users/donovan/work/toys/mach-bands.html",
+      "canonical_sha256": "e8fd0c74b3f24faf4a42882760ef9108d0cfd18f828bd9d34ccf11f927f2c8c0",
+      "mirror_sha256": "e8fd0c74b3f24faf4a42882760ef9108d0cfd18f828bd9d34ccf11f927f2c8c0",
+      "mirror_match": true
+    },
+    {
+      "name": "masking",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/masking.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "",
+      "vein": "the audio vein",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/masking.html",
+      "mirror_path": "/Users/donovan/work/toys/masking.html",
+      "canonical_sha256": "eb1f547cffc2d0ddf64aa1fdbbb3c0fc823aa7e5304ae1a03c1e291c32137ca2",
+      "mirror_sha256": "eb1f547cffc2d0ddf64aa1fdbbb3c0fc823aa7e5304ae1a03c1e291c32137ca2",
+      "mirror_match": true
+    },
+    {
+      "name": "mock-river",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/mock-river.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-145001",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/mock-river.html",
+      "mirror_path": "/Users/donovan/work/toys/mock-river.html",
+      "canonical_sha256": "edd90e992f620af8b0e7953ad28524bd53d4f405df87846fa60ccc40e5602ed3",
+      "mirror_sha256": "edd90e992f620af8b0e7953ad28524bd53d4f405df87846fa60ccc40e5602ed3",
+      "mirror_match": true
+    },
+    {
+      "name": "muller-lyer",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/muller-lyer.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-145006",
+      "vein": "from the illusions vein",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/muller-lyer.html",
+      "mirror_path": "/Users/donovan/work/toys/muller-lyer.html",
+      "canonical_sha256": "bc0cbd5eaa3209af6c53c70ae547565bbafc7cf885997bc1a28b513a699dcd2d",
+      "mirror_sha256": "bc0cbd5eaa3209af6c53c70ae547565bbafc7cf885997bc1a28b513a699dcd2d",
+      "mirror_match": true
+    },
+    {
+      "name": "oppel-kundt",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/oppel-kundt.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-145017",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/oppel-kundt.html",
+      "mirror_path": "/Users/donovan/work/toys/oppel-kundt.html",
+      "canonical_sha256": "2297ec51f4016cadd9d7ddc5cd233e5f54b6a7f70b3dde2e68e15e5de696e537",
+      "mirror_sha256": "2297ec51f4016cadd9d7ddc5cd233e5f54b6a7f70b3dde2e68e15e5de696e537",
+      "mirror_match": true
+    },
+    {
+      "name": "orbison",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/orbison.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-145022",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/orbison.html",
+      "mirror_path": "/Users/donovan/work/toys/orbison.html",
+      "canonical_sha256": "9f320146c7258edb216b8f86d7e6c65cfac836500513b6ac37d7d83129800191",
+      "mirror_sha256": "9f320146c7258edb216b8f86d7e6c65cfac836500513b6ac37d7d83129800191",
+      "mirror_match": true
+    },
+    {
+      "name": "pinna-brelstaff",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/pinna-brelstaff.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-145026",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/pinna-brelstaff.html",
+      "mirror_path": "/Users/donovan/work/toys/pinna-brelstaff.html",
+      "canonical_sha256": "183cebe56bbf793d90822f30eca1901053c6d2ada29f74d4f0bfe7a47fe8aac3",
+      "mirror_sha256": "183cebe56bbf793d90822f30eca1901053c6d2ada29f74d4f0bfe7a47fe8aac3",
+      "mirror_match": true
+    },
+    {
+      "name": "poggendorff",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/poggendorff.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-145031",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/poggendorff.html",
+      "mirror_path": "/Users/donovan/work/toys/poggendorff.html",
+      "canonical_sha256": "0c91c725d31b5f2ec94d010cb0bca11d6880d5e53aa97b6cee3ba58a15b04b57",
+      "mirror_sha256": "0c91c725d31b5f2ec94d010cb0bca11d6880d5e53aa97b6cee3ba58a15b04b57",
+      "mirror_match": true
+    },
+    {
+      "name": "ponzo",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/ponzo.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-145036",
+      "vein": "from the illusions vein",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/ponzo.html",
+      "mirror_path": "/Users/donovan/work/toys/ponzo.html",
+      "canonical_sha256": "6380686330a1952d99daec13ab2ab1d25800b0ebf177931cfd9237a45b4865f5",
+      "mirror_sha256": "6380686330a1952d99daec13ab2ab1d25800b0ebf177931cfd9237a45b4865f5",
+      "mirror_match": true
+    },
+    {
+      "name": "rotating-snakes",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/rotating-snakes.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-145040",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/rotating-snakes.html",
+      "mirror_path": "/Users/donovan/work/toys/rotating-snakes.html",
+      "canonical_sha256": "1a6a5ae8ef4e856f8b23216ac74a5081c25ecffe12ab9f48dd6b7e61ec21f413",
+      "mirror_sha256": "1a6a5ae8ef4e856f8b23216ac74a5081c25ecffe12ab9f48dd6b7e61ec21f413",
+      "mirror_match": true
+    },
+    {
+      "name": "self-similar",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/self-similar.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-145048",
+      "vein": "built",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/self-similar.html",
+      "mirror_path": "/Users/donovan/work/toys/self-similar.html",
+      "canonical_sha256": "8acb2e58a821c92ab4d79407fea5eda2e51f455c952077f86c2a1a8e4be69d92",
+      "mirror_sha256": "8acb2e58a821c92ab4d79407fea5eda2e51f455c952077f86c2a1a8e4be69d92",
+      "mirror_match": true
+    },
+    {
+      "name": "shepard-stair",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/shepard-stair.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "",
+      "vein": "the audio vein",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/shepard-stair.html",
+      "mirror_path": "/Users/donovan/work/toys/shepard-stair.html",
+      "canonical_sha256": "b5b6db022bf1ffc5ae2943229def33d867abfa3123fd5844eae8d664fe557181",
+      "mirror_sha256": "b5b6db022bf1ffc5ae2943229def33d867abfa3123fd5844eae8d664fe557181",
+      "mirror_match": true
+    },
+    {
+      "name": "shepard-tables",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/shepard-tables.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-145101",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/shepard-tables.html",
+      "mirror_path": "/Users/donovan/work/toys/shepard-tables.html",
+      "canonical_sha256": "d8c67e1f7f55d643dca4589da03c150b55292a5af45beeec5493e151c11f7a79",
+      "mirror_sha256": "d8c67e1f7f55d643dca4589da03c150b55292a5af45beeec5493e151c11f7a79",
+      "mirror_match": true
+    },
+    {
+      "name": "simultaneous-contrast",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/simultaneous-contrast.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-145106",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/simultaneous-contrast.html",
+      "mirror_path": "/Users/donovan/work/toys/simultaneous-contrast.html",
+      "canonical_sha256": "939026f5cb52987a51cfeb2a1d13b6de9b9e1dc7493d0c0299c80b90cd86131f",
+      "mirror_sha256": "939026f5cb52987a51cfeb2a1d13b6de9b9e1dc7493d0c0299c80b90cd86131f",
+      "mirror_match": true
+    },
+    {
+      "name": "stepping-feet",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/stepping-feet.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-145118",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/stepping-feet.html",
+      "mirror_path": "/Users/donovan/work/toys/stepping-feet.html",
+      "canonical_sha256": "e2f38f4e9ef05a86fd334dcb61be064c10ecb898e5a2cd25462044b1b327ca3d",
+      "mirror_sha256": "e2f38f4e9ef05a86fd334dcb61be064c10ecb898e5a2cd25462044b1b327ca3d",
+      "mirror_match": true
+    },
+    {
+      "name": "stick-slip",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/stick-slip.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-145126",
+      "vein": "friction & flow dynamics",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/stick-slip.html",
+      "mirror_path": "/Users/donovan/work/toys/stick-slip.html",
+      "canonical_sha256": "8d5ad3ec3a72ce79ca7cf70ac77408352ac3c9fa851f604998eba4e14d007ab7",
+      "mirror_sha256": "8d5ad3ec3a72ce79ca7cf70ac77408352ac3c9fa851f604998eba4e14d007ab7",
+      "mirror_match": true
+    },
+    {
+      "name": "story-shapes",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/story-shapes.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-145131",
+      "vein": "built",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/story-shapes.html",
+      "mirror_path": "/Users/donovan/work/toys/story-shapes.html",
+      "canonical_sha256": "530109479ac577ee5a338019b4a5b2797c9a4f14c12a913bbff00b4caf7e671c",
+      "mirror_sha256": "530109479ac577ee5a338019b4a5b2797c9a4f14c12a913bbff00b4caf7e671c",
+      "mirror_match": true
+    },
+    {
+      "name": "surprise",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/surprise.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-145136",
+      "vein": "built",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/surprise.html",
+      "mirror_path": "/Users/donovan/work/toys/surprise.html",
+      "canonical_sha256": "aa5d6fd3c0902ea36a938a1c05e57b647dced59c9ca4f565bba5fdce9924c0a1",
+      "mirror_sha256": "aa5d6fd3c0902ea36a938a1c05e57b647dced59c9ca4f565bba5fdce9924c0a1",
+      "mirror_match": true
+    },
+    {
+      "name": "the-bottleneck",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/the-bottleneck.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-145140",
+      "vein": "mind & coordination",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/the-bottleneck.html",
+      "mirror_path": "/Users/donovan/work/toys/the-bottleneck.html",
+      "canonical_sha256": "ae54fc6f6c6939b2b11263a1f974b4389d6aee5db42f60e4cf32884397b24cd2",
+      "mirror_sha256": "ae54fc6f6c6939b2b11263a1f974b4389d6aee5db42f60e4cf32884397b24cd2",
+      "mirror_match": true
+    },
+    {
+      "name": "the-crossing",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/the-crossing.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-145232",
+      "vein": "traffic & concurrency",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/the-crossing.html",
+      "mirror_path": "/Users/donovan/work/toys/the-crossing.html",
+      "canonical_sha256": "1248a6d4283d37b0d540a5290797362b233ac99cebb0954d120b6c8e17794871",
+      "mirror_sha256": "1248a6d4283d37b0d540a5290797362b233ac99cebb0954d120b6c8e17794871",
+      "mirror_match": true
+    },
+    {
+      "name": "the-fork",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/the-fork.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-145241",
+      "vein": "built",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/the-fork.html",
+      "mirror_path": "/Users/donovan/work/toys/the-fork.html",
+      "canonical_sha256": "b935beacc3908d5f4b65b97a80d1887e3753dedc6e7102249637a534456d6007",
+      "mirror_sha256": "b935beacc3908d5f4b65b97a80d1887e3753dedc6e7102249637a534456d6007",
+      "mirror_match": true
+    },
+    {
+      "name": "the-jam",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/the-jam.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-145248",
+      "vein": "mind & coordination",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/the-jam.html",
+      "mirror_path": "/Users/donovan/work/toys/the-jam.html",
+      "canonical_sha256": "0c87ee72c867c433346d6f9f61b90f7dedd6cbce3b8b3deaa0ca1892dec9d6f9",
+      "mirror_sha256": "0c87ee72c867c433346d6f9f61b90f7dedd6cbce3b8b3deaa0ca1892dec9d6f9",
+      "mirror_match": true
+    },
+    {
+      "name": "the-lattice",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/the-lattice.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "",
+      "vein": "high",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/the-lattice.html",
+      "mirror_path": "/Users/donovan/work/toys/the-lattice.html",
+      "canonical_sha256": "c1e58c41857db5a179334400ba5f97a6752f7bcc43d9ba391c380bbd340dddc3",
+      "mirror_sha256": "c1e58c41857db5a179334400ba5f97a6752f7bcc43d9ba391c380bbd340dddc3",
+      "mirror_match": true
+    },
+    {
+      "name": "the-queue",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/the-queue.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-145255",
+      "vein": "signal & measure",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/the-queue.html",
+      "mirror_path": "/Users/donovan/work/toys/the-queue.html",
+      "canonical_sha256": "d71c11d1407c4ec4a50d65231f0377f909ebd7825e7772228947e39b537ae009",
+      "mirror_sha256": "d71c11d1407c4ec4a50d65231f0377f909ebd7825e7772228947e39b537ae009",
+      "mirror_match": true
+    },
+    {
+      "name": "threshold",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/threshold.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-145319",
+      "vein": "built",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/threshold.html",
+      "mirror_path": "/Users/donovan/work/toys/threshold.html",
+      "canonical_sha256": "c39b845bf2e036a704216fcee238bcbaea244a4a61068c0a63242374d8577e3f",
+      "mirror_sha256": "c39b845bf2e036a704216fcee238bcbaea244a4a61068c0a63242374d8577e3f",
+      "mirror_match": true
+    },
+    {
+      "name": "time-deals",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/time-deals.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "",
+      "vein": "high",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/time-deals.html",
+      "mirror_path": "/Users/donovan/work/toys/time-deals.html",
+      "canonical_sha256": "840e03d8a70d2ca88cd305ff3349d6f7c275ef4fb0122d9c89a48beb8f7bf79d",
+      "mirror_sha256": "840e03d8a70d2ca88cd305ff3349d6f7c275ef4fb0122d9c89a48beb8f7bf79d",
+      "mirror_match": true
+    },
+    {
+      "name": "troxler",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/troxler.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/troxler.html",
+      "mirror_path": "/Users/donovan/work/toys/troxler.html",
+      "canonical_sha256": "a66956c4e3399b9118ab2785875ac52ff896899f9590b4ecf68e7faff27f821e",
+      "mirror_sha256": "a66956c4e3399b9118ab2785875ac52ff896899f9590b4ecf68e7faff27f821e",
+      "mirror_match": true
+    },
+    {
+      "name": "wagon-wheel",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/wagon-wheel.html",
+      "status": "rejected",
+      "by": "operator",
+      "at": "20260712-161405",
+      "notes": "rejected by operator (was mislabeled fix)",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/wagon-wheel.html",
+      "mirror_path": "/Users/donovan/work/toys/wagon-wheel.html",
+      "canonical_sha256": null,
+      "mirror_sha256": null,
+      "mirror_match": null
+    },
+    {
+      "name": "whites-illusion",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/whites-illusion.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-145357",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/whites-illusion.html",
+      "mirror_path": "/Users/donovan/work/toys/whites-illusion.html",
+      "canonical_sha256": "83f57d6c49ed39085c0ea27b96fc9733c363b2ef84e743aa052398ae23167e96",
+      "mirror_sha256": "83f57d6c49ed39085c0ea27b96fc9733c363b2ef84e743aa052398ae23167e96",
+      "mirror_match": true
+    },
+    {
+      "name": "winding-number",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/winding-number.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-145532",
+      "vein": "built",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/winding-number.html",
+      "mirror_path": "/Users/donovan/work/toys/winding-number.html",
+      "canonical_sha256": "dce3ccd635fa57eedb601fce5c73e40d08630c641951b3ca865d95b8c26dd4b3",
+      "mirror_sha256": "dce3ccd635fa57eedb601fce5c73e40d08630c641951b3ca865d95b8c26dd4b3",
+      "mirror_match": true
+    },
+    {
+      "name": "zollner",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/zollner.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-145537",
+      "vein": "from the illusions vein",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/zollner.html",
+      "mirror_path": "/Users/donovan/work/toys/zollner.html",
+      "canonical_sha256": "10e2c81520fc1ae91b431a79efde1d65bb9738e9512618a93823a6ad835da9cd",
+      "mirror_sha256": "10e2c81520fc1ae91b431a79efde1d65bb9738e9512618a93823a6ad835da9cd",
+      "mirror_match": true
+    },
+    {
+      "name": "restriction",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/restriction.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-145613",
+      "vein": "friction & flow dynamics",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/restriction.html",
+      "mirror_path": "/Users/donovan/work/toys/restriction.html",
+      "canonical_sha256": "dda2edaefdccf9cfb1862dc89acc36b067de7a83587d8985c8fcdff1b0de7819",
+      "mirror_sha256": "dda2edaefdccf9cfb1862dc89acc36b067de7a83587d8985c8fcdff1b0de7819",
+      "mirror_match": true
+    },
+    {
+      "name": "tension-release",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/tension-release.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-145649",
+      "vein": "friction & flow dynamics",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/tension-release.html",
+      "mirror_path": "/Users/donovan/work/toys/tension-release.html",
+      "canonical_sha256": "da32dcea581246609927999233f7f66dfcb4b849a4466837c20c8c831d0010f0",
+      "mirror_sha256": "da32dcea581246609927999233f7f66dfcb4b849a4466837c20c8c831d0010f0",
+      "mirror_match": true
+    },
+    {
+      "name": "the-slack",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/slack.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-145657",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/slack.html",
+      "mirror_path": "/Users/donovan/work/toys/slack.html",
+      "canonical_sha256": "546a8e9dd500ced5e925a6baa5ea364344ca9166844fc369b1817cf8eb1dfbaf",
+      "mirror_sha256": "546a8e9dd500ced5e925a6baa5ea364344ca9166844fc369b1817cf8eb1dfbaf",
+      "mirror_match": true
+    },
+    {
+      "name": "suspension",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/suspension.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-145838",
+      "vein": "friction & flow dynamics",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/suspension.html",
+      "mirror_path": "/Users/donovan/work/toys/suspension.html",
+      "canonical_sha256": "9ee3fec797351fef9580a0670b498381a6c8f1d5090db29d627d5baa474b7438",
+      "mirror_sha256": "9ee3fec797351fef9580a0670b498381a6c8f1d5090db29d627d5baa474b7438",
+      "mirror_match": true
+    },
+    {
+      "name": "the-merge",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/the-merge.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-150713",
+      "vein": "traffic & concurrency",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/the-merge.html",
+      "mirror_path": "/Users/donovan/work/toys/the-merge.html",
+      "canonical_sha256": "d764e3676894ee3e9ddc7b00044b02a86acaa8544216dcf12b79d58e6008f3d3",
+      "mirror_sha256": "d764e3676894ee3e9ddc7b00044b02a86acaa8544216dcf12b79d58e6008f3d3",
+      "mirror_match": true
+    },
+    {
+      "name": "the-roundabout",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/the-roundabout.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-150011",
+      "vein": "traffic & concurrency",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/the-roundabout.html",
+      "mirror_path": "/Users/donovan/work/toys/the-roundabout.html",
+      "canonical_sha256": "0d312b4d682be115c2d834528aa1e49932b66d79c8c0dc463723a753d608e9db",
+      "mirror_sha256": "0d312b4d682be115c2d834528aa1e49932b66d79c8c0dc463723a753d608e9db",
+      "mirror_match": true
+    },
+    {
+      "name": "balance-beam",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/balance-beam.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-160637",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/balance-beam.html",
+      "mirror_path": "/Users/donovan/work/toys/balance-beam.html",
+      "canonical_sha256": "a9b7ff30ab419b61c37de4cdeaea669dcd3f27fcb83029deaaa13a354cbfd1e9",
+      "mirror_sha256": "a9b7ff30ab419b61c37de4cdeaea669dcd3f27fcb83029deaaa13a354cbfd1e9",
+      "mirror_match": true
+    },
+    {
+      "name": "compass-rose",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/compass-rose.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-161214",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/compass-rose.html",
+      "mirror_path": "/Users/donovan/work/toys/compass-rose.html",
+      "canonical_sha256": "26c6aca18c9c94580e1e7dacb4e1241b517f8f6e741c305033a9e26af79ceade",
+      "mirror_sha256": "26c6aca18c9c94580e1e7dacb4e1241b517f8f6e741c305033a9e26af79ceade",
+      "mirror_match": true
+    },
+    {
+      "name": "micrometer",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/micrometer.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-161333",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/micrometer.html",
+      "mirror_path": "/Users/donovan/work/toys/micrometer.html",
+      "canonical_sha256": "3b30ad8bda08d9f8d79f0d2cb2371d0212149babc2151e04b515b20051392f1a",
+      "mirror_sha256": "3b30ad8bda08d9f8d79f0d2cb2371d0212149babc2151e04b515b20051392f1a",
+      "mirror_match": true
+    },
+    {
+      "name": "transit-light-curve",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/transit-light-curve.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-161345",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/transit-light-curve.html",
+      "mirror_path": "/Users/donovan/work/toys/transit-light-curve.html",
+      "canonical_sha256": "34cbaff0a2ae0fe577ce988f810445b11c3fb791f8970cd1891f8c8e89a839aa",
+      "mirror_sha256": "34cbaff0a2ae0fe577ce988f810445b11c3fb791f8970cd1891f8c8e89a839aa",
+      "mirror_match": true
+    },
+    {
+      "name": "vernier-caliper",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/vernier-caliper.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-161352",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/vernier-caliper.html",
+      "mirror_path": "/Users/donovan/work/toys/vernier-caliper.html",
+      "canonical_sha256": "3131578143700fa283f9e93f826b83aaa397a0ef706eec01d3859b2a35379a0c",
+      "mirror_sha256": "3131578143700fa283f9e93f826b83aaa397a0ef706eec01d3859b2a35379a0c",
+      "mirror_match": true
+    },
+    {
+      "name": "wheatstone-bridge",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/wheatstone-bridge.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-161408",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/wheatstone-bridge.html",
+      "mirror_path": "/Users/donovan/work/toys/wheatstone-bridge.html",
+      "canonical_sha256": "9cdc3c48011ef7b204126a47a27181395c2740445ce91360cd72fbd5c49404a9",
+      "mirror_sha256": "9cdc3c48011ef7b204126a47a27181395c2740445ce91360cd72fbd5c49404a9",
+      "mirror_match": true
+    },
+    {
+      "name": "barometer",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/barometer.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-163623",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/barometer.html",
+      "mirror_path": "/Users/donovan/work/toys/barometer.html",
+      "canonical_sha256": "36098175301283d9f28002aaf02b5f0cbb75dff1c3ed89ef50fdc70c52aa8c63",
+      "mirror_sha256": "36098175301283d9f28002aaf02b5f0cbb75dff1c3ed89ef50fdc70c52aa8c63",
+      "mirror_match": true
+    },
+    {
+      "name": "escapement",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/escapement.html",
+      "status": "fix",
+      "by": "operator",
+      "at": "20260712-163722",
+      "notes": "the bgears and stuff dont acually algin here, nto accuarte false toy useuless",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/escapement.html",
+      "mirror_path": "/Users/donovan/work/toys/escapement.html",
+      "canonical_sha256": "ed8a03d0d3fd474dc1469d58d450405150e3326131ebb568a421a351a5f7b5a4",
+      "mirror_sha256": "ed8a03d0d3fd474dc1469d58d450405150e3326131ebb568a421a351a5f7b5a4",
+      "mirror_match": true
+    },
+    {
+      "name": "galvanometer",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/galvanometer.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260712-163755",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/galvanometer.html",
+      "mirror_path": "/Users/donovan/work/toys/galvanometer.html",
+      "canonical_sha256": "691019d19e1105323a8913e2f8c70e79351df14f95492a789c05c901a947b9d8",
+      "mirror_sha256": "691019d19e1105323a8913e2f8c70e79351df14f95492a789c05c901a947b9d8",
+      "mirror_match": true
+    },
+    {
+      "name": "record-breaker",
+      "vein": "signal & measure",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/record-breaker.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260713-093650",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/record-breaker.html",
+      "mirror_path": "/Users/donovan/work/toys/record-breaker.html",
+      "canonical_sha256": "0f75cc92f3b5b2438c6f50db4f2093a0b6e068cc8a6be60cb5494855c3a4bcc0",
+      "mirror_sha256": "0f75cc92f3b5b2438c6f50db4f2093a0b6e068cc8a6be60cb5494855c3a4bcc0",
+      "mirror_match": true
+    },
+    {
+      "name": "blur-scale",
+      "vein": "signal & measure",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/blur-scale.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260713-093708",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/blur-scale.html",
+      "mirror_path": "/Users/donovan/work/toys/blur-scale.html",
+      "canonical_sha256": "3b8498c78fad7a11b16ee9c08f657af4ed5a443f8e4a2b807830451e7f40ddda",
+      "mirror_sha256": "3b8498c78fad7a11b16ee9c08f657af4ed5a443f8e4a2b807830451e7f40ddda",
+      "mirror_match": true
+    },
+    {
+      "name": "just-noticeable",
+      "vein": "signal & measure",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/just-noticeable.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260713-093838",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/just-noticeable.html",
+      "mirror_path": "/Users/donovan/work/toys/just-noticeable.html",
+      "canonical_sha256": "730aa14f1238a893eb9d20c31a864b9a3f79292825200d39d3c024ac7d0b1fa3",
+      "mirror_sha256": "730aa14f1238a893eb9d20c31a864b9a3f79292825200d39d3c024ac7d0b1fa3",
+      "mirror_match": true
+    },
+    {
+      "name": "error-bars",
+      "vein": "signal & measure",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/error-bars.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260713-093859",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/error-bars.html",
+      "mirror_path": "/Users/donovan/work/toys/error-bars.html",
+      "canonical_sha256": "4a2169ea82367e6b61871c14d2a65e66d1c3bc063c73dde6cbca49d587da8c6c",
+      "mirror_sha256": "4a2169ea82367e6b61871c14d2a65e66d1c3bc063c73dde6cbca49d587da8c6c",
+      "mirror_match": true
+    },
+    {
+      "name": "vanishing",
+      "vein": "geometry & structure",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/vanishing.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260713-094041",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/vanishing.html",
+      "mirror_path": "/Users/donovan/work/toys/vanishing.html",
+      "canonical_sha256": "64606deffd84300b30034f6b6ccd051b2b5f210c32312fd93b9027c8451dc51b",
+      "mirror_sha256": "64606deffd84300b30034f6b6ccd051b2b5f210c32312fd93b9027c8451dc51b",
+      "mirror_match": true
+    },
+    {
+      "name": "the-mirror",
+      "vein": "geometry & structure",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/the-mirror.html",
+      "status": "fix",
+      "by": "operator",
+      "at": "20260713-094140",
+      "notes": "some bugginess with it snapping back to statting point instead of staying no sure whats up ther or if thats intenned",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/the-mirror.html",
+      "mirror_path": "/Users/donovan/work/toys/the-mirror.html",
+      "canonical_sha256": "618053b6b3bb25fd57695f9296e42cec000f1a9f50055282ebb16940cebcb942",
+      "mirror_sha256": "618053b6b3bb25fd57695f9296e42cec000f1a9f50055282ebb16940cebcb942",
+      "mirror_match": true
+    },
+    {
+      "name": "shortest",
+      "vein": "geometry & structure",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/shortest.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260713-094634",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/shortest.html",
+      "mirror_path": "/Users/donovan/work/toys/shortest.html",
+      "canonical_sha256": "a585935adf2285ad9770117bdf80e04f25ecccdf4e04d1fedcc963db6537d0b7",
+      "mirror_sha256": "a585935adf2285ad9770117bdf80e04f25ecccdf4e04d1fedcc963db6537d0b7",
+      "mirror_match": true
+    },
+    {
+      "name": "the-bend",
+      "vein": "geometry & structure",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/the-bend.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260713-094706",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/the-bend.html",
+      "mirror_path": "/Users/donovan/work/toys/the-bend.html",
+      "canonical_sha256": "7edda92d447e2b92df922d0fc641e7baf3754a33c936aaa2481edbae68e5553c",
+      "mirror_sha256": "7edda92d447e2b92df922d0fc641e7baf3754a33c936aaa2481edbae68e5553c",
+      "mirror_match": true
+    },
+    {
+      "name": "same-point",
+      "vein": "geometry & structure",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/same-point.html",
+      "status": "fix",
+      "by": "operator",
+      "at": "20260713-094744",
+      "notes": "no point to drag",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/same-point.html",
+      "mirror_path": "/Users/donovan/work/toys/same-point.html",
+      "canonical_sha256": "1605399252df6cb8c2f56c4e4bde7c412e1e9ac2ca6512daeba8be2234ddee65",
+      "mirror_sha256": "1605399252df6cb8c2f56c4e4bde7c412e1e9ac2ca6512daeba8be2234ddee65",
+      "mirror_match": true
+    },
+    {
+      "name": "two-clocks",
+      "vein": "narrative, sign & myth",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/two-clocks.html",
+      "status": "fix",
+      "by": "operator",
+      "at": "20260713-095056",
+      "notes": "this one is confusing adn buggy, dont know what any of those werid sound names mean or if they typops and the middle top one text overlaps each other on the \"pasue\" view",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/two-clocks.html",
+      "mirror_path": "/Users/donovan/work/toys/two-clocks.html",
+      "canonical_sha256": "bd326825b393e27b5ceee68061775a37b136d0c64640ba594a747b4c47432a53",
+      "mirror_sha256": "bd326825b393e27b5ceee68061775a37b136d0c64640ba594a747b4c47432a53",
+      "mirror_match": true
+    },
+    {
+      "name": "the-wheel",
+      "vein": "narrative, sign & myth",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/the-wheel.html",
+      "status": "fix",
+      "by": "operator",
+      "at": "20260713-095309",
+      "notes": "overlapping text in two locaiton, are you even reviwing these??",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/the-wheel.html",
+      "mirror_path": "/Users/donovan/work/toys/the-wheel.html",
+      "canonical_sha256": "a3aab828223574b625bac8a57e535eef29c38fe239f69c850ce9bbaa65aa12c4",
+      "mirror_sha256": "a3aab828223574b625bac8a57e535eef29c38fe239f69c850ce9bbaa65aa12c4",
+      "mirror_match": true
+    },
+    {
+      "name": "sign-triangle",
+      "vein": "narrative, sign & myth",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/sign-triangle.html",
+      "status": "pending",
+      "by": "app-st",
+      "at": "20260713-094053",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/sign-triangle.html",
+      "mirror_path": "/Users/donovan/work/toys/sign-triangle.html",
+      "canonical_sha256": "06fec057a1fc30bfe7b8b68b6caf105312155265f8874abd2e4c4210a2274189",
+      "mirror_sha256": "06fec057a1fc30bfe7b8b68b6caf105312155265f8874abd2e4c4210a2274189",
+      "mirror_match": true
+    },
+    {
+      "name": "oppositions",
+      "vein": "narrative, sign & myth",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/oppositions.html",
+      "status": "pending",
+      "by": "app-op",
+      "at": "20260713-094555",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/oppositions.html",
+      "mirror_path": "/Users/donovan/work/toys/oppositions.html",
+      "canonical_sha256": "d4a60d1c324d9fcfafe46edd5e7a42a88c4abcb4d27c1dcbb99f544d06d0b81d",
+      "mirror_sha256": "d4a60d1c324d9fcfafe46edd5e7a42a88c4abcb4d27c1dcbb99f544d06d0b81d",
+      "mirror_match": true
+    },
+    {
+      "name": "the-bandit",
+      "vein": "mind & coordination",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/the-bandit.html",
+      "status": "pending",
+      "by": "app-bn",
+      "at": "20260713-094555",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/the-bandit.html",
+      "mirror_path": "/Users/donovan/work/toys/the-bandit.html",
+      "canonical_sha256": "e22376811167dc2af29b2d2c3519607f6f3f44eed0acf37e018b073724f48030",
+      "mirror_sha256": "e22376811167dc2af29b2d2c3519607f6f3f44eed0acf37e018b073724f48030",
+      "mirror_match": true
+    },
+    {
+      "name": "memory-palace",
+      "vein": "mind & coordination",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/memory-palace.html",
+      "status": "pending",
+      "by": "app-mp",
+      "at": "20260713-094555",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/memory-palace.html",
+      "mirror_path": "/Users/donovan/work/toys/memory-palace.html",
+      "canonical_sha256": "9c8a2c3c96bda0b369c31766238a72e6daa9775aed438465a82c2ebf47a9c57f",
+      "mirror_sha256": "9c8a2c3c96bda0b369c31766238a72e6daa9775aed438465a82c2ebf47a9c57f",
+      "mirror_match": true
+    },
+    {
+      "name": "the-trail",
+      "vein": "mind & coordination",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/the-trail.html",
+      "status": "pending",
+      "by": "app-tr",
+      "at": "20260713-094555",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/the-trail.html",
+      "mirror_path": "/Users/donovan/work/toys/the-trail.html",
+      "canonical_sha256": "d8fad433715e0a6075e264a12c633cc40a42742ca1673fc1cac81bf3dc5d468e",
+      "mirror_sha256": "d8fad433715e0a6075e264a12c633cc40a42742ca1673fc1cac81bf3dc5d468e",
+      "mirror_match": true
+    },
+    {
+      "name": "slack",
+      "vein": "friction & flow dynamics",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/slack.html",
+      "status": "queued",
+      "by": "",
+      "at": "",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/slack.html",
+      "mirror_path": "/Users/donovan/work/toys/slack.html",
+      "canonical_sha256": "546a8e9dd500ced5e925a6baa5ea364344ca9166844fc369b1817cf8eb1dfbaf",
+      "mirror_sha256": "546a8e9dd500ced5e925a6baa5ea364344ca9166844fc369b1817cf8eb1dfbaf",
+      "mirror_match": true
+    },
+    {
+      "name": "bimetallic-strip",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/bimetallic-strip.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260713-085708",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/bimetallic-strip.html",
+      "mirror_path": "/Users/donovan/work/toys/bimetallic-strip.html",
+      "canonical_sha256": "5ffa3b48fdc61d45f7897d04952adbd1b70fd8ca741a27d6b5e2117dad7bd3c3",
+      "mirror_sha256": "5ffa3b48fdc61d45f7897d04952adbd1b70fd8ca741a27d6b5e2117dad7bd3c3",
+      "mirror_match": true
+    },
+    {
+      "name": "spirit-level",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/spirit-level.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260713-085725",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/spirit-level.html",
+      "mirror_path": "/Users/donovan/work/toys/spirit-level.html",
+      "canonical_sha256": "3a67e329733137ca01d8e0986b57af5efd9df2ce66e8d5e28f293e535372d299",
+      "mirror_sha256": "3a67e329733137ca01d8e0986b57af5efd9df2ce66e8d5e28f293e535372d299",
+      "mirror_match": true
+    },
+    {
+      "name": "balance-wheel",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/balance-wheel.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260713-085908",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/balance-wheel.html",
+      "mirror_path": "/Users/donovan/work/toys/balance-wheel.html",
+      "canonical_sha256": "29fecf734fe33f70ba512d3ec227799559cfe6de2ce1aa960b73ea8daee56ecc",
+      "mirror_sha256": "29fecf734fe33f70ba512d3ec227799559cfe6de2ce1aa960b73ea8daee56ecc",
+      "mirror_match": true
+    },
+    {
+      "name": "manometer",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/manometer.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260713-085920",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/manometer.html",
+      "mirror_path": "/Users/donovan/work/toys/manometer.html",
+      "canonical_sha256": "d4fa4809df3fdc4f156aa0f1a438013aba040a32da1de351dd4abe366daff195",
+      "mirror_sha256": "d4fa4809df3fdc4f156aa0f1a438013aba040a32da1de351dd4abe366daff195",
+      "mirror_match": true
+    },
+    {
+      "name": "plumb-bob",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/plumb-bob.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260713-085929",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/plumb-bob.html",
+      "mirror_path": "/Users/donovan/work/toys/plumb-bob.html",
+      "canonical_sha256": "2cde1ee7e060e7bef5bd391b42ea061c14723b4789096595b44eed734d7bf1af",
+      "mirror_sha256": "2cde1ee7e060e7bef5bd391b42ea061c14723b4789096595b44eed734d7bf1af",
+      "mirror_match": true
+    },
+    {
+      "name": "rotameter",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/rotameter.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260713-085941",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/rotameter.html",
+      "mirror_path": "/Users/donovan/work/toys/rotameter.html",
+      "canonical_sha256": "5c412366021f5db88e146d434131e4110c47cf6b0958a7bed15324dd731a5283",
+      "mirror_sha256": "5c412366021f5db88e146d434131e4110c47cf6b0958a7bed15324dd731a5283",
+      "mirror_match": true
+    },
+    {
+      "name": "spring-scale",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/spring-scale.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260713-090002",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/spring-scale.html",
+      "mirror_path": "/Users/donovan/work/toys/spring-scale.html",
+      "canonical_sha256": "e74afd00e7f6202921c11779ea4d7d9c8a3eb6baa7c146f692133f4cab58e070",
+      "mirror_sha256": "e74afd00e7f6202921c11779ea4d7d9c8a3eb6baa7c146f692133f4cab58e070",
+      "mirror_match": true
+    },
+    {
+      "name": "thermocouple",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/thermocouple.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260713-090017",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/thermocouple.html",
+      "mirror_path": "/Users/donovan/work/toys/thermocouple.html",
+      "canonical_sha256": "d82b86ff602b529c09dc3c78685e1eaa63914845ae573a6cab1c46c38e69b22b",
+      "mirror_sha256": "d82b86ff602b529c09dc3c78685e1eaa63914845ae573a6cab1c46c38e69b22b",
+      "mirror_match": true
+    },
+    {
+      "name": "bourdon-gauge",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/bourdon-gauge.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260713-093009",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/bourdon-gauge.html",
+      "mirror_path": "/Users/donovan/work/toys/bourdon-gauge.html",
+      "canonical_sha256": "03de433b234f308edd268a029cabc1d6bf98899cac3b376ddceae0acd0c15532",
+      "mirror_sha256": "03de433b234f308edd268a029cabc1d6bf98899cac3b376ddceae0acd0c15532",
+      "mirror_match": true
+    },
+    {
+      "name": "dial-indicator",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/dial-indicator.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260713-093023",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/dial-indicator.html",
+      "mirror_path": "/Users/donovan/work/toys/dial-indicator.html",
+      "canonical_sha256": "14e19818b8258ead888edf25ea98efdd248f3a197be3e4a296204c146ee27e0e",
+      "mirror_sha256": "14e19818b8258ead888edf25ea98efdd248f3a197be3e4a296204c146ee27e0e",
+      "mirror_match": true
+    },
+    {
+      "name": "governor",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/governor.html",
+      "status": "confirmed",
+      "by": "operator",
+      "at": "20260713-093058",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/governor.html",
+      "mirror_path": "/Users/donovan/work/toys/governor.html",
+      "canonical_sha256": "643ffa8f6ee1a51b558cb51edbc0e9767bd99132bb86a63a0901252dfd145392",
+      "mirror_sha256": "643ffa8f6ee1a51b558cb51edbc0e9767bd99132bb86a63a0901252dfd145392",
+      "mirror_match": true
+    },
+    {
+      "name": "log-ear",
+      "vein": "signal & measure",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/log-ear.html",
+      "status": "queued",
+      "by": "",
+      "at": "",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/log-ear.html",
+      "mirror_path": "/Users/donovan/work/toys/log-ear.html",
+      "canonical_sha256": null,
+      "mirror_sha256": null,
+      "mirror_match": null
+    },
+    {
+      "name": "the-criterion",
+      "vein": "signal & measure",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/the-criterion.html",
+      "status": "queued",
+      "by": "",
+      "at": "",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/the-criterion.html",
+      "mirror_path": "/Users/donovan/work/toys/the-criterion.html",
+      "canonical_sha256": null,
+      "mirror_sha256": null,
+      "mirror_match": null
+    },
+    {
+      "name": "power-law",
+      "vein": "signal & measure",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/power-law.html",
+      "status": "queued",
+      "by": "",
+      "at": "",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/power-law.html",
+      "mirror_path": "/Users/donovan/work/toys/power-law.html",
+      "canonical_sha256": null,
+      "mirror_sha256": null,
+      "mirror_match": null
+    },
+    {
+      "name": "the-anchor",
+      "vein": "brightness & lightness",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/the-anchor.html",
+      "status": "queued",
+      "by": "",
+      "at": "",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/the-anchor.html",
+      "mirror_path": "/Users/donovan/work/toys/the-anchor.html",
+      "canonical_sha256": null,
+      "mirror_sha256": null,
+      "mirror_match": null
+    },
+    {
+      "name": "the-fold",
+      "vein": "brightness & lightness",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/the-fold.html",
+      "status": "queued",
+      "by": "",
+      "at": "",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/the-fold.html",
+      "mirror_path": "/Users/donovan/work/toys/the-fold.html",
+      "canonical_sha256": null,
+      "mirror_sha256": null,
+      "mirror_match": null
+    },
+    {
+      "name": "the-junction",
+      "vein": "brightness & lightness",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/the-junction.html",
+      "status": "queued",
+      "by": "",
+      "at": "",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/the-junction.html",
+      "mirror_path": "/Users/donovan/work/toys/the-junction.html",
+      "canonical_sha256": null,
+      "mirror_sha256": null,
+      "mirror_match": null
+    },
+    {
+      "name": "the-curve",
+      "vein": "brightness & lightness",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/the-curve.html",
+      "status": "queued",
+      "by": "",
+      "at": "",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/the-curve.html",
+      "mirror_path": "/Users/donovan/work/toys/the-curve.html",
+      "canonical_sha256": null,
+      "mirror_sha256": null,
+      "mirror_match": null
+    },
+    {
+      "name": "the-mask",
+      "vein": "depth & size",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/the-mask.html",
+      "status": "queued",
+      "by": "",
+      "at": "",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/the-mask.html",
+      "mirror_path": "/Users/donovan/work/toys/the-mask.html",
+      "canonical_sha256": null,
+      "mirror_sha256": null,
+      "mirror_match": null
+    },
+    {
+      "name": "horizon-moon",
+      "vein": "depth & size",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/horizon-moon.html",
+      "status": "queued",
+      "by": "",
+      "at": "",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/horizon-moon.html",
+      "mirror_path": "/Users/donovan/work/toys/horizon-moon.html",
+      "canonical_sha256": null,
+      "mirror_sha256": null,
+      "mirror_match": null
+    },
+    {
+      "name": "the-chair",
+      "vein": "depth & size",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/the-chair.html",
+      "status": "queued",
+      "by": "",
+      "at": "",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/the-chair.html",
+      "mirror_path": "/Users/donovan/work/toys/the-chair.html",
+      "canonical_sha256": null,
+      "mirror_sha256": null,
+      "mirror_match": null
+    },
+    {
+      "name": "afterglow",
+      "vein": "depth & size",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/afterglow.html",
+      "status": "queued",
+      "by": "",
+      "at": "",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/afterglow.html",
+      "mirror_path": "/Users/donovan/work/toys/afterglow.html",
+      "canonical_sha256": null,
+      "mirror_sha256": null,
+      "mirror_match": null
+    },
+    {
+      "name": "the-saddle",
+      "vein": "geometry & structure",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/the-saddle.html",
+      "status": "queued",
+      "by": "",
+      "at": "",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/the-saddle.html",
+      "mirror_path": "/Users/donovan/work/toys/the-saddle.html",
+      "canonical_sha256": null,
+      "mirror_sha256": null,
+      "mirror_match": null
+    },
+    {
+      "name": "the-orbit",
+      "vein": "geometry & structure",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/the-orbit.html",
+      "status": "queued",
+      "by": "",
+      "at": "",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/the-orbit.html",
+      "mirror_path": "/Users/donovan/work/toys/the-orbit.html",
+      "canonical_sha256": null,
+      "mirror_sha256": null,
+      "mirror_match": null
+    },
+    {
+      "name": "central-limit",
+      "vein": "signal & measure",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/central-limit.html",
+      "status": "pending",
+      "by": "app-central-limit",
+      "at": "20260713-095245",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/central-limit.html",
+      "mirror_path": "/Users/donovan/work/toys/central-limit.html",
+      "canonical_sha256": "d4aaeb6a91a663c3fed458eb14225eb7fa37be412b8f501d28e74a7a92106f21",
+      "mirror_sha256": "d4aaeb6a91a663c3fed458eb14225eb7fa37be412b8f501d28e74a7a92106f21",
+      "mirror_match": true
+    },
+    {
+      "name": "regression-line",
+      "vein": "signal & measure",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/regression-line.html",
+      "status": "pending",
+      "by": "app-regression-line",
+      "at": "20260713-095245",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/regression-line.html",
+      "mirror_path": "/Users/donovan/work/toys/regression-line.html",
+      "canonical_sha256": "4f58ced556c62dd17c2626262147bc3b24231d335679577223879e23590f9951",
+      "mirror_sha256": "4f58ced556c62dd17c2626262147bc3b24231d335679577223879e23590f9951",
+      "mirror_match": true
+    },
+    {
+      "name": "bayes-update",
+      "vein": "signal & measure",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/bayes-update.html",
+      "status": "queued",
+      "by": "",
+      "at": "",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/bayes-update.html",
+      "mirror_path": "/Users/donovan/work/toys/bayes-update.html",
+      "canonical_sha256": null,
+      "mirror_sha256": null,
+      "mirror_match": null
+    },
+    {
+      "name": "markov-walk",
+      "vein": "signal & measure",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/markov-walk.html",
+      "status": "queued",
+      "by": "",
+      "at": "",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/markov-walk.html",
+      "mirror_path": "/Users/donovan/work/toys/markov-walk.html",
+      "canonical_sha256": null,
+      "mirror_sha256": null,
+      "mirror_match": null
+    },
+    {
+      "name": "fourier-pair",
+      "vein": "signal & measure",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/fourier-pair.html",
+      "status": "queued",
+      "by": "",
+      "at": "",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/fourier-pair.html",
+      "mirror_path": "/Users/donovan/work/toys/fourier-pair.html",
+      "canonical_sha256": null,
+      "mirror_sha256": null,
+      "mirror_match": null
+    },
+    {
+      "name": "entropy-meter",
+      "vein": "signal & measure",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/entropy-meter.html",
+      "status": "queued",
+      "by": "",
+      "at": "",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/entropy-meter.html",
+      "mirror_path": "/Users/donovan/work/toys/entropy-meter.html",
+      "canonical_sha256": null,
+      "mirror_sha256": null,
+      "mirror_match": null
+    },
+    {
+      "name": "convex-hull",
+      "vein": "geometry & structure",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/convex-hull.html",
+      "status": "queued",
+      "by": "",
+      "at": "",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/convex-hull.html",
+      "mirror_path": "/Users/donovan/work/toys/convex-hull.html",
+      "canonical_sha256": null,
+      "mirror_sha256": null,
+      "mirror_match": null
+    },
+    {
+      "name": "voronoi",
+      "vein": "geometry & structure",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/voronoi.html",
+      "status": "queued",
+      "by": "",
+      "at": "",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/voronoi.html",
+      "mirror_path": "/Users/donovan/work/toys/voronoi.html",
+      "canonical_sha256": null,
+      "mirror_sha256": null,
+      "mirror_match": null
+    },
+    {
+      "name": "curvature-flow",
+      "vein": "geometry & structure",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/curvature-flow.html",
+      "status": "queued",
+      "by": "",
+      "at": "",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/curvature-flow.html",
+      "mirror_path": "/Users/donovan/work/toys/curvature-flow.html",
+      "canonical_sha256": null,
+      "mirror_sha256": null,
+      "mirror_match": null
+    },
+    {
+      "name": "trefoil",
+      "vein": "geometry & structure",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/trefoil.html",
+      "status": "queued",
+      "by": "",
+      "at": "",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/trefoil.html",
+      "mirror_path": "/Users/donovan/work/toys/trefoil.html",
+      "canonical_sha256": null,
+      "mirror_sha256": null,
+      "mirror_match": null
+    },
+    {
+      "name": "tiling",
+      "vein": "geometry & structure",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/tiling.html",
+      "status": "queued",
+      "by": "",
+      "at": "",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/tiling.html",
+      "mirror_path": "/Users/donovan/work/toys/tiling.html",
+      "canonical_sha256": null,
+      "mirror_sha256": null,
+      "mirror_match": null
+    },
+    {
+      "name": "resonance",
+      "vein": "dynamics & timing",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/resonance.html",
+      "status": "pending",
+      "by": "app-resonance",
+      "at": "20260713-095245",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/resonance.html",
+      "mirror_path": "/Users/donovan/work/toys/resonance.html",
+      "canonical_sha256": "1709ca555b37366c222ab42110dbeb447564d04c7ddffc26f85406faf40c1028",
+      "mirror_sha256": "1709ca555b37366c222ab42110dbeb447564d04c7ddffc26f85406faf40c1028",
+      "mirror_match": true
+    },
+    {
+      "name": "beats",
+      "vein": "dynamics & timing",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/beats.html",
+      "status": "pending",
+      "by": "app-beats",
+      "at": "20260713-095245",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/beats.html",
+      "mirror_path": "/Users/donovan/work/toys/beats.html",
+      "canonical_sha256": "2f4b2affcc9fa9c855b015db9698df2d7e9432e52c0a0c734e8350cccac334b3",
+      "mirror_sha256": "2f4b2affcc9fa9c855b015db9698df2d7e9432e52c0a0c734e8350cccac334b3",
+      "mirror_match": true
+    },
+    {
+      "name": "doppler",
+      "vein": "dynamics & timing",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/doppler.html",
+      "status": "queued",
+      "by": "",
+      "at": "",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/doppler.html",
+      "mirror_path": "/Users/donovan/work/toys/doppler.html",
+      "canonical_sha256": null,
+      "mirror_sha256": null,
+      "mirror_match": null
+    },
+    {
+      "name": "damping",
+      "vein": "dynamics & timing",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/damping.html",
+      "status": "queued",
+      "by": "",
+      "at": "",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/damping.html",
+      "mirror_path": "/Users/donovan/work/toys/damping.html",
+      "canonical_sha256": null,
+      "mirror_sha256": null,
+      "mirror_match": null
+    },
+    {
+      "name": "phase-portrait",
+      "vein": "dynamics & timing",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/phase-portrait.html",
+      "status": "queued",
+      "by": "",
+      "at": "",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/phase-portrait.html",
+      "mirror_path": "/Users/donovan/work/toys/phase-portrait.html",
+      "canonical_sha256": null,
+      "mirror_sha256": null,
+      "mirror_match": null
+    },
+    {
+      "name": "bernoulli",
+      "vein": "pressure, flow & heat",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/bernoulli.html",
+      "status": "queued",
+      "by": "",
+      "at": "",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/bernoulli.html",
+      "mirror_path": "/Users/donovan/work/toys/bernoulli.html",
+      "canonical_sha256": null,
+      "mirror_sha256": null,
+      "mirror_match": null
+    },
+    {
+      "name": "diffusion",
+      "vein": "pressure, flow & heat",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/diffusion.html",
+      "status": "queued",
+      "by": "",
+      "at": "",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/diffusion.html",
+      "mirror_path": "/Users/donovan/work/toys/diffusion.html",
+      "canonical_sha256": null,
+      "mirror_sha256": null,
+      "mirror_match": null
+    },
+    {
+      "name": "carnot",
+      "vein": "pressure, flow & heat",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/carnot.html",
+      "status": "queued",
+      "by": "",
+      "at": "",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/carnot.html",
+      "mirror_path": "/Users/donovan/work/toys/carnot.html",
+      "canonical_sha256": null,
+      "mirror_sha256": null,
+      "mirror_match": null
+    },
+    {
+      "name": "prisoners",
+      "vein": "mind & coordination",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/prisoners.html",
+      "status": "queued",
+      "by": "",
+      "at": "",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/prisoners.html",
+      "mirror_path": "/Users/donovan/work/toys/prisoners.html",
+      "canonical_sha256": null,
+      "mirror_sha256": null,
+      "mirror_match": null
+    },
+    {
+      "name": "schelling",
+      "vein": "mind & coordination",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/schelling.html",
+      "status": "queued",
+      "by": "",
+      "at": "",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/schelling.html",
+      "mirror_path": "/Users/donovan/work/toys/schelling.html",
+      "canonical_sha256": null,
+      "mirror_sha256": null,
+      "mirror_match": null
+    },
+    {
+      "name": "pid",
+      "vein": "mind & coordination",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/pid.html",
+      "status": "queued",
+      "by": "",
+      "at": "",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/pid.html",
+      "mirror_path": "/Users/donovan/work/toys/pid.html",
+      "canonical_sha256": null,
+      "mirror_sha256": null,
+      "mirror_match": null
+    },
+    {
+      "name": "cascade",
+      "vein": "mind & coordination",
+      "path": "1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/cascade.html",
+      "status": "queued",
+      "by": "",
+      "at": "",
+      "canonical_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/cascade.html",
+      "mirror_path": "/Users/donovan/work/toys/cascade.html",
+      "canonical_sha256": null,
+      "mirror_sha256": null,
+      "mirror_match": null
+    }
+  ],
+  "unique_ledger_paths": 146,
+  "unique_existing_files": 113,
+  "later_atomicity_audit": {
+    "path": "/Users/donovan/work/memory lattice/0/corpus/docs/audit.toy-atomicity.f0.20260713-102156.md",
+    "sha256": "b16683f290cc4f00b4aa241cbb6a82a01af21d12ab56175d16a0ccc5e6428c71",
+    "counts": {
+      "pass": 47,
+      "fail": 65
+    },
+    "confirmed_with_audit_fail": [
+      {
+        "name": "balance-beam",
+        "audit_status": "fail",
+        "reason": "strip spurious reset (2 sliders determine state)",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "blur-scale",
+        "audit_status": "fail",
+        "reason": "strip spurious reset (1 slider \u2014 reset is redundant)",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "vanishing",
+        "audit_status": "fail",
+        "reason": "strip spurious reset (reset-only, sliders determine state)",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "transit-light-curve",
+        "audit_status": "fail",
+        "reason": "strip spurious reset (2 sliders + anim)",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "spirit-level",
+        "audit_status": "fail",
+        "reason": "strip spurious reset (2-slider scene)",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "aliasing",
+        "audit_status": "fail",
+        "reason": "3 sliders + spin toggle",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "balance-wheel",
+        "audit_status": "fail",
+        "reason": "3 sliders + reset",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "barometer",
+        "audit_status": "fail",
+        "reason": "3 fluid-mode buttons + reset",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "base-shift",
+        "audit_status": "fail",
+        "reason": "2 steppers + 4 selectable base rows",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "bimetallic-strip",
+        "audit_status": "fail",
+        "reason": "3 sliders + reset",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "blink",
+        "audit_status": "fail",
+        "reason": "2 sliders + 4 mode/trigger buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "bourdon-gauge",
+        "audit_status": "fail",
+        "reason": "2 view-mode buttons + reset",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "cross-ratio",
+        "audit_status": "fail",
+        "reason": "2 mode buttons + 4 draggable marks",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "dart-area",
+        "audit_status": "fail",
+        "reason": "live sim + pause + reset + estimate, many functions",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "dial-indicator",
+        "audit_status": "fail",
+        "reason": "2 mode buttons + reconstruction readout",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "divided-line",
+        "audit_status": "fail",
+        "reason": "7 buttons (descend/dress/mirror/back/clear)",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "drag",
+        "audit_status": "fail",
+        "reason": "2 sliders + 3 buttons, mode switch + reset",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "earcons",
+        "audit_status": "fail",
+        "reason": "2 sliders + 3 buttons + 12 grid cells",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "epicycles",
+        "audit_status": "fail",
+        "reason": "1 slider + 6 buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "error-bars",
+        "audit_status": "fail",
+        "reason": "SHELVE \u2014 6 sliders + 6 buttons, way over",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "event-stream",
+        "audit_status": "fail",
+        "reason": "3 mode buttons, live sim + histogram",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "feedback",
+        "audit_status": "fail",
+        "reason": "3 sliders + 2 buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "galvanometer",
+        "audit_status": "fail",
+        "reason": "2 sliders + 3 mode buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "governor",
+        "audit_status": "fail",
+        "reason": "2 sliders + idle button, live sim (borderline)",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "just-noticeable",
+        "audit_status": "fail",
+        "reason": "3 sliders + reset",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "manometer",
+        "audit_status": "fail",
+        "reason": "1 slider + 3 buttons, fluid switch + zero",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "masking",
+        "audit_status": "fail",
+        "reason": "2 sliders + 2 buttons, audio + target toggle",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "micrometer",
+        "audit_status": "fail",
+        "reason": "2 sliders + 3 mode buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "pinna-brelstaff",
+        "audit_status": "fail",
+        "reason": "3 sliders + toggle",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "plumb-bob",
+        "audit_status": "fail",
+        "reason": "2 sliders + 2 buttons, scene + protractor read",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "record-breaker",
+        "audit_status": "fail",
+        "reason": "6 buttons, run loop + 2 dist modes",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "rotameter",
+        "audit_status": "fail",
+        "reason": "1 slider + 5 mode buttons + reset",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "shepard-stair",
+        "audit_status": "fail",
+        "reason": "2 sliders + 3 buttons, audio + follow modes",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "shortest",
+        "audit_status": "fail",
+        "reason": "6 buttons + interactive graph editing",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "spring-scale",
+        "audit_status": "fail",
+        "reason": "2 sliders + 2 buttons, linear/yield mode toggle",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "stick-slip",
+        "audit_status": "fail",
+        "reason": "3 sliders, running sim",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "story-shapes",
+        "audit_status": "fail",
+        "reason": "6 preset buttons + draggable control points",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "surprise",
+        "audit_status": "fail",
+        "reason": "6 buttons + free-text, model + sample selectors",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "suspension",
+        "audit_status": "fail",
+        "reason": "2 sliders + 2 buttons, running zeta sim",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "tension-release",
+        "audit_status": "fail",
+        "reason": "1 slider + release button, store-then-snap sim (borderline)",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "the-bend",
+        "audit_status": "fail",
+        "reason": "3 sliders + 2 buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "the-bottleneck",
+        "audit_status": "fail",
+        "reason": "6 sliders (re-grepped) + station sim",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "the-crossing",
+        "audit_status": "fail",
+        "reason": "1 slider + 3 policy buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "the-merge",
+        "audit_status": "fail",
+        "reason": "1 slider + 2 mode buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "thermocouple",
+        "audit_status": "fail",
+        "reason": "2 sliders + 3 mode buttons + reset",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "time-deals",
+        "audit_status": "fail",
+        "reason": "5 step buttons + date input, 4 bands",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "troxler",
+        "audit_status": "fail",
+        "reason": "3 sliders + 1 button",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "vernier-caliper",
+        "audit_status": "fail",
+        "reason": "1 slider + 3 mode buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "wheatstone-bridge",
+        "audit_status": "fail",
+        "reason": "2 sliders + 3 buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "winding-number",
+        "audit_status": "fail",
+        "reason": "1 slider + 4 shape buttons + peg drag",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "mock-river",
+        "audit_status": "fail",
+        "reason": "a full mock UI/replay (aim switch, input, popup, sign, rows) \u2014 categorically NOT an atomic toy; shelve or reclassify, do not treat as a first-principles toy",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      }
+    ],
+    "results": [
+      {
+        "name": "anorthoscope",
+        "audit_status": "pass",
+        "reason": "2 sliders, one illusion+proof",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "apparent-motion",
+        "audit_status": "pass",
+        "reason": "2 sliders, no buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "baldwin",
+        "audit_status": "pass",
+        "reason": "2 sliders, no buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "barberpole",
+        "audit_status": "pass",
+        "reason": "2 sliders, no buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "benary-cross",
+        "audit_status": "pass",
+        "reason": "2 sliders, no buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "best-fraction",
+        "audit_status": "pass",
+        "reason": "single 4-way selector, one function",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "cafe-wall",
+        "audit_status": "pass",
+        "reason": "2 sliders, no buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "checker-shadow",
+        "audit_status": "pass",
+        "reason": "1 slider, no buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "chevreul",
+        "audit_status": "pass",
+        "reason": "2 sliders, no buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "chubb",
+        "audit_status": "pass",
+        "reason": "2 sliders, no buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "compass-rose",
+        "audit_status": "pass",
+        "reason": "2 sliders, no buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "cornsweet",
+        "audit_status": "pass",
+        "reason": "2 sliders, no buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "corridor",
+        "audit_status": "pass",
+        "reason": "2 sliders, no buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "delboeuf",
+        "audit_status": "pass",
+        "reason": "2 sliders, no buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "disc-size",
+        "audit_status": "pass",
+        "reason": "2 sliders, no buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "ebbinghaus",
+        "audit_status": "pass",
+        "reason": "2 sliders, no buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "ehrenstein",
+        "audit_status": "pass",
+        "reason": "2 sliders, no buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "fick",
+        "audit_status": "pass",
+        "reason": "2 sliders, no buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "fraser-spiral",
+        "audit_status": "pass",
+        "reason": "2 sliders, no buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "hering",
+        "audit_status": "pass",
+        "reason": "2 sliders, no buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "hermann-grid",
+        "audit_status": "pass",
+        "reason": "2 sliders, one illusion+variant",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "jastrow",
+        "audit_status": "pass",
+        "reason": "2 sliders, no buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "judd",
+        "audit_status": "pass",
+        "reason": "2 sliders, no buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "kanizsa",
+        "audit_status": "pass",
+        "reason": "2 sliders, no buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "line-motion",
+        "audit_status": "pass",
+        "reason": "2 sliders, no buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "mach-bands",
+        "audit_status": "pass",
+        "reason": "2 sliders, no buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "muller-lyer",
+        "audit_status": "pass",
+        "reason": "2 sliders, no buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "oppel-kundt",
+        "audit_status": "pass",
+        "reason": "2 sliders, one illusion+proof",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "orbison",
+        "audit_status": "pass",
+        "reason": "2 sliders, no buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "poggendorff",
+        "audit_status": "pass",
+        "reason": "2 sliders, no buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "ponzo",
+        "audit_status": "pass",
+        "reason": "2 sliders, no buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "rotating-snakes",
+        "audit_status": "pass",
+        "reason": "2 sliders, no buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "self-similar",
+        "audit_status": "pass",
+        "reason": "2 sliders, no buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "shepard-tables",
+        "audit_status": "pass",
+        "reason": "2 sliders, no buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "simultaneous-contrast",
+        "audit_status": "pass",
+        "reason": "2 sliders, no buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "stepping-feet",
+        "audit_status": "pass",
+        "reason": "2 sliders, no buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "threshold",
+        "audit_status": "pass",
+        "reason": "2 sliders, no buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "whites-illusion",
+        "audit_status": "pass",
+        "reason": "2 sliders, no buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "zollner",
+        "audit_status": "pass",
+        "reason": "2 sliders, no buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "the-lattice",
+        "audit_status": "pass",
+        "reason": "single click, no controls",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "the-fork",
+        "audit_status": "pass",
+        "reason": "1 slider, one two-band render",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "the-jam",
+        "audit_status": "pass",
+        "reason": "2 sliders, one traffic sim (trace is display)",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "the-queue",
+        "audit_status": "pass",
+        "reason": "2 sliders, one queue sim + theory curve",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "the-roundabout",
+        "audit_status": "pass",
+        "reason": "2 sliders, one roundabout sim",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "restriction",
+        "audit_status": "pass",
+        "reason": "2 sliders, one flow sim",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "slack",
+        "audit_status": "pass",
+        "reason": "2 sliders, one give/taut sim",
+        "ledger_statuses": [
+          "confirmed",
+          "queued"
+        ]
+      },
+      {
+        "name": "grammar-crank",
+        "audit_status": "pass",
+        "reason": "one crank action + a why annotation-toggle (borderline)",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "balance-beam",
+        "audit_status": "fail",
+        "reason": "strip spurious reset (2 sliders determine state)",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "beats",
+        "audit_status": "fail",
+        "reason": "strip spurious reset (2 sliders determine state)",
+        "ledger_statuses": [
+          "pending"
+        ]
+      },
+      {
+        "name": "blur-scale",
+        "audit_status": "fail",
+        "reason": "strip spurious reset (1 slider \u2014 reset is redundant)",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "vanishing",
+        "audit_status": "fail",
+        "reason": "strip spurious reset (reset-only, sliders determine state)",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "transit-light-curve",
+        "audit_status": "fail",
+        "reason": "strip spurious reset (2 sliders + anim)",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "resonance",
+        "audit_status": "fail",
+        "reason": "strip spurious reset (2-slider two-band sim)",
+        "ledger_statuses": [
+          "pending"
+        ]
+      },
+      {
+        "name": "escapement",
+        "audit_status": "fail",
+        "reason": "strip spurious reset (2-slider pendulum sim)",
+        "ledger_statuses": [
+          "fix"
+        ]
+      },
+      {
+        "name": "spirit-level",
+        "audit_status": "fail",
+        "reason": "strip spurious reset (2-slider scene)",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "aliasing",
+        "audit_status": "fail",
+        "reason": "3 sliders + spin toggle",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "balance-wheel",
+        "audit_status": "fail",
+        "reason": "3 sliders + reset",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "barometer",
+        "audit_status": "fail",
+        "reason": "3 fluid-mode buttons + reset",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "base-shift",
+        "audit_status": "fail",
+        "reason": "2 steppers + 4 selectable base rows",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "bimetallic-strip",
+        "audit_status": "fail",
+        "reason": "3 sliders + reset",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "blink",
+        "audit_status": "fail",
+        "reason": "2 sliders + 4 mode/trigger buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "bourdon-gauge",
+        "audit_status": "fail",
+        "reason": "2 view-mode buttons + reset",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "central-limit",
+        "audit_status": "fail",
+        "reason": "1 slider + 5 buttons (3 sources/run/burst)",
+        "ledger_statuses": [
+          "pending"
+        ]
+      },
+      {
+        "name": "cross-ratio",
+        "audit_status": "fail",
+        "reason": "2 mode buttons + 4 draggable marks",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "dart-area",
+        "audit_status": "fail",
+        "reason": "live sim + pause + reset + estimate, many functions",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "dial-indicator",
+        "audit_status": "fail",
+        "reason": "2 mode buttons + reconstruction readout",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "divided-line",
+        "audit_status": "fail",
+        "reason": "7 buttons (descend/dress/mirror/back/clear)",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "drag",
+        "audit_status": "fail",
+        "reason": "2 sliders + 3 buttons, mode switch + reset",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "earcons",
+        "audit_status": "fail",
+        "reason": "2 sliders + 3 buttons + 12 grid cells",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "epicycles",
+        "audit_status": "fail",
+        "reason": "1 slider + 6 buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "error-bars",
+        "audit_status": "fail",
+        "reason": "SHELVE \u2014 6 sliders + 6 buttons, way over",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "event-stream",
+        "audit_status": "fail",
+        "reason": "3 mode buttons, live sim + histogram",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "feedback",
+        "audit_status": "fail",
+        "reason": "3 sliders + 2 buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "galvanometer",
+        "audit_status": "fail",
+        "reason": "2 sliders + 3 mode buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "governor",
+        "audit_status": "fail",
+        "reason": "2 sliders + idle button, live sim (borderline)",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "just-noticeable",
+        "audit_status": "fail",
+        "reason": "3 sliders + reset",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "manometer",
+        "audit_status": "fail",
+        "reason": "1 slider + 3 buttons, fluid switch + zero",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "masking",
+        "audit_status": "fail",
+        "reason": "2 sliders + 2 buttons, audio + target toggle",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "memory-palace",
+        "audit_status": "fail",
+        "reason": "4-button staged sequence (place/walk/hide/reset)",
+        "ledger_statuses": [
+          "pending"
+        ]
+      },
+      {
+        "name": "micrometer",
+        "audit_status": "fail",
+        "reason": "2 sliders + 3 mode buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "oppositions",
+        "audit_status": "fail",
+        "reason": "2 modes + item chooser + reset",
+        "ledger_statuses": [
+          "pending"
+        ]
+      },
+      {
+        "name": "pinna-brelstaff",
+        "audit_status": "fail",
+        "reason": "3 sliders + toggle",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "plumb-bob",
+        "audit_status": "fail",
+        "reason": "2 sliders + 2 buttons, scene + protractor read",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "record-breaker",
+        "audit_status": "fail",
+        "reason": "6 buttons, run loop + 2 dist modes",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "regression-line",
+        "audit_status": "fail",
+        "reason": "5 buttons, fit + manual-wiggle modes",
+        "ledger_statuses": [
+          "pending"
+        ]
+      },
+      {
+        "name": "rotameter",
+        "audit_status": "fail",
+        "reason": "1 slider + 5 mode buttons + reset",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "same-point",
+        "audit_status": "fail",
+        "reason": "5 buttons + drag, frame + units selectors",
+        "ledger_statuses": [
+          "fix"
+        ]
+      },
+      {
+        "name": "shepard-stair",
+        "audit_status": "fail",
+        "reason": "2 sliders + 3 buttons, audio + follow modes",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "shortest",
+        "audit_status": "fail",
+        "reason": "6 buttons + interactive graph editing",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "sign-triangle",
+        "audit_status": "fail",
+        "reason": "3 buttons + corner-click cycling",
+        "ledger_statuses": [
+          "pending"
+        ]
+      },
+      {
+        "name": "spring-scale",
+        "audit_status": "fail",
+        "reason": "2 sliders + 2 buttons, linear/yield mode toggle",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "stick-slip",
+        "audit_status": "fail",
+        "reason": "3 sliders, running sim",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "story-shapes",
+        "audit_status": "fail",
+        "reason": "6 preset buttons + draggable control points",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "surprise",
+        "audit_status": "fail",
+        "reason": "6 buttons + free-text, model + sample selectors",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "suspension",
+        "audit_status": "fail",
+        "reason": "2 sliders + 2 buttons, running zeta sim",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "tension-release",
+        "audit_status": "fail",
+        "reason": "1 slider + release button, store-then-snap sim (borderline)",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "the-bandit",
+        "audit_status": "fail",
+        "reason": "1 slider + 7 buttons + manual clicks",
+        "ledger_statuses": [
+          "pending"
+        ]
+      },
+      {
+        "name": "the-bend",
+        "audit_status": "fail",
+        "reason": "3 sliders + 2 buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "the-bottleneck",
+        "audit_status": "fail",
+        "reason": "6 sliders (re-grepped) + station sim",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "the-crossing",
+        "audit_status": "fail",
+        "reason": "1 slider + 3 policy buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "the-merge",
+        "audit_status": "fail",
+        "reason": "1 slider + 2 mode buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "the-mirror",
+        "audit_status": "fail",
+        "reason": "figure selector + dynamic move-buttons + reset",
+        "ledger_statuses": [
+          "fix"
+        ]
+      },
+      {
+        "name": "the-trail",
+        "audit_status": "fail",
+        "reason": "3 sliders + reset",
+        "ledger_statuses": [
+          "pending"
+        ]
+      },
+      {
+        "name": "the-wheel",
+        "audit_status": "fail",
+        "reason": "1 slider + 4 presets (also: monomyth not in corpus \u2014 candidate CUT)",
+        "ledger_statuses": [
+          "fix"
+        ]
+      },
+      {
+        "name": "thermocouple",
+        "audit_status": "fail",
+        "reason": "2 sliders + 3 mode buttons + reset",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "time-deals",
+        "audit_status": "fail",
+        "reason": "5 step buttons + date input, 4 bands",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "troxler",
+        "audit_status": "fail",
+        "reason": "3 sliders + 1 button",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "two-clocks",
+        "audit_status": "fail",
+        "reason": "6 buttons, 5 device presets",
+        "ledger_statuses": [
+          "fix"
+        ]
+      },
+      {
+        "name": "vernier-caliper",
+        "audit_status": "fail",
+        "reason": "1 slider + 3 mode buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "wheatstone-bridge",
+        "audit_status": "fail",
+        "reason": "2 sliders + 3 buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "winding-number",
+        "audit_status": "fail",
+        "reason": "1 slider + 4 shape buttons + peg drag",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      {
+        "name": "mock-river",
+        "audit_status": "fail",
+        "reason": "a full mock UI/replay (aim switch, input, popup, sign, rows) \u2014 categorically NOT an atomic toy; shelve or reclassify, do not treat as a first-principles toy",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      }
+    ],
+    "shelf_files_without_audit_row": [
+      "cast-and-spread.html"
+    ]
+  }
+}

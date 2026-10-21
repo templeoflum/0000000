@@ -1,0 +1,922 @@
+[
+  {
+    "col": 17,
+    "source": "Cuadricula rect",
+    "expected_controls": [
+      "tile",
+      "offset",
+      "stroke width",
+      "gradient",
+      "even rows",
+      "odd rows",
+      "rotate",
+      "warp",
+      "x",
+      "y"
+    ],
+    "discovered_controls": [
+      "tile",
+      "offset",
+      "stroke width",
+      "gradient",
+      "even rows",
+      "odd rows",
+      "rotate",
+      "warp",
+      "x",
+      "y"
+    ],
+    "checks": [
+      {
+        "control": "tile",
+        "requested": 12.578749997541308,
+        "observed": 12.578749997541308,
+        "ok": true
+      },
+      {
+        "control": "tile",
+        "requested": 37.526249999180436,
+        "observed": 37.52624999918043,
+        "ok": true
+      },
+      {
+        "control": "offset",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "offset",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "stroke width",
+        "requested": 0.3062499985098839,
+        "observed": 0.3062499985098839,
+        "ok": true
+      },
+      {
+        "control": "stroke width",
+        "requested": 0.7387499883770943,
+        "observed": 0.7387499883770943,
+        "ok": true
+      },
+      {
+        "control": "gradient",
+        "requested": 0.12507499999810534,
+        "observed": 0.12507499999810534,
+        "ok": true
+      },
+      {
+        "control": "gradient",
+        "requested": 0.37502499999936845,
+        "observed": 0.3750249999993685,
+        "ok": true
+      },
+      {
+        "control": "even rows",
+        "requested": 1.25,
+        "observed": 1.25,
+        "ok": true
+      },
+      {
+        "control": "even rows",
+        "requested": 3.75,
+        "observed": 3.75,
+        "ok": true
+      },
+      {
+        "control": "odd rows",
+        "requested": 1.25,
+        "observed": 1.25,
+        "ok": true
+      },
+      {
+        "control": "odd rows",
+        "requested": 3.75,
+        "observed": 3.75,
+        "ok": true
+      },
+      {
+        "control": "rotate",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "rotate",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "warp",
+        "requested": 0.5,
+        "observed": 0.5,
+        "ok": true
+      },
+      {
+        "control": "warp",
+        "requested": 1.5,
+        "observed": 1.5,
+        "ok": true
+      },
+      {
+        "control": "x",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "x",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "y",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "y",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      }
+    ],
+    "drive_samples": [
+      0.9565871962816246,
+      0.8044371743164078,
+      0.6630369251997021,
+      0.5766307070497183,
+      0.5613014320050109
+    ],
+    "drive_varied": true
+  },
+  {
+    "col": 18,
+    "source": "data blocks",
+    "expected_controls": [
+      "grid x",
+      "grid y",
+      "grid2 x",
+      "center x",
+      "center y",
+      "curve x",
+      "curve y",
+      "shift",
+      "density",
+      "rate",
+      "seed",
+      "offset",
+      "grid2 y"
+    ],
+    "discovered_controls": [
+      "grid x",
+      "grid y",
+      "grid2 x",
+      "center x",
+      "center y",
+      "curve x",
+      "curve y",
+      "shift",
+      "density",
+      "rate",
+      "seed",
+      "offset",
+      "grid2 y"
+    ],
+    "checks": [
+      {
+        "control": "grid x",
+        "requested": 17.0,
+        "observed": 17.0,
+        "ok": true
+      },
+      {
+        "control": "grid x",
+        "requested": 39.0,
+        "observed": 39.0,
+        "ok": true
+      },
+      {
+        "control": "grid y",
+        "requested": 17.0,
+        "observed": 17.0,
+        "ok": true
+      },
+      {
+        "control": "grid y",
+        "requested": 39.0,
+        "observed": 39.0,
+        "ok": true
+      },
+      {
+        "control": "grid2 x",
+        "requested": 17.0,
+        "observed": 17.0,
+        "ok": true
+      },
+      {
+        "control": "grid2 x",
+        "requested": 39.0,
+        "observed": 39.0,
+        "ok": true
+      },
+      {
+        "control": "center x",
+        "requested": -0.5,
+        "observed": -0.5,
+        "ok": true
+      },
+      {
+        "control": "center x",
+        "requested": 0.5,
+        "observed": 0.5,
+        "ok": true
+      },
+      {
+        "control": "center y",
+        "requested": -0.5,
+        "observed": -0.5,
+        "ok": true
+      },
+      {
+        "control": "center y",
+        "requested": 0.5,
+        "observed": 0.5,
+        "ok": true
+      },
+      {
+        "control": "curve x",
+        "requested": -0.25,
+        "observed": -0.25,
+        "ok": true
+      },
+      {
+        "control": "curve x",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "curve y",
+        "requested": -5.0,
+        "observed": -5.0,
+        "ok": true
+      },
+      {
+        "control": "curve y",
+        "requested": 5.0,
+        "observed": 5.0,
+        "ok": true
+      },
+      {
+        "control": "shift",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "shift",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "density",
+        "requested": -225.0,
+        "observed": -225.0,
+        "ok": true
+      },
+      {
+        "control": "density",
+        "requested": 1125.0,
+        "observed": 1125.0,
+        "ok": true
+      },
+      {
+        "control": "rate",
+        "requested": -1.5,
+        "observed": -1.5,
+        "ok": true
+      },
+      {
+        "control": "rate",
+        "requested": 1.5,
+        "observed": 1.5,
+        "ok": true
+      },
+      {
+        "control": "seed",
+        "requested": 64.25,
+        "observed": 64.25,
+        "ok": true
+      },
+      {
+        "control": "seed",
+        "requested": 176.75,
+        "observed": 176.75,
+        "ok": true
+      },
+      {
+        "control": "offset",
+        "requested": 2.5,
+        "observed": 2.5,
+        "ok": true
+      },
+      {
+        "control": "offset",
+        "requested": 7.5,
+        "observed": 7.5,
+        "ok": true
+      },
+      {
+        "control": "grid2 y",
+        "requested": 17.0,
+        "observed": 17.0,
+        "ok": true
+      },
+      {
+        "control": "grid2 y",
+        "requested": 39.0,
+        "observed": 39.0,
+        "ok": true
+      }
+    ],
+    "drive_samples": [
+      0.4866311226233381,
+      0.405595191171556,
+      0.3350195246238417,
+      0.29033642494713774,
+      0.28200053415080323
+    ],
+    "drive_varied": true
+  },
+  {
+    "col": 28,
+    "source": "RailroadTracks",
+    "expected_controls": [
+      "intensity",
+      "speed",
+      "curve1",
+      "curve1 freq",
+      "curve2",
+      "curve2 freq",
+      "color mix"
+    ],
+    "discovered_controls": [
+      "intensity",
+      "speed",
+      "curve1",
+      "curve1 freq",
+      "curve2",
+      "curve2 freq",
+      "color mix"
+    ],
+    "checks": [
+      {
+        "control": "intensity",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "intensity",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "speed",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "speed",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "curve1",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "curve1",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "curve1 freq",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "curve1 freq",
+        "requested": 0.75,
+        "observed": 0.25,
+        "ok": false
+      },
+      {
+        "control": "curve2",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "curve2",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "curve2 freq",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "curve2 freq",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "color mix",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "color mix",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      }
+    ],
+    "drive_samples": [
+      0.7803238084053226,
+      0.6437534762941544,
+      0.5059225544161954,
+      0.388977616193544,
+      0.32159892338611384
+    ],
+    "drive_varied": true
+  },
+  {
+    "col": 31,
+    "source": "RetroTechnicolorComputer",
+    "expected_controls": [
+      "offset x",
+      "offset y",
+      "matrix x",
+      "matrix y",
+      "size",
+      "speed",
+      "hue",
+      "saturation"
+    ],
+    "discovered_controls": [
+      "offset x",
+      "offset y",
+      "matrix x",
+      "matrix y",
+      "size",
+      "speed",
+      "hue",
+      "saturation"
+    ],
+    "checks": [
+      {
+        "control": "offset x",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "offset x",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "offset y",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "offset y",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "matrix x",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "matrix x",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "matrix y",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "matrix y",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "size",
+        "requested": 0.25,
+        "observed": 0.01,
+        "ok": false
+      },
+      {
+        "control": "size",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "speed",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "speed",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "hue",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "hue",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "saturation",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "saturation",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      }
+    ],
+    "drive_samples": [
+      0.0005996941124831642,
+      0.013469067042098723,
+      0.05396952002273086,
+      0.12891260770200952,
+      0.2162320681560843
+    ],
+    "drive_varied": true
+  },
+  {
+    "col": 32,
+    "source": "SmoothXORi",
+    "expected_controls": [
+      "rate",
+      "scrolls y",
+      "scroll x",
+      "intensity",
+      "seed1",
+      "seed2",
+      "zoom",
+      "tint",
+      "sat"
+    ],
+    "discovered_controls": [
+      "rate",
+      "scrolls y",
+      "scroll x",
+      "intensity",
+      "seed1",
+      "seed2",
+      "zoom",
+      "tint",
+      "sat"
+    ],
+    "checks": [
+      {
+        "control": "rate",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "rate",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "scrolls y",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "scrolls y",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "scroll x",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "scroll x",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "intensity",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "intensity",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "seed1",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "seed1",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "seed2",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "seed2",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "zoom",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "zoom",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "tint",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "tint",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "sat",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "sat",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      }
+    ],
+    "drive_samples": [
+      0.8800094774513406,
+      0.7057486499895986,
+      0.5538836422893947,
+      0.4101358659868672,
+      0.32914887047528796
+    ],
+    "drive_varied": true
+  },
+  {
+    "col": 33,
+    "source": "TruchetDualLevelSpin",
+    "expected_controls": [
+      "spin x",
+      "spin y",
+      "seed x",
+      "edge",
+      "glow",
+      "freq",
+      "pulse",
+      "pulse rate",
+      "thickness",
+      "scale",
+      "seed y"
+    ],
+    "discovered_controls": [
+      "spin x",
+      "spin y",
+      "seed x",
+      "edge",
+      "glow",
+      "freq",
+      "pulse",
+      "pulse rate",
+      "thickness",
+      "scale",
+      "seed y"
+    ],
+    "checks": [
+      {
+        "control": "spin x",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "spin x",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "spin y",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "spin y",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "seed x",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "seed x",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "edge",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "edge",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "glow",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "glow",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "freq",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "freq",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "pulse",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "pulse",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "pulse rate",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "pulse rate",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "thickness",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "thickness",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "scale",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "scale",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      },
+      {
+        "control": "seed y",
+        "requested": 0.25,
+        "observed": 0.25,
+        "ok": true
+      },
+      {
+        "control": "seed y",
+        "requested": 0.75,
+        "observed": 0.75,
+        "ok": true
+      }
+    ],
+    "drive_samples": [
+      0.6883560493880991,
+      0.5706365364847635,
+      0.45307053387660173,
+      0.35261637423248077,
+      0.30741313614722116
+    ],
+    "drive_varied": true
+  }
+]

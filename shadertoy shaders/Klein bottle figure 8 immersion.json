@@ -1,0 +1,27 @@
+{
+  "id": "MftSzl",
+  "name": "Klein bottle figure 8 immersion",
+  "username": "nhuck",
+  "description": "Displays colors from the figure 8 immersion [0,1]x[0,1] -> R^3 for a klein bottle.",
+  "tags": [
+    "geometry"
+  ],
+  "date": "1714333093",
+  "viewed": 170,
+  "likes": 5,
+  "published": 1,
+  "renderpass": [
+    {
+      "type": "image",
+      "name": "Image",
+      "inputs": [],
+      "outputs": [
+        {
+          "id": "4dfGRr",
+          "channel": 0
+        }
+      ],
+      "code": "void mainImage(out vec4 fragColor, in vec2 fragCoord)\n{\n    // Normalized pixel coordinates (from 0 to 1)\n    vec2 uv = fragCoord / iResolution.xy;\n\n    // Convert uv to angle coordinates for the Klein bottle\n    float u = 2.0 * 3.14159265359 * uv.x;\n    float v = 2.0 * 3.14159265359 * uv.y + 2.0 * iTime;\n\n    // Parameterization of the Klein Bottle Figure 8 Immersion\n    float r = 0.2; // radius size, adjust as necessary for visualization scale\n    float x = (r + cos(v / 2.0) * sin(u) - sin(v / 2.0) * sin(2.0 * u)) * cos(v);\n    float y = (r + cos(v / 2.0) * sin(u) - sin(v / 2.0) * sin(2.0 * u)) * sin(v);\n    float z = sin(v / 2.0) * sin(u) + cos(v / 2.0) * sin(2.0 * u);\n\n    // Normalize and shift the position to fit within the screen view\n    vec3 pos = (vec3(x, y, z) / 2.0) + vec3(0.5, 0.5, 0.5);\n\n    // Use position as color output, adjusting for visual clarity\n    vec3 col = pos;\n\n    // Output to screen\n    fragColor = vec4(col, 1.0);\n}\n"
+    }
+  ]
+}

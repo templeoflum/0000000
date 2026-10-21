@@ -1,0 +1,27 @@
+{
+  "id": "4XSfRh",
+  "name": "wave urp",
+  "username": "HyperQuantum",
+  "description": "nothing",
+  "tags": [
+    "mywave"
+  ],
+  "date": "1729171339",
+  "viewed": 41,
+  "likes": 3,
+  "published": 1,
+  "renderpass": [
+    {
+      "type": "image",
+      "name": "Image",
+      "inputs": [],
+      "outputs": [
+        {
+          "id": "4dfGRr",
+          "channel": 0
+        }
+      ],
+      "code": "\nfloat random(float x){\n    return fract(sin(x+0.5)*8.5);\n}\n\n\n\nfloat randomS(float x){\n    return sin(3.1415926535*x)*cos((x+iTime*.2) * 40.0) *0.2 +.5;\n}\n\nfloat randomL(float x){\n    return fract(sin(x+0.5)*25000.5);\n}\n\n\nvoid mainImage( out vec4 fragColor, in vec2 fragCoord )\n{\n    vec2 uv = (fragCoord * 2.0 - iResolution.xy) / min(iResolution.y, iResolution.x);\n    //uv = uv* 2. - 1.;\n    vec2 lightpos = vec2(0,0);\n    vec2 pos2uv = uv-lightpos;\n    \n    \n    \n    \n    float blocksize = 500.0;\n    vec2 digital = (uv + 1.0)/2.0;\n    digital *= blocksize;\n    digital = floor(digital);\n    float write = digital.x + digital.y * blocksize;\n    write /= blocksize*blocksize;\n    \n    \n    \n    float len = length(pos2uv);\n\n    len += randomS(write)*0.02;\n    len += randomS(len)*0.04;\n    float rlen = len + random(len);\n    float col = (1.0-len)*rlen;\n    \n    float r = fract(sin(1.0)*8.5);\n    float add = len/r;\n    col += 1.0-clamp(add,0.0,1.0);\n    \n    \n\n    \n\n    fragColor = vec4(col,col,col,1.0);\n}"
+    }
+  ]
+}

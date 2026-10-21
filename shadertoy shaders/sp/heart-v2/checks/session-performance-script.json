@@ -1,0 +1,6849 @@
+{
+  "method": "Offscreen OpenGL synchronized CPU submission + GPU completion, paired alternating order; excludes readback; not Arena frame time",
+  "renderer": "Apple M5 Max",
+  "checks": [
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.0,
+        "sizev": 0,
+        "weight": 1,
+        "slant": 1,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.17,
+        "posx": 1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.007580645161290322,
+        "sizev": 0,
+        "weight": 0,
+        "slant": 0,
+        "soft": 1,
+        "ends": 0,
+        "write": 0.17,
+        "posx": 1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.016129032258064516,
+        "sizev": 1,
+        "weight": 1,
+        "slant": 1,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.5,
+        "posx": 1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.023709677419354837,
+        "sizev": 1,
+        "weight": 1,
+        "slant": 1,
+        "soft": 0,
+        "ends": 1,
+        "write": 1,
+        "posx": 0,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.03225806451612903,
+        "sizev": 0,
+        "weight": 0.3,
+        "slant": 1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.17,
+        "posx": 0,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.03983870967741935,
+        "sizev": 0.4,
+        "weight": 0,
+        "slant": 1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.5,
+        "posx": 0,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.04838709677419355,
+        "sizev": 0,
+        "weight": 0.3,
+        "slant": 1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.5,
+        "posx": -1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.055967741935483865,
+        "sizev": 0,
+        "weight": 1,
+        "slant": 1,
+        "soft": 0,
+        "ends": 0,
+        "write": 0.17,
+        "posx": -1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.06451612903225806,
+        "sizev": 0,
+        "weight": 0.3,
+        "slant": 1,
+        "soft": 1,
+        "ends": 0,
+        "write": 0.17,
+        "posx": 0,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.07209677419354839,
+        "sizev": 0,
+        "weight": 1,
+        "slant": 1,
+        "soft": 0,
+        "ends": 0,
+        "write": 0.5,
+        "posx": 1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.08064516129032258,
+        "sizev": 1,
+        "weight": 1,
+        "slant": 0,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.5,
+        "posx": 1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.0882258064516129,
+        "sizev": 1,
+        "weight": 1,
+        "slant": -1,
+        "soft": 0,
+        "ends": 1,
+        "write": 1,
+        "posx": -1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.0967741935483871,
+        "sizev": 0.4,
+        "weight": 0,
+        "slant": -1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.17,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.10435483870967742,
+        "sizev": 0.4,
+        "weight": 0,
+        "slant": -1,
+        "soft": 1,
+        "ends": 0,
+        "write": 1,
+        "posx": 1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.11290322580645161,
+        "sizev": 0,
+        "weight": 0,
+        "slant": 1,
+        "soft": 0,
+        "ends": 0,
+        "write": 0.17,
+        "posx": 1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.12048387096774194,
+        "sizev": 0,
+        "weight": 0.3,
+        "slant": 0,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.17,
+        "posx": 1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.12903225806451613,
+        "sizev": 0,
+        "weight": 0,
+        "slant": 1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.13661290322580646,
+        "sizev": 0,
+        "weight": 0,
+        "slant": 1,
+        "soft": 1,
+        "ends": 0,
+        "write": 0.5,
+        "posx": 0,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.14516129032258066,
+        "sizev": 0.4,
+        "weight": 0,
+        "slant": 1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.5,
+        "posx": 1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.15274193548387097,
+        "sizev": 1,
+        "weight": 1,
+        "slant": -1,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.17,
+        "posx": 0,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.16129032258064516,
+        "sizev": 0,
+        "weight": 0.3,
+        "slant": 1,
+        "soft": 1,
+        "ends": 0,
+        "write": 0.17,
+        "posx": 0,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.1688709677419355,
+        "sizev": 0,
+        "weight": 0,
+        "slant": -1,
+        "soft": 1,
+        "ends": 1,
+        "write": 1,
+        "posx": -1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.1774193548387097,
+        "sizev": 0,
+        "weight": 0.3,
+        "slant": -1,
+        "soft": 0,
+        "ends": 1,
+        "write": 1,
+        "posx": 0,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.185,
+        "sizev": 1,
+        "weight": 0,
+        "slant": -1,
+        "soft": 1,
+        "ends": 1,
+        "write": 0,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.1935483870967742,
+        "sizev": 0,
+        "weight": 0.3,
+        "slant": 0,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.17,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.20112903225806453,
+        "sizev": 0.4,
+        "weight": 1,
+        "slant": -1,
+        "soft": 0,
+        "ends": 0,
+        "write": 0,
+        "posx": -1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.20967741935483872,
+        "sizev": 1,
+        "weight": 0.3,
+        "slant": -1,
+        "soft": 0,
+        "ends": 0,
+        "write": 0.5,
+        "posx": 0,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.21725806451612903,
+        "sizev": 0.4,
+        "weight": 1,
+        "slant": 0,
+        "soft": 1,
+        "ends": 1,
+        "write": 1,
+        "posx": 1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.22580645161290322,
+        "sizev": 0,
+        "weight": 0.3,
+        "slant": 1,
+        "soft": 1,
+        "ends": 1,
+        "write": 0,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.23338709677419356,
+        "sizev": 0,
+        "weight": 0.3,
+        "slant": 1,
+        "soft": 0,
+        "ends": 0,
+        "write": 0.17,
+        "posx": -1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.24193548387096775,
+        "sizev": 0.4,
+        "weight": 0,
+        "slant": 1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.17,
+        "posx": 1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.2495161290322581,
+        "sizev": 0,
+        "weight": 1,
+        "slant": -1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.5,
+        "posx": 0,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.25806451612903225,
+        "sizev": 0.4,
+        "weight": 0.3,
+        "slant": 0,
+        "soft": 0,
+        "ends": 0,
+        "write": 1,
+        "posx": -1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.26564516129032256,
+        "sizev": 1,
+        "weight": 0,
+        "slant": -1,
+        "soft": 0,
+        "ends": 0,
+        "write": 0.5,
+        "posx": -1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.27419354838709675,
+        "sizev": 0.4,
+        "weight": 0,
+        "slant": -1,
+        "soft": 1,
+        "ends": 1,
+        "write": 1,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.28177419354838706,
+        "sizev": 1,
+        "weight": 0.3,
+        "slant": 0,
+        "soft": 1,
+        "ends": 1,
+        "write": 0,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.2903225806451613,
+        "sizev": 1,
+        "weight": 0,
+        "slant": 1,
+        "soft": 1,
+        "ends": 0,
+        "write": 0.17,
+        "posx": -1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.2979032258064516,
+        "sizev": 0.4,
+        "weight": 1,
+        "slant": 1,
+        "soft": 0,
+        "ends": 0,
+        "write": 0.5,
+        "posx": 0,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.3064516129032258,
+        "sizev": 0,
+        "weight": 0.3,
+        "slant": 1,
+        "soft": 0,
+        "ends": 1,
+        "write": 1,
+        "posx": 1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.3140322580645161,
+        "sizev": 0.4,
+        "weight": 0.3,
+        "slant": -1,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.5,
+        "posx": 0,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.3225806451612903,
+        "sizev": 1,
+        "weight": 0,
+        "slant": -1,
+        "soft": 1,
+        "ends": 0,
+        "write": 1,
+        "posx": 0,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.3301612903225806,
+        "sizev": 0.4,
+        "weight": 1,
+        "slant": 0,
+        "soft": 0,
+        "ends": 0,
+        "write": 0,
+        "posx": 0,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.3387096774193548,
+        "sizev": 1,
+        "weight": 1,
+        "slant": -1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.3462903225806451,
+        "sizev": 0.4,
+        "weight": 0.3,
+        "slant": 0,
+        "soft": 1,
+        "ends": 0,
+        "write": 1,
+        "posx": 0,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.3548387096774194,
+        "sizev": 1,
+        "weight": 0.3,
+        "slant": 1,
+        "soft": 1,
+        "ends": 1,
+        "write": 1,
+        "posx": -1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.3624193548387097,
+        "sizev": 0,
+        "weight": 0.3,
+        "slant": 1,
+        "soft": 0,
+        "ends": 0,
+        "write": 0.5,
+        "posx": -1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.3709677419354839,
+        "sizev": 0,
+        "weight": 1,
+        "slant": -1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.17,
+        "posx": -1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.3785483870967742,
+        "sizev": 0.4,
+        "weight": 1,
+        "slant": 1,
+        "soft": 1,
+        "ends": 1,
+        "write": 1,
+        "posx": 1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.3870967741935484,
+        "sizev": 1,
+        "weight": 0.3,
+        "slant": 0,
+        "soft": 1,
+        "ends": 0,
+        "write": 0.5,
+        "posx": -1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.3946774193548387,
+        "sizev": 1,
+        "weight": 0.3,
+        "slant": 1,
+        "soft": 0,
+        "ends": 0,
+        "write": 0,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.4032258064516129,
+        "sizev": 0,
+        "weight": 1,
+        "slant": 0,
+        "soft": 1,
+        "ends": 0,
+        "write": 1,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.4108064516129032,
+        "sizev": 0,
+        "weight": 0.3,
+        "slant": -1,
+        "soft": 0,
+        "ends": 1,
+        "write": 1,
+        "posx": 0,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.41935483870967744,
+        "sizev": 0.4,
+        "weight": 0.3,
+        "slant": 0,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.5,
+        "posx": 1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.42693548387096775,
+        "sizev": 0,
+        "weight": 1,
+        "slant": -1,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.17,
+        "posx": -1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.43548387096774194,
+        "sizev": 0,
+        "weight": 0,
+        "slant": -1,
+        "soft": 0,
+        "ends": 0,
+        "write": 1,
+        "posx": 0,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.44306451612903225,
+        "sizev": 0.4,
+        "weight": 0,
+        "slant": 0,
+        "soft": 0,
+        "ends": 0,
+        "write": 0,
+        "posx": 1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.45161290322580644,
+        "sizev": 0,
+        "weight": 1,
+        "slant": -1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.5,
+        "posx": -1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.45919354838709675,
+        "sizev": 1,
+        "weight": 0,
+        "slant": -1,
+        "soft": 1,
+        "ends": 0,
+        "write": 0,
+        "posx": 0,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.46774193548387094,
+        "sizev": 1,
+        "weight": 1,
+        "slant": -1,
+        "soft": 1,
+        "ends": 0,
+        "write": 1,
+        "posx": -1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.47532258064516125,
+        "sizev": 0,
+        "weight": 1,
+        "slant": -1,
+        "soft": 0,
+        "ends": 0,
+        "write": 0.17,
+        "posx": 0,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.4838709677419355,
+        "sizev": 0,
+        "weight": 1,
+        "slant": 0,
+        "soft": 0,
+        "ends": 1,
+        "write": 1,
+        "posx": 0,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.4914516129032258,
+        "sizev": 0.4,
+        "weight": 1,
+        "slant": -1,
+        "soft": 1,
+        "ends": 1,
+        "write": 1,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.5,
+        "sizev": 0,
+        "weight": 1,
+        "slant": -1,
+        "soft": 0,
+        "ends": 0,
+        "write": 0,
+        "posx": -1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.5075806451612903,
+        "sizev": 0.4,
+        "weight": 0,
+        "slant": 0,
+        "soft": 1,
+        "ends": 0,
+        "write": 0,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.5161290322580645,
+        "sizev": 0.4,
+        "weight": 0.3,
+        "slant": 0,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.5,
+        "posx": 0,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.5237096774193548,
+        "sizev": 0,
+        "weight": 1,
+        "slant": -1,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.5,
+        "posx": -1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.532258064516129,
+        "sizev": 0,
+        "weight": 0.3,
+        "slant": -1,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.5,
+        "posx": -1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.5398387096774193,
+        "sizev": 1,
+        "weight": 1,
+        "slant": 0,
+        "soft": 0,
+        "ends": 0,
+        "write": 1,
+        "posx": 1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.5483870967741935,
+        "sizev": 0.4,
+        "weight": 1,
+        "slant": 1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.5,
+        "posx": -1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.5559677419354838,
+        "sizev": 0.4,
+        "weight": 0,
+        "slant": 1,
+        "soft": 0,
+        "ends": 0,
+        "write": 0.5,
+        "posx": 0,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.5645161290322581,
+        "sizev": 0.4,
+        "weight": 1,
+        "slant": 1,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.5,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.5720967741935483,
+        "sizev": 0.4,
+        "weight": 0,
+        "slant": -1,
+        "soft": 0,
+        "ends": 0,
+        "write": 1,
+        "posx": 0,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.5806451612903226,
+        "sizev": 0,
+        "weight": 1,
+        "slant": 1,
+        "soft": 1,
+        "ends": 1,
+        "write": 0,
+        "posx": -1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.5882258064516129,
+        "sizev": 0.4,
+        "weight": 0.3,
+        "slant": 0,
+        "soft": 1,
+        "ends": 0,
+        "write": 0,
+        "posx": 1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.5967741935483871,
+        "sizev": 0.4,
+        "weight": 1,
+        "slant": 1,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.5,
+        "posx": 0,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.6043548387096774,
+        "sizev": 1,
+        "weight": 0.3,
+        "slant": 1,
+        "soft": 0,
+        "ends": 1,
+        "write": 1,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.6129032258064516,
+        "sizev": 0.4,
+        "weight": 0,
+        "slant": 0,
+        "soft": 0,
+        "ends": 1,
+        "write": 1,
+        "posx": 1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.6204838709677419,
+        "sizev": 0,
+        "weight": 1,
+        "slant": -1,
+        "soft": 1,
+        "ends": 0,
+        "write": 0.5,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.6290322580645161,
+        "sizev": 0.4,
+        "weight": 1,
+        "slant": 1,
+        "soft": 1,
+        "ends": 0,
+        "write": 0.5,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.6366129032258064,
+        "sizev": 0.4,
+        "weight": 0,
+        "slant": -1,
+        "soft": 0,
+        "ends": 0,
+        "write": 1,
+        "posx": 0,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.6451612903225806,
+        "sizev": 0,
+        "weight": 0,
+        "slant": 0,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.17,
+        "posx": 0,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.6527419354838709,
+        "sizev": 0.4,
+        "weight": 0,
+        "slant": -1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.17,
+        "posx": 0,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.6612903225806451,
+        "sizev": 0,
+        "weight": 0.3,
+        "slant": -1,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.5,
+        "posx": -1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.6688709677419354,
+        "sizev": 0,
+        "weight": 0,
+        "slant": 0,
+        "soft": 0,
+        "ends": 0,
+        "write": 1,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.6774193548387096,
+        "sizev": 1,
+        "weight": 0.3,
+        "slant": 0,
+        "soft": 0,
+        "ends": 0,
+        "write": 1,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.6849999999999999,
+        "sizev": 0.4,
+        "weight": 0,
+        "slant": 1,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.17,
+        "posx": 1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.6935483870967742,
+        "sizev": 0,
+        "weight": 0,
+        "slant": 0,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.5,
+        "posx": 0,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.7011290322580644,
+        "sizev": 0,
+        "weight": 0,
+        "slant": 0,
+        "soft": 1,
+        "ends": 0,
+        "write": 0.17,
+        "posx": 0,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.7096774193548387,
+        "sizev": 0.4,
+        "weight": 0,
+        "slant": 0,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.5,
+        "posx": 1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.7172580645161291,
+        "sizev": 1,
+        "weight": 0,
+        "slant": -1,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.5,
+        "posx": 1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.7258064516129032,
+        "sizev": 0,
+        "weight": 0.3,
+        "slant": -1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.5,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.7333870967741936,
+        "sizev": 0.4,
+        "weight": 0.3,
+        "slant": 0,
+        "soft": 1,
+        "ends": 1,
+        "write": 0,
+        "posx": 1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.7419354838709677,
+        "sizev": 1,
+        "weight": 0.3,
+        "slant": -1,
+        "soft": 0,
+        "ends": 1,
+        "write": 1,
+        "posx": 1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.7495161290322581,
+        "sizev": 0,
+        "weight": 0,
+        "slant": 0,
+        "soft": 1,
+        "ends": 0,
+        "write": 0.5,
+        "posx": 1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.7580645161290323,
+        "sizev": 0,
+        "weight": 0.3,
+        "slant": 1,
+        "soft": 1,
+        "ends": 1,
+        "write": 1,
+        "posx": 0,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.7656451612903226,
+        "sizev": 1,
+        "weight": 0,
+        "slant": 0,
+        "soft": 0,
+        "ends": 0,
+        "write": 0,
+        "posx": 0,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.7741935483870968,
+        "sizev": 0.4,
+        "weight": 1,
+        "slant": -1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.17,
+        "posx": 0,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.7817741935483871,
+        "sizev": 0,
+        "weight": 1,
+        "slant": 1,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.5,
+        "posx": 1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.7903225806451613,
+        "sizev": 1,
+        "weight": 0.3,
+        "slant": 0,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.17,
+        "posx": 1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.7979032258064516,
+        "sizev": 1,
+        "weight": 0.3,
+        "slant": -1,
+        "soft": 1,
+        "ends": 0,
+        "write": 0,
+        "posx": 0,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.8064516129032258,
+        "sizev": 0,
+        "weight": 0,
+        "slant": 0,
+        "soft": 1,
+        "ends": 0,
+        "write": 0,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.8140322580645161,
+        "sizev": 0.4,
+        "weight": 0.3,
+        "slant": 1,
+        "soft": 0,
+        "ends": 0,
+        "write": 0,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.8225806451612904,
+        "sizev": 0,
+        "weight": 0,
+        "slant": 0,
+        "soft": 0,
+        "ends": 1,
+        "write": 0,
+        "posx": 0,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.8301612903225807,
+        "sizev": 1,
+        "weight": 0.3,
+        "slant": -1,
+        "soft": 0,
+        "ends": 1,
+        "write": 1,
+        "posx": -1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.8387096774193549,
+        "sizev": 0.4,
+        "weight": 1,
+        "slant": -1,
+        "soft": 0,
+        "ends": 0,
+        "write": 1,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.8462903225806452,
+        "sizev": 1,
+        "weight": 0.3,
+        "slant": 1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.17,
+        "posx": 0,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.8548387096774194,
+        "sizev": 1,
+        "weight": 0,
+        "slant": 0,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.17,
+        "posx": -1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.8624193548387097,
+        "sizev": 0.4,
+        "weight": 1,
+        "slant": -1,
+        "soft": 0,
+        "ends": 1,
+        "write": 1,
+        "posx": 1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.8709677419354839,
+        "sizev": 0,
+        "weight": 0.3,
+        "slant": 0,
+        "soft": 0,
+        "ends": 0,
+        "write": 1,
+        "posx": 1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.8785483870967742,
+        "sizev": 0.4,
+        "weight": 0,
+        "slant": -1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.17,
+        "posx": 1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.8870967741935484,
+        "sizev": 0.4,
+        "weight": 0.3,
+        "slant": -1,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.17,
+        "posx": 0,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.8946774193548387,
+        "sizev": 0,
+        "weight": 1,
+        "slant": -1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.17,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.9032258064516129,
+        "sizev": 0.4,
+        "weight": 1,
+        "slant": -1,
+        "soft": 1,
+        "ends": 1,
+        "write": 0,
+        "posx": 1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.9108064516129032,
+        "sizev": 0.4,
+        "weight": 0,
+        "slant": -1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.17,
+        "posx": -1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.9193548387096774,
+        "sizev": 1,
+        "weight": 1,
+        "slant": 0,
+        "soft": 0,
+        "ends": 1,
+        "write": 1,
+        "posx": -1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.9269354838709677,
+        "sizev": 1,
+        "weight": 1,
+        "slant": -1,
+        "soft": 1,
+        "ends": 0,
+        "write": 0.17,
+        "posx": 1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.9354838709677419,
+        "sizev": 0.4,
+        "weight": 0.3,
+        "slant": 0,
+        "soft": 0,
+        "ends": 0,
+        "write": 0.5,
+        "posx": -1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.9430645161290322,
+        "sizev": 0,
+        "weight": 0,
+        "slant": 0,
+        "soft": 0,
+        "ends": 0,
+        "write": 0,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.9516129032258065,
+        "sizev": 0,
+        "weight": 1,
+        "slant": 1,
+        "soft": 0,
+        "ends": 0,
+        "write": 1,
+        "posx": 0,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.9591935483870968,
+        "sizev": 0.4,
+        "weight": 0.3,
+        "slant": 1,
+        "soft": 1,
+        "ends": 0,
+        "write": 0.5,
+        "posx": 0,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.967741935483871,
+        "sizev": 1,
+        "weight": 0.3,
+        "slant": -1,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.17,
+        "posx": 1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.9753225806451613,
+        "sizev": 1,
+        "weight": 0.3,
+        "slant": 0,
+        "soft": 1,
+        "ends": 1,
+        "write": 1,
+        "posx": -1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.9838709677419355,
+        "sizev": 0,
+        "weight": 1,
+        "slant": 0,
+        "soft": 0,
+        "ends": 0,
+        "write": 0.17,
+        "posx": -1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 0.9914516129032258,
+        "sizev": 0.4,
+        "weight": 0,
+        "slant": 1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0,
+        "posx": 0,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 1,
+        "sizev": 1,
+        "weight": 1,
+        "slant": -1,
+        "soft": 0,
+        "ends": 0,
+        "write": 0.17,
+        "posx": 1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 0,
+        "glyph": 1,
+        "sizev": 0.4,
+        "weight": 0,
+        "slant": 0,
+        "soft": 1,
+        "ends": 0,
+        "write": 0.17,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.0,
+        "sizev": 1,
+        "weight": 0,
+        "slant": 0,
+        "soft": 0,
+        "ends": 0,
+        "write": 0.17,
+        "posx": -1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.009215686274509803,
+        "sizev": 0,
+        "weight": 0.3,
+        "slant": 1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.5,
+        "posx": 0,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.0196078431372549,
+        "sizev": 1,
+        "weight": 0,
+        "slant": 1,
+        "soft": 0,
+        "ends": 0,
+        "write": 1,
+        "posx": -1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.028823529411764706,
+        "sizev": 0.4,
+        "weight": 0,
+        "slant": -1,
+        "soft": 0,
+        "ends": 0,
+        "write": 0.17,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.0392156862745098,
+        "sizev": 1,
+        "weight": 1,
+        "slant": 1,
+        "soft": 0,
+        "ends": 0,
+        "write": 0,
+        "posx": 0,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.0484313725490196,
+        "sizev": 0.4,
+        "weight": 0.3,
+        "slant": 0,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.17,
+        "posx": 0,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.058823529411764705,
+        "sizev": 1,
+        "weight": 1,
+        "slant": 1,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.5,
+        "posx": 1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.06803921568627451,
+        "sizev": 0.4,
+        "weight": 0,
+        "slant": 1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.17,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.0784313725490196,
+        "sizev": 0,
+        "weight": 0.3,
+        "slant": -1,
+        "soft": 0,
+        "ends": 0,
+        "write": 1,
+        "posx": -1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.08764705882352941,
+        "sizev": 0.4,
+        "weight": 0.3,
+        "slant": 0,
+        "soft": 1,
+        "ends": 0,
+        "write": 0,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.09803921568627451,
+        "sizev": 0,
+        "weight": 0,
+        "slant": -1,
+        "soft": 0,
+        "ends": 0,
+        "write": 0.5,
+        "posx": 0,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.10725490196078431,
+        "sizev": 0,
+        "weight": 1,
+        "slant": 0,
+        "soft": 1,
+        "ends": 1,
+        "write": 1,
+        "posx": 1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.11764705882352941,
+        "sizev": 0.4,
+        "weight": 0,
+        "slant": -1,
+        "soft": 0,
+        "ends": 0,
+        "write": 1,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.12686274509803921,
+        "sizev": 1,
+        "weight": 0.3,
+        "slant": 1,
+        "soft": 0,
+        "ends": 0,
+        "write": 0.5,
+        "posx": 1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.13725490196078433,
+        "sizev": 0.4,
+        "weight": 0,
+        "slant": 0,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.5,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.1464705882352941,
+        "sizev": 0,
+        "weight": 0.3,
+        "slant": 1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.17,
+        "posx": -1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.1568627450980392,
+        "sizev": 1,
+        "weight": 0.3,
+        "slant": -1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.17,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.16607843137254905,
+        "sizev": 0.4,
+        "weight": 0,
+        "slant": 1,
+        "soft": 1,
+        "ends": 1,
+        "write": 1,
+        "posx": -1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.17647058823529413,
+        "sizev": 0,
+        "weight": 0,
+        "slant": 0,
+        "soft": 0,
+        "ends": 0,
+        "write": 0,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.18568627450980393,
+        "sizev": 0,
+        "weight": 0.3,
+        "slant": -1,
+        "soft": 0,
+        "ends": 1,
+        "write": 1,
+        "posx": 1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.19607843137254902,
+        "sizev": 0,
+        "weight": 0.3,
+        "slant": 0,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.17,
+        "posx": 0,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.20529411764705885,
+        "sizev": 0,
+        "weight": 1,
+        "slant": 1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.21568627450980393,
+        "sizev": 0,
+        "weight": 0,
+        "slant": 1,
+        "soft": 0,
+        "ends": 0,
+        "write": 0,
+        "posx": -1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.22490196078431374,
+        "sizev": 1,
+        "weight": 0.3,
+        "slant": -1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.5,
+        "posx": 0,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.23529411764705882,
+        "sizev": 0,
+        "weight": 0.3,
+        "slant": -1,
+        "soft": 0,
+        "ends": 0,
+        "write": 0,
+        "posx": -1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.24450980392156865,
+        "sizev": 0,
+        "weight": 1,
+        "slant": 1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.5,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.2549019607843137,
+        "sizev": 1,
+        "weight": 0.3,
+        "slant": 0,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.17,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.26411764705882357,
+        "sizev": 1,
+        "weight": 0,
+        "slant": -1,
+        "soft": 0,
+        "ends": 0,
+        "write": 1,
+        "posx": 0,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.27450980392156865,
+        "sizev": 1,
+        "weight": 1,
+        "slant": -1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.5,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.28372549019607846,
+        "sizev": 0,
+        "weight": 1,
+        "slant": 1,
+        "soft": 1,
+        "ends": 0,
+        "write": 0,
+        "posx": -1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.29411764705882354,
+        "sizev": 0.4,
+        "weight": 0,
+        "slant": 0,
+        "soft": 1,
+        "ends": 0,
+        "write": 0,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.30333333333333334,
+        "sizev": 1,
+        "weight": 0.3,
+        "slant": 1,
+        "soft": 1,
+        "ends": 0,
+        "write": 0,
+        "posx": 1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.3137254901960784,
+        "sizev": 0.4,
+        "weight": 0,
+        "slant": 0,
+        "soft": 0,
+        "ends": 1,
+        "write": 0,
+        "posx": -1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.32294117647058823,
+        "sizev": 0.4,
+        "weight": 0,
+        "slant": 1,
+        "soft": 1,
+        "ends": 1,
+        "write": 1,
+        "posx": -1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.3333333333333333,
+        "sizev": 1,
+        "weight": 0,
+        "slant": 0,
+        "soft": 1,
+        "ends": 0,
+        "write": 0.5,
+        "posx": 0,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.3425490196078431,
+        "sizev": 1,
+        "weight": 0.3,
+        "slant": 0,
+        "soft": 1,
+        "ends": 0,
+        "write": 0,
+        "posx": 0,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.35294117647058826,
+        "sizev": 1,
+        "weight": 0,
+        "slant": -1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0,
+        "posx": 1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.362156862745098,
+        "sizev": 1,
+        "weight": 0.3,
+        "slant": 0,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.5,
+        "posx": 0,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.37254901960784315,
+        "sizev": 1,
+        "weight": 1,
+        "slant": 1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.17,
+        "posx": 0,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.3817647058823529,
+        "sizev": 0.4,
+        "weight": 1,
+        "slant": 0,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.5,
+        "posx": -1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.39215686274509803,
+        "sizev": 0,
+        "weight": 1,
+        "slant": 0,
+        "soft": 1,
+        "ends": 0,
+        "write": 0,
+        "posx": 1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.40137254901960784,
+        "sizev": 1,
+        "weight": 0.3,
+        "slant": 0,
+        "soft": 0,
+        "ends": 1,
+        "write": 0,
+        "posx": 1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.4117647058823529,
+        "sizev": 0,
+        "weight": 1,
+        "slant": 1,
+        "soft": 1,
+        "ends": 0,
+        "write": 0.5,
+        "posx": 1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.4209803921568627,
+        "sizev": 1,
+        "weight": 0,
+        "slant": 1,
+        "soft": 0,
+        "ends": 0,
+        "write": 0,
+        "posx": 0,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.43137254901960786,
+        "sizev": 1,
+        "weight": 0,
+        "slant": 1,
+        "soft": 1,
+        "ends": 1,
+        "write": 0,
+        "posx": 1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.4405882352941176,
+        "sizev": 1,
+        "weight": 1,
+        "slant": 0,
+        "soft": 0,
+        "ends": 0,
+        "write": 0.17,
+        "posx": 1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.45098039215686275,
+        "sizev": 0.4,
+        "weight": 1,
+        "slant": 0,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.17,
+        "posx": -1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.4601960784313725,
+        "sizev": 0.4,
+        "weight": 0.3,
+        "slant": 0,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.5,
+        "posx": -1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.47058823529411764,
+        "sizev": 1,
+        "weight": 1,
+        "slant": 1,
+        "soft": 0,
+        "ends": 0,
+        "write": 0.5,
+        "posx": -1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.47980392156862745,
+        "sizev": 0.4,
+        "weight": 0.3,
+        "slant": 0,
+        "soft": 1,
+        "ends": 0,
+        "write": 0.5,
+        "posx": -1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.49019607843137253,
+        "sizev": 0,
+        "weight": 0,
+        "slant": -1,
+        "soft": 1,
+        "ends": 1,
+        "write": 1,
+        "posx": 0,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.49941176470588233,
+        "sizev": 0.4,
+        "weight": 1,
+        "slant": 0,
+        "soft": 1,
+        "ends": 0,
+        "write": 0,
+        "posx": 1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.5098039215686274,
+        "sizev": 1,
+        "weight": 0.3,
+        "slant": -1,
+        "soft": 1,
+        "ends": 0,
+        "write": 1,
+        "posx": 0,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.5190196078431373,
+        "sizev": 1,
+        "weight": 0,
+        "slant": 0,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.17,
+        "posx": 0,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.5294117647058824,
+        "sizev": 1,
+        "weight": 1,
+        "slant": -1,
+        "soft": 0,
+        "ends": 0,
+        "write": 0,
+        "posx": 1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.5386274509803921,
+        "sizev": 0,
+        "weight": 0.3,
+        "slant": -1,
+        "soft": 1,
+        "ends": 0,
+        "write": 1,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.5490196078431373,
+        "sizev": 0,
+        "weight": 0.3,
+        "slant": 1,
+        "soft": 0,
+        "ends": 0,
+        "write": 0.5,
+        "posx": -1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.558235294117647,
+        "sizev": 1,
+        "weight": 0,
+        "slant": 1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0,
+        "posx": 1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.5686274509803921,
+        "sizev": 0,
+        "weight": 0.3,
+        "slant": 0,
+        "soft": 1,
+        "ends": 1,
+        "write": 0,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.5778431372549019,
+        "sizev": 0,
+        "weight": 0.3,
+        "slant": 0,
+        "soft": 0,
+        "ends": 0,
+        "write": 1,
+        "posx": 1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.5882352941176471,
+        "sizev": 0,
+        "weight": 1,
+        "slant": -1,
+        "soft": 1,
+        "ends": 0,
+        "write": 0.5,
+        "posx": 0,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.5974509803921568,
+        "sizev": 0.4,
+        "weight": 0.3,
+        "slant": 1,
+        "soft": 1,
+        "ends": 0,
+        "write": 1,
+        "posx": 0,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.6078431372549019,
+        "sizev": 1,
+        "weight": 0.3,
+        "slant": 0,
+        "soft": 0,
+        "ends": 1,
+        "write": 1,
+        "posx": -1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.6170588235294118,
+        "sizev": 0,
+        "weight": 0,
+        "slant": -1,
+        "soft": 1,
+        "ends": 0,
+        "write": 0.17,
+        "posx": -1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.6274509803921569,
+        "sizev": 0.4,
+        "weight": 0.3,
+        "slant": 1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.17,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.6366666666666666,
+        "sizev": 1,
+        "weight": 1,
+        "slant": 0,
+        "soft": 0,
+        "ends": 0,
+        "write": 0,
+        "posx": 0,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.6470588235294118,
+        "sizev": 1,
+        "weight": 0.3,
+        "slant": 1,
+        "soft": 0,
+        "ends": 0,
+        "write": 1,
+        "posx": 1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.6562745098039215,
+        "sizev": 0.4,
+        "weight": 0,
+        "slant": 1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.5,
+        "posx": 0,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.6666666666666666,
+        "sizev": 1,
+        "weight": 1,
+        "slant": 1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.6758823529411765,
+        "sizev": 0,
+        "weight": 1,
+        "slant": 1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.17,
+        "posx": -1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.6862745098039216,
+        "sizev": 1,
+        "weight": 1,
+        "slant": -1,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.5,
+        "posx": -1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.6954901960784313,
+        "sizev": 1,
+        "weight": 0.3,
+        "slant": 1,
+        "soft": 0,
+        "ends": 1,
+        "write": 1,
+        "posx": -1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.7058823529411765,
+        "sizev": 1,
+        "weight": 0.3,
+        "slant": 1,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.17,
+        "posx": -1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.7150980392156863,
+        "sizev": 1,
+        "weight": 0.3,
+        "slant": 0,
+        "soft": 1,
+        "ends": 0,
+        "write": 0,
+        "posx": 0,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.7254901960784313,
+        "sizev": 0.4,
+        "weight": 1,
+        "slant": 1,
+        "soft": 1,
+        "ends": 0,
+        "write": 1,
+        "posx": -1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.7347058823529412,
+        "sizev": 0,
+        "weight": 0,
+        "slant": 0,
+        "soft": 0,
+        "ends": 0,
+        "write": 0,
+        "posx": 1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.7450980392156863,
+        "sizev": 0,
+        "weight": 1,
+        "slant": 1,
+        "soft": 1,
+        "ends": 1,
+        "write": 0,
+        "posx": 1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.754313725490196,
+        "sizev": 0.4,
+        "weight": 0.3,
+        "slant": 1,
+        "soft": 0,
+        "ends": 0,
+        "write": 0.17,
+        "posx": 0,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.7647058823529411,
+        "sizev": 1,
+        "weight": 0.3,
+        "slant": 1,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.5,
+        "posx": -1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.773921568627451,
+        "sizev": 0.4,
+        "weight": 0,
+        "slant": -1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.17,
+        "posx": 1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.7843137254901961,
+        "sizev": 0,
+        "weight": 1,
+        "slant": -1,
+        "soft": 1,
+        "ends": 0,
+        "write": 1,
+        "posx": 0,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.7935294117647058,
+        "sizev": 1,
+        "weight": 0,
+        "slant": 1,
+        "soft": 0,
+        "ends": 0,
+        "write": 0,
+        "posx": -1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.803921568627451,
+        "sizev": 0,
+        "weight": 0,
+        "slant": 1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0,
+        "posx": -1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.8131372549019608,
+        "sizev": 0.4,
+        "weight": 1,
+        "slant": 0,
+        "soft": 1,
+        "ends": 0,
+        "write": 0.17,
+        "posx": 0,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.8235294117647058,
+        "sizev": 1,
+        "weight": 0,
+        "slant": 0,
+        "soft": 0,
+        "ends": 1,
+        "write": 1,
+        "posx": -1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.8327450980392157,
+        "sizev": 1,
+        "weight": 0,
+        "slant": -1,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.17,
+        "posx": 0,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.8431372549019608,
+        "sizev": 0.4,
+        "weight": 1,
+        "slant": 1,
+        "soft": 1,
+        "ends": 0,
+        "write": 0.17,
+        "posx": 1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.8523529411764705,
+        "sizev": 0,
+        "weight": 0.3,
+        "slant": -1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.17,
+        "posx": -1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.8627450980392157,
+        "sizev": 0.4,
+        "weight": 1,
+        "slant": 1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.17,
+        "posx": 1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.8719607843137255,
+        "sizev": 0.4,
+        "weight": 0.3,
+        "slant": 0,
+        "soft": 1,
+        "ends": 1,
+        "write": 0,
+        "posx": 1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.8823529411764706,
+        "sizev": 0,
+        "weight": 0.3,
+        "slant": 0,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.5,
+        "posx": 0,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.8915686274509804,
+        "sizev": 0,
+        "weight": 0,
+        "slant": 1,
+        "soft": 1,
+        "ends": 0,
+        "write": 0.17,
+        "posx": 0,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.9019607843137255,
+        "sizev": 0,
+        "weight": 0.3,
+        "slant": 0,
+        "soft": 1,
+        "ends": 0,
+        "write": 0.5,
+        "posx": 0,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.9111764705882353,
+        "sizev": 1,
+        "weight": 0,
+        "slant": 0,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.5,
+        "posx": 1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.9215686274509803,
+        "sizev": 1,
+        "weight": 0.3,
+        "slant": -1,
+        "soft": 1,
+        "ends": 0,
+        "write": 0,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.9307843137254902,
+        "sizev": 1,
+        "weight": 0,
+        "slant": -1,
+        "soft": 1,
+        "ends": 0,
+        "write": 0.17,
+        "posx": -1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.9411764705882353,
+        "sizev": 0,
+        "weight": 1,
+        "slant": 1,
+        "soft": 1,
+        "ends": 0,
+        "write": 0.17,
+        "posx": -1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.950392156862745,
+        "sizev": 1,
+        "weight": 0.3,
+        "slant": 0,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.17,
+        "posx": -1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.9607843137254902,
+        "sizev": 0,
+        "weight": 0.3,
+        "slant": 0,
+        "soft": 0,
+        "ends": 1,
+        "write": 1,
+        "posx": 0,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.97,
+        "sizev": 0.4,
+        "weight": 0,
+        "slant": 0,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.5,
+        "posx": -1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.9803921568627451,
+        "sizev": 0.4,
+        "weight": 1,
+        "slant": -1,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.5,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.9896078431372549,
+        "sizev": 0,
+        "weight": 0,
+        "slant": -1,
+        "soft": 1,
+        "ends": 0,
+        "write": 1,
+        "posx": 0,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 1,
+        "sizev": 0.4,
+        "weight": 0,
+        "slant": 0,
+        "soft": 0,
+        "ends": 1,
+        "write": 0,
+        "posx": 1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 1,
+        "sizev": 0,
+        "weight": 0,
+        "slant": 1,
+        "soft": 0,
+        "ends": 0,
+        "write": 1,
+        "posx": 0,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 2,
+        "glyph": 0.0,
+        "sizev": 0,
+        "weight": 0,
+        "slant": 1,
+        "soft": 1,
+        "ends": 0,
+        "write": 0.5,
+        "posx": 0,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 2,
+        "glyph": 0.02043478260869565,
+        "sizev": 1,
+        "weight": 0.3,
+        "slant": 1,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.17,
+        "posx": -1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 2,
+        "glyph": 0.043478260869565216,
+        "sizev": 0.4,
+        "weight": 0.3,
+        "slant": 0,
+        "soft": 0,
+        "ends": 0,
+        "write": 0.17,
+        "posx": 0,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 2,
+        "glyph": 0.06391304347826086,
+        "sizev": 0.4,
+        "weight": 0,
+        "slant": 0,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.17,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 2,
+        "glyph": 0.08695652173913043,
+        "sizev": 0.4,
+        "weight": 0.3,
+        "slant": 1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.17,
+        "posx": 1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 2,
+        "glyph": 0.10739130434782608,
+        "sizev": 1,
+        "weight": 0,
+        "slant": 0,
+        "soft": 1,
+        "ends": 0,
+        "write": 0,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 2,
+        "glyph": 0.13043478260869565,
+        "sizev": 0.4,
+        "weight": 0.3,
+        "slant": 0,
+        "soft": 0,
+        "ends": 0,
+        "write": 1,
+        "posx": 0,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 2,
+        "glyph": 0.15086956521739128,
+        "sizev": 1,
+        "weight": 1,
+        "slant": 0,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.17,
+        "posx": 0,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 2,
+        "glyph": 0.17391304347826086,
+        "sizev": 0,
+        "weight": 1,
+        "slant": -1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.5,
+        "posx": 1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 2,
+        "glyph": 0.1943478260869565,
+        "sizev": 0,
+        "weight": 0,
+        "slant": -1,
+        "soft": 0,
+        "ends": 1,
+        "write": 1,
+        "posx": -1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 2,
+        "glyph": 0.21739130434782608,
+        "sizev": 1,
+        "weight": 0.3,
+        "slant": 1,
+        "soft": 0,
+        "ends": 0,
+        "write": 0,
+        "posx": -1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 2,
+        "glyph": 0.23782608695652172,
+        "sizev": 1,
+        "weight": 1,
+        "slant": 1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.5,
+        "posx": -1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 2,
+        "glyph": 0.2608695652173913,
+        "sizev": 1,
+        "weight": 1,
+        "slant": 0,
+        "soft": 0,
+        "ends": 1,
+        "write": 0,
+        "posx": -1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 2,
+        "glyph": 0.28130434782608693,
+        "sizev": 1,
+        "weight": 1,
+        "slant": 1,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.5,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 2,
+        "glyph": 0.30434782608695654,
+        "sizev": 0,
+        "weight": 1,
+        "slant": 1,
+        "soft": 1,
+        "ends": 0,
+        "write": 0.5,
+        "posx": 1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 2,
+        "glyph": 0.3247826086956522,
+        "sizev": 1,
+        "weight": 0.3,
+        "slant": -1,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.17,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 2,
+        "glyph": 0.34782608695652173,
+        "sizev": 1,
+        "weight": 1,
+        "slant": -1,
+        "soft": 1,
+        "ends": 0,
+        "write": 0,
+        "posx": -1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 2,
+        "glyph": 0.3682608695652174,
+        "sizev": 1,
+        "weight": 0.3,
+        "slant": 0,
+        "soft": 0,
+        "ends": 0,
+        "write": 0,
+        "posx": 0,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 2,
+        "glyph": 0.391304347826087,
+        "sizev": 0.4,
+        "weight": 0.3,
+        "slant": 1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.5,
+        "posx": 1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 2,
+        "glyph": 0.41173913043478266,
+        "sizev": 0,
+        "weight": 1,
+        "slant": 1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.5,
+        "posx": 0,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 2,
+        "glyph": 0.43478260869565216,
+        "sizev": 1,
+        "weight": 1,
+        "slant": -1,
+        "soft": 1,
+        "ends": 0,
+        "write": 0,
+        "posx": 1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 2,
+        "glyph": 0.45521739130434785,
+        "sizev": 0.4,
+        "weight": 0,
+        "slant": 1,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.5,
+        "posx": -1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 2,
+        "glyph": 0.4782608695652174,
+        "sizev": 0.4,
+        "weight": 0,
+        "slant": 0,
+        "soft": 1,
+        "ends": 0,
+        "write": 0.5,
+        "posx": 1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 2,
+        "glyph": 0.4986956521739131,
+        "sizev": 1,
+        "weight": 0,
+        "slant": 0,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.17,
+        "posx": 1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 2,
+        "glyph": 0.5217391304347826,
+        "sizev": 0.4,
+        "weight": 0,
+        "slant": 0,
+        "soft": 1,
+        "ends": 0,
+        "write": 0.5,
+        "posx": -1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 2,
+        "glyph": 0.5421739130434783,
+        "sizev": 0.4,
+        "weight": 1,
+        "slant": 0,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.17,
+        "posx": 0,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 2,
+        "glyph": 0.5652173913043478,
+        "sizev": 0.4,
+        "weight": 0.3,
+        "slant": 1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.5,
+        "posx": 1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 2,
+        "glyph": 0.5856521739130435,
+        "sizev": 0,
+        "weight": 0,
+        "slant": 0,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.5,
+        "posx": 0,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 2,
+        "glyph": 0.6086956521739131,
+        "sizev": 0,
+        "weight": 0,
+        "slant": 0,
+        "soft": 0,
+        "ends": 0,
+        "write": 0.17,
+        "posx": -1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 2,
+        "glyph": 0.6291304347826088,
+        "sizev": 0.4,
+        "weight": 0,
+        "slant": 0,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.5,
+        "posx": 1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 2,
+        "glyph": 0.6521739130434783,
+        "sizev": 0,
+        "weight": 1,
+        "slant": -1,
+        "soft": 0,
+        "ends": 0,
+        "write": 0,
+        "posx": -1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 2,
+        "glyph": 0.672608695652174,
+        "sizev": 0,
+        "weight": 0.3,
+        "slant": 0,
+        "soft": 1,
+        "ends": 0,
+        "write": 1,
+        "posx": 0,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 2,
+        "glyph": 0.6956521739130435,
+        "sizev": 0.4,
+        "weight": 1,
+        "slant": 0,
+        "soft": 1,
+        "ends": 1,
+        "write": 0,
+        "posx": 0,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 2,
+        "glyph": 0.716086956521739,
+        "sizev": 0.4,
+        "weight": 1,
+        "slant": 1,
+        "soft": 1,
+        "ends": 0,
+        "write": 0,
+        "posx": -1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 2,
+        "glyph": 0.7391304347826086,
+        "sizev": 0,
+        "weight": 0,
+        "slant": -1,
+        "soft": 0,
+        "ends": 1,
+        "write": 1,
+        "posx": 0,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 2,
+        "glyph": 0.7595652173913043,
+        "sizev": 1,
+        "weight": 0.3,
+        "slant": -1,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.17,
+        "posx": 0,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 2,
+        "glyph": 0.782608695652174,
+        "sizev": 1,
+        "weight": 1,
+        "slant": -1,
+        "soft": 0,
+        "ends": 1,
+        "write": 1,
+        "posx": 1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 2,
+        "glyph": 0.8030434782608695,
+        "sizev": 0.4,
+        "weight": 0,
+        "slant": -1,
+        "soft": 1,
+        "ends": 0,
+        "write": 0.17,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 2,
+        "glyph": 0.8260869565217391,
+        "sizev": 1,
+        "weight": 0.3,
+        "slant": -1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 2,
+        "glyph": 0.8465217391304347,
+        "sizev": 0,
+        "weight": 1,
+        "slant": 0,
+        "soft": 1,
+        "ends": 0,
+        "write": 0.5,
+        "posx": 1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 2,
+        "glyph": 0.8695652173913043,
+        "sizev": 1,
+        "weight": 1,
+        "slant": 1,
+        "soft": 1,
+        "ends": 0,
+        "write": 0,
+        "posx": 1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 2,
+        "glyph": 0.8899999999999999,
+        "sizev": 0.4,
+        "weight": 0,
+        "slant": 0,
+        "soft": 0,
+        "ends": 1,
+        "write": 0,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 2,
+        "glyph": 0.9130434782608695,
+        "sizev": 0,
+        "weight": 0,
+        "slant": 1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 2,
+        "glyph": 0.9334782608695652,
+        "sizev": 1,
+        "weight": 0,
+        "slant": 0,
+        "soft": 0,
+        "ends": 0,
+        "write": 0.17,
+        "posx": -1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 2,
+        "glyph": 0.9565217391304348,
+        "sizev": 0.4,
+        "weight": 0.3,
+        "slant": 1,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.17,
+        "posx": 0,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 2,
+        "glyph": 0.9769565217391304,
+        "sizev": 1,
+        "weight": 0,
+        "slant": -1,
+        "soft": 0,
+        "ends": 0,
+        "write": 0.5,
+        "posx": -1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 2,
+        "glyph": 1,
+        "sizev": 0.4,
+        "weight": 1,
+        "slant": 0,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.5,
+        "posx": 0,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 2,
+        "glyph": 1,
+        "sizev": 1,
+        "weight": 1,
+        "slant": -1,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.17,
+        "posx": 0,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 3,
+        "glyph": 0.0,
+        "sizev": 1,
+        "weight": 1,
+        "slant": 0,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.5,
+        "posx": 1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 3,
+        "glyph": 0.024736842105263158,
+        "sizev": 0,
+        "weight": 0.3,
+        "slant": 0,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.5,
+        "posx": -1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 3,
+        "glyph": 0.05263157894736842,
+        "sizev": 1,
+        "weight": 0,
+        "slant": -1,
+        "soft": 0,
+        "ends": 0,
+        "write": 0,
+        "posx": 1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 3,
+        "glyph": 0.07736842105263157,
+        "sizev": 0.4,
+        "weight": 0,
+        "slant": -1,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.5,
+        "posx": 0,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 3,
+        "glyph": 0.10526315789473684,
+        "sizev": 0.4,
+        "weight": 0,
+        "slant": 1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0,
+        "posx": 1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 3,
+        "glyph": 0.12999999999999998,
+        "sizev": 1,
+        "weight": 1,
+        "slant": -1,
+        "soft": 0,
+        "ends": 0,
+        "write": 1,
+        "posx": -1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 3,
+        "glyph": 0.15789473684210525,
+        "sizev": 0.4,
+        "weight": 0.3,
+        "slant": 1,
+        "soft": 1,
+        "ends": 0,
+        "write": 0.5,
+        "posx": 1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 3,
+        "glyph": 0.1826315789473684,
+        "sizev": 0.4,
+        "weight": 1,
+        "slant": -1,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.5,
+        "posx": -1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 3,
+        "glyph": 0.21052631578947367,
+        "sizev": 0.4,
+        "weight": 0.3,
+        "slant": 0,
+        "soft": 0,
+        "ends": 0,
+        "write": 0.5,
+        "posx": 1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 3,
+        "glyph": 0.23526315789473684,
+        "sizev": 1,
+        "weight": 0,
+        "slant": 0,
+        "soft": 0,
+        "ends": 1,
+        "write": 0,
+        "posx": 1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 3,
+        "glyph": 0.2631578947368421,
+        "sizev": 0,
+        "weight": 1,
+        "slant": 0,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.5,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 3,
+        "glyph": 0.28789473684210526,
+        "sizev": 0,
+        "weight": 0,
+        "slant": 0,
+        "soft": 1,
+        "ends": 0,
+        "write": 1,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 3,
+        "glyph": 0.3157894736842105,
+        "sizev": 0.4,
+        "weight": 0.3,
+        "slant": -1,
+        "soft": 0,
+        "ends": 0,
+        "write": 0.5,
+        "posx": -1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 3,
+        "glyph": 0.3405263157894737,
+        "sizev": 0,
+        "weight": 0,
+        "slant": -1,
+        "soft": 0,
+        "ends": 0,
+        "write": 0,
+        "posx": 0,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 3,
+        "glyph": 0.3684210526315789,
+        "sizev": 0.4,
+        "weight": 0,
+        "slant": 1,
+        "soft": 0,
+        "ends": 0,
+        "write": 0,
+        "posx": -1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 3,
+        "glyph": 0.3931578947368421,
+        "sizev": 1,
+        "weight": 0,
+        "slant": -1,
+        "soft": 0,
+        "ends": 0,
+        "write": 0,
+        "posx": 0,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 3,
+        "glyph": 0.42105263157894735,
+        "sizev": 0,
+        "weight": 1,
+        "slant": -1,
+        "soft": 0,
+        "ends": 0,
+        "write": 1,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 3,
+        "glyph": 0.44578947368421057,
+        "sizev": 0.4,
+        "weight": 1,
+        "slant": 1,
+        "soft": 1,
+        "ends": 1,
+        "write": 0,
+        "posx": -1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 3,
+        "glyph": 0.47368421052631576,
+        "sizev": 0,
+        "weight": 1,
+        "slant": 0,
+        "soft": 1,
+        "ends": 0,
+        "write": 0.5,
+        "posx": 1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 3,
+        "glyph": 0.498421052631579,
+        "sizev": 0.4,
+        "weight": 1,
+        "slant": -1,
+        "soft": 0,
+        "ends": 0,
+        "write": 1,
+        "posx": -1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 3,
+        "glyph": 0.5263157894736842,
+        "sizev": 0,
+        "weight": 0,
+        "slant": -1,
+        "soft": 0,
+        "ends": 0,
+        "write": 0,
+        "posx": -1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 3,
+        "glyph": 0.5510526315789473,
+        "sizev": 1,
+        "weight": 0,
+        "slant": 0,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.17,
+        "posx": -1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 3,
+        "glyph": 0.5789473684210527,
+        "sizev": 1,
+        "weight": 0.3,
+        "slant": 1,
+        "soft": 0,
+        "ends": 0,
+        "write": 0.17,
+        "posx": 1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 3,
+        "glyph": 0.6036842105263158,
+        "sizev": 0,
+        "weight": 1,
+        "slant": 0,
+        "soft": 1,
+        "ends": 1,
+        "write": 0,
+        "posx": -1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 3,
+        "glyph": 0.631578947368421,
+        "sizev": 0.4,
+        "weight": 0.3,
+        "slant": 1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0,
+        "posx": 0,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 3,
+        "glyph": 0.6563157894736843,
+        "sizev": 0.4,
+        "weight": 1,
+        "slant": 1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.17,
+        "posx": -1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 3,
+        "glyph": 0.6842105263157895,
+        "sizev": 0.4,
+        "weight": 0,
+        "slant": 1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0,
+        "posx": 0,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 3,
+        "glyph": 0.7089473684210527,
+        "sizev": 0.4,
+        "weight": 0,
+        "slant": 0,
+        "soft": 1,
+        "ends": 1,
+        "write": 1,
+        "posx": -1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 3,
+        "glyph": 0.7368421052631579,
+        "sizev": 0,
+        "weight": 0.3,
+        "slant": 1,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.17,
+        "posx": -1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 3,
+        "glyph": 0.7615789473684211,
+        "sizev": 1,
+        "weight": 0.3,
+        "slant": -1,
+        "soft": 1,
+        "ends": 0,
+        "write": 1,
+        "posx": 1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 3,
+        "glyph": 0.7894736842105263,
+        "sizev": 1,
+        "weight": 1,
+        "slant": -1,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.5,
+        "posx": 1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 3,
+        "glyph": 0.8142105263157895,
+        "sizev": 0.4,
+        "weight": 1,
+        "slant": 1,
+        "soft": 1,
+        "ends": 1,
+        "write": 0,
+        "posx": 1,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 3,
+        "glyph": 0.8421052631578947,
+        "sizev": 0,
+        "weight": 0,
+        "slant": 1,
+        "soft": 1,
+        "ends": 1,
+        "write": 0.17,
+        "posx": -1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 3,
+        "glyph": 0.8668421052631579,
+        "sizev": 0.4,
+        "weight": 0,
+        "slant": 0,
+        "soft": 0,
+        "ends": 0,
+        "write": 0.5,
+        "posx": 0,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 3,
+        "glyph": 0.8947368421052632,
+        "sizev": 0.4,
+        "weight": 0,
+        "slant": -1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.5,
+        "posx": 1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 3,
+        "glyph": 0.9194736842105262,
+        "sizev": 0.4,
+        "weight": 0,
+        "slant": 0,
+        "soft": 0,
+        "ends": 1,
+        "write": 1,
+        "posx": 0,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 3,
+        "glyph": 0.9473684210526315,
+        "sizev": 0.4,
+        "weight": 0.3,
+        "slant": -1,
+        "soft": 1,
+        "ends": 1,
+        "write": 0,
+        "posx": 0,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 3,
+        "glyph": 0.9721052631578947,
+        "sizev": 0.4,
+        "weight": 0,
+        "slant": 1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.5,
+        "posx": 0,
+        "posy": 0
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 3,
+        "glyph": 1,
+        "sizev": 0.4,
+        "weight": 0.3,
+        "slant": 1,
+        "soft": 0,
+        "ends": 0,
+        "write": 0,
+        "posx": 1,
+        "posy": -1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 3,
+        "glyph": 1,
+        "sizev": 1,
+        "weight": 0,
+        "slant": 1,
+        "soft": 0,
+        "ends": 1,
+        "write": 0.17,
+        "posx": -1,
+        "posy": 1
+      },
+      "resolution": [
+        640,
+        240
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {},
+      "resolution": [
+        1920,
+        1080
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.237,
+        "sizev": 1,
+        "weight": 1,
+        "ends": 1,
+        "slant": -1,
+        "soft": 1,
+        "write": 0.53,
+        "posx": 1,
+        "posy": -1
+      },
+      "resolution": [
+        1920,
+        1080
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 3,
+        "glyph": 0.613,
+        "sizev": 0,
+        "weight": 0,
+        "slant": 1,
+        "soft": 1,
+        "posx": -1,
+        "posy": 1
+      },
+      "resolution": [
+        1920,
+        1080
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {},
+      "resolution": [
+        3840,
+        1440
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 1,
+        "glyph": 0.237,
+        "sizev": 1,
+        "weight": 1,
+        "ends": 1,
+        "slant": -1,
+        "soft": 1,
+        "write": 0.53,
+        "posx": 1,
+        "posy": -1
+      },
+      "resolution": [
+        3840,
+        1440
+      ],
+      "rgba_byte_exact": true
+    },
+    {
+      "settings": {
+        "script": 3,
+        "glyph": 0.613,
+        "sizev": 0,
+        "weight": 0,
+        "slant": 1,
+        "soft": 1,
+        "posx": -1,
+        "posy": 1
+      },
+      "resolution": [
+        3840,
+        1440
+      ],
+      "rgba_byte_exact": true
+    }
+  ],
+  "benchmark": [
+    {
+      "resolution": [
+        1920,
+        1080
+      ],
+      "settings": {},
+      "original_median_ms": 4.443500511115417,
+      "candidate_median_ms": 0.7727085030637681,
+      "original_p95_ms": 6.552027088764589,
+      "candidate_p95_ms": 1.9007378621608948,
+      "original_samples_ms": [
+        5.39449998177588,
+        3.32062499364838,
+        5.300834018271416,
+        4.282832989702001,
+        4.965041007380933,
+        5.345457990188152,
+        4.370874987216666,
+        3.793332987697795,
+        5.0532919995021075,
+        3.8755839923396707,
+        4.8288750112988055,
+        4.778542002895847,
+        4.1718749853316694,
+        4.7948329884093255,
+        3.6790419835597277,
+        4.100666992599145,
+        5.02608300303109,
+        6.545749987708405,
+        5.092291015898809,
+        3.9209169917739928,
+        4.425167018780485,
+        4.525416006799787,
+        4.0452910179737955,
+        4.768166021676734,
+        5.369416991015896,
+        4.18550000176765,
+        3.917875001206994,
+        5.619916977593675,
+        3.9766670088283718,
+        5.492249998496845,
+        4.795375018147752,
+        3.376666980329901,
+        4.517249995842576,
+        3.5130000032950193,
+        3.3255410089623183,
+        3.9059580012690276,
+        3.59466701047495,
+        3.6150829982943833,
+        5.426874995464459,
+        4.4723330065608025,
+        4.926999972667545,
+        4.025458008982241,
+        6.833416991867125,
+        3.8989589957054704,
+        4.137375013669953,
+        5.145166011061519,
+        3.9630829996895045,
+        4.181833006441593,
+        4.418208001879975,
+        6.671292008832097,
+        3.988915996160358,
+        4.418374999659136,
+        4.326208989368752,
+        4.615707992343232,
+        6.814332999056205,
+        5.48216700553894,
+        3.3939999993890524,
+        3.2464579853694886,
+        4.340290994150564,
+        4.724250000435859,
+        8.503332996042445,
+        5.39770899922587,
+        4.355958022642881,
+        4.544708994217217,
+        5.296457995427772,
+        4.461834003450349,
+        4.032124998047948,
+        4.106916981982067,
+        3.5212920047342777,
+        3.4002080210484564,
+        3.6877919919788837,
+        4.464249999728054,
+        5.8988750097341835,
+        3.325624973513186,
+        4.591124976286665,
+        3.4372080117464066,
+        5.712374986615032,
+        5.676083994330838,
+        4.832584003452212,
+        4.645457986043766
+      ],
+      "candidate_samples_ms": [
+        0.9546660003252327,
+        0.8890839817468077,
+        1.8812090274877846,
+        0.6486249912995845,
+        0.736958987545222,
+        0.7632079941686243,
+        0.8824170217849314,
+        0.40816699038259685,
+        0.60299999313429,
+        0.5654999986290932,
+        0.7206669833976775,
+        0.42987498454749584,
+        1.956709020305425,
+        0.6512080144602805,
+        1.0625419963616878,
+        1.5895830001682043,
+        0.7704999879933894,
+        0.6814579828642309,
+        0.6161669734865427,
+        0.41529099689796567,
+        0.5987919867038727,
+        0.4272499936632812,
+        0.9064170008059591,
+        1.1337920150253922,
+        0.8365410030819476,
+        0.6094169802963734,
+        0.6937919824849814,
+        0.8630829979665577,
+        2.028125018114224,
+        0.9091249958146363,
+        0.683707999996841,
+        0.403957994421944,
+        0.6456670234911144,
+        0.5743750080000609,
+        1.7984170117415488,
+        0.43024998740293086,
+        3.760332998353988,
+        1.148832991020754,
+        0.7749170181341469,
+        0.9597499738447368,
+        0.5832079914398491,
+        0.9545419889036566,
+        0.4996249917894602,
+        0.6999579782132059,
+        0.865417008753866,
+        0.7762919995002449,
+        0.5803749954793602,
+        0.7664169825147837,
+        3.199458005838096,
+        1.0169580054935068,
+        0.7560000231023878,
+        0.29733299743384123,
+        0.5323329824022949,
+        1.1747500102501363,
+        1.3559999933931977,
+        0.9712500032037497,
+        1.7413330206181854,
+        0.5628330109175295,
+        1.4466250140685588,
+        0.5930420011281967,
+        0.9695420158095658,
+        0.8870839956216514,
+        0.7260830025188625,
+        0.5209580122027546,
+        1.8977920117322356,
+        0.6314589991234243,
+        1.2583329807966948,
+        1.4875420019961894,
+        1.613917003851384,
+        0.831749988719821,
+        1.2326669821050018,
+        0.6212499865796417,
+        1.1779160122387111,
+        1.1964580044150352,
+        0.6193749723024666,
+        0.3194170130882412,
+        0.9749580058269203,
+        1.4661659952253103,
+        0.474541011499241,
+        0.4383329942356795
+      ]
+    },
+    {
+      "resolution": [
+        1920,
+        1080
+      ],
+      "settings": {
+        "sizev": 1,
+        "glyph": 0.237,
+        "script": 1
+      },
+      "original_median_ms": 0.5493545177159831,
+      "candidate_median_ms": 0.30541700834874064,
+      "original_p95_ms": 1.2359711487079037,
+      "candidate_p95_ms": 0.9603919635992492,
+      "original_samples_ms": [
+        1.0343340109102428,
+        0.4199169925414026,
+        0.4230840131640434,
+        1.2309169978834689,
+        0.46049998491071165,
+        0.5722079949919134,
+        0.5669999809470028,
+        0.49199999193660915,
+        0.3817079996224493,
+        0.36120801814831793,
+        0.41137501830235124,
+        1.1494170175865293,
+        1.33200001437217,
+        0.8044159912969917,
+        0.8449580054730177,
+        0.9647080150898546,
+        0.7903749938122928,
+        0.4630839976016432,
+        0.4178329836577177,
+        0.37895800778642297,
+        0.460749986814335,
+        0.38516600034199655,
+        0.4045839887112379,
+        0.4505830002017319,
+        0.908124988200143,
+        0.5876670184079558,
+        0.5014160124119371,
+        1.9018749881070107,
+        0.6745829887222499,
+        0.4706250037997961,
+        0.5557920085266232,
+        0.5361250077839941,
+        0.39479098632000387,
+        0.47687499318271875,
+        1.495625008828938,
+        0.9060410084202886,
+        0.932042021304369,
+        0.8550840138923377,
+        0.38958300137892365,
+        0.3668749995995313,
+        0.3638339985627681,
+        0.48854100168682635,
+        0.7646250014659017,
+        2.0200829894747585,
+        0.7881250057835132,
+        0.378625001758337,
+        0.5818750069011003,
+        0.4145829880144447,
+        0.6545840005856007,
+        0.4768339858856052,
+        0.961042009294033,
+        0.4954999894835055,
+        0.44079101644456387,
+        0.40245798300020397,
+        0.9515830024611205,
+        0.9538750164210796,
+        0.845166010549292,
+        0.7700420101173222,
+        1.0017910099122673,
+        0.5597920098807663,
+        0.5429170269053429,
+        0.5377089837566018,
+        0.7246249879244715,
+        0.9442500013392419,
+        0.615333003224805,
+        0.4707500047516078,
+        0.37408299976959825,
+        0.3888749924954027,
+        0.3647090052254498,
+        0.7050000131130219,
+        1.0117499914485961,
+        0.46004101750440896,
+        0.3917920112144202,
+        1.1494999926071614,
+        0.4995829949621111,
+        1.1438329820521176,
+        0.588166993111372,
+        0.4624159773811698,
+        0.38470799336209893,
+        1.0866670054383576
+      ],
+      "candidate_samples_ms": [
+        0.3059169976040721,
+        0.21108301007188857,
+        0.19383302424103022,
+        0.7100829971022904,
+        0.26620799326337874,
+        0.16950001008808613,
+        0.9071670065168291,
+        0.3710830060299486,
+        0.2312920114491135,
+        0.17370798741467297,
+        0.240708002820611,
+        0.35441701766103506,
+        0.47754100523889065,
+        0.29679102590307593,
+        0.347833993146196,
+        0.33504198654554784,
+        1.421749999281019,
+        0.2637919969856739,
+        0.2104159793816507,
+        0.832874997286126,
+        0.36750000435858965,
+        0.334459007717669,
+        0.24570900131948292,
+        0.25362501037307084,
+        0.39129098877310753,
+        0.2902080013882369,
+        0.8512499916832894,
+        1.4488330052699894,
+        0.6465839978773147,
+        0.32987500890158117,
+        0.30320900259539485,
+        0.8876249776221812,
+        0.22841600002720952,
+        0.24162500631064177,
+        0.5049160099588335,
+        0.22691700723953545,
+        0.6596670136786997,
+        0.2601669984869659,
+        0.29287501820363104,
+        0.1622500130906701,
+        0.2679169992916286,
+        0.2598340215627104,
+        0.26433399762026966,
+        0.6293330225162208,
+        0.4295000107958913,
+        0.32958301017060876,
+        0.3049170190934092,
+        1.2287090066820383,
+        0.86508400272578,
+        0.4505419929046184,
+        0.7292919908650219,
+        0.2512909995857626,
+        0.2928329922724515,
+        0.27070799842476845,
+        0.23137498646974564,
+        0.16987498383969069,
+        0.5980420100968331,
+        0.34808297641575336,
+        0.48883300041779876,
+        0.6279160152189434,
+        0.357625016476959,
+        0.5095840024296194,
+        0.9502920147497207,
+        0.7953330059535801,
+        1.1522909917403013,
+        0.3985419753007591,
+        0.19541700021363795,
+        0.18791601178236306,
+        0.25158299831673503,
+        0.17029099399223924,
+        0.2178330032620579,
+        0.244333001319319,
+        0.30362498364411294,
+        0.20933299674652517,
+        0.29958400409668684,
+        0.941083999350667,
+        0.23899998632259667,
+        0.2836250059772283,
+        0.7449590193573385,
+        0.5251250113360584
+      ]
+    },
+    {
+      "resolution": [
+        3840,
+        1440
+      ],
+      "settings": {},
+      "original_median_ms": 9.718834000523202,
+      "candidate_median_ms": 0.668541993945837,
+      "original_p95_ms": 13.100502095767297,
+      "candidate_p95_ms": 1.6554785630432887,
+      "original_samples_ms": [
+        10.55745899793692,
+        10.721541999373585,
+        8.954542019637302,
+        9.68283400288783,
+        13.219291984569281,
+        11.475542007246986,
+        8.850957994582132,
+        9.472542005823925,
+        10.775000002468005,
+        12.102750013582408,
+        9.221832995535806,
+        8.60333300079219,
+        9.367375023430213,
+        10.69762499537319,
+        13.903582992497832,
+        9.783459012396634,
+        9.160832996712998,
+        8.50858399644494,
+        11.778874992160127,
+        10.207290994003415,
+        8.716707990970463,
+        8.176499977707863,
+        10.76770800864324,
+        13.348084001336247,
+        9.629790991311893,
+        9.126000019023195,
+        8.388457994442433,
+        14.093917008722201,
+        10.025499999755993,
+        9.16858299751766,
+        8.629624993773177,
+        10.277291003149003,
+        12.040042027365416,
+        9.967791993403807,
+        8.294250001199543,
+        8.240166993346065,
+        10.00395798473619,
+        11.994958011200652,
+        9.838666999712586,
+        9.28354199277237,
+        9.487040981184691,
+        11.353125009918585,
+        10.707874986110255,
+        8.795333007583395,
+        8.939417020883411,
+        10.806500009493902,
+        10.789374995511025,
+        9.131708997301757,
+        9.29479199112393,
+        10.807790997205302,
+        12.64625001931563,
+        9.202457993524149,
+        7.877791998907924,
+        11.032208014512435,
+        10.724249994382262,
+        7.672917010495439,
+        9.261832979973406,
+        7.948500016937032,
+        8.040624990826473,
+        10.2570419840049,
+        11.704875010764226,
+        9.84095802414231,
+        8.35645801271312,
+        12.815833004424348,
+        9.754833998158574,
+        8.744958002353087,
+        7.677250017877668,
+        10.687458008760586,
+        9.870584006421268,
+        8.67737500811927,
+        8.231250016251579,
+        8.436709002126008,
+        10.099917009938508,
+        7.565458014141768,
+        9.821249986998737,
+        8.842499984893948,
+        8.136290998663753,
+        13.094249996356666,
+        10.415750002721325,
+        8.38708400260657
+      ],
+      "candidate_samples_ms": [
+        2.706166007556021,
+        0.6297919899225235,
+        0.6342089909594506,
+        0.3935410059057176,
+        1.0309589852113277,
+        0.7235830125864595,
+        0.5393339961301535,
+        1.0046669922303408,
+        0.8635419944766909,
+        0.6493330001831055,
+        0.5274169961921871,
+        0.4835000145249069,
+        0.600500003201887,
+        0.38583402056246996,
+        0.6890420045237988,
+        0.9075420093722641,
+        0.9135829750448465,
+        0.36091599031351507,
+        3.1543750083073974,
+        0.4987080174032599,
+        0.9502499888185412,
+        1.6521660145372152,
+        1.0475410090293735,
+        0.5962919967714697,
+        0.7618750096298754,
+        0.5231669929344207,
+        0.6397499819286168,
+        0.5034159985370934,
+        1.0494580201338977,
+        0.44641600106842816,
+        0.7863749924581498,
+        0.5442920082714409,
+        1.0750840010587126,
+        0.45879199751652777,
+        0.7240000122692436,
+        0.4254590021446347,
+        1.2974579876754433,
+        0.9518330043647438,
+        0.6957919977139682,
+        0.42604198097251356,
+        0.976250012172386,
+        1.0411659895908087,
+        0.7799580052960664,
+        0.441916985437274,
+        0.5471250042319298,
+        0.524833012605086,
+        0.8652499818708748,
+        0.9010420180857182,
+        0.7540829828940332,
+        0.44220799463801086,
+        1.0957919876091182,
+        0.5155420221854001,
+        0.5956249951850623,
+        0.5390839942265302,
+        0.8278750174213201,
+        0.877750018844381,
+        0.9665419929660857,
+        0.4424579965416342,
+        0.7059170166030526,
+        0.9542079933453351,
+        0.6538339948747307,
+        0.3653750172816217,
+        1.7184169846586883,
+        0.5086659803055227,
+        0.7013749855104834,
+        0.48062499263323843,
+        0.6832499930169433,
+        0.612833013292402,
+        0.9434169915039092,
+        0.5077499954495579,
+        1.0208330058958381,
+        1.15929200546816,
+        0.5743750080000609,
+        2.8163749957457185,
+        0.6426670006476343,
+        0.4353339900262654,
+        0.4070000140927732,
+        1.1417499918024987,
+        0.5569999921135604,
+        0.4224589793011546
+      ]
+    },
+    {
+      "resolution": [
+        3840,
+        1440
+      ],
+      "settings": {
+        "sizev": 1,
+        "glyph": 0.237,
+        "script": 1
+      },
+      "original_median_ms": 0.8487500017508864,
+      "candidate_median_ms": 0.3330624895170331,
+      "original_p95_ms": 2.366128850553649,
+      "candidate_p95_ms": 1.2969961404451165,
+      "original_samples_ms": [
+        1.8053340027108788,
+        0.9875420073512942,
+        2.3464580008294433,
+        1.118374988436699,
+        2.9613749939017,
+        1.72433300758712,
+        1.2140829931013286,
+        0.7685830059926957,
+        0.9421250142622739,
+        0.7455000013578683,
+        0.6830409984104335,
+        1.040250004734844,
+        0.6573749997187406,
+        1.5605840017087758,
+        2.8392499953042716,
+        2.2797920100856572,
+        1.193999982206151,
+        0.7412080012727529,
+        1.042125019012019,
+        0.9012079972308129,
+        0.6735420029144734,
+        1.2522920151241124,
+        0.8784160017967224,
+        0.736916990717873,
+        0.7603330013807863,
+        0.6694170006085187,
+        0.848416006192565,
+        0.8508750179316849,
+        0.7613750058226287,
+        3.2825410016812384,
+        0.8157500124070793,
+        1.325875025941059,
+        1.4577079855371267,
+        0.6519999878946692,
+        0.7345839985646307,
+        0.9151669801212847,
+        0.796667009126395,
+        0.7364159973803908,
+        0.7480829954147339,
+        0.8648749790154397,
+        0.9404590236954391,
+        2.269124990561977,
+        1.9761250005103648,
+        1.453582983231172,
+        0.8789580024313182,
+        0.714167021214962,
+        1.0103340027853847,
+        0.5796249897684902,
+        0.6729160086251795,
+        1.0994159965775907,
+        1.116667001042515,
+        0.6632920121774077,
+        0.7327499915845692,
+        0.6959169986657798,
+        0.6011250079609454,
+        0.8648340008221567,
+        0.8463749836664647,
+        2.739874995313585,
+        0.7413749990519136,
+        0.7938339840620756,
+        1.0912499856203794,
+        0.7747090130578727,
+        0.8490839973092079,
+        0.6263329996727407,
+        0.8449580054730177,
+        0.6433340022340417,
+        0.7154170016292483,
+        2.0342910138424486,
+        1.168832997791469,
+        0.598000013269484,
+        0.6303339905571193,
+        0.7084999815560877,
+        0.6549999816343188,
+        0.562541012186557,
+        1.1170830111950636,
+        0.5769999988842756,
+        0.6241659866645932,
+        0.8153749804478139,
+        1.6147920105140656,
+        1.405167015036568
+      ],
+      "candidate_samples_ms": [
+        0.6425000028684735,
+        1.0157499928027391,
+        0.3986670053564012,
+        0.25049998657777905,
+        0.5597499839495867,
+        0.2862499968614429,
+        0.40754099609330297,
+        0.3303749836049974,
+        0.2667499938979745,
+        0.3483749751467258,
+        0.3205410030204803,
+        0.2794590254779905,
+        0.27749998844228685,
+        0.8088339818641543,
+        0.6333329947665334,
+        0.27708298875950277,
+        0.41375000728294253,
+        0.31066700466908514,
+        0.3166670212522149,
+        0.3472090174909681,
+        0.42050000047311187,
+        0.26708299992606044,
+        0.6434169772546738,
+        0.8792500011622906,
+        0.33033397630788386,
+        0.2401249948889017,
+        1.0274999949615449,
+        0.4935000033583492,
+        0.41566701838746667,
+        0.4558750079013407,
+        0.32383299549110234,
+        0.2533750084694475,
+        0.2910830080509186,
+        0.21491700317710638,
+        0.29112500487826765,
+        0.2934579970315099,
+        0.782165996497497,
+        0.23991698981262743,
+        0.32675001421011984,
+        0.5498749960679561,
+        0.4566249845083803,
+        0.30812498880550265,
+        0.48179199802689254,
+        1.6211670008488,
+        0.2537919790484011,
+        0.2238340093754232,
+        0.2575840044301003,
+        0.20091698388569057,
+        0.2492500061634928,
+        0.2892499906010926,
+        0.22629101295024157,
+        0.19175000488758087,
+        0.5808339919894934,
+        1.2909169890917838,
+        0.4800409951712936,
+        0.49066697829402983,
+        0.75758300954476,
+        0.8636249986011535,
+        0.34729199251160026,
+        0.3227909910492599,
+        0.3082919865846634,
+        0.3440420259721577,
+        0.6305419956333935,
+        0.2766670077107847,
+        1.2844169978052378,
+        0.2756670000962913,
+        0.24208298418670893,
+        0.24399999529123306,
+        0.5919589893892407,
+        2.460332994814962,
+        0.21912500960752368,
+        0.6900000153109431,
+        0.20845900871790946,
+        0.24479199782945216,
+        0.2674169954843819,
+        0.6560420151799917,
+        0.517625012435019,
+        2.5278749817516655,
+        1.4125000161584467,
+        0.3357499954290688
+      ]
+    }
+  ],
+  "original": "/Users/donovan/work/0000000/shadertoy shaders/sp/SP Atom Script.fs",
+  "candidate": "/tmp/heart-output-script-optimized.fs",
+  "glyph_bounds_check": "All 159 complete glyph boxes contain every vertex. Expanded by stroke radius + full smoothstep antialias radius, after shear."
+}

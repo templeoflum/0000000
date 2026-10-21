@@ -1,0 +1,745 @@
+{
+  "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+  "note": "Saved exact control values; animated controls are captured phases, not tested static presets. Excludes envelope opacity and LinearCloner. XML choice indexes require REST option conversion.",
+  "controls": {
+    "composition/effect/MTK_STROKE_VOLT~1/param/WIDTH": {
+      "value": 1.8444618133272657,
+      "default": 0.10000000149011612,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "MTK_STROKE_VOLT",
+      "xml_param": "WIDTH",
+      "original_layer_index": null,
+      "native_phase": "PhaseSourceStatic",
+      "value_type": "DOUBLE"
+    },
+    "composition/effect/MTK_STROKE_VOLT~1/param/RGBMOD_SPEED": {
+      "value": 0.4694094114665744,
+      "default": 0.31578901410102844,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "MTK_STROKE_VOLT",
+      "xml_param": "RGBMOD_SPEED",
+      "original_layer_index": null,
+      "native_phase": "PhaseSourceStatic",
+      "value_type": "DOUBLE"
+    },
+    "composition/effect/MTK_STROKE_VOLT~1/param/OFFSET": {
+      "value": 0.0018463382262056001,
+      "default": 0.0010000000474974513,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "MTK_STROKE_VOLT",
+      "xml_param": "OFFSET",
+      "original_layer_index": null,
+      "native_phase": "PhaseSourceStatic",
+      "value_type": "DOUBLE"
+    },
+    "composition/effect/MTK_STROKE_VOLT~1/param/FEEDBACK": {
+      "value": 0.643692055347096,
+      "default": 0.6000000238418579,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "MTK_STROKE_VOLT",
+      "xml_param": "FEEDBACK",
+      "original_layer_index": null,
+      "native_phase": "PhaseSourceStatic",
+      "value_type": "DOUBLE"
+    },
+    "composition/effect/MTK_STROKE_VOLT~1/param/SOFTEN%280%3DOFF%29": {
+      "value": 0.30000001192092896,
+      "default": 0.12556399405002594,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "MTK_STROKE_VOLT",
+      "xml_param": "SOFTEN(0=OFF)",
+      "original_layer_index": null,
+      "native_phase": "PhaseSourceStatic",
+      "value_type": "DOUBLE"
+    },
+    "composition/effect/MTK_STROKE_VOLT~1/param/SPHERIZE": {
+      "value": false,
+      "default": true,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "MTK_STROKE_VOLT",
+      "xml_param": "SPHERIZE",
+      "original_layer_index": null,
+      "native_phase": null,
+      "value_type": "BOOL"
+    },
+    "composition/effect/MTK_PXLMELT~1/param/DENSITY": {
+      "value": 0.9900000095367432,
+      "default": 0.17499999701976776,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "MTK_PXLMELT",
+      "xml_param": "DENSITY",
+      "original_layer_index": null,
+      "native_phase": "PhaseSourceStatic",
+      "value_type": "DOUBLE"
+    },
+    "composition/effect/MTK_PXLMELT~1/param/TIMESTRETCH": {
+      "value": 0.20000000298023224,
+      "default": 0.07998999953269958,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "MTK_PXLMELT",
+      "xml_param": "TIMESTRETCH",
+      "original_layer_index": null,
+      "native_phase": "PhaseSourceStatic",
+      "value_type": "DOUBLE"
+    },
+    "composition/effect/MTK_PXLMELT~1/param/FADETIME": {
+      "value": 1.0,
+      "default": 0.11938700079917908,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "MTK_PXLMELT",
+      "xml_param": "FADETIME",
+      "original_layer_index": null,
+      "native_phase": "PhaseSourceStatic",
+      "value_type": "DOUBLE"
+    },
+    "composition/effect/HueRotate~1/param/Hue%20Rotate": {
+      "value": 0.47245875625106487,
+      "default": 0.0,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "HueRotate",
+      "xml_param": "Hue Rotate",
+      "original_layer_index": null,
+      "native_phase": "PhaseSourceTimeline",
+      "value_type": "DOUBLE"
+    },
+    "composition/effect/mtk_lut_corrupt~1/param/LUT_CORRUPT_R": {
+      "value": "Resource/GRINDHOUSE_01_GLITCH_09_blockshufflebig.cube",
+      "default": "Resource/ParasiticClog_corrupt_1_extreme_noise.cube",
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "mtk_lut_corrupt",
+      "xml_param": "LUT_CORRUPT_R",
+      "original_layer_index": null,
+      "native_phase": null,
+      "value_type": "FILE",
+      "note": "XML choice value/index; resolve against current REST options before writing."
+    },
+    "composition/effect/mtk_lut_corrupt~1/param/IN_WHITE": {
+      "value": 0.11016497499892557,
+      "default": 0.6551030278205872,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "mtk_lut_corrupt",
+      "xml_param": "IN_WHITE",
+      "original_layer_index": null,
+      "native_phase": "PhaseSourceTimeline",
+      "value_type": "DOUBLE"
+    },
+    "composition/effect/mtk_lut_corrupt~1/param/OUT_WHITE": {
+      "value": 0.6501178392858793,
+      "default": 0.13265199959278107,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "mtk_lut_corrupt",
+      "xml_param": "OUT_WHITE",
+      "original_layer_index": null,
+      "native_phase": "PhaseSourceTimeline",
+      "value_type": "DOUBLE"
+    },
+    "composition/effect/mtk_lut_corrupt~1/param/IN%20BLACK": {
+      "value": 0.6864386250022176,
+      "default": 0.0,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "mtk_lut_corrupt",
+      "xml_param": "IN BLACK",
+      "original_layer_index": null,
+      "native_phase": "PhaseSourceTimeline",
+      "value_type": "DOUBLE"
+    },
+    "composition/effect/mtk_lut_corrupt~1/param/OUT%20BLACK": {
+      "value": 0.8116019134609428,
+      "default": 0.0,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "mtk_lut_corrupt",
+      "xml_param": "OUT BLACK",
+      "original_layer_index": null,
+      "native_phase": "PhaseSourceTimeline",
+      "value_type": "DOUBLE"
+    },
+    "composition/effect/ColourLoop~1/param/Factor": {
+      "value": 0.41950956038903875,
+      "default": 0.10000000149011612,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "ColourLoop",
+      "xml_param": "Factor",
+      "original_layer_index": null,
+      "native_phase": "PhaseSourceTimeline",
+      "value_type": "DOUBLE"
+    },
+    "composition/effect/ColourLoop~1/param/Offset": {
+      "value": 0.18839808653904605,
+      "default": 0.0,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "ColourLoop",
+      "xml_param": "Offset",
+      "original_layer_index": null,
+      "native_phase": "PhaseSourceTimeline",
+      "value_type": "DOUBLE"
+    },
+    "composition/effect/ColourLoop~1/param/Red%20offset": {
+      "value": 0.8130941496555285,
+      "default": 0.5,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "ColourLoop",
+      "xml_param": "Red offset",
+      "original_layer_index": null,
+      "native_phase": "PhaseSourceTimeline",
+      "value_type": "DOUBLE"
+    },
+    "composition/effect/ColourLoop~1/param/Green%20offset": {
+      "value": 0.1525905935630703,
+      "default": 0.5,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "ColourLoop",
+      "xml_param": "Green offset",
+      "original_layer_index": null,
+      "native_phase": "PhaseSourceTimeline",
+      "value_type": "DOUBLE"
+    },
+    "composition/effect/ColourLoop~1/param/Blue%20offset": {
+      "value": 0.014859987319111534,
+      "default": 0.5,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "ColourLoop",
+      "xml_param": "Blue offset",
+      "original_layer_index": null,
+      "native_phase": "PhaseSourceTimeline",
+      "value_type": "DOUBLE"
+    },
+    "composition/effect/TwitchEffect~1/param/Max%20Pos%20X": {
+      "value": 0.024926073197629517,
+      "default": 0.0,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "TwitchEffect",
+      "xml_param": "Max Pos X",
+      "original_layer_index": null,
+      "native_phase": "PhaseSourceStatic",
+      "value_type": "DOUBLE"
+    },
+    "composition/effect/TwitchEffect~1/param/Max%20Pos%20Y": {
+      "value": 0.017825203145889038,
+      "default": 0.0,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "TwitchEffect",
+      "xml_param": "Max Pos Y",
+      "original_layer_index": null,
+      "native_phase": "PhaseSourceStatic",
+      "value_type": "DOUBLE"
+    },
+    "composition/effect/TwitchEffect~1/param/Pos%20Frequency": {
+      "value": 0.6806083650190115,
+      "default": 0.0,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "TwitchEffect",
+      "xml_param": "Pos Frequency",
+      "original_layer_index": null,
+      "native_phase": "PhaseSourceStatic",
+      "value_type": "DOUBLE"
+    },
+    "composition/effect/TwitchEffect~1/param/Max%20Scale": {
+      "value": 0.2767215627227899,
+      "default": 0.0,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "TwitchEffect",
+      "xml_param": "Max Scale",
+      "original_layer_index": null,
+      "native_phase": "PhaseSourceStatic",
+      "value_type": "DOUBLE"
+    },
+    "composition/effect/TwitchEffect~1/param/Scale%20Frequency": {
+      "value": 0.646810321300202,
+      "default": 0.0,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "TwitchEffect",
+      "xml_param": "Scale Frequency",
+      "original_layer_index": null,
+      "native_phase": "PhaseSourceStatic",
+      "value_type": "DOUBLE"
+    },
+    "composition/effect/TwitchEffect~1/param/Max%20Light": {
+      "value": 0.28010141350923834,
+      "default": 0.0,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "TwitchEffect",
+      "xml_param": "Max Light",
+      "original_layer_index": null,
+      "native_phase": "PhaseSourceStatic",
+      "value_type": "DOUBLE"
+    },
+    "composition/effect/TwitchEffect~1/param/Max%20RGB%20Shift": {
+      "value": 0.36290662642214233,
+      "default": 0.0,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "TwitchEffect",
+      "xml_param": "Max RGB Shift",
+      "original_layer_index": null,
+      "native_phase": "PhaseSourceStatic",
+      "value_type": "DOUBLE"
+    },
+    "composition/effect/TwitchEffect~1/param/RGB%20Frequency": {
+      "value": 0.5758344410943441,
+      "default": 0.0,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "TwitchEffect",
+      "xml_param": "RGB Frequency",
+      "original_layer_index": null,
+      "native_phase": "PhaseSourceStatic",
+      "value_type": "DOUBLE"
+    },
+    "composition/effect/TwitchEffect~1/param/Max%20Blur": {
+      "value": 0.35769473805147056,
+      "default": 0.0,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "TwitchEffect",
+      "xml_param": "Max Blur",
+      "original_layer_index": null,
+      "native_phase": "PhaseSourceStatic",
+      "value_type": "DOUBLE"
+    },
+    "composition/effect/TwitchEffect~1/param/Blur%20Frequency": {
+      "value": 0.15166876615226949,
+      "default": 0.0,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "TwitchEffect",
+      "xml_param": "Blur Frequency",
+      "original_layer_index": null,
+      "native_phase": "PhaseSourceStatic",
+      "value_type": "DOUBLE"
+    },
+    "layer/figure~1/effect/RadialCloner~1/param/Clones": {
+      "value": 2.415072941044879,
+      "default": 8.0,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "RadialCloner",
+      "xml_param": "Clones",
+      "original_layer_index": 5,
+      "native_phase": "PhaseSourceTimeline",
+      "value_type": "DOUBLE"
+    },
+    "layer/figure~1/effect/RadialCloner~1/param/Start%20Radius": {
+      "value": 0.012016502078386613,
+      "default": 0.5,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "RadialCloner",
+      "xml_param": "Start Radius",
+      "original_layer_index": 5,
+      "native_phase": "PhaseSourceTimeline",
+      "value_type": "DOUBLE"
+    },
+    "layer/figure~1/effect/RadialCloner~1/param/Start%20Scale": {
+      "value": 67.59870673889267,
+      "default": 25.0,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "RadialCloner",
+      "xml_param": "Start Scale",
+      "original_layer_index": 5,
+      "native_phase": "PhaseSourceTimeline",
+      "value_type": "DOUBLE"
+    },
+    "layer/figure~1/effect/RadialCloner~1/param/Start%20Rotation": {
+      "value": -21.6503162865026,
+      "default": 0.0,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "RadialCloner",
+      "xml_param": "Start Rotation",
+      "original_layer_index": 5,
+      "native_phase": "PhaseSourceTimeline",
+      "value_type": "DOUBLE"
+    },
+    "layer/figure~1/effect/RadialCloner~1/param/End%20Radius": {
+      "value": 0.3760170676797574,
+      "default": 1.0,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "RadialCloner",
+      "xml_param": "End Radius",
+      "original_layer_index": 5,
+      "native_phase": "PhaseSourceTimeline",
+      "value_type": "DOUBLE"
+    },
+    "layer/figure~1/effect/RadialCloner~1/param/End%20Scale": {
+      "value": 63.51102994882033,
+      "default": 100.0,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "RadialCloner",
+      "xml_param": "End Scale",
+      "original_layer_index": 5,
+      "native_phase": "PhaseSourceTimeline",
+      "value_type": "DOUBLE"
+    },
+    "layer/figure~1/effect/RadialCloner~1/param/End%20Rotation": {
+      "value": 144.0248605169343,
+      "default": 360.0,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "RadialCloner",
+      "xml_param": "End Rotation",
+      "original_layer_index": 5,
+      "native_phase": "PhaseSourceTimeline",
+      "value_type": "DOUBLE"
+    },
+    "layer/figure~1/effect/RadialCloner~1/param/Fan": {
+      "value": 47.28088855353906,
+      "default": 100.0,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "RadialCloner",
+      "xml_param": "Fan",
+      "original_layer_index": 5,
+      "native_phase": "PhaseSourceTimeline",
+      "value_type": "DOUBLE"
+    },
+    "layer/figure~1/effect/RadialCloner~1/param/Fan%20Offset": {
+      "value": 35.59259763604158,
+      "default": 0.0,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "RadialCloner",
+      "xml_param": "Fan Offset",
+      "original_layer_index": 5,
+      "native_phase": "PhaseSourceTimeline",
+      "value_type": "DOUBLE"
+    },
+    "layer/figure~1/effect/RadialCloner~1/param/Master%20Rotation": {
+      "value": 1.544999999999959,
+      "default": 0.0,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "RadialCloner",
+      "xml_param": "Master Rotation",
+      "original_layer_index": 5,
+      "native_phase": "PhaseSourceStatic",
+      "value_type": "DOUBLE"
+    },
+    "layer/figure~1/effect/RadialCloner~1/param/Delay%20Enabled": {
+      "value": true,
+      "default": false,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "RadialCloner",
+      "xml_param": "Delay Enabled",
+      "original_layer_index": 5,
+      "native_phase": null,
+      "value_type": "BOOL"
+    },
+    "layer/figure~1/effect/RadialCloner~1/param/Delay%20Amount": {
+      "value": 1.0,
+      "default": 0.5,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "RadialCloner",
+      "xml_param": "Delay Amount",
+      "original_layer_index": 5,
+      "native_phase": "PhaseSourceStatic",
+      "value_type": "DOUBLE"
+    },
+    "layer/figure~1/effect/RadialCloner~1/param/Delay%20Order": {
+      "value": 2,
+      "default": 0,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "RadialCloner",
+      "xml_param": "Delay Order",
+      "original_layer_index": 5,
+      "native_phase": null,
+      "value_type": "INT32",
+      "note": "XML choice value/index; resolve against current REST options before writing."
+    },
+    "layer/figure~1/effect/RadialCloner~1/param/Delay%20Fill": {
+      "value": 1,
+      "default": 0,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "RadialCloner",
+      "xml_param": "Delay Fill",
+      "original_layer_index": 5,
+      "native_phase": null,
+      "value_type": "INT32",
+      "note": "XML choice value/index; resolve against current REST options before writing."
+    },
+    "layer/figure~1/effect/Iterate~1/param/TransformStrength": {
+      "value": 0.0,
+      "default": 1.0,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "Iterate",
+      "xml_param": "TransformStrength",
+      "original_layer_index": 5,
+      "native_phase": "PhaseSourceTimeline",
+      "value_type": "DOUBLE"
+    },
+    "layer/figure~1/effect/Iterate~1/param/Iterations": {
+      "value": 0.2054355539006295,
+      "default": 0.30000001192092896,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "Iterate",
+      "xml_param": "Iterations",
+      "original_layer_index": 5,
+      "native_phase": "PhaseSourceStatic",
+      "value_type": "DOUBLE"
+    },
+    "layer/figure~1/effect/Iterate~1/param/OpacityChange": {
+      "value": 1.0,
+      "default": 0.5,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "Iterate",
+      "xml_param": "OpacityChange",
+      "original_layer_index": 5,
+      "native_phase": "PhaseSourceStatic",
+      "value_type": "DOUBLE"
+    },
+    "layer/figure~1/effect/Iterate~1/param/TranslateX": {
+      "value": 0.7176081531250091,
+      "default": 0.5,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "Iterate",
+      "xml_param": "TranslateX",
+      "original_layer_index": 5,
+      "native_phase": "PhaseSourceTimeline",
+      "value_type": "DOUBLE"
+    },
+    "layer/figure~1/effect/Iterate~1/param/TranslateY": {
+      "value": 0.5116078163416385,
+      "default": 0.5,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "Iterate",
+      "xml_param": "TranslateY",
+      "original_layer_index": 5,
+      "native_phase": "PhaseSourceTimeline",
+      "value_type": "DOUBLE"
+    },
+    "layer/figure~1/effect/Iterate~1/param/TranslateZ": {
+      "value": 0.46296221586984676,
+      "default": 0.5,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "Iterate",
+      "xml_param": "TranslateZ",
+      "original_layer_index": 5,
+      "native_phase": "PhaseSourceTimeline",
+      "value_type": "DOUBLE"
+    },
+    "layer/figure~1/effect/Iterate~1/param/RotateX": {
+      "value": 0.4561082722004065,
+      "default": 0.5,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "Iterate",
+      "xml_param": "RotateX",
+      "original_layer_index": 5,
+      "native_phase": "PhaseSourceTimeline",
+      "value_type": "DOUBLE"
+    },
+    "layer/figure~1/effect/Iterate~1/param/RotateY": {
+      "value": 0.5031987755377441,
+      "default": 0.5,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "Iterate",
+      "xml_param": "RotateY",
+      "original_layer_index": 5,
+      "native_phase": "PhaseSourceTimeline",
+      "value_type": "DOUBLE"
+    },
+    "layer/figure~1/effect/Iterate~1/param/RotateZ": {
+      "value": 0.7016285610795399,
+      "default": 0.5,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "Iterate",
+      "xml_param": "RotateZ",
+      "original_layer_index": 5,
+      "native_phase": "PhaseSourceTimeline",
+      "value_type": "DOUBLE"
+    },
+    "layer/figure~1/effect/Iterate~1/param/Scale": {
+      "value": 0.7520888170008196,
+      "default": 0.5,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "Iterate",
+      "xml_param": "Scale",
+      "original_layer_index": 5,
+      "native_phase": "PhaseSourceTimeline",
+      "value_type": "DOUBLE"
+    },
+    "layer/figure~1/effect/Iterate~1/param/DOpacityChange": {
+      "value": 1.0,
+      "default": 0.5,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "Iterate",
+      "xml_param": "DOpacityChange",
+      "original_layer_index": 5,
+      "native_phase": "PhaseSourceStatic",
+      "value_type": "DOUBLE"
+    },
+    "layer/figure~1/effect/Iterate~1/param/DTranslateX": {
+      "value": 0.6440740236395504,
+      "default": 0.5,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "Iterate",
+      "xml_param": "DTranslateX",
+      "original_layer_index": 5,
+      "native_phase": "PhaseSourceTimeline",
+      "value_type": "DOUBLE"
+    },
+    "layer/figure~1/effect/Iterate~1/param/DTranslateY": {
+      "value": 0.445854928494581,
+      "default": 0.5,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "Iterate",
+      "xml_param": "DTranslateY",
+      "original_layer_index": 5,
+      "native_phase": "PhaseSourceTimeline",
+      "value_type": "DOUBLE"
+    },
+    "layer/figure~1/effect/Iterate~1/param/DTranslateZ": {
+      "value": 0.25701460844437496,
+      "default": 0.5,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "Iterate",
+      "xml_param": "DTranslateZ",
+      "original_layer_index": 5,
+      "native_phase": "PhaseSourceTimeline",
+      "value_type": "DOUBLE"
+    },
+    "layer/figure~1/effect/Iterate~1/param/DRotateX": {
+      "value": 0.5999309430085626,
+      "default": 0.5,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "Iterate",
+      "xml_param": "DRotateX",
+      "original_layer_index": 5,
+      "native_phase": "PhaseSourceTimeline",
+      "value_type": "DOUBLE"
+    },
+    "layer/figure~1/effect/Iterate~1/param/DRotateY": {
+      "value": 0.8001381139829683,
+      "default": 0.5,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "Iterate",
+      "xml_param": "DRotateY",
+      "original_layer_index": 5,
+      "native_phase": "PhaseSourceTimeline",
+      "value_type": "DOUBLE"
+    },
+    "layer/figure~1/effect/Iterate~1/param/DRotateZ": {
+      "value": 0.45511809943540454,
+      "default": 0.5,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "Iterate",
+      "xml_param": "DRotateZ",
+      "original_layer_index": 5,
+      "native_phase": "PhaseSourceTimeline",
+      "value_type": "DOUBLE"
+    },
+    "layer/figure~1/effect/Iterate~1/param/DScale": {
+      "value": 0.5059239047557772,
+      "default": 0.5,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "Iterate",
+      "xml_param": "DScale",
+      "original_layer_index": 5,
+      "native_phase": "PhaseSourceTimeline",
+      "value_type": "DOUBLE"
+    },
+    "layer/figure~1/effect/Iterate~1/param/BlendMode": {
+      "value": 0.480416057778777,
+      "default": 0.0,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "Iterate",
+      "xml_param": "BlendMode",
+      "original_layer_index": 5,
+      "native_phase": "PhaseSourceStatic",
+      "value_type": "DOUBLE"
+    },
+    "layer/figure~1/effect/Iterate~1/param/GRotateX": {
+      "value": 0.0,
+      "default": 0.5,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "Iterate",
+      "xml_param": "GRotateX",
+      "original_layer_index": 5,
+      "native_phase": "PhaseSourceTimeline",
+      "value_type": "DOUBLE"
+    },
+    "layer/figure~1/effect/Iterate~1/param/GRotateY": {
+      "value": 0.0,
+      "default": 0.5,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "Iterate",
+      "xml_param": "GRotateY",
+      "original_layer_index": 5,
+      "native_phase": "PhaseSourceTimeline",
+      "value_type": "DOUBLE"
+    },
+    "layer/figure~1/effect/Iterate~1/param/GRotateZ": {
+      "value": 0.0,
+      "default": 0.5,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "Iterate",
+      "xml_param": "GRotateZ",
+      "original_layer_index": 5,
+      "native_phase": "PhaseSourceTimeline",
+      "value_type": "DOUBLE"
+    },
+    "layer/figure~1/effect/Displace~1/param/X%20factor": {
+      "value": 0.3848794933659369,
+      "default": 0.5,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "Displace",
+      "xml_param": "X factor",
+      "original_layer_index": 5,
+      "native_phase": "PhaseSourceTimeline",
+      "value_type": "DOUBLE"
+    },
+    "layer/figure~1/effect/Displace~1/param/Y%20factor": {
+      "value": 0.1991931027513674,
+      "default": 0.5,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "Displace",
+      "xml_param": "Y factor",
+      "original_layer_index": 5,
+      "native_phase": "PhaseSourceTimeline",
+      "value_type": "DOUBLE"
+    },
+    "layer/figure~1/effect/InfiniteZoom~1/param/Zoom": {
+      "value": 0.01587302694515308,
+      "default": 0.05,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "InfiniteZoom",
+      "xml_param": "Zoom",
+      "original_layer_index": 5,
+      "native_phase": "PhaseSourceStatic",
+      "value_type": "DOUBLE"
+    },
+    "layer/figure~1/effect/InfiniteZoom~1/param/Range": {
+      "value": 1.0093610714643428,
+      "default": 3.0,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "InfiniteZoom",
+      "xml_param": "Range",
+      "original_layer_index": 5,
+      "native_phase": "PhaseSourceTimeline",
+      "value_type": "DOUBLE"
+    },
+    "layer/figure~1/effect/InfiniteZoom~1/param/Alpha": {
+      "value": 0.7387386837521115,
+      "default": 0.5,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "InfiniteZoom",
+      "xml_param": "Alpha",
+      "original_layer_index": 5,
+      "native_phase": "PhaseSourceStatic",
+      "value_type": "DOUBLE"
+    },
+    "layer/figure~1/effect/InfiniteZoom~1/param/Num%20Slices": {
+      "value": 7.482283308699324,
+      "default": 10.0,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "xml_effect": "InfiniteZoom",
+      "xml_param": "Num Slices",
+      "original_layer_index": 5,
+      "native_phase": "PhaseSourceStatic",
+      "value_type": "DOUBLE"
+    }
+  },
+  "additional_default_evidence": {
+    "TwitchEffect/Global Twitch": {
+      "default": 1.0,
+      "saved_figure_value": 0.4743764449139031,
+      "source": "/Users/donovan/Documents/Resolume Arena/Compositions/feedback machine_16x9_1080p.avc",
+      "note": "Composition omits this control. Default attribute comes from original figure/object Twitch instance."
+    }
+  },
+  "unresolved": [
+    "HueRotate/Hue Scale",
+    "HueRotate/Sat. Scale",
+    "MTK_STROKE_VOLT/VOLTMIX",
+    "mtk_lut_corrupt/TRIG_RELEASE",
+    "mtk_lut_corrupt/SMOOTH TIME",
+    "Iterate/StartOpacity"
+  ]
+}

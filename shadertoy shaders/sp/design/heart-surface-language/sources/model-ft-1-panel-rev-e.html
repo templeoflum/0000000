@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>Model f(t)–1 · Rev E — front panel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --alu:#8f9088; --alu-hi:#a5a69c; --alu-lo:#6f7069;
+    --ink:#e7e4d7; --ink-dim:#b9b7ab; --red:#b23a26;
+    --phos:#232a24; --phos-hi:#333b33;
+    --brass:#ab8b52; --gold:#b9985c; --line:rgba(20,21,18,.5);
+    --sans:'Archivo Narrow','Arial Narrow',Arial,sans-serif;
+    --serif:Georgia,'Times New Roman',serif;
+    --mono:ui-monospace,'Courier New',monospace;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  fieldset{min-inline-size:0;border:0}
+
+  body{background:#26262a;
+    background-image:radial-gradient(120% 90% at 50% 0%, #34343a 0%, #1c1c20 70%);
+    min-height:100vh;display:flex;align-items:center;justify-content:center;
+    padding:3vmin 1.5vmin;overflow-x:auto;
+    font-family:var(--sans);-webkit-font-smoothing:antialiased}
+
+  .panel{font-size:max(4.15px, min(1.03vw, 10.6px));
+    position:relative;width:92em;height:80.5em;flex:none;border-radius:.5em;color:var(--ink);
+    background:linear-gradient(180deg, rgba(255,255,255,.10), rgba(0,0,0,.10)),
+      linear-gradient(97deg, var(--alu-hi) 0%, var(--alu) 38%, var(--alu-lo) 100%);
+    box-shadow:0 3em 6em -1em rgba(0,0,0,.75),
+      inset 0 .12em 0 rgba(255,255,255,.28), inset 0 -.14em 0 rgba(0,0,0,.30)}
+  .panel::before{content:"";position:absolute;inset:0;border-radius:.5em;pointer-events:none;
+    opacity:.4;mix-blend-mode:overlay;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/></filter><rect width='180' height='180' filter='url(%23n)' opacity='0.55'/></svg>")}
+  .panel::after{content:"";position:absolute;inset:0;border-radius:.5em;pointer-events:none;opacity:.14;
+    background:repeating-linear-gradient(90deg, rgba(255,255,255,.5) 0 .04em, transparent .04em .22em)}
+
+  /* silkscreen */
+  .lbl,.hdr,.pos,.note,.plate,.up,.dn,.shdr,.chd{text-transform:uppercase}
+  .m{text-transform:none}
+  .lbl{font-size:.94em;letter-spacing:.12em;font-weight:600;color:var(--ink);
+    text-shadow:0 .09em 0 rgba(0,0,0,.5), 0 -.05em 0 rgba(255,255,255,.10)}
+  .hdr{font-size:1.05em;letter-spacing:.26em;font-weight:700;color:var(--ink);
+    text-shadow:0 .09em 0 rgba(0,0,0,.5)}
+  .shdr{font-size:.72em;letter-spacing:.3em;font-weight:700;color:var(--ink-dim);
+    text-shadow:0 .08em 0 rgba(0,0,0,.45)}
+  .note{font-size:.82em;letter-spacing:.1em;font-weight:500;color:var(--ink-dim);
+    text-shadow:0 .08em 0 rgba(0,0,0,.4);line-height:1.5}
+  .red{color:var(--red);text-shadow:0 .08em 0 rgba(0,0,0,.35)}
+  .unit{font-size:.78em;letter-spacing:.05em;font-style:italic;color:var(--ink-dim);text-transform:none}
+
+  .gd{color:var(--gold);text-shadow:0 .08em 0 rgba(0,0,0,.4)}
+  .worn{opacity:.5;filter:blur(.3px)}
+  .cell.hero{padding-top:1.05em;padding-bottom:.55em}
+  .sel .field{position:absolute;inset:0;pointer-events:none;
+    -webkit-mask:radial-gradient(circle, #000 0 3.1em, transparent 4.4em);
+            mask:radial-gradient(circle, #000 0 3.1em, transparent 4.4em)}
+  .sel .field svg{width:100%;height:100%;fill:rgba(22,22,18,.34)}
+  .knob.grimed::before{content:"";position:absolute;inset:-1.05em;border-radius:50%;
+    background:radial-gradient(circle, rgba(0,0,0,0) 56%, rgba(36,29,15,.3) 66%, rgba(0,0,0,0) 77%)}
+  .stickerwrap{position:absolute;right:.6em;bottom:.45em;width:9.8em;height:4.8em;z-index:3;
+    transform:rotate(-1.8deg);filter:drop-shadow(0 .18em .3em rgba(0,0,0,.4))}
+  .stickerwrap .sticker{position:absolute;left:0;top:0}
+  .ghost{position:absolute;left:-1.3em;top:1.6em;width:7.6em;height:2.8em;transform:rotate(-3.6deg);
+    background:rgba(205,197,166,.85);border-radius:.1em;
+    clip-path:polygon(0 0,100% 0,100% 74%,85% 100%,0 100%);
+    box-shadow:inset 0 0 .5em rgba(120,112,86,.4), 0 .12em .25em rgba(0,0,0,.35)}
+  .ghost span{position:absolute;left:.6em;top:.45em;font-family:var(--mono);font-size:.66em;
+    letter-spacing:.08em;color:rgba(90,86,66,.5);text-transform:uppercase;line-height:1.5}
+  .stamp{position:absolute;right:1.6em;top:-.2em;width:3em;height:3em;border-radius:50%;
+    display:grid;place-items:center;transform:rotate(-14deg);
+    color:rgba(112,82,158,.78);
+    box-shadow:inset 0 0 0 .16em rgba(112,82,158,.7), inset 0 0 0 .36em rgba(112,82,158,.45);
+    font-size:.92em;font-weight:700;letter-spacing:.06em}
+
+  /* frame */
+  .ear{position:absolute;top:0;bottom:0;width:3.6em;
+    background:linear-gradient(90deg, rgba(0,0,0,.16), rgba(255,255,255,.06))}
+  .ear.l{left:0;border-right:.08em solid rgba(0,0,0,.22);border-radius:.5em 0 0 .5em}
+  .ear.r{right:0;border-left:.08em solid rgba(0,0,0,.22);border-radius:0 .5em .5em 0;
+    background:linear-gradient(270deg, rgba(0,0,0,.16), rgba(255,255,255,.06))}
+  .screw{position:absolute;width:2.1em;height:2.1em;border-radius:50%;
+    background:radial-gradient(circle at 36% 32%, #cfd0c8, #6d6e67 55%, #45463f 100%);
+    box-shadow:inset 0 -.1em .2em rgba(0,0,0,.55), 0 .1em .16em rgba(0,0,0,.4)}
+  .screw::after{content:"";position:absolute;inset:0;border-radius:50%;
+    background:linear-gradient(90deg,transparent 43%, rgba(0,0,0,.65) 43% 57%, transparent 57%);
+    transform:rotate(var(--s,31deg))}
+  .sc1{left:.75em;top:.8em}.sc2{left:.75em;bottom:.8em}
+  .sc3{right:.75em;top:.8em}.sc4{right:.75em;bottom:.8em}
+  .sc5{left:.75em;top:50%;margin-top:-1.05em}.sc6{right:.75em;top:50%;margin-top:-1.05em}
+
+  /* rails */
+  .rail-top{position:absolute;left:4.6em;right:4.6em;top:1.6em;height:4.4em;
+    display:flex;align-items:baseline;justify-content:space-between;
+    border-bottom:.1em solid rgba(0,0,0,.28)}
+  .brandwrap{display:flex;align-items:flex-start;gap:1.1em}
+  .mark{width:3.4em;height:2.8em;flex:none;margin-top:.15em}
+  .mark path.s{fill:none;stroke:var(--ink);stroke-width:2.6;stroke-linecap:square}
+  .mark path.a{fill:var(--ink)}
+  .brand{font-size:1.26em;letter-spacing:.4em;font-weight:700;text-transform:uppercase;
+    text-shadow:0 .09em 0 rgba(0,0,0,.5)}
+  .sub{font-size:.9em;letter-spacing:.26em;font-weight:600;color:var(--ink-dim);
+    text-transform:uppercase;text-shadow:0 .08em 0 rgba(0,0,0,.4);margin-top:.35em}
+  .model{font-size:2.5em;letter-spacing:.04em;font-family:var(--serif);font-style:italic;
+    color:var(--ink);text-shadow:0 .06em 0 rgba(0,0,0,.5)}
+  .model b{font-family:var(--sans);font-style:normal;font-weight:700;font-size:.62em;letter-spacing:.18em}
+
+  .main{position:absolute;left:4.6em;right:4.6em;top:7.6em;bottom:8.4em;display:flex;gap:2.2em}
+  .col-l{width:37.5em;flex:none;display:flex;flex-direction:column;gap:1.4em}
+  .col-r{flex:1;position:relative;display:grid;grid-template-columns:1fr 1fr;
+    grid-template-rows:16.5em 1fr 1fr 1fr;gap:1.5em}
+
+  /* printed signal path — the panel is its own block diagram */
+  .flow{position:absolute;inset:0;pointer-events:none;z-index:0}
+  .flow path{fill:none;stroke:rgba(20,21,18,.42);stroke-width:1.3}
+  .flow .n{fill:rgba(20,21,18,.5)}
+  .flow .ah{fill:rgba(20,21,18,.42)}
+  .col-r > fieldset{position:relative;z-index:1}
+
+  /* screens */
+  .bezel{border-radius:.8em;padding:1.15em;position:relative;
+    background:linear-gradient(180deg,#2a2b2b,#141514 60%,#1d1e1d);
+    box-shadow:inset 0 .1em 0 rgba(255,255,255,.10), inset 0 -.1em 0 rgba(0,0,0,.6), 0 .5em 1.2em rgba(0,0,0,.45)}
+  .crt{position:relative;width:100%;height:100%;border-radius:1.6em/1.9em;overflow:hidden;
+    background:radial-gradient(115% 130% at 32% 22%, rgba(255,255,255,.045), rgba(255,255,255,0) 46%),
+      radial-gradient(150% 150% at 50% 50%, var(--phos-hi) 0%, var(--phos) 58%, #171c18 100%);
+    box-shadow:inset 0 0 2.4em rgba(0,0,0,.85), inset 0 0 .3em rgba(255,255,255,.10)}
+  .crt svg{position:absolute;inset:0;width:100%;height:100%}
+  .crt .glare{position:absolute;left:-12%;top:-40%;width:70%;height:110%;transform:rotate(-9deg);
+    background:linear-gradient(105deg, rgba(255,255,255,.04), rgba(255,255,255,0) 62%)}
+  .screen-a{height:29em}
+  .screen-b{height:17.9em}
+  .slit{position:absolute;bottom:.3em;width:2.6em;height:.62em;border-radius:.14em;
+    background:linear-gradient(180deg,#5c400f,#33230a);
+    box-shadow:inset 0 .12em .2em rgba(0,0,0,.8), 0 .06em 0 rgba(255,255,255,.08)}
+  .slit.l{left:26%}.slit.r{right:26%}
+  .glbl{display:flex;justify-content:center;gap:1.2em;align-items:baseline;margin-top:-.3em;height:1.1em}
+
+  /* zoning */
+  fieldset.cell{border:.09em solid var(--line);border-radius:.4em;background:rgba(0,0,0,.02);
+    padding:1.3em 1.35em .8em;display:flex;flex-direction:column}
+  fieldset.cell legend{padding:0 .55em;margin-left:.55em}
+  .body{flex:1;display:flex;align-items:center;justify-content:space-evenly;gap:.8em;min-height:0}
+
+  /* controls */
+  .ctl{display:flex;flex-direction:column;align-items:center;gap:.3em;flex:none}
+  .dial{position:relative;width:6.7em;height:6.7em;display:grid;place-items:center;flex:none}
+  .ticks{position:absolute;inset:.55em;border-radius:50%;
+    background:repeating-conic-gradient(from 0deg, rgba(20,20,18,.72) 0 .7deg, transparent .7deg 15deg);
+    -webkit-mask:radial-gradient(circle, transparent 70%, #000 71% 88%, transparent 89%);
+            mask:radial-gradient(circle, transparent 70%, #000 71% 88%, transparent 89%);
+    opacity:.7}
+  .fan{position:absolute;inset:0;pointer-events:none}
+  .fan i{position:absolute;left:50%;top:50%;width:2.6em;margin-left:-1.3em;margin-top:-.5em;
+    text-align:center;font-style:normal;font-size:.6em;letter-spacing:.05em;font-weight:600;
+    color:var(--ink-dim);text-shadow:0 .08em 0 rgba(0,0,0,.45);
+    transform:rotate(var(--p)) translateY(-5.55em) rotate(calc(-1*var(--p)))}
+  .knob{border-radius:50%;position:relative;width:5.2em;height:5.2em;
+    background:radial-gradient(circle at 34% 28%, rgba(255,255,255,.32), rgba(255,255,255,0) 44%),
+      radial-gradient(circle at 50% 120%, #3a3b3e, rgba(0,0,0,0) 60%),
+      conic-gradient(from 0deg, #222326 0 2deg, #17181a 2deg 9deg);
+    box-shadow:inset 0 0 0 .16em rgba(255,255,255,.06), inset 0 -.32em .55em rgba(0,0,0,.7), 0 .32em .65em rgba(0,0,0,.5);
+    transform:rotate(var(--a,0deg))}
+  .knob::after{content:"";position:absolute;left:50%;top:.42em;width:.2em;height:33%;margin-left:-.1em;
+    border-radius:.1em;background:linear-gradient(180deg,#f2efe2,#b9b6a8);box-shadow:0 0 .2em rgba(0,0,0,.6)}
+  .knob.mini{width:4em;height:4em}
+  .dialm{position:relative;width:5.4em;height:5.4em;display:grid;place-items:center;flex:none}
+  .dialm .fan i{transform:rotate(var(--p)) translateY(-4.35em) rotate(calc(-1*var(--p)))}
+
+  /* detented selector — printed skirt */
+  .sel{position:relative;width:10em;height:10em;flex:none}
+  .sel .pos{position:absolute;left:50%;top:50%;width:4.4em;margin-left:-2.2em;margin-top:-.5em;
+    text-align:center;font-size:.72em;letter-spacing:.08em;font-weight:600;color:var(--ink-dim);
+    text-shadow:0 .08em 0 rgba(0,0,0,.45);
+    transform:rotate(var(--p)) translateY(-4.92em) rotate(calc(-1*var(--p)))}
+  .sel .pos.on{color:var(--ink);font-weight:700}
+  .sel .pos.warn{color:var(--red)}
+  .sel .pos .snd{display:block;font-size:.8em;letter-spacing:.05em;margin-top:.1em;color:var(--gold);font-weight:600}
+  .sel .dot{position:absolute;left:50%;top:50%;width:.32em;height:.32em;margin:-.16em;border-radius:50%;
+    background:rgba(22,22,20,.8);transform:rotate(var(--p)) translateY(-3em)}
+  .sel .sw{position:absolute;left:50%;top:50%;width:4.8em;height:4.8em;margin:-2.4em;border-radius:50%;
+    background:radial-gradient(circle at 36% 26%, rgba(255,255,255,.30), rgba(255,255,255,0) 46%),
+      conic-gradient(from 0deg, #26272a 0 1.6deg, #131416 1.6deg 7.2deg);
+    box-shadow:inset 0 0 0 .16em rgba(255,255,255,.05), inset 0 -.32em .55em rgba(0,0,0,.72), 0 .32em .65em rgba(0,0,0,.5);
+    transform:rotate(var(--a,0deg))}
+  .sel .sw::before{content:"";position:absolute;left:50%;top:-.78em;margin-left:-.44em;width:.88em;height:1.15em;
+    background:linear-gradient(180deg,#2c2d30,#131416);clip-path:polygon(50% 0,100% 100%,0 100%);
+    box-shadow:0 .16em .25em rgba(0,0,0,.5)}
+  .sel .capk{position:absolute;left:50%;top:50%;width:2.3em;height:2.3em;margin:-1.15em;border-radius:50%;
+    background:radial-gradient(circle at 36% 30%, #47484c, #1a1b1d 70%);
+    box-shadow:inset 0 -.18em .3em rgba(0,0,0,.7), 0 .12em .25em rgba(0,0,0,.5);
+    transform:rotate(var(--b,0deg))}
+  .sel .capk::after{content:"";position:absolute;left:50%;top:.24em;width:.15em;height:36%;margin-left:-.075em;
+    border-radius:.08em;background:#e9e6d9}
+
+  /* the hero rate selector — dual engraved scale */
+  .rate{position:relative;width:14.6em;height:14.6em;flex:none}
+  .rate .pos{position:absolute;left:50%;top:50%;width:3em;margin-left:-1.5em;margin-top:-.45em;
+    text-align:center;font-size:.56em;letter-spacing:.04em;font-weight:600;color:var(--ink);
+    text-shadow:0 .08em 0 rgba(0,0,0,.45);
+    transform:rotate(var(--p)) translateY(-11.7em) rotate(calc(-1*var(--p)))}
+  .rate .pos.lo{color:var(--gold);font-weight:600;
+    transform:rotate(var(--p)) translateY(-10.55em) rotate(calc(-1*var(--p)))}
+  .rate .dot{position:absolute;left:50%;top:50%;width:.28em;height:.28em;margin:-.14em;border-radius:50%;
+    background:rgba(22,22,20,.8);transform:rotate(var(--p)) translateY(-5.2em)}
+  .rate .sw{position:absolute;left:50%;top:50%;width:8.4em;height:8.4em;margin:-4.2em;border-radius:50%;
+    background:radial-gradient(circle at 36% 26%, rgba(255,255,255,.30), rgba(255,255,255,0) 46%),
+      conic-gradient(from 0deg, #26272a 0 1.2deg, #131416 1.2deg 6deg);
+    box-shadow:inset 0 0 0 .2em rgba(255,255,255,.05), inset 0 -.45em .8em rgba(0,0,0,.72), 0 .45em .9em rgba(0,0,0,.5);
+    transform:rotate(var(--a,0deg))}
+  .rate .sw::before{content:"";position:absolute;left:50%;top:-.9em;margin-left:-.5em;width:1em;height:1.3em;
+    background:linear-gradient(180deg,#2c2d30,#131416);clip-path:polygon(50% 0,100% 100%,0 100%);
+    box-shadow:0 .18em .28em rgba(0,0,0,.5)}
+  .rate .sw::after{content:"";position:absolute;left:50%;bottom:.5em;width:.2em;height:1.1em;margin-left:-.1em;
+    border-radius:.1em;background:#c9c6b8}
+  .rate .capk{position:absolute;left:50%;top:50%;width:3.4em;height:3.4em;margin:-1.7em;border-radius:50%;
+    background:radial-gradient(circle at 36% 30%, #47484c, #1a1b1d 70%);
+    box-shadow:inset 0 -.22em .4em rgba(0,0,0,.7), 0 .15em .3em rgba(0,0,0,.5);
+    transform:rotate(var(--b,0deg))}
+  .rate .capk::after{content:"";position:absolute;left:50%;top:.3em;width:.17em;height:36%;margin-left:-.085em;
+    border-radius:.09em;background:#e9e6d9}
+  .rate .cal{position:absolute;left:50%;top:50%;width:.4em;height:.4em;margin:-.2em;border-radius:50%;
+    background:var(--red);box-shadow:0 .06em .1em rgba(0,0,0,.4);
+    transform:rotate(52deg) translateY(-2.45em)}
+  .rate .sc1,.rate .sc2{position:absolute;font-size:.62em;letter-spacing:.14em;font-weight:700;
+    color:var(--ink-dim);text-shadow:0 .08em 0 rgba(0,0,0,.45);text-transform:uppercase}
+  .rate .sc1{left:-2.2em;top:2.4em}
+  .rate .sc2{right:-2.2em;bottom:2.4em;color:var(--gold)}
+  .rate .ring{position:absolute;left:50%;top:50%;border-radius:50%;pointer-events:none;
+    border:.085em solid rgba(24,23,17,.42);box-shadow:0 .07em 0 rgba(255,255,255,.05)}
+  .rate .r1{width:14.3em;height:14.3em;margin:-7.15em}
+  .rate .r2{width:12.5em;height:12.5em;margin:-6.25em}
+
+  /* pushbutton bank */
+  .pbcol{display:flex;flex-direction:column;gap:.5em}
+  .pb{position:relative;width:4.9em;height:2.55em;border-radius:.2em;
+    display:grid;place-items:center;
+    font-size:1em;
+    background:linear-gradient(180deg,#333437,#1b1c1e 55%,#232427);
+    box-shadow:0 .3em 0 #0c0d0e, 0 .45em .6em rgba(0,0,0,.5),
+      inset 0 .1em 0 rgba(255,255,255,.14), inset 0 0 0 .09em rgba(0,0,0,.4)}
+  .pb span{font-size:.68em;letter-spacing:.14em;font-weight:700;text-transform:uppercase;
+    color:#cfccc0;text-shadow:0 -.08em 0 rgba(0,0,0,.7)}
+  .pb.dn{transform:translateY(.22em);
+    background:linear-gradient(180deg,#232427,#121314 55%,#1a1b1d);
+    box-shadow:0 .1em 0 #0c0d0e, 0 .2em .3em rgba(0,0,0,.5),
+      inset 0 .12em .25em rgba(0,0,0,.7), inset 0 0 0 .09em rgba(0,0,0,.5)}
+  .pb.dn span{color:#efece0}
+
+  /* toggle */
+  .tg{display:flex;flex-direction:column;align-items:center;gap:.22em;flex:none;width:4em}
+  .tg .sw{position:relative;width:3em;height:4.2em}
+  .tg .well{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:2.3em;height:2.3em;border-radius:50%;
+    background:radial-gradient(circle at 50% 40%, #0e0f10, #2f302e 70%);
+    box-shadow:inset 0 .12em .28em rgba(0,0,0,.85), 0 .1em 0 rgba(255,255,255,.12)}
+  .bat{position:absolute;left:50%;bottom:50%;width:.64em;height:2.5em;margin-left:-.32em;
+    border-radius:.32em .32em .16em .16em;transform-origin:50% 100%;transform:rotate(var(--t,-19deg));
+    background:linear-gradient(90deg,#6d6f6b,#e2e3dc 38%,#9fa19a 62%,#4c4e4a);
+    box-shadow:0 .15em .28em rgba(0,0,0,.55)}
+  .bat::after{content:"";position:absolute;left:-.21em;top:-.3em;width:1.06em;height:1.06em;border-radius:50%;
+    background:radial-gradient(circle at 36% 30%, #f4f5ef, #7d7f79 70%, #4e504b)}
+  .tg .up,.tg .dn{font-size:.74em;letter-spacing:.1em;font-weight:600;color:var(--ink-dim);
+    text-shadow:0 .08em 0 rgba(0,0,0,.45)}
+  .tg .fn{margin-top:.1em}
+
+  /* duo, jewel, jacks, ladder, meter */
+  .duo{position:relative;width:6em;height:6em;flex:none}
+  .duo .outer{position:absolute;inset:0;border-radius:50%;
+    background:radial-gradient(circle at 34% 28%, rgba(255,255,255,.32), rgba(255,255,255,0) 44%),
+      conic-gradient(from 0deg, #222326 0 2deg, #17181a 2deg 9deg);
+    box-shadow:inset 0 0 0 .16em rgba(255,255,255,.06), inset 0 -.32em .55em rgba(0,0,0,.7), 0 .32em .65em rgba(0,0,0,.5);
+    transform:rotate(var(--a,0deg))}
+  .duo .outer::after{content:"";position:absolute;left:50%;top:.34em;width:.18em;height:22%;margin-left:-.09em;
+    border-radius:.09em;background:linear-gradient(180deg,#f2efe2,#b9b6a8)}
+  .duo .capk{position:absolute;left:50%;top:50%;width:2.9em;height:2.9em;margin:-1.45em;border-radius:50%;
+    background:radial-gradient(circle at 36% 30%, #47484c, #1a1b1d 70%);
+    box-shadow:inset 0 -.2em .35em rgba(0,0,0,.7), 0 .15em .3em rgba(0,0,0,.5);
+    transform:rotate(var(--b,0deg))}
+  .duo .capk::after{content:"";position:absolute;left:50%;top:.28em;width:.16em;height:36%;margin-left:-.08em;
+    border-radius:.08em;background:#e9e6d9}
+  .duo .fan i{transform:rotate(var(--p)) translateY(-5.5em) rotate(calc(-1*var(--p)))}
+  .trim{position:relative;width:2.5em;height:2.5em;border-radius:50%;flex:none;
+    background:radial-gradient(circle at 50% 42%, #0d0e0f, #2c2d2b 75%);
+    box-shadow:inset 0 .14em .3em rgba(0,0,0,.85), 0 .1em 0 rgba(255,255,255,.1)}
+  .trim::after{content:"";position:absolute;left:50%;top:50%;width:1.6em;height:1.6em;margin:-.8em;border-radius:50%;
+    background:linear-gradient(var(--s,90deg),#84857d 44%, #1c1d1a 44% 56%, #84857d 56%),
+      radial-gradient(circle at 38% 32%, #b9bab1, #5c5d55);
+    box-shadow:inset 0 -.1em .2em rgba(0,0,0,.6)}
+  .jewel{width:2.2em;height:2.2em;border-radius:50%;position:relative;flex:none;
+    background:radial-gradient(circle at 36% 28%, rgba(255,255,255,.38), rgba(255,255,255,0) 40%),
+      repeating-conic-gradient(#4b120d 0 15deg, #722219 15deg 30deg);
+    box-shadow:inset 0 -.15em .3em rgba(0,0,0,.8), 0 0 0 .22em #55564f, 0 .15em .3em rgba(0,0,0,.5)}
+  .jack{width:1.9em;height:1.9em;border-radius:50%;position:relative;
+    background:radial-gradient(circle at 50% 50%, #0a0a0a 0 32%, #26272a 33% 46%, #141414 47%);
+    box-shadow:0 0 0 .22em var(--brass), 0 0 0 .32em rgba(0,0,0,.35),
+      inset 0 .15em .3em rgba(0,0,0,.9), 0 .15em .3em rgba(0,0,0,.45)}
+  .jack.blk{box-shadow:0 0 0 .22em #3a3b38, 0 0 0 .32em rgba(0,0,0,.35),
+      inset 0 .15em .3em rgba(0,0,0,.9), 0 .15em .3em rgba(0,0,0,.45)}
+  .lad{display:flex;align-items:center;gap:.8em;flex:none}
+  .lad .sw2{position:relative;width:4.2em;height:4.2em;border-radius:50%;
+    background:radial-gradient(circle at 36% 26%, rgba(255,255,255,.30), rgba(255,255,255,0) 46%),
+      conic-gradient(from 0deg, #26272a 0 1.6deg, #131416 1.6deg 7.2deg);
+    box-shadow:inset 0 0 0 .16em rgba(255,255,255,.05), inset 0 -.3em .5em rgba(0,0,0,.72), 0 .3em .6em rgba(0,0,0,.5);
+    transform:rotate(var(--a,90deg))}
+  .lad .sw2::before{content:"";position:absolute;left:50%;top:-.68em;margin-left:-.4em;width:.8em;height:1.05em;
+    background:linear-gradient(180deg,#2c2d30,#131416);clip-path:polygon(50% 0,100% 100%,0 100%);
+    box-shadow:0 .15em .22em rgba(0,0,0,.5)}
+  .lad ul{list-style:none;display:flex;flex-direction:column;gap:.5em}
+  .lad li{display:flex;align-items:center;gap:.45em;font-size:.7em;letter-spacing:.1em;font-weight:600;
+    color:var(--ink-dim);text-shadow:0 .08em 0 rgba(0,0,0,.45);text-transform:uppercase}
+  .lad li::before{content:"";width:.9em;height:.12em;background:rgba(22,22,20,.65)}
+  .lad li.on{color:var(--ink);font-weight:700}
+  .lad li.on::before{height:.26em;background:var(--ink);box-shadow:0 .08em 0 rgba(0,0,0,.5)}
+  .meter{width:9.4em;height:8.2em;border-radius:.3em;position:relative;overflow:hidden;flex:none;
+    background:linear-gradient(180deg,#d9d7c8,#b9b7a8);
+    box-shadow:inset 0 0 0 .24em #2b2c29, inset 0 .35em .7em rgba(0,0,0,.3), 0 .2em .5em rgba(0,0,0,.4)}
+  .meter svg{position:absolute;inset:0;width:100%;height:100%}
+  .meter .refl{position:absolute;left:0;top:0;right:0;height:56%;
+    background:linear-gradient(160deg, rgba(255,255,255,.5), rgba(255,255,255,0) 62%)}
+
+  /* hero interior */
+  .hero .body{align-items:center;justify-content:space-between;gap:0;padding:0 .2em}
+  .zone{display:flex;flex-direction:column;align-items:center;gap:.6em;flex:none;position:relative;
+    padding:0 1em}
+  .zone + .zone{border-left:.08em solid rgba(20,21,18,.3)}
+  .zrow{display:flex;align-items:center;gap:.9em}
+
+  /* bottom rail */
+  .rail-bot{position:absolute;left:4.6em;right:4.6em;bottom:1.9em;height:5.6em;
+    border-top:.1em solid rgba(0,0,0,.28);
+    display:flex;align-items:center;justify-content:space-between;gap:1.4em;padding-top:.6em}
+  .bot-grp{display:flex;align-items:center;gap:1.4em}
+  .rocker{width:6.4em;height:3.2em;border-radius:.28em;position:relative;
+    background:linear-gradient(180deg,#2c2d2f,#0f1011);
+    box-shadow:inset 0 0 0 .16em #55564f, 0 .2em .4em rgba(0,0,0,.5)}
+  .rocker::after{content:"";position:absolute;left:.3em;right:.3em;top:.3em;height:1.35em;border-radius:.16em;
+    background:linear-gradient(180deg,#3a3b3e,#1a1b1d);box-shadow:0 .12em .25em rgba(0,0,0,.6)}
+  .rocker .i,.rocker .o{position:absolute;font-size:.9em;color:var(--ink-dim);bottom:.15em}
+  .rocker .i{left:.85em}.rocker .o{right:.85em}
+  .fuse{position:relative;width:3em;height:3em;border-radius:50%;
+    background:radial-gradient(circle at 38% 32%, #b9bab2, #56574f 60%, #303128);
+    box-shadow:inset 0 -.15em .3em rgba(0,0,0,.6), 0 .15em .3em rgba(0,0,0,.45)}
+  .fuse::after{content:"";position:absolute;inset:0;border-radius:50%;
+    background:linear-gradient(90deg,transparent 44%, rgba(0,0,0,.6) 44% 56%, transparent 56%)}
+  .callug{width:1.5em;height:2.4em;border-radius:.2em;
+    background:linear-gradient(180deg,var(--brass),#6f5a33);
+    box-shadow:0 .15em .3em rgba(0,0,0,.5), inset 0 .1em 0 rgba(255,255,255,.3)}
+  .jgrp{display:flex;flex-direction:column;align-items:center;gap:.3em}
+  .chd{font-size:.66em;letter-spacing:.22em;font-weight:700;color:var(--ink-dim);
+    text-shadow:0 .08em 0 rgba(0,0,0,.45)}
+  .jrow{display:flex;gap:1.15em}
+  .jk{display:flex;flex-direction:column;align-items:center;gap:.22em}
+  .jk .lbl{font-size:.62em;letter-spacing:.08em}
+  .bot-note{max-width:23em}
+  .plate{padding:.5em .95em;border-radius:.12em;text-align:right;
+    background:linear-gradient(180deg,#9b9c93,#7c7d75);
+    box-shadow:inset 0 0 0 .09em rgba(0,0,0,.35), 0 .12em .25em rgba(0,0,0,.35);
+    font-size:.78em;letter-spacing:.14em;line-height:1.65;color:#1d1e1a;font-weight:600}
+  .sticker{padding:.45em .8em;border-radius:.1em;transform:rotate(-.7deg);
+    background:#c9c3a6;color:#2a2b25;font-size:.76em;letter-spacing:.08em;font-weight:600;
+    box-shadow:0 .12em .3em rgba(0,0,0,.35);line-height:1.6;text-transform:uppercase;font-family:var(--mono)}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs><g id="goldfield"><circle cx="47.5" cy="52.3" r="1.05"/><circle cx="50.4" cy="45.1" r="1.05"/><circle cx="53.6" cy="54.7" r="1.05"/><circle cx="43.2" cy="48.8" r="1.05"/><circle cx="56.5" cy="45.9" r="1.05"/><circle cx="47.8" cy="58.2" r="1.05"/><circle cx="45.8" cy="41.9" r="1.05"/><circle cx="59.2" cy="53.3" r="1.05"/><circle cx="40.4" cy="53.9" r="1.05"/><circle cx="54.6" cy="40.1" r="1.05"/><circle cx="53.4" cy="60.9" r="1.05"/><circle cx="39.7" cy="44.0" r="1.05"/><circle cx="62.1" cy="47.3" r="1.05"/><circle cx="42.6" cy="60.6" r="1.05"/><circle cx="48.3" cy="36.7" r="1.05"/><circle cx="60.6" cy="58.9" r="1.05"/><circle cx="35.8" cy="50.6" r="1.05"/><circle cx="60.4" cy="39.7" r="1.05"/><circle cx="49.3" cy="65.0" r="1.05"/><circle cx="40.1" cy="38.2" r="1.05"/><circle cx="65.7" cy="52.1" r="1.05"/><circle cx="36.7" cy="59.2" r="1.05"/><circle cx="53.6" cy="33.9" r="1.05"/><circle cx="58.4" cy="64.7" r="1.05"/><circle cx="33.6" cy="44.8" r="1.05"/><circle cx="66.0" cy="42.6" r="1.05"/><circle cx="43.1" cy="66.5" r="1.05"/><circle cx="43.8" cy="32.8" r="1.05"/><circle cx="66.4" cy="58.6" r="1.05"/><circle cx="31.7" cy="54.8" r="1.05"/><circle cx="60.4" cy="33.8" r="1.05"/><circle cx="53.3" cy="69.2" r="1.05"/><circle cx="34.3" cy="37.9" r="1.05"/><circle cx="70.0" cy="48.3" r="1.05"/><circle cx="36.1" cy="65.0" r="1.05"/><circle cx="50.1" cy="29.3" r="1.05"/><circle cx="64.1" cy="65.5" r="1.05"/><circle cx="28.8" cy="48.0" r="1.05"/><circle cx="67.2" cy="37.0" r="1.05"/><circle cx="46.1" cy="71.5" r="1.05"/><circle cx="38.2" cy="31.3" r="1.05"/><circle cx="71.6" cy="55.9" r="1.05"/><circle cx="29.9" cy="60.3" r="1.05"/><circle cx="58.0" cy="28.5" r="1.05"/><circle cx="58.7" cy="71.4" r="1.05"/><circle cx="28.9" cy="40.0" r="1.05"/><circle cx="72.6" cy="43.0" r="1.05"/><circle cx="37.9" cy="70.6" r="1.05"/><circle cx="44.9" cy="26.4" r="1.05"/><circle cx="69.9" cy="64.1" r="1.05"/><circle cx="25.6" cy="53.0" r="1.05"/><circle cx="66.1" cy="31.1" r="1.05"/><circle cx="50.9" cy="75.1" r="1.05"/><circle cx="32.2" cy="31.9" r="1.05"/><circle cx="75.6" cy="51.3" r="1.05"/><circle cx="30.1" cy="66.4" r="1.05"/><circle cx="53.6" cy="24.2" r="1.05"/><circle cx="64.9" cy="71.6" r="1.05"/><circle cx="24.2" cy="44.1" r="1.05"/><circle cx="73.3" cy="36.8" r="1.05"/><circle cx="41.7" cy="75.6" r="1.05"/><circle cx="38.7" cy="25.3" r="1.05"/><circle cx="75.2" cy="60.7" r="1.05"/><circle cx="24.0" cy="59.2" r="1.05"/><circle cx="63.1" cy="25.4" r="1.05"/><circle cx="57.0" cy="77.1" r="1.05"/><circle cx="26.3" cy="34.6" r="1.05"/><circle cx="78.1" cy="45.3" r="1.05"/><circle cx="32.3" cy="72.6" r="1.05"/><circle cx="47.8" cy="21.2" r="1.05"/><circle cx="71.2" cy="69.8" r="1.05"/><circle cx="20.7" cy="49.7" r="1.05"/><circle cx="71.9" cy="30.3" r="1.05"/><circle cx="47.1" cy="79.5" r="1.05"/><circle cx="32.1" cy="26.1" r="1.05"/><circle cx="79.6" cy="55.5" r="1.05"/><circle cx="24.3" cy="66.0" r="1.05"/><circle cx="58.2" cy="20.7" r="1.05"/><circle cx="63.9" cy="77.3" r="1.05"/><circle cx="21.1" cy="39.1" r="1.05"/><circle cx="78.8" cy="38.4" r="1.05"/><circle cx="36.5" cy="78.2" r="1.05"/><circle cx="40.9" cy="19.9" r="1.05"/><circle cx="77.2" cy="66.1" r="1.05"/><circle cx="18.9" cy="56.5" r="1.05"/><circle cx="68.7" cy="24.0" r="1.05"/><circle cx="53.8" cy="82.0" r="1.05"/><circle cx="25.5" cy="28.9" r="1.05"/><circle cx="82.5" cy="49.0" r="1.05"/><circle cx="26.6" cy="72.9" r="1.05"/><circle cx="51.8" cy="17.1" r="1.05"/><circle cx="71.0" cy="75.6" r="1.05"/><circle cx="17.1" cy="45.2" r="1.05"/><circle cx="77.6" cy="31.2" r="1.05"/><circle cx="42.3" cy="82.7" r="1.05"/><circle cx="33.5" cy="20.5" r="1.05"/><circle cx="82.3" cy="60.6" r="1.05"/><circle cx="18.9" cy="64.0" r="1.05"/><circle cx="63.6" cy="18.5" r="1.05"/><circle cx="61.4" cy="82.6" r="1.05"/><circle cx="19.5" cy="33.6" r="1.05"/><circle cx="83.8" cy="41.4" r="1.05"/><circle cx="30.8" cy="79.3" r="1.05"/><circle cx="44.4" cy="15.3" r="1.05"/><circle cx="77.7" cy="71.9" r="1.05"/><circle cx="14.6" cy="52.6" r="1.05"/><circle cx="74.5" cy="24.0" r="1.05"/><circle cx="49.5" cy="85.8" r="1.05"/><circle cx="26.1" cy="23.1" r="1.05"/><circle cx="86.0" cy="53.7" r="1.05"/><circle cx="20.8" cy="71.7" r="1.05"/><circle cx="56.9" cy="14.1" r="1.05"/><circle cx="69.2" cy="81.2" r="1.05"/><circle cx="14.6" cy="39.9" r="1.05"/><circle cx="83.1" cy="33.4" r="1.05"/><circle cx="36.7" cy="84.7" r="1.05"/><circle cx="36.3" cy="15.3" r="1.05"/><circle cx="83.7" cy="66.4" r="1.05"/><circle cx="13.9" cy="60.7" r="1.05"/><circle cx="69.4" cy="17.6" r="1.05"/><circle cx="57.6" cy="87.2" r="1.05"/><circle cx="19.2" cy="27.6" r="1.05"/><circle cx="88.0" cy="45.6" r="1.05"/><circle cx="24.8" cy="79.0" r="1.05"/><circle cx="49.0" cy="11.4" r="1.05"/><circle cx="76.9" cy="77.8" r="1.05"/><circle cx="11.2" cy="47.6" r="1.05"/><circle cx="80.3" cy="25.4" r="1.05"/><circle cx="44.2" cy="88.8" r="1.05"/><circle cx="28.0" cy="17.4" r="1.05"/><circle cx="88.4" cy="59.2" r="1.05"/><circle cx="15.3" cy="69.2" r="1.05"/><circle cx="62.6" cy="12.3" r="1.05"/><circle cx="66.2" cy="86.5" r="1.05"/><circle cx="13.3" cy="34.0" r="1.05"/><circle cx="88.1" cy="36.9" r="1.05"/><circle cx="30.7" cy="85.5" r="1.05"/><circle cx="40.2" cy="10.7" r="1.05"/><circle cx="83.9" cy="72.5" r="1.05"/><circle cx="9.7" cy="56.3" r="1.05"/><circle cx="75.6" cy="18.0" r="1.05"/><circle cx="52.8" cy="91.0" r="1.05"/><circle cx="20.1" cy="21.5" r="1.05"/><circle cx="91.4" cy="50.8" r="1.05"/><circle cx="18.8" cy="77.5" r="1.05"/><circle cx="54.5" cy="8.6" r="1.05"/><circle cx="74.8" cy="83.7" r="1.05"/><circle cx="8.8" cy="41.9" r="1.05"/><circle cx="86.0" cy="28.1" r="1.05"/><circle cx="38.2" cy="90.6" r="1.05"/><circle cx="31.2" cy="12.0" r="1.05"/><circle cx="89.7" cy="65.4" r="1.05"/><circle cx="10.2" cy="65.5" r="1.05"/><circle cx="68.9" cy="11.6" r="1.05"/><circle cx="62.1" cy="91.2" r="1.05"/><circle cx="13.1" cy="27.7" r="1.05"/><circle cx="92.4" cy="41.5" r="1.05"/><circle cx="24.4" cy="85.0" r="1.05"/><circle cx="45.3" cy="6.8" r="1.05"/><circle cx="82.8" cy="78.8" r="1.05"/><circle cx="6.2" cy="51.0" r="1.05"/><circle cx="81.7" cy="19.6" r="1.05"/><circle cx="47.1" cy="94.0" r="1.05"/><circle cx="22.4" cy="15.5" r="1.05"/><circle cx="93.8" cy="56.8" r="1.05"/><circle cx="13.0" cy="74.7" r="1.05"/><circle cx="60.6" cy="6.7" r="1.05"/><circle cx="71.5" cy="89.2" r="1.05"/><circle cx="7.5" cy="35.5" r="1.05"/><circle cx="91.2" cy="31.9" r="1.05"/></g></defs>
+</svg>
+
+<div class="panel" role="img"
+  aria-label="Front panel of a fictional laboratory instrument: Boustrophedon Instrument Co. Model f(t) dash 1, Revision E — a parametric timebase and sweep synthesizer. Powered off: dark cathode-ray screens etched with both cartesian and polar graticules, a dominant sweep-rate selector carrying two engraved scales on separate radii, pushbutton banks, an engraved signal-flow line with a tapped branch feeding the aliasing meter, and connectors along the lower rail. Three silkscreen inks: white for what is seen, gold for what is heard, red for what bites. A phyllotaxis dot field is engraved beneath the ratio selector; layered calibration stickers carry an inspector's stamp; the ink is worn at the shipping detent. No lamps lit, meter needle parked.">
+
+  <div class="ear l"></div><div class="ear r"></div>
+  <div class="screw sc1"></div><div class="screw sc2" style="--s:77deg"></div>
+  <div class="screw sc3" style="--s:12deg"></div><div class="screw sc4" style="--s:56deg"></div>
+  <div class="screw sc5" style="--s:98deg"></div><div class="screw sc6" style="--s:41deg"></div>
+
+  <!-- ══ TOP RAIL ═══════════════════════════════════════════════════════ -->
+  <div class="rail-top">
+    <div class="brandwrap">
+      <svg class="mark" viewBox="0 0 44 34" aria-hidden="true">
+        <path class="s" d="M6 6 H32 M38 6 V16 M38 16 H12 M6 16 V26 M6 26 H32"/>
+        <path class="a" d="M32 2.4 L38.4 6 L32 9.6 Z"/>
+        <path class="a" d="M12 12.4 L5.6 16 L12 19.6 Z"/>
+        <path class="a" d="M32 22.4 L38.4 26 L32 29.6 Z"/>
+      </svg>
+      <div>
+        <div class="brand">Boustrophedon Instrument Co.</div>
+        <div class="sub">Parametric Timebase &amp; Sweep Synthesizer</div>
+      </div>
+    </div>
+    <div class="model">Model&nbsp;<b>f(t)–1</b></div>
+  </div>
+
+  <div class="main">
+
+    <!-- ══ LEFT · GLASS ═════════════════════════════════════════════════ -->
+    <div class="col-l">
+
+      <div class="bezel screen-a">
+        <div class="stickerwrap">
+          <div class="ghost"><span>Calibrated<br>03 · 2019</span></div>
+          <div class="sticker">Calibrated<br>07 · 2026</div>
+          <div class="stamp">Q·7</div>
+        </div>
+        <div class="crt">
+          <svg viewBox="0 0 400 260" preserveAspectRatio="none" aria-hidden="true">
+            <g stroke="#5d6a60" stroke-width="0.5" opacity="0.5">
+              <path d="M40 0V260M80 0V260M120 0V260M160 0V260M240 0V260M280 0V260M320 0V260M360 0V260"/>
+              <path d="M0 26H400M0 52H400M0 78H400M0 104H400M0 156H400M0 182H400M0 208H400M0 234H400"/>
+            </g>
+            <g stroke="#8ea395" stroke-width="0.8" opacity="0.6"><path d="M200 0V260"/><path d="M0 130H400"/></g>
+            <g stroke="#8ea395" stroke-width="0.7" opacity="0.5">
+              <path d="M48 127v6M56 127v6M64 127v6M72 127v6M88 127v6M96 127v6M104 127v6M112 127v6
+                       M128 127v6M136 127v6M144 127v6M152 127v6M168 127v6M176 127v6M184 127v6M192 127v6
+                       M208 127v6M216 127v6M224 127v6M232 127v6M248 127v6M256 127v6M264 127v6M272 127v6
+                       M288 127v6M296 127v6M304 127v6M312 127v6M328 127v6M336 127v6M344 127v6M352 127v6"/>
+              <path d="M197 36h6M197 62h6M197 88h6M197 114h6M197 146h6M197 172h6M197 198h6M197 224h6"/>
+            </g>
+          </svg>
+          <div class="glare"></div>
+        </div>
+        <div class="slit l"></div><div class="slit r"></div>
+      </div>
+      <div class="glbl"><span class="shdr">8 × 10 div</span></div>
+
+      <!-- tube -->
+      <fieldset class="cell" style="height:8.9em;padding-bottom:.6em">
+        <legend class="hdr">Tube</legend>
+        <div class="body" style="align-items:flex-start;padding-top:.15em">
+          <div class="ctl"><div class="knob grimed" style="--a:-40deg;width:4.8em;height:4.8em"></div><span class="lbl" style="font-size:.88em">Intens</span></div>
+          <div class="ctl"><div class="knob" style="--a:12deg;width:4.8em;height:4.8em"></div><span class="lbl" style="font-size:.88em">Focus</span></div>
+          <div class="ctl" style="padding-top:1.1em"><div class="trim" style="--s:64deg"></div><span class="lbl" style="font-size:.8em">Astig</span></div>
+          <div class="ctl" style="padding-top:1.1em"><div class="trim" style="--s:108deg"></div><span class="lbl" style="font-size:.8em">Rot</span></div>
+          <div class="ctl" style="padding-top:1.2em"><div class="jewel"></div><span class="lbl" style="font-size:.8em">HV</span></div>
+        </div>
+      </fieldset>
+
+      <!-- sweep-function monitor: cartesian AND polar frames, both etched -->
+      <div class="bezel screen-b">
+        <div class="crt" style="border-radius:.9em">
+          <svg viewBox="0 0 400 168" preserveAspectRatio="none" aria-hidden="true">
+            <g stroke="#5d6a60" stroke-width="0.5" opacity="0.42">
+              <path d="M40 0V168M80 0V168M120 0V168M160 0V168M200 0V168M240 0V168M280 0V168M320 0V168M360 0V168"/>
+              <path d="M0 17H400M0 34H400M0 51H400M0 68H400M0 85H400M0 102H400M0 119H400M0 136H400M0 153H400"/>
+            </g>
+            <g stroke="#8ea395" opacity="0.55" fill="none">
+              <rect x="20" y="12" width="360" height="144" stroke-width="0.9"/>
+              <path d="M20 156 L380 12" stroke-width="0.7" stroke-dasharray="3 4"/>
+            </g>
+            <!-- polar frame for the ring topology -->
+            <g stroke="#8ea395" opacity="0.5" fill="none">
+              <circle cx="200" cy="84" r="70" stroke-width="0.8"/>
+              <g stroke-width="0.7">
+                <path d="M200 14v5M200 149v5M270 84h-5M135 84h-5"/>
+                <path d="M260.6 49v0l-4.3 2.5M260.6 119l-4.3-2.5M139.4 49l4.3 2.5M139.4 119l4.3-2.5"/>
+                <path d="M235 23.4l-2.5 4.3M165 23.4l2.5 4.3M235 144.6l-2.5-4.3M165 144.6l2.5-4.3"/>
+              </g>
+            </g>
+            <text x="12" y="162" fill="#7f9187" opacity="0.75" font-size="8" font-family="Archivo Narrow,Arial">0</text>
+            <text x="374" y="162" fill="#7f9187" opacity="0.75" font-size="8" font-family="Archivo Narrow,Arial">1</text>
+            <text x="10" y="12" fill="#7f9187" opacity="0.75" font-size="8" font-family="Archivo Narrow,Arial">1</text>
+          </svg>
+          <div class="glare"></div>
+        </div>
+      </div>
+      <div class="glbl"><span class="shdr">Sweep function</span><span class="unit">f : [0,1] → [0,1]</span></div>
+
+    </div>
+
+    <!-- ══ RIGHT · CONTROL FIELD ════════════════════════════════════════ -->
+    <div class="col-r">
+
+      <!-- printed signal path -->
+      <svg class="flow" viewBox="0 0 431 645" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M215.5 165 V492"/>
+        <path d="M215.5 492 H14"/>
+        <path d="M215.5 492 V638"/>
+        <path d="M215.5 572 H226"/>
+        <circle class="n" cx="215.5" cy="180" r="2.6"/>
+        <circle class="n" cx="215.5" cy="340" r="2.6"/>
+        <circle class="n" cx="215.5" cy="492" r="3"/>
+        <circle class="n" cx="215.5" cy="572" r="3"/>
+        <path class="ah" d="M16 486 L4 492 L16 498 Z"/>
+        <path class="ah" d="M209.5 636 L215.5 645 L221.5 636 Z"/>
+        <path class="ah" d="M226 566 L238 572 L226 578 Z"/>
+      </svg>
+
+      <!-- ── HERO · SWEEP ──────────────────────────────────────────────── -->
+      <fieldset class="cell hero" style="grid-column:1 / -1">
+        <legend class="hdr">Sweep</legend>
+        <div class="body">
+
+          <div class="zone">
+            <span class="shdr">Trigger</span>
+            <div class="zrow">
+              <div class="pbcol">
+                <div class="pb dn"><span>Int</span></div>
+                <div class="pb"><span>Ext</span></div>
+                <div class="pb"><span>Line</span></div>
+              </div>
+              <div class="ctl">
+                <div class="dialm">
+                  <div class="fan">
+                    <i style="--p:-110deg" class="m">−</i><i style="--p:0deg">·</i><i style="--p:110deg" class="m">+</i>
+                  </div>
+                  <div class="knob mini" style="--a:24deg"></div>
+                </div>
+                <span class="lbl" style="font-size:.84em">Level</span>
+              </div>
+            </div>
+            <div class="zrow" style="gap:.5em">
+              <div class="pb" style="width:3.4em"><span class="m">＋</span></div>
+              <div class="pb dn" style="width:3.4em"><span class="m">−</span></div>
+              <span class="lbl" style="font-size:.78em;margin-left:.4em">Slope</span>
+            </div>
+          </div>
+
+          <div class="zone" style="border-left:0">
+            <div class="rate">
+              <i class="ring r1"></i><i class="ring r2"></i>
+              <span class="sc1">s / div</span>
+              <span class="sc2 m">Hz</span>
+              <!-- upper scale · plot -->
+              <span class="pos" style="--p:-105deg">.5</span>
+              <span class="pos" style="--p:-87.5deg">.2</span>
+              <span class="pos" style="--p:-70deg">.1</span>
+              <span class="pos m" style="--p:-52.5deg">50m</span>
+              <span class="pos m" style="--p:-35deg">20m</span>
+              <span class="pos m" style="--p:-17.5deg">10m</span>
+              <span class="pos m" style="--p:0deg">5m</span>
+              <span class="pos m" style="--p:17.5deg">2m</span>
+              <span class="pos m worn" style="--p:35deg">1m</span>
+              <span class="pos m" style="--p:52.5deg">.5m</span>
+              <span class="pos m" style="--p:70deg">.2m</span>
+              <span class="pos m" style="--p:87.5deg">.1m</span>
+              <span class="pos m" style="--p:105deg">50µ</span>
+              <!-- lower scale · voice -->
+              <span class="pos lo m" style="--p:75deg">.2</span>
+              <span class="pos lo m" style="--p:92.5deg">.5</span>
+              <span class="pos lo m" style="--p:110deg">1</span>
+              <span class="pos lo m" style="--p:127.5deg">2</span>
+              <span class="pos lo m" style="--p:145deg">5</span>
+              <span class="pos lo m" style="--p:162.5deg">10</span>
+              <span class="pos lo m" style="--p:180deg">20</span>
+              <span class="pos lo m" style="--p:197.5deg">50</span>
+              <span class="pos lo m worn" style="--p:215deg">100</span>
+              <span class="pos lo m" style="--p:232.5deg">200</span>
+              <span class="pos lo m" style="--p:250deg">500</span>
+              <span class="pos lo m" style="--p:267.5deg">1k</span>
+              <span class="pos lo m" style="--p:285deg">2k</span>
+              <span class="dot" style="--p:-105deg"></span><span class="dot" style="--p:-87.5deg"></span>
+              <span class="dot" style="--p:-70deg"></span><span class="dot" style="--p:-52.5deg"></span>
+              <span class="dot" style="--p:-35deg"></span><span class="dot" style="--p:-17.5deg"></span>
+              <span class="dot" style="--p:0deg"></span><span class="dot" style="--p:17.5deg"></span>
+              <span class="dot" style="--p:35deg"></span><span class="dot" style="--p:52.5deg"></span>
+              <span class="dot" style="--p:70deg"></span><span class="dot" style="--p:87.5deg"></span>
+              <span class="dot" style="--p:105deg"></span>
+              <div class="sw" style="--a:35deg"></div>
+              <div class="capk" style="--b:-28deg"></div>
+              <span class="cal"></span>
+            </div>
+          </div>
+
+          <div class="zone">
+            <span class="shdr">Advance</span>
+            <div class="zrow">
+              <div class="pbcol">
+                <div class="pb"><span>Time</span></div>
+                <div class="pb dn"><span>Arc</span></div>
+                <div class="pb"><span>Curv</span></div>
+              </div>
+              <div class="ctl">
+                <div class="dialm">
+                  <div class="fan">
+                    <i style="--p:-115deg" class="m">1</i><i style="--p:-38deg" class="m">16</i>
+                    <i style="--p:38deg" class="m">256</i><i style="--p:115deg" class="m">4k</i>
+                  </div>
+                  <div class="knob mini" style="--a:52deg"></div>
+                </div>
+                <span class="lbl" style="font-size:.84em">Lookahead</span>
+              </div>
+            </div>
+            <div class="zrow" style="gap:.7em">
+              <div class="jewel" style="width:1.9em;height:1.9em"></div>
+              <span class="lbl" style="font-size:.78em">Buffer</span>
+            </div>
+          </div>
+
+        </div>
+      </fieldset>
+
+      <!-- ── SWEEP BASIS ───────────────────────────────────────────────── -->
+      <fieldset class="cell">
+        <legend class="hdr">Sweep Basis</legend>
+        <div class="body">
+          <div class="sel">
+            <span class="pos" style="--p:-52deg">Ramp</span>
+            <span class="pos" style="--p:-17deg">Log</span>
+            <span class="pos" style="--p:17deg">Sigmoid</span>
+            <span class="pos on" style="--p:52deg">PWL</span>
+            <span class="dot" style="--p:-52deg"></span><span class="dot" style="--p:-17deg"></span>
+            <span class="dot" style="--p:17deg"></span><span class="dot" style="--p:52deg"></span>
+            <div class="sw" style="--a:52deg"></div>
+          </div>
+          <div class="ctl">
+            <div class="duo">
+              <div class="fan">
+                <i style="--p:-115deg" class="m">0</i><i style="--p:0deg" class="m">.5</i><i style="--p:115deg" class="m">1</i>
+              </div>
+              <div class="outer" style="--a:36deg"></div><div class="capk" style="--b:-62deg"></div>
+            </div>
+            <span class="lbl" style="font-size:.86em">Knee · Break</span>
+          </div>
+        </div>
+      </fieldset>
+
+      <!-- ── TIMEBASE TOPOLOGY ─────────────────────────────────────────── -->
+      <fieldset class="cell">
+        <legend class="hdr">Timebase Topology</legend>
+        <div class="body">
+          <div class="sel">
+            <span class="pos on" style="--p:-45deg">Line</span>
+            <span class="pos" style="--p:0deg">Ring</span>
+            <span class="pos" style="--p:45deg">Spiral</span>
+            <span class="dot" style="--p:-45deg"></span><span class="dot" style="--p:0deg"></span><span class="dot" style="--p:45deg"></span>
+            <div class="sw" style="--a:-45deg"></div>
+            <div class="capk" style="--b:137.5deg"></div>
+          </div>
+          <div class="ctl" style="align-self:center">
+            <div class="tg">
+              <span class="up">Blank</span>
+              <div class="sw"><div class="well"></div><div class="bat" style="--t:-19deg"></div></div>
+              <span class="dn red">Draw</span>
+              <span class="lbl fn" style="font-size:.82em">Retrace</span>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+
+      <!-- ── CONTINUITY OF f ───────────────────────────────────────────── -->
+      <fieldset class="cell">
+        <legend class="hdr">Continuity of <span class="m">f</span></legend>
+        <div class="body">
+          <div class="sel">
+            <span class="pos warn" style="--p:-52deg">Jump<span class="snd">Click</span></span>
+            <span class="pos on" style="--p:-17deg"><span class="m">C⁰</span><span class="snd">Bright</span></span>
+            <span class="pos" style="--p:17deg"><span class="m">C¹</span><span class="snd">Clean</span></span>
+            <span class="pos" style="--p:52deg"><span class="m">C²</span><span class="snd">Glass</span></span>
+            <span class="dot" style="--p:-52deg"></span><span class="dot" style="--p:-17deg"></span>
+            <span class="dot" style="--p:17deg"></span><span class="dot" style="--p:52deg"></span>
+            <div class="sw" style="--a:-17deg"></div>
+          </div>
+          <div class="ctl">
+            <div class="dial">
+              <div class="ticks"></div>
+              <div class="fan">
+                <i style="--p:-120deg" class="m">0</i><i style="--p:0deg" class="m">5</i><i style="--p:120deg" class="m">10</i>
+              </div>
+              <div class="knob" style="--a:78deg"></div>
+            </div>
+            <span class="lbl">Corner</span>
+          </div>
+        </div>
+      </fieldset>
+
+      <!-- ── RATIO & RECURSION ─────────────────────────────────────────── -->
+      <fieldset class="cell">
+        <legend class="hdr">Ratio &amp; Recursion</legend>
+        <div class="body">
+          <div class="sel">
+            <div class="field"><svg viewBox="0 0 100 100" aria-hidden="true"><use href="#goldfield"/></svg></div>
+            <span class="pos" style="--p:-52deg">Off</span>
+            <span class="pos on m" style="--p:-26deg">φ</span>
+            <span class="pos m" style="--p:0deg">√2</span>
+            <span class="pos m" style="--p:26deg">π</span>
+            <span class="pos m" style="--p:52deg">e</span>
+            <span class="dot" style="--p:-52deg"></span><span class="dot" style="--p:-26deg"></span><span class="dot" style="--p:0deg"></span>
+            <span class="dot" style="--p:26deg"></span><span class="dot" style="--p:52deg"></span>
+            <div class="sw" style="--a:-26deg"></div>
+            <div class="capk" style="--b:52deg"></div>
+          </div>
+          <div style="display:flex;flex-direction:column;gap:.4em">
+            <div class="ctl">
+              <div class="dialm" style="width:4.6em;height:4.6em">
+                <div class="fan" style="font-size:.86em">
+                  <i style="--p:-115deg" class="m">1</i><i style="--p:0deg" class="m">8</i><i style="--p:115deg" class="m">16</i>
+                </div>
+                <div class="knob mini" style="--a:-70deg;width:3.4em;height:3.4em"></div>
+              </div>
+              <span class="lbl m" style="font-size:.86em">N</span>
+            </div>
+            <div class="ctl">
+              <div class="dialm" style="width:4.6em;height:4.6em">
+                <div class="fan" style="font-size:.86em">
+                  <i style="--p:-115deg" class="m">1</i><i style="--p:0deg" class="m">8</i><i style="--p:115deg" class="m">16</i>
+                </div>
+                <div class="knob mini" style="--a:110deg;width:3.4em;height:3.4em"></div>
+              </div>
+              <span class="lbl m" style="font-size:.86em">D</span>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+
+      <!-- ── FOLD ──────────────────────────────────────────────────────── -->
+      <fieldset class="cell">
+        <legend class="hdr">Fold</legend>
+        <div class="body">
+          <div class="tg">
+            <span class="up">Mono</span>
+            <div class="sw"><div class="well"></div><div class="bat" style="--t:19deg"></div></div>
+            <span class="dn red">Fold</span>
+          </div>
+          <div class="ctl">
+            <div class="dial">
+              <div class="ticks"></div>
+              <div class="fan">
+                <i style="--p:-120deg" class="m">0</i><i style="--p:-60deg" class="m">¼</i>
+                <i style="--p:0deg" class="m">½</i><i style="--p:60deg" class="m">¾</i><i style="--p:120deg" class="m">1</i>
+              </div>
+              <div class="knob" style="--a:2deg"></div>
+            </div>
+            <span class="lbl">Phase <span class="m">τ</span></span>
+          </div>
+          <div class="ctl">
+            <div class="dial">
+              <div class="ticks"></div>
+              <div class="fan">
+                <i style="--p:-120deg" class="m">0</i><i style="--p:0deg" class="m">5</i><i style="--p:120deg" class="m">10</i>
+              </div>
+              <div class="knob" style="--a:-130deg"></div>
+            </div>
+            <span class="lbl">Depth</span>
+          </div>
+        </div>
+      </fieldset>
+
+      <!-- ── ALIASING ──────────────────────────────────────────────────── -->
+      <fieldset class="cell">
+        <legend class="hdr">Aliasing</legend>
+        <div class="body">
+          <div class="meter">
+            <svg viewBox="0 0 150 128" aria-hidden="true">
+              <path d="M14 104 A 62 62 0 0 1 136 104" fill="none" stroke="#2b2c29" stroke-width="1"/>
+              <path d="M97 53.5 A 62 62 0 0 1 136 104" fill="none" stroke="#b23a26" stroke-width="3.4" opacity=".85"/>
+              <rect x="14" y="82" width="122" height="7" fill="#eceadf"/>
+              <rect x="14" y="82" width="122" height="1.2" fill="#a3a196"/>
+              <g stroke="#2b2c29" stroke-width="1">
+                <path d="M16 104l5-2M28 80l5 3M47 62l3 5M75 55v6M103 62l-3 5M122 80l-5 3M134 104l-5-2"/>
+              </g>
+              <g fill="#2b2c29" font-size="6.4" font-family="Archivo Narrow,Arial">
+                <text x="12" y="116">0</text><text x="128" y="116">∞</text>
+              </g>
+              <text x="112" y="76" fill="#b23a26" font-size="6.6" font-weight="bold"
+                    font-family="Archivo Narrow,Arial" letter-spacing="1.4" transform="rotate(52 112 76)">GOOD</text>
+              <text x="60" y="101" fill="#2b2c29" font-size="5.8" font-family="Archivo Narrow,Arial" letter-spacing="1">f ′ (t)</text>
+              <text x="75" y="122" fill="#6a6b64" font-size="3.6" font-family="Archivo Narrow,Arial"
+                    letter-spacing="1.6" text-anchor="middle">BOUSTROPHEDON</text>
+              <g transform="rotate(-72 75 104)"><path d="M75 104 L75 50" stroke="#16171a" stroke-width="1.2"/></g>
+              <circle cx="75" cy="104" r="3.8" fill="#2b2c29"/><circle cx="75" cy="104" r="1.4" fill="#6a6b64"/>
+            </svg>
+            <div class="refl"></div>
+          </div>
+          <div class="tg">
+            <span class="up">On</span>
+            <div class="sw"><div class="well"></div><div class="bat" style="--t:19deg"></div></div>
+            <span class="dn red">Off</span>
+            <span class="lbl fn" style="font-size:.78em">Bandlimit</span>
+          </div>
+          <div class="ctl"><div class="jewel"></div><span class="lbl" style="font-size:.8em">Fold</span></div>
+        </div>
+      </fieldset>
+
+    </div>
+  </div>
+
+  <!-- ══ BOTTOM RAIL · POWER + DESTINATION ═══════════════════════════════ -->
+  <div class="rail-bot">
+    <div class="bot-grp">
+      <div class="ctl" style="gap:.4em"><div class="rocker"><span class="i">I</span><span class="o">O</span></div></div>
+      <div class="ctl" style="gap:.4em"><div class="fuse"></div><span class="lbl" style="font-size:.78em">T 500 mA</span></div>
+      <div class="ctl" style="gap:.4em"><div class="callug"></div><span class="lbl" style="font-size:.78em">Cal 1 V</span></div>
+      <div class="note bot-note">115 / 230 V <span class="m">∿</span> 50–60 Hz<br>
+        <span class="red">Panel only. No internals fitted, no harness run.</span></div>
+    </div>
+
+    <div class="bot-grp" style="gap:2em">
+      <div class="lad">
+        <div class="sw2" style="--a:118deg"></div>
+        <ul><li>Plot</li><li>Voice</li><li class="on">Both</li></ul>
+      </div>
+      <div class="jgrp">
+        <span class="chd">In</span>
+        <div class="jrow">
+          <div class="jk"><div class="jack blk"></div><span class="lbl m">X</span></div>
+          <div class="jk"><div class="jack blk"></div><span class="lbl m">Y</span></div>
+          <div class="jk"><div class="jack blk"></div><span class="lbl">Trig</span></div>
+        </div>
+      </div>
+      <div class="jgrp">
+        <span class="chd">Out</span>
+        <div class="jrow">
+          <div class="jk"><div class="jack"></div><span class="lbl">Sweep</span></div>
+          <div class="jk"><div class="jack"></div><span class="lbl gd">Voice</span></div>
+          <div class="jk"><div class="jack"></div><span class="lbl gd"><span class="m">f′</span> CV</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bot-grp">
+      <div class="plate">Ser. 0007 · Rev E<br>Made under no license<br>Boustrophedon Instr. Co.</div>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>

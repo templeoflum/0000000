@@ -1,0 +1,30 @@
+{
+  "id": "Dsc3DN",
+  "name": "Free-particle propagator",
+  "username": "E_mc2",
+  "description": "Propagator of a non-relativistic free particle with Hamiltonian H=p^2/2m in quantum field theory.",
+  "tags": [
+    "physics",
+    "quantum",
+    "qft",
+    "quantumfieldtheory"
+  ],
+  "date": "1677245331",
+  "viewed": 672,
+  "likes": 5,
+  "published": 1,
+  "renderpass": [
+    {
+      "type": "image",
+      "name": "Image",
+      "inputs": [],
+      "outputs": [
+        {
+          "id": "4dfGRr",
+          "channel": 0
+        }
+      ],
+      "code": "void mainImage( out vec4 fragColor, in vec2 fragCoord )\n{\n    vec2 uv = (fragCoord-(iResolution.xy*0.5))/sqrt(iResolution.x)*7.16;\n\n    vec3 col = 0.5 + 0.5*cos(iTime*-4.+uv.x*uv.x+uv.y*uv.y+vec3(0,2,4));\n\n    // Output to screen\n    fragColor = vec4(col,1.0);\n}"
+    }
+  ]
+}

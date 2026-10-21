@@ -1,0 +1,188 @@
+{
+  "SchemaVersion": "1.1-ter",
+  "ArchetypeName": "Kingu",
+  "SystemOfOrigin": "ME",
+  "CulturalLineage": [
+    "Babylonian",
+    "Akkadian"
+  ],
+  "CommonAliases": [
+    "Qingu",
+    "Champion of Tiamat",
+    "Tablet Bearer",
+    "Second Consort",
+    "Blood of Humanity"
+  ],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "Chaos champion embodying usurped authority, defeated rebellion, and the divine blood from which humanity is created",
+    "PrimaryDomain": "Chaos/Authority/Sacrifice/Creation",
+    "ToneOrPolarity": "Rebellious / Defeated / Sacrificed / Creative",
+    "SymbolicCore": "The defeated champion whose blood becomes humanity - rebellion transformed to creation",
+    "Correspondences": {
+      "Element": "Water (chaos) and Earth (blood/creation)",
+      "Planet": "Mars (war) and Saturn (sacrifice)",
+      "Chakra": "Root (blood) and Solar Plexus (stolen authority)",
+      "Color": "Blood Red, Chaos Black, Creation Clay",
+      "Animal": "Serpent, Dragon (Tiamat's champion)",
+      "Other": [
+        "Tablet of Destinies (given by Tiamat)",
+        "Blood (source of humanity)",
+        "Champion's weapons",
+        "Usurped authority",
+        "Defeated general",
+        "Creative sacrifice"
+      ]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": [
+      "Chaos Champion",
+      "Usurper of Authority",
+      "Defeated General",
+      "Sacrificial Source",
+      "Blood of Humanity",
+      "Rebel Lieutenant"
+    ],
+    "ComplementaryArchetypes": [
+      "Tiamat (Mother/Queen/Lover)",
+      "Marduk (Victor/Slayer)",
+      "Apsu (Predecessor consort)",
+      "Ea (Creator from his blood)"
+    ],
+    "ShadowForms": [
+      "Unworthy Leader",
+      "Defeated Usurper",
+      "Failed Champion"
+    ],
+    "DevelopmentalArc": [
+      "Chaos Son → Elevated Consort → Given Tablet → Made General → Battle → Defeat → Execution → Blood Becomes Humanity"
+    ],
+    "CyclePhase": "Elevation → Authority → War → Defeat → Sacrifice → Creation"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": [
+      "Ambitious",
+      "Elevated beyond merit",
+      "Rebellious",
+      "Defeated",
+      "Sacrificed",
+      "Source of humanity",
+      "Failed champion"
+    ],
+    "Typologies": {
+      "MBTI": "ESTP",
+      "Enneagram": "8w7 (The Maverick)",
+      "Other": [
+        "Failed rebel",
+        "Sacrificial king",
+        "Defeated champion",
+        "Creative sacrifice"
+      ]
+    },
+    "SubVariants": [
+      "Chaos Champion",
+      "Elevated Consort",
+      "Defeated General",
+      "Blood Source",
+      "Sacrificial God"
+    ],
+    "InternalFamily": "Champion - Usurper - Sacrifice"
+  },
+  "CulturalContext": {
+    "Regions": [
+      "Babylonia",
+      "Mesopotamia"
+    ],
+    "MythicAppearances": [
+      "Enuma Elish (major role)",
+      "Elevated by Tiamat to leadership",
+      "Given Tablet of Destinies",
+      "Leads chaos army",
+      "Defeated by Marduk",
+      "Executed for rebellion",
+      "Blood used to create humanity",
+      "Ea's creation of humans from Kingu's blood"
+    ],
+    "ReligiousOrRitualUse": "Creation narratives, humanity's divine origin (though from defeated rebel), sacrifice mythology, rebellion warnings",
+    "HistoricalEvolution": "Babylonian creation myth figure, represents chaos defeated and transformed to creative use, humanity's mixed nature (rebel blood + divine design)",
+    "SyncreticForms": [
+      "Typhon (Greek defeated chaos monster)",
+      "Ymir (Norse - giant whose body creates world)",
+      "Purusha (Vedic - sacrificed to create)",
+      "Lucifer (rebellious angel - though not sacrificed for creation)"
+    ]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "🩸📜 (blood and tablet)",
+    "ImageryNotes": "Depicted as chaos general, bearing Tablet of Destinies, in combat with Marduk, blood sacrifice imagery, creation from slain body",
+    "ArtisticExamples": [
+      "Enuma Elish tablets",
+      "Chaos combat imagery",
+      "Creation scenes"
+    ],
+    "PoeticInvocation": "I am the champion who failed, the blood from which humanity flows, the rebel whose defeat becomes creation.",
+    "DreamForm": "Being elevated beyond your merit only to fail; blood becoming clay becoming life; defeated authority transforming to creation"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": [
+      "ME.Tiamat",
+      "ME.Marduk",
+      "ME.Enki-Ea",
+      "ME.Apsu",
+      "GR.Typhon"
+    ],
+    "SemanticTags": [
+      "#chaos",
+      "#rebellion",
+      "#defeat",
+      "#sacrifice",
+      "#blood",
+      "#humanity",
+      "#creation",
+      "#usurper"
+    ],
+    "RitualFunction": "Invoke for understanding defeat transformed, sacrifice for creation, rebellion's cost, humanity's mixed divine nature",
+    "AIPromptSeeds": [
+      "Generate a champion elevated beyond merit whose defeat and sacrifice creates humanity from his rebel blood.",
+      "Create a failed usurper whose very failure becomes the source of new creation."
+    ],
+    "NarrativeHooks": [
+      "Elevation beyond worthiness",
+      "The champion who fails his queen",
+      "Defeated authority",
+      "Blood sacrifice becoming creation",
+      "Humanity's rebel origins"
+    ]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [
+      {
+        "to": "GR.Typhon",
+        "strength": "moderate"
+      },
+      {
+        "to": "NO.Ymir",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "FacetRegistry": [
+    {
+      "facet": "Chaos Champion",
+      "weight": 0.3
+    },
+    {
+      "facet": "Defeated General",
+      "weight": 0.25
+    },
+    {
+      "facet": "Blood of Humanity",
+      "weight": 0.3
+    },
+    {
+      "facet": "Sacrificial God",
+      "weight": 0.15
+    }
+  ]
+}

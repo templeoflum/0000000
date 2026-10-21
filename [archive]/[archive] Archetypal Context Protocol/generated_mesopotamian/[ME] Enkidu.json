@@ -1,0 +1,192 @@
+{
+  "SchemaVersion": "1.1-ter",
+  "ArchetypeName": "Enkidu",
+  "SystemOfOrigin": "ME",
+  "CulturalLineage": [
+    "Sumerian",
+    "Akkadian",
+    "Babylonian"
+  ],
+  "CommonAliases": [
+    "Wild Man",
+    "Created of Clay",
+    "Friend of Gilgamesh",
+    "The Natural Man",
+    "Brother of Beasts"
+  ],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "Wild man archetype embodying natural state, civilization through love, shadow companion, and the mortality that humanizes",
+    "PrimaryDomain": "Nature/Civilization/Friendship",
+    "ToneOrPolarity": "Wild → Civilized / Natural / Mortal / Brotherly",
+    "SymbolicCore": "The wild nature transformed through love and civilization, whose death teaches the price of being human",
+    "Correspondences": {
+      "Element": "Earth",
+      "Planet": "Earth (natural) and Moon (instinct)",
+      "Chakra": "Root and Heart",
+      "Color": "Earth Brown, Forest Green, Animal Fur",
+      "Animal": "Gazelle, Wild Beasts, All Animals",
+      "Other": [
+        "Clay (creation material)",
+        "Steppe wilderness",
+        "Water hole",
+        "Animal companionship",
+        "Shamhat (civilizing priestess)",
+        "Axe (gift from Gilgamesh)"
+      ]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": [
+      "Wild Man",
+      "Shadow Self",
+      "Civilizing Journey",
+      "Loyal Friend",
+      "Dying Companion",
+      "Natural Conscience"
+    ],
+    "ComplementaryArchetypes": [
+      "Gilgamesh (Civilized double)",
+      "Shamhat (Civilizer)",
+      "Ninhursag (Creator)",
+      "Humbaba (Wild opponent)"
+    ],
+    "ShadowForms": [
+      "Untamed Beast",
+      "Lost Innocence",
+      "Corrupted Nature"
+    ],
+    "DevelopmentalArc": [
+      "Wild Nature → Seduction/Civilization → Brotherhood → Heroic Deeds → Hubris → Death → Legacy"
+    ],
+    "CyclePhase": "Wild → Tamed → Civilized → Doomed → Death → Mourned"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": [
+      "Natural",
+      "Instinctive",
+      "Loyal",
+      "Strong",
+      "Innocent becoming aware",
+      "Mortal",
+      "Conscience"
+    ],
+    "Typologies": {
+      "MBTI": "ISFP",
+      "Enneagram": "9w8 (The Referee)",
+      "Other": [
+        "JP12.Innocent evolving to Regular Guy",
+        "Wild Man archetype",
+        "Shadow Self",
+        "Animal Self"
+      ]
+    },
+    "SubVariants": [
+      "Wild Man",
+      "Natural Self",
+      "Shadow Brother",
+      "Dying Friend",
+      "Civilized Beast"
+    ],
+    "InternalFamily": "Wild Man - Shadow - Anima Bridge - Mortal Self"
+  },
+  "CulturalContext": {
+    "Regions": [
+      "Uruk",
+      "Mesopotamian wilderness",
+      "Sumer",
+      "Akkad"
+    ],
+    "MythicAppearances": [
+      "Epic of Gilgamesh (major role)",
+      "Creation by Aruru/Ninhursag",
+      "Civilized by Shamhat",
+      "Wrestling Gilgamesh",
+      "Slaying Humbaba",
+      "Killing Bull of Heaven",
+      "Death and descent",
+      "Gilgamesh, Enkidu and the Netherworld"
+    ],
+    "ReligiousOrRitualUse": "Represents humanity's connection to and separation from nature, used to teach about civilization vs. wildness, mortality",
+    "HistoricalEvolution": "Created as equal/opposite to Gilgamesh, evolved into deep exploration of nature vs. culture, friendship, mortality, influenced wild man traditions",
+    "SyncreticForms": [
+      "Green Man (Celtic wild man)",
+      "Enkidu parallels in various wild man myths",
+      "John the Baptist (wilderness dweller)",
+      "Esau (wild brother)",
+      "Tarzan (modern wild man)"
+    ]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "🌿🦌 (wild-natural)",
+    "ImageryNotes": "Depicted with long hair covering body like fur, among animals, wrestling Gilgamesh, as companion in heroic deeds, dying in sickness",
+    "ArtisticExamples": [
+      "Cylinder seals showing wild Enkidu",
+      "Wrestling scenes with Gilgamesh",
+      "Heroic duo imagery"
+    ],
+    "PoeticInvocation": "I am the wild who learned to love, the beast who became brother, the nature sacrificed for civilization's embrace.",
+    "DreamForm": "Running with animals in wilderness; transformation from beast to human; dying far from the wild home"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": [
+      "ME.Gilgamesh",
+      "ME.Ninhursag-Ki",
+      "ME.Shamhat",
+      "ME.Humbaba",
+      "CE.Green-Man"
+    ],
+    "SemanticTags": [
+      "#wild-man",
+      "#nature",
+      "#civilization",
+      "#friendship",
+      "#shadow",
+      "#mortality",
+      "#transformation",
+      "#innocence"
+    ],
+    "RitualFunction": "Invoke for connecting with natural self, shadow integration, male friendship, accepting mortality, civilizing wild energies",
+    "AIPromptSeeds": [
+      "Generate a wild being civilized through love who loses innocence but gains brotherhood, whose death teaches what it means to be human.",
+      "Create a natural man who becomes the mirror and conscience of the civilized hero."
+    ],
+    "NarrativeHooks": [
+      "The wild man tamed by love",
+      "Shadow self becoming true friend",
+      "Nature vs. civilization",
+      "Death that transforms the living",
+      "Wrestling that becomes brotherhood"
+    ]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [
+      {
+        "to": "CE.Green-Man",
+        "strength": "moderate"
+      },
+      {
+        "to": "GR.Pan",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "FacetRegistry": [
+    {
+      "facet": "Wild Man",
+      "weight": 0.4
+    },
+    {
+      "facet": "Shadow Brother",
+      "weight": 0.3
+    },
+    {
+      "facet": "Dying Friend",
+      "weight": 0.2
+    },
+    {
+      "facet": "Natural Conscience",
+      "weight": 0.1
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "release_seconds": 2.342,
+  "released": {
+    "name": "Loop Hue",
+    "owner": "resolume",
+    "choices": [],
+    "v": 0.5024,
+    "drive": false,
+    "morphing": true,
+    "morph_remaining": 2.95,
+    "morph_progress": 0.016,
+    "cyc": false,
+    "ratio": "1:1",
+    "mult": 1.0,
+    "offset": 0.6666666666666666,
+    "shape": 1,
+    "lo": 0.499,
+    "hi": 0.501,
+    "lock": false
+  },
+  "static_does_not_reclaim": true,
+  "home_reclaimed": {
+    "name": "Loop Hue",
+    "owner": "heart",
+    "choices": [],
+    "v": 0.5002,
+    "drive": true,
+    "morphing": true,
+    "morph_remaining": 2.93,
+    "morph_progress": 0.022,
+    "cyc": false,
+    "ratio": "1:1",
+    "mult": 1.0,
+    "offset": 0.6666666666666666,
+    "shape": 1,
+    "lo": 0.499,
+    "hi": 0.501,
+    "lock": false
+  },
+  "native_after": {
+    "phase_source": "static",
+    "dial": null
+  }
+}

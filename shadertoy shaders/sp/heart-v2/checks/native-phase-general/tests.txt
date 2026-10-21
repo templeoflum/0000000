@@ -1,0 +1,38 @@
+..................Executing <Task finished name='Task-2' coro=<BridgeTests.test_values_claim_disarm_and_stale_epoch() done, defined at /Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/test_bridge.py:7> result=None created at /opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py:110> took 0.355 seconds
+.............................................{"status": "pause", "pid": 123, "footprint_bytes": 75161927680, "footprint_gib": 70.0, "warn_gib": 40, "pause_gib": 64, "at": "2026-09-12T13:52:15.620027-05:00"}
+/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/test_memory_guard.py:12: ResourceWarning: unclosed file <_io.TextIOWrapper name='/var/folders/68/g_fps9fj1s7gwyq7t365v6hw0000gn/T/tmpo49krbaw/memory-guard.lock' mode='w' encoding='UTF-8'>
+  with patch.object(guard,'footprint',return_value=70*guard.GIB):guard.main()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+{"status": "normal", "pid": 123, "footprint_bytes": 21474836480, "footprint_gib": 20.0, "warn_gib": 40, "pause_gib": 64, "at": "2026-09-12T13:52:15.624020-05:00"}
+/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/test_memory_guard.py:15: ResourceWarning: unclosed file <_io.TextIOWrapper name='/var/folders/68/g_fps9fj1s7gwyq7t365v6hw0000gn/T/tmpo49krbaw/memory-guard.lock' mode='w' encoding='UTF-8'>
+  with patch.object(guard,'footprint',return_value=20*guard.GIB):guard.main()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.{"status": "warning", "pid": 123, "footprint_bytes": 48318382080, "footprint_gib": 45.0, "warn_gib": 40, "pause_gib": 64, "at": "2026-09-12T13:52:15.625611-05:00"}
+/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/test_memory_guard.py:22: ResourceWarning: unclosed file <_io.TextIOWrapper name='/var/folders/68/g_fps9fj1s7gwyq7t365v6hw0000gn/T/tmphjx9fnn2/memory-guard.lock' mode='w' encoding='UTF-8'>
+  with patch.object(guard,'footprint',return_value=45*guard.GIB):guard.main()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+{"status": "unavailable", "error": "permission denied", "at": "2026-09-12T13:52:15.626282-05:00"}
+............/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/traceback.py:260: ResourceWarning: unclosed file <_io.FileIO name='/var/folders/68/g_fps9fj1s7gwyq7t365v6hw0000gn/T/tmphjx9fnn2/memory-guard.lock' mode='wb' closefd=True>
+  f = sys._getframe().f_back
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+connection handler failed
+Traceback (most recent call last):
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/.venv/lib/python3.14/site-packages/websockets/asyncio/server.py", line 747, in protocol_handler
+    await handler(connection)
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/test_observation.py", line 12, in handler
+    async for raw in ws:
+     m=json.loads(raw);requests.append(m);pid=int(m['parameter'].split('/')[-1])
+     if m['action']=='subscribe':await ws.send(json.dumps(dict(id=pid,type='parameter_subscribed',value=.3)))
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/.venv/lib/python3.14/site-packages/websockets/asyncio/connection.py", line 237, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/.venv/lib/python3.14/site-packages/websockets/asyncio/connection.py", line 317, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+......................................................................./opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/tempfile.py:484: ResourceWarning: Implicitly cleaning up <HTTPError 404: 'Not Found'>
+  _warnings.warn(self.warn_message, ResourceWarning)
+..........
+----------------------------------------------------------------------
+Ran 157 tests in 118.457s
+
+OK

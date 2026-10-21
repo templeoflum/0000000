@@ -1,0 +1,23 @@
+........................................................./Users/donovan/work/0000000/shadertoy shaders/sp/engine/heart.py:461: ResourceWarning: unclosed file <_io.TextIOWrapper name='/Users/donovan/work/0000000/shadertoy shaders/sp/engine/home.json' mode='r' encoding='UTF-8'>
+  try: return json.load(open(HOME_FILE))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+......................./Users/donovan/work/0000000/shadertoy shaders/sp/engine/heart.py:400: ResourceWarning: unclosed file <_io.TextIOWrapper name='/Users/donovan/work/0000000/shadertoy shaders/sp/engine/armsets.json' mode='r' encoding='UTF-8'>
+  try: return json.load(open(ARM_FILE))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+................/Users/donovan/work/0000000/shadertoy shaders/sp/engine/heart.py:466: ResourceWarning: unclosed file <_io.TextIOWrapper name='/var/folders/68/g_fps9fj1s7gwyq7t365v6hw0000gn/T/tmpsuhsj3rm/home.json' mode='w' encoding='UTF-8'>
+  homes=load_homes(); homes[saved_key(clip)]=vals; json.dump(homes,open(HOME_FILE,"w"),indent=1); clip.home=vals; event(f"{clip.name}: home set")
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/donovan/work/0000000/shadertoy shaders/sp/engine/heart.py:461: ResourceWarning: unclosed file <_io.TextIOWrapper name='/var/folders/68/g_fps9fj1s7gwyq7t365v6hw0000gn/T/tmpsuhsj3rm/home.json' mode='r' encoding='UTF-8'>
+  try: return json.load(open(HOME_FILE))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+........................................................................................................../Users/donovan/work/0000000/shadertoy shaders/sp/engine/heart.py:466: ResourceWarning: unclosed file <_io.TextIOWrapper name='/var/folders/68/g_fps9fj1s7gwyq7t365v6hw0000gn/T/tmpzyt8urak/home.json' mode='w' encoding='UTF-8'>
+  homes=load_homes(); homes[saved_key(clip)]=vals; json.dump(homes,open(HOME_FILE,"w"),indent=1); clip.home=vals; event(f"{clip.name}: home set")
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+........../Users/donovan/work/0000000/shadertoy shaders/sp/engine/heart.py:466: ResourceWarning: unclosed file <_io.TextIOWrapper name='/var/folders/68/g_fps9fj1s7gwyq7t365v6hw0000gn/T/tmpux0txqei/home.json' mode='w' encoding='UTF-8'>
+  homes=load_homes(); homes[saved_key(clip)]=vals; json.dump(homes,open(HOME_FILE,"w"),indent=1); clip.home=vals; event(f"{clip.name}: home set")
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+...........................................................
+----------------------------------------------------------------------
+Ran 271 tests in 3.929s
+
+OK

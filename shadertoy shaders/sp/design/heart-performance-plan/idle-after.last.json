@@ -1,0 +1,920 @@
+{
+  "H": 13.683,
+  "bpm": 120.0,
+  "fps": 239.0,
+  "worst": 0.04,
+  "clips": [],
+  "events": [],
+  "bars": 2.0,
+  "hold": false,
+  "arena_connected": true,
+  "surface": {
+    "pad": {
+      "assign": {},
+      "cfg": {},
+      "home": {}
+    }
+  },
+  "patches": [
+    "Connection check"
+  ],
+  "patch_recall_ready": false,
+  "patch_status": "Idle",
+  "queue": 0,
+  "delivery": {
+    "pending": 0,
+    "coalesced": 0,
+    "dequeued": 0,
+    "max_pending_age_ms": 0.0
+  },
+  "layers": [
+    {
+      "i": 8,
+      "name": "grain",
+      "opacity": 0.0,
+      "bypass": false,
+      "clip": "",
+      "clips": [
+        {
+          "col": 1,
+          "name": "grain"
+        },
+        {
+          "col": 8,
+          "name": "SP Grain"
+        },
+        {
+          "col": 9,
+          "name": "SP State Test"
+        }
+      ],
+      "ccol": 0,
+      "ap": 0
+    },
+    {
+      "i": 7,
+      "name": "texture",
+      "opacity": 0.0,
+      "bypass": false,
+      "clip": "",
+      "clips": [
+        {
+          "col": 1,
+          "name": "dither"
+        },
+        {
+          "col": 2,
+          "name": "texture"
+        },
+        {
+          "col": 8,
+          "name": "SP Scan"
+        }
+      ],
+      "ccol": 0,
+      "ap": 0
+    },
+    {
+      "i": 6,
+      "name": "glyph",
+      "opacity": 0.0,
+      "bypass": false,
+      "clip": "",
+      "clips": [
+        {
+          "col": 1,
+          "name": "glyph"
+        },
+        {
+          "col": 2,
+          "name": "script"
+        },
+        {
+          "col": 8,
+          "name": "SP Glyphmass"
+        }
+      ],
+      "ccol": 0,
+      "ap": 0
+    },
+    {
+      "i": 5,
+      "name": "figure",
+      "opacity": 0.6423076923076931,
+      "bypass": false,
+      "clip": "",
+      "clips": [
+        {
+          "col": 1,
+          "name": "1d"
+        },
+        {
+          "col": 2,
+          "name": "2d"
+        },
+        {
+          "col": 3,
+          "name": "3d"
+        },
+        {
+          "col": 4,
+          "name": "4d"
+        },
+        {
+          "col": 5,
+          "name": "shell"
+        },
+        {
+          "col": 6,
+          "name": "hybrid"
+        },
+        {
+          "col": 8,
+          "name": "Figure 3D SP"
+        },
+        {
+          "col": 9,
+          "name": "Figure 2D SP"
+        }
+      ],
+      "ccol": 0,
+      "ap": 0
+    },
+    {
+      "i": 4,
+      "name": "delay",
+      "opacity": 0.5538461538461538,
+      "bypass": false,
+      "clip": "",
+      "clips": [
+        {
+          "col": 1,
+          "name": "figure"
+        },
+        {
+          "col": 2,
+          "name": "field"
+        },
+        {
+          "col": 8,
+          "name": "Color"
+        },
+        {
+          "col": 12,
+          "name": "figure \u00b7 light delay"
+        }
+      ],
+      "ccol": 0,
+      "ap": 0
+    },
+    {
+      "i": 3,
+      "name": "field",
+      "opacity": 1.0,
+      "bypass": false,
+      "clip": "",
+      "clips": [
+        {
+          "col": 1,
+          "name": "ground"
+        },
+        {
+          "col": 2,
+          "name": "room"
+        },
+        {
+          "col": 3,
+          "name": "void"
+        },
+        {
+          "col": 8,
+          "name": "SP Field"
+        }
+      ],
+      "ccol": 0,
+      "ap": 0
+    },
+    {
+      "i": 2,
+      "name": "sculpt",
+      "opacity": 1.0,
+      "bypass": false,
+      "clip": "",
+      "clips": [
+        {
+          "col": 1,
+          "name": "level"
+        },
+        {
+          "col": 2,
+          "name": "pass"
+        },
+        {
+          "col": 3,
+          "name": "color"
+        },
+        {
+          "col": 4,
+          "name": "mixer"
+        },
+        {
+          "col": 8,
+          "name": "Shape"
+        }
+      ],
+      "ccol": 0,
+      "ap": 0
+    },
+    {
+      "i": 1,
+      "name": "feedback",
+      "opacity": 1.0,
+      "bypass": false,
+      "clip": "",
+      "clips": [
+        {
+          "col": 1,
+          "name": "map"
+        },
+        {
+          "col": 2,
+          "name": "texture"
+        },
+        {
+          "col": 3,
+          "name": "fold"
+        },
+        {
+          "col": 4,
+          "name": "level"
+        },
+        {
+          "col": 5,
+          "name": "pass"
+        },
+        {
+          "col": 8,
+          "name": "Flow"
+        }
+      ],
+      "ccol": 0,
+      "ap": 0
+    }
+  ],
+  "fx": [
+    {
+      "key": "layer/feedback~1/effect/HueRotate~1",
+      "scope": "L",
+      "layer": 1,
+      "lname": "feedback",
+      "name": "Hue Rotate",
+      "colors": {},
+      "params": {
+        "Opacity": {
+          "id": 1788806275935,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 0.0,
+          "view": {
+            "suffix": " %",
+            "multiplier": 100.0,
+            "display_units": "percent",
+            "control_type": "slider_color_opacity"
+          }
+        },
+        "Hue Scale": {
+          "id": 1788806275929,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 1.0
+        },
+        "Hue Rotate": {
+          "id": 1788806275930,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 0.0
+        },
+        "Sat. Scale": {
+          "id": 1788806275931,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 0.5
+        }
+      },
+      "has_amount": true,
+      "env": 0.0,
+      "target": 0.0,
+      "pending": false,
+      "bypassed": true,
+      "cfg": {
+        "attack": 0.5,
+        "release": 1.0,
+        "mode": "latch",
+        "quant": 0,
+        "hold": 1.0,
+        "key": "",
+        "bypass0": true,
+        "bind": null
+      }
+    },
+    {
+      "key": "layer/feedback~1/effect/DelayRGB~1",
+      "scope": "L",
+      "layer": 1,
+      "lname": "feedback",
+      "name": "Delay RGB",
+      "colors": {},
+      "params": {
+        "Opacity": {
+          "id": 1788806275952,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 0.0,
+          "view": {
+            "suffix": " %",
+            "multiplier": 100.0,
+            "display_units": "percent",
+            "control_type": "slider_color_opacity"
+          }
+        },
+        "R delay": {
+          "id": 1788806275946,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 0.0,
+          "view": {
+            "suffix": "",
+            "alternative_name": "Delay R"
+          }
+        },
+        "G delay": {
+          "id": 1788806275947,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 0.15,
+          "view": {
+            "suffix": "",
+            "alternative_name": "Delay G"
+          }
+        },
+        "B delay": {
+          "id": 1788806275948,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 0.3,
+          "view": {
+            "suffix": "",
+            "alternative_name": "Delay B"
+          }
+        }
+      },
+      "has_amount": true,
+      "env": 0.0,
+      "target": 0.0,
+      "pending": false,
+      "bypassed": true,
+      "cfg": {
+        "attack": 0.5,
+        "release": 1.0,
+        "mode": "latch",
+        "quant": 0,
+        "hold": 1.0,
+        "key": "",
+        "bypass0": true,
+        "bind": null
+      }
+    },
+    {
+      "key": "layer/feedback~1/effect/AutoMask~1",
+      "scope": "L",
+      "layer": 1,
+      "lname": "feedback",
+      "name": "Auto Mask",
+      "colors": {},
+      "params": {
+        "Opacity": {
+          "id": 1788806275969,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 0.0,
+          "view": {
+            "suffix": " %",
+            "multiplier": 100.0,
+            "display_units": "percent",
+            "control_type": "slider_color_opacity"
+          }
+        },
+        "Channel": {
+          "id": 1788806275963,
+          "valuetype": "ParamChoice",
+          "value": "Luminance",
+          "index": 0,
+          "options": [
+            "Luminance",
+            "Red",
+            "Green",
+            "Blue"
+          ],
+          "view": {
+            "suffix": "",
+            "control_type": "choice_combobox"
+          }
+        },
+        "Contrast": {
+          "id": 1788806275964,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 0.5
+        },
+        "Invert": {
+          "valuetype": "ParamBoolean",
+          "id": 1788806275965,
+          "value": false
+        }
+      },
+      "has_amount": true,
+      "env": 0.0,
+      "target": 0.0,
+      "pending": false,
+      "bypassed": true,
+      "cfg": {
+        "attack": 0.5,
+        "release": 1.0,
+        "mode": "latch",
+        "quant": 0,
+        "hold": 0.0,
+        "key": "",
+        "bypass0": true,
+        "bind": null
+      }
+    },
+    {
+      "key": "layer/feedback~1/effect/Mirror~1",
+      "scope": "L",
+      "layer": 1,
+      "lname": "feedback",
+      "name": "Mirror",
+      "colors": {},
+      "params": {
+        "Opacity": {
+          "id": 1788806275989,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 0.0,
+          "view": {
+            "suffix": " %",
+            "multiplier": 100.0,
+            "display_units": "percent",
+            "control_type": "slider_color_opacity"
+          }
+        },
+        "X": {
+          "id": 1788806275980,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 0.0
+        },
+        "Y": {
+          "id": 1788806275981,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 0.0
+        },
+        "In / Out": {
+          "id": 1788806275982,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 1.0
+        },
+        "Flip X": {
+          "valuetype": "ParamBoolean",
+          "id": 1788806275983,
+          "value": false
+        },
+        "Flip Y": {
+          "valuetype": "ParamBoolean",
+          "id": 1788806275984,
+          "value": false
+        },
+        "Black BG": {
+          "valuetype": "ParamBoolean",
+          "id": 1788806275985,
+          "value": false
+        }
+      },
+      "has_amount": true,
+      "env": 0.0,
+      "target": 0.0,
+      "pending": false,
+      "bypassed": true,
+      "cfg": {
+        "attack": 0.5,
+        "release": 1.0,
+        "mode": "latch",
+        "quant": 0,
+        "hold": 0.0,
+        "key": "",
+        "bypass0": true,
+        "bind": null
+      }
+    },
+    {
+      "key": "layer/figure~1/effect/LinearCloner~1",
+      "scope": "L",
+      "layer": 5,
+      "lname": "figure",
+      "name": "Linear Cloner",
+      "colors": {},
+      "params": {
+        "Opacity": {
+          "id": 1788806276112,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 0.0,
+          "view": {
+            "suffix": " %",
+            "multiplier": 100.0,
+            "display_units": "percent",
+            "control_type": "slider_color_opacity"
+          }
+        },
+        "Clones": {
+          "id": 1788806276092,
+          "valuetype": "ParamRange",
+          "min": 1.0,
+          "max": 50.0,
+          "in": 1.0,
+          "out": 50.0,
+          "value": 18.0,
+          "view": {
+            "suffix": "",
+            "step": 1.0,
+            "display_units": "integer",
+            "control_type": "spinner"
+          }
+        },
+        "Tails": {
+          "id": 1788806276093,
+          "valuetype": "ParamRange",
+          "min": 1.0,
+          "max": 8.0,
+          "in": 1.0,
+          "out": 8.0,
+          "value": 8.0,
+          "view": {
+            "suffix": "",
+            "step": 1.0,
+            "display_units": "integer",
+            "control_type": "spinner"
+          }
+        },
+        "Center": {
+          "id": 1788806276094,
+          "valuetype": "ParamRange",
+          "min": -1.0,
+          "max": 1.0,
+          "in": -1.0,
+          "out": 1.0,
+          "value": 0.0
+        },
+        "Tail Length": {
+          "id": 1788806276095,
+          "valuetype": "ParamRange",
+          "min": -1.0,
+          "max": 1.0,
+          "in": -0.5,
+          "out": 0.5,
+          "value": -0.4007568929588765
+        },
+        "Start Scale": {
+          "id": 1788806276096,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 100.0,
+          "in": 0.0,
+          "out": 100.0,
+          "value": 30.434782608695656,
+          "view": {
+            "suffix": " %",
+            "step": 1.0,
+            "multiplier": 1.0,
+            "display_units": "percent",
+            "control_type": "slider"
+          }
+        },
+        "Start Rotation": {
+          "id": 1788806276098,
+          "valuetype": "ParamRange",
+          "min": -180.0,
+          "max": 180.0,
+          "in": -180.0,
+          "out": 180.0,
+          "value": 124.03864499263915,
+          "view": {
+            "suffix": " \u00b0",
+            "step": 1.0,
+            "display_units": "degrees",
+            "control_type": "slider"
+          }
+        },
+        "End Scale": {
+          "id": 1788806276097,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 100.0,
+          "in": 0.0,
+          "out": 100.0,
+          "value": 0.0,
+          "view": {
+            "suffix": " %",
+            "step": 1.0,
+            "multiplier": 1.0,
+            "display_units": "percent",
+            "control_type": "slider"
+          }
+        },
+        "End Rotation": {
+          "id": 1788806276099,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 360.0,
+          "in": 0.0,
+          "out": 360.0,
+          "value": 90.0,
+          "view": {
+            "suffix": " \u00b0",
+            "step": 1.0,
+            "display_units": "degrees",
+            "control_type": "slider"
+          }
+        },
+        "Distribution": {
+          "id": 1788806276100,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 100.0,
+          "in": 0.0,
+          "out": 100.0,
+          "value": 30.0,
+          "view": {
+            "suffix": " %",
+            "step": 1.0,
+            "multiplier": 1.0,
+            "display_units": "percent",
+            "control_type": "slider"
+          }
+        },
+        "Distortion": {
+          "id": 1788806276101,
+          "valuetype": "ParamRange",
+          "min": -100.0,
+          "max": 100.0,
+          "in": -100.0,
+          "out": 100.0,
+          "value": 45.0,
+          "view": {
+            "suffix": " %",
+            "step": 1.0,
+            "multiplier": 1.0,
+            "display_units": "percent",
+            "control_type": "slider"
+          }
+        },
+        "Reverse": {
+          "valuetype": "ParamBoolean",
+          "id": 1788806276102,
+          "value": true
+        },
+        "Tail Rotation": {
+          "id": 1788806276103,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 100.0,
+          "in": 0.0,
+          "out": 100.0,
+          "value": 0.0,
+          "view": {
+            "suffix": " %",
+            "step": 1.0,
+            "multiplier": 1.0,
+            "display_units": "percent",
+            "control_type": "slider"
+          }
+        },
+        "Master Rotation": {
+          "id": 1788806276104,
+          "valuetype": "ParamRange",
+          "min": -180.0,
+          "max": 180.0,
+          "in": -180.0,
+          "out": 180.0,
+          "value": -124.03864499263918,
+          "view": {
+            "suffix": " \u00b0",
+            "step": 1.0,
+            "display_units": "degrees",
+            "control_type": "slider"
+          }
+        },
+        "Delay Enabled": {
+          "valuetype": "ParamBoolean",
+          "id": 1788806276105,
+          "value": false,
+          "view": {
+            "suffix": "",
+            "alternative_name": "Enabled"
+          }
+        },
+        "Delay Amount": {
+          "id": 1788806276106,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 0.5,
+          "view": {
+            "suffix": "",
+            "alternative_name": "Amount"
+          }
+        },
+        "Delay Order": {
+          "id": 1788806276107,
+          "valuetype": "ParamChoice",
+          "value": "New To Old",
+          "index": 0,
+          "options": [
+            "New To Old",
+            "Old To New",
+            "Bounce",
+            "Bounce Tail",
+            "Random"
+          ],
+          "view": {
+            "suffix": "",
+            "control_type": "choice_combobox",
+            "alternative_name": "Order"
+          }
+        },
+        "Delay Fill": {
+          "id": 1788806276108,
+          "valuetype": "ParamChoice",
+          "value": "Repeat",
+          "index": 0,
+          "options": [
+            "Repeat",
+            "Transparent"
+          ],
+          "view": {
+            "suffix": "",
+            "control_type": "choice_combobox",
+            "alternative_name": "Fill"
+          }
+        }
+      },
+      "has_amount": true,
+      "env": 0.0,
+      "target": 0.0,
+      "pending": false,
+      "bypassed": true,
+      "cfg": {
+        "attack": 0.5,
+        "release": 1.0,
+        "mode": "latch",
+        "quant": 0,
+        "hold": 1.0,
+        "key": "",
+        "bypass0": true,
+        "bind": null
+      }
+    },
+    {
+      "key": "layer/figure~1/effect/Mirror~1",
+      "scope": "L",
+      "layer": 5,
+      "lname": "figure",
+      "name": "Mirror",
+      "colors": {},
+      "params": {
+        "Opacity": {
+          "id": 1788806276185,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 0.0,
+          "view": {
+            "suffix": " %",
+            "multiplier": 100.0,
+            "display_units": "percent",
+            "control_type": "slider_color_opacity"
+          }
+        },
+        "X": {
+          "id": 1788806276176,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 0.5
+        },
+        "Y": {
+          "id": 1788806276177,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 0.0
+        },
+        "In / Out": {
+          "id": 1788806276178,
+          "valuetype": "ParamRange",
+          "min": 0.0,
+          "max": 1.0,
+          "in": 0.0,
+          "out": 1.0,
+          "value": 1.0
+        },
+        "Flip X": {
+          "valuetype": "ParamBoolean",
+          "id": 1788806276179,
+          "value": true
+        },
+        "Flip Y": {
+          "valuetype": "ParamBoolean",
+          "id": 1788806276180,
+          "value": false
+        },
+        "Black BG": {
+          "valuetype": "ParamBoolean",
+          "id": 1788806276181,
+          "value": false
+        }
+      },
+      "has_amount": true,
+      "env": 0.0,
+      "target": 0.0,
+      "pending": false,
+      "bypassed": true,
+      "cfg": {
+        "attack": 0.5,
+        "release": 1.0,
+        "mode": "latch",
+        "quant": 0,
+        "hold": 1.0,
+        "key": "",
+        "bypass0": true,
+        "bind": null
+      }
+    }
+  ],
+  "arena_socket": true
+}

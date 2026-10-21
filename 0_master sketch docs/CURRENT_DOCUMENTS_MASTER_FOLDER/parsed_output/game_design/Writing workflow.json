@@ -1,0 +1,382 @@
+{
+  "id": "5e1aae621fb1",
+  "filename": "Writing workflow.docx",
+  "path": "01_LUM_GAME_CONCEPTS_EXISTING\\misc docs\\Writing workflow.docx",
+  "category": "game_design",
+  "content_type": "framework",
+  "metadata": {
+    "title": "AI-Assisted Writing Workflow Framework",
+    "file_size": 10651,
+    "modified_date": "2024-12-29T19:09:34",
+    "created_date": "2026-01-22T18:31:26.543151"
+  },
+  "concepts": [
+    "resonance",
+    "coherence",
+    "symbol",
+    "unity",
+    "iterative"
+  ],
+  "structure": {
+    "sections": [
+      {
+        "heading": "1. Purpose and Vision",
+        "level": 1
+      },
+      {
+        "heading": "2. Core Components",
+        "level": 1
+      },
+      {
+        "heading": "1.\tDesign Languages:",
+        "level": 1
+      },
+      {
+        "heading": "2.\tRulesets:",
+        "level": 1
+      },
+      {
+        "heading": "3.\tOutlines:",
+        "level": 1
+      },
+      {
+        "heading": "4.\tIterative Exploration:",
+        "level": 1
+      },
+      {
+        "heading": "5.\tSeed Usage:",
+        "level": 1
+      },
+      {
+        "heading": "6.\tMethod of Discovery:",
+        "level": 1
+      },
+      {
+        "heading": "3. Workflow Phases",
+        "level": 1
+      },
+      {
+        "heading": "1.\tDefine Initial Idea:",
+        "level": 1
+      },
+      {
+        "heading": "2.\tEngage in Discovery:",
+        "level": 1
+      },
+      {
+        "heading": "3.\tRecord Insights:",
+        "level": 1
+      },
+      {
+        "heading": "4.\tSelect Design Languages:",
+        "level": 1
+      },
+      {
+        "heading": "5.\tOptional Seed Use:",
+        "level": 1
+      },
+      {
+        "heading": "1.\tDefine high-level arcs or sections.",
+        "level": 1
+      },
+      {
+        "heading": "2.\tAssign design languages and rulesets to each chapter.",
+        "level": 1
+      },
+      {
+        "heading": "3.\tOptionally use seeds for generating and iterating outlines.",
+        "level": 1
+      },
+      {
+        "heading": "1.\tDraft chapters using AI-assisted prompts tailored to design languages.",
+        "level": 1
+      },
+      {
+        "heading": "2.\tExperiment with variations while maintaining alignment with rulesets.",
+        "level": 1
+      },
+      {
+        "heading": "3.\tDocument seeds (if used) for reproducibility.",
+        "level": 1
+      },
+      {
+        "heading": "1.\tConfigure analysis steps (e.g., Structural Alignment → Resonance → Coherence).",
+        "level": 1
+      },
+      {
+        "heading": "2.\tPerform adherence checks and edits for each step.",
+        "level": 1
+      },
+      {
+        "heading": "3.\tTwo modes:",
+        "level": 1
+      },
+      {
+        "heading": "4.\tRepeat cycles as needed, logging changes and seeds for future reference.",
+        "level": 1
+      },
+      {
+        "heading": "1.\tDraft books from different viewpoints.",
+        "level": 1
+      },
+      {
+        "heading": "2.\tUse shared outlines, rulesets, and design languages for consistency.",
+        "level": 1
+      },
+      {
+        "heading": "3.\tDocument seeds for repeatable variations.",
+        "level": 1
+      },
+      {
+        "heading": "1.\tCompare drafts to identify strengths and resolve contradictions.",
+        "level": 1
+      },
+      {
+        "heading": "2.\tSynthesize thematic and narrative elements into the final version.",
+        "level": 1
+      },
+      {
+        "heading": "3.\tPublish final resources (outlines, rulesets, seeds) for open-source collaboration.",
+        "level": 1
+      },
+      {
+        "heading": "4. Open-Source Collaboration",
+        "level": 1
+      },
+      {
+        "heading": "1.\tRepository Structure:",
+        "level": 1
+      },
+      {
+        "heading": "2.\tCommunity Contributions:",
+        "level": 1
+      },
+      {
+        "heading": "5. Advantages",
+        "level": 1
+      },
+      {
+        "heading": "1.\tIntent Refinement: The discovery phase ensures clear focus and purpose from the outset.",
+        "level": 1
+      },
+      {
+        "heading": "2.\tCreative Depth: Modular design languages and rulesets enhance thematic and narrative richness.",
+        "level": 1
+      },
+      {
+        "heading": "3.\tIterative Exploration: Multiple drafts explore diverse viewpoints for a holistic final version.",
+        "level": 1
+      },
+      {
+        "heading": "4.\tRepeatability: Seeds enable stable outputs for consistent revisitation.",
+        "level": 1
+      },
+      {
+        "heading": "5.\tCollaboration: Open-source resources foster collective innovation.",
+        "level": 1
+      },
+      {
+        "heading": "6. Example Use Case",
+        "level": 1
+      },
+      {
+        "heading": "1.\tPhase 1: Ideation.",
+        "level": 1
+      },
+      {
+        "heading": "2.\tPhase 2: Outline Development.",
+        "level": 1
+      },
+      {
+        "heading": "3.\tPhase 3: Drafting.",
+        "level": 1
+      },
+      {
+        "heading": "4.\tPhase 4: Editing.",
+        "level": 1
+      },
+      {
+        "heading": "5.\tPhase 5: Exploration.",
+        "level": 1
+      },
+      {
+        "heading": "6.\tPhase 6: Synthesis.",
+        "level": 1
+      }
+    ],
+    "section_count": 46,
+    "has_clear_structure": true
+  },
+  "content": "AI-Assisted Writing Workflow Framework\n1. Purpose and Vision\n\t•\tPurpose: Provide a comprehensive, modular system for creating, refining, and synthesizing narratives, leveraging AI to explore ideas, develop multiple perspectives, and achieve thematic depth.\n\t•\tVision:\n\t•\tEnable authors to refine their intent and purpose through guided AI discovery.\n\t•\tUse modular design languages and rulesets to structure creative output.\n\t•\tFacilitate iterative exploration of diverse perspectives and synthesis of insights into cohesive narratives.\n2. Core Components\n\t1.\tDesign Languages:\n\t•\tModular frameworks guiding thematic, structural, and stylistic elements.\n\t•\tExamples: Archetypal, Resonance, Analytical, Poetic, Experimental.\n\t2.\tRulesets:\n\t•\tConfigurable guidelines for drafting, editing, and refining based on design languages.\n\t3.\tOutlines:\n\t•\tHierarchical structures to guide story arcs and chapter goals.\n\t4.\tIterative Exploration:\n\t•\tMulti-perspective drafts to explore supporting, refuting, and alternative viewpoints.\n\t5.\tSeed Usage:\n\t•\tOptional but useful for repeatable outputs in AI-assisted processes.\n\t6.\tMethod of Discovery:\n\t•\tAI-generated questions to refine the author’s intent and purpose during the ideation phase.\n3. Workflow Phases\nPhase 1: Ideation\n\t•\tPurpose: Discover and refine the core intent of the project by exploring themes, questions, and potential directions.\n\t•\tActions:\n\t1.\tDefine Initial Idea:\n\t•\tStart with a broad or specific concept (e.g., “AI and creativity”).\n\t2.\tEngage in Discovery:\n\t•\tUse the AI to ask you reflective and exploratory questions to refine your intent.\n\t•\tExample AI-Generated Questions:\n\t•\t“What specific problem or question are you trying to address?”\n\t•\t“What emotions or themes do you want to evoke in the reader?”\n\t•\t“Do you envision a hopeful, ambiguous, or cautionary tone?”\n\t•\t“Which historical, philosophical, or cultural influences inspire this idea?”\n\t•\t“What might a character, object, or setting symbolize within this theme?”\n\t3.\tRecord Insights:\n\t•\tCapture responses to the AI’s questions to shape your project’s foundation.\n\t4.\tSelect Design Languages:\n\t•\tChoose appropriate languages to guide the narrative’s structure and tone.\n\t5.\tOptional Seed Use:\n\t•\tUse a seed for AI-driven exploration to ensure stability in outputs.\n\t•\tExample:\n\t•\tInitial Idea: Exploring AI’s influence on human creativity.\n\t•\tAI Questions and Responses:\n\t•\tQ: “What drives your interest in this topic?”\nA: “I’m curious about how AI might challenge or complement human creativity.”\n\t•\tQ: “What type of narrative would best explore this?”\nA: “A speculative fiction story with elements of emotional tension.”\n\t•\tSelected Design Languages: Resonance (emotional depth), Analytical (philosophical exploration), Archetypal (Hero’s Journey).\nPhase 2: Outline Development\n\t•\tPurpose: Develop a clear and detailed structure for the story or argument.\n\t•\tActions:\n\t1.\tDefine high-level arcs or sections.\n\t2.\tAssign design languages and rulesets to each chapter.\n\t3.\tOptionally use seeds for generating and iterating outlines.\n\t•\tExample:\n\t•\tOutline:\n\t•\tChapter 1: Introducing the protagonist and the AI Mentor (Archetypal, Resonance).\n\t•\tChapter 2: Ethical dilemmas of AI-driven creativity (Analytical).\n\t•\tChapter 3: A dreamlike exploration of AI’s perspective (Poetic, Experimental).\nPhase 3: Drafting\n\t•\tPurpose: Write the book’s initial draft, adhering to the outline, design languages, and rulesets.\n\t•\tActions:\n\t1.\tDraft chapters using AI-assisted prompts tailored to design languages.\n\t2.\tExperiment with variations while maintaining alignment with rulesets.\n\t3.\tDocument seeds (if used) for reproducibility.\n\t•\tExample Prompts:\n\t•\tAnalytical: “Write a dialogue exploring the ethical implications of AI creating original art.”\n\t•\tPoetic: “Describe the AI’s creative process as if it were a dream, focusing on sensory and metaphorical details.”\nPhase 4: Configurable Multi-Cycle Analysis Editing\n\t•\tPurpose: Refine drafts through iterative adherence checks and editing cycles.\n\t•\tActions:\n\t1.\tConfigure analysis steps (e.g., Structural Alignment → Resonance → Coherence).\n\t2.\tPerform adherence checks and edits for each step.\n\t3.\tTwo modes:\n\tSingle-Step Cycle: Make edits after a single step has been analyzed then repeat the cycle \n\tafter all steps have been analyzed and edited\n\tFull-Step Cycle: Make edits after all steps have been analyzed then repeat cycle\n\t4.\tRepeat cycles as needed, logging changes and seeds for future reference.\n\t•\tExample:\n\t•\tEditing Configuration:\n\t•\tStep 1: Ensure chapter structure aligns with the Hero’s Journey.\n\t•\tStep 2: Refine recurring motifs for emotional resonance.\n\t•\tStep 3: Address pacing and flow issues for coherence.\n\t•\tCycle: Repeat the configured steps 3 times.\nPhase 5: Exploration of Perspectives\n\t•\tPurpose: Write additional drafts exploring supporting, refuting, or alternative perspectives.\n\t•\tActions:\n\t1.\tDraft books from different viewpoints.\n\t2.\tUse shared outlines, rulesets, and design languages for consistency.\n\t3.\tDocument seeds for repeatable variations.\n\t•\tExample:\n\t•\tSupporting Perspective: “AI as an enabler of human creativity.”\n\t•\tRefuting Perspective: “AI as a threat to originality and agency.”\n\t•\tAlternative Perspective: “A symbiotic relationship between AI and humanity.”\nPhase 6: Synthesis and Refinement\n\t•\tPurpose: Integrate insights from multiple drafts into a cohesive, refined narrative.\n\t•\tActions:\n\t1.\tCompare drafts to identify strengths and resolve contradictions.\n\t2.\tSynthesize thematic and narrative elements into the final version.\n\t3.\tPublish final resources (outlines, rulesets, seeds) for open-source collaboration.\n\t•\tExample:\n\t•\tThe final version synthesizes the supporting and refuting perspectives, framing AI as a dual-edged tool shaped by human intention.\n4. Open-Source Collaboration\n\t1.\tRepository Structure:\n\t•\tInclude discovery questions, outlines, design languages, rulesets, and seeds for transparency and reproducibility.\n\t2.\tCommunity Contributions:\n\t•\tEnable collaborators to refine questions, expand themes, and propose alternative arcs or perspectives.\n5. Advantages\n\t1.\tIntent Refinement: The discovery phase ensures clear focus and purpose from the outset.\n\t2.\tCreative Depth: Modular design languages and rulesets enhance thematic and narrative richness.\n\t3.\tIterative Exploration: Multiple drafts explore diverse viewpoints for a holistic final version.\n\t4.\tRepeatability: Seeds enable stable outputs for consistent revisitation.\n\t5.\tCollaboration: Open-source resources foster collective innovation.\n6. Example Use Case\nProject: Exploring AI and creativity through speculative fiction.\n\t1.\tPhase 1: Ideation.\n\t•\tUse discovery questions to refine intent: “What human fears or hopes do you want to explore?”\n\t•\tSelect design languages: Resonance, Analytical, Poetic.\n\t2.\tPhase 2: Outline Development.\n\t•\tDevelop chapter-level arcs using Archetypal and Analytical rulesets.\n\t3.\tPhase 3: Drafting.\n\t•\tGenerate drafts with AI, assigning seeds to key chapters.\n\t4.\tPhase 4: Editing.\n\t•\tConfigure cycles with steps: Structural Alignment → Resonance → Final Polishing.\n\t5.\tPhase 5: Exploration.\n\t•\tWrite supporting and refuting versions of the book.\n\t6.\tPhase 6: Synthesis.\n\t•\tIntegrate insights into a refined narrative.",
+  "word_count": 1042,
+  "char_count": 7267,
+  "related_documents": [
+    "88aaef3e594c",
+    "07db64af4293",
+    "f2ef191b2581",
+    "bbd82318c528",
+    "5122b8d65c44",
+    "5003ee4bfe83",
+    "b28e2e0ea6be",
+    "72370e2d86ff",
+    "e602b2106e9c",
+    "56b9b660f758",
+    "9dc51498b7dc",
+    "45f0d213cbdf",
+    "ad4ec6ea00f6",
+    "0dd48ad9adad",
+    "788697a518ba",
+    "96db3af7faad",
+    "fc5517f5d5c7",
+    "adbdf70a46a5",
+    "de75d83546dd",
+    "ccd7e66b321b",
+    "3a5e88e88703",
+    "c2bd9fa7f682",
+    "541b869ad826",
+    "f2c9615e0c9d",
+    "63cd27af8bdf",
+    "52daa9ccae25",
+    "fcc04bea3bba",
+    "e4943387cb71",
+    "65a784acb016",
+    "9ad54aa1860a",
+    "897efe014d0d",
+    "d7734e35dd3e",
+    "ae33515ab560",
+    "b606b8810ba2",
+    "83aeef75f65f",
+    "8bac20c83198",
+    "8c567f069470",
+    "cc1ae2386e54",
+    "597c83b365aa",
+    "d7d50992f770",
+    "b80337f43062",
+    "afd8c056c38b",
+    "e3fa6d7bb766",
+    "14557e4a657c",
+    "c144cc1f09d9",
+    "2b6e47fa5c88",
+    "e6898bae8a1c",
+    "f6c59b243d0b",
+    "ca5e2ad39d88",
+    "7729ef1f9e8c",
+    "6a92a0f0c6ac",
+    "00354e752d56",
+    "955ce464c2c0",
+    "76d85ad0bcf5",
+    "56437eb07470",
+    "f8872a5c1229",
+    "81ff3d145fe0",
+    "acd30d9586c9",
+    "a8e6b9fc73e1",
+    "7e51e32d6737",
+    "9f733e9c3db4",
+    "5c56ce4b69f4",
+    "14bf1194c4bd",
+    "1ad21832a5ba",
+    "cdbb846dffc9",
+    "d735a4db756b",
+    "f4bab13153ae",
+    "bfb154377c38",
+    "4647feb864a8",
+    "c686a91a7de1",
+    "68069a7937a9",
+    "f89f1f071a4d",
+    "e84cf2dcbf65",
+    "a3eb42b074c3",
+    "92f01cca595a",
+    "e54c0c8809e6",
+    "4c1f30688214",
+    "a3907b3a2b50",
+    "fe7dfd743a64",
+    "1c9b0c943937",
+    "f15b31a41540",
+    "1ae04e84224b",
+    "7a669f7e9341",
+    "4483c4bd0f61",
+    "d087fb18d1f5",
+    "1e42d33a598d",
+    "929ab6e035e4",
+    "842da36df65a",
+    "de14a23d2a4e",
+    "2f66a531c784",
+    "4cf434dd4ad1",
+    "dcdd30992c1d",
+    "0feaf373eb87",
+    "dc6b69f33767",
+    "f9d0d108a3cc",
+    "0eef5a8cd9dc",
+    "8ed53d59c70b",
+    "a9702ca0feee",
+    "e9ea867b4337",
+    "1e8fda9b721b",
+    "799b0ab5efe4",
+    "935765855ea4",
+    "038a7a938f1f",
+    "f325d9fa65a7",
+    "292b5a7c9a21",
+    "b51d36be16de",
+    "91852e49f147",
+    "d1ce9a1b9e2f",
+    "e276590e6223",
+    "6605b331f68d",
+    "80e6463986eb",
+    "0f1cf1aa3128",
+    "e83b530c5f7f",
+    "a6ef59741d63",
+    "1dda4e519138",
+    "8e46cd2195c2",
+    "ffb331aeaf41",
+    "12d74c910770",
+    "a452f491b4b9",
+    "6f5745c5c04c",
+    "3fa4af6de4b9",
+    "8a23b2ddc3da",
+    "d38e73480bd2",
+    "bed237bb2a2a",
+    "679c1ea983c9",
+    "738c9b263380",
+    "a3c61798e600",
+    "d873b7863fec",
+    "79efff5b322b",
+    "a058d39dbb49",
+    "0c09c5b5aa04",
+    "3d1cf15ee465",
+    "4fce0fae8939",
+    "cc164959211d",
+    "9648bde1b712",
+    "4a00e4d415fd",
+    "31d67eb3ff95",
+    "729db2f97ada",
+    "a37bf62e8d75",
+    "75a3f6c4b8a1",
+    "2a603a5a7185",
+    "cbd76300dcbb",
+    "35c795469087",
+    "7f8e3ae56989",
+    "db5ffbbf483b",
+    "6bc25e8467a1",
+    "cf6169713354",
+    "1e19d79ad5b1",
+    "a9ee4018215c",
+    "c87eb7649f94",
+    "3d8a7d64b605",
+    "dc75c3696ec9",
+    "3c6e90fa5633",
+    "1c7fc4eb9399",
+    "3fdc98cfc281",
+    "bb79a82444fe",
+    "755ed5ace522",
+    "0d238748ae0d",
+    "442b4f891591",
+    "d98ccefeeeeb",
+    "a906f316c2b3",
+    "c90e869a2bf0",
+    "cf9aa0a92738",
+    "309d0f3d128a",
+    "852d9c9e02a4"
+  ],
+  "maturity": "developed",
+  "maturity_score": 4
+}

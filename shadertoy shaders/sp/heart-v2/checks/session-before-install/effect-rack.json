@@ -1,0 +1,242 @@
+{
+  "epoch": "1789151413656",
+  "rows": [
+    {
+      "id": "stage",
+      "label": "Stage",
+      "color_hex": "#8fc9ff",
+      "pads": [
+        {
+          "id": "decon",
+          "label": "Decon",
+          "bindings": [
+            {
+              "target": "effect:1789421994501",
+              "identity": [
+                "stage",
+                null,
+                1789004679714,
+                null,
+                "mtk_lut_corrupt"
+              ],
+              "opacity": 1789421994503,
+              "bypass": 1789421994500,
+              "event": 1789421994492,
+              "event_name": "DECON"
+            }
+          ],
+          "mode": "trigger"
+        },
+        {
+          "id": "pixel_melt",
+          "label": "Pixel Melt",
+          "bindings": [
+            {
+              "target": "effect:1789451629449",
+              "identity": [
+                "stage",
+                null,
+                1789004679714,
+                null,
+                "MTK_PXLMELT"
+              ],
+              "opacity": 1789451629451,
+              "bypass": 1789451629448,
+              "event": 1789451629443,
+              "event_name": "MELT_TRIGGER",
+              "latch": 1789451629442,
+              "latch_name": "MELT_LOCK"
+            }
+          ],
+          "mode": "latch"
+        }
+      ],
+      "color": [
+        {
+          "target": "effect:1789004679745",
+          "identity": [
+            "stage",
+            null,
+            1789004679714,
+            null,
+            "ColourLoop"
+          ],
+          "opacity": 1789181911555,
+          "bypass": 1789181911552
+        }
+      ]
+    },
+    {
+      "id": "figure",
+      "label": "Figure",
+      "color_hex": "#f6bd77",
+      "pads": [
+        {
+          "id": "decon",
+          "label": "Decon",
+          "bindings": [
+            {
+              "target": "effect:1788780036952",
+              "identity": [
+                "layer",
+                1788149968008,
+                1788405566947,
+                null,
+                "mtk_lut_corrupt"
+              ],
+              "opacity": 1789181914269,
+              "bypass": 1789181914266,
+              "event": 1789181914258,
+              "event_name": "DECON"
+            }
+          ],
+          "mode": "trigger"
+        },
+        {
+          "id": "pixel_melt",
+          "label": "Pixel Melt",
+          "bindings": [
+            {
+              "target": "effect:1789451666929",
+              "identity": [
+                "layer",
+                1788149968008,
+                1788405566947,
+                null,
+                "MTK_PXLMELT"
+              ],
+              "opacity": 1789451666931,
+              "bypass": 1789451666928,
+              "event": 1789451666923,
+              "event_name": "MELT_TRIGGER",
+              "latch": 1789451666922,
+              "latch_name": "MELT_LOCK"
+            }
+          ],
+          "mode": "latch"
+        }
+      ],
+      "color": [
+        {
+          "target": "effect:1789422031978",
+          "identity": [
+            "layer",
+            1788149968008,
+            1788405566947,
+            null,
+            "ColourLoop"
+          ],
+          "opacity": 1789422031980,
+          "bypass": 1789422031977
+        }
+      ]
+    },
+    {
+      "id": "field",
+      "label": "Field + video",
+      "color_hex": "#95d5aa",
+      "pads": [
+        {
+          "id": "decon",
+          "label": "Decon",
+          "bindings": [
+            {
+              "target": "effect:1789435860820",
+              "identity": [
+                "layer",
+                1788149967550,
+                null,
+                null,
+                "mtk_lut_corrupt"
+              ],
+              "opacity": 1789435860822,
+              "bypass": 1789435860819,
+              "event": 1789435860811,
+              "event_name": "DECON"
+            },
+            {
+              "target": "effect:1789422046985",
+              "identity": [
+                "layer",
+                1788149966656,
+                null,
+                null,
+                "mtk_lut_corrupt"
+              ],
+              "opacity": 1789422046987,
+              "bypass": 1789422046984,
+              "event": 1789422046976,
+              "event_name": "DECON"
+            }
+          ],
+          "mode": "trigger"
+        },
+        {
+          "id": "pixel_melt",
+          "label": "Pixel Melt",
+          "bindings": [
+            {
+              "target": "effect:1789451681936",
+              "identity": [
+                "layer",
+                1788149967550,
+                null,
+                null,
+                "MTK_PXLMELT"
+              ],
+              "opacity": 1789451681938,
+              "bypass": 1789451681935,
+              "event": 1789451681930,
+              "event_name": "MELT_TRIGGER",
+              "latch": 1789451681929,
+              "latch_name": "MELT_LOCK"
+            },
+            {
+              "target": "effect:1789451689452",
+              "identity": [
+                "layer",
+                1788149966656,
+                null,
+                null,
+                "MTK_PXLMELT"
+              ],
+              "opacity": 1789451689454,
+              "bypass": 1789451689451,
+              "event": 1789451689446,
+              "event_name": "MELT_TRIGGER",
+              "latch": 1789451689445,
+              "latch_name": "MELT_LOCK"
+            }
+          ],
+          "mode": "latch"
+        }
+      ],
+      "color": [
+        {
+          "target": "effect:1789422114543",
+          "identity": [
+            "layer",
+            1788149967550,
+            null,
+            null,
+            "ColourLoop"
+          ],
+          "opacity": 1789422114545,
+          "bypass": 1789422114542
+        },
+        {
+          "target": "effect:1789422062024",
+          "identity": [
+            "layer",
+            1788149966656,
+            null,
+            null,
+            "ColourLoop"
+          ],
+          "opacity": 1789422062026,
+          "bypass": 1789422062023
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+[
+  {
+    "layer": 3,
+    "col": 13,
+    "source": "Heart Color Wheel",
+    "controls": [
+      "Hue Rotation",
+      "Color Repeats",
+      "Saturation Contrast",
+      "Center Brightness",
+      "Gain",
+      "Saturation Spread"
+    ],
+    "discovered": [
+      "Hue Rotation",
+      "Color Repeats",
+      "Saturation Contrast",
+      "Center Brightness",
+      "Gain",
+      "Saturation Spread"
+    ],
+    "probe": "Hue Rotation",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.000911827446208643,
+      0.020229273337087645,
+      0.08345944573796922,
+      0.18698563914331529
+    ],
+    "drive_varied": true
+  }
+]

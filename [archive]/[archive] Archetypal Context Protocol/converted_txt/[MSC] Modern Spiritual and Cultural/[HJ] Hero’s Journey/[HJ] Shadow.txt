@@ -1,0 +1,79 @@
+// [HJ] Shadow
+{
+  "SchemaVersion": "1.1-ter",
+  "ArchetypeName": "Shadow",
+  "SystemOfOrigin": "HJ",
+  "CulturalLineage": ["Universal", "Greek", "Christian", "Buddhist", "African"],
+  "CommonAliases": ["Dark Mirror", "Villain", "Inner Demon", "Antagonist"],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "Embodies the Hero’s repressed fears and unintegrated power; must be faced to achieve wholeness",
+    "PrimaryDomain": "Narrative / Psychological",
+    "ToneOrPolarity": "Malevolent / Revealing",
+    "SymbolicCore": "The face behind the mask of light",
+    "Correspondences": {
+      "Element": "Void",
+      "Planet": "Pluto",
+      "Chakra": "Root / Shadow-Chakra",
+      "Color": "Pitch Black",
+      "Animal": "Dragon, Wolf, Serpent",
+      "Other": ["Mask", "Mirror", "Abyss"]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": ["Ultimate antagonist", "Revelation of hidden self", "Crisis catalyst"],
+    "ComplementaryArchetypes": ["Hero", "Trickster"],
+    "ShadowForms": ["Demonized Other", "Overwhelming Darkness"],
+    "DevelopmentalArc": ["Appear → Confront → Integrate → Transcend"],
+    "CyclePhase": "Ordeal"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": ["Powerful", "Fearsome", "Magnetic", "Repressed"],
+    "Typologies": {
+      "MBTI": "INTJ / ENTJ (shadow side)",
+      "Enneagram": "8w7 or 5w4 (shadow)",
+      "Other": ["JU.Shadow", "JP12.Destroyer"]
+    },
+    "SubVariants": ["Inner Demon", "Dark Double", "Cosmic Villain"],
+    "InternalFamily": "Shadow"
+  },
+  "CulturalContext": {
+    "Regions": ["Global"],
+    "MythicAppearances": ["Hades", "Lucifer", "Set", "Ravana", "Dark Lord archetype"],
+    "ReligiousOrRitualUse": "Shadow integration rites, dark night of the soul, exorcism dramas",
+    "HistoricalEvolution": "Mythic monster → psychological shadow → anti-hero",
+    "SyncreticForms": ["Darth Vader", "Voldemort", "Dark Link"]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "🌑",
+    "ImageryNotes": "Towering silhouette with glowing eyes that reflect the hero’s face",
+    "ArtisticExamples": [
+      "Star Wars: Vader",
+      "Lord of the Rings: Sauron",
+      "Fairy-tale Dark Forest"
+    ],
+    "PoeticInvocation": "I am the darkness you must swallow to find your light.",
+    "DreamForm": "A hooded figure wearing the dreamer’s own face beneath the cowl"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": ["JU.Shadow", "JP12.Destroyer", "KB.Gevurah", "TAMA.Devil"],
+    "SemanticTags": ["#shadow", "#pluto", "#abyss", "#integration"],
+    "RitualFunction": "Confront and integrate repressed aspects in shadow work",
+    "AIPromptSeeds": [
+      "Create a villain who is literally the hero’s future self."
+    ],
+    "NarrativeHooks": ["Revelation of shared identity", "Final showdown in the abyss"]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [
+      { "to": "JU.Shadow", "strength": "strong" },
+      { "to": "JP12.Destroyer", "strength": "strong" },
+      { "to": "TAMA.Devil", "strength": "moderate" }
+    ]
+  },
+  "FacetRegistry": [
+    { "facet": "Inner Demon", "weight": 0.4 },
+    { "facet": "Cosmic Villain", "weight": 0.3 },
+    { "facet": "Dark Double", "weight": 0.3 }
+  ]
+}

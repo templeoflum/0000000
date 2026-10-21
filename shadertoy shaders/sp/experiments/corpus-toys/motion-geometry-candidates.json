@@ -1,0 +1,279 @@
+{
+  "scope": "Read-only source audit. Excludes main task deep reads barberpole, stepping-feet, pinna-brelstaff. No builds or perceptual validation.",
+  "candidates": [
+    {
+      "name": "cafe-wall",
+      "toy_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/cafe-wall.html",
+      "mirror_path": "/Users/donovan/work/toys/cafe-wall.html",
+      "sha256": "26e125179c2526c4095dc8d72ca66dc8015e261cd2d8d7461edb06c3ba3cf950",
+      "source_lines": "50\u2013101",
+      "operator_status": {
+        "status": "confirmed",
+        "by": "operator",
+        "at": "20260712-140839",
+        "notes": null
+      },
+      "later_atomicity": {
+        "name": "cafe-wall",
+        "audit_status": "pass",
+        "reason": "2 sliders, no buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      "candidate_role": "Field",
+      "decision": "priority",
+      "invariant": "Horizontal row boundaries remain straight and parallel; alternating dark/light tiles and intermediate gray mortar create context.",
+      "adjustable_controls": "Offset 0\u201350% of 88px tile, Home 50%; mortar 0\u201314px, Home 7. Tile row height 60; grayscale 20/235/128.",
+      "notes": "Alignment and zero-mortar endpoints are proof states, not failed renders. Do not animate actual row tilt.",
+      "corpus_object": "/Users/donovan/work/memory lattice/0/corpus/records/object.cafe-wall-illusion.f0.20260706-080000.md",
+      "corpus_record_sha256": "f5d42e99e9b14cffe537ee02805c168ef6abd0df93d699243831791a0d249306",
+      "corpus_source_records": {
+        "source.gregory-heard-1979": [
+          "/Users/donovan/work/memory lattice/0/corpus/records/source.gregory-heard-1979.f0.20260711-150832.md"
+        ]
+      },
+      "trace_strength": "Named concept and mechanism/formula match plus local toy audit; not an embedded source identifier or proof of build ancestry."
+    },
+    {
+      "name": "fraser-spiral",
+      "toy_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/fraser-spiral.html",
+      "mirror_path": "/Users/donovan/work/toys/fraser-spiral.html",
+      "sha256": "092373cde8536af5f1b5c1a8a986d27965f23eae5c90b30189d3ffc6da4c75ca",
+      "source_lines": "54\u2013112",
+      "operator_status": {
+        "status": "confirmed",
+        "by": "operator",
+        "at": "20260712-144833",
+        "notes": null
+      },
+      "later_atomicity": {
+        "name": "fraser-spiral",
+        "audit_status": "pass",
+        "reason": "2 sliders, no buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      "candidate_role": "Figure with contained checkerboard",
+      "decision": "priority",
+      "invariant": "Bar centers lie on five separate closed circles of radii 70/120/170/220/270; never replace them with a spiral path.",
+      "adjustable_controls": "Twist 0\u2013100 maps to 0\u201345\u00b0 off tangent; trace 0\u2013100 controls opacity of a dashed true circle at radius 220.",
+      "notes": "Keep checkerboard contextual ground (42px cells), two-tone 26\u00d79 bars and proof circle. Normalized modulation may alter tilt but must not move bar centers off circles.",
+      "corpus_object": "/Users/donovan/work/memory lattice/0/corpus/records/object.fraser-spiral-illusion.f0.20260706-080000.md",
+      "corpus_record_sha256": "f0db4873910837dad9048f34c0aa8e0d81d6d97844563f7da8608440aed00c85",
+      "corpus_source_records": {
+        "source.fraser-1908": [
+          "/Users/donovan/work/memory lattice/0/corpus/records/source.fraser-1908.f0.20260707-140933.md"
+        ]
+      },
+      "trace_strength": "Named concept and mechanism/formula match plus local toy audit; not an embedded source identifier or proof of build ancestry."
+    },
+    {
+      "name": "hering",
+      "toy_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/hering.html",
+      "mirror_path": "/Users/donovan/work/toys/hering.html",
+      "sha256": "4b00941c8299400a8b4fc90421e959c9477a13f8772b54da78fc7abf721ae718",
+      "source_lines": "41\u201346, 67\u201394",
+      "operator_status": {
+        "status": "confirmed",
+        "by": "operator",
+        "at": "",
+        "notes": null
+      },
+      "later_atomicity": {
+        "name": "hering",
+        "audit_status": "pass",
+        "reason": "2 sliders, no buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      "candidate_role": "Field (radiating context)",
+      "decision": "priority",
+      "invariant": "The two test lines stay exactly straight and parallel; only the fan context changes.",
+      "adjustable_controls": "Fan line count 12\u2013180, Home 120; fan opacity 0\u20131, Home 1.",
+      "notes": "Fan extends beyond frame in the toy. For a Figure adaptation, contain the complete stimulus panel; do not crop away required context or curve the target lines.",
+      "corpus_object": "/Users/donovan/work/memory lattice/0/corpus/records/object.hering-illusion.f0.20260706-080000.md",
+      "corpus_record_sha256": "eee4f8175ee8d26148d188f53c10a052f3b92e35efd8684ccf09b6cd87241a36",
+      "corpus_source_records": {
+        "source.hering-1861": [
+          "/Users/donovan/work/memory lattice/0/corpus/records/source.hering-1861.f0.20260706-101717.md"
+        ]
+      },
+      "trace_strength": "Named concept and mechanism/formula match plus local toy audit; not an embedded source identifier or proof of build ancestry."
+    },
+    {
+      "name": "rotating-snakes",
+      "toy_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/rotating-snakes.html",
+      "mirror_path": "/Users/donovan/work/toys/rotating-snakes.html",
+      "sha256": "1a6a5ae8ef4e856f8b23216ac74a5081c25ecffe12ab9f48dd6b7e61ec21f413",
+      "source_lines": "50\u201394",
+      "operator_status": {
+        "status": "confirmed",
+        "by": "operator",
+        "at": "20260712-145040",
+        "notes": null
+      },
+      "later_atomicity": {
+        "name": "rotating-snakes",
+        "audit_status": "pass",
+        "reason": "2 sliders, no buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      "candidate_role": "Figure",
+      "decision": "review source invariant before port",
+      "invariant": "The stimulus is physically stationary; perceived motion arises from asymmetric luminance ordering, not actual texture rotation.",
+      "adjustable_controls": "Asymmetry 0\u20131 blends [18,242,18,242] toward [18,92,242,168]; fixation control is a boolean at >0.5.",
+      "notes": "Source comment at 75 claims alternate rings drift opposite, but (i+2)%4 is a cyclic phase shift, not reversal. M=round((ri+ro)*.16) gives 26,40,54,68 segments; two rings truncate the 4-step sequence at the seam. Preserve and flag actual construction; do not silently claim verified opposite drift.",
+      "corpus_object": "/Users/donovan/work/memory lattice/0/corpus/records/object.rotating-snakes-illusion.f0.20260706-080000.md",
+      "corpus_record_sha256": "af9363163e96f05a40411ce372fc4838aa69c1c333919a284b5e1295969b73ac",
+      "corpus_source_records": {
+        "source.kitaoka-ashida-2003": [
+          "/Users/donovan/work/memory lattice/0/corpus/records/source.kitaoka-ashida-2003.f0.20260712-023016.md"
+        ]
+      },
+      "trace_strength": "Named concept and mechanism/formula match plus local toy audit; not an embedded source identifier or proof of build ancestry."
+    },
+    {
+      "name": "anorthoscope",
+      "toy_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/anorthoscope.html",
+      "mirror_path": "/Users/donovan/work/toys/anorthoscope.html",
+      "sha256": "fae5b417d1570e2482a2827423e98ff0deac1c944eb62b523816c6f73e89c218",
+      "source_lines": "51\u2013103",
+      "operator_status": {
+        "status": "confirmed",
+        "by": "operator",
+        "at": "20260712-140703",
+        "notes": null
+      },
+      "later_atomicity": {
+        "name": "anorthoscope",
+        "audit_status": "pass",
+        "reason": "2 sliders, one illusion+proof",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      "candidate_role": "Figure",
+      "decision": "candidate with explicit adaptation limits",
+      "invariant": "A fixed vertical slit reveals a moving fixed-shape five-point star; image integration is temporal.",
+      "adjustable_controls": "Slit width 6\u2013300px, Home 16; ghost 0\u20131 maps to 0\u20130.5 opacity of a stationary outline. Star radii 88/38.",
+      "notes": "Travel x=320\u221288+(timestamp_ms*.10 mod 176) resets every 1760ms; reset can be visible at wide slit. Corpus describes a rotating-disc apparatus; this HTML is a translating-star study, not an exact historical apparatus.",
+      "corpus_object": "/Users/donovan/work/memory lattice/0/corpus/records/object.anorthoscope.f0.20260706-080000.md",
+      "corpus_record_sha256": "ae7137e590165311bee2a5f4cfe5f00bdd027371349444cf7ad2436ae7ea45e9",
+      "corpus_source_records": {
+        "source.plateau-1836": [
+          "/Users/donovan/work/memory lattice/0/corpus/records/source.plateau-1836.f0.20260711-140124.md"
+        ]
+      },
+      "trace_strength": "Named concept and mechanism/formula match plus local toy audit; not an embedded source identifier or proof of build ancestry."
+    },
+    {
+      "name": "apparent-motion",
+      "toy_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/apparent-motion.html",
+      "mirror_path": "/Users/donovan/work/toys/apparent-motion.html",
+      "sha256": "45ea8ebd66e3c5b7df1de827963296bccc573cf83d1700e58618c1c160388dc2",
+      "source_lines": "51\u201387",
+      "operator_status": {
+        "status": "confirmed",
+        "by": "operator",
+        "at": "20260712-140708",
+        "notes": null
+      },
+      "later_atomicity": {
+        "name": "apparent-motion",
+        "audit_status": "pass",
+        "reason": "2 sliders, no buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      "candidate_role": "Figure",
+      "decision": "timing-sensitive candidate",
+      "invariant": "Two fixed dot centers (210,175),(410,175), radius30. They alternate visibility, never interpolate position.",
+      "adjustable_controls": "Rate 0\u20131 maps to full-cycle duration 1500\u22121280*rate ms; Home .8 yields 476ms. Both >.5 reveals both dots.",
+      "notes": "The Smart Param clock must determine event phase without physically sliding dots. Frame timing and perception need later render/audition validation.",
+      "corpus_object": "/Users/donovan/work/memory lattice/0/corpus/records/object.apparent-motion.f0.20260706-080000.md",
+      "corpus_record_sha256": "37795f9f2d98ae01acc5e1d89284e5fcedfd9cb4609246c06d8fc74740c86aca",
+      "corpus_source_records": {
+        "source.wertheimer-1912": [
+          "/Users/donovan/work/memory lattice/0/corpus/records/source.wertheimer-1912.f0.20260706-103537.md"
+        ]
+      },
+      "trace_strength": "Named concept and mechanism/formula match plus local toy audit; not an embedded source identifier or proof of build ancestry."
+    },
+    {
+      "name": "line-motion",
+      "toy_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/line-motion.html",
+      "mirror_path": "/Users/donovan/work/toys/line-motion.html",
+      "sha256": "46617579e1428d72ac1ef0a184bc08930b5fb918fdf7f68d38799d5ac6b7f4f3",
+      "source_lines": "51\u201395",
+      "operator_status": {
+        "status": "confirmed",
+        "by": "operator",
+        "at": "20260712-144941",
+        "notes": null
+      },
+      "later_atomicity": {
+        "name": "line-motion",
+        "audit_status": "pass",
+        "reason": "2 sliders, no buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      "candidate_role": "Figure",
+      "decision": "timing-sensitive; corpus citation conflict",
+      "invariant": "Cue precedes the whole line appearing at once. Never animate a growing line to simulate the effect.",
+      "adjustable_controls": "Cue opacity 0\u20131, Home1; side switches left/right at .5. Fixed cycle1150ms: cue140ms, line720ms, blank290ms.",
+      "notes": "Object source list is empty. Keeper report flags attribution conflict (Neumann/Klotz vs Hikosaka); do not repeat attribution as verified. Timing ratios are source invariants until an explicitly reviewed adaptation changes them.",
+      "corpus_object": "/Users/donovan/work/memory lattice/0/corpus/records/object.line-motion-illusion.f0.20260706-080000.md",
+      "corpus_record_sha256": "718bd14ed72673e1e2b75322eb59e527d77e4a84418cc0ed2ede2a2577c7f723",
+      "corpus_source_records": {},
+      "trace_strength": "Named concept and mechanism/formula match plus local toy audit; not an embedded source identifier or proof of build ancestry."
+    },
+    {
+      "name": "epicycles",
+      "toy_path": "/Users/donovan/work/0000000/mind not map/1.presence-minds-awareness/12.thought-grasps-sense/122.creativity-carries-potential/toys/epicycles.html",
+      "mirror_path": "/Users/donovan/work/toys/epicycles.html",
+      "sha256": "6a48e59d183b15e9e12b2f14a226a1bf8b92492f4f9a885177c3af9ff82978bd",
+      "source_lines": "75\u2013112, 218\u2013219",
+      "operator_status": {
+        "status": "confirmed",
+        "by": "operator",
+        "at": "20260712-142412",
+        "notes": null
+      },
+      "later_atomicity": {
+        "name": "epicycles",
+        "audit_status": "fail",
+        "reason": "1 slider + 6 buttons",
+        "ledger_statuses": [
+          "confirmed"
+        ]
+      },
+      "candidate_role": "Figure",
+      "decision": "defer: later atomicity audit fails",
+      "invariant": "Integer harmonic frequencies and target-specific Fourier coefficients determine the same endpoint and plotted sum; no arbitrary independent orbit amplitudes if claiming that reconstruction.",
+      "adjustable_controls": "Target square/saw/triangle; nonzero harmonic count1\u201312; phase sweep0\u20131; spin toggle. Coefficients are defined at lines78\u201380.",
+      "notes": "Toy has one slider plus six buttons; later keeper gate fails atomicity despite ledger confirmed. Corpus Fourier-series object is settled, but direct toy-to-record build provenance is not embedded; mapping follows the implemented formulas.",
+      "corpus_object": "/Users/donovan/work/memory lattice/0/corpus/records/object.fourier-series.f0.20260614-140356.md",
+      "corpus_record_sha256": "ddd0014b837296fd90ed2d064121e79fa90b4e8273db309482702eb35fccf678",
+      "corpus_source_records": {
+        "source.fourier-1822": [
+          "/Users/donovan/work/memory lattice/0/corpus/records/source.fourier-1822.f0.20260614-130345.md"
+        ],
+        "source.stein-shakarchi-2003": [
+          "/Users/donovan/work/memory lattice/0/corpus/records/source.stein-shakarchi-2003.f0.20260614-130345.md"
+        ],
+        "source.zygmund-1935": [
+          "/Users/donovan/work/memory lattice/0/corpus/records/source.zygmund-1935.f0.20260614-130345.md"
+        ]
+      },
+      "trace_strength": "Named concept and mechanism/formula match plus local toy audit; not an embedded source identifier or proof of build ancestry."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "XXsGRN",
+  "name": "quantum chaos",
+  "username": "thomThalas",
+  "description": ":)",
+  "tags": [
+    "3d",
+    "sdf",
+    "random",
+    "chaos",
+    "infinity"
+  ],
+  "date": "1707217992",
+  "viewed": 136,
+  "likes": 6,
+  "published": 1,
+  "renderpass": [
+    {
+      "type": "image",
+      "name": "Image",
+      "inputs": [],
+      "outputs": [
+        {
+          "id": "4dfGRr",
+          "channel": 0
+        }
+      ],
+      "code": "#define iRes iResolution\n\nfloat map(vec3 p)\n{\n    vec3 shapeSeed = round(p*2.);\n    float value = 9999999.;\n    \n    vec3 cube = p;\n    cube = fract(cube);\n    cube -= vec3(0.5, 0.5, 0.5);\n    \n    \n    //cube.yz *= rot2D(radians(45.));\n    //cube.xz *= rot2D(radians(45.));\n    cube.yz *= rot2D(iTime);\n    cube.xz *= rot2D(iTime);\n    \n    float rs = random(shapeSeed) * 3.;\n    if(rs < 1.)\n    {\n        value = sdBox(cube, vec3(0.15));\n    }else if(rs < 2.)\n    {\n        value = sdSphere(cube, 0.15);\n    }else if(rs < 3.)\n    {\n        value = sdBoxFrame(cube, vec3(0.15), 0.01);\n    }\n    \n    return value;\n}\n\n\n\nvoid mainImage( out vec4 fragColor, in vec2 coord )\n{\n    \n    vec2 uv = (coord - iRes.xy / 2.) / iRes.y;\n\n    vec3 color = vec3(0.);\n    \n    vec3 ro = vec3(iTime * 2., sin(iTime/1.)*0.25, -0.5);\n    vec3 rd = vec3(uv, 1.);\n    rd = normalize(rd);\n    \n    vec2 mouse = iMouse.xy / iRes.xy;\n    \n    float t = 0.;\n    float dist = 0.;\n    \n    for(int i = 0; i < /*min(int(float(iFrame) / 1.25),50)*/50; i++)\n    {\n        vec3 dir = rd * t;\n        \n        float wn = mix(\n            (sin(t/2.4)*0.5),\n            (tan(t/2.4)*0.5),\n            sin(iTime)\n        );\n        \n        dir += vec3(wn);\n        dist = map(ro + dir);\n        t += dist;\n        if(dist < 0.005)\n        {\n            break;\n        }\n        else if(dist > 1000.)\n        {\n            break;\n        }\n    }\n    \n    dist = pow(dist, 0.5) * t;\n    color = vec3(dist);\n    \n    \n    \n    fragColor = vec4(color,1.0);\n}"
+    },
+    {
+      "type": "common",
+      "name": "Common",
+      "inputs": [],
+      "outputs": [],
+      "code": "mat2 rot2D(float angle)\n{\n    float s = sin(angle);\n    float c = cos(angle);\n    return mat2(c, -s, s, c);\n}\n\nfloat sdBox(vec3 p, vec3 b)\n{\n  vec3 q = abs(p) - b;\n  return length(max(q,0.0)) + min(max(q.x,max(q.y,q.z)),0.0);\n}\n\nfloat sdSphere( vec3 p, float s )\n{\n  return length(p)-s;\n}\n\nfloat sdBoxFrame( vec3 p, vec3 b, float e )\n{\n       p = abs(p  )-b;\n  vec3 q = abs(p+e)-e;\n  return min(min(\n      length(max(vec3(p.x,q.y,q.z),0.0))+min(max(p.x,max(q.y,q.z)),0.0),\n      length(max(vec3(q.x,p.y,q.z),0.0))+min(max(q.x,max(p.y,q.z)),0.0)),\n      length(max(vec3(q.x,q.y,p.z),0.0))+min(max(q.x,max(q.y,p.z)),0.0));\n}\n\n\n//https://stackoverflow.com/questions/4200224/random-noise-functions-for-glsl\n// A single iteration of Bob Jenkins' One-At-A-Time hashing algorithm.\nuint hash( uint x ) {\n    x += ( x << 10u );\n    x ^= ( x >>  6u );\n    x += ( x <<  3u );\n    x ^= ( x >> 11u );\n    x += ( x << 15u );\n    return x;\n}\n\n\n\n// Compound versions of the hashing algorithm I whipped together.\nuint hash( uvec2 v ) { return hash( v.x ^ hash(v.y)                         ); }\nuint hash( uvec3 v ) { return hash( v.x ^ hash(v.y) ^ hash(v.z)             ); }\nuint hash( uvec4 v ) { return hash( v.x ^ hash(v.y) ^ hash(v.z) ^ hash(v.w) ); }\n\n\n\n// Construct a float with half-open range [0:1] using low 23 bits.\n// All zeroes yields 0.0, all ones yields the next smallest representable value below 1.0.\nfloat floatConstruct( uint m ) {\n    const uint ieeeMantissa = 0x007FFFFFu; // binary32 mantissa bitmask\n    const uint ieeeOne      = 0x3F800000u; // 1.0 in IEEE binary32\n\n    m &= ieeeMantissa;                     // Keep only mantissa bits (fractional part)\n    m |= ieeeOne;                          // Add fractional part to 1.0\n\n    float  f = uintBitsToFloat( m );       // Range [1:2]\n    return f - 1.0;                        // Range [0:1]\n}\n\n\n\n// Pseudo-random value in half-open range [0:1].\nfloat random( float x ) { return floatConstruct(hash(floatBitsToUint(x))); }\nfloat random( vec2  v ) { return floatConstruct(hash(floatBitsToUint(v))); }\nfloat random( vec3  v ) { return floatConstruct(hash(floatBitsToUint(v))); }\nfloat random( vec4  v ) { return floatConstruct(hash(floatBitsToUint(v))); }"
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "SchemaVersion": "1.1-ter",
+  "ArchetypeName": "Atropos",
+  "SystemOfOrigin": "GR",
+  "CulturalLineage": [
+    "Greek"
+  ],
+  "CommonAliases": [
+    "The Inflexible",
+    "The Inevitable",
+    "The Cutter",
+    "Fate of Death"
+  ],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "To cut the thread of life at death; to be the inevitable end that cannot be turned aside; to bring each destiny to completion.",
+    "PrimaryDomain": "Mythic / Fate",
+    "ToneOrPolarity": "Inevitable / Final",
+    "SymbolicCore": "The inexorable end, the shears that cut every thread, death personified through fate.",
+    "Correspondences": {
+      "Element": "Air",
+      "Planet": "Saturn",
+      "Chakra": "Crown",
+      "Color": "Black, Deep Purple",
+      "Animal": "Crow, Raven",
+      "Other": [
+        "Shears",
+        "Scissors",
+        "Cut Thread",
+        "Sundial",
+        "Hourglass"
+      ]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": [
+      "Death Fate",
+      "Thread Cutter",
+      "Inevitable End",
+      "Destiny Finisher"
+    ],
+    "ComplementaryArchetypes": [
+      "Clotho ([GR] Sister/Spinner)",
+      "Lachesis ([GR] Sister/Measurer)",
+      "Thanatos ([GR] Death)",
+      "Moirai ([GR] The Three Fates)"
+    ],
+    "ShadowForms": [
+      "Premature Death",
+      "Merciless End",
+      "Untimely Cutting"
+    ],
+    "DevelopmentalArc": [],
+    "CyclePhase": "Ending / Death"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": [
+      "Inevitable",
+      "Inflexible",
+      "Final",
+      "Impartial",
+      "Ancient",
+      "Inexorable"
+    ],
+    "Typologies": {
+      "MBTI": "INTJ",
+      "Enneagram": "1w9",
+      "Other": [
+        "Sage",
+        "Crone",
+        "Death"
+      ]
+    },
+    "SubVariants": [
+      "Thread Cutter",
+      "Inevitable Death",
+      "Final Fate"
+    ],
+    "InternalFamily": "Acceptance of Ending"
+  },
+  "CulturalContext": {
+    "Regions": [
+      "Greece"
+    ],
+    "MythicAppearances": [
+      "Hesiod's Theogony",
+      "Eldest of the Moirai",
+      "Sings of future/death",
+      "Even gods fear her shears"
+    ],
+    "ReligiousOrRitualUse": "Invoked at death; honored with sisters; represented the inescapable nature of mortality.",
+    "HistoricalEvolution": "Ancient death fate; merged with Roman Morta; symbol of inevitable mortality.",
+    "SyncreticForms": [
+      "Morta (Roman)",
+      "Norns.Skuld (Norse parallel)",
+      "Grim Reaper (partial)"
+    ]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "✂️",
+    "ImageryNotes": "Depicted as eldest, often smallest sister, holding shears or scissors to cut life's thread; most feared of the three.",
+    "ArtisticExamples": [
+      "Classical Three Fates sculptures",
+      "Death and fate paintings",
+      "Medieval mortality imagery"
+    ],
+    "PoeticInvocation": "Atropos the inflexible, whose shears cut every thread, inevitable as time itself.",
+    "DreamForm": "An ancient woman with shears approaching your thread, her cut absolute and final"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": [
+      "Tarot.Death",
+      "JU.Crone",
+      "JP12.Sage"
+    ],
+    "SemanticTags": [
+      "#fate",
+      "#death",
+      "#inevitability",
+      "#ending",
+      "#finality"
+    ],
+    "RitualFunction": "Invoked for acceptance of death, understanding of life's end, and honoring mortality.",
+    "AIPromptSeeds": [
+      "The fate whose shears cut every thread, inflexible and inevitable.",
+      "The eldest sister whose cut brings the final end to every story."
+    ],
+    "NarrativeHooks": [
+      "The inevitable death that approaches",
+      "Cannot escape fate's shears",
+      "The final cut that completes the pattern"
+    ]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [
+      {
+        "to": "Morta (Roman)",
+        "strength": "strong"
+      },
+      {
+        "to": "Tarot.Death",
+        "strength": "strong"
+      },
+      {
+        "to": "Norns.Skuld",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "FacetRegistry": [
+    {
+      "facet": "Thread Cutter",
+      "weight": 0.6
+    },
+    {
+      "facet": "Inevitable Death",
+      "weight": 0.3
+    },
+    {
+      "facet": "Inflexible Fate",
+      "weight": 0.1
+    }
+  ]
+}

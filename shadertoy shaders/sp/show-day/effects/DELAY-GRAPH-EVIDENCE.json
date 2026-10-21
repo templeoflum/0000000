@@ -1,0 +1,20 @@
+{
+  "source": "/Users/donovan/Documents/Resolume Wire/Patches/SP Delay Chain/SP Delay Chain.wire",
+  "sha256": "6d0780c8315e70b62442be812a6a2b429ca497a088c1c7dd819256da6a6de995",
+  "node_count": 678,
+  "delay_count": 496,
+  "acyclic": true,
+  "max_delay_nodes_to_texture_out": 496,
+  "delay_reset_connections": [],
+  "delay_clocks": {
+    "video": 496
+  },
+  "delay_time_types": {
+    "null": 496
+  },
+  "exposed_events": [
+    "\u26a1 Shuffle",
+    "\u2302 Home",
+    "\u03c6"
+  ]
+}

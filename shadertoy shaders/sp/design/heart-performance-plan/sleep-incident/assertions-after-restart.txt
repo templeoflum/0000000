@@ -1,0 +1,24 @@
+2026-09-07 15:58:11 -0500 
+Assertion status system-wide:
+   BackgroundTask                 0
+   ApplePushServiceTask           0
+   UserIsActive                   1
+   PreventUserIdleDisplaySleep    0
+   SoftwareUpdateTask             0
+   PreventSystemSleep             0
+   ExternalMedia                  0
+   PreventUserIdleSystemSleep     1
+   NetworkClientActive            0
+Listed by owning process:
+   pid 679(Arena): [0x0000002d000180b3] 00:03:03 PreventUserIdleSystemSleep named: "NDI real-time UDP sending"  
+   pid 413(WindowServer): [0x0000002c0009805f] 00:00:37 UserIsActive named: "com.apple.iohideventsystem.queue.tickle serviceID:100000fd4 service:AppleHIDKeyboardEventDriverV2 product:Apple Internal Keyboard / Trackpad eventType:3"  
+	Timeout will fire in 82 secs Action=TimeoutActionRelease
+   pid 1142(ChatGPT): [0x000000bf0001840d] 00:00:37 NoIdleSleepAssertion named: "Electron"  
+   pid 421(coreaudiod): [0x0000003300018291] 00:02:58 PreventUserIdleSystemSleep named: "com.apple.audio.AudioTap-521D3050-3C02-48B8-864E-318FC9851C69.context.preventuseridlesleep"  
+	Created for PID: 935. 
+	Resources: audio-in 05FC360C-BA41-48B5-BE14-83BBFDBA5C7E 
+   pid 421(coreaudiod): [0x0000002f000180c1] 00:03:01 PreventUserIdleSystemSleep named: "com.apple.audio.BuiltInSpeakerDevice.context.preventuseridlesleep"  
+	Created for PID: 679. 
+	Resources: audio-out BuiltInSpeakerDevice 
+   pid 354(powerd): [0x000000280001800b] 00:03:08 PreventUserIdleSystemSleep named: "Powerd - Prevent sleep while display is on"  
+No kernel assertions.

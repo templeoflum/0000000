@@ -1,0 +1,73 @@
+{
+  "passed": true,
+  "scan_home": {
+    "Count": 0.2,
+    "Duty": 0.25,
+    "Soft": 0.15
+  },
+  "grain": "Original Home restored; RGBA alpha contains correct grain, no shader changes",
+  "global_open_drives": [
+    [
+      3,
+      10,
+      "barWidth"
+    ],
+    [
+      3,
+      10,
+      "boltWidth"
+    ],
+    [
+      3,
+      10,
+      "pulsePhase"
+    ],
+    [
+      5,
+      9,
+      "Turn"
+    ],
+    [
+      5,
+      9,
+      "Outline"
+    ],
+    [
+      5,
+      9,
+      "Material"
+    ],
+    [
+      7,
+      8,
+      "Phase"
+    ],
+    [
+      7,
+      8,
+      "Duty"
+    ],
+    [
+      7,
+      8,
+      "Soft"
+    ],
+    [
+      8,
+      1,
+      "Amount"
+    ],
+    [
+      8,
+      1,
+      "Size"
+    ],
+    [
+      8,
+      1,
+      "Flicker"
+    ]
+  ],
+  "global_settle_drives_off": true,
+  "ready_figure": "L5C9 centered Figure2D"
+}

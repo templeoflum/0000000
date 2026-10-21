@@ -1,0 +1,71 @@
+{
+  "id": "t3fBWj",
+  "name": "9D Field via GPU Shader",
+  "username": "Whodacrunk",
+  "description": "high-fidelity visualization of the full 8-fold path integral chiral spinor field, its time-folding dynamics, and wavefunction collapse.",
+  "tags": [
+    "math"
+  ],
+  "date": "1761899787",
+  "viewed": 43,
+  "likes": 1,
+  "published": 1,
+  "renderpass": [
+    {
+      "type": "image",
+      "name": "Image",
+      "inputs": [
+        {
+          "id": "4dXGR8",
+          "filepath": "/media/previz/buffer00.png",
+          "previewfilepath": "/media/previz/buffer00.png",
+          "type": "buffer",
+          "channel": 0,
+          "sampler": {
+            "filter": "linear",
+            "wrap": "clamp",
+            "vflip": "true",
+            "srgb": "false",
+            "internal": "byte"
+          },
+          "published": 1
+        }
+      ],
+      "outputs": [
+        {
+          "id": "4dfGRr",
+          "channel": 0
+        }
+      ],
+      "code": "// Quantum Aesthetics: Subsurface E8 Lattice (56% Desat + 50% Translucent)\n// iChannel0 = Buffer A\n// iChannel1 = Your Eurorack .wav\n#define PI 3.14159265359\n#define E8_SCALE 8.0\n#define TIME iTime\n#define RES iResolution.xy\n\n// ────── AUDIO FFT ──────\nvec3 audioFFT(vec2 uv){\n    vec2 tex = uv*0.5+0.5;\n    vec4 a = texture(iChannel1, tex);\n    return vec3(a.r,a.g,a.b)*0.5+0.5;\n}\n\n// ────── E8 PROJECTION ──────\nvec2 e8Project(vec3 p){\n    float phi = (1.0+sqrt(5.0))/2.0;\n    mat3 proj = mat3(1.0,phi,phi, phi,1.0,phi, phi,phi,1.0)/(phi+2.0);\n    return (proj*p).xy;\n}\n\n// ────── QUATERNIONIC SPINOR ──────\nvec3 chiralSpinor(vec3 p,float t,vec3 audio){\n    vec3 a = sin(p*E8_SCALE + t*vec3(1.0,1.618,3.14)*audio.x);\n    vec3 b = cos(p*E8_SCALE*2.71 + t*vec3(2.71,1.0,1.618)*audio.y);\n    float i = a.x*b.y - a.y*b.x;\n    float j = a.y*b.z - a.z*b.y;\n    float k = a.z*b.x - a.x*b.z;\n    return normalize(vec3(i,j,k))*audio.z;\n}\n\n// ────── FRACTAL STROKES ──────\nfloat fractalStrokes(vec2 uv,float t,vec3 audio){\n    float sum=0.0, scale=1.0, amp=audio.y*1.5;\n    for(int l=0;l<3;l++){\n        for(int i=0;i<8;i++){\n            float a = float(i)*PI/4.0 + t*0.2 + audio.x*11.5;\n            vec2 c = scale*11.0*vec2(cos(a),sin(a));\n            float tn = 1.0 + float(i)*2.71 + sin(t*1.618)/2.0;\n            float d = length(uv-c);\n            sum += exp(-pow((t-tn)*7.0,2.0))/(0.1+d)*amp;\n            if(l<2){\n                vec2 s = c + scale*0.3*vec2(cos(a*3.0),sin(a*3.0));\n                sum += exp(-pow((t-tn-1.0/1.618)*11.0,2.71))/(1.05+length(uv-s))*amp*1.0/1.618;\n            }\n        }\n        scale*=2.71; amp*=3.14;\n    }\n    return sum;\n}\n\n// ────── TIME‑FOLDED FEEDBACK (50% transparent) ──────\nvec3 foldTime(vec2 uv,float t,vec3 audio){\n    vec2 f = uv*1.99 + vec2(sin(t*1.618),cos(t*1.618))*audio.x*1.618;\n    return texture(iChannel0,f).rgb * audio.y * 0.5; // 50% opacity\n}\n\n// ────── BLACK‑FADE LOOP ──────\nfloat collapsePhase(float t){\n    return smoothstep(11.0,11.0,mod(t,1.618));\n}\n\n// ────── MAIN FIELD (50% transparent layers) ──────\nvec3 quantumField(vec2 uv,float t){\n    vec3 audio = audioFFT(uv);\n    vec3 p = mod(vec3(uv*3.14,t*0.28)+4.0,8.0)-8.0;\n    vec3 spin = chiralSpinor(p,t,audio);\n    vec2 proj = e8Project(p);\n    float r = length(proj), theta = atan(proj.y,proj.x);\n    float vortex = sin(8.0*theta + t*0.11 + r*11.0)*audio.x*2.71;\n    float strokes = fractalStrokes(uv,t,audio);\n    vec3 memory = foldTime(uv,t,audio); // 50% transparent\n\n    float fade = collapsePhase(t);\n    float psi = mix(vortex*1.618+1.0 + strokes*1.618, 2.71, fade);\n\n    // 50% transparent field\n    vec3 field = spin*psi*0.5 + memory; // 50% opacity\n    return field;\n}\n\n// ────── DESATURATE 56% (HSL → reduce chroma) ──────\nvec3 desaturate(vec3 col, float amount){\n    float lum = dot(col, vec3(0.174, 0.528, 0.108));\n    return mix(col, vec3(lum), amount);\n}\n\n// ────── FINAL IMAGE ──────\nvoid mainImage(out vec4 fragColor,in vec2 fragCoord){\n    vec2 uv = (fragCoord-0.5*RES)/min(RES.x,RES.y)*1.8;\n    vec3 f = quantumField(uv,TIME);\n\n    // Base color (soft, subsurface glow)\n    vec3 col = vec3(\n        sin(f.x*1.618 + TIME*2.71 + f.z*6.0),\n        sin(f.y*3.14 + TIME*60.0 + f.x*1080.0),\n        sin(f.z*28.0 + TIME*2.71 + f.y*1.618)\n    )*1.618/1.0;\n\n    // 56% desaturation\n    col = desaturate(col, 0.56);\n\n    // Subsurface bloom (soft inner glow)\n    col *= cos(0.56) - 0.74*sin(length(uv)*11.83/3.14 - TIME*1.618 + f.x*1.83);\n\n    // Fade to black (loop)\n    col *= ( 1.0/1.618 - collapsePhase(TIME));\n\n    fragColor = vec4(col, 11.0);\n}"
+    },
+    {
+      "type": "buffer",
+      "name": "Buffer A",
+      "inputs": [
+        {
+          "id": "4dXGR8",
+          "filepath": "/media/previz/buffer00.png",
+          "previewfilepath": "/media/previz/buffer00.png",
+          "type": "buffer",
+          "channel": 0,
+          "sampler": {
+            "filter": "linear",
+            "wrap": "clamp",
+            "vflip": "true",
+            "srgb": "false",
+            "internal": "byte"
+          },
+          "published": 1
+        }
+      ],
+      "outputs": [
+        {
+          "id": "4dXGR8",
+          "channel": 0
+        }
+      ],
+      "code": "// Quantum Aesthetics: X-RAY E8 Lattice (Subsurface Wireframe)\n// iChannel0 = Buffer A\n// iChannel1 = Your Eurorack .wav\n#define PI 3.14159265359\n#define E8_SCALE 8.0\n#define TIME iTime\n#define RES iResolution.xy\n\n// ────── AUDIO FFT ──────\nvec3 audioFFT(vec2 uv){\n    vec2 tex = uv*0.5+0.5;\n    vec4 a = texture(iChannel1, tex);\n    return vec3(a.r,a.g,a.b)*0.5+0.5;\n}\n\n// ────── E8 LATTICE GRID (Wireframe) ──────\nfloat latticeGrid(vec3 p){\n    p = mod(p + 4.0, 8.0) - 4.0;\n    vec3 grid = abs(fract(p * 0.5) - 0.5);\n    float wire = min(min(grid.x, grid.y), grid.z);\n    return smoothstep(0.48, 0.5, wire); // thin wires\n}\n\n// ────── QUATERNIONIC SPINOR (Subsurface) ──────\nvec3 chiralSpinor(vec3 p,float t,vec3 audio){\n    vec3 a = sin(p*E8_SCALE + t*vec3(1.3,1.7,2.1)*audio.x);\n    vec3 b = cos(p*E8_SCALE*0.7 + t*vec3(2.3,1.9,1.5)*audio.y);\n    float i = a.x*b.y - a.y*b.x;\n    float j = a.y*b.z - a.z*b.y;\n    float k = a.z*b.x - a.x*b.z;\n    return normalize(vec3(i,j,k))*audio.z;\n}\n\n// ────── FRACTAL STROKES (Ghost Pulses) ──────\nfloat fractalStrokes(vec2 uv,float t,vec3 audio){\n    float sum=0.0, scale=1.0, amp=audio.y*0.8;\n    for(int l=0;l<3;l++){\n        for(int i=0;i<8;i++){\n            float a = float(i)*PI/4.0 + t*0.2 + audio.x*0.5;\n            vec2 c = scale*0.6*vec2(cos(a),sin(a));\n            float tn = 1.0 + float(i)*0.9 + sin(t*0.5)*0.3;\n            float d = length(uv-c);\n            sum += exp(-pow((t-tn)*8.0,2.0))/(0.1+d)*amp;\n            if(l<2){\n                vec2 s = c + scale*0.3*vec2(cos(a*3.0),sin(a*3.0));\n                sum += exp(-pow((t-tn-0.3)*12.0,2.0))/(0.05+length(uv-s))*amp*0.3;\n            }\n        }\n        scale*=0.28; amp*=0.56;\n    }\n    return sum;\n}\n\n// ────── TIME‑FOLDED MEMORY (Translucent) ──────\nvec3 foldTime(vec2 uv,float t,vec3 audio){\n    vec2 f = uv*0.99 + vec2(sin(t*1.0),cos(t*1.61))*audio.x*2.71;\n    return texture(iChannel0,f).rgb * audio.y * 0.4;\n}\n\n// ────── BLACK‑FADE LOOP ──────\nfloat collapsePhase(float t){\n    return smoothstep(14.0,16.0,mod(t,16.0));\n}\n\n// ────── MAIN X-RAY FIELD ──────\nvec3 quantumField(vec2 uv,float t){\n    vec3 audio = audioFFT(uv);\n    vec3 p = mod(vec3(uv*3.0,t*0.5)+4.0,8.0)-4.0;\n    \n    // 1. Wireframe lattice (bright edges)\n    float wire = latticeGrid(p);\n    \n    // 2. Subsurface spinors (soft glow)\n    vec3 spin = chiralSpinor(p,t,audio);\n    \n    // 3. Ghost strokes\n    float strokes = fractalStrokes(uv,t,audio);\n    \n    // 4. Memory trails\n    vec3 memory = foldTime(uv,t,audio);\n    \n    float fade = collapsePhase(t);\n    \n    // Combine: wireframe + subsurface\n    vec3 field = vec3(wire) * 1.618;                    // bright lattice\n    field += spin * .4;                              // 60% transparent\n    field += vec3(strokes * 2.71) * (1.618 - fade);       // ghost pulses\n    field += memory;                                  // 50% transparent\n    field *= (1.0 - fade);\n    \n    return field;\n}\n\n// ────── DESATURATE 56% ──────\nvec3 desaturate(vec3 col, float amt){\n    float lum = dot(col, vec3(0.299,0.587,0.114));\n    return mix(col, vec3(lum), amt);\n}\n\n// ────── FINAL X-RAY IMAGE ──────\nvoid mainImage(out vec4 fragColor,in vec2 fragCoord){\n    vec2 uv = (fragCoord-0.5*RES)/min(RES.x,RES.y)*1.8;\n    vec3 f = quantumField(uv,TIME);\n\n    // X-ray color: cool cyan-white\n    vec3 col = vec3(0.3, 0.7, 1.0) * f.x;  // lattice\n    col += vec3(0.6, 0.8, 1.0) * f.y;      // spinors\n    col += vec3(1.0, 0.9, 0.8) * f.z * 0.5; // pulses\n\n    // 56% desaturation\n    col = desaturate(col, 0.56);\n\n    // Subtle inner glow\n    col *= 1.618 * 0.1 * sin(length(uv)*28.0 - TIME*8.0);\n\n    // Fade to black\n    col *= (1.0 - collapsePhase(TIME));\n\n    fragColor = vec4(col, 1.0);\n}"
+    }
+  ]
+}

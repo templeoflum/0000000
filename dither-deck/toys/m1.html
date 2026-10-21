@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>◐</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{height:100%;overflow:hidden;overscroll-behavior:none;background:#0e0d12}
+#app{height:100vh;height:100dvh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:26px}
+#scene{width:min(80vw,340px);aspect-ratio:1;background:#fff;border-radius:3px}
+#rail{width:min(86vw,420px);height:auto;touch-action:none;cursor:pointer}
+</style>
+</head>
+<body>
+<div id="app">
+  <canvas id="scene"></canvas>
+  <svg id="rail" viewBox="0 0 420 56" aria-label="the knob">
+    <line x1="30" y1="28" x2="390" y2="28" stroke="#26242f" stroke-width="2" stroke-linecap="round"/>
+    <circle id="knob" cx="30" cy="28" r="13" fill="#0e0d12" stroke="#93a4c2" stroke-width="2"/>
+    <circle id="knobcore" cx="30" cy="28" r="4" fill="#93a4c2"/>
+  </svg>
+</div>
+<script>
+const clamp=(v,a,b)=>v<a?a:v>b?b:v;
+function hash2(ix,iy,seed){let h=(ix*374761393+iy*668265263+seed*1442695040)|0;h=(h^(h>>>13))|0;h=Math.imul(h,1274126177);h=(h^(h>>>16))>>>0;return h/4294967296;}
+const scene=document.getElementById("scene");
+let S=680;
+(function(){
+  const dpr=window.devicePixelRatio||1;
+  const w=scene.getBoundingClientRect().width;
+  if(w>50){ S=Math.max(256,Math.min(1024,Math.round(w*dpr))); scene.style.width=(S/dpr)+"px"; }
+})();
+scene.width=S;scene.height=S;
+const RS=S/340;
+const ctx=scene.getContext("2d");
+let k=0;
+/* ── MOLECULE v3, bond of studies 04 and 05.
+   a fixed tone ramp rendered by a screen whose fineness changes by COALESCENCE
+   on a fixed ancestor tree (study 04's certified in-place travel — no rescale).
+   marks carry tone by size (04's law) and die under a fixed floor (05's law). ── */
+const SIGMA=2.6*RS;                       // the fixed floor
+const LMAX=3, BASE=5.2*RS;
+const CELLS=[];
+for(let L=0;L<=LMAX;L++)CELLS.push(BASE*Math.pow(2,L));
+function anchor(gx,gy,L){const d=CELLS[L];
+  return[(gx+0.5)*d+(hash2(gx,gy,3+L)-0.5)*d*0.5,(gy+0.5)*d+(hash2(gx,gy,9+L)-0.5)*d*0.5];}
+function jit(gx,gy,L){return 0.8+0.4*hash2(gx,gy,77+L);}
+const DOTS=[];
+(function(){
+  const n0=Math.ceil(S/BASE);
+  for(let gy=0;gy<n0;gy++)for(let gx=0;gx<n0;gx++){
+    const pos=[],jj=[];
+    for(let L=0;L<=LMAX;L++){pos.push(anchor(gx>>L,gy>>L,L));jj.push(jit(gx>>L,gy>>L,L));}
+    DOTS.push({p:pos,jv:jj});
+  }
+})();
+function darkAt(x,y){                      // the unchanging content: a diagonal ramp
+  return clamp(0.06+0.9*((x+y)/(2*S)),0,1);
+}
+function apply(){
+  const t=k*LMAX;
+  const L=Math.min(LMAX-1,Math.floor(t)), f=t-L;
+  const d=BASE*Math.pow(2,t);              // effective pitch, reached by merging
+  ctx.fillStyle="#fff";ctx.fillRect(0,0,S,S);
+  ctx.fillStyle="#000";
+  for(const ch of DOTS){
+    const a=ch.p[L], b=ch.p[L+1];
+    const x=a[0]+(b[0]-a[0])*f, y=a[1]+(b[1]-a[1])*f;
+    const j=ch.jv[L]+(ch.jv[L+1]-ch.jv[L])*f;
+    const r=d*Math.sqrt(darkAt(x,y)/Math.PI)*j;   // size carries tone
+    if(r<=SIGMA)continue;                  // the floor is not negotiable
+    ctx.beginPath();ctx.arc(x,y,Math.min(r,d*0.62),0,7);ctx.fill();
+  }
+  /* fidelity: realized tone vs intended tone, band by band across the ramp */
+  const img=ctx.getImageData(0,0,S,S).data;
+  const BANDS=12;let err=0;
+  for(let b=0;b<BANDS;b++){
+    let black=0,count=0,want=0;
+    for(let y=Math.floor(S*b/BANDS);y<Math.floor(S*(b+1)/BANDS);y+=4){
+      for(let x=0;x<S;x+=4){black+=img[(y*S+x)*4]?0:1;count++;want+=darkAt(x,y);}
+    }
+    err+=Math.abs(black/count-want/count);
+  }
+  err/=BANDS;
+  const fid=clamp(1-err*3.6,0,1);
+  /* the fifth swells at the sweet spot and recedes toward both flanks */
+}
+apply();
+ 
+const rail=document.getElementById("rail");
+const knob=document.getElementById("knob");
+const knobcore=document.getElementById("knobcore");
+let dragging=false;
+function set(clientX){
+  const r=rail.getBoundingClientRect();
+  k=Math.min(1,Math.max(0,(clientX-r.left-r.width*30/420)/(r.width*360/420)));
+  apply();
+  const x=30+360*k;
+  knob.setAttribute("cx",x); knobcore.setAttribute("cx",x);
+}
+function start(e){dragging=true;move(e);}
+function move(e){
+  if(!dragging)return;
+  set(e.touches?e.touches[0].clientX:e.clientX);
+  if(e.cancelable)e.preventDefault();
+}
+rail.addEventListener("mousedown",start);
+rail.addEventListener("touchstart",start,{passive:false});
+window.addEventListener("mousemove",move);
+window.addEventListener("touchmove",move,{passive:false});
+window.addEventListener("mouseup",()=>dragging=false);
+window.addEventListener("touchend",()=>dragging=false);
+document.addEventListener("touchmove",e=>{if(dragging)e.preventDefault();},{passive:false});
+ 
+(function(){
+  const rail=document.getElementById("rail");
+  function n2c(t){const r=rail.getBoundingClientRect();return r.left+r.width*(30+360*Math.min(1,Math.max(0,t)))/420;}
+  window.atom={name:"M1",
+    set:function(t){set(n2c(t));},
+    get:function(){const x=parseFloat(document.getElementById("knob").getAttribute("cx"));return (x-30)/360;}};
+  const q=new URLSearchParams(location.search).get("k");
+  if(q!==null) setTimeout(function(){window.atom.set(parseFloat(q));},80);
+  window.addEventListener("message",function(e){if(e.data&&typeof e.data.atomSet==="number")window.atom.set(e.data.atomSet);});
+  let lx=null;
+  setInterval(function(){
+    const x=parseFloat(document.getElementById("knob").getAttribute("cx"));
+    if(x!==lx){lx=x;try{if(parent!==window)parent.postMessage({atomChange:{name:window.atom.name,k:(x-30)/360}},"*");}catch(err){}}
+  },150);
+})();
+</script>
+</body>
+</html>
+ 

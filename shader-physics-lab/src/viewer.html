@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shader Physics Lab - Viewer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <div id="info">
+            <h1>Shader Physics Lab</h1>
+            <div id="shader-name">No shader loaded</div>
+            <div id="shader-tags"></div>
+        </div>
+        <canvas id="canvas"></canvas>
+    </div>
+
+    <!-- dat.GUI for controls -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.9/dat.gui.min.js"></script>
+    
+    <script>
+        // WebGL shader viewer with dynamic uniform controls
+        
+        let gl, program, gui;
+        let uniforms = {};
+        let startTime = Date.now();
+        let currentShader = null;
+        
+        // Parse shader name from URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const shaderName = urlParams.get('shader');
+        
+        function initWebGL() {
+            const canvas = document.getElementById('canvas');
+            gl = canvas.getContext('webgl2') || canvas.getContext('webgl');
+            
+            if (!gl) {
+                alert('WebGL not supported');
+                return false;
+            }
+            
+            // Set canvas size
+            canvas.width = 1024;
+            canvas.height = 1024;
+            gl.viewport(0, 0, canvas.width, canvas.height);
+            
+            return true;
+        }
+        
+        function compileShader(source, type) {
+            const shader = gl.createShader(type);
+            gl.shaderSource(shader, source);
+            gl.compileShader(shader);
+            
+            if (!gl.getShaderParameter(shader, gl.COMPILE_STATUS)) {
+                console.error('Shader compile error:', gl.getShaderInfoLog(shader));
+                return null;
+            }
+            
+            return shader;
+        }
+        
+        function createProgram(vertexSource, fragmentSource) {
+            const vertexShader = compileShader(vertexSource, gl.VERTEX_SHADER);
+            const fragmentShader = compileShader(fragmentSource, gl.FRAGMENT_SHADER);
+            
+            if (!vertexShader || !fragmentShader) return null;
+            
+            const program = gl.createProgram();
+            gl.attachShader(program, vertexShader);
+            gl.attachShader(program, fragmentShader);
+            gl.linkProgram(program);
+            
+            if (!gl.getProgramParameter(program, gl.LINK_STATUS)) {
+                console.error('Program link error:', gl.getProgramInfoLog(program));
+                return null;
+            }
+            
+            return program;
+        }
+        
+        function setupQuad() {
+            const positions = new Float32Array([
+                -1, -1,
+                 1, -1,
+                -1,  1,
+                 1,  1
+            ]);
+            
+            const buffer = gl.createBuffer();
+            gl.bindBuffer(gl.ARRAY_BUFFER, buffer);
+            gl.bufferData(gl.ARRAY_BUFFER, positions, gl.STATIC_DRAW);
+            
+            const positionLocation = gl.getAttribLocation(program, 'a_position');
+            gl.enableVertexAttribArray(positionLocation);
+            gl.vertexAttribPointer(positionLocation, 2, gl.FLOAT, false, 0, 0);
+        }
+        
+        function createGUI(metadata) {
+            // Remove old GUI if exists
+            if (gui) gui.destroy();
+            
+            gui = new dat.GUI();
+            uniforms.controls = {};
+            
+            // Create controls for each uniform
+            for (const [name, params] of Object.entries(metadata.uniforms)) {
+                uniforms.controls[name] = params.default;
+                
+                const controller = gui.add(
+                    uniforms.controls,
+                    name,
+                    params.min,
+                    params.max
+                ).name(name.replace(/_/g, ' '));
+                
+                // Update uniform when changed
+                controller.onChange(value => {
+                    const location = gl.getUniformLocation(program, name);
+                    if (location) {
+                        gl.uniform1f(location, value);
+                    }
+                });
+            }
+            
+            // Add reset button
+            gui.add({
+                reset: () => {
+                    for (const [name, params] of Object.entries(metadata.uniforms)) {
+                        uniforms.controls[name] = params.default;
+                        gui.__controllers.forEach(c => {
+                            if (c.property === name) c.updateDisplay();
+                        });
+                    }
+                }
+            }, 'reset');
+        }
+        
+        function loadShader(name) {
+            Promise.all([
+                fetch(`../shaders/${name}.glsl`).then(r => r.text()),
+                fetch(`../shaders/${name}.json`).then(r => r.json())
+            ]).then(([glslCode, metadata]) => {
+                currentShader = { glslCode, metadata };
+                
+                // Update info display
+                document.getElementById('shader-name').textContent = metadata.name;
+                document.getElementById('shader-tags').textContent = 
+                    'Tags: ' + metadata.tags.join(', ');
+                
+                // Vertex shader (standard fullscreen quad)
+                const vertexShader = `
+                    attribute vec2 a_position;
+                    void main() {
+                        gl_Position = vec4(a_position, 0.0, 1.0);
+                    }
+                `;
+                
+                // Create program with loaded fragment shader
+                program = createProgram(vertexShader, glslCode);
+                if (!program) {
+                    console.error('Failed to create shader program');
+                    return;
+                }
+                
+                gl.useProgram(program);
+                setupQuad();
+                
+                // Setup built-in uniforms
+                uniforms.time = gl.getUniformLocation(program, 'u_time');
+                uniforms.resolution = gl.getUniformLocation(program, 'u_resolution');
+                
+                // Set resolution
+                if (uniforms.resolution) {
+                    gl.uniform2f(uniforms.resolution, gl.canvas.width, gl.canvas.height);
+                }
+                
+                // Create GUI for user-defined uniforms
+                createGUI(metadata);
+                
+                // Initialize uniform values
+                for (const [name, params] of Object.entries(metadata.uniforms)) {
+                    const location = gl.getUniformLocation(program, name);
+                    if (location) {
+                        gl.uniform1f(location, params.default);
+                    }
+                }
+                
+                // Start render loop
+                startTime = Date.now();
+                render();
+                
+            }).catch(err => {
+                console.error('Failed to load shader:', err);
+                document.getElementById('shader-name').textContent = 
+                    'Error loading shader: ' + name;
+            });
+        }
+        
+        function render() {
+            // Update time uniform
+            const time = (Date.now() - startTime) / 1000.0;
+            if (uniforms.time) {
+                gl.uniform1f(uniforms.time, time);
+            }
+            
+            // Update custom uniforms from GUI
+            for (const [name, value] of Object.entries(uniforms.controls)) {
+                const location = gl.getUniformLocation(program, name);
+                if (location) {
+                    gl.uniform1f(location, value);
+                }
+            }
+            
+            // Render fullscreen quad
+            gl.clearColor(0, 0, 0, 1);
+            gl.clear(gl.COLOR_BUFFER_BIT);
+            gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
+            
+            requestAnimationFrame(render);
+        }
+        
+        // Initialize
+        if (initWebGL()) {
+            if (shaderName) {
+                loadShader(shaderName);
+            } else {
+                document.getElementById('shader-name').textContent = 
+                    'No shader specified. Use ?shader=name in URL';
+            }
+        }
+        
+        // Keyboard shortcuts
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'r' || e.key === 'R') {
+                // Reset time
+                startTime = Date.now();
+            }
+        });
+    </script>
+</body>
+</html>

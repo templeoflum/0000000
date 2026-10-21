@@ -1,0 +1,16 @@
+{
+  "problem": "Every clip inherited a shared feedback layer translation after its own effects.",
+  "layer_id": 1788149966516,
+  "parameter_id": 1789181912725,
+  "before": -1288.8353689261621,
+  "after": 0.0,
+  "reference_layer_transform": "Identity",
+  "native_phase_before": "static",
+  "verified": "Before/after native layer and composition images: left-cropped return before, centered accumulating feedback trails after.",
+  "limits": [
+    "Clip timeline correctness alone did not establish full signal-path correctness.",
+    "No clip timeline, output geometry, mask or MIDI assignment changed."
+  ],
+  "performer_confirmation": "Movement looks right again",
+  "confirmed_at": "2026-09-11T17:51:44.179931-05:00"
+}

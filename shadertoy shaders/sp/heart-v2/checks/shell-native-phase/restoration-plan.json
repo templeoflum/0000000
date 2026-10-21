@@ -1,0 +1,277 @@
+[
+  {
+    "cmd": "settings",
+    "target": "effect:1788150010310",
+    "amount": 1,
+    "rate": 1.0
+  },
+  {
+    "cmd": "relationship",
+    "target": "effect:1788150010310",
+    "seconds": 0,
+    "pattern": 18,
+    "spread": 1,
+    "seed": 0,
+    "fm": 0
+  },
+  {
+    "cmd": "range",
+    "id": 1789181914344,
+    "lo": 0,
+    "hi": 1
+  },
+  {
+    "cmd": "parameter_motion",
+    "id": 1789181914344,
+    "seconds": 0,
+    "ratio": "1:2",
+    "mult": 1.0,
+    "offset": 0.05159594826990421,
+    "shape": 1
+  },
+  {
+    "cmd": "parameter_lock",
+    "epoch": "1789151413656",
+    "id": 1789181914344,
+    "on": false
+  },
+  {
+    "cmd": "range",
+    "id": 1789181914345,
+    "lo": 0.1384,
+    "hi": 1
+  },
+  {
+    "cmd": "parameter_motion",
+    "id": 1789181914345,
+    "seconds": 0,
+    "ratio": "8:13",
+    "mult": 1.0,
+    "offset": 0.3005128040751661,
+    "shape": 1
+  },
+  {
+    "cmd": "parameter_lock",
+    "epoch": "1789151413656",
+    "id": 1789181914345,
+    "on": false
+  },
+  {
+    "cmd": "range",
+    "id": 1789181914347,
+    "lo": 0,
+    "hi": 1
+  },
+  {
+    "cmd": "parameter_motion",
+    "id": 1789181914347,
+    "seconds": 0,
+    "ratio": "1:1",
+    "mult": 1.0,
+    "offset": 0.6141547345580028,
+    "shape": 1
+  },
+  {
+    "cmd": "parameter_lock",
+    "epoch": "1789151413656",
+    "id": 1789181914347,
+    "on": false
+  },
+  {
+    "cmd": "range",
+    "id": 1789181914346,
+    "lo": 0.11720000000000001,
+    "hi": 1
+  },
+  {
+    "cmd": "parameter_motion",
+    "id": 1789181914346,
+    "seconds": 0,
+    "ratio": "2:3",
+    "mult": 1.0,
+    "offset": 0.09585994998098757,
+    "shape": 1
+  },
+  {
+    "cmd": "parameter_lock",
+    "epoch": "1789151413656",
+    "id": 1789181914346,
+    "on": false
+  },
+  {
+    "cmd": "range",
+    "id": 1789181914348,
+    "lo": 0,
+    "hi": 1
+  },
+  {
+    "cmd": "parameter_motion",
+    "id": 1789181914348,
+    "seconds": 0,
+    "ratio": "2:5",
+    "mult": 1.0,
+    "offset": 0.7776004737451349,
+    "shape": 1
+  },
+  {
+    "cmd": "parameter_lock",
+    "epoch": "1789151413656",
+    "id": 1789181914348,
+    "on": false
+  },
+  {
+    "cmd": "range",
+    "id": 1789181914349,
+    "lo": 0,
+    "hi": 1
+  },
+  {
+    "cmd": "parameter_motion",
+    "id": 1789181914349,
+    "seconds": 0,
+    "ratio": "4:5",
+    "mult": 1.0,
+    "offset": 0.29456157258732374,
+    "shape": 1
+  },
+  {
+    "cmd": "parameter_lock",
+    "epoch": "1789151413656",
+    "id": 1789181914349,
+    "on": false
+  },
+  {
+    "cmd": "range",
+    "id": 1789181914350,
+    "lo": 0,
+    "hi": 1
+  },
+  {
+    "cmd": "parameter_motion",
+    "id": 1789181914350,
+    "seconds": 0,
+    "ratio": "3:2",
+    "mult": 1.0,
+    "offset": 0.9995801088181892,
+    "shape": 1
+  },
+  {
+    "cmd": "parameter_lock",
+    "epoch": "1789151413656",
+    "id": 1789181914350,
+    "on": false
+  },
+  {
+    "cmd": "range",
+    "id": 1789181914352,
+    "lo": 0,
+    "hi": 1
+  },
+  {
+    "cmd": "parameter_motion",
+    "id": 1789181914352,
+    "seconds": 0,
+    "ratio": "1:3",
+    "mult": 1.0,
+    "offset": 0.16616611880298915,
+    "shape": 1
+  },
+  {
+    "cmd": "parameter_lock",
+    "epoch": "1789151413656",
+    "id": 1789181914352,
+    "on": false
+  },
+  {
+    "cmd": "range",
+    "id": 1789181914353,
+    "lo": 0,
+    "hi": 1
+  },
+  {
+    "cmd": "parameter_motion",
+    "id": 1789181914353,
+    "seconds": 0,
+    "ratio": "1:1",
+    "mult": 1.0,
+    "offset": 0.3818659539156958,
+    "shape": 1
+  },
+  {
+    "cmd": "parameter_lock",
+    "epoch": "1789151413656",
+    "id": 1789181914353,
+    "on": false
+  },
+  {
+    "cmd": "range",
+    "id": 1789181914355,
+    "lo": 0,
+    "hi": 1
+  },
+  {
+    "cmd": "parameter_motion",
+    "id": 1789181914355,
+    "seconds": 0,
+    "ratio": "3:2",
+    "mult": 1.0,
+    "offset": 0.9806888309132623,
+    "shape": 1
+  },
+  {
+    "cmd": "parameter_lock",
+    "epoch": "1789151413656",
+    "id": 1789181914355,
+    "on": false
+  },
+  {
+    "cmd": "drive",
+    "id": 1789181914344,
+    "on": true
+  },
+  {
+    "cmd": "drive",
+    "id": 1789181914345,
+    "on": true
+  },
+  {
+    "cmd": "drive",
+    "id": 1789181914347,
+    "on": true
+  },
+  {
+    "cmd": "drive",
+    "id": 1789181914346,
+    "on": true
+  },
+  {
+    "cmd": "drive",
+    "id": 1789181914348,
+    "on": true
+  },
+  {
+    "cmd": "drive",
+    "id": 1789181914349,
+    "on": true
+  },
+  {
+    "cmd": "drive",
+    "id": 1789181914350,
+    "on": true
+  },
+  {
+    "cmd": "drive",
+    "id": 1789181914352,
+    "on": true
+  },
+  {
+    "cmd": "drive",
+    "id": 1789181914353,
+    "on": true
+  },
+  {
+    "cmd": "drive",
+    "id": 1789181914355,
+    "on": true
+  }
+]

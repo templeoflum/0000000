@@ -1,0 +1,776 @@
+[
+  {
+    "layer": 3,
+    "col": 1,
+    "source": "SP Atom Ground",
+    "name": "ground",
+    "status": "pass",
+    "driven": [
+      "Tilt",
+      "Sway",
+      "Bob"
+    ],
+    "moving": [
+      "Tilt",
+      "Sway",
+      "Bob"
+    ],
+    "errors": {},
+    "slots": 19,
+    "source_numeric_not_slots": [],
+    "adaptation": "Standard Open",
+    "samples": [
+      {
+        "Tilt": 0.9812936991601875,
+        "Sway": 0.22822598874312106,
+        "Bob": -0.15754167998213475
+      },
+      {
+        "Tilt": 0.9737652429226276,
+        "Sway": 0.22438859508973596,
+        "Bob": -0.15287826210212607
+      },
+      {
+        "Tilt": 0.9662786749539464,
+        "Sway": 0.2200680231093977,
+        "Bob": -0.14826064921735993
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35
+  },
+  {
+    "layer": 3,
+    "col": 2,
+    "source": "SP Atom Room",
+    "name": "room",
+    "status": "pass",
+    "driven": [
+      "Tilt",
+      "Sway",
+      "Bob"
+    ],
+    "moving": [
+      "Tilt",
+      "Sway",
+      "Bob"
+    ],
+    "errors": {},
+    "slots": 25,
+    "source_numeric_not_slots": [],
+    "adaptation": "Standard Open",
+    "samples": [
+      {
+        "Tilt": 0.3438033636712181,
+        "Sway": -0.8142249945957702,
+        "Bob": -0.5310937593749385
+      },
+      {
+        "Tilt": 0.34658718764683005,
+        "Sway": -0.809435757030971,
+        "Bob": -0.5348954499999435
+      },
+      {
+        "Tilt": 0.35106821420799017,
+        "Sway": -0.8019487197545146,
+        "Bob": -0.541114968224987
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35
+  },
+  {
+    "layer": 3,
+    "col": 3,
+    "source": "SP Atom Void",
+    "name": "void",
+    "status": "error",
+    "error": "timed out"
+  },
+  {
+    "layer": 3,
+    "col": 4,
+    "source": "Heart Quaternion Field",
+    "name": "Heart Quaternion Field",
+    "status": "pass",
+    "driven": [
+      "Field Scale",
+      "Axis 1 Freq",
+      "Saturation"
+    ],
+    "moving": [
+      "Field Scale",
+      "Axis 1 Freq",
+      "Saturation"
+    ],
+    "errors": {},
+    "slots": 11,
+    "source_numeric_not_slots": [],
+    "adaptation": "Standard Open",
+    "samples": [
+      {
+        "Field Scale": 0.4381224820373973,
+        "Axis 1 Freq": 0.392816276943904,
+        "Saturation": 0.58625855391619
+      },
+      {
+        "Field Scale": 0.4456985406250169,
+        "Axis 1 Freq": 0.3814521890624746,
+        "Saturation": 0.5614743695754594
+      },
+      {
+        "Field Scale": 0.4532765039125479,
+        "Axis 1 Freq": 0.3700852441311781,
+        "Saturation": 0.5344611768721118
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35
+  },
+  {
+    "layer": 3,
+    "col": 5,
+    "source": "Heart Quaternion Swell",
+    "name": "Heart Quaternion Swell",
+    "status": "pass",
+    "driven": [
+      "Field Scale",
+      "Swell Threshold",
+      "Hue Shift"
+    ],
+    "moving": [
+      "Field Scale",
+      "Swell Threshold",
+      "Hue Shift"
+    ],
+    "errors": {},
+    "slots": 7,
+    "source_numeric_not_slots": [],
+    "adaptation": "Standard Open",
+    "samples": [
+      {
+        "Field Scale": 0.5621437688658478,
+        "Swell Threshold": 0.46841758267748024,
+        "Hue Shift": 0.1432608086517221
+      },
+      {
+        "Field Scale": 0.5747367914440493,
+        "Swell Threshold": 0.4503867461386388,
+        "Hue Shift": 0.14002770948728066
+      },
+      {
+        "Field Scale": 0.5875887268253024,
+        "Swell Threshold": 0.43090976153907834,
+        "Hue Shift": 0.13588557902558404
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35
+  },
+  {
+    "layer": 3,
+    "col": 6,
+    "source": "Heart Paper Fractal",
+    "name": "Heart Paper Fractal",
+    "status": "pass",
+    "driven": [
+      "foldOffset",
+      "foldDistA",
+      "foldDistB"
+    ],
+    "moving": [
+      "foldOffset",
+      "foldDistA",
+      "foldDistB"
+    ],
+    "errors": {},
+    "slots": 13,
+    "source_numeric_not_slots": [],
+    "adaptation": "Standard Open",
+    "samples": [
+      {
+        "foldOffset": 0.010760924542373686,
+        "foldDistA": 0.32201085429378506,
+        "foldDistB": 0.10665762142184576
+      },
+      {
+        "foldOffset": 0.003022602187229495,
+        "foldDistA": 0.3258396117186748,
+        "foldDistB": 0.10346699023443762
+      },
+      {
+        "foldOffset": 0.01595972248891485,
+        "foldDistA": 0.32943325624692077,
+        "foldDistB": 0.10047228646089934
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35
+  },
+  {
+    "layer": 3,
+    "col": 7,
+    "source": "Heart Vector Lattice",
+    "name": "Heart Vector Lattice",
+    "status": "pass",
+    "driven": [
+      "colorR",
+      "colorG",
+      "colorB"
+    ],
+    "moving": [
+      "colorR",
+      "colorG",
+      "colorB"
+    ],
+    "errors": {},
+    "slots": 6,
+    "source_numeric_not_slots": [],
+    "adaptation": "Standard Open",
+    "samples": [
+      {
+        "colorR": 0.4498152355062076,
+        "colorG": 0.4443261733997133,
+        "colorB": 0.6291901667052197
+      },
+      {
+        "colorR": 0.44147628730716454,
+        "colorG": 0.4870542030503202,
+        "colorB": 0.621534216882549
+      },
+      {
+        "colorR": 0.4325544614338163,
+        "colorG": 0.5340048967998883,
+        "colorB": 0.6119075391948012
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35
+  },
+  {
+    "layer": 3,
+    "col": 8,
+    "source": "SP Field",
+    "name": "SP Field",
+    "status": "error",
+    "error": "Command completion timed out: home"
+  },
+  {
+    "layer": 3,
+    "col": 9,
+    "source": "Heart Concentrip",
+    "name": "Heart Concentrip",
+    "status": "pass",
+    "driven": [
+      "blendWidth",
+      "phase",
+      "hue"
+    ],
+    "moving": [
+      "blendWidth",
+      "phase",
+      "hue"
+    ],
+    "errors": {},
+    "slots": 6,
+    "source_numeric_not_slots": [],
+    "adaptation": "Standard Open",
+    "samples": [
+      {
+        "blendWidth": 0.6080753840791101,
+        "phase": 0.6259124947692094,
+        "hue": 0.09748873760207442
+      },
+      {
+        "blendWidth": 0.6062681496884108,
+        "phase": 0.5662719196884214,
+        "hue": 0.0799443812592347
+      },
+      {
+        "blendWidth": 0.6042175548540649,
+        "phase": 0.5080956397453129,
+        "hue": 0.06255294311799349
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35
+  },
+  {
+    "layer": 3,
+    "col": 10,
+    "source": "Heart Puls Lattice",
+    "name": "Heart Puls Lattice",
+    "status": "pass",
+    "driven": [
+      "barWidth",
+      "boltWidth",
+      "pulsePhase"
+    ],
+    "moving": [
+      "barWidth",
+      "boltWidth",
+      "pulsePhase"
+    ],
+    "errors": {},
+    "slots": 7,
+    "source_numeric_not_slots": [],
+    "adaptation": "Standard Open",
+    "samples": [
+      {
+        "barWidth": 0.16783554818473753,
+        "boltWidth": 0.2644261287730515,
+        "pulsePhase": 0.6892297887602529
+      },
+      {
+        "barWidth": 0.16709195622169296,
+        "boltWidth": 0.2586005713318967,
+        "pulsePhase": 0.5965208240545696
+      },
+      {
+        "barWidth": 0.16608096081532658,
+        "boltWidth": 0.25277233250996284,
+        "pulsePhase": 0.4981656906194608
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35
+  },
+  {
+    "layer": 3,
+    "col": 11,
+    "source": "Heart Ancient Temple",
+    "name": "Heart Ancient Temple",
+    "status": "pass",
+    "driven": [
+      "morph",
+      "colorPalette",
+      "saturation"
+    ],
+    "moving": [
+      "morph",
+      "colorPalette",
+      "saturation"
+    ],
+    "errors": {},
+    "slots": 16,
+    "source_numeric_not_slots": [],
+    "adaptation": "Standard Open",
+    "samples": [
+      {
+        "morph": 0.03495019530135998,
+        "colorPalette": 0.019232148507983285,
+        "saturation": 0.9869679108633136
+      },
+      {
+        "morph": 0.024572095430079977,
+        "colorPalette": 0.024614673952058103,
+        "saturation": 0.9476876312503008
+      },
+      {
+        "morph": 0.01445283031272328,
+        "colorPalette": 0.032288305637992766,
+        "saturation": 0.8959889031253624
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35
+  },
+  {
+    "layer": 3,
+    "col": 12,
+    "source": "Heart Kali Liberation",
+    "name": "Heart Kali Liberation",
+    "status": "pass",
+    "driven": [
+      "morphing",
+      "colorPulse",
+      "colorPalette"
+    ],
+    "moving": [
+      "morphing",
+      "colorPulse",
+      "colorPalette"
+    ],
+    "errors": {},
+    "slots": 10,
+    "source_numeric_not_slots": [],
+    "adaptation": "Standard Open",
+    "samples": [
+      {
+        "morphing": 0.7444295000124839,
+        "colorPulse": 0.4918391055987978,
+        "colorPalette": 0.19167787499063704
+      },
+      {
+        "morphing": 0.7518864898563151,
+        "colorPulse": 0.4270597942200265,
+        "colorPalette": 0.1860851326077636
+      },
+      {
+        "morphing": 0.759606630475173,
+        "colorPulse": 0.3694165046349443,
+        "colorPalette": 0.18029502714362025
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35
+  },
+  {
+    "layer": 3,
+    "col": 13,
+    "source": "Heart Color Wheel",
+    "name": "Heart Color Wheel",
+    "status": "pass",
+    "driven": [
+      "Hue Rotation",
+      "Color Repeats",
+      "Saturation Contrast"
+    ],
+    "moving": [
+      "Hue Rotation",
+      "Color Repeats",
+      "Saturation Contrast"
+    ],
+    "errors": {},
+    "slots": 6,
+    "source_numeric_not_slots": [],
+    "adaptation": "Standard Open",
+    "samples": [
+      {
+        "Hue Rotation": 0.022781397036026708,
+        "Color Repeats": 3.462711676924118,
+        "Saturation Contrast": 1.2081925393706816
+      },
+      {
+        "Hue Rotation": 0.014775647561564492,
+        "Color Repeats": 2.92853895895596,
+        "Saturation Contrast": 1.141495388409217
+      },
+      {
+        "Hue Rotation": 0.008637781167656346,
+        "Color Repeats": 2.678257038706124,
+        "Saturation Contrast": 1.0782165124469496
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35
+  },
+  {
+    "layer": 3,
+    "col": 14,
+    "source": "Heart Barberpole Field",
+    "name": "Heart Barberpole Field",
+    "status": "error",
+    "error": "Command completion timed out: home"
+  },
+  {
+    "layer": 3,
+    "col": 15,
+    "source": "MTK_Worleyz",
+    "name": "FM \u00b7 MTK_Worleyz [1.5.2]",
+    "status": "pass",
+    "driven": [
+      "JITTER",
+      "EDGES_WIDTH",
+      "CONTRAST"
+    ],
+    "moving": [
+      "JITTER",
+      "EDGES_WIDTH",
+      "CONTRAST"
+    ],
+    "errors": {},
+    "slots": 15,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "JITTER": 1.0493155065582642,
+        "EDGES_WIDTH": 0.19646908106873937,
+        "CONTRAST": 0.9157562508961112
+      },
+      {
+        "JITTER": 1.0587979020154707,
+        "EDGES_WIDTH": 0.19366806621853616,
+        "CONTRAST": 0.884594818474108
+      },
+      {
+        "JITTER": 1.0692590978153984,
+        "EDGES_WIDTH": 0.19048233525032943,
+        "CONTRAST": 0.8532897204496821
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35
+  },
+  {
+    "layer": 3,
+    "col": 16,
+    "source": "ButterflyEffect",
+    "name": "FM \u00b7 ButterflyEffect [1.5.3]",
+    "status": "pass",
+    "driven": [
+      "x",
+      "y",
+      "phase"
+    ],
+    "moving": [
+      "x",
+      "y",
+      "phase"
+    ],
+    "errors": {},
+    "slots": 8,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "x": 0.9881194180320528,
+        "y": 0.9484136688128212,
+        "phase": 0.6465455752622625
+      },
+      {
+        "x": 0.9829053831305344,
+        "y": 0.954180381292749,
+        "phase": 0.6721004338241326
+      },
+      {
+        "x": 0.9764419679024468,
+        "y": 0.9603345251529,
+        "phase": 0.6993721725249902
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35
+  },
+  {
+    "layer": 3,
+    "col": 19,
+    "source": "fractal alien text",
+    "name": "FM \u00b7 fractal alien text [1.5.6]",
+    "status": "pass",
+    "driven": [
+      "dimensions",
+      "fade"
+    ],
+    "moving": [
+      "dimensions",
+      "fade"
+    ],
+    "errors": {},
+    "slots": 4,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "dimensions": 3.627118505825193,
+        "fade": 0.8159870096596008
+      },
+      {
+        "dimensions": 3.711201613324221,
+        "fade": 0.8117328049389562
+      },
+      {
+        "dimensions": 3.7985482432565103,
+        "fade": 0.8073134815285476
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35
+  },
+  {
+    "layer": 3,
+    "col": 20,
+    "source": "Gradient Bars",
+    "name": "FM \u00b7 Gradient Bars [1.5.7]",
+    "status": "pass",
+    "driven": [
+      "gradient power",
+      "balance",
+      "offset"
+    ],
+    "moving": [
+      "gradient power",
+      "balance",
+      "offset"
+    ],
+    "errors": {},
+    "slots": 10,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "gradient power": 0.053338430283882576,
+        "balance": 0.19265250806271575,
+        "offset": 15.637506442112262
+      },
+      {
+        "gradient power": 0.04798568885067786,
+        "balance": 0.20125930205280593,
+        "offset": 15.764718264411677
+      },
+      {
+        "gradient power": 0.042668801821464014,
+        "balance": 0.21111584061124428,
+        "offset": 15.866136583364362
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35
+  },
+  {
+    "layer": 3,
+    "col": 22,
+    "source": "Melty Boi",
+    "name": "FM \u00b7 Melty Boi [1.5.9]",
+    "status": "pass",
+    "driven": [
+      "intensity",
+      "scale x",
+      "scale y"
+    ],
+    "moving": [
+      "intensity",
+      "scale x",
+      "scale y"
+    ],
+    "errors": {},
+    "slots": 7,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "intensity": 0.07170835109001723,
+        "scale x": 0.9295439652542318,
+        "scale y": 0.830697691236626
+      },
+      {
+        "intensity": 0.07073202091515063,
+        "scale x": 0.9305488378634428,
+        "scale y": 0.8305706727374125
+      },
+      {
+        "intensity": 0.06973158749194308,
+        "scale x": 0.9315773321172532,
+        "scale y": 0.8304183731749208
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35
+  },
+  {
+    "layer": 3,
+    "col": 23,
+    "source": "Screen Weaver",
+    "name": "FM \u00b7 Screen Weaver [1.5.10]",
+    "status": "manual-only",
+    "driven": [],
+    "moving": [],
+    "errors": {},
+    "slots": 1,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {},
+      {},
+      {}
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35
+  },
+  {
+    "layer": 3,
+    "col": 24,
+    "source": "sin_wave",
+    "name": "FM \u00b7 sin_wave [1.5.11]",
+    "status": "manual-only",
+    "driven": [],
+    "moving": [],
+    "errors": {},
+    "slots": 1,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {},
+      {},
+      {}
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35
+  },
+  {
+    "layer": 3,
+    "col": 26,
+    "source": "Dark Tomb",
+    "name": "FM \u00b7 Dark Tomb [1.5.13]",
+    "status": "pass",
+    "driven": [
+      "een",
+      "twee",
+      "vier"
+    ],
+    "moving": [
+      "een",
+      "twee",
+      "vier"
+    ],
+    "errors": {},
+    "slots": 4,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "een": 0.946489196523746,
+        "twee": 4.89052187976354,
+        "vier": 8.22755853630579
+      },
+      {
+        "een": 0.9691221253472948,
+        "twee": 4.834571031481174,
+        "vier": 8.285392286222326
+      },
+      {
+        "een": 0.9923385605783368,
+        "twee": 4.76787299382531,
+        "vier": 8.359252841712905
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35
+  },
+  {
+    "layer": 3,
+    "col": 27,
+    "source": "cubes + spheres",
+    "name": "FM \u00b7 cubes + spheres [1.5.14]",
+    "status": "pass",
+    "driven": [
+      "x",
+      "y"
+    ],
+    "moving": [
+      "x",
+      "y"
+    ],
+    "errors": {},
+    "slots": 2,
+    "source_numeric_not_slots": [],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "x": 0.059609222076578386,
+        "y": 0.057826248239207435
+      },
+      {
+        "x": 0.052127190420291195,
+        "y": 0.052782402186556894
+      },
+      {
+        "x": 0.04441652221672848,
+        "y": 0.04758442586562581
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35
+  }
+]

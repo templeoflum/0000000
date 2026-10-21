@@ -1,0 +1,958 @@
+{
+  "plugins": [
+    {
+      "kind": "effects",
+      "name": "MTK_STROKE_VOLT",
+      "id": "c_347f49d5-2c43-49f0-9900-38f96e58a0ab",
+      "installed": true
+    },
+    {
+      "kind": "effects",
+      "name": "MTK_PXLMELT",
+      "id": "c_ef5c0875-f4d9-48ba-923b-3cbe204e75c8",
+      "installed": true
+    },
+    {
+      "kind": "effects",
+      "name": "mtk_lut_corrupt",
+      "id": "c_e6514fee-eed3-486f-a0b0-f7b5303f4b6b",
+      "installed": true
+    },
+    {
+      "kind": "effects",
+      "name": "ColourLoop",
+      "id": "HTCl",
+      "installed": true
+    },
+    {
+      "kind": "effects",
+      "name": "MTK_STROKEDIFFUSE",
+      "id": "c_3c676de6-01ea-4198-9187-763edb37fd14",
+      "installed": true
+    },
+    {
+      "kind": "effects",
+      "name": "MTK_Gradient_Shadow",
+      "id": "c_bbd05cc8-7e8c-4f9d-9057-dfe86a890387",
+      "installed": true
+    },
+    {
+      "kind": "effects",
+      "name": "ASCII",
+      "id": "EYAS",
+      "installed": true
+    },
+    {
+      "kind": "effects",
+      "name": "MTK_Retrovision",
+      "id": "c_5aa0eeb4-6137-47b9-a5ee-e648427b05f4",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "MTK_Worleyz",
+      "id": "c_f8908d32-7b04-4d28-ab1e-2a17afe2a52e",
+      "installed": true
+    },
+    {
+      "kind": "effects",
+      "name": "MTK_Filmschool_1.2",
+      "id": "c_91c02883-bcd0-4567-abbe-46976cb17897",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "ButterflyEffect",
+      "id": "97e2c403-c456-406d-9e8e-0744a6a75fa6",
+      "installed": true
+    },
+    {
+      "kind": "effects",
+      "name": "MTK_ASCII_Playground",
+      "id": "c_b0198256-68e2-44a0-970d-35ec88bbd499",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "Cuadricularect",
+      "id": "8547ffa8-cfb5-494f-82ef-9034d57164b9",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "z33d+",
+      "id": "becacca4-9c21-4a66-a75d-52d37199ba1f",
+      "installed": true
+    },
+    {
+      "kind": "effects",
+      "name": "MTK_Ditherx",
+      "id": "c_28e6ac98-96fe-4e1b-82c8-37e5b5a1eaa6",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "datablocks",
+      "id": "05451f33-945b-4671-a655-dbd8832daaf3",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "DimensionMorphingTopography",
+      "id": "3fcfba3c-6901-4fed-9c55-89238cebe646",
+      "installed": true
+    },
+    {
+      "kind": "effects",
+      "name": "CRT",
+      "id": "c_be77e0d5-1404-4399-b8ae-7cdd64cba5ab",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "fractalalientext",
+      "id": "cf2fc6da-262f-43b5-be90-8fa3728393f8",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "MagicLougie",
+      "id": "5b382fc8-dc77-42e8-91c4-bab620ae8500",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "GradientBars",
+      "id": "a7ff7128-ef4d-4751-ae2b-eedfe10fea2e",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "GeodesicTiling",
+      "id": "7353b52e-449d-41ff-accd-c94d6daf01ee",
+      "installed": true
+    },
+    {
+      "kind": "effects",
+      "name": "MTK_Kaleidolax",
+      "id": "c_e02fef7d-8fbd-4b33-adb8-8f1c7f681e3f",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "TileIllusion",
+      "id": "225c68e5-b99f-4e03-8af5-130f68811fc3",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "RainbowRingCubicTwist",
+      "id": "52836838-861a-47ad-bb20-fc6b05aec228",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "MeltyBoi",
+      "id": "072b3e2e-6c81-4754-9daf-c98bf4030572",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "SpaceSpore",
+      "id": "9fbdd7b5-134a-47ff-b5c0-f319facf4ad0",
+      "installed": true
+    },
+    {
+      "kind": "effects",
+      "name": "MTK_TripleRipple",
+      "id": "c_c144ddc8-fb93-44fe-8e2b-727c25490536",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "ScreenWeaver",
+      "id": "3d76e26e-2575-4db6-9818-6b37aed32e0f",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "4DVoronoi+HopfFibration",
+      "id": "3ea1cbdc-31a4-496a-84ff-0d8433de352d",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "sin_wave",
+      "id": "c1e4fef4-d43c-49cb-8a4e-51d7173d077b",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "16DimensionalJulia(Sedenion)",
+      "id": "4bc6c3a2-9e78-4cd7-83c0-3f3df18ed50d",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "SpiralSurface",
+      "id": "4dcaa352-a4e4-4cce-9797-e0c88c320921",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "BarthSexticSurfaces",
+      "id": "10c0dddd-41a2-4941-9e36-7806c5f32c45",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "DarkTomb",
+      "id": "cbf2d6b0-8e4d-4895-af26-c0af48986920",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "CrystalDrops",
+      "id": "f935cbd4-34ff-4040-b28e-93d073c8d952",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "cubes+spheres",
+      "id": "53cd0dc2-9dfd-425e-b1ca-3acbd68d0fba",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "curvedsurface",
+      "id": "f95be0a1-d8e1-4b26-97d7-abf142e10c7d",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "RailroadTracks",
+      "id": "cec2ee34-a440-4eb1-92b8-8ebd6eac9dd6",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "Hopf+Poincare",
+      "id": "1cd7425e-1383-49e9-aad9-eac4a3150f97",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "quantumchaos",
+      "id": "673374c6-e9bd-499b-8244-2d3b9a2a9dc8",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "HypnoWorm",
+      "id": "01cd7347-871a-4bbf-b1c5-ec8c97ad787c",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "QuaternionRGBvectorrotation",
+      "id": "5e651169-6112-4910-9c0f-e618fe957c78",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "QUANTUMWAVEINTERFERENCE",
+      "id": "176cbe79-1938-41fa-a777-0e1264cadaa4",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "RetroTechnicolorComputer",
+      "id": "8e0bfd48-5eab-4cea-b580-cc061e9db2ac",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "QuantumZappySphere",
+      "id": "a887756e-9a35-418d-a376-00c30bc36540",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "SmoothXORi",
+      "id": "00413f96-99fb-46e7-ac85-c4fc0363ec30",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "QuaternionAveraging",
+      "id": "e19b22ca-15ad-4f4c-8fe1-aea31eac9e7f",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "TruchetDualLevelSpin",
+      "id": "50acef00-64b3-4739-9951-8d2e84f12981",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "QuaternionConjugation2",
+      "id": "53890f6b-5c4b-492d-85d3-4c4623f0cc3d",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "TwinRays",
+      "id": "1d151046-a4e4-40d2-a5ba-0f5ae4c4471b",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "quantumdroplet",
+      "id": "2d700e25-9e2c-4ef1-a53d-fd43dc429630",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "VoroniCubes",
+      "id": "7546f19e-3de9-4e6c-9a22-33022dafdbf0",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "OntheirwaytoSirius",
+      "id": "36f5506d-e8d7-43c2-a76a-6eef001b7870",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "Concentrip",
+      "id": "d87d8668-b59b-44b4-9b8b-b6f2f7e5b997",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "RayMarchingExperimentn35",
+      "id": "7a5dcbec-5c16-429a-b855-706f4fa1ff55",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "HiggsMechanism",
+      "id": "d1af5286-6a6e-46ff-b068-9b3338a2b8f6",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "Shaderdough",
+      "id": "37a840df-0add-4865-8261-105a46e4a3e9",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "Kleinbottlefigure8immersion",
+      "id": "62c51776-0b7e-47ef-897e-e8ee70dc3977",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "Spikeball_v2",
+      "id": "9e242b47-b86c-404a-9c20-e57574011b27",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "PsychedeliaGenerica",
+      "id": "7de94d62-9d7e-422f-949f-43ef298faef3",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "QuantumCarpets",
+      "id": "93d073fb-a2fb-43f1-830d-f760ca535f76",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "PotentialEnergy",
+      "id": "e3a82d43-c738-40ac-a1a4-26bf978fc3f4",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "Torusthingy",
+      "id": "07222745-6fd4-4725-aad8-1dac3b4b2699",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "MagneticAnomaly",
+      "id": "ef4ed3a5-2db4-443d-92a5-63e51d5a1391",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "RaymarchedHopfFibers",
+      "id": "7627c308-8228-4c2b-b02a-4968545c9413",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "QuantumFieldTheory",
+      "id": "18912039-4554-4e87-9fbe-4c42391d856c",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "Dodecahedron",
+      "id": "834cb0cb-9971-431b-a527-337aec3fde81",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "QuarternionSwell",
+      "id": "567e1a46-fa8d-487e-9d29-755a7c8c5a42",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "Wireframestellateddodecahedron",
+      "id": "8aa80dab-80b8-4643-b3f7-826305cc5098",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "QField2",
+      "id": "4f5c144a-0cc3-4abe-85a6-721a08c1fe55",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "Kaliliberationofthetrueself",
+      "id": "5fd8f46b-8451-4a4b-a996-5d6718bb231e",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "QuarternionFieldDistortion",
+      "id": "5089a218-aaaa-4c55-9a7f-5df6a2fc5a88",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "CubeCluster",
+      "id": "d01765dd-0697-4187-8b38-251da5fbaa8a",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "exampleusingquaternions",
+      "id": "b4d4ed0b-d8e7-4d89-a5ed-5dcbeb89de2a",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "CosOrbit",
+      "id": "437769e4-4248-49d2-8993-815fb3ce99b8",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "MultiCube",
+      "id": "d141165c-7cd5-4708-aec8-ca8c906a74d6",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "Flower2",
+      "id": "1d12e365-e7e8-487c-bce9-4b52578345cd",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "Creation",
+      "id": "4357b7f6-e4e3-46b8-ba54-28fd9546b468",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "quantumcomputer",
+      "id": "a0e4d031-4f8f-4ee8-b57a-9b4cb0d8e276",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "GentleRings",
+      "id": "fb9eb6e7-786c-4729-96cc-8f19c57acc2f",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "MeltingFractal",
+      "id": "82087148-86ac-4ed7-aef0-21a062be815c",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "QuantumFractal",
+      "id": "fe47c2c1-b7b2-48f5-a83f-cc185b33bfc4",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "quadraticbeziertriangle2AABV",
+      "id": "b8f00fb3-3f52-4655-aeb1-bcaf21e721a2",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "spiralintersect",
+      "id": "b098100d-da2a-4de5-b17d-83a648f2c369",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "KleinBottle(3D)",
+      "id": "d51b7b64-78a2-4694-8fc3-e6967e4d6725",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "Quasi-KleinianRingofCircles",
+      "id": "b1f76e2e-501c-4f08-b15d-f9f7bc34fa0c",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "4DRoundedbox(Bluey)",
+      "id": "a028d61b-8b4c-49ee-9777-2d38a597eb3c",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "PoincareDisk",
+      "id": "09fa0913-428a-44f1-840c-72f08a495931",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "4-spacerotations",
+      "id": "ff030a66-4ab7-4797-a971-bfbfb595c954",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "FractalCartoon",
+      "id": "f538c07f-6e49-475f-931b-f0f924dfcea2",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "HEPTANIONtransformation",
+      "id": "ed48c284-5074-4798-9f17-2fe0f46075a2",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "MergerTunnel",
+      "id": "14c5c21e-3626-4b04-b81a-0b5f904c9a32",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "quaternionslerp",
+      "id": "08961e5a-0c31-4c18-9bde-4eb32bdd1b90",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "Sands",
+      "id": "48b07ace-5c9c-4728-98d9-750f9c192a32",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "PaperFractal",
+      "id": "6f76e4ad-27ac-46f0-82e4-79619fd44dc0",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "QuaternionTwister",
+      "id": "8a378670-4db7-423e-ab01-a6ff914307e0",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "ShaderLamb",
+      "id": "7b0a22a9-afd8-4a55-9b84-8fc29d14f333",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "SpinorBeltTrick",
+      "id": "5dab301a-e6ec-42d7-ba88-5461ab0425d9",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "Cumulus",
+      "id": "6771a287-c0b5-45d9-a3c9-1ca83a8cd51f",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "Superfluidhelium",
+      "id": "67a370b1-22c6-47f0-af12-66aaeb96a3a1",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "MetaSevenVortex",
+      "id": "a00c18e2-9450-4a3e-9134-7d05c48e2643",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "WildStyle",
+      "id": "dbe80733-6bb3-4204-9258-f52079f5214f",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "VectorFromHell",
+      "id": "466bd2c8-bc53-4e32-bee2-823d2b16c38b",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "AIEscapevalve",
+      "id": "984e00be-c5e6-4d29-81b4-187f063ad7fa",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "Apollonian",
+      "id": "d2ec81c3-7a3e-41f2-8c55-97713f1ef335",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "MTK_Tentaclone_1.1",
+      "id": "c_729279b4-0016-40e7-8c9d-1e52e3d63b1a",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "EquirectangularApollonian",
+      "id": "0cc49ed1-96ba-4ec7-9458-4e807f742493",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "MTK_WormFresnel",
+      "id": "c_ba8879ea-4a63-4d05-8940-ce56e1ca5c72",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "Kali-ancienttemple",
+      "id": "33a821bc-9d8b-456f-9ca5-7337a2cd2c37",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "MTK_WormWalker",
+      "id": "c_ca2f3008-66a4-45fd-bc3c-fd3115329306",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "KissingDonuts",
+      "id": "0b6618d1-c3bb-4e3f-8034-3c062e158c5e",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "MTK_Worm_Banded",
+      "id": "c_cdb83fcb-7105-4c22-8853-b2c4c2f4bcde",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "Kleinianlimitset",
+      "id": "7ed12bed-e926-47c0-9e52-925fb5c865b7",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "Tunnelines",
+      "id": "c_7312a083-7086-48df-9619-081fb81b456a",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "Kleinianlimitset-Maskitslice",
+      "id": "bbe7cd3b-3052-4f5a-bff3-7763388af892",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "TwoFiftySixBiatch",
+      "id": "ee403d37-b9d0-4f21-b99e-e6104516ff31",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "MegaWave2",
+      "id": "62a5069a-5903-47cc-9a86-1f173387bc3f",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "[phreax]quantumfield",
+      "id": "1a24194b-e9dd-4436-be28-fef0f9cd8264",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "fractalsponge",
+      "id": "e66e4ce6-eabc-40cc-b8ea-e0f5fd61fcbf",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "OldschoolTube",
+      "id": "07600116-d06f-4969-8ee9-6edc2ba9b99f",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "HologramBoxes",
+      "id": "1497351d-a156-4437-afe7-79cdd6393a1e",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "FullSpectrumCyber",
+      "id": "436748f0-ae5d-4180-b110-f4d5ef086ee4",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "spiragraph",
+      "id": "373a1450-9d4e-4e27-9fb6-66c2361f309e",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "oceanwaves",
+      "id": "bf318cc7-14cb-4d5f-840d-3e4f344bca96",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "DodecahedralPermutations",
+      "id": "761ebcca-c41b-4215-8d5f-55cadf9cb1ef",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "DeepQuantumTimeState",
+      "id": "441d8147-21a6-439f-9bf2-0b8785810e3f",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "q_interference23",
+      "id": "dbd0d7c8-b66d-4fbc-8cba-3ff0295aa1cf",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "flexlinks-v2",
+      "id": "a08fe9fb-1d28-4b09-8f26-90c8263816c4",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "flexlinks-v3",
+      "id": "2351b661-a48c-49fd-9a76-5318e4aa126f",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "flexlinksradial-slice",
+      "id": "2b8ca983-5a14-46e3-bc1c-c4a80995f395",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "flexlinksradial-slice2",
+      "id": "8e2e243c-335c-4870-8327-c0a3b928cf83",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "flexlinksradial-v4",
+      "id": "9ba38fb7-19a0-41e6-b717-ead6508b262f",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "plasmasparkle",
+      "id": "d8e2d34e-cda7-4865-87a6-a306c7b4b912",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "Quaternioncontrols",
+      "id": "684f2d77-ced0-446f-b9b0-e4880b9f790e",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "00000",
+      "id": "d692cec6-b5b5-4a42-b869-596c40c6f309",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "SpaceWarpingPortals",
+      "id": "f0b6ec2e-7bca-4a4e-84d2-44361781653e",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "BlackCherryCosmos",
+      "id": "5a9dd006-8d07-43fd-9864-c61da5531ea7",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "SteinerSurfaces",
+      "id": "e31c874e-24cf-4243-92a1-42fce0e0d47a",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "CloudVortex",
+      "id": "fcdd818a-2174-4a96-bab0-393e7f7daf3a",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "QuantumSocket",
+      "id": "b58416b6-a5ae-401d-a92a-bc15e99edc07",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "CollapsingArchi",
+      "id": "a25184b9-f3db-458c-aacb-2629926922e1",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "QuaternionKinematics",
+      "id": "83f6baa8-c0a9-4b8a-8615-a82d459c59e3",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "CosmicJourney",
+      "id": "42a5cd14-c3d4-4b11-a46e-8ca61b7d8522",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "HopfFibration",
+      "id": "dbf6f210-2ef1-4446-895b-012019172da9",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "ColorWheel",
+      "id": "5295621a-9c59-47ee-9be5-ab16c16fbfbf",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "DoubleGalaxy",
+      "id": "17851b75-f3aa-4651-98da-5dc1a5dc4126",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "[2TC15]oldskool3ddriving",
+      "id": "841e4805-dd91-47f4-ad0a-b49d740d59a6",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "KaliCiruitsExplorer",
+      "id": "98593087-ff9c-4355-ae1a-55fed525fe19",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "MetablobStarz",
+      "id": "f731e60b-356f-40b4-82ec-a102cf82de63",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "GentleRingsSP",
+      "id": "b8f5c5f8-350a-46df-9f6c-07ccfc51ea69",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "HopffibersSP",
+      "id": "821752bc-2d19-4741-a556-540c2ad41405",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "UltimateKaliCircuits",
+      "id": "8e3c6e2f-0587-43ea-861d-8361f55b52d9",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "SPStateTest",
+      "id": "526043d3-6d43-4373-bd0c-2057f989ef00",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "AbstractField",
+      "id": "c_35de2952-eebe-4238-ac4a-2e9864da6621",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "Free-particlepropagator",
+      "id": "cb0338b2-937b-45ee-9b39-95541ef1f30a",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "Spinor=Quaternion",
+      "id": "8746e0d9-36a7-4df0-83cb-a1d12d7036a2",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "SquareCellStructureScan",
+      "id": "fe941f16-eed2-43ad-b8ae-60da9e6f7753",
+      "installed": true
+    },
+    {
+      "kind": "sources",
+      "name": "BallsandSprings",
+      "id": "5c7abc79-bd0c-40ff-a5a2-0ef3f56143bb",
+      "installed": true
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "SchemaVersion": "1.1-ter",
+  "ArchetypeName": "Hemera",
+  "SystemOfOrigin": "GR",
+  "CulturalLineage": ["Greek"],
+  "CommonAliases": ["Day", "Daylight", "Light of Day", "Dies"],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "To embody day itself; to scatter the mists of night; to be the bright air of daytime.",
+    "PrimaryDomain": "Mythic / Celestial",
+    "ToneOrPolarity": "Bright / Clear",
+    "SymbolicCore": "Day personified, the bright hours, clarity and visibility.",
+    "Correspondences": {
+      "Element": "Air",
+      "Planet": "Sun",
+      "Chakra": "Solar Plexus",
+      "Color": "Sky Blue, Bright White",
+      "Animal": "Eagle, Lark",
+      "Other": ["Daylight", "Clear Sky", "Bright Air", "Sun's Path"]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": ["Day Personified", "Light Bringer", "Mist Scatterer", "Bright Hours"],
+    "ComplementaryArchetypes": ["Nyx ([GR] Mother/Night)", "Aether ([GR] Father)", "Helios ([GR] Sun)"],
+    "ShadowForms": ["Harsh Glare", "Exposure", "No Rest"],
+    "DevelopmentalArc": [],
+    "CyclePhase": "Daytime / Brightness"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": ["Bright", "Clear", "Active", "Visible", "Open", "Diurnal"],
+    "Typologies": {
+      "MBTI": "ESFJ",
+      "Enneagram": "7w6",
+      "Other": ["Innocent", "Explorer", "Hero"]
+    },
+    "SubVariants": ["Bright Day", "Clear Light", "Active Hours"],
+    "InternalFamily": "Conscious Mind"
+  },
+  "CulturalContext": {
+    "Regions": ["Greece"],
+    "MythicAppearances": ["Daughter of Erebus and Nyx", "Primordial day goddess", "Emerges as mother departs"],
+    "ReligiousOrRitualUse": "Honored as day personified; invoked for clarity and activity; complementary to night.",
+    "HistoricalEvolution": "Primordial day goddess; gradually became conceptual rather than actively worshipped.",
+    "SyncreticForms": ["Dies (Roman)"]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "☀️",
+    "ImageryNotes": "Depicted as bright goddess scattering night's mists, bringing clear daylight and visibility.",
+    "ArtisticExamples": ["Day allegories", "Light goddess imagery", "Day-night contrasts"],
+    "PoeticInvocation": "Hemera bright, who scatters the dark and brings the clear light of day.",
+    "DreamForm": "A radiant woman dispersing shadows with her presence, bringing clarity and light"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": ["Tarot.The_Sun", "Consciousness", "Waking_State"],
+    "SemanticTags": ["#day", "#light", "#clarity", "#brightness", "#waking"],
+    "RitualFunction": "Invoked for clarity, activity, and conscious awareness; honored at sunrise.",
+    "AIPromptSeeds": ["The goddess who is day itself, scattering night's shadows.", "Bright hours personified, bringing clarity and visibility."],
+    "NarrativeHooks": ["Light banishing darkness", "Clarity and revelation", "Active hours begin"]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [{"to": "Dies (Roman)", "strength": "strong"}, {"to": "Tarot.The_Sun", "strength": "moderate"}]
+  },
+  "FacetRegistry": [{"facet": "Day Personified", "weight": 0.7}, {"facet": "Light Bringer", "weight": 0.2}, {"facet": "Clear Hours", "weight": 0.1}]
+}

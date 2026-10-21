@@ -1,0 +1,7446 @@
+[
+  [
+    "FM \u00b7 XY 1 [1.3.1]",
+    "Position X",
+    {
+      "fields": [
+        {
+          "Duration": 6.211145936300136,
+          "Speed": 0.999999999998451,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 6.211145936300136,
+          "Speed": 0.9999999999981929,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 XY 1 [1.3.1]",
+    "Position Y",
+    {
+      "fields": [
+        {
+          "Duration": 5.01667693197175,
+          "Speed": 0.999999999998451,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.6944444444444444
+        },
+        {
+          "Duration": 5.01667693197175,
+          "Speed": 0.9999999999981929,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.6944444444444444
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 XY 1 [1.3.1]",
+    "Scale",
+    {
+      "fields": [
+        {
+          "Duration": 15.0,
+          "Speed": 0.999999999998451,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.04499998490015665
+        },
+        {
+          "Duration": 15.0,
+          "Speed": 0.9999999999981929,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.04499998490015665
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 XY 2 [1.3.2]",
+    "Position X",
+    {
+      "fields": [
+        {
+          "Duration": 6.0,
+          "Speed": 0.9999999999983994,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 6.0,
+          "Speed": 0.9999999999981412,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 XY 2 [1.3.2]",
+    "Position Y",
+    {
+      "fields": [
+        {
+          "Duration": 10.0,
+          "Speed": 0.9999999999983994,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.6944444444444444
+        },
+        {
+          "Duration": 10.0,
+          "Speed": 0.9999999999981412,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.6944444444444444
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 XY 2 [1.3.2]",
+    "Scale",
+    {
+      "fields": [
+        {
+          "Duration": 14.0,
+          "Speed": 0.9999999999983994,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.04499998490015665
+        },
+        {
+          "Duration": 14.0,
+          "Speed": 0.9999999999981412,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.04499998490015665
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 up/down [1.3.3]",
+    "Position Y",
+    {
+      "fields": [
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999983478,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.6944444444444444
+        },
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999980895,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.6944444444444444
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 up/down [1.3.3]",
+    "Scale",
+    {
+      "fields": [
+        {
+          "Duration": 7.0,
+          "Speed": 0.9999999999983478,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.04499998490015665
+        },
+        {
+          "Duration": 7.0,
+          "Speed": 0.9999999999980895,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.04499998490015665
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 up [1.3.4]",
+    "Position Y",
+    {
+      "fields": [
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999982961,
+          "PlayMode": "Bounce",
+          "PlayDirection": "||",
+          "DurationIsScalable": false,
+          "Max Distance": 0.6944444444444444
+        },
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999980379,
+          "PlayMode": "Bounce",
+          "PlayDirection": "||",
+          "DurationIsScalable": false,
+          "Max Distance": 0.6944444444444444
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 up [1.3.4]",
+    "Scale",
+    {
+      "fields": [
+        {
+          "Duration": 7.0,
+          "Speed": 0.9999999999982961,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.04499998490015665
+        },
+        {
+          "Duration": 7.0,
+          "Speed": 0.9999999999980379,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.04499998490015665
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 down [1.3.5]",
+    "Position Y",
+    {
+      "fields": [
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999982445,
+          "PlayMode": "Bounce",
+          "PlayDirection": "||",
+          "DurationIsScalable": false,
+          "Max Distance": 0.6944444444444444
+        },
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999979863,
+          "PlayMode": "Bounce",
+          "PlayDirection": "||",
+          "DurationIsScalable": false,
+          "Max Distance": 0.6944444444444444
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 down [1.3.5]",
+    "Scale",
+    {
+      "fields": [
+        {
+          "Duration": 7.0,
+          "Speed": 0.9999999999982445,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.04499998490015665
+        },
+        {
+          "Duration": 7.0,
+          "Speed": 0.9999999999979863,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.04499998490015665
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 left/right [1.3.6]",
+    "Position X",
+    {
+      "fields": [
+        {
+          "Duration": 3.0,
+          "Speed": 0.9999999999982961,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 3.0,
+          "Speed": 0.9999999999980379,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 left/right [1.3.6]",
+    "Scale",
+    {
+      "fields": [
+        {
+          "Duration": 7.0,
+          "Speed": 0.9999999999982961,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.04499998490015665
+        },
+        {
+          "Duration": 7.0,
+          "Speed": 0.9999999999980379,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.04499998490015665
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 right [1.3.7]",
+    "Position X",
+    {
+      "fields": [
+        {
+          "Duration": 3.0,
+          "Speed": 0.9999999999983478,
+          "PlayMode": "Bounce",
+          "PlayDirection": "||",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 3.0,
+          "Speed": 0.9999999999980895,
+          "PlayMode": "Bounce",
+          "PlayDirection": "||",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 right [1.3.7]",
+    "Scale",
+    {
+      "fields": [
+        {
+          "Duration": 7.0,
+          "Speed": 0.9999999999983478,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.04499998490015665
+        },
+        {
+          "Duration": 7.0,
+          "Speed": 0.9999999999980895,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.04499998490015665
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 left [1.3.8]",
+    "Position X",
+    {
+      "fields": [
+        {
+          "Duration": 3.0,
+          "Speed": 0.9999999999982961,
+          "PlayMode": "Bounce",
+          "PlayDirection": "||",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 3.0,
+          "Speed": 0.9999999999980379,
+          "PlayMode": "Bounce",
+          "PlayDirection": "||",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 left [1.3.8]",
+    "Scale",
+    {
+      "fields": [
+        {
+          "Duration": 7.0,
+          "Speed": 0.9999999999982961,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.04499998490015665
+        },
+        {
+          "Duration": 7.0,
+          "Speed": 0.9999999999980379,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.04499998490015665
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Move Right [1.4.13]",
+    "Position X",
+    {
+      "fields": [
+        {
+          "Duration": 20.0,
+          "Speed": 0.9999999999987608,
+          "PlayMode": "Loop",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 20.0,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Loop",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Move Left [1.4.14]",
+    "Position X",
+    {
+      "fields": [
+        {
+          "Duration": 18.5888,
+          "Speed": 0.9999999999987608,
+          "PlayMode": "Loop",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.1618
+        },
+        {
+          "Duration": 18.5888,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Loop",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.1618
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 move down [1.4.15]",
+    "Position Y",
+    {
+      "fields": [
+        {
+          "Duration": 9.2944,
+          "Speed": 0.9999999999987608,
+          "PlayMode": "Loop",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.1618
+        },
+        {
+          "Duration": 9.2944,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Loop",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.1618
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 move up [1.4.16]",
+    "Position Y",
+    {
+      "fields": [
+        {
+          "Duration": 4.6472,
+          "Speed": 0.9999999999987608,
+          "PlayMode": "Loop",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.1618
+        },
+        {
+          "Duration": 4.6472,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Loop",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.1618
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Feedback [1.2.1]",
+    "Distance",
+    {
+      "fields": [
+        {
+          "Duration": 5.0,
+          "Speed": 1.0,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 5.0,
+          "Speed": 1.0,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 MTK_Worleyz [1.5.2]",
+    "CONTRAST",
+    {
+      "fields": [
+        {
+          "Duration": 2.0,
+          "Speed": 0.999999999998864,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.9999999999999987
+        },
+        {
+          "Duration": 2.0,
+          "Speed": 0.9999999999986059,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.9999999999999987
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 MTK_Worleyz [1.5.2]",
+    "BRIGHTNESS",
+    {
+      "fields": [
+        {
+          "Duration": 3.0,
+          "Speed": 0.999999999998864,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.1551145043703586
+        },
+        {
+          "Duration": 3.0,
+          "Speed": 0.9999999999986059,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.1551145043703586
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 ButterflyEffect [1.5.3]",
+    "x",
+    {
+      "fields": [
+        {
+          "Duration": 40.0,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.625
+        },
+        {
+          "Duration": 40.0,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.625
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 ButterflyEffect [1.5.3]",
+    "y",
+    {
+      "fields": [
+        {
+          "Duration": 34.112,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.533
+        },
+        {
+          "Duration": 34.112,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.533
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 ButterflyEffect [1.5.3]",
+    "rate",
+    {
+      "fields": [
+        {
+          "Duration": 42.687999999999995,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        },
+        {
+          "Duration": 42.687999999999995,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 ButterflyEffect [1.5.3]",
+    "phase",
+    {
+      "fields": [
+        {
+          "Duration": 47.99999999999999,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.75
+        },
+        {
+          "Duration": 47.99999999999999,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.75
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 ButterflyEffect [1.5.3]",
+    "freq",
+    {
+      "fields": [
+        {
+          "Duration": 38.4,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.6
+        },
+        {
+          "Duration": 38.4,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.6
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 ButterflyEffect [1.5.3]",
+    "amp",
+    {
+      "fields": [
+        {
+          "Duration": 51.199999999999996,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.8000000000000002
+        },
+        {
+          "Duration": 51.199999999999996,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.8000000000000002
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 ButterflyEffect [1.5.3]",
+    "zoom",
+    {
+      "fields": [
+        {
+          "Duration": 53.31199999999999,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.8330000000000001
+        },
+        {
+          "Duration": 53.31199999999999,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.8330000000000001
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 ButterflyEffect [1.5.3]",
+    "offset",
+    {
+      "fields": [
+        {
+          "Duration": 64.0,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        },
+        {
+          "Duration": 64.0,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Cuadricula rect [1.5.4]",
+    "tile",
+    {
+      "fields": [
+        {
+          "Duration": 47.99999999999999,
+          "Speed": 0.9999999999987608,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 47.99999999999999,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Cuadricula rect [1.5.4]",
+    "offset",
+    {
+      "fields": [
+        {
+          "Duration": 10.0,
+          "Speed": 0.9999999999987608,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 10.0,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Cuadricula rect [1.5.4]",
+    "rotate",
+    {
+      "fields": [
+        {
+          "Duration": 112.0,
+          "Speed": 0.9999999999987608,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 112.0,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 data blocks [1.5.5]",
+    "center x",
+    {
+      "fields": [
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999987608,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 fractal alien text [1.5.6]",
+    "time",
+    {
+      "fields": [
+        {
+          "Duration": 40.0,
+          "Speed": 0.9999999999987608,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 40.0,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 fractal alien text [1.5.6]",
+    "Opacity",
+    {
+      "fields": [
+        {
+          "Duration": 0.625,
+          "Speed": 0.9999999999987608,
+          "PlayMode": "Play Once & Clear",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.625
+        },
+        {
+          "Duration": 0.625,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Play Once & Clear",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.625
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Gradient Bars [1.5.7]",
+    "gradient power",
+    {
+      "fields": [
+        {
+          "Duration": 80.0,
+          "Speed": 0.9999999999987608,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 80.0,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Gradient Bars [1.5.7]",
+    "offset",
+    {
+      "fields": [
+        {
+          "Duration": 112.0,
+          "Speed": 0.9999999999987608,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 112.0,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Gradient Bars [1.5.7]",
+    "use odd directions",
+    {
+      "fields": [
+        {
+          "Duration": 175.99999999999997,
+          "Speed": 0.9999999999987608,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 175.99999999999997,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 SpiralSurface [1.5.12]",
+    "x",
+    {
+      "fields": [
+        {
+          "Duration": 10.0,
+          "Speed": 0.9999999999986059,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 10.0,
+          "Speed": 0.9999999999983478,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 SpiralSurface [1.5.12]",
+    "y",
+    {
+      "fields": [
+        {
+          "Duration": 14.0,
+          "Speed": 0.9999999999986059,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 14.0,
+          "Speed": 0.9999999999983478,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Dark Tomb [1.5.13]",
+    "een",
+    {
+      "fields": [
+        {
+          "Duration": 5.999999999999999,
+          "Speed": 0.9999999999986575,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 5.999999999999999,
+          "Speed": 0.9999999999983994,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Dark Tomb [1.5.13]",
+    "twee",
+    {
+      "fields": [
+        {
+          "Duration": 10.0,
+          "Speed": 0.9999999999986575,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 10.0,
+          "Speed": 0.9999999999983994,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Dark Tomb [1.5.13]",
+    "vier",
+    {
+      "fields": [
+        {
+          "Duration": 14.0,
+          "Speed": 0.9999999999986575,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 14.0,
+          "Speed": 0.9999999999983994,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Dark Tomb [1.5.13]",
+    "drie",
+    {
+      "fields": [
+        {
+          "Duration": 22.0,
+          "Speed": 0.9999999999986575,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 22.0,
+          "Speed": 0.9999999999983994,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 cubes + spheres [1.5.14]",
+    "x",
+    {
+      "fields": [
+        {
+          "Duration": 10.0,
+          "Speed": 0.9999999999986575,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 10.0,
+          "Speed": 0.9999999999983994,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 cubes + spheres [1.5.14]",
+    "y",
+    {
+      "fields": [
+        {
+          "Duration": 14.0,
+          "Speed": 0.9999999999986575,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 14.0,
+          "Speed": 0.9999999999983994,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 RetroTechnicolorComputer [1.5.19]",
+    "offset x",
+    {
+      "fields": [
+        {
+          "Duration": 16.0,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        },
+        {
+          "Duration": 16.0,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 RetroTechnicolorComputer [1.5.19]",
+    "offset y",
+    {
+      "fields": [
+        {
+          "Duration": 12.799999999999999,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.8000000000000002
+        },
+        {
+          "Duration": 12.799999999999999,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.8000000000000002
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 RetroTechnicolorComputer [1.5.19]",
+    "matrix x",
+    {
+      "fields": [
+        {
+          "Duration": 10.671999999999999,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": "||",
+          "DurationIsScalable": false,
+          "Interval": 0.6594738857351619,
+          "Max Distance": 10.671999999999999
+        },
+        {
+          "Duration": 10.671999999999999,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": "||",
+          "DurationIsScalable": false,
+          "Interval": 0.6594738857351619,
+          "Max Distance": 10.671999999999999
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 RetroTechnicolorComputer [1.5.19]",
+    "matrix y",
+    {
+      "fields": [
+        {
+          "Duration": 21.343999999999998,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        },
+        {
+          "Duration": 21.343999999999998,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 SmoothXORi [1.5.20]",
+    "scrolls y",
+    {
+      "fields": [
+        {
+          "Duration": 12.413120353799558,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.5516400442249447
+        },
+        {
+          "Duration": 12.413120353799558,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.5516400442249447
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 SmoothXORi [1.5.20]",
+    "scroll x",
+    {
+      "fields": [
+        {
+          "Duration": 10.220264317180616,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.277533039647577
+        },
+        {
+          "Duration": 10.220264317180616,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.277533039647577
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 SmoothXORi [1.5.20]",
+    "intensity",
+    {
+      "fields": [
+        {
+          "Duration": 11.0,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 11.0,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 SmoothXORi [1.5.20]",
+    "tint",
+    {
+      "fields": [
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 SmoothXORi [1.5.20]",
+    "sat",
+    {
+      "fields": [
+        {
+          "Duration": 7.0,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 7.0,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 TwinRays [1.5.22]",
+    "x",
+    {
+      "fields": [
+        {
+          "Duration": 11.999999999999998,
+          "Speed": 0.9999999999987608,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 11.999999999999998,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 TwinRays [1.5.22]",
+    "y",
+    {
+      "fields": [
+        {
+          "Duration": 20.0,
+          "Speed": 0.9999999999987608,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 20.0,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 TwinRays [1.5.22]",
+    "width",
+    {
+      "fields": [
+        {
+          "Duration": 7.0,
+          "Speed": 0.9999999999987608,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 7.0,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 TwinRays [1.5.22]",
+    "soft",
+    {
+      "fields": [
+        {
+          "Duration": 11.0,
+          "Speed": 0.9999999999987608,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.9999999999999998
+        },
+        {
+          "Duration": 11.0,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.9999999999999998
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Klein bottle figure 8 immersion [1.5.26]",
+    "Radius",
+    {
+      "fields": [
+        {
+          "Duration": 16.0,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        },
+        {
+          "Duration": 16.0,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Klein bottle figure 8 immersion [1.5.26]",
+    "Scale",
+    {
+      "fields": [
+        {
+          "Duration": 10.671999999999997,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.6669999999999998
+        },
+        {
+          "Duration": 10.671999999999997,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.6669999999999998
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 PsychedeliaGenerica [1.5.27]",
+    "pitch",
+    {
+      "fields": [
+        {
+          "Duration": 16.0,
+          "Speed": 0.9999999999987091,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        },
+        {
+          "Duration": 16.0,
+          "Speed": 0.999999999998451,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 PsychedeliaGenerica [1.5.27]",
+    "yaw",
+    {
+      "fields": [
+        {
+          "Duration": 26.672000000000008,
+          "Speed": 0.9999999999987091,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.6670000000000003
+        },
+        {
+          "Duration": 26.672000000000008,
+          "Speed": 0.999999999998451,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.6670000000000003
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 PsychedeliaGenerica [1.5.27]",
+    "scale",
+    {
+      "fields": [
+        {
+          "Duration": 27.999999999999996,
+          "Speed": 0.9999999999987091,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.7499999999999998
+        },
+        {
+          "Duration": 27.999999999999996,
+          "Speed": 0.999999999998451,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.7499999999999998
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 PsychedeliaGenerica [1.5.27]",
+    "hue offset",
+    {
+      "fields": [
+        {
+          "Duration": 35.2,
+          "Speed": 0.9999999999987091,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 35.2,
+          "Speed": 0.999999999998451,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 PsychedeliaGenerica [1.5.27]",
+    "hue rate",
+    {
+      "fields": [
+        {
+          "Duration": 29.712,
+          "Speed": 0.9999999999987091,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.857
+        },
+        {
+          "Duration": 29.712,
+          "Speed": 0.999999999998451,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.857
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Magnetic Anomaly [1.5.29]",
+    "Quat W",
+    {
+      "fields": [
+        {
+          "Duration": 16.0,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        },
+        {
+          "Duration": 16.0,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Magnetic Anomaly [1.5.29]",
+    "Quat X",
+    {
+      "fields": [
+        {
+          "Duration": 8.528,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.533
+        },
+        {
+          "Duration": 8.528,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.533
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Magnetic Anomaly [1.5.29]",
+    "Quat Y",
+    {
+      "fields": [
+        {
+          "Duration": 12.799999999999999,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.8000000000000002
+        },
+        {
+          "Duration": 12.799999999999999,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.8000000000000002
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Magnetic Anomaly [1.5.29]",
+    "Quat Z",
+    {
+      "fields": [
+        {
+          "Duration": 10.671999999999999,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        },
+        {
+          "Duration": 10.671999999999999,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Cos Orbit [1.5.35]",
+    "phase",
+    {
+      "fields": [
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999987608,
+          "PlayMode": "Loop",
+          "PlayDirection": ">",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Loop",
+          "PlayDirection": ">",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Flower2 [1.5.36]",
+    "time",
+    {
+      "fields": [
+        {
+          "Duration": 320.0,
+          "Speed": 0.9999999999987608,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 320.0,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Flower2 [1.5.36]",
+    "trigger",
+    {
+      "fields": [
+        {
+          "Duration": 3.0,
+          "Speed": 0.9999999999987608,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 3.0,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Flower2 [1.5.36]",
+    "draaixas",
+    {
+      "fields": [
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999987608,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 MergerTunnel [1.5.44]",
+    "depth",
+    {
+      "fields": [
+        {
+          "Duration": 80.0,
+          "Speed": 0.9999999999988124,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 80.0,
+          "Speed": 0.9999999999985543,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 ShaderLamb [1.5.47]",
+    "azimuth",
+    {
+      "fields": [
+        {
+          "Duration": 10.0,
+          "Speed": 0.9999999999988124,
+          "PlayMode": "Loop",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 10.0,
+          "Speed": 0.9999999999985543,
+          "PlayMode": "Loop",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 ShaderLamb [1.5.47]",
+    "elevation",
+    {
+      "fields": [
+        {
+          "Duration": 16.67,
+          "Speed": 0.9999999999988124,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 16.67,
+          "Speed": 0.9999999999985543,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 ShaderLamb [1.5.47]",
+    "cam dist",
+    {
+      "fields": [
+        {
+          "Duration": 18.57,
+          "Speed": 0.9999999999988124,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.8000000000000002
+        },
+        {
+          "Duration": 18.57,
+          "Speed": 0.9999999999985543,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.8000000000000002
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 ShaderLamb [1.5.47]",
+    "timescale",
+    {
+      "fields": [
+        {
+          "Duration": 22.0,
+          "Speed": 0.9999999999988124,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 22.0,
+          "Speed": 0.9999999999985543,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Cumulus [1.5.48]",
+    "main form",
+    {
+      "fields": [
+        {
+          "Duration": 11.999999999999998,
+          "Speed": 0.9999999999988124,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.9618049034705531
+        },
+        {
+          "Duration": 11.999999999999998,
+          "Speed": 0.9999999999985543,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.9618049034705531
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Cumulus [1.5.48]",
+    "soft form",
+    {
+      "fields": [
+        {
+          "Duration": 28.0,
+          "Speed": 0.9999999999988124,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 28.0,
+          "Speed": 0.9999999999985543,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Cumulus [1.5.48]",
+    "zoom 1",
+    {
+      "fields": [
+        {
+          "Duration": 10.0,
+          "Speed": 0.9999999999988124,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.9999999999999991
+        },
+        {
+          "Duration": 10.0,
+          "Speed": 0.9999999999985543,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.9999999999999991
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Cumulus [1.5.48]",
+    "zoom 2",
+    {
+      "fields": [
+        {
+          "Duration": 8.0,
+          "Speed": 0.9999999999988124,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.9999999999999996
+        },
+        {
+          "Duration": 8.0,
+          "Speed": 0.9999999999985543,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.9999999999999996
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Apollonian [1.5.53]",
+    "Camera Roll",
+    {
+      "fields": [
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 ocean waves [1.5.65]",
+    "cam yaw",
+    {
+      "fields": [
+        {
+          "Duration": 10.0,
+          "Speed": 0.9999999999987608,
+          "PlayMode": "Loop",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 10.0,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Loop",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 ocean waves [1.5.66]",
+    "choppy",
+    {
+      "fields": [
+        {
+          "Duration": 8.0,
+          "Speed": 0.9999999999994836,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        },
+        {
+          "Duration": 8.0,
+          "Speed": 0.9999999999992255,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 ocean waves [1.5.66]",
+    "height",
+    {
+      "fields": [
+        {
+          "Duration": 5.335999999999999,
+          "Speed": 0.9999999999994836,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        },
+        {
+          "Duration": 5.335999999999999,
+          "Speed": 0.9999999999992255,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 ocean waves [1.5.66]",
+    "cam yaw",
+    {
+      "fields": [
+        {
+          "Duration": 10.0,
+          "Speed": 0.9999999999986575,
+          "PlayMode": "Loop",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 10.0,
+          "Speed": 0.9999999999983994,
+          "PlayMode": "Loop",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Deep Quantum Time State [1.5.69]",
+    "Speed",
+    {
+      "fields": [
+        {
+          "Duration": 40.0,
+          "Speed": 0.9999999999995869,
+          "PlayMode": "Random",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Interval": 0.5369627108695197,
+          "Max Distance": 18.027667309864455
+        },
+        {
+          "Duration": 40.0,
+          "Speed": 0.9999999999993288,
+          "PlayMode": "Random",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Interval": 0.5369627108695197,
+          "Max Distance": 18.027667309864455
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Steiner Surfaces [1.5.78]",
+    "Quat W",
+    {
+      "fields": [
+        {
+          "Duration": 32.0,
+          "Speed": 0.9999999999993804,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        },
+        {
+          "Duration": 32.0,
+          "Speed": 0.9999999999991223,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Steiner Surfaces [1.5.78]",
+    "Quat X",
+    {
+      "fields": [
+        {
+          "Duration": 17.056,
+          "Speed": 0.9999999999993804,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.533
+        },
+        {
+          "Duration": 17.056,
+          "Speed": 0.9999999999991223,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.533
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Steiner Surfaces [1.5.78]",
+    "Quat Y",
+    {
+      "fields": [
+        {
+          "Duration": 21.343999999999998,
+          "Speed": 0.9999999999993804,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        },
+        {
+          "Duration": 21.343999999999998,
+          "Speed": 0.9999999999991223,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Steiner Surfaces [1.5.78]",
+    "Quat Z",
+    {
+      "fields": [
+        {
+          "Duration": 25.599999999999998,
+          "Speed": 0.9999999999993804,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.8000000000000002
+        },
+        {
+          "Duration": 25.599999999999998,
+          "Speed": 0.9999999999991223,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.8000000000000002
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 HopfFibration [1.5.81]",
+    "phase",
+    {
+      "fields": [
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999995869,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999993288,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 HopfFibration [1.5.81]",
+    "angle",
+    {
+      "fields": [
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999995869,
+          "PlayMode": "Loop",
+          "PlayDirection": ">",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999993288,
+          "PlayMode": "Loop",
+          "PlayDirection": ">",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Gradient [1.7.67]",
+    "Angle",
+    {
+      "fields": [
+        {
+          "Duration": 20.0,
+          "Speed": 0.9999999999987608,
+          "PlayMode": "Loop",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 20.0,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Loop",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Gradient [1.7.73]",
+    "Size",
+    {
+      "fields": [
+        {
+          "Duration": 2.25,
+          "Speed": 0.9999999999987608,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": true,
+          "Max Distance": 1.9999999999999991
+        },
+        {
+          "Duration": 2.25,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": true,
+          "Max Distance": 1.9999999999999991
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 plasma sparkle [1.7.75]",
+    "level",
+    {
+      "fields": [
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999987608,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.9999999999999978
+        },
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.9999999999999978
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 plasma sparkle [1.7.75]",
+    "x axis",
+    {
+      "fields": [
+        {
+          "Duration": 1.7931796536587252,
+          "Speed": 0.9999999999987608,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": true,
+          "Max Distance": 1.7931796536587252
+        },
+        {
+          "Duration": 1.7931796536587252,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": true,
+          "Max Distance": 1.7931796536587252
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 plasma sparkle [1.7.75]",
+    "y axis",
+    {
+      "fields": [
+        {
+          "Duration": 7.0,
+          "Speed": 0.9999999999987608,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 7.0,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 plasma sparkle [1.7.75]",
+    "rot angle",
+    {
+      "fields": [
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999987608,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 plasma sparkle [1.7.75]",
+    "axis drift",
+    {
+      "fields": [
+        {
+          "Duration": 11.0,
+          "Speed": 0.9999999999987608,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 11.0,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 BlackCherryCosmos [1.7.77]",
+    "x",
+    {
+      "fields": [
+        {
+          "Duration": 21.343999999999998,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        },
+        {
+          "Duration": 21.343999999999998,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 BlackCherryCosmos [1.7.77]",
+    "y",
+    {
+      "fields": [
+        {
+          "Duration": 25.599999999999998,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.75
+        },
+        {
+          "Duration": 25.599999999999998,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.75
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 BlackCherryCosmos [1.7.77]",
+    "formuparam2",
+    {
+      "fields": [
+        {
+          "Duration": 32.0,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        },
+        {
+          "Duration": 32.0,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 BlackCherryCosmos [1.7.77]",
+    "cloud",
+    {
+      "fields": [
+        {
+          "Duration": 17.696,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.553
+        },
+        {
+          "Duration": 17.696,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.553
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 BlackCherryCosmos [1.7.77]",
+    "volsteps",
+    {
+      "fields": [
+        {
+          "Duration": 16.0,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.5
+        },
+        {
+          "Duration": 16.0,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.5
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Color Wheel [1.7.81]",
+    "rotate",
+    {
+      "fields": [
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999988124,
+          "PlayMode": "Loop",
+          "PlayDirection": ">",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999985543,
+          "PlayMode": "Loop",
+          "PlayDirection": ">",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Checkered [1.7.87]",
+    "Opacity",
+    {
+      "fields": [
+        {
+          "Duration": 0.625,
+          "Speed": 0.9999999999987608,
+          "PlayMode": "Play Once & Clear",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.625
+        },
+        {
+          "Duration": 0.625,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Play Once & Clear",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.625
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Spiral [1.7.88]",
+    "Opacity",
+    {
+      "fields": [
+        {
+          "Duration": 0.625,
+          "Speed": 0.9999999999987608,
+          "PlayMode": "Play Once & Clear",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.625
+        },
+        {
+          "Duration": 0.625,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Play Once & Clear",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.625
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Lines [1.7.89]",
+    "Fuzzyness",
+    {
+      "fields": [
+        {
+          "Duration": 12.0,
+          "Speed": 0.9999999999987608,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.7094025245079632
+        },
+        {
+          "Duration": 12.0,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.7094025245079632
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Lines [1.7.89]",
+    "Position",
+    {
+      "fields": [
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999987608,
+          "PlayMode": "Loop",
+          "PlayDirection": ">",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Loop",
+          "PlayDirection": ">",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Sine Wave [1.7.90]",
+    "Frequency",
+    {
+      "fields": [
+        {
+          "Duration": 28.0,
+          "Speed": 0.9999999999987608,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 28.0,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Sine Wave [1.7.90]",
+    "Main Speed",
+    {
+      "fields": [
+        {
+          "Duration": 20.0,
+          "Speed": 0.9999999999987608,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 20.0,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Sine Wave [1.7.90]",
+    "Modulator",
+    {
+      "fields": [
+        {
+          "Duration": 11.999999999999998,
+          "Speed": 0.9999999999987608,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 11.999999999999998,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Sine Wave [1.7.90]",
+    "Modulation Depth",
+    {
+      "fields": [
+        {
+          "Duration": 28.0,
+          "Speed": 0.9999999999987608,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 28.0,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Sine Wave [1.7.90]",
+    "Modulator Speed",
+    {
+      "fields": [
+        {
+          "Duration": 20.0,
+          "Speed": 0.9999999999987608,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 20.0,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Sine Wave [1.7.90]",
+    "Amplitude",
+    {
+      "fields": [
+        {
+          "Duration": 44.0,
+          "Speed": 0.9999999999987608,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 44.0,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Sine Wave [1.7.90]",
+    "Position",
+    {
+      "fields": [
+        {
+          "Duration": 32.0,
+          "Speed": 0.9999999999987608,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 32.0,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Sine Wave [1.7.91]",
+    "Frequency",
+    {
+      "fields": [
+        {
+          "Duration": 7.0,
+          "Speed": 0.9999999999983478,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 7.0,
+          "Speed": 0.9999999999980895,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Sine Wave [1.7.91]",
+    "Main Speed",
+    {
+      "fields": [
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999983478,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999980895,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Sine Wave [1.7.91]",
+    "Modulator",
+    {
+      "fields": [
+        {
+          "Duration": 3.0,
+          "Speed": 0.9999999999983478,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 3.0,
+          "Speed": 0.9999999999980895,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Sine Wave [1.7.91]",
+    "Modulation Depth",
+    {
+      "fields": [
+        {
+          "Duration": 7.0,
+          "Speed": 0.9999999999983478,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 7.0,
+          "Speed": 0.9999999999980895,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Sine Wave [1.7.91]",
+    "Modulator Speed",
+    {
+      "fields": [
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999983478,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999980895,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Sine Wave [1.7.91]",
+    "Amplitude",
+    {
+      "fields": [
+        {
+          "Duration": 11.0,
+          "Speed": 0.9999999999983478,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 11.0,
+          "Speed": 0.9999999999980895,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Sine Wave [1.7.91]",
+    "Position",
+    {
+      "fields": [
+        {
+          "Duration": 8.0,
+          "Speed": 0.9999999999983478,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 8.0,
+          "Speed": 0.9999999999980895,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Sine Wave [1.7.92]",
+    "Frequency",
+    {
+      "fields": [
+        {
+          "Duration": 7.0,
+          "Speed": 0.9999999999982961,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 7.0,
+          "Speed": 0.9999999999980379,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Sine Wave [1.7.92]",
+    "Main Speed",
+    {
+      "fields": [
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999982961,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999980379,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Sine Wave [1.7.92]",
+    "Modulator",
+    {
+      "fields": [
+        {
+          "Duration": 3.0,
+          "Speed": 0.9999999999982961,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 3.0,
+          "Speed": 0.9999999999980379,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Sine Wave [1.7.92]",
+    "Modulation Depth",
+    {
+      "fields": [
+        {
+          "Duration": 7.0,
+          "Speed": 0.9999999999982961,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 7.0,
+          "Speed": 0.9999999999980379,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Sine Wave [1.7.92]",
+    "Modulator Speed",
+    {
+      "fields": [
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999982961,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999980379,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Sine Wave [1.7.92]",
+    "Amplitude",
+    {
+      "fields": [
+        {
+          "Duration": 11.0,
+          "Speed": 0.9999999999982961,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 11.0,
+          "Speed": 0.9999999999980379,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Sine Wave [1.7.92]",
+    "Position",
+    {
+      "fields": [
+        {
+          "Duration": 8.0,
+          "Speed": 0.9999999999982961,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 8.0,
+          "Speed": 0.9999999999980379,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Sine Wave [1.7.93]",
+    "Frequency",
+    {
+      "fields": [
+        {
+          "Duration": 7.0,
+          "Speed": 0.9999999999982445,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 7.0,
+          "Speed": 0.9999999999979863,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Sine Wave [1.7.93]",
+    "Main Speed",
+    {
+      "fields": [
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999982445,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999979863,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Sine Wave [1.7.93]",
+    "Modulator",
+    {
+      "fields": [
+        {
+          "Duration": 3.0,
+          "Speed": 0.9999999999982445,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 3.0,
+          "Speed": 0.9999999999979863,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Sine Wave [1.7.93]",
+    "Modulation Depth",
+    {
+      "fields": [
+        {
+          "Duration": 7.0,
+          "Speed": 0.9999999999982445,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 7.0,
+          "Speed": 0.9999999999979863,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Sine Wave [1.7.93]",
+    "Modulator Speed",
+    {
+      "fields": [
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999982445,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999979863,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Sine Wave [1.7.93]",
+    "Amplitude",
+    {
+      "fields": [
+        {
+          "Duration": 11.0,
+          "Speed": 0.9999999999982445,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 11.0,
+          "Speed": 0.9999999999979863,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Sine Wave [1.7.93]",
+    "Position",
+    {
+      "fields": [
+        {
+          "Duration": 8.0,
+          "Speed": 0.9999999999982445,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 8.0,
+          "Speed": 0.9999999999979863,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 z33d+ [1.6.4]",
+    "mx",
+    {
+      "fields": [
+        {
+          "Duration": 5.999999999999999,
+          "Speed": 0.9999999999995869,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 5.999999999999999,
+          "Speed": 0.9999999999993288,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 z33d+ [1.6.4]",
+    "my",
+    {
+      "fields": [
+        {
+          "Duration": 10.0,
+          "Speed": 0.9999999999995869,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 10.0,
+          "Speed": 0.9999999999993288,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 z33d+ [1.6.4]",
+    "axis x",
+    {
+      "fields": [
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999995869,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999993288,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 z33d+ [1.6.4]",
+    "axis y",
+    {
+      "fields": [
+        {
+          "Duration": 7.0,
+          "Speed": 0.9999999999995869,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 7.0,
+          "Speed": 0.9999999999993288,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 z33d+ [1.6.4]",
+    "rot angle",
+    {
+      "fields": [
+        {
+          "Duration": 11.0,
+          "Speed": 0.9999999999995869,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 11.0,
+          "Speed": 0.9999999999993288,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 z33d+ [1.6.4]",
+    "axis drift",
+    {
+      "fields": [
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999995869,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999993288,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 DimensionMorphingTopography [1.6.5]",
+    "rx",
+    {
+      "fields": [
+        {
+          "Duration": 11.999999999999998,
+          "Speed": 0.9999999999995869,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 11.999999999999998,
+          "Speed": 0.9999999999993288,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 DimensionMorphingTopography [1.6.5]",
+    "ry",
+    {
+      "fields": [
+        {
+          "Duration": 20.0,
+          "Speed": 0.9999999999995869,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 20.0,
+          "Speed": 0.9999999999993288,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 DimensionMorphingTopography [1.6.5]",
+    "rz",
+    {
+      "fields": [
+        {
+          "Duration": 28.0,
+          "Speed": 0.9999999999995869,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 28.0,
+          "Speed": 0.9999999999993288,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 MagicLougie [1.6.6]",
+    "offset1",
+    {
+      "fields": [
+        {
+          "Duration": 23.999999999999996,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 23.999999999999996,
+          "Speed": 0.9999999999982445,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 MagicLougie [1.6.6]",
+    "offset2",
+    {
+      "fields": [
+        {
+          "Duration": 40.0,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 40.0,
+          "Speed": 0.9999999999982445,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 MagicLougie [1.6.6]",
+    "offset3",
+    {
+      "fields": [
+        {
+          "Duration": 56.0,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 56.0,
+          "Speed": 0.9999999999982445,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 MagicLougie [1.6.6]",
+    "rotx",
+    {
+      "fields": [
+        {
+          "Duration": 23.999999999999996,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 23.999999999999996,
+          "Speed": 0.9999999999982445,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 MagicLougie [1.6.6]",
+    "roty",
+    {
+      "fields": [
+        {
+          "Duration": 40.0,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 40.0,
+          "Speed": 0.9999999999982445,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 MagicLougie [1.6.6]",
+    "rotz",
+    {
+      "fields": [
+        {
+          "Duration": 56.0,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 56.0,
+          "Speed": 0.9999999999982445,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 GeodesicTiling [1.6.7]",
+    "Float In 2",
+    {
+      "fields": [
+        {
+          "Duration": 23.999999999999996,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 23.999999999999996,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 GeodesicTiling [1.6.7]",
+    "Float In 3",
+    {
+      "fields": [
+        {
+          "Duration": 40.0,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 40.0,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 GeodesicTiling [1.6.7]",
+    "Float In 4",
+    {
+      "fields": [
+        {
+          "Duration": 56.0,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 56.0,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 GeodesicTiling [1.6.7]",
+    "subdivison",
+    {
+      "fields": [
+        {
+          "Duration": 20.0,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 20.0,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 4D Voronoi + Hopf Fibration [1.6.10]",
+    "Quat W",
+    {
+      "fields": [
+        {
+          "Duration": 32.0,
+          "Speed": 0.9999999999994836,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        },
+        {
+          "Duration": 32.0,
+          "Speed": 0.9999999999992255,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 4D Voronoi + Hopf Fibration [1.6.10]",
+    "Quat X",
+    {
+      "fields": [
+        {
+          "Duration": 16.0,
+          "Speed": 0.9999999999994836,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.5
+        },
+        {
+          "Duration": 16.0,
+          "Speed": 0.9999999999992255,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.5
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 4D Voronoi + Hopf Fibration [1.6.10]",
+    "Quat Y",
+    {
+      "fields": [
+        {
+          "Duration": 10.655999999999999,
+          "Speed": 0.9999999999994836,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.333
+        },
+        {
+          "Duration": 10.655999999999999,
+          "Speed": 0.9999999999992255,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.333
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 4D Voronoi + Hopf Fibration [1.6.10]",
+    "Quat Z",
+    {
+      "fields": [
+        {
+          "Duration": 4.576,
+          "Speed": 0.9999999999994836,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.143
+        },
+        {
+          "Duration": 4.576,
+          "Speed": 0.9999999999992255,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.143
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 16 Dimensional Julia (Sedenion) [1.6.11]",
+    "Quat W",
+    {
+      "fields": [
+        {
+          "Duration": 16.0,
+          "Speed": 0.9999999999994836,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        },
+        {
+          "Duration": 16.0,
+          "Speed": 0.9999999999992255,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 16 Dimensional Julia (Sedenion) [1.6.11]",
+    "Quat X",
+    {
+      "fields": [
+        {
+          "Duration": 21.343999999999998,
+          "Speed": 0.9999999999994836,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        },
+        {
+          "Duration": 21.343999999999998,
+          "Speed": 0.9999999999992255,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 16 Dimensional Julia (Sedenion) [1.6.11]",
+    "Quat Y",
+    {
+      "fields": [
+        {
+          "Duration": 26.656,
+          "Speed": 0.9999999999994836,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.833
+        },
+        {
+          "Duration": 26.656,
+          "Speed": 0.9999999999992255,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.833
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 16 Dimensional Julia (Sedenion) [1.6.11]",
+    "Quat Z",
+    {
+      "fields": [
+        {
+          "Duration": 17.056,
+          "Speed": 0.9999999999994836,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.533
+        },
+        {
+          "Duration": 17.056,
+          "Speed": 0.9999999999992255,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.533
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Barth Sextic Surfaces [1.6.12]",
+    "Quat W",
+    {
+      "fields": [
+        {
+          "Duration": 8.0,
+          "Speed": 0.9999999999994836,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        },
+        {
+          "Duration": 8.0,
+          "Speed": 0.9999999999992255,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Barth Sextic Surfaces [1.6.12]",
+    "Quat X",
+    {
+      "fields": [
+        {
+          "Duration": 13.328,
+          "Speed": 0.9999999999994836,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.833
+        },
+        {
+          "Duration": 13.328,
+          "Speed": 0.9999999999992255,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.833
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Barth Sextic Surfaces [1.6.12]",
+    "Quat Y",
+    {
+      "fields": [
+        {
+          "Duration": 8.528,
+          "Speed": 0.9999999999994836,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.533
+        },
+        {
+          "Duration": 8.528,
+          "Speed": 0.9999999999992255,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.533
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Barth Sextic Surfaces [1.6.12]",
+    "Quat Z",
+    {
+      "fields": [
+        {
+          "Duration": 10.671999999999999,
+          "Speed": 0.9999999999994836,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        },
+        {
+          "Duration": 10.671999999999999,
+          "Speed": 0.9999999999992255,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Crystal Drops [1.6.13]",
+    "Quat W",
+    {
+      "fields": [
+        {
+          "Duration": 8.0,
+          "Speed": 0.9999999999994836,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        },
+        {
+          "Duration": 8.0,
+          "Speed": 0.9999999999992255,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Crystal Drops [1.6.13]",
+    "Quat X",
+    {
+      "fields": [
+        {
+          "Duration": 5.335999999999999,
+          "Speed": 0.9999999999994836,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        },
+        {
+          "Duration": 5.335999999999999,
+          "Speed": 0.9999999999992255,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Crystal Drops [1.6.13]",
+    "Quat Y",
+    {
+      "fields": [
+        {
+          "Duration": 6.3999999999999995,
+          "Speed": 0.9999999999994836,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.8000000000000002
+        },
+        {
+          "Duration": 6.3999999999999995,
+          "Speed": 0.9999999999992255,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.8000000000000002
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Crystal Drops [1.6.13]",
+    "Quat Z",
+    {
+      "fields": [
+        {
+          "Duration": 4.264,
+          "Speed": 0.9999999999994836,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.533
+        },
+        {
+          "Duration": 4.264,
+          "Speed": 0.9999999999992255,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.533
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 curved surface [1.6.14]",
+    "Quat W",
+    {
+      "fields": [
+        {
+          "Duration": 8.528,
+          "Speed": 0.9999999999994836,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.533
+        },
+        {
+          "Duration": 8.528,
+          "Speed": 0.9999999999992255,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.533
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 curved surface [1.6.14]",
+    "Quat X",
+    {
+      "fields": [
+        {
+          "Duration": 16.0,
+          "Speed": 0.9999999999994836,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        },
+        {
+          "Duration": 16.0,
+          "Speed": 0.9999999999992255,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 curved surface [1.6.14]",
+    "Quat Y",
+    {
+      "fields": [
+        {
+          "Duration": 10.671999999999999,
+          "Speed": 0.9999999999994836,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        },
+        {
+          "Duration": 10.671999999999999,
+          "Speed": 0.9999999999992255,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 curved surface [1.6.14]",
+    "Quat Z",
+    {
+      "fields": [
+        {
+          "Duration": 12.799999999999999,
+          "Speed": 0.9999999999994836,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.8000000000000002
+        },
+        {
+          "Duration": 12.799999999999999,
+          "Speed": 0.9999999999992255,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.8000000000000002
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Hopf + Poincare [1.6.15]",
+    "Quat W",
+    {
+      "fields": [
+        {
+          "Duration": 32.0,
+          "Speed": 0.9999999999994836,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        },
+        {
+          "Duration": 32.0,
+          "Speed": 0.9999999999992255,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Hopf + Poincare [1.6.15]",
+    "Quat X",
+    {
+      "fields": [
+        {
+          "Duration": 17.056,
+          "Speed": 0.9999999999994836,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.533
+        },
+        {
+          "Duration": 17.056,
+          "Speed": 0.9999999999992255,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.533
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Hopf + Poincare [1.6.15]",
+    "Quat Y",
+    {
+      "fields": [
+        {
+          "Duration": 21.343999999999998,
+          "Speed": 0.9999999999994836,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        },
+        {
+          "Duration": 21.343999999999998,
+          "Speed": 0.9999999999992255,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Hopf + Poincare [1.6.15]",
+    "Quat Z",
+    {
+      "fields": [
+        {
+          "Duration": 25.599999999999998,
+          "Speed": 0.9999999999994836,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.8000000000000002
+        },
+        {
+          "Duration": 25.599999999999998,
+          "Speed": 0.9999999999992255,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.8000000000000002
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Melty Boi [1.6.17]",
+    "intensity",
+    {
+      "fields": [
+        {
+          "Duration": 16.0,
+          "Speed": 0.9999999999994836,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        },
+        {
+          "Duration": 16.0,
+          "Speed": 0.9999999999992255,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Melty Boi [1.6.17]",
+    "scale x",
+    {
+      "fields": [
+        {
+          "Duration": 8.528,
+          "Speed": 0.9999999999994836,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.533
+        },
+        {
+          "Duration": 8.528,
+          "Speed": 0.9999999999992255,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.533
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Melty Boi [1.6.17]",
+    "scale y",
+    {
+      "fields": [
+        {
+          "Duration": 12.799999999999999,
+          "Speed": 0.9999999999994836,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.8000000000000002
+        },
+        {
+          "Duration": 12.799999999999999,
+          "Speed": 0.9999999999992255,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.8000000000000002
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Melty Boi [1.6.17]",
+    "spread",
+    {
+      "fields": [
+        {
+          "Duration": 10.671999999999999,
+          "Speed": 0.9999999999994836,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        },
+        {
+          "Duration": 10.671999999999999,
+          "Speed": 0.9999999999992255,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Quantum Zappy Sphere [1.6.19]",
+    "Quat W",
+    {
+      "fields": [
+        {
+          "Duration": 16.0,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        },
+        {
+          "Duration": 16.0,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Quantum Zappy Sphere [1.6.19]",
+    "Quat X",
+    {
+      "fields": [
+        {
+          "Duration": 8.528,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.533
+        },
+        {
+          "Duration": 8.528,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.533
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Quantum Zappy Sphere [1.6.19]",
+    "Quat Y",
+    {
+      "fields": [
+        {
+          "Duration": 10.671999999999999,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        },
+        {
+          "Duration": 10.671999999999999,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Quantum Zappy Sphere [1.6.19]",
+    "Quat Z",
+    {
+      "fields": [
+        {
+          "Duration": 13.328,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.833
+        },
+        {
+          "Duration": 13.328,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.833
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Quaternion Averaging [1.6.20]",
+    "Quat W",
+    {
+      "fields": [
+        {
+          "Duration": 32.0,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        },
+        {
+          "Duration": 32.0,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Quaternion Averaging [1.6.20]",
+    "Quat X",
+    {
+      "fields": [
+        {
+          "Duration": 21.343999999999998,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        },
+        {
+          "Duration": 21.343999999999998,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Quaternion Averaging [1.6.20]",
+    "Quat Y",
+    {
+      "fields": [
+        {
+          "Duration": 26.656,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.833
+        },
+        {
+          "Duration": 26.656,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.833
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Quaternion Averaging [1.6.20]",
+    "Quat Z",
+    {
+      "fields": [
+        {
+          "Duration": 17.056,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.533
+        },
+        {
+          "Duration": 17.056,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.533
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Quaternion Conjugation 2 [1.6.21]",
+    "Quat W",
+    {
+      "fields": [
+        {
+          "Duration": 12.799999999999999,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.8000000000000002
+        },
+        {
+          "Duration": 12.799999999999999,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.8000000000000002
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Quaternion Conjugation 2 [1.6.21]",
+    "Quat X",
+    {
+      "fields": [
+        {
+          "Duration": 10.671999999999999,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        },
+        {
+          "Duration": 10.671999999999999,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Quaternion Conjugation 2 [1.6.21]",
+    "Quat Y",
+    {
+      "fields": [
+        {
+          "Duration": 8.528,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.533
+        },
+        {
+          "Duration": 8.528,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.533
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Quaternion Conjugation 2 [1.6.21]",
+    "Quat Z",
+    {
+      "fields": [
+        {
+          "Duration": 16.0,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        },
+        {
+          "Duration": 16.0,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 quantum droplet [1.6.22]",
+    "Quat W",
+    {
+      "fields": [
+        {
+          "Duration": 16.0,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        },
+        {
+          "Duration": 16.0,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 quantum droplet [1.6.22]",
+    "Quat X",
+    {
+      "fields": [
+        {
+          "Duration": 8.528,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.533
+        },
+        {
+          "Duration": 8.528,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.533
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 quantum droplet [1.6.22]",
+    "Quat Y",
+    {
+      "fields": [
+        {
+          "Duration": 12.799999999999999,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.8000000000000002
+        },
+        {
+          "Duration": 12.799999999999999,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.8000000000000002
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 quantum droplet [1.6.22]",
+    "Quat Z",
+    {
+      "fields": [
+        {
+          "Duration": 10.671999999999999,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        },
+        {
+          "Duration": 10.671999999999999,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Ray Marching Experiment n35 [1.6.24]",
+    "Quat W",
+    {
+      "fields": [
+        {
+          "Duration": 16.0,
+          "Speed": 0.9999999999995869,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        },
+        {
+          "Duration": 16.0,
+          "Speed": 0.9999999999993288,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Ray Marching Experiment n35 [1.6.24]",
+    "Quat X",
+    {
+      "fields": [
+        {
+          "Duration": 10.671999999999999,
+          "Speed": 0.9999999999995869,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        },
+        {
+          "Duration": 10.671999999999999,
+          "Speed": 0.9999999999993288,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Ray Marching Experiment n35 [1.6.24]",
+    "Quat Y",
+    {
+      "fields": [
+        {
+          "Duration": 12.799999999999999,
+          "Speed": 0.9999999999995869,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.8000000000000002
+        },
+        {
+          "Duration": 12.799999999999999,
+          "Speed": 0.9999999999993288,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.8000000000000002
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Ray Marching Experiment n35 [1.6.24]",
+    "Quat Z",
+    {
+      "fields": [
+        {
+          "Duration": 8.528,
+          "Speed": 0.9999999999995869,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.533
+        },
+        {
+          "Duration": 8.528,
+          "Speed": 0.9999999999993288,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.533
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Spikeball_v2 [1.6.26]",
+    "Quat W",
+    {
+      "fields": [
+        {
+          "Duration": 32.0,
+          "Speed": 0.9999999999995869,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        },
+        {
+          "Duration": 32.0,
+          "Speed": 0.9999999999993288,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Spikeball_v2 [1.6.26]",
+    "Quat X",
+    {
+      "fields": [
+        {
+          "Duration": 17.056,
+          "Speed": 0.9999999999995869,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.533
+        },
+        {
+          "Duration": 17.056,
+          "Speed": 0.9999999999993288,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.533
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Spikeball_v2 [1.6.26]",
+    "Quat Y",
+    {
+      "fields": [
+        {
+          "Duration": 21.343999999999998,
+          "Speed": 0.9999999999995869,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        },
+        {
+          "Duration": 21.343999999999998,
+          "Speed": 0.9999999999993288,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Spikeball_v2 [1.6.26]",
+    "Quat Z",
+    {
+      "fields": [
+        {
+          "Duration": 26.656,
+          "Speed": 0.9999999999995869,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.833
+        },
+        {
+          "Duration": 26.656,
+          "Speed": 0.9999999999993288,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.833
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Quantum Carpets [1.6.27]",
+    "Wave Count",
+    {
+      "fields": [
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999994836,
+          "PlayMode": "Random",
+          "PlayDirection": "<",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999992255,
+          "PlayMode": "Random",
+          "PlayDirection": "<",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Raymarched Hopf Fibers [1.6.29]",
+    "Quat W",
+    {
+      "fields": [
+        {
+          "Duration": 10.671999999999999,
+          "Speed": 0.9999999999995869,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        },
+        {
+          "Duration": 10.671999999999999,
+          "Speed": 0.9999999999993288,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Raymarched Hopf Fibers [1.6.29]",
+    "Quat X",
+    {
+      "fields": [
+        {
+          "Duration": 16.0,
+          "Speed": 0.9999999999995869,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        },
+        {
+          "Duration": 16.0,
+          "Speed": 0.9999999999993288,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Raymarched Hopf Fibers [1.6.29]",
+    "Quat Y",
+    {
+      "fields": [
+        {
+          "Duration": 8.528,
+          "Speed": 0.9999999999995869,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.533
+        },
+        {
+          "Duration": 8.528,
+          "Speed": 0.9999999999993288,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.533
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Raymarched Hopf Fibers [1.6.29]",
+    "Quat Z",
+    {
+      "fields": [
+        {
+          "Duration": 12.799999999999999,
+          "Speed": 0.9999999999995869,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.8000000000000002
+        },
+        {
+          "Duration": 12.799999999999999,
+          "Speed": 0.9999999999993288,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.8000000000000002
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Dodecahedron [1.6.30]",
+    "een",
+    {
+      "fields": [
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999993804,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999991223,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Dodecahedron [1.6.30]",
+    "twee",
+    {
+      "fields": [
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999993804,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999991223,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Wireframe stellated dodecahedron [1.6.31]",
+    "Float In",
+    {
+      "fields": [
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999994836,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.9999999999999993
+        },
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999992255,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.9999999999999993
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 CubeCluster [1.6.33]",
+    "y",
+    {
+      "fields": [
+        {
+          "Duration": 20.0,
+          "Speed": 0.9999999999993288,
+          "PlayMode": "Loop",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 20.0,
+          "Speed": 0.9999999999990706,
+          "PlayMode": "Loop",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 CubeCluster [1.6.33]",
+    "x",
+    {
+      "fields": [
+        {
+          "Duration": 28.0,
+          "Speed": 0.9999999999993288,
+          "PlayMode": "Loop",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 28.0,
+          "Speed": 0.9999999999990706,
+          "PlayMode": "Loop",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 CubeCluster [1.6.33]",
+    "scale",
+    {
+      "fields": [
+        {
+          "Duration": 7.0,
+          "Speed": 0.9999999999993288,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 7.0,
+          "Speed": 0.9999999999990706,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 example using quaternions [1.6.34]",
+    "Quat W",
+    {
+      "fields": [
+        {
+          "Duration": 12.799999999999999,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.8000000000000002
+        },
+        {
+          "Duration": 12.799999999999999,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.8000000000000002
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 example using quaternions [1.6.34]",
+    "Quat X",
+    {
+      "fields": [
+        {
+          "Duration": 10.671999999999999,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        },
+        {
+          "Duration": 10.671999999999999,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 example using quaternions [1.6.34]",
+    "Quat Y",
+    {
+      "fields": [
+        {
+          "Duration": 8.528,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.533
+        },
+        {
+          "Duration": 8.528,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.533
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 example using quaternions [1.6.34]",
+    "Quat Z",
+    {
+      "fields": [
+        {
+          "Duration": 16.0,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        },
+        {
+          "Duration": 16.0,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Multi Cube [1.6.35]",
+    "x",
+    {
+      "fields": [
+        {
+          "Duration": 8.0,
+          "Speed": 0.9999999999983994,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        },
+        {
+          "Duration": 8.0,
+          "Speed": 0.9999999999981412,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Multi Cube [1.6.35]",
+    "y",
+    {
+      "fields": [
+        {
+          "Duration": 13.336000000000004,
+          "Speed": 0.9999999999983994,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.6670000000000003
+        },
+        {
+          "Duration": 13.336000000000004,
+          "Speed": 0.9999999999981412,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.6670000000000003
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Multi Cube [1.6.35]",
+    "z",
+    {
+      "fields": [
+        {
+          "Duration": 13.999999999999998,
+          "Speed": 0.9999999999983994,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.7499999999999998
+        },
+        {
+          "Duration": 13.999999999999998,
+          "Speed": 0.9999999999981412,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.7499999999999998
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Multi Cube [1.6.35]",
+    "drift",
+    {
+      "fields": [
+        {
+          "Duration": 12.568,
+          "Speed": 0.9999999999983994,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.571
+        },
+        {
+          "Duration": 12.568,
+          "Speed": 0.9999999999981412,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.571
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Multi Cube [1.6.35]",
+    "scale",
+    {
+      "fields": [
+        {
+          "Duration": 12.799999999999999,
+          "Speed": 0.9999999999983994,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.6000000000000003
+        },
+        {
+          "Duration": 12.799999999999999,
+          "Speed": 0.9999999999981412,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.6000000000000003
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Multi Cube [1.6.35]",
+    "color",
+    {
+      "fields": [
+        {
+          "Duration": 12.920000000000002,
+          "Speed": 0.9999999999983994,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.615
+        },
+        {
+          "Duration": 12.920000000000002,
+          "Speed": 0.9999999999981412,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.615
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Multi Cube [1.6.35]",
+    "perspective",
+    {
+      "fields": [
+        {
+          "Duration": 12.36,
+          "Speed": 0.9999999999983994,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.545
+        },
+        {
+          "Duration": 12.36,
+          "Speed": 0.9999999999981412,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.545
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Multi Cube [1.6.36]",
+    "x",
+    {
+      "fields": [
+        {
+          "Duration": 8.0,
+          "Speed": 0.999999999999432,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        },
+        {
+          "Duration": 8.0,
+          "Speed": 0.9999999999991739,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Multi Cube [1.6.36]",
+    "y",
+    {
+      "fields": [
+        {
+          "Duration": 13.336000000000004,
+          "Speed": 0.999999999999432,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.6670000000000003
+        },
+        {
+          "Duration": 13.336000000000004,
+          "Speed": 0.9999999999991739,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.6670000000000003
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Multi Cube [1.6.36]",
+    "z",
+    {
+      "fields": [
+        {
+          "Duration": 13.999999999999998,
+          "Speed": 0.999999999999432,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.7499999999999998
+        },
+        {
+          "Duration": 13.999999999999998,
+          "Speed": 0.9999999999991739,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.7499999999999998
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Multi Cube [1.6.36]",
+    "drift",
+    {
+      "fields": [
+        {
+          "Duration": 12.568,
+          "Speed": 0.999999999999432,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.571
+        },
+        {
+          "Duration": 12.568,
+          "Speed": 0.9999999999991739,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.571
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Multi Cube [1.6.36]",
+    "scale",
+    {
+      "fields": [
+        {
+          "Duration": 12.799999999999999,
+          "Speed": 0.9999999999983994,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.6000000000000003
+        },
+        {
+          "Duration": 12.799999999999999,
+          "Speed": 0.9999999999981412,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.6000000000000003
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Multi Cube [1.6.36]",
+    "color",
+    {
+      "fields": [
+        {
+          "Duration": 12.920000000000002,
+          "Speed": 0.999999999999432,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.615
+        },
+        {
+          "Duration": 12.920000000000002,
+          "Speed": 0.9999999999991739,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.615
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Multi Cube [1.6.36]",
+    "perspective",
+    {
+      "fields": [
+        {
+          "Duration": 12.36,
+          "Speed": 0.999999999999432,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.545
+        },
+        {
+          "Duration": 12.36,
+          "Speed": 0.9999999999991739,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.545
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 quantum computer [1.6.37]",
+    "Quat W",
+    {
+      "fields": [
+        {
+          "Duration": 16.0,
+          "Speed": 0.9999999999994836,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        },
+        {
+          "Duration": 16.0,
+          "Speed": 0.9999999999992255,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 quantum computer [1.6.37]",
+    "Quat X",
+    {
+      "fields": [
+        {
+          "Duration": 8.528,
+          "Speed": 0.9999999999994836,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.533
+        },
+        {
+          "Duration": 8.528,
+          "Speed": 0.9999999999992255,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.533
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 quantum computer [1.6.37]",
+    "Quat Y",
+    {
+      "fields": [
+        {
+          "Duration": 10.671999999999999,
+          "Speed": 0.9999999999994836,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        },
+        {
+          "Duration": 10.671999999999999,
+          "Speed": 0.9999999999992255,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 quantum computer [1.6.37]",
+    "Quat Z",
+    {
+      "fields": [
+        {
+          "Duration": 12.799999999999999,
+          "Speed": 0.9999999999994836,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.8000000000000002
+        },
+        {
+          "Duration": 12.799999999999999,
+          "Speed": 0.9999999999992255,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.8000000000000002
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Melting Fractal [1.6.38]",
+    "anim speed",
+    {
+      "fields": [
+        {
+          "Duration": 5.0,
+          "Speed": 0.999999999999432,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999991739,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        }
+      ],
+      "value": [
+        0.0,
+        0.8966608416677375
+      ],
+      "phase": [
+        0.0,
+        0.8966608416677375
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Melting Fractal [1.6.38]",
+    "rotation mix",
+    {
+      "fields": [
+        {
+          "Duration": 5.0,
+          "Speed": 0.999999999999432,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.625
+        },
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999991739,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.625
+        }
+      ],
+      "value": [
+        0.39770302405724156,
+        0.5088276290460667
+      ],
+      "phase": [
+        0.0,
+        0.8966608416677375
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Melting Fractal [1.6.38]",
+    "orbit speed",
+    {
+      "fields": [
+        {
+          "Duration": 20.0,
+          "Speed": 0.999999999999432,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 20.0,
+          "Speed": 0.9999999999991739,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ],
+      "value": [
+        0.0,
+        0.9741652104169352
+      ],
+      "phase": [
+        0.0,
+        0.9741652104169352
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Melting Fractal [1.6.38]",
+    "camera roll",
+    {
+      "fields": [
+        {
+          "Duration": 10.0,
+          "Speed": 0.999999999999432,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 10.0,
+          "Speed": 0.9999999999991739,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ],
+      "value": [
+        0.0,
+        0.9483304208338688
+      ],
+      "phase": [
+        0.0,
+        0.9483304208338688
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Melting Fractal [1.6.38]",
+    "cone radius",
+    {
+      "fields": [
+        {
+          "Duration": 2.5,
+          "Speed": 0.999999999999432,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 2.5,
+          "Speed": 0.9999999999991739,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ],
+      "value": [
+        0.0,
+        0.7933216833354748
+      ],
+      "phase": [
+        0.0,
+        0.7933216833354748
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Melting Fractal [1.6.38]",
+    "fold offset",
+    {
+      "fields": [
+        {
+          "Duration": 7.0,
+          "Speed": 0.999999999999432,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0750535818246694
+        },
+        {
+          "Duration": 7.0,
+          "Speed": 0.9999999999991739,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0750535818246694
+        }
+      ],
+      "value": [
+        0.5739851731520432,
+        0.5972490966873727
+      ],
+      "phase": [
+        0.0,
+        0.07381368452304464
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Klein Bottle (3D) [1.6.40]",
+    "Quat W",
+    {
+      "fields": [
+        {
+          "Duration": 4.0,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        },
+        {
+          "Duration": 4.0,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Klein Bottle (3D) [1.6.40]",
+    "Quat X",
+    {
+      "fields": [
+        {
+          "Duration": 4.264,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.533
+        },
+        {
+          "Duration": 4.264,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.533
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Klein Bottle (3D) [1.6.40]",
+    "Quat Y",
+    {
+      "fields": [
+        {
+          "Duration": 5.335999999999999,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        },
+        {
+          "Duration": 5.335999999999999,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Klein Bottle (3D) [1.6.40]",
+    "Quat Z",
+    {
+      "fields": [
+        {
+          "Duration": 3.1999999999999997,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.8000000000000002
+        },
+        {
+          "Duration": 3.1999999999999997,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.8000000000000002
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 4-space rotations [1.6.42]",
+    "Quat W",
+    {
+      "fields": [
+        {
+          "Duration": 16.0,
+          "Speed": 0.9999999999994836,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        },
+        {
+          "Duration": 16.0,
+          "Speed": 0.9999999999992255,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 4-space rotations [1.6.42]",
+    "Quat X",
+    {
+      "fields": [
+        {
+          "Duration": 12.799999999999999,
+          "Speed": 0.9999999999994836,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.8000000000000002
+        },
+        {
+          "Duration": 12.799999999999999,
+          "Speed": 0.9999999999992255,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.8000000000000002
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 4-space rotations [1.6.42]",
+    "Quat Y",
+    {
+      "fields": [
+        {
+          "Duration": 10.671999999999999,
+          "Speed": 0.9999999999994836,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        },
+        {
+          "Duration": 10.671999999999999,
+          "Speed": 0.9999999999992255,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 4-space rotations [1.6.42]",
+    "Quat Z",
+    {
+      "fields": [
+        {
+          "Duration": 9.008,
+          "Speed": 0.9999999999994836,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.563
+        },
+        {
+          "Duration": 9.008,
+          "Speed": 0.9999999999992255,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.563
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 quaternion slerp [1.6.45]",
+    "Quat W",
+    {
+      "fields": [
+        {
+          "Duration": 21.343999999999998,
+          "Speed": 0.9999999999994836,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        },
+        {
+          "Duration": 21.343999999999998,
+          "Speed": 0.9999999999992255,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 quaternion slerp [1.6.45]",
+    "Quat X",
+    {
+      "fields": [
+        {
+          "Duration": 32.0,
+          "Speed": 0.9999999999994836,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        },
+        {
+          "Duration": 32.0,
+          "Speed": 0.9999999999992255,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 quaternion slerp [1.6.45]",
+    "Quat Y",
+    {
+      "fields": [
+        {
+          "Duration": 25.599999999999998,
+          "Speed": 0.9999999999994836,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.8000000000000002
+        },
+        {
+          "Duration": 25.599999999999998,
+          "Speed": 0.9999999999992255,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.8000000000000002
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 quaternion slerp [1.6.45]",
+    "Quat Z",
+    {
+      "fields": [
+        {
+          "Duration": 17.056,
+          "Speed": 0.9999999999994836,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.533
+        },
+        {
+          "Duration": 17.056,
+          "Speed": 0.9999999999992255,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.533
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Quaternion Twister [1.6.46]",
+    "Quat W",
+    {
+      "fields": [
+        {
+          "Duration": 8.528,
+          "Speed": 0.9999999999994836,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.533
+        },
+        {
+          "Duration": 8.528,
+          "Speed": 0.9999999999992255,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.533
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Quaternion Twister [1.6.46]",
+    "Quat X",
+    {
+      "fields": [
+        {
+          "Duration": 12.799999999999999,
+          "Speed": 0.9999999999994836,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.8000000000000002
+        },
+        {
+          "Duration": 12.799999999999999,
+          "Speed": 0.9999999999992255,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.8000000000000002
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Quaternion Twister [1.6.46]",
+    "Quat Y",
+    {
+      "fields": [
+        {
+          "Duration": 16.0,
+          "Speed": 0.9999999999994836,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        },
+        {
+          "Duration": 16.0,
+          "Speed": 0.9999999999992255,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Quaternion Twister [1.6.46]",
+    "Quat Z",
+    {
+      "fields": [
+        {
+          "Duration": 10.671999999999999,
+          "Speed": 0.9999999999994836,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        },
+        {
+          "Duration": 10.671999999999999,
+          "Speed": 0.9999999999992255,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 MTK_Tentaclone_1.1 [1.7.53]",
+    "X_AMP",
+    {
+      "fields": [
+        {
+          "Duration": 20.0,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 20.0,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 MTK_Tentaclone_1.1 [1.7.53]",
+    "X_PATTERN ",
+    {
+      "fields": [
+        {
+          "Duration": 23.999999999999996,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 23.999999999999996,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 MTK_Tentaclone_1.1 [1.7.53]",
+    "Y_AMP",
+    {
+      "fields": [
+        {
+          "Duration": 32.0,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Loop",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 32.0,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Loop",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 MTK_Tentaclone_1.1 [1.7.53]",
+    "Y_PATTERN",
+    {
+      "fields": [
+        {
+          "Duration": 22.0,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 22.0,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 MTK_Worm Fresnel [1.7.54]",
+    "AMP Y",
+    {
+      "fields": [
+        {
+          "Duration": 14.0,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 14.0,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 MTK_Worm Fresnel [1.7.54]",
+    "SPEED Y",
+    {
+      "fields": [
+        {
+          "Duration": 10.0,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 10.0,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 MTK_Worm Fresnel [1.7.54]",
+    "AMP X",
+    {
+      "fields": [
+        {
+          "Duration": 22.0,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 22.0,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 MTK_Worm Fresnel [1.7.54]",
+    "SPEED X",
+    {
+      "fields": [
+        {
+          "Duration": 16.0,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 16.0,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 MTK_Worm Walker [1.7.55]",
+    "GEO_WIDTH",
+    {
+      "fields": [
+        {
+          "Duration": 32.0,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 32.0,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 MTK_Worm Walker [1.7.55]",
+    "GEO_HEIGHT",
+    {
+      "fields": [
+        {
+          "Duration": 47.99999999999999,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 47.99999999999999,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 MTK_Worm Walker [1.7.55]",
+    "SPREAD",
+    {
+      "fields": [
+        {
+          "Duration": 52.00000000000001,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 52.00000000000001,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 MTK_Worm Walker [1.7.55]",
+    "AMP",
+    {
+      "fields": [
+        {
+          "Duration": 50.95710376701732,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.9999999999999996
+        },
+        {
+          "Duration": 50.95710376701732,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.9999999999999996
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 MTK_Worm_Banded [1.7.56]",
+    "GEO_WIDTH",
+    {
+      "fields": [
+        {
+          "Duration": 5.335533217628404,
+          "Speed": 0.9999999999991996,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.9999999999999991
+        },
+        {
+          "Duration": 5.335533217628404,
+          "Speed": 0.9999999999989415,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.9999999999999991
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 MTK_Worm_Banded [1.7.56]",
+    "LENGTH",
+    {
+      "fields": [
+        {
+          "Duration": 20.0,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 20.0,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 MTK_Worm_Banded [1.7.56]",
+    "SINE_AMP",
+    {
+      "fields": [
+        {
+          "Duration": 11.999999999999998,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 11.999999999999998,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 MTK_Worm_Banded [1.7.56]",
+    "SINE_SPEED",
+    {
+      "fields": [
+        {
+          "Duration": 8.0,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 8.0,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 MTK_Worm_Banded [1.7.56]",
+    "ANGLE",
+    {
+      "fields": [
+        {
+          "Duration": 24.0,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Loop",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 24.0,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Loop",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Tunnelines [1.7.57]",
+    "Vertical",
+    {
+      "fields": [
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Tunnelines [1.7.57]",
+    "Horizontal",
+    {
+      "fields": [
+        {
+          "Duration": 8.0,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.9999999999999991
+        },
+        {
+          "Duration": 8.0,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.9999999999999991
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Rings [1.7.60]",
+    "Spacing",
+    {
+      "fields": [
+        {
+          "Duration": 8.0,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.1454893810914295
+        },
+        {
+          "Duration": 8.0,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.1454893810914295
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Rings [1.7.60]",
+    "Line Width",
+    {
+      "fields": [
+        {
+          "Duration": 13.0,
+          "Speed": 0.9999999999983994,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.7326732673267322
+        },
+        {
+          "Duration": 13.0,
+          "Speed": 0.9999999999981412,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 1.7326732673267322
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Rings [1.7.60]",
+    "Gap",
+    {
+      "fields": [
+        {
+          "Duration": 12.36,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 12.36,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Rings [1.7.60]",
+    "Rotation",
+    {
+      "fields": [
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Rings [1.7.60]",
+    "Rotation Step",
+    {
+      "fields": [
+        {
+          "Duration": 7.0,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 7.0,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 fractal sponge [1.7.61]",
+    "Xr",
+    {
+      "fields": [
+        {
+          "Duration": 3.0,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 3.0,
+          "Speed": 0.9999999999982445,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 fractal sponge [1.7.61]",
+    "Yr",
+    {
+      "fields": [
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 5.0,
+          "Speed": 0.9999999999982445,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": true,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 fractal sponge [1.7.61]",
+    "Zr",
+    {
+      "fields": [
+        {
+          "Duration": 7.0,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 7.0,
+          "Speed": 0.9999999999982445,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 fractal sponge [1.7.61]",
+    "light x",
+    {
+      "fields": [
+        {
+          "Duration": 5.999999999999999,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 5.999999999999999,
+          "Speed": 0.9999999999982445,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 fractal sponge [1.7.61]",
+    "light y",
+    {
+      "fields": [
+        {
+          "Duration": 10.0,
+          "Speed": 0.9999999999985026,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 10.0,
+          "Speed": 0.9999999999982445,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Hologram Boxes [1.7.62]",
+    "Quat W",
+    {
+      "fields": [
+        {
+          "Duration": 16.0,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        },
+        {
+          "Duration": 16.0,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Hologram Boxes [1.7.62]",
+    "Quat X",
+    {
+      "fields": [
+        {
+          "Duration": 4.264,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.533
+        },
+        {
+          "Duration": 4.264,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.533
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Hologram Boxes [1.7.62]",
+    "Quat Y",
+    {
+      "fields": [
+        {
+          "Duration": 5.335999999999999,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        },
+        {
+          "Duration": 5.335999999999999,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.667
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Hologram Boxes [1.7.62]",
+    "Quat Z",
+    {
+      "fields": [
+        {
+          "Duration": 6.3999999999999995,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.8000000000000002
+        },
+        {
+          "Duration": 6.3999999999999995,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": "<",
+          "DurationIsScalable": false,
+          "Max Distance": 0.8000000000000002
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 spiragraph [1.7.63]",
+    "rad1",
+    {
+      "fields": [
+        {
+          "Duration": 20.0,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 20.0,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 spiragraph [1.7.63]",
+    "rad2",
+    {
+      "fields": [
+        {
+          "Duration": 41.585903083700444,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0646117626307818
+        },
+        {
+          "Duration": 41.585903083700444,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 1.0646117626307818
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 spiragraph [1.7.63]",
+    "nudge",
+    {
+      "fields": [
+        {
+          "Duration": 160.0,
+          "Speed": 0.9999999999995353,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        },
+        {
+          "Duration": 160.0,
+          "Speed": 0.9999999999992771,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 2.0
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Edge Detection [1.8.8]",
+    "Opacity",
+    {
+      "fields": [
+        {
+          "Duration": 0.625,
+          "Speed": 0.9999999999988124,
+          "PlayMode": "Play Once & Clear",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.625
+        },
+        {
+          "Duration": 0.625,
+          "Speed": 0.9999999999985543,
+          "PlayMode": "Play Once & Clear",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.625
+        }
+      ]
+    }
+  ],
+  [
+    "FM \u00b7 Edge Detection [1.8.8]",
+    "Multiplier",
+    {
+      "fields": [
+        {
+          "Duration": 1.2337199759570665,
+          "Speed": 0.9999999999988124,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.5422944949261831
+        },
+        {
+          "Duration": 1.2337199759570665,
+          "Speed": 0.9999999999985543,
+          "PlayMode": "Bounce",
+          "PlayDirection": ">",
+          "DurationIsScalable": false,
+          "Max Distance": 0.5422944949261831
+        }
+      ]
+    }
+  ]
+]

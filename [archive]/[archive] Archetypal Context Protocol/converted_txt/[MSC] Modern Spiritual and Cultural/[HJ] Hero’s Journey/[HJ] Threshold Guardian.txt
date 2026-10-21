@@ -1,0 +1,78 @@
+// [HJ] Threshold Guardian
+{
+  "SchemaVersion": "1.1-ter",
+  "ArchetypeName": "Threshold Guardian",
+  "SystemOfOrigin": "HJ",
+  "CulturalLineage": ["Universal", "Greek", "Japanese", "Celtic"],
+  "CommonAliases": ["Gatekeeper", "Guardian Beast", "Challenge", "Test"],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "Tests worthiness and readiness to enter the new world",
+    "PrimaryDomain": "Narrative",
+    "ToneOrPolarity": "Neutral / Challenging",
+    "SymbolicCore": "Sword across the doorway",
+    "Correspondences": {
+      "Element": "Earth",
+      "Planet": "Saturn",
+      "Chakra": "Root",
+      "Color": "Obsidian",
+      "Animal": "Dragon, Lion",
+      "Other": ["Sword", "Door", "Bridge"]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": ["Test", "Initiation gate", "Skill-check"],
+    "ComplementaryArchetypes": ["Hero", "Mentor"],
+    "ShadowForms": ["Bullying Gatekeeper", "Insurmountable Wall"],
+    "DevelopmentalArc": ["Appear → Challenge → Yield or Defeat"],
+    "CyclePhase": "Initiation"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": ["Stoic", "Fearsome", "Discerning", "Unyielding"],
+    "Typologies": {
+      "MBTI": "ESTJ",
+      "Enneagram": "8w9",
+      "Other": ["JP12.Ruler"]
+    },
+    "SubVariants": ["Benevolent Gatekeeper", "Monster Guardian", "Riddle Guardian"],
+    "InternalFamily": "Guardian"
+  },
+  "CulturalContext": {
+    "Regions": ["Global"],
+    "MythicAppearances": ["Cerberus", "Scylla & Charybdis", "Tengu gate guards", "Black Knight"],
+    "ReligiousOrRitualUse": "Entrance tests in mystery schools and martial rites",
+    "HistoricalEvolution": "Temple guardians → fairy-tale giants → modern security checkpoints",
+    "SyncreticForms": ["Bouncer archetype", "Video-game boss"]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "🚪⚔️",
+    "ImageryNotes": "Two stone lions flanking a narrow arch",
+    "ArtisticExamples": [
+      "Harry Potter: Fluffy the three-headed dog",
+      "Greek temple sphinx",
+      "Dark Souls fog gate"
+    ],
+    "PoeticInvocation": "None shall pass who fear the fire within.",
+    "DreamForm": "A silent knight blocking a bridge of flame"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": ["JP12.Ruler", "GM.Carcer", "KB.Gevurah"],
+    "SemanticTags": ["#threshold", "#test", "#guardian", "#challenge"],
+    "RitualFunction": "Embody the threshold of transformation in initiations",
+    "AIPromptSeeds": [
+      "Design a guardian who speaks only in questions the hero must answer honestly."
+    ],
+    "NarrativeHooks": ["The locked gate before the new world", "Riddle at the bridge"]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [
+      { "to": "JP12.Ruler", "strength": "moderate" },
+      { "to": "GM.Carcer", "strength": "weak", "note": "Barrier energy" }
+    ]
+  },
+  "FacetRegistry": [
+    { "facet": "Monster Guardian", "weight": 0.4 },
+    { "facet": "Riddle Guardian", "weight": 0.3 },
+    { "facet": "Benevolent Gatekeeper", "weight": 0.3 }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "compile": "glslang 2/2 clean; both actual OpenGL compilations passed",
+  "samples": [
+    {
+      "file": "barberpole-home.png",
+      "size": [
+        640,
+        360
+      ],
+      "opaque": true,
+      "sha256": "6ffb32a5825cf23c6588d08df6e991639e2b3636b1fd3ee93aed6b47f0fb9e1c"
+    },
+    {
+      "file": "barberpole-wide.png",
+      "size": [
+        640,
+        360
+      ],
+      "opaque": true,
+      "sha256": "88289aaef5bacaa20f319a2ebe8475feb24a2abf27b3a149db9c2b89de54b27d"
+    },
+    {
+      "file": "feet-home.png",
+      "size": [
+        640,
+        360
+      ],
+      "opaque": true,
+      "sha256": "298d981ebfba87d616541a4bf186d847d2ee8f013a157fc00379cac4e54d2b40",
+      "matching_bar_changed_pixel_x": [
+        269,
+        370
+      ],
+      "equal_bar_changed_pixel_width": 102
+    },
+    {
+      "file": "feet-flat.png",
+      "size": [
+        640,
+        360
+      ],
+      "opaque": true,
+      "sha256": "b67345bfec1a78adb2fbe08e7ccb308eebd4339cf6926165347d272b2b2048a7",
+      "matching_bar_changed_pixel_x": [
+        380,
+        482
+      ],
+      "equal_bar_changed_pixel_width": 103
+    }
+  ],
+  "visual_review": "Four-state contact sheet inspected",
+  "measurement": "Compared each bar scanline with the background scanline. Initial exact-luminance interior comparison was unsuitable at antialiased edges and was replaced by this background-difference comparison.",
+  "limits": "No Wire/Arena or Heart runtime test by builder; no frame-rate/smoothness certification."
+}

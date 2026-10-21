@@ -1,0 +1,288 @@
+[
+  {
+    "layer": 5,
+    "col": 11,
+    "source": "SP Figure Spike Source",
+    "controls": [
+      "Speed",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z",
+      "Spike Sharpness"
+    ],
+    "discovered": [
+      "Speed",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z",
+      "Spike Sharpness"
+    ],
+    "probe": "Spike Sharpness",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.4826627146228232,
+      0.40258383376949386,
+      0.3332673112696235,
+      0.30778853445988275
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 5,
+    "col": 12,
+    "source": "SP Figure Crystal Source",
+    "controls": [
+      "Speed",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z",
+      "Refraction"
+    ],
+    "discovered": [
+      "Speed",
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z",
+      "Refraction"
+    ],
+    "probe": "Refraction",
+    "checks": [
+      {
+        "requested": 0.18500000052154064,
+        "observed": 0.18500000052154064,
+        "ok": true
+      },
+      {
+        "requested": 0.3650000002235174,
+        "observed": 0.3650000002235174,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.18260769351760553,
+      0.160304752002343,
+      0.15675840967275295,
+      0.17232658987635163
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 3,
+    "col": 21,
+    "source": "TileIllusion",
+    "controls": [
+      "rate",
+      "scale"
+    ],
+    "discovered": [
+      "rate",
+      "scale"
+    ],
+    "probe": "scale",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.563988929272164,
+      0.4480082768777672,
+      0.3649295983809133,
+      0.3284579810312314
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 3,
+    "col": 23,
+    "source": "Screen Weaver",
+    "controls": [
+      "Speed"
+    ],
+    "discovered": [
+      "Speed"
+    ],
+    "probe": "Speed",
+    "checks": [
+      {
+        "requested": 0.8999999999999999,
+        "observed": 0.8999999999999999,
+        "ok": true
+      },
+      {
+        "requested": 2.0999999999999996,
+        "observed": 2.0999999999999996,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.9432321331108008,
+      0.8003757077133904,
+      0.7392723816812771,
+      0.8201775513349358
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 3,
+    "col": 24,
+    "source": "sin_wave",
+    "controls": [
+      "Speed"
+    ],
+    "discovered": [
+      "Speed"
+    ],
+    "probe": "Speed",
+    "checks": [
+      {
+        "requested": 0.8999999999999999,
+        "observed": 0.8999999999999999,
+        "ok": true
+      },
+      {
+        "requested": 2.0999999999999996,
+        "observed": 2.0999999999999996,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.947273203568979,
+      0.7865931091662184,
+      0.7403979456065064,
+      0.8268173987603025
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 3,
+    "col": 25,
+    "source": "SpiralSurface",
+    "controls": [
+      "x",
+      "y",
+      "rate",
+      "density"
+    ],
+    "discovered": [
+      "x",
+      "y",
+      "rate",
+      "density"
+    ],
+    "probe": "density",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.3498603027183756,
+      0.28794778394636755,
+      0.2606460057938327,
+      0.2744020788772188
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 3,
+    "col": 29,
+    "source": "quantum chaos",
+    "controls": [
+      "Speed"
+    ],
+    "discovered": [
+      "Speed"
+    ],
+    "probe": "Speed",
+    "checks": [
+      {
+        "requested": 0.8999999999999999,
+        "observed": 0.8999999999999999,
+        "ok": true
+      },
+      {
+        "requested": 2.0999999999999996,
+        "observed": 2.0999999999999996,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.9471366993162484,
+      0.7755207513097002,
+      0.7430112054739751,
+      0.8434995280781032
+    ],
+    "drive_varied": true
+  },
+  {
+    "layer": 3,
+    "col": 34,
+    "source": "TwinRays",
+    "controls": [
+      "rate",
+      "count",
+      "x",
+      "y",
+      "width",
+      "soft"
+    ],
+    "discovered": [
+      "rate",
+      "count",
+      "x",
+      "y",
+      "width",
+      "soft"
+    ],
+    "probe": "width",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.8706589462514192,
+      0.6467277824813591,
+      0.4863266344042513,
+      0.3814937064419818
+    ],
+    "drive_varied": true
+  }
+]

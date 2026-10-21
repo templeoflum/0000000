@@ -1,0 +1,198 @@
+[
+  {
+    "source": "Heart Ancient Temple",
+    "status": "added",
+    "static": {
+      "zoom": 0.18367346938775508,
+      "morph": 0.0,
+      "speed": 0.2,
+      "cameraPitch": 0.5,
+      "cameraYaw": 0.5,
+      "cameraRoll": 0.5,
+      "fractalScale": 0.3333333333333333,
+      "fractalIterations": 0.6842105263157895,
+      "surfaceShake": 0.0,
+      "floorPattern": 0.0,
+      "orbSize": 0.0368421052631579,
+      "orbPattern": 0.2,
+      "colorPalette": 0.0,
+      "contrast": 0.3333333333333333,
+      "saturation": 0.5,
+      "brightness": 0.5
+    }
+  },
+  {
+    "source": "Heart Color Wheel",
+    "status": "added",
+    "static": {
+      "Hue Rotation": 0.0,
+      "Color Repeats": 0.21739130434782608,
+      "Saturation Contrast": 0.0,
+      "Center Brightness": 1.0,
+      "Gain": 0.4736842105263158,
+      "Saturation Spread": 0.6363636363636364
+    }
+  },
+  {
+    "source": "Heart Concentrip",
+    "status": "added",
+    "static": {
+      "radialDensity": 0.5238095238095238,
+      "angularDensity": 0.5384615384615384,
+      "blendThreshold": 0.5,
+      "blendWidth": 0.6,
+      "phase": 0.0,
+      "hue": 0.0
+    }
+  },
+  {
+    "source": "Heart HypnoWorm",
+    "status": "added",
+    "static": {
+      "color1R": 0.7,
+      "color1G": 0.1,
+      "color1B": 1.0,
+      "color2R": 0.2,
+      "color2G": 0.8,
+      "color2B": 0.7,
+      "gamma": 0.16,
+      "amp1": 0.37500000000000006,
+      "amp2": 0.04761904761904763,
+      "freq1": 0.475,
+      "freq2": 0.55,
+      "phase1": 0.5375,
+      "phase2": 0.2375,
+      "rate": 0.65
+    }
+  },
+  {
+    "source": "Heart Kali Liberation",
+    "status": "added",
+    "static": {
+      "speed": 0.525,
+      "zoom": 0.18367346938775508,
+      "morphing": 0.5,
+      "colorPulse": 0.2,
+      "brightness": 0.3333333333333333,
+      "contrast": 0.3333333333333333,
+      "cameraX": 0.5,
+      "cameraY": 0.5,
+      "cameraZ": 0.847457627118644,
+      "colorPalette": 0.0
+    }
+  },
+  {
+    "source": "Heart Klein Bottle",
+    "status": "added",
+    "static": {
+      "Quat W": 1.0,
+      "Quat X": 0.5,
+      "Quat Y": 0.5,
+      "Quat Z": 0.5,
+      "Refraction": 0.5,
+      "Wall Thickness": 0.14285714285714285,
+      "Exposure": 0.42857142857142855
+    }
+  },
+  {
+    "source": "Heart Melting Fractal",
+    "status": "added",
+    "static": {
+      "Fold Phase": 1.0,
+      "Twist Amount": 0.5,
+      "Orbit Phase": 0.333,
+      "Camera Roll": 0.0,
+      "Cone Radius": 0.5,
+      "Fold Offset": 0.5,
+      "Glow Strength": 0.2
+    }
+  },
+  {
+    "source": "Heart Paper Fractal",
+    "status": "added",
+    "static": {
+      "rotAsymX": 0.5,
+      "rotAsymY": 0.5,
+      "spinRate": 0.0,
+      "foldRate": 0.0,
+      "spinOffset": 0.5,
+      "foldOffset": 0.03,
+      "sizeOffset": 0.5,
+      "foldDistA": 0.3,
+      "foldDistB": 0.1,
+      "camX": 0.5,
+      "camY": 0.5,
+      "camZ": 0.0,
+      "glowAmount": 0.5
+    }
+  },
+  {
+    "source": "Heart Puls Lattice",
+    "status": "added",
+    "static": {
+      "cellSpacing": 0.4,
+      "barWidth": 0.42105263157894746,
+      "boltWidth": 0.5000000000000001,
+      "greenExpansion": 0.0,
+      "orangeExpansion": 0.0,
+      "pulsePhase": 0.0,
+      "travelPhase": 0.0
+    }
+  },
+  {
+    "source": "Heart Quaternion Field",
+    "status": "added",
+    "static": {
+      "Speed": 0.2,
+      "Field Scale": 0.55,
+      "Hue Speed": 0.3,
+      "Axis 1 Freq": 0.3,
+      "Axis 2 Freq": 0.3,
+      "Axis 3 Freq": 0.3,
+      "Coupling": 0.5,
+      "Brightness": 0.75,
+      "Saturation": 0.5,
+      "Mean Radius": 0.5,
+      "Sample Distance": 0.55
+    }
+  },
+  {
+    "source": "Heart Quaternion Swell",
+    "status": "added",
+    "static": {
+      "Field Scale": 0.5,
+      "Speed": 0.09999999999999999,
+      "Swell Threshold": 0.55,
+      "Swell Sharpness": 0.6,
+      "Hue Shift": 0.0,
+      "Coupling": 0.5,
+      "Darkness": 0.7
+    }
+  },
+  {
+    "source": "Heart Torus",
+    "status": "added",
+    "static": {
+      "animationSpeed": 0.5,
+      "torusSize": 0.3,
+      "color1R": 0.3,
+      "color1G": 0.7,
+      "color1B": 0.9,
+      "color2R": 0.95,
+      "color2G": 0.5,
+      "color2B": 0.1
+    }
+  },
+  {
+    "source": "Heart Vector Lattice",
+    "status": "added",
+    "static": {
+      "camSpeed": 0.5,
+      "rotX": 0.5,
+      "rotZ": 0.5,
+      "colorR": 0.5,
+      "colorG": 0.5,
+      "colorB": 0.5
+    }
+  }
+]

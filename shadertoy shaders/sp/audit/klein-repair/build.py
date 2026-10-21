@@ -1,0 +1,12 @@
+from pathlib import Path
+import json,re,sys,shutil
+P=Path(__file__).resolve().parent;ROOT=P.parents[1];sys.path.insert(0,str(ROOT));import build_wrapper
+src=Path.home()/'Documents/Resolume Wire/Patches/Klein Bottle (3D)/Resource/Klein Bottle (3D).fs';s=src.read_text();m=re.search(r'/\*\s*(\{.*?\})\s*\*/',s,re.S);h=json.loads(m.group(1));h['INPUTS']=[i for i in h['INPUTS'] if i['NAME'] not in ['speed','camDist','fov']];h['INPUTS'].append(dict(NAME='wallThickness',LABEL='Wall Thickness',TYPE='float',DEFAULT=.02,MIN=.01,MAX=.08));h['INPUTS'].append(dict(NAME='exposure',LABEL='Exposure',TYPE='float',DEFAULT=2.0,MIN=.5,MAX=4.0));h['DESCRIPTION']='Heart Klein Bottle: guarded quaternion, ray and light math; shared Figure Transform owns placement. Original preserved.'
+b=s[m.end():];b='\nconst float camDist=9.0;\nconst float fov=3.0;\n'+b
+b=b.replace('#define D 15.','#define D 25.').replace('q = normalize(q);','float q2=dot(q,q); q=q2>1e-10?q*inversesqrt(q2):vec4(0,0,0,1);').replace('vec4(quatW, quatX, quatY, quatZ)','vec4(quatX, quatY, quatZ, quatW)').replace('/ RENDERSIZE.yy','/ min(RENDERSIZE.x,RENDERSIZE.y)').replace('float t = 0.02;','float t = wallThickness;')
+b=b.replace('if (_d > P)', 'if (h.d > P || h.t > D)')
+b=b.replace('if (i == 2) h = _h;','if (i == 2) { h = _h; _ray.d = normalize(h.p-camPos); }')
+b=b.replace('float r = 1.12;\n        float f = r + (1. - r)*(1. - dot(normalize(h.p - camPos), n))*5.;\n        c.rgb = mix(c.rgb, vec3(0), f);', 'float facing=clamp(abs(dot(normalize(h.p-camPos),n)),0.0,1.0);\n        float fresnel=.04+.96*pow(1.0-facing,5.0);\n        c.rgb=c.rgb*(1.0-.7*fresnel)+vec3(.025,.035,.05);')
+b=b.replace('if (i > 1)\n            _ray.d = normalize(refract(h.p - camPos, n, rIdx));\n        else\n            _ray.d = normalize(reflect(h.p - camPos, n));', 'vec3 incident=normalize(_ray.d);\n        n=faceforward(n,incident,n);\n        vec3 nextDir=i>1?refract(incident,n,1.0/rIdx):reflect(incident,n);\n        if(dot(nextDir,nextDir)<1e-10)nextDir=reflect(incident,n);\n        _ray.d=normalize(nextDir);')
+b=b.replace('return col.rgb;', 'return pow(clamp(col.rgb*exposure,0.0,1.0),vec3(1.0/2.2));')
+name='Heart Klein Bottle';out=ROOT/(name+'.fs');out.write_text('/*'+json.dumps(h,indent=2)+'*/'+b);res=P/'patches'/name/'Resource';res.mkdir(parents=True,exist_ok=True);shutil.copy2(out,res/out.name);build_wrapper.P=str(P/'patches');build_wrapper.build(name)

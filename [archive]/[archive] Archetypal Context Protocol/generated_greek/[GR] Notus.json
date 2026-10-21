@@ -1,0 +1,64 @@
+{
+  "SchemaVersion": "1.1-ter",
+  "ArchetypeName": "Notus",
+  "SystemOfOrigin": "GR",
+  "CulturalLineage": ["Greek"],
+  "CommonAliases": ["South Wind", "Summer Wind", "Stormy Wind", "Auster"],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "To embody the south wind; to bring late summer storms and autumn rains; to be the moist, warm wind.",
+    "PrimaryDomain": "Mythic / Natural",
+    "ToneOrPolarity": "Stormy / Moist",
+    "SymbolicCore": "Late summer's breath, the storm-bringer, rain and heat.",
+    "Correspondences": {
+      "Element": "Water/Air",
+      "Planet": "Jupiter",
+      "Chakra": "Sacral",
+      "Color": "Storm Grey, Deep Blue",
+      "Animal": "Horse (winged)",
+      "Other": ["Storm Clouds", "Rain", "Fog", "Summer Heat", "South"]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": ["South Wind", "Storm Bringer", "Rain Maker", "Summer End"],
+    "ComplementaryArchetypes": ["Astraeus ([GR] Father)", "Eos ([GR] Mother)", "Boreas ([GR] Brother)"],
+    "ShadowForms": ["Destructive Storm", "Overwhelming Moisture", "Crop Destroyer"],
+    "DevelopmentalArc": [],
+    "CyclePhase": "Late Summer / South"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": ["Stormy", "Moist", "Powerful", "Unpredictable", "Summer-ending", "Rain-bringing"],
+    "Typologies": {
+      "MBTI": "ENFJ",
+      "Enneagram": "8w9",
+      "Other": ["Ruler", "Destroyer", "Creator"]
+    },
+    "SubVariants": ["Storm Wind", "Rain Bringer", "Summer's End"],
+    "InternalFamily": "Emotional Storms"
+  },
+  "CulturalContext": {
+    "Regions": ["Greece"],
+    "MythicAppearances": ["Son of Astraeus and Eos", "Bringer of late summer storms", "Associated with autumn transition"],
+    "ReligiousOrRitualUse": "Propitiated for favorable weather; invoked for rain; feared for storms.",
+    "HistoricalEvolution": "Ancient wind god; became Roman Auster; represents stormy transition seasons.",
+    "SyncreticForms": ["Auster (Roman)"]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "🌧️",
+    "ImageryNotes": "Depicted as powerful winged figure with storm clouds, bringing rain and late summer weather.",
+    "ArtisticExamples": ["Wind god sculptures", "Storm imagery", "Seasonal allegories"],
+    "PoeticInvocation": "Notus stormy, breath of the south, who brings the rains that end the summer.",
+    "DreamForm": "A figure riding storm clouds from the south, bringing rain and transformation"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": ["Tarot.Temperance", "Autumn", "South"],
+    "SemanticTags": ["#south-wind", "#storm", "#rain", "#late-summer", "#transition"],
+    "RitualFunction": "Invoked for understanding of storms, transition periods, and emotional release.",
+    "AIPromptSeeds": ["The south wind that brings storms to end the summer.", "Notus whose moist breath transforms season into season."],
+    "NarrativeHooks": ["Storm's approach", "Seasonal transition", "Necessary destruction"]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [{"to": "Auster (Roman)", "strength": "strong"}, {"to": "South_Wind", "strength": "strong"}]
+  },
+  "FacetRegistry": [{"facet": "South Wind", "weight": 0.5}, {"facet": "Storm Bringer", "weight": 0.3}, {"facet": "Rain Maker", "weight": 0.2}]
+}

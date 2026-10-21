@@ -1,0 +1,112 @@
+{
+  "updated": "2026-09-09T17:28:14.739630+00:00",
+  "goal": "Leave with a playable show set and a clear way back to safety.",
+  "next": "Remaining-library pass complete. Open Heart Show Ready 20260909 122632 to play. All149 queued source checks finished; save/reopen and recovery verified.",
+  "milestones": [
+    {
+      "title": "Control delivery",
+      "state": "done",
+      "detail": "Queue-loss and range-start repairs verified live."
+    },
+    {
+      "title": "Recovery homes",
+      "state": "done",
+      "detail": "14 new Heart copies checked through Open \u2192 Home."
+    },
+    {
+      "title": "Content & readiness",
+      "state": "done",
+      "detail": "149 remaining representatives checked, plus 28 previous; duplicates and routing tracked separately. Glyph deferred."
+    },
+    {
+      "title": "Live rehearsal",
+      "state": "done",
+      "detail": "Full-library completion plus global Open \u2192 Shuffle \u2192 Settle verified;271 unit tests pass."
+    },
+    {
+      "title": "Departure save",
+      "state": "done",
+      "detail": "Heart Show Ready 20260909 122632 saved, actually reopened, and backed up."
+    }
+  ],
+  "workers": [
+    {
+      "title": "Content",
+      "state": "done",
+      "label": "Blackout + Delay access live",
+      "detail": "236 Python and47 interface checks passed. Native cut/restore verified with faders preserved.",
+      "next": "User feel check; refine remaining jumpy transitions.",
+      "updated": "2026-09-09T13:35:27.139298+00:00"
+    },
+    {
+      "title": "Effects & routing",
+      "state": "done",
+      "label": "Both RGB stages preserved",
+      "detail": "Internal RGB before ColourLoop; independent Layer RGB after ColourLoop. Clear labels added; original graphs retained.",
+      "next": "Use either stage or combine them.",
+      "updated": "2026-09-09T13:35:27.139298+00:00"
+    },
+    {
+      "title": "Departure",
+      "state": "done",
+      "label": "Heart Show Ready 20260909 122632",
+      "detail": "Saved pair/dependencies verified; actual reopen matched clips, levels, drive states and native signature. Centered Figure2D visible.",
+      "next": "Recovery copy available alongside the project.",
+      "updated": "2026-09-09T17:28:14.739630+00:00"
+    },
+    {
+      "title": "Integration \u00b7 here",
+      "state": "done",
+      "label": "149/149 complete \u00b7 0 control errors",
+      "detail": "104 driven,36 manual-only,9 render-only.298 actual renders reviewed. Repaired HypnoWorm/Torus, centered Figure2D, saved visible Scan Home; Grain confirmed with proper alpha review.",
+      "next": "Play the complete source library; remaining visual-range and transition-feel polish is tracked separately.",
+      "updated": "2026-09-09T17:28:14.739630+00:00"
+    },
+    {
+      "title": "Toy shaders",
+      "state": "active",
+      "label": "Offline import-crash investigation",
+      "detail": "New wrappers quarantined. Separate task found a native string-conversion exception; investigating Unicode metadata. No live installation.",
+      "next": "Prove and repair importer compatibility offline.",
+      "updated": "2026-09-09T13:35:27.139298+00:00"
+    }
+  ],
+  "attention": [
+    {
+      "title": "Transition feel still needs polish",
+      "state": "waiting",
+      "owner": "Integration + user",
+      "detail": "User rehearsal good overall; some shuffles/transitions remain jumpy. No blanket smoothness claim."
+    },
+    {
+      "title": "Full app cold start untested",
+      "state": "waiting",
+      "owner": "Integration + user",
+      "detail": "Saved-setup reopen passed. Quitting and restarting all applications or the OS was not rehearsed."
+    },
+    {
+      "title": "Pixel Melt rehearsal inconclusive",
+      "state": "blocked",
+      "owner": "Integration + Effects",
+      "detail": "Snapshot timed out after IN, before trigger. Cleanup succeeded; effect parked off."
+    },
+    {
+      "title": "Portal media gap",
+      "detail": "290 approved relinks intact. Remaining: 139 files without known replacements + 5 unapproved candidates; only needed Portal clips are blocked.",
+      "owner": "Departure \u2192 Integration",
+      "state": "blocked"
+    },
+    {
+      "title": "App-only copy is not portable",
+      "detail": "Heart currently depends on its workspace Syphon framework path; keep the workspace with the launcher.",
+      "owner": "Departure \u2192 Integration",
+      "state": "waiting"
+    },
+    {
+      "title": "Full-range Figure framing remains sampled",
+      "state": "waiting",
+      "owner": "Content",
+      "detail": "All remaining representative sources checked for controls and sampled output. Sparse/cropped sources are documented in full-library/visual-review.json; exhaustive source containment and transition smoothness remain follow-up."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "Xcf3zX",
+  "name": "Potential Energy",
+  "username": "maxwellcoffee",
+  "description": "Note: Exhibit A does not display Kinetic energy. It is a quantum state 🌐 No particle movements (!) 🙅‍♂️ Any fluctuations *must* start and end within Plancks time 🍥",
+  "tags": [
+    "trippy"
+  ],
+  "date": "1703282188",
+  "viewed": 80,
+  "likes": 4,
+  "published": 1,
+  "renderpass": [
+    {
+      "type": "image",
+      "name": "Image",
+      "inputs": [],
+      "outputs": [
+        {
+          "id": "4dfGRr",
+          "channel": 0
+        }
+      ],
+      "code": "/* @maxwellcoffee - 2023 \n\ninspo from + @kishimisu - 2022)\n*/\n\n#define a(a,b,f,o) mix(a,b,sin(o+e*f)*.5+.5)\n#define s(a) mat2(cos(a+vec4(0,33,11,0)))\n\nvoid mainImage(out vec4 O, vec2 F) {\n    float c , \n          o , \n          d = 3., \n          e = 125.3+\n          iTime*0.1;\n    vec2  r = iResolution.xy; \n    \n    for (;o++<2e2 && d>.001;) {\n        vec3 p = tan(.7*c*normalize(vec3((F+F-r)/r.y, 1)));\n        p.xy *= s(e);\n        p.zy += e + c*tan(2.*e);\n        p = tan(p)-.5;\n        p.xy *= s(c);\n        p.xz *= s(e);\n        p.y = max(tan(p.y)-a(0.,.2,1.,),0.);\n        c += d = (length(vec2(length(p.xy)-.2,p.z)) \n                 -a(.04,.1,.5,4.) - c*.01)*.5;\n    }\n    \n    O.rgb = 1.2*(tan(c*110. + .99*vec3(0,1.+c*.2,2))+.2)/tan(c*0.0914);\n}"
+    }
+  ]
+}

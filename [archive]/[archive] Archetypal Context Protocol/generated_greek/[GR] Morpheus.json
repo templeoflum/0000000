@@ -1,0 +1,164 @@
+{
+  "SchemaVersion": "1.1-ter",
+  "ArchetypeName": "Morpheus",
+  "SystemOfOrigin": "GR",
+  "CulturalLineage": [
+    "Greek",
+    "Roman"
+  ],
+  "CommonAliases": [
+    "Shaper of Dreams",
+    "Dream Weaver",
+    "Lord of Human Dreams",
+    "The Fashioner"
+  ],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "To shape and deliver dreams, particularly those depicting human forms; to blur the line between illusion and reality.",
+    "PrimaryDomain": "Mythic / Psychological",
+    "ToneOrPolarity": "Illusory / Revelatory",
+    "SymbolicCore": "The master of shapes and forms, who reveals truth through illusion.",
+    "Correspondences": {
+      "Element": "Air",
+      "Planet": "Neptune",
+      "Chakra": "Third Eye",
+      "Color": "Dream Purple, Silver-Grey",
+      "Animal": "Butterfly, Chameleon",
+      "Other": [
+        "Poppy",
+        "Mask",
+        "Mirror",
+        "Wings",
+        "Shifting Forms"
+      ]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": [
+      "Dream Messenger",
+      "Shape Shifter",
+      "Truth Revealer",
+      "Illusion Master"
+    ],
+    "ComplementaryArchetypes": [
+      "Hypnos ([GR] Father)",
+      "Phantasos ([GR] Brother)",
+      "Phobetor ([GR] Brother)"
+    ],
+    "ShadowForms": [
+      "False Dreams",
+      "Deceptive Visions",
+      "Escapist Fantasy"
+    ],
+    "DevelopmentalArc": [],
+    "CyclePhase": "Dreaming / Revelation"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": [
+      "Shape-shifting",
+      "Illusory",
+      "Revelatory",
+      "Creative",
+      "Boundary-crossing",
+      "Symbolic"
+    ],
+    "Typologies": {
+      "MBTI": "ENFP",
+      "Enneagram": "4w5",
+      "Other": [
+        "Creator",
+        "Magician",
+        "Shapeshifter"
+      ]
+    },
+    "SubVariants": [
+      "Dream Messenger",
+      "Illusion Weaver",
+      "Form Shifter"
+    ],
+    "InternalFamily": "Dream Self"
+  },
+  "CulturalContext": {
+    "Regions": [
+      "Greece",
+      "Rome"
+    ],
+    "MythicAppearances": [
+      "Ovid's Metamorphoses",
+      "Leader of the Oneiroi (dream gods)",
+      "Appears to mortals in human form"
+    ],
+    "ReligiousOrRitualUse": "Invoked for prophetic dreams and divine messages; associated with dream incubation in healing temples.",
+    "HistoricalEvolution": "Developed in late Greek/Roman period; became most famous of the Oneiroi; modern name for dreams and morphine.",
+    "SyncreticForms": [
+      "Dream gods (various)",
+      "Sandman (folklore)",
+      "Jung's Anima/Animus"
+    ]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "🦋",
+    "ImageryNotes": "Depicted with wings, able to assume any human form; emerges from gates of horn (true dreams) or ivory (false dreams).",
+    "ArtisticExamples": [
+      "Romantic era dream paintings",
+      "Surrealist art",
+      "Modern fantasy illustrations"
+    ],
+    "PoeticInvocation": "Morpheus, shaper of forms, who speaks truth through the language of dreams.",
+    "DreamForm": "A figure whose face constantly shifts, showing you everyone you've ever known, revealing hidden truths"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": [
+      "JP12.Magician",
+      "JU.Anima_Animus",
+      "Tarot.The_Moon"
+    ],
+    "SemanticTags": [
+      "#dreams",
+      "#illusion",
+      "#shapeshifting",
+      "#revelation",
+      "#unconscious"
+    ],
+    "RitualFunction": "Invoked for meaningful dreams, prophetic visions, and understanding of the unconscious mind.",
+    "AIPromptSeeds": [
+      "The dream god who reveals truth by showing you what is not real.",
+      "The shapeshifter who wears every face to deliver the message you need."
+    ],
+    "NarrativeHooks": [
+      "The prophetic dream that changes everything",
+      "Cannot distinguish dream from reality",
+      "The message delivered through impossible visions"
+    ]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [
+      {
+        "to": "Tarot.The_Moon",
+        "strength": "strong"
+      },
+      {
+        "to": "JP12.Magician",
+        "strength": "moderate"
+      },
+      {
+        "to": "JU.Anima_Animus",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "FacetRegistry": [
+    {
+      "facet": "Dream Shaper",
+      "weight": 0.5
+    },
+    {
+      "facet": "Truth Through Illusion",
+      "weight": 0.3
+    },
+    {
+      "facet": "Form Shifter",
+      "weight": 0.2
+    }
+  ]
+}

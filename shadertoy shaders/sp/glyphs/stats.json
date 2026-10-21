@@ -1,0 +1,327 @@
+{
+ "latin_simplex": {
+  "name": "Latin, Roman simplex (Hershey)",
+  "n": 52,
+  "strokes_mean": 2.15,
+  "strokes_hist": {
+   "1": 11,
+   "2": 26,
+   "3": 11,
+   "4": 4
+  },
+  "cardinal_share": 0.54,
+  "oblique_share": 0.46,
+  "curved_share": 0.13,
+  "junctions_LTX_per_glyph": [
+   0.56,
+   0.69,
+   0.1
+  ],
+  "terminals_mean": 2.31,
+  "mirror_mean": 0.76,
+  "aspect_mean": 0.66,
+  "ink_mean": 2.31
+ },
+ "latin_times": {
+  "name": "Latin, Times roman (Hershey duplex)",
+  "n": 52,
+  "strokes_mean": 5.33,
+  "strokes_hist": {
+   "2": 4,
+   "3": 5,
+   "4": 11,
+   "5": 10,
+   "6": 8,
+   "7": 7,
+   "8": 2,
+   "9": 3,
+   "10": 2
+  },
+  "cardinal_share": 0.6,
+  "oblique_share": 0.4,
+  "curved_share": 0.11,
+  "junctions_LTX_per_glyph": [
+   3.1,
+   5.54,
+   0.29
+  ],
+  "terminals_mean": 3.62,
+  "mirror_mean": 0.72,
+  "aspect_mean": 0.84,
+  "ink_mean": 4.36
+ },
+ "latin_gothic": {
+  "name": "Latin, Gothic English (Hershey)",
+  "n": 52,
+  "strokes_mean": 11.08,
+  "strokes_hist": {
+   "3": 1,
+   "5": 3,
+   "6": 6,
+   "7": 5,
+   "8": 4,
+   "9": 5,
+   "10": 2,
+   "11": 6,
+   "12": 2,
+   "13": 3,
+   "14": 4,
+   "15": 2,
+   "17": 3,
+   "19": 3,
+   "22": 2,
+   "23": 1
+  },
+  "cardinal_share": 0.55,
+  "oblique_share": 0.45,
+  "curved_share": 0.3,
+  "junctions_LTX_per_glyph": [
+   7.15,
+   19.25,
+   0.62
+  ],
+  "terminals_mean": 0.44,
+  "mirror_mean": 0.76,
+  "aspect_mean": 0.83,
+  "ink_mean": 7.27
+ },
+ "latin_cursive": {
+  "name": "Latin, cursive (Hershey)",
+  "n": 52,
+  "strokes_mean": 1.73,
+  "strokes_hist": {
+   "1": 24,
+   "2": 19,
+   "3": 8,
+   "4": 1
+  },
+  "cardinal_share": 0.29,
+  "oblique_share": 0.71,
+  "curved_share": 0.38,
+  "junctions_LTX_per_glyph": [
+   0.17,
+   0.52,
+   0.1
+  ],
+  "terminals_mean": 2.54,
+  "mirror_mean": 0.39,
+  "aspect_mean": 1.01,
+  "ink_mean": 3.24
+ },
+ "greek": {
+  "name": "Greek (Hershey)",
+  "n": 52,
+  "strokes_mean": 2.13,
+  "strokes_hist": {
+   "1": 13,
+   "2": 21,
+   "3": 16,
+   "4": 2
+  },
+  "cardinal_share": 0.45,
+  "oblique_share": 0.55,
+  "curved_share": 0.19,
+  "junctions_LTX_per_glyph": [
+   0.56,
+   0.5,
+   0.15
+  ],
+  "terminals_mean": 2.38,
+  "mirror_mean": 0.69,
+  "aspect_mean": 0.76,
+  "ink_mean": 2.39
+ },
+ "cyrillic": {
+  "name": "Cyrillic (Hershey)",
+  "n": 52,
+  "strokes_mean": 6.58,
+  "strokes_hist": {
+   "2": 2,
+   "3": 3,
+   "4": 8,
+   "5": 7,
+   "6": 5,
+   "7": 10,
+   "8": 1,
+   "9": 8,
+   "10": 7,
+   "12": 1
+  },
+  "cardinal_share": 0.72,
+  "oblique_share": 0.28,
+  "curved_share": 0.1,
+  "junctions_LTX_per_glyph": [
+   3.79,
+   7.67,
+   0.27
+  ],
+  "terminals_mean": 4.96,
+  "mirror_mean": 0.8,
+  "aspect_mean": 0.99,
+  "ink_mean": 5.11
+ },
+ "japanese": {
+  "name": "Japanese kana + kanji (Hershey)",
+  "n": 193,
+  "strokes_mean": 6.45,
+  "strokes_hist": {
+   "1": 16,
+   "2": 4,
+   "3": 12,
+   "4": 15,
+   "5": 24,
+   "6": 23,
+   "7": 30,
+   "8": 24,
+   "9": 20,
+   "10": 12,
+   "11": 5,
+   "12": 3,
+   "13": 1,
+   "14": 1,
+   "15": 2,
+   "16": 1
+  },
+  "cardinal_share": 0.49,
+  "oblique_share": 0.51,
+  "curved_share": 0.21,
+  "junctions_LTX_per_glyph": [
+   3.16,
+   6.5,
+   1.58
+  ],
+  "terminals_mean": 2.92,
+  "mirror_mean": 0.59,
+  "aspect_mean": 1.09,
+  "ink_mean": 4.2
+ },
+ "symbols": {
+  "name": "Symbols, astrology (Hershey)",
+  "n": 95,
+  "strokes_mean": 7.89,
+  "strokes_hist": {
+   "1": 3,
+   "2": 6,
+   "3": 9,
+   "4": 9,
+   "5": 14,
+   "6": 14,
+   "7": 5,
+   "8": 7,
+   "9": 4,
+   "10": 1,
+   "11": 4,
+   "12": 1,
+   "13": 3,
+   "14": 1,
+   "15": 2,
+   "17": 4,
+   "18": 2,
+   "19": 1,
+   "21": 1,
+   "22": 1,
+   "23": 1,
+   "26": 1,
+   "27": 1
+  },
+  "cardinal_share": 0.45,
+  "oblique_share": 0.55,
+  "curved_share": 0.15,
+  "junctions_LTX_per_glyph": [
+   8.81,
+   14.59,
+   1.17
+  ],
+  "terminals_mean": 1.32,
+  "mirror_mean": 0.64,
+  "aspect_mean": 0.9,
+  "ink_mean": 5.34
+ },
+ "hanzi": {
+  "name": "Chinese hanzi (Make Me a Hanzi medians)",
+  "n": 400,
+  "strokes_mean": 7.1,
+  "strokes_hist": {
+   "1": 8,
+   "2": 16,
+   "3": 27,
+   "4": 36,
+   "5": 34,
+   "6": 55,
+   "7": 44,
+   "8": 51,
+   "9": 42,
+   "10": 47,
+   "11": 23,
+   "12": 3,
+   "13": 3,
+   "14": 5,
+   "15": 2,
+   "19": 1,
+   "20": 1,
+   "21": 1,
+   "24": 1
+  },
+  "cardinal_share": 0.57,
+  "oblique_share": 0.43,
+  "curved_share": 0.4,
+  "junctions_LTX_per_glyph": [
+   1.15,
+   3.59,
+   0.78
+  ],
+  "terminals_mean": 8.9,
+  "mirror_mean": 0.62,
+  "aspect_mean": 1.07,
+  "ink_mean": 3.05
+ },
+ "futhark": {
+  "name": "Elder Futhark (24 runes)",
+  "n": 24,
+  "strokes_mean": 3.29,
+  "strokes_hist": {
+   "1": 1,
+   "2": 4,
+   "3": 10,
+   "4": 6,
+   "5": 2,
+   "6": 1
+  },
+  "cardinal_share": 0.42,
+  "oblique_share": 0.58,
+  "curved_share": 0.0,
+  "junctions_LTX_per_glyph": [
+   2.21,
+   0.62,
+   0.17
+  ],
+  "terminals_mean": 2.25,
+  "mirror_mean": 0.62,
+  "aspect_mean": 0.51,
+  "ink_mean": 2.24
+ },
+ "ogham": {
+  "name": "Ogham (20 feda)",
+  "n": 20,
+  "strokes_mean": 4.0,
+  "strokes_hist": {
+   "2": 4,
+   "3": 4,
+   "4": 4,
+   "5": 4,
+   "6": 4
+  },
+  "cardinal_share": 0.81,
+  "oblique_share": 0.19,
+  "curved_share": 0.0,
+  "junctions_LTX_per_glyph": [
+   0.0,
+   1.5,
+   1.5
+  ],
+  "terminals_mean": 6.5,
+  "mirror_mean": 0.72,
+  "aspect_mean": 0.35,
+  "ink_mean": 2.07
+ }
+}

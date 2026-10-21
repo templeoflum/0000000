@@ -1,0 +1,570 @@
+----- START BUNDLE -----
+{
+  "SchemaVersion": "1.1",
+  "ArchetypeName": "Arlecchino",
+  "SystemOfOrigin": "CD",
+  "CulturalLineage": ["Italian Renaissance", "Commedia dell’Arte", "European folk"],
+  "CommonAliases": ["Harlequin", "Trickster Servant", "Clown"],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "Disrupts order with playful chaos to reveal hidden truths",
+    "PrimaryDomain": "Narrative / Performance",
+    "ToneOrPolarity": "Chaotic / Playful",
+    "SymbolicCore": "Jester who speaks truth through laughter",
+    "Correspondences": {
+      "Element": "Air",
+      "Planet": "Mercury",
+      "Chakra": "Throat",
+      "Color": "Multicolor diamonds",
+      "Animal": "Monkey",
+      "Other": ["Diamond-pattern suit", "Wooden sword", "Mask"]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": ["Comic relief", "Subversive truth-teller", "Social critic"],
+    "ComplementaryArchetypes": ["Pantalone", "Columbina"],
+    "ShadowForms": ["Malicious clown", "Chaos without conscience"],
+    "DevelopmentalArc": ["Enter → Disrupt → Reveal → Vanish"],
+    "CyclePhase": "Crisis"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": ["Witty", "Agile", "Mischievous", "Resourceful"],
+    "Typologies": {
+      "MBTI": "ENTP",
+      "Enneagram": "7w8",
+      "Other": ["JU.Trickster", "JP12.Jester"]
+    },
+    "SubVariants": ["Harlequin", "Zanni", "Sacred Clown"],
+    "InternalFamily": "Trickster"
+  },
+  "CulturalContext": {
+    "Regions": ["Italy", "France", "Europe"],
+    "MythicAppearances": ["Harlequin of Bergamo", "Zanni masks"],
+    "ReligiousOrRitualUse": "Carnival, street theatre, satire festivals",
+    "HistoricalEvolution": "Medieval fool → commedia servant → circus clown",
+    "SyncreticForms": ["Punch and Judy", "Marcel Marceau", "Deadpool"]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "🃏",
+    "ImageryNotes": "Diamond patches leaping over rooftops",
+    "ArtisticExamples": ["Goldoni plays", "Picasso Harlequin paintings"],
+    "PoeticInvocation": "I am the leap that scatters the chessboard.",
+    "DreamForm": "A masked acrobat who juggles laughter and truth"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": ["JU.Trickster", "JP12.Jester", "GR.Hermes"],
+    "SemanticTags": ["#play", "#subversion", "#color", "#leap"],
+    "RitualFunction": "Invoke playful disruption and satire",
+    "AIPromptSeeds": ["Write an Arlecchino who breaks the fourth wall to coach the reader"],
+    "NarrativeHooks": ["The pratfall that reveals the plot", "The jest that wounds a king"]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [
+      { "to": "JU.Trickster", "strength": "strong" },
+      { "to": "JP12.Jester", "strength": "strong" }
+    ]
+  },
+  "FacetRegistry": [
+    { "facet": "Harlequin", "weight": 0.5 },
+    { "facet": "Zanni", "weight": 0.3 },
+    { "facet": "Sacred Clown", "weight": 0.2 }
+  ]
+}
+
+{
+  "SchemaVersion": "1.1",
+  "ArchetypeName": "Pantalone",
+  "SystemOfOrigin": "CD",
+  "CulturalLineage": ["Venetian Renaissance", "Commedia dell’Arte"],
+  "CommonAliases": ["The Old Miser", "Merchant", "Greedy Elder"],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "Embodies greed, aging, and social satire of wealth",
+    "PrimaryDomain": "Narrative / Satire",
+    "ToneOrPolarity": "Comic / Stingy",
+    "SymbolicCore": "Gold coins clutched in gnarled hands",
+    "Correspondences": {
+      "Element": "Earth",
+      "Planet": "Saturn",
+      "Chakra": "Root",
+      "Color": "Ochre",
+      "Animal": "Raven",
+      "Other": ["Money bag", "Red tights", "Long beard"]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": ["Obstacle", "Comic antagonist", "Satire of authority"],
+    "ComplementaryArchetypes": ["Arlecchino", "Columbina"],
+    "ShadowForms": ["Miserly Tyrant", "Chronic Scold"],
+    "DevelopmentalArc": ["Hoard → Loss → Humiliation → Reflection"],
+    "CyclePhase": "Stagnation"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": ["Stingy", "Suspicious", "Controlling", "Anxious"],
+    "Typologies": {
+      "MBTI": "ESTJ",
+      "Enneagram": "5w6",
+      "Other": ["JP12.Ruler"]
+    },
+    "SubVariants": ["Old Miser", "Senex", "Cuckolded Elder"],
+    "InternalFamily": "Controller"
+  },
+  "CulturalContext": {
+    "Regions": ["Venice", "Europe"],
+    "MythicAppearances": ["Venetian merchant masks", "Shylock archetype"],
+    "ReligiousOrRitualUse": "Satire in carnival, moral lessons",
+    "HistoricalEvolution": "Venetian merchant → stock miser → capitalist caricature",
+    "SyncreticForms": ["Scrooge", "Mr. Burns", "Gordon Gekko"]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "💰",
+    "ImageryNotes": "Bent figure counting coins under flickering torchlight",
+    "ArtisticExamples": ["Commedia Pantalone masks", "Shakespeare’s Shylock"],
+    "PoeticInvocation": "I clutch the past until it crumbles into dust.",
+    "DreamForm": "An old man whose beard turns to gold coins"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": ["JP12.Ruler", "JU.Senex", "KB.Malkuth"],
+    "SemanticTags": ["#greed", "#earth", "#satire", "#senex"],
+    "RitualFunction": "Expose stinginess and fear of loss",
+    "AIPromptSeeds": ["Create a Pantalone who learns generosity through bankruptcy"],
+    "NarrativeHooks": ["The locked coffer", "The lost fortune"]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [
+      { "to": "JP12.Ruler", "strength": "moderate" }
+    ]
+  },
+  "FacetRegistry": [
+    { "facet": "Old Miser", "weight": 0.6 },
+    { "facet": "Senex", "weight": 0.4 }
+  ]
+}
+
+{
+  "SchemaVersion": "1.1",
+  "ArchetypeName": "Il Dottore",
+  "SystemOfOrigin": "CD",
+  "CulturalLineage": ["Italian Renaissance", "University culture"],
+  "CommonAliases": ["The Doctor", "Pedant", "Blowhard Scholar"],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "Parodies intellectual vanity and empty learning",
+    "PrimaryDomain": "Narrative / Satire",
+    "ToneOrPolarity": "Pompous / Comic",
+    "SymbolicCore": "Scroll stuffed with hot air",
+    "Correspondences": {
+      "Element": "Air",
+      "Planet": "Mercury",
+      "Chakra": "Throat",
+      "Color": "Black",
+      "Animal": "Peacock",
+      "Other": ["Academic robe", "Latin phrases", "Syringe"]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": ["Comic exposition", "False authority", "Windbag"],
+    "ComplementaryArchetypes": ["Arlecchino", "Pantalone"],
+    "ShadowForms": ["Charlatan", "Gaslighting Expert"],
+    "DevelopmentalArc": ["Boast → Exposure → Fall → Humility"],
+    "CyclePhase": "Stagnation"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": ["Verbose", "Pretentious", "Insecure", "Paternalistic"],
+    "Typologies": {
+      "MBTI": "ENTP",
+      "Enneagram": "3w4",
+      "Other": ["JU.Persona", "JP12.Sage"]
+    },
+    "SubVariants": ["Pedant", "Quack Doctor", "Windbag Professor"],
+    "InternalFamily": "Intellectual"
+  },
+  "CulturalContext": {
+    "Regions": ["Bologna", "Italian universities"],
+    "MythicAppearances": ["Commedia doctor masks", "Shakespeare’s Polonius"],
+    "ReligiousOrRitualUse": "Satire of academia, carnival mockery",
+    "HistoricalEvolution": "Renaissance scholar → comic pedant → modern expert",
+    "SyncreticForms": ["Frasier Crane", "Dr. Strangelove", "Professor Calculus"]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "🎓",
+    "ImageryNotes": "Black-robed figure spouting Latin smoke",
+    "ArtisticExamples": ["Commedia Dottore masks", "Shakespeare Polonius"],
+    "PoeticInvocation": "I speak in circles until the circle breaks.",
+    "DreamForm": "A professor whose words fall like broken glass"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": ["JU.Persona", "JP12.Sage", "KB.Hod"],
+    "SemanticTags": ["#pedant", "#air", "#vanity", "#satire"],
+    "RitualFunction": "Expose inflated intellect and encourage humility",
+    "AIPromptSeeds": ["Create a Dottore whose cures always backfire"],
+    "NarrativeHooks": ["The long-winded lecture", "The bogus diagnosis"]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [
+      { "to": "JP12.Sage", "strength": "weak" }
+    ]
+  },
+  "FacetRegistry": [
+    { "facet": "Pedant", "weight": 0.6 },
+    { "facet": "Quack Doctor", "weight": 0.4 }
+  ]
+}
+
+{
+  "SchemaVersion": "1.1",
+  "ArchetypeName": "Il Capitano",
+  "SystemOfOrigin": "CD",
+  "CulturalLineage": ["Italian Renaissance", "Spanish mercenary traditions"],
+  "CommonAliases": ["The Braggart Captain", "Cowardly Soldier", "Boaster"],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "Mocks false bravado and overcompensated masculinity",
+    "PrimaryDomain": "Narrative / Satire",
+    "ToneOrPolarity": "Blustering / Cowardly",
+    "SymbolicCore": "Empty armor clattering in the wind",
+    "Correspondences": {
+      "Element": "Fire",
+      "Planet": "Mars",
+      "Chakra": "Solar-Plexus",
+      "Color": "Burgundy",
+      "Animal": "Peacock",
+      "Other": ["Feathered helmet", "Giant sword", "Swaggering cape"]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": ["Bravado", "False threat", "Comic foil"],
+    "ComplementaryArchetypes": ["Arlecchino", "Columbina"],
+    "ShadowForms": ["Bully", "Tyrannical Officer"],
+    "DevelopmentalArc": ["Boast → Challenge → Exposure → Retreat"],
+    "CyclePhase": "Stagnation"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": ["Boastful", "Insecure", "Cowardly", "Performative"],
+    "Typologies": {
+      "MBTI": "ESFP",
+      "Enneagram": "3w6",
+      "Other": ["JP12.Ruler"]
+    },
+    "SubVariants": ["Braggart Captain", "Fake Hero", "Cowardly Knight"],
+    "InternalFamily": "Performer"
+  },
+  "CulturalContext": {
+    "Regions": ["Italy", "Spanish tercios"],
+    "MythicAppearances": ["Commedia Capitano masks", "Don Quixote caricature"],
+    "ReligiousOrRitualUse": "Carnival mock battles, comedic duels",
+    "HistoricalEvolution": "Mercenary braggart → comedic coward → modern poser",
+    "SyncreticForms": ["Don Quixote", "Zapp Brannigan", "Captain Hook"]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "🪖",
+    "ImageryNotes": "Giant feathered helmet towering over tiny man",
+    "ArtisticExamples": ["Commedia Capitano masks", "Don Quixote illustrations"],
+    "PoeticInvocation": "I roar so the silence will not swallow me.",
+    "DreamForm": "A giant shadow that shrinks when confronted"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": ["JP12.Ruler", "JU.Persona", "GM.Rubeus"],
+    "SemanticTags": ["#bravado", "#fire", "#mask", "#satire"],
+    "RitualFunction": "Expose false courage and encourage authentic strength",
+    "AIPromptSeeds": ["Create a Capitano who wins by admitting fear"],
+    "NarrativeHooks": ["The duel that never happens", "The boast that backfires"]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [
+      { "to": "JP12.Ruler", "strength": "weak" }
+    ]
+  },
+  "FacetRegistry": [
+    { "facet": "Braggart Captain", "weight": 0.6 },
+    { "facet": "Cowardly Knight", "weight": 0.4 }
+  ]
+}
+
+{
+  "SchemaVersion": "1.1",
+  "ArchetypeName": "Columbina",
+  "SystemOfOrigin": "CD",
+  "CulturalLineage": ["Italian Renaissance", "Commedia dell’Arte"],
+  "CommonAliases": ["Clever Maid", "Soubrette", "Witty Servant"],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "Delivers feminine wit and pragmatic wisdom",
+    "PrimaryDomain": "Narrative / Performance",
+    "ToneOrPolarity": "Sharp / Playful",
+    "SymbolicCore": "Clever eyes behind the mask",
+    "Correspondences": {
+      "Element": "Air",
+      "Planet": "Mercury",
+      "Chakra": "Throat",
+      "Color": "Sky Blue",
+      "Animal": "Sparrow",
+      "Other": ["Apron", "Fan", "Keys"]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": ["Voice of reason", "Matchmaker", "Truth-teller"],
+    "ComplementaryArchetypes": ["Arlecchino", "Innamorati"],
+    "ShadowForms": ["Manipulative maid", "Gossip"],
+    "DevelopmentalArc": ["Serve → Speak → Guide → Empower"],
+    "CyclePhase": "Return"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": ["Witty", "Resourceful", "Loyal", "Saucy"],
+    "Typologies": {
+      "MBTI": "ENFP",
+      "Enneagram": "2w3",
+      "Other": ["JP12.Lover", "JP12.Everyman"]
+    },
+    "SubVariants": ["Clever Maid", "Matchmaker", "Feminist Servant"],
+    "InternalFamily": "Helper"
+  },
+  "CulturalContext": {
+    "Regions": ["Venice", "Italian courts"],
+    "MythicAppearances": ["Commedia soubrette", "Shakespeare’s Beatrice"],
+    "ReligiousOrRitualUse": "Satire of gender roles, carnival wit",
+    "HistoricalEvolution": "Maid → soubrette → modern sassy sidekick",
+    "SyncreticForms": ["Rosalind", "Frasier’s Daphne", "Bridget Jones’s friends"]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "🧵",
+    "ImageryNotes": "Blue-masked maid with raised eyebrow and fan",
+    "ArtisticExamples": ["Commedia Columbina masks", "Beatrice from Much Ado"],
+    "PoeticInvocation": "I tie the strings that move the play.",
+    "DreamForm": "A bird that speaks riddles from a balcony"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": ["JP12.Lover", "JP12.Everyman", "JU.Anima"],
+    "SemanticTags": ["#wit", "#servant", "#blue", "#feminine"],
+    "RitualFunction": "Invoke clever feminine agency and social satire",
+    "AIPromptSeeds": ["Create a Columbina who outwits the king"],
+    "NarrativeHooks": ["The whispered plan", "The revealed secret"]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [
+      { "to": "JP12.Lover", "strength": "moderate" },
+      { "to": "JP12.Everyman", "strength": "moderate" }
+    ]
+  },
+  "FacetRegistry": [
+    { "facet": "Clever Maid", "weight": 0.5 },
+    { "facet": "Matchmaker", "weight": 0.3 },
+    { "facet": "Feminist Servant", "weight": 0.2 }
+  ]
+}
+
+{
+  "SchemaVersion": "1.1",
+  "ArchetypeName": "Pierrot",
+  "SystemOfOrigin": "CD",
+  "CulturalLineage": ["French Commedia", "Romantic melancholy"],
+  "CommonAliases": ["Melancholy Clown", "Moon-faced Dreamer", "Unrequited Lover"],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "Embodies gentle melancholy and unspoken longing",
+    "PrimaryDomain": "Narrative / Melodrama",
+    "ToneOrPolarity": "Melancholic / Tender",
+    "SymbolicCore": "White moon reflected in a tear",
+    "Correspondences": {
+      "Element": "Water",
+      "Planet": "Moon",
+      "Chakra": "Heart",
+      "Color": "White",
+      "Animal": "Dove",
+      "Other": ["White ruff", "Black tears", "Moon"]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": ["Melancholy observer", "Unrequited lover", "Poet"],
+    "ComplementaryArchetypes": ["Columbina", "Innamorati"],
+    "ShadowForms": ["Self-pitying victim", "Masochistic martyr"],
+    "DevelopmentalArc": ["Longing → Sorrow → Art → Transcendence"],
+    "CyclePhase": "Crisis"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": ["Sensitive", "Dreamy", "Melancholic", "Artistic"],
+    "Typologies": {
+      "MBTI": "INFP",
+      "Enneagram": "4w5",
+      "Other": ["JU.Anima", "CMY.WoundedChild"]
+    },
+    "SubVariants": ["Melancholy Clown", "Moon Poet", "White Pierrot"],
+    "InternalFamily": "Dreamer"
+  },
+  "CulturalContext": {
+    "Regions": ["France", "Romantic Europe"],
+    "MythicAppearances": ["French Pierrot", "Pierrot Lunaire"],
+    "ReligiousOrRitualUse": "Melancholy mime, silent film pathos",
+    "HistoricalEvolution": "Commedia clown → Romantic symbol → mime figure",
+    "SyncreticForms": ["Mime Marceau", "Sad clown", "Amélie’s ghost"]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "🌕",
+    "ImageryNotes": "White-clad figure gazing at moon with black tears",
+    "ArtisticExamples": ["Pierrot Lunaire", "Mime Marceau", "Amélie"],
+    "PoeticInvocation": "I am the white silence that sings of longing.",
+    "DreamForm": "A pale clown whose tears become stars"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": ["JU.Anima", "CMY.WoundedChild", "JP12.Orphan"],
+    "SemanticTags": ["#melancholy", "#moon", "#white", "#poet"],
+    "RitualFunction": "Hold space for gentle sorrow and artistic longing",
+    "AIPromptSeeds": ["Create a Pierrot whose tears water a garden of poems"],
+    "NarrativeHooks": ["The silent serenade", "The tear behind the mask"]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [
+      { "to": "JU.Anima", "strength": "moderate" },
+      { "to": "CMY.WoundedChild", "strength": "moderate" }
+    ]
+  },
+  "FacetRegistry": [
+    { "facet": "Melancholy Clown", "weight": 0.5 },
+    { "facet": "Moon Poet", "weight": 0.3 },
+    { "facet": "White Pierrot", "weight": 0.2 }
+  ]
+}
+
+{
+  "SchemaVersion": "1.1",
+  "ArchetypeName": "Brighella",
+  "SystemOfOrigin": "CD",
+  "CulturalLineage": ["Italian Renaissance", "Commedia dell’Arte"],
+  "CommonAliases": ["Schemer", "Cynical Servant", "Streetwise Trickster"],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "Embodies pragmatic cunning and street-level wit",
+    "PrimaryDomain": "Narrative / Satire",
+    "ToneOrPolarity": "Cynical / Pragmatic",
+    "SymbolicCore": "Dagger hidden behind a smile",
+    "Correspondences": {
+      "Element": "Fire",
+      "Planet": "Mercury",
+      "Chakra": "Solar-Plexus",
+      "Color": "Green",
+      "Animal": "Fox",
+      "Other": ["Dagger", "Green jacket", "Sly grin"]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": ["Schemer", "Enabler", "Streetwise guide"],
+    "ComplementaryArchetypes": ["Arlecchino", "Il Capitano"],
+    "ShadowForms": ["Manipulator", "Opportunist"],
+    "DevelopmentalArc": ["Scheme → Profit → Fall → Redemption"],
+    "CyclePhase": "Crisis"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": ["Cunning", "Opportunistic", "Street-smart", "Amoral"],
+    "Typologies": {
+      "MBTI": "ESTP",
+      "Enneagram": "7w8",
+      "Other": ["JU.Trickster", "JP12.Rebel"]
+    },
+    "SubVariants": ["Schemer", "Green Brighella", "Street Fox"],
+    "InternalFamily": "Opportunist"
+  },
+  "CulturalContext": {
+    "Regions": ["Bergamo", "Italian streets"],
+    "MythicAppearances": ["Commedia Brighella masks"],
+    "ReligiousOrRitualUse": "Satire of lower-class cunning, carnival trickster",
+    "HistoricalEvolution": "Street tough → comedic rogue → gangster archetype",
+    "SyncreticForms": ["Artful Dodger", "Han Solo", "Saul Goodman"]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "🦊",
+    "ImageryNotes": "Green-clad rogue with dagger and raised eyebrow",
+    "ArtisticExamples": ["Commedia Brighella masks", "Artful Dodger"],
+    "PoeticInvocation": "I trade in shadows and smiles.",
+    "DreamForm": "A fox in a green coat offering back-alley shortcuts"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": ["JU.Trickster", "JP12.Rebel", "GM.Rubeus"],
+    "SemanticTags": ["#cunning", "#street", "#green", "#smile"],
+    "RitualFunction": "Invoke street wisdom and pragmatic cunning",
+    "AIPromptSeeds": ["Create a Brighella who helps the hero by cheating the system"],
+    "NarrativeHooks": ["The back-alley deal", "The double-cross that helps"]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [
+      { "to": "JU.Trickster", "strength": "moderate" },
+      { "to": "JP12.Rebel", "strength": "moderate" }
+    ]
+  },
+  "FacetRegistry": [
+    { "facet": "Schemer", "weight": 0.5 },
+    { "facet": "Street Fox", "weight": 0.3 },
+    { "facet": "Green Brighella", "weight": 0.2 }
+  ]
+}
+
+{
+  "SchemaVersion": "1.1",
+  "ArchetypeName": "Innamorati",
+  "SystemOfOrigin": "CD",
+  "CulturalLineage": ["Italian Renaissance", "Commedia dell’Arte"],
+  "CommonAliases": ["The Lovers", "Romantic Idealists", "Young Pair"],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "Embodies idealized love and dramatic emotion",
+    "PrimaryDomain": "Narrative / Romance",
+    "ToneOrPolarity": "Passionate / Naïve",
+    "SymbolicCore": "Two hearts beating as one in the mirror of moonlight",
+    "Correspondences": {
+      "Element": "Air",
+      "Planet": "Venus",
+      "Chakra": "Heart",
+      "Color": "Rose",
+      "Animal": "Dove",
+      "Other": ["Rose petals", "Love letters", "Balcony"]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": ["Romantic pursuit", "Idealistic yearning", "Melodrama"],
+    "ComplementaryArchetypes": ["Columbina", "Arlecchino"],
+    "ShadowForms": ["Melodramatic obsession", "Naïve blindness"],
+    "DevelopmentalArc": ["Attraction → Obstacle → Union → Maturity"],
+    "CyclePhase": "Initiation"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": ["Idealistic", "Passionate", "Naïve", "Dramatic"],
+    "Typologies": {
+      "MBTI": "ENFP",
+      "Enneagram": "4w3",
+      "Other": ["JP12.Lover", "JP12.Innocent"]
+    },
+    "SubVariants": ["Romeo", "Juliet", "Renaissance Pair", "Modern Romantics"],
+    "InternalFamily": "Lover"
+  },
+  "CulturalContext": {
+    "Regions": ["Italy", "European courts"],
+    "MythicAppearances": ["Romeo & Juliet", "Commedia lovers"],
+    "ReligiousOrRitualUse": "Courtly love rituals, romantic masques",
+    "HistoricalEvolution": "Courtly love → commedia romance → modern rom-com",
+    "SyncreticForms": ["Romeo & Juliet", "West Side Story", "Modern rom-com leads"]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "💕",
+    "ImageryNotes": "Balcony scene under moonlit roses",
+    "ArtisticExamples": ["Romeo & Juliet balcony", "Commedia love duet"],
+    "PoeticInvocation": "We are the echo of a kiss across centuries.",
+    "DreamForm": "Two silhouettes embracing on a balcony that fades into dawn"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": ["JP12.Lover", "JP12.Innocent", "JU.Anima"],
+    "SemanticTags": ["#love", "#rose", "#balcony", "#moon"],
+    "RitualFunction": "Invoke romantic idealism and courtly passion",
+    "AIPromptSeeds": ["Create lovers whose love letters rewrite the plot"],
+    "NarrativeHooks": ["The balcony serenade", "The love letter mistaken"]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [
+      { "to": "JP12.Lover", "strength": "strong" },
+      { "to": "JP12.Innocent", "strength": "moderate" }
+    ]
+  },
+  "FacetRegistry": [
+    { "facet": "Romeo", "weight": 0.5 },
+    { "facet": "Juliet", "weight": 0.5 }
+  ]
+}
+----- END BUNDLE -----

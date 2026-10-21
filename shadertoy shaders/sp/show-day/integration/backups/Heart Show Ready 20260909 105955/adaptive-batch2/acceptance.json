@@ -1,0 +1,14 @@
+{
+  "passed": 6,
+  "visual_review": "All six Home/Open pairs show nonempty, differing rendered output. Cos Orbit is sparse luminous trails; Klein figure8 is a full-frame color field. No sampled blank-output exception.",
+  "controls": "Automatic selection and Home recovery passed; source clock settings preserved.",
+  "limits": "Brief samples; not full-range or sustained smoothness certification.",
+  "sources": [
+    "FM \u00b7 VoroniCubes [1.5.23]",
+    "FM \u00b7 Klein bottle figure 8 immersion [1.5.26]",
+    "FM \u00b7 PsychedeliaGenerica [1.5.27]",
+    "FM \u00b7 QuarternionFieldDistortion [1.5.33]",
+    "FM \u00b7 Cos Orbit [1.5.35]",
+    "FM \u00b7 spiral intersect [1.5.40]"
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "case": "neutral",
+    "seed_max": 180,
+    "history_max": 180,
+    "reset_zero": true,
+    "release_stays_zero": true,
+    "fresh_input_exact": true
+  },
+  {
+    "case": "loop effects",
+    "seed_max": 180,
+    "history_max": 143,
+    "reset_zero": true,
+    "release_stays_zero": true,
+    "fresh_input_exact": true
+  },
+  {
+    "case": "hue changes stored history",
+    "passed": true
+  }
+]

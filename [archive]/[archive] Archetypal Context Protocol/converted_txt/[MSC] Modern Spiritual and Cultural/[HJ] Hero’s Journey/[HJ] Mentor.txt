@@ -1,0 +1,79 @@
+// [HJ] Mentor
+{
+  "SchemaVersion": "1.1-ter",
+  "ArchetypeName": "Mentor",
+  "SystemOfOrigin": "HJ",
+  "CulturalLineage": ["Universal", "Greek", "Celtic", "Japanese", "Hindu"],
+  "CommonAliases": ["Wise Elder", "Teacher", "Guide", "Sage"],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "Imparts wisdom, tools, and training; catalyzes the Hero’s readiness",
+    "PrimaryDomain": "Narrative",
+    "ToneOrPolarity": "Benevolent / Illuminating",
+    "SymbolicCore": "Lantern in the dark wood",
+    "Correspondences": {
+      "Element": "Air",
+      "Planet": "Jupiter",
+      "Chakra": "Third-Eye",
+      "Color": "Indigo",
+      "Animal": "Owl",
+      "Other": ["Staff", "Book", "Hourglass"]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": ["Advisor", "Gift-Giver", "Conscience"],
+    "ComplementaryArchetypes": ["Hero", "Herald"],
+    "ShadowForms": ["Dark Mentor", "Manipulative Guru"],
+    "DevelopmentalArc": ["Appearance → Teaching → Farewell"],
+    "CyclePhase": "Initiation"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": ["Wise", "Patient", "Visionary", "Protective"],
+    "Typologies": {
+      "MBTI": "INFJ / INTJ",
+      "Enneagram": "5w4",
+      "Other": ["JU.WiseOldMan", "JP12.Sage"]
+    },
+    "SubVariants": ["Wise Woman", "Hermit Sage", "Absent-Minded Mentor"],
+    "InternalFamily": "Sage"
+  },
+  "CulturalContext": {
+    "Regions": ["Global"],
+    "MythicAppearances": ["Chiron", "Merlin", "Obi-Wan Kenobi", "Takuan Sōhō"],
+    "ReligiousOrRitualUse": "Spiritual teachers, initiatory masters, elder councils",
+    "HistoricalEvolution": "Tribal elder → classical tutor → modern coach",
+    "SyncreticForms": ["Dumbledore", "Morpheus (Matrix)", "Gandalf"]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "🪄",
+    "ImageryNotes": "Starlight on a mountain peak, lantern raised high",
+    "ArtisticExamples": [
+      "Tarot: Hermit",
+      "Star Wars: Yoda hologram",
+      "Lord of the Rings: Gandalf"
+    ],
+    "PoeticInvocation": "I am the echo of tomorrow in the heart of today.",
+    "DreamForm": "An old traveler with cloak of stars who vanishes at dawn"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": ["JU.WiseOldMan", "JP12.Sage", "KB.Chokhmah", "TAMA.Hermit"],
+    "SemanticTags": ["#wisdom", "#star", "#guide", "#initiation"],
+    "RitualFunction": "Invoke clarity and guidance in vision quests",
+    "AIPromptSeeds": [
+      "Generate a mentor who speaks only in riddles that come true."
+    ],
+    "NarrativeHooks": ["Gift of the magic talisman", "Words at the edge of the abyss"]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [
+      { "to": "JU.WiseOldMan", "strength": "strong" },
+      { "to": "JP12.Sage", "strength": "strong" },
+      { "to": "KB.Chokhmah", "strength": "moderate" }
+    ]
+  },
+  "FacetRegistry": [
+    { "facet": "Benevolent Teacher", "weight": 0.5 },
+    { "facet": "Cryptic Hermit", "weight": 0.3 },
+    { "facet": "Dark Mentor", "weight": 0.2 }
+  ]
+}

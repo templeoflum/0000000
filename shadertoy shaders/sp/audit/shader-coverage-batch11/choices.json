@@ -1,0 +1,53 @@
+[
+  {
+    "col": 93,
+    "source": "Gradient",
+    "probe": "Type",
+    "checks": [
+      {
+        "requested": "Horizontal",
+        "observed": "Horizontal",
+        "ok": true
+      },
+      {
+        "requested": "Radial",
+        "observed": "Radial",
+        "ok": true
+      }
+    ]
+  },
+  {
+    "col": 100,
+    "source": "Gradient",
+    "probe": "Type",
+    "checks": [
+      {
+        "requested": "Horizontal",
+        "observed": "Horizontal",
+        "ok": true
+      },
+      {
+        "requested": "Radial",
+        "observed": "Radial",
+        "ok": true
+      }
+    ]
+  },
+  {
+    "col": 106,
+    "source": "Static",
+    "probe": "Mode",
+    "checks": [
+      {
+        "requested": "Color",
+        "observed": "Color",
+        "ok": true
+      },
+      {
+        "requested": "Two-tone",
+        "observed": "Two-tone",
+        "ok": true
+      }
+    ]
+  }
+]

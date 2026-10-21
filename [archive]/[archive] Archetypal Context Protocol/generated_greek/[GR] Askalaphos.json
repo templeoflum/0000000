@@ -1,0 +1,158 @@
+{
+  "SchemaVersion": "1.1-ter",
+  "ArchetypeName": "Askalaphos",
+  "SystemOfOrigin": "GR",
+  "CulturalLineage": [
+    "Greek"
+  ],
+  "CommonAliases": [
+    "The Tattler",
+    "Owl Daemon",
+    "Snitch of the Underworld",
+    "Ascalaphus"
+  ],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "To witness and reveal hidden transgressions; to embody the consequence of forbidden actions; to serve as guardian who reports violations.",
+    "PrimaryDomain": "Mythic / Social",
+    "ToneOrPolarity": "Revealing / Punishing",
+    "SymbolicCore": "The witness who cannot stay silent, the tattler whose truth brings consequence.",
+    "Correspondences": {
+      "Element": "Air",
+      "Planet": "Mercury",
+      "Chakra": "Throat",
+      "Color": "Dark Grey, Brown",
+      "Animal": "Owl (transformed into)",
+      "Other": [
+        "Pomegranate Seeds",
+        "Watching Eyes",
+        "Stone (used by Demeter)",
+        "Garden of Hades"
+      ]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": [
+      "Witness",
+      "Tattler",
+      "Consequence Bringer",
+      "Underworld Guardian"
+    ],
+    "ComplementaryArchetypes": [
+      "Persephone ([GR] Revealed Her Transgression)",
+      "Demeter ([GR] His Punisher)",
+      "Hades ([GR] Underworld Master)"
+    ],
+    "ShadowForms": [
+      "Malicious Snitch",
+      "Busybody",
+      "Punishment for Truth-Telling"
+    ],
+    "DevelopmentalArc": [
+      "Guardian → Witness → Revealer → Punished/Transformed"
+    ],
+    "CyclePhase": "Revelation / Consequence"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": [
+      "Observant",
+      "Truth-telling",
+      "Punished",
+      "Watchful",
+      "Tattling",
+      "Transformed"
+    ],
+    "Typologies": {
+      "MBTI": "ISTJ",
+      "Enneagram": "1w9",
+      "Other": [
+        "Witness",
+        "Truth-Teller",
+        "Whistleblower"
+      ]
+    },
+    "SubVariants": [
+      "Reluctant Witness",
+      "Punished Truth-Teller",
+      "Transformed Guardian"
+    ],
+    "InternalFamily": "Inner Whistleblower"
+  },
+  "CulturalContext": {
+    "Regions": [
+      "Greece"
+    ],
+    "MythicAppearances": [
+      "Homeric Hymn to Demeter",
+      "Witnessed Persephone eating pomegranate seeds",
+      "Transformed into owl/screech owl by Demeter"
+    ],
+    "ReligiousOrRitualUse": "Minor underworld deity; cautionary figure about consequences of revealing secrets; owl associations.",
+    "HistoricalEvolution": "Minor daemon in Persephone myth; transformation explains owl's nocturnal, watchful nature and mournful cry.",
+    "SyncreticForms": [
+      "Owl symbolism (wisdom and tattling)",
+      "Whistleblower archetype"
+    ]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "🦉",
+    "ImageryNotes": "Depicted as guardian daemon transformed into owl; associated with observation, revelation, and punishment for truth-telling.",
+    "ArtisticExamples": [
+      "Classical vase paintings",
+      "Owl transformation imagery",
+      "Persephone myth illustrations"
+    ],
+    "PoeticInvocation": "Askalaphos, who saw what should not be revealed, transformed for speaking truth at the wrong time.",
+    "DreamForm": "An owl whose eyes saw the forbidden deed, forever cursed to hoot warnings in the dark"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": [
+      "HJ.Herald",
+      "Tarot.The_Hermit",
+      "JP12.Innocent"
+    ],
+    "SemanticTags": [
+      "#witness",
+      "#revelation",
+      "#consequence",
+      "#transformation",
+      "#truth-telling"
+    ],
+    "RitualFunction": "Cautionary symbol about consequences of revealing secrets; represents the price of unwelcome truth.",
+    "AIPromptSeeds": [
+      "The witness who spoke truth and was punished, forever transformed.",
+      "The guardian whose honesty brought curse upon himself."
+    ],
+    "NarrativeHooks": [
+      "The witness who cannot stay silent",
+      "Punishment for revealing uncomfortable truth",
+      "Transformation as consequence of honesty"
+    ]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [
+      {
+        "to": "Owl_Wisdom",
+        "strength": "moderate"
+      },
+      {
+        "to": "Whistleblower",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "FacetRegistry": [
+    {
+      "facet": "Unwelcome Witness",
+      "weight": 0.5
+    },
+    {
+      "facet": "Punished Truth-Teller",
+      "weight": 0.3
+    },
+    {
+      "facet": "Owl Transformation",
+      "weight": 0.2
+    }
+  ]
+}

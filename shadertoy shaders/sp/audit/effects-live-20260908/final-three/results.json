@@ -1,0 +1,1487 @@
+[
+  {
+    "index": 0,
+    "name": "MTK_PXLMELT",
+    "key": "composition/effect/MTK_PXLMELT~1",
+    "samples": [
+      {
+        "bypass": false,
+        "amount": 1.0,
+        "heart": {
+          "env": 1.0,
+          "target": 1.0,
+          "observed_amount": 1.0,
+          "observed_bypassed": false
+        },
+        "params": {
+          "Opacity": {
+            "id": 1788823470238,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 1.0,
+            "view": {
+              "suffix": " %",
+              "multiplier": 100.0,
+              "display_units": "percent",
+              "control_type": "slider_color_opacity"
+            }
+          },
+          "STYLE": {
+            "id": 1788823470224,
+            "valuetype": "ParamChoice",
+            "value": "ORGANK",
+            "index": 5,
+            "options": [
+              "THICK",
+              "THIN",
+              "FINE",
+              "SLIT",
+              "QUAD",
+              "ORGANK"
+            ],
+            "view": {
+              "suffix": "",
+              "display_units": "integer",
+              "control_type": "choice_buttons"
+            }
+          },
+          "DRIVER": {
+            "id": 1788823470225,
+            "valuetype": "ParamChoice",
+            "value": "NOIZ",
+            "index": 0,
+            "options": [
+              "NOIZ",
+              "NOIZMOD",
+              "LUMA"
+            ],
+            "view": {
+              "suffix": "",
+              "display_units": "integer",
+              "control_type": "choice_buttons"
+            }
+          },
+          "DENSITY": {
+            "id": 1788823470226,
+            "valuetype": "ParamRange",
+            "min": 0.009999999776482582,
+            "max": 0.9900000095367432,
+            "in": 0.009999999776482582,
+            "out": 0.9900000095367432,
+            "value": 0.9900000095367432,
+            "view": {
+              "suffix": "",
+              "display_units": "real"
+            }
+          },
+          "TIMESTRETCH": {
+            "id": 1788823470227,
+            "valuetype": "ParamRange",
+            "min": 0.009999999776482582,
+            "max": 0.20000000298023224,
+            "in": 0.009999999776482582,
+            "out": 0.20000000298023224,
+            "value": 0.20000000298023224,
+            "view": {
+              "suffix": "",
+              "display_units": "real"
+            }
+          },
+          "MOSHLINES": {
+            "id": 1788823470228,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 1.0,
+            "view": {
+              "suffix": "",
+              "display_units": "real"
+            }
+          },
+          "MELT_LOCK": {
+            "valuetype": "ParamBoolean",
+            "id": 1788823470229,
+            "value": false
+          },
+          "MELT_TRIGGER": {
+            "id": 1788823470230,
+            "valuetype": "ParamEvent"
+          },
+          "FADETIME": {
+            "id": 1788823470231,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 1.0,
+            "view": {
+              "suffix": "",
+              "display_units": "real"
+            }
+          },
+          "WRAP": {
+            "valuetype": "ParamBoolean",
+            "id": 1788823470232,
+            "value": true
+          },
+          "FX_AREA": {
+            "id": 1788823470233,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 2.0,
+            "in": 0.0,
+            "out": 2.0,
+            "value": 2.0,
+            "view": {
+              "suffix": "",
+              "display_units": "real"
+            }
+          },
+          "AREA FEATHER": {
+            "id": 1788823470234,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 0.25,
+            "in": 0.0,
+            "out": 0.25,
+            "value": 0.006688146664323075,
+            "view": {
+              "suffix": "",
+              "display_units": "real"
+            }
+          }
+        }
+      },
+      {
+        "bypass": false,
+        "amount": 1.0,
+        "heart": {
+          "env": 1.0,
+          "target": 1.0,
+          "observed_amount": 1.0,
+          "observed_bypassed": false
+        },
+        "params": {
+          "Opacity": {
+            "id": 1788823470238,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 1.0,
+            "view": {
+              "suffix": " %",
+              "multiplier": 100.0,
+              "display_units": "percent",
+              "control_type": "slider_color_opacity"
+            }
+          },
+          "STYLE": {
+            "id": 1788823470224,
+            "valuetype": "ParamChoice",
+            "value": "ORGANK",
+            "index": 5,
+            "options": [
+              "THICK",
+              "THIN",
+              "FINE",
+              "SLIT",
+              "QUAD",
+              "ORGANK"
+            ],
+            "view": {
+              "suffix": "",
+              "display_units": "integer",
+              "control_type": "choice_buttons"
+            }
+          },
+          "DRIVER": {
+            "id": 1788823470225,
+            "valuetype": "ParamChoice",
+            "value": "NOIZ",
+            "index": 0,
+            "options": [
+              "NOIZ",
+              "NOIZMOD",
+              "LUMA"
+            ],
+            "view": {
+              "suffix": "",
+              "display_units": "integer",
+              "control_type": "choice_buttons"
+            }
+          },
+          "DENSITY": {
+            "id": 1788823470226,
+            "valuetype": "ParamRange",
+            "min": 0.009999999776482582,
+            "max": 0.9900000095367432,
+            "in": 0.009999999776482582,
+            "out": 0.9900000095367432,
+            "value": 0.9900000095367432,
+            "view": {
+              "suffix": "",
+              "display_units": "real"
+            }
+          },
+          "TIMESTRETCH": {
+            "id": 1788823470227,
+            "valuetype": "ParamRange",
+            "min": 0.009999999776482582,
+            "max": 0.20000000298023224,
+            "in": 0.009999999776482582,
+            "out": 0.20000000298023224,
+            "value": 0.20000000298023224,
+            "view": {
+              "suffix": "",
+              "display_units": "real"
+            }
+          },
+          "MOSHLINES": {
+            "id": 1788823470228,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 1.0,
+            "view": {
+              "suffix": "",
+              "display_units": "real"
+            }
+          },
+          "MELT_LOCK": {
+            "valuetype": "ParamBoolean",
+            "id": 1788823470229,
+            "value": false
+          },
+          "MELT_TRIGGER": {
+            "id": 1788823470230,
+            "valuetype": "ParamEvent"
+          },
+          "FADETIME": {
+            "id": 1788823470231,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 1.0,
+            "view": {
+              "suffix": "",
+              "display_units": "real"
+            }
+          },
+          "WRAP": {
+            "valuetype": "ParamBoolean",
+            "id": 1788823470232,
+            "value": true
+          },
+          "FX_AREA": {
+            "id": 1788823470233,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 2.0,
+            "in": 0.0,
+            "out": 2.0,
+            "value": 2.0,
+            "view": {
+              "suffix": "",
+              "display_units": "real"
+            }
+          },
+          "AREA FEATHER": {
+            "id": 1788823470234,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 0.25,
+            "in": 0.0,
+            "out": 0.25,
+            "value": 0.006688146664323075,
+            "view": {
+              "suffix": "",
+              "display_units": "real"
+            }
+          }
+        }
+      },
+      {
+        "bypass": false,
+        "amount": 1.0,
+        "heart": {
+          "env": 1.0,
+          "target": 1.0,
+          "observed_amount": 1.0,
+          "observed_bypassed": false
+        },
+        "params": {
+          "Opacity": {
+            "id": 1788823470238,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 1.0,
+            "view": {
+              "suffix": " %",
+              "multiplier": 100.0,
+              "display_units": "percent",
+              "control_type": "slider_color_opacity"
+            }
+          },
+          "STYLE": {
+            "id": 1788823470224,
+            "valuetype": "ParamChoice",
+            "value": "ORGANK",
+            "index": 5,
+            "options": [
+              "THICK",
+              "THIN",
+              "FINE",
+              "SLIT",
+              "QUAD",
+              "ORGANK"
+            ],
+            "view": {
+              "suffix": "",
+              "display_units": "integer",
+              "control_type": "choice_buttons"
+            }
+          },
+          "DRIVER": {
+            "id": 1788823470225,
+            "valuetype": "ParamChoice",
+            "value": "NOIZ",
+            "index": 0,
+            "options": [
+              "NOIZ",
+              "NOIZMOD",
+              "LUMA"
+            ],
+            "view": {
+              "suffix": "",
+              "display_units": "integer",
+              "control_type": "choice_buttons"
+            }
+          },
+          "DENSITY": {
+            "id": 1788823470226,
+            "valuetype": "ParamRange",
+            "min": 0.009999999776482582,
+            "max": 0.9900000095367432,
+            "in": 0.009999999776482582,
+            "out": 0.9900000095367432,
+            "value": 0.9900000095367432,
+            "view": {
+              "suffix": "",
+              "display_units": "real"
+            }
+          },
+          "TIMESTRETCH": {
+            "id": 1788823470227,
+            "valuetype": "ParamRange",
+            "min": 0.009999999776482582,
+            "max": 0.20000000298023224,
+            "in": 0.009999999776482582,
+            "out": 0.20000000298023224,
+            "value": 0.20000000298023224,
+            "view": {
+              "suffix": "",
+              "display_units": "real"
+            }
+          },
+          "MOSHLINES": {
+            "id": 1788823470228,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 1.0,
+            "view": {
+              "suffix": "",
+              "display_units": "real"
+            }
+          },
+          "MELT_LOCK": {
+            "valuetype": "ParamBoolean",
+            "id": 1788823470229,
+            "value": false
+          },
+          "MELT_TRIGGER": {
+            "id": 1788823470230,
+            "valuetype": "ParamEvent"
+          },
+          "FADETIME": {
+            "id": 1788823470231,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 1.0,
+            "view": {
+              "suffix": "",
+              "display_units": "real"
+            }
+          },
+          "WRAP": {
+            "valuetype": "ParamBoolean",
+            "id": 1788823470232,
+            "value": true
+          },
+          "FX_AREA": {
+            "id": 1788823470233,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 2.0,
+            "in": 0.0,
+            "out": 2.0,
+            "value": 2.0,
+            "view": {
+              "suffix": "",
+              "display_units": "real"
+            }
+          },
+          "AREA FEATHER": {
+            "id": 1788823470234,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 0.25,
+            "in": 0.0,
+            "out": 0.25,
+            "value": 0.006688146664323075,
+            "view": {
+              "suffix": "",
+              "display_units": "real"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "index": 1,
+    "name": "Twitch",
+    "key": "layer/figure~1/effect/TwitchEffect~1",
+    "samples": [
+      {
+        "bypass": false,
+        "amount": 1.0,
+        "heart": {
+          "env": 1.0,
+          "target": 1.0,
+          "observed_amount": 1.0,
+          "observed_bypassed": false
+        },
+        "params": {
+          "Opacity": {
+            "id": 1788823471323,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 1.0,
+            "view": {
+              "suffix": " %",
+              "multiplier": 100.0,
+              "display_units": "percent",
+              "control_type": "slider_color_opacity"
+            }
+          },
+          "Global Twitch": {
+            "id": 1788823471297,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.4743764449139031
+          },
+          "Max Pos X": {
+            "id": 1788823471298,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.01965230305989583
+          },
+          "Max Pos Y": {
+            "id": 1788823471299,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.012396074152317176
+          },
+          "Pos Frequency": {
+            "id": 1788823471300,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.6806083650190115
+          },
+          "Max Scale": {
+            "id": 1788823471301,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.10128497688137757
+          },
+          "Scale Frequency": {
+            "id": 1788823471302,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.646810321300202
+          },
+          "Max Opacity": {
+            "id": 1788823471307,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.0267525866572923
+          },
+          "Opacity Frequency": {
+            "id": 1788823471308,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.0267525866572923
+          },
+          "Max Light": {
+            "id": 1788823471303,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.28010141350923834
+          },
+          "Light Frequency": {
+            "id": 1788823471304,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.0267525866572923
+          },
+          "Max RGB Shift": {
+            "id": 1788823471305,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.670899433992347
+          },
+          "RGB Frequency": {
+            "id": 1788823471306,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.33771731837266156
+          },
+          "Max Blur": {
+            "id": 1788823471309,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.35769473805147056
+          },
+          "Blur Frequency": {
+            "id": 1788823471310,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.15166876615226949
+          },
+          "Black BG": {
+            "valuetype": "ParamBoolean",
+            "id": 1788823471311,
+            "value": false
+          }
+        }
+      },
+      {
+        "bypass": false,
+        "amount": 1.0,
+        "heart": {
+          "env": 1.0,
+          "target": 1.0,
+          "observed_amount": 1.0,
+          "observed_bypassed": false
+        },
+        "params": {
+          "Opacity": {
+            "id": 1788823471323,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 1.0,
+            "view": {
+              "suffix": " %",
+              "multiplier": 100.0,
+              "display_units": "percent",
+              "control_type": "slider_color_opacity"
+            }
+          },
+          "Global Twitch": {
+            "id": 1788823471297,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.4743764449139031
+          },
+          "Max Pos X": {
+            "id": 1788823471298,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.01965230305989583
+          },
+          "Max Pos Y": {
+            "id": 1788823471299,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.012396074152317176
+          },
+          "Pos Frequency": {
+            "id": 1788823471300,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.6806083650190115
+          },
+          "Max Scale": {
+            "id": 1788823471301,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.10128497688137757
+          },
+          "Scale Frequency": {
+            "id": 1788823471302,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.646810321300202
+          },
+          "Max Opacity": {
+            "id": 1788823471307,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.0267525866572923
+          },
+          "Opacity Frequency": {
+            "id": 1788823471308,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.0267525866572923
+          },
+          "Max Light": {
+            "id": 1788823471303,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.28010141350923834
+          },
+          "Light Frequency": {
+            "id": 1788823471304,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.0267525866572923
+          },
+          "Max RGB Shift": {
+            "id": 1788823471305,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.670899433992347
+          },
+          "RGB Frequency": {
+            "id": 1788823471306,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.33771731837266156
+          },
+          "Max Blur": {
+            "id": 1788823471309,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.35769473805147056
+          },
+          "Blur Frequency": {
+            "id": 1788823471310,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.15166876615226949
+          },
+          "Black BG": {
+            "valuetype": "ParamBoolean",
+            "id": 1788823471311,
+            "value": false
+          }
+        }
+      },
+      {
+        "bypass": false,
+        "amount": 1.0,
+        "heart": {
+          "env": 1.0,
+          "target": 1.0,
+          "observed_amount": 1.0,
+          "observed_bypassed": false
+        },
+        "params": {
+          "Opacity": {
+            "id": 1788823471323,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 1.0,
+            "view": {
+              "suffix": " %",
+              "multiplier": 100.0,
+              "display_units": "percent",
+              "control_type": "slider_color_opacity"
+            }
+          },
+          "Global Twitch": {
+            "id": 1788823471297,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.4743764449139031
+          },
+          "Max Pos X": {
+            "id": 1788823471298,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.01965230305989583
+          },
+          "Max Pos Y": {
+            "id": 1788823471299,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.012396074152317176
+          },
+          "Pos Frequency": {
+            "id": 1788823471300,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.6806083650190115
+          },
+          "Max Scale": {
+            "id": 1788823471301,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.10128497688137757
+          },
+          "Scale Frequency": {
+            "id": 1788823471302,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.646810321300202
+          },
+          "Max Opacity": {
+            "id": 1788823471307,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.0267525866572923
+          },
+          "Opacity Frequency": {
+            "id": 1788823471308,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.0267525866572923
+          },
+          "Max Light": {
+            "id": 1788823471303,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.28010141350923834
+          },
+          "Light Frequency": {
+            "id": 1788823471304,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.0267525866572923
+          },
+          "Max RGB Shift": {
+            "id": 1788823471305,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.670899433992347
+          },
+          "RGB Frequency": {
+            "id": 1788823471306,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.33771731837266156
+          },
+          "Max Blur": {
+            "id": 1788823471309,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.35769473805147056
+          },
+          "Blur Frequency": {
+            "id": 1788823471310,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.15166876615226949
+          },
+          "Black BG": {
+            "valuetype": "ParamBoolean",
+            "id": 1788823471311,
+            "value": false
+          }
+        }
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "name": "mtk_lut_corrupt",
+    "key": "layer/figure~1/effect/mtk_lut_corrupt~1",
+    "samples": [
+      {
+        "bypass": false,
+        "amount": 1.0,
+        "heart": {
+          "env": 1.0,
+          "target": 1.0,
+          "observed_amount": 1.0,
+          "observed_bypassed": false
+        },
+        "params": {
+          "Opacity": {
+            "id": 1788823471348,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 1.0,
+            "view": {
+              "suffix": " %",
+              "multiplier": 100.0,
+              "display_units": "percent",
+              "control_type": "slider_color_opacity"
+            }
+          },
+          "LUT_CORRUPT_R": {
+            "id": 1788823471334,
+            "valuetype": "ParamChoice",
+            "value": "BLOCKSHUFFLEBIG",
+            "index": 7,
+            "options": [
+              "BLOCKSHUFFLE",
+              "CHUNKINVERT",
+              "SPIKES",
+              "CHSWAP",
+              "QUANTIZE3",
+              "QUANTIZE6",
+              "HEAVY JITTER",
+              "BLOCKSHUFFLEBIG",
+              "HARDCLAMP",
+              "RANDOMJITTER",
+              "SINEMODULATION",
+              "VALUEWRAP",
+              "NOISEINJECT",
+              "REVERSEORDER",
+              "SCALE_EXPLODE",
+              "NAN INJECT",
+              "INVERT",
+              "INF INJECT",
+              "STRIPE",
+              "XTREME NOISE",
+              "MIRROR REPEAT",
+              "WAVE DISTORT",
+              "COMBINATION_1",
+              "RECURSIVE MIX",
+              "RECURSIVE MIX 2",
+              "BLOCK_SHUFFLE_X"
+            ],
+            "view": {
+              "suffix": "",
+              "control_type": "choice_buttons"
+            }
+          },
+          "LUMASTEPS": {
+            "id": 1788823471335,
+            "valuetype": "ParamChoice",
+            "value": "FULL",
+            "index": 4,
+            "options": [
+              "2",
+              "4",
+              "6",
+              "10",
+              "FULL"
+            ],
+            "view": {
+              "suffix": "",
+              "display_units": "integer",
+              "control_type": "choice_buttons"
+            }
+          },
+          "MELT": {
+            "id": 1788823471336,
+            "valuetype": "ParamEvent"
+          },
+          "DECON": {
+            "id": 1788823471337,
+            "valuetype": "ParamEvent"
+          },
+          "BLOK": {
+            "id": 1788823471338,
+            "valuetype": "ParamEvent"
+          },
+          "TRIG_RELEASE": {
+            "id": 1788823471339,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 2.0,
+            "in": 0.0,
+            "out": 2.0,
+            "value": 0.0535051733145846,
+            "view": {
+              "suffix": "",
+              "display_units": "real"
+            }
+          },
+          "IN_WHITE": {
+            "id": 1788823471340,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.6571491083383608,
+            "view": {
+              "suffix": "",
+              "display_units": "real"
+            }
+          },
+          "OUT_WHITE": {
+            "id": 1788823471341,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.7551065059559634,
+            "view": {
+              "suffix": "",
+              "display_units": "real"
+            }
+          },
+          "IN BLACK": {
+            "id": 1788823471342,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.025976867426500214,
+            "view": {
+              "suffix": "",
+              "display_units": "real"
+            }
+          },
+          "OUT BLACK": {
+            "id": 1788823471343,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.4395580352544741,
+            "view": {
+              "suffix": "",
+              "display_units": "real"
+            }
+          },
+          "SMOOTH TIME": {
+            "id": 1788823471344,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 5.0,
+            "in": 0.0,
+            "out": 5.0,
+            "value": 0.0,
+            "view": {
+              "suffix": "",
+              "step": 1.0,
+              "multiplier": 1.0,
+              "display_units": "integer",
+              "control_type": "slider"
+            }
+          }
+        }
+      },
+      {
+        "bypass": false,
+        "amount": 1.0,
+        "heart": {
+          "env": 1.0,
+          "target": 1.0,
+          "observed_amount": 1.0,
+          "observed_bypassed": false
+        },
+        "params": {
+          "Opacity": {
+            "id": 1788823471348,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 1.0,
+            "view": {
+              "suffix": " %",
+              "multiplier": 100.0,
+              "display_units": "percent",
+              "control_type": "slider_color_opacity"
+            }
+          },
+          "LUT_CORRUPT_R": {
+            "id": 1788823471334,
+            "valuetype": "ParamChoice",
+            "value": "BLOCKSHUFFLEBIG",
+            "index": 7,
+            "options": [
+              "BLOCKSHUFFLE",
+              "CHUNKINVERT",
+              "SPIKES",
+              "CHSWAP",
+              "QUANTIZE3",
+              "QUANTIZE6",
+              "HEAVY JITTER",
+              "BLOCKSHUFFLEBIG",
+              "HARDCLAMP",
+              "RANDOMJITTER",
+              "SINEMODULATION",
+              "VALUEWRAP",
+              "NOISEINJECT",
+              "REVERSEORDER",
+              "SCALE_EXPLODE",
+              "NAN INJECT",
+              "INVERT",
+              "INF INJECT",
+              "STRIPE",
+              "XTREME NOISE",
+              "MIRROR REPEAT",
+              "WAVE DISTORT",
+              "COMBINATION_1",
+              "RECURSIVE MIX",
+              "RECURSIVE MIX 2",
+              "BLOCK_SHUFFLE_X"
+            ],
+            "view": {
+              "suffix": "",
+              "control_type": "choice_buttons"
+            }
+          },
+          "LUMASTEPS": {
+            "id": 1788823471335,
+            "valuetype": "ParamChoice",
+            "value": "FULL",
+            "index": 4,
+            "options": [
+              "2",
+              "4",
+              "6",
+              "10",
+              "FULL"
+            ],
+            "view": {
+              "suffix": "",
+              "display_units": "integer",
+              "control_type": "choice_buttons"
+            }
+          },
+          "MELT": {
+            "id": 1788823471336,
+            "valuetype": "ParamEvent"
+          },
+          "DECON": {
+            "id": 1788823471337,
+            "valuetype": "ParamEvent"
+          },
+          "BLOK": {
+            "id": 1788823471338,
+            "valuetype": "ParamEvent"
+          },
+          "TRIG_RELEASE": {
+            "id": 1788823471339,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 2.0,
+            "in": 0.0,
+            "out": 2.0,
+            "value": 0.0535051733145846,
+            "view": {
+              "suffix": "",
+              "display_units": "real"
+            }
+          },
+          "IN_WHITE": {
+            "id": 1788823471340,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.6571491083383608,
+            "view": {
+              "suffix": "",
+              "display_units": "real"
+            }
+          },
+          "OUT_WHITE": {
+            "id": 1788823471341,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.7551065059559634,
+            "view": {
+              "suffix": "",
+              "display_units": "real"
+            }
+          },
+          "IN BLACK": {
+            "id": 1788823471342,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.025976867426500214,
+            "view": {
+              "suffix": "",
+              "display_units": "real"
+            }
+          },
+          "OUT BLACK": {
+            "id": 1788823471343,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.4395580352544741,
+            "view": {
+              "suffix": "",
+              "display_units": "real"
+            }
+          },
+          "SMOOTH TIME": {
+            "id": 1788823471344,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 5.0,
+            "in": 0.0,
+            "out": 5.0,
+            "value": 0.0,
+            "view": {
+              "suffix": "",
+              "step": 1.0,
+              "multiplier": 1.0,
+              "display_units": "integer",
+              "control_type": "slider"
+            }
+          }
+        }
+      },
+      {
+        "bypass": false,
+        "amount": 1.0,
+        "heart": {
+          "env": 1.0,
+          "target": 1.0,
+          "observed_amount": 1.0,
+          "observed_bypassed": false
+        },
+        "params": {
+          "Opacity": {
+            "id": 1788823471348,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 1.0,
+            "view": {
+              "suffix": " %",
+              "multiplier": 100.0,
+              "display_units": "percent",
+              "control_type": "slider_color_opacity"
+            }
+          },
+          "LUT_CORRUPT_R": {
+            "id": 1788823471334,
+            "valuetype": "ParamChoice",
+            "value": "BLOCKSHUFFLEBIG",
+            "index": 7,
+            "options": [
+              "BLOCKSHUFFLE",
+              "CHUNKINVERT",
+              "SPIKES",
+              "CHSWAP",
+              "QUANTIZE3",
+              "QUANTIZE6",
+              "HEAVY JITTER",
+              "BLOCKSHUFFLEBIG",
+              "HARDCLAMP",
+              "RANDOMJITTER",
+              "SINEMODULATION",
+              "VALUEWRAP",
+              "NOISEINJECT",
+              "REVERSEORDER",
+              "SCALE_EXPLODE",
+              "NAN INJECT",
+              "INVERT",
+              "INF INJECT",
+              "STRIPE",
+              "XTREME NOISE",
+              "MIRROR REPEAT",
+              "WAVE DISTORT",
+              "COMBINATION_1",
+              "RECURSIVE MIX",
+              "RECURSIVE MIX 2",
+              "BLOCK_SHUFFLE_X"
+            ],
+            "view": {
+              "suffix": "",
+              "control_type": "choice_buttons"
+            }
+          },
+          "LUMASTEPS": {
+            "id": 1788823471335,
+            "valuetype": "ParamChoice",
+            "value": "FULL",
+            "index": 4,
+            "options": [
+              "2",
+              "4",
+              "6",
+              "10",
+              "FULL"
+            ],
+            "view": {
+              "suffix": "",
+              "display_units": "integer",
+              "control_type": "choice_buttons"
+            }
+          },
+          "MELT": {
+            "id": 1788823471336,
+            "valuetype": "ParamEvent"
+          },
+          "DECON": {
+            "id": 1788823471337,
+            "valuetype": "ParamEvent"
+          },
+          "BLOK": {
+            "id": 1788823471338,
+            "valuetype": "ParamEvent"
+          },
+          "TRIG_RELEASE": {
+            "id": 1788823471339,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 2.0,
+            "in": 0.0,
+            "out": 2.0,
+            "value": 0.0535051733145846,
+            "view": {
+              "suffix": "",
+              "display_units": "real"
+            }
+          },
+          "IN_WHITE": {
+            "id": 1788823471340,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.6571491083383608,
+            "view": {
+              "suffix": "",
+              "display_units": "real"
+            }
+          },
+          "OUT_WHITE": {
+            "id": 1788823471341,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.7551065059559634,
+            "view": {
+              "suffix": "",
+              "display_units": "real"
+            }
+          },
+          "IN BLACK": {
+            "id": 1788823471342,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.025976867426500214,
+            "view": {
+              "suffix": "",
+              "display_units": "real"
+            }
+          },
+          "OUT BLACK": {
+            "id": 1788823471343,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 1.0,
+            "in": 0.0,
+            "out": 1.0,
+            "value": 0.4395580352544741,
+            "view": {
+              "suffix": "",
+              "display_units": "real"
+            }
+          },
+          "SMOOTH TIME": {
+            "id": 1788823471344,
+            "valuetype": "ParamRange",
+            "min": 0.0,
+            "max": 5.0,
+            "in": 0.0,
+            "out": 5.0,
+            "value": 0.0,
+            "view": {
+              "suffix": "",
+              "step": 1.0,
+              "multiplier": 1.0,
+              "display_units": "integer",
+              "control_type": "slider"
+            }
+          }
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "id": "2168e9444dbd",
+  "filename": "Tasks.docx",
+  "path": "01_LUM_GAME_CONCEPTS_EXISTING\\Project Cosmos\\modules\\Tasks.docx",
+  "category": "game_design",
+  "content_type": "prompt",
+  "metadata": {
+    "title": "Convert to .reso",
+    "file_size": 8705,
+    "modified_date": "2025-01-01T11:24:52",
+    "created_date": "2026-01-22T18:31:05.577540"
+  },
+  "concepts": [],
+  "structure": {
+    "sections": [],
+    "section_count": 0,
+    "has_clear_structure": false
+  },
+  "content": "Convert to .reso\n---\nversion: 1.0\nname: Convert Pasted Text to `.reso` Format with Prompting\nstepNumber: 1\nuniverseID: Universal\n---\n\n## Task Definition\n\n*   **Task Definition:** Develop a functionality that allows users to paste text into a prompt, then organizes and converts the text into the `.reso` format. Users should be guided through the process with interactive prompts to confirm or adjust key sections and metadata.\n*   **Contextual Guidance:** This task aims to streamline the conversion of pasted text into a standardized `.reso` format. The system will prompt users for input or adjustments to ensure the final output adheres to the `.reso` template while retaining the core content and structure of the pasted text.\n*   **Required Components:**\n    - Input: Text provided by users via paste functionality.\n    - Conversion logic to apply `.reso` structure to the text.\n    - Interactive prompts for metadata entry and section confirmation.\n\n## Step-by-Step Logic\n\n1. **Input Text Prompt:**\n   - Provide a text area for the user to paste their content.\n   - Display clear instructions on the type of content suitable for conversion.\n\n2. **Parse Pasted Text:**\n   - Automatically identify headings, subheadings, and paragraphs in the pasted text.\n   - Pre-organize the text into logical sections where possible.\n\n3. **Prompt for Metadata:**\n   - Ask the user to input or confirm metadata (e.g., version, task name, step number, universeID).\n   - Provide examples and explanations for metadata fields to guide users.\n\n4. **Organize Content:**\n   - Reformat the pasted text into `.reso` sections:\n     - Task Definition\n     - Contextual Guidance\n     - Step-by-Step Logic\n     - Desired Output\n     - Testing and Verification\n     - Constraints and Guidelines\n\n5. **User Review and Adjustment:**\n   - Present a preview of the reformatted content.\n   - Allow the user to edit, reorder, or confirm sections before finalizing.\n\n6. **Generate `.reso` File:**\n   - Save the confirmed content in `.reso` format.\n   - Provide the user with an option to download the `.reso` file or copy the formatted text.\n\n7. **Completion Notification:**\n   - Notify the user that the `.reso` file is ready and provide access to the output.\n\n## Desired Output\n\n*   A `.reso` formatted text file containing:\n    - User-provided metadata (version, task name, step number, universeID).\n    - Pasted text reorganized into `.reso` sections.\n    - A consistent structure that aligns with the `.reso` template.\n\n## Testing and Verification\n\n*   Confirm that pasted text is correctly parsed and reorganized into `.reso` sections.\n*   Verify that metadata prompts are clear and guide users effectively.\n*   Ensure the output adheres strictly to the `.reso` template and reflects user edits or confirmations.\n*   Test with various text inputs to ensure adaptability and consistency.\n\n## Constraints and Guidelines\n\n*   Ensure the interface is intuitive and guides users seamlessly through the process.\n*   Avoid altering the meaning or losing key information from the pasted text.\n*   Maintain compatibility with different text structures and ensure the tool can adapt to variations in input.\n*   Respect user privacy and handle sensitive information securely.\n\n",
+  "word_count": 482,
+  "char_count": 3243,
+  "related_documents": [],
+  "maturity": "sketch",
+  "maturity_score": 0
+}

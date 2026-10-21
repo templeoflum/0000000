@@ -1,0 +1,196 @@
+{
+  "SchemaVersion": "1.1-ter",
+  "ArchetypeName": "Adad/Ishkur",
+  "SystemOfOrigin": "ME",
+  "CulturalLineage": [
+    "Sumerian",
+    "Akkadian",
+    "Babylonian",
+    "Assyrian"
+  ],
+  "CommonAliases": [
+    "Ishkur (Sumerian - Storm)",
+    "Adad (Akkadian/Babylonian)",
+    "Hadad (West Semitic)",
+    "Storm God",
+    "Lord of Thunder",
+    "Rain Bringer"
+  ],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "Storm god embodying thunder, lightning, rain, fertility through water, and destructive power of weather",
+    "PrimaryDomain": "Storm/Rain/Thunder",
+    "ToneOrPolarity": "Powerful / Unpredictable / Life-Giving / Destructive",
+    "SymbolicCore": "The storm that destroys and nourishes - rain as both blessing and curse",
+    "Correspondences": {
+      "Element": "Air and Water",
+      "Planet": "Jupiter (thunder)",
+      "Chakra": "Throat (thunder voice)",
+      "Color": "Storm Gray, Electric Blue, Rain Silver",
+      "Animal": "Bull, Lion-Dragon",
+      "Other": [
+        "Cuneiform: 𒀭𒅎 (DINGIR-IM)",
+        "Lightning bolt",
+        "Bull roar (thunder)",
+        "Temple: Various throughout Mesopotamia",
+        "Sacred Number: 6 or 10",
+        "Rain clouds",
+        "Flood weapon"
+      ]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": [
+      "Storm Bringer",
+      "Rain Provider",
+      "Thunder Voice",
+      "Flood Deity",
+      "Fertility Through Water",
+      "Destroyer and Nourisher"
+    ],
+    "ComplementaryArchetypes": [
+      "Enlil (Wind/Authority)",
+      "Enki (Water wisdom)",
+      "Ninurta (Agricultural parallel)",
+      "Shala (Consort - grain goddess)"
+    ],
+    "ShadowForms": [
+      "Destructive Flood",
+      "Drought Bringer",
+      "Uncontrolled Rage"
+    ],
+    "DevelopmentalArc": [
+      "Storm Power → Rain Blessing → Thunder Judge → Flood Threat → Seasonal Cycle"
+    ],
+    "CyclePhase": "Drought → Storm → Rain → Flood → Growth"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": [
+      "Powerful",
+      "Unpredictable",
+      "Loud",
+      "Fertilizing",
+      "Destructive",
+      "Commanding",
+      "Necessary"
+    ],
+    "Typologies": {
+      "MBTI": "ESTP",
+      "Enneagram": "8w7 (The Maverick)",
+      "Other": [
+        "Storm archetype",
+        "Thunder God",
+        "Weather Power",
+        "Destroyer-Nourisher"
+      ]
+    },
+    "SubVariants": [
+      "Thunder God",
+      "Rain Bringer",
+      "Storm Lord",
+      "Flood Power",
+      "Weather Master"
+    ],
+    "InternalFamily": "Storm - Voice - Power"
+  },
+  "CulturalContext": {
+    "Regions": [
+      "Mesopotamia (widespread)",
+      "Assyria (important)",
+      "Syria (as Hadad)",
+      "Levant"
+    ],
+    "MythicAppearances": [
+      "Flood narratives",
+      "Storm and rain myths",
+      "Agricultural fertility texts",
+      "Weather omens",
+      "Thunder prophecies",
+      "Royal epithets"
+    ],
+    "ReligiousOrRitualUse": "Rain ceremonies, drought prevention rituals, agricultural festivals, invoked for water, feared for floods",
+    "HistoricalEvolution": "Ancient storm deity, remained important throughout Mesopotamian history, syncretized with West Semitic Hadad/Baal, influenced thunder god traditions",
+    "SyncreticForms": [
+      "Zeus (Greek thunder)",
+      "Thor (Norse thunder)",
+      "Indra (Vedic storm/thunder)",
+      "Baal/Hadad (Canaanite storm)",
+      "Jupiter (Roman thunder)"
+    ]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "𒀭𒅎 (⚡🌧️)",
+    "ImageryNotes": "Depicted with lightning bolts, bull horns (thunder roar), storm clouds, standing on bull or lion-dragon, wielding thunder weapons",
+    "ArtisticExamples": [
+      "Storm god iconography",
+      "Lightning bolt symbols",
+      "Bull imagery for thunder"
+    ],
+    "PoeticInvocation": "I am the voice that shakes the heavens, the rain that feeds or floods, the lightning that illuminates and destroys.",
+    "DreamForm": "Thunder speaking judgment; rain pouring down endlessly; lightning striking to reveal or destroy; the bull's roar becoming storm"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": [
+      "ME.Enlil",
+      "ME.Enki-Ea",
+      "ME.Ninurta",
+      "GR.Zeus",
+      "NO.Thor"
+    ],
+    "SemanticTags": [
+      "#storm",
+      "#thunder",
+      "#lightning",
+      "#rain",
+      "#weather",
+      "#fertility",
+      "#flood",
+      "#power"
+    ],
+    "RitualFunction": "Invoke for rain, weather control, powerful voice, fertilizing power, storm energy, breaking drought",
+    "AIPromptSeeds": [
+      "Generate a storm whose voice is thunder, whose power brings both nourishment and destruction through rain.",
+      "Create a weather god whose unpredictability is both feared and necessary for life."
+    ],
+    "NarrativeHooks": [
+      "The storm that breaks drought",
+      "Thunder as divine voice",
+      "Rain blessing becoming flood curse",
+      "Lightning judgment from sky"
+    ]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [
+      {
+        "to": "GR.Zeus",
+        "strength": "moderate"
+      },
+      {
+        "to": "NO.Thor",
+        "strength": "strong"
+      },
+      {
+        "to": "IN.Indra",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "FacetRegistry": [
+    {
+      "facet": "Thunder God",
+      "weight": 0.35
+    },
+    {
+      "facet": "Rain Bringer",
+      "weight": 0.35
+    },
+    {
+      "facet": "Storm Lord",
+      "weight": 0.2
+    },
+    {
+      "facet": "Flood Power",
+      "weight": 0.1
+    }
+  ]
+}

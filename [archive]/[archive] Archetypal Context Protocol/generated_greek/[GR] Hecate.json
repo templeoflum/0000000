@@ -1,0 +1,169 @@
+{
+  "SchemaVersion": "1.1-ter",
+  "ArchetypeName": "Hecate",
+  "SystemOfOrigin": "GR",
+  "CulturalLineage": [
+    "Greek",
+    "Anatolian",
+    "Thracian"
+  ],
+  "CommonAliases": [
+    "Queen of Witches",
+    "Goddess of the Crossroads",
+    "Torch Bearer",
+    "Trivia",
+    "Hekate"
+  ],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "To embody magic, witchcraft, crossroads, and liminal spaces; to guide through darkness and guard thresholds.",
+    "PrimaryDomain": "Mythic / Magical",
+    "ToneOrPolarity": "Liminal / Transformative",
+    "SymbolicCore": "The triple goddess of boundaries, magic, and the dark moon.",
+    "Correspondences": {
+      "Element": "Spirit/Aether",
+      "Planet": "Dark Moon",
+      "Chakra": "Third Eye",
+      "Color": "Black, Deep Red, Silver",
+      "Animal": "Dog, Snake, Polecat",
+      "Other": [
+        "Torch",
+        "Key",
+        "Dagger",
+        "Crossroads",
+        "Triple Form"
+      ]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": [
+      "Witch Goddess",
+      "Crossroads Guardian",
+      "Underworld Guide",
+      "Threshold Keeper",
+      "Dark Mother"
+    ],
+    "ComplementaryArchetypes": [
+      "Persephone ([GR] Queen of Underworld)",
+      "Artemis ([GR] Moon aspects)",
+      "Hermes ([GR] Crossroads)"
+    ],
+    "ShadowForms": [
+      "Malevolent Witch",
+      "Confusion at Crossroads",
+      "Dark Magic"
+    ],
+    "DevelopmentalArc": [],
+    "CyclePhase": "Transformation / Liminality"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": [
+      "Magical",
+      "Boundary-crossing",
+      "Powerful",
+      "Dark",
+      "Transformative",
+      "Independent"
+    ],
+    "Typologies": {
+      "MBTI": "INTJ",
+      "Enneagram": "5w4",
+      "Other": [
+        "Magician",
+        "Sage",
+        "Outlaw"
+      ]
+    },
+    "SubVariants": [
+      "Dark Moon Goddess",
+      "Crossroads Witch",
+      "Underworld Guide"
+    ],
+    "InternalFamily": "Shadow Integration"
+  },
+  "CulturalContext": {
+    "Regions": [
+      "Greece",
+      "Anatolia",
+      "Thrace"
+    ],
+    "MythicAppearances": [
+      "Homeric Hymn to Demeter",
+      "Helper in Persephone's abduction",
+      "Medea's patron goddess"
+    ],
+    "ReligiousOrRitualUse": "Offerings left at crossroads; invoked in magic and witchcraft; protector of households; honored at new moon.",
+    "HistoricalEvolution": "Pre-Greek goddess absorbed into pantheon; elevated by Zeus; became central to Greco-Roman magic and witchcraft.",
+    "SyncreticForms": [
+      "Trivia (Roman)",
+      "Triple Goddess (Wiccan)",
+      "Diana Triformis"
+    ]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "🔱",
+    "ImageryNotes": "Depicted in triple form, holding torches and keys; accompanied by dogs; standing at crossroads; wearing lunar crown.",
+    "ArtisticExamples": [
+      "Classical statuary",
+      "Medieval grimoire illustrations",
+      "Modern Wiccan imagery"
+    ],
+    "PoeticInvocation": "Hecate of the crossroads, torch bearer in darkness, keeper of keys that unlock all mysteries.",
+    "DreamForm": "A three-faced woman holding torches at a crossroads, her dogs howling, showing three paths forward"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": [
+      "JP12.Magician",
+      "Tarot.The_High_Priestess",
+      "JU.Crone",
+      "Triple_Goddess.Crone"
+    ],
+    "SemanticTags": [
+      "#witchcraft",
+      "#crossroads",
+      "#magic",
+      "#liminality",
+      "#transformation"
+    ],
+    "RitualFunction": "Invoked for magic, protection, guidance through transitions, and navigation of liminal spaces.",
+    "AIPromptSeeds": [
+      "The goddess who stands at the crossroads, holding torches to illuminate all possible paths.",
+      "The dark mother of witchcraft who guards the keys to transformation."
+    ],
+    "NarrativeHooks": [
+      "The choice at the crossroads",
+      "Learning forbidden magic",
+      "Guardian of the threshold between worlds"
+    ]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [
+      {
+        "to": "Trivia (Roman)",
+        "strength": "strong"
+      },
+      {
+        "to": "Triple_Goddess.Crone",
+        "strength": "strong"
+      },
+      {
+        "to": "Tarot.The_High_Priestess",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "FacetRegistry": [
+    {
+      "facet": "Crossroads Goddess",
+      "weight": 0.4
+    },
+    {
+      "facet": "Witch Queen",
+      "weight": 0.4
+    },
+    {
+      "facet": "Underworld Guide",
+      "weight": 0.2
+    }
+  ]
+}

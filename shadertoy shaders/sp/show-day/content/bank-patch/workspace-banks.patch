@@ -1,0 +1,54 @@
+--- a/sp/engine/workspace.js
++++ b/sp/engine/workspace.js
+@@ -45,8 +45,9 @@
+   function effectSend(e,o){if(e&&state?.arena_connected&&current(e))cmd({...o,key:e.key,instance:e.instance});}
+   const motion=c=>isEffect(c)?c?.motion:c;
+   function followLayer(i){if(document.pointerLockElement)return;focusLayer=i;HeartSurface.focus();}
+-  function bankLabel(l){return l?.bank==='forms'?'Forms':'All sources';}
+-  function bankClips(l){return (l?.bank==='forms'?l.forms:l?.clips)||[];}
++  function bankLabel(l){return {heart:'Heart copies',explore:'Explore figures',forms:'Forms'}[l?.bank]||'All sources';}
++  function bankClips(l){return (l?.bank==='heart'?l.heart_copies:l?.bank==='explore'?l.explore:l?.bank==='forms'?l.forms:l?.clips)||[];}
++  function clipLabel(x){return (x.heart_copy?x.source:x.name)||x.source||'Untitled';}
+ 
+   document.body.classList.add('workspace');
+   const arrange=button('Arrange',()=>{if(document.pointerLockElement)return;arranging=!arranging;document.body.classList.toggle('arranging',arranging);arrange.setAttribute('aria-pressed',String(arranging));arrange.textContent=arranging?'Lock layout':'Arrange';layout();},'', 'Resize or exchange modules. Lock the arrangement before playing.');arrange.id='arrange';arrange.setAttribute('aria-pressed','false');document.querySelector('h1').append(arrange);
+@@ -136,7 +137,7 @@
+ 
+   const library=panes.clips.body,libraryTools=node('div','library-tools'),libraryLayer=node('select'),bankSelect=node('select');
+   libraryLayer.setAttribute('aria-label','Clip library layer');libraryLayer.onchange=()=>followLayer(+libraryLayer.value);
+-  bankSelect.setAttribute('aria-label','Clip bank');option(bankSelect,'forms','Forms');option(bankSelect,'all','All sources');
++  bankSelect.setAttribute('aria-label','Clip bank');
+   bankSelect.onchange=()=>{const l=state.layers.find(l=>l.i===focusLayer);if(l)cmd({cmd:'surface_cfg',value:{banks:{...state.surface?.banks,[l.name]:bankSelect.value}}});};
+   libraryTools.append(libraryLayer,bankSelect);library.append(libraryTools);
+   const search=node('input','source-search');search.type='search';search.placeholder='Find a clip…';search.setAttribute('aria-label','Find a clip in this bank');search.oninput=()=>paintLibrary();library.append(search);
+@@ -174,9 +175,12 @@
+   function paintLibrary(){
+     const sig=JSON.stringify(state.layers.map(l=>[l.i,l.name]));if(libraryLayer.dataset.sig!==sig){libraryLayer.dataset.sig=sig;libraryLayer.replaceChildren();for(const l of state.layers)option(libraryLayer,l.i,`${l.i} · ${l.name}`);}
+     if(document.activeElement!==libraryLayer)libraryLayer.value=focusLayer;
+-    const l=state.layers.find(l=>l.i===focusLayer);bankSelect.disabled=!l?.forms?.length||!state.arena_connected;if(document.activeElement!==bankSelect)bankSelect.value=l?.bank||'all';
+-    const list=bankClips(l),q=search.value.trim().toLowerCase(),filtered=list.filter(x=>x.name.toLowerCase().includes(q));libraryNote.textContent=`${bankLabel(l)} · ${filtered.length} of ${list.length} clips · Play arrows use this bank`;
+-    const listSig=JSON.stringify([focusLayer,l?.ccol,filtered,state.arena_connected]);if(sources.dataset.sig!==listSig){sources.dataset.sig=listSig;sources.replaceChildren();for(const x of filtered){const b=button(x.name,()=>cmd({cmd:'launch',layer:l.i,col:x.col}));b.classList.toggle('active',x.col===l.ccol);b.disabled=!state.arena_connected;sources.append(b);}if(!filtered.length)sources.append(node('p','pane-note',q?'No matching clips.':'This bank is empty.'));}
++    const l=state.layers.find(l=>l.i===focusLayer);
++    const banks=[['heart','Heart copies',l?.heart_copies],['explore','Explore figures',l?.explore],['forms','Forms',l?.forms],['all','All sources',l?.clips]].filter(([key,,clips])=>key==='all'||clips?.length||key===l?.bank);
++    const bankSig=JSON.stringify(banks.map(([key,label])=>[key,label]));if(bankSelect.dataset.sig!==bankSig){bankSelect.dataset.sig=bankSig;bankSelect.replaceChildren();for(const [key,label] of banks)option(bankSelect,key,label);}
++    bankSelect.disabled=!l||!state.arena_connected;if(document.activeElement!==bankSelect)bankSelect.value=l?.bank||'all';
++    const list=bankClips(l),q=search.value.trim().toLowerCase(),filtered=list.filter(x=>[x.name,x.source,x.note].some(v=>String(v||'').toLowerCase().includes(q)));libraryNote.textContent=`${bankLabel(l)} · ${filtered.length} of ${list.length} clips · Play arrows use this bank${l?.bank==='explore'?' · Full-range containment unchecked':''}`;
++    const listSig=JSON.stringify([focusLayer,l?.ccol,filtered,state.arena_connected]);if(sources.dataset.sig!==listSig){sources.dataset.sig=listSig;sources.replaceChildren();for(const x of filtered){const b=button((x.note?'⚠ ':'')+clipLabel(x),()=>cmd({cmd:'launch',layer:l.i,col:x.col}));b.title=`${x.col} · ${x.source||x.name}${x.note?' — '+x.note:''}`;b.classList.toggle('active',x.col===l.ccol);b.disabled=!state.arena_connected;sources.append(b);}if(!filtered.length)sources.append(node('p','pane-note',q?'No matching clips.':'This bank is empty.'));}
+     library.querySelector('.clear-layer').disabled=!state.arena_connected||!l?.ccol;
+   }
+   // Rack selection changes the follow target; an explicitly pinned A or B stays pinned.
+--- a/sp/engine/test_workspace.cjs
++++ b/sp/engine/test_workspace.cjs
+@@ -139,4 +139,12 @@
+ test('Trigger melt remains a single event distinct from hold and latch',()=>{
+  const {t,e}=meltFixture(),b=t.pane('rack').querySelector('.fx-event');assert.equal(b.textContent,'Trigger melt');b.onpointerdown(pointer());const n=t.commands.length;b.onclick({detail:1});assert.equal(t.commands.length,n);assert.deepEqual(JSON.parse(JSON.stringify(t.commands.at(-1))),{cmd:'fx_param',name:'MELT_TRIGGER',value:true,key:e.key,instance:e.instance});assert.equal(b.onpointerup,undefined);
+ });
++function bankFixture(){const t=setup(),l=t.s.layers.find(l=>l.i===5);l.forms=[];l.clips=[{col:2,name:'Original',source:'HypnoWorm',note:'Use Heart HypnoWorm.'},{col:71,name:'renamed copy',source:'Heart Klein Bottle',heart_copy:true}];l.heart_copies=[l.clips[1]];l.explore=[{col:29,name:'candidate',source:'SpaceSpore',note:'Containment unchecked'},l.clips[1]];return {t,l};}
++function libraryButtons(t){return t.pane('clips').querySelector('.source-search').parentNode.querySelectorAll('button').filter(b=>b.title?.match(/^\d+ · /));}
++test('Heart bank shows copies by source identity and Play matches without Forms',()=>{const {t,l}=bankFixture();l.bank='heart';t.render();assert.deepEqual(libraryButtons(t).map(b=>b.textContent),['Heart Klein Bottle']);const select=t.pane('clips').querySelectorAll('select').find(s=>s.getAttribute('aria-label')==='Clip bank');assert(!select.disabled);assert.equal(select.value,'heart');const row=t.pane('actions').querySelectorAll('.play-layer')[4];assert.equal(row.querySelector('.play-bank').textContent,'Heart copies');assert(!row.querySelector('.play-nav button').disabled);libraryButtons(t)[0].onclick();assert.deepEqual(JSON.parse(JSON.stringify(t.commands.at(-1))),{cmd:'launch',layer:5,col:71});});
++test('Explore preserves backend order with notes and containment caveat',()=>{const {t,l}=bankFixture();l.bank='explore';t.render();const bs=libraryButtons(t);assert.deepEqual(bs.map(b=>b.title.split(' · ')[0]),['29','71']);assert.equal(bs[0].textContent,'⚠ candidate');assert.match(bs[0].title,/SpaceSpore — Containment unchecked/);assert.match(t.pane('clips').textContent,/Full-range containment unchecked/);assert.equal(t.pane('actions').querySelectorAll('.play-layer')[4].querySelector('.play-bank').textContent,'Explore figures');});
++test('Library searches both original clip labels and displayed copy source names',()=>{const {t,l}=bankFixture();l.bank='heart';t.render();const search=t.pane('clips').querySelector('.source-search');for(const query of ['Klein','renamed']){search.value=query;search.oninput();assert.equal(libraryButtons(t).length,1);}search.value='HypnoWorm';search.oninput();assert.equal(libraryButtons(t).length,0);});
++test('Empty selected bank stays empty and can switch back to all',()=>{const {t,l}=bankFixture();l.bank='heart';l.heart_copies=[];t.render();assert.equal(libraryButtons(t).length,0);const sel=t.pane('clips').querySelectorAll('select').find(s=>s.getAttribute('aria-label')==='Clip bank');assert.equal(sel.value,'heart');assert(!sel.disabled);assert(sel.options.some(o=>o.value==='heart'));assert(t.pane('actions').querySelectorAll('.play-layer')[4].querySelector('.play-nav button').disabled);sel.value='all';sel.onchange();assert.equal(t.commands.at(-1).value.banks[l.name],'all');l.bank='all';t.render();assert.equal(libraryButtons(t).length,2);});
++test('Forms and All use their own lists and disconnect disables launching',()=>{const {t,l}=bankFixture();l.forms=[{col:8,name:'Form alias',source:'SP Atom Solid'}];l.bank='forms';t.render();assert.deepEqual(libraryButtons(t).map(b=>b.textContent),['Form alias']);l.bank='all';t.render();assert.deepEqual(libraryButtons(t).map(b=>b.title.split(' · ')[0]),['2','71']);t.s.arena_connected=false;t.render();assert(t.pane('clips').querySelectorAll('select').find(s=>s.getAttribute('aria-label')==='Clip bank').disabled);assert(libraryButtons(t).every(b=>b.disabled));});
++
+ console.log(`${tests} offline DOM checks passed`);

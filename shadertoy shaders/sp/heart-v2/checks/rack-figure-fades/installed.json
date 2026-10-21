@@ -1,0 +1,42 @@
+{
+  "armed": true,
+  "bpm": 70.0,
+  "error": "",
+  "rows": {
+    "output": true,
+    "stage": true,
+    "figure": true,
+    "field": true,
+    "feedback": true
+  },
+  "figure_fades": [
+    {
+      "id": "linear_cloner",
+      "label": "Linear Cloner",
+      "mode": "fade",
+      "ready": true,
+      "length": 0.5
+    },
+    {
+      "id": "mirror_x",
+      "label": "Mirror X",
+      "mode": "fade",
+      "ready": true,
+      "length": 0.5
+    },
+    {
+      "id": "mirror_y",
+      "label": "Mirror Y",
+      "mode": "fade",
+      "ready": true,
+      "length": 0.5
+    },
+    {
+      "id": "mirror_xy",
+      "label": "Mirror XY",
+      "mode": "fade",
+      "ready": true,
+      "length": 0.5
+    }
+  ]
+}

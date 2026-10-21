@@ -1,0 +1,159 @@
+{
+  "mode": "load",
+  "started": 1789180310.92518,
+  "checks": [
+    {
+      "clip": "4d",
+      "controls": [
+        {
+          "control": "W",
+          "parameter": 1789181925754,
+          "first": 0.0891414350233628,
+          "second": 0.07268980975303951,
+          "bounded": true,
+          "changed": true
+        }
+      ]
+    },
+    {
+      "clip": "room",
+      "controls": [
+        {
+          "control": "Travel",
+          "parameter": 1789181918208,
+          "first": 0.4138642726721415,
+          "second": 0.42993494279702366,
+          "bounded": true,
+          "changed": true
+        },
+        {
+          "control": "Sway",
+          "parameter": 1789181918206,
+          "first": -0.8201645986780297,
+          "second": -0.8383871858113979,
+          "bounded": true,
+          "changed": true
+        },
+        {
+          "control": "Bob",
+          "parameter": 1789181918207,
+          "first": -0.531527278588119,
+          "second": -0.5213884643854458,
+          "bounded": true,
+          "changed": true
+        }
+      ]
+    }
+  ],
+  "restoration": {
+    "complete": false,
+    "error": "RuntimeError('Native level restoration differs: 1789181906056')"
+  },
+  "scope": "Native parameter delivery only; rendered FPS and visual acceptance are measured separately.",
+  "plan": [
+    {
+      "layer_id": 1788149968008,
+      "clip_id": 1788149968262,
+      "name": "4d",
+      "layer": "figure",
+      "controls": [
+        {
+          "clip": "4d",
+          "clip_id": 1788149968262,
+          "layer_id": 1788149968008,
+          "source": "SP Atom 4D",
+          "target": "source:1788149968262",
+          "parameter": 1789181925754,
+          "control": "W",
+          "value": 0.15149325626204235,
+          "low": 0.03149325626204236,
+          "high": 0.27149325626204235,
+          "phase": 0.25,
+          "nominal_seconds": 64
+        }
+      ]
+    },
+    {
+      "layer_id": 1788149967550,
+      "clip_id": 1788405554006,
+      "name": "room",
+      "layer": "field",
+      "controls": [
+        {
+          "clip": "room",
+          "clip_id": 1788405554006,
+          "layer_id": 1788149967550,
+          "source": "SP Atom Room",
+          "target": "source:1788405554006",
+          "parameter": 1789181918208,
+          "control": "Travel",
+          "value": 0.41318224460216135,
+          "low": 0.33318224460216134,
+          "high": 0.49318224460216137,
+          "phase": 0.25,
+          "nominal_seconds": 64
+        },
+        {
+          "clip": "room",
+          "clip_id": 1788405554006,
+          "layer_id": 1788149967550,
+          "source": "SP Atom Room",
+          "target": "source:1788405554006",
+          "parameter": 1789181918206,
+          "control": "Sway",
+          "value": -0.8197155590920566,
+          "low": -0.8797155590920567,
+          "high": -0.7597155590920566,
+          "phase": 0.75,
+          "nominal_seconds": 48
+        },
+        {
+          "clip": "room",
+          "clip_id": 1788405554006,
+          "layer_id": 1788149967550,
+          "source": "SP Atom Room",
+          "target": "source:1788405554006",
+          "parameter": 1789181918207,
+          "control": "Bob",
+          "value": -0.5318827838511831,
+          "low": -0.5918827838511831,
+          "high": -0.47188278385118315,
+          "phase": 0.2499999999999999,
+          "nominal_seconds": 80
+        }
+      ]
+    },
+    {
+      "layer_id": 1788149966516,
+      "clip_id": 1789275883692,
+      "name": "FM \u00b7 Feedback [1.1.1]",
+      "layer": "feedback",
+      "controls": []
+    },
+    {
+      "layer_id": 1788149966376,
+      "clip_id": 1788149966311,
+      "name": "figure",
+      "layer": "delay",
+      "controls": []
+    }
+  ],
+  "skipped": [
+    {
+      "layer": "glyph",
+      "reason": "No unambiguous existing representative clip"
+    }
+  ],
+  "passed": false,
+  "cleanup_followup": {
+    "complete": true,
+    "four_levels_verified": {
+      "feedback": 0,
+      "delay": 0,
+      "figure": 0,
+      "field": 1
+    },
+    "original_static_ownership_restored": true,
+    "cause": "Verifier released native ownership before held manual level changes reached native output. Fixed helper rerun pending."
+  }
+}

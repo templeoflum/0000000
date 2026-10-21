@@ -1,0 +1,163 @@
+{
+  "L6C40/rate": {
+    "phase_source": "static",
+    "dial": null
+  },
+  "L6C40/radius": {
+    "phase_source": "static",
+    "dial": null
+  },
+  "L6C40/roto": {
+    "phase_source": "static",
+    "dial": null
+  },
+  "L5C39/Speed": {
+    "phase_source": "static",
+    "dial": null
+  },
+  "L5C39/Zoom": {
+    "phase_source": "static",
+    "dial": null
+  },
+  "L5C39/Wave Count": {
+    "phase_source": "timeline",
+    "dial": null,
+    "parameters": {
+      "Speed": {
+        "id": 1788823491348,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 10.0,
+        "in": 0.0,
+        "out": 10.0,
+        "value": 0.9999999999990706,
+        "view": {
+          "suffix": "",
+          "display_units": "real"
+        }
+      },
+      "Multiplier": {
+        "id": 1788823491349,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 16.0,
+        "in": 0.0,
+        "out": 16.0,
+        "value": 1.0,
+        "view": {
+          "suffix": "",
+          "display_units": "fractions",
+          "alternative_name": "Speed"
+        }
+      },
+      "Interval": {
+        "id": 1788823491350,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 5.0,
+        "in": 0.0,
+        "out": 5.0,
+        "value": 0.5,
+        "view": {
+          "suffix": "",
+          "display_units": "real"
+        }
+      },
+      "Max Distance": {
+        "id": 1788823491351,
+        "valuetype": "ParamRange",
+        "min": 0.0,
+        "max": 5.0,
+        "in": 0.0,
+        "out": 5.0,
+        "value": 2.0,
+        "view": {
+          "suffix": "",
+          "display_units": "real",
+          "alternative_name": "Distance"
+        }
+      },
+      "PlayDirection": {
+        "id": 1788823491344,
+        "valuetype": "ParamChoice",
+        "value": "<",
+        "index": 0,
+        "options": [
+          "<",
+          "||",
+          ">"
+        ]
+      },
+      "PlayMode": {
+        "id": 1788823491345,
+        "valuetype": "ParamChoice",
+        "value": "Random",
+        "index": 2,
+        "options": [
+          "Loop",
+          "Bounce",
+          "Random",
+          "Play Once & Clear"
+        ]
+      },
+      "PlayModeAway": {
+        "id": 1788823491346,
+        "valuetype": "ParamChoice",
+        "value": "Restart",
+        "index": 0,
+        "options": [
+          "Restart",
+          "Continue"
+        ]
+      },
+      "Finished": {
+        "valuetype": "ParamNumber",
+        "id": 1788823491347,
+        "value": 0
+      },
+      "DurationIsScalable": {
+        "valuetype": "ParamBoolean",
+        "id": 1788823491354,
+        "value": true
+      },
+      "Duration": {
+        "id": 1788823491352,
+        "valuetype": "ParamRange",
+        "min": 0.001,
+        "max": 604800.0,
+        "in": 0.001,
+        "out": 604800.0,
+        "value": 5.0,
+        "view": {
+          "suffix": " s",
+          "step": 1.0,
+          "display_units": "seconds",
+          "control_type": "duration_spinner"
+        }
+      },
+      "DurationType": {
+        "id": 1788823491353,
+        "valuetype": "ParamChoice",
+        "value": "S",
+        "index": 0,
+        "options": [
+          "S",
+          "mS",
+          "B"
+        ]
+      }
+    }
+  },
+  "L5C65/speed": {
+    "phase_source": "static",
+    "dial": null
+  },
+  "L5C65/offset": {
+    "phase_source": "static",
+    "dial": null
+  },
+  "L5C65/columns": {
+    "phase_source": "static",
+    "dial": null
+  }
+}

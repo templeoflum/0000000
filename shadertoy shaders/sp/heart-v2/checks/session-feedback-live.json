@@ -1,0 +1,27 @@
+{
+  "pads": [
+    "mirror_x",
+    "mirror_y",
+    "mirror_xy",
+    "mirror_offset",
+    "invert",
+    "blur",
+    "sharpen"
+  ],
+  "controls": [
+    "blur_blur",
+    "blur_blur_x_distance",
+    "blur_blur_y_distance",
+    "sharpen_strength",
+    "sharpen_distance"
+  ],
+  "alpha": true,
+  "loop_beats": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "passed": true,
+  "restored": true
+}

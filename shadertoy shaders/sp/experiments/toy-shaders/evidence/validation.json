@@ -1,0 +1,77 @@
+{
+  "Transit_compile": "glslang 1/1 clean; actual OpenGL render passed",
+  "Quasicrystal_compile": "actual OpenGL render passed with imported sampler; stock lint does not declare IMPORTED",
+  "images": {
+    "grazing-portrait.png": {
+      "size": [
+        360,
+        640
+      ],
+      "alpha_bbox": [
+        154,
+        294,
+        217,
+        356
+      ],
+      "border_alpha_max": 0,
+      "sha256": "ad5948f4bca1d865178fe970694d491cbf366073bc695009f28ce2b079f0b30e"
+    },
+    "quasicrystal-turned.png": {
+      "size": [
+        480,
+        480
+      ],
+      "alpha_bbox": [
+        98,
+        98,
+        382,
+        382
+      ],
+      "border_alpha_max": 0,
+      "sha256": "2e125b53257a3b281760a34d1d6ec9104d721dc1ab3ebca04e826e1748a2f95d"
+    },
+    "home.png": {
+      "size": [
+        640,
+        360
+      ],
+      "alpha_bbox": [
+        294,
+        154,
+        346,
+        206
+      ],
+      "border_alpha_max": 0,
+      "sha256": "50ef5f1a73aa23a419774e8dd47372f985e4f0e7a55159bcbefcefb529a2a9af"
+    },
+    "endpoint.png": {
+      "size": [
+        360,
+        360
+      ],
+      "alpha_bbox": [
+        154,
+        154,
+        327,
+        216
+      ],
+      "border_alpha_max": 0,
+      "sha256": "d246b4b65d524757b49de7e3fd94b4b14eb2f0d41ee7ce7d5a7792d8e0bff9ff"
+    },
+    "quasicrystal-home.png": {
+      "size": [
+        480,
+        480
+      ],
+      "alpha_bbox": [
+        91,
+        96,
+        389,
+        384
+      ],
+      "border_alpha_max": 0,
+      "sha256": "c8dd2eb4c3fc06dc3283ccbe74dad9b3b43a659dcaac8dcbb70c5d8d460c8f6a"
+    }
+  },
+  "limits": "No Wire/Arena import, FPS benchmark or live Heart modulation test."
+}

@@ -1,0 +1,3247 @@
+{
+  "H": 0.2,
+  "bpm": 120,
+  "bars": 8,
+  "hold": false,
+  "arena_connected": true,
+  "families": [
+    "per-slot",
+    "unison",
+    "near-unison",
+    "harmonic",
+    "just intonation",
+    "septimal",
+    "undecimal",
+    "powers of 2",
+    "powers of 3",
+    "cross-base 2v3",
+    "pendulum wave",
+    "fibonacci",
+    "lucas",
+    "coprime primes",
+    "prime stacks",
+    "CF approximants",
+    "metallic",
+    "near-phi",
+    "irrationals"
+  ],
+  "transport": {
+    "beats": 37.25,
+    "beat": 2,
+    "bar": 2,
+    "phase": 0.25,
+    "phrase_bars": 8,
+    "taps": 4
+  },
+  "surface": {},
+  "layers": [
+    {
+      "i": 1,
+      "name": "Backdrop",
+      "clip": "Backdrop source 1",
+      "ccol": 1,
+      "bank": "all",
+      "forms": [
+        {
+          "col": 1,
+          "name": "Backdrop source 1"
+        },
+        {
+          "col": 2,
+          "name": "Backdrop source 2"
+        },
+        {
+          "col": 3,
+          "name": "Backdrop source 3"
+        }
+      ],
+      "clips": [
+        {
+          "col": 1,
+          "name": "Backdrop source 1"
+        },
+        {
+          "col": 2,
+          "name": "Backdrop source 2"
+        },
+        {
+          "col": 3,
+          "name": "Backdrop source 3"
+        },
+        {
+          "col": 4,
+          "name": "Backdrop source 4"
+        },
+        {
+          "col": 5,
+          "name": "Backdrop source 5"
+        },
+        {
+          "col": 6,
+          "name": "Backdrop source 6"
+        },
+        {
+          "col": 7,
+          "name": "Backdrop source 7"
+        },
+        {
+          "col": 8,
+          "name": "Backdrop source 8"
+        },
+        {
+          "col": 9,
+          "name": "Backdrop source 9"
+        },
+        {
+          "col": 10,
+          "name": "Backdrop source 10"
+        },
+        {
+          "col": 11,
+          "name": "Backdrop source 11"
+        },
+        {
+          "col": 12,
+          "name": "Backdrop source 12"
+        }
+      ]
+    },
+    {
+      "i": 2,
+      "name": "Noise",
+      "clip": "Noise source 1",
+      "ccol": 1,
+      "bank": "all",
+      "forms": [
+        {
+          "col": 1,
+          "name": "Noise source 1"
+        },
+        {
+          "col": 2,
+          "name": "Noise source 2"
+        },
+        {
+          "col": 3,
+          "name": "Noise source 3"
+        }
+      ],
+      "clips": [
+        {
+          "col": 1,
+          "name": "Noise source 1"
+        },
+        {
+          "col": 2,
+          "name": "Noise source 2"
+        },
+        {
+          "col": 3,
+          "name": "Noise source 3"
+        },
+        {
+          "col": 4,
+          "name": "Noise source 4"
+        },
+        {
+          "col": 5,
+          "name": "Noise source 5"
+        },
+        {
+          "col": 6,
+          "name": "Noise source 6"
+        },
+        {
+          "col": 7,
+          "name": "Noise source 7"
+        },
+        {
+          "col": 8,
+          "name": "Noise source 8"
+        },
+        {
+          "col": 9,
+          "name": "Noise source 9"
+        },
+        {
+          "col": 10,
+          "name": "Noise source 10"
+        },
+        {
+          "col": 11,
+          "name": "Noise source 11"
+        },
+        {
+          "col": 12,
+          "name": "Noise source 12"
+        }
+      ]
+    },
+    {
+      "i": 3,
+      "name": "Texture",
+      "clip": "Texture source 1",
+      "ccol": 1,
+      "bank": "all",
+      "forms": [
+        {
+          "col": 1,
+          "name": "Texture source 1"
+        },
+        {
+          "col": 2,
+          "name": "Texture source 2"
+        },
+        {
+          "col": 3,
+          "name": "Texture source 3"
+        }
+      ],
+      "clips": [
+        {
+          "col": 1,
+          "name": "Texture source 1"
+        },
+        {
+          "col": 2,
+          "name": "Texture source 2"
+        },
+        {
+          "col": 3,
+          "name": "Texture source 3"
+        },
+        {
+          "col": 4,
+          "name": "Texture source 4"
+        },
+        {
+          "col": 5,
+          "name": "Texture source 5"
+        },
+        {
+          "col": 6,
+          "name": "Texture source 6"
+        },
+        {
+          "col": 7,
+          "name": "Texture source 7"
+        },
+        {
+          "col": 8,
+          "name": "Texture source 8"
+        },
+        {
+          "col": 9,
+          "name": "Texture source 9"
+        },
+        {
+          "col": 10,
+          "name": "Texture source 10"
+        },
+        {
+          "col": 11,
+          "name": "Texture source 11"
+        },
+        {
+          "col": 12,
+          "name": "Texture source 12"
+        }
+      ]
+    },
+    {
+      "i": 4,
+      "name": "Geometry",
+      "clip": "Geometry source 1",
+      "ccol": 1,
+      "bank": "all",
+      "forms": [
+        {
+          "col": 1,
+          "name": "Geometry source 1"
+        },
+        {
+          "col": 2,
+          "name": "Geometry source 2"
+        },
+        {
+          "col": 3,
+          "name": "Geometry source 3"
+        }
+      ],
+      "clips": [
+        {
+          "col": 1,
+          "name": "Geometry source 1"
+        },
+        {
+          "col": 2,
+          "name": "Geometry source 2"
+        },
+        {
+          "col": 3,
+          "name": "Geometry source 3"
+        },
+        {
+          "col": 4,
+          "name": "Geometry source 4"
+        },
+        {
+          "col": 5,
+          "name": "Geometry source 5"
+        },
+        {
+          "col": 6,
+          "name": "Geometry source 6"
+        },
+        {
+          "col": 7,
+          "name": "Geometry source 7"
+        },
+        {
+          "col": 8,
+          "name": "Geometry source 8"
+        },
+        {
+          "col": 9,
+          "name": "Geometry source 9"
+        },
+        {
+          "col": 10,
+          "name": "Geometry source 10"
+        },
+        {
+          "col": 11,
+          "name": "Geometry source 11"
+        },
+        {
+          "col": 12,
+          "name": "Geometry source 12"
+        }
+      ]
+    },
+    {
+      "i": 5,
+      "name": "Figure",
+      "clip": "Figure source 1",
+      "ccol": 1,
+      "bank": "forms",
+      "forms": [
+        {
+          "col": 1,
+          "name": "Figure source 1"
+        },
+        {
+          "col": 2,
+          "name": "Figure source 2"
+        },
+        {
+          "col": 3,
+          "name": "Figure source 3"
+        }
+      ],
+      "clips": [
+        {
+          "col": 1,
+          "name": "Figure source 1"
+        },
+        {
+          "col": 2,
+          "name": "Figure source 2"
+        },
+        {
+          "col": 3,
+          "name": "Figure source 3"
+        },
+        {
+          "col": 4,
+          "name": "Figure source 4"
+        },
+        {
+          "col": 5,
+          "name": "Figure source 5"
+        },
+        {
+          "col": 6,
+          "name": "Figure source 6"
+        },
+        {
+          "col": 7,
+          "name": "Figure source 7"
+        },
+        {
+          "col": 8,
+          "name": "Figure source 8"
+        },
+        {
+          "col": 9,
+          "name": "Figure source 9"
+        },
+        {
+          "col": 10,
+          "name": "Figure source 10"
+        },
+        {
+          "col": 11,
+          "name": "Figure source 11"
+        },
+        {
+          "col": 12,
+          "name": "Figure source 12"
+        }
+      ]
+    },
+    {
+      "i": 6,
+      "name": "Feedback",
+      "clip": "Feedback source 1",
+      "ccol": 1,
+      "bank": "all",
+      "forms": [
+        {
+          "col": 1,
+          "name": "Feedback source 1"
+        },
+        {
+          "col": 2,
+          "name": "Feedback source 2"
+        },
+        {
+          "col": 3,
+          "name": "Feedback source 3"
+        }
+      ],
+      "clips": [
+        {
+          "col": 1,
+          "name": "Feedback source 1"
+        },
+        {
+          "col": 2,
+          "name": "Feedback source 2"
+        },
+        {
+          "col": 3,
+          "name": "Feedback source 3"
+        },
+        {
+          "col": 4,
+          "name": "Feedback source 4"
+        },
+        {
+          "col": 5,
+          "name": "Feedback source 5"
+        },
+        {
+          "col": 6,
+          "name": "Feedback source 6"
+        },
+        {
+          "col": 7,
+          "name": "Feedback source 7"
+        },
+        {
+          "col": 8,
+          "name": "Feedback source 8"
+        },
+        {
+          "col": 9,
+          "name": "Feedback source 9"
+        },
+        {
+          "col": 10,
+          "name": "Feedback source 10"
+        },
+        {
+          "col": 11,
+          "name": "Feedback source 11"
+        },
+        {
+          "col": 12,
+          "name": "Feedback source 12"
+        }
+      ]
+    },
+    {
+      "i": 7,
+      "name": "Overlay",
+      "clip": "Overlay source 1",
+      "ccol": 1,
+      "bank": "all",
+      "forms": [
+        {
+          "col": 1,
+          "name": "Overlay source 1"
+        },
+        {
+          "col": 2,
+          "name": "Overlay source 2"
+        },
+        {
+          "col": 3,
+          "name": "Overlay source 3"
+        }
+      ],
+      "clips": [
+        {
+          "col": 1,
+          "name": "Overlay source 1"
+        },
+        {
+          "col": 2,
+          "name": "Overlay source 2"
+        },
+        {
+          "col": 3,
+          "name": "Overlay source 3"
+        },
+        {
+          "col": 4,
+          "name": "Overlay source 4"
+        },
+        {
+          "col": 5,
+          "name": "Overlay source 5"
+        },
+        {
+          "col": 6,
+          "name": "Overlay source 6"
+        },
+        {
+          "col": 7,
+          "name": "Overlay source 7"
+        },
+        {
+          "col": 8,
+          "name": "Overlay source 8"
+        },
+        {
+          "col": 9,
+          "name": "Overlay source 9"
+        },
+        {
+          "col": 10,
+          "name": "Overlay source 10"
+        },
+        {
+          "col": 11,
+          "name": "Overlay source 11"
+        },
+        {
+          "col": 12,
+          "name": "Overlay source 12"
+        }
+      ]
+    },
+    {
+      "i": 8,
+      "name": "Output",
+      "clip": "Output source 1",
+      "ccol": 1,
+      "bank": "all",
+      "forms": [
+        {
+          "col": 1,
+          "name": "Output source 1"
+        },
+        {
+          "col": 2,
+          "name": "Output source 2"
+        },
+        {
+          "col": 3,
+          "name": "Output source 3"
+        }
+      ],
+      "clips": [
+        {
+          "col": 1,
+          "name": "Output source 1"
+        },
+        {
+          "col": 2,
+          "name": "Output source 2"
+        },
+        {
+          "col": 3,
+          "name": "Output source 3"
+        },
+        {
+          "col": 4,
+          "name": "Output source 4"
+        },
+        {
+          "col": 5,
+          "name": "Output source 5"
+        },
+        {
+          "col": 6,
+          "name": "Output source 6"
+        },
+        {
+          "col": 7,
+          "name": "Output source 7"
+        },
+        {
+          "col": 8,
+          "name": "Output source 8"
+        },
+        {
+          "col": 9,
+          "name": "Output source 9"
+        },
+        {
+          "col": 10,
+          "name": "Output source 10"
+        },
+        {
+          "col": 11,
+          "name": "Output source 11"
+        },
+        {
+          "col": 12,
+          "name": "Output source 12"
+        }
+      ]
+    }
+  ],
+  "clips": [
+    {
+      "layer": 1,
+      "col": 1,
+      "name": "Backdrop source 1",
+      "instance": "source-1",
+      "g": {
+        "speed": 1,
+        "pattern": 0,
+        "timing_mode": "harmonic"
+      },
+      "morph": 3,
+      "home_kind": "instrument Home",
+      "slots": [
+        {
+          "name": "Axis 0",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 1",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 2",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 3",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 4",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 5",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 6",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 7",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 8",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 9",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 10",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 11",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 12",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 13",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 14",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 15",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 16",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 17",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 18",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 19",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 20",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 21",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 22",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 23",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        }
+      ]
+    },
+    {
+      "layer": 2,
+      "col": 1,
+      "name": "Noise source 1",
+      "instance": "source-2",
+      "g": {
+        "speed": 1,
+        "pattern": 0,
+        "timing_mode": "harmonic"
+      },
+      "morph": 3,
+      "home_kind": "instrument Home",
+      "slots": [
+        {
+          "name": "Axis 0",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 1",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 2",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 3",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 4",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 5",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 6",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 7",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 8",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 9",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 10",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 11",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 12",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 13",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 14",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 15",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 16",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 17",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 18",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 19",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 20",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 21",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 22",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 23",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        }
+      ]
+    },
+    {
+      "layer": 3,
+      "col": 1,
+      "name": "Texture source 1",
+      "instance": "source-3",
+      "g": {
+        "speed": 1,
+        "pattern": 0,
+        "timing_mode": "harmonic"
+      },
+      "morph": 3,
+      "home_kind": "instrument Home",
+      "slots": [
+        {
+          "name": "Axis 0",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 1",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 2",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 3",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 4",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 5",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 6",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 7",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 8",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 9",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 10",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 11",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 12",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 13",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 14",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 15",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 16",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 17",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 18",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 19",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 20",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 21",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 22",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 23",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        }
+      ]
+    },
+    {
+      "layer": 4,
+      "col": 1,
+      "name": "Geometry source 1",
+      "instance": "source-4",
+      "g": {
+        "speed": 1,
+        "pattern": 0,
+        "timing_mode": "harmonic"
+      },
+      "morph": 3,
+      "home_kind": "instrument Home",
+      "slots": [
+        {
+          "name": "Axis 0",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 1",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 2",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 3",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 4",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 5",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 6",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 7",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 8",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 9",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 10",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 11",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 12",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 13",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 14",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 15",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 16",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 17",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 18",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 19",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 20",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 21",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 22",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 23",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        }
+      ]
+    },
+    {
+      "layer": 5,
+      "col": 1,
+      "name": "Figure source 1",
+      "instance": "source-5",
+      "g": {
+        "speed": 1,
+        "pattern": 0,
+        "timing_mode": "harmonic"
+      },
+      "morph": 3,
+      "home_kind": "instrument Home",
+      "slots": [
+        {
+          "name": "Axis 0",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 1",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 2",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 3",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 4",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 5",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 6",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 7",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 8",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 9",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 10",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 11",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 12",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 13",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 14",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 15",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 16",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 17",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 18",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 19",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 20",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 21",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 22",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 23",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        }
+      ]
+    },
+    {
+      "layer": 6,
+      "col": 1,
+      "name": "Feedback source 1",
+      "instance": "source-6",
+      "g": {
+        "speed": 1,
+        "pattern": 0,
+        "timing_mode": "harmonic"
+      },
+      "morph": 3,
+      "home_kind": "instrument Home",
+      "slots": [
+        {
+          "name": "Axis 0",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 1",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 2",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 3",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 4",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 5",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 6",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 7",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 8",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 9",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 10",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 11",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 12",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 13",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 14",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 15",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 16",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 17",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 18",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 19",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 20",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 21",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 22",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 23",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        }
+      ]
+    },
+    {
+      "layer": 7,
+      "col": 1,
+      "name": "Overlay source 1",
+      "instance": "source-7",
+      "g": {
+        "speed": 1,
+        "pattern": 0,
+        "timing_mode": "harmonic"
+      },
+      "morph": 3,
+      "home_kind": "instrument Home",
+      "slots": [
+        {
+          "name": "Axis 0",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 1",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 2",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 3",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 4",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 5",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 6",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 7",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 8",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 9",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 10",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 11",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 12",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 13",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 14",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 15",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 16",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 17",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 18",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 19",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 20",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 21",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 22",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 23",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        }
+      ]
+    },
+    {
+      "layer": 8,
+      "col": 1,
+      "name": "Output source 1",
+      "instance": "source-8",
+      "g": {
+        "speed": 1,
+        "pattern": 0,
+        "timing_mode": "harmonic"
+      },
+      "morph": 3,
+      "home_kind": "instrument Home",
+      "slots": [
+        {
+          "name": "Axis 0",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 1",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 2",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 3",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 4",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 5",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 6",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 7",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 8",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 9",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 10",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 11",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 12",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 13",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 14",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 15",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 16",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 17",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 18",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 19",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 20",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 21",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 22",
+          "v": 0.3,
+          "drive": true,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        },
+        {
+          "name": "Axis 23",
+          "v": 0.3,
+          "drive": false,
+          "lo": 0,
+          "hi": 1,
+          "ratio": "1:2",
+          "mult": 1,
+          "offset": 0,
+          "lock": false
+        }
+      ]
+    }
+  ],
+  "fx": [
+    {
+      "key": "layer/figure~1/effect/Cloner~1",
+      "instance": "effect-0",
+      "layer": 5,
+      "scope": "L",
+      "lname": "Figure",
+      "name": "Linear Cloner 1",
+      "env": 0.4,
+      "target": 0.4,
+      "has_amount": true,
+      "bypassed": false,
+      "cfg": {
+        "mode": "latch",
+        "key": "",
+        "attack": 0.5,
+        "release": 1,
+        "hold": 0.5,
+        "quant": 0
+      },
+      "params": {
+        "Count": {
+          "id": 10,
+          "valuetype": "ParamInt",
+          "min": 1,
+          "max": 64,
+          "value": 15
+        },
+        "Scale": {
+          "id": 20,
+          "valuetype": "ParamRange",
+          "min": 0,
+          "max": 100,
+          "value": 35,
+          "view": {
+            "suffix": "%"
+          }
+        },
+        "Mirror": {
+          "id": 30,
+          "valuetype": "ParamBool",
+          "value": false
+        },
+        "Mode": {
+          "id": 40,
+          "valuetype": "ParamChoice",
+          "value": "Stack",
+          "options": [
+            "Stack",
+            "Ring"
+          ]
+        },
+        "Tint": {
+          "id": 50,
+          "valuetype": "ParamColor",
+          "value": "#ff5599"
+        },
+        "Reset": {
+          "id": 60,
+          "valuetype": "ParamEvent"
+        }
+      },
+      "motion": {
+        "slots": [
+          {
+            "name": "Count",
+            "v": 0.4,
+            "drive": true,
+            "lo": 0,
+            "hi": 1,
+            "min": 1,
+            "max": 64,
+            "integer": true,
+            "ratio": "1:2",
+            "mult": 1,
+            "offset": 0,
+            "lock": false
+          },
+          {
+            "name": "Scale",
+            "v": 0.4,
+            "drive": true,
+            "lo": 0,
+            "hi": 1,
+            "min": 0,
+            "max": 100,
+            "integer": false,
+            "ratio": "1:2",
+            "mult": 1,
+            "offset": 0,
+            "lock": false
+          }
+        ],
+        "g": {
+          "speed": 1,
+          "pattern": 0,
+          "timing_mode": "harmonic"
+        },
+        "morph": 3,
+        "home_kind": "saved Home"
+      }
+    },
+    {
+      "key": "layer/figure~1/effect/Cloner~2",
+      "instance": "effect-1",
+      "layer": 5,
+      "scope": "L",
+      "lname": "Figure",
+      "name": "Linear Cloner 2",
+      "env": 0.4,
+      "target": 0.4,
+      "has_amount": true,
+      "bypassed": false,
+      "cfg": {
+        "mode": "latch",
+        "key": "",
+        "attack": 0.5,
+        "release": 1,
+        "hold": 0.5,
+        "quant": 0
+      },
+      "params": {
+        "Count": {
+          "id": 11,
+          "valuetype": "ParamInt",
+          "min": 1,
+          "max": 64,
+          "value": 15
+        },
+        "Scale": {
+          "id": 21,
+          "valuetype": "ParamRange",
+          "min": 0,
+          "max": 100,
+          "value": 35,
+          "view": {
+            "suffix": "%"
+          }
+        },
+        "Mirror": {
+          "id": 31,
+          "valuetype": "ParamBool",
+          "value": false
+        },
+        "Mode": {
+          "id": 41,
+          "valuetype": "ParamChoice",
+          "value": "Stack",
+          "options": [
+            "Stack",
+            "Ring"
+          ]
+        },
+        "Tint": {
+          "id": 51,
+          "valuetype": "ParamColor",
+          "value": "#ff5599"
+        },
+        "Reset": {
+          "id": 61,
+          "valuetype": "ParamEvent"
+        }
+      },
+      "motion": {
+        "slots": [
+          {
+            "name": "Count",
+            "v": 0.4,
+            "drive": true,
+            "lo": 0,
+            "hi": 1,
+            "min": 1,
+            "max": 64,
+            "integer": true,
+            "ratio": "1:2",
+            "mult": 1,
+            "offset": 0,
+            "lock": false
+          },
+          {
+            "name": "Scale",
+            "v": 0.4,
+            "drive": true,
+            "lo": 0,
+            "hi": 1,
+            "min": 0,
+            "max": 100,
+            "integer": false,
+            "ratio": "1:2",
+            "mult": 1,
+            "offset": 0,
+            "lock": false
+          }
+        ],
+        "g": {
+          "speed": 1,
+          "pattern": 0,
+          "timing_mode": "harmonic"
+        },
+        "morph": 3,
+        "home_kind": "saved Home"
+      }
+    },
+    {
+      "key": "layer/figure~1/effect/Cloner~3",
+      "instance": "effect-2",
+      "layer": 5,
+      "scope": "L",
+      "lname": "Figure",
+      "name": "Linear Cloner 3",
+      "env": 0.4,
+      "target": 0.4,
+      "has_amount": true,
+      "bypassed": false,
+      "cfg": {
+        "mode": "latch",
+        "key": "",
+        "attack": 0.5,
+        "release": 1,
+        "hold": 0.5,
+        "quant": 0
+      },
+      "params": {
+        "Count": {
+          "id": 12,
+          "valuetype": "ParamInt",
+          "min": 1,
+          "max": 64,
+          "value": 15
+        },
+        "Scale": {
+          "id": 22,
+          "valuetype": "ParamRange",
+          "min": 0,
+          "max": 100,
+          "value": 35,
+          "view": {
+            "suffix": "%"
+          }
+        },
+        "Mirror": {
+          "id": 32,
+          "valuetype": "ParamBool",
+          "value": false
+        },
+        "Mode": {
+          "id": 42,
+          "valuetype": "ParamChoice",
+          "value": "Stack",
+          "options": [
+            "Stack",
+            "Ring"
+          ]
+        },
+        "Tint": {
+          "id": 52,
+          "valuetype": "ParamColor",
+          "value": "#ff5599"
+        },
+        "Reset": {
+          "id": 62,
+          "valuetype": "ParamEvent"
+        }
+      },
+      "motion": {
+        "slots": [
+          {
+            "name": "Count",
+            "v": 0.4,
+            "drive": true,
+            "lo": 0,
+            "hi": 1,
+            "min": 1,
+            "max": 64,
+            "integer": true,
+            "ratio": "1:2",
+            "mult": 1,
+            "offset": 0,
+            "lock": false
+          },
+          {
+            "name": "Scale",
+            "v": 0.4,
+            "drive": true,
+            "lo": 0,
+            "hi": 1,
+            "min": 0,
+            "max": 100,
+            "integer": false,
+            "ratio": "1:2",
+            "mult": 1,
+            "offset": 0,
+            "lock": false
+          }
+        ],
+        "g": {
+          "speed": 1,
+          "pattern": 0,
+          "timing_mode": "harmonic"
+        },
+        "morph": 3,
+        "home_kind": "saved Home"
+      }
+    },
+    {
+      "key": "layer/figure~1/effect/Cloner~4",
+      "instance": "effect-3",
+      "layer": 5,
+      "scope": "L",
+      "lname": "Figure",
+      "name": "Linear Cloner 4",
+      "env": 0.4,
+      "target": 0.4,
+      "has_amount": true,
+      "bypassed": false,
+      "cfg": {
+        "mode": "latch",
+        "key": "",
+        "attack": 0.5,
+        "release": 1,
+        "hold": 0.5,
+        "quant": 0
+      },
+      "params": {
+        "Count": {
+          "id": 13,
+          "valuetype": "ParamInt",
+          "min": 1,
+          "max": 64,
+          "value": 15
+        },
+        "Scale": {
+          "id": 23,
+          "valuetype": "ParamRange",
+          "min": 0,
+          "max": 100,
+          "value": 35,
+          "view": {
+            "suffix": "%"
+          }
+        },
+        "Mirror": {
+          "id": 33,
+          "valuetype": "ParamBool",
+          "value": false
+        },
+        "Mode": {
+          "id": 43,
+          "valuetype": "ParamChoice",
+          "value": "Stack",
+          "options": [
+            "Stack",
+            "Ring"
+          ]
+        },
+        "Tint": {
+          "id": 53,
+          "valuetype": "ParamColor",
+          "value": "#ff5599"
+        },
+        "Reset": {
+          "id": 63,
+          "valuetype": "ParamEvent"
+        }
+      },
+      "motion": {
+        "slots": [
+          {
+            "name": "Count",
+            "v": 0.4,
+            "drive": true,
+            "lo": 0,
+            "hi": 1,
+            "min": 1,
+            "max": 64,
+            "integer": true,
+            "ratio": "1:2",
+            "mult": 1,
+            "offset": 0,
+            "lock": false
+          },
+          {
+            "name": "Scale",
+            "v": 0.4,
+            "drive": true,
+            "lo": 0,
+            "hi": 1,
+            "min": 0,
+            "max": 100,
+            "integer": false,
+            "ratio": "1:2",
+            "mult": 1,
+            "offset": 0,
+            "lock": false
+          }
+        ],
+        "g": {
+          "speed": 1,
+          "pattern": 0,
+          "timing_mode": "harmonic"
+        },
+        "morph": 3,
+        "home_kind": "saved Home"
+      }
+    }
+  ]
+}

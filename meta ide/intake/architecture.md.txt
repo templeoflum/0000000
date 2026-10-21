@@ -1,0 +1,224 @@
+# Meta-IDE Architecture Decisions
+
+## Design Philosophy
+
+1. **Falsifiable by default** - Every claim must specify how to disprove it
+2. **Provenance over trust** - Log everything, verify later
+3. **Local-first** - All data owned by user, models are interchangeable
+4. **Recursive auditing** - The system audits itself using the same protocol
+
+## Core Components
+
+### 1. Protocol Enforcer (`core/src/protocol_enforcer.rs`)
+
+**Responsibility:** Ensure deliverables exist and are valid
+
+**Anti-hallucination strategy:**
+- Phase gate checks file existence BEFORE parsing
+- Schema validation against YAML structure
+- Hash verification of artifacts
+- Timestamp coherence checking
+
+**Exit gates are code**, not prose. Example:
+```rust
+fn phase_4_exit_gate(deliverable: &ExecutionLog) -> GateStatus {
+    for test_entry in &deliverable.execution_log {
+        for output in &test_entry.outputs {
+            if !Path::new(&output.path).exists() {
+                return GateStatus::Blocked {
+                    reason: format!("Hallucination: {} does not exist", output.path),
+                };
+            }
+        }
+    }
+    GateStatus::Open
+}
+```
+
+### 2. Provenance Tracker (`core/src/provenance.rs`)
+
+**Responsibility:** Immutable append-only log of all state changes
+
+**Schema:**
+```rust
+struct ProvenanceEntry {
+    id: Uuid,
+    timestamp: DateTime<Utc>,
+    experiment_id: String,
+    phase: u8,
+    event_type: EventType,
+    actor: Actor,  // ModelName(String, Version) | Human(String)
+    inputs: Vec<PathBuf>,
+    outputs: Vec<PathBuf>,
+    verification_hash: Option<String>,
+    parent_id: Option<Uuid>,
+}
+```
+
+Writes to SurrealDB, also mirrors to `provenance/event_log.jsonl` for git tracking.
+
+### 3. Model Adapter (`core/src/adapters/`)
+
+**Responsibility:** Translate protocol to model-specific APIs
+
+**Interface:**
+```rust
+#[async_trait]
+trait ModelProvider {
+    async fn read_phase(&self, exp_id: &str, phase: u8) -> Result<PhaseState>;
+    async fn propose_action(&self, state: SystemState) -> Result<ActionProposal>;
+    async fn execute(&self, action: Action) -> Result<ProvenanceEntry>;
+    async fn verify(&self, test: Test, control: Control) -> Result<Verification>;
+}
+```
+
+**Implementations:**
+- `AnthropicAdapter` - API-based (Claude)
+- `OllamaAdapter` - Local models
+- `HumanAdapter` - Manual override
+
+Models receive:
+1. Phase deliverable (YAML)
+2. Provenance context (last N entries)
+3. Exit gate requirements
+4. Output schema
+
+Models must return valid YAML. Parser rejects invalid responses.
+
+### 4. Execution Engine (`core/src/executor.rs`)
+
+**Responsibility:** Dependency-aware parallel execution
+
+Reads test dependency graph, generates parallel execution plan, executes with provenance tracking.
+
+Phase 4 execution:
+```rust
+let graph = DependencyGraph::from_test_design(&test_design);
+let plan = graph.topological_sort_with_parallelization();
+
+for parallel_group in plan {
+    let futures = parallel_group.iter()
+        .map(|test| execute_with_provenance(test));
+    join_all(futures).await;
+}
+```
+
+### 5. Audit System (`core/src/auditor.rs`)
+
+**Responsibility:** Recursive verification and contamination detection
+
+**Phase completion audit:**
+```rust
+async fn audit_on_phase_completion(exp_id: &str, completed_phase: u8) -> AuditResult {
+    // 1. Verify current phase deliverable
+    let current = verify_deliverable(exp_id, completed_phase)?;
+    
+    // 2. Re-hash all previous deliverables
+    for phase in 0..completed_phase {
+        let stored_hash = db.get_deliverable_hash(exp_id, phase)?;
+        let current_hash = compute_hash(get_deliverable_path(exp_id, phase))?;
+        
+        if stored_hash != current_hash {
+            return AuditResult::Contaminated {
+                phase,
+                reason: "Deliverable modified after completion"
+            };
+        }
+    }
+    
+    // 3. Check provenance coherence
+    verify_provenance_dag(exp_id)?;
+    
+    AuditResult::Clean
+}
+```
+
+**Lineage re-verification:**
+```rust
+async fn audit_lineage(exp_id: &str) -> LineageAudit {
+    let ancestors = db.query_ancestors(exp_id)?;
+    
+    for ancestor in ancestors {
+        // Re-run Phase 5 verifications from ancestor
+        let verification_report = load_deliverable(&ancestor, 5)?;
+        
+        for verification in verification_report.verifications {
+            let rerun = reverify(verification)?;
+            
+            if rerun.status != verification.status {
+                mark_contaminated(&ancestor, "verification no longer holds");
+                cascade_invalidation(&ancestor)?;
+            }
+        }
+    }
+}
+```
+
+## Data Flow
+```
+User intent
+    ↓
+Phase deliverable (YAML) ← Protocol schema
+    ↓
+Model reads deliverable + provenance
+    ↓
+Model proposes action (YAML)
+    ↓
+Executor validates action
+    ↓
+Execute with provenance logging
+    ↓
+Verify outputs exist
+    ↓
+Hash outputs
+    ↓
+Store in provenance DB
+    ↓
+Check phase exit gate
+    ↓
+If gate open: Audit previous phases
+    ↓
+If audit clean: Advance to next phase
+```
+
+## Decision: What We're NOT Deciding Yet
+
+These will be determined experimentally:
+
+- Audit frequency (phase-level vs. experiment-level)
+- Verification consensus threshold (how many models must agree)
+- Contamination severity scoring
+- Rollback vs. re-run strategies
+- Confidence calibration across models
+
+**These are hypothesis variables, not architecture constants.**
+
+## File Format Standards
+
+- **Deliverables:** YAML (schemas in `protocols/schemas/`)
+- **Provenance:** JSONL (append-only, git-trackable)
+- **Database:** SurrealDB (queryable graph)
+- **Artifacts:** Original format (PNG, JSON, TXT, etc.)
+- **Paper:** LaTeX → PDF
+
+## Security Model
+
+- All data local
+- API keys in environment variables, never committed
+- Models cannot modify protocol code
+- Human override always available via CLI
+
+## Extension Points
+
+Want to add a new verification dimension?
+→ Implement `VerificationTool` trait in `core/src/tools/`
+
+Want to add a new model provider?
+→ Implement `ModelProvider` trait in `core/src/adapters/`
+
+Want to change protocol?
+→ Update YAML schema, protocol enforcer will use new gates
+
+## Next: Build It
+
+See `BOOTSTRAP.md` for step-by-step implementation plan.

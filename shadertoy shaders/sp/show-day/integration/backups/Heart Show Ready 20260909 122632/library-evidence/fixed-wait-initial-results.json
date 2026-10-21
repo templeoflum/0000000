@@ -1,0 +1,1196 @@
+[
+  {
+    "layer": 3,
+    "col": 1,
+    "source": "SP Atom Ground",
+    "name": "ground",
+    "status": "review",
+    "driven": [
+      "Tilt",
+      "Sway",
+      "Bob",
+      "Travel",
+      "Horizon",
+      "Yaw",
+      "Dolly",
+      "Focal mm",
+      "Distort",
+      "Scale",
+      "Gap",
+      "Seam",
+      "Bands",
+      "Sun",
+      "Height",
+      "Relief",
+      "Haze"
+    ],
+    "moving": [
+      "Tilt",
+      "Sway",
+      "Bob",
+      "Travel",
+      "Horizon",
+      "Yaw",
+      "Dolly",
+      "Focal mm",
+      "Distort",
+      "Scale",
+      "Gap",
+      "Seam",
+      "Bands",
+      "Sun",
+      "Height",
+      "Relief",
+      "Haze"
+    ],
+    "errors": {
+      "Travel": [
+        0.20023530383091148,
+        0.20433350029847408
+      ],
+      "Bands": [
+        0.5452117515554137,
+        0.5494359087401243
+      ],
+      "Sun": [
+        0.6457422547995285,
+        0.769480093679201
+      ],
+      "Height": [
+        0.8914835372384551,
+        0.8495156187270413
+      ],
+      "Relief": [
+        0.6545494308970762,
+        0.7551678092831692
+      ],
+      "Haze": [
+        0.0949717005614602,
+        0.530541542552415
+      ],
+      "Soft": [
+        0.40022590051363616,
+        0.28549313823893746
+      ],
+      "relaunch_values": {
+        "Sun": [
+          0.769480093679201,
+          0.6233006709039548
+        ],
+        "Height": [
+          0.8495156187270413,
+          0.8855270127118644
+        ],
+        "Relief": [
+          0.7551678092831692,
+          0.6828712066473989
+        ],
+        "Haze": [
+          0.530541542552415,
+          0.07308224951830443
+        ],
+        "Soft": [
+          0.28549313823893746,
+          0.41436355973025046
+        ]
+      }
+    },
+    "slots": 19,
+    "source_numeric_not_slots": [],
+    "adaptation": "Standard Open",
+    "samples": [
+      {
+        "Tilt": -0.98103888906943,
+        "Sway": -0.8495923424012475,
+        "Bob": -0.6088997329392964,
+        "Travel": 0.5552798694587042,
+        "Horizon": 0.06635660472080618,
+        "Yaw": 0.41409151798707167,
+        "Dolly": 0.7085798732058328,
+        "Focal mm": 191.8117646287435,
+        "Distort": 0.5988384584002029,
+        "Scale": 0.977918071734752,
+        "Gap": 0.895032037418197,
+        "Seam": 0.755009641567399,
+        "Bands": 0.590461276199024,
+        "Sun": 0.9278775629878984,
+        "Height": 0.509980180488308,
+        "Relief": 0.43557452999537905,
+        "Haze": 0.06159543370644427
+      },
+      {
+        "Tilt": -0.9718478241941836,
+        "Sway": -0.8248257570307058,
+        "Bob": -0.5702721986306466,
+        "Travel": 0.5795488165271627,
+        "Horizon": 0.11899373898240584,
+        "Yaw": 0.4638473892476904,
+        "Dolly": 0.7482298417516962,
+        "Focal mm": 193.96118595683993,
+        "Distort": 0.5999971260280246,
+        "Scale": 0.9672821405409332,
+        "Gap": 0.8736454241366161,
+        "Seam": 0.7312970261332972,
+        "Bands": 0.558794727228247,
+        "Sun": 0.0019281049640458292,
+        "Height": 0.21428332887979917,
+        "Relief": 0.08718774492332138,
+        "Haze": 0.013909972802560844
+      },
+      {
+        "Tilt": -0.961869636187304,
+        "Sway": -0.8006597093308722,
+        "Bob": -0.5337537336195494,
+        "Travel": 0.6020421602614225,
+        "Horizon": 0.16690634872975374,
+        "Yaw": 0.5081654772495576,
+        "Dolly": 0.7823410714241337,
+        "Focal mm": 195.65121603645932,
+        "Distort": 0.598979114371418,
+        "Scale": 0.9557857528962814,
+        "Gap": 0.8522534395622775,
+        "Seam": 0.7009523875905986,
+        "Bands": 0.5254907457299706,
+        "Sun": 0.9686973713961012,
+        "Height": 0.1857120223143515,
+        "Relief": 0.06751687715143617,
+        "Haze": 0.006414347926095243
+      }
+    ],
+    "home_recovered": false,
+    "test_morph_seconds": 0.35
+  },
+  {
+    "layer": 3,
+    "col": 2,
+    "source": "SP Atom Room",
+    "name": "room",
+    "status": "review",
+    "driven": [
+      "Tilt",
+      "Sway",
+      "Bob",
+      "Travel",
+      "Horizon",
+      "Yaw",
+      "Dolly",
+      "Focal mm",
+      "Distort",
+      "Left",
+      "Right",
+      "Floor",
+      "Ceiling",
+      "Back",
+      "Front",
+      "Scale",
+      "Gap",
+      "Seam",
+      "Bands",
+      "Sun"
+    ],
+    "moving": [
+      "Tilt",
+      "Sway",
+      "Bob",
+      "Travel",
+      "Horizon",
+      "Yaw",
+      "Dolly",
+      "Focal mm",
+      "Distort",
+      "Left",
+      "Right",
+      "Floor",
+      "Ceiling",
+      "Back",
+      "Front",
+      "Scale",
+      "Gap",
+      "Seam",
+      "Bands",
+      "Sun"
+    ],
+    "errors": {
+      "Floor": [
+        0.06891409512651592,
+        -0.17177781334242948
+      ],
+      "Ceiling": [
+        2.5752439620764096,
+        2.702841278071096
+      ],
+      "Back": [
+        7.908336535282053,
+        9.478417942708408
+      ],
+      "Front": [
+        7.764990770076491,
+        17.00955019870907
+      ],
+      "Scale": [
+        0.77189403318577,
+        0.8163640093746315
+      ],
+      "Gap": [
+        0.32292564435966103,
+        0.6339100691736583
+      ],
+      "Seam": [
+        0.09544633448792122,
+        0.1187335116515254
+      ],
+      "Bands": [
+        0.8688292750111487,
+        0.1866031065071833
+      ],
+      "Sun": [
+        0.42109424175470217,
+        0.4509670424286557
+      ],
+      "Height": [
+        0.8630322991001068,
+        0.725156763386797
+      ],
+      "Relief": [
+        0.08850754862794054,
+        0.2292479026700995
+      ],
+      "Haze": [
+        0.39413441704580504,
+        0.28667194567097587
+      ],
+      "Soft": [
+        0.05574243843456297,
+        0.25257589528843605
+      ],
+      "drives": "not settled",
+      "relaunch_values": {
+        "Floor": [
+          -0.17177781334242948,
+          0.06891932512807575
+        ],
+        "Ceiling": [
+          2.702841278071096,
+          2.584573720016576
+        ],
+        "Back": [
+          9.478417942708408,
+          8.0
+        ],
+        "Front": [
+          17.00955019870907,
+          8.0
+        ],
+        "Scale": [
+          0.8163640093746315,
+          0.7884754335260116
+        ],
+        "Gap": [
+          0.6339100691736583,
+          0.3344096218689788
+        ],
+        "Seam": [
+          0.1187335116515254,
+          0.15000000596046448
+        ],
+        "Bands": [
+          0.1866031065071833,
+          0.9325400409441232
+        ],
+        "Sun": [
+          0.4509670424286557,
+          0.49820502410274525
+        ],
+        "Height": [
+          0.725156763386797,
+          0.8821878010597303
+        ],
+        "Relief": [
+          0.2292479026700995,
+          0.0
+        ],
+        "Haze": [
+          0.28667194567097587,
+          0.30000001192092896
+        ],
+        "Soft": [
+          0.25257589528843605,
+          0.0
+        ]
+      }
+    },
+    "slots": 25,
+    "source_numeric_not_slots": [],
+    "adaptation": "Standard Open",
+    "samples": [
+      {
+        "Tilt": 0.22747163134038972,
+        "Sway": -0.8936657275155835,
+        "Bob": -0.7395094412766454,
+        "Travel": 0.4822246294896564,
+        "Horizon": -0.2842244512489992,
+        "Yaw": -0.015187860998531866,
+        "Dolly": 0.25431059068052986,
+        "Focal mm": 154.0237440385374,
+        "Distort": 0.43201507519334115,
+        "Left": 11.30073513843572,
+        "Right": 11.812284557042933,
+        "Floor": 0.8548042007514454,
+        "Ceiling": 10.425087009325406,
+        "Back": 28.891069241826965,
+        "Front": 22.411546835600124,
+        "Scale": 0.754428665706178,
+        "Gap": 0.4039656708509556,
+        "Seam": 0.1933127382771896,
+        "Bands": 0.8926722095608156,
+        "Sun": 0.5013635792628292
+      },
+      {
+        "Tilt": 0.2365929057117908,
+        "Sway": -0.8723139399890107,
+        "Bob": -0.7063140919280407,
+        "Travel": 0.5039978803762446,
+        "Horizon": -0.23090062125395736,
+        "Yaw": 0.04262114134565764,
+        "Dolly": 0.3129251742569976,
+        "Focal mm": 159.0432258316952,
+        "Distort": 0.458421632372928,
+        "Left": 11.478096538521578,
+        "Right": 11.934331861586774,
+        "Floor": 0.8727967108029375,
+        "Ceiling": 11.567022064206403,
+        "Back": 35.64504104344415,
+        "Front": 31.69686510935039,
+        "Scale": 0.6679619132237309,
+        "Gap": 0.5334493046772977,
+        "Seam": 0.39641140428475047,
+        "Bands": 0.26719403823914745,
+        "Sun": 0.6144547700443562
+      },
+      {
+        "Tilt": 0.24671521599634083,
+        "Sway": -0.850781015060352,
+        "Bob": -0.6738996344325034,
+        "Travel": 0.5248565867694721,
+        "Horizon": -0.18245584372840973,
+        "Yaw": 0.09437105904512766,
+        "Dolly": 0.3639516808499712,
+        "Focal mm": 163.319523661152,
+        "Distort": 0.48043257945465667,
+        "Left": 11.61607761509421,
+        "Right": 11.978225042576376,
+        "Floor": 0.8368102835117659,
+        "Ceiling": 11.40982985648279,
+        "Back": 34.732073857212356,
+        "Front": 30.490831770383583,
+        "Scale": 0.631980949440219,
+        "Gap": 0.4945661789894375,
+        "Seam": 0.35756864443888403,
+        "Bands": 0.23150770031754475,
+        "Sun": 0.5849650922570719
+      }
+    ],
+    "home_recovered": false,
+    "test_morph_seconds": 0.35
+  },
+  {
+    "layer": 3,
+    "col": 3,
+    "source": "SP Atom Void",
+    "name": "void",
+    "status": "review",
+    "driven": [
+      "Tilt",
+      "Sway",
+      "Bob",
+      "Travel",
+      "Horizon",
+      "Yaw",
+      "Dolly",
+      "Focal mm",
+      "Distort",
+      "Density",
+      "Size",
+      "Reach",
+      "Haze",
+      "Soft"
+    ],
+    "moving": [
+      "Tilt",
+      "Sway",
+      "Bob",
+      "Travel",
+      "Horizon",
+      "Yaw",
+      "Dolly",
+      "Focal mm",
+      "Distort",
+      "Density",
+      "Size",
+      "Reach",
+      "Haze",
+      "Soft"
+    ],
+    "errors": {
+      "Soft": [
+        0.6504411811057577,
+        0.5331830320355986
+      ],
+      "relaunch_drive": "re-enabled",
+      "relaunch_values": {
+        "Bob": [
+          -0.24139999999999995,
+          -0.2117887763803742
+        ],
+        "Travel": [
+          0.9024,
+          0.9563697729087705
+        ],
+        "Yaw": [
+          0.050799999999999956,
+          0.041335933126123825
+        ],
+        "Soft": [
+          0.5331830320355986,
+          0.6505
+        ]
+      }
+    },
+    "slots": 15,
+    "source_numeric_not_slots": [],
+    "adaptation": "Standard Open",
+    "samples": [
+      {
+        "Tilt": 0.5062669605157128,
+        "Sway": -0.7895987095799739,
+        "Bob": -0.43459340384094336,
+        "Travel": 0.9123740222574124,
+        "Horizon": 0.8028838695708342,
+        "Yaw": 0.010980995951271888,
+        "Dolly": 0.9841800966867522,
+        "Focal mm": 196.31474290238512,
+        "Distort": 0.4046073214876442,
+        "Density": 0.5754993737926197,
+        "Size": 0.32472184734221443,
+        "Reach": 0.21044282591766103,
+        "Haze": 0.5131218898975511,
+        "Soft": 0.4822664595013195
+      },
+      {
+        "Tilt": 0.5498122140377864,
+        "Sway": -0.7628467932345898,
+        "Bob": -0.3938149659012909,
+        "Travel": 0.91675067662357,
+        "Horizon": 0.8327191992319514,
+        "Yaw": 0.05811528543173816,
+        "Dolly": 0.9923380028491144,
+        "Focal mm": 194.70539052020828,
+        "Distort": 0.41716955754656615,
+        "Density": 0.6505693904707069,
+        "Size": 0.42309472216424304,
+        "Reach": 0.21060137437767631,
+        "Haze": 0.05900167014746216,
+        "Soft": 0.00015596283227192753
+      },
+      {
+        "Tilt": 0.5908425016824719,
+        "Sway": -0.7356135351707717,
+        "Bob": -0.35354717664355273,
+        "Travel": 0.9217361193687768,
+        "Horizon": 0.8594914578395698,
+        "Yaw": 0.10366442098255346,
+        "Dolly": 0.9974584542198472,
+        "Focal mm": 192.8779743670208,
+        "Distort": 0.3918661043090293,
+        "Density": 0.6219924479865159,
+        "Size": 0.39150074585687944,
+        "Reach": 0.184070187849618,
+        "Haze": 0.043789427212800325,
+        "Soft": 0.0004746582068471117
+      }
+    ],
+    "home_recovered": false,
+    "test_morph_seconds": 0.35
+  },
+  {
+    "layer": 3,
+    "col": 4,
+    "source": "Heart Quaternion Field",
+    "name": "Heart Quaternion Field",
+    "status": "review",
+    "driven": [
+      "Speed",
+      "Field Scale",
+      "Hue Speed",
+      "Axis 1 Freq",
+      "Axis 2 Freq",
+      "Axis 3 Freq",
+      "Coupling",
+      "Brightness",
+      "Saturation",
+      "Mean Radius",
+      "Sample Distance"
+    ],
+    "moving": [
+      "Speed",
+      "Field Scale",
+      "Hue Speed",
+      "Axis 1 Freq",
+      "Axis 2 Freq",
+      "Axis 3 Freq",
+      "Coupling",
+      "Brightness",
+      "Saturation",
+      "Mean Radius",
+      "Sample Distance"
+    ],
+    "errors": {
+      "Sample Distance": [
+        0.55,
+        0.5452919215476161
+      ],
+      "relaunch_values": {
+        "Sample Distance": [
+          0.5452919215476161,
+          0.55
+        ]
+      }
+    },
+    "slots": 11,
+    "source_numeric_not_slots": [],
+    "adaptation": "Standard Open",
+    "samples": [
+      {
+        "Speed": 0.009873817420939568,
+        "Field Scale": 0.009873817420939623,
+        "Hue Speed": 0.009873817420939568,
+        "Axis 1 Freq": 0.009873817420939568,
+        "Axis 2 Freq": 0.009873817420939568,
+        "Axis 3 Freq": 0.009873817420939568,
+        "Coupling": 0.15030430426697705,
+        "Brightness": 0.009873817420939623,
+        "Saturation": 0.009873817420939568,
+        "Mean Radius": 0.009873817420939568,
+        "Sample Distance": 0.009873817420939623
+      },
+      {
+        "Speed": 0.014130768108595149,
+        "Field Scale": 0.014130768108595149,
+        "Hue Speed": 0.014130768108595149,
+        "Axis 1 Freq": 0.014130768108595149,
+        "Axis 2 Freq": 0.014130768108595149,
+        "Axis 3 Freq": 0.014130768108595149,
+        "Coupling": 0.21047661571981163,
+        "Brightness": 0.014130768108595149,
+        "Saturation": 0.014130768108595149,
+        "Mean Radius": 0.014130768108595149,
+        "Sample Distance": 0.014130768108595149
+      },
+      {
+        "Speed": 0.019303978080008055,
+        "Field Scale": 0.019303978080008055,
+        "Hue Speed": 0.019303978080008055,
+        "Axis 1 Freq": 0.019303978080008055,
+        "Axis 2 Freq": 0.019303978080008055,
+        "Axis 3 Freq": 0.019303978080008055,
+        "Coupling": 0.27996404487891113,
+        "Brightness": 0.019303978080008055,
+        "Saturation": 0.019303978080008055,
+        "Mean Radius": 0.019303978080008055,
+        "Sample Distance": 0.019303978080008055
+      }
+    ],
+    "home_recovered": false,
+    "test_morph_seconds": 0.35
+  },
+  {
+    "layer": 3,
+    "col": 5,
+    "source": "Heart Quaternion Swell",
+    "name": "Heart Quaternion Swell",
+    "status": "pass",
+    "driven": [
+      "Field Scale",
+      "Speed",
+      "Swell Threshold",
+      "Swell Sharpness",
+      "Hue Shift",
+      "Coupling",
+      "Darkness"
+    ],
+    "moving": [
+      "Field Scale",
+      "Speed",
+      "Swell Threshold",
+      "Swell Sharpness",
+      "Hue Shift",
+      "Coupling",
+      "Darkness"
+    ],
+    "errors": {},
+    "slots": 7,
+    "source_numeric_not_slots": [],
+    "adaptation": "Standard Open",
+    "samples": [
+      {
+        "Field Scale": 0.009844730419963863,
+        "Speed": 0.029534191259891596,
+        "Swell Threshold": 0.14722751331718853,
+        "Swell Sharpness": 0.009661237809338918,
+        "Hue Shift": 0.009661237809338918,
+        "Coupling": 0.009661237809338918,
+        "Darkness": 0.009661237809338918
+      },
+      {
+        "Field Scale": 0.014052088592618472,
+        "Speed": 0.04215626577785542,
+        "Swell Threshold": 0.20938919355783903,
+        "Swell Sharpness": 0.014052088592618415,
+        "Hue Shift": 0.014052088592618472,
+        "Coupling": 0.014052088592618472,
+        "Darkness": 0.014052088592618528
+      },
+      {
+        "Field Scale": 0.01899159041567733,
+        "Speed": 0.056974771247031986,
+        "Swell Threshold": 0.2758794670877992,
+        "Swell Sharpness": 0.01899159041567733,
+        "Hue Shift": 0.01899159041567733,
+        "Coupling": 0.01899159041567733,
+        "Darkness": 0.01899159041567733
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35
+  },
+  {
+    "layer": 3,
+    "col": 6,
+    "source": "Heart Paper Fractal",
+    "name": "Heart Paper Fractal",
+    "status": "review",
+    "driven": [
+      "rotAsymX",
+      "rotAsymY",
+      "spinRate",
+      "foldRate",
+      "spinOffset",
+      "foldOffset",
+      "sizeOffset",
+      "foldDistA",
+      "foldDistB",
+      "camX",
+      "camY",
+      "camZ",
+      "glowAmount"
+    ],
+    "moving": [
+      "rotAsymX",
+      "rotAsymY",
+      "spinRate",
+      "foldRate",
+      "spinOffset",
+      "foldOffset",
+      "sizeOffset",
+      "foldDistA",
+      "foldDistB",
+      "camX",
+      "camY",
+      "camZ",
+      "glowAmount"
+    ],
+    "errors": {
+      "glowAmount": [
+        0.5,
+        0.4907612402322294
+      ],
+      "relaunch_values": {
+        "glowAmount": [
+          0.4907612402322294,
+          0.5
+        ]
+      }
+    },
+    "slots": 13,
+    "source_numeric_not_slots": [],
+    "adaptation": "Standard Open",
+    "samples": [
+      {
+        "rotAsymX": 0.00928697423132896,
+        "rotAsymY": 0.00928697423132896,
+        "spinRate": 0.00928697423132896,
+        "foldRate": 0.00928697423132896,
+        "spinOffset": 0.009093388867923435,
+        "foldOffset": 0.009093388867923435,
+        "sizeOffset": 0.009093388867923435,
+        "foldDistA": 0.13897485360579448,
+        "foldDistB": 0.00928697423132896,
+        "camX": 0.00928697423132896,
+        "camY": 0.009093388867923435,
+        "camZ": 0.009083951356575831,
+        "glowAmount": 0.013614499147471426
+      },
+      {
+        "rotAsymX": 0.01380172782937511,
+        "rotAsymY": 0.01380172782937511,
+        "spinRate": 0.01380172782937511,
+        "foldRate": 0.01380172782937511,
+        "spinOffset": 0.01380172782937511,
+        "foldOffset": 0.01380172782937511,
+        "sizeOffset": 0.01380172782937511,
+        "foldDistA": 0.2059228272942274,
+        "foldDistB": 0.01380172782937511,
+        "camX": 0.01380172782937511,
+        "camY": 0.01380172782937511,
+        "camZ": 0.01380172782937511,
+        "glowAmount": 0.01380172782937511
+      },
+      {
+        "rotAsymX": 0.01886783699207001,
+        "rotAsymY": 0.01886783699207001,
+        "spinRate": 0.01886783699207001,
+        "foldRate": 0.01886783699207001,
+        "spinOffset": 0.01886783699207001,
+        "foldOffset": 0.01886783699207001,
+        "sizeOffset": 0.01886783699207001,
+        "foldDistA": 0.27425741734315867,
+        "foldDistB": 0.01886783699207001,
+        "camX": 0.01886783699207001,
+        "camY": 0.01886783699207001,
+        "camZ": 0.01886783699207001,
+        "glowAmount": 0.01886783699207001
+      }
+    ],
+    "home_recovered": false,
+    "test_morph_seconds": 0.35
+  },
+  {
+    "layer": 3,
+    "col": 7,
+    "source": "Heart Vector Lattice",
+    "name": "Heart Vector Lattice",
+    "status": "pass",
+    "driven": [
+      "camSpeed",
+      "rotX",
+      "rotZ",
+      "colorR",
+      "colorG",
+      "colorB"
+    ],
+    "moving": [
+      "camSpeed",
+      "rotX",
+      "rotZ",
+      "colorR",
+      "colorG",
+      "colorB"
+    ],
+    "errors": {},
+    "slots": 6,
+    "source_numeric_not_slots": [],
+    "adaptation": "Standard Open",
+    "samples": [
+      {
+        "camSpeed": 0.009385677208875731,
+        "rotX": 0.14322889328400007,
+        "rotZ": 0.009385677208875731,
+        "colorR": 0.009385677208875731,
+        "colorG": 0.009385677208875731,
+        "colorB": 0.009385677208875731
+      },
+      {
+        "camSpeed": 0.013505836805698336,
+        "rotX": 0.20181398588231417,
+        "rotZ": 0.013505836805698336,
+        "colorR": 0.013505836805698336,
+        "colorG": 0.013505836805698336,
+        "colorB": 0.013505836805698336
+      },
+      {
+        "camSpeed": 0.018450465845872788,
+        "rotX": 0.268770417101784,
+        "rotZ": 0.018450465845872788,
+        "colorR": 0.018450465845872788,
+        "colorG": 0.018450465845872788,
+        "colorB": 0.018450465845872788
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35
+  },
+  {
+    "layer": 3,
+    "col": 8,
+    "source": "SP Field",
+    "name": "SP Field",
+    "status": "review",
+    "driven": [
+      "Scale",
+      "Drift",
+      "Contrast"
+    ],
+    "moving": [
+      "Scale",
+      "Drift",
+      "Contrast"
+    ],
+    "errors": {
+      "relaunch_drive": "re-enabled",
+      "relaunch_values": {
+        "Scale": [
+          0.4984507544723149,
+          0.5125109088619494
+        ],
+        "Contrast": [
+          0.4961201285896557,
+          0.5110545049989265
+        ],
+        "Level": [
+          0.4961193828858057,
+          0.487993679715905
+        ]
+      }
+    },
+    "slots": 4,
+    "source_numeric_not_slots": [
+      "Heart Rate (turns/s)",
+      "Depth",
+      "FM"
+    ],
+    "adaptation": "Automatic selection",
+    "samples": [
+      {
+        "Scale": 0.39114381227653905,
+        "Drift": 0.5162756542936178,
+        "Contrast": 0.36385507459861594
+      },
+      {
+        "Scale": 0.4086628223501604,
+        "Drift": 0.5231845128031327,
+        "Contrast": 0.37126415651948225
+      },
+      {
+        "Scale": 0.42813229643323736,
+        "Drift": 0.5311067495245987,
+        "Contrast": 0.37973350871823497
+      }
+    ],
+    "home_recovered": false,
+    "test_morph_seconds": 0.35
+  },
+  {
+    "layer": 3,
+    "col": 9,
+    "source": "Heart Concentrip",
+    "name": "Heart Concentrip",
+    "status": "pass",
+    "driven": [
+      "radialDensity",
+      "angularDensity",
+      "blendThreshold",
+      "blendWidth",
+      "phase",
+      "hue"
+    ],
+    "moving": [
+      "radialDensity",
+      "angularDensity",
+      "blendThreshold",
+      "blendWidth",
+      "phase",
+      "hue"
+    ],
+    "errors": {},
+    "slots": 6,
+    "source_numeric_not_slots": [],
+    "adaptation": "Standard Open",
+    "samples": [
+      {
+        "radialDensity": 8.999754434989669,
+        "angularDensity": 2.243352115478597,
+        "blendThreshold": 0.10748775865235802,
+        "blendWidth": 0.05701977341154343,
+        "phase": 0.05880870626753481,
+        "hue": 0.00935969674917686
+      },
+      {
+        "radialDensity": 11.487579970295352,
+        "angularDensity": 2.351658877771701,
+        "blendThreshold": 0.11082027430969868,
+        "blendWidth": 0.06014400698578384,
+        "phase": 0.08498222260601464,
+        "hue": 0.013525341452757689
+      },
+      {
+        "radialDensity": 14.322698828208996,
+        "angularDensity": 2.4813259968274695,
+        "blendThreshold": 0.11481003169277146,
+        "blendWidth": 0.06388440470659033,
+        "phase": 0.11631770330282788,
+        "hue": 0.018512538339518103
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35
+  },
+  {
+    "layer": 3,
+    "col": 10,
+    "source": "Heart Puls Lattice",
+    "name": "Heart Puls Lattice",
+    "status": "pass",
+    "driven": [
+      "cellSpacing",
+      "barWidth",
+      "boltWidth",
+      "greenExpansion",
+      "orangeExpansion",
+      "pulsePhase",
+      "travelPhase"
+    ],
+    "moving": [
+      "cellSpacing",
+      "barWidth",
+      "boltWidth",
+      "greenExpansion",
+      "orangeExpansion",
+      "pulsePhase",
+      "travelPhase"
+    ],
+    "errors": {},
+    "slots": 7,
+    "source_numeric_not_slots": [],
+    "adaptation": "Standard Open",
+    "samples": [
+      {
+        "cellSpacing": 3.521174644790833,
+        "barWidth": 0.08467265641587178,
+        "boltWidth": 0.16203276240441614,
+        "greenExpansion": 0.0033879432170175455,
+        "orangeExpansion": 0.0033879432170175455,
+        "pulsePhase": 0.0532176842559772,
+        "travelPhase": 0.0532176842559772
+      },
+      {
+        "cellSpacing": 3.5307786407306705,
+        "barWidth": 0.09516803579849424,
+        "boltWidth": 0.16295474605127688,
+        "greenExpansion": 0.004924582590289303,
+        "orangeExpansion": 0.004924582590289303,
+        "pulsePhase": 0.07735515756760726,
+        "travelPhase": 0.07735515756760726
+      },
+      {
+        "cellSpacing": 3.542805889021148,
+        "barWidth": 0.10771673663279314,
+        "boltWidth": 0.164109361933043,
+        "greenExpansion": 0.00684894234544083,
+        "orangeExpansion": 0.00684894234544083,
+        "pulsePhase": 0.10758292801256664,
+        "travelPhase": 0.10758292801256664
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35
+  },
+  {
+    "layer": 3,
+    "col": 11,
+    "source": "Heart Ancient Temple",
+    "name": "Heart Ancient Temple",
+    "status": "review",
+    "driven": [
+      "zoom",
+      "morph",
+      "speed",
+      "cameraPitch",
+      "cameraYaw",
+      "cameraRoll",
+      "fractalScale",
+      "fractalIterations",
+      "surfaceShake",
+      "floorPattern",
+      "orbSize",
+      "orbPattern",
+      "colorPalette",
+      "contrast",
+      "saturation",
+      "brightness"
+    ],
+    "moving": [
+      "zoom",
+      "morph",
+      "speed",
+      "cameraPitch",
+      "cameraYaw",
+      "cameraRoll",
+      "fractalScale",
+      "fractalIterations",
+      "surfaceShake",
+      "floorPattern",
+      "orbSize",
+      "orbPattern",
+      "colorPalette",
+      "contrast",
+      "saturation",
+      "brightness"
+    ],
+    "errors": {
+      "saturation": [
+        1.0,
+        0.9817046358209404
+      ],
+      "brightness": [
+        1.0,
+        1.095099889660098
+      ],
+      "relaunch_values": {
+        "saturation": [
+          0.9817046358209404,
+          1.0
+        ],
+        "brightness": [
+          1.095099889660098,
+          1.0
+        ]
+      }
+    },
+    "slots": 16,
+    "source_numeric_not_slots": [],
+    "adaptation": "Standard Open",
+    "samples": [
+      {
+        "zoom": 0.14797884007096893,
+        "morph": 0.29823027233605803,
+        "speed": 0.048957998566779015,
+        "cameraPitch": -0.009804167786592651,
+        "cameraYaw": -0.009804167786592651,
+        "cameraRoll": -0.009804167786592651,
+        "fractalScale": 1.0293747991400677,
+        "fractalIterations": 1.1860403945537614,
+        "surfaceShake": 0.009791599713355805,
+        "floorPattern": 0.01958319942671161,
+        "orbSize": 0.01186040375339002,
+        "orbPattern": 0.048957998566779015,
+        "colorPalette": 0.06853140710346504,
+        "contrast": 0.5257567234465892,
+        "saturation": 0.1106876969264079,
+        "brightness": 0.22042271560350435
+      },
+      {
+        "zoom": 0.1695052494154823,
+        "morph": 0.4224441669939776,
+        "speed": 0.07092372239439093,
+        "cameraPitch": -0.009716304893246094,
+        "cameraYaw": -0.009716304893246094,
+        "cameraRoll": -0.009716304893246094,
+        "fractalScale": 1.0425542334366344,
+        "fractalIterations": 1.2695101450986854,
+        "surfaceShake": 0.014184744478878186,
+        "floorPattern": 0.028369488957756372,
+        "orbSize": 0.012695101272913808,
+        "orbPattern": 0.07092372239439093,
+        "colorPalette": 0.09927902763576804,
+        "contrast": 0.5212771167183172,
+        "saturation": 0.028369488957756372,
+        "brightness": 0.028369488957756372
+      },
+      {
+        "zoom": 0.19436360441884,
+        "morph": 0.5587243312499786,
+        "speed": 0.0962893907728779,
+        "cameraPitch": -0.009614842222000012,
+        "cameraYaw": -0.009614842222000012,
+        "cameraRoll": -0.009614842222000012,
+        "fractalScale": 1.0577736344637267,
+        "fractalIterations": 1.365899684936936,
+        "surfaceShake": 0.01925787815457558,
+        "floorPattern": 0.03851575630915116,
+        "orbSize": 0.013658996687549364,
+        "orbPattern": 0.0962893907728779,
+        "colorPalette": 0.13478589059967103,
+        "contrast": 0.5284662554153626,
+        "saturation": 0.037955007220483505,
+        "brightness": 0.037955007220483505
+      }
+    ],
+    "home_recovered": false,
+    "test_morph_seconds": 0.35
+  },
+  {
+    "layer": 3,
+    "col": 12,
+    "source": "Heart Kali Liberation",
+    "name": "Heart Kali Liberation",
+    "status": "pass",
+    "driven": [
+      "speed",
+      "zoom",
+      "morphing",
+      "colorPulse",
+      "brightness",
+      "contrast",
+      "cameraX",
+      "cameraY",
+      "cameraZ",
+      "colorPalette"
+    ],
+    "moving": [
+      "speed",
+      "zoom",
+      "morphing",
+      "colorPulse",
+      "brightness",
+      "contrast",
+      "cameraX",
+      "cameraY",
+      "cameraZ",
+      "colorPalette"
+    ],
+    "errors": {},
+    "slots": 10,
+    "source_numeric_not_slots": [],
+    "adaptation": "Standard Open",
+    "samples": [
+      {
+        "speed": -1.9606366354832503,
+        "zoom": 0.1482201230084705,
+        "morphing": 0.2996549411505226,
+        "colorPulse": 0.04920420564593714,
+        "brightness": 0.029522523387562283,
+        "contrast": 0.029522523387562283,
+        "cameraX": -4.901591588708126,
+        "cameraY": -4.901591588708126,
+        "cameraZ": -59.41939037337794,
+        "colorPalette": 0.029522523387562283
+      },
+      {
+        "speed": -1.943597822547112,
+        "zoom": 0.1690926688488922,
+        "morphing": 0.42011801107012503,
+        "colorPulse": 0.07050272181610973,
+        "brightness": 0.042301633089665835,
+        "contrast": 0.042301633089665835,
+        "cameraX": -4.85899455636778,
+        "cameraY": -4.85899455636778,
+        "cameraZ": -59.16806788256991,
+        "colorPalette": 0.042301633089665835
+      },
+      {
+        "speed": -1.9235832354886424,
+        "zoom": 0.193610537988062,
+        "morphing": 0.5547067965780894,
+        "colorPulse": 0.09552095563919728,
+        "brightness": 0.05731257338351836,
+        "contrast": 0.05731257338351836,
+        "cameraX": -4.808958088721606,
+        "cameraY": -4.808958088721606,
+        "cameraZ": -58.87285272345747,
+        "colorPalette": 0.05731257338351836
+      }
+    ],
+    "home_recovered": true,
+    "test_morph_seconds": 0.35
+  }
+]

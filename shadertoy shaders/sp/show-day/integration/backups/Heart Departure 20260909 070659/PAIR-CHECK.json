@@ -1,0 +1,55 @@
+{
+  "result": "PASS \u2014 offline pair integrity/dependency check only",
+  "sha256": {
+    "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/patches/Heart Departure 20260909 070659.avc": "f0b536d1c8034588c42fbc0ae090aa7b47b2df491d2816a23a9cfa13eb3f7d29",
+    "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/patches/Heart Departure 20260909 070659.json": "fb1247a531ae94808ca5382ad7ffb1eaf9ef1a4f6e08b8a588f51bcc0d0f5793"
+  },
+  "hold": false,
+  "bars": 8.0,
+  "active_layers": {
+    "feedback": {
+      "clip": "FM \u00b7 Static Rotate Left Z [1.4.1]",
+      "level": 0.0,
+      "bypass": false
+    },
+    "sculpt": {
+      "clip": "level",
+      "level": 0.0,
+      "bypass": false
+    },
+    "field": {
+      "clip": "FM \u00b7 Checkered [2.1.2]",
+      "level": 0.0,
+      "bypass": false
+    },
+    "delay": {
+      "clip": "figure",
+      "level": 0.0,
+      "bypass": false
+    },
+    "figure": {
+      "clip": "Heart Capsule",
+      "level": 1.0,
+      "bypass": false
+    },
+    "glyph": {
+      "clip": null,
+      "level": 0.0,
+      "bypass": false
+    },
+    "texture": {
+      "clip": "SP Scan",
+      "level": 0.0,
+      "bypass": false
+    },
+    "grain": {
+      "clip": "grain",
+      "level": 0.0,
+      "bypass": false
+    }
+  },
+  "live_signature_compared": true,
+  "name": "Heart Departure 20260909 070659",
+  "avc": "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/patches/Heart Departure 20260909 070659.avc",
+  "save_start": 1788955619.2076921
+}

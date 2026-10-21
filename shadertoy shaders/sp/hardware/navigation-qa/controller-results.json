@@ -1,0 +1,65 @@
+{
+  "result": {
+    "checks": [
+      "Assignment available 0",
+      "Assignment available 1",
+      "Assignment available 4",
+      "Assignments serialize through surface save",
+      "Grab engaged",
+      "Held button at grab is not fired",
+      "Assigned trigger sent",
+      "Assigned hold starts",
+      "Circle releases hold",
+      "Circle returns to navigation",
+      "Focus loss releases held effect",
+      "Axis dead zone sends nothing",
+      "Axis sends relative parameter motion",
+      "Mappings editable after release",
+      "Target replacement releases held effect",
+      "Replacement exits Grab"
+    ],
+    "config": {
+      "cross": {
+        "ref": {
+          "kind": "effect",
+          "key": "composition/effect/mtk_lut_corrupt~1"
+        },
+        "kind": "event",
+        "name": "MELT"
+      },
+      "square": {
+        "ref": {
+          "kind": "effect",
+          "key": "composition/effect/MTK_PXLMELT~1"
+        },
+        "kind": "bool-hold",
+        "name": "MELT_LOCK"
+      },
+      "rx": {
+        "ref": {
+          "kind": "source",
+          "role": "field",
+          "name": "Heart Ancient Temple",
+          "col": 11,
+          "instrument": null
+        },
+        "kind": "axis",
+        "slot": "zoom"
+      }
+    },
+    "commands": [
+      "surface_cfg",
+      "surface_cfg",
+      "surface_cfg",
+      "fx_param",
+      "fx_bool_press",
+      "fx_bool_release",
+      "fx_bool_press",
+      "fx_bool_release",
+      "manual",
+      "fx_bool_press",
+      "fx_bool_release"
+    ]
+  },
+  "errors": []
+}

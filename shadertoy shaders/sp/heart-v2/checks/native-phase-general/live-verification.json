@@ -1,0 +1,143 @@
+{
+  "drive_off_survives_detection": true,
+  "running_timeline_released_seconds": 1.3434307090064976,
+  "paused_timeline_autostart_seconds": 2.378457041020738,
+  "static_manual_value": 0.25,
+  "native_movement": {
+    "Position X": 441.9122338294983,
+    "Position Y": 430.77077865600586,
+    "Scale": 23.067813515663147
+  },
+  "native_programs_preserved": {
+    "1788149968455": {
+      "Position X": true,
+      "Position Y": true,
+      "Scale": true,
+      "Scale W": true,
+      "Scale H": true,
+      "Rotation X": true,
+      "Rotation Y": true,
+      "Rotation Z": true,
+      "Anchor X": true,
+      "Anchor Y": true,
+      "Anchor Z": true
+    },
+    "1789344968199": {
+      "Opacity": true,
+      "Position X": true,
+      "Position Y": true,
+      "Scale": true,
+      "Scale W": true,
+      "Scale H": true,
+      "Rotation X": true,
+      "Rotation Y": true,
+      "Rotation Z": true,
+      "Anchor X": true,
+      "Anchor Y": true,
+      "Anchor Z": true
+    }
+  },
+  "static_values_preserved": {
+    "1788149968455": {
+      "Position X": true,
+      "Position Y": true,
+      "Scale": true,
+      "Scale W": true,
+      "Scale H": true,
+      "Rotation X": true,
+      "Rotation Y": true,
+      "Rotation Z": true,
+      "Anchor X": true,
+      "Anchor Y": true,
+      "Anchor Z": true
+    },
+    "1789344968199": {
+      "Opacity": true,
+      "Scale W": true,
+      "Scale H": true,
+      "Rotation X": true,
+      "Rotation Y": true,
+      "Rotation Z": true,
+      "Anchor X": true,
+      "Anchor Y": true,
+      "Anchor Z": true
+    }
+  },
+  "ranges_preserved": {
+    "1788149968455": {
+      "Position X": true,
+      "Position Y": true,
+      "Scale": true,
+      "Scale W": true,
+      "Scale H": true,
+      "Rotation X": true,
+      "Rotation Y": true,
+      "Rotation Z": true,
+      "Anchor X": true,
+      "Anchor Y": true,
+      "Anchor Z": true
+    },
+    "1789344968199": {
+      "Opacity": true,
+      "Position X": true,
+      "Position Y": true,
+      "Scale": true,
+      "Scale W": true,
+      "Scale H": true,
+      "Rotation X": true,
+      "Rotation Y": true,
+      "Rotation Z": true,
+      "Anchor X": true,
+      "Anchor Y": true,
+      "Anchor Z": true
+    }
+  },
+  "state": {
+    "type": "state",
+    "authored": {},
+    "capabilities": [
+      "envelopes",
+      "surface_reload",
+      "performance_layouts",
+      "playing",
+      "color",
+      "group_levels",
+      "drive_bank",
+      "drive_all",
+      "effect_hits",
+      "authored_clips",
+      "rack_controls",
+      "tap_tempo",
+      "rack_sequence",
+      "scoped_recovery",
+      "crossfader",
+      "scoped_readback"
+    ],
+    "homes": [
+      "effect:1788149968455"
+    ],
+    "home": false,
+    "group": {
+      "pattern": 0,
+      "spread": 1,
+      "seed": 0,
+      "depth": 1.0,
+      "fm": 0.0,
+      "speed": 1.0
+    },
+    "connected": true,
+    "armed": true,
+    "hold": false,
+    "bpm": 140.0,
+    "error": "",
+    "selected": "effect:1789344968199",
+    "metrics": {
+      "tick_p95_ms": 9.22,
+      "work_p95_ms": 0.12,
+      "scan_ms": 200,
+      "bridge_work_ms": 1.03,
+      "sent": 39930,
+      "owned": 4
+    }
+  }
+}

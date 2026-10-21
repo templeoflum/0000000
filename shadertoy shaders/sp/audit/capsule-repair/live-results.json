@@ -1,0 +1,41 @@
+[
+  {
+    "layer": 5,
+    "col": 73,
+    "source": "Heart Capsule",
+    "controls": [
+      "Turn",
+      "Outline",
+      "Material",
+      "Float",
+      "Tilt"
+    ],
+    "discovered": [
+      "Turn",
+      "Outline",
+      "Material",
+      "Float",
+      "Tilt"
+    ],
+    "probe": "Tilt",
+    "checks": [
+      {
+        "requested": 0.3,
+        "observed": 0.3,
+        "ok": true
+      },
+      {
+        "requested": 0.7,
+        "observed": 0.7,
+        "ok": true
+      }
+    ],
+    "samples": [
+      0.4752027453384343,
+      0.3947822671117512,
+      0.3301330299544737,
+      0.30772956169089605
+    ],
+    "drive_varied": true
+  }
+]

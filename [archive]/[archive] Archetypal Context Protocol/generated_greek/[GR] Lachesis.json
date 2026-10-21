@@ -1,0 +1,156 @@
+{
+  "SchemaVersion": "1.1-ter",
+  "ArchetypeName": "Lachesis",
+  "SystemOfOrigin": "GR",
+  "CulturalLineage": [
+    "Greek"
+  ],
+  "CommonAliases": [
+    "The Allotter",
+    "The Measurer",
+    "Fate of Life",
+    "Disposer of Lots"
+  ],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "To measure the thread of life; to determine the length and events of each person's destiny; to allot fortune.",
+    "PrimaryDomain": "Mythic / Fate",
+    "ToneOrPolarity": "Measuring / Allotting",
+    "SymbolicCore": "The measurer of destiny, who determines how long and what quality the thread shall be.",
+    "Correspondences": {
+      "Element": "Earth",
+      "Planet": "Venus",
+      "Chakra": "Solar Plexus",
+      "Color": "Green, Gold",
+      "Animal": "Swan, Scale",
+      "Other": [
+        "Measuring Rod",
+        "Staff",
+        "Scroll of Lots",
+        "Globe"
+      ]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": [
+      "Life Measurer",
+      "Lot Allotter",
+      "Destiny Determiner",
+      "Fortune Giver"
+    ],
+    "ComplementaryArchetypes": [
+      "Clotho ([GR] Sister/Spinner)",
+      "Atropos ([GR] Sister/Cutter)",
+      "Moirai ([GR] The Three Fates)"
+    ],
+    "ShadowForms": [
+      "Unjust Lot",
+      "Unfair Measure",
+      "Arbitrary Fate"
+    ],
+    "DevelopmentalArc": [],
+    "CyclePhase": "Duration / Allotment"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": [
+      "Measuring",
+      "Allotting",
+      "Fair",
+      "Determining",
+      "Singing",
+      "Present-focused"
+    ],
+    "Typologies": {
+      "MBTI": "ENFJ",
+      "Enneagram": "2w3",
+      "Other": [
+        "Ruler",
+        "Judge",
+        "Allotter"
+      ]
+    },
+    "SubVariants": [
+      "Fortune Allotter",
+      "Life Measurer",
+      "Middle Fate"
+    ],
+    "InternalFamily": "Inner Measurer"
+  },
+  "CulturalContext": {
+    "Regions": [
+      "Greece"
+    ],
+    "MythicAppearances": [
+      "Hesiod's Theogony",
+      "Middle sister of Moirai",
+      "Sings of present events"
+    ],
+    "ReligiousOrRitualUse": "Invoked for fair lot in life; honored with sisters; determines quality and events of life.",
+    "HistoricalEvolution": "Ancient fate goddess; merged with Roman Decima; associated with present time and fortune.",
+    "SyncreticForms": [
+      "Decima (Roman)",
+      "Norns.Verdandi (Norse parallel)"
+    ]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "📏",
+    "ImageryNotes": "Depicted as middle sister holding measuring rod or staff, determining the events and length of each life thread.",
+    "ArtisticExamples": [
+      "Classical Three Fates sculptures",
+      "Renaissance fate paintings",
+      "Measuring destiny imagery"
+    ],
+    "PoeticInvocation": "Lachesis, allotter of lots, who measures each life and determines its portion.",
+    "DreamForm": "A woman with a measuring rod, determining the length and quality of glowing threads"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": [
+      "Tarot.Justice",
+      "JP12.Ruler",
+      "Tarot.Wheel_of_Fortune"
+    ],
+    "SemanticTags": [
+      "#fate",
+      "#measurement",
+      "#allotment",
+      "#fortune",
+      "#present"
+    ],
+    "RitualFunction": "Invoked for fair fortune, proper measure in life, and understanding of one's allotted destiny.",
+    "AIPromptSeeds": [
+      "The fate who measures what you are given, determining fortune's portion.",
+      "The middle sister who allots the events and duration of each life."
+    ],
+    "NarrativeHooks": [
+      "The portion allotted by fate",
+      "Fair vs unfair distribution of fortune",
+      "The measure of a life"
+    ]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [
+      {
+        "to": "Decima (Roman)",
+        "strength": "strong"
+      },
+      {
+        "to": "Norns.Verdandi",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "FacetRegistry": [
+    {
+      "facet": "Life Measurer",
+      "weight": 0.5
+    },
+    {
+      "facet": "Lot Allotter",
+      "weight": 0.4
+    },
+    {
+      "facet": "Present Singer",
+      "weight": 0.1
+    }
+  ]
+}

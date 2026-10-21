@@ -1,0 +1,15 @@
+Heart v2 http://localhost:8875 · dashboard /progress · starts read-only
+connection handler failed
+Traceback (most recent call last):
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/.venv/lib/python3.14/site-packages/websockets/asyncio/server.py", line 747, in protocol_handler
+    await handler(connection)
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/server.py", line 1039, in handler
+    async for raw in ws:
+    ...<74 lines>...
+     except Exception as ex:e.error=str(ex)
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/.venv/lib/python3.14/site-packages/websockets/asyncio/connection.py", line 237, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/.venv/lib/python3.14/site-packages/websockets/asyncio/connection.py", line 317, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent

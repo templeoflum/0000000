@@ -1,0 +1,55 @@
+{
+  "result": "PASS \u2014 offline pair integrity/dependency check only",
+  "sha256": {
+    "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/patches/Heart Show Ready 20260909 122632.avc": "69979328febd1820123dc7f77934dcd3b3669afa694b73bebf6b35cf229284b9",
+    "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/patches/Heart Show Ready 20260909 122632.json": "99ee791ab869179ccc1dffd9e7c25336f5fd157481798f939fc289a320cd63f7"
+  },
+  "hold": false,
+  "bars": 8,
+  "active_layers": {
+    "feedback": {
+      "clip": null,
+      "level": 0.0,
+      "bypass": false
+    },
+    "sculpt": {
+      "clip": null,
+      "level": 0.0,
+      "bypass": false
+    },
+    "field": {
+      "clip": "Heart Puls Lattice",
+      "level": 0.0,
+      "bypass": false
+    },
+    "delay": {
+      "clip": null,
+      "level": 0.0,
+      "bypass": false
+    },
+    "figure": {
+      "clip": "Figure 2D SP",
+      "level": 1.0,
+      "bypass": false
+    },
+    "glyph": {
+      "clip": null,
+      "level": 0.0,
+      "bypass": false
+    },
+    "texture": {
+      "clip": null,
+      "level": 0.1769230769230769,
+      "bypass": false
+    },
+    "grain": {
+      "clip": null,
+      "level": 0.0,
+      "bypass": false
+    }
+  },
+  "live_signature_compared": true,
+  "name": "Heart Show Ready 20260909 122632",
+  "avc": "/Users/donovan/work/0000000/shadertoy shaders/sp/engine/patches/Heart Show Ready 20260909 122632.avc",
+  "save_start": 1788974792.598665
+}

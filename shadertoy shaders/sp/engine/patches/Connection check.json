@@ -1,0 +1,580 @@
+{
+  "version": 1,
+  "name": "Connection check",
+  "composition": "Connection check.avc",
+  "bars": 2.0,
+  "hold": false,
+  "instruments": {
+    "feedback/map": {
+      "version": 2,
+      "global": {
+        "speed": 0.25,
+        "relationship": {
+          "kind": "pendulum",
+          "base": 17,
+          "step": 1,
+          "members": {
+            "Zoom": 0,
+            "Rotate": 1,
+            "Drift X": 2,
+            "Drift Y": 3,
+            "Center X": 4,
+            "Center Y": 5
+          }
+        },
+        "pattern": 0,
+        "seed": 0,
+        "spread": 1,
+        "depth": 1.0,
+        "fm": 0.0
+      },
+      "slots": {
+        "Zoom": {
+          "config": {
+            "manual": 0.7191695688033958,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.7071999999999999,
+            "hi": 0.7192,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.7191695688033958,
+          "identity": "SPChainMap/1/Zoom"
+        },
+        "Rotate": {
+          "config": {
+            "manual": 0.4682833497103033,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.16666666666666666,
+            "shape": 1,
+            "lo": 0.4631,
+            "hi": 0.4691,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.4682833497103033,
+          "identity": "SPChainMap/1/Rotate"
+        },
+        "Drift X": {
+          "config": {
+            "manual": 0.4511172497089727,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.3333333333333333,
+            "shape": 1,
+            "lo": 0.4492,
+            "hi": 0.4532,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.4511172497089727,
+          "identity": "SPChainMap/1/Drift X"
+        },
+        "Drift Y": {
+          "config": {
+            "manual": 0.49843601279993494,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.5,
+            "shape": 1,
+            "lo": 0.498,
+            "hi": 0.502,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.49843601279993494,
+          "identity": "SPChainMap/1/Drift Y"
+        },
+        "Center X": {
+          "config": {
+            "manual": 0.47050384671918855,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.6666666666666666,
+            "shape": 1,
+            "lo": 0.47,
+            "hi": 0.53,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.47050384671918855,
+          "identity": "SPChainMap/1/Center X"
+        },
+        "Center Y": {
+          "config": {
+            "manual": 0.48481348628554827,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.8333333333333334,
+            "shape": 1,
+            "lo": 0.47,
+            "hi": 0.53,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.48481348628554827,
+          "identity": "SPChainMap/1/Center Y"
+        },
+        "Gain": {
+          "config": {
+            "manual": 1.0,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 1.0,
+          "identity": "SPChainMap/1/Gain"
+        },
+        "Floor": {
+          "config": {
+            "manual": 0.4335,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.4335,
+          "identity": "SPChainMap/1/Floor"
+        },
+        "Key": {
+          "config": {
+            "manual": 0.4351310004752852,
+            "drive": false,
+            "ratio": "1:1",
+            "mult": 1.0,
+            "offset": 0.0,
+            "shape": 1,
+            "lo": 0.0,
+            "hi": 1.0,
+            "lock": false
+          },
+          "drive": false,
+          "pose": 0.4351310004752852,
+          "identity": "SPChainMap/1/Key"
+        }
+      }
+    }
+  },
+  "layers": {
+    "feedback": {
+      "clip": "map",
+      "level": 1.0,
+      "bypass": false
+    },
+    "sculpt": {
+      "clip": null,
+      "level": 1.0,
+      "bypass": false
+    },
+    "field": {
+      "clip": null,
+      "level": 1.0,
+      "bypass": false
+    },
+    "delay": {
+      "clip": null,
+      "level": 0.5538461538461538,
+      "bypass": false
+    },
+    "figure": {
+      "clip": null,
+      "level": 0.6423076923076931,
+      "bypass": false
+    },
+    "glyph": {
+      "clip": null,
+      "level": 0.0,
+      "bypass": false
+    },
+    "texture": {
+      "clip": null,
+      "level": 0.0,
+      "bypass": false
+    },
+    "grain": {
+      "clip": null,
+      "level": 0.0,
+      "bypass": false
+    }
+  },
+  "signature": {
+    "size": [
+      1920.0,
+      1080.0
+    ],
+    "effects": [
+      "Transform"
+    ],
+    "groups": [
+      [
+        "Group #",
+        [
+          "Transform"
+        ]
+      ]
+    ],
+    "layers": [
+      [
+        "feedback",
+        [
+          "Transform",
+          "HueRotate",
+          "DelayRGB",
+          "AutoMask",
+          "Mirror"
+        ],
+        [
+          [
+            "map",
+            "Video Router",
+            [
+              "Transform",
+              "SPChainMap",
+              "InvertRGB",
+              "Blur",
+              "Sharpen"
+            ]
+          ],
+          [
+            "texture",
+            "Video Router",
+            [
+              "Transform",
+              "SPStudyTexture"
+            ]
+          ],
+          [
+            "fold",
+            "Video Router",
+            [
+              "Transform",
+              "SPStudyFold"
+            ]
+          ],
+          [
+            "level",
+            "Video Router",
+            [
+              "Transform",
+              "SPChainLevel"
+            ]
+          ],
+          [
+            "pass",
+            "Video Router",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "Flow",
+            "Feedback",
+            [
+              "Transform",
+              "SPLoopFlow",
+              "SPLoopColor"
+            ]
+          ]
+        ]
+      ],
+      [
+        "sculpt",
+        [
+          "Transform"
+        ],
+        [
+          [
+            "level",
+            "Video Router",
+            [
+              "Transform",
+              "SPStudyLevel"
+            ]
+          ],
+          [
+            "pass",
+            "Video Router",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "color",
+            "Video Router",
+            [
+              "Transform",
+              "SPStudyColor"
+            ]
+          ],
+          [
+            "mixer",
+            "Video Router",
+            [
+              "Transform",
+              "SPStudyMixer"
+            ]
+          ],
+          [
+            "Shape",
+            "Feedback",
+            [
+              "Transform",
+              "SPLoopShape"
+            ]
+          ]
+        ]
+      ],
+      [
+        "field",
+        [
+          "Transform"
+        ],
+        [
+          [
+            "ground",
+            "SP Atom Ground",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "room",
+            "SP Atom Room",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "void",
+            "SP Atom Void",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "SP Field",
+            "SP Field",
+            [
+              "Transform"
+            ]
+          ]
+        ]
+      ],
+      [
+        "delay",
+        [
+          "Transform"
+        ],
+        [
+          [
+            "figure",
+            "Video Router",
+            [
+              "Transform",
+              "SPDelayChain"
+            ]
+          ],
+          [
+            "field",
+            "Video Router",
+            [
+              "Transform",
+              "SPDelayChain"
+            ]
+          ],
+          [
+            "Color",
+            "Feedback",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "figure \u00b7 light delay",
+            "Video Router",
+            [
+              "Transform",
+              "SPDelayPerformance"
+            ]
+          ]
+        ]
+      ],
+      [
+        "figure",
+        [
+          "Transform",
+          "LinearCloner",
+          "Mirror"
+        ],
+        [
+          [
+            "1d",
+            "Video Router",
+            [
+              "Transform",
+              "SPAtomLine"
+            ]
+          ],
+          [
+            "2d",
+            "SP Atom Figure 2D",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "3d",
+            "SP Atom Solid",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "4d",
+            "SP Atom 4D",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "shell",
+            "SP Atom 4D Field",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "hybrid",
+            "SP Atom Hybrid",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "Figure 3D SP",
+            "SP Figure 3D",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "Figure 2D SP",
+            "SP Figure",
+            [
+              "Transform"
+            ]
+          ]
+        ]
+      ],
+      [
+        "glyph",
+        [
+          "Transform"
+        ],
+        [
+          [
+            "glyph",
+            "SP Atom Glyph",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "script",
+            "SP Atom Script",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "SP Glyphmass",
+            "SP Glyphmass",
+            [
+              "Transform"
+            ]
+          ]
+        ]
+      ],
+      [
+        "texture",
+        [
+          "Transform"
+        ],
+        [
+          [
+            "dither",
+            "Video Router",
+            [
+              "Transform",
+              "SPAtomDither"
+            ]
+          ],
+          [
+            "texture",
+            "SP Atom Texture",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "SP Scan",
+            "SP Scan",
+            [
+              "Transform"
+            ]
+          ]
+        ]
+      ],
+      [
+        "grain",
+        [
+          "Transform"
+        ],
+        [
+          [
+            "grain",
+            "SP Atom Grain",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "SP Grain",
+            "SP Grain",
+            [
+              "Transform"
+            ]
+          ],
+          [
+            "SP State Test",
+            "SP State Test",
+            [
+              "Transform"
+            ]
+          ]
+        ]
+      ]
+    ]
+  }
+}

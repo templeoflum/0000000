@@ -1,0 +1,2844 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ellipsoid — the anisotropy of the form, made visible</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500&family=Spline+Sans+Mono:wght@400;500&display=swap');
+  :root{--bg:#04060a;--panel:#0c1018;--ink:#dfe9f0;--dim:#6a7686;--a:#62f0c0;--b:#ff8a5c;--c:#9d8cff;--line:#171d27;
+    /* ── presentation-dive visual system ── */
+    /* canvas: near-black, slightly blue (instrument graticule feel); NO pure-white lines anywhere */
+    --canvas:#0A0E12;
+    /* Okabe–Ito colorblind-safe categorical palette (for distinct overlay TYPES, ≤8) */
+    --ok-orange:#E69F00; --ok-sky:#56B4E9; --ok-green:#009E73; --ok-yellow:#F0E442;
+    --ok-blue:#0072B2; --ok-vermillion:#D55E00; --ok-purple:#CC79A7;
+    /* brightest near-white permitted for the highest data tier (not #fff) */
+    --data-hi:#EAF2F8;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--ink);font-family:'Spline Sans Mono',monospace;padding:18px;max-width:920px;margin:0 auto}
+  h1{font-family:'Fraunces',serif;font-weight:300;font-size:clamp(22px,4vw,32px)}
+  h1 em{font-style:italic;color:var(--a)}
+  button{background:var(--panel);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:8px 14px;font-family:inherit;font-size:12px;cursor:pointer}
+  button:hover{border-color:var(--a)}
+  button.on{background:var(--a);color:#04060a;font-weight:500}
+  .scrub{font-size:11.5px;color:var(--dim);background:#05080d;border:1px solid var(--line);border-radius:6px;cursor:ew-resize;user-select:none;white-space:nowrap;touch-action:none;display:inline-flex;align-items:stretch;overflow:hidden}
+  .scrub .sval{padding:6px 10px;flex:1;text-align:center;cursor:ew-resize}
+  .scrub b{color:var(--a);font-weight:500;margin-left:3px}
+  .scrub.dragging{border-color:var(--a)}
+  .scrub .ar{display:flex;align-items:center;justify-content:center;width:20px;color:var(--dim);cursor:pointer;background:rgba(255,255,255,0.025);font-size:10px;flex:0 0 auto}
+  .scrub .ar:hover{color:var(--a);background:rgba(98,240,192,0.14)}
+  .scrub .ar:active{background:rgba(98,240,192,0.28)}
+  .scrub .ar.l{border-right:1px solid var(--line)}
+  .scrub .ar.r{border-left:1px solid var(--line)}
+  .scrub .sval input{width:46px;background:#02040a;border:1px solid var(--a);color:var(--ink);font-family:inherit;font-size:11px;border-radius:3px;text-align:center}
+  .params{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:10px}
+  label{font-size:11.5px;color:var(--dim);display:flex;align-items:center;gap:6px;cursor:pointer}
+  .cwrap{position:relative;touch-action:none}
+  canvas{display:block;width:100%;background:#0A0E12;border:1px solid var(--line);border-radius:10px;touch-action:none}
+  .overlay{position:absolute;top:0;left:0;pointer-events:none;border-color:transparent;background:transparent}
+  .bar b{color:var(--a)}
+  .desc{font-size:12px;color:var(--dim);margin-top:4px;min-height:2.2em;line-height:1.5}
+  .note{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:12px 14px;margin-top:12px;font-size:11.5px;line-height:1.6;color:var(--dim)}
+  .panel{display:flex;flex-wrap:wrap;gap:8px 16px;background:#05080d;border:1px solid var(--line);border-radius:8px;padding:10px 12px;margin-top:8px;font-size:11px;color:var(--dim)}
+  .panel .m{white-space:nowrap}
+  .panel .m b{color:var(--a);font-weight:500}
+  .panel .m i{color:#4a5260;font-style:normal;font-size:10px}
+  .panel .norm{color:var(--c)} .panel .fit{color:var(--b)}
+  .panel .tensor b{color:#ff7ac8} .panel .tensor{color:#c98fb8}
+  .lvlcount{font-size:11px;color:var(--dim)} .lvlcount b{color:var(--a);font-weight:500}
+  .flashok{animation:flashok .9s ease-out} .flashbad{animation:flashbad .9s ease-out}
+  @keyframes flashok{0%{background:rgba(98,240,192,0.5);border-color:var(--a)}100%{background:initial}}
+  @keyframes flashbad{0%,40%{background:rgba(255,90,90,0.55);border-color:#ff5a5a}100%{background:initial}}
+  /* log button shows pink while a state is logged (no highlight when the log is empty) */
+  #logBtn.has-log{background:rgba(255,122,200,0.32);border-color:#ff7ac8;color:#ffd0ec;transition:none}
+  .ratiorow,.ovrow{align-items:center;gap:8px 12px}
+  .rlabel{font-size:10px;letter-spacing:0.12em;color:var(--dim);min-width:64px}
+  /* ── workflow zones: group controls into bordered units with a small caption ── */
+  /* ── progressive disclosure: deep/rare controls fold away ── */
+  details.deep{margin:2px 0 9px}
+  details.deep summary{font-size:10.5px;letter-spacing:0.08em;color:var(--dim);cursor:pointer;list-style:none;padding:5px 0;user-select:none;transition:color .15s}
+  details.deep summary:hover{color:var(--a)}
+  details.deep summary::-webkit-details-marker{display:none}
+  details.deep[open] summary{color:var(--a);margin-bottom:6px}
+  details.deep[open] summary::after{content:' ▾'}
+  details.deep > .params:last-child,details.deep > .ratiorow:last-child{margin-bottom:2px}
+  .meashint{opacity:0.6;font-style:italic;letter-spacing:0.02em}
+  details.measwrap[open] .meashint{display:none}
+  h1.apptitle{font-size:15px;font-weight:600;letter-spacing:0.04em;margin:0 0 9px}
+  details.infopanel{margin:10px 0 4px;border:1px solid var(--line);border-radius:7px;padding:8px 11px;background:#070b11}
+  details.infopanel > summary{font-size:11px;letter-spacing:0.06em;color:var(--a);cursor:pointer;list-style:none;user-select:none}
+  details.infopanel > summary::-webkit-details-marker{display:none}
+  details.infopanel[open] > summary{margin-bottom:8px}
+  .infobody{font-size:12px;line-height:1.55;color:var(--dim);max-width:64ch}
+  .infobody p{margin:0 0 9px}
+  .infobody b{color:var(--ink)}
+  .infobody .infostub{font-size:11px;opacity:0.75;border-left:2px solid #2a3340;padding-left:9px}
+  .zsub{opacity:0.4;font-weight:400;font-size:9.5px;letter-spacing:0.02em}
+  .panel.measzone{margin-top:7px;border-top:1px solid #1a2230;padding-top:7px}
+  .readouthdr{font-size:10px;letter-spacing:0.06em;color:var(--dim);margin:2px 0 5px}
+  /* ── LOD ZONE: drag the bar DOWN to reveal depth (tiers), like a scrub for disclosure ── */
+  section.lodzone{margin:0 0 5px;background:#070b11;border:1px solid var(--line);border-radius:7px;overflow:hidden}
+  .lodbar{display:flex;align-items:center;justify-content:space-between;padding:7px 10px;cursor:ns-resize;
+    user-select:none;touch-action:none;font-size:11px;letter-spacing:0.07em;color:var(--a);font-weight:600;transition:background .12s}
+  .lodbar:hover{background:rgba(98,240,192,0.05)}
+  .lodbar.dragging{background:rgba(98,240,192,0.10)}
+  .lodbar .lodname .zsub{color:var(--dim);font-weight:400;font-size:9.5px}
+  .lodbar .loddepth{font-size:9.5px;color:var(--dim);font-weight:400;letter-spacing:0.05em;display:flex;align-items:center;gap:6px}
+  .lodbar .loddepth .pips{letter-spacing:1px}
+  .lodbar .loddepth .grip{opacity:0.5}
+  /* tiers hidden by default; revealed when data-depth ≥ tier */
+  .lodzone .tier{display:none;padding:0 10px 8px}
+  .lodzone[data-depth="1"] .tier[data-tier="1"],
+  .lodzone[data-depth="2"] .tier[data-tier="1"], .lodzone[data-depth="2"] .tier[data-tier="2"],
+  .lodzone[data-depth="3"] .tier[data-tier="1"], .lodzone[data-depth="3"] .tier[data-tier="2"], .lodzone[data-depth="3"] .tier[data-tier="3"]{display:block}
+  .lodzone .tier[data-tier="2"]{margin-left:7px;border-left:1px solid #141b27;padding-left:9px}
+  .lodzone .tier[data-tier="3"]{margin-left:14px;border-left:1px solid #141b27;padding-left:9px}
+  /* dense rows: minimal name+value, tight */
+  .lodzone .tier .params{gap:5px 7px;margin:4px 0}
+  .navsep{width:1px;height:20px;background:var(--line);margin:0 3px}
+  .nav button{padding:8px 13px}
+  #freezeBtn,#stepBtn{border-color:#2a3340}
+  select{background:#05080d;border:1px solid var(--line);color:var(--ink);font-family:inherit;font-size:11px;padding:4px 6px;border-radius:5px}
+  .ovrow{min-height:28px}
+  .ovrow .scrub{font-size:10.5px;padding:4px 8px}
+  .ovrow .scrub.set{border-color:var(--b);color:var(--ink)}
+  .note b{color:var(--ink)}
+  label.master{color:var(--ink)} label.master b{color:var(--a);letter-spacing:0.04em}
+  .selstep{display:inline-flex;align-items:stretch;gap:0;border:1px solid var(--line);border-radius:6px;overflow:hidden;background:#05080d}
+  .selstep select{border-radius:0;border:none;background:transparent;color:var(--a);font-family:inherit;font-size:11px;padding:6px 8px;cursor:pointer}
+  .selar{display:flex;align-items:center;justify-content:center;width:20px;color:var(--dim);cursor:pointer;background:rgba(255,255,255,0.025);font-size:10px;flex:0 0 auto;border:none;line-height:1;touch-action:none}
+  .selar:hover{color:var(--a);background:rgba(98,240,192,0.14)}
+  .selar:active{background:rgba(98,240,192,0.28)}
+  .selar.l,.selar:first-child{border-right:1px solid var(--line);border-radius:0}
+  .selar.r,.selar:last-child{border-left:1px solid var(--line);border-radius:0}
+</style>
+</head>
+<body>
+  <h1 class="apptitle">Trajectoscope <span class="zsub">— a self-scaling rotation instrument</span></h1>
+
+  <!-- ═══ 1. EXPRESSION — the math (lodzone, 2 tiers) ═══ -->
+  <section class="lodzone" data-depth="0">
+    <div class="lodbar"><span class="lodname">1 · express <span class="zsub">— structure</span></span><span class="loddepth"><span class="pips"></span><span class="grip">⇕</span></span></div>
+    <div class="tier" data-tier="1">
+      <div class="params ratiorow">
+        <label title="The trajectory FORMULA that builds the form. 'staged' is the verified SE(4) construction (one freedom per level: orbit→tip→displace→scale). 'freed' does ALL axes/planes at once (fuller form in fewer levels, sweeps 3D volume). Lissajous/torus/epicyclic are classic 3D parametric trajectories. All measured on the same fingerprint spine. Only 'staged' uses the 4D camera; the rest are 3D-native.">formula <span class="selstep"><button class="selar" data-sel="formulaSel" data-dir="-1" title="previous formula">◂</button><select id="formulaSel"></select><button class="selar" data-sel="formulaSel" data-dir="1" title="next formula">▸</button></span></label>
+        <span class="scrub" data-k="__level" data-step="0.04" data-min="0" title="number of rotations (levels). 1=circle 2=sphere 3=torus 4=torus-sphere, then climbs">level <b>0</b></span>
+        <span class="scrub" data-k="__kHole" data-step="0.02" data-min="0.1" title="k — the radial sculpting knob. Sets the hole radius = (k−1)/(k+1) of the unit, and displacement = k × radius each cycle. k=2 is the clean spherical-hole condition (hole = 1/3). Higher k = bigger hole, lower = tighter." data-snap="0.1">k <b>2.00</b></span>
+        <label>ratio <span class="selstep"><button class="selar" data-sel="rateRatio" data-dir="-1" title="previous ratio">◂</button><select id="rateRatio"></select><button class="selar" data-sel="rateRatio" data-dir="1" title="next ratio">▸</button></span></label>
+        <label><input type="checkbox" id="selfChk" checked> self-scaling</label>
+      </div>
+    </div>
+    <div class="tier" data-tier="2">
+      <div class="params ovrow" id="rateOvr" style="display:inline-flex"></div>
+    </div>
+  </section>
+
+  <!-- ═══ 2. PROJECTION — how you see it (lodzone, 2 tiers; above canvas) ═══ -->
+  <section class="lodzone" data-depth="0">
+    <div class="lodbar"><span class="lodname">2 · project <span class="zsub">— interpretation</span></span><span class="loddepth"><span class="pips"></span><span class="grip">⇕</span></span></div>
+    <div class="tier" data-tier="1">
+      <div class="params">
+        <label>mode <span class="selstep"><button class="selar" data-sel="gridProjSel" data-dir="-1" title="previous projection">◂</button><select id="gridProjSel">
+          <option value="perspective" selected>perspective</option>
+          <option value="ortho">orthographic</option>
+          <option value="stereo">stereographic</option>
+          <option value="iso">isometric</option>
+        </select><button class="selar" data-sel="gridProjSel" data-dir="1" title="next projection">▸</button></span></label>
+        <span class="navsep"></span>
+        <button id="orbitBtn" title="orbit mode: when on, X/Y/Z pick the auto-orbit axis instead of snapping the view">⟳ orbit</button>
+        <button id="viewX" title="look down the X axis (see Y-Z plane) — in orbit mode, orbit about X">X</button>
+        <button id="viewY" title="look down the Y axis (top-down) — in orbit mode, orbit about Y">Y</button>
+        <button id="viewZ" title="look down the Z axis (front) — in orbit mode, roll about Z">Z</button>
+        <button id="reset" title="reset camera to default angle">reset</button>
+        <label>center <select id="pivotSel" title="the point the camera orbits/centers on. COM (default) = the form's center of mass; or lock onto the dot, a PCA-axis vertex, a VE vertex, etc. — orbiting then pivots around that feature.">
+          <option value="COM" selected>COM</option></select></label>
+      </div>
+      <div class="row" style="margin-top:4px" id="row4D">
+        <b style="color:#7fd4ff" title="This instrument builds a GENUINELY 4-dimensional form (5×5 SE(4) construction, rotations in all six 4-space planes including XW/YW/ZW). These controls turn the form in 4D and choose how it projects to 3D — the 3D camera above then projects to your screen. Two projection stages. (Only active for the 'staged' formula — the others are 3D-native.)">4D</b>
+        <button id="spin4Btn" title="auto-spin the 4D viewing rotation — the form turns through the w-axis so its 4D structure becomes visible (it appears to nest/turn inside-out as w rotates into view). This motion has NO 3D equivalent.">◈ w-spin</button>
+        <label>4D proj <span class="selstep"><select id="proj4Sel" title="how the 4D form collapses to 3D. persp-w = perspective from the w-axis (4D depth foreshortens, like 3D perspective but one dimension up). ortho-w = drop w after the 4D rotation (true lengths in the 3-slice).">
+          <option value="ortho4" selected>ortho-w</option>
+          <option value="persp4">persp-w</option>
+        </select></span></label>
+        <span class="scrub" data-k="__dist4" data-step="20" data-min="120" data-snap="1" title="4D eye distance (perspective-from-w mode). Smaller = stronger 4D foreshortening / more dramatic; larger = flatter. Analogous to focal length but for the 4th dimension.">4D dist <b>300</b></span>
+      </div>
+      <div class="row">
+        <span class="scrub" data-k="__view4wx" data-step="0.05" data-snap="0.01" title="manual 4D rotation in the XW plane (turns the x and w axes into each other). Use with w-spin off to pose the 4D view by hand.">XW <b>0.00</b></span>
+        <span class="scrub" data-k="__view4wy" data-step="0.05" data-snap="0.01" title="manual 4D rotation in the YW plane (turns y and w into each other).">YW <b>0.00</b></span>
+        <span class="scrub" data-k="__view4wz" data-step="0.05" data-snap="0.01" title="manual 4D rotation in the ZW plane (turns z and w into each other).">ZW <b>0.00</b></span>
+        <span class="scrub" data-k="__spin4spd" data-step="0.05" data-min="0" data-snap="0.1" title="4D spin speed (when w-spin is on).">w-spin spd <b>1.0</b></span>
+      </div>
+    </div>
+    <div class="tier" data-tier="2">
+      <div class="params">
+        <span class="scrub projparam" data-mode="perspective" data-k="__focal" data-step="10" data-min="40" data-snap="1" title="perspective focal length / viewing distance. Smaller = wider field of view, stronger foreshortening; larger = flatter, more telephoto.">focal <b>480</b></span>
+        <span class="scrub projparam" data-mode="stereo" data-k="__stereoR" data-step="10" data-min="40" data-snap="1" title="stereographic projection-sphere radius. Controls how much the field curves — smaller = more dramatic curvature toward the edges.">sphere R <b>320</b></span>
+        <span class="scrub" data-k="__orbitspd" data-step="0.05" data-min="0" data-snap="0.1" title="orbit speed (only active in orbit mode)">orbit spd <b>1.0</b></span>
+      </div>
+    </div>
+  </section>
+
+  <div class="cwrap">
+    <canvas id="c" height="430"></canvas>
+    <canvas id="o" height="430" class="overlay"></canvas>
+  </div>
+
+  <!-- ═══ 3. BEAMS — what the math affects (lodzone, 3 tiers) ═══ -->
+  <section class="lodzone" data-depth="0">
+    <div class="lodbar"><span class="lodname">3 · beam <span class="zsub">— trajectory</span></span><span class="loddepth"><span class="pips"></span><span class="grip">⇕</span></span></div>
+    <div class="tier" data-tier="1">
+      <div class="params">
+        <label><input type="checkbox" id="beam1Chk" checked> beam 1</label>
+        <label><input type="checkbox" id="beam2Chk"> beam 2</label>
+        <span class="navsep"></span>
+        <span class="scrub" data-k="mult" data-step="2" title="speed" data-snap="1">speed <b>140</b></span>
+        <span class="scrub" data-k="zoom" data-step="0.01" data-log="1" title="zoom (or scroll)" data-snap="0.1">zoom <b>1.00</b></span>
+        <span class="scrub" data-k="fade" data-step="0.002" title="afterglow (0 = crisp/precise, high = trails)" data-snap="0.1">afterglow <b>0.00</b></span>
+      </div>
+    </div>
+    <div class="tier" data-tier="2">
+      <div class="params">
+        <span class="scrub" data-k="timebase" data-step="0.01" data-min="0.001" data-log="1" data-snap="0.1" title="sample rate / timebase: drag for fine (log) control; ◀▶ jump by 10 (Ctrl 100, +Shift 1000, +Alt 10000)">timebase <b>1.00</b></span>
+        <span class="scrub" data-k="cpf" data-step="1" data-min="1" title="points per frame (fill density)" data-snap="1">cpf <b>1</b></span>
+        <span class="scrub" data-k="strobe" data-step="1" data-min="1" title="strobe: plot every Nth sample (induce aliasing, see closure)" data-snap="1">strobe <b>1</b></span>
+        <span class="scrub" data-k="renderscale" data-step="5" data-min="50" data-max="400" data-nodepth="1" title="render scale %: supersample above 100 for crisp precision, below 100 for coarse. Arrows step 5%.">render% <b>100</b></span>
+        <span class="scrub" data-k="dot" data-step="0.05" data-min="0.1" title="dot size" data-snap="0.1">dot <b>1.0</b></span>
+        <span class="navsep"></span>
+        <label><input type="checkbox" id="oscChk"> oscillate</label>
+        <span class="scrub" data-k="__oscBlend" data-step="0.01" data-min="0" title="0 = pure orbit (baseline), 1 = pure pendulum. morph between." data-snap="0.1">osc blend <b>1.00</b></span>
+        <span class="scrub" data-k="__oscAmp" data-step="0.02" data-min="0" title="pendulum swing amplitude (radians). ~π ≈ half turn each way." data-snap="0.1">osc amp <b>3.14</b></span>
+        <span class="scrub" data-k="__growcycles" data-step="0.05" data-min="0.05" title="grow-in / un-fold duration when you change level (~1 second at 13)" data-snap="1">grow <b>13.0</b></span>
+      </div>
+    </div>
+    <div class="tier" data-tier="3">
+      <div class="params ratiorow">
+        <span class="rlabel" style="opacity:0.5">BEAM 2</span>
+        <span class="scrub" data-k="p1lag" data-step="0.01" title="phase lag of the FIRST point (time delay)">p1 lag <b>0.00</b></span>
+        <label>relation <select id="p2Rel"><option value="derived">derived (transform of beam 1)</option><option value="independent">independent (own params)</option></select></label>
+        <span class="scrub" data-k="p2lag" data-step="0.01" title="phase lag of the second beam (time delay)">p2 lag <b>0.15</b></span>
+      </div>
+      <div class="params ratiorow" id="derivedRow">
+        <span class="rlabel" style="opacity:0.6">derived</span>
+        <label>mode <select id="p2Mode"><option value="mirror">mirror (−p)</option><option value="antipodal">antipodal</option><option value="polar">polar inversion R²/r</option></select></label>
+        <span class="scrub" data-k="__p2invR" data-step="1" data-min="1" title="polar inversion radius: points at this radius are fixed; raise it to stop the second dot collapsing at high levels" data-snap="1">inv R <b>80</b></span>
+      </div>
+      <div class="params ratiorow" id="indepRow1" style="display:none">
+        <span class="rlabel" style="opacity:0.6">indep</span>
+        <label>rate <select id="b2Ratio"></select></label>
+        <span class="scrub" data-k="__b2RateDrive" data-step="0.01" title="beam 2 rate drive (detune against beam 1). 1=neutral. UNCLAMPED." data-snap="1">drive <b>1.00</b></span>
+        <label><input type="checkbox" id="b2SelfChk" checked> self-scaling</label>
+        <span class="scrub" data-k="__b2kHole" data-step="0.02" data-min="0.1" title="beam 2 hole constant k" data-snap="0.1">k <b>2.00</b></span>
+      </div>
+      <div class="params ratiorow" id="indepRow2" style="display:none">
+        <span class="scrub" data-k="__b2rad" data-step="1" data-min="5" title="beam 2 base radius D" data-snap="1">radius D <b>80</b></span>
+        <span class="scrub" data-k="__b2disp" data-step="1" data-min="0" title="beam 2 base displacement (legacy mode)" data-snap="1">displace <b>120</b></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ 4. GRIDS — how you map it (lodzone, 3 tiers: grids + reference geometry) ═══ -->
+  <section class="lodzone" data-depth="0">
+    <div class="lodbar"><span class="lodname">4 · grid <span class="zsub">— chart</span></span><span class="loddepth"><span class="pips"></span><span class="grip">⇕</span></span></div>
+    <div class="tier" data-tier="1">
+      <div class="params ratiorow">
+        <label>plane <span class="selstep"><button class="selar" data-sel="gridPlaneSel" data-dir="-1" title="previous plane">◂</button><select id="gridPlaneSel">
+          <option value="screen">screen (faces you)</option>
+          <option value="XY" selected>XY (world)</option>
+          <option value="YZ">YZ (world)</option>
+          <option value="XZ">XZ (world)</option>
+          <option value="PCA">PCA (form frame)</option>
+        </select><button class="selar" data-sel="gridPlaneSel" data-dir="1" title="next plane">▸</button></span></label>
+        <span class="scrub" data-k="__gridDiv" data-step="1" data-min="1" data-max="64" data-snap="1" title="how finely the single bounding unit (the form's extent) is subdivided. Higher = finer grid. All grids share the SAME bounds (one unit = the form), so readings are comparable across grid types.">divisions <b>8</b></span>
+      </div>
+      <div class="params">
+        <span class="rlabel">GRIDS</span>
+        <label><input type="checkbox" id="gCartChk"> cartesian</label>
+        <label><input type="checkbox" id="gPolarChk"> polar</label>
+        <label><input type="checkbox" id="gLogPolarChk"> log-polar</label>
+        <label><input type="checkbox" id="gHexChk"> hex</label>
+        <label><input type="checkbox" id="gSphChk"> spherical</label>
+      </div>
+      <div class="params">
+        <label class="master"><input type="checkbox" id="overlaysMasterChk" checked> <b>references</b></label>
+        <span class="navsep"></span>
+        <label><input type="checkbox" id="skelChk" checked> skeleton</label>
+        <label><input type="checkbox" id="ellipChk"> ellipsoid</label>
+        <label><input type="checkbox" id="superqChk" title="SUPERQUADRIC GLYPH (Kindlmann): the PCA shape rendered as a tensor glyph whose EDGE SHARPNESS encodes anisotropy — round=isotropic, sharp ridge=linear, sharp disc=planar. Reads its shape-type unambiguously from ANY viewpoint, unlike the ellipsoid (which can look spherical from a bad angle). Exponents from the live cl/cp."> superquadric</label>
+        <label><input type="checkbox" id="veChk"> vector equil</label>
+        <label><input type="checkbox" id="axesChk" checked> axes</label>
+      </div>
+    </div>
+    <div class="tier" data-tier="2">
+      <div class="params">
+        <span class="rlabel" style="opacity:0.5">more refs</span>
+        <label><input type="checkbox" id="comChk" checked> COM</label>
+        <label><input type="checkbox" id="pcaChk" checked> PCA axes</label>
+        <label><input type="checkbox" id="bboxChk" checked> bbox</label>
+        <label><input type="checkbox" id="rringChk" checked> radius rings</label>
+        <label><input type="checkbox" id="refSphChk" title="ISOTROPY NULL — a perfectly round sphere at the outer radius. Compare the form's deviation FROM perfect roundness (vs the ellipsoid which fits the anisotropy).">◦ sphere ref</label>
+        <label><input type="checkbox" id="refTorChk" title="LINEAGE shape — a torus (major = orbit scale, minor = shell half-thickness). Ask: is this toroidal, and with what aspect ratio?">◦ torus ref</label>
+        <label><input type="checkbox" id="orbitRefChk" title="The construction's OWN radial rulers — concentric circles at the verified self-similar radii D·(k+1)^cycle. Reads which cycle-shell a point sits in.">◦ orbit refs</label>
+        <label><input type="checkbox" id="stackChk" title="STACKED LEVELS — draw the form's locus at every level 1→current superimposed in one frame (fainter for earlier levels, brightest at current). The accumulation/progression as layers; earlier levels nest inside (the form grows by (k+1) per cycle).">▦ stack levels</label>
+      </div>
+    </div>
+    <div class="tier" data-tier="3">
+      <div class="params">
+        <span class="rlabel" style="opacity:0.5">secondary</span>
+        <label><input type="checkbox" id="skel2Chk" checked> skel 2</label>
+        <label><input type="checkbox" id="frameChk"> figure frame</label>
+        <label><input type="checkbox" id="netAxisChk"> spin axis</label>
+        <label><input type="checkbox" id="anglesChk"> angles</label>
+        <label><input type="checkbox" id="meetChk" checked> meet locus</label>
+        <label><input type="checkbox" id="scaleChk" checked> scale ring</label>
+        <label><input type="checkbox" id="gPCAGridChk"> PCA grid</label>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ 5. MEASUREMENT — how you measure that map (lodzone, 3 tiers) ═══ -->
+  <section class="lodzone" data-depth="0">
+    <div class="lodbar"><span class="lodname">5 · measure <span class="zsub">— relation</span></span><span class="loddepth"><span class="pips"></span><span class="grip">⇕</span></span></div>
+    <div class="tier" data-tier="1">
+      <div class="params">
+        <button id="freezeBtn" title="freeze the trajectory to study it statically — measurement is a stop-and-read act">❄ freeze</button>
+        <button id="stepBtn" title="advance one batch of samples while frozen">step ▸</button>
+        <span class="navsep"></span>
+        <span id="lvlCount" class="lvlcount">level <b>0</b> · cycle 0</span>
+        <span class="navsep"></span>
+        <button id="logBtn" title="capture the current state as one row in the log (all inputs + measured outputs)">● log</button>
+        <button id="copyLogBtn" title="copy the log to clipboard as JSON">⎘ copy</button>
+        <button id="exportBtn" title="download the log as a .json file">⤓ export</button>
+        <button id="recallBtn" title="recall a state from the clipboard: copy a state JSON, then hit recall to restore every input">↻ recall</button>
+        <button id="clearLogBtn" title="clear all logged rows">clear</button>
+        <span class="navsep"></span>
+        <button id="saveImgBtn" title="save the current view (beam + overlays composited) as a PNG">⤓ save image</button>
+      </div>
+    </div>
+    <div class="tier" data-tier="2">
+      <div class="params">
+        <label><input type="checkbox" id="calChk"> caliper: point →</label>
+        <label>mode <select id="calMode" title="2-POINT: distance from the dot to a target (with ruler/observed/cross-system). 3-POINT: triangle analysis — the dot is the VERTEX B, with two feature endpoints A and C; reports angle at B, sides, circumradius, plane (full detail expandable). Angle at B shows true/observed distortion.">
+          <option value="2" selected>2-point (distance)</option><option value="3">3-point (triangle)</option></select></label>
+        <label><span id="calTargetLbl">target</span> <span class="selstep"><button class="selar" data-sel="calTarget" data-dir="-1" title="previous target">◂</button><select id="calTarget"></select><button class="selar" data-sel="calTarget" data-dir="1" title="next target">▸</button></span></label>
+        <label class="tri-only" style="display:none">C <span class="selstep"><button class="selar" data-sel="calC" data-dir="-1" title="previous C">◂</button><select id="calC"></select><button class="selar" data-sel="calC" data-dir="1" title="next C">▸</button></span></label>
+        <label>ruler <select id="calRuler" title="the coordinate system you measure IN. Each chart reads the same invariant 3D separation in its own terms; the scalar metric-distance agrees across charts (they converge as resolution deepens), the component breakdown differs.">
+          <option value="cartesian">cartesian</option><option value="polar" selected>polar</option><option value="logpolar">log-polar</option><option value="spherical">spherical</option></select></label>
+        <label><input type="checkbox" id="calObsChk" title="OBSERVED applies the grid-locked projection warp (focal/mode) — how the structure APPEARS to an observer viewing this grid. TRUE (unchecked) = warp-free invariant geometry. The distortion (observed − true) is reported."> observed</label>
+        <label><input type="checkbox" id="calXsysChk" title="CROSS-SYSTEM: measure the same endpoints in ALL four rulers at once. Every chart reads the same invariant separation in its own terms — their metrics agree to ~machine precision (confirming the metric is chart-independent); each chart's components differ and its distortion is shown too. The caliper's whole thesis on one panel."> cross-system</label>
+        <label class="tri-only" style="display:none"><input type="checkbox" id="calTriFullChk" title="show the FULL triangle detail (all three angles + sum, area, circumcenter, plane normal + tilt vs grid). Off = headline only (angle at B, sides, circumradius)."> full</label>
+        <span class="scrub" data-k="__calRes" data-step="1" data-snap="1" title="CALIPER resolution — the measurement address depth, INDEPENDENT of the visual grid. Same unit & scale, but locked to powers of 2 (2/4/8/16/32/64) so fractions nest (3/8 = 6/16). Set finer than the grid for precise readings, like a vernier.">caliper /<b>16</b></span>
+      </div>
+      <div class="panel measzone" id="measPanel"></div>
+    </div>
+    <div class="tier" data-tier="3">
+      <div class="readouthdr">full state <span class="meashint">— freeze to read</span> <label style="margin-left:8px"><input type="checkbox" id="rotChk"> rotation / resonance</label></div>
+      <div class="panel" id="panel"></div>
+    </div>
+  </section>
+
+  <!-- ═══ INFO / DOCUMENTATION PANEL (STUB) — collapsed; to be expanded into the full reference later.
+       CLAIMS DISCIPLINE for whoever populates this: describe ONLY what is mechanically verifiable and HOW
+       it works — the recurrence, the formulas, what each readout computes. NO claims of significance,
+       purpose, or what anything "reveals". Pure mechanism + the math that provably follows. ═══ -->
+  <details class="deep infopanel" id="infoPanel">
+    <summary>ℹ how it works <span class="meashint">— reference (stub)</span></summary>
+    <div class="infobody">
+      <p><b>Construction.</b> Each cycle is [rotate, rotate, translate] applied to a seed point. The outward
+      translation each cycle is <b>d = k·(current radius)</b>. Because revolving a radius-<i>r</i> figure at
+      distance <i>kr</i> produces a new radius <i>(k+1)r</i>, the displacement chain is
+      <b>d = k·(k+1)<sup>C−1</sup>·D</b> (cycle C, seed radius D). This holds the central hole at a constant
+      proportion <b>(k−1)/(k+1)</b> of the whole at every cycle. k=2 gives d=2r and hole = 1/3. With
+      self-scaling off, a fixed-ratio rule is used instead (it collapses past level 4). The form grows
+      ~(k+1)× per cycle, so the view is normalized to the bounding radius (= 1 unit).</p>
+      <div class="desc" id="desc"></div>
+      <div class="note" id="note"></div>
+      <p class="infostub"><b>[STUB]</b> This panel is a placeholder for the full reference. To be populated
+      (as its own documentation pass) with: the complete construction recurrence and plane schedule; the
+      definition of every measured readout (hole ratio = measured r<sub>min</sub>/r<sub>max</sub>; FA and
+      Westin cl/cp/cs from the PCA eigenvalues; the grid-coordinate math per coordinate system; the caliper
+      distance); and the five-group control logic. Documentation rule: only what is mechanically verifiable
+      and how it is computed — no interpretive claims.</p>
+    </div>
+  </details>
+
+
+<script>
+const cv=document.getElementById('c'), x=cv.getContext('2d');
+const ov=document.getElementById('o'), ox=ov.getContext('2d');
+let W,H,dpr,rung=0;
+
+// ── VISUAL SYSTEM (presentation dive) — single source of truth for canvas drawing ──
+// Okabe–Ito colorblind-safe palette, assigned to overlay TYPES so each is distinguishable.
+const OK={ orange:[230,159,0], sky:[86,180,233], green:[0,158,115], yellow:[240,228,66],
+           blue:[0,114,178], vermillion:[213,94,0], purple:[204,121,167] };
+// 4-tier luminance/opacity hierarchy: DATA reads brightest, FEATURES mid, GRID faint, ANNOTATION mid+halo.
+// Each tier is an alpha BAND; within a tier, lines differ by hue/weight, not by competing brightness.
+const TIER={ data:[0.90,1.0], feature:[0.60,0.90], grid:[0.08,0.25], annot:[0.70,0.95] };
+// rgba() from an OK triple (or [r,g,b]) at a given alpha.
+function rgba(c,a){ return 'rgba('+c[0]+','+c[1]+','+c[2]+','+a+')'; }
+// clamp an alpha into a tier's band (so nothing in 'grid' can shout, nothing in 'data' can whisper).
+function tierA(tier,a){ const [lo,hi]=TIER[tier]; return Math.max(lo,Math.min(hi,a==null?hi:a)); }
+let yaw=0.5,pitch=0.4,drag=false,lx,ly;
+let roll=0;                              // screen-space roll (for Z-axis orbit)
+let orbitOn=false, orbitSpd=1.0;                  // orbit mode + speed
+const orbitAxes={x:false, y:false, z:false};       // independent; none active until you pick — enabling orbit doesn't auto-spin
+let viewTarget=null;  // {yaw,pitch} to ease toward, or null
+const viewAxes={x:false,y:false,z:false};   // combinatorial oblique views (non-orbit mode): summed look-direction
+const TAU=Math.PI*2;
+const vals={mult:140, fade:0.0, rad:80, disp:120, zoom:1.00, dot:1, cpf:1, strobe:1, p2lag:0.15, timebase:1.00, renderscale:100, p1lag:0};
+let ortho=false, showSkel=true;
+// surgical-suite state
+let frozen=false, stepOnce=false;                 // freeze + single-step
+let p2on=false, p2mode='mirror';                  // second point + mode
+let showMeetLocus=true;                            // overlay the two-dot meeting locus
+// SECOND BEAM modes: 'derived' = p2 is a spatial transform of p1 (meeting-locus theorem holds);
+// 'independent' = p2 is its own construction with its own parameters (free detuning, no theorem).
+let p2relation='derived';
+let p2invR=80;                                     // controllable polar-inversion radius (derived mode)
+// beam-2's own expression parameters (used only in independent mode). Mirror the beam-1 globals.
+const beam2={ rateRatioId:null, rateDrive:1.0, kHole:2.0, selfScale:true, rad:80, disp:120, dispRatioId:null };
+let growth=1, growthAuto=false, growthAccum=0, growCycles=13;
+let retracting=false, retractTo=null, retractAccum=0;   // inverse (un-fold) animation when stepping down
+let autoFit=true, normalize=true;
+// oscillation mode: theta_drive = (1-blend)*theta + blend*amp*sin(theta).
+// blend=0 -> pure orbit (identical to baseline). Default OFF.
+let oscOn=false, oscBlend=1.0, oscAmp=Math.PI;
+// live measurement state (computed each frame from a sample pass)
+let meas={ext:[0,0,0], rmin:0, rmax:0, com:[0,0,0], cur:0, bbMin:[0,0,0], bbMax:[0,0,0], closure:0, sym:[0,0,0], curPt:[0,0,0], curP2:[0,0,0],
+  pcaVal:[0,0,0], pcaVec:[[1,0,0],[0,1,0],[0,0,1]], netAngle:0, netAxis:[0,0,1]};
+let fitRadius=200;   // smoothed bounding radius for auto-fit camera
+
+// ── rolling statistics for the "breathing" → honest uncertainty bands (GUM-style) ──
+// The measured quantities fluctuate frame-to-frame as the orbit sweeps (verified: the form breathes).
+// We keep a short rolling window of each tracked quantity; its std-dev IS the measurement uncertainty.
+const ROLL_WIN=48;
+const breath={};   // name -> {buf:[], i, n}
+function rollPush(name, v){
+  if(!isFinite(v)) return;
+  let r=breath[name]; if(!r){ r=breath[name]={buf:new Float64Array(ROLL_WIN), i:0, n:0}; }
+  r.buf[r.i]=v; r.i=(r.i+1)%ROLL_WIN; if(r.n<ROLL_WIN) r.n++;
+}
+function rollStat(name){
+  const r=breath[name]; if(!r||r.n<2) return {mean:(r&&r.n?r.buf[0]:0), sd:0, n:r?r.n:0};
+  let m=0; for(let k=0;k<r.n;k++) m+=r.buf[k]; m/=r.n;
+  let s=0; for(let k=0;k<r.n;k++){const d=r.buf[k]-m; s+=d*d;} s=Math.sqrt(s/(r.n-1));
+  return {mean:m, sd:s, n:r.n};
+}
+// GUM/NIST formatting: uncertainty to 1 significant figure, value rounded to the uncertainty's place.
+// Returns a string "value ± u" (or just the value if uncertainty is negligible). `fallbackDp` = decimals
+// to show when the spread is ~0 (a stable value still needs sensible precision).
+function fmtPM(mean, sd, fallbackDp){
+  if(!(sd>0) || !isFinite(sd)){ return mean.toFixed(fallbackDp==null?3:fallbackDp); }
+  // place of the uncertainty's first significant figure
+  const place=Math.floor(Math.log10(sd));
+  const dp=Math.max(0, -place);             // decimals to round both value and uncertainty to
+  const uRounded=Math.round(sd/Math.pow(10,place))*Math.pow(10,place);  // u to 1 sig fig
+  return mean.toFixed(dp)+' ± '+uRounded.toFixed(dp);
+}
+
+// ---------- 3×3 symmetric eigendecomposition (cyclic Jacobi) ----------
+// Returns {values:[λ0≥λ1≥λ2], vectors:[v0,v1,v2]} for symmetric [[a00,a01,a02],[a01,a11,a12],[a02,a12,a22]].
+function eigSym3(A){
+  let a=[[A[0][0],A[0][1],A[0][2]],[A[1][0],A[1][1],A[1][2]],[A[2][0],A[2][1],A[2][2]]];
+  let V=[[1,0,0],[0,1,0],[0,0,1]];
+  for(let sweep=0;sweep<24;sweep++){
+    let p=0,q=1,mx=Math.abs(a[0][1]);
+    if(Math.abs(a[0][2])>mx){mx=Math.abs(a[0][2]);p=0;q=2;}
+    if(Math.abs(a[1][2])>mx){mx=Math.abs(a[1][2]);p=1;q=2;}
+    if(mx<1e-12)break;
+    const app=a[p][p],aqq=a[q][q],apq=a[p][q];
+    const phi=0.5*Math.atan2(2*apq,aqq-app);
+    const c=Math.cos(phi),s=Math.sin(phi);
+    for(let k=0;k<3;k++){const akp=a[k][p],akq=a[k][q];a[k][p]=c*akp-s*akq;a[k][q]=s*akp+c*akq;}
+    for(let k=0;k<3;k++){const apk=a[p][k],aqk=a[q][k];a[p][k]=c*apk-s*aqk;a[q][k]=s*apk+c*aqk;}
+    for(let k=0;k<3;k++){const vkp=V[k][p],vkq=V[k][q];V[k][p]=c*vkp-s*vkq;V[k][q]=s*vkp+c*vkq;}
+  }
+  let vals=[a[0][0],a[1][1],a[2][2]];
+  let idx=[0,1,2].sort((i,j)=>vals[j]-vals[i]);
+  return {values:idx.map(i=>vals[i]), vectors:idx.map(i=>[V[0][i],V[1][i],V[2][i]])};
+}
+// net rotation of the composite operator M (upper-left 3×3 sub-block, stride-5) — Euler's theorem.
+// NOTE: M is now 5×5 (SE(4)); this reports the rotation restricted to the x,y,z sub-block (the part
+// the 3D readouts understand). The full 4D rotation includes w-mixing not captured by this single axis.
+function compositeRotation(){
+  const M=lastM;
+  // upper-left 3×3 entries at row r, col c → index r*5+c
+  const m00=M[0], m01=M[1], m02=M[2], m10=M[5], m11=M[6], m12=M[7], m20=M[10], m21=M[11], m22=M[12];
+  const tr=m00+m11+m22;
+  let ang=Math.acos(Math.max(-1,Math.min(1,(tr-1)/2)));
+  let ax=[m21-m12, m02-m20, m10-m01];
+  const n=Math.hypot(ax[0],ax[1],ax[2])||1; ax=[ax[0]/n,ax[1]/n,ax[2]/n];
+  return {angle:ang, axis:ax};
+}
+
+// unsigned angle (degrees) between two 3-vectors. For axes/lines (no direction), fold to [0,90]
+// by taking |cos|, so "antiparallel" reads as 0° alignment, not 180°.
+function angleDeg(a,b,asLine){
+  const na=Math.hypot(...a)||1, nb=Math.hypot(...b)||1;
+  let c=(a[0]*b[0]+a[1]*b[1]+a[2]*b[2])/(na*nb);
+  if(asLine) c=Math.abs(c);
+  c=Math.max(-1,Math.min(1,c));
+  return Math.acos(c)*180/Math.PI;
+}
+// the measurable angles between the form's intrinsic features and the world reference frame.
+function featureAngles(){
+  const X=[1,0,0],Y=[0,1,0],Z=[0,0,1];
+  const out={};
+  if(meas.netAxis){
+    out.spinX=angleDeg(meas.netAxis,X,true); out.spinY=angleDeg(meas.netAxis,Y,true); out.spinZ=angleDeg(meas.netAxis,Z,true);
+  }
+  if(meas.pcaVec){
+    // primary principal axis (P1) vs each world axis — how the form's long axis is oriented
+    const p1=meas.pcaVec[0];
+    out.p1X=angleDeg(p1,X,true); out.p1Y=angleDeg(p1,Y,true); out.p1Z=angleDeg(p1,Z,true);
+    // P1 vs the spin axis — is the form's shape aligned with its rotation?
+    if(meas.netAxis) out.p1spin=angleDeg(p1,meas.netAxis,true);
+  }
+  return out;
+}
+
+// sample the current locus over a full pass to measure its extent (independent of draw loop)
+const _WEYL_PRIMES=[2,3,5,7,11,13,17,19,23,29,31,37];
+function analyzeLocus(){
+  const N=1200;
+  let bb=[1e9,-1e9,1e9,-1e9,1e9,-1e9];
+  let rmin=1e9, rmax=0, sx=0,sy=0,sz=0;
+  const savePh=ph.slice();
+  let tph=new Array(MAXROT).fill(0);
+  let firstP=null, lastP=null;
+  const pts=[];   // collect for covariance tensor (PCA)
+  // WEYL-SEQUENCE sampling: each phase k advances by an independent IRRATIONAL increment per sample
+  // (√prime_k), so the N points fill the L-torus uniformly and the averaged COM lands at the TRUE
+  // centroid (≈origin = the hole-center for this rule). The earlier code multiplied by round(rate·40),
+  // forcing integer/commensurate frequencies; at L≥6 the samples then landed on a lopsided periodic
+  // sub-lattice and the COM drifted 30–95% of rmax off-center. (Verified: Weyl keeps |COM|/rmax <0.5%
+  // at every level; a single locked-u sweep does NOT — it traces one curve, whose mean isn't the centroid.)
+  const alpha=new Array(MAXROT); for(let k=0;k<MAXROT;k++) alpha[k]=TAU*Math.sqrt(_WEYL_PRIMES[k%_WEYL_PRIMES.length]);
+  for(let s=0;s<N;s++){
+    for(let k=0;k<MAXROT;k++) tph[k]=(s*alpha[k]) % TAU;
+    // build with these phases (temporarily swap ph)
+    for(let k=0;k<MAXROT;k++) ph[k]=tph[k];
+    const p=buildRaw();
+    if(s===0) firstP=p.slice(); lastP=p.slice();
+    for(let d=0;d<3;d++){bb[2*d]=Math.min(bb[2*d],p[d]);bb[2*d+1]=Math.max(bb[2*d+1],p[d]);}
+    const r=Math.hypot(p[0],p[1],p[2]); rmin=Math.min(rmin,r); rmax=Math.max(rmax,r);
+    sx+=p[0];sy+=p[1];sz+=p[2];
+    pts.push(p);
+  }
+  // COVARIANCE TENSOR (PCA): C_ij = mean of (p_i - μ_i)(p_j - μ_j) over the sampled cloud.
+  // Its eigenvalues are the variances along principal axes — a true second-order tensor readout
+  // of the form's shape: planar (one λ≈0), isotropic (three equal), oblate torus (two large, one small).
+  {
+    const mx=sx/N, my=sy/N, mz=sz/N;
+    let c00=0,c11=0,c22=0,c01=0,c02=0,c12=0;
+    for(const p of pts){const dx=p[0]-mx,dy=p[1]-my,dz=p[2]-mz;c00+=dx*dx;c11+=dy*dy;c22+=dz*dz;c01+=dx*dy;c02+=dx*dz;c12+=dy*dz;}
+    c00/=N;c11/=N;c22/=N;c01/=N;c02/=N;c12/=N;
+    const e=eigSym3([[c00,c01,c02],[c01,c11,c12],[c02,c12,c22]]);
+    meas.pcaVal=e.values; meas.pcaVec=e.vectors;
+  }
+  // closure heuristic: evolve the trajectory and track the minimum distance it returns to
+  // its start (after first leaving a neighborhood). Low = comes back = closed curve; high =
+  // never returns = space-filling. This is a heuristic, not a proof of rational-relatedness.
+  for(let k=0;k<MAXROT;k++) ph[k]=0;
+  const cstart=buildRaw().slice();
+  let cmin=1e9, cleft=false; const cR=vals.rad;
+  const cdt=0.01;
+  for(let s=1;s<3000;s++){
+    for(let k=0;k<rung;k++) ph[k]=(ph[k]+cdt*rateFor(k))%TAU;
+    const cp=buildRaw();
+    const cd=Math.hypot(cp[0]-cstart[0],cp[1]-cstart[1],cp[2]-cstart[2]);
+    if(cd>cR*0.5) cleft=true;
+    if(cleft) cmin=Math.min(cmin,cd);
+  }
+  meas.closure = cmin<1e8 ? cmin : 0;
+  for(let k=0;k<MAXROT;k++) ph[k]=savePh[k];
+  meas.bbMin=[bb[0],bb[2],bb[4]]; meas.bbMax=[bb[1],bb[3],bb[5]];
+  meas.ext=[bb[1]-bb[0], bb[3]-bb[2], bb[5]-bb[4]];
+  meas.rmin=rmin; meas.rmax=rmax;
+  meas.com=[sx/N, sy/N, sz/N];
+  // per-axis symmetry: how centered the bbox is on the origin per axis (0 = symmetric)
+  meas.sym=[Math.abs(bb[1]+bb[0]),Math.abs(bb[3]+bb[2]),Math.abs(bb[5]+bb[4])];
+}
+
+// two phase accumulators (we never need more than 3 rotations for rungs 0-3,
+// but keep a small bank). rates: a simple incommensurate pair so forms fill.
+let ph=new Array(40).fill(0);
+const MAXROT=40;
+
+// ---------- RATIO CATALOG (reused from the Trajectoscope) ----------
+const PHI=(1+Math.sqrt(5))/2, SILVER=1+Math.SQRT2;
+const RATIO_LIB={
+  'irrational':[['φ',PHI],['φ²',PHI+1],['√2',Math.SQRT2],['√3',Math.sqrt(3)],['π',Math.PI],['e',Math.E]],
+  'just':[['2:3',3/2],['3:4',4/3],['3:5',5/3],['4:5',5/4],['5:8',8/5],['1:2',2]],
+  'septimal':[['5:7',7/5],['6:7',7/6],['7:8',8/7],['7:9',9/7]],
+  'undecimal':[['8:11',11/8],['9:11',11/9],['11:13',13/11]],
+  'fibonacci':[['3:5',5/3],['5:8',8/5],['8:13',13/8],['13:21',21/13]],
+  'lucas':[['4:7',7/4],['7:11',11/7],['11:18',18/11]],
+  'powers':[['1:2',2],['1:3',3],['1:4',4],['3:8',8/3]],
+  'metallic':[['silver',SILVER],['bronze',(3+Math.sqrt(13))/2]],
+};
+const RATIOS={}; const RATIO_GROUPS={};
+for(const [grp,list] of Object.entries(RATIO_LIB)){
+  RATIO_GROUPS[grp]=[];
+  list.forEach(([label,base],i)=>{
+    let stem=label.replace(/[^a-z0-9]/gi,'');               // ASCII-alnum part of the label
+    let id=grp+'_'+stem;
+    if(stem==='' || RATIOS[id]) id=grp+'_'+i;                // non-ASCII (φ,π,√…) or collision → index-based id
+    RATIOS[id]={base:Math.max(1.0001,base),label};
+    RATIO_GROUPS[grp].push(id);
+  });
+}
+let rateRatioId=RATIO_GROUPS['irrational'][4];   // π default for rate cascade
+let dispRatioId=RATIO_GROUPS['just'][5];          // 1:2 default for displacement cascade
+beam2.rateRatioId=rateRatioId; beam2.dispRatioId=dispRatioId;   // beam-2 starts matching beam-1
+
+// ---------- per-layer / per-cycle MULTIPLIER RULES (iterative) ----------
+// One rule generates a multiplier for every index (so it extends infinitely).
+// shape: exponential drive^i, linear 1+i*k, oscillating 1+k*sin(i). Manual overrides
+// (set per index) replace the rule's value when touched; null = follow the rule.
+let selfScale=true, kHole=2.0;          // self-scaling proportional-hole mode + its constant k
+let rateOverride=new Array(MAXROT).fill(null);   // per-level rate-mult overrides (the one rate knob with real effect)
+// per-level/cycle multipliers: 1.0 when no override is set (the global shape/drive rules were verified
+// inert under normalization and removed). rateOverride breaks per-level uniformity → real shape change.
+function layerMult(L){ return rateOverride[L]!=null ? rateOverride[L] : 1.0; }
+function dispMult(C){  return 1.0; }   // displacement has no meaningful per-cycle knob (k handles it)
+// rate cascade for level L: (1/ratio)^L  times the per-layer multiplier.
+// Optional beam bundle B overrides the ratio (independent second beam); rate overrides stay shared.
+function rateFor(k, B){
+  if(B){
+    const ratio=RATIOS[B.rateRatioId!=null?B.rateRatioId:rateRatioId].base;
+    const lm = rateOverride[k]!=null ? rateOverride[k] : 1.0;
+    return Math.pow(1/ratio, k) * lm;
+  }
+  const ratio=RATIOS[rateRatioId].base;
+  return Math.pow(1/ratio, k) * layerMult(k);
+}
+
+// ---------- THE UNIFORM ITERATIVE CONSTRUCTION ----------
+// ONE rule, verified to reproduce the locked forms (circle/sphere/torus/torus-sphere) by
+// type and size. Each CYCLE = [translate the whole figure outward by D_cyc along X] + [rotate]
+// + [rotate]. Rotations advance through a plane schedule. Cycle 0 has NO opening translation
+// (the seed sits at radius D); each later cycle translates by off*oscale^(cyc-1) — so the
+// displacement SCALES per octave. The translation (not a pivot-shift) is what makes the offset
+// and orbit radius ADD, opening the torus hole. "level" counts active rotations.
+//   1 rot -> circle, 2 -> sphere, 3 -> 3-sphere shell, 4 -> 3-torus, then it keeps cycling.
+// ── 4D (SE(4)) schedule: the SIX rotation planes of 4-space. Axis indices 0=x,1=y,2=z,3=w.
+// 3D used only XY,YZ,XZ (confined to 3-space). The W-planes XW,YW,ZW are what make the form
+// GENUINELY 4D (verified headless: rungs 1-3 — 4 PCA eigenvalues, w-extent unreachable in SE(3),
+// and the self-scaling keystone transfers exactly). The period climbs x→y→z→w so each rotation
+// lifts the accumulated figure into a fresh dimension.
+const SCHED=[[0,1],[1,2],[2,3],[0,3],[0,2],[1,3]]; // XY,YZ,ZW,XW,XZ,YW — 6-plane period
+const DISP_AXIS=0;  // translate along world X
+let recordChain=false, _chain=[];
+// ---------- 4D → 3D PROJECTION ----------
+// The construction emits a 4D point [x,y,z,w]; the rest of the instrument is 3D. This is the
+// honest way to view 4D: first ROTATE in 4D (mixing the w-axis into x/y/z by the viewing angles),
+// then PROJECT to 3D. The 3D camera (rot/proj) then projects 3D→2D. Two meaningful stages.
+//   - view4 angles wx,wy,wz: rotate the XW, YW, ZW planes — turning the 4D object to show its
+//     w-extent along different 3D directions (the 4D analog of orbiting the camera).
+//   - mode 'persp4' : perspective from the w-axis (4D depth foreshortens), w-distance dist4.
+//   - mode 'ortho4' : orthographic — simply drop w after the 4D rotation (true 4D lengths in-slice).
+let view4={wx:0, wy:0, wz:0};        // 4D viewing rotation angles (XW,YW,ZW planes)
+let proj4mode='ortho4';              // 'persp4' | 'ortho4'
+let dist4=300;                       // 4D eye distance (perspective-from-w)
+let spin4=0;                         // optional auto-spin rate for the XW plane (sec^-1-ish, applied in loop)
+let spin4spd=1.0;                    // 4D spin speed setting (applied when w-spin toggled on)
+function project4to3(p){
+  let [x,y,z,w]=p;
+  // 4D viewing rotations: each mixes one spatial axis with w.
+  if(view4.wx){ const c=Math.cos(view4.wx),s=Math.sin(view4.wx); const x2=c*x - s*w, w2=s*x + c*w; x=x2; w=w2; }
+  if(view4.wy){ const c=Math.cos(view4.wy),s=Math.sin(view4.wy); const y2=c*y - s*w, w2=s*y + c*w; y=y2; w=w2; }
+  if(view4.wz){ const c=Math.cos(view4.wz),s=Math.sin(view4.wz); const z2=c*z - s*w, w2=s*z + c*w; z=z2; w=w2; }
+  if(proj4mode==='ortho4'){
+    return [x,y,z];                  // drop w (orthographic 4D→3D) — true lengths in the 3-slice
+  }
+  // perspective from w: the 4D eye sits at distance dist4·(form radius) along +w, so it always clears
+  // the form (a fixed absolute distance is meaningless when the self-scaling form spans thousands — w
+  // would cross the projection singularity and explode). Scaling the eye by the live radius keeps the
+  // foreshortening proportional and finite at every cycle. dist4 is thus a MULTIPLE of the form size.
+  const eye = dist4 * (meas.rmax>1e-6 ? meas.rmax : D) / 80;   // dist4≈300 → eye ~3.75× the 80-unit seed scale
+  const denom = eye - w;
+  const f = denom>1e-3 ? eye/denom : eye/1e-3;
+  return [x*f, y*f, z*f];
+}
+
+// The whole cycle (rotate, rotate, translate) is composed into ONE 5×5 operator M, built as a
+// matrix product. M acts on the homogeneous seed [D,0,0,0,1]; final point = M·seed (4D: x,y,z,w).
+// Translation lives in the 5th column, rotation in the upper-left 4×4 — one object carries both.
+// Speed structure: a plane-rotation mixes two ROWS of M; a world-axis translation adds to one
+// entry of column 4. Left-multiplication (R@M) so each rotation lifts the ACCUMULATED figure.
+let lastM=new Float64Array(25);   // the composite 5×5 operator from the most recent build (for readouts)
+// ── FORMULA BANK (G0) ──────────────────────────────────────────────────────
+// A "formula" maps the current phase-state ph[] (+ level rung, radius D) → a 3D point.
+// 'staged' IS the existing SE(4) construction below (left-mult scheduled plane-rotations + displacement +
+// 4D camera) — left UNTOUCHED; buildRaw falls through to it. The others are 3D-native parametric trajectories
+// ported from split_view, measured on the SAME spine. NO dimensional climb anywhere (see integration_plan_formulas).
+let currentFormula='staged';
+const FORMULA_LABELS={staged:'staged (orbit→tip→displace→scale · SE(4))', freed:'freed (all axes/planes at once · 3D volume)',
+  lissajous:'Lissajous (sin per axis)', torus:'torus (two circles)', epicyclic:'epicyclic (circles on circles)'};
+const _FPLANES=[[0,1],[1,2],[0,2]];  // XY,YZ,XZ — the 3 planes of 3D, for freed
+function _rot3(p,i,j,th){ const c=Math.cos(th),s=Math.sin(th); const pi=p[i],pj=p[j]; const q=p.slice(); q[i]=c*pi-s*pj; q[j]=s*pi+c*pj; return q; }
+function formulaPoint(name, D){
+  const L=Math.max(1,Math.round(rung));
+  if(name==='lissajous'){
+    return [D*Math.sin(ph[0]), L>=2?D*Math.sin(ph[1]):0, L>=3?D*Math.sin(ph[2]):0];
+  }
+  if(name==='torus'){
+    const Rmaj=D*0.9, rmin=D*0.42; const a0=ph[0], a1=L>=2?ph[1]:ph[0];
+    let x=(Rmaj+rmin*Math.cos(a1))*Math.cos(a0), y=(Rmaj+rmin*Math.cos(a1))*Math.sin(a0), z=rmin*Math.sin(a1);
+    if(L>=3){ const a=ph[2]; const nx=x*Math.cos(a)-z*Math.sin(a), nz=x*Math.sin(a)+z*Math.cos(a); x=nx; z=nz; }
+    return [x,y,z];
+  }
+  if(name==='epicyclic'){
+    let x=0,y=0,z=0,rad=D*0.7; const n=Math.min(L+1,4);
+    for(let i=0;i<n;i++){ x+=rad*Math.cos(ph[i]); y+=rad*Math.sin(ph[i]); if(i%2===1) z+=rad*0.5*Math.sin(ph[i]); rad*=0.5; }
+    return [x,y,z];
+  }
+  if(name==='freed'){
+    // displace ALL axes at once, then rotate ALL planes at once — per freed step (level = # freed steps).
+    // verified (freed_v2.py): reaches fuller form in fewer levels + sweeps VOLUME when displacing. 3D, no climb.
+    let p=[D,0,0]; const dOn=(selfScale||vals.disp>0); const dstep=selfScale? (kHole*0.25) : (vals.disp/Math.max(1,D));
+    for(let L2=0; L2<L; L2++){
+      if(dOn && L2>=1){ for(let a=0;a<3;a++) p[a]+=dstep*D*Math.cos(ph[(a+10)%MAXROT]); }
+      for(let idx=0; idx<3; idx++){ const pl=_FPLANES[idx]; p=_rot3(p, pl[0], pl[1], ph[idx]); }
+    }
+    return p;
+  }
+  return null; // unknown → fall through to staged
+}
+function buildRaw(B){
+  // FORMULA DISPATCH (G0): non-staged formulas compute directly from ph[] and return (3D-native, no 4D camera).
+  // staged falls through to the verified SE(4) construction below, UNTOUCHED.
+  if(currentFormula!=='staged' && !B){
+    const D = vals.rad;
+    const fp = formulaPoint(currentFormula, D);
+    if(fp){ lastM.set(new Float64Array([1,0,0,0,0, 0,1,0,0,0, 0,0,1,0,0, 0,0,0,1,0, 0,0,0,0,1]));
+            if(recordChain){ _chain=[{c:[0,0,0],p:[fp[0],fp[1],fp[2],0],kind:'final'}]; } return fp; }
+  }
+  // B = optional beam bundle (independent second beam). Absent → beam-1 live globals (untouched).
+  const D   = B ? B.rad : vals.rad;
+  const off = B ? B.disp : vals.disp;
+  const dispRatio = RATIOS[(B && B.dispRatioId!=null) ? B.dispRatioId : dispRatioId].base;
+  const useSelfScale = B ? B.selfScale : selfScale;
+  const useK = B ? B.kHole : kHole;
+  const nRot=rung;
+  // M starts as identity (row-major 5×5)
+  const M=new Float64Array([1,0,0,0,0, 0,1,0,0,0, 0,0,1,0,0, 0,0,0,1,0, 0,0,0,0,1]);
+  // helper: current 4D point = M · [D,0,0,0,1]  (only col 0 and col 4 contribute since seed y=z=w=0)
+  const pt=()=>[M[0]*D+M[4], M[5]*D+M[9], M[10]*D+M[14], M[15]*D+M[19]];
+  if(recordChain){ _chain=[]; _chain.push({c:[0,0,0,0],p:pt(),kind:'seed'}); }
+  for(let k=0;k<nRot;k++){
+    const cyc=Math.floor(k/2), idx=k%2;
+    if(idx===0 && cyc>=1){
+      // translation at cycle boundary: left-multiply by T. With M's bottom row [0,0,0,0,1],
+      // T·M just adds d to M[axis][4].
+      let d;
+      if(useSelfScale){
+        // SELF-SCALING (proportional-hole) rule: displacement = k × (current figure radius),
+        // figure radius entering cycle C is (k+1)^(C-1)·D → closed form d = k·(k+1)^(C-1)·D.
+        // Holds the central hole a CONSTANT proportion at every cycle (verified to transfer to 4D,
+        // rung 3: growth ×(k+1) exact, hole (k−1)/(k+1) confirmed once sampling adequate).
+        d = useK * Math.pow(useK+1, cyc-1) * D * dispMult(cyc-1);
+      } else {
+        // legacy fixed-ratio displacement (shrinks each cycle independent of size)
+        d = off * Math.pow(1/dispRatio, cyc-1) * dispMult(cyc-1);
+      }
+      const pFrom = recordChain ? pt() : null;
+      M[DISP_AXIS*5+4]+=d;
+      if(recordChain){
+        const pTo=pt();
+        _chain.push({kind:'displace', from:pFrom, to:pTo, d:d, axis:DISP_AXIS, cyc:cyc, c:[0,0,0,0], p:pTo});
+      }
+    }
+    const plane=SCHED[k%SCHED.length];
+    const A=(k===nRot-1)?growth:1;
+    // oscillation mode: blend orbit angle with a pendulum swing. blend=0 => pure orbit (baseline).
+    let theta=ph[k];
+    if(oscOn && oscBlend>0){ theta=(1-oscBlend)*ph[k] + oscBlend*oscAmp*Math.sin(ph[k]); }
+    theta*=A;
+    const ci=Math.cos(theta), si=Math.sin(theta);
+    // record orbit geometry BEFORE rotating: a left-multiply world-rotation R(i,j,θ) spins the
+    // current point about the world axis ⊥ to the i-j plane through the origin.
+    const i=plane[0], j=plane[1];
+    if(recordChain){
+      const pB=pt();
+      const pivot=pB.slice(); pivot[i]=0; pivot[j]=0;
+      const orbR=Math.hypot(pB[i], pB[j]);
+      _chain.push({kind:'rot', center:pivot, p:pB, plane:[i,j], orbR:orbR, theta:theta, k:k, c:pivot});
+    }
+    // left-multiply by plane rotation R(i,j,theta): mixes rows i and j of the 5×5 M (5 columns).
+    for(let col=0;col<5;col++){
+      const ri=M[i*5+col], rj=M[j*5+col];
+      M[i*5+col]=ci*ri - si*rj;
+      M[j*5+col]=si*ri + ci*rj;
+    }
+  }
+  lastM.set(M);
+  const final=pt();                 // 4D point [x,y,z,w]
+  if(recordChain)_chain.push({c:null,p:final.slice(),kind:'final'});
+  return project4to3(final);        // collapse to 3D for the rest of the instrument
+}
+// build for DRAWING: raw, optionally normalized to a unit region (compression route).
+// Normalize divides by the measured outer radius and recenters on COM, so the whole
+// object maps into roughly [-1,1] — the "between 0 and 1 / bounded state" lens.
+function build(){
+  let p=buildRaw();
+  if(normalize && meas.rmax>1e-6){
+    const s=100/meas.rmax;  // scale unit-region to ~100px world units (then zoom/proj handle the rest)
+    p=[(p[0]-meas.com[0])*s, (p[1]-meas.com[1])*s, (p[2]-meas.com[2])*s];
+  }
+  return p;
+}
+// SECOND POINT: derived from the first by a spatial transform, optionally phase-lagged in time.
+function buildRawLagged(lag){
+  if(!lag){ return buildRaw(); }
+  const save=ph.slice();
+  for(let k=0;k<MAXROT;k++) ph[k]=ph[k]-lag*rateFor(k);
+  const p=buildRaw();
+  for(let k=0;k<MAXROT;k++) ph[k]=save[k];
+  return p;
+}
+function buildLaggedNorm(lag){
+  let p=buildRawLagged(lag);
+  if(normalize && meas.rmax>1e-6){ const s=100/meas.rmax; p=[(p[0]-meas.com[0])*s,(p[1]-meas.com[1])*s,(p[2]-meas.com[2])*s]; }
+  return p;
+}
+// the spatial transform that maps a first-point position to its second-point position (DERIVED mode)
+function p2transform(p){
+  const R=vals.rad;
+  if(p2mode==='mirror'){ return [-p[0],-p[1],-p[2]]; }
+  if(p2mode==='antipodal'){ const r=Math.hypot(p[0],p[1],p[2])||1; const s=(meas.rmax||R)/r; return [-p[0]*s,-p[1]*s,-p[2]*s]; }
+  if(p2mode==='polar'){ const Ri=p2invR; const r2=p[0]*p[0]+p[1]*p[1]+p[2]*p[2]; if(r2>1e-6){ const k=Ri*Ri/r2; return [p[0]*k,p[1]*k,p[2]*k]; } return p.slice(); }
+  return p.slice();
+}
+// build beam-2's phases for INDEPENDENT mode: rescale the shared phase by the ratio of the two
+// beams' rates at each level. ph[k] already encodes T·rate1(k); ×(rate2(k)/rate1(k)) = T·rate2(k).
+function beam2Phases(lag){
+  const save=ph.slice();
+  for(let k=0;k<MAXROT;k++){
+    const r1=rateFor(k), r2=rateFor(k,beam2);
+    const scaled = ph[k]*(r1!==0? r2/r1 : 1);
+    ph[k] = scaled - lag*r2;
+  }
+  return save;   // caller restores
+}
+function secondPointRaw(){
+  if(p2relation==='independent'){
+    const save=beam2Phases(vals.p2lag||0);
+    const p=buildRaw(beam2);
+    for(let k=0;k<MAXROT;k++) ph[k]=save[k];
+    return p;
+  }
+  // derived: transform of beam 1
+  return p2transform(buildRawLagged(vals.p2lag));
+}
+// draw the meeting locus: the sphere |p|=R (when coincidences cluster there) or the origin,
+// plus a marker at the live closest-approach point. Only meaningful with p2 on.
+function drawMeetLocus(){
+  if(!p2on || meet.samples===0) return;
+  ox.save();
+  // closest-approach marker (where the two dots came nearest this pass)
+  const ap=proj(nrm(meet.atP));
+  ox.strokeStyle = meet.touches ? 'rgba(255,122,200,0.95)' : 'rgba(255,122,200,0.4)';
+  ox.fillStyle = meet.touches ? 'rgba(255,122,200,0.5)' : 'rgba(255,122,200,0.12)';
+  ox.lineWidth=1.5;
+  ox.beginPath(); ox.arc(ap[0],ap[1],meet.touches?6:4,0,7); ox.fill(); ox.stroke();
+  // if coincidences cluster on a sphere, draw that sphere as a ring at its projected radius
+  if(meet.touches && meet.locusR>vals.rad*0.1 && meet.locusResid < meet.locusR*0.15){
+    // project the locus radius through normalize+zoom: sample a few points on |p|=locusR
+    const Rl=meet.locusR;
+    ox.strokeStyle=rgba(OK.vermillion,tierA('annot',0.75)); ox.lineWidth=1; ox.setLineDash([3,4]);
+    ox.beginPath();
+    for(let a=0;a<=64;a++){const th=a/64*7; const pw=nrm([Rl*Math.cos(th),Rl*Math.sin(th),0]); const sp=proj(pw); if(a===0)ox.moveTo(sp[0],sp[1]);else ox.lineTo(sp[0],sp[1]);}
+    ox.stroke();
+    ox.beginPath();
+    for(let a=0;a<=64;a++){const th=a/64*7; const pw=nrm([Rl*Math.cos(th),0,Rl*Math.sin(th)]); const sp=proj(pw); if(a===0)ox.moveTo(sp[0],sp[1]);else ox.lineTo(sp[0],sp[1]);}
+    ox.stroke();
+    ox.setLineDash([]);
+  }
+  ox.restore();
+}
+
+function secondPoint(){
+  let p=secondPointRaw();
+  if(normalize && meas.rmax>1e-6){ const s=100/meas.rmax; p=[(p[0]-meas.com[0])*s,(p[1]-meas.com[1])*s,(p[2]-meas.com[2])*s]; }
+  return p;
+}
+
+// ---------- meeting structure (two-dot coincidence) ----------
+// A dedicated phase-sampling pass. p1 follows the construction; p2 is its transform, optionally
+// phase-lagged. We find where/how closely the two dots coincide AT THE SAME TIME (real meetings,
+// not sampling artifacts — see pipeline_state.md). Predicted loci (verified against the actual
+// transforms): polar inversion → sphere |p|=R; mirror(−p) & antipodal → origin only (path never
+// reaches it, so effectively never touch). Lag shifts whether both dots reach the locus together.
+const meet={minSep:0, meanSep:0, hits:0, samples:0, locStr:'—', locusR:0, locusResid:0, atP:[0,0,0], touches:false};
+function measureMeeting(){
+  if(!p2on){ meet.samples=0; return; }
+  const R=vals.rad, nRot=rung;
+  if(nRot<1){ meet.samples=0; meet.locStr='need ≥1 level'; return; }
+  const save=ph.slice();
+  const N=2000;                          // dedicated sample budget for the meeting pass
+  const thresh=R*0.04;                   // "coincident" tolerance in raw units
+  let minSep=Infinity, sumSep=0, hits=0, atP=[0,0,0];
+  const hitRadii=[];                     // |p| at each coincidence, to test the locus
+  for(let n=0;n<N;n++){
+    const t=Math.random()*Math.PI*2*Math.max(2,nRot);   // spread phase across the torus
+    // p1 at lag p1lag
+    for(let k=0;k<MAXROT;k++) ph[k]=(save[k]!==undefined?save[k]:0); // restore base each iter
+    // drive all phases from t at the cascade (independent of the live animation phase)
+    for(let k=0;k<nRot;k++) ph[k]=(t - vals.p1lag)*rateFor(k);
+    const p1=buildRaw();
+    let p2;
+    if(p2relation==='independent'){
+      // beam 2: its own rates from the same master time t, its own geometry
+      for(let k=0;k<nRot;k++) ph[k]=(t - vals.p2lag)*rateFor(k,beam2);
+      p2=buildRaw(beam2);
+    } else {
+      for(let k=0;k<nRot;k++) ph[k]=(t - vals.p2lag)*rateFor(k);
+      p2=p2transform(buildRaw());
+    }
+    const sep=Math.hypot(p1[0]-p2[0],p1[1]-p2[1],p1[2]-p2[2]);
+    sumSep+=sep;
+    if(sep<minSep){ minSep=sep; atP=p1.slice(); }
+    if(sep<thresh){ hits++; hitRadii.push(Math.hypot(p1[0],p1[1],p1[2])); }
+  }
+  for(let k=0;k<MAXROT;k++) ph[k]=save[k];   // restore
+  meet.samples=N; meet.minSep=minSep; meet.meanSep=sumSep/N; meet.hits=hits; meet.atP=atP;
+  meet.touches = hits>0;
+  // characterize the locus from where coincidences land
+  if(hits>0){
+    const mr=hitRadii.reduce((a,b)=>a+b,0)/hitRadii.length;
+    let vr=0; for(const r of hitRadii) vr+=(r-mr)*(r-mr); vr=Math.sqrt(vr/hitRadii.length);
+    meet.locusR=mr; meet.locusResid=vr;
+    // is it the |p|=R sphere (polar) or the origin?
+    if(mr<R*0.1) meet.locStr='origin';
+    else if(vr<mr*0.15) meet.locStr='sphere |p|≈'+mr.toFixed(0)+(Math.abs(mr-R)<R*0.15?' (=R)':'');
+    else meet.locStr='spread r='+mr.toFixed(0)+'±'+vr.toFixed(0);
+  } else {
+    meet.locusR=0; meet.locusResid=0;
+    if(p2relation==='independent') meet.locStr='none (independent beams, generic intersection)';
+    else meet.locStr = (p2mode==='polar') ? 'none (lag breaks |p|=R)' : 'none (meets only at origin)';
+  }
+}
+
+// ---------- view ----------
+function rot(p){let[a,b,c]=p;
+  let x1=a*Math.cos(yaw)-c*Math.sin(yaw),z1=a*Math.sin(yaw)+c*Math.cos(yaw);
+  let y1=b*Math.cos(pitch)-z1*Math.sin(pitch),z2=b*Math.sin(pitch)+z1*Math.cos(pitch);
+  return [x1,y1,z2];}
+let zoomF=1;
+let viewPivot=[0,0,0];   // draw-space point the camera orbits/centers on (0,0,0 = COM, the default)
+function proj(p){
+  // re-center on the chosen pivot: subtract it so the selected feature lands at screen center & the
+  // camera orbits AROUND it. Default [0,0,0] (COM, since the form is normalized COM-centered).
+  if(viewPivot[0]||viewPivot[1]||viewPivot[2]) p=[p[0]-viewPivot[0], p[1]-viewPivot[1], p[2]-viewPivot[2]];
+  let[a,b,c]=rot(p);
+  // screen-space roll (Z-axis orbit): rotate the in-plane (a,b) before projecting
+  if(roll!==0){ const cr=Math.cos(roll), sr=Math.sin(roll); const a2=a*cr-b*sr, b2=a*sr+b*cr; a=a2; b=b2; }
+  // PROJECTION axis (the 4th grid axis = the "fold"). Each preserves a different invariant.
+  if(gridProj==='ortho' || gridProj==='iso' || ortho){
+    // parallel projection: true lengths preserved in-plane. (iso = ortho from the isometric view angle,
+    // which the camera supplies; the projection math is identical to orthographic.)
+    return [W/2+a*zoomF, H/2+b*zoomF, 1];
+  }
+  if(gridProj==='stereo'){
+    // stereographic: project from the far pole of a sphere onto the plane. Conformal — preserves
+    // angles and maps circles→circles (verified), the natural projection for the circle-built forms.
+    const R=stereoR;                   // sphere radius in draw-space (tunable: field curvature)
+    const denom=(R+c); const t = denom>1e-3 ? R/denom : R/1e-3;
+    return [W/2+a*t*zoomF, H/2+b*t*zoomF, t];
+  }
+  // perspective (default): central projection, foreshortens with depth.
+  const f=focalLength/(focalLength+c)*zoomF; return [W/2+a*f,H/2+b*f,f];}
+
+function resize(){const rs=(vals.renderscale||100)/100; W=cv.clientWidth;H=430;
+  // hard safety: cap the backing-buffer pixel dimensions so supersampling can't exceed browser
+  // canvas limits (which silently fail → white screen). Clamp dpr so max dim stays under ~4096.
+  let dprWant=(devicePixelRatio||1)*rs;
+  const maxDim=4096;
+  const cap=Math.min(maxDim/Math.max(1,W), maxDim/Math.max(1,H));
+  dpr=Math.min(dprWant, cap);
+  // IMPORTANT: only set the backing-buffer size (c.width/height). Do NOT pin c.style.width in px —
+  // the CSS `width:100%` governs display size fluidly. Pinning px width repeatedly (with the border
+  // box) squeezed the canvas a little on every render% scrub. Height is fixed, so style.height is safe.
+  [[cv,x],[ov,ox]].forEach(([c,cx])=>{c.width=Math.round(W*dpr);c.height=Math.round(H*dpr);c.style.height=H+'px';cx.setTransform(dpr,0,0,dpr,0,0);});
+  hardClear();}
+function hardClear(){x.fillStyle='#0A0E12';x.fillRect(0,0,W+2,H+2);ox.clearRect(0,0,W+2,H+2);}
+addEventListener('resize',resize);
+
+function nrm(pt){ // apply the same normalize transform used in build(), for overlay consistency
+  if(normalize && meas.rmax>1e-6){ const s=100/meas.rmax; return [(pt[0]-meas.com[0])*s,(pt[1]-meas.com[1])*s,(pt[2]-meas.com[2])*s]; }
+  return pt;
+}
+function drawChain(chain, transform, colA, colB, colDot){
+  const tf=transform||(q=>q);
+  for(const e of chain){
+    if(e.kind==='rot' && e.orbR>1e-6){
+      // draw the orbit circle: the point sweeps this circle of radius orbR around `center`,
+      // lying in the world plane spanned by axes e.plane (the other axis fixed). Sample & project.
+      const [i,j]=e.plane; const ctr=e.center;
+      ox.strokeStyle=colB; ox.lineWidth=1; ox.globalAlpha=0.55;
+      ox.beginPath();
+      for(let s=0;s<=48;s++){
+        const a=s/48*TAU;
+        const q=ctr.slice(); q[i]=e.orbR*Math.cos(a); q[j]=e.orbR*Math.sin(a);
+        const sp=proj(nrm(tf(q)));
+        if(s===0) ox.moveTo(sp[0],sp[1]); else ox.lineTo(sp[0],sp[1]);
+      }
+      ox.stroke(); ox.globalAlpha=1;
+      // radius spoke from pivot to current point, + pivot dot
+      const cp=proj(nrm(tf(ctr))), pp=proj(nrm(tf(e.p)));
+      ox.strokeStyle=colB; ox.lineWidth=1.2; ox.globalAlpha=0.8;
+      ox.beginPath(); ox.moveTo(cp[0],cp[1]); ox.lineTo(pp[0],pp[1]); ox.stroke(); ox.globalAlpha=1;
+      ox.fillStyle=colDot; ox.beginPath(); ox.arc(cp[0],cp[1],2.2,0,7); ox.fill();
+    } else if(e.kind==='displace'){
+      // draw the displacement as an arrow from the pre-translate position to the post-translate one
+      const a=proj(nrm(tf(e.from))), b=proj(nrm(tf(e.to)));
+      ox.strokeStyle=colA; ox.lineWidth=2; ox.globalAlpha=0.9;
+      ox.beginPath(); ox.moveTo(a[0],a[1]); ox.lineTo(b[0],b[1]); ox.stroke();
+      // arrowhead
+      const ang=Math.atan2(b[1]-a[1], b[0]-a[0]), hl=7;
+      ox.beginPath(); ox.moveTo(b[0],b[1]);
+      ox.lineTo(b[0]-hl*Math.cos(ang-0.4), b[1]-hl*Math.sin(ang-0.4));
+      ox.moveTo(b[0],b[1]);
+      ox.lineTo(b[0]-hl*Math.cos(ang+0.4), b[1]-hl*Math.sin(ang+0.4));
+      ox.stroke(); ox.globalAlpha=1;
+    }
+  }
+  // final point marker
+  const lastE=chain[chain.length-1];
+  if(lastE){ const fp=proj(nrm(tf(lastE.p)));
+    ox.strokeStyle=rgba([234,242,248],tierA('data',0.95));ox.lineWidth=1.4;ox.beginPath();ox.arc(fp[0],fp[1],5,0,7);ox.stroke(); }
+}
+function drawSkeleton1(){
+  // beam 1 chain (current phases)
+  recordChain=true; buildRaw(); recordChain=false;
+  drawChain(_chain, null, rgba(OK.orange,0.8), rgba(OK.yellow,0.6), rgba(OK.sky,0.85));
+}
+function drawSkeleton2(){
+  if(!p2on) return;
+  const save=ph.slice();
+  if(p2relation==='independent'){
+    // beam 2's own construction: rescale phases to beam2 rates, build with beam2 params, no transform
+    for(let k=0;k<MAXROT;k++){ const r1=rateFor(k), r2=rateFor(k,beam2); ph[k]=ph[k]*(r1!==0?r2/r1:1) - (vals.p2lag||0)*r2; }
+    recordChain=true; buildRaw(beam2); recordChain=false;
+    for(let k=0;k<MAXROT;k++) ph[k]=save[k];
+    drawChain(_chain.slice(), null, rgba(OK.purple,0.6), rgba(OK.purple,0.5), rgba(OK.purple,0.85));
+  } else {
+    // derived: build with lagged phases, map each node through the p2 transform
+    if(vals.p2lag){ for(let k=0;k<MAXROT;k++) ph[k]=ph[k]-vals.p2lag*rateFor(k); }
+    recordChain=true; buildRaw(); recordChain=false;
+    for(let k=0;k<MAXROT;k++) ph[k]=save[k];
+    drawChain(_chain.slice(), p2transform, rgba(OK.purple,0.6), rgba(OK.purple,0.5), rgba(OK.purple,0.85));
+  }
+}
+
+// ---------- overlays (all drawn on the crisp overlay canvas) ----------
+const AX=140;  // axis half-length
+function drawAxes(){
+  // three axes through origin, each a distinct color, with +/- labels at the tips.
+  const axisDefs=[
+    {v:[1,0,0], col:'rgba(213,94,0,0.55)', lab:'X'},
+    {v:[0,1,0], col:'rgba(0,158,115,0.55)', lab:'Y'},
+    {v:[0,0,1], col:'rgba(86,180,233,0.55)', lab:'Z'},
+  ];
+  ox.lineWidth=1; ox.font='11px Spline Sans Mono, monospace';
+  for(const a of axisDefs){
+    const pos=proj([a.v[0]*AX, a.v[1]*AX, a.v[2]*AX]);
+    const neg=proj([-a.v[0]*AX, -a.v[1]*AX, -a.v[2]*AX]);
+    ox.strokeStyle=a.col; ox.beginPath(); ox.moveTo(neg[0],neg[1]); ox.lineTo(pos[0],pos[1]); ox.stroke();
+    ox.fillStyle=a.col.replace('0.55','0.95');
+    ox.fillText('+'+a.lab, pos[0]+4, pos[1]-2);
+    ox.fillText('−'+a.lab, neg[0]+4, neg[1]+10);
+  }
+  // origin marker
+  const o=proj([0,0,0]);
+  ox.fillStyle='rgba(200,210,230,0.6)'; ox.beginPath(); ox.arc(o[0],o[1],2.2,0,7); ox.fill();
+}
+function drawScaleRing(){
+  // a reference ring at the base radius D, in the xy-plane, with a labeled tick
+  const D=vals.rad, o=proj([0,0,0]);
+  ox.strokeStyle=rgba(OK.purple,tierA('annot',0.75)); ox.lineWidth=1; ox.setLineDash([3,4]);
+  ox.beginPath();
+  for(let i=0;i<=64;i++){const a=i/64*TAU;const p=proj([D*Math.cos(a),D*Math.sin(a),0]);i===0?ox.moveTo(p[0],p[1]):ox.lineTo(p[0],p[1]);}
+  ox.stroke(); ox.setLineDash([]);
+  // tick label at +x edge
+  const edge=proj([D,0,0]);
+  ox.fillStyle='rgba(157,140,255,0.8)'; ox.font='10px Spline Sans Mono, monospace';
+  ox.fillText('r='+D.toFixed(0), edge[0]+4, edge[1]-3);
+}
+// measurement visual overlays (operate in the SAME space as the drawn trajectory)
+function mScale(){ return (normalize&&meas.rmax>1e-6)?100/meas.rmax:1; }
+
+// ── SMART GRID — DEPENDENCY 0: the single bounded unit ──────────────────────────────────
+// The normalizing frame: ONE bounded unit = the form's outer radius (rmax) in draw space. Every grid
+// bounds exactly this region and subdivides it `gridDivisions` ways. Because the unit tracks the form
+// and the construction is self-similar (rmax = D·(k+1)^cycle), each level fills its unit the same way
+// → grids are directly comparable across levels and across grid types (same bounds, different ruling).
+let gridDivisions=8;
+// CALIPER resolution — independent of the visual grid divisions. Same unit, same scale, but the
+// measurement address can be finer (or coarser) than the drawn grid. Locked to the power-of-2 ladder
+// (2,4,8,16,32,64) so fractions NEST cleanly (3/8 = 6/16) — like a vernier: deeper = refine, not relabel.
+let calRes=16;
+const CAL_LADDER=[2,4,8,16,32,64];
+// the ONE bounded unit, in draw space = the form's outer radius (rmax). Tracks the form.
+function gridUnitRadius(){ const s=mScale(); return (meas.rmax>1e-6?meas.rmax:vals.rad)*s; }
+// the size of one CELL = the unit subdivided `gridDivisions` ways. This is the grid spacing.
+function gridUnit(){ return gridUnitRadius()/Math.max(1,gridDivisions); }
+// the multiplicative ring STEP for the log-polar grid = the construction's self-similar ratio (k+1).
+function gridRingRatio(){ return selfScale ? (kHole+1) : 2; }
+
+// ── SMART GRID — DEPENDENCY 1: the plane basis ─────────────────────────────────────────
+// Returns {u, v, n}: two orthonormal in-plane vectors (u,v) and the plane normal (n), in world
+// (draw) coordinates. Every coordinate renderer draws using u,v instead of hardcoded axes, so all
+// grids can share a plane. Plane choice via gridPlane:
+//   'screen' — faces the viewer (camera right/up). With ortho, reads as a flat screen overlay.
+//   'XY'/'YZ'/'XZ' — the world coordinate planes (the construction's rotation planes).
+//   'PCA' — the form's own principal-axis frame (its natural plane).
+let gridPlane='XY';
+let gridProj='perspective';   // projection axis: perspective / ortho / stereo / iso
+let focalLength=480;          // perspective focal length / viewing distance (smaller = wider FOV)
+let stereoR=320;              // stereographic projection-sphere radius (controls field curvature)
+function planeBasis(){
+  if(gridPlane==='PCA' && meas.pcaVec){
+    return {u:meas.pcaVec[0].slice(), v:meas.pcaVec[1].slice(), n:meas.pcaVec[2].slice()};
+  }
+  if(gridPlane==='screen'){
+    // world-space screen axes = ROWS of rot()'s matrix (rot is orthogonal, so screen axes map back
+    // via rotᵀ). Verified: a point built from these at (a,b) appears at screen (a,b) for any camera.
+    const cy=Math.cos(yaw), sy=Math.sin(yaw), cp=Math.cos(pitch), sp=Math.sin(pitch);
+    const u=[cy, 0, -sy];                 // screen-right
+    const v=[-sy*sp, cp, -cy*sp];         // screen-up
+    const n=[sy*cp, sp, cy*cp];           // into the screen
+    return {u, v, n};
+  }
+  // world coordinate planes
+  if(gridPlane==='XY') return {u:[1,0,0], v:[0,1,0], n:[0,0,1]};
+  if(gridPlane==='YZ') return {u:[0,1,0], v:[0,0,1], n:[1,0,0]};
+  if(gridPlane==='XZ') return {u:[1,0,0], v:[0,0,1], n:[0,1,0]};
+  return {u:[1,0,0], v:[0,1,0], n:[0,0,1]};
+}
+// helper: a draw-space point at in-plane coords (a,b) using the current basis, centered on origin.
+function planePt(basis, a, b){
+  return [basis.u[0]*a+basis.v[0]*b, basis.u[1]*a+basis.v[1]*b, basis.u[2]*a+basis.v[2]*b];
+}
+
+// ── SMART GRID — DEPENDENCY 2: basis-aware coordinate renderers ─────────────────────────
+// Each renderer draws in the plane given by planeBasis() at the scale given by gridUnit(), so they
+// all share plane + scale and overlay proportionally. They take no plane/scale of their own.
+// A small helper to stroke a polyline of in-plane (a,b) coords through the current projection.
+function gridStroke(basis, pts, close){
+  ox.beginPath();
+  for(let i=0;i<pts.length;i++){const w=planePt(basis,pts[i][0],pts[i][1]);const sp=proj(w);i===0?ox.moveTo(sp[0],sp[1]):ox.lineTo(sp[0],sp[1]);}
+  if(close) ox.closePath();
+  ox.stroke();
+}
+// ── LOD (level-of-detail) anti-moiré: when grid cells project below a few px they alias into
+// shimmer. Estimate on-screen cell size from the unit × effective zoom; return a draw flag + a
+// fade that ramps cells out gracefully between ~12px (full) and ~6px (gone). Below 6px we skip.
+function gridLOD(cellWorld){
+  const px = cellWorld * zoomF;            // approx on-screen pixels per cell (ortho-exact, persp-approx)
+  if(px < 6) return {draw:false, fade:0};
+  if(px < 12) return {draw:true, fade:(px-6)/6};   // linear ramp 6→12px
+  return {draw:true, fade:1};
+}
+
+// ── UNIFIED GRID BOUNDS — one source of truth all renderers derive from ─────────────────
+// Returns {unit, inner, outer, divisions}. ALL grids share these → identical bounds, so a feature
+// reads consistently across grid types (comparable). outer = the one unit (rmax, the form's extent);
+// the form fills exactly one unit. unit = one cell = outer/divisions. inner = the form's HOLE radius
+// (rmin) — used ONLY by log-polar (whose center is a singularity that maps the void); other grids
+// ignore it and fill through the center.
+function gridBounds(){
+  const s=mScale();
+  return {
+    unit: gridUnit(),
+    inner: (meas.rmin>1e-6? meas.rmin*s : 0),
+    outer: gridUnitRadius(),
+    divisions: Math.max(1,gridDivisions)
+  };
+}
+
+// CARTESIAN: square grid filling the one unit (±outer), divided into `divisions` cells per radius.
+function gridCartesian(basis){
+  const {unit:u, outer}=gridBounds(); if(u<1) return;
+  const lod=gridLOD(u); if(!lod.draw) return;
+  const n=Math.min(64,Math.ceil(outer/u));   // cells from center to edge
+  ox.strokeStyle=rgba(OK.sky,tierA('grid',0.16)*lod.fade); ox.lineWidth=1;
+  for(let i=-n;i<=n;i++){
+    gridStroke(basis, [[i*u,-n*u],[i*u,n*u]]);   // lines ∥ v
+    gridStroke(basis, [[-n*u,i*u],[n*u,i*u]]);   // lines ∥ u
+  }
+}
+// POLAR: concentric rings from center out to the unit edge, divided into `divisions` rings, + spokes.
+// Fills through the center (no hole) — polar can represent the origin fine; only log-polar maps the hole.
+function gridPolar(basis){
+  const {unit:u, outer}=gridBounds(); if(u<1) return;
+  ox.strokeStyle=rgba(OK.orange,tierA('grid',0.16)); ox.lineWidth=1;
+  for(let r=u; r<=outer+1e-6; r+=u){
+    const ring=[]; for(let t=0;t<=48;t++){const a=t/48*TAU; ring.push([r*Math.cos(a), r*Math.sin(a)]);} gridStroke(basis, ring);
+  }
+  for(let k=0;k<12;k++){const a=k*TAU/12; gridStroke(basis, [[0,0],[outer*Math.cos(a),outer*Math.sin(a)]]);}
+}
+// LOG-POLAR: the natural HOLE-MAPPING grid. A log-polar map has a singularity at its center (log 0),
+// so it inherently has a hole — anchored here to the FORM's hole (inner = rmin). Rings step
+// geometrically by the self-similar ratio (k+1) OUTWARD from the hole edge to the unit edge, so the
+// inner ring sits exactly on the void boundary and successive shells count the self-similar levels.
+// The form's void IS the grid's singularity → the hole is measured precisely. (Only this grid uses the hole.)
+function gridLogPolar(basis){
+  const {unit:u, inner, outer}=gridBounds(); if(u<1) return; const ratio=gridRingRatio();
+  const r0 = inner>1 ? inner : u/4;   // hole edge (or a small inner radius if the form has no hole yet)
+  // the hole-anchored inner ring, brighter (this IS the void boundary the grid maps)
+  { const ring=[]; for(let t=0;t<=64;t++){const a=t/64*TAU; ring.push([r0*Math.cos(a), r0*Math.sin(a)]);} ox.strokeStyle=rgba(OK.purple,tierA('feature',0.85)); ox.lineWidth=1.3; gridStroke(basis, ring); }
+  ox.strokeStyle=rgba(OK.green,tierA('grid',0.18)); ox.lineWidth=1;
+  for(let r=r0*ratio, nn=1; r<=outer+1e-6 && nn<24; r*=ratio, nn++){
+    const ring=[]; for(let t=0;t<=48;t++){const a=t/48*TAU; ring.push([r*Math.cos(a), r*Math.sin(a)]);} gridStroke(basis, ring);
+  }
+  for(let k=0;k<12;k++){const a=k*TAU/12; gridStroke(basis, [[r0*Math.cos(a),r0*Math.sin(a)],[outer*Math.cos(a),outer*Math.sin(a)]]);}
+}
+// HEX / triangular lattice contained within the one unit (clipped to radius = outer). Built from a 60°
+// lattice basis a=(u,0), b=(u/2,u√3/2) so the three line families share common vertices — connected
+// triangular cells, not overlapping stripes. Cell size = unit (= outer/divisions), so it scales with resolution.
+function gridHex(basis){
+  const {unit:u, outer}=gridBounds(); if(u<1) return;
+  const N=Math.min(40,Math.ceil(outer/u)+1);
+  const ax=u, ay=0, bx=u/2, by=u*Math.sqrt(3)/2;
+  const lod=gridLOD(u); if(!lod.draw) return;
+  ox.strokeStyle=rgba(OK.yellow,tierA('grid',0.16)*lod.fade); ox.lineWidth=1;
+  // clip each polyline to lattice points within the unit radius (contained within the unit)
+  const within=(x,y)=>Math.hypot(x,y)<=outer+u*0.6;
+  const seg=(pts)=>{ let run=[]; for(const p of pts){ if(within(p[0],p[1])) run.push(p); else { if(run.length>=2) gridStroke(basis,run); run=[]; } } if(run.length>=2) gridStroke(basis,run); };
+  for(let j=-N;j<=N;j++){ const pts=[]; for(let i=-N;i<=N;i++) pts.push([i*ax+j*bx, i*ay+j*by]); seg(pts); }
+  for(let i=-N;i<=N;i++){ const pts=[]; for(let j=-N;j<=N;j++) pts.push([i*ax+j*bx, i*ay+j*by]); seg(pts); }
+  for(let s2=-2*N;s2<=2*N;s2++){ const pts=[]; for(let i=-N;i<=N;i++){ const j=s2-i; if(j<-N||j>N) continue; pts.push([i*ax+j*bx, i*ay+j*by]); } seg(pts); }
+}
+// SPHERICAL: a sphere's lat/long grid (radius = form rmax) — fits the near-spherical geometry.
+// This one is inherently 3D (not a flat plane), but we orient its pole along the plane normal so it
+// rotates with the chosen plane. Reads radial shells + meridians.
+function gridSpherical(basis){
+  const s=mScale(); const R=meas.rmax*s; if(R<2) return;
+  const n=basis.n, u=basis.u, v=basis.v;   // pole = normal, equator spanned by u,v
+  const div=Math.max(2,gridDivisions);     // subdivide like every other grid: `divisions` bands
+  const P=(lat,lon)=>{ const cl=Math.cos(lat), sl=Math.sin(lat);
+    const a=R*cl*Math.cos(lon), b=R*cl*Math.sin(lon), c=R*sl;
+    return [u[0]*a+v[0]*b+n[0]*c, u[1]*a+v[1]*b+n[1]*c, u[2]*a+v[2]*b+n[2]*c]; };
+  ox.strokeStyle=rgba(OK.vermillion,tierA('grid',0.16)); ox.lineWidth=1;
+  // parallels: `div` latitude rings between the poles (excluding the poles themselves)
+  for(let la=1;la<div;la++){const lat=-Math.PI/2+la*Math.PI/div; ox.beginPath();
+    for(let t=0;t<=48;t++){const lon=t/48*TAU;const sp=proj(P(lat,lon));t===0?ox.moveTo(sp[0],sp[1]):ox.lineTo(sp[0],sp[1]);}ox.stroke();}
+  // meridians: `div×2` longitude half-circles (longitude spans 2× the latitude range → square-ish cells)
+  const mer=div*2;
+  for(let lo=0;lo<mer;lo++){const lon=lo*TAU/mer; ox.beginPath();
+    for(let t=0;t<=48;t++){const lat=-Math.PI/2+t/48*Math.PI;const sp=proj(P(lat,lon));t===0?ox.moveTo(sp[0],sp[1]):ox.lineTo(sp[0],sp[1]);}ox.stroke();}
+}
+// PCA grid in the new system = a cartesian grid whose basis is forced to the PCA frame, regardless
+// of the plane selector (a convenience to always read in the form's own axes).
+function gridPCA(){
+  if(!meas.pcaVec) return;
+  gridCartesian({u:meas.pcaVec[0], v:meas.pcaVec[1], n:meas.pcaVec[2]});
+}
+
+function mPt(world){ // map a raw-world measurement point into draw space
+  if(normalize&&meas.rmax>1e-6){const s=100/meas.rmax;return [(world[0]-meas.com[0])*s,(world[1]-meas.com[1])*s,(world[2]-meas.com[2])*s];}
+  return world;
+}
+function drawBBox(){
+  const a=meas.bbMin, b=meas.bbMax;
+  const cs=[[a[0],a[1],a[2]],[b[0],a[1],a[2]],[b[0],b[1],a[2]],[a[0],b[1],a[2]],[a[0],a[1],b[2]],[b[0],a[1],b[2]],[b[0],b[1],b[2]],[a[0],b[1],b[2]]];
+  const E=[[0,1],[1,2],[2,3],[3,0],[4,5],[5,6],[6,7],[7,4],[0,4],[1,5],[2,6],[3,7]];
+  const P=cs.map(c=>proj(mPt(c)));
+  ox.strokeStyle=rgba(OK.green,tierA('feature',0.7));ox.lineWidth=1;
+  for(const [i,j] of E){ox.beginPath();ox.moveTo(P[i][0],P[i][1]);ox.lineTo(P[j][0],P[j][1]);ox.stroke();}
+}
+function drawCOM(){
+  const c=proj(mPt(meas.com));
+  ox.fillStyle=rgba(OK.vermillion,tierA('annot',0.9));ox.beginPath();ox.arc(c[0],c[1],4,0,7);ox.fill();
+  ox.strokeStyle=rgba(OK.vermillion,tierA('annot',0.7));ox.lineWidth=1;ox.beginPath();ox.arc(c[0],c[1],8,0,7);ox.stroke();
+}
+function drawRadiusRings(){
+  const s=mScale();
+  // outer radius: single flat reference ring (orange)
+  const ro=meas.rmax*s;
+  if(ro>=2){
+    ox.strokeStyle=rgba(OK.orange,tierA('annot',0.75));ox.lineWidth=1;ox.setLineDash([2,3]);
+    ox.beginPath();
+    for(let i=0;i<=48;i++){const a=i/48*TAU;const p=proj([ro*Math.cos(a),ro*Math.sin(a),0]);i===0?ox.moveTo(p[0],p[1]):ox.lineTo(p[0],p[1]);}
+    ox.stroke();ox.setLineDash([]);
+  }
+  // central HOLE: render rmin as a small 3D sphere (three great circles) so the void reads
+  // volumetrically, not as a flat ring. This is the spherical hole the cycle opens.
+  const rh=meas.rmin*s;
+  if(rh>=2){
+    ox.strokeStyle=rgba(OK.purple,tierA('feature',0.8));ox.lineWidth=1;ox.setLineDash([2,3]);
+    const planes=[[0,1],[1,2],[0,2]];
+    for(const [i,j] of planes){
+      ox.beginPath();
+      for(let s2=0;s2<=48;s2++){const a=s2/48*TAU;const q=[0,0,0];q[i]=rh*Math.cos(a);q[j]=rh*Math.sin(a);const p=proj(q);s2===0?ox.moveTo(p[0],p[1]):ox.lineTo(p[0],p[1]);}
+      ox.stroke();
+    }
+    ox.setLineDash([]);
+  }
+}
+// STACKED-LEVELS OVERLAY — draw the form's locus at EVERY level 1→current, superimposed in the current
+// frame (fainter for earlier levels, brightest at current). Shows the accumulation/progression as layers.
+// Uses the same Weyl sampling as the measurement; normalizes with the LIVE meas so all levels share one
+// frame (earlier levels are smaller — the form grows by (k+1)/cycle, so they nest inside the current one).
+let _stackFP=[];   // per-level fingerprints captured during the last stacked draw (for optional log-folding)
+function drawStackedLevels(){
+  const target=Math.max(1,rung); if(target<2) return;       // nothing to stack at L1
+  const saveRung=rung, savePh=ph.slice();
+  const s=mScale(); const com=meas.com;                      // LIVE normalize frame (shared by all layers)
+  const NS=420;                                              // samples per level (lighter than the 1200 measure)
+  const alpha=new Array(MAXROT); for(let kk=0;kk<MAXROT;kk++) alpha[kk]=TAU*Math.sqrt(_WEYL_PRIMES[kk%_WEYL_PRIMES.length]);
+  _stackFP=[];
+  for(let L=1; L<=target; L++){
+    rung=L;
+    // opacity ramp: earliest level faintest, current brightest
+    const f=(L)/(target);                                    // 0..1
+    const alphaDot=0.06 + 0.5*f*f;                            // quadratic ramp → earlier much fainter
+    // hue: earlier cool→ current warm (subtle), all low-key so the live beam stays dominant
+    const col=[90+120*f, 150, 210-60*f];
+    ox.fillStyle=rgba(col, tierA('annot', alphaDot));
+    const rDot=0.7+1.0*f;                                    // current level slightly larger dots
+    for(let sN=0; sN<NS; sN++){
+      for(let kk=0; kk<MAXROT; kk++) ph[kk]=(sN*alpha[kk])%TAU;
+      const praw=buildRaw();
+      const p=[ (praw[0]-com[0])*s, (praw[1]-com[1])*s, (praw[2]-com[2])*s ];
+      const sp=proj(p);
+      ox.beginPath(); ox.arc(sp[0],sp[1],rDot,0,7); ox.fill();
+    }
+  }
+  rung=saveRung; for(let i=0;i<ph.length;i++) ph[i]=savePh[i];
+}
+// ══ ROTATION NUMBER + RESONANCE (Slice 7) — verified headless in rotnum_test.py ══════════════════════
+// The levels rotate at rate (1/ratio)^k, so adjacent levels' frequency ratio is 1/ratio (constant). Its
+// continued fraction tells us: commensurate (rational → orbit CLOSES, periodic) vs incommensurate (fills the
+// torus, quasiperiodic), and HOW irrational (all-small CF terms, esp. all-1s = φ = "most irrational"). The
+// convergents are the nearest rational approximations (the low-order resonances the orbit sits near).
+function _continuedFraction(x, n){
+  const cf=[]; let v=x;
+  for(let i=0;i<n;i++){ const a=Math.floor(v); cf.push(a); const frac=v-a; if(frac<1e-12) break; v=1/frac; }
+  return cf;
+}
+function _convergents(cf){
+  const res=[]; let h0=0,h1=1,k0=1,k1=0;
+  for(const a of cf){ const h=a*h1+h0, kk=a*k1+k0; res.push([h,kk]); h0=h1;h1=h;k0=k1;k1=kk; }
+  return res;
+}
+function rotationAnalysis(){
+  const ratio=(RATIOS[rateRatioId]||{base:Math.PI}).base;
+  const rn=((1/ratio)%1+1)%1;                         // adjacent-level frequency ratio, fractional part
+  const cf=_continuedFraction(rn, 10);
+  const conv=_convergents(cf).slice(0,6);
+  // commensurate iff ratio is (numerically) rational → CF terminates fast & a convergent reproduces it
+  let commensurate=false, closesAt=null;
+  for(const [p,q] of conv){ if(q>0 && Math.abs(rn - p/q) < 1e-9){ commensurate=true; closesAt=[p,q]; break; } }
+  // irrationality character from the CF tail (ignore leading 0): all 1s = golden = hardest; large terms = near a low-order rational
+  const tail=cf.slice(1).filter(a=>a>0);
+  const maxTerm=tail.length?Math.max(...tail):0;
+  const allOnes=tail.length>=3 && tail.slice(0,4).every(a=>a===1);
+  let character;
+  if(commensurate) character='commensurate (orbit closes → periodic)';
+  else if(allOnes) character='strongly irrational (φ-like all-1s CF → hardest to approximate, fills torus most evenly)';
+  else if(maxTerm>=15) character='near a low-order resonance (large CF term → close to a simple rational)';
+  else character='incommensurate (quasiperiodic, fills the torus)';
+  return { ratio, ratioLabel:(RATIOS[rateRatioId]||{}).label||(''+ratio.toFixed(4)), rn, cf, conv, commensurate, closesAt, character };
+}
+// ══ ANALYTICAL REFERENCE FORMS (rung 2, immediately measurable with the caliper) ══════════════════════
+// Each is a KNOWN shape tied to the construction's real structure — drawn to compare/measure the trajectory
+// against. (Generative target forms like Platonic solids are a SEPARATE future track — see integration_plan.)
+
+// SPHERE — the ISOTROPY NULL: a perfectly round sphere at the form's outer radius (3 great circles). Unlike
+// the ellipsoid (which fits the data's anisotropy), this is the "perfectly round" reference to measure
+// deviation FROM. Ties to the k=2 spherical-hole condition. Cyan, dashed.
+function drawRefSphere(){
+  const s=mScale(); const R=meas.rmax*s; if(R<2) return;
+  const com=mPt(meas.com);
+  ox.strokeStyle=rgba(OK.sky,tierA('annot',0.55)); ox.lineWidth=1; ox.setLineDash([3,4]);
+  const planes=[[0,1],[1,2],[0,2]];
+  for(const [i,j] of planes){ ox.beginPath();
+    for(let t=0;t<=64;t++){const a=t/64*TAU;const q=com.slice();q[i]=com[i]+R*Math.cos(a);q[j]=com[j]+R*Math.sin(a);const p=proj(q);t===0?ox.moveTo(p[0],p[1]):ox.lineTo(p[0],p[1]);}
+    ox.stroke(); }
+  ox.setLineDash([]);
+}
+// TORUS — the LINEAGE shape (point→circle→sphere→torus). Major radius = midpoint of hole & outer (the orbit
+// scale), minor (tube) = half the shell thickness (outer−hole)/2. Lets you ask "is this toroidal, and with
+// what aspect ratio?" Drawn as meridian rings + equatorial guides in the selected plane. Purple, dashed.
+function drawRefTorus(){
+  const s=mScale(); const ro=meas.rmax*s, rh=meas.rmin*s; if(ro<2) return;
+  const Rmaj=(ro+rh)/2, rmin=Math.max(1,(ro-rh)/2);     // major = orbit scale, minor = shell half-thickness
+  const com=mPt(meas.com); const B=planeBasis();
+  const P=(thMaj,thMin)=>{ const rr=Rmaj+rmin*Math.cos(thMin), zz=rmin*Math.sin(thMin);
+    const a=rr*Math.cos(thMaj), b=rr*Math.sin(thMaj);
+    return [com[0]+B.u[0]*a+B.v[0]*b+B.n[0]*zz, com[1]+B.u[1]*a+B.v[1]*b+B.n[1]*zz, com[2]+B.u[2]*a+B.v[2]*b+B.n[2]*zz]; };
+  ox.strokeStyle=rgba(OK.purple,tierA('annot',0.5)); ox.lineWidth=1; ox.setLineDash([3,4]);
+  // 8 meridian (tube) rings around the major circle
+  for(let m=0;m<8;m++){ const thMaj=m/8*TAU; ox.beginPath();
+    for(let t=0;t<=32;t++){const thMin=t/32*TAU;const p=proj(P(thMaj,thMin));t===0?ox.moveTo(p[0],p[1]):ox.lineTo(p[0],p[1]);}
+    ox.stroke(); }
+  // outer + inner equatorial guide circles (the torus silhouette in-plane)
+  for(const tube of [0, Math.PI]){ ox.beginPath();
+    for(let t=0;t<=64;t++){const thMaj=t/64*TAU;const p=proj(P(thMaj,tube));t===0?ox.moveTo(p[0],p[1]):ox.lineTo(p[0],p[1]);}
+    ox.stroke(); }
+  ox.setLineDash([]);
+}
+// ORBIT-CIRCLE REFERENCES — the construction's OWN radial rulers: concentric circles at the verified
+// self-similar radii D·(k+1)^c per cycle (the (k+1) growth law). Reading a point against these tells you
+// which cycle-shell it sits in. Drawn in the selected plane. Green, dotted.
+function drawOrbitRefs(){
+  const s=mScale(); const D=(vals.rad||80)*s; if(D<2) return;
+  const Rmax=meas.rmax*s*1.02; const ratio=gridRingRatio();   // (k+1) when self-scaling
+  const com=mPt(meas.com); const B=planeBasis();
+  ox.strokeStyle=rgba(OK.green,tierA('grid',0.45)); ox.lineWidth=1; ox.setLineDash([1,3]);
+  for(let r=D, n=0; r<=Rmax+1 && n<16; r*=ratio, n++){ ox.beginPath();
+    for(let t=0;t<=64;t++){const a=t/64*TAU; const x=r*Math.cos(a), y=r*Math.sin(a);
+      const p=proj([com[0]+B.u[0]*x+B.v[0]*y, com[1]+B.u[1]*x+B.v[1]*y, com[2]+B.u[2]*x+B.v[2]*y]);
+      t===0?ox.moveTo(p[0],p[1]):ox.lineTo(p[0],p[1]);}
+    ox.stroke(); }
+  ox.setLineDash([]);
+}
+// PCA principal axes: the eigenvectors of the covariance tensor, scaled by 2·√λ (≈ spread),
+// drawn from the center of mass. Reveals the form's intrinsic orientation & anisotropy.
+// PCA ELLIPSOID: the form's covariance rendered as a wireframe ellipsoid — semi-axes = 2·√λ along
+// the eigenvectors, centered on the COM. This is the anisotropy made visible: a sphere when the
+// three λ are equal, an ellipsoid when they differ, reorienting as the eigenframe rotates over time.
+function drawEllipsoid(){
+  if(!meas.pcaVal||!meas.pcaVec) return;
+  const s=mScale();
+  const com=mPt(meas.com);
+  const ax=[0,1,2].map(a=>2*Math.sqrt(Math.max(0,meas.pcaVal[a]))*s);   // semi-axis lengths
+  const V=meas.pcaVec;   // V[a] = eigenvector a (a 3-vector)
+  // map a unit-sphere point (in principal coords u,v,w) to world: com + Σ axis[a]*coord[a]*V[a]
+  const toWorld=(u,v,w)=>{
+    const cc=[u*ax[0], v*ax[1], w*ax[2]];
+    return [ com[0]+cc[0]*V[0][0]+cc[1]*V[1][0]+cc[2]*V[2][0],
+             com[1]+cc[0]*V[0][1]+cc[1]*V[1][1]+cc[2]*V[2][1],
+             com[2]+cc[0]*V[0][2]+cc[1]*V[1][2]+cc[2]*V[2][2] ];
+  };
+  ox.strokeStyle=rgba(OK.vermillion,tierA('feature',0.7)); ox.lineWidth=1;
+  // longitude rings (vary the principal-1/principal-2 angle at fixed principal-3 latitude)
+  const NLAT=5, NLON=8, SEG=40;
+  for(let la=1;la<NLAT;la++){
+    const lat=-Math.PI/2 + la*Math.PI/NLAT; const w=Math.sin(lat), r=Math.cos(lat);
+    ox.beginPath();
+    for(let t=0;t<=SEG;t++){const a=t/SEG*TAU; const sp=proj(toWorld(r*Math.cos(a), r*Math.sin(a), w)); t===0?ox.moveTo(sp[0],sp[1]):ox.lineTo(sp[0],sp[1]);}
+    ox.stroke();
+  }
+  for(let lo=0;lo<NLON;lo++){
+    const lon=lo*TAU/NLON;
+    ox.beginPath();
+    for(let t=0;t<=SEG;t++){const a=-Math.PI/2+t/SEG*Math.PI; const w=Math.sin(a),r=Math.cos(a); const sp=proj(toWorld(r*Math.cos(lon), r*Math.sin(lon), w)); t===0?ox.moveTo(sp[0],sp[1]):ox.lineTo(sp[0],sp[1]);}
+    ox.stroke();
+  }
+}
+
+// SUPERQUADRIC GLYPH (Kindlmann tensor glyph, Slice 5) — verified surface math in superquad_test.py.
+// Same eigen-orientation + 2√λ semi-axes as the ellipsoid, but the unit surface is a SUPERELLIPSOID whose
+// edge sharpness encodes anisotropy: exponents α=(1−cp)^γ, β=(1−cl)^γ (γ≈3). Round when isotropic, a sharp
+// ridge when linear, a sharp disc when planar — the shape-type reads unambiguously from ANY viewpoint
+// (an ellipsoid can look spherical from a bad angle; this can't).
+function drawSuperquadric(){
+  if(!meas.pcaVal||!meas.pcaVec) return;
+  const s=mScale(); const com=mPt(meas.com);
+  // sorted eigenvalues → Westin cl/cp (same formulas as the panel)
+  const lam=[Math.max(0,meas.pcaVal[0]),Math.max(0,meas.pcaVal[1]),Math.max(0,meas.pcaVal[2])];
+  const tr=lam[0]+lam[1]+lam[2]||1e-9;
+  const cl=(lam[0]-lam[1])/tr, cp=2*(lam[1]-lam[2])/tr;
+  const gamma=3.0;
+  const alpha=Math.pow(Math.max(1e-3,1-cp), gamma);   // floor avoids 0^0 / degenerate facets
+  const beta =Math.pow(Math.max(1e-3,1-cl), gamma);
+  const ax=[0,1,2].map(a=>2*Math.sqrt(lam[a])*s);     // semi-axes (same as ellipsoid)
+  const V=meas.pcaVec;
+  const sgnpow=(x,p)=>{ const a=Math.abs(x); return a<1e-9?0:Math.sign(x)*Math.pow(a,p); };
+  // unit superellipsoid point in principal coords (z = major axis P1 → ridge aligns to P1 for linear)
+  const toWorld=(u,v,w)=>{
+    const cc=[u*ax[0], v*ax[1], w*ax[2]];
+    return [ com[0]+cc[0]*V[0][0]+cc[1]*V[1][0]+cc[2]*V[2][0],
+             com[1]+cc[0]*V[0][1]+cc[1]*V[1][1]+cc[2]*V[2][1],
+             com[2]+cc[0]*V[0][2]+cc[1]*V[1][2]+cc[2]*V[2][2] ];
+  };
+  // map (θ,φ) → superellipsoid: principal-3 axis gets sgnpow(sinθ,β); the P1/P2 plane uses α
+  const SQ=(th,ph)=>{ const ct=Math.cos(th), st=Math.sin(th), cph=Math.cos(ph), sph=Math.sin(ph);
+    const x=sgnpow(ct,beta)*sgnpow(cph,alpha);
+    const y=sgnpow(ct,beta)*sgnpow(sph,alpha);
+    const z=sgnpow(st,beta);
+    return toWorld(x,y,z); };
+  ox.strokeStyle=rgba(OK.vermillion,tierA('feature',0.8)); ox.lineWidth=1;
+  const NLAT=6, NLON=12, SEG=44;
+  for(let la=1;la<NLAT;la++){
+    const th=-Math.PI/2 + la*Math.PI/NLAT;
+    ox.beginPath();
+    for(let t=0;t<=SEG;t++){ const ph=-Math.PI+t/SEG*TAU; const sp=proj(SQ(th,ph)); t===0?ox.moveTo(sp[0],sp[1]):ox.lineTo(sp[0],sp[1]); }
+    ox.stroke();
+  }
+  for(let lo=0;lo<NLON;lo++){
+    const ph=-Math.PI+lo*TAU/NLON;
+    ox.beginPath();
+    for(let t=0;t<=SEG;t++){ const th=-Math.PI/2+t/SEG*Math.PI; const sp=proj(SQ(th,ph)); t===0?ox.moveTo(sp[0],sp[1]):ox.lineTo(sp[0],sp[1]); }
+    ox.stroke();
+  }
+}
+
+function drawPCA(){
+  const s=mScale();
+  const com=mPt(meas.com);
+  const cols=[rgba(OK.purple,0.9),rgba(OK.orange,0.9),rgba(OK.sky,0.9)];
+  for(let a=0;a<3;a++){
+    const len=2*Math.sqrt(Math.max(0,meas.pcaVal[a]))*s; if(len<2)continue;
+    const v=meas.pcaVec[a];
+    const p1=proj([com[0]+v[0]*len, com[1]+v[1]*len, com[2]+v[2]*len]);
+    const p2=proj([com[0]-v[0]*len, com[1]-v[1]*len, com[2]-v[2]*len]);
+    ox.strokeStyle=cols[a]; ox.lineWidth=2; ox.setLineDash([5,3]);
+    ox.beginPath();ox.moveTo(p1[0],p1[1]);ox.lineTo(p2[0],p2[1]);ox.stroke();ox.setLineDash([]);
+    ox.fillStyle=cols[a]; ox.font='10px ui-monospace,monospace';
+    ox.fillText('P'+(a+1), p1[0]+4, p1[1]);
+  }
+}
+
+// VECTOR EQUILIBRIUM (cuboctahedron): the unique 12-around-1 config where all vertices are
+// equidistant from center AND from neighbors — the isotropy ideal. Drawn at the form's radius as
+// a reference: a clean sphere/isotropic form sits symmetrically inside it; anisotropy = deviation.
+// Its companion readout is the PCA anisotropy ratio (= "distance from equilibrium").
+// Cuboctahedron vertices = perms of (±1,±1,0), oriented so the Z view looks down a 3-FOLD axis —
+// giving the full hexagonal cross-section with all 12 vertices distinct (6 outer + 6 inner, every 30°),
+// the recognizable "12 around 1". (The axis-aligned orientation collapses to a flat square/diamond from
+// Z; the body-diagonal orientation shows the true 3D form.) Still |v|=√2 with 24 equal edges.
+const VE_VERTS=(()=>{
+  const raw=[]; for(const a of [1,-1])for(const b of [1,-1]){raw.push([a,b,0]);raw.push([a,0,b]);raw.push([0,a,b]);}
+  const nrmv=v=>{const n=Math.hypot(v[0],v[1],v[2]);return [v[0]/n,v[1]/n,v[2]/n];};
+  const w=nrmv([1,1,1]);                              // 3-fold axis → new +Z (view direction)
+  const u=nrmv([1,-1,0]);                             // any perpendicular → new +X
+  const vv=[w[1]*u[2]-w[2]*u[1], w[2]*u[0]-w[0]*u[2], w[0]*u[1]-w[1]*u[0]];  // new +Y = w×u
+  return raw.map(p=>[u[0]*p[0]+u[1]*p[1]+u[2]*p[2], vv[0]*p[0]+vv[1]*p[1]+vv[2]*p[2], w[0]*p[0]+w[1]*p[1]+w[2]*p[2]]);
+})();
+// ── VE as ANGULAR REFERENCE (protractor): the 12 vertex directions are an exact known symmetry frame.
+// Measure a direction's angle to the NEAREST VE vertex ray (abs(dot) → ray+antipode = one axis, since a
+// symmetry direction and its opposite are equivalent). 0° = aligned to a VE symmetry ray; max ~35° gap.
+const VE_DIRS=VE_VERTS.map(v=>{const n=Math.hypot(v[0],v[1],v[2])||1;return [v[0]/n,v[1]/n,v[2]/n];});
+function angleToNearestVE(dir){
+  const n=Math.hypot(dir[0],dir[1],dir[2]); if(n<1e-9) return {deg:0, idx:-1};
+  const d=[dir[0]/n,dir[1]/n,dir[2]/n]; let best=999, bi=-1;
+  for(let i=0;i<VE_DIRS.length;i++){
+    const dot=Math.max(-1,Math.min(1, d[0]*VE_DIRS[i][0]+d[1]*VE_DIRS[i][1]+d[2]*VE_DIRS[i][2]));
+    const ang=Math.acos(Math.abs(dot))*180/Math.PI;
+    if(ang<best){best=ang;bi=i;}
+  }
+  return {deg:best, idx:bi};
+}
+// ── CALIPER (Slice 3): feature registry + snapping. Endpoints snap ONLY to real 3D features (no
+// arbitrary points → no depth ambiguity; every measurement is relational). Positions in DRAW space.
+function caliperFeatures(){
+  const F=[];
+  F.push({name:'origin', p:[0,0,0]});
+  F.push({name:'COM', p:nrm(meas.com)});                         // com is raw → nrm to draw space
+  if(meas.curPt) F.push({name:'point', p:meas.curPt.slice()});   // already draw space
+  if(p2on && meas.curP2) F.push({name:'point2', p:meas.curP2.slice()});
+  if(meas.pcaVec && meas.pcaVal){
+    const s = (normalize && meas.rmax>1e-6) ? 100/meas.rmax : 1;  // draw-space scale
+    const com = nrm(meas.com); const labs=['maj','mid','min'];
+    for(let a=0;a<3;a++){
+      const ext=2*Math.sqrt(Math.max(0,meas.pcaVal[a]))*s;        // 2σ vertex in draw space
+      const v=meas.pcaVec[a];
+      F.push({name:'+'+labs[a], p:[com[0]+v[0]*ext,com[1]+v[1]*ext,com[2]+v[2]*ext]});
+      F.push({name:'-'+labs[a], p:[com[0]-v[0]*ext,com[1]-v[1]*ext,com[2]-v[2]*ext]});
+    }
+  }
+  if(document.getElementById('veChk') && document.getElementById('veChk').checked){
+    const s=(normalize && meas.rmax>1e-6)?100/meas.rmax:1; const R=(meas.rmax||80)*s;
+    VE_DIRS.forEach((d,i)=>F.push({name:'VE'+i, p:[d[0]*R,d[1]*R,d[2]*R]}));
+  }
+  return F;
+}
+// nearest feature to a screen (canvas-local) point, by PROJECTED distance. Returns {feature, dist}.
+// keep the caliper target dropdown in sync with currently-available features (VE verts appear only when
+// VE is shown, point2 only when beam-2 is on, etc.). Preserves the current selection when possible.
+let _calTargetCache='';
+function refreshCaliperTargets(){
+  const sel=document.getElementById('calTarget'); if(!sel) return;
+  const names=caliperFeatures().map(f=>f.name).filter(n=>n!=='point');   // can't measure point→point
+  const key=names.join(',');
+  if(key===_calTargetCache) return;                 // unchanged → don't rebuild (avoids clobbering)
+  _calTargetCache=key;
+  const opts=names.map(n=>'<option value="'+n+'">'+n+'</option>').join('');
+  const prev=sel.value;
+  sel.innerHTML=opts;
+  if(names.includes(prev)) sel.value=prev; else if(names.includes('COM')) sel.value='COM';
+  // third point (calC) — same feature list; default to a DIFFERENT feature than the target if possible
+  const selC=document.getElementById('calC');
+  if(selC){ const prevC=selC.value; selC.innerHTML=opts;
+    if(names.includes(prevC)) selC.value=prevC; else selC.value = names.find(n=>n!==sel.value) || names[0]; }
+}
+// mode switch: show/hide the 3-point-only controls + relabel the target as 'A' in 3-point mode
+function syncCaliperMode(){
+  const m=(document.getElementById('calMode')||{}).value||'2';
+  const tri=(m==='3');
+  document.querySelectorAll('.tri-only').forEach(el=>{ el.style.display = tri?'':'none'; });
+  const lbl=document.getElementById('calTargetLbl'); if(lbl) lbl.textContent = tri?'A':'target';
+  // cross-system is 2-point-only (triangle quantities are coordinate-free) — disable it in 3-point mode
+  const xs=document.getElementById('calXsysChk'); if(xs){ xs.disabled=tri; if(tri) xs.checked=false; }
+}
+function caliperTargetPos(){
+  const sel=document.getElementById('calTarget'); if(!sel) return null;
+  const f=caliperFeatures().find(x=>x.name===sel.value);
+  return f? f.p : null;
+}
+// VIEW PIVOT: populate the center dropdown from the feature set + resolve the selected pivot into viewPivot.
+// The form is normalized COM-centered, so COM→[0,0,0] (the default, unchanged behavior); origin maps to the
+// negative-COM draw point; any other feature → its own draw-space position (camera then orbits around it).
+let _pivotCache='';
+function refreshPivot(){
+  const sel=document.getElementById('pivotSel'); if(!sel) return;
+  const feats=caliperFeatures();
+  const names=feats.map(f=>f.name);
+  const key=names.join(',');
+  if(key!==_pivotCache){ _pivotCache=key; const prev=sel.value;
+    sel.innerHTML=names.map(n=>'<option value="'+n+'">'+n+'</option>').join('');
+    sel.value = names.includes(prev)?prev:(names.includes('COM')?'COM':names[0]); }
+  // resolve current selection → viewPivot. 'COM' is the normalized center → [0,0,0]; others use their draw pt.
+  if(sel.value==='COM'){ viewPivot=[0,0,0]; }
+  else { const f=feats.find(x=>x.name===sel.value); viewPivot = f ? f.p.slice() : [0,0,0]; }
+}
+function calCPos(){   // the third point (C) for 3-point mode
+  const sel=document.getElementById('calC'); if(!sel) return null;
+  const f=caliperFeatures().find(x=>x.name===sel.value);
+  return f? f.p : null;
+}
+// ══ CALIPER MEASUREMENT ENGINE (rung 2) — verified headless in caliper_verify.py / caliper_obs.py ══
+// AXIOMS: the 3D position is the INVARIANT; each ruler is a CHART on it. Reports BOTH the metric distance
+// (true geometric) and the coordinate-Δ (raw chart-number difference) per chart. OBSERVED regime applies the
+// grid-locked warp (focal/stereoR/mode, depth = component along the SELECTED grid's normal — NOT the display
+// camera; orbiting never changes a reading). DISTORTION = observed − true. calFrame: 'world' or 'pca' picks
+// which basis the chart is laid in (planeBasis already supplies the selected plane's basis).
+function calBasis(){ return planeBasis(); }                 // {u,v,n} for the selected grid plane/frame
+function calUnit(){ const gb=gridBounds(); return {unit:gb.unit>1e-6?gb.unit:1, inner:gb.inner>1e-6?gb.inner:1, outer:gb.outer>1e-6?gb.outer:1, ratio:gridRingRatio()}; }
+// off-plane depth (along the grid normal) of a draw-space point — the caliper's own grid-locked depth
+function calDepth(p){ const B=calBasis(); return p[0]*B.n[0]+p[1]*B.n[1]+p[2]*B.n[2]; }
+// grid-locked observation warp factor (matches proj(); ortho/iso=1, perspective/stereo foreshorten by depth)
+function calWarp(depth){
+  const m=gridProj;
+  if(m==='ortho'||m==='iso') return 1;
+  if(m==='stereo'){ const R=stereoR, d=R+depth; return Math.abs(d)>1e-3? R/d : R/1e-3; }
+  return focalLength/(focalLength+depth);
+}
+// express a draw-space point in the chosen ruler's coords (TRUE = warp-free; OBSERVED = in-plane warped).
+// Returns {comp:{...named components...}, vec3:[x,y,z in basis frame, for the metric]}.
+function calChart(p, ruler, observed){
+  const B=calBasis(), U=calUnit();
+  let pu=p[0]*B.u[0]+p[1]*B.u[1]+p[2]*B.u[2];
+  let pv=p[0]*B.v[0]+p[1]*B.v[1]+p[2]*B.v[2];
+  const pn=p[0]*B.n[0]+p[1]*B.n[1]+p[2]*B.n[2];
+  if(observed){ const mf=calWarp(pn); pu*=mf; pv*=mf; }       // grid-locked foreshortening (in-plane only)
+  const r=Math.hypot(pu,pv), th=(Math.atan2(pv,pu)*180/Math.PI+360)%360;
+  if(ruler==='cartesian') return {comp:{x:pu/U.outer, y:pv/U.outer}, vec3:[pu,pv,pn]};
+  if(ruler==='polar')     return {comp:{r:r/U.outer, θ:th},          vec3:[pu,pv,pn]};
+  if(ruler==='logpolar'){ const ring=(r>1e-6&&U.inner>1e-6)?Math.log(r/U.inner)/Math.log(U.ratio):0;
+                          return {comp:{ring:ring, θ:th},            vec3:[pu,pv,pn]}; }
+  if(ruler==='spherical'){ const R3=Math.hypot(pu,pv,pn);
+                           const lat=R3>1e-6?Math.asin(Math.max(-1,Math.min(1,pn/R3)))*180/Math.PI:0;
+                           const lon=th; return {comp:{r:R3/U.outer, lat:lat, lon:lon}, vec3:[pu,pv,pn]}; }
+  return {comp:{x:pu/U.outer, y:pv/U.outer}, vec3:[pu,pv,pn]};
+}
+// full caliper reading: dot → target, in the chosen ruler, TRUE + OBSERVED + distortion. Distances in unit
+// fractions (÷ outer radius). The invariant is the warp-free 3D distance (ruler-independent anchor).
+function caliperMeasure(){
+  if(!meas.curPt) return null; const tp=caliperTargetPos(); if(!tp) return null;
+  const A=meas.curPt, Bp=tp;
+  const ruler=(document.getElementById('calRuler')||{}).value||'polar';
+  const U=calUnit();
+  const invariant=Math.hypot(A[0]-Bp[0],A[1]-Bp[1],A[2]-Bp[2])/U.outer;   // true 3D distance (unit-frac)
+  const caT=calChart(A,ruler,false), cbT=calChart(Bp,ruler,false);        // TRUE chart coords
+  const caO=calChart(A,ruler,true),  cbO=calChart(Bp,ruler,true);         // OBSERVED chart coords
+  const dvecT=[caT.vec3[0]-cbT.vec3[0],caT.vec3[1]-cbT.vec3[1],caT.vec3[2]-cbT.vec3[2]];
+  const dvecO=[caO.vec3[0]-cbO.vec3[0],caO.vec3[1]-cbO.vec3[1],caO.vec3[2]-cbO.vec3[2]];
+  const metricT=Math.hypot(...dvecT)/U.outer, metricO=Math.hypot(...dvecO)/U.outer;
+  // coordinate-Δ per named component (raw chart-number differences, both endpoints)
+  const dcomp={}; for(const k of Object.keys(caT.comp)){
+    let d=caT.comp[k]-cbT.comp[k];
+    if(k==='θ'||k==='lon'||k==='lat'){ d=((d+540)%360)-180; }              // shortest angular Δ
+    dcomp[k]=d;
+  }
+  return { ruler, invariant, metricTrue:metricT, metricObs:metricO,
+           distortion:metricO-metricT, comp:dcomp, frame:gridPlane };
+}
+// ══ STEP 4 — CROSS-SYSTEM READOUT ══════════════════════════════════════════════════════════════════════
+// Measure the SAME endpoints (dot→target) in ALL four rulers at once. Every chart reads the same invariant 3D
+// separation in its own terms — so their TRUE metrics should agree (the residual spread = "breathing", the
+// convergence measure from Step 1b, here shown live). Each chart also gets its OBSERVED metric + distortion.
+// This is the caliper's whole thesis on one panel: many charts, one invariant, quantified agreement + warp.
+function caliperCrossSystem(){
+  if(!meas.curPt) return null; const tp=caliperTargetPos(); if(!tp) return null;
+  const A=meas.curPt, Bp=tp; const U=calUnit();
+  const invariant=Math.hypot(A[0]-Bp[0],A[1]-Bp[1],A[2]-Bp[2])/U.outer;   // the ruler-independent anchor
+  const rulers=['cartesian','polar','logpolar','spherical'];
+  const rows=rulers.map(r=>{
+    const caT=calChart(A,r,false), cbT=calChart(Bp,r,false);
+    const caO=calChart(A,r,true),  cbO=calChart(Bp,r,true);
+    const mT=Math.hypot(caT.vec3[0]-cbT.vec3[0],caT.vec3[1]-cbT.vec3[1],caT.vec3[2]-cbT.vec3[2])/U.outer;
+    const mO=Math.hypot(caO.vec3[0]-cbO.vec3[0],caO.vec3[1]-cbO.vec3[1],caO.vec3[2]-cbO.vec3[2])/U.outer;
+    const dcomp={}; for(const k of Object.keys(caT.comp)){ let d=caT.comp[k]-cbT.comp[k];
+      if(k==='θ'||k==='lon'||k==='lat') d=((d+540)%360)-180; dcomp[k]=d; }
+    return { ruler:r, metricTrue:mT, metricObs:mO, distortion:mO-mT, comp:dcomp };
+  });
+  // AGREEMENT spread: max−min of the TRUE metrics across charts. They measure the same invariant via the
+  // same vec3, so this is ~machine-zero — a live CONFIRMATION that the metric is chart-independent (the metric
+  // IS the invariant). [The ~1/calRes 'breathing' of Step 1b was the DISCRETIZED ADDRESS, a separate quantity.]
+  const mets=rows.map(r=>r.metricTrue);
+  const breathing=Math.max(...mets)-Math.min(...mets);
+  return { invariant, rows, breathing, frame:gridPlane };
+}
+// ══ THREE-POINT MEASUREMENT (triangle analysis) — verified headless in tri_verify.py ══════════════════
+// Given features A, B, C (B = the angle vertex), compute the full triangle: angle at B, all three angles,
+// the three sides (unit-fraction), area, circumradius + circumcenter (the circle through the 3 points),
+// and the plane normal (+ its tilt vs the selected grid's normal). When observed=true, each point is first
+// pushed through the grid-locked observation warp (so angle/area/R show how PROJECTION distorts them).
+// Quantities are metric/coordinate-free (no per-chart variation) — true/observed is the meaningful axis.
+function calObserve(p){                              // grid-locked warp of one draw-space point (in-plane only)
+  const B=calBasis(); const pn=p[0]*B.n[0]+p[1]*B.n[1]+p[2]*B.n[2];
+  const mf=calWarp(pn);
+  const pu=(p[0]*B.u[0]+p[1]*B.u[1]+p[2]*B.u[2])*mf, pv=(p[0]*B.v[0]+p[1]*B.v[1]+p[2]*B.v[2])*mf;
+  // back to world coords from the warped (u,v,n) components
+  return [B.u[0]*pu+B.v[0]*pv+B.n[0]*pn, B.u[1]*pu+B.v[1]*pv+B.n[1]*pn, B.u[2]*pu+B.v[2]*pv+B.n[2]*pn];
+}
+function _sub(a,b){return [a[0]-b[0],a[1]-b[1],a[2]-b[2]];}
+function _nrm3(v){return Math.hypot(v[0],v[1],v[2]);}
+function _cross(a,b){return [a[1]*b[2]-a[2]*b[1], a[2]*b[0]-a[0]*b[2], a[0]*b[1]-a[1]*b[0]];}
+function caliperTriangle(A,B,C, observed){
+  if(observed){ A=calObserve(A); B=calObserve(B); C=calObserve(C); }
+  const U=calUnit().outer;
+  // sides: a=BC, b=CA, c=AB (standard, side opposite same-named vertex)
+  const a=_nrm3(_sub(C,B)), b=_nrm3(_sub(A,C)), c=_nrm3(_sub(B,A));
+  // angle at B between rays BA, BC
+  const BA=_sub(A,B), BC=_sub(C,B);
+  const cosB=(BA[0]*BC[0]+BA[1]*BC[1]+BA[2]*BC[2])/((_nrm3(BA)*_nrm3(BC))+1e-30);
+  const angB=Math.acos(Math.max(-1,Math.min(1,cosB)))*180/Math.PI;
+  // all three (law of cosines)
+  const angA=Math.acos(Math.max(-1,Math.min(1,(b*b+c*c-a*a)/(2*b*c+1e-30))))*180/Math.PI;
+  const angC=Math.acos(Math.max(-1,Math.min(1,(a*a+b*b-c*c)/(2*a*b+1e-30))))*180/Math.PI;
+  // plane normal + area
+  const nrm=_cross(BA,BC); const area2=_nrm3(nrm); const area=0.5*area2;
+  const degenerate = area2 < 1e-9;
+  const nhat = degenerate ? [0,0,0] : [nrm[0]/area2,nrm[1]/area2,nrm[2]/area2];
+  // circumradius + circumcenter (barycentric Cartesian)
+  const a2=a*a,b2=b*b,c2=c*c;
+  const ba=a2*(b2+c2-a2), bb=b2*(c2+a2-b2), bc=c2*(a2+b2-c2); const bsum=ba+bb+bc;
+  const R=(a*b*c)/(4*area+1e-30);
+  const circ=degenerate?[0,0,0]:[(ba*A[0]+bb*B[0]+bc*C[0])/bsum,(ba*A[1]+bb*B[1]+bc*C[1])/bsum,(ba*A[2]+bb*B[2]+bc*C[2])/bsum];
+  // tilt of the triangle's plane vs the selected grid's normal
+  const gN=calBasis().n; let tilt=0;
+  if(!degenerate){ const d=Math.abs(nhat[0]*gN[0]+nhat[1]*gN[1]+nhat[2]*gN[2]); tilt=Math.acos(Math.max(-1,Math.min(1,d)))*180/Math.PI; }
+  return { degenerate, angA, angB, angC, angSum:angA+angB+angC,
+           sideAB:c/U, sideBC:a/U, sideCA:b/U, area:area/(U*U),
+           R:R/U, circ, normal:nhat, tilt };
+}
+// draw the caliper: a dimension line from the dot to the chosen target, with endpoint ticks.
+// Annotation tier (bright, on top). Returns nothing; the numeric readout is built in updatePanel.
+function drawCaliper(){
+  if(!meas.curPt) return;
+  const calMode=(document.getElementById('calMode')||{}).value||'2';
+  if(calMode==='3'){
+    const Ap=caliperTargetPos(), Cp=calCPos(), Bp=meas.curPt; if(!Ap||!Cp) return;
+    const pa=proj(Ap), pb=proj(Bp), pc=proj(Cp);
+    ox.strokeStyle=rgba([234,242,248],tierA('annot',0.9)); ox.lineWidth=1.4; ox.setLineDash([]);
+    ox.beginPath(); ox.moveTo(pa[0],pa[1]); ox.lineTo(pb[0],pb[1]); ox.lineTo(pc[0],pc[1]); ox.closePath(); ox.stroke();
+    // vertex markers; B (the dot/vertex) gets a filled marker
+    for(const e of [pa,pc]){ ox.beginPath(); ox.arc(e[0],e[1],3.5,0,7); ox.stroke(); }
+    ox.fillStyle=rgba([234,242,248],tierA('annot',0.95)); ox.beginPath(); ox.arc(pb[0],pb[1],3.5,0,7); ox.fill();
+    // circumcircle (when full detail on and non-degenerate): drawn in the triangle's plane
+    if(document.getElementById('calTriFullChk') && document.getElementById('calTriFullChk').checked){
+      const obs=document.getElementById('calObsChk') && document.getElementById('calObsChk').checked;
+      const T=caliperTriangle(Ap,Bp,Cp,obs);
+      if(!T.degenerate){
+        const Rdraw=T.R*calUnit().outer;                          // back to draw units
+        // basis in the triangle plane: e1 = (A−circ) normalized, e2 = normal × e1
+        const cc=T.circ, nrm=T.normal;
+        let e1=[Ap[0]-cc[0],Ap[1]-cc[1],Ap[2]-cc[2]]; const e1n=Math.hypot(...e1)||1; e1=[e1[0]/e1n,e1[1]/e1n,e1[2]/e1n];
+        const e2=[nrm[1]*e1[2]-nrm[2]*e1[1], nrm[2]*e1[0]-nrm[0]*e1[2], nrm[0]*e1[1]-nrm[1]*e1[0]];
+        ox.strokeStyle=rgba(OK.sky,tierA('annot',0.4)); ox.lineWidth=1; ox.setLineDash([2,3]);
+        ox.beginPath();
+        for(let i=0;i<=64;i++){ const t=i/64*TAU;
+          const w=[cc[0]+Rdraw*(Math.cos(t)*e1[0]+Math.sin(t)*e2[0]), cc[1]+Rdraw*(Math.cos(t)*e1[1]+Math.sin(t)*e2[1]), cc[2]+Rdraw*(Math.cos(t)*e1[2]+Math.sin(t)*e2[2])];
+          const p=proj(w); i===0?ox.moveTo(p[0],p[1]):ox.lineTo(p[0],p[1]); }
+        ox.stroke(); ox.setLineDash([]);
+      }
+    }
+    return;
+  }
+  const tp=caliperTargetPos(); if(!tp) return;
+  const a=proj(meas.curPt), b=proj(tp);
+  ox.strokeStyle=rgba([234,242,248],tierA('annot',0.9)); ox.lineWidth=1.4; ox.setLineDash([]);
+  ox.beginPath(); ox.moveTo(a[0],a[1]); ox.lineTo(b[0],b[1]); ox.stroke();
+  // endpoint ticks (small perpendicular caps, ASME-ish)
+  for(const e of [a,b]){ ox.beginPath(); ox.arc(e[0],e[1],3.5,0,7); ox.stroke(); }
+  // the dot end gets a filled marker to distinguish A (the moving point) from B (the target)
+  ox.fillStyle=rgba([234,242,248],tierA('annot',0.95)); ox.beginPath(); ox.arc(a[0],a[1],3,0,7); ox.fill();
+}
+function drawVectorEquilibrium(){
+  const s=mScale();
+  const R=meas.rmax*s/Math.SQRT2;   // scale so VE vertices (|v|=√2) reach the form's outer radius
+  if(R<2) return;
+  const com=mPt(meas.com);
+  const W2=VE_VERTS.map(v=>proj([com[0]+v[0]*R, com[1]+v[1]*R, com[2]+v[2]*R]));
+  // edges: connect vertices at distance √2 (the VE edge length, in unit coords)
+  ox.strokeStyle=rgba(OK.green,tierA('feature',0.7)); ox.lineWidth=1;
+  for(let i=0;i<VE_VERTS.length;i++)for(let j=i+1;j<VE_VERTS.length;j++){
+    const d=Math.hypot(VE_VERTS[i][0]-VE_VERTS[j][0],VE_VERTS[i][1]-VE_VERTS[j][1],VE_VERTS[i][2]-VE_VERTS[j][2]);
+    if(Math.abs(d-Math.SQRT2)<1e-6){ ox.beginPath();ox.moveTo(W2[i][0],W2[i][1]);ox.lineTo(W2[j][0],W2[j][1]);ox.stroke(); }
+  }
+  ox.fillStyle='rgba(120,255,200,0.7)';
+  for(const p of W2){ ox.beginPath();ox.arc(p[0],p[1],2,0,7);ox.fill(); }
+}
+
+// FIGURE'S ACCUMULATED FRAME: the rotated basis the construction has carried the form into.
+// Columns of lastM's upper-left 3×3 are the world images of the figure's x,y,z axes. Shows how
+// far the form's own frame has turned from the world axes (the real content of the "drift" question).
+function drawAccumFrame(){
+  const s=mScale(); const com=mPt(meas.com);
+  const L=meas.rmax*s*0.6; if(L<2) return;
+  const M=lastM;
+  const cols=[rgba(OK.vermillion,0.9),rgba(OK.green,0.9),rgba(OK.sky,0.9)];
+  const lbl=['x\u0302','y\u0302','z\u0302'];
+  for(let a=0;a<3;a++){
+    const ax=[M[a], M[5+a], M[10+a]];   // column a of the upper-left 3×3 (stride-5) = image of basis vector a
+    const n=Math.hypot(...ax)||1; const u=[ax[0]/n,ax[1]/n,ax[2]/n];
+    const tip=proj([com[0]+u[0]*L, com[1]+u[1]*L, com[2]+u[2]*L]);
+    const o=proj(com);
+    ox.strokeStyle=cols[a]; ox.lineWidth=2;
+    ox.beginPath();ox.moveTo(o[0],o[1]);ox.lineTo(tip[0],tip[1]);ox.stroke();
+    ox.fillStyle=cols[a]; ox.font='11px ui-monospace,monospace'; ox.fillText(lbl[a], tip[0]+4, tip[1]);
+  }
+}
+
+// NET-ROTATION AXIS: the composite operator's Euler axis — the form's instantaneous "spin axis".
+// Visualizes the reorienting motion (the netDeg the readout already reports).
+function drawNetAxis(){
+  if(!meas.netAxis) return;
+  const s=mScale(); const com=mPt(meas.com);
+  const L=meas.rmax*s*1.15; if(L<2) return;
+  const u=meas.netAxis;
+  const a=proj([com[0]+u[0]*L, com[1]+u[1]*L, com[2]+u[2]*L]);
+  const b=proj([com[0]-u[0]*L, com[1]-u[1]*L, com[2]-u[2]*L]);
+  ox.strokeStyle=rgba(OK.yellow,tierA('feature',0.85)); ox.lineWidth=2; ox.setLineDash([6,4]);
+  ox.beginPath();ox.moveTo(a[0],a[1]);ox.lineTo(b[0],b[1]);ox.stroke();ox.setLineDash([]);
+  ox.fillStyle=rgba(OK.yellow,0.95); ox.font='10px ui-monospace,monospace';
+  ox.fillText('spin '+(meas.netAngle*180/Math.PI).toFixed(0)+'\u00b0', a[0]+5, a[1]);
+}
+
+function frame(){
+  const mult=vals.mult||1;
+  const fadeV=Math.min(1,Math.max(0,vals.fade));
+  // ease toward a snapped axis view if one is set
+  if(viewTarget){
+    yaw  += (viewTarget.yaw  - yaw )*0.18;
+    pitch+= (viewTarget.pitch- pitch)*0.18;
+    if(Math.abs(viewTarget.yaw-yaw)<0.002 && Math.abs(viewTarget.pitch-pitch)<0.002){ yaw=viewTarget.yaw; pitch=viewTarget.pitch; viewTarget=null; }
+  }
+  // orbit mode: auto-rotate every active axis (X=tumble/pitch, Y=turntable/yaw, Z=screen roll) — stackable.
+  // Honors freeze/step: frozen pauses the orbit, step advances it one increment (same gate as the trajectory).
+  if(orbitOn && !drag && (!frozen || stepOnce)){
+    const w=orbitSpd*0.012;
+    if(orbitAxes.x) pitch+=w;
+    if(orbitAxes.y) yaw+=w;
+    if(orbitAxes.z) roll+=w;
+  }
+  // 4D auto-spin: advance the 4D viewing rotation so the w-extent turns through the 3D directions —
+  // this is what makes the 4D structure VISIBLE (the form appears to turn inside-out / nest as w rotates
+  // into view). Spins the XW and YW planes at a slight ratio so it's a genuine 4D tumble, not a 3D one.
+  if(spin4!==0 && (!frozen || stepOnce)){
+    view4.wx += spin4*0.01;
+    view4.wy += spin4*0.01*0.618;   // golden offset → the two 4D planes never sync (true 4D tumble)
+  }
+  zoomF=vals.zoom; showSkel=document.getElementById('skelChk').checked;
+  // grid system controls
+  gridPlane=document.getElementById('gridPlaneSel').value;
+  gridProj=document.getElementById('gridProjSel').value;
+  ortho=(gridProj==='ortho'||gridProj==='iso');   // parallel projections render orthographically
+  // adaptive: show only the projection params relevant to the active mode
+  document.querySelectorAll('.projparam').forEach(el=>{ el.style.display = (el.dataset.mode===gridProj)?'':'none'; });
+  const gCart=document.getElementById('gCartChk').checked;
+  const gPolar=document.getElementById('gPolarChk').checked;
+  const gLogPolar=document.getElementById('gLogPolarChk').checked;
+  const gHex=document.getElementById('gHexChk').checked;
+  const gSph=document.getElementById('gSphChk').checked;
+  const gPCAGrid=document.getElementById('gPCAGridChk').checked;
+  const showSkel2=document.getElementById('skel2Chk').checked;
+  const showAxes=document.getElementById('axesChk').checked;
+  const showScaleRing=document.getElementById('scaleChk').checked;
+  const showBBox=document.getElementById('bboxChk').checked;
+  const showCOM=document.getElementById('comChk').checked;
+  const showRrings=document.getElementById('rringChk').checked;
+  const showPCA=document.getElementById('pcaChk').checked;
+  const showEllip=document.getElementById('ellipChk').checked;
+  const showSuperq=document.getElementById('superqChk').checked;
+  const showVE=document.getElementById('veChk').checked;
+  const showFrame=document.getElementById('frameChk').checked;
+  const showNetAxis=document.getElementById('netAxisChk').checked;
+  const showRefSph=document.getElementById('refSphChk').checked;
+  const showRefTor=document.getElementById('refTorChk').checked;
+  const showOrbitRefs=document.getElementById('orbitRefChk').checked;
+  const showStack=document.getElementById('stackChk').checked;
+  const beamOff=!document.getElementById('beam1Chk').checked;   // beam 1 toggle (inverted: unchecked = off)
+  showMeetLocus=document.getElementById('meetChk').checked;
+  const showOverlays=document.getElementById('overlaysMasterChk').checked;   // master: all overlay-canvas drawing
+  autoFit=true; normalize=true;   // always-on now (the unit/measurement frame depends on normalize); toggles removed from UI
+
+  // measure the locus this frame (independent sample pass) — throttled for smoothness
+  if(!frame._fc) frame._fc=0; frame._fc++;
+  if(frame._fc%4===0 || frame._fc<3) analyzeLocus();
+  // auto-fit camera: pull zoom so the object's outer radius frames nicely (pure, non-distorting)
+  if(autoFit && !normalize){
+    const want = meas.rmax>1e-6 ? (150/meas.rmax) : 1;   // target ~150px radius on screen
+    fitRadius += (want-fitRadius)*0.08;                   // smooth
+    zoomF = vals.zoom * fitRadius;
+  } else if(normalize){
+    zoomF = vals.zoom;   // normalize already maps to ~100px region
+  }
+
+  // clear a hair beyond the logical W×H: with fractional devicePixelRatio the buffer is rounded to
+  // Math.round(W*dpr) device px, a fraction larger than clearRect(0,0,W,H) covers in transformed space,
+  // which left an unclearable 1px strip on the RIGHT and BOTTOM edges where edge-reaching overlays piled
+  // up. The +2 overscan guarantees full coverage at any dpr.
+  ox.clearRect(0,0,W+2,H+2);
+  // beam canvas: afterglow=0 → HARD CLEAR (genuinely no trails, no accumulation). A partial fade rect
+  // never reaches zero at 8-bit depth, so faint dot residue used to pile up as permanent edge crud.
+  // afterglow>0 → intentional phosphor persistence (fade toward, but the residue is the point there).
+  if(fadeV < 0.004){
+    x.fillStyle='#0A0E12'; x.fillRect(0,0,W+2,H+2);
+  } else {
+    const fade=(1-fadeV)*0.5;
+    x.fillStyle=`rgba(10,14,18,${fade})`; x.fillRect(0,0,W+2,H+2);
+  }
+  const gbasis=planeBasis();
+  if(showOverlays){
+    if(gCart) gridCartesian(gbasis);
+    if(gPolar) gridPolar(gbasis);
+    if(gLogPolar) gridLogPolar(gbasis);
+    if(gHex) gridHex(gbasis);
+    if(gSph) gridSpherical(gbasis);
+    if(gPCAGrid) gridPCA();
+    if(showStack) drawStackedLevels();
+    if(showScaleRing) drawScaleRing();
+    if(showAxes) drawAxes();
+    if(showBBox) drawBBox();
+    if(showRrings) drawRadiusRings();
+    if(showOrbitRefs) drawOrbitRefs();
+    if(showRefSph) drawRefSphere();
+    if(showRefTor) drawRefTorus();
+    if(showVE) drawVectorEquilibrium();
+  }
+
+  // cpf drives how many samples we plot per frame (fill density); strobe plots every Nth.
+  const cpf=Math.max(1,Math.round(vals.cpf));
+  const strobe=Math.max(1,Math.round(vals.strobe));
+  const baseSteps=Math.max(1,Math.round(20+mult*6));
+  const steps=baseSteps*cpf;
+  const dt=0.0006*mult*(vals.timebase||1);
+  // freeze: don't advance phases (study a static trajectory). stepOnce: advance one batch then re-freeze.
+  const advancing = !frozen || stepOnce;
+  let lastP=[0,0,0], lastP2=[0,0,0];
+  let strobeCount=0;
+  for(let i=0;i<steps;i++){
+    if(advancing){ for(let k=0;k<ph.length;k++) ph[k]=(ph[k]+dt*rateFor(k))%TAU; }
+    strobeCount++;
+    const plotThis = (strobeCount % strobe)===0 && !beamOff;
+    const p = vals.p1lag ? buildLaggedNorm(vals.p1lag) : build();
+    lastP=p;
+    if(plotThis){
+      const [px,py,pf]=proj(p);
+      x.fillStyle='rgba(98,240,192,0.55)';
+      const d=(vals.dot||1)*pf;
+      if(d<=1.2) x.fillRect(Math.round(px),Math.round(py),1,1);
+      else x.fillRect(px-d/2,py-d/2,d,d);
+    }
+    if(p2on){
+      const q=secondPoint(); lastP2=q;
+      if(plotThis){
+        const [qx,qy,qf]=proj(q);
+        x.fillStyle='rgba(157,140,255,0.55)';   // violet second point
+        const d=(vals.dot||1)*qf;
+        if(d<=1.2) x.fillRect(Math.round(qx),Math.round(qy),1,1);
+        else x.fillRect(qx-d/2,qy-d/2,d,d);
+      }
+    }
+    if(!advancing) break;   // frozen + not stepping: draw current state once, don't loop
+  }
+  if(stepOnce){ stepOnce=false; }   // consume the single step
+  meas.cur=Math.hypot(lastP[0],lastP[1],lastP[2]);
+  meas.curPt=lastP; meas.curP2=lastP2;
+  if(showOverlays){
+    if(showSkel) drawSkeleton1();
+    if(showSkel2) drawSkeleton2();
+    if(showCOM) drawCOM();
+    if(showPCA) drawPCA();
+    if(showEllip) drawEllipsoid();
+    if(showSuperq) drawSuperquadric();
+    if(showFrame) drawAccumFrame();
+    if(showNetAxis) drawNetAxis();
+  }
+  refreshCaliperTargets();
+  refreshPivot();
+  if(showOverlays && document.getElementById('calChk').checked) drawCaliper();
+  if(p2on && (frame._fc%12===0 || frame._fc<3)) measureMeeting();   // throttled: 2000-sample pass (measurement, always runs)
+  if(showOverlays && showMeetLocus) drawMeetLocus();
+  updatePanel();
+  // grow-in animation for the newest rotation.
+  // FIX: advance at a fixed wall-clock pace, NOT scaled by rateFor(rung-1). The rotation rates
+  // shrink geometrically per level ((1/ratio)^k), so pegging the transition to the newest rate
+  // made each successive level's grow-in ~ratio× slower (unusably slow by high levels). Now a
+  // transition takes ~constant time at every level; growCycles sets that duration (seconds-ish).
+  if(advancing && growthAuto && rung>=1){
+    growthAccum += dt/TAU;                 // fixed pace, independent of which level we entered
+    growth=Math.min(1, growthAccum/Math.max(1e-6,growCycles*0.06));
+    if(growth>=1){growth=1;growthAuto=false;}
+  }
+  // inverse animation: un-fold the top rotation (growth 1→0) then drop the level, stepping toward retractTo
+  if(retracting && rung>=1){
+    retractAccum += dt/TAU;
+    growth = Math.max(0, 1 - retractAccum/Math.max(1e-6,growCycles*0.06));
+    if(growth<=0){
+      retractAccum=0; growth=1;
+      rung=Math.max(0,rung-1);
+      const el=document.querySelector('[data-k="__level"] b'); if(el)el.textContent=rung;
+      if(typeof buildOverrides==='function') buildOverrides(); setBar();
+      if(retractTo===null || rung<=retractTo){ retracting=false; retractTo=null; }  // arrived
+    }
+  }
+  requestAnimationFrame(frame);
+}
+
+function updatePanel(){
+  const el=document.getElementById('panel'); if(!el)return;
+  const f=v=>v.toFixed(0);
+  const f2=v=>v.toFixed(1);
+  const cyc=Math.floor(rung/2);
+  const holeRatio = meas.rmax>1e-6 ? (meas.rmin/meas.rmax) : 0;   // measured hole radius as a fraction of the unit
+  const holeTheory = selfScale ? (kHole-1)/(kHole+1) : 0;          // theoretical self-similar hole fraction (k−1)/(k+1)
+  const closurePct = meas.rmax>1e-6 ? (meas.closure/meas.rmax*100) : 0;
+  const closed = closurePct<1;
+  const symStr = meas.sym.map(v=>v<2?'·':f(v)).join('/');  // · = symmetric on that axis
+  const phActive = Array.from({length:rung},(_, k)=>ph[k].toFixed(2)).join(', ');
+  // tensor readouts
+  const rot=compositeRotation(); meas.netAngle=rot.angle; meas.netAxis=rot.axis;
+  const pr=meas.pcaVal.map(v=>Math.sqrt(Math.max(0,v)));   // principal radii (std-dev along axes)
+  // ── named anisotropy (Westin cl/cp/cs + Fractional Anisotropy) — literature-standard, replaces ad-hoc ratio ──
+  // eigenvalues are variances; sort descending λ1≥λ2≥λ3 (guard in case PCA didn't return sorted).
+  const lam=[Math.max(0,meas.pcaVal[0]),Math.max(0,meas.pcaVal[1]),Math.max(0,meas.pcaVal[2])].sort((a,b)=>b-a);
+  const l1=lam[0],l2=lam[1],l3=lam[2]; const tr=l1+l2+l3;
+  // Westin shape coefficients (trace-normalized, sum to 1): linear→prolate, planar→oblate, spherical→isotropic
+  const cl = tr>1e-12 ? (l1-l2)/tr : 0;
+  const cp = tr>1e-12 ? 2*(l2-l3)/tr : 0;
+  const cs = tr>1e-12 ? 3*l3/tr : 0;
+  // Fractional Anisotropy ∈ [0,1] (0=isotropic sphere, 1=fully linear)
+  const sq=l1*l1+l2*l2+l3*l3;
+  const FA = sq>1e-12 ? Math.sqrt(0.5)*Math.sqrt(((l1-l2)**2+(l2-l3)**2+(l3-l1)**2)/sq) : 0;
+  // feed the rolling tracker (the breathing) → uncertainty bands
+  rollPush('FA', FA);   // FA breathes (instantaneous cloud shape); hole radius is structural (rmin/rmax) — not tracked
+  const sFA=rollStat('FA');
+  // shape label: isotropic only when FA is genuinely low; otherwise the DEVIATION direction —
+  // cl>cp leans linear/prolate, cp>cl leans planar/oblate. (Using "largest coefficient" instead would
+  // call any mildly-anisotropic form isotropic, since cs dominates until FA is large — verified.)
+  let shape='—';
+  if(tr<=1e-12) shape='point';
+  else if(FA<0.15) shape='isotropic (ball)';
+  else if(cl>=cp) shape='prolate (linear)';
+  else shape='oblate (planar)';
+  // vector-equilibrium distance: ratio of largest to smallest principal radius. 1.00 = perfect
+  // isotropy (the VE/equilibrium condition); higher = further from equilibrium.
+  const L=meas.pcaVal; const Lmax=Math.max(L[0],1e-9);
+  const Lmin=Math.min(L[0],L[1],L[2]);
+  const veDist = Lmin>1e-9 ? Math.sqrt(Lmax)/Math.sqrt(Lmin) : Infinity;
+  // ── RELATIONAL MEASUREMENT (Slice 3): read the current point against the CONFIGURED frame ──
+  // The active plane + grid + divisions ARE the measurement frame. meas.curPt is ALREADY in draw space
+  // (build() applies the normalize scale + COM-centering), so it shares the grid's coordinate space
+  // directly — NO extra mScale. Project onto the plane basis → in-plane (a,b); divide by cell → cells,
+  // by the unit (bounding radius) → unit-proportions. Component along the normal = off-plane offset.
+  const _gb=gridBounds(); const _basis=planeBasis();
+  const _pd=meas.curPt;   // already draw-space (do NOT re-scale)
+  const _dot=(a,b)=>a[0]*b[0]+a[1]*b[1]+a[2]*b[2];
+  const _pu0=_dot(_pd,_basis.u), _pv0=_dot(_pd,_basis.v), _pn=_dot(_pd,_basis.n);
+  // PROJECTION-MODE sensitivity (rung 2): the reading is rotation-invariant (we dot onto the world-fixed
+  // plane basis, so orbiting the camera never moves it), but the projection MODE warps it — using the
+  // OFF-PLANE distance _pn as the depth (NOT camera depth). ortho/iso = parallel (factor 1, no warp →
+  // they read identically); perspective & stereo foreshorten by depth (so they differ). Matches proj().
+  let _mf=1;
+  if(gridProj==='stereo'){ const R=320, d=R+_pn; _mf = d>1e-3 ? R/d : R/1e-3; }
+  else if(!(gridProj==='ortho'||gridProj==='iso')){ _mf = 480/(480+_pn); }   // perspective
+  const _pu=_pu0*_mf, _pv=_pv0*_mf;
+  const _cell=_gb.unit>1e-6?_gb.unit:1, _unitR=_gb.outer>1e-6?_gb.outer:1;
+  const gridCellU=_pu/_cell, gridCellV=_pv/_cell;          // grid-cell coordinates
+  const gridFracU=_pu/_unitR, gridFracV=_pv/_unitR;        // unit-proportion coordinates
+  const offPlane=_pn/_unitR;                                // out-of-plane offset, as a unit-fraction
+  // GRID-LOCATION (caliper address): snap the in-plane unit-fractions to the caliper resolution.
+  // Numerator = round(fraction × calRes); the address is numerator/calRes — a raw fraction of the unit
+  // at the locked resolution. Deeper calRes just scales the numerators (nesting), like a vernier.
+  const calNumU=Math.round(gridFracU*calRes), calNumV=Math.round(gridFracV*calRes);
+  // ── PER-GRID-TYPE natural readings (rung 4): each enabled grid reads the point in ITS coordinates,
+  // all from the same projection-corrected in-plane point (spherical uses the full 3D point). ──
+  const _gPolar=document.getElementById('gPolarChk').checked;
+  const _gLog=document.getElementById('gLogPolarChk').checked;
+  const _gHex=document.getElementById('gHexChk').checked;
+  const _gSph=document.getElementById('gSphChk').checked;
+  const _ir=Math.hypot(_pu,_pv);                                   // in-plane radius (mode-corrected, draw space)
+  const _th=(Math.atan2(_pv,_pu)*180/Math.PI+360)%360;             // in-plane bearing angle
+  let gridLines='';
+  if(_gPolar){
+    gridLines+='<span class="m" style="color:'+rgba(OK.orange,1)+'"><b>polar</b> r='+(_ir/_unitR).toFixed(3)+' u, θ='+_th.toFixed(0)+'°</span>';
+  }
+  if(_gLog){
+    const _inner=_gb.inner, _ratio=gridRingRatio();
+    const _ring=(_ir>1e-6 && _inner>1e-6) ? Math.log(_ir/_inner)/Math.log(_ratio) : 0;
+    gridLines+='<span class="m" style="color:'+rgba(OK.green,1)+'"><b>log-polar</b> ring '+_ring.toFixed(2)+' <i>(0=hole, +1 per ×'+_ratio.toFixed(2)+')</i>, θ='+_th.toFixed(0)+'°</span>';
+  }
+  if(_gHex){
+    const _hc=_cell, _ax=_hc, _ay=0, _bx=_hc/2, _by=_hc*Math.sqrt(3)/2;
+    const _det=_ax*_by-_bx*_ay;
+    const _hi=Math.abs(_det)>1e-9?(_by*_pu-_bx*_pv)/_det:0, _hj=Math.abs(_det)>1e-9?(-_ay*_pu+_ax*_pv)/_det:0;
+    gridLines+='<span class="m" style="color:'+rgba(OK.yellow,1)+'"><b>hex</b> ('+_hi.toFixed(2)+', '+_hj.toFixed(2)+') lattice</span>';
+  }
+  if(_gSph){
+    const _P=meas.curPt; const _R3=Math.hypot(_P[0],_P[1],_P[2]);
+    const _lat=_R3>1e-6?Math.asin(Math.max(-1,Math.min(1,_P[2]/_R3)))*180/Math.PI:0;
+    const _lon=(Math.atan2(_P[1],_P[0])*180/Math.PI+360)%360;
+    gridLines+='<span class="m" style="color:'+rgba(OK.vermillion,1)+'"><b>spherical</b> r='+(_R3/_unitR).toFixed(3)+' u, lat='+_lat.toFixed(0)+'°, lon='+_lon.toFixed(0)+'° <i>(3D)</i></span>';
+  }
+  // ── VE ANGLE-REFERENCE (protractor): when the vector-equilibrium is shown, report the form's
+  // key directions' angles to the nearest VE symmetry ray. 0° = aligned to the known symmetry.
+  if(document.getElementById('veChk').checked){
+    const _veMaj=angleToNearestVE(meas.pcaVec[0]);        // form's dominant axis vs VE symmetry
+    const _vePt=angleToNearestVE(meas.curPt);             // current point's direction vs VE symmetry
+    gridLines+='<span class="m" style="color:'+rgba(OK.green,1)+'"><b>VE∠</b> major-axis '+_veMaj.deg.toFixed(1)+'° · point '+_vePt.deg.toFixed(1)+'° <i>(off nearest symmetry ray)</i></span>';
+  }
+  // ── CALIPER readout (rung 2): dot → target, measured in the chosen RULER. Reports the invariant 3D
+  //    distance (ruler-independent anchor), the ruler's metric distance + component breakdown, and — when
+  //    OBSERVED — the distortion (observed − true). Engine verified headless (caliper_verify/caliper_obs). ──
+  if(document.getElementById('calChk').checked && meas.curPt){
+    const calMode=(document.getElementById('calMode')||{}).value||'2';
+    if(calMode==='3'){
+      // ── 3-POINT: triangle analysis. Dot = vertex B; A = calTarget, C = calC. Angle at B is the headline
+      //    (shown true/observed/distortion); sides + circumradius alongside; full detail behind calTriFullChk.
+      const Ap=caliperTargetPos(), Cp=calCPos(), Bp=meas.curPt;
+      const _an=(document.getElementById('calTarget')||{}).value, _cn=(document.getElementById('calC')||{}).value;
+      if(Ap&&Cp){
+        const obs=document.getElementById('calObsChk') && document.getElementById('calObsChk').checked;
+        const T=caliperTriangle(Ap,Bp,Cp,obs);
+        if(T.degenerate){
+          gridLines+='<span class="m" style="color:'+rgba(OK.orange,1)+'"><b>triangle</b> A='+_an+' B=dot C='+_cn+' — <i>collinear (no triangle): the three points are in a line</i></span>';
+        } else {
+          // headline: angle at B, with true/observed distortion on the angle specifically
+          const Ttrue=obs?caliperTriangle(Ap,Bp,Cp,false):T;
+          const angDist = obs ? (T.angB - Ttrue.angB) : 0;
+          gridLines+='<span class="m" style="color:'+rgba([234,242,248],1)+'"><b>∠ at dot (B)</b> '+T.angB.toFixed(1)+'° <i>['+(obs?'observed':'true')+']</i>'+(obs?' · <span style="color:'+rgba(OK.orange,0.95)+'">distortion '+(angDist>=0?'+':'')+angDist.toFixed(1)+'° vs true</span>':'')+'</span>';
+          gridLines+='<span class="m" style="color:#9aa7b4"><b>sides</b> AB '+T.sideAB.toFixed(3)+' · BC '+T.sideBC.toFixed(3)+' · CA '+T.sideCA.toFixed(3)+' u · <b>circum-R</b> '+T.R.toFixed(3)+' u <i>(A='+_an+' C='+_cn+')</i></span>';
+          if(document.getElementById('calTriFullChk') && document.getElementById('calTriFullChk').checked){
+            gridLines+='<span class="m" style="color:#9aa7b4"><b>angles</b> A '+T.angA.toFixed(1)+'° · B '+T.angB.toFixed(1)+'° · C '+T.angC.toFixed(1)+'° · <i>Σ '+T.angSum.toFixed(1)+'°</i> · <b>area</b> '+T.area.toFixed(4)+' u²</span>';
+            gridLines+='<span class="m" style="color:#9aa7b4"><b>plane normal</b> ['+T.normal.map(v=>v.toFixed(2)).join(', ')+'] · <b>tilt</b> '+T.tilt.toFixed(1)+'° vs grid · <b>circumcenter</b> ['+T.circ.map(v=>(v/(calUnit().outer)).toFixed(2)).join(', ')+'] u</span>';
+          }
+        }
+      }
+    } else {
+    const xsys=document.getElementById('calXsysChk') && document.getElementById('calXsysChk').checked;
+    if(xsys){
+      // CROSS-SYSTEM: same endpoints, all four rulers at once — one invariant, many descriptions.
+      const X=caliperCrossSystem(); const _tn=document.getElementById('calTarget').value;
+      if(X){
+        const dn=Math.round(X.invariant*calRes);
+        gridLines+='<span class="m" style="color:'+rgba([234,242,248],1)+'"><b>cross-system</b> →'+_tn+' · <i>invariant '+X.invariant.toFixed(3)+' u · '+dn+'/'+calRes+' (the anchor all charts share)</i></span>';
+        for(const row of X.rows){
+          const compStr=Object.keys(row.comp).map(k=>{ const v=row.comp[k]; const ang=(k==='θ'||k==='lat'||k==='lon');
+            return 'Δ'+k+' '+(ang?(v>=0?'+':'')+v.toFixed(0)+'°':(v>=0?'+':'')+v.toFixed(3)); }).join(' · ');
+          const dpct=row.metricTrue>1e-6?(row.distortion/row.metricTrue*100):0;
+          gridLines+='<span class="m" style="color:#9aa7b4"><b>'+row.ruler.padEnd(9)+'</b> '+row.metricTrue.toFixed(3)+' u · '+compStr+(Math.abs(row.distortion)>1e-6?' · <i style="color:'+rgba(OK.orange,0.95)+'">dist '+(row.distortion>=0?'+':'')+row.distortion.toFixed(3)+' ('+(dpct>=0?'+':'')+dpct.toFixed(1)+'%)</i>':'')+'</span>';
+        }
+        // BREATHING: how much the four TRUE metrics disagree (they measure the same invariant → tiny residual).
+        const bpct=X.invariant>1e-6?(X.breathing/X.invariant*100):0;
+        gridLines+='<span class="m" style="color:'+rgba(OK.sky,1)+'"><b>agreement</b> spread '+X.breathing.toExponential(1)+' u <i>('+bpct.toFixed(2)+'% of invariant) — the charts agree on the metric to ~machine precision, confirming it is chart-independent (the metric IS the invariant)</i></span>';
+      }
+    } else {
+      const M=caliperMeasure();
+      if(M){
+        const _tn=document.getElementById('calTarget').value;
+        const obs=document.getElementById('calObsChk') && document.getElementById('calObsChk').checked;
+        const compStr=Object.keys(M.comp).map(k=>{
+          const v=M.comp[k]; const ang=(k==='θ'||k==='lat'||k==='lon');
+          return '<b>Δ'+k+'</b> '+(ang?(v>=0?'+':'')+v.toFixed(0)+'°':(v>=0?'+':'')+v.toFixed(3));
+        }).join(' · ');
+        const metric = obs ? M.metricObs : M.metricTrue;
+        const dn=Math.round(M.invariant*calRes);
+        gridLines+='<span class="m" style="color:'+rgba([234,242,248],1)+'"><b>caliper</b> →'+_tn+' <i>['+M.ruler+(obs?', observed':', true')+']</i>: '+metric.toFixed(3)+' u · '+dn+'/'+calRes+'</span>';
+        gridLines+='<span class="m" style="color:#9aa7b4">'+compStr+' · <i>invariant '+M.invariant.toFixed(3)+' u</i></span>';
+        if(obs){
+          const dpct = M.metricTrue>1e-6 ? (M.distortion/M.metricTrue*100) : 0;
+          gridLines+='<span class="m" style="color:'+rgba(OK.orange,1)+'"><b>distortion</b> '+(M.distortion>=0?'+':'')+M.distortion.toFixed(3)+' u <i>('+(dpct>=0?'+':'')+dpct.toFixed(1)+'% vs true) — observation warp @ focal '+focalLength.toFixed(0)+'</i></span>';
+        }
+      }
+    }
+    }
+  }
+  // measurement readouts (grid coords + grid-loc + per-grid naturals + caliper + VE-angle) — shown in
+  // BOTH the master panel (complete record) AND the measurement-zone copy (ergonomic, by the caliper).
+  const measLines=
+    '<span class="m" style="color:#56B4E9"><b>grid '+gridPlane+'</b> ('+gridCellU.toFixed(2)+', '+gridCellV.toFixed(2)+') cells · ('+gridFracU.toFixed(3)+', '+gridFracV.toFixed(3)+') unit'+(Math.abs(offPlane)>0.005?' · <i>off-plane '+offPlane.toFixed(3)+'</i>':' <i>(in plane)</i>')+'</span>'+
+    '<span class="m" style="color:#56B4E9"><b>grid-loc</b> [ '+(calNumU>=0?'+':'')+calNumU+'/'+calRes+' , '+(calNumV>=0?'+':'')+calNumV+'/'+calRes+' ] u <i>@cal/'+calRes+'</i></span>'+
+    gridLines;
+  const mp=document.getElementById('measPanel'); if(mp) mp.innerHTML=measLines;
+  el.innerHTML=
+    '<span class="m"><b>level</b> '+rung+' · cycle '+cyc+'</span>'+
+    '<span class="m"><b>extent</b> '+meas.ext.map(f).join(' × ')+'</span>'+
+    '<span class="m"><b>total radius</b> 1.00 unit <i>(the bound)</i></span>'+
+    '<span class="m" style="color:#9d8cff"><b>hole radius</b> '+holeRatio.toFixed(3)+' unit'+(selfScale?' <i>(k→'+holeTheory.toFixed(3)+')</i>':'')+'</span>'+
+    (selfScale?'<span class="m"><b>displace</b> '+kHole.toFixed(2)+'× radius/cycle</span>':'')+
+    '<span class="m"><b>closure</b> '+closurePct.toFixed(1)+'% '+(closed?'<i>CLOSED</i>':'<i>filling</i>')+'</span>'+
+    '<span class="m"><b>symmetry</b> '+symStr+' <i>(·=sym)</i></span>'+
+    '<span class="m"><b>|COM|</b> '+f(Math.hypot(...meas.com))+'</span>'+
+    '<span class="m"><b>point</b> ['+meas.curPt.map(f2).join(', ')+'] r='+f(meas.cur)+'</span>'+
+    measLines+
+    (p2on?'<span class="m" style="color:var(--c)"><b>point2</b> ['+meas.curP2.map(f2).join(', ')+']</span>':'')+
+    (p2on?'<span class="m" style="color:#ff7ac8"><b>meet</b> '+(meet.touches?'⊙ TOUCHES':'○ apart')+' · locus '+meet.locStr+'</span>':'')+
+    (p2on?'<span class="m" style="color:#ff7ac8"><b>min sep</b> '+f(meet.minSep)+' · hits '+meet.hits+'/'+meet.samples+(meet.locusResid>0?' · resid '+f(meet.locusResid):'')+'</span>':'')+
+    '<span class="m"><b>φ</b> '+(phActive||'—')+'</span>'+
+    '<span class="m tensor"><b>PCA radii</b> '+pr.map(f).join(' / ')+'</span>'+
+    '<span class="m tensor"><b>shape</b> '+shape+' <i>(FA '+fmtPM(sFA.mean||FA, sFA.sd, 2)+')</i></span>'+
+    '<span class="m tensor"><b>cl/cp/cs</b> '+cl.toFixed(2)+' / '+cp.toFixed(2)+' / '+cs.toFixed(2)+' <i>(lin/plan/sph)</i></span>'+
+    (()=>{ // FINGERPRINT (Slice F2): the scale-free, frame-free shape signature — [eigenvalue spectrum, hole].
+           // Assembled from values already measured (meas.pcaVal, holeRatio). This is the PROJECTED-3D
+           // fingerprint (it measures the rendered 3D cloud); the headless 4D fingerprint is a separate object.
+      const l0=Math.max(1e-12,meas.pcaVal[0]);
+      const fpVec=[meas.pcaVal[1]/l0, meas.pcaVal[2]/l0, holeRatio];
+      window._lastFP=fpVec;   // expose for the copy button + reference-distance
+      const fpStr=fpVec.map(v=>v.toFixed(4)).join(', ');
+      const refStr = window._fpRef ? ' · <i>dist to ref '+Math.hypot(...fpVec.map((v,i)=>v-window._fpRef[i])).toFixed(4)+'</i>' : '';
+      return '<span class="m tensor" style="color:#7fd4ff" title="SHAPE FINGERPRINT — the form\'s scale-free, frame-free signature: [normalized PCA eigenvalue ratios λ2/λ1, λ3/λ1, hole ratio]. Two forms with the same fingerprint (within tolerance) are the same shape-class. This is the fingerprint of the PROJECTED 3D form (what\'s rendered); the genuine 4D fingerprint has one more eigen-ratio. Tolerance tiers: <0.003 identical, 0.03-0.05 same class, 0.27+ different. Set this as reference to compare other forms against it."><b>fingerprint</b> ['+fpStr+']'+refStr+' <button id="fpSetRef" style="font-size:9px;padding:1px 5px;margin-left:4px">set ref</button> <button id="fpCopy" style="font-size:9px;padding:1px 5px">copy</button>'+(window._fpRef?' <button id="fpClrRef" style="font-size:9px;padding:1px 5px">clr ref</button>':'')+'</span>';
+    })()+
+    '<span class="m" style="color:#78ffc8"><b>VE dist</b> '+(isFinite(veDist)?veDist.toFixed(2):'∞')+' <i>(1=equilibrium)</i></span>'+
+    '<span class="m tensor"><b>net rot</b> Θ='+(meas.netAngle*180/Math.PI).toFixed(0)+'° axis ['+meas.netAxis.map(v=>v.toFixed(2)).join(', ')+']</span>'+
+    (document.getElementById('anglesChk')&&document.getElementById('anglesChk').checked ? (()=>{
+      const A=featureAngles(); const g=v=>v.toFixed(1);
+      return '<span class="m" style="color:#ffd24a"><b>spin∠ world</b> X='+g(A.spinX)+'° Y='+g(A.spinY)+'° Z='+g(A.spinZ)+'°</span>'+
+             '<span class="m" style="color:#ff5ac8"><b>P1∠ world</b> X='+g(A.p1X)+'° Y='+g(A.p1Y)+'° Z='+g(A.p1Z)+'°</span>'+
+             '<span class="m" style="color:#9d8cff"><b>P1∠ spin</b> '+g(A.p1spin)+'° <i>(0=shape∥rotation)</i></span>';
+    })() : '')+
+    (frozen?'<span class="m" style="color:#ff5aa0">FROZEN</span>':'')+
+    (oscOn?'<span class="m" style="color:var(--b)">osc blend '+oscBlend.toFixed(2)+'</span>':'')+
+    (normalize?'<span class="m norm">normalized</span>':'')+
+    (autoFit&&!normalize?'<span class="m fit">fit ×'+(fitRadius).toFixed(2)+'</span>':'')+
+    ((document.getElementById('rotChk')&&document.getElementById('rotChk').checked) ? (()=>{
+      const R=rotationAnalysis();
+      const cfStr='['+R.cf.join('; ')+']';
+      const convStr=R.conv.map(([p,q])=>p+'/'+q).join(', ');
+      return '<span class="m" style="color:#78ffc8"><b>rate ratio</b> '+R.ratioLabel+' → inter-level freq '+R.rn.toFixed(5)+'</span>'+
+             '<span class="m" style="color:#78ffc8"><b>continued frac</b> '+cfStr+'</span>'+
+             '<span class="m" style="color:#78ffc8"><b>convergents</b> '+convStr+' <i>(nearest rationals)</i></span>'+
+             '<span class="m" style="color:#ffd24a"><b>resonance</b> '+R.character+(R.closesAt?' @ '+R.closesAt[0]+'/'+R.closesAt[1]:'')+'</span>';
+    })() : '');
+}
+
+function setBar(){
+  const lc=document.getElementById('lvlCount'); if(lc) lc.innerHTML='level <b>'+rung+'</b> · cycle '+Math.floor(rung/2);
+  const d=document.getElementById('desc');
+  if(rung===0) d.textContent='The seed: a point at radius D from the origin.';
+  else if(rung===1) d.textContent='One rotation → circle of radius D.';
+  else if(rung===2) d.textContent='Second rotation (orthogonal plane), same center → sphere.';
+  else if(rung===3) d.textContent='New cycle: translate the whole figure out by "displace", then revolve → torus (the translation opens the hole).';
+  else if(rung===4) d.textContent='Tip the torus orthogonally → torus-sphere, completing cycle 1.';
+  else d.textContent='Cycle '+Math.floor(rung/2)+': translate (scaled by the disp ratio cascade), then rotate. The structure keeps building by the same rule.';
+}
+function setLevel(v){
+  const ni=Math.max(0,Math.round(v));
+  if(ni===rung) return;
+  const rising=ni>rung;
+  if(rising){
+    // grow the new top rotation in from 0
+    retractTo=null;
+    rung=ni;
+    if(rung>=1){ growth=0; growthAccum=0; growthAuto=true; }
+    else { growth=1; growthAuto=false; }
+  } else {
+    // DESCEND: keep the current top rotation visible and shrink it 1→0 (un-fold),
+    // then drop the level. Animate one step at a time toward the target.
+    if(rung>=1){
+      retractTo = ni;          // where we're headed
+      growth=1; growthAccum=0; growthAuto=false; retracting=true;
+    } else {
+      rung=ni; growth=1;
+    }
+  }
+  const el=document.querySelector('[data-k="__level"] b'); if(el)el.textContent=rung;
+  hardClear(); setBar(); if(typeof buildOverrides==='function') buildOverrides();
+}
+document.getElementById('reset').onclick=()=>{viewTarget={yaw:0.5,pitch:0.4};roll=0;viewAxes.x=viewAxes.y=viewAxes.z=false;syncViewUI();};
+const P=Math.PI;
+const orbitSpdScrub=document.querySelector('[data-k="__orbitspd"]');
+function syncOrbitUI(){
+  document.getElementById('orbitBtn').classList.toggle('on', orbitOn);
+  if(orbitSpdScrub) orbitSpdScrub.style.display = orbitOn?'':'none';
+  // when orbit ON: axis buttons highlight the active orbit axes.
+  // when orbit OFF: hand the axis highlights back to the view-axis selection.
+  if(orbitOn){
+    ['viewX','viewY','viewZ'].forEach(id=>{const ax=id.slice(4).toLowerCase();document.getElementById(id).classList.toggle('on', orbitAxes[ax]);});
+  } else {
+    syncViewUI();
+  }
+}
+document.getElementById('orbitBtn').onclick=()=>{ orbitOn=!orbitOn; syncOrbitUI(); };
+// 4D viewing controls
+const spin4Btn=document.getElementById('spin4Btn');
+spin4Btn.onclick=()=>{ spin4 = (spin4!==0)?0:spin4spd; spin4Btn.classList.toggle('on', spin4!==0); };
+document.getElementById('proj4Sel').onchange=function(){ proj4mode=this.value; hardClear(); };
+// convert a look-direction to the camera's yaw/pitch (verified to reproduce the cardinal views).
+function dirToYawPitch(d){
+  const n=Math.hypot(d[0],d[1],d[2])||1; const x=d[0]/n,y=d[1]/n,z=d[2]/n;
+  return {yaw:Math.atan2(x,z), pitch:Math.atan2(y,Math.hypot(x,z))};
+}
+function applyViewAxes(){
+  const d=[viewAxes.x?1:0, viewAxes.y?1:0, viewAxes.z?1:0];
+  if(d[0]===0&&d[1]===0&&d[2]===0) return;          // empty selection: leave camera as-is
+  viewTarget=dirToYawPitch(d); roll=0;
+  syncViewUI();
+}
+function syncViewUI(){
+  // highlight selected view axes (only meaningful in non-orbit mode)
+  if(orbitOn) return;
+  ['viewX','viewY','viewZ'].forEach(id=>{const ax=id.slice(4).toLowerCase();document.getElementById(id).classList.toggle('on', viewAxes[ax]);});
+}
+function axisClick(ax){
+  if(orbitOn){ orbitAxes[ax]=!orbitAxes[ax]; syncOrbitUI(); return; }   // orbit mode: stackable orbit axes
+  // non-orbit: combinatorial oblique view. Toggle this axis in the look-direction set, like orbit.
+  viewAxes[ax]=!viewAxes[ax];
+  applyViewAxes();
+}
+document.getElementById('viewX').onclick=()=>axisClick('x');
+document.getElementById('viewY').onclick=()=>axisClick('y');
+document.getElementById('viewZ').onclick=()=>axisClick('z');
+syncOrbitUI();
+
+// scrubs
+// ── LOD ZONE: the section bar is a depth control. Drag DOWN to reveal tiers (snap per ~STEP px), drag up
+// to collapse. A click (negligible drag) steps +1 tier and wraps to 0 past max. Depth pips show level.
+function initLodzone(sec){
+  const bar=sec.querySelector('.lodbar'); if(!bar) return;
+  const maxDepth=sec.querySelectorAll('.tier').length;
+  const pipsEl=bar.querySelector('.pips');
+  bar.title='click to collapse/open · drag down for progressive depth · Ctrl/Shift/Alt+click jumps to tier 1/2/3';
+  const STEP=38;                              // px of drag per tier
+  function setDepth(d){ d=Math.max(0,Math.min(maxDepth,d)); sec.dataset.depth=d;
+    if(pipsEl) pipsEl.textContent='●'.repeat(d)+'○'.repeat(maxDepth-d); }
+  setDepth(+sec.dataset.depth||0);
+  let dragging=false, sy=0, startDepth=0, moved=0;
+  bar.addEventListener('pointerdown',e=>{ dragging=true; sy=e.clientY; startDepth=+sec.dataset.depth||0; moved=0;
+    bar.classList.add('dragging'); bar.setPointerCapture(e.pointerId); e.preventDefault(); e.stopPropagation(); });
+  bar.addEventListener('pointermove',e=>{ if(!dragging) return; const dy=e.clientY-sy; moved=Math.max(moved,Math.abs(dy));
+    setDepth(startDepth + Math.round(dy/STEP)); e.preventDefault(); e.stopPropagation(); });
+  function end(e){ if(!dragging) return; dragging=false; bar.classList.remove('dragging');
+    if(moved<4){   // treated as a click (negligible drag)
+      const c=e.ctrlKey||e.metaKey, s=e.shiftKey, a=e.altKey;
+      if(c||s||a){ setDepth(a?3 : s?2 : 1); }              // modifier = jump straight to tier 1/2/3 (clamped)
+      else { setDepth((+sec.dataset.depth||0)>0 ? 0 : maxDepth); }  // plain click = toggle collapse ↔ full
+    }
+    e.preventDefault(); e.stopPropagation(); try{bar.releasePointerCapture(e.pointerId);}catch(_){ } }
+  bar.addEventListener('pointerup',end); bar.addEventListener('pointercancel',end);
+  // also suppress touchmove on the bar (belt-and-suspenders: stops the page/popup from claiming the swipe)
+  bar.addEventListener('touchmove',e=>{ if(dragging){ e.preventDefault(); e.stopPropagation(); } }, {passive:false});
+}
+function initScrub(el){
+  const key=el.dataset.k,step=+el.dataset.step||1,min=el.dataset.min!==undefined?+el.dataset.min:null;
+  const max=el.dataset.max!==undefined?+el.dataset.max:null;        // optional hard ceiling
+  const noDepth=el.dataset.nodepth==='1';                            // arrows use plain step, ignore modifier-depth
+  const isLog=el.dataset.log==='1';
+  const snapBase=el.dataset.snap!==undefined?+el.dataset.snap:null;   // base quantize grid (null = use step nudge)
+  // wrap the existing "label <b>value</b>" content into a centered .sval span
+  const sval=document.createElement('span'); sval.className='sval';
+  while(el.firstChild) sval.appendChild(el.firstChild);
+  el.appendChild(sval);
+  const label=sval.childNodes[0].textContent; let b=sval.querySelector('b');
+  const fmt=v=>(Math.abs(v)>=100||Number.isInteger(v))?v.toFixed(0):v.toFixed(2);
+  function get(){
+    if(key==='__level')return rung;
+    if(key==='__oscBlend')return oscBlend;
+    if(key==='__oscAmp')return oscAmp;
+    if(key==='__kHole')return kHole;
+    if(key==='__p2invR')return p2invR;
+    if(key==='__b2RateDrive')return beam2.rateDrive;
+    if(key==='__b2kHole')return beam2.kHole;
+    if(key==='__b2rad')return beam2.rad;
+    if(key==='__b2disp')return beam2.disp;
+    if(key==='__growcycles')return growCycles;
+    if(key==='__orbitspd')return orbitSpd;
+    if(key==='__focal')return focalLength;
+    if(key==='__stereoR')return stereoR;
+    if(key==='__gridDiv')return gridDivisions;
+    if(key==='__calRes')return calRes;
+    if(key==='__view4wx')return view4.wx;
+    if(key==='__view4wy')return view4.wy;
+    if(key==='__view4wz')return view4.wz;
+    if(key==='__dist4')return dist4;
+    if(key==='__spin4spd')return spin4spd;
+    if(key.startsWith('__ro'))return rateOverride[+key.slice(4)]!=null?rateOverride[+key.slice(4)]:layerMult(+key.slice(4));
+    return key in vals?vals[key]:0;
+  }
+  function set(v){
+    if(min!==null)v=Math.max(min,v);
+    if(max!==null)v=Math.min(max,v);
+    if(key==='__level'){setLevel(v);return;}
+    if(key==='__oscBlend'){oscBlend=Math.max(0,Math.min(1,v));b.textContent=oscBlend.toFixed(2);return;}
+    if(key==='__oscAmp'){oscAmp=Math.max(0,v);b.textContent=oscAmp.toFixed(2);return;}
+    if(key==='__kHole'){kHole=Math.max(0.1,v);b.textContent=kHole.toFixed(2);return;}
+    if(key==='__p2invR'){p2invR=Math.max(1,v);b.textContent=p2invR.toFixed(0);hardClear();return;}
+    if(key==='__b2RateDrive'){beam2.rateDrive=v;b.textContent=fmt(v);hardClear();return;}
+    if(key==='__b2kHole'){beam2.kHole=Math.max(0.1,v);b.textContent=beam2.kHole.toFixed(2);hardClear();return;}
+    if(key==='__b2rad'){beam2.rad=Math.max(5,v);b.textContent=beam2.rad.toFixed(0);hardClear();return;}
+    if(key==='__b2disp'){beam2.disp=Math.max(0,v);b.textContent=beam2.disp.toFixed(0);hardClear();return;}
+    if(key==='__growcycles'){growCycles=Math.max(0.01,v);b.textContent=growCycles.toFixed(1);return;}
+    if(key==='__orbitspd'){orbitSpd=Math.max(0,v);b.textContent=orbitSpd.toFixed(1);return;}
+    if(key==='__focal'){focalLength=Math.max(40,v);b.textContent=focalLength.toFixed(0);return;}
+    if(key==='__stereoR'){stereoR=Math.max(40,v);b.textContent=stereoR.toFixed(0);return;}
+    if(key==='__gridDiv'){gridDivisions=Math.max(1,Math.round(v));b.textContent=gridDivisions;return;}
+    if(key==='__view4wx'){view4.wx=v;b.textContent=v.toFixed(2);return;}
+    if(key==='__view4wy'){view4.wy=v;b.textContent=v.toFixed(2);return;}
+    if(key==='__view4wz'){view4.wz=v;b.textContent=v.toFixed(2);return;}
+    if(key==='__dist4'){dist4=Math.max(120,v);b.textContent=dist4.toFixed(0);return;}
+    if(key==='__spin4spd'){spin4spd=Math.max(0,v); if(spin4!==0)spin4=spin4spd; b.textContent=spin4spd.toFixed(1);return;}
+    if(key==='__calRes'){ // snap to nearest power-of-2 ladder rung (independent of grid divisions)
+      let best=CAL_LADDER[0]; for(const r of CAL_LADDER){ if(Math.abs(r-v)<Math.abs(best-v)) best=r; }
+      calRes=best; b.textContent=calRes; return; }
+    if(key.startsWith('__ro')){const i=+key.slice(4);rateOverride[i]=v;b.textContent=fmt(v);el.classList.add('set');return;}
+    if(key in vals){vals[key]=v; if(key==='renderscale')resize();} b.textContent=fmt(v);
+  }
+  set(get());const def=get();let dragging=false,sx=0,sy=0,sv=0;
+  // expose read/apply on the element so the state system can treat controls as the source of truth
+  el.__key=key; el.__read=()=>get(); el.__apply=(v)=>{ set(+v); b.textContent=fmt(get()); };
+  // arrows: snap to a per-param grid. data-snap sets the base grid; Ctrl ×10, Ctrl+Shift ×100,
+  // Ctrl+Shift+Alt ×1000 — for bigger jumps. Snapping rounds to the nearest grid multiple, then
+  // moves one cell in the arrow direction. Scrubs without data-snap fall back to a step nudge.
+  // 8-tier depth via modifier combinations, each tier ×10. Order (sane: singles, pairs, triple):
+  //   none·Ctrl·Shift·Alt·Ctrl+Shift·Ctrl+Alt·Shift+Alt·Ctrl+Shift+Alt → ×1,10,100,1k,10k,100k,1M,10M
+  function depthMult(ev){
+    if(!ev) return 1;
+    const c=ev.ctrlKey||ev.metaKey, s=ev.shiftKey, a=ev.altKey;
+    let tier=0;
+    if(c&&s&&a) tier=7;
+    else if(s&&a) tier=6;
+    else if(c&&a) tier=5;
+    else if(c&&s) tier=4;
+    else if(a) tier=3;
+    else if(s) tier=2;
+    else if(c) tier=1;
+    return Math.pow(10, tier);
+  }
+  function gridFor(ev){
+    const base=snapBase!=null?snapBase:step;
+    if(noDepth) return base;          // ignore modifier-depth: a fixed step (e.g. render%)
+    return base*depthMult(ev);
+  }
+  function bump(dir, ev){
+    const cur=get();
+    if(key==='__level'){ setLevel(Math.round(cur)+dir); return; }
+    const g=gridFor(ev);
+    let next;
+    if(snapBase!=null){
+      // snap to grid: round to nearest multiple, then step one cell in the arrow direction
+      const snapped=Math.round(cur/g)*g;
+      next = (Math.abs(snapped-cur) > 1e-9 && Math.sign(snapped-cur)===dir) ? snapped : snapped + dir*g;
+    } else if(isLog){
+      next = Math.max(1e-4, cur*Math.pow(1+step, dir));
+    } else {
+      next = cur + dir*g;
+    }
+    set(next);
+    b.textContent=fmt(get());
+  }
+  function attachArrows(){
+    if(el.querySelector('.ar')) return;
+    const L=document.createElement('span'); L.className='ar l'; L.textContent='◀'; L.title='decrease · depth: Ctrl ×10, Shift ×100, Alt ×1k, then pairs ×10k/100k/1M, all three ×10M';
+    const R=document.createElement('span'); R.className='ar r'; R.textContent='▶'; R.title='increase · depth: Ctrl ×10, Shift ×100, Alt ×1k, then pairs ×10k/100k/1M, all three ×10M';
+    el.insertBefore(L, el.firstChild);   // left edge
+    el.appendChild(R);                    // right edge
+    [L,R].forEach(a=>a.addEventListener('pointerdown',e=>e.stopPropagation()));
+    // bind to pointerup (not click): the parent scrub calls preventDefault on touchstart, which suppresses
+    // the synthetic click on mobile — so click never fires for taps. pointerup fires regardless. Guard with a
+    // small move threshold so a drag that ends on an arrow isn't counted as a tap.
+    const tap=(dir)=>(e)=>{ e.stopPropagation(); e.preventDefault(); bump(dir,e); };
+    L.addEventListener('pointerup', tap(-1));
+    R.addEventListener('pointerup', tap(1));
+  }
+  attachArrows();
+  el.addEventListener('pointerdown',e=>{if(e.target.tagName==='INPUT')return;dragging=true;sx=e.clientX;sy=e.clientY;sv=get();el.classList.add('dragging');el.setPointerCapture(e.pointerId);e.preventDefault();});
+  el.addEventListener('pointermove',e=>{if(!dragging)return;const dx=e.clientX-sx,dy=e.clientY-sy;
+    let rm=Math.pow(10,-dy/120);
+    // precision layers: Ctrl squares the fineness (×0.1 effective), Ctrl+Shift cubes it (×0.01)
+    if(e.ctrlKey && e.shiftKey) rm*=0.01; else if(e.ctrlKey) rm*=0.1;
+    if(isLog)set(Math.max(1e-4,sv*Math.pow(1.012,dx*rm)));else set(sv+dx*step*rm);});
+  function end(){dragging=false;el.classList.remove('dragging');if(key!=='__level')b.textContent=fmt(get());}
+  el.addEventListener('pointerup',end);el.addEventListener('pointercancel',end);
+  // mobile: stop the page scrolling when a scrub is dragged (esp. vertical drag for precision).
+  el.addEventListener('touchstart',e=>{if(e.target.tagName!=='INPUT')e.preventDefault();},{passive:false});
+  el.addEventListener('touchmove',e=>{e.preventDefault();},{passive:false});
+  el.addEventListener('contextmenu',e=>{e.preventDefault();
+    if(key.startsWith('__ro')){rateOverride[+key.slice(4)]=null;el.classList.remove('set');b.textContent=fmt(get());return;}
+    set(def);
+  });
+  el.addEventListener('dblclick',e=>{if(e.target.classList&&e.target.classList.contains('ar'))return;const cu=get();sval.innerHTML=label+'<input>';const inp=sval.querySelector('input');inp.value=fmt(cu);inp.focus();inp.select();const c=()=>{const v=parseFloat(inp.value);sval.innerHTML=label+'<b></b>';b=sval.querySelector('b');set(isNaN(v)?cu:v);};inp.addEventListener('blur',c);inp.addEventListener('keydown',ev=>{if(ev.key==='Enter')inp.blur();});});
+}
+
+const _ptrs=new Map();   // active pointers on the canvas (id → {x,y}) for pinch detection
+let _pinchD=0;           // last two-finger distance
+function _setZoom(z){
+  vals.zoom=Math.max(0.02, Math.min(50, z));
+  const zb=document.querySelector('[data-k="zoom"] b');
+  if(zb) zb.textContent=(vals.zoom>=10||Number.isInteger(vals.zoom))?vals.zoom.toFixed(0):vals.zoom.toFixed(2);
+}
+cv.addEventListener('pointerdown',e=>{_ptrs.set(e.pointerId,{x:e.clientX,y:e.clientY});
+  if(_ptrs.size===2){ const p=[..._ptrs.values()]; _pinchD=Math.hypot(p[0].x-p[1].x,p[0].y-p[1].y); drag=false; }
+  else { drag=true; viewTarget=null; lx=e.clientX; ly=e.clientY; }
+  try{cv.setPointerCapture(e.pointerId);}catch(_){}e.preventDefault();});
+cv.addEventListener('pointermove',e=>{
+  if(_ptrs.has(e.pointerId)) _ptrs.set(e.pointerId,{x:e.clientX,y:e.clientY});
+  if(_ptrs.size>=2){   // PINCH: distance ratio → zoom (rotation suppressed while two fingers are down)
+    const p=[..._ptrs.values()]; const d=Math.hypot(p[0].x-p[1].x,p[0].y-p[1].y);
+    if(_pinchD>0 && d>0){ _setZoom(vals.zoom*(d/_pinchD)); }
+    _pinchD=d; e.preventDefault(); e.stopPropagation(); return;
+  }
+  if(!drag)return; yaw+=(e.clientX-lx)*0.01;pitch+=(e.clientY-ly)*0.01;lx=e.clientX;ly=e.clientY;e.preventDefault();e.stopPropagation();});
+const ed=e=>{_ptrs.delete(e.pointerId); if(_ptrs.size<2)_pinchD=0; if(_ptrs.size===0)drag=false; try{cv.releasePointerCapture(e.pointerId);}catch(_){}};
+cv.addEventListener('pointerup',ed);cv.addEventListener('pointercancel',ed);
+// mobile: stop the page from scrolling when the touch is used to rotate the canvas.
+// touch-action:none in CSS isn't always honored mid-gesture, so also preventDefault here (non-passive).
+cv.addEventListener('touchstart',e=>{e.preventDefault();},{passive:false});
+cv.addEventListener('touchmove',e=>{e.preventDefault();},{passive:false});
+// scroll to zoom: adjusts the user zoom multiplier (composes with auto-fit cleanly)
+cv.addEventListener('wheel',e=>{
+  e.preventDefault();
+  const factor=Math.exp(-e.deltaY*0.0015);   // smooth exponential zoom
+  _setZoom(vals.zoom*factor);
+},{passive:false});
+
+document.getElementById('note').innerHTML=`<b>k + rate-ratio system.</b> The form has one shape knob — <b>k</b> — which sets the hole radius (k−1)/(k+1) of the unit and the per-cycle displacement (k × radius). Timing comes from the <b>rate ratio</b>: each rotation's rate = (1/ratio)^level. The <b>per-level rate ×</b> scrubs are overrides — drag one to retune that level's rotation rate (highlighted), right-click to clear it back to 1.0; this breaks per-level uniformity and visibly reshapes the form (changing relative frequencies and the teleport/aliasing render). Normalization absorbs absolute scale, so k and the rate ratio (plus per-level overrides) are the knobs that actually change the shape. All unclamped — explore freely.`;
+
+// ---------- save composite image (beam + overlays merged) ----------
+// The beam (#c) and overlays (#o) are separate stacked canvases, so a browser right-click "save image"
+// grabs only one. This composites both onto a temp canvas at full device resolution and downloads a PNG.
+function saveCompositeImage(){
+  const tmp=document.createElement('canvas');
+  tmp.width=cv.width; tmp.height=cv.height;   // device-pixel resolution (matches the live canvases)
+  const tx=tmp.getContext('2d');
+  tx.fillStyle='#0A0E12'; tx.fillRect(0,0,tmp.width,tmp.height);   // opaque instrument background
+  tx.drawImage(cv,0,0);   // beam layer
+  tx.drawImage(ov,0,0);   // overlay layer on top
+  tmp.toBlob(blob=>{
+    const url=URL.createObjectURL(blob);
+    const a=document.createElement('a');
+    const stamp=new Date().toISOString().replace(/[:.]/g,'-').slice(0,19);
+    a.href=url; a.download='trajectoscope_L'+rung+'_'+stamp+'.png';
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(()=>URL.revokeObjectURL(url),1000);
+  },'image/png');
+}
+document.getElementById('saveImgBtn').onclick=saveCompositeImage;
+
+// ---------- keyboard: ← / → step the level (mirrors the level scrub), ↑ / ↓ too ----------
+// Ignored while typing in an input/textarea so inline value-entry isn't hijacked.
+window.addEventListener('keydown',e=>{
+  const t=e.target, tag=t&&t.tagName;
+  if(tag==='INPUT'||tag==='TEXTAREA'||tag==='SELECT') return;
+  if(e.key==='ArrowLeft'||e.key==='ArrowDown'){ setLevel(rung-1); e.preventDefault(); }
+  else if(e.key==='ArrowRight'||e.key==='ArrowUp'){ setLevel(rung+1); e.preventDefault(); }
+});
+
+// ---------- ratio catalog UI ----------
+function populateRatioSelect(selId, currentId, onPick){
+  const sel=document.getElementById(selId); sel.innerHTML='';
+  for(const [grp,ids] of Object.entries(RATIO_GROUPS)){
+    const og=document.createElement('optgroup'); og.label=grp;
+    ids.forEach(id=>{const o=document.createElement('option');o.value=id;o.textContent=RATIOS[id].label;og.appendChild(o);});
+    sel.appendChild(og);
+  }
+  sel.value=currentId; sel.onchange=()=>{onPick(sel.value);hardClear();};
+}
+populateRatioSelect('rateRatio', rateRatioId, id=>rateRatioId=id);
+
+document.querySelectorAll('.selar').forEach(btn=>{
+  const step=(e)=>{
+    e.preventDefault(); e.stopPropagation();
+    const sel=document.getElementById(btn.dataset.sel); if(!sel) return;
+    const opts=Array.from(sel.options); if(!opts.length) return;
+    const i=Math.max(0, opts.findIndex(o=>o.value===sel.value));
+    const ni=(i + (+btn.dataset.dir) + opts.length)%opts.length;
+    sel.value=opts[ni].value; sel.dispatchEvent(new Event('change'));
+  };
+  btn.addEventListener('pointerup', step);   // pointerup, not onclick — reliable on touch (no synthetic-click loss)
+});
+document.getElementById('selfChk').onchange=e=>{selfScale=e.target.checked;hardClear();};
+// ── FORMULA SELECTOR (G0) + 4D-camera gating (G1) ──
+(function initFormulaSelect(){
+  const sel=document.getElementById('formulaSel'); if(!sel) return;
+  for(const name of ['staged','freed','lissajous','torus','epicyclic']){
+    const o=document.createElement('option'); o.value=name; o.textContent=FORMULA_LABELS[name]||name; sel.appendChild(o);
+  }
+  sel.value=currentFormula;
+  const gate4D=()=>{ const row=document.getElementById('row4D'); if(row) row.style.display=(currentFormula==='staged')?'':'none'; };
+  sel.onchange=()=>{ currentFormula=sel.value; gate4D(); hardClear(); };
+  gate4D();
+})();
+document.getElementById('calMode').onchange=()=>{ syncCaliperMode(); };
+document.getElementById('oscChk').onchange=e=>{oscOn=e.target.checked;hardClear();};
+document.getElementById('beam2Chk').onchange=e=>{p2on=e.target.checked;hardClear();};
+document.getElementById('p2Mode').onchange=e=>{p2mode=e.target.value;hardClear();};
+function syncBeam2Rows(){
+  const indep = p2relation==='independent';
+  document.getElementById('derivedRow').style.display = indep?'none':'';
+  document.getElementById('indepRow1').style.display = indep?'':'none';
+  document.getElementById('indepRow2').style.display = indep?'':'none';
+}
+document.getElementById('p2Rel').onchange=e=>{p2relation=e.target.value;syncBeam2Rows();hardClear();};
+document.getElementById('b2SelfChk').onchange=e=>{beam2.selfScale=e.target.checked;hardClear();};
+populateRatioSelect('b2Ratio', beam2.rateRatioId, id=>beam2.rateRatioId=id);
+syncBeam2Rows();
+syncCaliperMode();
+document.getElementById('freezeBtn').onclick=()=>{frozen=!frozen;document.getElementById('freezeBtn').textContent=frozen?'▶ resume':'❄ freeze';
+  // freeze = the cue to read: open the Measurement section to its full-state tier; resume returns to tier 1
+  const sec=document.getElementById('freezeBtn').closest('.lodzone');
+  if(sec){ const max=sec.querySelectorAll('.tier').length; sec.dataset.depth=frozen?max:1;
+    const pips=sec.querySelector('.pips'); if(pips){ const d=+sec.dataset.depth; pips.textContent='●'.repeat(d)+'○'.repeat(max-d); } }
+};
+document.getElementById('stepBtn').onclick=()=>{stepOnce=true;};
+
+// ---------- STATE LOGGING (snapshot on demand → copy as TSV) ----------
+// Dense shape characterization: sample phase-space heavily to get accurate inner/outer radius,
+// COM, and covariance eigenvalues for the current form (independent of the throttled live panel).
+function measureDense(N){
+  let rmin=1e9,rmax=0,sx=0,sy=0,sz=0; const save=ph.slice(); const pts=[];
+  for(let s=0;s<N;s++){
+    for(let k=0;k<MAXROT;k++) ph[k]=Math.random()*TAU;   // random phase-space sampling → robust extent
+    const p=buildRaw();
+    const r=Math.hypot(p[0],p[1],p[2]); if(r<rmin)rmin=r; if(r>rmax)rmax=r;
+    sx+=p[0];sy+=p[1];sz+=p[2]; pts.push(p);
+  }
+  for(let k=0;k<MAXROT;k++) ph[k]=save[k];
+  const mx=sx/N,my=sy/N,mz=sz/N;
+  let c00=0,c11=0,c22=0,c01=0,c02=0,c12=0;
+  for(const p of pts){const dx=p[0]-mx,dy=p[1]-my,dz=p[2]-mz;c00+=dx*dx;c11+=dy*dy;c22+=dz*dz;c01+=dx*dy;c02+=dx*dz;c12+=dy*dz;}
+  c00/=N;c11/=N;c22/=N;c01/=N;c02/=N;c12/=N;
+  const e=eigSym3([[c00,c01,c02],[c01,c11,c12],[c02,c12,c22]]);
+  return {rmin,rmax,com:[mx,my,mz],pca:e.values};
+}
+let logRows=[];
+const logT0=Date.now();
+
+// ───────────────────────────────────────────────────────────────────────────
+// STATE SUBSYSTEM — controls are the single source of truth. Inputs are collected
+// by walking the pipeline sections (.lodzone) and reading every control; the group
+// is derived from the section's name (DOM-derived, no per-control annotation). Adding
+// a control later appears automatically in capture/export/recall — zero hand-sync.
+// (No backwards-compat / versioning until the schema locks — keep it clean.)
+// ───────────────────────────────────────────────────────────────────────────
+function groupKeyOf(section){
+  // derive a stable group key from the section's lodname (e.g. "1 · express — structure" → "express")
+  const nm=section.querySelector('.lodname'); if(!nm) return 'misc';
+  const m=nm.textContent.match(/·\s*([a-z]+)/i); return m?m[1].toLowerCase():'misc';
+}
+// read one control → [key, value] or null. Scrubs expose __key/__read; selects + checkboxes use id.
+function readControl(el){
+  if(el.__key && el.__read) return [el.__key, el.__read()];
+  if(el.tagName==='SELECT') return [el.id, el.value];
+  if(el.tagName==='INPUT' && el.type==='checkbox') return [el.id, el.checked];
+  return null;
+}
+function collectInputs(){
+  const out={};
+  document.querySelectorAll('.lodzone').forEach(sec=>{
+    const g=groupKeyOf(sec); const bucket=out[g]||(out[g]={});
+    sec.querySelectorAll('.scrub, select, input[type=checkbox]').forEach(el=>{
+      const kv=readControl(el); if(kv) bucket[kv[0]]=kv[1];
+    });
+  });
+  return out;
+}
+// apply a previously-collected inputs object back onto the controls (recall).
+function applyInputs(inputs){
+  if(!inputs) return;
+  // build a fast key→element map across all controls
+  const scrubByKey={}, selById={}, chkById={};
+  document.querySelectorAll('.scrub').forEach(el=>{ if(el.__key) scrubByKey[el.__key]=el; });
+  document.querySelectorAll('select').forEach(el=>{ selById[el.id]=el; });
+  document.querySelectorAll('input[type=checkbox]').forEach(el=>{ chkById[el.id]=el; });
+  for(const g of Object.keys(inputs)){
+    const bucket=inputs[g];
+    for(const key of Object.keys(bucket)){
+      const v=bucket[key];
+      if(scrubByKey[key]){ scrubByKey[key].__apply(v); }
+      else if(selById[key]){ selById[key].value=v; selById[key].dispatchEvent(new Event('change')); }
+      else if(chkById[key]){ chkById[key].checked=!!v; chkById[key].dispatchEvent(new Event('change')); }
+    }
+  }
+  hardClear();
+}
+
+function logState(){
+  // SINGLE-STATE SNAPSHOT: read the live measurement already computed this frame (analyzeLocus, Weyl-
+  // sampled) instead of re-running a 5000-sample measure. You freeze → meas holds the frozen state's
+  // measurement → log reads it. Instant, and more accurate than random sampling (truer centroid).
+  const m={ rmax:meas.rmax, rmin:meas.rmin, com:meas.com.slice(), pca:meas.pcaVal.slice() };
+  const rot=compositeRotation();
+  const D=vals.rad, k=kHole;
+  const traces=Math.max(0,Math.floor((rung-1)/2));        // # of trace/displace steps done
+  const predOuter=D*Math.pow(k+1,traces);                 // ball-formula prediction
+  const rOuter=m.rmax, rInner=m.rmin;
+  const comMag=Math.hypot(...m.com);
+  const L=m.pca, Lmax=Math.max(L[0],1e-9);
+  const A=featureAngles();
+  const outputs={
+    // ── MEASURED OUTPUTS (computed; for analysis + comparison, never recalled) ──
+    rOuter:+rOuter.toFixed(1), rInner:+rInner.toFixed(1),
+    holeRatio:+(rOuter>1e-6?rInner/rOuter:0).toFixed(4),
+    comX:+m.com[0].toFixed(1), comY:+m.com[1].toFixed(1), comZ:+m.com[2].toFixed(1),
+    comMag:+comMag.toFixed(1),
+    comRel:+(rOuter>1e-6?comMag/rOuter:0).toFixed(4),    // KEY: relative center drift
+    pca0:+L[0].toFixed(0), pca1:+L[1].toFixed(0), pca2:+L[2].toFixed(0),
+    pcaR1:+(L[1]/Lmax).toFixed(3), pcaR2:+(L[2]/Lmax).toFixed(3),
+    predOuter:+predOuter.toFixed(1),
+    outerErr:+(predOuter>1e-6?rOuter/predOuter:0).toFixed(3),  // KEY: 1.0 = ball-formula holds
+    netDeg:+(rot.angle*180/Math.PI).toFixed(1),
+    netAxisX:+rot.axis[0].toFixed(3), netAxisY:+rot.axis[1].toFixed(3), netAxisZ:+rot.axis[2].toFixed(3),
+    spinAngX:A.spinX!=null?+A.spinX.toFixed(1):null, spinAngY:A.spinY!=null?+A.spinY.toFixed(1):null, spinAngZ:A.spinZ!=null?+A.spinZ.toFixed(1):null,
+    p1AngX:A.p1X!=null?+A.p1X.toFixed(1):null, p1AngY:A.p1Y!=null?+A.p1Y.toFixed(1):null, p1AngZ:A.p1Z!=null?+A.p1Z.toFixed(1):null,
+    p1AngSpin:A.p1spin!=null?+A.p1spin.toFixed(1):null,
+    // anisotropy: FA + Westin cl/cp/cs from the dense PCA eigenvalues (sorted desc)
+    ...(()=>{ const s=[Math.max(0,L[0]),Math.max(0,L[1]),Math.max(0,L[2])].sort((a,b)=>b-a);
+      const l1=s[0],l2=s[1],l3=s[2],tr=l1+l2+l3,sq=l1*l1+l2*l2+l3*l3;
+      const FA=sq>1e-12?Math.sqrt(0.5)*Math.sqrt(((l1-l2)**2+(l2-l3)**2+(l3-l1)**2)/sq):0;
+      return { FA:+FA.toFixed(3),
+        cl:+(tr>1e-12?(l1-l2)/tr:0).toFixed(3), cp:+(tr>1e-12?2*(l2-l3)/tr:0).toFixed(3), cs:+(tr>1e-12?3*l3/tr:0).toFixed(3) }; })(),
+    veMajDeg:(m.pca && meas.pcaVec ? +angleToNearestVE(meas.pcaVec[0]).deg.toFixed(1) : null),
+    // caliper reading logs UNCONDITIONALLY whenever it is well-defined (a target resolves + a current point
+    // exists) — independent of the calChk OVERLAY toggle, which only controls drawing, not validity. (Earlier
+    // these were gated on calChk.checked, so a selected reading silently failed to log if the overlay was off.)
+    calTarget:(()=>{ const sel=document.getElementById('calTarget'); const tp=caliperTargetPos();
+      return (sel && tp && meas.curPt) ? sel.value : null; })(),
+    calDistU:(()=>{ if(!meas.curPt) return null;
+      const tp=caliperTargetPos(); if(!tp) return null;
+      const d=Math.hypot(tp[0]-meas.curPt[0],tp[1]-meas.curPt[1],tp[2]-meas.curPt[2]);
+      const unitR=gridUnitRadius()||1; return +(d/unitR).toFixed(3); })()
+  };
+  // fold the per-level fingerprint series into this row (the minimal "log the data" the stacked overlay
+  // wanted): sweep L1→current capturing each level's fingerprint. Only runs on the deliberate log action.
+  const _saveR=rung, _savePh=ph.slice(), _saveG=growth; growth=1;
+  const levelSeries=[];
+  for(let L=1; L<=Math.max(1,_saveR); L++){ rung=L; analyzeLocus(); levelSeries.push(fingerprintAtCurrentMeas()); }
+  rung=_saveR; growth=_saveG; for(let i=0;i<ph.length;i++) ph[i]=_savePh[i]; analyzeLocus();   // restore + re-measure
+  const row={
+    meta:{ t:+((Date.now()-logT0)/1000).toFixed(1), level:rung, cycle:Math.floor(rung/2) },
+    inputs:collectInputs(),   // controls = source of truth (auto-grows; grouped by pipeline section)
+    outputs,
+    levelSeries               // L1→current fingerprints (rOuter, holeRatio, pcaR1/R2, FA, growth) — the progression
+  };
+  logRows.push(row);
+  updateLogUI(row);
+}
+function logJSON(){
+  if(!logRows.length) return '';
+  return JSON.stringify(logRows, null, 2);
+}
+// fingerprint of the CURRENT measured state — compact per-level invariants. Reused to fold each stacked
+// level's fingerprint into a logged row (the minimal "log the data" the stacked overlay wanted).
+function fingerprintAtCurrentMeas(){
+  const L=meas.pcaVal, Lmax=Math.max(L[0],1e-9);
+  const s=[Math.max(0,L[0]),Math.max(0,L[1]),Math.max(0,L[2])].sort((a,b)=>b-a);
+  const l1=s[0],l2=s[1],l3=s[2],tr=l1+l2+l3,sq=l1*l1+l2*l2+l3*l3;
+  const FA=sq>1e-12?Math.sqrt(0.5)*Math.sqrt(((l1-l2)**2+(l2-l3)**2+(l3-l1)**2)/sq):0;
+  const rmax=meas.rmax, rmin=meas.rmin, comMag=Math.hypot(...meas.com);
+  const D=vals.rad, k=kHole, cyc=Math.floor(rung/2);
+  const predOuter=D*Math.pow(k+1, Math.max(0,Math.floor((rung-1)/2)));
+  return {
+    level:rung, cycle:cyc,
+    rOuter:+rmax.toFixed(1), rInner:+rmin.toFixed(1),
+    holeRatio:+(rmax>1e-6?rmin/rmax:0).toFixed(4),
+    comRel:+(rmax>1e-6?comMag/rmax:0).toFixed(4),
+    pcaR1:+(L[1]/Lmax).toFixed(4), pcaR2:+(L[2]/Lmax).toFixed(4),
+    FA:+FA.toFixed(4),
+    predOuter:+predOuter.toFixed(1), outerErr:+(predOuter>1e-6?rmax/predOuter:0).toFixed(3)
+  };
+}
+function updateLogUI(last){ const lb=document.getElementById('logBtn'); if(lb) lb.classList.toggle('has-log', logRows.length>0); }
+document.getElementById('logBtn').onclick=()=>{ logState(); };   // pink has-log toggle is the feedback (instant, no flash-fade)
+document.getElementById('clearLogBtn').onclick=()=>{logRows=[];updateLogUI(null);flashBtn(document.getElementById('clearLogBtn'),true);};
+function flashBtn(btn, ok, label){ btn.classList.remove('flashok','flashbad'); void btn.offsetWidth;
+  btn.classList.add(ok?'flashok':'flashbad'); setTimeout(()=>btn.classList.remove('flashok','flashbad'),900);
+  if(label){ const o=btn.textContent; btn.textContent=label; setTimeout(()=>btn.textContent=o,900); } }
+// writes text to clipboard, returning a promise. Tries the async API; if absent/blocked, falls back to a
+// momentary OFF-SCREEN textarea + execCommand('copy') — created, selected, copied, and removed in the same
+// tick, so NOTHING is ever visible. This is the robust clipboard path (works where the async API is blocked).
+function copyText(txt){
+  if(navigator.clipboard && navigator.clipboard.writeText){
+    return navigator.clipboard.writeText(txt).catch(()=>execCopy(txt));   // async API, fall back on block
+  }
+  return execCopy(txt);
+}
+function execCopy(txt){
+  return new Promise((res,rej)=>{
+    try{ const ta=document.createElement('textarea'); ta.value=txt; ta.setAttribute('readonly','');
+      ta.style.cssText='position:fixed;top:-9999px;left:-9999px;width:1px;height:1px;opacity:0;pointer-events:none';
+      document.body.appendChild(ta); ta.select(); ta.setSelectionRange(0,txt.length);
+      const ok=document.execCommand('copy'); document.body.removeChild(ta);
+      ok ? res() : rej(); }catch(e){ rej(e); }
+  });
+}
+document.getElementById('copyLogBtn').onclick=()=>{
+  const txt=logJSON(); const btn=document.getElementById('copyLogBtn');
+  if(!txt){ flashBtn(btn,false); return; }                       // red ONLY when nothing is logged
+  copyText(txt).then(()=>flashBtn(btn,true)).catch(()=>flashBtn(btn,false));
+};
+// FINGERPRINT buttons (Slice F2) — delegated (the panel innerHTML regenerates each frame, so per-button
+// onclick wouldn't survive; one document-level listener checks the target id).
+document.addEventListener('click', (e)=>{
+  const t=e.target; if(!t || !t.id) return;
+  if(t.id==='fpCopy'){
+    if(window._lastFP){ copyText('['+window._lastFP.map(v=>v.toFixed(6)).join(', ')+']')
+      .then(()=>flashBtn(t,true)).catch(()=>flashBtn(t,false)); }
+  } else if(t.id==='fpSetRef'){
+    if(window._lastFP){ window._fpRef=window._lastFP.slice(); flashBtn(t,true); }
+  } else if(t.id==='fpClrRef'){
+    window._fpRef=null; flashBtn(t,true);
+  }
+});
+document.getElementById('exportBtn').onclick=()=>{
+  const txt=logJSON(); const btn=document.getElementById('exportBtn');
+  if(!txt){ flashBtn(btn,false); return; }
+  const blob=new Blob([txt],{type:'application/json'});
+  const url=URL.createObjectURL(blob); const a=document.createElement('a');
+  const ts=new Date().toISOString().replace(/[:.]/g,'-').slice(0,19);
+  a.href=url; a.download='trajectoscope-state-'+ts+'.json'; document.body.appendChild(a); a.click();
+  document.body.removeChild(a); URL.revokeObjectURL(url); flashBtn(btn,true);
+};
+// RECALL: read a state JSON from the CLIPBOARD (copy a state first), parse, and restore every input by
+// driving the controls. Button flashes red if the clipboard is empty / unreadable / not valid state JSON.
+document.getElementById('recallBtn').onclick=()=>{
+  const btn=document.getElementById('recallBtn');
+  if(!navigator.clipboard || !navigator.clipboard.readText){ flashBtn(btn,false); return; }
+  navigator.clipboard.readText().then(text=>{
+    let data=JSON.parse(text);
+    if(Array.isArray(data)) data=data[data.length-1];          // array of states → use the last
+    const inputs=data.inputs||data;                            // accept {inputs:…} or a bare inputs object
+    applyInputs(inputs); flashBtn(btn,true);
+  }).catch(()=>flashBtn(btn,false));
+};
+
+// ---------- dynamic per-level / per-cycle override scrubs ----------
+// rebuilt whenever level changes: one rate-override scrub per active level. Shows the current
+// effective per-level rate multiplier (1.00 = following the ratio cascade); touching sets an
+// override (highlighted), right-click clears it. These break per-level uniformity → real shape change
+// (varying rotation rate alters relative frequencies and the teleport/aliasing render).
+function buildOverrides(){
+  const rbox=document.getElementById('rateOvr');
+  rbox.querySelectorAll('.scrub').forEach(n=>n.remove());
+  for(let L=0;L<Math.max(1,rung);L++){
+    const s=document.createElement('span'); s.className='scrub'+(rateOverride[L]!=null?' set':'');
+    s.dataset.k='__ro'+L; s.dataset.step='0.05'; s.dataset.snap='1';   // arrows snap to whole numbers (Ctrl 10, +Shift 100)
+    s.innerHTML='L'+L+' <b>'+ (rateOverride[L]!=null?rateOverride[L]:1.0).toFixed(2) +'</b>';
+    rbox.appendChild(s); initScrub(s);
+  }
+}
+
+resize(); document.querySelectorAll('.scrub').forEach(initScrub); document.querySelectorAll('.lodzone').forEach(initLodzone); buildOverrides(); setBar(); frame();
+</script>
+</body>
+</html>

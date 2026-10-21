@@ -1,0 +1,45 @@
+[
+  {
+    "layer": 5,
+    "col": 71,
+    "source": "Heart Klein Bottle",
+    "controls": [
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z",
+      "Refraction",
+      "Wall Thickness",
+      "Exposure"
+    ],
+    "discovered": [
+      "Quat W",
+      "Quat X",
+      "Quat Y",
+      "Quat Z",
+      "Refraction",
+      "Wall Thickness",
+      "Exposure"
+    ],
+    "probe": "Quat Y",
+    "checks": [
+      {
+        "requested": -0.4,
+        "observed": -0.4,
+        "ok": true
+      },
+      {
+        "requested": 0.3999999999999999,
+        "observed": 0.3999999999999999,
+        "ok": true
+      }
+    ],
+    "samples": [
+      -0.04964337359544513,
+      -0.2208792449825856,
+      -0.3474506276275031,
+      -0.3841558148073136
+    ],
+    "drive_varied": true
+  }
+]

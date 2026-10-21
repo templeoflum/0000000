@@ -1,0 +1,76 @@
+// [HJ] Trickster  (already produced; re-quoted for completeness)
+{
+  "SchemaVersion": "1.1-ter",
+  "ArchetypeName": "Trickster",
+  "SystemOfOrigin": "HJ",
+  "CulturalLineage": ["Universal", "Greek", "Norse", "West-African", "Native-American"],
+  "CommonAliases": ["Fool", "Jester", "Sacred Clown", "Shape-shifter"],
+  "SymbolicEssence": {
+    "ArchetypalFunction": "Disrupts fixed structures to reveal hidden truths and liberate energy",
+    "PrimaryDomain": "Narrative",
+    "ToneOrPolarity": "Chaotic-Neutral",
+    "SymbolicCore": "Laughter that cracks the world open",
+    "Correspondences": {
+      "Element": "Air",
+      "Planet": "Mercury",
+      "Chakra": "Throat",
+      "Color": "Iridescent",
+      "Animal": "Coyote, Raven",
+      "Other": ["Mask", "Mirror", "Crossroads"]
+    }
+  },
+  "NarrativeRoles": {
+    "NarrativeFunction": ["Comic relief", "Rule-breaker", "Truth-teller", "Energy catalyst"],
+    "ComplementaryArchetypes": ["Hero", "Mentor", "Shadow"],
+    "ShadowForms": ["Saboteur", "Manipulator"],
+    "DevelopmentalArc": ["Fool → Trickster → Sacred Clown → Ally"],
+    "CyclePhase": "Crisis / Turning Point"
+  },
+  "PsychologicalMapping": {
+    "CoreTraits": ["Witty", "Unpredictable", "Boundary-testing", "Irreverent"],
+    "Typologies": {
+      "MBTI": "ENTP",
+      "Enneagram": "7w8",
+      "Other": ["JU.Trickster", "JP12.Jester"]
+    },
+    "SubVariants": ["Sacred Clown", "Dark Jester", "Coyote Sage"],
+    "InternalFamily": "Disruptor"
+  },
+  "CulturalContext": {
+    "Regions": ["Global"],
+    "MythicAppearances": ["Loki", "Anansi", "Coyote", "Hermes", "Harlequin"],
+    "ReligiousOrRitualUse": "Used in liminal rites, carnival, and initiation ceremonies",
+    "HistoricalEvolution": "From divine messenger to court jester to modern anti-hero",
+    "SyncreticForms": ["Deadpool", "Loki (Marvel)", "Harlequin-Mercurius"]
+  },
+  "SymbolicRepresentation": {
+    "SigilOrGlyph": "🃏",
+    "ImageryNotes": "Mirrors that multiply faces, roads that fork infinitely",
+    "ArtisticExamples": ["Tarot: Fool", "Shakespeare’s Puck", "Native Coyote masks"],
+    "PoeticInvocation": "I wear your mask to show your face, break your rule to find your grace.",
+    "DreamForm": "A laughing figure at a crossroads with shifting faces"
+  },
+  "MetaIntegration": {
+    "SystemicLinks": ["JU.Trickster", "TAMA.Fool", "GR.Hermes", "JP12.Jester"],
+    "SemanticTags": ["#liminality", "#air", "#mirror", "#crossroads"],
+    "RitualFunction": "Disrupt rigidity, open creative flow",
+    "AIPromptSeeds": [
+      "Generate a chaotic-neutral figure who teaches through mockery."
+    ],
+    "NarrativeHooks": ["Blocks the obvious path with a riddle", "Appears at the turning point of doubt"]
+  },
+  "SyncreticMapping": {
+    "Bidirectional": true,
+    "Equivalents": [
+      { "to": "JU.Trickster", "strength": "strong" },
+      { "to": "TAMA.Fool", "strength": "strong" },
+      { "to": "GR.Hermes", "strength": "moderate" }
+    ]
+  },
+  "FacetRegistry": [
+    { "facet": "Sacred Clown", "weight": 0.4 },
+    { "facet": "Shadow Disruptor", "weight": 0.3 },
+    { "facet": "Comic Guide", "weight": 0.2 },
+    { "facet": "Cosmic Joker", "weight": 0.1 }
+  ]
+}

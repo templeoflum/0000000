@@ -1,0 +1,88 @@
+Heart v2 http://localhost:8875 · dashboard /progress · starts read-only
+Traceback (most recent call last):
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/server.py", line 1463, in <module>
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 205, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 128, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/server.py", line 1456, in main
+    if bridge.returncode is None:bridge.terminate();await bridge.wait()
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/server.py", line 927, in tick
+    deadline+=1/120
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/tasks.py", line 704, in sleep
+    return await future
+           ^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+Heart v2 http://localhost:8875 · dashboard /progress · starts read-only
+Traceback (most recent call last):
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/server.py", line 1457, in <module>
+    await save_motion()
+    
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 205, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 128, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/server.py", line 1449, in main
+    main_task=asyncio.current_task();asyncio.get_running_loop().add_signal_handler(signal.SIGTERM,main_task.cancel)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/server.py", line 928, in tick
+    if e.envelopes.get(pid,{}).get('progress')==1 and not record.get('finishing'):
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/tasks.py", line 704, in sleep
+    return await future
+           ^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+Heart v2 http://localhost:8875 · dashboard /progress · starts read-only
+Traceback (most recent call last):
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/server.py", line 1461, in <module>
+    if __name__=='__main__':asyncio.run(main())
+                            ~~~~~~~~~~~^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 205, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 128, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/server.py", line 1453, in main
+    await asyncio.gather(scan(),tick(),deliver_frames(),publish(),bridge_read(),surface_updates(),persist_motion())
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/server.py", line 932, in tick
+    await asyncio.sleep(max(0,deadline-time.perf_counter()))
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/tasks.py", line 704, in sleep
+    return await future
+           ^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+Heart v2 http://localhost:8875 · dashboard /progress · starts read-only
+Traceback (most recent call last):
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/server.py", line 1461, in <module>
+    if __name__=='__main__':asyncio.run(main())
+                            ~~~~~~~~~~~^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 205, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 128, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/server.py", line 1453, in main
+    await asyncio.gather(scan(),tick(),deliver_frames(),publish(),bridge_read(),surface_updates(),persist_motion())
+  File "/Users/donovan/work/0000000/shadertoy shaders/sp/heart-v2/server.py", line 932, in tick
+    await asyncio.sleep(max(0,deadline-time.perf_counter()))
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/tasks.py", line 704, in sleep
+    return await future
+           ^^^^^^^^^^^^
+asyncio.exceptions.CancelledError

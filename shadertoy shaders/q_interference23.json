@@ -1,0 +1,29 @@
+{
+  "id": "7t3GzB",
+  "name": "q_interference23",
+  "username": "edwardbraed",
+  "description": "Demonstration of 2D quantum interference, on 2or3 wave sources.\nBased on simple gradient: https://www.shadertoy.com/view/NsjGzd",
+  "tags": [
+    "raymarch",
+    "interference",
+    "physics"
+  ],
+  "date": "1653949703",
+  "viewed": 226,
+  "likes": 8,
+  "published": 1,
+  "renderpass": [
+    {
+      "type": "image",
+      "name": "Image",
+      "inputs": [],
+      "outputs": [
+        {
+          "id": "4dfGRr",
+          "channel": 0
+        }
+      ],
+      "code": "//-----------------------------------------------------------------\n//- Settings: -----------------------------------------------------\n//-----------------------------------------------------------------\n\n//#define TWO_WAVES\n#define COLOR_WAVES\n#define AMPLITUDE_MP 2.0\n#define Q_SIZ 0.01\n#define Q_CNT 30.0\n#define MAX_STEPS_MARCH 64\n\n//-----------------------------------------------------------------\n#define norm(a) (a + 1.0) * 0.5\n\nfloat vmid(vec3 v) { return v.x * 0.33 + v.y * 0.33 + v.z * 0.33; }\nfloat vsum(vec3 v) { return v.x + v.y + v.z; }\n\n//thanks: https://www.shadertoy.com/view/ll33zS\nvec3 getCamera(vec3 z, vec3 p)\n{\n\tvec3 x = normalize(cross(vec3(0.0, 1.0, 0.0), z));\n    return mat3(x, cross(z, x), z) * p;\n}\n\nvec3 raymarch(vec3 ro, vec3 rd, vec4 l, float bg)\n{   \n    float tim = iTime *2.0;\n    \n    float t = 0.0;\n    for(int x = 0; x < MAX_STEPS_MARCH; x++)\n    {\n        vec3 pos = ro + rd * t;\n        \n        vec2 gp = round(pos.xz / Q_SIZ);\n        #ifdef TWO_WAVES\n        vec3 wr = vec3(norm(sin(length(gp + vec2( 0.6, 0.0)*Q_CNT)- tim)) * 0.5,\n                       norm(sin(length(gp + vec2(-0.6, 0.0)*Q_CNT)- tim)) * 0.5,\n                       0.0);\n        #else\n        vec3 wr = vec3(norm(sin(length(gp + vec2( 0.86, 0.6)*Q_CNT)- tim)) * 0.33,\n                       norm(sin(length(gp + vec2(-0.86, 0.6)*Q_CNT)- tim)) * 0.33,\n                       norm(sin(length(gp + vec2( 0.0, -0.9)*Q_CNT)- tim)) * 0.33);\n        #endif\n        \n        \n        vec3 qp = pos;\n        qp.y -= mix(0.0, Q_SIZ * AMPLITUDE_MP, vsum(wr) -pow(length(pos.xz / Q_SIZ - gp), 2.0));\n        \n        vec3 lb = vec3(Q_CNT, Q_SIZ, Q_CNT);\n        vec3 q = qp -Q_SIZ*clamp(round(qp/Q_SIZ),-lb,lb);\n        float d = length(q) - Q_SIZ;\n        \n        if(d < 0.001)\n        {\n            vec3 lv = l.xyz - pos;\n            float ld = pow(length(lv), 2.0);\n            float diff = max(dot(normalize(lv), pos), 0.0)* (l.w / ld);\n            \n            vec3 res = vec3(diff * 5.0);\n            #ifdef COLOR_WAVES\n                res *= vec3(wr.x, wr.y, wr.z * 1.5);\n            #else\n                res *= vmid(wr);\n            #endif\n            return res;\n        }\n        \n        t += d;\n    }\n    \n    return vec3(0.0, 0.4, 1.0) * bg;\n}\n\nvoid mainImage( out vec4 fragColor, in vec2 fragCoord )\n{\n    // Normalized pixel coordinates (from 0 to 1)\n    vec2 uv = fragCoord/iResolution.xy;\n    \n    // aspect ratio for correction rays..\n    float a = iResolution.x / iResolution.y;\n    \n    // pseudo perspective pyramid (directions rays)\n    vec2 dTr = vec2(1.0, 1.0);\n    vec2 dTl = vec2(-1.0, 1.0);\n    vec2 dBr = vec2(1.0, -1.0);\n    vec2 dBl = vec2(-1.0, -1.0);\n    \n    vec2 mPos = iMouse.xy / iResolution.xy;\n    mPos.x -= 0.5;\n    \n    // common uv ray direction\n    vec3 rd = vec3(mix(mix(dBl, dBr, uv.x),\n                       mix(dTl, dTr, uv.x), uv.y),\n                   1.0) / mix(4.0, 7.0, mPos.y);\n    rd.x *= a;\n    \n    // origin direction (or pseudo camera position)\n    float angl = -mPos.x * 20.0 * (1.0 - min(mPos.y + 0.3, 1.0));\n    vec3 ro = vec3(mix(sin(angl), 0.0, min(mPos.y, 0.98)), \n                   mix(1.0 / a - 0.3, 1.0, mPos.y), \n                   mix(cos(angl), 0.001, mPos.y));\n    \n    rd = getCamera(ro, vec3(rd.xy, -0.45));\n    \n    // light (pos, power)\n    vec4 l = vec4(0.0, 30.0, 0.0, 25000.0);\n    // background gradient\n    float bg = (1.0 - distance(uv, vec2(0.5))) * 0.45;\n    \n    vec3 rgb = raymarch(ro, rd, l, bg);\n    \n    // Output to screen\n    fragColor = vec4(rgb, 1.0);\n}"
+    }
+  ]
+}

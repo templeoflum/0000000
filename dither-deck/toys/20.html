@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>◐</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{height:100%;overflow:hidden;overscroll-behavior:none;background:#0e0d12}
+#app{height:100vh;height:100dvh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:26px}
+#scene{width:min(80vw,340px);aspect-ratio:1;background:#fff;border-radius:3px}
+#rail{width:min(86vw,420px);height:auto;touch-action:none;cursor:pointer}
+</style>
+</head>
+<body>
+<div id="app">
+  <canvas id="scene"></canvas>
+  <svg id="rail" viewBox="0 0 420 56" aria-label="the knob">
+    <line x1="30" y1="28" x2="390" y2="28" stroke="#26242f" stroke-width="2" stroke-linecap="round"/>
+    <circle id="knob" cx="30" cy="28" r="13" fill="#0e0d12" stroke="#93a4c2" stroke-width="2"/>
+    <circle id="knobcore" cx="30" cy="28" r="4" fill="#93a4c2"/>
+  </svg>
+</div>
+<script>
+/* ── THE TOY: the cell. Worley's 1996 basis functions, one lattice, four lives.
+   sites sit one-per-point on a hexagonal lattice (spacing 34px, rows offset
+   s/2, row pitch s·√3/2) with a fixed hash jitter of amplitude 0.36·s.
+   for every pixel we take the two nearest sites under a Minkowski metric
+   d=(|dx|^m+|dy|^m)^(1/m) and build Worley's feature distances:
+     F1 = distance to nearest site        (the cell body)
+     W  = F2 − F1                         (the cell wall; zero on boundaries)
+   the knob walks the same field through four honest regimes:
+     k 0.00→0.20  F1, m: 2→1    pebbles round into diamonds (real metric morph,
+                                 interpolated in log-m across stops {2,1.5,1.25,1})
+     k 0.20→0.40  F1, m: 1→16   diamonds square into tiles (m=16 ≈ L∞)
+     k 0.40→0.82  walls grow: G=(1−t)·R(F1)+t·R(W) at m=16, where R is the
+                                 empirical-CDF rank transform — crossfading two
+                                 uniform fields keeps the 45% cut sweeping at a
+                                 bounded rate (a raw median-scaled blend spiked
+                                 to 3.8% flips per 1/200 step; in rank space the
+                                 worst step is 2.3%)
+     k 0.82→1.00  crystallization: W crossfades from the jittered lattice to
+                                 the bare hex lattice while m:16→2 — craquelure
+                                 anneals into a perfect honeycomb (rail boundary
+                                 moved from 0.90 at certification: the lerp
+                                 poured 3.8%/step in a tenth of the rail; at
+                                 0.82 both segments sit ~2.2–2.3%/step)
+   every state is cut at the exact 45th percentile of its own landscape
+   (02's histogram law): ink pinned at 0.45 while structure reorganizes.
+   segment boundaries are jump-free by construction: a percentile cut of any
+   monotonic transform of a field selects the same pixel set, so rank(F1)
+   meets F1 at k=0.4 and R(W) meets W at k=0.9 without a flicker.
+   calibrations (numpy prototype, 340²): ink = 0.4500 at every k; worst flip
+   2.27% per 1/200 step (at k≈0.66, mid wall-growth); mean 0.65%.
+   deviations: distances pass through a half-pixel power LUT (sub-pixel wall
+   shift, invisible at 1-bit); lattice indices clamp at the canvas edge, so
+   border cells stretch slightly. dead ends: F1-vs-web needed the rank
+   crossfade; an m=16→2 rounding of the web alone (no crystallization) made
+   k=0.9 and k=1.0 twins — the honeycomb is what earns the last segment.
+   the Worley passes run at 340² (the numerical lattice resolution, like
+   S13's 224²) and the fields are bilinearly upsampled to the 680² canvas at
+   load — sub-pixel wall placement, invisible at 1-bit. apply() is a single
+   lerp + histogram pass, instant like 02. ── */
+function hash2(ix,iy,seed){let h=(ix*374761393+iy*668265263+seed*1442695040)|0;h=(h^(h>>>13))|0;h=Math.imul(h,1274126177);h=(h^(h>>>16))>>>0;return h/4294967296;}
+const scene=document.getElementById("scene");
+let S=680;
+scene.width=S;scene.height=S;
+const ctx=scene.getContext("2d");
+const img=ctx.createImageData(S,S);
+const N=S*S;
+/* hex lattice sites + fixed jitter directions */
+const S0=34,HEXY=0.8660254;
+const NC=Math.ceil(S/S0)+1,NR=Math.ceil(S/(S0*HEXY))+1,NS=NC*NR;
+const BX=new Float64Array(NS),BY=new Float64Array(NS),UX=new Float64Array(NS),UY=new Float64Array(NS);
+for(let j=0;j<NR;j++)for(let i=0;i<NC;i++){
+  const s=j*NC+i;
+  BX[s]=(i+0.5+0.5*(j&1))*S0; BY[s]=(j+0.5)*S0*HEXY;
+  UX[s]=hash2(i,j,7)-0.5; UY[s]=hash2(i,j,13)-0.5;
+}
+const AMP=0.36*S0;
+const MSTOPS=[1,1.25,1.5,2,3,5,8,16];       /* metric stops, log-m interpolation */
+const WSTOPS=[2,3,5,8,16];                  /* stops where the wall field lives */
+function powLUT(m){const t=new Float64Array(321);for(let v=0;v<=320;v++)t[v]=Math.pow(v*0.5,m);return t;}
+/* one honest Worley pass at 340² (full-res site coordinates): F1,F2 under metric m, jitter amp.
+   the LUT only RANKS the nine candidates; the two winners' distances are then
+   computed exactly — quantized distances spike the histogram (ties defeat the
+   percentile cut and clot the rank crossfade). */
+const S2=340,N2=S2*S2;
+function worley(m,amp,F1,F2){
+  const lut=powLUT(m),inv=1/m;
+  for(let y=0;y<S2;y++){
+    const py=(y+0.5)*2,yrow=y*S2;
+    let rj=Math.round(py/(S0*HEXY)-0.5);if(rj<0)rj=0;if(rj>=NR)rj=NR-1;
+    const off=0.5*(rj&1);
+    for(let x=0;x<S2;x++){
+      const px=(x+0.5)*2;
+      let ri=Math.round(px/S0-0.5-off);if(ri<0)ri=0;if(ri>=NC)ri=NC-1;
+      let p1=1e18,p2=1e18,s1=0,s2=0;
+      for(let dj=-1;dj<=1;dj++){
+        let jj=rj+dj;if(jj<0)jj=0;if(jj>=NR)jj=NR-1;
+        const row=jj*NC;
+        for(let di=-1;di<=1;di++){
+          let ii=ri+di;if(ii<0)ii=0;if(ii>=NC)ii=NC-1;
+          const s=row+ii;
+          let dx=px-(BX[s]+amp*UX[s]);if(dx<0)dx=-dx;
+          let dy=py-(BY[s]+amp*UY[s]);if(dy<0)dy=-dy;
+          let vx=(dx*2)|0;if(vx>320)vx=320;
+          let vy=(dy*2)|0;if(vy>320)vy=320;
+          const p=lut[vx]+lut[vy];
+          if(p<p1){p2=p1;s2=s1;p1=p;s1=s;}else if(p<p2){p2=p;s2=s;}
+        }
+      }
+      let dx=px-(BX[s1]+amp*UX[s1]);if(dx<0)dx=-dx;
+      let dy=py-(BY[s1]+amp*UY[s1]);if(dy<0)dy=-dy;
+      const i=yrow+x;
+      F1[i]=Math.pow(Math.pow(dx,m)+Math.pow(dy,m),inv);
+      dx=px-(BX[s2]+amp*UX[s2]);if(dx<0)dx=-dx;
+      dy=py-(BY[s2]+amp*UY[s2]);if(dy<0)dy=-dy;
+      F2[i]=Math.pow(Math.pow(dx,m)+Math.pow(dy,m),inv);
+    }
+  }
+}
+/* bilinear upsample 340² -> 680² canvas */
+function upsample(H){
+  const U=new Float32Array(N);
+  for(let y=0;y<S;y++){
+    const gy=(y+0.5)/2-0.5;let y0=Math.floor(gy);const fy=gy-y0;
+    let y1=y0+1;if(y0<0)y0=0;if(y1>=S2)y1=S2-1;if(y0>=S2)y0=S2-1;
+    for(let x=0;x<S;x++){
+      const gx=(x+0.5)/2-0.5;let x0=Math.floor(gx);const fx=gx-x0;
+      let x1=x0+1;if(x0<0)x0=0;if(x1>=S2)x1=S2-1;if(x0>=S2)x0=S2-1;
+      const a=H[y0*S2+x0],b=H[y0*S2+x1],c=H[y1*S2+x0],e=H[y1*S2+x1];
+      U[y*S+x]=(a*(1-fx)+b*fx)*(1-fy)+(c*(1-fx)+e*fx)*fy;
+    }
+  }
+  return U;
+}
+/* precomputed fields (340² compute, stored at canvas resolution).
+   every field is divided by its own median at load: the percentile cut is
+   scale-invariant, but the 512-bin histogram only spans [0,1] — median-one
+   fields keep the threshold inside the bins at every metric stop. */
+const JF1={},JW={},ZW={};
+const tA=new Float32Array(N2),tB=new Float32Array(N2);
+for(const m of MSTOPS){
+  worley(m,AMP,tA,tB);
+  JF1[m]=upsample(tA);
+  if(WSTOPS.indexOf(m)>=0){const w=new Float32Array(N2);for(let i=0;i<N2;i++)w[i]=tB[i]-tA[i];JW[m]=upsample(w);}
+}
+for(const m of WSTOPS){
+  worley(m,0,tA,tB);
+  const w=new Float32Array(N2);for(let i=0;i<N2;i++)w[i]=tB[i]-tA[i];ZW[m]=upsample(w);
+}
+/* histogram helpers: median scale + empirical-CDF rank transform */
+const hbuf=new Uint32Array(4096);
+function medianOf(Fv){
+  hbuf.fill(0);let mx=0;
+  for(let i=0;i<N;i++)if(Fv[i]>mx)mx=Fv[i];
+  const sc=4095/mx;
+  for(let i=0;i<N;i++)hbuf[(Fv[i]*sc)|0]++;
+  let acc=0;for(let q=0;q<4096;q++){acc+=hbuf[q];if(acc>=N*0.5)return (q+0.5)/sc;}
+  return mx;
+}
+function rank01(Fv){
+  hbuf.fill(0);let mx=0;
+  for(let i=0;i<N;i++)if(Fv[i]>mx)mx=Fv[i];
+  const sc=4095/mx;
+  for(let i=0;i<N;i++)hbuf[(Fv[i]*sc)|0]++;
+  const cum=new Float64Array(4096);let a=0;
+  for(let q=0;q<4096;q++){a+=hbuf[q];cum[q]=a/N;}
+  const R=new Float32Array(N);
+  for(let i=0;i<N;i++)R[i]=cum[(Fv[i]*sc)|0];
+  return R;
+}
+function normalize(Fv){const md=medianOf(Fv),c=1/md;for(let i=0;i<N;i++)Fv[i]*=c;}
+for(const m of MSTOPS)normalize(JF1[m]);
+for(const m of WSTOPS){normalize(JW[m]);normalize(ZW[m]);}
+const RA=rank01(JF1[16]),RB=rank01(JW[16]);
+const F=new Float32Array(N);
+const hist=new Uint32Array(513);
+let k=0;
+function mlerp(m0,m1,t){return Math.exp(Math.log(m0)*(1-t)+Math.log(m1)*t);}
+function bracket(stops,m){
+  if(m<=stops[0])return[stops[0],stops[0],0];
+  if(m>=stops[stops.length-1])return[stops[stops.length-1],stops[stops.length-1],0];
+  for(let i=0;i<stops.length-1;i++)
+    if(m>=stops[i]&&m<=stops[i+1])return[stops[i],stops[i+1],(m-stops[i])/(stops[i+1]-stops[i])];
+  return[stops[0],stops[0],0];
+}
+function apply(){
+  if(k<0.20){
+    const m=mlerp(2,1,k/0.20),b=bracket(MSTOPS,m);
+    const A=JF1[b[0]],B=JF1[b[1]],tm=b[2];
+    for(let i=0;i<N;i++)F[i]=A[i]*(1-tm)+B[i]*tm;
+  }else if(k<0.40){
+    const m=mlerp(1,16,(k-0.20)/0.20),b=bracket(MSTOPS,m);
+    const A=JF1[b[0]],B=JF1[b[1]],tm=b[2];
+    for(let i=0;i<N;i++)F[i]=A[i]*(1-tm)+B[i]*tm;
+  }else if(k<0.82){
+    const t=(k-0.40)/0.42;
+    for(let i=0;i<N;i++)F[i]=RA[i]*(1-t)+RB[i]*t;
+  }else{
+    /* rail rebalanced at certification: the crystallization lerp poured
+       3.8% flips per 1/200 step when compressed into k∈[0.90,1.00]. the
+       boundary moved to k=0.82 — walls worst step ~2.2%, crystallization
+       ~2.1%, both with margin inside the 2.5% law. every state is
+       untouched, only its rail address moves. */
+    const t=(k-0.82)/0.18,m=mlerp(16,2,t),b=bracket(WSTOPS,m);
+    const Wa=JW[b[0]],Wb=JW[b[1]],Za=ZW[b[0]],Zb=ZW[b[1]],tm=b[2];
+    for(let i=0;i<N;i++)F[i]=(Wa[i]*(1-tm)+Wb[i]*tm)*(1-t)+(Za[i]*(1-tm)+Zb[i]*tm)*t;
+  }
+  /* pin the quantity: threshold at the exact 45th percentile of the landscape */
+  hist.fill(0);
+  for(let i=0;i<N;i++){let q=(F[i]*512)|0;if(q<0)q=0;if(q>512)q=512;hist[q]++;}
+  const target=N*0.45;let acc=0,thr=0.5;
+  for(let q=0;q<=512;q++){acc+=hist[q];if(acc>=target){thr=(q+0.5)/512;break;}}
+  const d=img.data;
+  for(let i=0;i<N;i++){
+    const on=F[i]<thr;
+    const v=on?0:255,j=i*4;
+    d[j]=v;d[j+1]=v;d[j+2]=v;d[j+3]=255;
+  }
+  ctx.putImageData(img,0,0);
+}
+apply();
+ 
+const rail=document.getElementById("rail");
+const knob=document.getElementById("knob");
+const knobcore=document.getElementById("knobcore");
+let dragging=false;
+function set(clientX){
+  const r=rail.getBoundingClientRect();
+  k=Math.min(1,Math.max(0,(clientX-r.left-r.width*30/420)/(r.width*360/420)));
+  apply();
+  const x=30+360*k;
+  knob.setAttribute("cx",x); knobcore.setAttribute("cx",x);
+}
+function start(e){dragging=true;move(e);}
+function move(e){
+  if(!dragging)return;
+  set(e.touches?e.touches[0].clientX:e.clientX);
+  if(e.cancelable)e.preventDefault();
+}
+rail.addEventListener("mousedown",start);
+rail.addEventListener("touchstart",start,{passive:false});
+window.addEventListener("mousemove",move);
+window.addEventListener("touchmove",move,{passive:false});
+window.addEventListener("mouseup",()=>dragging=false);
+window.addEventListener("touchend",()=>dragging=false);
+document.addEventListener("touchmove",e=>{if(dragging)e.preventDefault();},{passive:false});
+ 
+(function(){
+  const rail=document.getElementById("rail");
+  function n2c(t){const r=rail.getBoundingClientRect();return r.left+r.width*(30+360*Math.min(1,Math.max(0,t)))/420;}
+  window.atom={name:"S20",
+    set:function(t){set(n2c(t));},
+    get:function(){const x=parseFloat(document.getElementById("knob").getAttribute("cx"));return (x-30)/360;}};
+  const q=new URLSearchParams(location.search).get("k");
+  if(q!==null) setTimeout(function(){window.atom.set(parseFloat(q));},80);
+  window.addEventListener("message",function(e){if(e.data&&typeof e.data.atomSet==="number")window.atom.set(e.data.atomSet);});
+  let lx=null;
+  setInterval(function(){
+    const x=parseFloat(document.getElementById("knob").getAttribute("cx"));
+    if(x!==lx){lx=x;try{if(parent!==window)parent.postMessage({atomChange:{name:window.atom.name,k:(x-30)/360}},"*");}catch(err){}}
+  },150);
+})();
+</script>
+</body>
+</html>

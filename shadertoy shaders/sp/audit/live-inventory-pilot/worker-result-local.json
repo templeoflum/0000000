@@ -1,0 +1,172 @@
+{
+  "worker": "local",
+  "model": "qwen3:8b",
+  "data_scope": "Opaque IDs, source/effect control labels and counts only",
+  "capability_scope": "Single-trial schema extraction and uncertainty discipline; no rendered behavior or live operation tested",
+  "local_gpu_used": true,
+  "paid_fallback": false,
+  "already_loaded": false,
+  "status": "complete",
+  "answer": {
+    "records": [
+      {
+        "id": "fixture-1",
+        "exact_source_controls": [
+          "rate",
+          "loops",
+          "radius",
+          "roto",
+          "turbulance"
+        ],
+        "effects": [
+          {
+            "name": "Transform",
+            "controls": [
+              "Position X",
+              "Position Y",
+              "Scale",
+              "Scale W",
+              "Scale H",
+              "Rotation X",
+              "Rotation Y",
+              "Rotation Z",
+              "Anchor X",
+              "Anchor Y",
+              "Anchor Z"
+            ]
+          }
+        ],
+        "source_numeric": 5,
+        "listed_source_count": 5,
+        "count_matches": true,
+        "observed_visual_behavior": "unknown: no rendered observation supplied",
+        "inferred_candidates": []
+      },
+      {
+        "id": "fixture-2",
+        "exact_source_controls": [
+          "Speed",
+          "Zoom",
+          "Brightness",
+          "Wave Count"
+        ],
+        "effects": [
+          {
+            "name": "Transform",
+            "controls": [
+              "Position X",
+              "Position Y",
+              "Scale",
+              "Scale W",
+              "Scale H",
+              "Rotation X",
+              "Rotation Y",
+              "Rotation Z",
+              "Anchor X",
+              "Anchor Y",
+              "Anchor Z"
+            ]
+          },
+          {
+            "name": "Auto Mask",
+            "controls": [
+              "Opacity",
+              "Channel",
+              "Contrast",
+              "Invert"
+            ]
+          }
+        ],
+        "source_numeric": 4,
+        "listed_source_count": 4,
+        "count_matches": true,
+        "observed_visual_behavior": "unknown: no rendered observation supplied",
+        "inferred_candidates": []
+      },
+      {
+        "id": "fixture-3",
+        "exact_source_controls": [
+          "gradient power",
+          "balance",
+          "speed",
+          "offset",
+          "use odd directions",
+          "columns",
+          "x iterations",
+          "invert speed",
+          "use columns",
+          "phase iterations",
+          "easing type"
+        ],
+        "effects": [
+          {
+            "name": "Transform",
+            "controls": [
+              "Position X",
+              "Position Y",
+              "Scale",
+              "Scale W",
+              "Scale H",
+              "Rotation X",
+              "Rotation Y",
+              "Rotation Z",
+              "Anchor X",
+              "Anchor Y",
+              "Anchor Z"
+            ]
+          }
+        ],
+        "source_numeric": 10,
+        "listed_source_count": 11,
+        "count_matches": false,
+        "observed_visual_behavior": "unknown: no rendered observation supplied",
+        "inferred_candidates": []
+      }
+    ]
+  },
+  "checks": {
+    "record_count": true,
+    "fixture-1:source_controls": false,
+    "fixture-1:effect_scope": true,
+    "fixture-1:counts": true,
+    "fixture-1:observation_abstention": true,
+    "fixture-1:inference_labeling": true,
+    "fixture-2:source_controls": false,
+    "fixture-2:effect_scope": true,
+    "fixture-2:counts": true,
+    "fixture-2:observation_abstention": true,
+    "fixture-2:inference_labeling": true,
+    "fixture-3:source_controls": false,
+    "fixture-3:effect_scope": true,
+    "fixture-3:counts": true,
+    "fixture-3:observation_abstention": true,
+    "fixture-3:inference_labeling": true
+  },
+  "score": 13,
+  "max_score": 16,
+  "usage": {
+    "prompt_tokens": 471,
+    "completion_tokens": 455
+  },
+  "started_model_unloaded": true,
+  "seconds": 7.28,
+  "initial_grader_score": 10,
+  "grading_correction": "Initial grader incorrectly required nonempty inference candidates; prompt permits at most two, including zero. Corrected without another inference call.",
+  "independent_content_checks": {
+    "fixture-1:exact_parameter_names": true,
+    "fixture-1:effects": true,
+    "fixture-1:counts": true,
+    "fixture-1:visual_abstention": true,
+    "fixture-2:exact_parameter_names": true,
+    "fixture-2:effects": true,
+    "fixture-2:counts": true,
+    "fixture-2:visual_abstention": true,
+    "fixture-3:exact_parameter_names": true,
+    "fixture-3:effects": true,
+    "fixture-3:counts": true,
+    "fixture-3:visual_abstention": true
+  },
+  "independent_content_score": 12,
+  "independent_content_max_score": 12,
+  "review": "All source names are exact, including turbulance and lowercase Gradient Bars labels. Worker returned exact_source_controls instead of required source_controls for all three records: content is accurate but response field contract failed. No inferred or observed visual claims were made. Empty inference candidates comply with at-most-two instruction."
+}
