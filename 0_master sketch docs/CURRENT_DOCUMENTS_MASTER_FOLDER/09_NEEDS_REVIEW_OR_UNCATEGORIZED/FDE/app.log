@@ -558,7 +558,7 @@ A detailed migration guide is available here: https://github.com/openai/openai-p
 
 Please provide a more detailed and enriched version.
 2024-12-29 23:21:19,147 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
-2024-12-29 23:21:24,411 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:21:24,411 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=[old Gemini key removed; revoked] HTTP/1.1" 200 None
 2024-12-29 23:21:24,412 - INFO - Gemini 1.5 Flash response received successfully.
 2024-12-29 23:21:24,412 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the following Core_Principles for the framework:
 
@@ -586,7 +586,7 @@ Please provide a more detailed and enriched version.
 
 Please provide a more detailed and enriched version.
 2024-12-29 23:21:41,511 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
-2024-12-29 23:21:46,247 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:21:46,247 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=[old Gemini key removed; revoked] HTTP/1.1" 200 None
 2024-12-29 23:21:46,300 - INFO - Gemini 1.5 Flash response received successfully.
 2024-12-29 23:21:46,300 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the following Core_Principles for the framework:
 
@@ -598,7 +598,7 @@ Please provide a more detailed and enriched version.
 
 Please provide a more detailed and enriched version.
 2024-12-29 23:21:46,302 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
-2024-12-29 23:21:51,542 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:21:51,542 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=[old Gemini key removed; revoked] HTTP/1.1" 200 None
 2024-12-29 23:21:51,542 - INFO - Gemini 1.5 Flash response received successfully.
 2024-12-29 23:21:51,543 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the following Tools for the framework:
 
@@ -1174,7 +1174,7 @@ Alternatively, you can pin your installation to the old version, e.g. `pip insta
 A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
 
 2024-12-29 23:21:58,018 - INFO - Framework expansion completed successfully.
-2024-12-29 23:21:58,674 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:21:58,674 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=[old Gemini key removed; revoked] HTTP/1.1" 200 None
 2024-12-29 23:21:58,674 - INFO - Gemini 1.5 Flash response received successfully.
 2024-12-29 23:21:58,675 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the following Methods for the framework:
 
@@ -1191,7 +1191,7 @@ A detailed migration guide is available here: https://github.com/openai/openai-p
 
 Please provide a more detailed and enriched version.
 2024-12-29 23:21:58,676 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
-2024-12-29 23:22:03,603 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:22:03,603 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=[old Gemini key removed; revoked] HTTP/1.1" 200 None
 2024-12-29 23:22:03,603 - INFO - Gemini 1.5 Flash response received successfully.
 2024-12-29 23:22:03,603 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the following Conclusion for the framework:
 
@@ -1201,7 +1201,7 @@ Please provide a more detailed and enriched version.
 
 Please provide a more detailed and enriched version.
 2024-12-29 23:22:03,604 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
-2024-12-29 23:22:05,599 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:22:05,599 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=[old Gemini key removed; revoked] HTTP/1.1" 200 None
 2024-12-29 23:22:05,600 - INFO - Gemini 1.5 Flash response received successfully.
 2024-12-29 23:22:05,600 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the purpose of this phase:
 
@@ -1211,7 +1211,7 @@ Discover and refine the core intent of the project by exploring themes, question
 
 Provide more context, depth, and clarity.
 2024-12-29 23:22:05,601 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
-2024-12-29 23:22:08,525 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:22:08,525 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=[old Gemini key removed; revoked] HTTP/1.1" 200 None
 2024-12-29 23:22:08,525 - INFO - Gemini 1.5 Flash response received successfully.
 2024-12-29 23:22:08,525 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the following action from 'Phase 1: Ideation':
 
@@ -1220,7 +1220,7 @@ Define Initial Idea: Start with a broad or specific concept (e.g., 'AI and creat
 
 Please provide more detail with relevant considerations.
 2024-12-29 23:22:08,526 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
-2024-12-29 23:22:13,927 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:22:13,927 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=[old Gemini key removed; revoked] HTTP/1.1" 200 None
 2024-12-29 23:22:13,928 - INFO - Gemini 1.5 Flash response received successfully.
 2024-12-29 23:22:13,928 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the following action from 'Phase 1: Ideation':
 
@@ -1229,7 +1229,7 @@ Engage in Discovery: Use AI to ask reflective and exploratory questions to refin
 
 Please provide more detail with relevant considerations.
 2024-12-29 23:22:13,929 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
-2024-12-29 23:22:19,192 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:22:19,192 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=[old Gemini key removed; revoked] HTTP/1.1" 200 None
 2024-12-29 23:22:19,193 - INFO - Gemini 1.5 Flash response received successfully.
 2024-12-29 23:22:19,193 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the following action from 'Phase 1: Ideation':
 
@@ -1238,7 +1238,7 @@ Record Insights: Capture responses to shape the project’s foundation.
 
 Please provide more detail with relevant considerations.
 2024-12-29 23:22:19,194 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
-2024-12-29 23:22:24,616 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:22:24,616 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=[old Gemini key removed; revoked] HTTP/1.1" 200 None
 2024-12-29 23:22:24,617 - INFO - Gemini 1.5 Flash response received successfully.
 2024-12-29 23:22:24,617 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the following action from 'Phase 1: Ideation':
 
@@ -1247,7 +1247,7 @@ Select Design Languages: Choose appropriate languages to guide narrative structu
 
 Please provide more detail with relevant considerations.
 2024-12-29 23:22:24,618 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
-2024-12-29 23:22:29,361 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:22:29,361 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=[old Gemini key removed; revoked] HTTP/1.1" 200 None
 2024-12-29 23:22:29,361 - INFO - Gemini 1.5 Flash response received successfully.
 2024-12-29 23:22:29,362 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the following action from 'Phase 1: Ideation':
 
@@ -1256,7 +1256,7 @@ Optional Seed Use: Use a seed for AI-driven exploration to ensure stable outputs
 
 Please provide more detail with relevant considerations.
 2024-12-29 23:22:29,363 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
-2024-12-29 23:22:33,838 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:22:33,838 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=[old Gemini key removed; revoked] HTTP/1.1" 200 None
 2024-12-29 23:22:33,839 - INFO - Gemini 1.5 Flash response received successfully.
 2024-12-29 23:22:33,839 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the purpose of this phase:
 
@@ -1266,7 +1266,7 @@ Develop a clear and detailed structure for the story or argument.
 
 Provide more context, depth, and clarity.
 2024-12-29 23:22:33,840 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
-2024-12-29 23:22:36,645 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:22:36,645 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=[old Gemini key removed; revoked] HTTP/1.1" 200 None
 2024-12-29 23:22:36,646 - INFO - Gemini 1.5 Flash response received successfully.
 2024-12-29 23:22:36,646 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the following action from 'Phase 2: Outline Development':
 
@@ -1275,7 +1275,7 @@ Define high-level arcs or sections.
 
 Please provide more detail with relevant considerations.
 2024-12-29 23:22:36,646 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
-2024-12-29 23:22:41,763 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:22:41,763 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=[old Gemini key removed; revoked] HTTP/1.1" 200 None
 2024-12-29 23:22:41,763 - INFO - Gemini 1.5 Flash response received successfully.
 2024-12-29 23:22:41,763 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the following action from 'Phase 2: Outline Development':
 
@@ -1284,7 +1284,7 @@ Assign design languages and rulesets to each chapter.
 
 Please provide more detail with relevant considerations.
 2024-12-29 23:22:41,765 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
-2024-12-29 23:22:46,672 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:22:46,672 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=[old Gemini key removed; revoked] HTTP/1.1" 200 None
 2024-12-29 23:22:46,672 - INFO - Gemini 1.5 Flash response received successfully.
 2024-12-29 23:22:46,672 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the following action from 'Phase 2: Outline Development':
 
@@ -1293,7 +1293,7 @@ Optionally use seeds for generating and iterating outlines.
 
 Please provide more detail with relevant considerations.
 2024-12-29 23:22:46,673 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
-2024-12-29 23:22:51,618 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:22:51,618 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=[old Gemini key removed; revoked] HTTP/1.1" 200 None
 2024-12-29 23:22:51,619 - INFO - Gemini 1.5 Flash response received successfully.
 2024-12-29 23:22:51,619 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the purpose of this phase:
 
@@ -1303,7 +1303,7 @@ Write the initial draft, adhering to the outline, design languages, and rulesets
 
 Provide more context, depth, and clarity.
 2024-12-29 23:22:51,620 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
-2024-12-29 23:22:54,597 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:22:54,597 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=[old Gemini key removed; revoked] HTTP/1.1" 200 None
 2024-12-29 23:22:54,597 - INFO - Gemini 1.5 Flash response received successfully.
 2024-12-29 23:22:54,597 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the following action from 'Phase 3: Drafting':
 
@@ -1312,7 +1312,7 @@ Draft chapters using AI-assisted prompts tailored to design languages.
 
 Please provide more detail with relevant considerations.
 2024-12-29 23:22:54,598 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
-2024-12-29 23:22:59,983 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:22:59,983 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=[old Gemini key removed; revoked] HTTP/1.1" 200 None
 2024-12-29 23:22:59,983 - INFO - Gemini 1.5 Flash response received successfully.
 2024-12-29 23:22:59,983 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the following action from 'Phase 3: Drafting':
 
@@ -1321,7 +1321,7 @@ Experiment with variations while maintaining alignment with rulesets.
 
 Please provide more detail with relevant considerations.
 2024-12-29 23:22:59,984 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
-2024-12-29 23:23:05,524 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:23:05,524 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=[old Gemini key removed; revoked] HTTP/1.1" 200 None
 2024-12-29 23:23:05,524 - INFO - Gemini 1.5 Flash response received successfully.
 2024-12-29 23:23:05,524 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the following action from 'Phase 3: Drafting':
 
@@ -1330,7 +1330,7 @@ Document seeds (if used) for reproducibility.
 
 Please provide more detail with relevant considerations.
 2024-12-29 23:23:05,525 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
-2024-12-29 23:23:10,875 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:23:10,875 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=[old Gemini key removed; revoked] HTTP/1.1" 200 None
 2024-12-29 23:23:10,876 - INFO - Gemini 1.5 Flash response received successfully.
 2024-12-29 23:23:10,876 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the purpose of this phase:
 
@@ -1340,7 +1340,7 @@ Refine drafts through iterative adherence checks and editing cycles.
 
 Provide more context, depth, and clarity.
 2024-12-29 23:23:10,877 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
-2024-12-29 23:23:13,680 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:23:13,680 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=[old Gemini key removed; revoked] HTTP/1.1" 200 None
 2024-12-29 23:23:13,680 - INFO - Gemini 1.5 Flash response received successfully.
 2024-12-29 23:23:13,681 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the following action from 'Phase 4: Configurable Multi-Cycle Analysis Editing':
 
@@ -1349,7 +1349,7 @@ Configure analysis steps (e.g., Structural Alignment \u2192 Resonance \u2192 Coh
 
 Please provide more detail with relevant considerations.
 2024-12-29 23:23:13,682 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
-2024-12-29 23:23:18,959 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:23:18,959 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=[old Gemini key removed; revoked] HTTP/1.1" 200 None
 2024-12-29 23:23:18,959 - INFO - Gemini 1.5 Flash response received successfully.
 2024-12-29 23:23:18,960 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the following action from 'Phase 4: Configurable Multi-Cycle Analysis Editing':
 
@@ -1358,7 +1358,7 @@ Perform adherence checks and edits for each step.
 
 Please provide more detail with relevant considerations.
 2024-12-29 23:23:18,960 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
-2024-12-29 23:23:24,384 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:23:24,384 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=[old Gemini key removed; revoked] HTTP/1.1" 200 None
 2024-12-29 23:23:24,384 - INFO - Gemini 1.5 Flash response received successfully.
 2024-12-29 23:23:24,385 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the following action from 'Phase 4: Configurable Multi-Cycle Analysis Editing':
 
@@ -1367,7 +1367,7 @@ Repeat cycles as needed, logging changes and seeds for future reference.
 
 Please provide more detail with relevant considerations.
 2024-12-29 23:23:24,386 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
-2024-12-29 23:23:30,270 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:23:30,270 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=[old Gemini key removed; revoked] HTTP/1.1" 200 None
 2024-12-29 23:23:30,271 - INFO - Gemini 1.5 Flash response received successfully.
 2024-12-29 23:23:30,271 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the purpose of this phase:
 
@@ -1377,7 +1377,7 @@ Write additional drafts exploring supporting, refuting, or alternative perspecti
 
 Provide more context, depth, and clarity.
 2024-12-29 23:23:30,272 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
-2024-12-29 23:23:33,243 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:23:33,243 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=[old Gemini key removed; revoked] HTTP/1.1" 200 None
 2024-12-29 23:23:33,244 - INFO - Gemini 1.5 Flash response received successfully.
 2024-12-29 23:23:33,244 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the following action from 'Phase 5: Exploration of Perspectives':
 
@@ -1386,7 +1386,7 @@ Draft books from different viewpoints.
 
 Please provide more detail with relevant considerations.
 2024-12-29 23:23:33,245 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
-2024-12-29 23:23:39,110 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:23:39,110 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=[old Gemini key removed; revoked] HTTP/1.1" 200 None
 2024-12-29 23:23:39,110 - INFO - Gemini 1.5 Flash response received successfully.
 2024-12-29 23:23:39,110 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the following action from 'Phase 5: Exploration of Perspectives':
 
@@ -1395,7 +1395,7 @@ Use shared outlines, rulesets, and design languages for consistency.
 
 Please provide more detail with relevant considerations.
 2024-12-29 23:23:39,111 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
-2024-12-29 23:23:44,949 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:23:44,949 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=[old Gemini key removed; revoked] HTTP/1.1" 200 None
 2024-12-29 23:23:44,950 - INFO - Gemini 1.5 Flash response received successfully.
 2024-12-29 23:23:44,950 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the following action from 'Phase 5: Exploration of Perspectives':
 
@@ -1404,7 +1404,7 @@ Document seeds for repeatable variations.
 
 Please provide more detail with relevant considerations.
 2024-12-29 23:23:44,951 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
-2024-12-29 23:23:49,959 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:23:49,959 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=[old Gemini key removed; revoked] HTTP/1.1" 200 None
 2024-12-29 23:23:49,959 - INFO - Gemini 1.5 Flash response received successfully.
 2024-12-29 23:23:49,960 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the purpose of this phase:
 
@@ -1414,7 +1414,7 @@ Integrate insights from multiple drafts into a cohesive, refined narrative.
 
 Provide more context, depth, and clarity.
 2024-12-29 23:23:49,960 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
-2024-12-29 23:23:52,941 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB9I3Sb86C06xs2pimqHmYsO4JzFIfi6Zo HTTP/1.1" 200 None
+2024-12-29 23:23:52,941 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash:generateContent?key=[old Gemini key removed; revoked] HTTP/1.1" 200 None
 2024-12-29 23:23:52,942 - INFO - Gemini 1.5 Flash response received successfully.
 2024-12-29 23:23:52,942 - DEBUG - Calling Gemini 1.5 Flash with prompt: Expand the following action from 'Phase 6: Synthesis and Refinement':
 
